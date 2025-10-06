@@ -5,7 +5,7 @@ from pathlib import Path
 
 from src.configs import collection_config as cfg
 from termcolor import cprint
-from src.utils.file_utils import save_table, save_metadata, get_table_hash
+from src.utils.file_utils import save_table_json, save_metadata, get_table_hash, df_to_structured_json
 
 class BaseCollector(ABC):
     
@@ -22,6 +22,7 @@ class BaseCollector(ABC):
         raise NotImplementedError("Subclasses must implement the collect method.")
 
     def _apply_quality_filters(self, df: pd.DataFrame) -> bool:
+
         if df.shape[0] < cfg.MIN_ROWS or df.shape[1] < cfg.MIN_COLS:
             return False
         
@@ -36,7 +37,7 @@ class BaseCollector(ABC):
             return
 
         table_hash = get_table_hash(df)
-        table_filename = f"{self.source_name}_{table_hash[:10]}.csv"
+        table_filename = f"{self.source_name}_{table_hash[:10]}.json" 
         meta_filename = f"{self.source_name}_{table_hash[:10]}.json"
         
         table_path = self.save_table_dir / table_filename
@@ -44,6 +45,10 @@ class BaseCollector(ABC):
 
         if table_path.exists():
             return
+            
+       
+        table_data_json = df_to_structured_json(df)
+       
 
         metadata = {
             "table_id": f"{self.source_name}_{table_hash[:10]}",
@@ -59,7 +64,7 @@ class BaseCollector(ABC):
             }
         }
 
-        save_table(df, table_path)
+        save_table_json(table_data_json, table_path) 
         save_metadata(metadata, meta_path)
         
         self.collected_count += 1

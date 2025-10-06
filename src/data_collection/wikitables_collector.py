@@ -39,4 +39,3 @@ if __name__ == '__main__':
     target = cfg.COLLECTION_TARGETS.get("wikisql", 100) 
     collector = WikiTableCollector(target_count=target)
     collector.run()
-    print("Standalone run finished.")
