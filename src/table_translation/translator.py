@@ -21,12 +21,12 @@ class TableTranslator:
         checkpoint_dir.mkdir(exist_ok=True)
         path = checkpoint_dir / f"{step_name}_{lang_code}.json"
         with open(path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2)
+            json.dump(data, f, indent=2, ensure_ascii=False)
 
     def run_for_language(self, lang_code: str, lang_name: str):
         cprint(f"  Translating to {lang_name} ({lang_code})...", "cyan")
-
-
+        
+        self._save_checkpoint("original","en",  self.original_table_data )
 
         prompt1 = INITIAL_TRANSLATION_PROMPT.format(
             source_language=cfg.SOURCE_LANG_NAME,
@@ -35,6 +35,7 @@ class TableTranslator:
         )
         
         initial_translated = self.vllm_client.generate_structured_json(prompt1)
+        print(initial_translated)
         
         if not initial_translated:
             cprint(f"    [FAIL] Step 1: Initial translation failed for {lang_name}.", "red")
@@ -84,13 +85,13 @@ class TableTranslator:
         meta_dir = cfg.TRANSLATION_METADATA_DIR / self.table_id
         meta_dir.mkdir(exist_ok=True)
         with open(meta_dir / f"{lang_code}.json", 'w') as f:
-            json.dump(metadata, f, indent=4)
+            json.dump(metadata, f, indent=4, ensure_ascii=False)
 
         if decision == "KEEP":
             final_dir = cfg.TRANSLATED_TABLES_DIR / self.table_id
             final_dir.mkdir(exist_ok=True)
             with open(final_dir / f"{lang_code}.json", 'w') as f:
-                json.dump(refined_translated.model_dump(), f, indent=2)
+                json.dump(refined_translated.model_dump(), f, indent=2, ensure_ascii=False)
             cprint(f"    [OK] Step 4: BLEU score is {bleu_score:.4f} (>= {cfg.BLEU_THRESHOLD}). Table kept.", "green")
         else:
             cprint(f"    [DROP] Step 4: BLEU score is {bleu_score:.4f} (< {cfg.BLEU_THRESHOLD}). Table dropped.", "yellow")
