@@ -11,12 +11,12 @@ def apply_noise(image: np.ndarray) -> Tuple[np.ndarray, Dict]:
         "rotation": random.uniform(-1.5, 1.5), 
         "skew": random.uniform(-2, 2), 
         "perspective_scale": random.uniform(0.005, 0.02), 
-        "blur_sigma": random.uniform(0.1, 0.6),  
+        "blur_sigma": random.uniform(0.1, 0.4),  
         "jpeg_quality": random.randint(80, 98),  
         "downscale_factor": random.uniform(0.85, 1.0),  
         "salt_pepper_p": random.uniform(0.0001, 0.001),  
         "shadow_alpha": random.uniform(0.1, 0.25),  
-        "shadow_sigma": random.uniform(0.3, 0.6),  
+        "shadow_sigma": random.uniform(0.3, 0.5),  
         "multiply_factor": random.choice([0.7, 0.85])  
     }
 

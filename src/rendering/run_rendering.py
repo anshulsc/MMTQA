@@ -41,9 +41,14 @@ def main():
         try:
             table_data = json.loads(table_path.read_text(encoding='utf-8'))
             
+            # First, create one clean version
+            renderer = TableRenderer(source_table_id, lang_code, table_data)
+            renderer.render_and_save(is_clean=True)
+            
+            # Then create noisy versions
             for i in range(cfg.NUM_VERSIONS_PER_TABLE):
                 renderer = TableRenderer(source_table_id, lang_code, table_data)
-                renderer.render_and_save()
+                renderer.render_and_save(is_clean=False)
 
         except json.JSONDecodeError:
             print(f"  [WARN] Skipping malformed JSON file: {table_path}")
