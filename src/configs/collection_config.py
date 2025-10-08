@@ -16,8 +16,8 @@ METADATA_DIR.mkdir(parents=True, exist_ok=True)
 
 
 COLLECTION_TARGETS = {
-    "wikisql": 5000,
-    "finqa": 3000,
+    "wikisql": 1000,
+    "finqa": 1000,
     "arxiv": 2000,
 }
 

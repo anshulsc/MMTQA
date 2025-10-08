@@ -145,7 +145,7 @@ class ArxivTableCollector(BaseCollector):
         query_methods = 'abs:("experimental results" OR "dataset analysis")'
         combined_themes = f"({query_surveys}) OR ({query_finance}) OR ({query_methods})"
         categories = "(cat:cs.CL OR cat:cs.AI OR cat:cs.LG OR cat:q-fin.* OR cat:econ.EM)"
-        date_range = "submittedDate:[20230101 TO 20250531]"
+        date_range = "submittedDate:[20210101 TO 20250930]"
 
         # Final Query
         final_query = f"({combined_themes}) AND ({categories}) AND ({date_range})"
@@ -156,57 +156,63 @@ class ArxivTableCollector(BaseCollector):
             sort_by=arxiv.SortCriterion.Relevance
         )
 
-        for result in search.results():
-            if self.collected_count >= self.target_count:
-                break
+        try:
+            for result in search.results():
+                if self.collected_count >= self.target_count:
+                    break
 
-            html_url = result.entry_id.replace("/abs/", "/html/")
-            
-            try:
-                # --- HTML First Approach ---
-                response = requests.get(html_url, headers=self.headers, timeout=10)
-                response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
-
-                tables_with_captions = self._parse_html_tables(response.content)
-                parse_method = "html"
-
-                if not tables_with_captions:
-                    logging.info(f"No tables found in HTML for {result.entry_id}. Falling back to PDF.")
-                    pdf_path = result.download_pdf(dirpath=str(cfg.RAW_DATA_DIR))
-                    tables_with_captions = self._parse_pdf_tables(pdf_path)
-                    parse_method = "pdf"
-
-                if not tables_with_captions:
-                    logging.info(f"No tables found for {result.entry_id} in either HTML or PDF.")
-                    continue
-
-                for df, caption in tables_with_captions:
-                    if self.collected_count >= self.target_count:
-                        break
-                    
-                    extra_meta = {
-                        "source_dataset": "arxiv",
-                        "arxiv_id": result.entry_id,
-                        "paper_title": result.title,
-                        "parse_method": parse_method,
-                        "table_caption": caption if caption else None
-                    }
-                    self._process_and_save(df, extra_meta)
+                html_url = result.entry_id.replace("/abs/", "/html/")
                 
-                time.sleep(1) 
+                try:
+                    # --- HTML First Approach ---
+                    response = requests.get(html_url, headers=self.headers, timeout=10)
+                    response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
 
-            except requests.exceptions.HTTPError as e:
-                logging.warning(f"HTML version not found for {result.entry_id} (Status {e.response.status_code}). Skipping paper.")
-                continue
-            except Exception as e:
-                logging.error(f"An unexpected error occurred for paper {result.entry_id}: {e}")
-                continue
+                    tables_with_captions = self._parse_html_tables(response.content)
+                    parse_method = "html"
 
+                    if not tables_with_captions:
+                        logging.info(f"No tables found in HTML for {result.entry_id}. Falling back to PDF.")
+                        pdf_path = result.download_pdf(dirpath=str(cfg.RAW_DATA_DIR))
+                        tables_with_captions = self._parse_pdf_tables(pdf_path)
+                        parse_method = "pdf"
+
+                    if not tables_with_captions:
+                        logging.info(f"No tables found for {result.entry_id} in either HTML or PDF.")
+                        continue
+
+                    for df, caption in tables_with_captions:
+                        if self.collected_count >= self.target_count:
+                            break
+                        
+                        extra_meta = {
+                            "source_dataset": "arxiv",
+                            "arxiv_id": result.entry_id,
+                            "paper_title": result.title,
+                            "parse_method": parse_method,
+                            "table_caption": caption if caption else None
+                        }
+                        self._process_and_save(df, extra_meta)
+                    
+                    time.sleep(1) 
+
+                except requests.exceptions.HTTPError as e:
+                    logging.warning(f"HTML version not found for {result.entry_id} (Status {e.response.status_code}). Skipping paper.")
+                    continue
+                except Exception as e:
+                    logging.error(f"An unexpected error occurred for paper {result.entry_id}: {e}")
+                    continue
+        except arxiv.UnexpectedEmptyPageError as e:
+            logging.warning(f"ArXiv API returned empty page. Moving to next query variation.")
+            pass
+        except Exception as e:
+            logging.error(f"Unexpected error. Stopping collection: {e}")
+            pass
 
 if __name__ == '__main__':
     print("Running ArxivTableCollector as a standalone script (HTML first)...")
    
-    target = 20
+    target = cfg.COLLECTION_TARGETS.get("arxiv", 100) 
     collector = ArxivTableCollector(target_count=target)
     collector.run()
     print("Standalone run finished.")
