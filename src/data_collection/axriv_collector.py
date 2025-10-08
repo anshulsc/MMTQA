@@ -145,7 +145,7 @@ class ArxivTableCollector(BaseCollector):
         query_methods = 'abs:("experimental results" OR "dataset analysis")'
         combined_themes = f"({query_surveys}) OR ({query_finance}) OR ({query_methods})"
         categories = "(cat:cs.CL OR cat:cs.AI OR cat:cs.LG OR cat:q-fin.* OR cat:econ.EM)"
-        date_range = "submittedDate:[20230101 TO 20250531]"
+        date_range = "submittedDate:[20210101 TO 20250930]"
 
         # Final Query
         final_query = f"({combined_themes}) AND ({categories}) AND ({date_range})"
