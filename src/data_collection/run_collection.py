@@ -16,8 +16,7 @@ def main():
         WikiTableCollector(target_count=cfg.COLLECTION_TARGETS["wikisql"]),
         ArxivTableCollector(target_count=cfg.COLLECTION_TARGETS["arxiv"]),
         FinqaCollector(target_count=cfg.COLLECTION_TARGETS["finqa"]),
-        GithubCsvCollector
-       
+        GithubCsvCollector(target_count=cfg.COLLECTION_TARGETS["github"])
     ]
 
     for collector in collectors:
