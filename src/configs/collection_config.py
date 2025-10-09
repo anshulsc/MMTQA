@@ -19,6 +19,7 @@ COLLECTION_TARGETS = {
     "wikisql": 1000,
     "finqa": 1000,
     "arxiv": 2000,
+    "github": 1000,
 }
 
 
