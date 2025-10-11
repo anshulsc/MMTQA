@@ -20,7 +20,8 @@ class VLLMOfflineClient(BaseModelClient):
             model=model_name,
             tensor_parallel_size=tensor_parallel_size,
             gpu_memory_utilization=gpu_memory_utilization,
-            trust_remote_code=True
+            trust_remote_code=True,
+            max_model_len=8192, 
         )
         self.model_name = model_name
         
@@ -77,7 +78,6 @@ class VLLMOfflineClient(BaseModelClient):
                 for i, output in enumerate(outputs):
                     prompt_id = prompt_ids[i]
                     generated_text = output.outputs[0].text
-                    print(generated_text)
                     
                     try:
                         table_json = TableJSON.model_validate_json(generated_text)
@@ -85,6 +85,7 @@ class VLLMOfflineClient(BaseModelClient):
                         cprint(f"  ✓ {prompt_id}: Success", "green")
                     except Exception as e:
                         cprint(f"  ✗ {prompt_id}: Parse failed - {str(e)[:100]}", "yellow")
+                        cprint(generated_text,"red")
                         results[prompt_id] = generated_text
                         
             except Exception as e:

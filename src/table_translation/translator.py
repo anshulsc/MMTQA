@@ -25,14 +25,18 @@ class TableTranslator:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
     def run_batch_translation(self, languages: Dict[str, str]):
+        """
+        Run translation for all languages in batch mode.
         
+        Args:
+            languages: Dict mapping lang_code to lang_name (e.g., {"hi": "Hindi", "es": "Spanish"})
+        """
         cprint(f"\n{'='*60}", "cyan")
         cprint(f"Processing table: {self.table_id} ({len(languages)} languages)", "cyan")
         cprint(f"{'='*60}", "cyan")
         
-
+        # Save original
         self._save_checkpoint("original", "en", self.original_table_data)
-        
         cprint("\n[STEP 1] Batch Initial Translation...", "blue", attrs=["bold"])
         
         initial_prompts = []
@@ -46,23 +50,24 @@ class TableTranslator:
         
         initial_results = self.vllm_client.generate_structured_json_batch(initial_prompts)
         
+        # Save step 1 checkpoints
         for lang_code, result in initial_results.items():
             if result:
+                
                 self._save_checkpoint("step1_initial_translation", lang_code, result.model_dump())
         
         successful_langs = {lc: ln for lc, ln in languages.items() if initial_results.get(lc)}
         failed_langs = {lc: ln for lc, ln in languages.items() if not initial_results.get(lc)}
         
-        cprint(f" Step 1 complete: {len(successful_langs)}/{len(languages)} successful", "green")
+        cprint(f"✓ Step 1 complete: {len(successful_langs)}/{len(languages)} successful", "green")
         if failed_langs:
             cprint(f"✗ Failed languages: {', '.join(failed_langs.keys())}", "red")
-
+        
         cprint("\n[STEP 2] Sequential Refinement (Gemini)...", "blue", attrs=["bold"])
         
         refined_results = {}
         
-
-        import time
+        import time 
         gemini_call_count = 0
         last_rate_limit_reset_time = time.time()
         RATE_LIMIT_PER_MINUTE = 10
@@ -75,19 +80,19 @@ class TableTranslator:
 
             current_time = time.time()
             
-    
             if current_time - last_rate_limit_reset_time >= RATE_LIMIT_PERIOD_SECONDS:
                 gemini_call_count = 0
                 last_rate_limit_reset_time = current_time
             
+            # If the call limit for the current minute has been reached, wait
             if gemini_call_count >= RATE_LIMIT_PER_MINUTE:
                 time_to_wait = RATE_LIMIT_PERIOD_SECONDS - (current_time - last_rate_limit_reset_time)
                 if time_to_wait > 0:
                     cprint(f"    Gemini rate limit ({RATE_LIMIT_PER_MINUTE} calls/{RATE_LIMIT_PERIOD_SECONDS}s) hit. Waiting for {time_to_wait:.2f}s...", "yellow")
                     time.sleep(time_to_wait)
-
+                    
                     gemini_call_count = 0
-                    last_rate_limit_reset_time = time.time()
+                    last_rate_limit_reset_time = time.time() 
             
             prompt = REFINEMENT_PROMPT.format(
                 original_table_json=json.dumps(self.original_table_data, indent=2),
@@ -101,13 +106,15 @@ class TableTranslator:
             if refined:
                 refined_results[lang_code] = refined
                 self._save_checkpoint("step2_refined_translation", lang_code, refined.model_dump())
-                cprint(f" {lang_code} refined", "green")
+                cprint(f"    ✓ {lang_code} refined", "green")
             else:
-                cprint(f"  {lang_code} refinement failed", "red")
+                cprint(f"    ✗ {lang_code} refinement failed", "red")
         
         cprint(f"✓ Step 2 complete: {len(refined_results)}/{len(successful_langs)} refined", "green")
         
-
+        # ========================================
+        # STEP 3: BATCH BACK-TRANSLATION
+        # ========================================
         cprint("\n[STEP 3] Batch Back-Translation...", "blue", attrs=["bold"])
         
         back_prompts = []
@@ -122,12 +129,12 @@ class TableTranslator:
         
         back_results = self.vllm_client.generate_structured_json_batch(back_prompts)
         
-
+        # Save step 3 checkpoints
         for lang_code, result in back_results.items():
             if result:
                 self._save_checkpoint("step3_back_translation", lang_code, result.model_dump())
         
-        cprint(f"Step 3 complete: {len([r for r in back_results.values() if r])}/{len(refined_results)} back-translated", "green")
+        cprint(f"✓ Step 3 complete: {len([r for r in back_results.values() if r])}/{len(refined_results)} back-translated", "green")
         
         # ========================================
         # STEP 4: BLEU EVALUATION & SAVE
