@@ -22,27 +22,27 @@ SOURCE_LANG_NAME = "English"
 
 LANGUAGES = {
     # Afro-Asiatic
-    # "ar": "Arabic (MSA)",
+    "ar": "Arabic (MSA)",
 
     # Austronesian
-    # "id_casual": "Indonesian (Casual)",
-    # "id_formal": "Indonesian (Formal)",
-    # "jv_krama": "Javanese (Krama - Polite)",
-    # "jv_ngoko": "Javanese (Ngoko - Casual)",
-    # "su_loma": "Sundanese",
-    # "tl": "Tagalog",
+    "id_casual": "Indonesian (Casual)",
+    "id_formal": "Indonesian (Formal)",
+    "jv_krama": "Javanese (Krama - Polite)",
+    "jv_ngoko": "Javanese (Ngoko - Casual)",
+    "su_loma": "Sundanese",
+    "tl": "Tagalog",
 
     # Indo-European
-    # "bn": "Bengali",
-    # "cs": "Czech",
-    # "en": "English",
-    # "es": "Spanish",
-    # "fr": "French",
-    # "hi": "Hindi",
-    # "it": "Italian",
-    # "mr": "Marathi",
-    # "ru_casual": "Russian (Casual)",
-    # "ru_formal": "Russian (Formal)",
+    "bn": "Bengali",
+    "cs": "Czech",
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "hi": "Hindi",
+    "it": "Italian",
+    "mr": "Marathi",
+    "ru_casual": "Russian (Casual)",
+    "ru_formal": "Russian (Formal)",
     "sc": "Sardinian",
     "si_formal_spoken": "Sinhala",
 
@@ -75,11 +75,20 @@ LANGUAGES = {
 
 VLLM_BASE_URL = "http://localhost:8000/v1"
 VLLM_API_KEY = "EMPTY"
-VLLM_MODEL_NAME = "Qwen/Qwen2-VL-7B-Instruct" 
+VLLM_MODEL_NAME = "Qwen/Qwen3-32B" 
 
-GEMINI_API_KEY = "EMPTY"
-GEMINI_MODEL_NAME = "gemini-2.5-flash"
+GEMINI_API_KEY = "Key"
+GEMINI_MODEL_NAME = "gemini-2.5-flash-lite"
+
+VLLM_MODE = 'offline'  
 
 
 
-BLEU_THRESHOLD = 0.40 
+VLLM_TENSOR_PARALLEL_SIZE = 2  
+VLLM_GPU_MEMORY_UTIL = 0.8  
+
+
+
+
+
+BLEU_THRESHOLD = 0
