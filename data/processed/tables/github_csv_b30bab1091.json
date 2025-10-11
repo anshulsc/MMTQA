@@ -1,0 +1,1628 @@
+{
+  "columns": [
+    "query_id",
+    "query",
+    "target",
+    "baseline_tokens_to_misspell",
+    "worstcase_tokens_to_misspell",
+    "replaced_token"
+  ],
+  "data": [
+    [
+      "tweet-sno-1200",
+      "The news you\u2019ve all been waiting for (and we couldn\u2019t wait to reveal \ud83d\ude2d)\u2026 OREO x LADY GAGA packs drop today! \ud83c\udfa4\ud83c\udfb6",
+      "Oreos have a new Lady Gaga-themed cookie.",
+      "[\"today\", \"packs\"]",
+      "[\"couldn\\u2019t\", \"GAGA\", \"waiting\", \"LADY\", \"drop\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"today\",\n      \"typos\": [\"2day\", \"todai\", \"tday\", \"todaii\"]\n    },\n    {\n      \"token\": \"packs\",\n      \"typos\": [\"paks\", \"pacx\", \"pakcs\", \"pakz\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1201",
+      "Sen. Mitch McConnell: \"As recently as October, now-President Biden said you can't legislate by executive action unless you are a dictator. Well, in one week, he signed more than 30 unilateral actions.\"",
+      "When he was still a candidate for the presidency in October 2020, U.S. President Joe Biden said, \u201cYou can\u2019t legislate by executive order unless you\u2019re a dictator.\u201d",
+      "[\"President\", \"action\", \"unilateral\", \"signed\"]",
+      "[\"than\", \"Well\", \"signed\", \"unilateral\", \"week\", \"more\", \"President\", \"Mitch\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"President\",\n      \"typos\": [\"Prezident\", \"Prezdnt\", \"Presdnt\", \"Presi\", \"POTUS\"]\n    },\n    {\n      \"token\": \"action\",\n      \"typos\": [\"actn\", \"ation\", \"acton\", \"actin\", \"axn\"]\n    },\n    {\n      \"token\": \"unilateral\",\n      \"typos\": [\"unilatrul\", \"uniltrl\", \"unilatral\", \"uniltrl\", \"uniltr\"]\n    },\n    {\n      \"token\": \"signed\",\n      \"typos\": [\"signd\", \"sgned\", \"sign'd\", \"sgind\", \"signedd\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1202",
+      ".in October: \u201cI have this strange notion, we are a democracy \u2026 if you can\u2019t get the votes \u2026 you can\u2019t [legislate] by executive order unless you\u2019re a dictator. We\u2019re a democracy. We need consensus.\"",
+      "When he was still a candidate for the presidency in October 2020, U.S. President Joe Biden said, \u201cYou can\u2019t legislate by executive order unless you\u2019re a dictator.\u201d",
+      "[\"October\", \"executive\", \"democracy\"]",
+      "[\"October\", \"We\\u2019re\", \"this\", \"votes\", \"can\\u2019t\", \"democracy\", \"order\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"October\",\n      \"typos\": [\"Oct\", \"Ocober\", \"Octobr\"]\n    },\n    {\n      \"token\": \"executive\",\n      \"typos\": [\"exec\", \"excutive\", \"exctv\"]\n    },\n    {\n      \"token\": \"democracy\",\n      \"typos\": [\"demo\", \"democrcy\", \"democrasy\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1203",
+      "Disquieting assault on our most visible national symbol. That too on #RepublicDay . Our Tricolour replaced at iconic flagpole at #RedFort . Was this protest always about undermining our State? | #RDaySpiritShamed",
+      "In January 2021, protesters against India\u2019s controversial farm laws pulled down the country\u2019s national tricolor flag at Delhi\u2019s historic Red Fort.",
+      "[\"RedFort\", \"State\", \"undermining\", \"always\"]",
+      "[\"Disquieting\", \"this\", \"about\", \"flagpole\", \"replaced\", \"most\", \"undermining\", \"always\"]",
+      "\n{\n  \"typo_tokens\": [\n    {\n      \"token\": \"RedFort\",\n      \"typos\": [\"Red Fort\", \"RedFrt\", \"RdFort\", \"RdFrt\"]\n    },\n    {\n      \"token\": \"State\",\n      \"typos\": [\"St8\", \"Stte\", \"S8\", \"Stt\"]\n    },\n    {\n      \"token\": \"undermining\",\n      \"typos\": [\"undrmining\", \"undrminin\", \"undrmnng\", \"undermnng\"]\n    },\n    {\n      \"token\": \"always\",\n      \"typos\": [\"alwayz\", \"alwais\", \"alwys\", \"alway\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1204",
+      "Biden signed executive order today that contained a ban on the term 'China virus'.",
+      "U.S. President Joe Biden issued an executive order in January 2021 banning any use of the term \u201cChina virus.\u201d",
+      "[\"virus\", \"order\"]",
+      "[\"term\", \"order\", \"today\", \"contained\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"virus\",\n      \"typos\": [\"vyrus\", \"viruz\", \"viRus\", \"v!rus\"]\n    },\n    {\n      \"token\": \"order\",\n      \"typos\": [\"odrer\", \"ordr\", \"ordeer\", \"odr\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1205",
+      "INBOX: Former President Trump has set up an \u201cOffice of the Former President\u201d",
+      "Former U.S. President Donald Trump opened an \u201cOffice of the Former President\u201d in Palm Beach, Florida, to issue statements from and to share his post-presidency plans.",
+      "[\"President\"]",
+      "[\"INBOX\", \"Former\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"President\",\n      \"typos\": [\"Presdent\", \"Presidnt\", \"Prezident\", \"Pres'dent\", \"Presdt\", \"Pres\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1206",
+      "Former President Donald Trump has officially opened the 'Office of the Former President,' which will manage his correspondence, public statements, and activities to \"carry on the agenda of the Trump Admin. through advocacy\u2026\"",
+      "Former U.S. President Donald Trump opened an \u201cOffice of the Former President\u201d in Palm Beach, Florida, to issue statements from and to share his post-presidency plans.",
+      "[\"Trump\", \"through\", \"President\", \"advocacy\"]",
+      "[\"correspondence\", \"Former\", \"statements\", \"which\", \"President\", \"through\", \"public\", \"carry\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Trump\",\n      \"typos\": [\"Trmp\", \"Truump\", \"Trup\", \"Tump\", \"Trmp\"]\n    },\n    {\n      \"token\": \"through\",\n      \"typos\": [\"thru\", \"throgh\", \"thruough\", \"thro\", \"throu\"]\n    },\n    {\n      \"token\": \"President\",\n      \"typos\": [\"Presdent\", \"Presidnt\", \"Presidnt\", \"Preesident\", \"Presiden\"]\n    },\n    {\n      \"token\": \"advocacy\",\n      \"typos\": [\"advoccy\", \"advcacy\", \"advcocy\", \"advocaicy\", \"advocasy\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1207",
+      "Concealing Cocaine in international shipments can be bananas: RCMP#Kelowna",
+      "Nearly two dozen bricks of cocaine were found in banana shipments destined for Canada in February 2019.",
+      "[\"Cocaine\"]",
+      "[\"shipments\", \"international\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Cocaine\",\n      \"typos\": [\n        \"Cocane\",\n        \"Cociane\",\n        \"Coca1ne\",\n        \"Coc@ine\",\n        \"Co-caine\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1208",
+      "MILITARY SOURCE IN DC: \u201cFor the last week my battalion has been sleeping on the floor in the Senate cafeteria. Today the Senate kicked us out & moved us to a cold parking garage. 5000 soldiers. 1 power outlet. One bathroom. This is how Joe Biden\u2019s America treats solders.\u201d PHOTOS",
+      "Hundreds of members of the National Guard were made to vacate the U.S. Capitol and sent to rest in a nearby parking garage, while providing security around U.S. President Joe Biden's inauguration.",
+      "[\"5000\", \"Senate\", \"garage\", \"SOURCE\", \"floor\"]",
+      "[\"Biden\\u2019s\", \"kicked\", \"cafeteria\", \"cold\", \"week\", \"MILITARY\", \"battalion\", \"outlet\", \"last\", \"moved\", \"soldiers\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"5000\",\n      \"typos\": [\"five thousand\", \"5k\", \"5000\"]\n    },\n    {\n      \"token\": \"Senate\",\n      \"typos\": [\"Sen8\", \"Senat\", \"Sennate\"]\n    },\n    {\n      \"token\": \"garage\",\n      \"typos\": [\"garaj\", \"grge\", \"garege\"]\n    },\n    {\n      \"token\": \"SOURCE\",\n      \"typos\": [\"SRC\", \"sorce\", \"sourc\"]\n    },\n    {\n      \"token\": \"floor\",\n      \"typos\": [\"flor\", \"florr\", \"flloor\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1209",
+      "WATCH: Chuck Schumer accuses Donald Trump of inciting an \"erection\"",
+      "While speaking on the Senate floor on Jan. 22, 2021, Senate Majority Leader Chuck Schumer (D-NY) accidentally said \u201cerection\u201d instead of \u201cinsurrection.\u201d",
+      "[\"erection\"]",
+      "[\"accuses\", \"Schumer\", \"Donald\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"erection\",\n      \"typos\": [\n        \"erecton\",\n        \"errection\",\n        \"erectieon\",\n        \"erectn\",\n        \"erectoin\",\n        \"erecti0n\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1210",
+      "Oh, dear. Schumer just said, \"Incited the erection.\" And the look on his face indicates he knows he said it.",
+      "While speaking on the Senate floor on Jan. 22, 2021, Senate Majority Leader Chuck Schumer (D-NY) accidentally said \u201cerection\u201d instead of \u201cinsurrection.\u201d",
+      "[\"said\", \"Schumer\"]",
+      "[\"indicates\", \"said\", \"said\", \"face\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"said\",\n      \"typos\": [\"sed\", \"sd\", \"said\", \"saiid\", \"saidd\"]\n    },\n    {\n      \"token\": \"Schumer\",\n      \"typos\": [\"Shumer\", \"SChumer\", \"Schumr\", \"Schumer\", \"Schmr\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1211",
+      "So, on the Senate floor, Chuck Schumer just said that senators must decide if \"Donald John Trump incited the erection, uh, insurrection\u2026\" Well, it WAS an uprising!",
+      "While speaking on the Senate floor on Jan. 22, 2021, Senate Majority Leader Chuck Schumer (D-NY) accidentally said \u201cerection\u201d instead of \u201cinsurrection.\u201d",
+      "[\"Schumer\", \"just\", \"John\"]",
+      "[\"Well\", \"Chuck\", \"incited\", \"insurrection\", \"erection\", \"decide\", \"Schumer\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Schumer\",\n      \"typos\": [\"Schmuer\", \"Shumer\", \"Schnumer\"]\n    },\n    {\n      \"token\": \"just\",\n      \"typos\": [\"jst\", \"jus\", \"juzt\"]\n    },\n    {\n      \"token\": \"John\",\n      \"typos\": [\"Jhon\", \"Jon\", \"Jhn\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1212",
+      "Seems like Sen. Schumer's getting a rise out of a lot of people with that \"erection\" gaffe.",
+      "While speaking on the Senate floor on Jan. 22, 2021, Senate Majority Leader Chuck Schumer (D-NY) accidentally said \u201cerection\u201d instead of \u201cinsurrection.\u201d",
+      "[\"erection\", \"people\"]",
+      "[\"erection\", \"gaffe\", \"Schumer's\", \"with\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"erection\",\n      \"typos\": [\"erecton\", \"erectin\", \"erecton\", \"erektn\", \"erecshun\"]\n    },\n    {\n      \"token\": \"people\",\n      \"typos\": [\"ppl\", \"peeps\", \"peepol\", \"peopl\", \"pple\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1213",
+      "I am ready to declare \u201cincited the erection\u201d the funniest political gaffe in American history. We should build a statue to Chuck Schumer to commemorate his achievement. The statue will only be from the waist up, though, to be safe.",
+      "While speaking on the Senate floor on Jan. 22, 2021, Senate Majority Leader Chuck Schumer (D-NY) accidentally said \u201cerection\u201d instead of \u201cinsurrection.\u201d",
+      "[\"American\", \"history\", \"should\", \"Chuck\"]",
+      "[\"funniest\", \"though\", \"history\", \"statue\", \"will\", \"commemorate\", \"ready\", \"Schumer\", \"only\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"American\",\n      \"typos\": [\"Amercian\", \"Americn\", \"Amerkan\", \"Amrican\", \"Amrcan\"]\n    },\n    {\n      \"token\": \"history\",\n      \"typos\": [\"histroy\", \"histry\", \"histoy\", \"histoyr\", \"hisotry\"]\n    },\n    {\n      \"token\": \"should\",\n      \"typos\": [\"shuld\", \"shoud\", \"shoudl\", \"sholud\", \"shoul\"]\n    },\n    {\n      \"token\": \"Chuck\",\n      \"typos\": [\"Chuk\", \"Chcuck\", \"Chcuk\", \"Chukc\", \"Chucc\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1214",
+      "The Bernie meme, Schumer saying \u201cerection\u201d instead of \u201cinsurrection\u201d. Good to see we can have a laugh again here in Washington.",
+      "While speaking on the Senate floor on Jan. 22, 2021, Senate Majority Leader Chuck Schumer (D-NY) accidentally said \u201cerection\u201d instead of \u201cinsurrection.\u201d",
+      "[\"have\", \"meme\"]",
+      "[\"saying\", \"meme\", \"Washington\", \"instead\", \"Bernie\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"have\",\n      \"typos\": [\"hav\", \"hve\", \"hv\", \"h@ve\"]\n    },\n    {\n      \"token\": \"meme\",\n      \"typos\": [\"m3me\", \"meem\", \"m\u00e8m\u00e8\", \"mmm\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1215",
+      "On MLK day, Instagram has labeled this post about MLK from MLK\u2019s daughter as \u201cmisleading\u201d\u2026 This is \ud83e\udd2c outrageous!",
+      "Instagram flagged a reposted tweet from Bernice King about her father, the Rev. Martin Luther King Jr., on Jan. 18, 2021, which is MLK Day, for misinformation pertaining to the COVID-19 vaccine.",
+      "[\"labeled\", \"MLK\\u2019s\"]",
+      "[\"labeled\", \"daughter\", \"Instagram\", \"this\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"labeled\",\n      \"typos\": [\"labelled\", \"labld\", \"lbeld\"]\n    },\n    {\n      \"token\": \"MLK\u2019s\",\n      \"typos\": [\"MLKs\", \"MLKs'\", \"MLKs\u2019s\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1216",
+      "The MyPillow website has an active promo code \u201cQAnon\u201d which gets you a $45 discount. (h/tfor this discovery) MyPillow CEO Mike Lindell visited the White House yesterday to meet w/ Pres Trump (45), armed with notes referencing martial law and election conspiracy theories",
+      "MyPillow offered discounts on its products if buyers used codes like \u201cQAnon,\u201d \u201cQ,\u201d and \u201cStorm\u201d during checkout on their website.",
+      "[\"Lindell\", \"discovery\", \"discount\", \"active\", \"White\", \"tfor\"]",
+      "[\"armed\", \"which\", \"visited\", \"Pres\", \"promo\", \"House\", \"MyPillow\", \"martial\", \"code\", \"Mike\", \"election\", \"referencing\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Lindell\",\n      \"typos\": [\n        \"Lindel\",\n        \"Lindll\",\n        \"Lindl\",\n        \"Lindlel\"\n      ]\n    },\n    {\n      \"token\": \"discovery\",\n      \"typos\": [\n        \"discovry\",\n        \"discoveri\",\n        \"dicovery\",\n        \"discvery\"\n      ]\n    },\n    {\n      \"token\": \"discount\",\n      \"typos\": [\n        \"discont\",\n        \"discout\",\n        \"dscount\",\n        \"discnt\"\n      ]\n    },\n    {\n      \"token\": \"active\",\n      \"typos\": [\n        \"activ\",\n        \"actve\",\n        \"actiev\",\n        \"activex\"\n      ]\n    },\n    {\n      \"token\": \"White\",\n      \"typos\": [\n        \"Wite\",\n        \"Whit\",\n        \"Whte\",\n        \"Whiite\"\n      ]\n    },\n    {\n      \"token\": \"tfor\",\n      \"typos\": [\n        \"tfro\",\n        \"t4\",\n        \"tfo\",\n        \"tf0r\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1217",
+      "Tesla is hiring a full-time position to handle people talking shit aboutonline",
+      "A job listing posted by Tesla in January 2021 described the specialist role as having to \u201caddress social media escalations \u2026 directed at the CEO,\u201d who at the time of this writing was Elon Musk.",
+      "[\"time\", \"position\"]",
+      "[\"talking\", \"aboutonline\", \"people\", \"time\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"time\",\n      \"typos\": [\"tym\", \"tme\", \"tim\", \"tm\"]\n    },\n    {\n      \"token\": \"position\",\n      \"typos\": [\"positon\", \"postion\", \"posishun\", \"possition\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1218",
+      "SAFETY WARNING It might be popular but do not leave #GwynethPaltrow scented candle unattended (or any candles for that matter) & always on a flame retardant surface. Failure to do so could lead to firefighters coming quickly to your home & squirting water",
+      "A \u201cvagina\u201d candle made by Gwyneth Paltrow\u2019s beauty line, Goop, unexpectedly exploded after being lit by a British woman.",
+      "[\"retardant\", \"squirting\", \"that\", \"SAFETY\", \"Failure\"]",
+      "[\"scented\", \"firefighters\", \"might\", \"candle\", \"GwynethPaltrow\", \"squirting\", \"coming\", \"candles\", \"water\", \"popular\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"retardant\",\n      \"typos\": [\"retadant\", \"retardnt\", \"r3tardant\"]\n    },\n    {\n      \"token\": \"squirting\",\n      \"typos\": [\"squ1rting\", \"squrting\", \"squirtin\"]\n    },\n    {\n      \"token\": \"that\",\n      \"typos\": [\"tht\", \"tat\", \"dat\"]\n    },\n    {\n      \"token\": \"SAFETY\",\n      \"typos\": [\"SAFTEY\", \"SAFTY\", \"SAF3TY\"]\n    },\n    {\n      \"token\": \"Failure\",\n      \"typos\": [\"Failur\", \"Fai1ure\", \"Faliure\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1219",
+      "Marjorie Taylor Greene's Twitter account has been suspended for 12 hours. Her statement says the \"Silicon Valley Cartel launched a multi-front attack to chill free speech in America by deplatforming President Donald Trump and purging an unknown number of conservatives\"",
+      "Twitter suspended the account of U.S. Rep. Marjorie Taylor Greene, a Republican from Georgia, after she made erroneous claims regarding election fraud in a video clip.",
+      "[\"America\", \"Greene's\", \"unknown\", \"purging\", \"hours\"]",
+      "[\"purging\", \"Trump\", \"Donald\", \"account\", \"attack\", \"President\", \"Cartel\", \"deplatforming\", \"Silicon\", \"speech\", \"unknown\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"America\",\n      \"typos\": [\"Amerika\", \"Ameica\", \"Amrica\", \"Ameerica\"]\n    },\n    {\n      \"token\": \"Greene's\",\n      \"typos\": [\"Greenes\", \"Greens\", \"Grenes\", \"Grene's\"]\n    },\n    {\n      \"token\": \"unknown\",\n      \"typos\": [\"unknow\", \"unkown\", \"unnown\", \"unknwn\"]\n    },\n    {\n      \"token\": \"purging\",\n      \"typos\": [\"purgin\", \"pruging\", \"purgging\", \"purin\"]\n    },\n    {\n      \"token\": \"hours\",\n      \"typos\": [\"hrs\", \"hurs\", \"hourz\", \"hors\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1220",
+      "Quick interview with the new Burger King logo designer: \"We explored a lot of different design territories, but kept coming back to the brand's original iconic logo when Burger King looked at its best\" \u2013(via)",
+      "Burger King unveiled a new logo for its brand in 2021.",
+      "[\"designer\", \"interview\", \"Quick\", \"with\"]",
+      "[\"brand's\", \"King\", \"designer\", \"logo\", \"Quick\", \"with\", \"when\", \"looked\", \"iconic\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"designer\",\n      \"typos\": [\"desiner\", \"designr\", \"dizayner\", \"dezigner\"]\n    },\n    {\n      \"token\": \"interview\",\n      \"typos\": [\"intrewview\", \"intervew\", \"intervue\", \"inerview\"]\n    },\n    {\n      \"token\": \"Quick\",\n      \"typos\": [\"Quik\", \"Kwik\", \"Qwik\", \"Qucik\"]\n    },\n    {\n      \"token\": \"with\",\n      \"typos\": [\"wth\", \"wit\", \"wih\", \"witth\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1221",
+      "I cringe knowing they throw vaccine out in NY while the rest of us are waiting.",
+      "New York State threw away COVID-19 vaccine doses that could have been otherwise used.",
+      "[\"cringe\"]",
+      "[\"vaccine\", \"throw\", \"rest\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"cringe\",\n      \"typos\": [\"crng\", \"crnge\", \"crin9e\", \"cring\", \"crin9\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1222",
+      "Dear Clintons, You know what's deplorable? Being Impeached!!! #BasketOfDeplorables",
+      "Donald Trump Jr. taunted the Clintons in 2016 by tweeting that being impeached was \"deplorable.\"",
+      "[\"BasketOfDeplorables\"]",
+      "[\"Dear\", \"deplorable\", \"BasketOfDeplorables\"]",
+      "{\n    \"typo_tokens\": [\n        {\n            \"token\": \"BasketOfDeplorables\",\n            \"typos\": [\"BasktOfDeplorables\", \"BsketOfDeplorables\", \"BasketOfDeplorble\", \"BasktOfDeplorbls\", \"BsketOfDeplorbls\"]\n        }\n    ]\n}"
+    ],
+    [
+      "tweet-sno-1223",
+      "jan 11 \u2013 tw cannibalism // armie hammer blood drinking cannibal sex kink dms",
+      "Screenshots of DMs and texts alleged to be from actor Armie Hammer suggesting he is into cannibalism and kinky sex are real and authentic.",
+      "[\"cannibal\"]",
+      "[\"cannibalism\", \"blood\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"cannibal\",\n      \"typos\": [\"cannibl\", \"cann1bal\", \"cannibal\", \"cannib@l\", \"cann!bal\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1224",
+      "So the guy waving Indian Flag at Capitol hill is a VHS member 'Krishna Gudipati' (Res Jacket). Video was posted by Vencent Xavior who later deleted it. Thread. \ud83d\udc47",
+      "An Indian flag was waved among the crowd of people that stormed the U.S. Capitol on Jan. 6, 2021.",
+      "[\"Gudipati\", \"Video\", \"member\"]",
+      "[\"Flag\", \"later\", \"Capitol\", \"Indian\", \"Thread\", \"Xavior\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Gudipati\",\n      \"typos\": [\"Gudipaty\", \"Gudupati\", \"Gudupati\"]\n    },\n    {\n      \"token\": \"Video\",\n      \"typos\": [\"Vedio\", \"Vido\", \"Vid\"]\n    },\n    {\n      \"token\": \"member\",\n      \"typos\": [\"membr\", \"membr\", \"mmbr\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1225",
+      "Syringe-shaped cakes are displayed for sale at Dortmund's Schuerener Backparadies bakery as Germany continues the rollout of the coronavirus vaccine. More photos of the day:\ud83d\udcf7 Leon Kuegeler",
+      "A German bakery is making cakes in the shape of syringes in honor of COVID-19 vaccines.",
+      "[\"coronavirus\", \"Schuerener\", \"Germany\"]",
+      "[\"Backparadies\", \"shaped\", \"More\", \"Germany\", \"Schuerener\", \"Syringe\", \"rollout\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"coronavirus\",\n      \"typos\": [\"corona\", \"covid\", \"coronovirus\", \"coronvirus\", \"covid-19\"]\n    },\n    {\n      \"token\": \"Schuerener\",\n      \"typos\": [\"Shuerener\", \"Sch\u00fcerener\", \"Schuerner\", \"Shuerner\", \"Schurner\"]\n    },\n    {\n      \"token\": \"Germany\",\n      \"typos\": [\"German\", \"Germny\", \"Germani\", \"Germanee\", \"Ger\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1226",
+      "\u201cThe U.S. Fish & Wildlife Service is investigating the harassment of a manatee\u2026reported to federal authorities over the weekend discovered w/ words \"Trump\" scraped in its back \u2026discovered in Blue Hole on the Homosassa River\u201d (via) \u2013 Insurrectioning wildlife?",
+      "An endangered Florida manatee was discovered with the word \u201cTrump\u201d carved into its back.",
+      "[\"words\", \"over\", \"discovered\", \"Trump\"]",
+      "[\"over\", \"Wildlife\", \"Homosassa\", \"reported\", \"Hole\", \"discovered\", \"Insurrectioning\", \"investigating\", \"harassment\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"words\",\n      \"typos\": [\"wrds\", \"w0rds\", \"wordz\"]\n    },\n    {\n      \"token\": \"over\",\n      \"typos\": [\"ovr\", \"ov3r\", \"ova\"]\n    },\n    {\n      \"token\": \"discovered\",\n      \"typos\": [\"discoverd\", \"discovr3d\", \"discovrd\"]\n    },\n    {\n      \"token\": \"Trump\",\n      \"typos\": [\"Trmp\", \"Truump\", \"Tru\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1227",
+      "also the newest congress member from Illinois brought up hitler in her speech and was like \u201chitler was right about one thing\u201d \ud83d\udc80\ud83d\udc80before the riots even started",
+      "Rep. Mary Miller said \"Hitler was right on one thing\" before a mob of Trump supporters stormed the nation's Capitol on Jan. 6, 2020..",
+      "[\"brought\", \"like\", \"even\"]",
+      "[\"hitler\", \"brought\", \"newest\", \"also\", \"member\", \"congress\", \"Illinois\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"brought\",\n      \"typos\": [\"brot\", \"brght\", \"brought\"]\n    },\n    {\n      \"token\": \"like\",\n      \"typos\": [\"lyke\", \"liek\", \"lik\"]\n    },\n    {\n      \"token\": \"even\",\n      \"typos\": [\"evn\", \"even\", \"evan\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1228",
+      "-Mary Miller (IL) spoke today shortly before the riots broke out, stating \u201cHitler was right on one thing. He said, \u2018Whoever has the youth has the future.\u2019\u201d",
+      "Rep. Mary Miller said \"Hitler was right on one thing\" before a mob of Trump supporters stormed the nation's Capitol on Jan. 6, 2020..",
+      "[\"future\", \"today\", \"right\"]",
+      "[\"broke\", \"today\", \"Mary\", \"thing\", \"spoke\", \"future\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"future\",\n      \"typos\": [\"futre\", \"futr\", \"futr3\", \"futr4\"]\n    },\n    {\n      \"token\": \"today\",\n      \"typos\": [\"2day\", \"tday\", \"todai\", \"2dai\"]\n    },\n    {\n      \"token\": \"right\",\n      \"typos\": [\"rite\", \"ryt\", \"ri8\", \"r8\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1229",
+      "People who broke into the Capitol Wednesday are now learning they are on No-Fly lists pending the full investigation. They are not happy about this.",
+      "A video shows a person who attended the Capitol riot finding out that they had been added to the no-fly list.",
+      "[\"about\", \"into\", \"No-Fly\"]",
+      "[\"into\", \"Capitol\", \"they\", \"pending\", \"learning\", \"about\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"about\",\n      \"typos\": [\"abt\", \"abou\", \"ab0ut\"]\n    },\n    {\n      \"token\": \"into\",\n      \"typos\": [\"in2\", \"i2\", \"int0\"]\n    },\n    {\n      \"token\": \"No-Fly\",\n      \"typos\": [\"NoFly\", \"No-Flie\", \"N0-Fly\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1230",
+      "apparently a guy accidentally tasered himself in the balls and then died of a heart attack while trying to steal a painting yesterday and if we can\u2019t all come together over how hilarious that is we may be beyond hope",
+      "An Alabama man who was in attendance during the Jan. 6, 2021, insurrection at the U.S. Capitol suffered a fatal heart attack after accidentally tasing himself in the testicles.",
+      "[\"himself\", \"that\", \"attack\", \"beyond\"]",
+      "[\"yesterday\", \"come\", \"together\", \"then\", \"balls\", \"hope\", \"heart\", \"himself\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"himself\",\n      \"typos\": [\"himself\", \"himself\", \"himslef\", \"hmslf\"]\n    },\n    {\n      \"token\": \"that\",\n      \"typos\": [\"that\", \"tht\", \"tat\", \"thaat\"]\n    },\n    {\n      \"token\": \"attack\",\n      \"typos\": [\"attack\", \"attck\", \"atack\", \"atack\"]\n    },\n    {\n      \"token\": \"beyond\",\n      \"typos\": [\"beyond\", \"byond\", \"byond\", \"byond\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1231",
+      "* fraud alert * This text message is circulating in NYC, seeking to fool people into taking a call from a \"contact tracer\" asking that you \"pre-register\" for a vaccine. NYC's actual contact tracers will call you from a # beginning with 212-540-XXXX or 212-242-XXXX. [cont\u2026]",
+      "New Yorkers can sign up for early access to the COVID-19 vaccine.",
+      "[\"actual\", \"asking\", \"contact\", \"alert\", \"212-242-XXXX\", \"circulating\"]",
+      "[\"taking\", \"tracers\", \"that\", \"cont\", \"with\", \"call\", \"message\", \"from\", \"into\", \"contact\", \"212-540\", \"text\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"actual\",\n      \"typos\": [\"actul\", \"actaul\", \"acctual\"]\n    },\n    {\n      \"token\": \"asking\",\n      \"typos\": [\"askin\", \"askng\", \"askn\"]\n    },\n    {\n      \"token\": \"contact\",\n      \"typos\": [\"contct\", \"contat\", \"conntact\"]\n    },\n    {\n      \"token\": \"alert\",\n      \"typos\": [\"alrt\", \"alertt\", \"alret\"]\n    },\n    {\n      \"token\": \"212-242-XXXX\",\n      \"typos\": [\"212-242-1234\", \"212-242-5678\", \"212-242-0000\"]\n    },\n    {\n      \"token\": \"circulating\",\n      \"typos\": [\"circulatin\", \"circulatng\", \"circulatn\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1232",
+      "Reading about how few of the rioters were arrested yesterday while storming the Capitol Building, I'm reminded that Georgia's next senator, Rev. Raphael Warnock, had been arrested so many times for peacefully protesting at the Capitol that it became a feature of his stump speech.",
+      "Rev. Raphael Warnock was arrested while praying during a demonstration at the U.S. Capitol in 2017.",
+      "[\"arrested\", \"speech\", \"been\", \"about\", \"Capitol\", \"reminded\"]",
+      "[\"reminded\", \"many\", \"senator\", \"became\", \"arrested\", \"Reading\", \"while\", \"feature\", \"rioters\", \"yesterday\", \"Rev.\", \"protesting\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"arrested\",\n      \"typos\": [\"arested\", \"arrestid\", \"arrstd\", \"arest\"]\n    },\n    {\n      \"token\": \"speech\",\n      \"typos\": [\"spech\", \"speek\", \"spch\", \"speach\"]\n    },\n    {\n      \"token\": \"been\",\n      \"typos\": [\"ben\", \"beenn\", \"binn\", \"bein\"]\n    },\n    {\n      \"token\": \"about\",\n      \"typos\": [\"abt\", \"abou\", \"abot\", \"abwt\"]\n    },\n    {\n      \"token\": \"Capitol\",\n      \"typos\": [\"Capitol\", \"Captol\", \"Capitl\", \"Cptl\"]\n    },\n    {\n      \"token\": \"reminded\",\n      \"typos\": [\"remindd\", \"reminded\", \"remnded\", \"reminedd\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1233",
+      "Ifwere to lose (he won\u2019t) his supporters will go to work tomorrow just as we do everyday. When Biden loses, his \u201csupporters\u201d will likely loot and riot. Tells you everything you need to know! #Trump2020",
+      "Before the 2020 U.S. presidential election, conservative personality Tomi Lahren tweeted that then-Democratic candidate Joe Biden\u2019s supporters would \u201cloot and riot\u201d if the former vice president lost.",
+      "[\"will\", \"loses\", \"just\", \"loot\"]",
+      "[\"work\", \"When\", \"know\", \"Tells\", \"won\\u2019t\", \"loot\", \"everyday\", \"need\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"will\",\n      \"typos\": [\"wil\", \"wll\", \"wiil\", \"wil'\", \"wl\"]\n    },\n    {\n      \"token\": \"loses\",\n      \"typos\": [\"looses\", \"losez\", \"losz\", \"losess\", \"loze\"]\n    },\n    {\n      \"token\": \"just\",\n      \"typos\": [\"jst\", \"jus\", \"juzt\", \"jusst\", \"juz\"]\n    },\n    {\n      \"token\": \"loot\",\n      \"typos\": [\"l00t\", \"lot\", \"looot\", \"lootz\", \"luut\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1234",
+      "Electoral college ballots rescued from the Senate floor. If our capable floor staff hadn\u2019t grabbed them, they would have been burned by the mob.",
+      "A photograph taken on Jan. 6, 2021, showed two female U.S. Senate aides safely transporting boxes of Electoral College votes during the Capitol insurrection.",
+      "[\"they\", \"ballots\", \"staff\"]",
+      "[\"would\", \"rescued\", \"hadn\\u2019t\", \"been\", \"Electoral\", \"have\", \"they\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"they\",\n      \"typos\": [\"thay\", \"dey\", \"dhey\", \"tiey\"]\n    },\n    {\n      \"token\": \"ballots\",\n      \"typos\": [\"ballots\", \"balots\", \"ballotz\", \"baletz\"]\n    },\n    {\n      \"token\": \"staff\",\n      \"typos\": [\"staf\", \"stff\", \"staf\", \"staff\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1235",
+      "Here are the women \u2013 Senate aides \u2013 who had the presence of mind and courage to transport and keep safe the electoral votes before fleeing the Senate. There will always be villains. There will always be heroes.",
+      "A photograph taken on Jan. 6, 2021, showed two female U.S. Senate aides safely transporting boxes of Electoral College votes during the Capitol insurrection.",
+      "[\"always\", \"fleeing\", \"mind\", \"presence\"]",
+      "[\"will\", \"safe\", \"villains\", \"There\", \"Here\", \"electoral\", \"heroes\", \"keep\", \"transport\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"always\",\n      \"typos\": [\"alwayz\", \"alwys\", \"alwais\", \"alwaiz\"]\n    },\n    {\n      \"token\": \"fleeing\",\n      \"typos\": [\"fleein\", \"fleing\", \"fleeingg\", \"fleeingg\"]\n    },\n    {\n      \"token\": \"mind\",\n      \"typos\": [\"mnd\", \"mynd\", \"m1nd\", \"minnd\"]\n    },\n    {\n      \"token\": \"presence\",\n      \"typos\": [\"presnce\", \"presenc\", \"prescence\", \"prezence\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1236",
+      "Better look at the guy with the 'Camp Auschwitz' hoodie from yesterday. Not only does it feature the SS 'totenkopf', but an English translation of 'Arbeit Macht Frei'. No wiggle room, no joking here. This is who these people are. (via)",
+      "A pro-Trump rioter who broke into the U.S. Capitol was wearing a \"Camp Auschwitz\" shirt.",
+      "[\"room\", \"translation\", \"yesterday\", \"people\"]",
+      "[\"room\", \"Auschwitz\", \"does\", \"feature\", \"totenkopf\", \"people\", \"from\", \"look\", \"Arbeit\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"room\",\n      \"typos\": [\"rum\", \"rooom\", \"ro0m\"]\n    },\n    {\n      \"token\": \"translation\",\n      \"typos\": [\"translatn\", \"trnslation\", \"tranlation\"]\n    },\n    {\n      \"token\": \"yesterday\",\n      \"typos\": [\"ystrday\", \"yestrday\", \"yesterdayy\"]\n    },\n    {\n      \"token\": \"people\",\n      \"typos\": [\"ppl\", \"peple\", \"peeple\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1237",
+      "This woman was maced inside the Capitol. She told me, \"It's a revolution!\"",
+      "A video shows a crying woman holding an onion while telling a reporter that she had been Maced during a riot.",
+      "[\"woman\"]",
+      "[\"told\", \"Capitol\", \"maced\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"woman\",\n      \"typos\": [\"womun\", \"womon\", \"wman\", \"wumman\", \"wimen\", \"wooman\", \"womn\", \"wmaan\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1238",
+      "Wait, so Elizabeth from Knoxville, who claims she was maced after storming the Capitol, was dabbing her eyes with an onion towel?",
+      "A video shows a crying woman holding an onion while telling a reporter that she had been Maced during a riot.",
+      "[\"from\", \"storming\"]",
+      "[\"Wait\", \"onion\", \"storming\", \"Knoxville\", \"eyes\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"from\",\n      \"typos\": [\"frm\", \"frum\", \"form\", \"fr\"]\n    },\n    {\n      \"token\": \"storming\",\n      \"typos\": [\"stoming\", \"stormin\", \"stormng\", \"strming\", \"stroming\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1239",
+      "Over the next 10 days, we get to see the machines that are crooked, the ballots that are fraudulent. And if we're wrong, we will be made fools of. But if we're right, and lot of them will go to jail. So \u2014 let's have trial by combat \u2014 Giuliani",
+      "U.S. President Donald Trump's personal attorney, Rudy Giuliani, called for \"trial by combat\" before a violent mob of Trump supporters broke into the U.S. Capitol.",
+      "[\"fraudulent\", \"machines\", \"days\", \"next\"]",
+      "[\"we're\", \"fraudulent\", \"crooked\", \"Giuliani\", \"that\", \"them\", \"made\", \"right\", \"machines\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"fraudulent\",\n      \"typos\": [\"fraudulent\", \"fraudulant\", \"froudulent\", \"fraudlnt\"]\n    },\n    {\n      \"token\": \"machines\",\n      \"typos\": [\"machines\", \"machins\", \"mchines\", \"mashines\"]\n    },\n    {\n      \"token\": \"days\",\n      \"typos\": [\"days\", \"dys\", \"daes\", \"dais\"]\n    },\n    {\n      \"token\": \"next\",\n      \"typos\": [\"next\", \"nxt\", \"nezt\", \"nexxt\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1240",
+      "this is a photo of the National Guard stationed in response to a Black Lives Matter protest at the Lincoln Memorial in June",
+      "The National Guard was deployed to protect the Lincoln Memorial during the Black Lives Matter protests in the spring of 2020.",
+      "[\"Black\", \"Lincoln\"]",
+      "[\"Memorial\", \"this\", \"protest\", \"Guard\", \"June\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Black\",\n      \"typos\": [\"Blak\", \"Blk\", \"Blck\", \"Bl@ck\", \"Bl4ck\"]\n    },\n    {\n      \"token\": \"Lincoln\",\n      \"typos\": [\"Linclon\", \"Linc0ln\", \"Linc\", \"Linc0n\", \"Lncoln\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1241",
+      "Anarchists, Agitators or Protestors who vandalize or damage our Federal Courthouse in Portland, or any Federal Buildings in any of our Cities or States, will be prosecuted under our recently re-enacted Statues & Monuments Act. MINIMUM TEN YEARS IN PRISON. Don\u2019t do it! ",
+      "U.S. President Donald Trump once threatened that \"anarchists, agitators, or protestors\" who \"vandalize or damage any federal buildings will be prosecuted.\"",
+      "[\"Statues\", \"vandalize\", \"Anarchists\", \"under\"]",
+      "[\"re-enacted\", \"Buildings\", \"Statues\", \"under\", \"Courthouse\", \"Protestors\", \"Monuments\", \"damage\", \"Portland\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Statues\",\n      \"typos\": [\n        \"Statues\",\n        \"Stautes\",\n        \"Statuz\",\n        \"Statz\"\n      ]\n    },\n    {\n      \"token\": \"vandalize\",\n      \"typos\": [\n        \"vandalize\",\n        \"vandelize\",\n        \"vandaliz\",\n        \"vndalize\"\n      ]\n    },\n    {\n      \"token\": \"Anarchists\",\n      \"typos\": [\n        \"Anarchists\",\n        \"Anarcists\",\n        \"Anarchizts\",\n        \"Anarxists\"\n      ]\n    },\n    {\n      \"token\": \"under\",\n      \"typos\": [\n        \"under\",\n        \"undr\",\n        \"undre\",\n        \"under\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1242",
+      "JUST IN \u2013 _Pence has just unfollowedon Twitter",
+      "U.S. Vice President Mike Pence unfollowed President Donald Trump following Jan. 6, 2021, riots in Washington, D.C.",
+      "[\"JUST\"]",
+      "[\"JUST\", \"just\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"JUST\",\n      \"typos\": [\"JUZT\", \"JUSTT\", \"JST\", \"JUS\", \"JUST-IN\", \"JUS-IN\", \"JST-IN\", \"JUZTIN\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1243",
+      "Scenes from DC right now. They\u2019ve raised the confederate flag outside the Capitol.",
+      "A Confederate flag was spotted inside and outside the U.S. Capitol as a pro-Trump mob stormed the building.",
+      "[\"They\\u2019ve\"]",
+      "[\"right\", \"Scenes\", \"confederate\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"They\u2019ve\",\n      \"typos\": [\"Theyve\", \"Theyv\", \"they've\", \"theyv\", \"theyve\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1244",
+      "That\u2019s the confederate flag flying outside the Senate chamber",
+      "A Confederate flag was spotted inside and outside the U.S. Capitol as a pro-Trump mob stormed the building.",
+      "[\"chamber\"]",
+      "[\"flag\", \"Senate\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"chamber\",\n      \"typos\": [\"chmaber\", \"chamebr\", \"chaber\", \"chmbr\", \"chmbr\", \"chmbr\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1245",
+      "A supporter of President Donald Trump carries a Confederate battle flag on the second floor of the U.S. Capitol near the entrance to the Senate after breaching security defenses, in Washington, January 6, 2021. Photo by Mike Theiler",
+      "A Confederate flag was spotted inside and outside the U.S. Capitol as a pro-Trump mob stormed the building.",
+      "[\"battle\", \"Washington\", \"President\", \"2021\", \"Confederate\"]",
+      "[\"floor\", \"U.S.\", \"defenses\", \"second\", \"entrance\", \"President\", \"security\", \"Trump\", \"Washington\", \"Theiler\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"battle\",\n      \"typos\": [\"battel\", \"batle\", \"btl\", \"bttl\", \"baattle\"]\n    },\n    {\n      \"token\": \"Washington\",\n      \"typos\": [\"Washingtn\", \"Washngton\", \"Washinton\", \"Wshington\", \"Wshngtn\"]\n    },\n    {\n      \"token\": \"President\",\n      \"typos\": [\"Presdent\", \"Prezident\", \"Presdnt\", \"Presiden\", \"Pres\"]\n    },\n    {\n      \"token\": \"2021\",\n      \"typos\": [\"202\", \"221\", \"20211\", \"20-21\", \"2o21\"]\n    },\n    {\n      \"token\": \"Confederate\",\n      \"typos\": [\"Confedrate\", \"Confedrate\", \"Conferderate\", \"Confedrte\", \"Confdrate\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1246",
+      "They just put up a cross in front of the capitol building",
+      "A video shows a cross being erected in front of the U.S. Capitol on Jan. 6, 2021.",
+      "[\"just\"]",
+      "[\"front\", \"just\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"just\",\n      \"typos\": [\"jst\", \"juz\", \"jus\", \"justt\", \"jusst\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1247",
+      "Here in Italy people started to share this figure claiming that this is the diagram of the 5G chip that has been inserted in the covid vaccine. In reality it is the electric circuit of a guitar pedal and I believe that putting it in the covid vaccine has been an excellent idea\ud83d\udca1",
+      "An image represents a schematic for a 'COVID 5G Chip.'",
+      "[\"excellent\", \"inserted\", \"putting\", \"guitar\", \"been\", \"Here\"]",
+      "[\"this\", \"covid\", \"pedal\", \"that\", \"share\", \"guitar\", \"electric\", \"believe\", \"figure\", \"vaccine\", \"people\", \"inserted\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"excellent\",\n      \"typos\": [\"exellent\", \"excelent\", \"exelent\", \"exclnt\"]\n    },\n    {\n      \"token\": \"inserted\",\n      \"typos\": [\"instered\", \"isnerted\", \"insrted\", \"insertd\"]\n    },\n    {\n      \"token\": \"putting\",\n      \"typos\": [\"puting\", \"pitting\", \"puttin\", \"puttin'\"]\n    },\n    {\n      \"token\": \"guitar\",\n      \"typos\": [\"gitar\", \"gutar\", \"guiter\", \"guitr\"]\n    },\n    {\n      \"token\": \"been\",\n      \"typos\": [\"ben\", \"beeen\", \"be'n\", \"ben\"]\n    },\n    {\n      \"token\": \"Here\",\n      \"typos\": [\"Heer\", \"Hear\", \"Her\", \"Heree\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1248",
+      "A view of fresh snow this morning from Juniper Hills Ca at 4500 ft. Located south of Pearblossom in the San Gabriel foothills. Photo shared by Scott Lezak. #cawx #SoCal #LAweather",
+      "In December 2020, snow fell in the Los Angeles County area.",
+      "[\"4500\", \"Lezak\", \"foothills\", \"shared\"]",
+      "[\"Lezak\", \"morning\", \"cawx\", \"Located\", \"LAweather\", \"from\", \"SoCal\", \"Juniper\"]",
+      "{\n    \"typo_tokens\": [\n        {\n            \"token\": \"4500\",\n            \"typos\": [\"4500 ft.\", \"4,500\", \"four thousand five hundred\"]\n        },\n        {\n            \"token\": \"Lezak\",\n            \"typos\": [\"Leszak\", \"Lezack\", \"Lezak.\"]\n        },\n        {\n            \"token\": \"foothills\",\n            \"typos\": [\"foothilz\", \"futhills\", \"foot hills\"]\n        },\n        {\n            \"token\": \"shared\",\n            \"typos\": [\"sharred\", \"shrd\", \"shared.\"]\n        }\n    ]\n}"
+    ],
+    [
+      "tweet-sno-1249",
+      "Around 1/2 inch of snow at the 3700 ft level in Pearblossom fell early this morning. Photo taken by Michaela Moffitt. Thanks Michaela and our NWS spotter Scott Lezak for forwarding the photo. #cawx #LAweather #LAsnow",
+      "In December 2020, snow fell in the Los Angeles County area.",
+      "[\"Scott\", \"taken\", \"Around\", \"this\"]",
+      "[\"early\", \"LAsnow\", \"cawx\", \"level\", \"forwarding\", \"morning\", \"inch\", \"LAweather\", \"Pearblossom\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Scott\",\n      \"typos\": [\"Scot\", \"Sctt\", \"Skot\", \"Scoot\"]\n    },\n    {\n      \"token\": \"taken\",\n      \"typos\": [\"tkn\", \"takn\", \"takn'\", \"tooken\"]\n    },\n    {\n      \"token\": \"Around\",\n      \"typos\": [\"Arnd\", \"Aroun\", \"Aroud\", \"Rnd\"]\n    },\n    {\n      \"token\": \"this\",\n      \"typos\": [\"ths\", \"dis\", \"tis\", \"thiz\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1250",
+      "\u201cBreaking News: In Pennsylvania there were 205,000 more votes than there were voters. This alone flips the state to President Trump.\u201d",
+      "The state of Pennsylvania recorded \"205,000 votes more than they had voters\" in the 2020 U.S. election.",
+      "[\"votes\", \"205,000\", \"President\"]",
+      "[\"were\", \"there\", \"than\", \"Pennsylvania\", \"President\", \"more\", \"Trump\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"votes\",\n      \"typos\": [\"voates\", \"votess\", \"voets\", \"votz\"]\n    },\n    {\n      \"token\": \"205,000\",\n      \"typos\": [\"205k\", \"205000\", \"2O5,000\", \"205.000\"]\n    },\n    {\n      \"token\": \"President\",\n      \"typos\": [\"Pres\", \"Presidnt\", \"Prez\", \"Preisdent\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1251",
+      "When are we going to be allowed to do signature verification in Fulton County, Georgia? The process is going VERY slowly.Pennsylvania just found 205,000 votes more than they had voters. Therefore, we WIN Pennsylvania!!!",
+      "The state of Pennsylvania recorded \"205,000 votes more than they had voters\" in the 2020 U.S. election.",
+      "[\"voters\", \"County\", \"Georgia\", \"signature\"]",
+      "[\"votes\", \"Fulton\", \"allowed\", \"slowly\", \"When\", \"going\", \"signature\", \"voters\", \"they\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"voters\",\n      \"typos\": [\"votrs\", \"v0ters\", \"v0trs\"]\n    },\n    {\n      \"token\": \"County\",\n      \"typos\": [\"Cnty\", \"Couunty\", \"C0unty\"]\n    },\n    {\n      \"token\": \"Georgia\",\n      \"typos\": [\"Ge0rgia\", \"Geoorgia\", \"Ga\"]\n    },\n    {\n      \"token\": \"signature\",\n      \"typos\": [\"signaature\", \"sign@ture\", \"signiture\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1252",
+      "YOU CANNOT be \u201ccleared\u201d for a gathering by a negative COVID test 1) Might be too early in course to detect virus 2) ~20% of tests are false negatives 3) You could become infected literally 0.1 seconds after your swab Sincerely, An increasingly desperate ER doctor",
+      "A negative COVID-19 test will \u201cclear\u201d people to go to holiday gatherings with their family and friends across the United States.",
+      "[\"desperate\", \"could\", \"Sincerely\", \"negatives\", \"become\"]",
+      "[\"tests\", \"swab\", \"doctor\", \"increasingly\", \"seconds\", \"COVID\", \"cleared\", \"your\", \"course\", \"become\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"desperate\",\n      \"typos\": [\"desprate\", \"despr8\", \"despret\"]\n    },\n    {\n      \"token\": \"could\",\n      \"typos\": [\"cld\", \"culd\", \"cod\"]\n    },\n    {\n      \"token\": \"Sincerely\",\n      \"typos\": [\"Sincerly\", \"Sincerley\", \"Sincereley\"]\n    },\n    {\n      \"token\": \"negatives\",\n      \"typos\": [\"negatives\", \"negetives\", \"negativs\"]\n    },\n    {\n      \"token\": \"become\",\n      \"typos\": [\"bcome\", \"becme\", \"become\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1253",
+      "My family & I went tolast night. Great food. I used an old photo since we didn't take one last night. I'm glad this tweet has generated so much attention. I hope people support Gino and his team at. Small business is hurting, & they need our support",
+      "Former Wisconsin Gov. Scott Walker cropped and tweeted an old picture of pizza at a restaurant that he first tweeted 14 months earlier.",
+      "[\"Gino\", \"tolast\", \"hurting\", \"attention\", \"tweet\", \"didn't\"]",
+      "[\"much\", \"photo\", \"hurting\", \"since\", \"night\", \"last\", \"need\", \"business\", \"tolast\", \"night\", \"this\", \"Small\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Gino\",\n      \"typos\": [\"Gyno\", \"Jino\", \"Gno\"]\n    },\n    {\n      \"token\": \"tolast\",\n      \"typos\": [\"2last\", \"2lst\", \"tolst\"]\n    },\n    {\n      \"token\": \"hurting\",\n      \"typos\": [\"hurtng\", \"hurtn\", \"hurtin\"]\n    },\n    {\n      \"token\": \"attention\",\n      \"typos\": [\"attn\", \"attntion\", \"attenshion\"]\n    },\n    {\n      \"token\": \"tweet\",\n      \"typos\": [\"twet\", \"twitt\", \"twt\"]\n    },\n    {\n      \"token\": \"didn't\",\n      \"typos\": [\"didnt\", \"dint\", \"didnt't\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1254",
+      "Did anyone go to a high school with a pool under the basketball court? The Bedford Falls High School gym always fascinated me. #ItsAWonderfulLife",
+      "The swimming pool and retractable basketball court from \"It's a Wonderful Life\" are still used in the present day.",
+      "[\"Falls\", \"court\", \"High\"]",
+      "[\"Falls\", \"Bedford\", \"with\", \"under\", \"always\", \"fascinated\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Falls\",\n      \"typos\": [\"Fallz\", \"Faills\", \"Fals\", \"Falz\"]\n    },\n    {\n      \"token\": \"court\",\n      \"typos\": [\"corurt\", \"courtt\", \"crt\", \"coourt\"]\n    },\n    {\n      \"token\": \"High\",\n      \"typos\": [\"Hgh\", \"Hih\", \"Hiigh\", \"Hig\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1255",
+      "It's a wonderful life (east coast feed) about to show the pool under the basketball court that still is there at my high school. #Beverly",
+      "The swimming pool and retractable basketball court from \"It's a Wonderful Life\" are still used in the present day.",
+      "[\"still\", \"there\", \"under\"]",
+      "[\"It's\", \"pool\", \"high\", \"under\", \"school\", \"basketball\", \"east\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"still\",\n      \"typos\": [\"stil\", \"stll\", \"stilll\", \"stl\", \"st1ll\"]\n    },\n    {\n      \"token\": \"there\",\n      \"typos\": [\"ther\", \"thre\", \"their\", \"thr\", \"th3r\"]\n    },\n    {\n      \"token\": \"under\",\n      \"typos\": [\"undr\", \"undr\", \"underr\", \"unr\", \"undr\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1256",
+      "Yes it's real. Yes, it's powered by Intel. And yes, it has a chicken warmer. \ud83d\ude05 #KFConsole #IntelGaming",
+      "Fast food chain KFC developed a video game console that also keeps chicken warm.",
+      "[\"it's\"]",
+      "[\"Intel\", \"IntelGaming\", \"powered\"]",
+      "{\n    \"typo_tokens\": [\n        {\n            \"token\": \"it's\",\n            \"typos\": [\"its\", \"itz\", \"it\u2019s\", \"its'\", \"itz'\"]\n        }\n    ]\n}"
+    ],
+    [
+      "tweet-sno-1257",
+      "Mayor Buttigieg says he\u2019s a gay Christian. As a Christian I believe the Bible which defines homosexuality as sin, something to be repentant of, not something to be flaunted, praised or politicized. The Bible says marriage is between a man & a woman\u2014not two men, not two women. 2/3",
+      "Evangelist Franklin Graham tweeted that Pete Buttigieg's homosexuality was \"something to be repentant of, not something to be flaunted.\"",
+      "[\"politicized\", \"something\", \"praised\", \"defines\"]",
+      "[\"Buttigieg\", \"praised\", \"repentant\", \"he\\u2019s\", \"Bible\", \"Christian\", \"something\", \"woman\", \"which\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"politicized\",\n      \"typos\": [\"politicised\", \"politicizd\", \"poliicized\", \"politcsized\", \"poliitcized\"]\n    },\n    {\n      \"token\": \"something\",\n      \"typos\": [\"somthing\", \"sumthing\", \"somethng\", \"smthing\", \"somethin\"]\n    },\n    {\n      \"token\": \"praised\",\n      \"typos\": [\"prazed\", \"praizd\", \"prasied\", \"praisd\", \"praisedd\"]\n    },\n    {\n      \"token\": \"defines\",\n      \"typos\": [\"defins\", \"defiens\", \"definess\", \"defiens\", \"deffines\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1258",
+      "Kanye West $2M PPP loan. Joel Osteen $4M. Tom Brady $960K. Most Americans $600. #IAmVeryUpset",
+      "Joel Osteen's Lakewood Church in Texas received $4.4 million in coronavirus-economic-relief loans.",
+      "[\"Brady\", \"Most\"]",
+      "[\"960K\", \"IAmVeryUpset\", \"Most\", \"loan\"]",
+      "{\n    \"typo_tokens\": [\n        {\n            \"token\": \"Brady\",\n            \"typos\": [\"Bradey\", \"Bradi\", \"Bredy\", \"Braidy\", \"Braddy\"]\n        },\n        {\n            \"token\": \"Most\",\n            \"typos\": [\"M0st\", \"Moost\", \"Mst\", \"Mosst\", \"Mst\"]\n        }\n    ]\n}"
+    ],
+    [
+      "tweet-sno-1259",
+      "Vatican 'Darth Vader' nativity scene gets earthly thumbs down",
+      "The Vatican's Nativity display includes a statue of Darth Vader.",
+      "[\"earthly\"]",
+      "[\"nativity\", \"Vatican\", \"earthly\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"earthly\",\n      \"typos\": [\n        \"erthly\",\n        \"earthli\",\n        \"earthlee\",\n        \"erthlee\",\n        \"ertlly\",\n        \"erthely\",\n        \"earthlyy\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1260",
+      "SIE strives to ensure a high level of customer satisfaction, and we will begin to offer a full refund for all gamers who have purchased Cyberpunk 2077 via PlayStation Store and want a refund. Please visit the following link to initiate the refund:.",
+      "PlayStation and Xbox announced that refunds would be available for customers who digitally purchased Cyberpunk 2077.",
+      "[\"refund\", \"full\", \"ensure\", \"initiate\", \"satisfaction\"]",
+      "[\"link\", \"ensure\", \"full\", \"refund\", \"begin\", \"want\", \"refund\", \"strives\", \"Please\", \"will\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"refund\",\n      \"typos\": [\"refnd\", \"rephund\", \"refund\", \"r3fund\"]\n    },\n    {\n      \"token\": \"full\",\n      \"typos\": [\"ful\", \"fool\", \"ful\", \"fll\"]\n    },\n    {\n      \"token\": \"ensure\",\n      \"typos\": [\"ensur\", \"insure\", \"ensurr\", \"en5ure\"]\n    },\n    {\n      \"token\": \"initiate\",\n      \"typos\": [\"init8\", \"initiat\", \"inti8\", \"initate\"]\n    },\n    {\n      \"token\": \"satisfaction\",\n      \"typos\": [\"satisfactn\", \"satisffaction\", \"satisfacton\", \"satfaction\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1261",
+      "Cyberpunk 2077: To ensure that every player can get the experience they expect on Xbox, we will be expanding our existing refund policy to offer full refunds to anyone who purchased Cyberpunk 2077 digitally from the Microsoft Store, until further notice.",
+      "PlayStation and Xbox announced that refunds would be available for customers who digitally purchased Cyberpunk 2077.",
+      "[\"offer\", \"anyone\", \"Store\", \"purchased\", \"experience\"]",
+      "[\"purchased\", \"expanding\", \"2077\", \"notice\", \"until\", \"Microsoft\", \"2077\", \"experience\", \"existing\", \"will\", \"player\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"offer\",\n      \"typos\": [\"ofr\", \"offr\", \"offa\"]\n    },\n    {\n      \"token\": \"anyone\",\n      \"typos\": [\"any1\", \"any1ne\", \"anyene\"]\n    },\n    {\n      \"token\": \"Store\",\n      \"typos\": [\"Stor\", \"Stre\", \"Stre\"]\n    },\n    {\n      \"token\": \"purchased\",\n      \"typos\": [\"purchsd\", \"purchasd\", \"purchesd\"]\n    },\n    {\n      \"token\": \"experience\",\n      \"typos\": [\"experince\", \"experence\", \"expirience\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1262",
+      "This video is an extract from yesterday\u2019s press conference, with Hayabusa2 Project Manager Yuichi Tsuda confirming samples from Ryugu in the capsule!",
+      "Japanese scientists confirmed that the asteroid explorer Hyabusu2 successfully collected and returned soil and gas samples from the asteroid Ryugu 190 million miles from Earth.",
+      "[\"yesterday\\u2019s\", \"Yuichi\", \"samples\"]",
+      "[\"from\", \"samples\", \"Yuichi\", \"extract\", \"Manager\", \"capsule\", \"from\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"yesterday\u2019s\",\n      \"typos\": [\"yesterdays\", \"ysterday\u2019s\", \"ystrday\u2019s\"]\n    },\n    {\n      \"token\": \"Yuichi\",\n      \"typos\": [\"Yuichi\", \"Uichi\", \"Yuchi\"]\n    },\n    {\n      \"token\": \"samples\",\n      \"typos\": [\"samples\", \"sampels\", \"sampls\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1263",
+      "TEXAS ELECTORAL COLLEGE: \"The Justices went into a closed room\u2026When Texas case was brought up he said he heard screaming through the walls as Justice Roberts and the other liberal Justices were insisting\u2026afraid of what would happen if they did right thing\u2026Moral cowardice\"",
+      "Chief Justice John Roberts screamed at the other U.S. Supreme Court justices to dismiss a Texas voter fraud case in December 2020.",
+      "[\"said\", \"When\", \"case\", \"liberal\", \"walls\", \"what\"]",
+      "[\"thing\", \"insisting\", \"Justice\", \"screaming\", \"happen\", \"ELECTORAL\", \"case\", \"Roberts\", \"Texas\", \"were\", \"cowardice\", \"would\", \"they\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"said\",\n      \"typos\": [\"sed\", \"sd\", \"sayed\"]\n    },\n    {\n      \"token\": \"When\",\n      \"typos\": [\"Whn\", \"Wen\", \"Win\"]\n    },\n    {\n      \"token\": \"case\",\n      \"typos\": [\"cse\", \"cas\", \"kase\"]\n    },\n    {\n      \"token\": \"liberal\",\n      \"typos\": [\"liberl\", \"libral\", \"libs\"]\n    },\n    {\n      \"token\": \"walls\",\n      \"typos\": [\"wals\", \"wlls\", \"wals\"]\n    },\n    {\n      \"token\": \"what\",\n      \"typos\": [\"wht\", \"waht\", \"wat\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1264",
+      "Yo, this seems like an intersection of some of your interests: a guy in my neighborhood built a mini-version of the Rosebud Motel in front of his house!",
+      "A man created a miniature Rosebud motel facade in a Seattle neighborhood, inspired by the setting of the popular comedy series \u201cSchitt\u2019s Creek.\u201d",
+      "[\"mini-version\", \"neighborhood\"]",
+      "[\"Rosebud\", \"this\", \"house\", \"Motel\", \"neighborhood\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"mini-version\",\n      \"typos\": [\"mini ver\", \"mini-ver\", \"mini vershun\", \"miniversion\"]\n    },\n    {\n      \"token\": \"neighborhood\",\n      \"typos\": [\"neighbourhood\", \"neighberhood\", \"neighbrhood\", \"neighb'rhood\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1265",
+      "Well look at that, Day-vahd [said in our best Moira Rose voice]! A resident in Seattle's Queen Anne neighborhood, has created a mini Rosebud Motel using the retaining wall outside his home, for fans of the award-winning show \"Schitt's Creek\" to visit.",
+      "A man created a miniature Rosebud motel facade in a Seattle neighborhood, inspired by the setting of the popular comedy series \u201cSchitt\u2019s Creek.\u201d",
+      "[\"resident\", \"said\", \"Queen\", \"Motel\", \"that\", \"Moira\"]",
+      "[\"outside\", \"Motel\", \"Rosebud\", \"visit\", \"retaining\", \"created\", \"award\", \"winning\", \"using\", \"neighborhood\", \"said\", \"fans\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"resident\",\n      \"typos\": [\"residnt\", \"rezident\", \"residnt\"]\n    },\n    {\n      \"token\": \"said\",\n      \"typos\": [\"sed\", \"sd\", \"saidd\"]\n    },\n    {\n      \"token\": \"Queen\",\n      \"typos\": [\"Qween\", \"Quen\", \"Qun\"]\n    },\n    {\n      \"token\": \"Motel\",\n      \"typos\": [\"Mtl\", \"Motel\", \"Motl\"]\n    },\n    {\n      \"token\": \"that\",\n      \"typos\": [\"tht\", \"tat\", \"thaat\"]\n    },\n    {\n      \"token\": \"Moira\",\n      \"typos\": [\"Moirah\", \"Mira\", \"Moraa\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1266",
+      "Perhaps the biggest difference between 2016 and 2020 is, despite the fact that I went from 63,000,000 Votes to 75,000,000 Votes, a record 12,000,000 Vote increase. Obama went down 3,000,000 Votes, and won. Rigged Election!!!",
+      "President Trump's losing the election despite receiving millions more votes in 2020 than in 2016 is indicative of a \"rigged election.\"",
+      "[\"went\", \"between\", \"Votes\", \"went\", \"despite\"]",
+      "[\"Vote\", \"biggest\", \"down\", \"Votes\", \"Votes\", \"increase\", \"75,000,000\", \"2020\", \"went\", \"Rigged\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"went\",\n      \"typos\": [\"wen't\", \"wentt\", \"wenttt\", \"wen\", \"we'nt\"]\n    },\n    {\n      \"token\": \"between\",\n      \"typos\": [\"btween\", \"btwween\", \"betwen\", \"btween\", \"betwen\"]\n    },\n    {\n      \"token\": \"Votes\",\n      \"typos\": [\"V0tes\", \"Votez\", \"Vot3s\", \"Votess\", \"Voets\"]\n    },\n    {\n      \"token\": \"went\",\n      \"typos\": [\"wen't\", \"wentt\", \"wenttt\", \"wen\", \"we'nt\"]\n    },\n    {\n      \"token\": \"despite\",\n      \"typos\": [\"despit\", \"desptie\", \"desp1te\", \"despiet\", \"despitte\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1267",
+      "North Face denies order for jackets from the oil and gas industry. Their jackets have oil and gas products in them.",
+      "The North Face refused to fulfill a clothing order to Innovex Downhole Solutions, a Houston-based oil and gas company, over concerns about the company\u2019s environmental practices.",
+      "[\"products\", \"Their\"]",
+      "[\"products\", \"jackets\", \"North\", \"order\"]",
+      "{\n    \"typo_tokens\": [\n        {\n            \"token\": \"products\",\n            \"typos\": [\"prodcts\", \"proudcts\", \"prdcts\", \"prods\"]\n        },\n        {\n            \"token\": \"Their\",\n            \"typos\": [\"Thier\", \"Ther\", \"THeir\", \"Thr\"]\n        }\n    ]\n}"
+    ],
+    [
+      "tweet-sno-1268",
+      "Alex Jones at the pro-Trump march in Washington, DC: \"Joe Biden is a globalist, and Joe Biden will be removed, one way or another!\"",
+      "Conspiracy theorist Alex Jones said President-elect Joe Biden will be \"removed\" from office \"one way or another.\"",
+      "[\"globalist\", \"will\"]",
+      "[\"removed\", \"globalist\", \"Washington\", \"will\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"globalist\",\n      \"typos\": [\"global1st\", \"globlist\", \"gl0balist\", \"gloablst\", \"glob@list\"]\n    },\n    {\n      \"token\": \"will\",\n      \"typos\": [\"wl\", \"wil\", \"wll\", \"wi11\", \"w1ll\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1269",
+      "Is the island in the Allstate commercial a real place? I want to live there",
+      "A real island was shown in an Allstate television advertisement in 2020.",
+      "[\"place\"]",
+      "[\"there\", \"Allstate\", \"island\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"place\",\n      \"typos\": [\"plce\", \"plase\", \"plce\", \"plce\", \"plaace\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1270",
+      "The small island with 2 lighthouses & the guy driving a classic Land Rover in the Allstate commercial \u2013 is it real? Where is it? Maine? New Brunswick?",
+      "A real island was shown in an Allstate television advertisement in 2020.",
+      "[\"with\", \"island\"]",
+      "[\"with\", \"commercial\", \"Rover\", \"real\", \"Maine\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"with\",\n      \"typos\": [\n        \"w/\",\n        \"wit\",\n        \"wid\",\n        \"wth\",\n        \"whit\"\n      ]\n    },\n    {\n      \"token\": \"island\",\n      \"typos\": [\n        \"iland\",\n        \"islnd\",\n        \"issland\",\n        \"islnd\",\n        \"isle\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1271",
+      "BREAKING: Christmas Eve is now a federal holiday in 2020, according to an executive order signed Friday by President Trump.",
+      "On Dec. 11, 2020, U.S. President Donald Trump issued an executive order designating Christmas Eve 2020 as a federal holiday.",
+      "[\"Christmas\", \"signed\"]",
+      "[\"Trump\", \"federal\", \"BREAKING\", \"President\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Christmas\",\n      \"typos\": [\"Christams\", \"Chrismas\", \"Xmas\", \"Christms\"]\n    },\n    {\n      \"token\": \"signed\",\n      \"typos\": [\"signd\", \"sign'd\", \"signjed\", \"sined\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1272",
+      "Sister Act 3 is in development! \ud83c\udfa4returns to star and produce, withas producer as well. Sister Act 3 will premiere on.",
+      "In December 2020, Disney announced that \u201cSister Act 3\u201d was in production, with Whoopi Goldberg reviving her role of Deloris Van Cartier nearly 30 years later.",
+      "[\"produce\", \"\\ud83c\\udfa4returns\"]",
+      "[\"producer\", \"produce\", \"star\", \"\\ud83c\\udfa4returns\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"produce\",\n      \"typos\": [\"prodce\", \"produe\", \"prduce\", \"prdc\", \"prod.\"]\n    },\n    {\n      \"token\": \"\ud83c\udfa4returns\",\n      \"typos\": [\"\ud83c\udfa4rturns\", \"\ud83c\udfa4rtrns\", \"\ud83c\udfa4rtns\", \"\ud83c\udfa4retuns\", \"\ud83c\udfa4returnz\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1273",
+      "Coming exclusively tois Hocus Pocus 2, the spooky sequel to the 1993 Halloween classic!is set to direct.",
+      "Disney announced a sequel to \"Hocus Pocus.\"",
+      "[\"classic\", \"direct\"]",
+      "[\"direct\", \"1993\", \"tois\", \"spooky\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"classic\",\n      \"typos\": [\"classsic\", \"claassic\", \"classik\", \"classicc\", \"clsic\"]\n    },\n    {\n      \"token\": \"direct\",\n      \"typos\": [\"dirrect\", \"drect\", \"diect\", \"direkt\", \"direc\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1274",
+      "A shopping center owner is suing a Chick-fil-A restaurant, claiming that the restaurant\u2019s drive-thru has become so popular that cars backflow into the center\u2019s aisles. Stay updated on Toledo-area news by downloading #BladeNewsSlide \ud83d\udcf2",
+      "A man sued the Chick-fil-A chain because of its restaurants' long drive-thru lines.",
+      "[\"aisles\", \"become\", \"restaurant\", \"suing\", \"restaurant\\u2019s\"]",
+      "[\"center\", \"restaurant\", \"Stay\", \"area\", \"drive\", \"that\", \"downloading\", \"thru\", \"Chick\", \"backflow\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"aisles\",\n      \"typos\": [\"aizles\", \"isles\", \"aisle\"]\n    },\n    {\n      \"token\": \"become\",\n      \"typos\": [\"becom\", \"bcome\", \"becum\"]\n    },\n    {\n      \"token\": \"restaurant\",\n      \"typos\": [\"resturant\", \"restraunt\", \"restrant\"]\n    },\n    {\n      \"token\": \"suing\",\n      \"typos\": [\"sewing\", \"suin\", \"sueing\"]\n    },\n    {\n      \"token\": \"restaurant\u2019s\",\n      \"typos\": [\"resturant's\", \"restraunt's\", \"restrant's\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1275",
+      "Costco loses an estimated $30 to $40 million a year by sticking to their $4.99 price for rotisserie chicken. They'd rather keep members happy and foot traffic high.",
+      "Costco loses an estimated $30 to $40 million a year by keeping rotisserie chickens at $4.99 each. But the company would rather keep members happy and foot traffic high.",
+      "[\"keep\", \"year\", \"rotisserie\"]",
+      "[\"chicken\", \"million\", \"sticking\", \"They'd\", \"foot\", \"traffic\", \"year\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"keep\",\n      \"typos\": [\"keap\", \"kep\", \"k33p\"]\n    },\n    {\n      \"token\": \"year\",\n      \"typos\": [\"yeer\", \"yer\", \"yr\"]\n    },\n    {\n      \"token\": \"rotisserie\",\n      \"typos\": [\"rotissery\", \"rotissarie\", \"rotisery\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1276",
+      "No Presidential candidate ever came even close to losing an Election who won Iowa, Florida and Ohio. I won all three, by a lot!",
+      "Donald Trump was the first candidate to lose a presidential election despite winning in Ohio, Florida, and Iowa.",
+      "[\"three\", \"even\"]",
+      "[\"three\", \"close\", \"Election\", \"losing\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"three\",\n      \"typos\": [\"3\", \"thr33\", \"thre\", \"thee\"]\n    },\n    {\n      \"token\": \"even\",\n      \"typos\": [\"evn\", \"evan\", \"evin\", \"evan\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1277",
+      "NEW YORKERS: Today I learned the design for these radiators came about during the Spanish flu pandemic of 1918. Engineers wanted to keep an apartment warm while ventilating the space from airborne illnesses because THEY WERE MEANT TO BE KEPT ON WITH THE WINDOWS FULLY OPEN (!!!!)",
+      "Some steam radiators built in older apartment buildings in cities like New York were designed to keep dwellings warm with windows open due to the 1918 pandemic.",
+      "[\"Spanish\", \"Engineers\", \"pandemic\", \"MEANT\", \"WINDOWS\", \"because\"]",
+      "[\"from\", \"about\", \"keep\", \"because\", \"design\", \"apartment\", \"KEPT\", \"while\", \"learned\", \"illnesses\", \"Spanish\", \"came\", \"WITH\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Spanish\",\n      \"typos\": [\"Spanich\", \"Spannish\", \"Spanesh\", \"Spnsh\", \"Spnish\"]\n    },\n    {\n      \"token\": \"Engineers\",\n      \"typos\": [\"Enginers\", \"Engeneers\", \"Engneers\", \"Enginieers\", \"Enginers\"]\n    },\n    {\n      \"token\": \"pandemic\",\n      \"typos\": [\"pandemc\", \"pandemik\", \"pandmic\", \"pndmc\", \"pandem\"]\n    },\n    {\n      \"token\": \"MEANT\",\n      \"typos\": [\"MANT\", \"MENAT\", \"MNT\", \"MENT\", \"MEEN\"]\n    },\n    {\n      \"token\": \"WINDOWS\",\n      \"typos\": [\"WINDWS\", \"WNDWS\", \"WINDOS\", \"WINDWZ\", \"WNDWZ\"]\n    },\n    {\n      \"token\": \"because\",\n      \"typos\": [\"bcoz\", \"becuz\", \"bcuz\", \"cos\", \"becase\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1278",
+      " very disappointed with today's bacon egg Mc Muffin!! No proper egg and it was still frozen cold!!",
+      "McDonald's breakfast menu items use frozen eggs.",
+      "[\"with\", \"frozen\"]",
+      "[\"still\", \"frozen\", \"very\", \"disappointed\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"with\",\n      \"typos\": [\"wit\", \"w/\", \"wth\"]\n    },\n    {\n      \"token\": \"frozen\",\n      \"typos\": [\"frozn\", \"frozeen\", \"frzn\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1279",
+      "Rep. Louie Gohmert\u2019s tooth just fell out at his press conference.",
+      "A video shows U.S. Rep. Louie Gohmert's tooth falling out during a live news conference.",
+      "[\"tooth\"]",
+      "[\"Rep.\", \"just\", \"fell\"]",
+      "{\n    \"typo_tokens\": [\n        {\n            \"token\": \"tooth\",\n            \"typos\": [\"2ooth\", \"t00th\", \"to0th\", \"toth\", \"toof\", \"tuith\", \"toot\", \"tooth.\", \"tooth,\"]\n        }\n    ]\n}"
+    ],
+    [
+      "tweet-sno-1280",
+      "Joe Biden is asked about his disagreements with Kamala Harris on certain issues: \"Like I told Barack, if I reach something where there's a fundamental disagreement we have based on a moral principle, I'll develop some disease and say I have to resign.\"",
+      "Regarding what he would do if he disagreed with Vice President-elect Kamala Harris, U.S. President-elect Joe Biden said: \u201cLike I told Barack, if I reach something where there\u2019s a fundamental disagreement we have based on a moral principle, I\u2019ll develop some disease and say I have to resign.\"",
+      "[\"some\", \"reach\", \"Harris\", \"Barack\", \"develop\"]",
+      "[\"have\", \"Barack\", \"based\", \"told\", \"certain\", \"moral\", \"resign\", \"Harris\", \"disease\", \"where\", \"there's\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"some\",\n      \"typos\": [\"sm\", \"sum\", \"sme\"]\n    },\n    {\n      \"token\": \"reach\",\n      \"typos\": [\"rech\", \"reech\", \"rch\"]\n    },\n    {\n      \"token\": \"Harris\",\n      \"typos\": [\"Haris\", \"Hrris\", \"Haarris\"]\n    },\n    {\n      \"token\": \"Barack\",\n      \"typos\": [\"Barak\", \"Barrack\", \"Brack\"]\n    },\n    {\n      \"token\": \"develop\",\n      \"typos\": [\"devlop\", \"develope\", \"develp\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1281",
+      "The time Indiana Jones caused an avalanche with his saxophone.",
+      "Indiana Jones, portrayed by Harrison Ford, once defeated a group of villains by playing a saxophone.",
+      "[\"Jones\"]",
+      "[\"with\", \"Jones\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Jones\",\n      \"typos\": [\"Jonez\", \"Johnes\", \"Jons\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1282",
+      "Just for you completist out there. I remembered today that Indiana Jones once beat some villains by jamming on a saxophone.",
+      "Indiana Jones, portrayed by Harrison Ford, once defeated a group of villains by playing a saxophone.",
+      "[\"Indiana\", \"completist\"]",
+      "[\"completist\", \"beat\", \"Jones\", \"Indiana\", \"Just\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Indiana\",\n      \"typos\": [\"Indianna\", \"Indi\", \"Indyana\"]\n    },\n    {\n      \"token\": \"completist\",\n      \"typos\": [\"completest\", \"kompletist\", \"compleetist\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1283",
+      "We all remember that time Indiana Jones defeated 3 men with a saxophone.",
+      "Indiana Jones, portrayed by Harrison Ford, once defeated a group of villains by playing a saxophone.",
+      "[\"Indiana\"]",
+      "[\"remember\", \"Indiana\", \"Jones\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Indiana\",\n      \"typos\": [\"Indianna\", \"Indyana\", \"Indyanna\", \"Indy\", \"Indna\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1284",
+      "HOLY SHIT. I present to you Harrison Ford as a bearded Indiana Jones, learning the blues from, then looking straight into camera and using a saxophone TO CAUSE AN AVALANCHE, YOU ARE WELCOME TWITTER",
+      "Indiana Jones, portrayed by Harrison Ford, once defeated a group of villains by playing a saxophone.",
+      "[\"blues\", \"learning\", \"WELCOME\", \"straight\"]",
+      "[\"straight\", \"TWITTER\", \"CAUSE\", \"learning\", \"present\", \"looking\", \"SHIT\", \"saxophone\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"blues\",\n      \"typos\": [\"blu3s\", \"bloos\", \"bluez\", \"blues.\"]\n    },\n    {\n      \"token\": \"learning\",\n      \"typos\": [\"learnin'\", \"lerning\", \"l3arning\", \"learnng\"]\n    },\n    {\n      \"token\": \"WELCOME\",\n      \"typos\": [\"WELC0ME\", \"WELCOM3\", \"WELCUM\", \"WELCM\"]\n    },\n    {\n      \"token\": \"straight\",\n      \"typos\": [\"strait\", \"str8\", \"straight.\", \"straite\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1285",
+      "1/ There will be no update today. At 8:30 am this morning, state police came into my house and took all my hardware and tech. They were serving a warrant on my computer after DOH filed a complaint. They pointed a gun in my face. They pointed guns at my kids..",
+      "In December 2020, Florida state police \"raided\" the home of Rebekah Jones, executing a search warrant and confiscating electronic devices.",
+      "[\"computer\", \"house\", \"pointed\", \"today\", \"into\", \"hardware\"]",
+      "[\"hardware\", \"computer\", \"state\", \"came\", \"kids\", \"pointed\", \"8:30\", \"There\", \"were\", \"this\", \"police\", \"complaint\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"computer\",\n      \"typos\": [\"compooter\", \"komputer\", \"pc\", \"comptr\"]\n    },\n    {\n      \"token\": \"house\",\n      \"typos\": [\"haus\", \"houss\", \"hse\", \"home\"]\n    },\n    {\n      \"token\": \"pointed\",\n      \"typos\": [\"pionted\", \"pntd\", \"ptd\", \"aim\", \"aimd\"]\n    },\n    {\n      \"token\": \"today\",\n      \"typos\": [\"2day\", \"todai\", \"tody\", \"tdy\"]\n    },\n    {\n      \"token\": \"into\",\n      \"typos\": [\"in2\", \"nto\", \"in2o\", \"enterd\"]\n    },\n    {\n      \"token\": \"hardware\",\n      \"typos\": [\"hardwre\", \"hardwr\", \"hware\", \"tech\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1286",
+      "Lmaoapparently asked Sally Ride, the first woman in space, if ONE HUNDRED tampons would be enough for a week in space and if she needed more \ud83d\ude2d\ud83d\ude2d they actually didn\u2019t know how many tampons women used.",
+      "In advance of her 1984 mission aboard the space shuttle Challenger, NASA engineers asked Sally Ride if 100 tampons would be enough for two weeks in space.",
+      "[\"actually\", \"week\", \"know\", \"tampons\"]",
+      "[\"they\", \"needed\", \"week\", \"actually\", \"many\", \"would\", \"tampons\", \"woman\", \"used\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"actually\",\n      \"typos\": [\"actully\", \"actualy\", \"akshully\", \"actuallie\", \"aktually\"]\n    },\n    {\n      \"token\": \"week\",\n      \"typos\": [\"wk\", \"weik\", \"weeeek\", \"wek\", \"wke\"]\n    },\n    {\n      \"token\": \"know\",\n      \"typos\": [\"knw\", \"no\", \"kno\", \"knwo\", \"nwo\"]\n    },\n    {\n      \"token\": \"tampons\",\n      \"typos\": [\"tamponz\", \"tampns\", \"tamps\", \"tamponss\", \"tampones\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1287",
+      "i was atand the worker gave me my food but i said \u201cmy pleasure\u201d before him. i asked him \u201cdon\u2019t i get a free ice cream or something if i say it before you do\u201d he said that\u2019s fake :(",
+      "If a customer says \"my pleasure\" to a Chick-fil-A employee, they are entitled to a discount, a free ice cream menu item, or free food altogether.",
+      "[\"before\", \"atand\", \"fake\"]",
+      "[\"fake\", \"atand\", \"food\", \"gave\", \"worker\", \"said\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"before\",\n      \"typos\": [\"b4\", \"befor\", \"be4\"]\n    },\n    {\n      \"token\": \"atand\",\n      \"typos\": [\"and\", \"stand\", \"atlnd\"]\n    },\n    {\n      \"token\": \"fake\",\n      \"typos\": [\"fke\", \"faek\", \"fak\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1288",
+      "If u go to chick fil a and say \u201cmy pleasure\u201d before the employee that takes your order says it, u get a free ice cream cookie sandwich #thisbetterbetrue ",
+      "If a customer says \"my pleasure\" to a Chick-fil-A employee, they are entitled to a discount, a free ice cream menu item, or free food altogether.",
+      "[\"your\", \"takes\"]",
+      "[\"chick\", \"order\", \"that\", \"takes\", \"thisbetterbetrue\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"your\",\n      \"typos\": [\"ur\", \"yur\", \"yr\"]\n    },\n    {\n      \"token\": \"takes\",\n      \"typos\": [\"takez\", \"taks\", \"takz\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1289",
+      "Saying my pleasure before they do at Chick-fil-A does not get you a free ice cream trust me I got the weirdest look \ud83d\ude2d\ud83d\ude02",
+      "If a customer says \"my pleasure\" to a Chick-fil-A employee, they are entitled to a discount, a free ice cream menu item, or free food altogether.",
+      "[\"pleasure\", \"Chick\"]",
+      "[\"does\", \"Saying\", \"Chick\", \"pleasure\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"pleasure\",\n      \"typos\": [\"plesure\", \"pleasur\", \"plezure\", \"plezher\", \"plsr\"]\n    },\n    {\n      \"token\": \"Chick\",\n      \"typos\": [\"Chik\", \"Chk\", \"Chickk\", \"Chic\", \"Ckik\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1290",
+      "Just so everyone knows\u2026saying \u201cmy pleasure\u201d before a Chick-fil-A employee does not get you a free cookie ice cream sandwich or a discount or anything else tik tok has oh so willingly lied to you about!",
+      "If a customer says \"my pleasure\" to a Chick-fil-A employee, they are entitled to a discount, a free ice cream menu item, or free food altogether.",
+      "[\"free\", \"about\", \"saying\"]",
+      "[\"Just\", \"cookie\", \"pleasure\", \"saying\", \"else\", \"cream\", \"does\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"free\",\n      \"typos\": [\"fre\", \"fr33\", \"frea\", \"fr33\"]\n    },\n    {\n      \"token\": \"about\",\n      \"typos\": [\"abut\", \"abot\", \"abt\", \"ab0ut\"]\n    },\n    {\n      \"token\": \"saying\",\n      \"typos\": [\"saying\", \"saing\", \"sayng\", \"sayn\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1291",
+      "President-elect Joe Biden says he'd \"be happy\" to join former Presidents Obama, Bush and Clinton in getting a Covid vaccine in public to prove it's safe. \"When Dr. Fauci says we have a vaccine that is safe, that's the moment in which I will stand before the public and say that\"",
+      "U.S. President-elect Joe Biden said he will get the COVID-19 vaccination in public on television.",
+      "[\"safe\", \"vaccine\", \"that\", \"former\", \"that's\", \"Covid\"]",
+      "[\"stand\", \"he'd\", \"says\", \"have\", \"which\", \"happy\", \"before\", \"it's\", \"President\", \"elect\", \"safe\", \"Biden\", \"vaccine\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"safe\",\n      \"typos\": [\"sfe\", \"safee\", \"saf3\"]\n    },\n    {\n      \"token\": \"vaccine\",\n      \"typos\": [\"vacine\", \"vaxine\", \"vaxxine\"]\n    },\n    {\n      \"token\": \"that\",\n      \"typos\": [\"tht\", \"thatt\", \"dat\"]\n    },\n    {\n      \"token\": \"former\",\n      \"typos\": [\"formr\", \"fomer\", \"frmer\"]\n    },\n    {\n      \"token\": \"that's\",\n      \"typos\": [\"thats\", \"that'z\", \"tht's\"]\n    },\n    {\n      \"token\": \"Covid\",\n      \"typos\": [\"Covd\", \"Covid19\", \"Covd-19\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1292",
+      "It is also beyond the pale that Rep Matt Putz \u2013 I mean\u2013 would participate in this. What a fool. Matt \u2013 You are not welcome in New Jersey, and frankly I don\u2019t ever want you back in this state.",
+      "New Jersey Gov. Phil Murphy called Florida Rep. Matt Gaetz the name \"Matt Putz\" and a \"fool.\"",
+      "[\"would\", \"participate\", \"Jersey\", \"ever\"]",
+      "[\"this\", \"What\", \"Jersey\", \"also\", \"don\\u2019t\", \"Matt\", \"Putz\", \"would\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"would\",\n      \"typos\": [\"wuld\", \"wud\", \"wlud\"]\n    },\n    {\n      \"token\": \"participate\",\n      \"typos\": [\"particpate\", \"partcipate\", \"prticpate\"]\n    },\n    {\n      \"token\": \"Jersey\",\n      \"typos\": [\"Jersy\", \"Jrsey\", \"Jerseyy\"]\n    },\n    {\n      \"token\": \"ever\",\n      \"typos\": [\"evar\", \"evr\", \"evver\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1293",
+      "LIGHTS ON and delivering food and water to our passengers! Thank youwithfor opening on a SUNDAY! #ChristmasMiracle",
+      "At least one Chick-fil-A restaurant \"broke from tradition\" and opened on a Sunday.",
+      "[\"passengers\", \"youwithfor\"]",
+      "[\"opening\", \"SUNDAY\", \"LIGHTS\", \"water\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"passengers\",\n      \"typos\": [\"pasengers\", \"passngers\", \"passengerz\"]\n    },\n    {\n      \"token\": \"youwithfor\",\n      \"typos\": [\"uwithfor\", \"youwith4\", \"uwit4\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1294",
+      "Is drake really making a candle that smells like him? I hope jay is ready to drop $80 on it. \ud83d\ude07",
+      "Drake released a scented candle that \"actually smells like Drake.\"",
+      "[\"drop\", \"making\"]",
+      "[\"smells\", \"really\", \"candle\", \"ready\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"drop\",\n      \"typos\": [\"dr0p\", \"dr0pp\", \"drpp\", \"drrp\", \"drp\"]\n    },\n    {\n      \"token\": \"making\",\n      \"typos\": [\"makin\", \"mking\", \"makng\", \"mkin\", \"makng\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1295",
+      "Has anyone happened to hear if Flash Player is going to be supported after December 2020 in?",
+      "Adobe announced that Flash Player would no longer be supported.",
+      "[\"hear\", \"anyone\"]",
+      "[\"2020\", \"Flash\", \"anyone\", \"after\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"hear\",\n      \"typos\": [\"heer\", \"hr\", \"hir\", \"hea\"]\n    },\n    {\n      \"token\": \"anyone\",\n      \"typos\": [\"anyon\", \"any1\", \"ne1\", \"anywun\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1296",
+      "So what exactly happens in December when Flash is no longer supported?",
+      "Adobe announced that Flash Player would no longer be supported.",
+      "[\"Flash\"]",
+      "[\"December\", \"what\", \"happens\"]",
+      "{\n\"typo_tokens\": [\n{\n\"token\": \"Flash\",\n\"typos\": [\n\"Flsh\",\n\"F1ash\",\n\"Fl@sh\",\n\"Flas\",\n\"Fash\"\n]\n}\n]\n}"
+    ],
+    [
+      "tweet-sno-1297",
+      "Wait what???? Flash player will no longer be supported inchrome after December 2020? Does that mean I can\u2019t watch YouTube and flash player oriented websites online after December 2020?",
+      "Adobe announced that Flash Player would no longer be supported.",
+      "[\"online\", \"YouTube\", \"supported\", \"Wait\", \"websites\"]",
+      "[\"longer\", \"YouTube\", \"online\", \"flash\", \"mean\", \"player\", \"after\", \"what\", \"December\", \"websites\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"online\",\n      \"typos\": [\"onlne\", \"onine\", \"onln\", \"onlnie\"]\n    },\n    {\n      \"token\": \"YouTube\",\n      \"typos\": [\"YouTube\", \"U2ube\", \"YT\", \"YoTube\", \"YTube\"]\n    },\n    {\n      \"token\": \"supported\",\n      \"typos\": [\"supportd\", \"suppoted\", \"supportted\", \"suported\"]\n    },\n    {\n      \"token\": \"Wait\",\n      \"typos\": [\"W8\", \"Wat\", \"Wiit\", \"Waitt\"]\n    },\n    {\n      \"token\": \"websites\",\n      \"typos\": [\"websitws\", \"webstes\", \"websties\", \"websitees\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1298",
+      "Important message for children of #Ireland \u2013 #Santa is coming & will be exempt from #Covid restrictions on International Travel. However children should be aware that social distancing guidelines should apply to Santa.",
+      "Ireland Foreign Minister Simon Coveney declared in a Nov. 26, 2020, statement that Santa Claus is considered an essential worker, granting him exemption from self-quarantine to deliver Christmas presents.",
+      "[\"children\", \"apply\", \"social\", \"aware\"]",
+      "[\"Ireland\", \"Important\", \"Covid\", \"International\", \"exempt\", \"Travel\", \"message\", \"that\", \"should\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"children\",\n      \"typos\": [\"childen\", \"chldrn\", \"chldrn\", \"childrn\"]\n    },\n    {\n      \"token\": \"apply\",\n      \"typos\": [\"aply\", \"aplly\", \"appli\", \"aply\"]\n    },\n    {\n      \"token\": \"social\",\n      \"typos\": [\"soical\", \"socail\", \"socl\", \"socl\"]\n    },\n    {\n      \"token\": \"aware\",\n      \"typos\": [\"awre\", \"awr\", \"aare\", \"awaree\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1299",
+      "\ud83d\udea8 \ud83d\udea8 BREAKING NEWS \ud83d\udea8 \ud83d\udea8 There is currently a monolith at the top of Pine Mountain in Atascadero!! (Photos by)",
+      "A new mysterious \"monolith\" was found in California.",
+      "[\"Pine\"]",
+      "[\"BREAKING\", \"NEWS\", \"Photos\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Pine\",\n      \"typos\": [\n        \"P1ne\",\n        \"Pyn3\",\n        \"Pyn3\",\n        \"Piney\",\n        \"P1n3\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1300",
+      "There\u2019s a viral thread saying LOUIS XIV WAS A PERVERT WHOSE FETISH WAS WATCHING CHILDBIRTH. This is why, it claims, women are made to lie on their backs in childbirth. IT\u2019S BULLSHIT! It was the eminent obstetrician of the 1660s Francois Mauriceau who made this more popular \ud83d\udc47",
+      "King Louis XIV had a fetish for watching women give birth and required that they do so lying on their back so that he could have an unobstructed view.",
+      "[\"FETISH\", \"viral\", \"childbirth\", \"obstetrician\", \"LOUIS\"]",
+      "[\"PERVERT\", \"this\", \"WATCHING\", \"thread\", \"This\", \"backs\", \"FETISH\", \"eminent\", \"Francois\", \"their\", \"viral\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"FETISH\",\n      \"typos\": [\"FET1SH\", \"FETSH\", \"F3TISH\", \"F3T1SH\"]\n    },\n    {\n      \"token\": \"viral\",\n      \"typos\": [\"vir@l\", \"v1ral\", \"vira1\", \"virl\"]\n    },\n    {\n      \"token\": \"childbirth\",\n      \"typos\": [\"ch1ldbirth\", \"ch1ldb1rth\", \"chidbirth\", \"childb1rth\"]\n    },\n    {\n      \"token\": \"obstetrician\",\n      \"typos\": [\"0bstetrician\", \"obstetr1cian\", \"obstetric1an\", \"obstetr1c1an\"]\n    },\n    {\n      \"token\": \"LOUIS\",\n      \"typos\": [\"LOU1S\", \"L0UIS\", \"L0UIS\", \"L0U1S\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1301",
+      "We know you\u2019re finding it difficult to accept the election result so we projected it onto your golf course with some familiar music",
+      "A photograph shows the word \"loser\" projected onto the lawn of U.S. President Donald Trump's golf course in Scotland.",
+      "[\"projected\", \"golf\", \"know\"]",
+      "[\"you\\u2019re\", \"projected\", \"course\", \"accept\", \"your\", \"familiar\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"projected\",\n      \"typos\": [\"pr0jected\", \"projcted\", \"proj3cted\", \"projeckted\", \"pr0j3cted\"]\n    },\n    {\n      \"token\": \"golf\",\n      \"typos\": [\"golph\", \"golff\", \"g0lf\", \"gulf\", \"g0lph\"]\n    },\n    {\n      \"token\": \"know\",\n      \"typos\": [\"kno\", \"no\", \"kn0w\", \"knw\", \"knoe\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1302",
+      "The article \u201cA closer look at U.S. deaths due to COVID-19,\u201d published in the Science & Technology section on Nov. 22, has been deleted.",
+      "An article titled \u201cCOVID-19 Deaths: A Look at U.S. Data\u201d was published in the Johns Hopkins student-run newspaper on Nov. 22, 2020, and subsequently retracted.",
+      "[\"article\", \"Science\"]",
+      "[\"been\", \"deaths\", \"Nov.\", \"Technology\", \"Science\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"article\",\n      \"typos\": [\"artical\", \"articel\", \"artcle\", \"artcl\", \"artcile\"]\n    },\n    {\n      \"token\": \"Science\",\n      \"typos\": [\"Sience\", \"Si3nce\", \"Scince\", \"Scienc\", \"Sciens\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1303",
+      " Hahaha,you were on \"Teen Win Lose or Draw.\" Cool.",
+      "Actor Leonardo DiCaprio appeared on a Disney Channel game show.",
+      "[\"Cool\"]",
+      "[\"Hahaha\", \"were\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Cool\",\n      \"typos\": [\"Kewl\", \"Cewl\", \"Kwool\", \"Kul\", \"C00l\", \"Cwl\", \"Kool\", \"Coolz\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1304",
+      "Alittle #flashbackfriday withwhen she was on the 1990 show teen win lose or draw any of you remember that show believe it or not she played against Leonardo Dicaprio who knew\u2026",
+      "Actor Leonardo DiCaprio appeared on a Disney Channel game show.",
+      "[\"Alittle\", \"lose\", \"1990\"]",
+      "[\"believe\", \"flashbackfriday\", \"teen\", \"that\", \"played\", \"show\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Alittle\",\n      \"typos\": [\"A little\", \"Alitl\", \"Alitl'\"]\n    },\n    {\n      \"token\": \"lose\",\n      \"typos\": [\"loose\", \"los\", \"luz\"]\n    },\n    {\n      \"token\": \"1990\",\n      \"typos\": [\"'90\", \"90s\", \"nineteen90\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1305",
+      "Teen Win, Lose or Draw \u2013 Soleil Moon Frye vs Leonardo DiCaprio (1990)a trav\u00e9s de ",
+      "Actor Leonardo DiCaprio appeared on a Disney Channel game show.",
+      "[\"Leonardo\", \"Teen\"]",
+      "[\"trav\\u00e9s\", \"Soleil\", \"Moon\", \"Lose\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Leonardo\",\n      \"typos\": [\"Leonardo\", \"Leonrdo\", \"Leonrdo\", \"Lenoardo\", \"Leonrd\", \"Leoardo\", \"Lrnardo\", \"Lenardo\", \"Leo\", \"Leonar\", \"Lrd\"]\n    },\n    {\n      \"token\": \"Teen\",\n      \"typos\": [\"Teen\", \"Ten\", \"Teen\", \"Tean\", \"Teen\", \"Ten\", \"Teen\", \"Tn\", \"Ten\", \"Tn\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1306",
+      "Why won\u2019t Governor, the hapless Governor of Georgia, use his emergency powers, which can be easily done, to overrule his obstinate Secretary of State, and do a match of signatures on envelopes. It will be a \u201cgoldmine\u201d of fraud, and we will easily WIN the state\u2026.",
+      "A signature audit of absentee ballots in Georgia must be conducted and could overturn the 2020 presidential vote results in that state.",
+      "[\"signatures\", \"powers\", \"which\", \"done\"]",
+      "[\"hapless\", \"will\", \"emergency\", \"which\", \"easily\", \"goldmine\", \"powers\", \"State\", \"envelopes\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"signatures\",\n      \"typos\": [\"sign@tures\", \"signatur3s\", \"signatrus\", \"signatrues\", \"s1gnatures\"]\n    },\n    {\n      \"token\": \"powers\",\n      \"typos\": [\"pow3rs\", \"powrs\", \"p0wers\", \"powrs\", \"powarz\"]\n    },\n    {\n      \"token\": \"which\",\n      \"typos\": [\"wich\", \"wh1ch\", \"whichh\", \"w1ch\", \"whch\"]\n    },\n    {\n      \"token\": \"done\",\n      \"typos\": [\"don\", \"dn3\", \"don3\", \"d0ne\", \"doen\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1307",
+      "In Detroit, there are FAR MORE VOTES THAN PEOPLE. Nothing can be done to cure that giant scam. I win Michigan!",
+      "Detroit recorded more votes cast than eligible voters living in the city in the 2020 general election.",
+      "[\"cure\", \"Michigan\"]",
+      "[\"that\", \"Michigan\", \"VOTES\", \"Detroit\", \"Nothing\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"cure\",\n      \"typos\": [\"cur\", \"kure\", \"koon\", \"cuure\", \"cre\"]\n    },\n    {\n      \"token\": \"Michigan\",\n      \"typos\": [\"Michgan\", \"Michign\", \"Michigen\", \"Mishigan\", \"Michgan\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1308",
+      "FLASHBACK: In 2018, President Trump attacked Carrots the turkey for refusing to concede he had lost the vote on the White House turkey pardon contest. \"This was a fair election\u2026 unfortunately, Carrots refused to concede and demanded a recount.\"",
+      "U.S. President Donald Trump pardoned a turkey whom he said had lost a \"fair and open election\" but \"refused to concede.\"",
+      "[\"election\", \"contest\", \"unfortunately\", \"concede\", \"2018\"]",
+      "[\"fair\", \"turkey\", \"House\", \"FLASHBACK\", \"White\", \"attacked\", \"concede\", \"pardon\", \"vote\", \"election\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"election\",\n      \"typos\": [\"election\", \"elektion\", \"electionn\", \"electon\", \"elecshun\"]\n    },\n    {\n      \"token\": \"contest\",\n      \"typos\": [\"contest\", \"kontest\", \"contesst\", \"constest\", \"contst\"]\n    },\n    {\n      \"token\": \"unfortunately\",\n      \"typos\": [\"unfortunately\", \"unfortunatley\", \"unfortunatly\", \"unfrtunately\", \"unfortuneatly\"]\n    },\n    {\n      \"token\": \"concede\",\n      \"typos\": [\"concede\", \"conceed\", \"conced\", \"conseede\", \"koncede\"]\n    },\n    {\n      \"token\": \"2018\",\n      \"typos\": [\"2018\", \"2o18\", \"201e\", \"201\", \"20180\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1309",
+      "At 1:30pm AKST this afternoon, the sun will set and Utqia\u0121vik will enter a 66 day period of polar night. The sun will rise again on January 23rd, 2021. #akwx",
+      "The sun does not rise in Utqiagvik, Alaska, for more than 60 days during the winter.",
+      "[\"#akwx\", \"night\", \"rise\"]",
+      "[\"January\", \"night\", \"#akwx\", \"2021\", \"1:30\", \"will\", \"polar\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"#akwx\",\n      \"typos\": [\"#alaskawx\", \"#akwx\", \"#alaskawthr\", \"#akweather\"]\n    },\n    {\n      \"token\": \"night\",\n      \"typos\": [\"n8\", \"nite\", \"n1ght\", \"nyt\"]\n    },\n    {\n      \"token\": \"rise\",\n      \"typos\": [\"r1se\", \"rze\", \"rz\", \"risee\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1310",
+      "Tyndall is DOD\u2019s First Base to Adopt Robot Dogs \u2013 Air Force Magazine. Go!",
+      "Tyndall Air Force Base in Florida will be the first to implement semi-autonomous robotic \u201ccanines\u201d in their defense regiment.",
+      "[\"Magazine\"]",
+      "[\"DOD\\u2019s\", \"Force\", \"Robot\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Magazine\",\n      \"typos\": [\"Magazin\", \"Mag\", \"Magzine\", \"Maga2ine\", \"Magaz1ne\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1311",
+      "\u201cEvidence of voter fraud continues to grow, including 20,000 dead people on the Pennsylvania voters roll and many thousands all over the Country. Now, there has been an artificial number of votes in favor of Joe Biden.\u201d ",
+      "Pennsylvania has 20,000 dead persons listed on its election rolls, which is evidence of massive voter fraud in 2020.",
+      "[\"Country\", \"people\", \"Pennsylvania\", \"fraud\"]",
+      "[\"voter\", \"roll\", \"continues\", \"dead\", \"people\", \"thousands\", \"voters\", \"favor\", \"Country\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Country\",\n      \"typos\": [\"Cntry\", \"Cntry\", \"Countryy\", \"Cuntry\", \"C0untry\"]\n    },\n    {\n      \"token\": \"people\",\n      \"typos\": [\"ppl\", \"peeple\", \"peple\", \"peepol\", \"pe0ple\"]\n    },\n    {\n      \"token\": \"Pennsylvania\",\n      \"typos\": [\"Pennsylvnia\", \"Pensylvania\", \"Pennsylvana\", \"Pnnsylvania\", \"Pennsylv@nia\"]\n    },\n    {\n      \"token\": \"fraud\",\n      \"typos\": [\"fraud\", \"fraud\", \"fraaud\", \"fraad\", \"frauud\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1312",
+      "Little #sawwhet owl recovering at #ravensbeardwildlifecenter after being found stuck inside the #RockefellerCenterChristmastree Story onat pm.",
+      "A small owl was found in the branches of the Rockefeller Center Christmas tree in 2020.",
+      "[\"sawwhet\", \"being\"]",
+      "[\"onat\", \"RockefellerCenterChristmastree\", \"found\", \"sawwhet\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"sawwhet\",\n      \"typos\": [\"sawhet\", \"sawwhet\", \"saw-whet\", \"sawhett\", \"sawet\"]\n    },\n    {\n      \"token\": \"being\",\n      \"typos\": [\"bing\", \"bein\", \"beeng\", \"bng\", \"be'ng\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1313",
+      "Look at this in Wisconsin! A day AFTER the election, Biden receives a dump of 143,379 votes at 3:42AM, when they learned he was losing badly. This is unbelievable!",
+      "Joe Biden received a fraudulent 'dump' of 143K ballots in Wisconsin in the early morning hours after Election Day 2020.",
+      "[\"badly\", \"AFTER\", \"Look\"]",
+      "[\"unbelievable\", \"Biden\", \"AFTER\", \"Look\", \"3:42\", \"this\", \"election\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"badly\",\n      \"typos\": [\"badli\", \"badlee\", \"badlyy\"]\n    },\n    {\n      \"token\": \"AFTER\",\n      \"typos\": [\"AFTR\", \"AFTERR\", \"AF2R\"]\n    },\n    {\n      \"token\": \"Look\",\n      \"typos\": [\"LooK\", \"Luk\", \"Loook\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1314",
+      "The raw data in the server seized by the US military shows Trump won by a landslide \ud83d\udc47\ud83c\udffb\ud83d\udc47\ud83c\udffb\ud83d\udc47\ud83c\udffb 410!!!!_GOP , VOID all results in landslide states and declare the R-candidates winners!!",
+      "A voting systems server seized by the U.S. military in Germany proved Donald Trump won the 2020 election in an electoral landslide.",
+      "[\"candidates\", \"results\", \"Trump\"]",
+      "[\"military\", \"landslide\", \"declare\", \"data\", \"!!!!_GOP\", \"server\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"candidates\",\n      \"typos\": [\n        \"candid8s\",\n        \"candidats\",\n        \"cndidates\",\n        \"canddates\"\n      ]\n    },\n    {\n      \"token\": \"results\",\n      \"typos\": [\n        \"rezults\",\n        \"reslts\",\n        \"rslts\",\n        \"resulz\"\n      ]\n    },\n    {\n      \"token\": \"Trump\",\n      \"typos\": [\n        \"Trmp\",\n        \"Truump\",\n        \"Trrump\",\n        \"Trumpf\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1315",
+      "Supposedly the Germany server data shows Trump landslide: 410-128 \ud83d\udc4d",
+      "A voting systems server seized by the U.S. military in Germany proved Donald Trump won the 2020 election in an electoral landslide.",
+      "[\"410-\"]",
+      "[\"Trump\", \"data\", \"shows\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"410-\",\n      \"typos\": [\"4ten-\", \"41o-\", \"four10-\", \"4t0-\", \"4_10-\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1316",
+      "!says it\u2019s \u201cbad news\u201d Pfizer\u2019s Covid vaccine came during the Trump Admin; says he\u2019s going to work w/ other governors to \u201cstop\u201d distribution \u201cbefore it does damage\"",
+      "On Nov. 9, 2020, New York Gov. Andrew Cuomo said it was \"bad news\" that Pfizer had developed what appeared to be a successful COVID-19 vaccine, during U.S. President Donald Trump's tenure.",
+      "[\"does\", \"stop\", \"news\", \"damage\"]",
+      "[\"during\", \"news\", \"says\", \"Trump\", \"going\", \"distribution\", \"Pfizer\\u2019s\", \"stop\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"does\",\n      \"typos\": [\n        \"doez\",\n        \"d0es\",\n        \"dus\",\n        \"d0es\"\n      ]\n    },\n    {\n      \"token\": \"stop\",\n      \"typos\": [\n        \"st0p\",\n        \"stpp\",\n        \"stp\"\n      ]\n    },\n    {\n      \"token\": \"news\",\n      \"typos\": [\n        \"n3ws\",\n        \"newz\",\n        \"nuze\",\n        \"nws\"\n      ]\n    },\n    {\n      \"token\": \"damage\",\n      \"typos\": [\n        \"damge\",\n        \"damaj\",\n        \"dmg\",\n        \"damag\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1317",
+      "Another example of why it is prudent to let the process run its course: Thousands of Uncounted Votes Found a Week After Election in Puerto Rico",
+      "U.S. Sen. John Cornyn of Texas tweeted about uncounted ballots in Puerto Rico as an example of example of \"why it is prudent to let the process run its course\" in the 2020 U.S. presidential election.",
+      "[\"After\", \"Uncounted\"]",
+      "[\"Thousands\", \"Puerto\", \"Rico\", \"Another\", \"prudent\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"After\",\n      \"typos\": [\"Aftre\", \"Aftr\", \"Aftr\", \"Afr\", \"ftr\"]\n    },\n    {\n      \"token\": \"Uncounted\",\n      \"typos\": [\"Uncoutned\", \"Uncnted\", \"Uncuted\", \"Uncunted\", \"Uncted\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1318",
+      "Georgia SoS office says Floyd County would have discovered the 2,600 extra votes without the audit because the number of voters who had checked in was greater than the tally, and they were already looking into it.",
+      "Some 2,600 uncounted votes, a majority of which were cast for U.S. President Donald Trump, were found in Floyd County, Georgia, moving the president about 800 votes closer to President-elect Joe Biden's tally in the 2020 general election.",
+      "[\"number\", \"into\", \"because\", \"office\", \"they\"]",
+      "[\"votes\", \"2,600\", \"discovered\", \"than\", \"would\", \"says\", \"office\", \"they\", \"Georgia\", \"audit\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"number\",\n      \"typos\": [\"numb3r\", \"numbr\", \"numba\", \"numb\"]\n    },\n    {\n      \"token\": \"into\",\n      \"typos\": [\"in2\", \"int\", \"in2o\"]\n    },\n    {\n      \"token\": \"because\",\n      \"typos\": [\"bcause\", \"becuz\", \"bcoz\", \"becaus\"]\n    },\n    {\n      \"token\": \"office\",\n      \"typos\": [\"offce\", \"offic\", \"ofice\", \"offi\"]\n    },\n    {\n      \"token\": \"they\",\n      \"typos\": [\"dey\", \"thay\", \"tyey\", \"tehy\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1319",
+      "BREAKING: A recount in Georgia\u2019s presidential race found more than 2,600 ballots in Floyd County that hadn\u2019t originally been tallied, likely helping President Donald Trump reduce his 14,000-vote deficit to Joe Biden.",
+      "Some 2,600 uncounted votes, a majority of which were cast for U.S. President Donald Trump, were found in Floyd County, Georgia, moving the president about 800 votes closer to President-elect Joe Biden's tally in the 2020 general election.",
+      "[\"originally\", \"recount\", \"been\", \"ballots\", \"President\"]",
+      "[\"ballots\", \"Georgia\\u2019s\", \"found\", \"likely\", \"helping\", \"been\", \"deficit\", \"Donald\", \"County\", \"Biden\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"originally\",\n      \"typos\": [\"orginally\", \"orignally\", \"orginaly\", \"origianlly\"]\n    },\n    {\n      \"token\": \"recount\",\n      \"typos\": [\"recunt\", \"recont\", \"recoun\", \"recont\"]\n    },\n    {\n      \"token\": \"been\",\n      \"typos\": [\"ben\", \"bein\", \"been\", \"bean\"]\n    },\n    {\n      \"token\": \"ballots\",\n      \"typos\": [\"balots\", \"ballots\", \"ballts\", \"balots\"]\n    },\n    {\n      \"token\": \"President\",\n      \"typos\": [\"Presidnt\", \"Presdent\", \"Preisdent\", \"Presiddent\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1320",
+      "Look at the size of this crowd down Pennsylvania Ave. More than a MILLION people showed up to support this President. Meanwhile Biden can\u2019t fill 36 circles. #MillionMAGAMarch",
+      "More than one million people took part in a pro-Donald Trump march in Washington, D.C., on Nov. 14, 2020.",
+      "[\"than\", \"Biden\", \"More\", \"crowd\"]",
+      "[\"down\", \"Look\", \"showed\", \"fill\", \"Pennsylvania\", \"Meanwhile\", \"support\", \"can\\u2019t\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"than\",\n      \"typos\": [\"then\", \"thn\", \"thn\"]\n    },\n    {\n      \"token\": \"Biden\",\n      \"typos\": [\"Bden\", \"Bdn\", \"Bidan\"]\n    },\n    {\n      \"token\": \"More\",\n      \"typos\": [\"Mre\", \"Mr\", \"Mor\"]\n    },\n    {\n      \"token\": \"crowd\",\n      \"typos\": [\"crwd\", \"cwd\", \"crow\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1321",
+      "File under: Wait, WHAT? From: NewsMax (via The Righting) \"President Trump should retire immediately and let Mike Pence concede the election, occupy the White House, and handle the transition\u2026This would give Pence a head start on securing the Republican nomination in 2024.",
+      "The conservative news website Newsmax published a column that suggested U.S. President Donald Trump should \"retire immediately,\" letting Vice President Mike Pence handle the transition to the incoming Biden-Harris administration.",
+      "[\"Wait\", \"election\", \"would\", \"should\", \"Republican\", \"occupy\"]",
+      "[\"Pence\", \"concede\", \"Righting\", \"retire\", \"Pence\", \"election\", \"immediately\", \"President\", \"nomination\", \"handle\", \"transition\", \"securing\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Wait\",\n      \"typos\": [\"W8\", \"Waite\", \"W@it\"]\n    },\n    {\n      \"token\": \"election\",\n      \"typos\": [\"elecshun\", \"electionn\", \"el3ction\"]\n    },\n    {\n      \"token\": \"would\",\n      \"typos\": [\"wuld\", \"wud\", \"wood\"]\n    },\n    {\n      \"token\": \"should\",\n      \"typos\": [\"shuld\", \"shud\", \"shood\"]\n    },\n    {\n      \"token\": \"Republican\",\n      \"typos\": [\"Republikkan\", \"R3publican\", \"Republikan\"]\n    },\n    {\n      \"token\": \"occupy\",\n      \"typos\": [\"okkupy\", \"occupii\", \"occypy\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1322",
+      "Right wing Newsmax, which is owned by Trump\u2019s friend Chris Ruddy, suggesting he retire: \u201cTo avoid all this unpleasantness President Trump should retire immediately and let Mike Pence concede the election, occupy the White House and handle the transition\u201d",
+      "The conservative news website Newsmax published a column that suggested U.S. President Donald Trump should \"retire immediately,\" letting Vice President Mike Pence handle the transition to the incoming Biden-Harris administration.",
+      "[\"transition\", \"Trump\", \"White\", \"unpleasantness\", \"election\"]",
+      "[\"friend\", \"Newsmax\", \"retire\", \"this\", \"White\", \"Chris\", \"transition\", \"Ruddy\", \"Pence\", \"suggesting\", \"election\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"transition\",\n      \"typos\": [\"transtion\", \"transitin\", \"tranzition\", \"trnsition\"]\n    },\n    {\n      \"token\": \"Trump\",\n      \"typos\": [\"Trmp\", \"Truump\", \"Tump\", \"Trmp\"]\n    },\n    {\n      \"token\": \"White\",\n      \"typos\": [\"Whtie\", \"Whit\", \"Whte\", \"Wiht\"]\n    },\n    {\n      \"token\": \"unpleasantness\",\n      \"typos\": [\"unplesantness\", \"unpleasntness\", \"unpleasantnes\", \"unplesntness\"]\n    },\n    {\n      \"token\": \"election\",\n      \"typos\": [\"electon\", \"elecion\", \"elction\", \"electin\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1323",
+      " you were my favorite media outlet until this! \"To avoid all this unpleasantness, President Trump should retire immediately and let Mike Pence concede the election, occupy the White House, and handle the transition.\"",
+      "The conservative news website Newsmax published a column that suggested U.S. President Donald Trump should \"retire immediately,\" letting Vice President Mike Pence handle the transition to the incoming Biden-Harris administration.",
+      "[\"until\", \"Mike\", \"President\", \"this\"]",
+      "[\"handle\", \"occupy\", \"were\", \"White\", \"favorite\", \"election\", \"Trump\", \"transition\", \"unpleasantness\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"until\",\n      \"typos\": [\"untill\", \"untl\", \"untl.\", \"unitl\"]\n    },\n    {\n      \"token\": \"Mike\",\n      \"typos\": [\"Mik\", \"M1ke\", \"Mkie\", \"M!ke\"]\n    },\n    {\n      \"token\": \"President\",\n      \"typos\": [\"Presdent\", \"Presidnt\", \"Presidant\", \"Pres\"]\n    },\n    {\n      \"token\": \"this\",\n      \"typos\": [\"ths\", \"tis\", \"th!s\", \"ths.\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1324",
+      "She's deleted it, butposted a tweet suggesting that Joe Biden will be president next year. Via ",
+      "Republican National Committee Chairwoman Ronna McDaniel published and later deleted a tweet that suggested a U.S. future under a Joe Biden-Kamala Harris presidential administration.",
+      "[\"will\", \"Biden\"]",
+      "[\"She's\", \"year\", \"next\", \"president\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"will\",\n      \"typos\": [\"wil\", \"wll\", \"wl\", \"w1ll\", \"wi11\", \"willl\"]\n    },\n    {\n      \"token\": \"Biden\",\n      \"typos\": [\"Bden\", \"B1den\", \"Bdiden\", \"Bideen\", \"Bden\", \"Bidn\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1325",
+      "Raising canes filed for bankruptcy",
+      "Raising Cane's Chicken Fingers filed for bankruptcy.",
+      "[]",
+      "[\"bankruptcy\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Raising\",\n      \"typos\": [\"Raisng\", \"Razing\", \"Raizing\"]\n    },\n    {\n      \"token\": \"canes\",\n      \"typos\": [\"cane's\", \"canes'\", \"kanes\"]\n    },\n    {\n      \"token\": \"filed\",\n      \"typos\": [\"fild\", \"filedd\", \"flied\"]\n    },\n    {\n      \"token\": \"bankruptcy\",\n      \"typos\": [\"bankrupcy\", \"banqruptcy\", \"bankruptsy\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1326",
+      "To top off 2020, Raising Canes filed bankruptcy\u2026 That was the last straw Jesus come get me",
+      "Raising Cane's Chicken Fingers filed for bankruptcy.",
+      "[\"last\", \"straw\"]",
+      "[\"last\", \"Canes\", \"Jesus\", \"come\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"last\",\n      \"typos\": [\"lst\", \"lat\", \"las\", \"lazt\", \"l@st\"]\n    },\n    {\n      \"token\": \"straw\",\n      \"typos\": [\"staw\", \"stawr\", \"stra\", \"srtaw\", \"str@w\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1327",
+      "i saw #RIPDrake trending and had a fucking heart attack",
+      "TMZ reported that Drake was involved in a drive-by shooting and died at the age of 34. Genius also reported that Drake's family confirmed his passing.",
+      "[\"#RIPDrake\"]",
+      "[\"fucking\", \"trending\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"#RIPDrake\",\n      \"typos\": [\n        \"#RIPDrak\",\n        \"#RIPDrakee\",\n        \"#RIPDrak3\",\n        \"#RIPDr4ke\",\n        \"#R1PDrake\",\n        \"#RIPDrak3\",\n        \"#RIPDr4k3\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1328",
+      "Generation after generation, it's a pleasure to game alongside you. Happy launch day ",
+      "Xbox and PlayStation congratulated each other on Twitter for the November 2020 launch of Xbox Series X, Xbox Series S, and PS5.",
+      "[\"pleasure\"]",
+      "[\"launch\", \"Happy\", \"alongside\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"pleasure\",\n      \"typos\": [\"plezure\", \"pleasur\", \"plezr\", \"pleasre\", \"pleasurr\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1329",
+      "Congrats,! #NextGeneration #GreatnessAwaits",
+      "Xbox and PlayStation congratulated each other on Twitter for the November 2020 launch of Xbox Series X, Xbox Series S, and PS5.",
+      "[]",
+      "[\"GreatnessAwaits\"]",
+      "{\n  \"typo_tokens\": []\n}"
+    ],
+    [
+      "tweet-sno-1330",
+      "What happened to the ICE Twitter page? H/T: ",
+      "On Nov. 12, 2020, U.S. Immigration and Customs Enforcement\u2019s (ICE) Twitter account appeared to have been briefly removed from the social network.",
+      "[]",
+      "[\"page\"]",
+      "{\n\"typo_tokens\": []\n}"
+    ],
+    [
+      "tweet-sno-1331",
+      "What happened to U.S. Immigration and Customs Enforcement (ICE) Twitter profile?",
+      "On Nov. 12, 2020, U.S. Immigration and Customs Enforcement\u2019s (ICE) Twitter account appeared to have been briefly removed from the social network.",
+      "[\"Twitter\"]",
+      "[\"profile\", \"Enforcement\", \"Customs\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Twitter\",\n      \"typos\": [\"Twiter\", \"Twittr\", \"Twitr\", \"Twittr\", \"Twittr\", \"Twittr\", \"Twittar\", \"Twittah\", \"Twitterr\", \"Twittter\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1332",
+      "To commemorate #VeteransDay and honor those who have served in the military,announced that Gold Star Families and Veterans of the U.S. Armed Forces will have free entrance to national parks forever. Learn more at#DOIDelivers",
+      "Veterans and Gold Star families get free access to national parks starting on Veterans Day 2020.",
+      "[\"Learn\", \"Armed\", \"military\", \"announced\", \"Star\"]",
+      "[\"honor\", \"military\", \"U.S.\", \"will\", \"entrance\", \"Veterans\", \"served\", \"Gold\", \"#DOIDelivers\", \"Learn\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Learn\",\n      \"typos\": [\"Larn\", \"Lern\", \"Lrn\"]\n    },\n    {\n      \"token\": \"Armed\",\n      \"typos\": [\"Armd\", \"Armedd\", \"Amred\"]\n    },\n    {\n      \"token\": \"military\",\n      \"typos\": [\"miltry\", \"militry\", \"militery\"]\n    },\n    {\n      \"token\": \"announced\",\n      \"typos\": [\"anounced\", \"annouced\", \"annunced\"]\n    },\n    {\n      \"token\": \"Star\",\n      \"typos\": [\"Star\", \"Str\", \"Starr\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1333",
+      "HUGE NEWS: Thanks to the public-private partnership forged by President,announced its Coronavirus Vaccine trial is EFFECTIVE, preventing infection in 90% of its volunteers.",
+      "The research and development of Pfizer COVID-19 vaccine, which proved to be 90% effective against SARS-CoV-2 in November 2020, was funded by U.S. President Donald Trump\u2019s Operation Warp Speed.",
+      "[\"infection\", \"preventing\", \"public\"]",
+      "[\"trial\", \"announced\", \"partnership\", \"Thanks\", \"NEWS\", \"Vaccine\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"infection\",\n      \"typos\": [\n        \"inf3ction\",\n        \"infecshun\",\n        \"infekt1on\",\n        \"nfection\"\n      ]\n    },\n    {\n      \"token\": \"preventing\",\n      \"typos\": [\n        \"prevennng\",\n        \"pr3venting\",\n        \"prvent1ng\",\n        \"preventn\"\n      ]\n    },\n    {\n      \"token\": \"public\",\n      \"typos\": [\n        \"publ1c\",\n        \"puplic\",\n        \"poblic\",\n        \"publc\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1334",
+      "The news about thevaccine being 90% effective is great news for the American people! Many thanks toand Operation Warp Speed. This will be one of the most important action items done by the administration in response to this pandemic. \u2764\ufe0f\ud83c\uddfa\ud83c\uddf8 #USStrong",
+      "The research and development of Pfizer COVID-19 vaccine, which proved to be 90% effective against SARS-CoV-2 in November 2020, was funded by U.S. President Donald Trump\u2019s Operation Warp Speed.",
+      "[\"Warp\", \"USStrong\", \"done\", \"action\", \"thanks\"]",
+      "[\"people\", \"news\", \"American\", \"items\", \"thanks\", \"thevaccine\", \"great\", \"toand\", \"action\", \"most\", \"done\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Warp\",\n      \"typos\": [\"Worp\", \"Warp\", \"W4rp\", \"W@rp\"]\n    },\n    {\n      \"token\": \"USStrong\",\n      \"typos\": [\"USStr0ng\", \"USStrng\", \"\ud83c\uddfa\ud83c\uddf8Strong\", \"USStrng\"]\n    },\n    {\n      \"token\": \"done\",\n      \"typos\": [\"dne\", \"don\", \"d0ne\", \"dun\"]\n    },\n    {\n      \"token\": \"action\",\n      \"typos\": [\"acton\", \"actin\", \"actn\", \"ackt1on\"]\n    },\n    {\n      \"token\": \"thanks\",\n      \"typos\": [\"thnks\", \"tnx\", \"thnkz\", \"thanx\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1335",
+      "We just did. Joe Biden clapped back against the MAGA hat \ud83d\ude2f (\ud83d\udcf7:)",
+      "U.S. President-elect Joe Biden\u2019s hat answers Donald Trump\u2019s campaign slogan \u201cMake America Great Again\u201d with the phrase, \u201cWe Just Did.\u201d",
+      "[\"MAGA\"]",
+      "[\"just\", \"back\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"MAGA\",\n      \"typos\": [\"MAGA\", \"MAGA!\", \"MAGA?\", \"MAGA!!\", \"MAGAA\", \"MAAGA\", \"MGA\", \"MAG4\", \"MAG@\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1336",
+      "Congratulations to President-elect Joe Biden! His German Shepherd, Major, is set to become the first shelter dog in the White House. The Bidens adopted the German shepherd from the Delaware Humane Association two years ago after initially fostering him.",
+      "President-elect Joe Biden\u2019s German shepherd, Major, will be the first rescue dog to reside at the White House.",
+      "[\"years\", \"White\", \"elect\", \"Congratulations\"]",
+      "[\"shepherd\", \"elect\", \"German\", \"Humane\", \"German\", \"Bidens\", \"initially\", \"shelter\", \"from\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"years\",\n      \"typos\": [\"yrs\", \"yeras\", \"yeers\", \"yars\"]\n    },\n    {\n      \"token\": \"White\",\n      \"typos\": [\"Wite\", \"Whte\", \"Wh1te\", \"Wh!te\"]\n    },\n    {\n      \"token\": \"elect\",\n      \"typos\": [\"e1ect\", \"elct\", \"elec\", \"electt\"]\n    },\n    {\n      \"token\": \"Congratulations\",\n      \"typos\": [\"Congratz\", \"Congratulashuns\", \"Congrats\", \"Congratuations\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1337",
+      "President Trump is playing golf club this morning as Biden appears to extend his lead in the election. The weekend getaway comes as U.S. coronavirus cases hit all-time highs and as Trump's own chief of staff Mark Meadows tests positive for Covid-19.",
+      "U.S. President Donald Trump was golfing when Joe Biden was projected as the winner of the 2020 presidential election.",
+      "[\"weekend\", \"getaway\", \"golf\", \"Mark\", \"cases\"]",
+      "[\"Meadows\", \"Mark\", \"President\", \"chief\", \"cases\", \"Trump\", \"getaway\", \"club\", \"Trump's\", \"tests\", \"lead\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"weekend\",\n      \"typos\": [\"wekend\", \"weeknd\", \"weknd\"]\n    },\n    {\n      \"token\": \"getaway\",\n      \"typos\": [\"getaway\", \"getawey\", \"getawy\"]\n    },\n    {\n      \"token\": \"golf\",\n      \"typos\": [\"golff\", \"golf\", \"glof\"]\n    },\n    {\n      \"token\": \"Mark\",\n      \"typos\": [\"Mark\", \"Marck\", \"MArk\"]\n    },\n    {\n      \"token\": \"cases\",\n      \"typos\": [\"casses\", \"casess\", \"cass\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1338",
+      "#US : Trump loyalist and criminal Steve Bannon declares Dr. Fauci and FBI Director Wray should be beheaded and have their heads mounted on pikes at the White House \"as a warning to federal bureaucrats\". (\ud83d\udcf9)",
+      "Former U.S. President Donald Trump campaign adviser Steve Bannon called for a \"second term\" to kick off with the firings of NIH Director Dr. Anthony Fauci and FBI Director Christopher Wray, adding that he would put their \"heads on pikes\" as a warning.",
+      "[\"pikes\", \"heads\", \"criminal\", \"should\"]",
+      "[\"beheaded\", \"have\", \"Steve\", \"criminal\", \"Wray\", \"heads\", \"their\", \"should\"]",
+      "{\n    \"typo_tokens\": [\n        {\n            \"token\": \"pikes\",\n            \"typos\": [\"pikes\", \"pykes\", \"pik3s\", \"pyk3s\"]\n        },\n        {\n            \"token\": \"heads\",\n            \"typos\": [\"heads\", \"hedz\", \"hedz\", \"he@dz\"]\n        },\n        {\n            \"token\": \"criminal\",\n            \"typos\": [\"criminal\", \"crimnal\", \"criminl\", \"crimnal\"]\n        },\n        {\n            \"token\": \"should\",\n            \"typos\": [\"should\", \"shud\", \"shuld\", \"shold\"]\n        }\n    ]\n}"
+    ],
+    [
+      "tweet-sno-1339",
+      "BREAKING: Trump\u2019sfinalized a rule today stripping gray wolves of their federal #EndangeredSpecies protections in the Lower 48 states. This dangerous move threatens ecosystems, ignores Indigenous guidance & contributes to the biodiversity crisis.",
+      "In October 2020, the U.S. Department of the Interior removed gray wolves from the Endangered Species Act, returning management and protection of the species to states and tribes.",
+      "[\"today\", \"Indigenous\", \"ignores\", \"Lower\"]",
+      "[\"BREAKING\", \"biodiversity\", \"rule\", \"ecosystems\", \"ignores\", \"contributes\", \"protections\", \"This\", \"EndangeredSpecies\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"today\",\n      \"typos\": [\"2day\", \"todai\", \"todae\"]\n    },\n    {\n      \"token\": \"Indigenous\",\n      \"typos\": [\"Indiginous\", \"Indegenous\", \"Indigenus\"]\n    },\n    {\n      \"token\": \"ignores\",\n      \"typos\": [\"ignorez\", \"ignors\", \"ignores\"]\n    },\n    {\n      \"token\": \"Lower\",\n      \"typos\": [\"Lwr\", \"Loer\", \"Lowe\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1340",
+      "Here's video pulled from the Delaware County, PA live stream of a ballot worker filling out ballots.",
+      "A video captures a Pennsylvania elections worker actually filling out ballots rather than counting them.",
+      "[\"ballots\", \"stream\"]",
+      "[\"ballots\", \"filling\", \"ballot\", \"County\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"ballots\",\n      \"typos\": [\"balots\", \"ballotz\", \"ball0ts\", \"balotz\", \"ball0tz\"]\n    },\n    {\n      \"token\": \"stream\",\n      \"typos\": [\"strem\", \"streem\", \"strm\", \"stre@m\", \"strem\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1341",
+      "Trump supporters: \"Stop the vote!\" Also Trump supporters: \"Count that vote!\" #election2020",
+      "U.S. President Trump's supporters can be heard chanting \"stop the count\" in one video and \"count the vote\" in another.",
+      "[\"#election2020\", \"Trump\"]",
+      "[\"supporters\", \"vote\", \"Count\", \"supporters\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Trump\",\n      \"typos\": [\"Trmp\", \"Truup\", \"Tru_mp\", \"Tump\", \"Truump\"]\n    },\n    {\n      \"token\": \"#election2020\",\n      \"typos\": [\"#electn2020\", \"#el3ction2020\", \"#elektion2020\", \"#election20twenty\", \"#elction2020\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1342",
+      "We don\u2019t want to have a recount in any of the battleground states. Obama will steal it. Make sure all your friends and family vote.",
+      "In 2012 Donald Trump tweeted, \"We don\u2019t want to have a recount in any of the battleground states. Obama will steal it.\"",
+      "[\"battleground\", \"vote\", \"have\"]",
+      "[\"Make\", \"don\\u2019t\", \"battleground\", \"Obama\", \"want\", \"have\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"battleground\",\n      \"typos\": [\"battleground\", \"battlegrond\", \"bttleground\", \"battlegroung\"]\n    },\n    {\n      \"token\": \"vote\",\n      \"typos\": [\"vote\", \"vot\", \"v0te\", \"votee\"]\n    },\n    {\n      \"token\": \"have\",\n      \"typos\": [\"have\", \"hav\", \"hve\", \"h@ve\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1343",
+      "ARE MAIL IN BALLOTS BEING MODIFIED AS WE SPEAK IN CORRUPT DEM DISTRICTS? have you heard about Dems distributing sharpie pens to Trump voters and then invalidating their ballots?",
+      "Arizona polling places gave out Sharpie pens to Trump supporters, use of which invalidated their ballots.",
+      "[\"CORRUPT\", \"ballots\", \"pens\", \"SPEAK\"]",
+      "[\"SPEAK\", \"Dems\", \"MAIL\", \"sharpie\", \"BEING\", \"BALLOTS\", \"MODIFIED\", \"DISTRICTS\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"CORRUPT\",\n      \"typos\": [\"CORRPT\", \"CURRUPT\", \"CORUPT\", \"CORRUPTED\", \"CORRPTD\"]\n    },\n    {\n      \"token\": \"ballots\",\n      \"typos\": [\"balots\", \"ballotz\", \"balots\", \"balloets\", \"ballots\"]\n    },\n    {\n      \"token\": \"pens\",\n      \"typos\": [\"pns\", \"penz\", \"pns\", \"penz\", \"pns\"]\n    },\n    {\n      \"token\": \"SPEAK\",\n      \"typos\": [\"SPAEK\", \"SPEK\", \"SPAK\", \"SPEEK\", \"SPAEK\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1344",
+      "AZ update: apparently the use of sharpie pens in gop precincts is causing ballots to be invalidated. Could be huge numbers of mostly Trump supporters. More to come",
+      "Arizona polling places gave out Sharpie pens to Trump supporters, use of which invalidated their ballots.",
+      "[\"Could\", \"huge\", \"numbers\"]",
+      "[\"apparently\", \"mostly\", \"invalidated\", \"huge\", \"More\", \"update\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Could\",\n      \"typos\": [\"Cud\", \"Cd\", \"Could\"]\n    },\n    {\n      \"token\": \"huge\",\n      \"typos\": [\"hugh\", \"huge\", \"big\"]\n    },\n    {\n      \"token\": \"numbers\",\n      \"typos\": [\"numbrs\", \"numbers\", \"numbz\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1345",
+      "Batches of ballots are being uploaded. 100% for Joe Biden. Massive #\u2019s of ballots being invalidated in AZ as Trump supporters were told to use Sharpies. This isn\u2019t democracy. We are being ruled over.",
+      "Arizona polling places gave out Sharpie pens to Trump supporters, use of which invalidated their ballots.",
+      "[\"being\", \"Biden\", \"Sharpies\", \"being\"]",
+      "[\"This\", \"ballots\", \"told\", \"ballots\", \"being\", \"uploaded\", \"ruled\", \"being\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"being\",\n      \"typos\": [\"bein\", \"bng\", \"beeing\"]\n    },\n    {\n      \"token\": \"Biden\",\n      \"typos\": [\"Bden\", \"Bidn\", \"Bdn\"]\n    },\n    {\n      \"token\": \"Sharpies\",\n      \"typos\": [\"Shrpies\", \"Sharpiez\", \"Sharpeez\"]\n    },\n    {\n      \"token\": \"being\",\n      \"typos\": [\"bein\", \"bng\", \"beeing\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1346",
+      "Lucky to be alive: an Avila Beach woman says she is okay after a whale capsized her kayak (shown here). Hear from her and tips for staying safe out on the water tonight at 10&11. (Video: Kellie Balentine) ",
+      "A video shows a large humpback whale swallowing a kayaker.",
+      "[\"Lucky\", \"okay\", \"woman\", \"capsized\"]",
+      "[\"whale\", \"from\", \"Avila\", \"10&11\", \"Video\", \"woman\", \"tips\", \"safe\", \"here\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Lucky\",\n      \"typos\": [\"Lukcy\", \"Luky\", \"Lukey\"]\n    },\n    {\n      \"token\": \"okay\",\n      \"typos\": [\"ok\", \"k\", \"okkay\"]\n    },\n    {\n      \"token\": \"woman\",\n      \"typos\": [\"womman\", \"womn\", \"womyn\"]\n    },\n    {\n      \"token\": \"capsized\",\n      \"typos\": [\"capsizedd\", \"capzied\", \"capsed\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1347",
+      "Here is another angle of the whale breaching with the kayak seemingly in its mouth. The woman who took this video tells me she was filming the whale in the distance and next she knew, the whale emerged trying to get the fish around the kayak (Video: Mandy Boyle) ",
+      "A video shows a large humpback whale swallowing a kayaker.",
+      "[\"around\", \"Video\", \"took\", \"filming\", \"video\"]",
+      "[\"angle\", \"knew\", \"distance\", \"fish\", \"woman\", \"next\", \"another\", \"whale\", \"around\", \"video\", \"Mandy\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"around\",\n      \"typos\": [\"arnd\", \"aroud\", \"aroun\", \"aronud\"]\n    },\n    {\n      \"token\": \"Video\",\n      \"typos\": [\"Vid\", \"Vdo\", \"Vdeo\", \"Vidio\"]\n    },\n    {\n      \"token\": \"took\",\n      \"typos\": [\"tookk\", \"tok\", \"t00k\", \"tooke\"]\n    },\n    {\n      \"token\": \"filming\",\n      \"typos\": [\"filmng\", \"filmin\", \"fliming\", \"filmimg\"]\n    },\n    {\n      \"token\": \"video\",\n      \"typos\": [\"vid\", \"vdo\", \"vdeo\", \"vidio\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1348",
+      "Biden: \"I had a job with a nice country club kind of pool as a lifeguard .. I played ball with a lot of great black athletes but I didn\u2019t know them. I mean, we knew each other. They were friends. But I didn\u2019t know them. And it was a great education. It was like the Green Mile.\"",
+      "In a Nov. 3, 2020 interview with reporters in Wilmington, Delaware, U.S. Democratic presidential candidate Joe Biden likened his experiences playing ball with Black athletes to Stephen King\u2019s Green Mile.",
+      "[\"played\", \"with\", \"them\", \"great\", \"other\", \"know\"]",
+      "[\"They\", \"Mile\", \"knew\", \"know\", \"ball\", \"Biden\", \"athletes\", \"kind\", \"club\", \"them\", \"like\", \"them\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"played\",\n      \"typos\": [\"plaid\", \"playd\", \"pled\", \"pl@yed\"]\n    },\n    {\n      \"token\": \"with\",\n      \"typos\": [\"wth\", \"wit\", \"w/\", \"wid\"]\n    },\n    {\n      \"token\": \"them\",\n      \"typos\": [\"thm\", \"dem\", \"em\", \"th3m\"]\n    },\n    {\n      \"token\": \"great\",\n      \"typos\": [\"gr8\", \"grate\", \"grt\", \"gret\"]\n    },\n    {\n      \"token\": \"other\",\n      \"typos\": [\"othr\", \"otter\", \"oth3r\", \"otr\"]\n    },\n    {\n      \"token\": \"know\",\n      \"typos\": [\"no\", \"knw\", \"kno\", \"n0\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1349",
+      "I\u2019m so ready for today!!! Ladies don\u2019t forget your pearls today In honor of RBG! \ud83d\udc99\ud83d\udc99\ud83d\udc99\ud83d\udc99\ud83d\udc99\ud83d\udc99\ud83d\udc99\ud83d\udc99\ud83d\udc99 #BidenHarris2020 #vote",
+      "In the days leading up to the 2020 general election, social media users encouraged one another to wear pearls in honor of Democratic vice-presidential candidate Kamala Harris, not the late Justice Ruth Bader Ginsburg.",
+      "[\"Ladies\", \"today\"]",
+      "[\"your\", \"BidenHarris2020\", \"pearls\", \"#vote\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Ladies\",\n      \"typos\": [\"Ladiez\", \"Ladiezz\", \"Ladi3s\", \"Ladz\"]\n    },\n    {\n      \"token\": \"today\",\n      \"typos\": [\"2day\", \"t0day\", \"todai\", \"tdy\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1350",
+      "You know it\u2019s going to be a landslide when the Amish start to rally and create their own Trump Train \ud83d\ude0e\ud83c\uddfa\ud83c\uddf8",
+      "Photos and videos show members of the Amish community displaying their support for U.S. President Donald Trump.",
+      "[\"Train\", \"know\"]",
+      "[\"rally\", \"Trump\", \"know\", \"start\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Train\",\n      \"typos\": [\n        \"Trane\",\n        \"Trian\",\n        \"Trein\",\n        \"Train\",\n        \"Trn\"\n      ]\n    },\n    {\n      \"token\": \"know\",\n      \"typos\": [\n        \"knw\",\n        \"nowno\",\n        \"knwo\",\n        \"knoe\",\n        \"know\"\n      ]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1351",
+      "You don\u2019t \ud83d\udc4f\ud83c\udffe have to \ud83d\udc4f\ud83c\udffe be registered \ud83d\udc4f\ud83c\udffe to go vote\ud83d\udc4f\ud83c\udffe in Minnesota \ud83d\udc4f\ud83c\udffe we have \ud83d\udc4f\ud83c\udffe same day \ud83d\udc4f\ud83c\udffe registration \ud83d\udc4f\ud83c\udffe so you \ud83d\udc4f\ud83c\udffe can register \ud83d\udc4f\ud83c\udffe at the polls \ud83d\udc4f\ud83c\udffe\ud83d\udc4f\ud83c\udffe",
+      "U.S. Rep. Ilhan Omar said Minnesota residents can vote without registering.",
+      "[\"register\", \"registration\"]",
+      "[\"polls\", \"vote\\ud83d\\udc4f\\ud83c\\udffe\", \"register\", \"don\\u2019t\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"register\",\n      \"typos\": [\"rgister\", \"regster\", \"registar\", \"registerr\", \"r3gister\", \"rgstr\"]\n    },\n    {\n      \"token\": \"registration\",\n      \"typos\": [\"registrtion\", \"regstration\", \"regestration\", \"registratn\", \"registrtion\", \"r3gistration\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1352",
+      "Real or fake? Hunter Biden Has Flipped, Biden Family $300 Million Stash In Switzerland\u2026 Rudy Guiliani Freestyles One Of Greatest Speeches Ever, A Summary Of Joe Biden's 30 Year Crime Spree, Saying Joe Biden Is \"The Prince Of Darkness\"!! | Alternative",
+      "Joe Biden's son, Hunter, turned himself in to the FBI and \"flipped\" on his father.",
+      "[\"Speeches\", \"Biden's\", \"Saying\", \"Flipped\", \"Hunter\"]",
+      "[\"Saying\", \"Million\", \"Guiliani\", \"Biden\", \"Biden\", \"Rudy\", \"Ever\", \"Spree\", \"Real\", \"fake\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Speeches\",\n      \"typos\": [\"Speechez\", \"Speaches\"]\n    },\n    {\n      \"token\": \"Biden's\",\n      \"typos\": [\"Biddens\", \"Bidens\"]\n    },\n    {\n      \"token\": \"Saying\",\n      \"typos\": [\"Sayin\", \"Saing\"]\n    },\n    {\n      \"token\": \"Flipped\",\n      \"typos\": [\"Flipt\", \"Flipd\"]\n    },\n    {\n      \"token\": \"Hunter\",\n      \"typos\": [\"Huntter\", \"Huntre\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1353",
+      "I heard Hunter Biden turned himself in to FBI on the 28th and flipped on pops. Spilled his guts for no charges and was put into a treatment center. Have you heard anything about that?",
+      "Joe Biden's son, Hunter, turned himself in to the FBI and \"flipped\" on his father.",
+      "[\"into\", \"heard\", \"charges\"]",
+      "[\"heard\", \"Biden\", \"28th\", \"into\", \"charges\", \"flipped\", \"center\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"into\",\n      \"typos\": [\"in2\", \"in to\", \"nto\"]\n    },\n    {\n      \"token\": \"heard\",\n      \"typos\": [\"herd\", \"hurd\", \"h3ard\"]\n    },\n    {\n      \"token\": \"charges\",\n      \"typos\": [\"chargs\", \"chargz\", \"chrages\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1354",
+      "Hunter Biden has flipped?",
+      "Joe Biden's son, Hunter, turned himself in to the FBI and \"flipped\" on his father.",
+      "[]",
+      "[\"flipped\"]",
+      "{\n  \"typo_tokens\": []\n}"
+    ],
+    [
+      "tweet-sno-1355",
+      "14/n Reportedly #HunterBiden has flipped",
+      "Joe Biden's son, Hunter, turned himself in to the FBI and \"flipped\" on his father.",
+      "[]",
+      "[\"14/n\"]",
+      "{\n\"typo_tokens\": []\n}"
+    ],
+    [
+      "tweet-sno-1356",
+      "Biden turned himself in!",
+      "Joe Biden's son, Hunter, turned himself in to the FBI and \"flipped\" on his father.",
+      "[]",
+      "[\"himself\"]",
+      "{\n  \"typo_tokens\": []\n}\n\n"
+    ],
+    [
+      "tweet-sno-1357",
+      "Biden campaign cancels Austin rally; Armed Trump supporters reportedly harass campaign bus, ramming volunteer vehicles & blocking traffic. \"At least the Trump hearse is appropriate given the 200K+ Americans who have died due to his incompetence.\u201d #VoteBlueToEndTheNightmare",
+      "Armed supporters of U.S. President Donald Trump harassed a Biden-Harris campaign bus in Texas, leading to the cancellation of three campaign events and a news conference.",
+      "[\"VoteBlueToEndTheNightmare\", \"supporters\", \"vehicles\", \"incompetence\", \"ramming\"]",
+      "[\"appropriate\", \"Biden\", \"have\", \"died\", \"supporters\", \"hearse\", \"campaign\", \"Austin\", \"traffic\", \"harass\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"VoteBlueToEndTheNightmare\",\n      \"typos\": [\"VoteBlu2EndTheNightmare\", \"V0teBlueToEndTheNightmare\", \"VoteBlueToEndTheNightmaree\"]\n    },\n    {\n      \"token\": \"supporters\",\n      \"typos\": [\"suporters\", \"supp0rters\", \"supoorters\"]\n    },\n    {\n      \"token\": \"vehicles\",\n      \"typos\": [\"vehic1es\", \"v3hicles\", \"vehikles\"]\n    },\n    {\n      \"token\": \"incompetence\",\n      \"typos\": [\"incomp3tence\", \"incompetense\", \"incompetnce\"]\n    },\n    {\n      \"token\": \"ramming\",\n      \"typos\": [\"raming\", \"ramm1ng\", \"rammin\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1358",
+      "See all these pickup trucks with Trump flags? They were sitting along I-35, waiting to ambush the Biden/Harris campaign bus as it traveled from San Antonio to Austin. 2/",
+      "Armed supporters of U.S. President Donald Trump harassed a Biden-Harris campaign bus in Texas, leading to the cancellation of three campaign events and a news conference.",
+      "[\"Antonio\", \"were\", \"flags\"]",
+      "[\"campaign\", \"Trump\", \"pickup\", \"flags\", \"Antonio\", \"ambush\", \"sitting\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Antonio\",\n      \"typos\": [\"Ant0nio\", \"Antoni0\", \"Antnio\", \"Antonio.\"]\n    },\n    {\n      \"token\": \"were\",\n      \"typos\": [\"wre\", \"wer\", \"w3re\", \"wer.\"]\n    },\n    {\n      \"token\": \"flags\",\n      \"typos\": [\"flagz\", \"fl4gs\", \"flaggs\", \"fl@gs\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1359",
+      "These Trump supporters, many of whom were armed, surrounded the bus on the interstate and attempted to drive it off the road. They outnumbered police 50-1, and they ended up hitting a staffer\u2019s car. 3/",
+      "Armed supporters of U.S. President Donald Trump harassed a Biden-Harris campaign bus in Texas, leading to the cancellation of three campaign events and a news conference.",
+      "[\"Trump\", \"were\", \"surrounded\"]",
+      "[\"staffer\\u2019s\", \"ended\", \"outnumbered\", \"drive\", \"armed\", \"many\", \"interstate\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Trump\",\n      \"typos\": [\"Trmp\", \"Truump\", \"Trup\", \"Tump\", \"Trumpf\"]\n    },\n    {\n      \"token\": \"were\",\n      \"typos\": [\"wer\", \"where\", \"wre\", \"weree\", \"we're\"]\n    },\n    {\n      \"token\": \"surrounded\",\n      \"typos\": [\"surounded\", \"surronded\", \"sorrounded\", \"surrouned\", \"surroundd\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1360",
+      "As the Biden bus rolled down 11th street toward I-35, Trump supporters scrambled to their trucks to follow it. ",
+      "Armed supporters of U.S. President Donald Trump harassed a Biden-Harris campaign bus in Texas, leading to the cancellation of three campaign events and a news conference.",
+      "[\"their\", \"street\"]",
+      "[\"street\", \"scrambled\", \"supporters\", \"toward\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"their\",\n      \"typos\": [\"there\", \"they're\", \"ther\", \"thier\"]\n    },\n    {\n      \"token\": \"street\",\n      \"typos\": [\"st\", \"strt\", \"strete\", \"streets\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1361",
+      "These people should be arrested for plotting to kill Biden by running him off the road. This is a violent right wing mob with weapons chasing Biden.",
+      "Armed supporters of U.S. President Donald Trump harassed a Biden-Harris campaign bus in Texas, leading to the cancellation of three campaign events and a news conference.",
+      "[\"chasing\", \"weapons\", \"road\"]",
+      "[\"kill\", \"chasing\", \"right\", \"weapons\", \"arrested\", \"Biden\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"chasing\",\n      \"typos\": [\"chasin\", \"chasng\", \"chsing\", \"pursuin\"]\n    },\n    {\n      \"token\": \"weapons\",\n      \"typos\": [\"wepons\", \"weapns\", \"wepns\", \"arms\"]\n    },\n    {\n      \"token\": \"road\",\n      \"typos\": [\"rd\", \"roud\", \"rood\", \"path\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1362",
+      "The legendary actor, 007 Sean Connery, has past on to even greener fairways. He was quite a guy, and a tough character. I was having a very hard time getting approvals for a big development in Scotland when Sean stepped in and shouted,\u201cLet him build the damn thing\u201d. That was\u2026.",
+      "Actor Sean Connery was instrumental in helping Donald Trump secure approval for a controversial golf course development in Scotland.",
+      "[\"thing\", \"time\", \"actor\", \"even\", \"build\"]",
+      "[\"legendary\", \"thing\", \"hard\", \"Sean\", \"getting\", \"That\", \"character\", \"past\", \"greener\", \"development\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"thing\",\n      \"typos\": [\"thng\", \"thng\", \"thng\", \"thng\", \"thingy\"]\n    },\n    {\n      \"token\": \"time\",\n      \"typos\": [\"tym\", \"tiime\", \"tme\", \"tiime\", \"tym\"]\n    },\n    {\n      \"token\": \"actor\",\n      \"typos\": [\"actr\", \"acotr\", \"actr\", \"actr\", \"actor\"]\n    },\n    {\n      \"token\": \"even\",\n      \"typos\": [\"evn\", \"evn\", \"evn\", \"evn\", \"evenn\"]\n    },\n    {\n      \"token\": \"build\",\n      \"typos\": [\"buld\", \"biuld\", \"bild\", \"biuld\", \"bld\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1363",
+      " please tell me why you are sold out of the Mexican Pizza at All locations?",
+      "Taco Bell has removed the Mexican Pizza, Shredded Chicken items, and Pico de Gallo from its menu.",
+      "[\"Mexican\"]",
+      "[\"sold\", \"locations\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Mexican\",\n      \"typos\": [\"Mexcan\", \"Mexian\", \"Mexcian\", \"Mexicen\", \"Mexcn\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1364",
+      " why are you taking away the Mexican pizza??? \ud83d\ude2d\ud83d\ude2d #bringbackthemexicanpizza",
+      "Taco Bell has removed the Mexican Pizza, Shredded Chicken items, and Pico de Gallo from its menu.",
+      "[\"away\"]",
+      "[\"pizza\", \"Mexican\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"away\",\n      \"typos\": [\"aawy\", \"awya\", \"awai\", \"awy\", \"awaay\", \"awyay\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1365",
+      " Is the Mexican Pizza gone? Please say it ain\u2019t so \ud83d\ude29 #savethemexicanpizza",
+      "Taco Bell has removed the Mexican Pizza, Shredded Chicken items, and Pico de Gallo from its menu.",
+      "[\"ain\\u2019t\"]",
+      "[\"savethemexicanpizza\", \"Mexican\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"ain\u2019t\",\n      \"typos\": [\"ain't\", \"aint\", \"ain\u2019\", \"aint'\", \"ain\u2018t\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1366",
+      "Is taco bell still selling the mexican pizza?",
+      "Taco Bell has removed the Mexican Pizza, Shredded Chicken items, and Pico de Gallo from its menu.",
+      "[\"selling\"]",
+      "[\"bell\", \"pizza\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"selling\",\n      \"typos\": [\"seeling\", \"sellin\", \"seling\", \"sellng\", \"slling\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1367",
+      "TheMexican Pizza is already gone?!?",
+      "Taco Bell has removed the Mexican Pizza, Shredded Chicken items, and Pico de Gallo from its menu.",
+      "[]",
+      "[\"Pizza\"]",
+      "{\n  \"typo_tokens\": []\n}"
+    ],
+    [
+      "tweet-sno-1368",
+      "idk how much more i can take\u2026 cheesecake factory closing its doors and tb ousting the mexican pizza.",
+      "The Cheesecake Factory is closing all of its restaurants for good.",
+      "[\"closing\", \"factory\"]",
+      "[\"more\", \"much\", \"factory\", \"ousting\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"closing\",\n      \"typos\": [\"clozing\", \"closin\", \"cl0sing\", \"clozin\", \"closng\"]\n    },\n    {\n      \"token\": \"factory\",\n      \"typos\": [\"facktory\", \"fact0ry\", \"faktory\", \"factoryy\", \"factry\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1369",
+      "I thought 2020 was bad but now they\u2019re closing all of the cheesecake factory\u2019s and that really put the icing on the cake. I\u2019m done. I\u2019m sad.",
+      "The Cheesecake Factory is closing all of its restaurants for good.",
+      "[\"factory\\u2019s\", \"cake\"]",
+      "[\"they\\u2019re\", \"cheesecake\", \"2020\", \"done\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"factory\u2019s\",\n      \"typos\": [\"factorys\", \"factorees\", \"facktory\u2019s\"]\n    },\n    {\n      \"token\": \"cake\",\n      \"typos\": [\"kake\", \"cak\", \"kakee\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1370",
+      "Just read that the \u201cCheesecake Factory\u201d is closing permanently. Every business that has had to close down can contribute it to Trump and the GOP. They have had basically no support or stimulus from these stingy bastards because they don\u2019t care.",
+      "The Cheesecake Factory is closing all of its restaurants for good.",
+      "[\"stimulus\", \"don\\u2019t\", \"Trump\", \"because\", \"closing\"]",
+      "[\"Just\", \"that\", \"read\", \"closing\", \"don\\u2019t\", \"stimulus\", \"from\", \"stingy\", \"close\", \"these\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"stimulus\",\n      \"typos\": [\"stimulas\", \"stimlous\", \"stimuls\"]\n    },\n    {\n      \"token\": \"don\u2019t\",\n      \"typos\": [\"dont\", \"dnt\", \"do'nt\"]\n    },\n    {\n      \"token\": \"Trump\",\n      \"typos\": [\"Trmp\", \"Truump\", \"Truump\"]\n    },\n    {\n      \"token\": \"because\",\n      \"typos\": [\"becuz\", \"bcause\", \"bcos\"]\n    },\n    {\n      \"token\": \"closing\",\n      \"typos\": [\"clsing\", \"clsoing\", \"closng\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1371",
+      "Cheesecake factory is closing for good.",
+      "The Cheesecake Factory is closing all of its restaurants for good.",
+      "[]",
+      "[\"good\"]",
+      "{\n  \"typo_tokens\": []\n}"
+    ],
+    [
+      "tweet-sno-1372",
+      "wow they are closing the cheesecake factory down for good.",
+      "The Cheesecake Factory is closing all of its restaurants for good.",
+      "[\"good\"]",
+      "[\"down\", \"closing\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"good\",\n      \"typos\": [\"gud\", \"g00d\", \"go0d\", \"gd\", \"goood\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1373",
+      "can\u2019t believe the cheesecake factory closing \ud83d\ude22",
+      "The Cheesecake Factory is closing all of its restaurants for good.",
+      "[\"believe\"]",
+      "[\"can\\u2019t\", \"factory\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"believe\",\n      \"typos\": [\"beleive\", \"believ\", \"beli3ve\", \"beleeve\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1374",
+      "The Cheesecake Factory is closing all of their restaurants for good. _LQ I thought you should know this lol",
+      "The Cheesecake Factory is closing all of its restaurants for good.",
+      "[\"Factory\", \"their\"]",
+      "[\"closing\", \"good\", \"should\", \"know\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Factory\",\n      \"typos\": [\"Factry\", \"Fctory\", \"Facotry\", \"Facktory\", \"F@ctory\"]\n    },\n    {\n      \"token\": \"their\",\n      \"typos\": [\"there\", \"thier\", \"ther\", \"they're\", \"thar\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1375",
+      "Not Cheesecake Factory closing for good \u2639\ufe0f",
+      "The Cheesecake Factory is closing all of its restaurants for good.",
+      "[]",
+      "[\"closing\"]",
+      "{\n  \"typo_tokens\": []\n}"
+    ],
+    [
+      "tweet-sno-1376",
+      "Per your tweet, you deleted the congratulatory Amy Coney Barrett tweet because it was \"viewed as a political and partisan\" and theis \"nonpolitical\" but this tweet tohasn't been deleted. \ud83e\udd14 #progressiveprivilege",
+      "A now-deleted tweet was shared by the Girl Scouts of the United States of America on Oct. 28, 2020, congratulating Barrett on \u201cbecoming the fifth woman appointed to the Supreme Court since its inception in 1789.\u201d",
+      "[\"tweet\", \"political\", \"your\"]",
+      "[\"deleted\", \"tohasn't\", \"nonpolitical\", \"congratulatory\", \"theis\", \"your\", \"this\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"tweet\",\n      \"typos\": [\"twet\", \"tweeet\", \"twet\", \"twit\"]\n    },\n    {\n      \"token\": \"political\",\n      \"typos\": [\"poltical\", \"polticl\", \"p0litical\", \"poltcl\"]\n    },\n    {\n      \"token\": \"your\",\n      \"typos\": [\"ur\", \"yor\", \"yuor\", \"u\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1377",
+      "The whole \u201cshe wore clothes in a magazine, let\u2019s pretend they\u2019re hers\u201d gimmick is the classic Republican strategy of \u201clet\u2019s willfully act stupid, and if the public doesn\u2019t take our performative stupidity seriously then we\u2019ll claim bias.\u201d GOP, get yourselves together. It\u2019s sad.",
+      "U.S. Rep. Alexandria Ocasio-Cortez called Republicans \u201csad\u201d and \u201cstupid\u201d after conservatives criticized her for wearing expensive outfits costing $14,000 for a December 2020 Vanity Fair story.",
+      "[\"clothes\", \"performative\", \"willfully\", \"let\\u2019s\", \"It\\u2019s\"]",
+      "[\"strategy\", \"Republican\", \"yourselves\", \"clothes\", \"let\\u2019s\", \"stupid\", \"let\\u2019s\", \"doesn\\u2019t\", \"together\", \"gimmick\", \"they\\u2019re\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"clothes\",\n      \"typos\": [\"cloths\", \"clohtes\", \"clozes\"]\n    },\n    {\n      \"token\": \"performative\",\n      \"typos\": [\"performitive\", \"performativ\", \"peformative\"]\n    },\n    {\n      \"token\": \"willfully\",\n      \"typos\": [\"wilfully\", \"willfuly\", \"wilfuly\"]\n    },\n    {\n      \"token\": \"let\u2019s\",\n      \"typos\": [\"letz\", \"lets\", \"lez\"]\n    },\n    {\n      \"token\": \"It\u2019s\",\n      \"typos\": [\"Its\", \"Itz\", \"Itts\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1378",
+      "Trump is calling for the assassination of his political opponent.",
+      "In a speech on Oct. 27, 2020, U.S. President Donald Trump called for the assassination of Joe Biden.",
+      "[\"Trump\"]",
+      "[\"opponent\", \"assassination\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Trump\",\n      \"typos\": [\"Trum\", \"Trunp\", \"Truump\", \"Drump\", \"Tump\", \"Trmp\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1379",
+      "Joe Biden brags about having \u201cthe most extensive and inclusive voter fraud organization in the history of American politics\u201d",
+      "In October 2020, Joe Biden admitted to perpetrating voter fraud.",
+      "[\"voter\", \"most\"]",
+      "[\"having\", \"American\", \"most\", \"Biden\", \"politics\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"voter\",\n      \"typos\": [\"votr\", \"voetr\", \"voteer\", \"votter\"]\n    },\n    {\n      \"token\": \"most\",\n      \"typos\": [\"mst\", \"moost\", \"mst\", \"m0st\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1380",
+      "We are not prepared for a pandemic. Trump has rolled back progress President Obama and I made to strengthen global health security. We need leadership that builds public trust, focuses on real threats, and mobilizes the world to stop outbreaks before they reach our shores.",
+      "Joe Biden tweeted several weeks before the COVID-19 outbreak began that \"We are not prepared for a pandemic.\"",
+      "[\"progress\", \"strengthen\", \"builds\", \"leadership\", \"pandemic\", \"Obama\"]",
+      "[\"shores\", \"trust\", \"made\", \"security\", \"global\", \"rolled\", \"back\", \"stop\", \"they\", \"outbreaks\", \"focuses\", \"threats\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"progress\",\n      \"typos\": [\"progres\", \"progess\", \"progresz\", \"progresse\"]\n    },\n    {\n      \"token\": \"strengthen\",\n      \"typos\": [\"strenghten\", \"strenthen\", \"strenghthen\", \"strengtheen\"]\n    },\n    {\n      \"token\": \"builds\",\n      \"typos\": [\"bilds\", \"buils\", \"biulds\", \"blds\"]\n    },\n    {\n      \"token\": \"leadership\",\n      \"typos\": [\"ledership\", \"ladrship\", \"leadrship\", \"leadershp\"]\n    },\n    {\n      \"token\": \"pandemic\",\n      \"typos\": [\"pandemik\", \"pandmik\", \"pndmic\", \"pandmec\"]\n    },\n    {\n      \"token\": \"Obama\",\n      \"typos\": [\"Obmaa\", \"Obma\", \"Obm\", \"Obmaaa\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1381",
+      "As recently as last month, Webster\u2019s Dictionary included a definition of \u201cpreference\u201d as \u201corientation\u201d or \u201csexual preference.\u201d TODAY they changed it and added the word \u201coffensive.\" Insane \u2013 I just checked through Wayback Machine and it\u2019s real. (via&)",
+      "Merriam-Webster updated its definition and usage guidelines of the term \"sexual preference\" to say its use is \"offensive\" after the Oct. 13, 2020, confirmation hearing of Judge Amy Coney Barrett, U.S. President Donald Trump\u2019s pick for the Supreme Court.",
+      "[\"through\", \"it\\u2019s\", \"Webster\\u2019s\", \"preference\", \"sexual\"]",
+      "[\"Insane\", \"Machine\", \"month\", \"via&\", \"offensive\", \"real\", \"recently\", \"through\", \"preference\", \"they\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"through\",\n      \"typos\": [\"thru\", \"thro\", \"thrgh\", \"trough\"]\n    },\n    {\n      \"token\": \"it\u2019s\",\n      \"typos\": [\"its\", \"it is\", \"it's\", \"itss\"]\n    },\n    {\n      \"token\": \"Webster\u2019s\",\n      \"typos\": [\"Websters\", \"Websterz\", \"Wbstr\u2019s\", \"Webste\u2019s\"]\n    },\n    {\n      \"token\": \"preference\",\n      \"typos\": [\"pref\", \"prefrence\", \"prefence\", \"preferencee\"]\n    },\n    {\n      \"token\": \"sexual\",\n      \"typos\": [\"sxual\", \"sexul\", \"sexxual\", \"sexal\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1382",
+      "Well where was the dignity and respect of Black Americans or in your words\"Niggers\" when you made this statement? Democrats this is YOUR nominee for President of the United States andendorsed this scoundrel! Explain this please!",
+      "Joe Biden used racial slurs in referring to Black people during a Senate committee hearing in 1985.",
+      "[\"this\", \"Explain\", \"United\", \"this\", \"dignity\"]",
+      "[\"statement\", \"Black\", \"this\", \"Democrats\", \"States\", \"this\", \"this\", \"YOUR\", \"this\", \"when\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"this\",\n      \"typos\": [\"dis\", \"ths\", \"tis\"]\n    },\n    {\n      \"token\": \"Explain\",\n      \"typos\": [\"Xplain\", \"explan\", \"explane\"]\n    },\n    {\n      \"token\": \"United\",\n      \"typos\": [\"Untied\", \"Unitted\", \"Uknited\"]\n    },\n    {\n      \"token\": \"dignity\",\n      \"typos\": [\"dignite\", \"dignaty\", \"dignnity\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1383",
+      "Uhhhhh look at this picture of Mitch McConnell's hands thatfound on AP",
+      "An AP-distributed photograph shows Senate Majority Leader Mitch McConnell's hands looking bruised and discolored.",
+      "[\"hands\"]",
+      "[\"picture\", \"hands\", \"Mitch\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"hands\",\n      \"typos\": [\"handz\", \"hnds\", \"hannds\", \"h@nds\", \"handz\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1384",
+      "A nurse who has gained national attention for her service was arrested for shooting someone. The latest on this wild story:",
+      "Amy Thorn, a West Virginia nurse who spoke at the Republican National Convention in August 2020, was charged with shooting a woman in the stomach in October 2020.",
+      "[\"someone\", \"nurse\"]",
+      "[\"service\", \"nurse\", \"someone\", \"wild\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"someone\",\n      \"typos\": [\"some1\", \"smeone\", \"sumone\", \"some1ne\", \"someonee\"]\n    },\n    {\n      \"token\": \"nurse\",\n      \"typos\": [\"nrs\", \"nurze\", \"nursee\", \"nursee\", \"nurz\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1385",
+      "Joe Biden surrogate Jane Fonda calls coronavirus \"God's gift to the Left.\"",
+      "In October 2020, actress Jane Fonda said the COVID-19 coronavirus pandemic was \"God's gift to the Left.\"",
+      "[\"calls\"]",
+      "[\"coronavirus\", \"surrogate\", \"calls\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"calls\",\n      \"typos\": [\"callz\", \"callz'\", \"calz\", \"c@lls\", \"calls'\", \"callz\", \"callz\", \"called\", \"callin'\", \"callin\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1386",
+      "Joe Biden and Kamala Harris BOTH want to BAN FRACKING.",
+      "In the 2020 presidential election, Democratic candidate Joe Biden's policy on fracking was to ban it outright.",
+      "[\"want\"]",
+      "[\"want\", \"Biden\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"want\",\n      \"typos\": [\"wnt\", \"wntt\", \"wann\", \"wanna\", \"wnt2\", \"wnt2\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1387",
+      "10/13/60: \"Unlike the first two programs, however, the two candidates will not be sharing same platform. In New York\u2026John F. Kennedy separated by 3,000 miles in a Los Angeles studio\u2026Richard Nixon. Now joined for tonight's discussion by network of electronic facilities\u2026\"",
+      "U.S. presidential candidates John F. Kennedy and Richard Nixon participated in a virtual debate in 1960.",
+      "[\"Nixon\", \"network\", \"studio\", \"facilities\", \"tonight's\"]",
+      "[\"facilities\", \"electronic\", \"Richard\", \"3,000\", \"will\", \"first\", \"10/13/60\", \"however\", \"tonight's\", \"Angeles\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Nixon\",\n      \"typos\": [\"Nix0n\", \"Nixn\", \"Nixon1\", \"Niixon\", \"Nixon.\", \"Nix0n\"]\n    },\n    {\n      \"token\": \"network\",\n      \"typos\": [\"netwrk\", \"netw0rk\", \"n3twork\", \"netwrck\", \"netwrk.\"]\n    },\n    {\n      \"token\": \"studio\",\n      \"typos\": [\"studi0\", \"stud!o\", \"stud1o\", \"studeo\", \"studioo\"]\n    },\n    {\n      \"token\": \"facilities\",\n      \"typos\": [\"faciliti3s\", \"facilitys\", \"facilitiez\", \"facilitees\", \"facilites\"]\n    },\n    {\n      \"token\": \"tonight's\",\n      \"typos\": [\"tonite's\", \"t0night's\", \"tonights\", \"2night's\", \"tonitez\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1388",
+      "The Rules: \"You will keep your mask on.\" Meanwhile, Karen Pence:",
+      "U.S. second lady Karen Pence did not wear a mask during the vice presidential debate in October 2020.",
+      "[\"your\"]",
+      "[\"mask\", \"Rules\", \"will\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"your\",\n      \"typos\": [\"ur\", \"youre\", \"yoor\", \"yer\", \"yur\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1389",
+      "A Trump sign was erected on the hillside along the 405 Freeway near the Sepulveda Pass. It\u2019s unclear who put it there \ud83d\udcf9: Sky5",
+      "A large \"TRUMP\" sign, similar to the iconic Hollywood sign, was erected near Los Angeles in October 2020.",
+      "[\"Freeway\", \"Trump\"]",
+      "[\"Sky5\", \"Trump\", \"there\", \"Freeway\", \"hillside\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Freeway\",\n      \"typos\": [\"frway\", \"freway\", \"freewy\"]\n    },\n    {\n      \"token\": \"Trump\",\n      \"typos\": [\"Trmp\", \"TruMp\", \"Trmmp\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1390",
+      "This is the Democrat nominee for VP instigating violent riots that have left multiple Americans dead: \"Everyone beware. They're not gonna stop before election day in November, and they're not gonna stop after election day\u2026 They\u2019re not gonna let up and they should not.\"",
+      "In a June 2020 interview, U.S. Democratic vice presidential candidate Kamala Harris said of the nationwide anti-police brutality protests: \u201cEveryone beware. They're not gonna stop before election day in November, and they're not gonna stop after election day ... They\u2019re not gonna let up, and they should not.\u201d",
+      "[\"nominee\", \"should\", \"have\", \"beware\", \"they're\"]",
+      "[\"They\\u2019re\", \"left\", \"beware\", \"November\", \"nominee\", \"instigating\", \"election\", \"should\", \"violent\", \"riots\", \"stop\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"nominee\",\n      \"typos\": [\"nomine\", \"nominie\", \"nomenee\", \"nominee\"]\n    },\n    {\n      \"token\": \"should\",\n      \"typos\": [\"shud\", \"shuld\", \"shoul\", \"shud\"]\n    },\n    {\n      \"token\": \"have\",\n      \"typos\": [\"hav\", \"hve\", \"hve\", \"hav\"]\n    },\n    {\n      \"token\": \"beware\",\n      \"typos\": [\"bewar\", \"bwear\", \"bware\", \"bware\"]\n    },\n    {\n      \"token\": \"they're\",\n      \"typos\": [\"theyre\", \"there\", \"they'r\", \"theyre\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1391",
+      "Joe Biden called Trump supporters the \"dregs of society.\" The idea that Biden is a unifier is a joke.",
+      "In a September 2018 speech, Joe Biden called Donald Trump's supporters \"the dregs of society.\"",
+      "[\"that\", \"supporters\"]",
+      "[\"Biden\", \"Trump\", \"dregs\", \"called\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"that\",\n      \"typos\": [\"tht\", \"dat\", \"tat\", \"tht\"]\n    },\n    {\n      \"token\": \"supporters\",\n      \"typos\": [\"supporterz\", \"suporters\", \"supportas\", \"supprters\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1392",
+      "Biden: \u2018I Was Able to Stay Sequestered\u2019 Thanks to \u2018Some Black Woman\u2019 Who Stocked Grocery Shelves",
+      "U.S. Democratic presidential candidate Joe Biden said that Americans were able to stay home during the COVID-19 pandemic because \"some Black woman was able to stack the grocery shelf.\"",
+      "[\"Some\", \"Black\"]",
+      "[\"Woman\", \"Thanks\", \"Able\", \"Shelves\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Some\",\n      \"typos\": [\"Sme\", \"Sum\", \"Som\", \"Sm\"]\n    },\n    {\n      \"token\": \"Black\",\n      \"typos\": [\"Blak\", \"Blk\", \"Blck\", \"Blaque\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1393",
+      "Was Andy McCabe ever forced to pay back the $700,000 illegally given to him and his wife, for his wife\u2019s political campaign, by Crooked Hillary Clinton while Hillary was under FBI investigation, and McCabe was the head of the FBI??? Just askin\u2019?",
+      "Hillary Clinton illegally donated $700,000 to the political campaign of the wife of the FBI director who was supervising the investigation into her use of a private email server.",
+      "[\"political\", \"forced\", \"campaign\", \"ever\"]",
+      "[\"wife\\u2019s\", \"askin\\u2019\", \"forced\", \"McCabe\", \"ever\", \"campaign\", \"Hillary\", \"under\", \"political\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"political\",\n      \"typos\": [\"polical\", \"politicl\", \"poltical\", \"poltikl\", \"poliitcal\"]\n    },\n    {\n      \"token\": \"forced\",\n      \"typos\": [\"forcd\", \"forrced\", \"forcced\", \"foced\", \"forsed\"]\n    },\n    {\n      \"token\": \"campaign\",\n      \"typos\": [\"campain\", \"campgn\", \"cmpaign\", \"cmpgn\", \"campagin\"]\n    },\n    {\n      \"token\": \"ever\",\n      \"typos\": [\"evr\", \"eveer\", \"evver\", \"eevr\", \"evar\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1394",
+      "I wonder if the BTS and TikTok kids can help LGBTs with this. What if gay guys took pictures of themselves making out with each other or doing very gay things, then tagged themselves with #ProudBoys . I bet it would mess them up real bad. #ReclaimingMyShine",
+      "Gay men reclaimed the hashtag #ProudBoys from the white supremacist organization of the same name in order to celebrate LBGTQ love.",
+      "[\"with\", \"themselves\", \"themselves\", \"kids\", \"them\"]",
+      "[\"then\", \"real\", \"making\", \"doing\", \"this\", \"ReclaimingMyShine\", \"LGBTs\", \"themselves\", \"with\", \"mess\", \"would\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"with\",\n      \"typos\": [\"wit\", \"w/\", \"wid\"]\n    },\n    {\n      \"token\": \"themselves\",\n      \"typos\": [\"themselfs\", \"thmslvs\", \"thsmslvz\"]\n    },\n    {\n      \"token\": \"kids\",\n      \"typos\": [\"kidz\", \"kidss\", \"kidds\"]\n    },\n    {\n      \"token\": \"them\",\n      \"typos\": [\"thm\", \"dem\", \"tm\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1395",
+      ".and I are joining thousands of gay men on social media to reclaim #ProudBoys from white supremacists and bigoted neo-nazis. Let\u2019s replace the hashtag with images of love, positivity, and true PRIDE! Your two favorite #ProudBoys are here standing by, ready to VOTE! \ud83c\udff3\ufe0f\u200d\ud83c\udf08\ud83d\uddf3",
+      "Gay men reclaimed the hashtag #ProudBoys from the white supremacist organization of the same name in order to celebrate LBGTQ love.",
+      "[\"here\", \"\\ud83c\\udff3\\ufe0f\\u200d\\ud83c\\udf08\", \"white\", \"PRIDE\", \"neo-nazis\"]",
+      "[\"neo-nazis\", \"Your\", \"white\", \"Let\\u2019s\", \"PRIDE\", \"ProudBoys\", \"\\ud83c\\udff3\\ufe0f\\u200d\\ud83c\\udf08\", \"replace\", \"hashtag\", \"media\", \"images\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"here\",\n      \"typos\": [\"hear\", \"heer\", \"hr\"]\n    },\n    {\n      \"token\": \"\ud83c\udff3\ufe0f\\t\ud83c\udf08\",\n      \"typos\": [\"\ud83c\udff3\ufe0f\u200d\ud83c\udf08\", \"rainbow_flag\", \"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f\"]\n    },\n    {\n      \"token\": \"white\",\n      \"typos\": [\"wite\", \"whit\", \"whyte\"]\n    },\n    {\n      \"token\": \"PRIDE\",\n      \"typos\": [\"PRYDE\", \"PRIDE\", \"PRYDE\"]\n    },\n    {\n      \"token\": \"neo-nazis\",\n      \"typos\": [\"neonazis\", \"neo nazis\", \"neo-nazi\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1396",
+      "Wow! Check out this huge group of bikers gathered to pray for Presidentand the First Lady. The country is behind you, Mr. President! \ud83c\uddfa\ud83c\uddf8",
+      "A video shows a group of bikers praying for U.S. President Donald Trump at Walter Reed National Military Medical Center.",
+      "[\"First\", \"huge\"]",
+      "[\"group\", \"Lady\", \"pray\", \"country\", \"bikers\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"First\",\n      \"typos\": [\"F1rst\", \"Furst\", \"Frst\", \"1st\"]\n    },\n    {\n      \"token\": \"huge\",\n      \"typos\": [\"hugh\", \"hugh\", \"hge\", \"huge\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1397",
+      "That \u201cdonate to help him recover\u201d email that\u2019s been going around looks fake to me.",
+      "The Trump campaign sent out a fundraiser email asking supporters to raise $421 million to help the president recover from COVID-19.",
+      "[\"help\", \"donate\"]",
+      "[\"email\", \"looks\", \"recover\", \"been\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"help\",\n      \"typos\": [\"helpp\", \"hlp\", \"hep\", \"h3lp\", \"hlep\"]\n    },\n    {\n      \"token\": \"donate\",\n      \"typos\": [\"d0nate\", \"don8\", \"donnate\", \"d0nnate\", \"donat\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1398",
+      "This reporter just exposed Kayleigh McEnany for lying about Amy Coney Barrett being a Rhodes Scholar. Barrett attended Rhodes College.",
+      "Judge Amy Coney Barrett is a Rhodes Scholar.",
+      "[\"Rhodes\", \"Scholar\", \"about\"]",
+      "[\"reporter\", \"McEnany\", \"College\", \"Barrett\", \"attended\", \"Coney\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"Rhodes\",\n      \"typos\": [\"Rodes\", \"Rhds\", \"Rhods\"]\n    },\n    {\n      \"token\": \"Scholar\",\n      \"typos\": [\"Scholr\", \"Schlr\", \"Schlar\"]\n    },\n    {\n      \"token\": \"about\",\n      \"typos\": [\"abou\", \"abot\", \"abt\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1399",
+      "New ininterview Q: Do you condemn Antifa? BIDEN: Yes, I do \u2014 violence, no matter who it is.",
+      "As of Sept. 29, 2020, Joe Biden had not condemned antifa.",
+      "[\"violence\"]",
+      "[\"Antifa\", \"condemn\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"violence\",\n      \"typos\": [\"violnce\", \"vi0lence\", \"vilence\", \"v1olence\", \"v!olence\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1400",
+      "Only three things happened tonight: 1. #DonaldTrump refused to condemn white supremacy. 2. The #POTUS refused to condemn white supremacy. 3. The #CommanderInChief REFUSED to condemn white supremacy on the GLOBAL STAGE. NOW LOOK AT WHAT IS HAPPENING ONLINE. THIS IS NOT OKAY.",
+      "During the Sept. 29, 2020, presidential debate, U.S. President Donald Trump \"refused\" to condemn white supremacists.",
+      "[\"supremacy\", \"condemn\", \"white\", \"LOOK\", \"white\"]",
+      "[\"white\", \"GLOBAL\", \"condemn\", \"DonaldTrump\", \"STAGE\", \"REFUSED\", \"#POTUS\", \"THIS\", \"refused\", \"HAPPENING\", \"condemn\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"supremacy\",\n      \"typos\": [\"supremecy\", \"supremecie\", \"supremcay\", \"supremcy\", \"sprmacy\"]\n    },\n    {\n      \"token\": \"condemn\",\n      \"typos\": [\"condem\", \"condemn\", \"condm\", \"condemn\", \"condemn\"]\n    },\n    {\n      \"token\": \"white\",\n      \"typos\": [\"wite\", \"whit\", \"whyte\", \"wihte\", \"whte\"]\n    },\n    {\n      \"token\": \"LOOK\",\n      \"typos\": [\"L00K\", \"LO0K\", \"LOK\", \"LOOK\", \"L0OK\"]\n    },\n    {\n      \"token\": \"white\",\n      \"typos\": [\"wite\", \"whit\", \"whyte\", \"wihte\", \"whte\"]\n    }\n  ]\n}"
+    ],
+    [
+      "tweet-sno-1401",
+      "Wow, nobody realized how far Mini Mike Bloomberg went in bribing ex-prisoners to go out and vote for Sleepy Joe. He is desperate to get back into the good graces of the people who not only badly beat him, but made him look like a total fool. Now he\u2019s committed a serious crime!",
+      "Billionaire and former presidential candidate Michael Bloomberg raised more than $16 million to pay the fines and restitution of convicted felons in Florida so that they are able to register to vote ahead of the 2020 general election.",
+      "[\"went\", \"fool\", \"realized\", \"ex-prisoners\", \"crime\"]",
+      "[\"people\", \"total\", \"committed\", \"like\", \"into\", \"made\", \"he\\u2019s\", \"ex-prisoners\", \"fool\", \"serious\", \"graces\"]",
+      "{\n  \"typo_tokens\": [\n    {\n      \"token\": \"went\",\n      \"typos\": [\"wnt\", \"wen\", \"wnt\"]\n    },\n    {\n      \"token\": \"fool\",\n      \"typos\": [\"fooll\", \"ful\", \"fooll\"]\n    },\n    {\n      \"token\": \"realized\",\n      \"typos\": [\"realised\", \"relized\", \"reallysed\"]\n    },\n    {\n      \"token\": \"ex-prisoners\",\n      \"typos\": [\"ex-prisonrs\", \"x-prisoners\", \"ex-prisnrs\"]\n    },\n    {\n      \"token\": \"crime\",\n      \"typos\": [\"criime\", \"crim\", \"cryme\"]\n    }\n  ]\n}"
+    ]
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "columns": [
+    "Unnamed: 0",
+    "Question",
+    "Expected Answer"
+  ],
+  "data": [
+    [
+      0,
+      "What is the average heart rate in the dataset?",
+      "78.3366186504928"
+    ],
+    [
+      1,
+      "How many patients have a positive result?",
+      "810"
+    ],
+    [
+      2,
+      "What is the maximum systolic blood pressure recorded?",
+      "223"
+    ],
+    [
+      3,
+      "What are the unique values in the Risk_Level column?",
+      "['Moderate', 'High', 'Low']"
+    ],
+    [
+      4,
+      "How many patients are over 50 years old?",
+      "868"
+    ],
+    [
+      5,
+      "What is the mean CK-MB level for negative results?",
+      "2.555343811394892"
+    ],
+    [
+      6,
+      "What is the gender distribution of the patients?",
+      "{1: 870, 0: 449}"
+    ],
+    [
+      7,
+      "How many patients have blood sugar levels above 200?",
+      "240"
+    ],
+    [
+      8,
+      "What is the median troponin level?",
+      "0.014"
+    ],
+    [
+      9,
+      "List all patients with high risk level.",
+      "      Age  Gender  Heart rate  Systolic blood pressure  \\\n1      20       1          94                       98   \n3      66       1          70                      120   \n7      61       1          60                      214   \n12     64       1          60                      199   \n15     61       1          81                      118   \n...   ...     ...         ...                      ...   \n1311   85       1         112                      115   \n1315   66       1          84                      125   \n1316   45       1          85                      168   \n1317   54       1          58                      117   \n1318   51       1          94                      157   \n\n      Diastolic blood pressure  Blood sugar   CK-MB  Troponin    Result  \\\n1                           46        296.0    6.75     1.060  positive   \n3                           55        270.0   13.87     0.122  positive   \n7                           82         87.0  300.00     2.370  positive   \n12                          99         92.0    3.43     5.370  positive   \n15                          66        134.0    1.49     0.017  positive   \n...                        ...          ...     ...       ...       ...   \n1311                        69        114.0    2.19     0.062  positive   \n1315                        55        149.0    1.33     0.172  positive   \n1316                       104         96.0    1.24     4.250  positive   \n1317                        68        443.0    5.80     0.359  positive   \n1318                        79        134.0   50.89     1.770  positive   \n\n     Risk_Level               Recommendation Age_Group  \n1          High  Immediate medical attention       <30  \n3          High  Immediate medical attention       >60  \n7          High  Immediate medical attention       >60  \n12         High  Immediate medical attention       >60  \n15         High  Immediate medical attention       >60  \n...         ...                          ...       ...  \n1311       High  Immediate medical attention       >60  \n1315       High  Immediate medical attention       >60  \n1316       High  Immediate medical attention     30-60  \n1317       High  Immediate medical attention     30-60  \n1318       High  Immediate medical attention     30-60  \n\n[812 rows x 12 columns]"
+    ],
+    [
+      10,
+      "What is the minimum diastolic blood pressure for male patients?",
+      "38"
+    ],
+    [
+      11,
+      "How many patients have both high blood sugar (>180) and positive result?",
+      "178"
+    ],
+    [
+      12,
+      "What is the average systolic blood pressure grouped by Risk_Level?",
+      "{'High': 126.64532019704434, 'Low': 113.6290909090909, 'Moderate': 145.06034482758622}"
+    ],
+    [
+      13,
+      "What percentage of patients require immediate medical attention?",
+      "61.56178923426838"
+    ],
+    [
+      14,
+      "What is the average age of patients with negative results?",
+      "52.10019646365422"
+    ],
+    [
+      15,
+      "How many patients are under 30 with a positive result?",
+      "21"
+    ],
+    [
+      16,
+      "Count the number of patients grouped by Recommendation.",
+      "{'Immediate medical attention': 812, 'Maintain healthy lifestyle': 275, 'Monitor closely and consult doctor': 232}"
+    ],
+    [
+      17,
+      "What is the correlation between heart rate and troponin levels?",
+      "0.011179853524983857"
+    ],
+    [
+      18,
+      "Find the range (max - min) of CK-MB values in the dataset.",
+      "299.679"
+    ]
+  ]
+}

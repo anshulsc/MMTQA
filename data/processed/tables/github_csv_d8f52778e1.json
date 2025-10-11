@@ -1,0 +1,610 @@
+{
+  "columns": [
+    "question_id",
+    "title",
+    "body",
+    "tags"
+  ],
+  "data": [
+    [
+      391939,
+      "How do we know which component belongs to which part in a separable differential equation",
+      "Take for instance dP/dt = kP We get after separating: dP/P = kdt, but why shouldn't it be dP/kP = dt instead, mathematically it doesn't make sense to say that k must belong absolutely to the right hand side of the equation.",
+      "['ordinary-differential-equations']"
+    ],
+    [
+      391940,
+      "$f(g(x))=x$ implies $f(x)=g^{-1}(x)$",
+      "Is it possible to find a necessary and sufficient condition to conclude when\n$$f(g(x))=x \\implies f(x)=g^{-1}(x) \\wedge f^{-1}(x)=g(x),$$\nif both functions are well defined?",
+      "['algebra-precalculus', 'functions']"
+    ],
+    [
+      391947,
+      "relationship of polar unit vectors to rectangular",
+      "I'm looking at page 16 of Fleisch's Student's Guide to Vectors and Tensors .  The author is talking about the relationship between the unit vector in 2D rectangular vs polar coordinate systems.  They give these equations: \\begin{align}\\hat{r} &= \\cos(\\theta)\\hat{i} + \\sin(\\theta)\\hat{j}\\\\\n\\hat{\\theta} &= -\\sin(\\theta)\\hat{i} + \\cos(\\theta)\\hat{j}\\end{align} I'm just not getting it.  I understand how, in rectangular coordinates, $x = r \\cos(\\theta)$ , but the unit vectors are just not computing.",
+      "['trigonometry']"
+    ],
+    [
+      391951,
+      "Solving two algebraic equations",
+      "I'm trying to prove an identity from physics. I have the following two equations ($M$ is a constant): $$e^2 = \\left(1-\\frac{2M}{r}\\right)\\left(1+\\frac{l^2}{r^2}\\right)$$ and $$r = \\frac{l^2}{2M}\\left[1 - \\sqrt{1 - 12\\left(\\frac{M}{l}\\right)^2}\\right]$$  and I need to show that $$\\frac{l}{e} = \\sqrt{Mr}\\left(1 - \\frac{2M}{r}\\right)^{-1}$$ I've tried rearranging the second eqation to get $l^2$ on its own and then dividing this by $e^2$ from equation 1 to get an expression for $l^2/e^2$ but this is quite messy and I can't see a clear way to simplify it. Can anyone see a straightforward way of doing this?",
+      "['algebra-precalculus']"
+    ],
+    [
+      391953,
+      "Show that if some nontrivial linear combination of vectors $\\vec{u}$ and $\\vec{v}$ is $\\vec{0}$, then $\\vec{u}$ and $\\vec{v}$ are parallel.",
+      "I've never been that great at writing proofs, but I'm getting a bit better. I think I have the answer correct, but I don't know if I'm missing anything. My logic seems right but there may be some minute detail that I'm leaving out. Can anybody give any feedback on this? Thanks. $\\vec{0}$ being a nontrivial linear combination of $\\vec{u}$ and $\\vec{v}$ implies that there exists a non-zero $a$ or $b$ such that $a\\vec{u}=-b\\vec{v}$. Without loss of generality, assume $a\\neq 0$. Then divide by $a$ and the equality holds: $\\vec{u}=-\\frac{b}{a}\\vec{v}$. And since $-\\frac{b}{a}\\vec{v}$ is a scalar multiple of $\\vec{u}$, it remains that $\\vec{u}$ and $\\vec{v}$ are parallel. More rigorous proof:\n\\begin{align*}\n\\vec{0}=a\\vec{u}+b\\vec{v}&\\Longrightarrow a\\neq 0\\vee b\\neq 0&&\\text{Given}\\\\\n&\\Longrightarrow a\\vec{u}=-b\\vec{v}\\\\\n&\\Longrightarrow \\vec{u}=-\\frac{b}{a}\\vec{v}&&\\text{WLOG assume $a\\neq 0$}\\\\\n&\\Longrightarrow \\vec{u}\\text{ and }\\vec{v}\\text{ are parallel.}\n\\end{align*}",
+      "['linear-algebra', 'proof-writing']"
+    ],
+    [
+      391976,
+      "Confused about combinatorials",
+      "How do I solve 4$\\cdot$6 = 8$\\cdot$3 by a combinatorial proof? How can I start this proof? I know that I can show a two pictures that represent 24 but I'm not entirely sure how to go about this. Please help!",
+      "['discrete-mathematics', 'combinatorics']"
+    ],
+    [
+      391984,
+      "Inverse Laplace transform of the function: $F(s)=e^{-a\\sqrt{s(s+r)}}$",
+      "I would like to find inverse Laplace transform of the function: $$F(s)=e^{-a\\sqrt{s(s+b)}}$$\nwhich $a$ and $b$ are positive real numbers and $s$ is a complex variable. It would be appreciated if someone can help me.",
+      "['laplace-transform', 'complex-analysis']"
+    ],
+    [
+      391988,
+      "Preimages of a function: Is the following proposition true or false?",
+      "Let $g: \u2124 \\times \u2124 \u2192 \u2124 \\times \u2124$ be defined by $g(m,n) = (2m, m \u2013 n)$. Is the following proposition true or false? Justify your conclusion. For each $(s, t) \u2208 \u2124 \\times \u2124$, there exists an $(m, n) \u2208 \u2124 \\times \u2124$ such that $g(m,n) = (s, t)$. I understand the question, and I believe it is true. But I have no idea of what the steps are on how to prove it is true. I guess I should not have skipped the past couple of days. Thanks for any help.",
+      "['logic', 'proof-writing', 'functions']"
+    ],
+    [
+      392011,
+      "Differentiate $\\log_{10}x$",
+      "My attempt: $\\eqalign{\n  & \\log_{10}x = {{\\ln x} \\over {\\ln 10}}  \\cr \n  & u = \\ln x  \\cr \n  & v = \\ln 10  \\cr \n  & {{du} \\over {dx}} = {1 \\over x}  \\cr \n  & {{dv} \\over {dx}} = 0  \\cr \n  & {v^2} = {(\\ln10)^2}  \\cr \n  & {{dy} \\over {dx}} = {{\\left( {{{\\ln 10} \\over x}} \\right)} \\over {2\\ln 10}} = {{\\ln10} \\over x} \\times {1 \\over {2\\ln 10}} = {1 \\over {2x}} \\cr} $ The right answer is: ${{dy} \\over {dx}} = {1 \\over {x\\ln 10}}$ , where did I go wrong? Thanks!",
+      "['logarithms', 'calculus', 'derivatives']"
+    ],
+    [
+      392027,
+      "Nested Radicals: $\\sqrt{a+\\sqrt{2a+\\sqrt{3a+\\ldots}}}$",
+      "Let $a>0$ .\nHow we can find the limit of : $$\\sqrt{a+\\sqrt{2a+\\sqrt{3a+\\ldots}}}$$ Thanks in advance for your help",
+      "['calculus', 'limits']"
+    ],
+    [
+      392029,
+      "Transitivity of union of two transitive relations",
+      "I have a question concerning proving properties of Relations. The question is this: How would I go about proving that, if R and S (R and S both being different Relations) are transitive, then R union S is transitive? The answer is actually FALSE, and then a counter example is given as a solution in the book. I understand how the counterexample works as explained in the book, but what I don't understand is, how exactly they arrive to the conclusion that the statement is actually false. Basically I can see myself giving a proof that if that for all values (x,y,z) in R and S, if (x,y) is in R and (y,z) is in R, (x, z) is in R since R is transitive. And if (x,y) is in S and (y,z) is in R, (x,z) is in S since S is transitive. Since (x,z) is in both R and S, the intersection is true. But why wouldn't the union of R and S be true as well? Is it because that the proof cannot be ended with \"since (x,z) is in both R and S, (x,z) can be in R or S\"? Basically, that a proof can't be ended with an OR statement at the end? Hope that all makes sense.",
+      "['relations', 'logic', 'discrete-mathematics', 'elementary-set-theory']"
+    ],
+    [
+      392035,
+      "The set of complex numbers of modulus $1$ is a group under multiplication",
+      "Show that $C=\\{z\\in \\mathbb{C} \\mid  |z|=1\\}$ is a group under complex multiplication. I'm a little confused because isn't the identity the only element with order $1$?  What is this set?",
+      "['group-theory', 'abstract-algebra']"
+    ],
+    [
+      392068,
+      "Differential Geometry Video Lectures",
+      "I know there's a similar question here , however since what I found there wasn't what I was looking for I thought on creating a new question. I'm studying Differential Geometry through Spivak's book \"A Comprehensive Introduction to Differential Geometry Vol. 1\" and I'm looking for video lectures on differential geometry at this level (introduction to the analysis on manifolds and so on). Until now I didn't find any video lectures. The only ones I've founded related to that are the one in the question I've mentioned, however that's too advanced for now. There are any good video lectures on this introductory (but yet rigorous) Differential Geometry? And I've pointed the rigorous part because I've found some videos on youtube, however the ones I've found simply ignore rigorous aspects of the subject and do things too loosely (even without defining manifolds properly). Thanks very much in advance and sorry if this question is somehow silly!",
+      "['online-resources', 'soft-question', 'manifolds', 'differential-geometry']"
+    ],
+    [
+      392070,
+      "Spivak problem on Schwarz inequality",
+      "I have a question regarding problem 19 in the 3rd Ed. of Spivak's Calculus. Specifically, part (a). The question concerns the Schwarz inequality:\n$$\nx_1y_1 + x_2y_2 \\leq \\sqrt{x_1^2+x_2^2}\\sqrt{y_1^2+y_2^2} \\ .\n$$\nIt says to prove that if $x_1=\\lambda y_1$ and $x_2 = \\lambda y_2$ for some number $\\lambda$, then equality holds in the Schwarz inequality. Substituting the given values for $x_1$ and $x_2$ we have\n$$\n\\lambda (y_1^2+ y_2^2) \\leq |\\lambda|(y_1^2+y_2^2) \\ .\n$$\nIt appears to me that equality can only hold if $\\lambda \\geq 0$. Can someone explain to me how equality holds for any given $\\lambda$?",
+      "['inequality', 'cauchy-schwarz-inequality', 'algebra-precalculus']"
+    ],
+    [
+      392083,
+      "Complex integral help involving $\\sin^{2n}(x)$",
+      "Show that $$\\int_0^\\pi \\sin^{2n} \\theta d\\theta=\\dfrac{\\pi(2n)!}{(2^n n!)^2} $$ So far I have came up with: $$\\sin^{2n} \\theta = \\left(\\dfrac {z-z^{-1}}{2i} \\right)^{2n}$$ and I know I should be using: $$(a+b)^n=\\sum_{k=0}^n \\dfrac{n!}{(n-k)!k!}a^kb^{n-k}$$ but I'm not sure how to get the conclusion. Any help will be greatly appreciated.",
+      "['definite-integrals', 'complex-analysis']"
+    ],
+    [
+      392091,
+      "How to place a limit that it's inside the integral, outside.",
+      "I did this:\n$$\\int_{1}^t x^{-1}dx=\\int_{1}^t\\lim_{n\\rightarrow -1}{x^n}dx =\\lim_{n\\rightarrow -1}\\int_{1}^t{x^n}dx $$ just to have a way to approximate $\\ln t$. $$\\ln{t}=\\lim_{h\\rightarrow 0}\\frac{x^{h}-1}{h}$$ The second expression may be correct, but I was told I cannot say $\\int_a^b \\lim_{n\\rightarrow -1}x^{n}dx=\\lim_{n\\rightarrow -1}\\int_a^b x^n dx$ without previously prooved some statements. If so, what are those statement and where can I find information about this?",
+      "['calculus', 'integration', 'limits']"
+    ],
+    [
+      392099,
+      "How do I solve for $dy/dx$ if $y=\\ln (\\sin x+\\ln x)$?",
+      "Solve for $\\frac{dy}{dx}$ if $y=\\ln(\\sin x+\\ln x)$. I know how to solve for integrals involving $du$ and $u$, but how do I do this type of problem (I think it's the opposite of the integral problem)?",
+      "['calculus', 'derivatives']"
+    ],
+    [
+      392111,
+      "To prove that $2^{3n}+2^n +1$ is not a perfect square.",
+      "Question: Prove that $2^{3n} + 2^n + 1$ cannot be a perfect square for any natural $n$. I attempted this question and failed in two different ways. 1) I considered a polynomial $p(x) = x^3+ x + 1 - m^2$ (for some natural $m$) and factorized the polynomial assuming $2^n$ is a root. I, then, tried substituting some numbers to get a contradiction in divisibility (since $x - 2^n$ is a factor). Alas, all of that was in vain. 2) I wrote $2^{3n} + 2^n + 1 = m^2$ and thus $(m-1)(m+1) = 2^n(2^{2n} + 1)$. So one can conclude that if $xy = 2^{2n} + 1$ such that $(x,y) = 1$, then one of the $m-1$ or $m+1$ must be $2^{n-1}x$ and the other must be $2y$ (this follows from the fact that $m$ is odd and $(m-1,m+1) = 2$). I am stuck at this point. I would appreciate a hint in either direction. I am hoping that 1) will work out. It will teach me a new proofing (err... proving) technique. Thanks!",
+      "['elementary-number-theory', 'algebra-precalculus', 'contest-math']"
+    ],
+    [
+      392112,
+      "Which definition of Haar measure is correct?",
+      "I have encountered several different definitions of left Haar measure that don't all seem to agree. The setting I care about is Locally Compact Groups. The first seems to completely disagree with the other two with the regularity dispute. $\\bf{\\text{Which definition is correct? or are they all correct in different contexts?}}$ Let $G$ be a locally compact group, and by a measure I mean a Borel measure. $\\bf{\\text{Definition 1:}}$ On Wikipedia: http://en.wikipedia.org/wiki/Haar_measure A left Haar measure is a non-zero measure $\\mu$ on $G$ such that (i) $\\mu(K) < \\infty$ for compact $K$ (ii) $\\mu$ is left $G$-invariant (iii) $\\mu$ is outer regular on Borel sets (iv) $\\mu$ is inner regular on open Borel sets (And then an example is given to show that $\\mu$ need not be inner regular on all Borel sets!) $\\bf{\\text{Definition 2:}}$ Supplied in an answer: Why are Haar measures finite on compact sets? A left Haar measure is a non-zero measure $\\mu$ on $G$ such that (i) $\\mu$ is regular (ii) $\\mu > 0$ on open sets. (iii) $\\mu < \\infty$ on compact sets. (iv) $\\mu$ is left $G$-invariant $\\bf{\\text{Definition 3:}}$ Given in an appendix to a book. A left Haar measure is a non-zero measure $\\mu$ on $G$ such that (i) $\\mu$ is regular (ii) $\\mu$ is left $G$-invariant.",
+      "['topological-groups', 'measure-theory']"
+    ],
+    [
+      392122,
+      "Using Spherical coordinates find the volume:",
+      "Inside the surfaces $z=x^2+y^2$ and $z=\\sqrt{2-x^2-y^2}$ I integrated over the ranges: $0 \\leq \\theta \\leq 2\\pi$ $ 0 \\leq \\phi \\leq \\frac{\\pi}{2}$ $0 \\leq r \\leq \\sqrt{2}$ I get $\\frac{\\pi}{2}(4\\sqrt{2} -4).$ There answer is the same except a $-\\frac{7}{2}$ instead of the 4 at the end. Obviously I'm missing a 1\\2 but I seems, I can not find it.",
+      "['multivariable-calculus', 'integration']"
+    ],
+    [
+      392129,
+      "Proof that $\\inf A = -\\sup(-A)$",
+      "Let $A$ be a nonempty subset of real numbers which is bounded below. Let $-A$ be the set of of all numbers $-x$, where $x$ is in $A$. Prove that $\\inf A = -\\sup(-A)$ So far this is what I have Let $\\alpha=\\inf(A)$, which allows us to say that $\\alpha \\leq x$ for all $x \\in A$. Therefore, we know that $-\\alpha \\geq -x$ for all $x \\in -A$. Therefore we know that $-\\alpha$ is an upper bound of $-A$. $\\ \\ \\ \\ $ Now let $b$ be the upper bound of $-A$. There exists $b \\geq-x \\implies-b \\leq x$ for all $x \\in A$. Hence,\n\\begin{align}\n-b & \\leq \\alpha\\\\\n-\\alpha & \\leq b\\\\\n-\\alpha & = - \\inf(A) = \\sup (-A)\n\\end{align} By multiplying $-1$ on both sides, we get that $\\inf(A) = -\\sup (-A)$ Is my proof correct?",
+      "['supremum-and-infimum', 'proof-verification', 'real-analysis']"
+    ],
+    [
+      392131,
+      "Demonstration using the Pigonhole principle",
+      "I was thinking about the following problem: Let $n\\in\\mathbb N$ be odd. If I have a symmetric matrix in $M_n(\\mathbb{N})$, i.e. a square symmetric matrix of size $n$, for which each column and each row consists of all numbers between $1$ and $n$, then the diagonal consists of all the numbers from $1$ to $n$. I want to prove this using the pigeonhole principle. Thanks for helping me.",
+      "['extremal-combinatorics', 'combinatorics']"
+    ],
+    [
+      392167,
+      "Finite Projective Dimension implies non vanishing Ext",
+      "Suppose the projective dimension of a module $M$ is $n < \\infty$. Does there exist a free $R$-module $F$ such that $\\operatorname{Ext}^n(M, F) \\not = 0$? Can't we write the free module as a direct sum of $R$'s and then we just need to show $\\operatorname{Ext}^n(M, R) \\not = 0$? So does this work actually for any free module?",
+      "['modules', 'commutative-algebra', 'homological-algebra', 'abstract-algebra']"
+    ],
+    [
+      392172,
+      "sylow basis of finite solvable groups",
+      "Let \u200e\u200e$G\u200e\u200e$\u200e be a\u200e \u200efinite \u200esolvable non-$p$-group \u200eand \u200e\u200e$\u200e\u200eA$ \u200ebe a \u200e\u200e\u200e\u200emaximal \u200esubgroup \u200eof \u200e\u200e$G\u200e\u200e$\u200e. \u200e\nTherefore \u200e$A\u200e\u200e$ \u200eis \u200eof \u200eprimary \u200eindex \u200e\u200e$p^{n}\u200e $\u200e\u200e, that is \u200e$|G : A|=p^{n}\u200e$ \u200e\u200ewhere \u200e$\u200e\u200ep$ \u200eis \u200eprime \u200eand\u200e \u200e\u200e$n\\geq 1\u200e\u200e$\u200e\u200e. \n\u200e\n\u200eIf \u200e$\u200e\u200e|G|=p_1^{n_1}p_2^{n_2}\\cdots p_l^{n_l}p^{m+n}$\u200e; \u200e$\u200e\u200en_i\\geq 1, m\\geq 0$ \u200e\u200e\nand \u200e\u200e$P_i\u200e\u200e$ \u200eis a sylow \u200e$\u200e\u200ep_{i}$-\u200esubgroup\u200e\u200e \u200eand \u200e$\u200e\u200eP$ is a sylow \u200e$\u200e\u200ep$-\u200esubgroup of \u200e$\u200e\u200eG$\u200e\u200e\u200e\u200e, \u200e\nc\u200ean we obtain a sylow \u200ebasis \u200e$\\{P_1, P_2, \\cdots,P_l, P\\} ; \u200e\u200e \u200el\\geq 1\u200e$ \u200eof \u200e\u200e$G\u200e\u200e$ \u200esuch \u200e\u200e\nthat \u200e\u200e$P_i\u200e\\subseteq\u200e\u200e \u200eA\u200e$; \u200e$\u200e\u200e1\\leq i\\leq l$\u200e\u200e?\n\u200e\nAny answer will be appreciated",
+      "['sylow-theory', 'solvable-groups', 'finite-groups', 'group-theory']"
+    ],
+    [
+      392174,
+      "Applications of information geometry to the natural sciences",
+      "I am contemplating undergraduate thesis topics, and am searching for a topic that combines my favorite areas of analysis, differential geometry, graph theory, and probability, and that also has (relatively) deep mathematical applications to biology or physics (I am not planning to pursue a Ph.D. in pure math). To this extent, I recently stumbled across information geometry. By this I refer to the field of using data to generate a Riemannian manifold with the Fisher information metric. Could you tell me which applications the field has, particularly to (mathematical) biology or (statistical) physics? Also, are there any good references, at the level of a Ph.D. student well-versed in probability, analysis, and geometry (but not as much so in statistical inference)? (And, this goes a bit beyond the question, but if you have any other thoughts on what would be interesting subjects given my preferences above, please share!)",
+      "['differential-geometry', 'statistics', 'probability-theory', 'information-geometry', 'soft-question']"
+    ],
+    [
+      392194,
+      "Cardinality of the set of prime numbers",
+      "It was proved by Euclid that there are infinitely many primes. But what is the cardinality of the set of prime numbers ? Cantor showed that the sets $\\mathbb{Q}$ and $\\mathbb{Z}$ have the same cardinality as the natural numbers $\\mathbb{N}$ by constructing a pairing of the two sets, or a bijective function $ \\pi_{\\mathbb{Z}} : \\mathbb{N} \\rightarrow \\mathbb{Z}$ and $ \\pi_{\\mathbb{Q}} : \\mathbb{N} \\rightarrow \\mathbb{Q}$. Let $\\mathbb{P}$ denote the set of prime numbers. Is it possible to construct such a pairing function, $ \\pi_{\\mathbb{P}} : \\mathbb{N} \\rightarrow \\mathbb{P}$ ? It's clear that $|\\mathbb{P}| \\leq |\\mathbb{N}| = \\aleph_0$ since $\\mathbb{P} \\subset \\mathbb{N}$. Is it possible to show that $|\\mathbb{P}| \\geq |\\mathbb{N}|$, or do we have $|\\mathbb{P}| < |\\mathbb{N}|$ ?",
+      "['prime-numbers', 'elementary-set-theory']"
+    ],
+    [
+      392212,
+      "Prove that a set $E$ is closed iff it's complement $E^{c}$ is open",
+      "I was wondering if this proof was right. $\\Leftarrow$ Suppose $E$ is closed. Then choose $x\\in E^{c}$, then $x\\notin E$, and so $x$ is not a limit point of $E$. Hence there exists a neighborhood $N$ of $x$ such that $E \\cap N$ is empty, such that $N \\subset E^{c}$. Thus $x$ is an interior point of $E^{c}$ and $E^{c}$ is open $\\Rightarrow$ Then suppose $E^{c}$ is open. Let $x$ be a limit point of $E$, then every neighborhood of $x$ contains a point of $E$, so that $x$ is not an interior point of $E^{c}$. Since $E^{c}$ is open, this means that $ x \\in E$, Therefore $E$ is closed.",
+      "['general-topology', 'proof-writing', 'real-analysis']"
+    ],
+    [
+      392237,
+      "Derivative of Linear Map",
+      "I'm reading Allan Pollack's Differential Topology and got stuck on this argument: In the second paragraph of page 9, section 1.2 he said \"Note that if $f:U\\to \\mathbf{R^m}$ is itself a linear map $L$, then $df_x=L$ for all $x\\in U$. In particular, the derivative of the inclusion map of $U$ into $\\mathbf{R^n}$ at any point $x\\in U$ is the identity transformation of $\\mathbf{R^n}$.\" I don't quite understand his first sentence. How could $f=L$ and $L$ linear imply $df_x=L$? A counter example is $f(x)=x$ linear, then $f'(x)=1 \\neq L$. Thanks a lot for everyone's help!",
+      "['general-topology', 'linear-algebra', 'calculus', 'real-analysis']"
+    ],
+    [
+      392242,
+      "Basic understanding of sampling from a continuous distribution.",
+      "For continuous distribution (on R ) the probability of a single point is $0$.\nSo I'm not sure what does it mean to sample $M$ elements from a continuous distribution. Let say there is a continuous distribution D and there is a number z and a function f such that:\n$f(x)=1$ for $x < z$ except of a finite number of cases. $f(x)=0$ for $x \\ge z$ except of a finite number of cases. $D(x < z) > 0  , D(x \\ge z) > 0$ So if I have a random sample  $(X_1, \\dots ,X_m)$ from $D$, And assume $X_1>z$ , can I conclude that $f(X_1)=0$ ? And assume $f(X_2)=1$ , can I conclude that $X_2 < z$ ?",
+      "['statistics', 'probability-distributions', 'probability', 'machine-learning']"
+    ],
+    [
+      392249,
+      "How to understand C(X)'' = bounded Borel measurable functions?",
+      "Let $X$ be a compact metric space and $C(X)=\\{ f:X\\rightarrow \\mathbb{R} \\ | \\ \\ f \\ continuous\\}$ with the uniform norm. It is a separable Banach space. 1) I'm aware of the fact that $C(X)^*$, the space of continuous linear functionals $C(X)\\rightarrow \\mathbb{R}$ coincide with $M(X)$, the space of signed regular borel measures on $X$. This intuitively makes sense because $\\mu\\in M(X)$ can be naturally be seen as an evaluation map $f\\mapsto \\mathbb{R}$ by means of integration. 2) I'm also aware that $(C(X)^*)^*$, the dual of the dual, coincide with the set of bounded Borel measurable functions $F:X\\rightarrow\\mathbb{R}$ (source: P. Lax, Functional Analysis ). UPDATE Landscape provided a counterexample in the comments.\nMy source was: P. Lax \"Functional Analysis\" 2002, Page 82, Theorem 14(ii).\nI guess this might be a mistake, perhaps fixed in some errata somewhere. New question: C.f. Landscape's example, let $g_A$ be the extension (given by Hahn-Banach) of $f_A$ to $C([0,1])^{**}$. Looking at $g_A$ as a function $X\\rightarrow\\mathbb{R}$, $g_A$ must satisfy by construction the equation $\\int_{[0,1]}g_A \\ d \\ \\delta_x= 1$ if $x\\in A$ and $0$ otherwise. This seems to imply that $g_A$ is the characteristic function of $A$. Hence not Borel if $A$ is not Borel. Thus, $g_A$ as a function $(X\\rightarrow\\mathbb{R})$ is uniquely determined by the construction starting from $f_A$. But is it $g_A$ as an element of $C([0,1])^{**}$ uniquely determined? If so, it looks to me we would have a reasonably well defined notion of integration for non-measurable sets. Thanks! Screen shot of Lax's theorem 14 on page 82:",
+      "['measure-theory', 'functional-analysis']"
+    ],
+    [
+      392250,
+      "Prove or disprove statements about the greatest common divisor",
+      "Help with prove or disproving either of these statements would be really appreciated, one or the other is fine, I just need a start or a solution to one and I'm sure I could probably figure the other out. (a) For all $a, b, c \\in \\mathbb{Z}$ , $\\gcd(ac, bc) = c \\gcd(a, b)$ (b) For all $a, b, c \\in \\mathbb{Z}$ , $\\gcd(ab, c) = \\gcd(a, b) \\gcd(b, c)$",
+      "['elementary-number-theory', 'divisibility', 'discrete-mathematics']"
+    ],
+    [
+      392261,
+      "Euler's method for second order differential equation",
+      "Not really homework but sample exam. The question is to use Euler's Method to approximate Y: $Y''(t) = Y'(t) - 2Y(t)$ $Y'(0) = Y(0) = 1$ with $t_0 = 0$ and $h=0.2$ So what I did: First iteration: $t_1 = 0.2$ $y(t_1) = y(t_0)+h \\cdot y'(t_0) = 1 + 0.2 \\times 1 = 1.2$ $y'(t_1) = y'(t_0) + h \\cdot (y'(t_0) - 2y(t_0)) = 1 + 0.2 \\times (1-2\\times1) = 0.8$ Second iteration: $t_2 = 0.4$ $y(t_2) = y(t_1)+h \\cdot y'(t_1) = 1.2 + 0.2 \\times 0.8 = 1.36$ $y'(t_2) = y'(t_1) + h \\cdot (y'(t_1) - 2y(t_1)) = 0.8 + 0.2 \\times (0.8-2\\times1.2) = -2.4$ Correct?",
+      "['ordinary-differential-equations', 'numerical-methods']"
+    ],
+    [
+      392282,
+      "A two-dimensional set of measure zero",
+      "I have a 2D domain $[0,1]\\times[0,1]$. This domain contains some set of measure zero $A$, the last understood as the Lebesgue measure in $\\mathbb{R}^{2}$. Is the following true: for almost all $t\\in[0,1]$ the set $A_{t}:=\\{x\\in[0,1]|(t,x)\\in A\\}$ has measure zero, in standard $\\mathbb{R}^{1}$ sense? Actually, I'm hoping to get a negative answer. This question can be more general, for $A$ being $\\Omega\\times[0,1]$ in $\\mathbb{R}^{n}$ with $\\Omega$ being a bounded domain in $\\mathbb{R}^{n-1}$.\nThanks for your response!",
+      "['measure-theory']"
+    ],
+    [
+      392308,
+      "Solve $\\sqrt{2x-5} - \\sqrt{x-1} = 1$",
+      "Although this is a simple question I for the life of me can not figure out why one would get a 2 in front of the second square root when expanding. Can someone please explain that to me? Example: solve $\\sqrt{(2x-5)} - \\sqrt{(x-1)} = 1$ Isolate one of the square roots: $\\sqrt{(2x-5)} = 1 + \\sqrt{(x-1)}$ Square both sides: $2x-5 = (1 + \\sqrt{(x-1)})^{2}$ We have removed one square root. Expand right hand side: $2x-5 = 1 + 2\\sqrt{(x-1)} + (x-1)$-- I don't understand? Simplify: $2x-5 = 2\\sqrt{(x-1)} + x$ Simplify more: $x-5 = 2\\sqrt{(x-1)}$ Now do the \"square root\" thing again: Isolate the square root: $\\sqrt{(x-1)} = \\frac{(x-5)}{2}$ Square both sides: $x-1 = (\\frac{(x-5)}{2})^{2}$ Square root removed Thank you in advance for your help",
+      "['algebra-precalculus']"
+    ],
+    [
+      392319,
+      "What is the volume of Complex Projective Space with Fubini-Study Metric?",
+      "I try to compute the volume of the complex projective space $\\mathbb{CP}^n$ with Fubini-Study metric, normalized to have diameter $=\\pi/2$ i.e. the sectional curvatures lie between $1$ and $4$. Fix a point $p\\in \\mathbb{CP}^n$ then then mean curvature of the distance sphere centered at $p$ with radius $r$ is\n$$\nH(r)=2(n-1)\\cot(r)+2\\cot(2r)\n$$\nIf we use $A(t, \\theta)$ to denoted the area element of the distance sphere. Then\n$$ A^{-1}\\frac{dA}{dt}=H(t)$$\nHence we get $$A(t)=2\\sin^{2n-1}(t)\\cos(t)$$\nTherefore we can calculate the volume of $B(p, r)$ as:\n$$\nVol(B(p, r))=\\int_0^r(\\int_{\\theta\\in S^{2n-1}}A(t,\\theta)dS_{2n-1})dt\n$$\n$$\n=\\omega_{2n-1}\\int_0^r2\\sin^{2n-1}(t)\\cos(t)dt\n$$\nwhere $\\omega_{2n-1}$ is the volume of the round sphere $S^{2n-1}$. To get the whole volume we let $r=\\pi/2$. whence\n$$\nV(\\mathbb{CP}^n, g_{FS})=\\omega_{2n-1}\\frac{1}{n}=\\frac{2\\pi^n}{(n-1)!}\\frac{1}{n}\n$$\n$$=2\\frac{\\pi^n}{n!}$$ If we take $n=1$, then clearly $\\mathbb{CP}^1$ is the round sphere with radius $1/2$ hence must have volume $\\pi$, which is $1/4$ of the volume of unit 2-sphere. However the above formula give $\\omega_{2-1}=\\omega_{1}=2\\pi$. So does anybody know what's wrong with my calculations? Thanks in advance.",
+      "['riemannian-geometry', 'differential-geometry']"
+    ],
+    [
+      392322,
+      "Relation of the kernels of one bounded operator and its extension",
+      "Sorry for this long and formal post. The application in PDEs is mentioned just at the end. Let\n $$V \\hookrightarrow H \\text{  and } Q_H' \\hookrightarrow Q',$$\n where $V$ and $Q$ are Banach and $H$ and $Q_H$ are Hilbert spaces. The hooked arrow $\\hookrightarrow$ denotes the continuous embedding, which is basically $V \\subset H$ and $\\|v\\|_V \\geq \\|v\\|_H$ for all $v\\in V$. The same with $Q_H'\\hookrightarrow Q'$. Also, assume that the embeddings are dense, i.e. $\\overline V = H$ and $\\overline {Q_H'} = Q'$, where the overline denotes the closure of the space with respect to the norm of its superspace. Consider the linear bounded operator $$J\\colon V \\to Q_H'.$$ Then $V_0:=\\ker(J)$ is a closed subspace of $V$. From an inf-sup condition, I have that \n$$\\|Jv\\|_{Q_H'} \\geq \\gamma \\|v\\|_V\\quad (1)$$\n for all $v \\in V_1$, where $V_1$ is complementary to $V_0$, i.e. $V=V_0 \\oplus V_1$. Furthermore I have that $J\\colon V\\subset H\\to Q'$ is bounded, so that one can define the natural extension $\\bar J\\colon H \\to Q'$, using that $V$ is dense in $H$, that is bounded as well. Also for $\\bar J$ I assume this boundedness from below, see $(1)$, for functions that are not in the kernel of $\\bar J$. Now my question is: Is the kernel of $J$ dense in the kernel of $\\bar J$? Or, equivalently, is $\\overline V_0 = H_0$, where $H_0$ is the kernel of $\\bar J$? What I have tried so far: I have shown that $\\overline{V_0} \\subset H_0$. To show the converse direction, I thought of taking $h \\in H_0$ and show that there is a sequence $\\{v_{0,n}\\} \\subset V_0$ that goes to $h_0$ (in the norm of $H$). Since $\\overline V = H$, there is $\\{v_n\\} \\subset V$ that goes to $h_0$ (in the norm of $H$). Because of $(1)$ there is a bounded projector $P_V\\colon V \\to V$, with $P(V)=V_0$. Then one can split up every $v_n$ into $v_{0,n}:=Pv_n$ and the remainder $v_{1,n}$ that is in $V_1$. Now I want to show, that $\\{v_{1,n}\\}$ goes to $0$ (in $H$) what would make $\\{v_{0,n}\\} \\subset V_0$ approaching $h_0$. ...... In terms of PDEs, this would answer the questions, whether the (sub)space of divergence free elements of $H_0^1(\\Omega)^3$ is dense in the (sub)space of these functions in $L^2(\\Omega)^3$. In this case: $J:=div$ $V:= H_0^1(\\Omega)^3$ and $H:=L^2(\\Omega)^3$ $Q_H := L^2(\\Omega)/\\mathbb R$ and $Q' = (H^1(\\Omega)/\\mathbb R)'$ And the question becomes: Is \n$$ \\{v\\in H_0^1(\\Omega)^3:\\text{div } v = 0 \\in L^2(\\Omega)/\\mathbb R \\} \\text{ dense in } \\{v \\in L^2(\\Omega)^3:\\text{div } v = 0 \\in (H^1(\\Omega)/\\mathbb R)' \\} $$",
+      "['functional-analysis', 'partial-differential-equations']"
+    ],
+    [
+      392345,
+      "About the infinite solutions of a Diophantine equation",
+      "Consider the following problem:\n$$\\sum_{k=1}^N k^2=q^2$$\nwhere q is an integer number. This can be written as:\n$$\\frac{1}{3}N^3+\\frac{1}{2}N^2+\\frac{1}{6}N=q^2$$\nIn the same way we can write:\n$$\\sum_{k=1}^N k^3=q^3$$\nthat means:\n$$\\frac{1}{4}N^4+\\frac{1}{2}N^3+\\frac{1}{4}N^2=q^3$$\nIn general, we can consider the following equation:\n$$\\sum_{k=1}^N k^r=q^r$$\nwith $r$ integer number.\nThe question is: does this equation has infinite solutions for every $r$ integer?\nThanks.",
+      "['diophantine-equations', 'number-theory']"
+    ],
+    [
+      392366,
+      "Dimension of the image of the morphism associated to a Divisor",
+      "Let $S$ be an algebraic smooth surface over $\\Bbb{C}$. Let $D\\in\\mathrm{Div}(S)$ be such that the complete linear system $|D|$ is base-point free and suppose $h^0(D)=N+1$ with $N>0$. To $D$ is then associated a morphism $\\varphi:S\\rightarrow\\Bbb{P}^N$. By definition if $D$ is very ample then $\\varphi$ is an embedding; in particular $\\dim\\varphi(S)=2$. Question: what are some possible conditions on $D$ (e.g. self-intersection) to determine $\\dim\\varphi(S)$ ? For example if $D^2=0$ can we say the image of $\\varphi$ is a curve? Why?",
+      "['intersection-theory', 'algebraic-geometry']"
+    ],
+    [
+      392372,
+      "Looking for a source of an infinite trigonometric summation and other such examples.",
+      "Question: If $x \\neq 0$ , then prove that $\\displaystyle \\sum_{n=1}^{\\infty}\\dfrac1{2^n} \\tan\\left(\\dfrac{x}{2^n}\\right) = \\dfrac1{x} - \\cot x.$ My answer: I proved this result by using the following identity: $$ \\prod_{k=1}^n \\cos\\left(\\frac{x}{2^k}\\right) = \\frac{\\sin x}{2^n\\sin \\frac{x}{2^n}}$$ I took natural log on both sides of the above equation and then differentiated both sides to get $$\\sum_{k=1}^n \\frac1{2^k} \\tan\\left(\\frac{x}{2^k}\\right) = \\frac{1}{2^n}\\cot \\left(\\frac{x}{2^n}\\right) - \\cot x.$$ Now taking the limit of $n$ to $\\infty$ I get the required identity. $\\blacksquare$ I have never seen the above identity before in my life. I was amused and surprised by this identity. That's because I have never seen an infinite trig series summing up to a rational function like $\\dfrac1{x}$ before. So my questions are the following: A) First of all, is my derivation correct? Secondly, does anyone know a source for this problem? B) Are there other 'elementary 'derivations that have an infinite trig series on one side and a rational function on the other?  [I say 'elementary' to avoid Fourier series. I am guessing Fourier series must be full of such results.]",
+      "['online-resources', 'sequences-and-series', 'trigonometric-series']"
+    ],
+    [
+      392374,
+      "Guides/tutorials to learn abstract algebra?",
+      "I recently read up a bit on symmetry groups and was interested by how they apply to even the Rubik's cube . I'm also intrigued by how group theory helps prove that \"polynomials of degree $\\gt4$ are not generally solvable\".\nI love set theory and stuff, but I'd like to learn something else of a similar type. Learning about groups, rings, fields and what-have-you seems like an obvious choice. Could anyone recommend any informal guides to abstract algebra that are written in (at least moderately) comprehensible language? (PDFs etc. would also be nice)",
+      "['big-list', 'soft-question', 'reference-request', 'abstract-algebra']"
+    ],
+    [
+      392384,
+      "Probability of sequence",
+      "The question is as follow: Let $(X_{n})_{n}$ be a sequence of Random variable that is independent with the probability $P(X_{n}=1)=1-P(X_{n}=0)=\\frac{1}{n}$ Show that $P\\left( \\underset { n\\rightarrow \\infty  }\\liminf{ X }_{ n }=0 \\right) =1$ I tried to use the Borel-Cantelli Theorem to prove this, however I obtain that $P\\left( \\underset { n\\rightarrow \\infty  }\\liminf{ X }_{ n }=0 \\right) =0$ ${ F }_{ n }:=\\left\\{ { X }_{ n }=0 \\right\\} $ $\\sum _{ n=1 }^{ \\infty  }{ P\\left( { F }_{ n }^{ C } \\right)  } =\\sum _{ n=1 }^{ \\infty  }{ 1-P\\left( X_{ n }=0 \\right)  } =\\sum _{ n=1 }^{ \\infty  }{ \\frac { 1 }{ n }  } =\\infty$ By Borel-Cantelli, we know that $P\\left( { \\underset { n\\rightarrow \\infty  }\\limsup  }{ F }_{ n }^{ C } \\right) =1$ Since ${ \\left( { \\underset { n\\rightarrow \\infty  }{ \\liminf }  }{ F }_{ n } \\right)  }^{ C }=\\left( { \\underset { n\\rightarrow \\infty  }{\\limsup}  }\\quad { F }_{ n }^{ C } \\right) $, (ie) $P\\left( { \\underset { n\\rightarrow \\infty  }{ \\liminf }  }\\quad { F }_{ n } \\right) =1-P\\left( { \\underset { n\\rightarrow \\infty  }{ \\limsup }  }\\quad { F }_{ n }^{ C } \\right)$, I obtain that $P\\left( { \\underset { n\\rightarrow \\infty  }{ \\liminf }  }\\quad { X }_{ n }=0 \\right) =0$ Since this is the opposite of what I want to prove and the statement is said to be true, I can't see where I went wrong in my argument.",
+      "['probability-theory']"
+    ],
+    [
+      392392,
+      "Gradient in Cylindrical ccordinates",
+      "How can I express grad of $\\Phi$ in cylindrical coordinates?. In fact I wanted to check the vector $\\nabla\\Phi$ is perpendicular to a surface $\\Phi=c$ where $c$ is a constant. Where to start? Thank you.",
+      "['multivariable-calculus', 'calculus']"
+    ],
+    [
+      392397,
+      "About linear recurrence sequences",
+      "Let $\\{a_n\\}_{n=0}^\\infty$,$\\{b_n\\}_{n=0}^\\infty$,$\\{c_n\\}_{n=0}^\\infty$ be three complex sequences and satisfy\n\\begin{eqnarray*}\n&&\\sum_{k=0}^2\\alpha_ka_{n+k}=0,\\\\\n&&\\sum_{k=0}^4\\beta_kb_{n+k}=0,\\\\\n&&b_n^2=c_na_n-c_{n-1}a_{n+1}\n\\end{eqnarray*}\nfor any $n$, where $\\alpha_i$ and $\\beta_i$ are some constants satisfying $\\alpha_i=\\alpha_{2-i}$, $\\beta_i=\\beta_{4-i}$. Let us assume $a_n$,$b_n$,$c_n$are not constant sequences and $\\alpha_k$,$\\beta_k$,$\\gamma_k$ are not always zeros. Please try to prove that there exist nonzero constants $\\gamma_k$, $k=0,1,\\cdots8$ so that $\\sum_{k=0}^8\\gamma_kc_{n+k}=0$ hold for any $n$. I want to know how to solve the above problem, or what knowledge should be used? Thanks!",
+      "['recurrence-relations', 'sequences-and-series', 'number-theory', 'bilinear-form', 'linear-algebra']"
+    ],
+    [
+      392405,
+      "solving $1+\\frac{1}{x} \\gt 0$",
+      "In solving a larger problem, I ran into the following inequality which I must solve: $$ 1+\\frac{1}{x} \\gt 0.$$ Looking at it for a while, I found that $x\\gt 0$ and $x\\lt -1$ are solutions. Please how do I formally show that these are indeed the solutions.",
+      "['algebra-precalculus']"
+    ],
+    [
+      392441,
+      "How can you show that $f\\delta\u2032=f(0)\\delta\u2032\u2212f\u2032(0)\\delta$ for a function f that is infinitely differentiable?",
+      "Assume that $f$ is infinitely differentiable. Let $\\delta$ be the (Dirac) delta functional. I know that $f\\delta = f(0)\\delta$, but I'm not sure how to derive the equation  $f\\delta\u2032=f(0)\\delta\u2032\u2212f\u2032(0)\\delta$.",
+      "['physics', 'functions', 'mathematical-physics', 'distribution-theory', 'derivatives']"
+    ],
+    [
+      392442,
+      "What would be the immediate implications of a formula for prime numbers?",
+      "What would be the immediate implications for Math (or sciences as a general) if someone developed a formula capable of generating every prime number progressively and perfectly, also able to prove (or disprove) the primality of every N-th number. I know this is a very large and subjective answer, however, I would like to know some of these implications - like the breaking of many security systems based on the primes. Moreover, there are examples of practical Math's implication, not just theoretical, of a possible prime number formula discovery? There is for example in Physics, Chemistry, Geography or Astronomy any field which would be very improved with a so great and dreamed Eureka ?",
+      "['number-theory', 'philosophy', 'twin-primes', 'prime-numbers', 'number-systems']"
+    ],
+    [
+      392444,
+      "Probability of getting split pill from bottle?",
+      "I have a bottle of 100 pills.  The daily dose is 1/2 pill, so if the first pill I extract is a whole pill, I split it and put 1/2 back. Just out of my own general curiosity, I'd like to model the probability of extracting a whole pill vs. a half pill over time, but I'm not sure how to start.",
+      "['probability']"
+    ],
+    [
+      392457,
+      "Counting exercise",
+      "Three players a,b,c take turns in a game according to the following rules: At the start A and B play (so C does not play). The winner of the first trial plays against C and so on until one of the players wins two trials in a row.\n  Possible outcomes are\n  aa,acc,acbb,acbaa,\n  bb,bcc,bcaa,bcabb etc. We have to prove that probability of A winning equals p(A) = 5/14, p(B) = 5/14, p(C) = 2/7 I have been stuck on this problem for a long time. The only thing I have been able to find out so far is that C can never win on even turns. Re-edit Players continue to play until one of them wins two times consecutively and all players are equally good at playing the game. Apologies for leaving such crucial information. I have finally solved this problem with a different approach Sample space aa ,acc ,acbb ,acbaa ,acbacc ,acbacbb ,acbabcaa ,... bb ,bcc ,bcaa ,bcabb ,bcabcc ,bcabcaa ,bcabcabb ,... Each point in the sample space has a probability (1/2^k) associated with it where k is the number of turns. For example probability of point (aa) = 1/4 Now let us construct a table enumerating probabilities - Let us consider the event that C wins overall. But C can only win if k = 3,6,9,12,... P(C) = P(C3) + P(C6) + P(C9) ...... where P(Ck) = Probability of C winning overall after k turns. P(C) = 1/4 + 1/32  ..... P(C) = a / (1 - r)       ( Sum of an infinite GP ) a = 1/4                  ( First Term ) r = 1/8                  ( Ratio ) P(C) = 2/7 P(A) = 5/14 = P(B)",
+      "['probability']"
+    ],
+    [
+      392463,
+      "First order Autoregressive model",
+      "How do I solve this? How can I obtain the lag-one autocorrelation coefficients just from the data?? Following are $10$ years of observation of annual streamflows in millions of cubic meters: $$\\begin{array}{|c|cl|}\\hline\\hline\n\\text{Year}&1&2&3&4&5&6&7&8&\\\\\\hline\\text{Discharge}&145.78&95.43&116.66&96.12&122.09&175.02&101.98&146.14\\\\\\hline\n\\text{Year}&9&10\\\\\\hline\\text{Discharge}&126.01&132.73\n\\end{array}$$ Use the above data to estimate the parameters of an  first order Autoregressive model and the parameters of an first order Moving Average Model.",
+      "['statistics']"
+    ],
+    [
+      392466,
+      "Orthogonal complement of the diagonal matrices in the inner product space of matrices",
+      "$V$ is the matrices space (scalar over the complex). definition of inner product space is: $(A,B)=tr(AB^*)$. $A$,$B$ matrices. assuming $D$ is the subspace of all Diagonal matrices. I need to find the subspace that each matrix $B$ in it $(A,B)=0$. $A$ belongs to $D$. $[A]_{i,j}=a_{i,j},\\quad   [B]_{i,j}=b_{i,j}$ so I figure it out that the $tr(AB^*)= \\sigma(a_{i,i}c_{i,i}),\\quad  1\\leq i\\leq n$ while $c$ is the conjugation of $b$. but compare it to zero still do not give any information what $c_{i,i}$ is.",
+      "['linear-algebra']"
+    ],
+    [
+      392485,
+      "Iterated function?",
+      "$$f(n) = \\frac{n}{\\lg n}$$\n$$g(n) = \\min (i \\ge 0: f^i(n)\\le 2)$$ In other words, $g(n)$ is the number of times $f(n)$ needs to be iterated to reduce $n$ to 2 or less. What's a tight bound on $g(n)$? $\\lg$ is the binary logarithm ($\\log_2$) Thanks",
+      "['asymptotics', 'algebra-precalculus', 'functions']"
+    ],
+    [
+      392496,
+      "Given $G$, when can we find a division ring $R$ with $R^*=G$?",
+      "This is motivated by a characterization of finite cyclic groups , in which one proves Let $G$ be a finite group. If $\\#\\{g\\in G\\colon g^d=e\\}$ is at most $d$, then $G$ is cyclic. The proof is not actually difficult, but a unnecessarily complicated idea occurred to me (maybe because the first time I saw such a result, it was used to prove that finite subgroups of the multiplicative group of a field are cyclic). If we can construct this $G$ as the multiplicative group of a certain division ring, that is, $R^*\\colon=\\{r\\in R\\colon r\\neq 1\\}$. Then we know $G$ is abelian since finite division rings are commutative , and the abelian case follows from a direct use of the structure theorem of finite abelian groups . Of course such a proof is unnecessarily complicated and very likely results in some cyclic arguments since it uses two very big structure theorems. But I guess it would still be nice to know what kind of groups are multiplicative groups of division rings. Thanks very much!",
+      "['ring-theory', 'group-theory', 'abstract-algebra', 'field-theory']"
+    ],
+    [
+      392500,
+      "What is the time-integral of motion for first order differential equations?",
+      "For a second order differential equation (many physical systems) in one variable, I know \"procedures\" to compute the energy. Given $$q''(t)=f(q(t),q'(t)),\\ \\  q(0)=q_0,\\ \\ q'(0)=v_0,$$ \nif we're lucky we can read off the related Lagrangian $L$, introduce $p=\\frac{\\partial L}{\\partial q}$, do a Legendre transform and we got the Hamiltonian function $H(q,p)$ for which $\\frac{\\text d}{\\text dt}H(q(t),p(t))=0$ for solutions of the differential equation. We can be more exact and give all the conditions for Noethers theorem to hold and the result is that along the flow $X(t)=\\langle q(t),p(t)\\rangle$ in phase space given by a solution with initial conditions $X(0)$, the function $H(q,p)$ always takes the same values. It defines surfaces in phase space indexed by initial conditions $X(0)$. I wonder how to view this for a priori first order systems\n$$q'(t)=f(q(t)),\\ \\ q(0)=q_0,$$\nwhere I think this must be even simpler. \nE.g. I thing some functional \n$$q(t)\\mapsto q(t)-\\text{an integral over}\\  f(q(t))\\  \\text{something},$$\nshould exists which will be constant for solutions of the equation, i.e. only depend on $q_0$. For each $f$, the functional dependence of this \"energy\" on \"$q_0$\" will be different. However, I can't seem to find a general relation. What's the theory behind this, is there an energy'ish time integral of motion? What is the functional dependence on the intial condition, for a suitable constant of motion for for first order systems. And what would be the interpretation, given that we speak of a situation with only one initial condition? If it is that case that the system is too restricted so that there is no meaningful geometrical interpretation, then let's think about a system of first order differential equations. This is like the one we generated from phase space, except that it doesn't really come from a second order situation and so the intial conditions aren't really e.g. intial position and velocity. I'm pretty sure there are situation where one considers such a directly generated flow (the equation might be more complicated than exponential flow $\\dot x\\propto x$), but I don't recall any talk about the time-constant of motion in these systems, or how to interpret it.",
+      "['ordinary-differential-equations']"
+    ],
+    [
+      392506,
+      "Proving that the Flag Variety $Fl(n;m_1,m_2)$ is connected.",
+      "I wish to prove that the flag variety $Fl(n;m_1,m_2) = \\{ W_1 \\subset W_2 \\subset V | dimW_i = m_i \\}$, for $0 \\le m_1 \\le m_2 \\le n$ where V is an n-dimensional vector space over $\\mathbb{C}$ and $W_1, W_2$ are vector subspaces of V, is connected. I'm following a similar method we have been using in lectures for other Lie groups. I have already shown that $U(n)$ acts transitively on $Fl(n;m_1,m_2)$ and that $U(n)$ is connected. I'm wondering if what follows is proof that $Fl(n;m_1,m_2)$ is connected. $Fl(n;m_1,m_2)=U(n)/U(n)_{W_1 \\subset W_2}$,since $U(n)$ acts transitively on $Fl(n;m_1,m_2)$. Thus, since $U(n)$ is connected, if we can show that $U(n)_{W_1 \\subset W_2}$ is connected then it follows that $Fl(n;m_1,m_2)$ is connected. Consider $U(n)_{W_1 \\subset W_2}=\\{F\\in U(n) |F(W_1)=W_1, F(W_2)=W_2 \\}$. It consists of maps with matrices of the form: A=$ \\left( \\begin{array}{ccc}\nA_{m_1,m_1} & 0 & 0 \\\\\n0 & B_{m_2-m_1,m_2-m_1} & 0 \\\\\n0 & 0 & C_{n-m_2,n-m_2} \\end{array} \\right)$ Where the index of the block denotes its size. This is because $F(W_2)$ will be orthogonal to $W_1$ and will be linear multiples of $e_{m_1+1},...,e_{m_2}$, and $F(W_1)$ will be orthogonal to $W_2$ and will be linear multiples of $e_{1},...,e_{m_1}$, where $e_1,...,e_n$ is the orthonormal basis of $Fl(n;m_1,m_2)$. Now I think that I have to show that the blocks in the matrix are themselves contained in a connected component of a Lie group, which would mean that I could connect each of them to the identity matrix of the respective size and thus connect any matrix in the stabiliser subgroup I'm considering to the identity, but I'm not quite sure how to proceed. Could anyone please give me any hints as to the next step? Many thanks.",
+      "['general-topology', 'lie-groups', 'group-theory']"
+    ],
+    [
+      392519,
+      "Recover the stalk at a certain point along the base.",
+      "Let $X$ be a topological space; its open sets form a directed set by the rule\n $$U\\prec V\\quad\\textrm{iff}\\quad V\\subseteq U$$\nIf $\\mathscr F$ is a sheaf, for example of rings, then by definition, for every $x\\in X$ we have that\n$$\\mathscr F_x=\\varinjlim_{U\\ni x}\\mathscr F(U)$$\nwhere clearly $U$ is varying along all open neighborhoods of $x$. Now if $\\mathcal B$ is a base for the topology, intuitively one should have that $$\\mathscr F_x=\\varinjlim_{\\substack {B\\in\\mathcal B\\\\B\\ni x}}\\mathscr F(B)$$ because $\\{\\mathscr F(B)\\}$ looks like as a sort of subsequence of $\\{\\mathscr F(U)\\}$. However I cannot make the above intuitive statement in a formal proof.",
+      "['general-topology', 'sheaf-theory']"
+    ],
+    [
+      392532,
+      "Let $A$ be a matrix sized $p\\times p$, where $2\\le p$. Using recurrence relations, describe $A^k$.",
+      "Let $A$ be a matrix sized $p\\times p$, Where $2\\le p$.\nThe matrix values in the main diagonal are $0$ and the rest are $1$'s. Example for $A$ where $p=5$:\n$$\\begin{bmatrix} 0 & 1 & 1 & 1 & 1 \\\\ 1 & 0 & 1 & 1 & 1 \\\\ 1 & 1 & 0 & 1 & 1 \\\\ 1 & 1 & 1 & 0 & 1 \\\\ 1 & 1 & 1 & 1 & 0 \\\\ \\end{bmatrix}\n$$ Using reccurences relations, describe $A^k$.",
+      "['matrices', 'recurrence-relations']"
+    ],
+    [
+      392534,
+      "Approximation of alternating series $\\sum_{n=1}^\\infty a_n = 0.55 - (0.55)^3/3! + (0.55)^5/5! - (0.55)^7/7! + ...$",
+      "$\\sum_{n=1}^\\infty a_n = 0.55 - (0.55)^3/3! + (0.55)^5/5! - (0.55)^7/7! + ...$ I am asked to find the no. of terms needed to approximate the partial sum to be within  0.0000001 from the convergent value of that series. Hence, I tried find the remainder, $R_n = S-S_n$ by the improper integral $\\int_{n}^{\\infty} \\frac{ (-1)^n(0.55)^{2n-1}} {(2n-1)!} dn $ However, I don't know how to integrate this improper integral so is there other method to solve this problem?",
+      "['sequences-and-series', 'improper-integrals', 'calculus']"
+    ],
+    [
+      392544,
+      "$x^4+y^4 \\geq \\frac{(x^2+y^2)^2}{2}$",
+      "I'm doing some exercise to prepare for my multivariable analysis exam. I didn't understand the second part of this question. Given the function $$f(x,y)=(x^2+y^2+1)^2 - 2(x^2+y^2) +4\\cos(xy)$$ Prove that the taylor polynomial of degree $4$ of $f$ is equal to\n  $5+x^4+y^4$. First, $4\\cos(xy) = 4 - 2(xy)^2 + 4R_3 $ $(x^2+y^2+1)^2=x^4+2 x^2 y^2+2 x^2+y^4+2 y^2+1$ Therefore: $(x^2+y^2+1)^2 - 2(x^2+y^2)=x^4+2 x^2 y^2+y^4+1$ Therefore: $f(x,y)=x^4+y^4+5+4R_3$ I don't know exactly why I can now conclude that Taylor Polynomial of degree 4 must be $5+x^4+y^4$, but I don't know exactly why. Now the second question is: $x^4+y^4 \\geq \\frac{(x^2+y^2)^2}{2}$ New edit I understand this now thanks to hint of Hagen von Eitzen, thanks ! The third question is: Determine what kind of stationary point you have in $(0,0)$.",
+      "['multivariable-calculus', 'real-analysis']"
+    ],
+    [
+      392580,
+      "Integrate: $\\int_0^{\\infty} \\frac{\\sin (ax)}{e^{\\pi x} \\sinh(\\pi x)}dx$",
+      "How to evaluate the following \n$$\\int_0^{\\infty} \\frac{\\sin (ax)}{e^{\\pi x} \\sinh(\\pi x)} dx $$\nGiven hints says to construct a rectangle $0\\to R\\to R+i\\to i \\to 0$ and consider $\\displaystyle f(z):=\\frac{e^{iaz}}{e^{2\\pi z}-1} $ and evaluate around it but that does not help. ADDED:: I need to evaluate it with method of contour . Particularly using given hint on book, when I integrate $i \\to 0$, the integral does not converge. Also, real part of $\\displaystyle f(z):=\\frac{e^{iaz}}{e^{2\\pi z}-1} $ does not converge around $0$. Also I considered $\\displaystyle f(z):=\\frac{e^{iaz}-e^{-iaz}}{e^{2\\pi x}-1} $, and integrate from $-R \\to R \\to R+i \\to -R+ i \\to R$ and I get $\\displaystyle \\int_{-\\infty}^\\infty f(z) dz$ but the function is not symmetric about $0$ . If I consider $\\displaystyle f(z):=\\frac{e^{iaz}}{e^{2\\pi x}-1} $ around the path $-R - i \\to R - i \\to R + i \\to -R +i \\to -R -i $, I again end up with $\\displaystyle \\int_{-\\infty}^{\\infty}f(z) dz$ and I cannot extract $\\int_0^{\\infty}$ due to  function is not symmetric at $0$ because of $e^{2\\pi z}$ at the denominator. Please help!!",
+      "['complex-analysis', 'contour-integration']"
+    ],
+    [
+      392595,
+      "What's the intuition behind this equality involving combinatorics? [duplicate]",
+      "This question already has answers here : Proving Pascal's Rule : ${{n} \\choose {r}}={{n-1} \\choose {r-1}}+{{n-1} \\choose r}$ when $1\\leq r\\leq n$ (12 answers) Closed 11 years ago . What is the intuition behind $$\n\\binom{n}{k} = \\binom{n - 1}{k - 1} + \\binom{n - 1}{k}\n$$ ? I can't grasp why picking a group of $k$ out of $n$ bijects to first picking a group of $k-1$ out of $n-1$ and then a group of $k$ out of $n-1$.",
+      "['binomial-coefficients', 'combinatorics']"
+    ],
+    [
+      392596,
+      "Properties of basic set theory",
+      "The question is about a set:\n$$B=\\{a_1,a_2,a_3,...,a_n\\} \\subset \\mathbb R$$\nAnd would like to know how to calculate $B^n$ where $n \\in\\Bbb N$?",
+      "['elementary-set-theory']"
+    ],
+    [
+      392608,
+      "Second Derivative of basic fraction using quotient rule",
+      "I know this is a very basic question but I need some help. I have to find the second derivative of: $$\\frac{1}{3x^2 + 4}$$ I start by using the Quotient Rule and get the first derivative to be: $$\\frac{-6x}{(3x^2 + 4)^2}$$ This I believe to be correct.\nFollowing that I proceed to find the second derivative in the same manner but I get this as my answer:\n$$\\frac{(54x^4 + 144x^2 +96) - (-36x^3 + 48x)}{(9x^4 +24x^2 +16)^2}$$ This I believe to be correct just not simplified.  However the answer I need to get is:\n$$- \\frac{6(4 - 9x^2)}{(3x^2 + 4)^3}$$\nI do not know what the best way to approach this would be, should I multiply out the denominator and try to cancel?  Could someone point me in the right direction, I want to solve it myself but I need some guidance. Thanks",
+      "['calculus', 'derivatives']"
+    ],
+    [
+      392621,
+      "Can I prove continuity of a function of two variables in this way?",
+      "Common approach in handling functions of two variables is to express this function in polar coordinate system. For example, in the classic example $$f(x,y)=\\left\\{\\begin{array}{lr}\\frac{xy}{x^2+y^2} & (x,y)\\neq (0,0)\\\\0 & \\text{otherwise}\\end{array}\\right.$$ say $x=r\\cos(\\phi)$ and $y=\\sin(\\phi)$, and then we can write $f(r, \\phi)=\\frac{r^2\\sin(\\phi)\\cos(\\phi)}{r^2(\\cos^2(\\phi) + \\sin^2(\\phi))}=\\frac{1}{2}\\sin(2\\phi)$. Now if we let $r\\rightarrow 0$, then it and, for example, $\\phi=\\frac{\\pi}{4}$, the $$\\lim_{r\\rightarrow 0}f(r, \\frac{\\pi}{4})=\\frac{1}{2}\\neq 0$$ so $f$ isn't continuous in $(0,0)$. Now I am given a function $$f(x,y)=(x+y)\\exp(xy)$$Since this function is composition of continuous functions, it must be continuous, but I wanted to ask in common: earlier I used polar coordinates to tell that the function isn't continuous, so can I use the same approach to say that function is continuous, that is:\n$$\\lim_{r\\rightarrow0}f(r,\\phi)=\\lim_{r\\rightarrow0}r(\\cos(\\phi)+\\sin(\\phi))\\exp(r^2\\sin(\\phi)\\cos(\\phi))=0$$\nso function must be continuous, or is it not enough? Thank you in advance!",
+      "['multivariable-calculus']"
+    ],
+    [
+      392622,
+      "Finding asymptotes to general functions",
+      "I stumbled upon this problem and didn't quite understand why the solution worked. I have two questions: Why is it that the taylor series is enough to find the oblique asymptote? Specifically, why do the first two terms suffice? It seems like that may not work for all functions. From pre-calculus I recall finding asymptotes of rational functions, but how do I find vertical, horizontal, and oblique asymptotes of a more general function (such as an exponential or square root, etc.)?",
+      "['calculus', 'functions', 'taylor-expansion']"
+    ],
+    [
+      392626,
+      "Hilbert space with all subspaces closed",
+      "Does there exist an infinite-dimensional Hilbert space with all subspaces closed?",
+      "['hilbert-spaces', 'functional-analysis']"
+    ],
+    [
+      392629,
+      "The normalizer of a proper sub-algebra properly contains the sub-algebra in a nilpotent Lie algebra.",
+      "So I am just making my way into the theory of Lie Algebras. The question at hand comes from page 14 of Humphreys, Introduction to Lie Algebra and Representation Theory . Given a finite dimensional nilpotent Lie algebra $L$, and a proper sub-algebra $K$ of $L$, prove that the normalizer of $K$ properly contains $K$. I keep trying to use Engel's theorem, but I have only been able to show there is a vector such that $[v\\ K]$ is in the center, which much be in $K$. Though the condition for $v$ was only that it is in $L$. A proof or anything else would be helpful. Thank you.",
+      "['lie-algebras', 'abstract-algebra']"
+    ],
+    [
+      392642,
+      "Continuous function that is only differentiable on irrationals",
+      "Can you help me finding a function $f : \\mathbb{R} \\rightarrow \\mathbb{R}$ that is continuous in $\\mathbb{R}$ and differentiable at $x$ iff $x \\notin \\mathbb{Q}$  ? Thank you very much !",
+      "['functions', 'real-analysis']"
+    ],
+    [
+      392663,
+      "How to integrate $\\int \\sqrt{x^2+a^2}dx$",
+      "$a$ is a parameter. I have no idea where to start",
+      "['calculus', 'integration', 'real-analysis']"
+    ],
+    [
+      392667,
+      "How to directly show that Figure 8 injective immersion is not a monomorphism",
+      "I'm working in the category of smooth manifolds. The injective immersion that takes the open unit interval $(0,1)$ to the figure 8 is a well-known example of an injective immersion that is not an embedding. Now embeddings are the monomorphisms in our category. So the figure 8 immersion (let's call it $f$) must not be a monomorphism. Hence, there must exist two distinct maps $g_1,g_2:X\\rightarrow (0,1)$ such that $f\\circ g_1 = f\\circ g_2$. What is an example of such maps?",
+      "['manifolds', 'examples-counterexamples', 'differential-geometry']"
+    ],
+    [
+      392669,
+      "Counterexamples in Double Integral",
+      "I need to: $a.$ Give an example of function $f:\\mathbb{R\\times R}$ $\\to$ \n$\\mathbb{R}$ with domain in $[0,1]^2$ so that double integral exists but the function is not Riemann integrable. $b.$ Give an example (if any) for a non-integrable function $f:\\mathbb{R\\times R}$ $\\to$ \n$\\mathbb{R}$ with domain in $[0,1]^2$ such that both iterated integrals exists(i.e. in both order of integration.) Here is what I think about $(a)$: $$\nf(x,y) =\n\\begin{cases}\n1, & \\text{if }x=1/3, \\text {and } y\\in \\mathbb{Q} \\\\\n0, & \\text{otherwise }\n\\end{cases}\n$$ According to me, this function should work. As irrationals are dense in $[0,1]$, points of discontinuities are not finite, thus Jordan measure is not zero. This implies function is not Riemann integrable. \nAs the infimums are zero for all partions of the $[0,1]^2$, lower riemann integral is zero. But refinement of partitions can also make the volume of the each little \"cube\" approach zero. Hence double integral exists. Please correct this if need be. About $(b)$, intuitively, I don't think such function exists. But I cannot give a rigorous proof for this. Again, I look forward for your help. Thanks.",
+      "['analysis']"
+    ],
+    [
+      392681,
+      "Interchanging the limiting operations",
+      "How to remember the conditions for interchanging the limiting operations , for example between limits and integrals or integrals and sums or derivation of any order and integrals, i mean every one of these requires more or less different conditions from uniform continuity to normal continuity and the continuity of the derivatives , but i think they all have the same spirit , so what i'm looking for is some 'general statement' to remember them , also if there is an aid like a diagram that may help to easily calling the right statement when it is needed.",
+      "['complex-analysis', 'integration', 'real-analysis']"
+    ],
+    [
+      392682,
+      "There does not exist an entire function which satisfies $f({1\\over n})={1\\over 2^n}$?",
+      "There does not exist an entire function which satisfies $f({1\\over n})={1\\over 2^n}$, what I tried is if possible then define $g(z)=f(z)-{1\\over 2^{1\\over z}}$ Then $g({1\\over n})=0$ and so $g(z)$ is entire and its $0$ set has limit point in it and so $f(z)={1\\over 2^{1\\over z}}$ which is not analytic at $0$?\nPlease help! Edit: OOps! the way I defined $g(z)$ that is not entire! could any one give me hint?",
+      "['complex-analysis']"
+    ],
+    [
+      392691,
+      "Does the decimal representation of $\\pi$ contain almost all numbers?",
+      "Let $\\Pi \\in \\Sigma^\\infty$ be the decimal representation of $\\pi$ where $\\Sigma=\\{0..9\\}$. It is not known whether $\\Pi$ contains each natural number. On the other hand, no number is known not to occur in $\\Pi$. (Hope I've got that right) First of all: is this property unique to $\\pi$ or do all irrational numbers share it?\nUPDATE: As pointed out by Brian and MJD, irrationality is completely unrelated: 1. there are irrational numbers which are known not to contain all numbers in their representation (Brian) 2. there are irrational numbers whose representation contains all numbers (MJD). At any event, I think it should be much easier to show that almost all numbers are present, i.e. $ \\exists N\\in\\mathbb{N}\\forall k>N\\exists p\\in\\Sigma^\\star\\exists s\\in\\Sigma^\\infty: \\Pi=pR(k)s$ where $R:\\mathbb{N} \\to \\Sigma^\\star$ maps each number to its decimal representation. So \"allmost all\" here means all except finitely many. Has something like this been proven or disproven? In general I don't think it's possible to construct a non-repetitive stream of symbols $\\sigma \\in \\Sigma^\\infty $ that does not contain almost all $w\\in\\Sigma^\\star$ (\"almost all\" with respect to some enumeration of $\\Sigma^\\star$). (EDIT: This is possible as Brian points out)",
+      "['pi', 'formal-languages', 'number-theory']"
+    ],
+    [
+      392706,
+      "Evaluating the series $\\sum_{n=1}^{\\infty} \\frac{n}{e^{2 \\pi n}-1}$ using the inverse Mellin transform",
+      "Inspired by this answer , I'm trying to show that $$\\sum_{n=1}^{\\infty} \\frac{n}{e^{2 \\pi n}-1} = \\frac{1}{24} - \\frac{1}{8 \\pi}$$ using the inverse Mellin transform. But the answer I get is twice as much as it should be, and I don't understand why. EDIT: With Marko Riedel's help, I corrected the error in my evaluation. Since \n$$ \\left\\{ \\mathcal{M} \\ \\frac{x}{e^{2\\pi x}-1} \\right\\}(s) = \\int_{0}^{\\infty} \\frac{x^{s}}{e^{2 \\pi x}-1} \\, dx = (2\\pi)^{-(s+1)}\\Gamma(s+1)\\zeta(s+1) $$ for $\\operatorname{Re}(s) >1$, we have\n$$  \\frac{x}{e^{2\\pi x}-1}=\\frac{1}{2\\pi i}\\int_{c-i\\infty}^{c+i\\infty}(2\\pi)^{-(s+1)}\\Gamma(s+1)\\zeta(s+1) x^{-s} \\, ds , $$ where $c >1$. Replacing $x$ with $n$ and summing both sides, we get $$ \\begin{align} \\sum_{n=1}^{\\infty}\\frac{n}{e^{2\\pi n}-1} &= \\frac{1}{2\\pi i}\\int_{c-i\\infty}^{c+i\\infty}(2\\pi)^{-(s+1)}\\Gamma(s+1)\\zeta(s+1)\\zeta(s)\\, ds \\\\&= \\frac{1}{2 \\pi i} \\int_{c-i\\infty}^{c+i\\infty} f(s) \\, ds. \\end{align} $$ The integrand has simple poles at $s=-1, 0$, and $1$. The fact that $\\left|\\Gamma(s)\\right|$ decays exponentially fast to $0$ as $\\text{Im} (s) \\to \\pm \\infty$ allows us to shift the contour to the left. I originally shifted the contour all the way to negative infinity. But as Marko Riedel explains below , we want to shift the contour to the imaginary axis since the integrand is odd there. Indeed, using the functional equation of the Riemann zeta function, we get $$ f(it) = \\frac{it}{2 \\pi} \\sinh \\left(\\frac{\\pi t }{2} \\right) \\operatorname{csch}(\\pi t) \\left|\\zeta(1+it)\\right|^{2}, \\quad t \\in \\mathbb{R}.$$ Therefore, $$ \\int_{c-i \\infty}^{c+i \\infty} f(s) \\, ds = 2 \\pi i \\ \\text{Res}[f,1] + \\pi i \\ \\text{Res}[f,0] ,$$ where $$ \\begin{align} \\text{Res}[f,0] &= \\lim_{s \\to 0} s (2 \\pi)^{-(s+1)} \\Gamma(s+1) \\zeta(s+1) \\zeta(s) \\\\ &= \\lim_{s\\to 0} s\\zeta(s+1) (2\\pi)^{-(s+1)}\\Gamma(s+1)\\zeta(s) \\\\ &= 1\\left(\\frac{1}{2 \\pi} \\right)(1)\\left(- \\frac{1}{2} \\right) \\\\ &=-\\frac{1}{4 \\pi} \\end{align} $$ and $$ \\begin{align} \\text{Res}[f,1] &= \\lim_{s \\to 1} (s-1) (2 \\pi)^{-(s+1)} \\Gamma(s+1) \\zeta(s+1) \\zeta(s) \\\\ &= \\lim_{s\\to 1}(s-1)\\zeta(s) (2\\pi)^{-(s+1)}\\Gamma(s+1)\\zeta(s+1) \\\\&= 1\\left(\\frac{1}{4 \\pi^{2}}\\right)(1)\\left(\\frac{\\pi^{2}}{6}\\right) \\\\ &=\\frac{1}{24} . \\end{align} $$ The result then follows.",
+      "['mellin-transform', 'sequences-and-series', 'complex-analysis']"
+    ],
+    [
+      392711,
+      "Integrating left to right versus right to left.",
+      "OK, I understand that when integration is done left to right with respect to x increasing left to right (dx is positive), that the answer is positive, and vice versa when integrating right to left. But, as a reality check, there is something that I have never understood (or, understanding, I find so counterintuitive as to want to question it): Interpreting the result as area, one and the same area is either positive or negative not depending on what it is, but on how it is counted. I recognize that it is a logical extension of, say, -1 versus +1 on the number line, but at least -1 and +1 occupy different positions! Whenever I've brought this up, I tend to get blank looks, like, \"how could you be so stupid\", or \"huh\", but, clearly it does not keep me from being bothered by it, so I'll ask here ... once again! To me, apart from what the mechanics of integration require, a more logical \"positioning\" of the negative area would be its reflection across the x-axis.",
+      "['integration']"
+    ],
+    [
+      392744,
+      "Grouping natural numbers into arithmetic progression",
+      "I need to find the number of ways of dividing the first 12 natural numbers into 3 equal groups (4 numbers each), so that the numbers in any particular group can be arranged in AP (Arithmetic progression). This is what I did: Consider the group which contains the number $1$ For this group the possibilities are: $1- 2 -3- 4$ or,\n$1- 3 -5- 7$ or,\n$1- 4 -7- 10$ Clearly 12 is not included in any one of these groups, so $12$ must be part of another group.\nFor this group too we get three possibilities (counting backwards from $12$).\nAfter that, I just checked every possible combination of the two groups to see if the third was in AP. (it was kind of easy, just 9 cases) I got my final answer as 4. I'd like to know if there is more simple and elegant method to solving this, and if possible generalizing for the first n natural numbers.",
+      "['permutations', 'combinatorics']"
+    ],
+    [
+      392758,
+      "$\\int_0^{\\pi/4}\\!\\frac{\\mathrm dx}{2+\\sin x}$ , $\\int_0^{2\\pi}\\!\\frac{\\mathrm dx}{2+\\sin x}$",
+      "Please help me integrate $$\\int_0^{\\pi/4}\\!\\frac{\\mathrm dx}{2+\\sin x}$$ and $$\\int_0^{2\\pi}\\!\\frac{\\mathrm dx}{2+\\sin x}$$ I've tried the standard $u = \\tan \\frac{x}{2}$ substitution but it looks horrible. Thanks in advance!",
+      "['calculus', 'integration']"
+    ],
+    [
+      392770,
+      "Proof on showing if F(x,y,z)=0 then product of partial derivatives (evaluated at an assigned coordinate) is -1",
+      "The task is as follows: Given: $$F(x,y,z) = 0$$ Goal: Show    $\\frac{\\partial\n z}{\\partial y}|_x \\frac{\\partial  y}{\\partial x}|_z \\frac{\\partial x}{\\partial z} |_y = -1$ Here is my work so far: (1) Differentiate with respect to y, I get: $0 + F_2 + F_3  \\frac{\\partial z}{\\partial y} = 0$ So $ F_3  \\frac{\\partial z}{\\partial y} = - F_2$ (2) Differentiate with respect to x, I get: $F_1 + F_2 \\frac{\\partial y}{\\partial x}  + 0 = 0$ So $ F_2  \\frac{\\partial y}{\\partial x} = - F_1$ (3) Differentiate with respect to z, I get: $F_1  \\frac{\\partial x}{\\partial z}    + 0  + F_3 = 0$ So $ F_1  \\frac{\\partial x}{\\partial z} = - F_3$ (4) After some manipulations with the $F_i$, I get to the conclusion that $\\frac{\\partial z}{\\partial y}* \\frac{\\partial y}{\\partial x} * \\frac{\\partial x}{\\partial z}  = -1$, so when evaluated with x, z, y respectively, conclusion is still true My questions are: (1) Is my proof correct? (2) For example, when I differentiate with respect to y, I \"let\" $F_1$ be 0 and find partials for other coordinates. I had a hard time trying to explain to my friend on the reason(s) why I can do such \"let be 0\" thing.  Although I think if I can't do that, then there is no way that I can reach the conclusion, but I somehow feel confused about the fact too.  Since my book is doing it that way, my understanding is that I can do such \"let be 0\" thing based on the independece of x with respect to y, when I differentiate with respect to y.  But is my thought ok? Would someone please help me on this question?\nThank you very much ^_^",
+      "['multivariable-calculus', 'analysis']"
+    ],
+    [
+      392781,
+      "Finding the maximal $t$ satisfying a family of inequalities",
+      "Given $c \\in (0,1)$, find the maximal positive $t$ satisfying the following:\n$$\\forall n \\in \\{1,2,\\ldots \\}: 1+\\frac{c}{n+(1-c)} \\le \\left(1+\\frac{1}{n+t}\\right)^{c}$$ My progress thus far: A special case is $c = \\frac{1}{2}$: the inequality simplifies to $3t-1 \\le n(1-4t)$, which implies $t \\le \\frac{1}{4}$. $t=\\frac{1}{4}$ actually works. The inequality $\\left(1+\\frac{1}{n+t}\\right)^{c} \\le \\frac{c}{n+t}$ shows $t \\le 1-c$.",
+      "['analysis']"
+    ],
+    [
+      392787,
+      "Compositions of $n$ with largest part at most $m$",
+      "This is a problem from Stanley's Enumerative Combinatorics that I'm failing at a bit (lot): Let $\\bar{c}(m,n)$ denote the number of compositions of $n$ with largest part at most $m$.  Show that $$\\sum_{n\\geq 0}\\bar{c}(m,n)x^n={{1-x}\\over{1-2x+x^{m+1}}}$$ Some definitions:  A composition of $n$ is an $ordered$ list of positive integers that equals $n$.  If $\\{a_1,...,a_k\\}$ is one such composition, we say that the composition has $k$ $parts$. I know it's pretty traditional to list a \"what you've done so far\" but I'm really about as blindly stuck as can be.",
+      "['power-series', 'generating-functions', 'combinatorics']"
+    ],
+    [
+      392793,
+      "For a (not necessarily affine) scheme $X = \\bigcup_{i=1}^n X_{f_i}$, does $(f_1, \\ldots, f_n) = (1)$ in $\\mathcal{O}_X(X)$?",
+      "This is of course true in the affine case, so it seems like it should be true in general, because $\\mathcal{O}_X(X)$ should be \"smaller\" for a non-affine scheme than for a similar affine scheme (e.g. all global sections over a projective scheme are constants).  Just to be clear on notation: $X$ is a scheme, not necessarily affine. $f_1, \\ldots, f_n \\in \\mathcal{O}_X(X)$. $X_f := \\{ x \\in X \\; | \\; f_x \\not \\in \\mathfrak{m}_{X, x} \\}$, where $\\mathfrak{m}_{X, x}$ is the maximal ideal of the stalk $\\mathcal{O}_{X, x}$ $X = X_{f_1} \\cup \\cdots \\cup X_{f_n}$ Does it follow that $(f_1, \\ldots, f_n) = (1)$ in $\\mathcal{O}_X(X)$? We have $(f_1|_U, \\ldots, f_n|_U) = (1)$ in $\\mathcal{O}_X(U)$ where $U \\subset X$ is open affine, but I don't see how to extend this to all of $X$.",
+      "['algebraic-geometry']"
+    ],
+    [
+      392801,
+      "Computing $\\iiint_\\mathbb{R^3} e^{-x^2-y^2-z^2}dxdydz$ using substitution",
+      "Consider this integral:\n$$\\iiint_\\mathbb{R^3} e^{-x^2-y^2-z^2}dxdydz$$\nHow would you compute it? I already solved this problem this way:\n$$\\iiint_\\mathbb{R^3} e^{-x^2-y^2-z^2}dxdydz = \\left( \\int_\\infty^\\infty e^{-x^2} \\right)^3 = \\pi^{3/2}$$ But I wanted to find it using substitution (spherical coordinates) but this is all I could do:\n$$\\iiint_\\mathbb{R^3} e^{-x^2-y^2-z^2}dxdydz = \\lim_{j\\,\\rightarrow\\infty}\\int_0^jdu\\int_0^\\pi dv\\int_0^{2\\pi} e^{-u^2}u^2\\sin(v) dw=$$ $$=2\\pi\\lim_{j\\,\\rightarrow\\infty}\\int_0^jdu\\int_0^\\pi e^{-u^2}u^2\\sin(v)dv=4\\pi\\lim_{j\\,\\rightarrow\\infty}\\int_0^je^{-u^2}u^2du$$ But it doesn't get me anywhere. Help would be very appreciated, thanks in advance.",
+      "['multivariable-calculus', 'integration', 'real-analysis']"
+    ],
+    [
+      392808,
+      "Fourier series $\\sum_{m=0}^\\infty \\frac{\\cos (2m+1)x}{2m+1}$",
+      "Does anyone know the sum of Fourier series $$\\sum_{m=0}^\\infty \\frac{\\cos (2m+1)x}{2m+1}?$$\nI tried WA; it does not return a function.",
+      "['fourier-series', 'sequences-and-series', 'analysis']"
+    ],
+    [
+      392813,
+      "Ball-counting problem (Combinatorics)",
+      "I would like some help on this problem, I just can't figure it out. In a box there are 5 identical white balls, 7 identical green balls and 10 red balls (the red balls are numbered from 1 to 10). A man picks 12 balls from the box. How many are the possibilities, in which: a) exactly 5 red balls are drawn --\nb) a red ball isn't drawn --\nc) there is a white ball, a green ball and at least 6 red balls Thanks in advance.",
+      "['discrete-mathematics', 'combinatorics']"
+    ],
+    [
+      392818,
+      "SVD, infinite matrices and normal operators from a function",
+      "I'm trying to understand the behavior the Singular Value Decomposition on a deeper level, and why it might give a particular result. Take the function $$\nf(x,y) = \\frac{1}{(1+2x+y)^2}\n$$ and consider a continous range of parameters over $x \\in [0,1]$, $y \\in [0,.5]$. Consider an \"infinite\" matrix $$\nA =\n\\begin{bmatrix}\nf(0,0) & f(\\delta_1, 0) & f(2\\delta_1,0) & ... & f(1,0) \\\\\nf(\\delta_1,\\delta_2) & f(\\delta_1, \\delta_2) & f(2\\delta_1, \\delta_2) & ... & f(1,\\delta_2) \\\\\n... & ... & ... & ... & ... \\\\\nf(\\delta_1,.5) & f(\\delta_1, .5) & f(2\\delta_1, .5) & ... & f(1,.5) \\\\\n\\end{bmatrix}\n$$ where $\\delta_1$ and $\\delta_2$ can be made as small as I like. I can certainly take a finite, but small value for the $\\delta's$ and compute the SVD $$A=USV$$ This gives some interesting behavior (plotted below in clockwise order $f$, log of the singular values, and the corresponding vectors, $u_i$ and $v_i$): Questions: Terminology:\nIs it correct to think of $f$ as a (normal) operator, or is it $A$? What is this operator? Spectral theory:\nHow do you compute the eigenvectors directly from $f$?",
+      "['svd', 'spectral-theory', 'functional-analysis', 'analysis']"
+    ],
+    [
+      392822,
+      "Deduce that there exists a prime $p$ where $p$ divides $x^2 +2$ and $p\u22613$ (mod 4)",
+      "I am revising for a number theory exam and have a question that I am struggling with, any help would be greatly appreciated. First I am asked to show that for an odd number $x$, $x^2+2 \u22613$(mod 4). I can do this part of the question, but next I am asked to deduce that there exists a prime $p$ where $p$ divides $x^2 +2$ and $p\u22613$ (mod 4) I am struggling to see how to attempt the second part and how the first part relates. My thoughts so far are that I want to show $x^2\u2261-2$(mod p) ?\n And perhaps Fermat's Little Theorem could be of use here somehow? Not sure if I'm barking up the wrong tree though. Thanks in advance.",
+      "['number-theory']"
+    ],
+    [
+      392823,
+      "Conjectural closed-form representations of sums, products or integrals",
+      "What are some examples of infinite sums, products or definite integrals that have conjectural closed form representations that were confirmed by numerical calculations up to whatever maximum precision anybody tried but still remain unproved? I am also interested in values of special functions at certain points that have conjectural representations in terms of simpler functions (e.g. special values of hypergeometric functions, Meijer G-function or Fox H-function that representable in terms of elementary functions and well-known constants like $\\pi$, $e$, Catalan , Euler\u2013Mascheroni , Glaisher\u2013Kinkelin or Khinchin ). To give some examples: Gourevitch conjecture mentioned at MathOverflow :\n$$\\sum_{n=0}^\\infty \\frac{1+14n+76n^2+168n^3}{2^{20n}}\\binom{2n}{n}^7\\stackrel{?}{=}\\frac{32}{\\pi^3}.$$ Riemann hypothesis (in an unusual form, also mentioned at MathOverflow )\n$$\\int_{0}^{\\infty}\\frac{(1-12t^2)}{(1+4t^2)^3}\\int_{1/2}^{\\infty}\\log|\\zeta(\\sigma+it)|~d\\sigma ~dt\\stackrel{?}{=}\\frac{\\pi(3-\\gamma)}{32}.$$ Another conjecture from MathOverflow attributed to J. M. Borwein, D. H. Bailey, Mathematics by Experiment: Plausible Reasoning in the 21st Century :\n$$\\frac{\\displaystyle\\int_{\\pi/3}^{\\pi/2}\\log\\left|\\frac{\\tan t+\\sqrt{7}}{\\tan t-\\sqrt{7}}\\right|dt}{\\displaystyle\\sum_{n=1}^\\infty\\left(\\frac n7\\right)\\frac{1}{n^2}}\\stackrel{?}{=}\\frac{7\\sqrt{7}}{24},$$\nwhere $(\\frac{n}{7})$ denotes the Legendre symbol .",
+      "['closed-form', 'sequences-and-series', 'integration', 'big-list', 'soft-question']"
+    ],
+    [
+      392828,
+      "How to interpret summation signs",
+      "I'm taking a course in statistics, and I really need to brush up my math to be able to follow the book at times. I'm looking at formulas for sum of squares, and I am slightly confused about the capital sigma letter and how to interpret an equation with several signs like this: $$SS_a = \\sum^a_{i=1} \\sum^b_{j=1} \\sum^n_{k=1} (\\bar{X}_i - \\bar{X})^2 $$ I mean, it's only i which is used  the summation signs, but when I try it out (ignoring b and n ) it seems like I get it wrong, and that it should be something like this: $ b * n * \\sum^a_{i=1}(\\bar{X}_i -\\bar{X})^2 $ Is this correct, and what is the rule behind it? PS. I wasn't sure what tags really fits into this question, might it be basic algebra? DS",
+      "['statistics', 'notation']"
+    ],
+    [
+      392830,
+      "Set that is not well-ordered",
+      "I want to find a set that is transitive, every non-empty subset of it has $\\in$-maximum and is not $\\in$-well ordered. Any hint?",
+      "['elementary-set-theory', 'order-theory']"
+    ],
+    [
+      392841,
+      "What is the reason for the name *left* coset?",
+      "Let $G$ be a group and let $H \\leq G$ be a subgroup. It seems that it is now standard to call the cosets \n$$gH=\\{gh \\ |\u00a0h \\in H \\}$$ the left cosets of $H$ in $G$. I have to admit to being slightly annoyed with this convention: these are the orbits for the right action of $H$ on $G$. Therefore I am perpetually tempted to refer to them as right cosets. Is there a second good reason (I happily admit convention is a very good reason) for calling these left cosets? (The fact that the \"g\" is written on the left does not count, as far as I am concerned).",
+      "['terminology', 'group-theory']"
+    ],
+    [
+      392853,
+      "Why is this derivative incorrect?",
+      "We have to find the derivative of $$f(x) = \\dfrac{\\tan(2x)}{\\sin(x)}$$ I would like to know why my approach is incorrect: $$f'(x) = \\dfrac{\\sin(x) \\cdot \\dfrac{2}{\\cos^2(2x)}  - \\tan(2x) \\cdot \\cos(x)}{\\sin^2(x)}$$ $$ =  \\dfrac{ 2 \\sin(x) - \\tan(2x) \\cdot \\cos(x)}{\\cos^2(2x) \\cdot \\sin^2(x)}$$ $$ = \\dfrac {2 \\sin(x) - \\sin(2x) \\cdot \\cos(x)}{\\cos^3(2x) \\cdot \\sin^2(x)}$$ p.s. - To avoid confusion ; I wanted to get rid of the $\\tan$. I'm sure there is a shorter method than this but I don't want it; I just want to know why this is wrong.",
+      "['trigonometry', 'derivatives']"
+    ],
+    [
+      392860,
+      "Sum of Bernoulli random variables with different success probabilities",
+      "Let $X_{i} \\in \\{0,1\\}$ be Bernouli random variable with probability of success $p_{i}$, i.e., $P(X_{i}=1) = p_{i}$ and $P(X_{i}=0) = 1-p_{i}$ and let $Y=\\sum_{i=1}^{n}X_{i}$ for $n>0$. Is it relatively simple to estimate the pmf $P(Y=y)$ when $p_{i} \\neq p_{j}$ for $i \\neq j$?",
+      "['probability-distributions', 'probability']"
+    ],
+    [
+      392881,
+      "A boundary version of Cauchy's theorem",
+      "I am looking for a reference for the following theorem (or something like it) that is not Kodaira's book. Let $D$ be a domain and $\\overline{D}$ be it's closure. Suppose that $f:\\overline{D} \\rightarrow \\mathbb{C}$ is holomorphic in $D$ and continuous on $\\overline{D}$. If the boundary of $D$, denoted $\\partial D$ is composed of piecewise $C^1$ curves then\n    $$f(w) = \\frac{1}{2\\pi i}\\oint_{\\partial D}\\frac{f(z)}{z-w}dz$$\n    for all $w\\in D$. This is stronger than the classical Cauchy integral theorem, because here we can allow the path we integrate over to be the boundary. This appears in Kodaira's book, but the book seems sloppily written and I found an egregious error in the first few pages, so I'd like another reference. This does not appear in Ahlfors or any other standard text I looked at. I am looking for any proof that extends to usual Cauchy's theorem to allow paths that lie on the boundary of a region, instead of requiring them to lie entirely in the open region like the usual version does. I managed to find a paper that sketches a high-powered proof when the boundary is a rectifiable Jordan arc (or some multiply connected region where each boundary component is) and gives a reference to a more elementary proof of the same result. I think a simpler proof should be possible in this case, where the boundary is assumed to be $C^1$. This is closely related to an old question that did not get much attention.",
+      "['reference-request', 'complex-analysis']"
+    ],
+    [
+      392898,
+      "Is $\\operatorname{Aut}(\\mathbb{I})$ isomorphic to $\\operatorname{Aut}(\\mathbb{I}^2)$?",
+      "Is $\\def\\Aut{\\operatorname{Aut}}\\Aut(\\mathbb{I})$ isomorphic to $\\Aut(\\mathbb{I}^2)$ ? ($\\mathbb{I},\\mathbb{I}^2$ have their usual meaning as objects in $\\mathsf{Top}$). I show some of one of my attempts. I was trying to show that the two are not isomorphic by considering the elements of order $2$ of both groups. If $\\Aut(\\mathbb{I})$ has a finite number of elements of order $2$, then $\\Aut(\\mathbb{I}^2)$ would have more elements of order $2$ (because for each $f\\in \\Aut(I)$ of order $2$, the functions $f_1,f_2$ given by $f_1(x,y)=(f(x),f(y)),f_2(x,y)=(x,f(y))$ are elements of order $2$ of $\\Aut(\\mathbb{I}^2)$ ). Shortly, I found that $\\Aut(\\mathbb{I})$ has infinitely many elements of order $2$, thus this does not work.",
+      "['general-topology', 'algebraic-topology']"
+    ],
+    [
+      392908,
+      "For natural $n$, prove $\\prod_{k=1}^n \\tan\\left(\\frac{k\\pi}{2n+1}\\right) = 2^n \\prod_{k=1}^n \\sin\\left(\\frac{k\\pi}{2n+1}\\right)=\\sqrt{2n+1}$",
+      "Prove that, for a natural number $n$ , $$\\prod_{k=1}^n \\tan\\left(\\frac{k\\pi}{2n+1}\\right) = 2^n \\prod_{k=1}^n \\sin\\left(\\frac{k\\pi}{2n+1}\\right)=\\sqrt{2n+1}$$ This follows from a continued fraction identity for which, I think, there is a lengthy proof. But, I thought, that there may be a direct geometric or another proof. Constructing a polynomial with the sines and tangents roots may be helpful.",
+      "['trigonometry']"
+    ],
+    [
+      392918,
+      "Are Taylor series and power series the same \"thing\"?",
+      "I was just wondering in the lingo of Mathematics, are these two \"ideas\" the same? I know we have Taylor series, and their specialisation the Maclaurin series, but are power series a more general concept? How does either/all of these ideas relate to generating functions?",
+      "['power-series', 'complex-analysis', 'real-analysis', 'taylor-expansion']"
+    ],
+    [
+      392919,
+      "How many vertices of degree 1 in a tree?",
+      "How many vertices of degree 1 are there in a tree with no vertices of degree more than 4?\nThe only thing that I have right now is that the number of edges in a tree is n -1 where n is the number of vertices. Any help would be appreciated. Thanks in advance.",
+      "['graph-theory', 'trees', 'combinatorics']"
+    ],
+    [
+      392925,
+      "Non-isomorphic posets",
+      "Is there any formula or counting algorithm for the number of non-isomorphic posets (defined on finite n-element set)?\nI'm interested how to solve task *5, p.4 in Birkhoff's \"Lattice Theory\" the book Thanks in advance.",
+      "['order-theory', 'combinatorics']"
+    ],
+    [
+      392934,
+      "Do uniformly continuous functions map complete sets to complete sets?",
+      "Let $f: (M, d) \\rightarrow (N, \\rho)$ be uniformly continuous.\nProve or disprove that if M is complete, then $f(M)$ is complete. If I am asking a previously posted question, please accept my apologies and tell me to bugger off.  I saw a similar problem but the solution was dealing with a Bi-Lipschitz function or some such business. I believe this statement to be true and here is a rough sketch of my reasoning: Since $f$ is uniformly continuous, then $f$ maps Cauchy to Cauchy.\nLet $(x_n)$ be a Cauchy sequence in $M$.  Since $M$ is complete, $x_n \\rightarrow x \\in M$.  Again, because of $f$'s uniform continuity, we now have $(f(x_n))$ is Cauchy in $N$ and $f(x_n) \\rightarrow f(x) \\in N$.  Thus $N$ is complete. By the way, I am studying for an exam.  This is certainly not homework.  I gladly accept your criticisms.  Thank you in advance for your help.",
+      "['cauchy-sequences', 'real-analysis']"
+    ],
+    [
+      392952,
+      "Proof of: If $x_0\\in \\mathbb R^n$ is a local minimum of $f$, then $\\nabla f(x_0) = 0$.",
+      "Let $f \\colon \\mathbb R^n\\to\\mathbb R$ be a differentiable function.\nIf $x_0\\in \\mathbb R^n$ is a local minimum of $f$ , then $\\nabla f(x_0) = 0$ . Where can I find a proof for this theorem? This is a theorem for max/min in calculus of several variables. Here is my attempt: Let $x_0$ = $[x_1,x_2,\\ldots, x_n]$ Let $g_i(x) = f(x_0+(x-x_i)e_i)$ where $e_i$ is the $i$ -th standard basis vector of dimension $n$ . Since $f$ has local min at $x_0$ , then $g_i$ has local minimum at $x_i$ .\nSo by Fermat's theorem, $g'(x_i)= 0$ which is equal to $f_{x_i}(x_0)$ .\nTherefore $f_{x_i}(x_0) = 0$ which is what you wanted to show.\nIs this right?",
+      "['multivariable-calculus', 'derivatives', 'maxima-minima']"
+    ]
+  ]
+}

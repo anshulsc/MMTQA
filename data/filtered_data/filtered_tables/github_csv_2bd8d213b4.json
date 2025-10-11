@@ -1,0 +1,1003 @@
+{
+  "columns": [
+    "question",
+    "options",
+    "answer",
+    "explanation",
+    "topic",
+    "difficulty",
+    "chapter"
+  ],
+  "data": [
+    [
+      "Which type of sorting involves records stored primarily in main memory?",
+      "['External sorting', 'Internal sorting', 'Merge sorting', 'Quick sorting']",
+      "B",
+      "Internal sorting operates on data residing entirely within the main memory.",
+      "Types of sorting: internal and external",
+      "Easy",
+      7.2
+    ],
+    [
+      "In external sorting, where might some or all of the records to be sorted reside?",
+      "['CPU cache', 'Random Access Memory (RAM)', 'Auxiliary storage (disk/tape)', 'Registers']",
+      "C",
+      "External sorting handles datasets too large to fit entirely in main memory, necessitating the use of secondary storage like disks or tapes.",
+      "Types of sorting: internal and external",
+      "Easy",
+      7.2
+    ],
+    [
+      "A sorting algorithm is considered stable if, for records with identical keys, their relative order...",
+      "['is reversed.', 'is randomized.', 'remains unchanged from the input list.', 'is determined alphabetically.']",
+      "C",
+      "Stability in sorting preserves the original relative order of records with equal keys.",
+      "Types of sorting: internal and external",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is a key characteristic of an exchange sort algorithm?",
+      "[\"It's a non-comparison-based algorithm.\", \"It's inherently stable.\", \"It's comparison-based.\", \"It's exclusively used for external sorting.\"]",
+      "C",
+      "Exchange sort algorithms rely on comparing elements to determine their relative order.",
+      "Types of sorting: internal and external",
+      "Medium",
+      7.2
+    ],
+    [
+      "In the context of stable sorting, what does the algorithm generally maintain, unless otherwise specified?",
+      "['The alphabetical order of the keys.', 'The original order of records with identical keys.', 'The reverse order of the input list.', 'A completely random order.']",
+      "B",
+      "Stable sorts aim to retain the initial sequence of items having the same key.",
+      "Types of sorting: internal and external",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the best-case time complexity of Insertion Sort?",
+      "['O(n^2)', 'O(log n)', 'O(n)', 'O(1)']",
+      "C",
+      "Insertion Sort achieves O(n) time complexity in its best-case scenario, which occurs when the input array is already sorted.",
+      "Insertion and selection sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "In the worst-case scenario, how many comparisons does Selection Sort perform on a list of size N?",
+      "['N-1', 'N', 'N(N-1)/2', 'N^2']",
+      "C",
+      "Selection sort makes N(N-1)/2 comparisons in the worst, average, and best cases.",
+      "Insertion and selection sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which sorting algorithm is generally considered more efficient in terms of data movement (swaps)?",
+      "['Insertion Sort', 'Selection Sort', 'Both have equal efficiency in data movement.', 'Neither is efficient in terms of data movement.']",
+      "B",
+      "Selection sort minimizes data movement; an element in its correct position is never moved, and only one swap is needed per pass.",
+      "Insertion and selection sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the space complexity of both Insertion Sort and Selection Sort?",
+      "['O(n)', 'O(log n)', 'O(1)', 'O(n^2)']",
+      "C",
+      "Both algorithms are in-place sorting algorithms, meaning they require constant extra space (O(1)).",
+      "Insertion and selection sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is a significant disadvantage of Insertion Sort?",
+      "['High memory usage.', 'Excessive data swapping.', 'Inefficient with nearly sorted data.', ' A large amount of shifting of sorted elements when inserting later elements.']",
+      "D",
+      "When inserting later elements, insertion sort requires significant shifting of already sorted elements, reducing efficiency.",
+      "Insertion and selection sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which type of sorting algorithm is the exchange sort?",
+      "['Insertion-based', 'Selection-based', 'Comparison-based', 'Merge-based']",
+      "C",
+      "The passage explicitly states that exchange sort is a comparison-based sorting algorithm.",
+      "Exchange sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is a key characteristic of a stable sorting algorithm when dealing with records having identical keys?",
+      "['It always prioritizes records with larger keys.', 'It reorders records with identical keys arbitrarily.', 'It maintains the relative order of records with identical keys from the original list.', 'It requires significantly more processing time.']",
+      "C",
+      "A stable sort preserves the original order of records with equal keys.",
+      "Exchange sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "Where are the records stored when dealing with internal sorting?",
+      "['On a secondary storage device like a disk', 'In the auxiliary memory', 'In the main memory', 'On a tape drive']",
+      "C",
+      "The passage defines internal sorting as having records stored in main memory.",
+      "Exchange sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the primary purpose of sorting algorithms?",
+      "['To perform mathematical calculations.', 'To create a backup of data.', 'To rearrange items in a list based on a specific order.', 'To encrypt sensitive information.']",
+      "C",
+      "The passage defines sorting as the process of rearranging items in a list.",
+      "Exchange sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "In the context of sorting, what does the term \"stable sort\" refer to?",
+      "['A sorting method that guarantees the fastest execution speed.', 'A sorting algorithm that uses minimal memory space.', 'A sorting algorithm where the relative order of records with equal keys is preserved.', 'A sorting method only suitable for small datasets.']",
+      "C",
+      "The passage defines a stable sort as preserving the relative order of records with identical keys.",
+      "Exchange sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which sorting algorithm is based on the values of digits in the positional representation of numbers?",
+      "['Merge Sort', 'Quick Sort', 'Radix Sort', 'Bubble Sort']",
+      "C",
+      "Radix sort utilizes the digits of numbers to sort them, unlike comparison-based sorts like merge sort, quick sort, and bubble sort.",
+      "Merge and Radix sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the time complexity of Radix Sort in the best case scenario (assuming a fixed number of digits)?",
+      "['O(n log n)', 'O(n^2)', 'O(n)', 'O(log n)']",
+      "C",
+      "Radix sort's time complexity is linear, O(n), with a fixed number of digits.  The other options represent complexities of other sorting algorithms.",
+      "Merge and Radix sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "In Radix Sort, the sorting process begins with which digit?",
+      "['The most significant digit', 'The middle digit', 'A randomly selected digit', 'The least significant digit']",
+      "D",
+      "Radix sort starts by sorting based on the least significant digit and proceeds to the most significant digit.",
+      "Merge and Radix sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is a key characteristic that distinguishes Radix Sort from comparison-based sorting algorithms?",
+      "[' It uses recursion.', 'It is a stable sort.', 'It does not directly compare elements.', 'It requires extra memory.']",
+      "C",
+      "Radix sort does not compare elements directly; instead, it uses the digits to distribute and collect numbers.  While it can be stable and may use extra memory, this is not the key distinguishing factor.",
+      "Merge and Radix sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "If a Radix Sort is used to sort a set of numbers with k digits, approximately how many passes are required over the data?",
+      "['log k', 'k', 'n (where n is the number of elements)', 'k log k']",
+      "B",
+      "Radix sort requires one pass for each digit, therefore, k passes are needed for k digits.",
+      "Merge and Radix sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is a significant advantage of using a heap to implement a priority queue, especially for large n?",
+      "['Constant-time insertions and deletions.', ' Linear-time search operations.', 'Logarithmic-time insertions and deletions.', ' Requires minimal storage space.']",
+      "C",
+      "Heaps guarantee logarithmic time complexity for both insertion and deletion operations, making them efficient for large datasets.",
+      "Shell sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "Shell Sort is a significant improvement over which basic sorting algorithm?",
+      "['Merge Sort', 'Quick Sort', 'Bubble Sort', 'Insertion Sort']",
+      "D",
+      "Shell sort is explicitly described as an improvement on simple insertion sort.",
+      "Shell sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "In the context of heap-based priority queues, what is the time complexity of restoring the heap property after an element is inserted or deleted?",
+      "['O(n)', 'O(1)', 'O(log n)', 'O(n^2)']",
+      "C",
+      "Restoring the heap property after insertion or deletion takes O(log n) time.",
+      "Shell sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is another name for Shell Sort?",
+      "[' Bubble Sort', 'Diminishing Increment Sort', 'Merge Sort', ' Quick Sort']",
+      "B",
+      "The passage explicitly refers to Shell Sort as diminishing increment sort.",
+      "Shell sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "Which data structure is particularly advantageous for implementing a priority queue when dealing with large datasets?",
+      "['Linked List', ' Array', ' Heap', 'Stack']",
+      "C",
+      "The passage highlights the advantages of using a heap for priority queue implementation for large n due to its logarithmic time complexity for insertions and deletions.",
+      "Shell sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the time complexity of removing an element from a priority queue implemented using a sorted contiguous list?",
+      "['O(n)', 'O(log n)', 'O(1)', 'O(n log n)']",
+      "C)",
+      "In a sorted contiguous list, the element with the largest (or smallest) key is always at one of the ends, allowing for O(1) removal.",
+      "Heap sort as a priority queue",
+      "Easy",
+      7.2
+    ],
+    [
+      "Which data structure is commonly used to efficiently implement a priority queue?",
+      "[' Linked List', ' Binary Search Tree', ' Heap', ' Stack']",
+      "C)",
+      "Heaps are particularly well-suited for priority queue implementation due to their ability to efficiently find and remove the maximum or minimum element.",
+      "Heap sort as a priority queue",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the time complexity of inserting an element into a priority queue implemented using an unsorted list?",
+      "['O(n log n)', 'O(log n)', 'O(n)', 'O(1)']",
+      "D)",
+      "Insertion into an unsorted list simply adds the element to the end, taking constant time.",
+      "Heap sort as a priority queue",
+      "Easy",
+      7.2
+    ],
+    [
+      "A priority queue supports which of the following operations?",
+      "[' Insertion only', ' Deletion only', ' Insertion and deletion', ' Search only']",
+      "C)",
+      "A priority queue fundamentally supports both inserting new elements and removing the highest (or lowest) priority element.",
+      "Heap sort as a priority queue",
+      "Easy",
+      7.2
+    ],
+    [
+      "When using a sorted contiguous list to implement a priority queue, which operation has a time complexity of O(n)?",
+      "['Removal', 'Insertion', 'Search', 'Peek (looking at the top element)']",
+      "B)",
+      "Inserting an element into a sorted contiguous list requires shifting existing elements to maintain order, resulting in O(n) complexity.",
+      "Heap sort as a priority queue",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the average-case time complexity of QuickSort, expressed using Big O notation?",
+      "['O(n)', 'O(log n)', 'O(n log n)', 'O(n^2)']",
+      "C",
+      "The average-case time complexity of QuickSort is O(n log n).",
+      "Big \u2018O\u2019 notation and Efficiency of sorting",
+      "Medium",
+      7.2
+    ],
+    [
+      "In the worst-case scenario, what is the time complexity of QuickSort?",
+      "['O(n)', 'O(log n)', 'O(n log n)', 'O(n^2)']",
+      "D",
+      "In the worst-case scenario, QuickSort exhibits a time complexity of O(n^2).",
+      "Big \u2018O\u2019 notation and Efficiency of sorting",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which sorting algorithm also employs a \"divide and conquer\" approach, similar to QuickSort?",
+      "['Bubble Sort', 'Insertion Sort', 'Merge Sort', 'Selection Sort']",
+      "C",
+      "Merge Sort utilizes a divide and conquer strategy, analogous to QuickSort.",
+      "Big \u2018O\u2019 notation and Efficiency of sorting",
+      "Easy",
+      7.2
+    ],
+    [
+      "What does Big O notation describe in the context of algorithm analysis?",
+      "['The exact number of steps an algorithm takes.', \"The constant factors affecting an algorithm's runtime.\", \"The upper bound of an algorithm's growth rate.\", \"The lower bound of an algorithm's memory usage.\"]",
+      "C",
+      "Big O notation provides an upper bound on the growth rate of an algorithm's runtime as input size increases.",
+      "Big \u2018O\u2019 notation and Efficiency of sorting",
+      "Medium",
+      7.2
+    ],
+    [
+      "Besides time complexity, what other key factor is often analyzed for sorting algorithms?",
+      "['Compiler Optimization', 'Programming Language Used', 'Number of Interchanges (Swaps)', 'Hardware Specifications']",
+      "C",
+      "The number of interchanges or swaps is a significant factor in evaluating sorting algorithm efficiency.",
+      "Big \u2018O\u2019 notation and Efficiency of sorting",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the prerequisite for performing a binary search on a dataset?",
+      "['The dataset must be unordered.', 'The dataset must be sorted.', 'The dataset must contain only numerical values.', 'The dataset must be of a specific size.']",
+      "B",
+      "Binary search requires the data to be sorted to function correctly.  It relies on comparing the target value to the middle element and recursively searching either the lower or upper half.",
+      "Search technique",
+      "Easy",
+      7.2
+    ],
+    [
+      "In a binary search, what element is initially compared against the search key?",
+      "['The first element of the array.', 'The last element of the array.', 'A randomly selected element.', 'The middle element of the array.']",
+      "D",
+      "Binary search begins by comparing the search key to the middle element of the sorted array.",
+      "Search technique",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the primary advantage of a binary search algorithm compared to a linear search?",
+      "['It requires less memory.', 'It is simpler to implement.', 'It has faster execution time for large datasets.', 'It works better with unsorted data.']",
+      "C",
+      "Binary search offers significantly faster search times for large sorted datasets compared to a linear search which checks every element.",
+      "Search technique",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which of the following best describes the efficiency of a binary search in terms of Big O notation?",
+      "['O(n)', 'O(n^2)', 'O(log n)', 'O(1)']",
+      "C",
+      "The time complexity of a binary search is logarithmic, O(log n), because it halves the search space with each comparison.",
+      "Search technique",
+      "Medium",
+      7.2
+    ],
+    [
+      "If a binary search is performed on a sorted array of 1000 elements, what is the maximum number of comparisons required to find a specific element (assuming the element is present)?",
+      "['1000', '10', '100', '500']",
+      "C",
+      "The maximum number of comparisons in a binary search is approximately log\u2082(n), where n is the number of elements. log\u2082(1000) is approximately 10, but we're looking for the maximum so we take the next integer up from log2(1000) which is approximately 10, thus giving 10 comparisons.  However, the options provided make it likely the question intended the result to be the closest option.  The ceiling of log2(1000) is 10, but it can often happen that 10 comparisons are not required so it's only an upper bound.",
+      "Search technique",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the worst-case number of comparisons in a sequential search of a list with 'n' elements?",
+      "['1', '(n+1)/2', 'n', 'log\u2082n']",
+      "C",
+      "In the worst-case scenario of a sequential search, the target element is either the last element or not present in the list, leading to 'n' comparisons.",
+      "Sequential search",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the average-case number of comparisons for a successful sequential search in a list of length n?",
+      "['1', 'n', '(n+1)/2', 'log\u2082n']",
+      "C",
+      "On average, a successful sequential search will require (n+1)/2 comparisons.",
+      "Sequential search",
+      "Medium",
+      7.2
+    ],
+    [
+      "In a sequential search, if the item being searched for is not found, how many comparisons are made?",
+      "['0', '1', 'n', 'log\u2082n']",
+      "C",
+      "An unsuccessful search requires checking all n elements.",
+      "Sequential search",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the time complexity of a sequential search algorithm expressed in Big O notation?",
+      "['O(log n)', 'O(n\u00b2)', 'O(1)', 'O(n)']",
+      "D",
+      "The number of comparisons in sequential search is directly proportional to the size of the list, hence O(n).",
+      "Sequential search",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which of the following best describes the efficiency of a sequential search?",
+      "['Highly efficient for large datasets.', 'Efficient only for sorted datasets.', 'Inefficient for large datasets.', 'Efficient for all datasets regardless of size.']",
+      "C",
+      "Sequential search has linear time complexity, making it inefficient for large datasets.",
+      "Sequential search",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the fundamental requirement for an array before a binary search can be effectively applied?",
+      "['The array must be unsorted.', 'The array must be sorted in descending order.', 'The array must be sorted in ascending order.', 'The array must contain only unique elements.']",
+      "C",
+      "Binary search relies on the sorted nature of the data to efficiently locate elements.  It works by repeatedly dividing the search interval in half. If the array isn't sorted, the algorithm will not function correctly.",
+      "Binary search",
+      "Easy",
+      7.2
+    ],
+    [
+      "In a binary search algorithm, what is the primary action performed at each step?",
+      "['Comparing the target value to the last element of the current subarray.', 'Comparing the target value to the middle element of the current subarray.', 'Comparing the target value to the first element of the current subarray.', 'Comparing the target value to a randomly selected element of the current subarray.']",
+      "B",
+      "The core of binary search involves comparing the search key to the middle element to determine which half of the sorted array to continue searching within.",
+      "Binary search",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the theoretical time complexity of a binary search algorithm in the best-case scenario?",
+      "['O(n log n)', 'O(n)', 'O(log n)', 'O(1)']",
+      "D",
+      "In the best-case scenario, the target element is found at the middle of the array in the first comparison, resulting in a constant time complexity of O(1).",
+      "Binary search",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which of the following data structures is most suitable for implementing a binary search?",
+      "['Linked List', 'Queue', 'Sorted Array', 'Stack']",
+      "C",
+      "Binary search requires random access to elements, which is readily available in an array but not in linked lists, queues, or stacks.  The array must be sorted for binary search to function efficiently.",
+      "Binary search",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the worst-case time complexity of a binary search algorithm?",
+      "['O(1)', 'O(log n)', 'O(n)', 'O(n^2)']",
+      "B",
+      "In the worst-case scenario, the target element is found after repeatedly dividing the search interval in half until only one element remains, resulting in a logarithmic time complexity of O(log n).",
+      "Binary search",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is a fundamental operation performed on a binary tree?",
+      "['Sorting', 'Searching', 'Merging', 'Compressing']",
+      "B",
+      "Searching is a core operation in binary trees, used to locate specific elements.  Sorting and merging are not inherent to binary tree operations.  Compression is not directly related to basic tree manipulation.",
+      "Tree search",
+      "Easy",
+      7.2
+    ],
+    [
+      "In a binary tree, what is the maximum number of children a node can possess?",
+      "['One', 'Two', 'Three', 'Unlimited']",
+      "B",
+      "The definition of a binary tree specifies that each node can have at most two children.",
+      "Tree search",
+      "Easy",
+      7.2
+    ],
+    [
+      "What data structure is frequently utilized for database indexing?",
+      "['Linked List', 'Queue', 'Stack', 'Tree']",
+      "D",
+      "Trees, particularly variations like B-trees, are commonly used in database indexing to efficiently manage and retrieve data.",
+      "Tree search",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which of these is NOT a typical operation within a binary tree?",
+      "['Deletion', 'Insertion', 'Rotation', 'Concatenation']",
+      "D",
+      "While rotation is an operation in certain types of trees (like self-balancing trees), concatenation (joining two trees) isn't a fundamental operation directly on a single binary tree. Deletion and insertion are standard operations.",
+      "Tree search",
+      "Medium",
+      7.2
+    ],
+    [
+      "Besides database indexing, what other application area commonly utilizes tree data structures?",
+      "['Network routing', 'Linear programming', 'Cryptography', 'Statistical analysis']",
+      "A",
+      "Trees are used in representing hierarchical relationships, making them suitable for network routing algorithms and other hierarchical systems.  The other options are not primary applications of tree data structures.",
+      "Tree search",
+      "Medium",
+      7.2
+    ],
+    [
+      "In a binary tree, what is the maximum number of children a single node can possess?",
+      "['One', 'Two', 'Three', 'Unlimited']",
+      "B",
+      "By definition, a binary tree allows a node to have at most two children.",
+      "General search tree",
+      "Easy",
+      7.2
+    ],
+    [
+      "Which of the following is NOT a common operation performed on a binary tree?",
+      "['Insertion', 'Deletion', 'Sorting', 'Searching']",
+      "C",
+      "While binary trees can be used in sorting algorithms, sorting itself is not a direct operation performed *on* the tree structure like insertion, deletion, and searching.",
+      "General search tree",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is a fundamental characteristic of a tree data structure that distinguishes it from other data structures like linked lists?",
+      "['Linear organization', 'Hierarchical organization', 'Circular organization', 'Random organization']",
+      "B",
+      "Trees are characterized by their hierarchical structure, with nodes branching into sub-nodes, unlike linear structures like linked lists.",
+      "General search tree",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which of these fields commonly utilizes tree data structures for efficient data management?",
+      "['Linear Algebra', 'Statistical Analysis', 'Artificial Intelligence', 'Quantum Physics']",
+      "C",
+      "Tree structures are widely used in AI for various tasks, including decision-making and knowledge representation.",
+      "General search tree",
+      "Easy",
+      7.2
+    ],
+    [
+      "The process of finding a specific element within a tree data structure is referred to as:",
+      "['Insertion', 'Deletion', 'Traversal', 'Searching']",
+      "D",
+      "Searching is the process of locating a specific element within a tree.  While traversal might be involved, searching is the specific objective.",
+      "General search tree",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the primary function of a hash function in the context of hash tables?",
+      "['To sort keys alphabetically.', 'To encrypt keys for security.', 'To transform a key into a hash table index.', 'To compare keys for equality.']",
+      "C",
+      "A hash function's core purpose is to map keys to specific locations (indices) within a hash table for efficient data retrieval.",
+      "Hashing: Hash function and hash tables",
+      "Easy",
+      7.2
+    ],
+    [
+      "In the context of hashing, what does H(k) represent?",
+      "['The size of the hash table.', 'The key itself.', 'The hash of the key.', 'The number of collisions.']",
+      "C",
+      "H(k) denotes the result of applying the hash function (H) to the key (k), which is the hash table index or the hash of the key.",
+      "Hashing: Hash function and hash tables",
+      "Easy",
+      7.2
+    ],
+    [
+      "Which of the following is NOT typically considered a popular hash function?",
+      "['Folding method', 'Mid-square method', 'Division method', 'Bubble sort']",
+      "D",
+      "Bubble sort is a sorting algorithm, not a hashing method. Folding, mid-square, and division are common hash function techniques.",
+      "Hashing: Hash function and hash tables",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the input to a hash function?",
+      "['The hash table index', 'The hash value', 'A key', 'A sorted list']",
+      "C",
+      "A hash function takes a key as input and produces a hash table index as output.",
+      "Hashing: Hash function and hash tables",
+      "Easy",
+      7.2
+    ],
+    [
+      "The output of a hash function is typically used to determine what aspect of hash table operation?",
+      "['The order of keys in the table', 'The location of a key within the table', 'The size of the hash table', 'The number of collisions that have occurred']",
+      "B",
+      "The output (hash of the key) directly dictates where a specific key should be placed or searched for within the hash table structure.",
+      "Hashing: Hash function and hash tables",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is linear probing in the context of collision resolution?",
+      "['A technique that uses a complex mathematical function to find the next available slot.', 'A method that chains colliding elements together in a linked list.', 'A simple approach to store a colliding element in the next available space.', 'A technique that uses double hashing to resolve collisions.']",
+      "C",
+      "Linear probing is a straightforward method where the next available slot is used to store the colliding element.",
+      "Collision resolution technique",
+      "Easy",
+      7.2
+    ],
+    [
+      "Which of the following is NOT a common collision resolution technique?",
+      "['Linear probing', 'Quadratic probing', 'Tertiary hashing', 'Double hashing']",
+      "C",
+      "While linear, quadratic, and double hashing are common techniques, tertiary hashing is not a standard collision resolution method.",
+      "Collision resolution technique",
+      "Medium",
+      7.2
+    ],
+    [
+      "In the context of hash tables, what is the primary purpose of a collision resolution technique?",
+      "['To increase the size of the hash table.', 'To improve the speed of hash function calculations.', 'To handle situations where two or more keys hash to the same index.', 'To reduce the number of collisions during hashing.']",
+      "C",
+      "Collision resolution techniques are designed to manage instances where different keys map to the same index in a hash table.",
+      "Collision resolution technique",
+      "Easy",
+      7.2
+    ],
+    [
+      "How does quadratic probing differ from linear probing in collision resolution?",
+      "['Quadratic probing uses a linked list, while linear probing uses a sequential search.', 'Quadratic probing uses a fixed increment, while linear probing uses an increment that increases quadratically.', 'Quadratic probing examines slots at intervals determined by a quadratic function, while linear probing examines consecutive slots.', \"Quadratic probing is faster than linear probing, regardless of the hash table's load factor.\"]",
+      "C",
+      "Linear probing checks consecutive slots, whereas quadratic probing jumps slots according to a quadratic function, potentially avoiding clustering.",
+      "Collision resolution technique",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which collision resolution technique is known for its potential to suffer from primary clustering?",
+      "['Double hashing', 'Chaining', 'Quadratic probing', 'Linear probing']",
+      "D",
+      "Linear probing is susceptible to primary clustering, where collisions group together in consecutive slots.",
+      "Collision resolution technique",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the indegree of a vertex in a directed graph?",
+      "['The number of edges leaving the vertex.', 'The number of edges entering the vertex.', 'The total number of edges connected to the vertex.', 'The number of vertices adjacent to the vertex.']",
+      "B",
+      "The indegree of a vertex is defined as the number of edges directed into that vertex.",
+      "Undirected and Directed Graphs",
+      "Easy",
+      7.2
+    ],
+    [
+      "In an undirected graph, what is the relationship between the number of edges and the sum of degrees of all vertices?",
+      "['The number of edges is twice the sum of degrees.', 'The number of edges is equal to the sum of degrees.', 'The number of edges is half the sum of degrees.', 'There is no consistent relationship.']",
+      "C",
+      "Each edge contributes to the degree of two vertices.  Therefore, the sum of degrees is twice the number of edges.",
+      "Undirected and Directed Graphs",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which of the following describes an undirected graph?",
+      "['A graph where edges have assigned directions.', 'A graph where the order of vertices matters.', 'A graph where edges have no assigned directions.', 'A graph with only a single vertex.']",
+      "C",
+      "An undirected graph is characterized by edges without specified directions.",
+      "Undirected and Directed Graphs",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the outdegree of a vertex in a directed graph?",
+      "['The number of edges entering the vertex.', 'The number of edges leaving the vertex.', 'The sum of the indegrees and outdegrees of all vertices.', 'The total number of vertices in the graph.']",
+      "B",
+      "The outdegree of a vertex is the number of edges originating from that vertex.",
+      "Undirected and Directed Graphs",
+      "Easy",
+      7.2
+    ],
+    [
+      "If the sum of the indegrees of all vertices in a directed graph is 10, what is the sum of the outdegrees of all vertices in the same graph?",
+      "['5', '20', '10', 'Cannot be determined.']",
+      "C",
+      "In any directed graph, the sum of indegrees always equals the sum of outdegrees.",
+      "Undirected and Directed Graphs",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is a graph, in the context of data structures?",
+      "['A linear data structure that stores elements in a sequential manner.', 'A hierarchical data structure that organizes elements in a tree-like structure.', 'A non-linear data structure representing relationships between elements.', 'A data structure used exclusively for numerical computations.']",
+      "C",
+      "A graph is a non-linear data structure that represents relationships or connections between elements (vertices or nodes) using edges.  Linear structures like arrays and linked lists are sequential, while hierarchical structures like trees have a parent-child relationship.",
+      "Representation of Graph",
+      "Easy",
+      7.2
+    ],
+    [
+      "A graph G is defined as G = (V, E). What does 'V' represent in this notation?",
+      "['The set of edges in the graph.', 'The number of vertices in the graph.', 'The set of vertices in the graph.', 'The total number of edges and vertices.']",
+      "C",
+      "In graph theory, G = (V, E) represents a graph where V is the set of vertices (nodes) and E is the set of edges connecting those vertices.",
+      "Representation of Graph",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is an edge in a graph also known as?",
+      "['A node', 'A vertex', 'An arc', 'A path']",
+      "C",
+      "An edge connecting two vertices in a graph is also referred to as an arc.",
+      "Representation of Graph",
+      "Easy",
+      7.2
+    ],
+    [
+      "Which of the following best describes the nature of the set of vertices 'V' in a graph G = (V, E)?",
+      "['An infinite set', 'An empty set', 'A finite, non-empty set', 'A set containing only one element']",
+      "C",
+      "The definition specifies that the set of vertices 'V' is finite and non-empty.  An empty set would mean no vertices, and an infinite set contradicts the definition of a graph in this context.",
+      "Representation of Graph",
+      "Medium",
+      7.2
+    ],
+    [
+      "Considering the definition of a graph G = (V, E), what is the relationship between an edge 'e' and the vertices 'v' and 'w' that it connects?",
+      "[\"'e' is a subset of 'v' and 'w'.\", \"'e' is the sum of 'v' and 'w'.\", \"'e' is a pair (v, w) where v and w belong to V.\", \"'v' and 'w' are independent of 'e'.\"]",
+      "C",
+      "An edge 'e' is defined as an ordered or unordered pair (v, w), where v and w are vertices within the set V.  It explicitly shows the connection between the edge and the vertices it links.",
+      "Representation of Graph",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the time complexity of finding the transitive closure of a graph using a naive approach as described in the provided context?",
+      "['O(n log n)', 'O(n^2)', 'O(n^3)', 'O(n^4)']",
+      "D",
+      "The passage explicitly states that a naive approach to finding the transitive closure has a time complexity of O(n^4).",
+      "Transitive closure of graph",
+      "Medium",
+      7.2
+    ],
+    [
+      "In the context of graph traversal and transitive closure, what does the adjacency matrix represent?",
+      "['The shortest distance between all pairs of nodes.', 'The total number of edges in the graph.', 'The direct connections (edges) between nodes in a graph.', 'The degree of each node in the graph.']",
+      "C",
+      "An adjacency matrix indicates whether a direct edge exists between two nodes.",
+      "Transitive closure of graph",
+      "Easy",
+      7.2
+    ],
+    [
+      "A path exists between nodes 'i' and 'j' in a graph if which condition is met?",
+      "['adj[i][j] is false for all adjacency matrices.', 'adj[i][j] is true for at least one adjacency matrix.', \" The degree of node 'i' is greater than the degree of node 'j'.\", \"The shortest path between 'i' and 'j' is less than the average path length.\"]",
+      "B",
+      "The passage explicitly states that if any adjacency matrix (adj1, adj2, etc.) shows a true value for nodes 'i' and 'j', a path exists.",
+      "Transitive closure of graph",
+      "Medium",
+      7.2
+    ],
+    [
+      "What does 'm' represent in the context of finding a path between two nodes in a graph, as described in the provided information?",
+      "['The number of edges in the graph', 'The total number of nodes in the graph', 'The highest order of path length', 'The minimum degree of a node']",
+      "C",
+      "The passage defines 'm' as the highest order (length) of a path.",
+      "Transitive closure of graph",
+      "Easy",
+      7.2
+    ],
+    [
+      "Which of the following algorithms is directly implied by the passage's description of checking adj1, adj2, adj3,...adjmaxnodes for a path between nodes?",
+      "[\"Dijkstra's Algorithm\", 'Floyd-Warshall Algorithm', 'A Breadth-First Search (BFS)-like approach.', 'A Depth-First Search (DFS)-like approach.']",
+      "C",
+      "The iterative checking of adjacency matrices (adj1, adj2... etc) resembles a Breadth-First Search approach, exploring paths of increasing lengths.  While not explicitly named, it aligns conceptually with BFS.",
+      "Transitive closure of graph",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the time complexity of Warshall's algorithm for calculating transitive closure?",
+      "['O(n)', 'O(n log n)', 'O(n^3)', 'O(2^n)']",
+      "C",
+      "Warshall's algorithm has a cubic time complexity, specifically O(n^3), where 'n' is the number of vertices in the graph.",
+      "Warshall\u2019s algorithm",
+      "Easy",
+      7.2
+    ],
+    [
+      "Warshall's algorithm operates on what type of matrix as input?",
+      "[' A floating-point matrix', ' A complex number matrix', ' A zero-one matrix', ' A string matrix']",
+      "C",
+      "Warshall's algorithm takes an n x n zero-one matrix (adjacency matrix) as input, representing the presence or absence of edges in a graph.",
+      "Warshall\u2019s algorithm",
+      "Easy",
+      7.2
+    ],
+    [
+      "The output of Warshall's algorithm represents which property of a graph?",
+      "[' Shortest paths', ' Minimum spanning tree', ' Transitive closure', ' Connected components']",
+      "C",
+      "The resulting matrix D after applying Warshall's algorithm represents the transitive closure of the input graph.",
+      "Warshall\u2019s algorithm",
+      "Medium",
+      7.2
+    ],
+    [
+      "A topological sort is applicable to which type of graph?",
+      "[' Undirected graph with cycles', ' Directed graph with cycles', ' Directed acyclic graph', ' Weighted graph']",
+      "C",
+      "Topological sorting is a linear ordering of nodes in a Directed Acyclic Graph (DAG) such that for every directed edge from node A to node B, node A appears before node B in the ordering.",
+      "Warshall\u2019s algorithm",
+      "Medium",
+      7.2
+    ],
+    [
+      "In a topological sort of a Directed Acyclic Graph (DAG), if there's a path from vertex 'vi' to vertex 'vj', what is the order of appearance of these vertices in the sorted list?",
+      "[\"'vj' appears before 'vi'\", \"'vi' and 'vj' can appear in any order\", \"'vi' appears before 'vj'\", 'The order depends on the specific algorithm used.']",
+      "C",
+      "A fundamental property of a topological sort is that if there is a path from 'vi' to 'vj', then 'vi' must precede 'vj' in the sorted order.",
+      "Warshall\u2019s algorithm",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which data structure is typically used in a Breadth-First Traversal (BFT) algorithm?",
+      "['Stack', 'Queue', 'Set', 'Heap']",
+      "B",
+      "BFT uses a queue to store vertices that need to be visited.  Vertices are added to the queue and processed in a FIFO (First-In, First-Out) manner.",
+      "Depth First Traversal and Breadth First Traversal of Graph",
+      "Easy",
+      7.2
+    ],
+    [
+      "In a Depth-First Traversal (DFT) algorithm, what data structure is commonly employed to manage the order of vertex visits?",
+      "['Queue', 'Set', 'Heap', 'Stack']",
+      "D",
+      "DFT uses a stack to keep track of vertices that need to be explored.  Vertices are pushed onto the stack and processed in a LIFO (Last-In, First-Out) manner.",
+      "Depth First Traversal and Breadth First Traversal of Graph",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the primary difference between Breadth-First Traversal and Depth-First Traversal in terms of exploration strategy?",
+      "['BFT explores all adjacent vertices before moving deeper; DFT explores as deep as possible along one branch before backtracking.', 'BFT explores as deep as possible along one branch before backtracking; DFT explores all adjacent vertices before moving deeper.', 'Both algorithms use the same exploration strategy.', 'BFT uses recursion; DFT uses iteration.']",
+      "A",
+      "BFT explores level by level, while DFT explores depth first along one path before backtracking.",
+      "Depth First Traversal and Breadth First Traversal of Graph",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which of the following statements best describes the order of vertex visits in a Depth-First Traversal?",
+      "[' Vertices are visited in ascending order of their degree.', 'Vertices are visited in the order they are added to the graph.', ' It follows a path as deeply as possible before backtracking.', 'Vertices are visited in a random order.']",
+      "C",
+      "DFT prioritizes exploring a single branch as far as possible before revisiting other branches.",
+      "Depth First Traversal and Breadth First Traversal of Graph",
+      "Medium",
+      7.2
+    ],
+    [
+      "If a graph is represented using an adjacency matrix, which traversal algorithm (DFT or BFT) would generally be more efficient in terms of memory usage, assuming the graph is sparse?",
+      "[' Depth-First Traversal (DFT)', 'Breadth-First Traversal (BFT)', 'Both have similar memory usage.', ' It depends on the starting vertex.']",
+      "A",
+      "In sparse graphs, DFT generally uses less memory because it doesn't need to store all the vertices at each level like BFT using a queue.",
+      "Depth First Traversal and Breadth First Traversal of Graph",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which of the following graph traversal algorithms can be used to perform a topological sort?",
+      "['Only Depth-First Search', 'Only Breadth-First Search', 'Both Depth-First Search and Breadth-First Search', 'Neither Depth-First Search nor Breadth-First Search']",
+      "C",
+      "Both Depth-First Search and Breadth-First Search algorithms can be adapted to perform topological sorting.  They differ in the order in which nodes are processed, resulting in different topological sorts, but both are valid.",
+      "Topological sorting (Depth first, Breadth first topological sorting)",
+      "Medium",
+      7.2
+    ],
+    [
+      "In a directed acyclic graph (DAG), a topological sort arranges vertices such that:",
+      "['All edges point from higher-numbered vertices to lower-numbered vertices.', 'All edges point from lower-numbered vertices to higher-numbered vertices.', ' Vertices with no incoming edges are placed first.', 'Vertices with no outgoing edges are placed first.']",
+      "B",
+      "A topological sort ensures that for every directed edge (u, v), vertex u appears before vertex v in the ordering. This implies that all edges point from lower-numbered vertices to higher-numbered vertices.",
+      "Topological sorting (Depth first, Breadth first topological sorting)",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is a necessary condition for a directed graph to have a topological ordering?",
+      "['The graph must be connected.', 'The graph must be complete.', 'The graph must be acyclic.', 'The graph must be bipartite.']",
+      "C",
+      "A topological ordering is only possible if the directed graph is acyclic (contains no cycles). The presence of a cycle would create a circular dependency, making it impossible to linearly order the vertices.",
+      "Topological sorting (Depth first, Breadth first topological sorting)",
+      "Easy",
+      7.2
+    ],
+    [
+      "A university course scheduling system uses topological sorting. What does each vertex represent?",
+      "['The time slots available for courses', 'The professors teaching the courses', 'The students enrolled in the courses', 'The courses themselves']",
+      "D",
+      "In this context, each vertex in the graph represents a course.  Edges represent prerequisites, indicating the dependency between courses.",
+      "Topological sorting (Depth first, Breadth first topological sorting)",
+      "Easy",
+      7.2
+    ],
+    [
+      "In a breadth-first topological sort, which vertices are considered first?",
+      "['Vertices with the maximum number of outgoing edges.', 'Vertices with the maximum number of incoming edges.', 'Vertices with no incoming edges (in-degree 0).', 'Vertices with no outgoing edges (out-degree 0).']",
+      "C",
+      "Breadth-first topological sorting starts by selecting vertices with no incoming edges (in-degree 0) as these have no prerequisites and can be scheduled first.",
+      "Topological sorting (Depth first, Breadth first topological sorting)",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is a fundamental property of a minimum spanning tree (MST) T of a graph G, compared to any other spanning tree T' of G, where W(T) represents the total weight of the tree?",
+      "[\"W(T) \u2265 W(T')\", \"W(T) = W(T')\", \"W(T) < W(T')\", \"W(T) > 2 * W(T')\"]",
+      "C",
+      "The minimum spanning tree has the smallest total weight among all possible spanning trees.",
+      "Minimum spanning trees (Prim\u2019s, Kruskal\u2019s and Round-Robin algorithms)",
+      "Medium",
+      7.2
+    ],
+    [
+      "In Kruskal's algorithm for finding a minimum spanning tree, what is the criterion used to select edges sequentially?",
+      "['Decreasing edge weights, avoiding cycles', 'Increasing edge weights, avoiding cycles', 'Random selection of edges', 'Decreasing edge weights, allowing cycles']",
+      "B",
+      "Kruskal's algorithm selects edges in increasing order of weight, ensuring no cycles are formed.",
+      "Minimum spanning trees (Prim\u2019s, Kruskal\u2019s and Round-Robin algorithms)",
+      "Medium",
+      7.2
+    ],
+    [
+      "How many edges are selected in Kruskal's algorithm for a graph with 'n' vertices to form a minimum spanning tree?",
+      "['n', 'n-1', 'n+1', 'n^2']",
+      "B",
+      "A tree with n vertices has n-1 edges.",
+      "Minimum spanning trees (Prim\u2019s, Kruskal\u2019s and Round-Robin algorithms)",
+      "Easy",
+      7.2
+    ],
+    [
+      "The Round Robin algorithm for finding a minimum spanning tree is particularly efficient under which condition?",
+      "['When the number of vertices is very large.', 'When the number of edges is very high.', 'When the graph is complete.', 'When the number of edges is low.']",
+      "D",
+      "The passage explicitly states that the Round Robin algorithm performs better with fewer edges.",
+      "Minimum spanning trees (Prim\u2019s, Kruskal\u2019s and Round-Robin algorithms)",
+      "Easy",
+      7.2
+    ],
+    [
+      "Which of the following is NOT a common algorithm used to find a minimum spanning tree?",
+      "[\"Prim's algorithm\", \"Dijkstra's algorithm\", \"Kruskal's algorithm\", 'Round-Robin algorithm']",
+      "B",
+      "Dijkstra's algorithm is used for finding the shortest path, not a minimum spanning tree.",
+      "Minimum spanning trees (Prim\u2019s, Kruskal\u2019s and Round-Robin algorithms)",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the primary goal of a shortest-path algorithm when applied to a network of computers and communication links?",
+      "['Determine the fastest route for a single data packet.', 'Identify the cheapest way to transmit data between computers.', 'Find the most reliable connection between two computers.', 'Optimize the overall network bandwidth.']",
+      "B",
+      "The passage explicitly states that shortest-path algorithms can be used to find \"the cheapest way to send electronic news, data from one computer to a set of other computers,\" where costs represent communication costs and delays.",
+      "Shortest-path algorithm (Greedy algorithm, and Dijkstra\u2019s Algorithm)",
+      "Easy",
+      7.2
+    ],
+    [
+      "In Dijkstra's algorithm, what is the initial value of the distance (dv) from the source vertex (s) to all other vertices (v)?",
+      "['0', '1', '-1', 'Infinity']",
+      "D",
+      "The algorithm description clearly states that initially, the distance from the source vertex to all other vertices is set to infinity, except for the source itself which is 0.",
+      "Shortest-path algorithm (Greedy algorithm, and Dijkstra\u2019s Algorithm)",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which type of shortest path problem involves finding the shortest path between all pairs of vertices in a graph?",
+      "['Single path', 'Single source', 'All pairs', 'Multiple source']",
+      "C",
+      "The passage explicitly mentions three types of shortest path problems, one of which is \"All pairs: Find the shortest path from all pair of vertices.\"",
+      "Shortest-path algorithm (Greedy algorithm, and Dijkstra\u2019s Algorithm)",
+      "Easy",
+      7.2
+    ],
+    [
+      "In Dijkstra's algorithm, which vertices are considered for selection in each iteration?",
+      "['Vertices with the largest known distance.', 'Vertices with the smallest unknown distance.', 'Vertices adjacent to the source vertex.', 'Vertices with the largest degree.']",
+      "B",
+      "The algorithm states that in each iteration, a vertex \"v, which has the smallest dv among all the unknown vertices\" is selected.",
+      "Shortest-path algorithm (Greedy algorithm, and Dijkstra\u2019s Algorithm)",
+      "Medium",
+      7.2
+    ],
+    [
+      "What characterizes a greedy algorithm in the context of optimization problems?",
+      "['It always finds the globally optimal solution.', 'It considers all possible solutions before making a decision.', 'It makes locally optimal choices at each step.', 'It requires extensive computational resources.']",
+      "C",
+      "The passage defines a greedy algorithm as \"One of the simplest approaches that often leads to a solution of an optimization problem,\" implying that it makes decisions based on local optimality without necessarily considering the global picture.",
+      "Shortest-path algorithm (Greedy algorithm, and Dijkstra\u2019s Algorithm)",
+      "Easy",
+      7.2
+    ]
+  ]
+}
