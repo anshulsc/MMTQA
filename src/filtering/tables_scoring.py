@@ -187,41 +187,80 @@ class SemanticTableQualityScorer:
             
             for attempt in range(max_retries):
                 try:
-                    prompt = f"""Classify each term for cross-language semantic preservation.
+                    prompt = f"""Classify each term for cross-language semantic preservation. PRIORITIZE real-world data relevance.
 
-TRANSLATABLE = Universal concepts with clear, meaningful translations in other languages
+TRANSLATABLE = Real-world, observable concepts with clear, meaningful translations in other languages
 Examples: 
-  - General concepts: "weather", "climate", "disaster", "environment", "temperature", "policy", "insurance"
-  - Common tech terms: "data", "index", "table", "database", "timeseries", "attributes", "variable"
-  - Business terms: "portfolio", "strategy", "return", "risk", "accuracy", "model", "service"
-  - Legal/privacy: "privacy", "information", "user", "account", "consent", "legal"
-  - Common nouns: "weapon", "knife", "shotgun", "handgun", "sword", "training", "defense"
+  - Real-world measurements: "temperature", "rainfall", "humidity", "wind_speed", "pressure", "voltage", "current"
+  - Observable phenomena: "weather", "climate", "disaster", "environment", "earthquake", "flood", "wildfire"
+  - Real entities/objects: "city", "country", "hospital", "school", "vehicle", "building", "sensor"
+  - Actionable business/operational data: "sales", "revenue", "cost", "inventory", "shipment", "patient", "customer"
+  - Real events/activities: "training", "deployment", "incident", "maintenance", "inspection", "recovery"
+  - Domain-specific but observable: "diagnosis", "treatment", "crop_yield", "emissions", "pollution"
 
-UNTRANSLATABLE = Specialized ML/AI jargon or technical model names that lose precise meaning
+UNTRANSLATABLE = Model artifacts, technical jargon, or synthetic data that don't represent real-world concepts
 Examples: 
-  - ML/AI terms: "LSTM", "backpropagation", "GPT-4", "BERT", "transformer", "neural network", "gradient descent"
-  - Very technical: "logistic regression", "convolutional", "recurrent neural network"
+  - ML/AI model names: "LSTM", "BERT", "GPT-4", "transformer", "backpropagation", "neural network", "gradient descent"
+  - Implementation details: "logistic regression", "attention mechanism", "convolutional layer", "embedding dimension"
+  - Technical parameters: "epoch", "batch_size", "learning_rate", "activation_function", "kernel", "neuron"
+  - File paths and system artifacts: "/path/to/file", "model_v2_final.pkl", "dataset_backup"
 
 IMPORTANT GUIDELINES:
-1. Common technical/domain terms ARE translatable: "weather", "climate", "disaster", "emissions", "database", "index"
-2. Business and legal terms ARE translatable: "service", "policy", "insurance", "privacy", "information"
-3. Common nouns for objects ARE translatable: "weapon", "knife", "handgun", "training"
-4. Only mark as untranslatable if it's specialized ML/AI terminology or loses technical precision in translation
-5. Acronyms for organizations (FEMA, NOAA) can be translatable - they're proper nouns but meaning is preserved
+1. STRONGLY PREFER translatable: Real-world data about actual phenomena, measurements, or observations should be marked translatable
+2. Domain expertise matters: Terms specific to a field but describing real things ARE translatable (e.g., "diagnosis" in healthcare, "yield" in agriculture)
+3. Only mark untranslatable if it's: (a) ML/AI technical jargon, (b) model implementation details, or (c) synthetic/artifact data
+4. Acronyms for real-world entities (WHO, FEMA, NOAA) are translatable - they refer to real organizations
+5. Avoid over-classifying: "model" alone is translatable (business/conceptual). "LSTM" alone is untranslatable (ML technique)
 
 Terms to classify:
 {json.dumps(batch, indent=2)}
 
 Respond ONLY with a JSON object mapping each term to either "translatable" or "untranslatable". Example:
 {{
-  "weather": "translatable",
+  "temperature": "translatable",
   "lstm": "untranslatable",
-  "disaster": "translatable",
+  "patient_id": "translatable",
   "backpropagation": "untranslatable",
-  "insurance": "translatable"
+  "flood_damage": "translatable",
+  "epoch": "untranslatable"
 }}
 
 JSON response:"""
+#                     prompt = f"""Classify each term for cross-language semantic preservation.
+
+# TRANSLATABLE = Universal concepts with clear, meaningful translations in other languages
+# Examples: 
+#   - General concepts: "weather", "climate", "disaster", "environment", "temperature", "policy", "insurance"
+#   - Common tech terms: "data", "index", "table", "database", "timeseries", "attributes", "variable"
+#   - Business terms: "portfolio", "strategy", "return", "risk", "accuracy", "model", "service"
+#   - Legal/privacy: "privacy", "information", "user", "account", "consent", "legal"
+#   - Common nouns: "weapon", "knife", "shotgun", "handgun", "sword", "training", "defense"
+
+# UNTRANSLATABLE = Specialized ML/AI jargon or technical model names that lose precise meaning
+# Examples: 
+#   - ML/AI terms: "LSTM", "backpropagation", "GPT-4", "BERT", "transformer", "neural network", "gradient descent"
+#   - Very technical: "logistic regression", "convolutional", "recurrent neural network"
+
+# IMPORTANT GUIDELINES:
+# 1. Common technical/domain terms ARE translatable: "weather", "climate", "disaster", "emissions", "database", "index"
+# 2. Business and legal terms ARE translatable: "service", "policy", "insurance", "privacy", "information"
+# 3. Common nouns for objects ARE translatable: "weapon", "knife", "handgun", "training"
+# 4. Only mark as untranslatable if it's specialized ML/AI terminology or loses technical precision in translation
+# 5. Acronyms for organizations (FEMA, NOAA) can be translatable - they're proper nouns but meaning is preserved
+
+# Terms to classify:
+# {json.dumps(batch, indent=2)}
+
+# Respond ONLY with a JSON object mapping each term to either "translatable" or "untranslatable". Example:
+# {{
+#   "weather": "translatable",
+#   "lstm": "untranslatable",
+#   "disaster": "translatable",
+#   "backpropagation": "untranslatable",
+#   "insurance": "translatable"
+# }}
+
+# JSON response:"""
 
                     response = self.model.generate_content(prompt)
                     response_text = response.text.strip()
@@ -350,14 +389,7 @@ JSON response:"""
         # Handle file paths - mostly universal (paths, numbers, file extensions)
         if self._is_file_path(cell):
             # Extract only meaningful terms from the path (skip directory structure)
-            filename = cell.split('/')[-1]  # Get just the filename
-            cell_length = len(filename)
-            universal_count = self.count_universal_content(filename)
-            
-            # File paths are mostly universal
-            if universal_count >= cell_length * 0.3:
-                return 0.95, "file_path_mostly_universal"
-            return 0.85, "file_path_with_content"
+            return 0.0, "file_path_no_qa"
         
         cell_length = len(cell)
         universal_count = self.count_universal_content(cell)
@@ -517,7 +549,7 @@ def main():
         use_gemini = True
     
     # Base directory containing all tables
-    base_dir = 'data/filtered_data/filtered_tables'
+    base_dir = 'data/github_capped/capped_tables'
     output_dir = 'src/summary'
     
     # Categories to identify (based on filename prefixes)

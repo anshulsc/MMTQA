@@ -374,11 +374,11 @@ if __name__ == "__main__":
     import sys
     
     # Configuration
-    TABLES_DIR = "data/filtered_data/filtered_tables"
+    TABLES_DIR = "data/github_capped/capped_tables"
     SCORES_DIR = "src/summary/scoring"
     OUTPUT_DIR = "data/benchmark_dataset/benchmark_tables"
     REPORTS_DIR = "src/summary/top100_tables"
-    METADATA_DIR = "data/filtered_data/filtered_metadata"  # Add your metadata directory
+    METADATA_DIR = "data/github_capped/capped_metadata"  # Add your metadata directory
     METADATA_DIR_OUTPUT = "data/benchmark_dataset/benchmark_metadata"  # Output directory for metadata files
     
     # Check for command line arguments

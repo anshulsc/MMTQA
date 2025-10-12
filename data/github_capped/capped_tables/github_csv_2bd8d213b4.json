@@ -1,0 +1,112 @@
+{
+  "columns": [
+    "question",
+    "options",
+    "answer",
+    "explanation",
+    "topic",
+    "difficulty",
+    "chapter"
+  ],
+  "data": [
+    [
+      "Which type of sorting involves records stored primarily in main memory?",
+      "['External sorting', 'Internal sorting', 'Merge sorting', 'Quick sorting']",
+      "B",
+      "Internal sorting operates on data residing entirely within the main memory.",
+      "Types of sorting: internal and external",
+      "Easy",
+      7.2
+    ],
+    [
+      "In external sorting, where might some or all of the records to be sorted reside?",
+      "['CPU cache', 'Random Access Memory (RAM)', 'Auxiliary storage (disk/tape)', 'Registers']",
+      "C",
+      "External sorting handles datasets too large to fit entirely in main memory, necessitating the use of secondary storage like disks or tapes.",
+      "Types of sorting: internal and external",
+      "Easy",
+      7.2
+    ],
+    [
+      "A sorting algorithm is considered stable if, for records with identical keys, their relative order...",
+      "['is reversed.', 'is randomized.', 'remains unchanged from the input list.', 'is determined alphabetically.']",
+      "C",
+      "Stability in sorting preserves the original relative order of records with equal keys.",
+      "Types of sorting: internal and external",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is a key characteristic of an exchange sort algorithm?",
+      "[\"It's a non-comparison-based algorithm.\", \"It's inherently stable.\", \"It's comparison-based.\", \"It's exclusively used for external sorting.\"]",
+      "C",
+      "Exchange sort algorithms rely on comparing elements to determine their relative order.",
+      "Types of sorting: internal and external",
+      "Medium",
+      7.2
+    ],
+    [
+      "In the context of stable sorting, what does the algorithm generally maintain, unless otherwise specified?",
+      "['The alphabetical order of the keys.', 'The original order of records with identical keys.', 'The reverse order of the input list.', 'A completely random order.']",
+      "B",
+      "Stable sorts aim to retain the initial sequence of items having the same key.",
+      "Types of sorting: internal and external",
+      "Medium",
+      7.2
+    ],
+    [
+      "What is the best-case time complexity of Insertion Sort?",
+      "['O(n^2)', 'O(log n)', 'O(n)', 'O(1)']",
+      "C",
+      "Insertion Sort achieves O(n) time complexity in its best-case scenario, which occurs when the input array is already sorted.",
+      "Insertion and selection sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "In the worst-case scenario, how many comparisons does Selection Sort perform on a list of size N?",
+      "['N-1', 'N', 'N(N-1)/2', 'N^2']",
+      "C",
+      "Selection sort makes N(N-1)/2 comparisons in the worst, average, and best cases.",
+      "Insertion and selection sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which sorting algorithm is generally considered more efficient in terms of data movement (swaps)?",
+      "['Insertion Sort', 'Selection Sort', 'Both have equal efficiency in data movement.', 'Neither is efficient in terms of data movement.']",
+      "B",
+      "Selection sort minimizes data movement; an element in its correct position is never moved, and only one swap is needed per pass.",
+      "Insertion and selection sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is the space complexity of both Insertion Sort and Selection Sort?",
+      "['O(n)', 'O(log n)', 'O(1)', 'O(n^2)']",
+      "C",
+      "Both algorithms are in-place sorting algorithms, meaning they require constant extra space (O(1)).",
+      "Insertion and selection sort",
+      "Easy",
+      7.2
+    ],
+    [
+      "What is a significant disadvantage of Insertion Sort?",
+      "['High memory usage.', 'Excessive data swapping.', 'Inefficient with nearly sorted data.', ' A large amount of shifting of sorted elements when inserting later elements.']",
+      "D",
+      "When inserting later elements, insertion sort requires significant shifting of already sorted elements, reducing efficiency.",
+      "Insertion and selection sort",
+      "Medium",
+      7.2
+    ],
+    [
+      "Which type of sorting algorithm is the exchange sort?",
+      "['Insertion-based', 'Selection-based', 'Comparison-based', 'Merge-based']",
+      "C",
+      "The passage explicitly states that exchange sort is a comparison-based sorting algorithm.",
+      "Exchange sort",
+      "Easy",
+      7.2
+    ]
+  ]
+}

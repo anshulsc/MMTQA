@@ -1,0 +1,88 @@
+{
+  "columns": [
+    "pipeline",
+    "cv_score",
+    "generation",
+    "holdout_score",
+    "holdout_roc_auc_score"
+  ],
+  "data": [
+    [
+      "RandomForestClassifier(input_matrix, RandomForestClassifier__bootstrap=True, RandomForestClassifier__criterion=gini, RandomForestClassifier__max_features=0.8, RandomForestClassifier__min_samples_leaf=10, RandomForestClassifier__min_samples_split=17, RandomForestClassifier__n_estimators=100)",
+      0.73,
+      0,
+      0.8200000000000001,
+      0.8826
+    ],
+    [
+      "XGBClassifier(RFE(input_matrix, RFE__ExtraTreesClassifier__criterion=entropy, RFE__ExtraTreesClassifier__max_features=0.7500000000000001, RFE__ExtraTreesClassifier__n_estimators=100, RFE__step=0.8), XGBClassifier__learning_rate=1.0, XGBClassifier__max_depth=9, XGBClassifier__min_child_weight=4, XGBClassifier__n_estimators=100, XGBClassifier__n_jobs=1, XGBClassifier__subsample=0.6000000000000001, XGBClassifier__verbosity=0)",
+      0.795,
+      0,
+      0.8200000000000001,
+      0.8949999999999999
+    ],
+    [
+      "GradientBoostingClassifier(input_matrix, GradientBoostingClassifier__learning_rate=0.5, GradientBoostingClassifier__max_depth=6, GradientBoostingClassifier__max_features=0.8, GradientBoostingClassifier__min_samples_leaf=20, GradientBoostingClassifier__min_samples_split=4, GradientBoostingClassifier__n_estimators=100, GradientBoostingClassifier__subsample=0.6000000000000001)",
+      0.73875,
+      1,
+      0.815,
+      0.8926999999999999
+    ],
+    [
+      "XGBClassifier(RFE(input_matrix, RFE__ExtraTreesClassifier__criterion=entropy, RFE__ExtraTreesClassifier__max_features=0.7500000000000001, RFE__ExtraTreesClassifier__n_estimators=100, RFE__step=0.8), XGBClassifier__learning_rate=1.0, XGBClassifier__max_depth=9, XGBClassifier__min_child_weight=4, XGBClassifier__n_estimators=100, XGBClassifier__n_jobs=1, XGBClassifier__subsample=0.6000000000000001, XGBClassifier__verbosity=0)",
+      0.795,
+      1,
+      0.8200000000000001,
+      0.8949999999999999
+    ],
+    [
+      "XGBClassifier(RFE(StandardScaler(input_matrix), RFE__ExtraTreesClassifier__criterion=entropy, RFE__ExtraTreesClassifier__max_features=0.7500000000000001, RFE__ExtraTreesClassifier__n_estimators=100, RFE__step=0.8), XGBClassifier__learning_rate=1.0, XGBClassifier__max_depth=9, XGBClassifier__min_child_weight=4, XGBClassifier__n_estimators=100, XGBClassifier__n_jobs=1, XGBClassifier__subsample=0.6000000000000001, XGBClassifier__verbosity=0)",
+      0.7975000000000001,
+      1,
+      0.86,
+      0.9397
+    ],
+    [
+      "GradientBoostingClassifier(input_matrix, GradientBoostingClassifier__learning_rate=0.5, GradientBoostingClassifier__max_depth=6, GradientBoostingClassifier__max_features=0.8, GradientBoostingClassifier__min_samples_leaf=20, GradientBoostingClassifier__min_samples_split=4, GradientBoostingClassifier__n_estimators=100, GradientBoostingClassifier__subsample=0.6000000000000001)",
+      0.73875,
+      2,
+      0.8400000000000001,
+      0.9298
+    ],
+    [
+      "XGBClassifier(RFE(input_matrix, RFE__ExtraTreesClassifier__criterion=entropy, RFE__ExtraTreesClassifier__max_features=0.7500000000000001, RFE__ExtraTreesClassifier__n_estimators=100, RFE__step=0.8), XGBClassifier__learning_rate=0.1, XGBClassifier__max_depth=9, XGBClassifier__min_child_weight=4, XGBClassifier__n_estimators=100, XGBClassifier__n_jobs=1, XGBClassifier__subsample=0.6000000000000001, XGBClassifier__verbosity=0)",
+      0.8787499999999999,
+      2,
+      0.88,
+      0.9602
+    ],
+    [
+      "XGBClassifier(input_matrix, XGBClassifier__learning_rate=0.1, XGBClassifier__max_depth=9, XGBClassifier__min_child_weight=4, XGBClassifier__n_estimators=100, XGBClassifier__n_jobs=1, XGBClassifier__subsample=0.6000000000000001, XGBClassifier__verbosity=0)",
+      0.78,
+      3,
+      0.865,
+      0.9162
+    ],
+    [
+      "XGBClassifier(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), XGBClassifier__learning_rate=1.0, XGBClassifier__max_depth=9, XGBClassifier__min_child_weight=4, XGBClassifier__n_estimators=100, XGBClassifier__n_jobs=1, XGBClassifier__subsample=0.6000000000000001, XGBClassifier__verbosity=0)",
+      0.9325,
+      3,
+      0.905,
+      0.9705
+    ],
+    [
+      "XGBClassifier(input_matrix, XGBClassifier__learning_rate=0.1, XGBClassifier__max_depth=9, XGBClassifier__min_child_weight=4, XGBClassifier__n_estimators=100, XGBClassifier__n_jobs=1, XGBClassifier__subsample=1.0, XGBClassifier__verbosity=0)",
+      0.85875,
+      4,
+      0.88,
+      0.954
+    ],
+    [
+      "XGBClassifier(PolynomialFeatures(input_matrix, PolynomialFeatures__degree=2, PolynomialFeatures__include_bias=False, PolynomialFeatures__interaction_only=False), XGBClassifier__learning_rate=1.0, XGBClassifier__max_depth=9, XGBClassifier__min_child_weight=4, XGBClassifier__n_estimators=100, XGBClassifier__n_jobs=1, XGBClassifier__subsample=0.6000000000000001, XGBClassifier__verbosity=0)",
+      0.9325,
+      4,
+      0.905,
+      0.9705
+    ]
+  ]
+}
