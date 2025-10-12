@@ -1,0 +1,2580 @@
+{
+  "columns": [
+    "Project Name",
+    "Package Name",
+    "Type Name",
+    "Testability Smell",
+    "Cause of the Smell"
+  ],
+  "data": [
+    [
+      "magarena",
+      "magic.data",
+      "MagicFormat",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ALL"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "DuelConfig",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: MAX_PLAYERS"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "DuelConfig",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "MagicIcon",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: COLOR_MANA; HYBRID_COLOR_MANA; TYPE_ICONS"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "DeckGenerators",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "DeckGenerators",
+      "Law of Demeter violation",
+      "The tool detected the smell in this method (getDeckGenerator) because the method voilates the law of Demeter. The long chain of method invocations is : magic.data.DeckGenerators.getInstance; magic.data.DeckGenerators.getDeckGenerator"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "DeckGenerator",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "CardDefinitions",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "MagicPredefinedFormat",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: STANDARD; MODERN; LEGACY; VINTAGE; ICE_AGE_BLOCK; MIRAGE_BLOCK; TEMPEST_BLOCK; URZA_BLOCK; MASQUES_BLOCK; INVASION_BLOCK; ODYSSEY_BLOCK; ONSLAUGHT_BLOCK; MIRRODIN_BLOCK; KAMIGAWA_BLOCK; RAVNICA_BLOCK; TIME_SPIRAL_BLOCK; LORWYN_SHADOWMOOR_BLOCK; SHARDS_OF_ALARA_BLOCK; ZENDIKAR_RISE_OF_THE_ELDRAZI_BLOCK; SCARS_OF_MIRRODIN_BLOCK; INNISTRAD_AVACYN_RESTORED_BLOCK; RETURN_TO_RAVNICA_BLOCK; THEROS_BLOCK; KHANS_OF_TARKIR_BLOCK; BATTLE_FOR_ZENDIKAR_BLOCK; SHADOWS_OVER_INNISTRAD_BLOCK; KALADESH_BLOCK"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "MagicPredefinedFormat",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "CardProperty",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: IMAGE_UPDATED_FORMAT"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "CardProperty",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "CardStatistics",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: MANA_CURVE_ICONS; MANA_CURVE_SIZE; TYPE_NAMES; NR_OF_TYPES; TYPE_ICONS"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "GeneralConfig",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CONFIG_FILENAME; DEFAULT_FRAME_WIDTH; DEFAULT_FRAME_HEIGHT; DEFAULT_TRANSLATION"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "GeneralConfig",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.data",
+      "GeneralConfig",
+      "Law of Demeter violation",
+      "The tool detected the smell in this method (isGameStatsOn) because the method voilates the law of Demeter. The long chain of method invocations is : magic.data.GeneralConfig.getInstance; magic.data.GeneralConfig.isGameStatsEnabled"
+    ],
+    [
+      "magarena",
+      "magic.data.stats",
+      "MagicStats",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.data.stats.h2",
+      "H2Database",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.utility",
+      "FileIO",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: UTF8"
+    ],
+    [
+      "magarena",
+      "magic.utility",
+      "DeckUtils",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: DECK_EXTENSION"
+    ],
+    [
+      "magarena",
+      "magic.utility",
+      "DeckUtils",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.utility",
+      "MagicFileSystem",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CARD_IMAGE_FOLDER; TOKEN_IMAGE_FOLDER; INSTALL_PATH; DATA_DIRECTORY_NAME"
+    ],
+    [
+      "magarena",
+      "magic.utility",
+      "MagicSystem",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: VERSION; SOFTWARE_TITLE; IS_WINDOWS_OS; loadCards; loadMissing"
+    ],
+    [
+      "magarena",
+      "magic.utility",
+      "MagicSystem",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic",
+      "DeckStrCal",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic",
+      "FiremindQueueWorker",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: shutDownOnEmptyQueue"
+    ],
+    [
+      "magarena",
+      "magic",
+      "MagicMain",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.cardBuilder",
+      "ResourceManager",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: multiFrame; artifactFrame; colorlessFrame; redFrame; blackFrame; blueFrame; greenFrame; whiteFrame; landFrame; vehicleFrame; redPTPanel; blackPTPanel; bluePTPanel; greenPTPanel; whitePTPanel; colorlessPTPanel; artifactPTPanel; multiPTPanel; vehiclePTPanel; gainColorBlend; gainHybridBlend; gainHybridBanner; defaultWhite; defaultBlue; defaultBlack; defaultRed; defaultGreen; defaultArtifact; defaultLand; defaultColorless; defaultMulti; defaultHybridBlend; whiteLandImage; blueLandImage; blackLandImage; redLandImage; greenLandImage; bgLandImage; brLandImage; guLandImage; gwLandImage; rgLandImage; rwLandImage; ubLandImage; urLandImage; wbLandImage; wuLandImage; artifactNyx; colorlessNyx; landNyx; whiteNyx; blueNyx; blackNyx; redNyx; greenNyx; multiNyx; colorlessTokenFrame; colorlessTokenFrameText; artifactTokenFrame; artifactTokenFrameText; whiteTokenFrame; whiteTokenFrameText; blueTokenFrame; blueTokenFrameText; blackTokenFrame; blackTokenFrameText; redTokenFrame; redTokenFrameText; greenTokenFrame; greenTokenFrameText; multiTokenFrame; multiTokenFrameText; gainColorTokenBlend; gainColorTokenBlendText; gainTokenBanner; gainTokenBannerText; artifactLevellerBox; whiteLevellerBox; whiteLandLevellerBox; blueLevellerBox; blueLandLevellerBox; blackLevellerBox; blackLandLevellerBox; redLevellerBox; redLandLevellerBox; greenLevellerBox; greenLandLevellerBox; gainTextBoxHybridBlend; multiLevellerBox; multiLandLevellerBox; colorlessLevellerBox; colorlessLandLevellerBox; artifactPlaneswalkerFrame; whitePlaneswalkerFrame; bluePlaneswalkerFrame; blackPlaneswalkerFrame; redPlaneswalkerFrame; greenPlaneswalkerFrame; multiPlaneswalkerFrame; colorlessPlaneswalkerFrame; gainPlaneswalkerHybridBanner; gainPlaneswalkerColorBlend; artifactPlaneswalker4; whitePlaneswalker4; bluePlaneswalker4; blackPlaneswalker4; redPlaneswalker4; greenPlaneswalker4; multiPlaneswalker4; colorlessPlaneswalker4; gainPlaneswalker4HybridBanner; gainPlaneswalker4ColorBlend; loyaltyPanel; loyaltyUp; loyaltyDown; loyaltyEven; whiteDevoidFrame; blueDevoidFrame; blackDevoidFrame; redDevoidFrame; greenDevoidFrame; colorlessDevoidFrame; artifactDevoidFrame; multiDevoidFrame; artifactSymbol; creatureSymbol; enchantmentSymbol; instantSymbol; landSymbol; multiSymbol; planeswalkerSymbol; sorcerySymbol; magarenaSymbol; artifactTransform; artifactHidden; colorlessTransform; colorlessHidden; colorlessLandTransform; colorlessLandHidden; whiteTransform; whiteHidden; whiteLandTransform; whiteLandHidden; blueTransform; blueHidden; blueLandTransform; blueLandHidden; blackTransform; blackHidden; blackLandTransform; blackLandHidden; redTransform; redHidden; redLandTransform; redLandHidden; greenTransform; greenHidden; greenLandTransform; greenLandHidden; multiTransform; multiHidden; multiLandTransform; multiLandHidden; gainTransformColorBlend; gainTransformHybridBanner; artifactPlaneswalkerTransform; artifactPlaneswalkerHidden; whitePlaneswalkerTransform; whitePlaneswalkerHidden; bluePlaneswalkerTransform; bluePlaneswalkerHidden; blackPlaneswalkerTransform; blackPlaneswalkerHidden; redPlaneswalkerTransform; redPlaneswalkerHidden; greenPlaneswalkerTransform; greenPlaneswalkerHidden; multiPlaneswalkerTransform; multiPlaneswalkerHidden; gainPlaneswalkerTransformHybridBanner; getPlaneswalkerImageBlend; artifactHiddenPTPanel; colorlessHiddenPTPanel; whiteHiddenPTPanel; blueHiddenPTPanel; blackHiddenPTPanel; redHiddenPTPanel; greenHiddenPTPanel; multiHiddenPTPanel; daySymbol; nightSymbol; moonSymbol; eldraziSymbol; planeswalkerTypeSymbol; sparkSymbol; common; uncommon; rare; mythic; artifactMiracle; blackMiracle; colorlessMiracle; multiMiracle; redMiracle; blueMiracle; whiteMiracle; greenMiracle; blackLandBox; blueLandBox; redLandBox; greenLandBox; whiteLandBox; multiLandBox; tokenImageMaskSmall; tokenImageMaskLarge"
+    ],
+    [
+      "magarena",
+      "magic.cardBuilder.renderers",
+      "ImageFrame",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.cardBuilder.renderers",
+      "OracleText",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NEWLINE"
+    ],
+    [
+      "magarena",
+      "magic.cardBuilder.renderers",
+      "OracleText",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.cardBuilder.renderers",
+      "PTFrame",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.cardBuilder.renderers",
+      "CardBuilder",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: IS_LOADED"
+    ],
+    [
+      "magarena",
+      "magic.cardBuilder.renderers",
+      "CardBuilder",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.firemind",
+      "FiremindGameReport",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.firemind",
+      "FiremindDuelRunner",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 16"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicManaCost",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ZERO; NONE; MAXIMUM_MANA_COST"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicManaCost",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicCardDefinition",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: UNKNOWN; NAME_COMPARATOR_DESC; NAME_COMPARATOR_ASC; CONVERTED_COMPARATOR_DESC; CONVERTED_COMPARATOR_ASC; TYPE_COMPARATOR_DESC; TYPE_COMPARATOR_ASC; SUBTYPE_COMPARATOR_DESC; SUBTYPE_COMPARATOR_ASC; RARITY_COMPARATOR_DESC; RARITY_COMPARATOR_ASC; POWER_COMPARATOR_DESC; POWER_COMPARATOR_ASC; TOUGHNESS_COMPARATOR_DESC; TOUGHNESS_COMPARATOR_ASC"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicCardDefinition",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 29"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicCardDefinition",
+      "Law of Demeter violation",
+      "The tool detected the smell in this method (loadAbilities) because the method voilates the law of Demeter. The long chain of method invocations is : magic.model.MagicCardDefinition.getFlippedDefinition; magic.model.MagicCardDefinition.isHidden"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicCardDefinition",
+      "Law of Demeter violation",
+      "The tool detected the smell in this method (loadAbilities) because the method voilates the law of Demeter. The long chain of method invocations is : magic.model.MagicCardDefinition.getTransformedDefinition; magic.model.MagicCardDefinition.isHidden"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicCardDefinition",
+      "Law of Demeter violation",
+      "The tool detected the smell in this method (loadAbilities) because the method voilates the law of Demeter. The long chain of method invocations is : magic.model.MagicCardDefinition.getSplitDefinition; magic.model.MagicCardDefinition.isSecondHalf"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicDeck",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: DEFAULT_SIZE"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicCounterType",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NR_COUNTERS"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicPermanentState",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CLEANUP_MASK"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicType",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ALL_CARD_TYPES; SUPERTYPES; FILTER_TYPES; TYPE_ORDER"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicType",
+      "Law of Demeter violation",
+      "The tool detected the smell in this method (getTypes) because the method voilates the law of Demeter. The long chain of method invocations is : magic.model.MagicType.getType; magic.model.MagicType.getMask"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicCostManaType",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NR_OF_TYPES; MONO; HYBRID; NON_MONO"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicColor",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NR_COLORS"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicPlayerState",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CLEANUP_MASK; TURN_MASK"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicDeckConstructionRule",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: MIN_DECK_SIZE; MAX_COPIES"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicSource",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NONE"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicIdentifierType",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NR_OF_IDENTIFIERS"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicManaType",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NR_OF_TYPES"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicDeckProfile",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ANY_DECK; ANY_THREE; ANY_TWO; ANY_ONE"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicPlayer",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NONE"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicPlayer",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 28"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicMessage",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CARD_ID_DELIMITER"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicMessage",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "ARG",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: COLON; CHOICE; CARD; GRAVEYARD; THING; EVENQUOTES; ENERGY; NUMBER; AMOUNT; AMOUNT2; COST; MAY_COST; COLOR; EFFECT; ANY; MANA; MANACOST; WORD1; WORD2; WORDRUN; WORDRUN2; COND; PT; XPT; MODS; IT; YOU; PLAYERS; PERMANENTS; TARGETS; TARGETS2; CARDS; ITEMS"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "ARG",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicCard",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NONE"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicCard",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 18"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicCondensedCardDefinition",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: RATING_COMPARATOR_DESC; RATING_COMPARATOR_ASC; NUM_COPIES_COMPARATOR_DESC; NUM_COPIES_COMPARATOR_ASC; NAME_COMPARATOR_DESC; NAME_COMPARATOR_ASC; CONVERTED_COMPARATOR_DESC; CONVERTED_COMPARATOR_ASC; SUBTYPE_COMPARATOR_ASC; SUBTYPE_COMPARATOR_DESC; TYPE_COMPARATOR_DESC; TYPE_COMPARATOR_ASC; RARITY_COMPARATOR_DESC; RARITY_COMPARATOR_ASC; POWER_COMPARATOR_DESC; POWER_COMPARATOR_ASC; TOUGHNESS_COMPARATOR_DESC; TOUGHNESS_COMPARATOR_ASC"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicGameLog",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: LOG_FILE"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicPayedCost",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NO_COST; NOT_SPELL"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicDuel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicSubType",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ALL_BASIC_LANDS; ALL_LANDS; ALL_ARTIFACTS; ALL_ENCHANTMENTS; ALL_CREATURES; ALL_PLANESWALKERS; FILTER_SUBTYPES"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicRarity",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: length"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicAmountFactory",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: AllCountersOnSource; One; Equipment; Aura; Domain; SN_Power; LifeTotal; ColorsOnPerms; XCost; NegXCost; GreatestPower; HighestCMCPermanentsYouControl"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicAmountFactory",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicDamage",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Combat; Any"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicPermanent",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NO_COLOR_FLAGS; NONE"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicPermanent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 37"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicGame",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: LOSE_DRAW_EMPTY_LIBRARY"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicGame",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 52"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicAbility",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: PROTECTION_FLAGS; LANDWALK_FLAGS"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicAbility",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 23"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicAbility",
+      "Law of Demeter violation",
+      "The tool detected the smell in this method (getAbilityList) because the method voilates the law of Demeter. The long chain of method invocations is : magic.model.MagicAbility.getAbility; magic.model.MagicAbility.addAbility"
+    ],
+    [
+      "magarena",
+      "magic.model",
+      "MagicAbility",
+      "Law of Demeter violation",
+      "The tool detected the smell in this method (getAbilityList) because the method voilates the law of Demeter. The long chain of method invocations is : magic.model.MagicAbility.getAbility; magic.model.MagicAbility.addAbility"
+    ],
+    [
+      "magarena",
+      "magic.model.target",
+      "MagicDestroyTargetPicker",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Destroy; DestroyNoRegen"
+    ],
+    [
+      "magarena",
+      "magic.model.target",
+      "MagicCardFilterImpl",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.target",
+      "MagicTapTargetPicker",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Tap; Untap; TapOrUntap"
+    ],
+    [
+      "magarena",
+      "magic.model.target",
+      "MagicGraveyardTargetPicker",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ExileOwn; ExileOpp; ReturnToHand; PutOntoBattlefield"
+    ],
+    [
+      "magarena",
+      "magic.model.target",
+      "MagicDamageTargetPicker",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.target",
+      "MagicTargetNone",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.model.target",
+      "MagicTargetFilterFactory",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NONE; ANY; SN; YOU; EQUIPMENT_ATTACHED_TO_SOURCE; SPELL_OR_ABILITY_THAT_TARGETS_PERMANENTS; SPELL_OR_ABILITY; SPELL_OR_ABILITY_OPPONENT_CONTROL; ACTIVATED_ABILITY; ACTIVATED_OR_TRIGGERED_ABILITY; SPELL; SPELL_THAT_TARGETS_PLAYER; SPELL_YOU_DONT_CONTROL; SPELL_WITH_CMC_EQ_1; SPELL_WITH_CMC_EQ_2; SPELL_WITH_CMC_LEQ_3; SPELL_WITH_CMC_4_OR_GREATER; INSTANT_SPELL_YOU_CONTROL_WITH_CMC_LEQ_2; SORCERY_SPELL_YOU_CONTROL_WITH_CMC_LEQ_2; SPELL_WITH_X_COST; RED_OR_GREEN_SPELL; BLUE_OR_BLACK_SPELL; GREEN_OR_WHITE_SPELL; NONBLUE_SPELL; NONBLACK_SPELL; NONFAERIE_SPELL; BLUE_INSTANT_SPELL; BLUE_SPELL_YOUR_TURN; BLUE_OR_BLACK_SPELL_YOUR_TURN; NONRED_SPELL; BLUE_OR_BLACK_OR_RED_SPELL; WHITE_OR_BLUE_OR_BLACK_OR_RED_SPELL; CREATURE_OR_AURA_SPELL; CREATURE_OR_SORCERY_SPELL; NONCREATURE_SPELL; NONARTIFACT_SPELL; CREATURE_SPELL_CMC_6_OR_MORE; CREATURE_SPELL_CMC_3_OR_LESS; CREATURE_SPELL_WITH_INFECT; GREEN_CREATURE_SPELL; BLUE_CREATURE_SPELL; WHITE_OR_BLUE_INSTANT_OR_SORCERY_SPELL; ENCHANTMENT_OR_INSTANT_OR_SORCERY_SPELL; INSTANT_OR_SORCERY_SPELL; INSTANT_OR_SORCERY_SPELL_YOU_CONTROL; SPIRIT_OR_ARCANE_SPELL; ARTIFACT_OR_ENCHANTMENT_SPELL; PLAYER; DEFENDING_PLAYER; PLAYER_LOST_LIFE; PLAYER_CONTROLS_CREATURE; OPPONENT; SPELL_OR_PERMANENT; BLACK_PERMANENT; WHITE_PERMANENT; RED_PERMANENT; GREEN_PERMANENT; BLUE_PERMANENT; BLUE_PERMANENT_YOU_CONTROL; BLACK_PERMANENT_YOU_CONTROL; PERMANENT; BLACK_OR_RED_PERMANENT; BLACK_OR_GREEN_PERMANENT; BLUE_OR_RED_PERMANENT; GREEN_OR_BLUE_PERMANENT; WHITE_OR_BLACK_PERMANENT; WHITE_OR_BLUE_PERMANENT_YOU_CONTROL; GREEN_OR_WHITE_PERMANENT; WHITE_OR_BLUE_PERMANENT; RED_OR_WHITE_PERMANENT; NON_SWAMP_LAND; NONBASIC_LAND; NONBASIC_LAND_YOU_CONTROL; NON_LAIR_LAND; TRAPPED_LAND; BASIC_LAND; SNOW_LAND; SNOW_LAND_CARD; LAND_CARD_FROM_LIBRARY; BASIC_LAND_YOU_CONTROL; SNOW_LAND_YOU_CONTROL; SNOW_MOUNTAIN; SNOW_SWAMP; SNOW_ISLAND; SNOW_FOREST; SNOW_PLAINS; LAND; LAND_OR_NONBLACK_CREATURE; NONLAND_CREATURE; NONLAND_PERMANENT; NONLAND_PERMANENT_YOU_CONTROL; NONLAND_NONTOKEN_PERMANENT; NONTOKEN_PERMANENT; NONTOKEN_ARTIFACT; TOKEN_YOU_CONTROL; TOKEN; FACEUP_NONTOKEN_CREATURE; NONTOKEN_CREATURE; NONTOKEN_WHITE_PERMANENT; NONTOKEN_ELF; NONTOKEN_RED_PERMANENT; NONLAND_PERMANENT_YOUR_OPPONENT_CONTROLS; NONCREATURE_ARTIFACT; ARTIFACT; ARTIFACT_YOU_CONTROL; ARTIFACT_YOUR_OPPONENT_CONTROLS; ARTIFACT_CREATURE; ARTIFACT_OR_CREATURE; ARTIFACT_OR_CREATURE_YOU_CONTROL; ARTIFACT_OR_CREATURE_OR_LAND; ARTIFACT_OR_ENCHANTMENT; ARTIFACT_OR_ENCHANTMENT_CMC_3_OR_LESS; ARTIFACT_OR_ENCHANTMENT_CMC_4_OR_LESS; ARTIFACT_OR_LAND; ARTIFACT_OR_ENCHANTMENT_OR_LAND; ARTIFACT_OR_CREATURE_OR_ENCHANTMENT; ARTIFACT_OR_ENCHANTMENT_YOUR_OPPONENT_CONTROLS; NONCREATURE; ONE; CREATURE_OR_PLAYER; SLIVER_CREATURE_OR_PLAYER; CREATURE_OR_LAND; CREATURE_OR_LAND_YOU_CONTROL; CREATURE_OR_PLANESWALKER; CREATURE_OR_ENCHANTMENT; CREATURE_OR_ENCHANTMENT_CARD; EQUIPMENT; EQUIPMENT_YOU_CONTROL; ENCHANTMENT; ENCHANTMENT_OR_LAND; ENCHANTMENT_YOU_CONTROL; ENCHANTMENT_YOU_OWN_AND_CONTROL; RED_OR_GREEN_ENCHANTMENT; SPIRIT_OR_ENCHANTMENT; PERMANENT_YOU_CONTROL; UNTAPPED_PERMANENT; TAPPED_PERMANENT; PERMANENT_YOU_OWN; PERMANENT_YOU_OWN_AND_CONTROL; PERMANENT_YOU_OWN_OR_CONTROL; PERMANENT_WITH_FADING; LAND_YOU_CONTROL; FOREST; FOREST_YOU_CONTROL; ISLAND_YOU_CONTROL; ISLAND_OR_SWAMP; ISLAND; MOUNTAIN; MOUNTAIN_YOU_CONTROL; PLAINS; AURA; AURA_YOU_OWN; AURA_ATTACHED_TO_CREATURE; SWAMP; SWAMP_YOU_CONTROL; CREATURE_TOKEN_YOU_CONTROL; CARIBOU_TOKEN; CREATURE_TOKEN; SERF_TOKEN; SKELETON_TOKEN; CREATURE_THAT_ISNT_ENCHANTED; NON_LEGENDARY_CREATURE; BLACK_OR_RED_CREATURE_YOU_CONTROL; BLUE_OR_BLACK_CREATURE; FOREST_OR_PLAINS; FOREST_OR_SAPROLING; PLAINS_OR_ISLAND; BLUE_OR_RED_CREATURE; BLACK_OR_GREEN_CREATURE; BLACK_OR_RED_CREATURE; RED_OR_GREEN_CREATURE; RED_OR_WHITE_CREATURE; GREEN_OR_WHITE_CREATURE; GREEN_OR_BLUE_CREATURE; WHITE_OR_BLUE_CREATURE; WHITE_OR_BLACK_CREATURE; BLACK_CREATURE; WHITE_CREATURE; BLUE_CREATURE; BLACK_CREATURE_YOU_CONTROL; GREEN_CREATURE; RED_CREATURE_YOU_CONTROL; RED_CREATURE; WHITE_CREATURE_YOU_CONTROL; DRAGON_YOU_CONTROL; SOLDIER_OR_WARRIOR; SCARECROW_OR_PLAINS; FOREST_OR_TREEFOLK; GOBLIN_CREATURE; GOBLIN_OR_SHAMAN; DJINN_OR_EFREET; TREEFOLK_OR_WARRIOR; CLERIC_OR_WIZARD_CREATURE; LEGENDARY_SAMURAI; LEGENDARY_SNAKE; INSECT_RAT_SPIDER_OR_SQUIRREL; HUMAN_OR_ANGEL; SKELETON_VAMPIRE_OR_ZOMBIE; VAMPIRE_WEREWOLF_OR_ZOMBIE; VAMPIRE_OR_ZOMBIE; NONVAMPIRE_NONWEREWOLF_NONZOMBIE_CREATURE; BARBARIAN_WARRIOR_BERSERKER_CREATURE; NONZOMBIE_CREATURE; HUMAN; HUMAN_CREATURE; NONENCHANTMENT_CREATURE; NONENCHANTMENT_PERMANENT; PERMANENT_ENCHANTED; CREATURE_ENCHANTED; CREATURE_EQUIPPED; ENCHANTED_PERMANENT; ENCHANTED_ARTIFACT; ENCHANTED_CREATURE; ENCHANTED_LAND; EQUIPPED_CREATURE; EQUIPPED_CREATURE_YOU_CONTROL; CREATURE_YOU_CONTROL_SHARE_COLOR; CREATURE_WITH_ANOTHER_AURA; ENCHANTMENT_OR_ENCHANTED_PERMANENT; ENCHANTED_OR_ENCHANTMENT_CREATURE; CREATURE_OR_VEHICLE; CREATURE_OR_NONBASIC_LAND; ZOMBIE; FUNGUS; SLIVER; SLIVER_CREATURE; ELF; SPIRIT_YOU_CONTROL; MODULAR_CREATURE; LEVELUP_CREATURE; CREATURE; WORLD; CREATURE_YOU_CONTROL; CREATURE_YOU_OWN; CREATURE_YOUR_OPPONENT_CONTROLS; FACE_DOWN_CREATURE; TAPPED_CREATURE; TAPPED_CREATURE_YOU_CONTROL; TAPPED_ARTIFACT_YOU_CONTROL; TAPPED_LAND; UNTAPPED_CREATURE; UNTAPPED_ISLAND; UNTAPPED_ARTIFACT_CREATURE_OR_LAND; ARTIFACT_CREATURE_OR_BLACK_CREATURE; NONWHITE_CREATURE; NONWHITE_NONBLACK_CREATURE; NONWHITE_PERMANENT; NONBLACK_CREATURE; NONBLUE_CREATURE; NONGREEN_CREATURE; NONBLACK_ATTACKING_CREATURE; NONRED_CREATURE; NONARTIFACT_CREATURE; NONARTIFACT_ATTACKING_CREATURE; NONARTIFACT_NONBLACK_CREATURE; NONSNOW_CREATURE; NONSNOW_LAND; CREATURE_WITHOUT_FLYING; CREATURE_WITHOUT_DEFENDER; CREATURE_WITHOUT_FLYING_YOUR_OPPONENT_CONTROLS; CREATURE_WITH_FLYING; CREATURE_WITH_FLYING_YOU_CONTROL; CREATURE_WITH_TRAMPLE; CREATURE_WITH_FLYING_YOUR_OPPONENT_CONTROLS; CREATURE_WITH_DEFENDER; CREATURE_WITH_INFECT; CREATURE_WITH_HORSEMANSHIP; CREATURE_WITH_ISLANDWALK; CREATURE_WITH_SHADOW; CREATURE_WITHOUT_SHADOW; CREATURE_WITH_FLYING_OR_REACH; CREATURE_WITH_MORPH_ABILITY; CREATURE_WITHOUT_FLYING_OR_ISLANDWALK; CREATURE_WITHOUT_FLYING_OR_PLANESWALKER; BLUE_OR_BLACK_CREATURE_WITH_FLYING; CREATURE_BEEN_DAMAGED; CREATURE_WITH_DEATHTOUCH_HEXPROOF_REACH_OR_TRAMPLE_FROM_LIBRARY; CREATURE_CONVERTED_3_OR_LESS; CREATURE_CARD_CMC_LEQ_3_FROM_GRAVEYARD; CREATURE_CARD_POWER_LEQ_2_FROM_LIBRARY; GREEN_CREATURE_CARD_FROM_GRAVEYARD; CREATURE_CONVERTED_2_OR_LESS; CREATURE_PLUSONE_COUNTER; CREATURE_LEVEL_COUNTER; CREATURE_FATE_COUNTER; CREATURE_AT_LEAST_3_LEVEL_COUNTERS; CREATURE_MINSUONE_COUNTER; CREATURE_WITH_COUNTER; ATTACKING_CREATURE; BLOCKING_CREATURE; ATTACKING_CREATURE_YOU_CONTROL; ATTACKING_CREATURE_OPP_CONTROL; BLOCKING_CREATURE_YOU_CONTROL; CREATURE_BLOCKING_SN; NONATTACKING_CREATURE; NONATTACKING_NONBLOCKING_CREATURE; CREATURE_WITH_FLANKING; ATTACKING_OR_BLOCKING_CREATURE; BLACK_OR_RED_CREATURE_ATTACKING_OR_BLOCKING; ATTACKING_OR_BLOCKING_CREATURE_YOU_CONTROL; WEREWOLF_OR_WOLF_CREATURE; WEREWOLF_OR_WOLF_CREATURE_YOU_CONTROL; WOLF_OR_WEREWOLF; SERVO_OR_THOPTER; WOLF_OR_WEREWOLF_YOU_CONTROL; UNBLOCKED_ATTACKING_CREATURE_YOU_CONTROL; UNBLOCKED_ATTACKING_CREATURE; KALDRA_EQUIPMENT; KALDRA_EQUIPMENT_YOU_CONTROL; BLOCKED_CREATURE; CARD_FROM_GRAVEYARD; COLORLESS_CREATURE_CARD; COLORLESS_CARD; AURA_OR_EQUIPMENT_CARD; CARD_FROM_LIBRARY; CARD_FROM_ALL_GRAVEYARDS; ARTIFACT_OR_CREATURE_OR_ENCHANTMENT_CARD; CREATURE_CARD_FROM_GRAVEYARD; CREATURE_CARD_FROM_ALL_GRAVEYARDS; CREATURE_CARD_FROM_LIBRARY; PAYABLE_CREATURE_CARD_FROM_GRAVEYARD; PAYABLE_INSTANT_OR_SORCERY_FROM_GRAVEYARD; CREATURE_CARD_WITH_INFECT_FROM_GRAVEYARD; PERMANENT_CARD_FROM_GRAVEYARD; PERMANENT_CARD_FROM_LIBRARY; LEGENDARY_SPIRIT_PERMANENT_CARD_FROM_LIBRARY; ARTIFACT_CARD_CMC_LEQ_1_FROM_GRAVEYARD; CREATURE_CARD_CMC_LEQ_2_FROM_GRAVEYARD; CREATURE_CARD_POWER_LEQ_2_FROM_GRAVEYARD; NONLAND_PERMANENT_CMC_LEQ_3; CARD_FROM_OPPONENTS_GRAVEYARD; INSTANT_OR_SORCERY_CARD_FROM_GRAVEYARD; INSTANT_OR_SORCERY_CARD; INSTANT_SORCERY_OR_CREATURE_CARD; RED_SORCERY_CARD; BLUE_INSTANT_CARD; BLUE_OR_RED_CREATURE_CARD; BLACK_OR_RED_CREATURE_CARD_FROM_GRAVEYARD; INSTANT_OR_SORCERY_CARD_FROM_OPPONENTS_GRAVEYARD; CREATURE_CARD_FROM_OPPONENTS_GRAVEYARD; ARTIFACT_CARD_FROM_GRAVEYARD; ARTIFACT_CARD; NONCREATURE_ARTIFACT_CARD_WITH_CMC_LEQ_1_FROM_GRAVEYARD; NONCREATURE_NONLAND_CARD; CREATURE_CARD; ENCHANTMENT_CARD_FROM_GRAVEYARD; ENCHANTMENT_CARD; INSTANT_CARD; SORCERY_CARD; INSTANT_OR_SORCERY_CARD_FROM_ALL_GRAVEYARDS; LAND_CARD_FROM_YOUR_GRAVEYARD; LAND_CARD; ARTIFACT_OR_CREATURE_CARD; ZOMBIE_CARD_FROM_ALL_GRAVEYARDS; ZOMBIE_CREATURE_CARD_FROM_GRAVEYARD; SPIRIT_CARD_FROM_GRAVEYARD; HUMAN_CREATURE_CARD_FROM_GRAVEYARD; CARD_FROM_HAND; INSTANT_LEQ_CMC_2_FROM_HAND; CREATURE_CARD_FROM_HAND; CREATURE_OR_LAND_CARD; ACELP_CARD; EQUIPMENT_CARD_FROM_HAND; RED_OR_GREEN_CARD; MULTICOLORED_PERMANENT; COLORLESS_CREATURE; COLORLESS_CREATURE_YOU_CONTROL; COLORLESS_SPELL; COLORLESS_SPELL_CMC_7_OR_MORE; MULTICOLORED_CARD; MULTICOLORED_SPELL; MONOCOLORED_CREATURE; MULTICOLORED_CREATURE_YOU_CONTROL; MULTICOLORED_CREATURE; MONO_OR_MULTICOLORED_CREATURE; MULTICOLORED_CREATURE_CARD; NONCREATURE_CARD; NONARTIFACT_NONLAND_CARD; UNTAPPED_LAND_YOU_CONTROL; WARRIOR_CARD_FROM_GRAVEYARD; NONARTIFACT_NONWHITE_CREATURE; UNTAPPED_LAND; FAERIE_OR_ELF; KNIGHT_OR_SOLDIER; ELF_OR_SOLDIER_CREATURE; ELDRAZI_SPAWN_CREATURE; ELDRAZI_SPAWN; ELDRAZI_SCION; ARTIFACT_LAND; ARTIFACT_OR_CREATURE_OR_LAND_CARD; LEGENDARY_LAND; NONARTIFACT_PERMANENT; NON_AURA_ENCHANTMENT; BASIC_LAND_CARD; BASIC_LAND_CARD_FROM_LIBRARY; BASIC_LAND_CARD_FROM_ALL_GRAVEYARDS; BASIC_LAND_CARD_OR_GATE_CARD; BASIC_FOREST_PLAINS_OR_ISLAND; BASIC_PLAINS_ISLAND_OR_SWAMP; BASIC_ISLAND_SWAMP_OR_MOUNTAIN; BASIC_SWAMP_MOUNTAIN_OR_FOREST; BASIC_MOUNTAIN_FOREST_OR_PLAINS; PLAINS_ISLAND_SWAMP_OR_MOUNTAIN_CARD; INSTANT_OR_FLASH_CARD_FROM_LIBRARY; LAND_CARD_WITH_BASIC_LAND_TYPE; LAND_CARD_WITH_BASIC_LAND_TYPE_FROM_LIBRARY; NON_LEGENDARY_GREEN_CREATURE_CARD_WITH_CMC_LEQ_3_FROM_LIBRARY; UNPAIRED_CREATURE_YOU_CONTROL; UNPAIRED_SOULBOND_CREATURE; CREATURE_TOUGHNESS_2_OR_LESS; CREATURE_TOUGHNESS_3_OR_LESS; CREATURE_TOUGHNESS_3_OR_GREATER; CREATURE_TOUGHNESS_4_OR_GREATER; CREATURE_POWER_1_OR_LESS; CREATURE_POWER_OR_TOUGHNESS_1_OR_LESS; CREATURE_POWER_GREATER_THAN_SN; CREATURE_POWER_LESS_THAN_SN; CREATURE_POWER_2_OR_LESS; CREATURE_POWER_3_OR_LESS; CREATURE_POWER_4_OR_MORE; CREATURE_POWER_4_OR_LESS; CREATURE_POWER_2_OR_MORE; WHITE_CREATURE_POWER_2_OR_MORE; CREATURE_POWER_3_OR_MORE; CREATURE_POWER_5_OR_MORE"
+    ],
+    [
+      "magarena",
+      "magic.model.target",
+      "MagicTargetFilterFactory",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 26"
+    ],
+    [
+      "magarena",
+      "magic.model.action",
+      "LoseGameAction",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: LIFE_REASON; POISON_REASON; DRAW_REASON; EFFECT_REASON"
+    ],
+    [
+      "magarena",
+      "magic.model.action",
+      "MagicPlayMod",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.model.action",
+      "GoadAction",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.action",
+      "PlayCardFromStackAction",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.model.action",
+      "MoveCardAction",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.action",
+      "DetainAction",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.action",
+      "DealDamageAction",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.model.action",
+      "CombatDamageAction",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.action",
+      "PlayTokenAction",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.action",
+      "DrawAction",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicPutOntoBattlefieldEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicClashEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicMorphCastActivation",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Morph; Megamorph"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicMorphCastActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 19"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicActivation",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NO_COND"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicTutorTopEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicHandCastActivation",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CARD_CONDITION"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicHandCastActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 16"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicCyclingActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicManaActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicRuleEventAction",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 35"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicCrewCostEvent",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: EVENT_ACTION"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicCrewActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicBolsterEvent",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: EVENT_ACTION"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicNinjutsuActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicRegularCostEvent",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NONE"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicHauntEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicPermanentActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 19"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicSpellCardEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicSearchToLocationEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicCostEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicMorphActivation",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Manifest"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicMorphActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicTapManaActivation",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: White; Blue; Black; Red; Green"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicEquipActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicChainEventFactory",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Tap; Untap; Sac; Bounce; ExileCard; ExilePerm"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicAwakenEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicSuspendActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicFlashbackActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicEventAction",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NONE"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicSourceEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicUnearthActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicScavengeActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicPlaneswalkerActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicLevelUpActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicOutlastActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicDashActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicBestowActivation",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: BestowEvent"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicBestowActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicSearchOntoBattlefieldEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicEvent",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NO_CHOICE_RESULTS; NO_REF; NONE"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicEvent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 17"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicTransmuteActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.model.event",
+      "MagicCardAbilityActivation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.model.condition",
+      "MagicConditionParser",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.condition",
+      "MagicCondition",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NONE; CARD_CONDITION; HAND_CONDITION; GRAVEYARD_CONDITION; NINJUTSU_CONDITION; NOT_SORCERY_CONDITION; NOT_MONSTROUS_CONDITION; NOT_EXCLUDE_COMBAT_CONDITION; SORCERY_CONDITION; BEFORE_YOUR_ATTACK_CONDITION; DECLARE_ATTACKERS; YOUR_UPKEEP_CONDITION; ANY_UPKEEP_CONDITION; OPPONENTS_UPKEEP_CONDITION; YOUR_TURN_CONDITION; BEFORE_ATTACKERS; BEFORE_BLOCKERS; BEFORE_COMBAT_DAMAGE; BEFORE_END_OF_COMBAT; BEEN_ATTACKED; END_OF_COMBAT_CONDITION; DURING_COMBAT; DURING_COMBAT_AFTER_BLOCKERS; DURING_BLOCKERS; DURING_COMBAT_BEFORE_BLOCKERS; AFTER_COMBAT; CAN_TAP_CONDITION; CAN_UNTAP_CONDITION; TAPPED_CONDITION; UNTAPPED_CONDITION; IS_BLOCKED_CONDITION; IS_ATTACKING_CONDITION; IS_ATTACKING_ALONE_CONDITION; ABILITY_ONCE_CONDITION; ABILITY_TWICE_CONDITION; ABILITY_THRICE_CONDITION; NOT_CREATURE_CONDITION; METALCRAFT_CONDITION; CAN_REGENERATE_CONDITION; THREE_ATTACKERS_CONDITION; PLAINS_CONDITION; ISLAND_CONDITION; SWAMP_CONDITION; MOUNTAIN_CONDITION; FOREST_CONDITION; LEAST_FIVE_OTHER_MOUNTAINS; THRESHOLD_CONDITION; DELIRIUM_CONDITION; FATEFUL_HOUR; HELLBENT; OPPONENT_HELLBENT; ANY_HELLBENT; THAT_HELLBENT; ENCHANTED_IS_UNTAPPED_CONDITION; ENCHANTED_IS_BASIC_MOUNTAIN; HAS_EXILED_CARD; HAS_EXILED_CREATURE_CARD; HAS_EQUIPPED_CREATURE; IS_EQUIPPED; IS_ENCHANTED; IS_ENCHANTMENT; IS_NOT_ENCHANTMENT; IS_MONSTROUS_CONDITION; IS_RENOWNED_CONDITION; EMPTY_GRAVEYARD_CONDITION; LIBRARY_HAS_20_OR_LESS_CARDS_CONDITION; OPP_GRAVEYARD_WITH_10_OR_MORE_CARDS_CONDTITION; OPP_NOT_CONTROL_WHITE_OR_BLUE_CREATURE_CONDITION; MOST_CARDS_IN_HAND_CONDITION; EXACTLY_SEVEN_CARDS_IN_HAND_CONDITION; OPPONENT_TEN_OR_LESS_LIFE; OPPONENT_WAS_DEALT_DAMAGE; OPPONENT_HAS_GREATER_OR_EQUAL_LIFE; YOU_30_OR_MORE_LIFE; YOU_30_OR_MORE_OPPPONENT_10_OR_LESS_LIFE; HAS_WARRIOR_IN_GRAVEYARD; HAS_ARTIFACT_IN_GRAVEYARD; OPP_NOT_CONTROL_CREATURE_CONDITION; NOT_YOUR_TURN_CONDITION; FACE_DOWN_PERMANENT_CONDITION; NO_SPELLS_CAST_LAST_TURN; TWO_OR_MORE_SPELLS_CAST_BY_PLAYER_LAST_TURN; MORE_CREATURES_THAN_DEFENDING; MORE_CREATURES_THAN_ATTACKING; MORE_LANDS_THAN_DEFENDING; MORE_LANDS_THAN_ATTACKING; OPP_MORE_LANDS; OPP_MORE_CREATURES; OPP_MORE_LIFE; YOU_MORE_LIFE; CREATURE_DIED_THIS_TURN; PERMANENT_YOU_CONTROLLED_LEFT_BATTLEFIELD; YOU_ATTACKED_WITH_CREATURE; CREATURE_IN_A_GRAVEYARD; HAS_CREATURE_IN_GRAVEYARD; HAS_CREATURE_IN_HAND; HAS_EQUIPMENT_IN_HAND; INSTANT_OR_SORCERY_IN_A_GRAVEYARD; SPELL_MASTERY_CONDITION; FORMIDABLE; CAST_FROM_HAND; WAS_NONCREATURE_ARTIFACT; WAS_KICKED; CAST_ANOTHER_SPELL_THIS_TURN; DEFENDING_POISONED; CONTROL_SINCE_LAST_TURN; YOU_ARE_MONARCH"
+    ],
+    [
+      "magarena",
+      "magic.model.condition",
+      "MagicCondition",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 19"
+    ],
+    [
+      "magarena",
+      "magic.model.condition",
+      "MagicConditionFactory",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicKickerChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicPlayChoiceResult",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: PASS; SKIP"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicColorChoice",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ALL_INSTANCE; MOST_INSTANCE; UNSUMMON_INSTANCE; RED_WHITE_BLUE_INSTANCE"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicPayManaCostResultBuilder",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicDeclareBlockersChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicChoice",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NONE"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicFromCardListChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicPlayChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicTargetChoice",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NONE; A_PAYABLE_CREATURE_CARD_FROM_YOUR_GRAVEYARD; TARGET_SPELL; NEG_TARGET_SPELL; NEG_TARGET_CREATURE_SPELL; TARGET_INSTANT_OR_SORCERY_SPELL; NEG_TARGET_INSTANT_SPELL; TARGET_PLAYER; TARGET_PLAYER_CONTROLS_CREATURE; TARGET_OPPONENT; POS_TARGET_PLAYER; NEG_TARGET_PLAYER; NEG_TARGET_SPELL_OR_PERMANENT; TARGET_PERMANENT; A_PERMANENT_YOU_CONTROL; TARGET_PERMANENT_YOU_CONTROL; TARGET_PERMANENT_YOU_OWN; NEG_TARGET_PERMANENT; TARGET_LAND; NEG_TARGET_LAND; A_LAND_YOU_CONTROL; FOREST_YOU_CONTROL; ISLAND_YOU_CONTROL; TARGET_NONLAND_PERMANENT; NEG_TARGET_NONLAND_PERMANENT; TARGET_ARTIFACT; NEG_TARGET_ARTIFACT; POS_TARGET_ARTIFACT; TARGET_NONCREATURE_ARTIFACT; POS_TARGET_NONCREATURE_ARTIFACT; TARGET_ARTIFACT_OR_ENCHANTMENT; NEG_TARGET_ARTIFACT_OR_ENCHANTMENT; AN_ARTIFACT_OR_CREATURE; AN_UNTAPPED_CREATURE_YOU_CONTROL; TARGET_ARTIFACT_OR_CREATURE; NEG_TARGET_ARTIFACT_OR_CREATURE; TARGET_ARTIFACT_OR_ENCHANTMENT_YOUR_OPPONENT_CONTROLS; POS_TARGET_ARTIFACT_CREATURE; TARGET_ENCHANTMENT; TARGET_ENCHANTMENT_YOU_CONTROL; TARGET_ENCHANTMENT_YOUR_OPPONENT_CONTROLS; NEG_TARGET_ENCHANTMENT; TARGET_CREATURE; NEG_TARGET_CREATURE; POS_TARGET_CREATURE; TARGET_NONCREATURE; NEG_TARGET_NONCREATURE; NEG_TARGET_NONBLACK_CREATURE; NEG_TARGET_UNTAPPED_CREATURE; A_CREATURE_YOU_CONTROL; A_CREATURE; POS_CREATURE; TARGET_CREATURE_PLUSONE_COUNTER; TARGET_CREATURE_WITH_FLYING; NEG_TARGET_CREATURE_WITH_FLYING; NEG_TARGET_ATTACKING_CREATURE; NEG_WHITE_OR_BLUE_CREATURE; TARGET_CREATURE_YOU_CONTROL; NEG_TARGET_EQUIPPED_CREATURE; TARGET_CREATURE_OR_PLAYER; NEG_TARGET_CREATURE_OR_PLAYER; POS_TARGET_CREATURE_OR_PLAYER; NEG_TARGET_VAMPIRE; SACRIFICE_PERMANENT; SACRIFICE_CREATURE; SACRIFICE_ARTIFACT; SACRIFICE_LAND; SACRIFICE_ENCHANTMENT; SACRIFICE_FOREST; SACRIFICE_GOBLIN; SACRIFICE_CLERIC; TARGET_CARD_FROM_GRAVEYARD; NEG_TARGET_CARD_FROM_ALL_GRAVEYARDS; TARGET_CREATURE_CARD_FROM_GRAVEYARD; AN_UNBLOCKED_ATTACKING_CREATURE_YOU_CONTROL; TARGET_CARD_FROM_OPPONENTS_GRAVEYARD; TARGET_CREATURE_CARD_FROM_OPPONENTS_GRAVEYARD; TARGET_INSTANT_OR_SORCERY_CARD_FROM_OPPONENTS_GRAVEYARD; TARGET_CREATURE_CARD_FROM_ALL_GRAVEYARDS; A_CARD_FROM_HAND; A_CARD_FROM_GRAVEYARD; A_CREATURE_CARD_FROM_HAND; A_BASIC_LAND_CARD_FROM_LIBRARY; A_CREATURE_CARD_FROM_LIBRARY; LAND_CARD_WITH_BASIC_LAND_TYPE_FROM_LIBRARY; LAND_CARD_FROM_HAND; CREATURE_TOKEN_YOU_CONTROL; PLANESWALKER_YOUR_OPPONENT_CONTROLS; TARGET_CREATURE_YOUR_OPPONENT_CONTROLS; TARGET_ARTIFACT_YOUR_OPPONENT_CONTROLS; ANOTHER_CREATURE_YOU_CONTROL"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicTargetChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 16"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicBuilderManaCost",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ZERO_COST"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicOrChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicMayChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicDeclareAttackersChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicPayManaCostChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicBasicLandChoice",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ALL_INSTANCE; MOST_INSTANCE; UNSUMMON_INSTANCE"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicSimpleMayChoice",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: DRAW_CARDS; GAIN_LIFE; LOSE_LIFE; OPPONENT_LOSE_LIFE; UNTAP; BECOME_CREATURE; ADD_POS_COUNTER; ADD_PLUSONE_COUNTER; PLAY_TOKEN; PUMP; COUNTER_SPELL; DEFAULT_NONE; DEFAULT_NO; DEFAULT_YES"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicDeclareBlockersResultBuilder",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicCardChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.choice",
+      "MagicFromCardFilterChoice",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.phase",
+      "MagicDefaultGameplay",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15"
+    ],
+    [
+      "magarena",
+      "magic.model.phase",
+      "MagicUntapPhase",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.stack",
+      "MagicCardOnStack",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.model.stack",
+      "MagicItemOnStack",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 16"
+    ],
+    [
+      "magarena",
+      "magic.model.mstatic",
+      "MagicLayer",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: PERMANENT"
+    ],
+    [
+      "magarena",
+      "magic.model.mstatic",
+      "MagicCDA",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Changeling; Devoid"
+    ],
+    [
+      "magarena",
+      "magic.model.mstatic",
+      "MagicStatic",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: UntilEOT; Forever; ControlEnchanted; Unleash; SwitchPT; Zombie; Vampire; Spirit; IsBlack; AddBlack; Artifact; AllCreatureTypesUntilEOT; Bestowed; Nightmare"
+    ],
+    [
+      "magarena",
+      "magic.model.mstatic",
+      "MagicStatic",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 18"
+    ],
+    [
+      "magarena",
+      "magic.model.mstatic",
+      "MagicPermanentStatic",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CountersEffect; BasicLandEffect"
+    ],
+    [
+      "magarena",
+      "magic.model.mstatic",
+      "MagicPermanentStatic",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "LeavesBattlefieldTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Exile"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "LeavesBattlefieldTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "MiracleTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "MagicTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: REPLACEMENT; REDIRECT_DAMAGE; CANT_BE_PREVENTED; INCREASE_DAMAGE; PREVENT_DAMAGE; REPLACE_DAMAGE; BEFORE_DEFAULT"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "IfDamageWouldBeDealtTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CantBePrevented"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "ThisCombatDamagePlayerTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Ingest"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "DevourTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "ThisLeavesBattlefieldTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: IfDieExileInstead; ExileUntilLeaves"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "ChampionTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "OtherEntersBattlefieldTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Evolve; Graft; Soulbond"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "OtherEntersBattlefieldTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "BloodthirstTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "AtEndOfTurnTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Sacrifice; Destroy; ExileAtEnd; Return; Monarch"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "AtEndOfTurnTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "CascadeTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "PreventDamageTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: GlobalPreventDamageToTarget; PreventCombatDamageDealtToDealtBy; PreventCombatDamageDealtTo; PreventCombatDamageDealtBy; PreventDamageDealtTo; PreventDamageDealtBy; PreventCombatDamage"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "PreventDamageTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "FadeVanishCounterTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Fade; Time"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "ThisBecomesTargetTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: SacWhenTargeted"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "EntersBattlefieldTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ChooseOpponent; ChoosePlayer; Evoke; Exploit"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "EntersBattlefieldTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "ThisSpellIsCastTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Replicate; Conspire"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "MadnessTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "DamageIsDealtTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Monarch"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "DamageIsDealtTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 16"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "SoulshiftTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "AtYourUpkeepTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "EntersWithCounterTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "ThisPutIntoGraveyardTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: LibraryInsteadOfGraveyard; OpponentDiscardOntoBattlefield; RecoverGraveyard"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "ThisPutIntoGraveyardTrigger",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "AtEndOfCombatTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Return; Exile; Destroy; Sacrifice; Clockwork"
+    ],
+    [
+      "magarena",
+      "magic.model.trigger",
+      "CantBeBlockedTrigger",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: Skulk"
+    ],
+    [
+      "magarena",
+      "magic.ui",
+      "MagicImages",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: BACK_IMAGE; MISSING_BIG; MISSING_CARD; LOGO; MENU_LOGO; APP_LOGO; ABOUT_LOGO; WOOD; MARBLE; GRANITE; GRANITE2; OPAL; OPAL2"
+    ],
+    [
+      "magarena",
+      "magic.ui",
+      "MagicImages",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15"
+    ],
+    [
+      "magarena",
+      "magic.ui",
+      "MagicFileChoosers",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: DECK_FILEFILTER; SAVED_GAME_FILEFILTER"
+    ],
+    [
+      "magarena",
+      "magic.ui",
+      "MagicCardImages",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.ui",
+      "ImportWorker",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui",
+      "FontsAndBorders",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: TEXTAREA_TRANSPARENT_COLOR_HACK; MAGSCREEN_FADE_COLOR; TRANSLUCENT_WHITE_STRONG; MAGSCREEN_BAR_COLOR; MENUPANEL_COLOR; IMENUOVERLAY_BACKGROUND_COLOR; IMENUOVERLAY_MENUPANEL_COLOR; GRAY1; GRAY2; GRAY3; GRAY4; FONT0; FONT1; FONT2; FONT3; FONT4; FONT5; FONT6; FONT_MENU_BUTTON; FONT_MENU_TITLE; FONT_README; NO_BORDER; NO_TARGET_BORDER; WHITE_BORDER; BLACK_BORDER; BLACK_BORDER_2; TABLE_BORDER; TABLE_ROW_BORDER; TABLE_BOTTOM_ROW_BORDER; BEVEL_BORDER; UP_BORDER; DOWN_BORDER; SMALL_EMPTY_BORDER; EMPTY_BORDER"
+    ],
+    [
+      "magarena",
+      "magic.ui",
+      "ScreenController",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 21"
+    ],
+    [
+      "magarena",
+      "magic.ui",
+      "MagicFrame",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: MAC_OS_X"
+    ],
+    [
+      "magarena",
+      "magic.ui",
+      "MagicFrame",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 21"
+    ],
+    [
+      "magarena",
+      "magic.ui.helpers",
+      "UrlHelper",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: URL_THEMES; URL_AVATARS; URL_FORUM; URL_WIKI; URL_USERGUIDE; URL_FIREMIND_SCRIPTS; URL_HOMEPAGE"
+    ],
+    [
+      "magarena",
+      "magic.ui.utility",
+      "ImageDrawingUtils",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.ui.theme",
+      "PlayerAvatar",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: LARGE_SIZE; MEDIUM_SIZE; CUSTOM_SIZE"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.scrollbar",
+      "MScrollBarUI",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: COLOR_A"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.firemind",
+      "FiremindWorkerPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.card",
+      "AnnotatedCardPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 17"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.card.decks",
+      "CardDecksPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_DECKS_UPDATED"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.message",
+      "TextLabel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.message",
+      "TextComponent",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: messageStyle"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.deck",
+      "DeckPicker",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.widget.deck.FilterPanel"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.deck",
+      "DeckPicker",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.deck",
+      "DeckInfoPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_LAYOUT_CHANGED"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.deck.stats",
+      "DeckStatisticsViewer",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_LAYOUT_CHANGED"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.deck.stats",
+      "DeckStatisticsViewer",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.throbber",
+      "Init",
+      "Global State",
+      "The tool detected the smell in this class because the class can be accessed as a `global` state."
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.throbber",
+      "Builder",
+      "Global State",
+      "The tool detected the smell in this class because the class can be accessed as a `global` state."
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.throbber",
+      "Builder",
+      "Global State",
+      "The tool detected the smell in this class because the class can be accessed as a `global` state."
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.viewer",
+      "ImageBattlefieldViewer",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.viewer",
+      "ImageCardListViewer",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.viewer",
+      "UserActionPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: TEXT_WIDTH"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.viewer",
+      "TurnTitlePanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.viewer",
+      "ImageCombatViewer",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.viewer",
+      "CardViewer",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.viewer",
+      "ImagePermanentViewer",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.viewer",
+      "PlayerZoneViewer",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_PLAYER_ZONE"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.viewer",
+      "PlayerZoneViewer",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.player",
+      "PlayerImagePanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.player",
+      "ZoneToggleButton",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.player",
+      "GamePlayerPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.sidebar",
+      "DuelSideBarPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.sidebar",
+      "LogStackViewer",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: MESSAGE_FONT; CHOICE_COLOR"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.sidebar",
+      "LogStackViewer",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.sidebar",
+      "LogViewer",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.animation",
+      "CardAnimation",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.animation",
+      "AnimationFx",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: DRAW_CARD; PLAY_CARD; CARD_SHADOW; STATIC_ARROW; FLIP_CARD; ZBUTTON_PULSE; AVATAR_PULSE; INFLATE_ZONE; NEW_TURN_MSG; CARD_FADEIN; ELASTIC_ARROW"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.animation",
+      "MagicAnimations",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.choice",
+      "MultiKickerChoicePanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel.choice",
+      "MayChoicePanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.duel",
+      "EndGameMessagePanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.cards.table",
+      "DeckTablePanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_CARD_SELECTED; CP_CARD_LCLICKED; CP_CARD_RCLICKED"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.cards.table",
+      "DeckTablePanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.cards.table",
+      "CardTablePanelB",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.cards.table",
+      "CardTablePanelA",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_CARD_SELECTED; CP_CARD_LCLICKED; CP_CARD_RCLICKED; CP_CARD_DCLICKED"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.cards.table",
+      "CardTablePanelA",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.cards.table",
+      "BasicDeckTablePanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_CARD_SELECTED"
+    ],
+    [
+      "magarena",
+      "magic.ui.widget.cards.canvas",
+      "CardsCanvas",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.menu.dev",
+      "DevMenuContentPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.menu.migrate",
+      "ImportScreen",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.screen.menu.migrate.ProgressPanel; magic.ui.screen.menu.migrate.ImportProgressPanel"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.menu.migrate",
+      "ImportScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.menu.migrate",
+      "ScreenContent",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.screen.menu.migrate.ProgressPanel; magic.ui.screen.menu.migrate.ImportProgressPanel"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.menu.migrate",
+      "ScreenContent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.menu.migrate",
+      "ImportProgressPanel",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.screen.menu.migrate.ProgressPanel"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen",
+      "MScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.images.download",
+      "DownloadPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.images.download",
+      "DialogMainPanel",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.screen.images.download.ButtonsPanel"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.images.download",
+      "DialogMainPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.images.download",
+      "DownloadWorker",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.images.download",
+      "DirectoryChooser",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.screen.images.download.ImagesDirectoryChooser"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.images.download",
+      "DirectoryChooser",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.widget",
+      "ScreenFooterPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: PANEL_HEIGHT"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.widget",
+      "ScreenHeaderPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: PANEL_HEIGHT"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.widget",
+      "DuelSettingsPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_CONFIG_UPDATED"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.widget",
+      "DuelSettingsPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.stats",
+      "StatsContentPanel",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.screen.stats.ActionPanel"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.stats",
+      "StatsContentPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.stats",
+      "GameStatsJTable",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.stats",
+      "TestGameRunner",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.card.explorer",
+      "ExplorerContentPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.card.explorer",
+      "ExplorerScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.card.script",
+      "CardScriptScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.decks",
+      "ScreenPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.decks",
+      "DecksScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.tiled",
+      "DeckTiledCardsScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.hand",
+      "SampleHandScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck",
+      "DeckViewScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "CardsLegalityPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_CARD_SELECTED; CP_CARD_DCLICKED"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "CardsLegalityPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "MainViewsPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: DECK_ACTION_PANEL_WIDTH"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "MainViewsPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 18"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "CardRecallPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_CARD_SELECTED"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "LegalityPanel",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.screen.deck.editor.LegalityLegendPanel"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "LegalityPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_CARD_SELECTED; CP_CARD_DCLICKED"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "DeckActionPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: BACKGROUND_COLOR"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "ContentPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "CardsLegalityTableModel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: COST_COLUMN_INDEX"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "DeckEditorSplitPanel",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.screen.deck.editor.DeckEditorButtonsPanel"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "DeckEditorSplitPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "DeckPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_CARD_SELECTED; CP_ADD_TO_DECK; CP_REMOVE_FROM_DECK"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "DeckPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "DeckEditorScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 17"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "DeckEditorSplitScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "FormatsLegalityPanel",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.screen.deck.editor.DeckLegalityInfo"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "FormatsLegalityPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_FORMAT_SELECTED"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "CardPoolViewPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.deck.editor",
+      "FilteredCardPoolPanel",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: CP_CARD_SELECTED; CP_CARD_LCLICKED; CP_CARD_RCLICKED"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.mulligan",
+      "MulliganScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.player",
+      "SelectPlayerScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.player.avatar",
+      "AvatarImagesScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.player.avatar",
+      "ContentPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.player.avatar",
+      "ImageSetsPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.setup",
+      "NewDuelSettingsScreen",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.screen.duel.setup.ScreenContent"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.setup",
+      "NewDuelSettingsScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 16"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.setup",
+      "ScreenContent",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.setup",
+      "DuelPlayerDeckPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.game",
+      "GameplayReport",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.game",
+      "ImageModeBattlefieldPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.game",
+      "DuelPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 19"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.game",
+      "SwingGameController",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 50"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.decks",
+      "DuelDecksPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 16"
+    ],
+    [
+      "magarena",
+      "magic.ui.screen.duel.decks",
+      "DuelDecksScreen",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 20"
+    ],
+    [
+      "magarena",
+      "magic.ui.dialog",
+      "DecksFilterDialog",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.dialog.DeckSizeFilterPanel"
+    ],
+    [
+      "magarena",
+      "magic.ui.dialog",
+      "DeckChooserDialog",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.dialog.DecksPanel"
+    ],
+    [
+      "magarena",
+      "magic.ui.dialog.prefs",
+      "PreferencesDialog",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 16"
+    ],
+    [
+      "magarena",
+      "magic.ui.dialog.prefs",
+      "ThemesPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.dialog.prefs",
+      "ScrollablePanel",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ui.dialog.prefs.IncrementInfo"
+    ],
+    [
+      "magarena",
+      "magic.ui.dialog.prefs",
+      "IncrementInfo",
+      "Global State",
+      "The tool detected the smell in this class because the class can be accessed as a `global` state."
+    ],
+    [
+      "magarena",
+      "magic.ui.dialog.prefs",
+      "ThemesActionPanel",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.duel.viewerinfo",
+      "GameViewerInfo",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10"
+    ],
+    [
+      "magarena",
+      "magic.ui.duel.viewerinfo",
+      "PermanentViewerInfo",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NAME_COMPARATOR; BLOCKED_NAME_COMPARATOR"
+    ],
+    [
+      "magarena",
+      "magic.ui.duel.viewerinfo",
+      "CardViewerInfo",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: NO_CARD"
+    ],
+    [
+      "magarena",
+      "magic.ui.duel.viewerinfo",
+      "CardViewerInfo",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ui.duel.resolution",
+      "DefaultResolutionProfile",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: PLAYER_VIEWER_HEIGHT_SMALL; GAME_VIEWER_HEIGHT"
+    ],
+    [
+      "magarena",
+      "magic.game.state",
+      "GameLoader",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14"
+    ],
+    [
+      "magarena",
+      "magic.game.state",
+      "GameStateSnapshot",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.game.state",
+      "GameStateFileReader",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: TEST_FILE_EXTENSION"
+    ],
+    [
+      "magarena",
+      "magic.generator",
+      "RandomDeckGenerator",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ai",
+      "MCTSAI",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ai.MCTSGameTree"
+    ],
+    [
+      "magarena",
+      "magic.ai",
+      "ArtificialScoringSystem",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: WIN_GAME_SCORE; LOSE_GAME_SCORE; ITEM_ON_STACK_SCORE; UNEQUIP_SCORE; UNNECESSARY_EQUIP_SCORE"
+    ],
+    [
+      "magarena",
+      "magic.ai",
+      "ArtificialScoringSystem",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "magic.ai",
+      "MTDF",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ai.TTEntry"
+    ],
+    [
+      "magarena",
+      "magic.ai",
+      "MMAB",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: magic.ai.MMABWorker"
+    ],
+    [
+      "magarena",
+      "magic.ai",
+      "MMAB",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12"
+    ],
+    [
+      "magarena",
+      "magic.ai",
+      "MagicAIImpl",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: SUPPORTED_AIS; DECKSTR_AIS"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j.config",
+      "ConfigPersister",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: net.sf.launch4j.config.Props"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j.config",
+      "VersionInfo",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: VERSION_PATTERN"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j.config",
+      "Config",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: HEADER; JAR; OUTFILE; ERR_TITLE; JAR_ARGS; CHDIR; CUSTOM_PROC_NAME; STAY_ALIVE; ICON; DOWNLOAD_URL; GUI_HEADER; CONSOLE_HEADER"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j.config",
+      "Config",
+      "Excessive Dependency",
+      "The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j.config",
+      "Jre",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: PATH; MIN_VERSION; MAX_VERSION; ARGS; VERSION_PATTERN; JDK_PREFERENCE_JRE_ONLY; JDK_PREFERENCE_PREFER_JRE; JDK_PREFERENCE_PREFER_JDK; JDK_PREFERENCE_JDK_ONLY; DEFAULT_JDK_PREFERENCE_INDEX"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j.config",
+      "Splash",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: SPLASH_FILE; WAIT_FOR_TITLE; TIMEOUT; TIMEOUT_ERR"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j.config",
+      "LdDefaults",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: GUI_HEADER_OBJECTS; CONSOLE_HEADER_OBJECTS; LIBS"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j",
+      "Builder",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: net.sf.launch4j.Cmd"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j",
+      "Builder",
+      "Law of Demeter violation",
+      "The tool detected the smell in this method (build) because the method voilates the law of Demeter. The long chain of method invocations is : net.sf.launch4j.Cmd.addExe; net.sf.launch4j.Cmd.add"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j",
+      "Builder",
+      "Law of Demeter violation",
+      "The tool detected the smell in this method (build) because the method voilates the law of Demeter. The long chain of method invocations is : net.sf.launch4j.Cmd.addExe; net.sf.launch4j.Cmd.add; net.sf.launch4j.Cmd.add; net.sf.launch4j.Cmd.add"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j",
+      "Util",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: WINDOWS_OS"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j",
+      "RcBuilder",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: LANG_NEUTRAL; SUBLANG_NEUTRAL; SUBLANG_DEFAULT; SUBLANG_SYS_DEFAULT; MANIFEST; APP_ICON; SPLASH_BITMAP; JRE_PATH; JAVA_MIN_VER; JAVA_MAX_VER; SHOW_SPLASH; SPLASH_WAITS_FOR_WINDOW; SPLASH_TIMEOUT; SPLASH_TIMEOUT_ERR; CHDIR; SET_PROC_NAME; ERR_TITLE; GUI_HEADER_STAYS_ALIVE; JVM_OPTIONS; CMD_LINE; JAR; MAIN_CLASS; CLASSPATH; WRAPPER; JDK_PREFERENCE; ENV_VARIABLES; PRIORITY_CLASS; DOWNLOAD_URL; SUPPORT_URL; MUTEX_NAME; INSTANCE_WINDOW_TITLE; INITIAL_HEAP_SIZE; INITIAL_HEAP_PERCENT; MAX_HEAP_SIZE; MAX_HEAP_PERCENT; STARTUP_ERR; BUNDLED_JRE_ERR; JRE_VERSION_ERR; LAUNCHER_ERR; INSTANCE_ALREADY_EXISTS_MSG"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j.formimpl",
+      "ClassPathFormImpl",
+      "Hard-wired Dependency",
+      "The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: net.sf.launch4j.formimpl.ClasspathCheckListener"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j.binding",
+      "Binding",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: INVALID_COLOR"
+    ],
+    [
+      "magarena",
+      "net.sf.launch4j.binding",
+      "Validator",
+      "Global State",
+      "The tool detected the smell in this class because the class declares global variables. The detected global variables are: ALPHANUMERIC_PATTERN; ALPHA_PATTERN; NUMERIC_PATTERN; PATH_PATTERN; MAX_STR; MAX_PATH; MAX_BIG_STR; MAX_ARGS"
+    ]
+  ]
+}
