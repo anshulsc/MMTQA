@@ -53,11 +53,11 @@ def main():
         )
     
     gemini_client = GeminiClient(
-        api_key=cfg.GEMINI_API_KEY,
+        api_keys=cfg.GEMINI_API_KEY,
         model_name=cfg.GEMINI_MODEL_NAME
     )
 
-    source_table_paths = sorted(list(cfg.TABLES_DIR.glob("*.json")))
+    source_table_paths = sorted(list(cfg.TABLES_DIR.glob("wikisql*.json")))
     print(f"\nFound {len(source_table_paths)} source tables to translate.")
     print(f"Target languages: {len(cfg.LANGUAGES)} ({', '.join(cfg.LANGUAGES.keys())})")
     print(f"Total translations: {len(source_table_paths) * len(cfg.LANGUAGES)}")
@@ -104,3 +104,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
+    

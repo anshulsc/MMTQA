@@ -6,7 +6,7 @@ ROOT_DIR = Path(__file__).parent.parent.parent
 
 DATA_DIR = ROOT_DIR / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
-PROCESSED_DATA_DIR = DATA_DIR / "processed"
+PROCESSED_DATA_DIR = DATA_DIR / "processed_github"
 TABLES_DIR = PROCESSED_DATA_DIR / "tables"
 METADATA_DIR = PROCESSED_DATA_DIR / "metadata"
 
@@ -19,7 +19,7 @@ COLLECTION_TARGETS = {
     "wikisql": 1000,
     "finqa": 1000,
     "arxiv": 2000,
-    "github": 1000,
+    "github_csv": 1000,
 }
 
 
