@@ -25,5 +25,8 @@ REASONING_CATEGORIES = {
     "10. Outlier Detection": "Questions that require identifying data points that are significantly different from others (e.g., 'Which month had an unusually high number of server errors compared to the average?')."
 }
 
-GEMINI_API_KEY = "KEY"
+
+GEMINI_API_KEYS = [
+   "API"
+]
 GEMINI_MODEL_NAME = "gemini-2.5-pro"

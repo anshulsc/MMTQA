@@ -3,6 +3,7 @@ from tqdm import tqdm
 from pathlib import Path
 from termcolor import cprint
 
+from src.table_translation.models import vLLM_client
 from src.configs import translation_config as cfg
 from src.table_translation.models.gemini_client import GeminiClient
 from src.table_translation.translator import TableTranslator
@@ -38,26 +39,30 @@ def main():
     print("="*70)
 
 
-    if VLLM_MODE == 'offline':
+    # if VLLM_MODE == 'offline':
 
-        vllm_client = VLLMClient(
-            model_name=cfg.VLLM_MODEL_NAME,
-            tensor_parallel_size=getattr(cfg, 'VLLM_TENSOR_PARALLEL_SIZE', 1),
-            gpu_memory_utilization=getattr(cfg, 'VLLM_GPU_MEMORY_UTIL', 0.9)
-        )
-    else:
-        vllm_client = VLLMClient(
-            base_url=cfg.VLLM_BASE_URL,
-            api_key=cfg.VLLM_API_KEY,
-            model_name=cfg.VLLM_MODEL_NAME
-        )
-    
+    #     vllm_client = VLLMClient(
+    #         model_name=cfg.VLLM_MODEL_NAME,
+    #         tensor_parallel_size=getattr(cfg, 'VLLM_TENSOR_PARALLEL_SIZE', 1),
+    #         gpu_memory_utilization=getattr(cfg, 'VLLM_GPU_MEMORY_UTIL', 0.9)
+    #     )
+    # else:
+    #     vllm_client = VLLMClient(
+    #         base_url=cfg.VLLM_BASE_URL,
+    #         api_key=cfg.VLLM_API_KEY,
+    #         model_name=cfg.VLLM_MODEL_NAME
+    #     )
+        
+    vllm_client = GeminiClient(
+        api_keys=cfg.GEMINI_API_KEY,
+        model_name=cfg.GEMINI_MODEL_NAME
+    )
     gemini_client = GeminiClient(
         api_keys=cfg.GEMINI_API_KEY,
         model_name=cfg.GEMINI_MODEL_NAME
     )
 
-    source_table_paths = sorted(list(cfg.TABLES_DIR.glob("wikisql*.json")))
+    source_table_paths = sorted(list(cfg.TABLES_DIR.glob("*.json")))
     print(f"\nFound {len(source_table_paths)} source tables to translate.")
     print(f"Target languages: {len(cfg.LANGUAGES)} ({', '.join(cfg.LANGUAGES.keys())})")
     print(f"Total translations: {len(source_table_paths) * len(cfg.LANGUAGES)}")

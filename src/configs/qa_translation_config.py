@@ -1,24 +1,18 @@
 import os
 from pathlib import Path
 
-
 ROOT_DIR = Path(__file__).parent.parent.parent
 PROCESSED_DATA_DIR = ROOT_DIR / "data" / "processed"
-TABLES_DIR = PROCESSED_DATA_DIR / "tables"  
 
 
-TRANSLATED_TABLES_DIR = PROCESSED_DATA_DIR / "tables_translated"
-CHECKPOINTS_DIR = PROCESSED_DATA_DIR / "translation_checkpoints"
-TRANSLATION_METADATA_DIR = PROCESSED_DATA_DIR / "translation_metadata"
+INPUT_QA_DIR = PROCESSED_DATA_DIR / "qa_pairs"
+TABLES_DIR = PROCESSED_DATA_DIR / "tables" 
 
-TRANSLATED_TABLES_DIR.mkdir(parents=True, exist_ok=True)
-CHECKPOINTS_DIR.mkdir(parents=True, exist_ok=True)
-TRANSLATION_METADATA_DIR.mkdir(parents=True, exist_ok=True)
+OUTPUT_DIR = PROCESSED_DATA_DIR / "qa_pairs_translated"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+REQUESTS_PER_MINUTE = 10 
 
-
-SOURCE_LANG_CODE = "en"
-SOURCE_LANG_NAME = "English"
 
 LANGUAGES = {
     # Afro-Asiatic
@@ -41,29 +35,22 @@ LANGUAGES = {
     "hi": "Hindi",
     "it": "Italian",
     "mr": "Marathi",
-    "ru_casual": "Russian (Casual)",
     "ru_formal": "Russian (Formal)",
     "sc": "Sardinian",
     "si_formal_spoken": "Sinhala",
 
     # Japonic
-    "ja_casual": "Japanese (Casual)",
     "ja_formal": "Japanese (Formal)",
 
     # Koreanic
-    "ko_casual": "Korean (Casual)",
     "ko_formal": "Korean (Formal)",
 
     # Kra-Dai
     "th": "Thai",
 
-    # Niger-Congo
-    "yo": "Yoruba",
 
     # Sino-Tibetan
     "nan": "Hokkien (Written)",
-    "nan_spoken": "Hokkien (Spoken)",
-    "yue": "Cantonese",
     "zh_cn": "Chinese (Mandarin)",
 
     # Turkic
@@ -71,27 +58,7 @@ LANGUAGES = {
 }
 
 
-
-
-VLLM_BASE_URL = "http://localhost:8000/v1"
-VLLM_API_KEY = "EMPTY"
-VLLM_MODEL_NAME = "Qwen/Qwen3-32B" 
-
-GEMINI_API_KEY = [
+GEMINI_API_KEYS = [
 "API"
 ]
-
-GEMINI_MODEL_NAME = "gemini-flash-latest"
-
-VLLM_MODE = 'offline'  
-
-
-
-VLLM_TENSOR_PARALLEL_SIZE = 2  
-VLLM_GPU_MEMORY_UTIL = 0.8
-
-
-
-
-
-BLEU_THRESHOLD = 0
+GEMINI_MODEL_NAME = "gemini-2.5-flash"
