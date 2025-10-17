@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Model mana yang menawarkan skalabilitas Sublinear, dan apa perbedaan utama dalam fitur yang mereka dukung ('Pre-training', 'Multi-task')?",
+    "answer": [
+      [
+        "TimeMixer dan PatchTST menawarkan skalabilitas Sublinear. Perbedaan utamanya adalah TimeMixer mendukung pembelajaran Multi-task sedangkan PatchTST tidak; kedua model tidak menggunakan Pre-training."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Totalnya ada berapa model yang mendukung Pre-training atau Multi-task learning, tapi gak keduanya?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Sebutin aplikasi utama dari model yang punya skalabilitas Linear dan kebutuhan komputasi Medium.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Kalo proyek risetnya awalnya butuh model buat 'Long Sequences' terus berubah jadi butuh yang 'Task Flexibility', model mana yang paling pas di tahap kedua?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Sebutkan model-model yang nggak pake pre-training dan skalabilitasnya sublinear.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Berapa persentase model yang butuh sumber daya komputasi 'Tinggi'?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalo 'TimesNet' ditambahin biar bisa 'Pre-training', model mana yang paling mirip sama dia dari segi fitur (Pre-training, Multi-task, Compute, Scalability)?",
+    "answer": [
+      [
+        "TimesNet yang udah diubah itu gak bakal mirip banget sama model lain. Walaupun dia bakal punya 'Pre-training', 'Multi-task', sama 'Linear' scalability kayak Timer dan MOMENT, tapi 'Compute' dia yang 'Medium' tetep beda dari mereka yang 'High'."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Ada hubungan yang keliatan gak sih antara seberapa bagus modelnya buat diskalain sama aplikasi utamanya yang fokusnya ke panjang urutan atau fleksibilitas?",
+    "answer": [
+      [
+        "Iya, kayaknya ada hubungannya. Model yang skalabilitasnya lebih efisien alias 'Sublinear' (TimeMixer, PatchTST) biasanya dipake buat aplikasi yang ada pola-pola rumit atau urutan panjang ('Multiscale Patterns', 'Long Sequences'). Nah, kalo model yang skalabilitasnya 'Linear' cenderung dipake buat tugas yang butuh fleksibilitas atau belajar dalam batasan ('Few-shot Learning', 'Limited Supervision', 'Task Flexibility')."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Kolom mana, selain 'Model', yang punya variasi nilai unik paling banyak?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Model mana yang jadi pengecualian karena nggak dukung Pre-training atau Multi-task learning?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

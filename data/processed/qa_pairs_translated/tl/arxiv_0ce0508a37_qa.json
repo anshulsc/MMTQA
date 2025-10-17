@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Aling parameter ng epekto sa merkado ang may halaga ng koepisyent na eksaktong doble sa isa?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Ano ang average na halaga para sa 'Non-linearity parameter' batay sa hanay ng posibleng mga halaga na ibinigay?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Ano ang simbolo para sa parameter sa ilalim ng 'Market Dynamics' na may pinakamaraming bilang ng natatanging nakalistang halaga?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa mga halaga para sa 'Initial volatility', 'Long-term volatility', at 'Mean reversion speed', ano ang maaaring ipahiwatig tungkol sa pag-uugali ng volatility ng modelo sa paglipas ng panahon?",
+    "answer": [
+      [
+        "Ang modelo ay nagpapakita ng mean-reverting na volatility. Ang 'Long-term volatility' ay nakatakda sa 0.3, na gumaganap bilang isang angkla. Ang 'Initial volatility' ay maaaring magsimula na mas mataas (0.4), mas mababa (0.2), o sa antas ng pangmatagalang (0.3). Anuman ang panimulang punto, ang volatility ay inaasahang mag-drift patungo sa 0.3 sa paglipas ng panahon, isang proseso na ang bilis ay pinamamahalaan ng 'Mean reversion speed' na 2.0. Nangangahulugan ito na ang mga panahon ng mataas o mababang volatility ay hindi permanente."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng mga parameter sa ilalim ng kategoryang 'Market Dynamics' na ipinakita bilang isang hanay ng maraming posibleng halaga, kung saan ang lahat ng nakalistang halaga ay hindi negatibo.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Kung ang 'Pag-iwas sa Panganib' ay tinukoy bilang kabaligtaran ng pagpapahintulot sa panganib, at ang parehong 'Permanenteng epekto' at 'Pansamantalang epekto' ay tumaas ng sampung beses, ano ang bagong ratio ng 'Koepisyent ng pansamantalang epekto' sa 'Pag-iwas sa Panganib'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Kung ang 'Mean reversion speed' ay bababa ng 50%, at ang mga halaga ng 'Volatility of variance' ay parehong nadagdagan ng 0.1, ano ang magiging bagong kabuuan ng 'Mean reversion speed' at ang pinakamataas na 'Volatility of variance'?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Ang talahanayan ay nagtatakda ng 'Correlation' value na -0.7. Sa isang financial model, ano ang karaniwang ipinahihiwatig ng malakas na negatibong halagang ito tungkol sa relasyon sa pagitan ng presyo ng isang asset at ang kanyang pagbabagu-bago?",
+    "answer": [
+      [
+        "Ang correlation na -0.7 ay nagpapahiwatig ng malakas na kabaligtarang relasyon, na kadalasang tinutukoy bilang leverage effect. Ipinapahiwatig nito na habang bumababa ang presyo ng asset, ang kanyang pagbabagu-bago ay may posibilidad na tumaas, at sa kabaligtaran, habang tumataas ang presyo ng asset, ang kanyang pagbabagu-bago ay may posibilidad na bumaba. Ito ay isang mahalagang katangian para sa makatotohanang pagmomodelo ng presyo ng asset at pagpepresyo ng derivatives."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Ilan ang mga parameter sa talahanayan na tinukoy ng isang hanay ng maraming posibleng halaga sa halip na isang solong nakapirming halaga?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Anong solong parameter ang isang qualitative outlier dahil ang halaga nito lamang ang negatibo?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

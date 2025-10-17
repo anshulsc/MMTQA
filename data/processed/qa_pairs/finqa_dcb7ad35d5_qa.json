@@ -1,0 +1,200 @@
+[
+  {
+    "question_id": "finqa_dcb7ad35d5_001",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Which obligation type, excluding long-term debt, has the highest total payment due?",
+    "answer": [
+      [
+        "purchase obligations and other ( 4 ) ( 5 ) ( 6 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_002",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "What are the total combined obligations due before fiscal year 2023?",
+    "answer": [
+      [
+        "3935.9"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_003",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "What is the total payment due in the 2021-2022 and 2023-2024 periods for the obligation type that has the smallest payment due in fiscal 2020?",
+    "answer": [
+      [
+        "11.6"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_004",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend of the company's total payment obligations for the defined fiscal periods leading up to 'thereafter'.",
+    "answer": [
+      [
+        "The total payment obligations show a fluctuating trend. They start at $2378.5 million in fiscal 2020, then decrease to $1557.4 million for the 2021-2022 period, before peaking significantly at $2897.5 million in the 2023-2024 period. This indicates a dip in near-term obligations followed by a large spike in medium-term commitments."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_005",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "List all obligation categories where the payments due 'thereafter' exceed the sum of all payments due from 2020 to 2024.",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ],
+      [
+        "capital lease obligations ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_006",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "What percentage of the 'total' payments due in fiscal 2020 are attributed to 'purchase obligations and other'?",
+    "answer": [
+      [
+        "67.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_007",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "If all 'operating lease obligations' due in fiscal 2021 and 2022 were deferred and added to the 'thereafter' period, what would the new total for the 'thereafter' period be?",
+    "answer": [
+      [
+        "6589.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_008",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the payment schedules, what can be inferred about the maturity profile of 'long-term debt' versus 'purchase obligations'?",
+    "answer": [
+      [
+        "The maturity profiles are starkly different. 'Long-term debt' is heavily back-loaded, with the majority of payments ($5729.2M out of $9714.1M) due 'thereafter', indicating long-term financing instruments. Conversely, 'purchase obligations' are heavily front-loaded, with the vast majority of payments ($1607.0M out of $2293.5M) due in the immediate fiscal year 2020, which is characteristic of short-term operational commitments."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_009",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "value",
+    "question": "Which single payment amount for 'capital lease obligations' is an outlier, accounting for nearly 90% of its total obligation?",
+    "answer": [
+      [
+        "$ 150.9"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_dcb7ad35d5_010",
+    "table_id": "finqa_dcb7ad35d5",
+    "question_type": "open_ended_reasoning",
+    "question": "By manually summing the values in the 'payments due by period fiscal 2023and 2024' column for each individual obligation, verify if the provided total in cell E5 is correct.",
+    "answer": [
+      [
+        "Yes, the provided total is correct. The sum of the individual obligations for the fiscal 2023 and 2024 period is $2494.3 + $193.6 + $2.9 + $206.7, which calculates to $2897.5, matching the value in cell E5."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

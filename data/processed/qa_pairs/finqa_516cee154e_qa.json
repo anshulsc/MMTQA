@@ -1,0 +1,228 @@
+[
+  {
+    "question_id": "finqa_516cee154e_001",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Which year had the highest 'diluted net income available for common shares and dilutive potential common shares'?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_002",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "What was the total 'weighted average partnership units outstanding' across all three years recorded in the table?",
+    "answer": [
+      [
+        "52813"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_516cee154e_003",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "In the year with the lowest 'weighted average partnership units outstanding', what was the 'basic net income available for common shares'?",
+    "answer": [
+      [
+        "$ 161272"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "B1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_004",
+    "table_id": "finqa_516cee154e",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend of 'weighted average number of common shares outstanding' from 2000 to 2002.",
+    "answer": [
+      [
+        "The number of weighted average common shares outstanding showed a consistent upward trend. It started at 126,836 in 2000, increased to 129,660 in 2001, and continued to grow to 133,981 in 2002."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_005",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "List all financial metrics where the value in 2002 was less than the value in 2000.",
+    "answer": [
+      [
+        "basic net income available for common shares"
+      ],
+      [
+        "minority interest in earnings of common unitholders"
+      ],
+      [
+        "diluted net income available for common shares and dilutive potential common shares"
+      ],
+      [
+        "weighted average partnership units outstanding"
+      ],
+      [
+        "dilutive shares for stock-based compensation plans"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_006",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "In 2001, what proportion of the 'weighted average number of common shares and dilutive potential common shares' was attributable to 'weighted average partnership units outstanding'?",
+    "answer": [
+      [
+        "12.06%"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_516cee154e_007",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "If the 'basic net income' in 2002 had been 20% higher, what would the new average basic net income be across the three years?",
+    "answer": [
+      [
+        "224090.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_008",
+    "table_id": "finqa_516cee154e",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data, is there an observable correlation between the 'weighted average number of common shares outstanding' and the 'basic net income available for common shares'?",
+    "answer": [
+      [
+        "There appears to be an inverse correlation between these two metrics. As the weighted average number of common shares outstanding increased steadily from 2000 to 2002, the basic net income fluctuated, peaking in 2001 before dropping to its lowest point in 2002, the year with the highest number of shares. This suggests that as shares increased, income did not necessarily follow, and in fact, the highest share count corresponds to the lowest income."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_516cee154e_009",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Which of the two income metrics, 'basic' or 'diluted', consistently has a higher value across all years?",
+    "answer": [
+      [
+        "diluted net income available for common shares and dilutive potential common shares"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_010",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Which financial metric experienced the largest absolute decline in value between its peak year and 2002?",
+    "answer": [
+      [
+        "diluted net income available for common shares and dilutive potential common shares"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "他のパラメータの2倍の係数値を持つ市場インパクトパラメータはどれですか。",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "「市場ダイナミクス」の下にあるパラメータのうち、記載されている異なる値の数が最も多いものの記号は何ですか。",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "'初期ボラティリティ'、'長期ボラティリティ'、および'平均回帰速度'の値に基づいて、時間の経過に伴うモデルのボラティリティの挙動について何が推測できますか？",
+    "answer": [
+      [
+        "このモデルは、平均回帰ボラティリティを示します。'長期ボラティリティ'は0.3に固定されており、アンカーとして機能します。'初期ボラティリティ'は、より高い（0.4）、低い（0.2）、または長期レベル（0.3）から開始できます。開始点に関係なく、ボラティリティは時間の経過とともに0.3に向かって推移すると予想され、その速度は2.0の'平均回帰速度'によって制御されます。これは、高または低のボラティリティの期間が永続的ではないことを意味します。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "「市場ダイナミクス」カテゴリに分類され、複数の可能な値のセットとして提示され、リストされているすべての値が非負であるすべてのパラメータを列挙してください。",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'リスク回避度'がリスク許容度の逆数として定義され、'永続的影響'と'一時的影響'の値が10倍に増加した場合、'一時的影響係数'と'リスク回避度'の新たな比率はどうなりますか？",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "「平均回帰速度」が50%減少した場合、「分散のボラティリティ」の値が両方とも0.1増加した場合、「平均回帰速度」と最大の「分散のボラティリティ」の合計はいくらになりますか？",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "表には、'相関'の値が-0.7と記載されています。金融モデルにおいて、この強い負の値は、通常、資産価格とそのボラティリティの関係について何を意味するのでしょうか？",
+    "answer": [
+      [
+        "相関が-0.7であることは、レバレッジ効果とも呼ばれる、強い逆の関係を示唆しています。これは、資産価格が減少するとボラティリティが上昇し、逆に、資産価格が上昇するとボラティリティが低下する傾向があることを意味します。これは、現実的な資産価格モデリングとデリバティブ評価にとって重要な特徴です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "表に示されたパラメータのうち、複数の可能な値のセットによって定義され、単一の固定値ではないものはいくつありますか。",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "単一のパラメータで、その値が負の値である唯一のものはどれですか？",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

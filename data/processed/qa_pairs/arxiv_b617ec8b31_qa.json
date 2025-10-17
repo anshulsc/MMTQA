@@ -1,0 +1,186 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "For the application where the MarS method involves comparing the current market to a simulated market, what does the corresponding current method compare?",
+    "answer": [
+      [
+        "Diff\u2061(marketn\u2062o\u2062w,marketp\u2062a\u2062s\u2062t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "What percentage of applications listed utilize a 'MarS' method that involves either 'generation' or 'simulation'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "How does the MarS method for the 'Detection' application alter the time-based comparison used in the 'Current Methods'?",
+    "answer": [
+      [
+        "The 'Current Methods' for 'Detection' rely on a historical comparison by calculating the difference between the current market state (market_now) and a past market state (market_past). The MarS method eliminates this dependency on past data. Instead, it compares the current market (market_now) to a contemporaneously simulated market (simu-market_now), shifting the comparison from a temporal (now vs. then) to a model-based (real vs. simulated) framework."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "List the 'Current Methods' for all applications where the 'MarS' method is described as either a 'pipeline' or involves 'generation'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Which application shows the most fundamental shift in approach between 'Current Methods' and 'MarS', moving from a historical comparison to a simulated one?",
+    "answer": [
+      [
+        "The 'Detection' application shows the most fundamental shift. The current method relies on a temporal, backward-looking comparison (Diff(market_now, market_past)). In contrast, the MarS method introduces a comparison against a concurrent simulated reality (Diff(market_now, simu-market_now)). This change from a historical basis to a simulated basis for comparison is a significant conceptual outlier compared to the other methodological shifts in the table."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "If the 'MarS' approach for the 'RL Environment' was modified to use the data availability of the 'Current Methods' for the same application, what two characteristics would define this hypothetical MarS method?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "For the 'RL Environment' application, what is the key difference in the data availability and probability distribution between 'Current Methods' and 'MarS'?",
+    "answer": [
+      [
+        "The key difference lies in both data volume and authenticity of the transition probability. 'Current Methods' rely on 'finite data' and a 'fake' probability distribution (P(st+1|st,at)), whereas 'MarS' utilizes 'infinite data' and a 'real' probability distribution."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "How many distinct applications listed involve the term 'data' in their method descriptions for either 'Current Methods' or 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the table, what is the apparent overarching advantage of MarS compared to Current Methods, particularly concerning data and reality representation?",
+    "answer": [
+      [
+        "The overarching theme suggests that MarS methods aim to overcome the limitations of historical or finite data by leveraging generative and simulation-based approaches. MarS shifts from extrapolation to generation, from historical comparison to simulated comparison, and from finite/fake data models to infinite/real data models. This indicates a strategic advantage in creating more robust, flexible, and realistic data environments for analysis and reinforcement learning."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Excluding the header row, how many distinct applications are detailed in the table?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

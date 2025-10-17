@@ -1,0 +1,209 @@
+[
+  {
+    "question_id": "finqa_bdc69f2dff_001",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Which class of common stock had the most shares issued and outstanding as of September 30, 2008?",
+    "answer": [
+      [
+        "class a common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_002",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "What was the combined total number of shares for all series of Class C common stock as of September 30, 2008?",
+    "answer": [
+      [
+        "266608750"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_003",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "For the stock class with the largest absolute value of redemptions in October 2008, what was its final share count in the 'as converted post october 2008 redemptions' column?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "F4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_004",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "As of September 30, 2008, what percentage of the total outstanding shares was represented by Class A common stock? Provide the answer rounded to two decimal places.",
+    "answer": [
+      [
+        "46.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_005",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "List all stock classes that experienced a reduction in their own shares due to the 'conversion to class c ( series i )' event.",
+    "answer": [
+      [
+        "class c ( series iii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_006",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "The value '2014' appears frequently, likely as a placeholder for no activity. Which two stock classes have this specific value appearing in three different columns of their respective rows?",
+    "answer": [
+      [
+        "class c ( series ii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_007",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "If the 'at september 30 2008' share count for 'class a common stock' had been 500,000,000 instead of its recorded value, what would the adjusted 'total shares issued and outstanding' on that date have been?",
+    "answer": [
+      [
+        "1012122135"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_008",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data for the different series of Class C stock, what is the relationship between the 'October 2008 redemptions' and the 'conversion to class c ( series i )'? Are they directly related events?",
+    "answer": [
+      [
+        "There is no consistent, direct correlation suggesting that redeemed shares were systematically converted to Class C (Series I). For instance, Class C (Series II) had over 79 million shares redeemed but no corresponding conversion activity noted. Conversely, Class C (Series IV) had shares converted away from it without significant redemptions. Class C (Series III) is the only one showing both significant redemptions and conversions away from it, but the numbers do not match. This suggests that redemptions and conversions were largely separate transactions rather than a single, combined event for most series."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_009",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Which two columns in the table use the specific data format of a negative number followed by its positive equivalent in parentheses, for example, '-X ( X )'?",
+    "answer": [
+      [
+        "october 2008 redemptions"
+      ],
+      [
+        "conversion to class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_010",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the column headers and the 'total shares' row, describe the sequence of events that led from the initial share count on September 30, 2008, to the final count.",
+    "answer": [
+      [
+        "The data outlines a multi-step reduction in total shares. The process begins with 959,868,396 shares on Sept 30, 2008. The first event is 'October 2008 redemptions', where over 115 million shares were redeemed in total. This is followed by a 'conversion to class c ( series i )'. The result of these conversions is reflected in the column 'following immediate conversion...', which shows a total of 844,855,954 shares. The final column, 'as converted post october 2008 redemptions', provides the concluding figure of 774,710,051 shares, representing the net result of all preceding transactions."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

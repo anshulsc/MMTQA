@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Parameter dampak pasar mana anu miboga nilai koefisien anu persisna dua kali lipet ti parameter nu séjén?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Sabaraha nilai rata-rata pikeun 'Parameter Non-linearitas' dumasar kana sét nilai anu disayogikeun?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Naon simbol pikeun parameter di handapeun 'Market Dynamics' anu ngagaduhan jumlah nilai anu béda anu paling luhur?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Dumasar kana nilai pikeun 'Initial volatility', 'Long-term volatility', jeung 'Mean reversion speed', naon anu bisa dicindekkeun ngeunaan paripolah volatilitas modél sapanjang waktu?",
+    "answer": [
+      [
+        "Modél némbongkeun volatilitas mean-reverting. 'Long-term volatility' tetep dina 0.3, nu tindakan salaku jangkar. 'Initial volatility' bisa dimimitian leuwih luhur (0.4), leuwih handap (0.2), atawa dina tingkat jangka panjang (0.3). Teu paduli titik mimiti, volatilitas dipiharep bakal ngalungkeun arah 0.3 sapanjang waktu, prosés anu lajuna diatur ku 'Mean reversion speed' tina 2.0. Ieu hartina periode volatilitas luhur atawa handap henteu permanén."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Daptar sadaya paraméter dina kategori 'Market Dynamics' anu dipidangkeun salaku sét tina sababaraha nilai anu mungkin, dimana sadaya nilai anu didaptarkeun henteu négatif.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Lamun 'Kahayang nyingkahan résiko' dihartikeun salaku kabalikan tina toléransi résiko, sarta duanana nilai 'Pangaruh permanén' jeung 'Koéfisién pangaruh samentara' ningkat ku faktor 10, naon rasio anyar tina 'Koéfisién pangaruh samentara' ka 'Kahayang nyingkahan résiko'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Lamun 'Mean reversion speed' turun ku 50%, jeung nilai 'Volatility of variance' duanana ningkat ku 0.1, naon jumlah anyar 'Mean reversion speed' jeung 'Volatility of variance' panglobana?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabél nunjukkeun nilai 'Korélasi' -0.7. Dina modél kauangan, naon anu sacara khas nunjukkeun nilai négatip anu kuat ieu ngeunaan hubungan antara harga hiji aset sareng volatilitasna?",
+    "answer": [
+      [
+        "Korélasi -0.7 nunjukkeun hubungan inverse anu kuat, mindeng disebut éfék leverage. Hal ieu nunjukkeun yén nalika harga aset turun, volatilitasna condong ningkat, sareng sabalikna, nalika harga aset naék, volatilitasna condong turun. Ieu mangrupikeun fitur anu penting pikeun modél harga aset sareng harga turunan anu realistis."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Sabaraha parameter dina tabel anu dihartikeun ku sakumpulan sababaraha nilai anu mungkin tinimbang hiji nilai tetep tunggal?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Parameter tunggal mana anu outlier kualitatif kusabab nilaina ngan ukur négatif?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

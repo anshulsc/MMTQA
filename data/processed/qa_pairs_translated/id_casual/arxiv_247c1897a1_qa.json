@@ -1,0 +1,289 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Model mana yang performanya paling bagus (paling rendah) di metrik MSE30, tidak termasuk yang datanya hilang?",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Berapa rata-rata nilai MSE7 untuk semua model yang namanya diawali huruf 'M'?",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Coba identifikasi model mana yang paling beda performanya, terus jelasin kenapa dia beda sendiri.",
+    "answer": [
+      [
+        "Model 'GPT-4-Turbo' itu yang paling beda sendiri. Nilai Mean Squared Error-nya di semua rentang prediksi (dari 2.198 sampai 11.824) jauh lebih tinggi dibanding model-model lain yang rata-rata di bawah 2.0, bahkan seringnya di bawah 1.0. Ini nunjukkin akurasi prediksinya jauh lebih rendah, jadi performanya emang anomali di dataset ini."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Berapa nilai MSE keseluruhan (MSE_over) buat model yang punya skor MSE3 terendah kedua?",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Daftarin semua model yang punya nilai MSE15 di bawah 0.3 DAN nilai MSE30 di bawah 0.2.",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Coba jelasin dong tren error prediksinya buat model 'HTML' itu gimana, dari horizon prediksi 3 hari sampai 30 hari?",
+    "answer": [
+      [
+        "Untuk model 'HTML', error prediksinya, yang diukur pakai Mean Squared Error (MSE), terus menurun seiring dengan makin panjangnya horizon prediksi. MSE turun dari 0.845 di 3 hari, jadi 0.349 di 7 hari, 0.251 di 15 hari, dan akhirnya 0.158 di 30 hari. Ini nunjukkin kalau prediksi modelnya jadi lebih akurat buat prakiraan jangka panjang."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Berapa persen dari total error MSE3 (yang dijumlahin dari semua model) yang disumbangin sama model 'GPT-4-Turbo'? Bulatkan ke dua angka di belakang koma ya.",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalau nilai MSE15 model 'Classical Method' diperbaiki (dikurangin) 10%, peringkat barunya bakal jadi berapa dibanding model-model lain?",
+    "answer": [
+      [
+        "Kalau nilai MSE15 model 'Classical Method' yang tadinya 0.330 dikurangin 10%, nilai barunya jadi 0.297. Peringkat asli untuk MSE15 itu: AMA-LSTM (0.230), ECC Analyzer (0.237), HTML (0.251), MRDM (0.300), MT-LSTM-ATT (0.304), HAN (Glove) (0.308), LSTM (0.320), Classical Method (0.330), GPT-4-Turbo (7.959). Nilai baru 0.297 itu bakal bikin dia ada di antara HTML dan MRDM, jadi peringkatnya berubah dari urutan ke-8 jadi ke-4 terbaik."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Selain 'GPT-4-Turbo' yang outlier itu, apa ada hubungan yang jelas antara performa sebuah model di metrik MSE keseluruhan (MSE_over) dengan performanya di prakiraan 7 hari (MSE7)?",
+    "answer": [
+      [
+        "Iya, kayaknya ada korelasi positif. Umumnya, model yang punya MSE keseluruhan (MSE_over) lebih rendah (lebih bagus), juga punya MSE7 yang lebih rendah. Misalnya, 'ECC Analyzer' sama 'HTML' punya dua skor MSE keseluruhan terendah (0.314 dan 0.401) dan juga dua skor MSE7 terendah (0.306 dan 0.349). Sebaliknya, model kayak 'MT-LSTM-ATT' dan 'LSTM' punya skor MSE keseluruhan tertinggi (0.739 dan 0.746) di kelompok ini, dan juga punya skor MSE7 yang relatif tinggi (0.435 dan 0.459). Ini nunjukkin kalo kekuatan prediksi umum sebuah model itu konsisten di dua metrik spesifik ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Model mana di tabel yang punya data paling ga lengkap, ditandai sama tanda '/'?",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

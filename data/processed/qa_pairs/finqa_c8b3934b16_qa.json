@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_c8b3934b16_001",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "In which year was the 'total revenues net of interest expense' the highest?",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_002",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "What was the total sum of 'net credit losses' across all three years (2016, 2017, and 2018)?",
+    "answer": [
+      [
+        "605"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_003",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "What was the 'net interest revenue' in the year that had the highest 'total operating expenses'?",
+    "answer": [
+      [
+        "$ 3045"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_004",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the three-year trend for 'net credit losses' from 2016 to 2018.",
+    "answer": [
+      [
+        "The 'net credit losses' show a consistent and significant downward trend, decreasing from $435 million in 2016 to $149 million in 2017, and further down to $21 million in 2018. This steep decline of 66% and then 86% year-over-year indicates a major improvement in the company's credit risk management or asset quality."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_005",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "List the financial line items that reported a positive value in 2018 but a negative value (loss) in 2017.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) before attribution of noncontrolling interests"
+      ],
+      [
+        "noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_006",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "What percentage of 'total revenues net of interest expense' was consumed by 'total operating expenses' in 2018?",
+    "answer": [
+      [
+        "109.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_007",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "If the 'credit reserve build ( release )' in 2018 had been zero instead of a release of $218 million, what would the 'income ( loss ) from continuing operations before taxes' have been?",
+    "answer": [
+      [
+        "$ -205"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_008",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a direct positive correlation between 'total revenues net of interest expense' and 'net income ( loss )' across the three years? Explain.",
+    "answer": [
+      [
+        "No, a direct positive correlation is not evident. While revenues declined steadily from $5,233 million in 2016 to $2,083 million in 2018, net income fluctuated dramatically from a $521 million profit to a -$19,676 million loss and back to a $107 million profit. The massive loss in 2017, despite having higher revenue than 2018, was primarily driven by an anomalous 'income taxes ( benefits )' item of $19,064 million, not by revenue changes alone."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B11",
+      "C11",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_009",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Which column, representing year-over-year change, has the most 'nm' (not meaningful) entries?",
+    "answer": [
+      [
+        "% (  % ) change2017 vs . 2016"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "F2",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_010",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "Identify the financial entry for 2017 that is a clear outlier compared to the same entry in 2016 and 2018, and explain its impact on the overall results.",
+    "answer": [
+      [
+        "The 'income taxes ( benefits )' of $19,064 million in 2017 is a massive outlier compared to the values of $-455 million in 2016 and $-113 million in 2018. This exceptionally large tax expense was the primary driver that turned a pre-tax loss of $507 million into a staggering post-tax loss from continuing operations of $19,571 million, making it the most impactful anomaly in the dataset for that year."
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "B11",
+      "C11",
+      "D11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

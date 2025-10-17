@@ -1,0 +1,200 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "どのモデルがSublinearスケーラビリティを提供し、サポートされている機能（「事前学習」、「マルチタスク」）の主な違いは何ですか？",
+    "answer": [
+      [
+        "TimeMixerとPatchTSTはSublinearスケーラビリティを提供します。主な違いは、TimeMixerがマルチタスク学習をサポートしているのに対し、PatchTSTはサポートしていないことです。どちらのモデルも事前学習を使用していません。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "事前学習またはマルチタスク学習のいずれかをサポートし、両方はサポートしないモデルの総数はいくつですか。",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "線形スケーラビリティと中程度の計算要件を持つモデルの主なアプリケーションを特定してください。",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "研究プロジェクトが「Long Sequences」のモデルを必要とする段階から、後に「Task Flexibility」を必要とする段階へと発展した場合、第二段階で適切なモデルはどれでしょうか。",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "事前学習を使用せず、準線形スケーラビリティを提供するモデルを挙げてください。",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "記載されているモデルのうち、「High」の計算リソースを必要とする割合はどれくらいですか。",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "「TimesNet」が「事前学習」をサポートするように強化された場合、その機能（事前学習、マルチタスク、計算量、スケーラビリティ）の点で、既存のどのモデルに最も近くなりますか？",
+    "answer": [
+      [
+        "強化されたTimesNetは、他の単一のモデルにはあまり似ていないでしょう。「事前学習」、「マルチタスク」、および「線形」のスケーラビリティはTimerとMOMENTと共有しますが、その「中程度」の計算量は、彼らの「高」計算量要件とは依然として異なります。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "モデルのスケーラビリティと、その主要な用途におけるシーケンス長または柔軟性への焦点との間に、顕著な相関関係は認められますでしょうか。",
+    "answer": [
+      [
+        "はい、相関関係があるように見受けられます。「Sublinear」なスケーラビリティ（TimeMixer、PatchTST）がより効率的なモデルは、「Multiscale Patterns」や「Long Sequences」など、複雑なパターンや長いシーケンスを含む用途に関連しています。対照的に、「Linear」なスケーラビリティを持つモデルは、「Few-shot Learning」、「Limited Supervision」、「Task Flexibility」など、制約下での柔軟性や学習を必要とするタスクに適用される傾向があります。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "事前学習またはマルチタスク学習のいずれもサポートしていないモデルはどれですか。",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

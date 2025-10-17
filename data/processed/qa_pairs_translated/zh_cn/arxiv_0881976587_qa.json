@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_0881976587_001",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "投资组合中列出的所有美国国债的总面值是多少？",
+    "answer": [
+      [
+        "20000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0881976587_002",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "在列出的两种“期货合约”中，哪种标的商品持有更多单位？",
+    "answer": [
+      [
+        "Crude Oil"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_003",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "根据其描述，哪种资产的到期期限最长？",
+    "answer": [
+      [
+        "10-year"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_004",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "列出所有非债券资产中持有量为10,000个单位或以上的描述。",
+    "answer": [
+      [
+        "Exxon Mobil"
+      ],
+      [
+        "AT&T"
+      ],
+      [
+        "Long EUR/USD"
+      ],
+      [
+        "Short USD/JPY"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_005",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "持有面额最大的货币的资产类型是什么？",
+    "answer": [
+      [
+        "Currency Pair"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_006",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "如果投资组合的股权持有仅限于所列资产，那么投资于 AT&T 的股票总数百分比是多少？",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0881976587_007",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "如果埃克森美孚股票的数量减少了25%，而黄金盎司的数量增加了100%，那么这两种资产的新数量将是多少？",
+    "answer": [
+      [
+        "埃克森美孚的新数量将是7,500股，黄金的新数量将是1,200盎司。"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_008",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "分析资产描述，可以推断出投资组合的股票和期货持仓之间存在什么潜在的投资策略或相关性？",
+    "answer": [
+      [
+        "可以推断出一个专注于能源行业的潜在策略。投资组合持有埃克森美孚（一家主要的石油公司）的股票，以及原油期货合约。这表明了一个集中的投资主题，投资者可能正在推测能源价格，或者使用期货来对冲其在同一行业的股票头寸。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0881976587_009",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "比较所有资产的标称数量时，哪个持有量在数字上脱颖而出，为什么？",
+    "answer": [
+      [
+        "数量为 10,000,000 日元的“做空美元/日元”头寸是一个显著的数字异常值。其数量是下一个最高值（100,000 欧元）的 100 倍，并且比其他持有量高出几个数量级，其他持有量的范围从 600 到 10,000。"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0881976587_010",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "哪一列包含最多样化的数据类型，包括不同的货币和计量单位？",
+    "answer": [
+      [
+        "‘数量/价值’列的数据类型最多样化。它包括以美元（$）表示的数值、实物商品单位（盎司、桶）、股票数量（股）以及不同的外币（欧元、日元）。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,347 @@
+[
+  {
+    "question_id": "finqa_29fc2d9fb9_001",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Which television service type, 'fta' or 'pay', has a higher average number of subscribers per channel?",
+    "answer": [
+      [
+        "fta"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_002",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "What is the total number of subscribers, in millions, for all listed television services that are not free-to-air (fta)?",
+    "answer": [
+      [
+        "125"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_003",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "What is the name of the channel with the median subscriber count among all 'pay' services?",
+    "answer": [
+      [
+        "discovery history"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_004",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "List the names of all 'fta' channels that have more than 25 million subscribers.",
+    "answer": [
+      [
+        "quest"
+      ],
+      [
+        "dsport"
+      ],
+      [
+        "quest red"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_005",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "The viewership of 'quest' constitutes what percentage of the total viewership for all 'fta' channels combined? Round to one decimal place.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_006",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "If the subscriber count for every 'pay' service that currently has 10 million or fewer subscribers were to increase by 50%, what would be the new total number of subscribers for just those specific channels?",
+    "answer": [
+      [
+        "66"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_007",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the table, what is the apparent relationship between the service type ('pay' vs. 'fta') and the viewership numbers? Does one type consistently attract more viewers than the other?",
+    "answer": [
+      [
+        "The data indicates a strong relationship where 'fta' (free-to-air) services generally attract significantly higher viewership than 'pay' services. The top two channels, 'quest' (66M) and 'dsport' (43M), are both 'fta'. The highest-ranking 'pay' channel, 'discovery hd world', has only 17M subscribers, which is lower than the top four 'fta' channels. Furthermore, the average viewership for an 'fta' channel (31.8M) is more than triple the average for a 'pay' channel (10.1M), suggesting that free services have a much broader reach in this dataset."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_008",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Which channel is the most significant positive outlier in terms of subscriber count when compared to the average number of subscribers for its own service type ('fta')?",
+    "answer": [
+      [
+        "quest"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_009",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "How many channels share the most common subscriber count, and what is that count?",
+    "answer": [
+      [
+        "5",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_010",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "What is the total viewership of all channels whose names contain the word 'discovery' and are offered as a 'pay' service?",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16",
+      "A17",
+      "B17",
+      "C17",
+      "A18",
+      "B18",
+      "C18",
+      "A19",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_e33c420d31_001",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "Which contractual obligation, excluding 'debt obligations' and 'interest payments on long-term debt', has the largest amount due in the '3-5 years' period?",
+    "answer": [
+      [
+        "fuel obligations"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_002",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "What is the combined total of all obligations that have a footnote reference of '11'?",
+    "answer": [
+      [
+        "$ 16297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6",
+      "B7",
+      "H7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e33c420d31_003",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "What percentage of the total obligations due in '1-3 years' is attributed to the single obligation with the highest total value?",
+    "answer": [
+      [
+        "27.04%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "D1",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_004",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "For 'interest payments on long-term debt', analyze the trend of payments across the four time periods and determine if the obligation is front-loaded or back-loaded.",
+    "answer": [
+      [
+        "The payments for 'interest payments on long-term debt' are $1,172 (<1yr), $2,166 (1-3yrs), $1,719 (3-5yrs), and $4,046 (>5yrs). The obligation is significantly back-loaded, as the payments trend upwards over time, with the largest single payment occurring in the 'more than 5 years' period. Over 63% of the total interest payments are due more than 3 years in the future."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_005",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "List the contractual obligations where the amount due in 'less than 1 year' is greater than the amount due in '3-5 years'.",
+    "answer": [
+      [
+        "fuel obligations"
+      ],
+      [
+        "other purchase obligations"
+      ],
+      [
+        "other long-term liabilities reflected on aes' consolidated balance sheet under gaap ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_006",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "What is the ratio of total short-term obligations (due in 'less than 1 year') to total long-term obligations (due in 'more than 5 years') based on the final total row?",
+    "answer": [
+      [
+        "Approximately 1:2.81"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e33c420d31_007",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "value",
+    "question": "If a new policy required all 'operating lease obligations' due in 'more than 5 years' to instead be paid within the '3-5 years' period, what would the new total for the '3-5 years' column be?",
+    "answer": [
+      [
+        "$ 10283"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_008",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a discernible correlation between the type of energy obligation (fuel vs. electricity) and its payment schedule?",
+    "answer": [
+      [
+        "Yes, there is a clear correlation. 'Fuel obligations' are front-loaded, with the largest payment ($1,759) due in 'less than 1 year', suggesting short-term contracts. Conversely, 'electricity obligations' are back-loaded, with the largest payment ($2,065) due in 'more than 5 years', likely reflecting long-term power purchase agreements. This indicates the nature of the energy source relates to the duration of the financial commitment."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e33c420d31_009",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the totals for each payment period in the final row, which time frame holds the largest amount of financial commitment and what does this imply about the company's liability structure?",
+    "answer": [
+      [
+        "The 'more than 5 years' period holds the largest commitment at $20,544. This implies that the company's liability structure is predominantly long-term, with a significant portion of its financial obligations scheduled to be paid far in the future, suggesting long-term financing strategies or large capital projects."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e33c420d31_010",
+    "table_id": "finqa_e33c420d31",
+    "question_type": "open_ended_reasoning",
+    "question": "The row for 'other long-term liabilities' contains a value in the 'less than 1 year' column that appears to be an outlier. Identify this value and explain why it is inconsistent.",
+    "answer": [
+      [
+        "The outlier is the value '$ 2014' in the 'less than 1 year' column. It is inconsistent because this single short-term payment amount is significantly greater than the '$ 701' listed as the 'total' for that entire obligation, which is a logical impossibility and likely a data error."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

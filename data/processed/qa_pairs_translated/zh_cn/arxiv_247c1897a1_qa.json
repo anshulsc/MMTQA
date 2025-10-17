@@ -1,0 +1,289 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "哪些模型在 MSE30 指标上取得了最佳（即最低）性能，并排除了该指标缺少数据的任何模型？",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "所有名称以字母'M'开头的模型的平均MSE7值是多少？",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "找出在性能方面明显异常的模型，并解释它为何与众不同。",
+    "answer": [
+      [
+        "'GPT-4-Turbo' 模型是一个显著的异常值。其在所有预测时间范围内的均方误差值（从 2.198 到 11.824）明显高于所有其他模型，其他模型的均方误差值通常低于 2.0，且很多情况下低于 1.0。这表明其预测准确性显著较低，使其性能在该数据集中成为一个异常。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "MSE3得分第二低的模型，其整体MSE值 (MSE_over) 是多少？",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "列出所有 MSE15 值低于 0.3 并且 MSE30 值低于 0.2 的模型。",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "描述“HTML”模型在预测时间范围从3天延长到30天时，预测误差的变化趋势。",
+    "answer": [
+      [
+        "对于“HTML”模型，预测误差（以均方误差衡量）随着预测时间范围的延长而持续下降。均方误差从3天的0.845下降到7天的0.349，15天的0.251，最终在30天时降至0.158。这表明该模型对于长期预测的准确性更高。"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "在所有模型累加的总 MSE3 误差中，'GPT-4-Turbo' 模型贡献了多少百分比？请四舍五入到小数点后两位。",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "如果“传统方法”模型的MSE15值提高（降低）10%，它在该指标上与其他模型相比的新排名会是多少？",
+    "answer": [
+      [
+        "如果“传统方法”模型的MSE15值0.330降低10%，新值将是0.297。MSE15的原始排名是：AMA-LSTM (0.230)、ECC Analyzer (0.237)、HTML (0.251)、MRDM (0.300)、MT-LSTM-ATT (0.304)、HAN (Glove) (0.308)、LSTM (0.320)、Classical Method (0.330)、GPT-4-Turbo (7.959)。新值0.297将使其介于HTML和MRDM之间，排名从第8位提升至第4位。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "排除“GPT-4-Turbo”这个异常值，模型在整体MSE指标 (MSE_over) 上的表现与其在7天预测 (MSE7) 上的表现之间是否存在明显的关系？",
+    "answer": [
+      [
+        "是的，似乎存在正相关。通常，整体MSE越低（越好）的模型，其MSE7也越低。例如，“ECC Analyzer”和“HTML”拥有最低的两个整体MSE分数（0.314和0.401），并且它们的MSE7分数也位居最低（0.306和0.349）。相反，像“MT-LSTM-ATT”和“LSTM”这样的模型在此组中拥有最高的整体MSE分数（0.739和0.746），并且其MSE7分数也相对较高（0.435和0.459）。这表明模型的一般预测能力在这两个特定指标上是一致的。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "表格中哪个模型的数据最不完整，以“/”符号表示？",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

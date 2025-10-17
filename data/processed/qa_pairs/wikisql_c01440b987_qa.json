@@ -1,0 +1,256 @@
+[
+  {
+    "question_id": "wikisql_c01440b987_001",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Which voivodeship had the highest population density in 1980, calculated as population divided by its 1998 area?",
+    "answer": [
+      [
+        "Warsaw Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B20",
+      "D20",
+      "E20",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_002",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "What is the total number of communes for all voivodeships with a 1980 population between 500,000 and 700,000?",
+    "answer": [
+      [
+        "243"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E6",
+      "G6",
+      "E7",
+      "G7",
+      "E21",
+      "G21",
+      "E22",
+      "G22"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c01440b987_003",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "What is the area in km\u00b2 of the voivodeship that has the most communes?",
+    "answer": [
+      [
+        "9 211"
+      ]
+    ],
+    "evidence_cells": [
+      "D13",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G15",
+      "G16",
+      "G17",
+      "G18",
+      "G19",
+      "G20",
+      "G21",
+      "G22",
+      "G23"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_004",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "One voivodeship's name includes a date range. Identify this voivodeship and explain the likely significance of these dates for the context of the entire dataset.",
+    "answer": [
+      [
+        "The voivodeship is 'Bia\u0142ystok Voivodeship (1975-1998)'. The inclusion of this date range strongly implies that the dataset represents the administrative divisions of Poland as they existed during this specific historical period, before the major administrative reforms of 1999 which established a new voivodeship structure."
+      ]
+    ],
+    "evidence_cells": [
+      "B7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_005",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "List the names of all voivodeships that have fewer than 10 cities but more than 40 communes.",
+    "answer": [
+      [
+        "Tarn\u00f3w Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B21",
+      "F21",
+      "G21",
+      "B2",
+      "F2",
+      "G2",
+      "B5",
+      "F5",
+      "G5",
+      "B15",
+      "F15",
+      "G15",
+      "B18",
+      "F18",
+      "G18"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_006",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "What was the ratio of cities to communes in the Pozna\u0144 Voivodeship? Express the answer as a simplified fraction.",
+    "answer": [
+      [
+        "11:19"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c01440b987_007",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "If the 1980 population of every voivodeship with an area less than 5,000 km\u00b2 had been 5% lower, what would the new total population for this specific group have been?",
+    "answer": [
+      [
+        "6047985"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D16",
+      "E16",
+      "D18",
+      "E18",
+      "D20",
+      "E20",
+      "D21",
+      "E21",
+      "D22",
+      "E22"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_008",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data, is there a clear relationship between a voivodeship's population size and its number of communes? Explain your reasoning with data points.",
+    "answer": [
+      [
+        "There is no clear or strong correlation between a voivodeship's 1980 population and its number of communes. For example, Katowice Voivodeship has the highest population by a large margin (3,733,900) but only a moderate number of communes (46). In contrast, Kielce Voivodeship has the most communes (69) but a significantly smaller population (1,068,700). Similarly, Warsaw, the second most populous voivodeship (2,319,100), has only 32 communes, which is among the lower values in the table. This lack of a consistent pattern suggests that population size alone did not determine the number of communes in this administrative structure."
+      ]
+    ],
+    "evidence_cells": [
+      "E11",
+      "G11",
+      "E13",
+      "G13",
+      "E20",
+      "G20"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c01440b987_009",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Which column contains short, unique codes suitable for use as a primary key for this dataset?",
+    "answer": [
+      [
+        "Abbreviation"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22",
+      "A23"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_010",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Which voivodeship is an outlier for having the highest density of cities, defined as the number of cities per 1000 km\u00b2 of area?",
+    "answer": [
+      [
+        "Wa\u0142brzych Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B16",
+      "D16",
+      "F16",
+      "B11",
+      "D11",
+      "F11",
+      "B20",
+      "D20",
+      "F20"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

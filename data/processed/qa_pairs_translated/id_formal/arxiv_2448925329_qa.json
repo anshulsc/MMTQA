@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Dataset mana yang menunjukkan kecocokan model terkuat sebagaimana ditunjukkan oleh nilai R-squared?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Berapakah nilai rata-rata Kurtosis untuk semua dataset yang melibatkan BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Untuk model dengan nilai R-squared positif terendah, berapa statistik Durbin-Watson yang bersesuaian?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana kekuatan penjelasan model, yang diukur dengan R-squared, berubah untuk dataset LUNA/USD ketika interval waktu ditingkatkan dari 1 detik ke 10 detik?",
+    "answer": [
+      [
+        "Kekuatan penjelasan model LUNA/USD, yang ditunjukkan oleh nilai R-squared, meningkat secara signifikan dari 0,036 untuk interval 1 detik menjadi 0,274 untuk interval 10 detik. Ini mewakili peningkatan lebih dari tujuh kali lipat, menunjukkan bahwa model secara substansial lebih efektif dalam menjelaskan perubahan harga dalam jangka waktu yang lebih lama."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Sebutkan semua dataset di mana residual model memiliki kemiringan negatif (Skew < 0) dan statistik Durbin-Watson lebih besar dari 2, yang menunjukkan autokorelasi negatif.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Berapa proporsi dari total jumlah semua statistik-F yang dihitung oleh model dengan interval 10 detik?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Jika Kurtosis untuk model 'BTC/USD OFI vs ΔP 10s' disesuaikan dengan rata-rata Kurtosis dari semua model lain, berapa nilai barunya?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ada hubungan yang konsisten antara statistik F suatu model dan statistik Jarque-Bera (JB)-nya? Analisis polanya.",
+    "answer": [
+      [
+        "Tidak ada hubungan yang konsisten dan jelas antara statistik F dan statistik Jarque-Bera (JB). Misalnya, model dengan statistik F tertinggi (15890,0) memiliki statistik JB sebesar 6560,394, sedangkan model dengan statistik F terendah kedua (137,0) memiliki JB yang jauh lebih kecil yaitu 816,435. Namun, model dengan statistik F terendah (70,87) memiliki statistik JB tertinggi (10204,282). Ini menunjukkan bahwa signifikansi keseluruhan model (statistik F) dan normalitas residualnya (statistik JB) tidak berkorelasi langsung dalam kumpulan data ini."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom mana, tidak termasuk pengenal 'Dataset', yang berisi rentang nilai terluas jika mempertimbangkan urutan magnitudo (dari terkecil hingga terbesar)?",
+    "answer": [
+      [
+        "Kolom 'Prob(JB)' menunjukkan rentang nilai terluas berdasarkan urutan magnitudo. Kolom ini berisi nilai sekecil 0,0 (secara efektif infinitesimal) dan nilai sebesar 4,26e-263, 1,93e-57, 5,17e-178, dan 9,05e-92, mencakup ratusan urutan magnitudo, jauh lebih besar daripada kolom numerik lainnya."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Dataset mana yang memiliki statistik Jarque-Bera (JB) yang merupakan outlier, lebih dari 5 kali lebih besar dari nilai JB tertinggi berikutnya?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

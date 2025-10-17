@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "For December 31, 2015, which regulatory approach, 'Advanced' or 'Standardized', resulted in a higher reported 'Total Capital', and by how much in millions of dollars?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "What was the average 'Tier 1 Capital' in millions of dollars across all four reported columns?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Identify the 'Total Risk-Weighted Assets' corresponding to the column with the lowest 'Total Capital Ratio'.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Assuming the last two columns represent the prior year's data, describe the year-over-year trend for the 'Common Equity Tier 1 Capital Ratio' under the 'Standardized Approach'.",
+    "answer": [
+      [
+        "The 'Common Equity Tier 1 Capital Ratio' for the 'Standardized Approach' showed a positive trend, increasing by 1.51 percentage points from 11.12% in the prior period to 12.63% on December 31, 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Which capital ratios under the 'December 31, 2015 Standardized Approach' were below 15%?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "For the 'December 31, 2015 Advanced Approaches', what proportion of 'Total Capital' is attributable to 'Tier 2 Capital'? (Note: Tier 2 Capital = Total Capital - Tier 1 Capital)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "If 'Total Risk-Weighted Assets' under the 'December 31, 2015 Standardized Approach' were hypothetically 10% higher, what would the new 'Tier 1 Capital Ratio' be, assuming 'Tier 1 Capital' remained constant?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "What relationship can be inferred between 'Total Risk-Weighted Assets' and the capital ratios presented in the table? Use data points to support your conclusion.",
+    "answer": [
+      [
+        "An inverse correlation exists between 'Total Risk-Weighted Assets' and the capital ratios. As the risk-weighted assets (the denominator in the ratio calculation) increase, the capital ratios decrease. For example, the column with the highest assets ($1,292,605 million) reports the lowest 'Total Capital Ratio' (12.80), whereas the column with the lowest assets ($1,162,884 million) reports the highest 'Total Capital Ratio' (17.08)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Which financial metric for December 31, 2015, shows an unusually large discrepancy between the 'Advanced' and 'Standardized' approaches, given that its primary components are identical?",
+    "answer": [
+      [
+        "Total Capital shows an unusually large discrepancy. Both Common Equity Tier 1 Capital and Tier 1 Capital have identical values under both approaches for 2015. However, Total Capital differs by over $12 billion ($186,097 million vs $198,655 million), indicating that the entire difference is due to the calculation of Tier 2 Capital, making it an outlier."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Despite the inconsistent column headers for the two periods shown, which capital amounts (in millions of dollars) are reported with identical values for both the 'Advanced' and 'Standardized' approaches in each respective period?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

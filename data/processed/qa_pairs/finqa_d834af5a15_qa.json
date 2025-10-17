@@ -1,0 +1,196 @@
+[
+  {
+    "question_id": "finqa_d834af5a15_001",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "What was the total number of restricted stocks granted across all years shown in the table (2006, 2007, and 2008)?",
+    "answer": [
+      [
+        "5287752"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d834af5a15_002",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "In which period (2006, 2007, or 2008) was the weighted average fair value of forfeited stock the highest?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "A8",
+      "C8",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_003",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend of the number of unvested restricted stocks at the end of each year from December 31, 2005, to December 31, 2008.",
+    "answer": [
+      [
+        "The number of unvested restricted stocks shows a consistent, albeit decelerating, growth trend year-over-year. It increased from 3,488,668 at the end of 2005 to 3,579,189 in 2006 (a gain of 90,521), then to 3,821,707 in 2007 (a gain of 242,518), and finally to 3,883,230 in 2008 (a gain of 61,523)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_004",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "For the year 2007, what percentage of newly granted stocks was offset by the combined total of vested and forfeited stocks?",
+    "answer": [
+      [
+        "86.66%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d834af5a15_005",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "What was the fair value of granted stock in the year where the number of vested and issued stocks first exceeded 1.3 million?",
+    "answer": [
+      [
+        "$ 56.45"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A7",
+      "B7",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_006",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Verify the unvested restricted stock balance for December 31, 2008, by calculating it from the 2007 year-end balance and the subsequent year's activities.",
+    "answer": [
+      [
+        "The calculation is correct. Starting with the 2007 year-end balance of 3,821,707, adding the 1,836,532 stocks granted, and subtracting the 1,403,826 vested and 371,183 forfeited stocks results in a final balance of 3,883,230, which matches the reported unvested stock number for December 31, 2008."
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_007",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "If the weighted average fair value for stock granted in 2006 had been 5% higher, what would its approximate total value have been? (Total Value = number of stock * fair value)",
+    "answer": [
+      [
+        "$ 95,781,586.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d834af5a15_008",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a consistent relationship between the number of stocks granted in a year and the number of stocks forfeited in the same year?",
+    "answer": [
+      [
+        "Based on the data, there is no clear or consistent relationship. In 2006, 1,632,504 stocks were granted and 360,734 were forfeited. In 2007, grants increased to 1,818,716 while forfeitures decreased to 230,786. In 2008, grants remained high at 1,836,532 while forfeitures increased significantly to 371,183. The number of forfeitures fluctuates without a direct correlation to the number of grants in the same period."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B8",
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d834af5a15_009",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "value",
+    "question": "Which transaction ('granted', 'vested and issued', or 'forfeited') has the highest average grant-date fair value across all years listed?",
+    "answer": [
+      [
+        "granted"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6",
+      "C7",
+      "C8",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d834af5a15_010",
+    "table_id": "finqa_d834af5a15",
+    "question_type": "open_ended_reasoning",
+    "question": "What is the structural purpose of the rows starting with 'unvested restricted stock december 31' within the table?",
+    "answer": [
+      [
+        "These rows serve as periodic balances or checkpoints in a financial reconciliation statement. Each 'unvested restricted stock' row provides the cumulative total at the end of a specific year, and the subsequent rows ('granted', 'vested', 'forfeited') detail the activities that modify this balance to arrive at the next year-end total. They provide the starting and ending points for each period's activity analysis."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A9",
+      "A13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

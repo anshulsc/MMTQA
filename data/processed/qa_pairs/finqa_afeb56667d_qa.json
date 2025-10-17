@@ -1,0 +1,199 @@
+[
+  {
+    "question_id": "finqa_afeb56667d_001",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "What was the total revenue for the entire year of 2009?",
+    "answer": [
+      [
+        "995847"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afeb56667d_002",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Which financial metric, aside from 'total revenues', remained perfectly consistent across all four quarters of 2009?",
+    "answer": [
+      [
+        "preferred stock dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_003",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "In the quarter with the highest 'gain on early extinguishment of debt', what was the corresponding 'net income ( loss ) per common share-diluted'?",
+    "answer": [
+      [
+        "$ 0.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_004",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend of 'net income ( loss ) attributable to sl green common stockholders' from the start to the end of 2009.",
+    "answer": [
+      [
+        "The net income for common stockholders showed a consistent and steep declining trend throughout 2009. It started at a high profit of $32,768 in the March 31 quarter, fell significantly to $12,543 by June 30, turned into a loss of $-2,520 by September 30, and the loss widened further to $-5,123 by December 31."
+      ]
+    ],
+    "evidence_cells": [
+      "E10",
+      "D10",
+      "C10",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_005",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "List all quarters where the 'net income ( loss ) attributable to sl green' was positive AND the 'gain ( loss ) on sale of discontinued operations' was also positive.",
+    "answer": [
+      [
+        "june 30"
+      ],
+      [
+        "march 31"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_006",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "What percentage of the 'total revenues' for the quarter ended September 30 did the 'preferred stock dividends' represent? Provide the absolute percentage, rounded to two decimal places.",
+    "answer": [
+      [
+        "2.02%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afeb56667d_007",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "If the 'preferred stock dividends' had been waived (i.e., were $0) for the September 30 quarter, what would the 'net income ( loss ) attributable to sl green common stockholders' have been for that quarter?",
+    "answer": [
+      [
+        "$ 2449"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_008",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the quarterly data, what is the apparent relationship between the 'gain on early extinguishment of debt' and the 'net income ( loss ) attributable to sl green common stockholders'?",
+    "answer": [
+      [
+        "There appears to be a strong positive correlation. The two quarters with the highest 'gain on early extinguishment of debt' (March 31 and June 30) also reported the highest 'net income ( loss ) attributable to sl green common stockholders'. Conversely, the quarters with lower gains (September 30 and December 31) resulted in net losses for common stockholders, suggesting these large gains were a primary driver of profitability in the first half of the year."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B10",
+      "C10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afeb56667d_009",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "How many financial line items reported a negative value (a loss) for the quarter ending December 31?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_010",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Which quarter's 'income ( loss ) net of noncontrolling interests and before gains on sale' represents a significant outlier compared to the trend seen in the other three quarters?",
+    "answer": [
+      [
+        "The quarter ending September 30 is the outlier. While the other three quarters all reported significant losses in this category (-$380, -$10,242, and -$26,600), the September quarter was the only one to report a profit ($4,099), making it a notable exception to the prevailing trend of losses for this line item."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

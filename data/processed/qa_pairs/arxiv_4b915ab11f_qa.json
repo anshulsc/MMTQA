@@ -1,0 +1,172 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Which model, among those listed, utilizes the largest base architecture in terms of parameter count?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "What is the total number of tokens in the corpus used to train BloomBergGPT?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "What is the training budget for the model built on the T5 architecture?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "For the model that specifies a two-stage training data process, what was the corpus size for the pre-training stage?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Identify the LLM that uses a BLOOM-based architecture and has a publicly released training budget specified in A100\u00b7hours.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "What percentage of BloomBergGPT's total training corpus consists of public tokens?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "If XuanYuan2.0's training budget were revealed to be 2,500,000 A100\u00b7hours, how would this affect the ranking of models by training budget?",
+    "answer": [
+      [
+        "Currently, BloomBergGPT has the only specified numerical budget (1,300,000 A100\u00b7hours), making it rank first. If XuanYuan2.0's budget was 2,500,000 A100\u00b7hours, it would become the model with the highest known training budget, surpassing BloomBergGPT. The new ranking for models with numerical budgets would be 1. XuanYuan2.0 (2,500,000) and 2. BloomBergGPT (1,300,000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a consistent correlation between the parameter count of a model's architecture and the total size of its training corpus based on this data?",
+    "answer": [
+      [
+        "No, there is no consistent positive correlation evident in the data. For example, XuanYuan2.0 has a much larger architecture (176B parameters) than BloomBergGPT (50B parameters), yet it was trained on a smaller corpus (379B tokens vs. 708B tokens). This suggests that a larger model does not necessarily require a larger training corpus according to this dataset."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Which data column exhibits the most variation in data format, containing a large integer, a non-disclosure string, and a time-based range?",
+    "answer": [
+      [
+        "Training budget (A100\u00b7hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Which model's stated training budget is a significant positive outlier compared to the budget information available for the other models?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "question_id": "finqa_0be24be072_001",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Which year saw the largest absolute increase in 'Net interest income excluding cib markets' from the previous year?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_002",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "What was the average 'average interest-earning assets' across the three years provided?",
+    "answer": [
+      [
+        "2123479.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0be24be072_003",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "In the year when 'cib markets net interest income' was highest, what was the corresponding value for 'average cib markets interest-earning assets'?",
+    "answer": [
+      [
+        "520307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_004",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend of the 'net interest yield on average cib markets interest-earning assets' from 2015 to 2017.",
+    "answer": [
+      [
+        "The trend was highly volatile. The yield increased by approximately 17.3% from 1.04 in 2015 to 1.22 in 2016, but then experienced a sharp decline of approximately 29.5%, dropping to 0.86 in 2017."
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_005",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "List the years where 'cib markets net interest income' was greater than $5,000 million and the 'net interest yield on average cib markets interest-earning assets' was greater than 1.10.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_006",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "In 2016, what percentage of the total 'average interest-earning assets' was made up of 'average cib markets interest-earning assets'?",
+    "answer": [
+      [
+        "24.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0be24be072_007",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "If the 'cib markets net interest income' in 2017 had been 20% higher while the 'net interest income 2013 managed basis' remained the same, what would the new 'net interest income excluding cib markets' have been?",
+    "answer": [
+      [
+        "$ 45854"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_008",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the table, is there an observable correlation between the total 'net interest income 2013 managed basis' and the 'net interest yield on average interest-earning assets 2013 managed basis' across the three years?",
+    "answer": [
+      [
+        "Yes, there is a clear positive correlation. As the 'net interest income 2013 managed basis' consistently increased from $44,620 million in 2015 to $51,410 million in 2017, the 'net interest yield on average interest-earning assets 2013 managed basis' also showed a consistent increase from 2.14% to 2.36% over the same period."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0be24be072_009",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Which two metrics in the table, when the first is divided by the second, calculate the 'net interest yield on average interest-earning assets excluding cib markets'?",
+    "answer": [
+      [
+        "net interest income excluding cib markets ( a )"
+      ],
+      [
+        "average interest-earning assets excluding cib markets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A6",
+      "A9",
+      "B3",
+      "B6",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_010",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Which year's 'net interest income 2013 managed basis' is an outlier in terms of its year-over-year growth compared to the other period?",
+    "answer": [
+      [
+        "2017 is an outlier due to its significantly higher growth. The increase from 2016 to 2017 was $4,118 million ($51,410 - $47,292), which is substantially larger than the $2,672 million increase seen from 2015 to 2016 ($47,292 - $44,620)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

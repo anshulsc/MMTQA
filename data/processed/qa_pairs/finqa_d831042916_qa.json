@@ -1,0 +1,196 @@
+[
+  {
+    "question_id": "finqa_d831042916_001",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "In which year did the company experience the largest '(loss) from continuing operations'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_002",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "What were the total operating expenses for the three-year period from 2007 to 2009?",
+    "answer": [
+      [
+        "$3743"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d831042916_003",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "What was the value of 'non-interest revenue' in the only year the company reported a positive 'net income (loss)'?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_004",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend of 'total revenues net of interest expense' from 2007 to 2009.",
+    "answer": [
+      [
+        "The trend was overwhelmingly negative and volatile. Total revenues showed a minor improvement from a loss of $2310 million in 2007 to a loss of $2258 million in 2008. However, this was followed by a catastrophic decline in 2009, where the loss dramatically increased to $10556 million, indicating a severe downturn in the company's core revenue-generating activities."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_005",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "List the 'income taxes (benefits)' for all years where the '(loss) from continuing operations' was greater than $2,500 million.",
+    "answer": [
+      [
+        "-4369 ( 4369 )"
+      ],
+      [
+        "-1446 ( 1446 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_006",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "In 2009, what percentage of the 'total revenues net of interest expense' was comprised of 'non-interest revenue'?",
+    "answer": [
+      [
+        "84.25%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d831042916_007",
+    "table_id": "finqa_d831042916",
+    "question_type": "value",
+    "question": "If 'total operating expenses' in 2008 had increased by 20%, what would the new '(loss) from continuing operations before taxes' have been for that year?",
+    "answer": [
+      [
+        "$ -2871 ( 2871 )"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_008",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data, is there a consistent correlation between lower 'total operating expenses' and higher 'net income (loss)'?",
+    "answer": [
+      [
+        "No, a consistent correlation is not observable. While 2008 had the lowest operating expenses ($510M) and the highest net income ($1820M), suggesting an inverse relationship, this pattern is broken by the other years. In 2009, operating expenses ($1420M) were lower than in 2007 ($1813M), yet 2009 saw a drastically worse net loss (-$8051M) compared to 2007 (-$1968M). This indicates that other factors, such as the severe drop in revenues, had a much larger impact on net income than operating expenses alone."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "A12",
+      "B4",
+      "C4",
+      "D4",
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d831042916_009",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "By examining the last three rows, is the calculation for 'net income (loss)' applied consistently across all three years? Explain your finding.",
+    "answer": [
+      [
+        "No, the calculation method is inconsistent. In 2007, 'net income (loss)' (-$1968M) is correctly derived by subtracting 'net income attributable to noncontrolling interests' ($2M) from 'net income (loss) before attribution...' (-$1966M). However, in both 2008 and 2009, the 'net income (loss)' value is identical to the 'net income (loss) before attribution...' value, incorrectly ignoring the amount attributable to noncontrolling interests. This points to a reporting inconsistency in the table's structure for 2008 and 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "B10",
+      "B11",
+      "B12",
+      "C10",
+      "C11",
+      "C12",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d831042916_010",
+    "table_id": "finqa_d831042916",
+    "question_type": "open_ended_reasoning",
+    "question": "Which financial line item in 2008 represents a significant positive outlier compared to the other years, and what was its effect on the company's bottom line?",
+    "answer": [
+      [
+        "The 'income (loss) from discontinued operations net of taxes' in 2008, with a value of $4002 million, is a significant positive outlier compared to a loss of $445 million in 2009 and a smaller gain of $708 million in 2007. This outlier was crucial as it converted a substantial '(loss) from continuing operations' of $2182 million into a final positive 'net income' of $1820 million for that year."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "A9",
+      "A12",
+      "B9",
+      "C8",
+      "C9",
+      "C12",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

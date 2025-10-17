@@ -1,0 +1,209 @@
+[
+  {
+    "question_id": "finqa_43092a3153_001",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Which property has the second-largest occupied square footage?",
+    "answer": [
+      [
+        "tikri campus and unitech cyber park gurgaon india"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_002",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "What is the total occupied square footage for all properties located in Illinois?",
+    "answer": [
+      [
+        "1487000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_43092a3153_003",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "What is the occupied square footage of the property with the latest overall lease expiration date?",
+    "answer": [
+      [
+        "428000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_004",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Which property has leases that span the longest duration from its earliest to its latest listed expiration date?",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_005",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "List the properties with an occupied square footage greater than 350,000 that have a lease expiring in 2020.",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_006",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "What percentage of the total occupied square footage is accounted for by the Gurgaon, India campus?",
+    "answer": [
+      [
+        "13.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_43092a3153_007",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "If all lease expiration dates prior to 2020 were extended to 2022, how many properties would have a lease expiring in 2022?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_008",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the provided data, is there an observable relationship between the size of a property and the number of lease expiration dates it has?",
+    "answer": [
+      [
+        "Yes, there appears to be a positive correlation. The two largest properties, '4 overlook point' (1,059,000 sq ft) and 'tikri campus' (440,000 sq ft), are the only ones with multiple lease expiration dates listed (three each). All smaller properties in the table have only a single expiration date, suggesting that larger facilities are more likely to have complex, staggered lease agreements."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_43092a3153_009",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Which column contains data where a single cell can represent multiple distinct values?",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_010",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "Which property's occupied square footage is the most significant positive outlier, and why?",
+    "answer": [
+      [
+        "The property at '4 overlook point and other locations lincolnshire illinois' is the most significant positive outlier. Its square footage of 1,059,000 is more than 2.4 times larger than the next largest property (440,000 sq ft) and substantially deviates from the median (414,000 sq ft) and mean (approx. 463,143 sq ft) of the dataset, setting it far apart from the other properties."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "कौन से मॉडल उप-रेखीय मापनीयता प्रदान करते हैं, और उनकी समर्थित विशेषताओं ('पूर्व-प्रशिक्षण', 'मल्टी-टास्क') में मुख्य अंतर क्या है?",
+    "answer": [
+      [
+        "TimeMixer और PatchTST उप-रेखीय मापनीयता प्रदान करते हैं। मुख्य अंतर यह है कि TimeMixer मल्टी-टास्क लर्निंग का समर्थन करता है जबकि PatchTST नहीं करता है; किसी भी मॉडल में पूर्व-प्रशिक्षण का उपयोग नहीं किया जाता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "ऐसे मॉडलों की कुल संख्या कितनी है जो प्री-ट्रेनिंग या मल्टी-टास्क लर्निंग दोनों में से किसी एक का समर्थन करते हैं, लेकिन दोनों का नहीं?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "उस मॉडल की प्राथमिक अनुप्रयोग की पहचान करें जिसमें रेखीय मापनीयता और मध्यम कंप्यूट आवश्यकताएँ हैं।",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "यदि किसी शोध परियोजना को 'लंबी श्रृंखलाओं' के लिए एक मॉडल की आवश्यकता से विकसित होकर बाद में 'कार्य लचीलापन' वाले मॉडल की आवश्यकता होती है, तो दूसरे चरण में कौन सा मॉडल उपयुक्त विकल्प होगा?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "उन मॉडलों की सूची बनाएँ जो प्री-ट्रेनिंग का उपयोग नहीं करते हैं और सबलीनियर स्केलेबिलिटी प्रदान करते हैं।",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "सूचीबद्ध मॉडलों में से कितने प्रतिशत को 'उच्च' कम्प्यूट संसाधन की आवश्यकता है?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "यदि 'TimesNet' को 'Pre-training' का समर्थन करने के लिए बढ़ाया जाता है, तो इसकी विशेषताओं (Pre-training, Multi-task, Compute, Scalability) के मामले में यह मौजूदा मॉडल में से किसके सबसे करीब होगा?",
+    "answer": [
+      [
+        "बढ़े हुए TimesNet किसी अन्य एकल मॉडल के समान नहीं होगा। जबकि यह 'Pre-training', 'Multi-task', और 'Linear' मापनीयता को Timer और MOMENT के साथ साझा करेगा, इसकी 'Medium' गणना अभी भी इसे उनकी 'High' गणना आवश्यकताओं से अलग करेगी।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "क्या किसी मॉडल की मापनीयता और उसके प्राथमिक अनुप्रयोग के अनुक्रम लंबाई या लचीलेपन पर ध्यान केंद्रित करने के बीच कोई स्पष्ट संबंध है?",
+    "answer": [
+      [
+        "हाँ, एक संबंध प्रतीत होता है। अधिक कुशल 'Sublinear' मापनीयता (TimeMixer, PatchTST) वाले मॉडल जटिल पैटर्न या लंबे अनुक्रम ('Multiscale Patterns', 'Long Sequences') वाले अनुप्रयोगों से जुड़े हैं। इसके विपरीत, 'Linear' मापनीयता वाले मॉडल उन कार्यों के लिए प्रयुक्त होते हैं जिनमें लचीलेपन या बाधाओं के तहत सीखने की आवश्यकता होती है ('Few-shot Learning', 'Limited Supervision', 'Task Flexibility')।"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "मॉडल के अलावा, किस कॉलम में सबसे विविध अद्वितीय मानों का समूह है?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "कौन सा मॉडल प्री-ट्रेनिंग या मल्टी-टास्क लर्निंग दोनों का समर्थन नहीं करने के लिए एक अपवाद है?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

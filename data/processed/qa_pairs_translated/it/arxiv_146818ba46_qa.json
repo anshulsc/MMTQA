@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Quali modelli offrono scalabilità sublineare e qual è la differenza principale nelle loro caratteristiche supportate ('Pre-training', 'Multi-task')?",
+    "answer": [
+      [
+        "TimeMixer e PatchTST offrono scalabilità sublineare. La differenza principale è che TimeMixer supporta l'apprendimento multi-task mentre PatchTST no; nessun modello utilizza il pre-training."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Qual è il conteggio totale dei modelli che supportano l'addestramento preliminare o il multi-task learning, ma non entrambi?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Identifica l'applicazione principale del modello che ha scalabilità lineare e requisiti di calcolo medi.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Se un progetto di ricerca evolve dal richiedere un modello per 'Long Sequences' al necessitare in seguito di un modello con 'Task Flexibility', quale modello sarebbe la scelta appropriata nella seconda fase?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Elenca i modelli che non utilizzano il pre-addestramento e offrono scalabilità sublineare.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Qual è la proporzione dei modelli elencati che richiedono risorse di calcolo \"Elevate\"?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Se 'TimesNet' fosse migliorato per supportare il 'Pre-training', a quale modello esistente assomiglierebbe di più in termini di caratteristiche (Pre-training, Multi-task, Compute, Scalability)?",
+    "answer": [
+      [
+        "Il TimesNet migliorato non assomiglierebbe molto a nessun altro singolo modello. Sebbene condividerebbe 'Pre-training', 'Multi-task' e scalabilità 'Linear' con Timer e MOMENT, il suo 'Medium' compute lo differenzierebbe ancora dai loro requisiti 'High' compute."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "C'è una correlazione evidente tra la scalabilità di un modello e il focus della sua applicazione primaria sulla lunghezza o flessibilità della sequenza?",
+    "answer": [
+      [
+        "Sì, sembra esserci una correlazione. I modelli con scalabilità 'Sublineare' più efficiente (TimeMixer, PatchTST) sono associati ad applicazioni che coinvolgono pattern complessi o sequenze lunghe ('Multiscale Patterns', 'Long Sequences'). Al contrario, i modelli con scalabilità 'Lineare' tendono ad essere applicati a compiti che richiedono flessibilità o apprendimento sotto vincoli ('Few-shot Learning', 'Limited Supervision', 'Task Flexibility')."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Quale colonna, a parte 'Model', contiene l'insieme più diversificato di valori unici?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Quale modello è un'eccezione per non supportare né il pre-training né l'apprendimento multi-task?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Cale set de datos ammustrat s'adatesa de modellu prus forte, comente indicadu dae su valore R-cuadradu?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Cale est su valore mèdiu de Kurtosis pro totus is collidas de datos chi pertocant BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Pro su modellu cun su valore R-squared positivu prus bàsciu, cale est s'istatìstica Durbin-Watson currispondente?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Comente cambiat su podere ispricativu de su modellu, mesuradu cun s'R-cuadràdu, pro su dataset LUNA/USD cando s'intervallu de tempus est aumentadu dae 1s a 10s?",
+    "answer": [
+      [
+        "Su podere ispricativu de su modellu LUNA/USD, indicadu dae su valore R-cuadràdu, aumentat in manera significativa dae 0.036 pro s'intervallu de 1 segundu a 0.274 pro s'intervallu de 10 segundos. Custu rapresentat un'aumentu prus de sete bortas, suggerende chi su modellu est meda prus eficat in s'ispiegare sos càmbios de pretziu in su perìodu de tempus prus longu."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Indica totu is datasets in ue is residuales de su modellu tenent una istransadura negativa (Skew < 0) e sa statìstica Durbin-Watson est prus manna de 2, suggerende autocorrelatzione negativa.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Cale proportzione de sa summa totale de totu sos F-statistics est cuntada dae is modellos cun un'intervallu de 10s?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Si sa Kurtosis pro su mollu 'BTC/USD OFI vs ΔP 10s' esseret ajustada a sa Kurtosis mèdia de totu sos àteros mollos, cale diat èssere su balore nou sou?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "B'at una relatzione consistente intre s'F-statistic de unu modellu e s'statisticu Jarque-Bera (JB) suo? Annaliza s'andamentu.",
+    "answer": [
+      [
+        "No b'at una relatzione consistente, crara, intre s'F-statistic e s'statisticu Jarque-Bera (JB). Pro esempru, su modellu cun s'F-statistic prus artu (15890.0) tenet un'JB statistic de 6560.394, mentres su modellu cun s'F-statistic su segundu prus bàsciu (137.0) tenet un'JB meda prus minore de 816.435. Però, su modellu cun s'F-statistic prus bàsciu (70.87) tenet s'JB statistic prus artu (10204.282). Custu indicat chi s'importu generale de su modellu (F-statistic) e sa normalidade de is residuales suos (JB statistic) no sunt currelados deretamente in custu set de datos."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Cale colunna, esclùdida sa de identificatzione 'Dataset', contènnit s'ampressura prus manna de valores cunsiderende s'òrdine de magnitùdine (dae su prus minore a su prus mannu)?",
+    "answer": [
+      [
+        "Sa colunna 'Prob(JB)' ammustrat s'ampressura prus manna de valores segundu s'òrdine de magnitùdine. Contènnit valores piticos che 0.0 (de fatu infinitesimos) e valores mannos che 4.26e-263, 1.93e-57, 5.17e-178, e 9.05e-92, ispannende medas chentinas de òrdines de magnitùdine, meda prus manna de cale si siat àtera colunna numèrica."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Cale set de datos tenet un'istatìstica Jarque-Bera (JB) chi est unu balore anòmalu, essende prus de 5 bortas prus mannu de su balore JB imbeniente prus artu?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

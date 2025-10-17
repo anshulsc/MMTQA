@@ -1,0 +1,279 @@
+[
+  {
+    "question_id": "wikisql_81e86b50e7_001",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "What is the average 'Current ratio' for all companies that did not survive ('Survive?' = 0)?",
+    "answer": [
+      [
+        "701"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B11",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_002",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "List the industries of companies that survived and had a 'Net worth to fixed assets' ratio greater than 200.",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "F6",
+      "B7",
+      "F7",
+      "B8",
+      "F8",
+      "B9",
+      "F9",
+      "B10",
+      "F10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_003",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Which surviving company ('Survive?' = 1) possesses the strongest liquidity position as indicated by the highest 'Quick ratio'?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8",
+      "B9",
+      "C9",
+      "E9",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_004",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "For which industry with paired survival outcomes is the 'Net worth to fixed assets' of the surviving company more than double that of the failed company?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B7",
+      "C7",
+      "F7",
+      "B2",
+      "C2",
+      "F2",
+      "B8",
+      "C8",
+      "F8",
+      "B5",
+      "C5",
+      "F5",
+      "B6",
+      "C6",
+      "F6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_005",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "What percentage of the total 'Current ratio' for all surviving companies is contributed by the 'Steel products manufacture' company? Round to one decimal place.",
+    "answer": [
+      [
+        "26.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "C9",
+      "D9",
+      "B10",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_006",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "If an accounting error was found and the 'Current ratio' for the failed 'Pianos manufacture and sale' company was actually 50 points lower, what would the new average 'Current ratio' for all failed companies be?",
+    "answer": [
+      [
+        "692.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B11",
+      "D11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_007",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on this data, does a higher 'Quick ratio' appear to have a consistent positive correlation with survival? Justify your answer with data.",
+    "answer": [
+      [
+        "No, a higher 'Quick ratio' does not show a consistent positive correlation with survival. While in two of the three paired industries ('Cotton textile' and 'Phonographs'), the survivor had a higher ratio, the 'Meat-packing' industry presents a direct counterexample. The failed 'Meat-packing' company had a 'Quick ratio' of 302, which is significantly higher than the 221 ratio of its surviving counterpart."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "C2",
+      "E2",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7",
+      "B8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_008",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "open_ended_reasoning",
+    "question": "Which company is a significant outlier among all companies based on its 'Current ratio', and what was its survival outcome?",
+    "answer": [
+      [
+        "The company in the 'Collars and shirts manufacture' industry is the outlier, with a 'Current ratio' of 2525. This company did not survive (Survive? = 0)."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_009",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "Which industries are represented by an equal number of surviving and non-surviving companies in this dataset?",
+    "answer": [
+      [
+        "Cotton textile industry of New England"
+      ],
+      [
+        "Meat-packing"
+      ],
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_81e86b50e7_010",
+    "table_id": "wikisql_81e86b50e7",
+    "question_type": "value",
+    "question": "If you define 'asset efficiency' as the 'Net worth to fixed assets' ratio, which of the two failed companies with the lowest Current Ratios (Pair IDs 13 and 9) showed better asset efficiency?",
+    "answer": [
+      [
+        "Phonographs and records manufacture"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "F1",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "F5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

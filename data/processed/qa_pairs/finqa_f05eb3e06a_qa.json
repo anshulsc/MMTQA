@@ -1,0 +1,268 @@
+[
+  {
+    "question_id": "finqa_f05eb3e06a_001",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Which location has the smallest approximate square footage, excluding 'other*'?",
+    "answer": [
+      [
+        "eindhoven the netherlands"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_002",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "What is the total approximate square footage for all locations that include 'manufacturing' in their operations?",
+    "answer": [
+      [
+        "2559000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_003",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Identify the latest lease expiration date for the location with the third largest square footage.",
+    "answer": [
+      [
+        "2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_004",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "Which location has the widest range between its earliest and latest lease expiration dates?",
+    "answer": [
+      [
+        "cambridge united kingdom"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_005",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "List the locations that have both 'r&d' and 'distribution' operations AND have a lease expiring after 2030.",
+    "answer": [
+      [
+        "san diego ca"
+      ],
+      [
+        "madison wi"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_006",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "What percentage of the total square footage is dedicated to locations that do NOT perform 'r&d' operations?",
+    "answer": [
+      [
+        "4.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_007",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "value",
+    "question": "If all leases expiring in 2013 were not renewed, resulting in a 20% reduction in square footage for each affected location, what would be the new total square footage across all sites?",
+    "answer": [
+      [
+        "2158000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_008",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a discernible pattern between a location's geographic region (US vs. International) and its operational profile?",
+    "answer": [
+      [
+        "Yes, there is a pattern. The US locations (San Diego, San Francisco, Madison) are all large-scale sites that consistently include 'r&d', 'manufacturing', and 'administrative' functions. The international locations show more diversity in their profiles. While Singapore and Cambridge are also major R&D and manufacturing hubs similar to the US sites, Eindhoven is exclusively a smaller distribution and administrative center, indicating that the international portfolio includes more specialized, smaller-footprint facilities compared to the comprehensive hubs in the US."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_009",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "Which column's data structure is inconsistent across rows, with some cells containing a single value and others containing a list of space-separated values?",
+    "answer": [
+      [
+        "The 'leaseexpiration dates' column demonstrates inconsistent data structure. For example, the entry for 'eindhoven the netherlands' contains a single year ('2020'), while the entry for 'san diego ca' contains a list of three distinct years ('2019 2013 2031'). This requires conditional logic to parse correctly."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_f05eb3e06a_010",
+    "table_id": "finqa_f05eb3e06a",
+    "question_type": "open_ended_reasoning",
+    "question": "Which location's operational scope is an outlier compared to other locations of a similar or larger size?",
+    "answer": [
+      [
+        "San Francisco Bay Area, CA is an operational outlier. Despite being the second-largest facility at 501,000 sq ft, its listed operations ('r&d manufacturing warehouse and administrative') notably lack a 'distribution' function. All other large-scale manufacturing locations, such as San Diego, Singapore, and Madison, explicitly include 'distribution', making the San Francisco site's profile unusual for a facility of its size and manufacturing capability."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

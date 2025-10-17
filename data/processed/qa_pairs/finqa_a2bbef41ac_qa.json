@@ -1,0 +1,171 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "What was the total value of assets ('investments' and 'other assets') on December 31, 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Which asset category, 'investments' or 'other assets', experienced a greater absolute net loss from 'realized and unrealized gains / ( losses ) net'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Verify if the closing balance of 'investments' on December 31, 2008, is consistent with its opening balance and the subsequent transactions listed. Show your calculation.",
+    "answer": [
+      [
+        "Yes, the balance is consistent. The calculation is: $1240 (opening balance) - $409 (gains/losses) + $11 (purchases/sales) - $29 (net transfers) = $813, which matches the reported closing balance."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "What was the total net change in asset value for the entire period, from December 31, 2007, to December 31, 2008?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "For which asset categories did the 'net transfers in and/or out of level 3' result in a positive contribution to the asset value?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "What proportion of the 'total net ( losses ) for the period included in earnings' came from 'investments'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "If the 'realized and unrealized gains / ( losses ) net' for 'other assets' had been zero instead of $-16, what would the new closing balance for 'other assets' have been on December 31, 2008?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data for 'investments', what is the relationship between 'realized and unrealized gains / ( losses ) net' and 'total net ( losses ) ... relating to assets still held at the reporting date'?",
+    "answer": [
+      [
+        "There is a strong, direct relationship. The 'total net ( losses ) ... relating to assets still held' ($-366) accounts for 89.5% of the total 'realized and unrealized gains / ( losses ) net' ($-409). This implies that the majority of the period's net losses for investments were unrealized and associated with assets that had not been sold by the end of the reporting period."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "What accounting convention is suggested by the data format used for negative values, such as '-409 ( 409 )'?",
+    "answer": [
+      [
+        "The format of showing a negative number followed by the absolute value in parentheses is a common accounting convention to clearly and emphatically denote negative financial figures like losses, expenses, or contra-asset values."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Which line item represents the largest single negative impact on the combined asset values during the period?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

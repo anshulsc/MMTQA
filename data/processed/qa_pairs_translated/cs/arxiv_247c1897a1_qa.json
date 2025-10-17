@@ -1,0 +1,289 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Které modely dosáhly nejlepšího (tj. nejnižšího) výkonu na metrice MSE30, s vyloučením těch, které pro tuto metriku mají chybějící data?",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Jaká je průměrná hodnota MSE7 pro všechny modely, jejichž názvy začínají písmenem „M“?",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikujte model, který z hlediska výkonu jasně vybočuje, a vysvětlete, proč se odlišuje od ostatních.",
+    "answer": [
+      [
+        "Model 'GPT-4-Turbo' je výraznou odlehlou hodnotou. Jeho hodnoty střední kvadratické chyby (MSE) napříč všemi predikčními horizonty (od 2.198 do 11.824) jsou dramaticky vyšší než u všech ostatních modelů, které jsou obecně pod 2.0 a často i pod 1.0. To naznačuje podstatně nižší přesnost predikce, což činí jeho výkon anomálií v tomto datovém souboru."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Jaká je celková hodnota MSE (MSE_over) pro model, který má druhou nejnižší hodnotu MSE3?",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Vyjmenujte všechny modely, které mají hodnotu MSE15 pod 0.3 A hodnotu MSE30 pod 0.2.",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište trend predikční chyby pro model 'HTML' s prodlužováním predikčního horizontu ze 3 na 30 dní.",
+    "answer": [
+      [
+        "U modelu 'HTML' predikční chyba, měřená střední kvadratickou chybou (MSE), soustavně klesá s prodlužováním predikčního horizontu. MSE klesá z 0.845 u 3 dnů na 0.349 u 7 dnů, 0.251 u 15 dnů a nakonec na 0.158 u 30 dnů. To naznačuje, že predikce modelu jsou přesnější pro dlouhodobější předpovědi."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Jaké procento z celkové chyby MSE3, sečtené napříč všemi modely, připadá na model 'GPT-4-Turbo'? Zaokrouhlete na dvě desetinná místa.",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud by se hodnota MSE15 modelu 'Classical Method' zlepšila (snížila) o 10 %, jaké by bylo jeho nové pořadí pro tuto metriku ve srovnání s ostatními modely?",
+    "answer": [
+      [
+        "Pokud by se hodnota MSE15 modelu 'Classical Method' ve výši 0.330 snížila o 10 %, nová hodnota by byla 0.297. Původní pořadí pro MSE15 je: AMA-LSTM (0.230), ECC Analyzer (0.237), HTML (0.251), MRDM (0.300), MT-LSTM-ATT (0.304), HAN (Glove) (0.308), LSTM (0.320), Classical Method (0.330), GPT-4-Turbo (7.959). Nová hodnota 0.297 by ho zařadila mezi HTML a MRDM, čímž by se jeho pořadí posunulo z 8. na 4. nejlepší."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud vyloučíme odlehlou hodnotu 'GPT-4-Turbo', existuje zřetelný vztah mezi výkonem modelu v celkové metrice MSE (MSE_over) a jeho výkonem v 7denní předpovědi (MSE7)?",
+    "answer": [
+      [
+        "Ano, zdá se, že existuje pozitivní korelace. Obecně platí, že modely s nižším (lepším) celkovým MSE mají také nižší MSE7. Například 'ECC Analyzer' a 'HTML' mají dvě nejnižší celková skóre MSE (0.314 a 0.401) a zároveň dvě nejnižší skóre MSE7 (0.306 a 0.349). Naopak modely jako 'MT-LSTM-ATT' a 'LSTM' mají v této skupině nejvyšší celková skóre MSE (0.739 a 0.746) a zároveň mají relativně vysoká skóre MSE7 (0.435 a 0.459). To naznačuje, že celková prediktivní síla modelu je konzistentní napříč těmito dvěma specifickými metrikami."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Který model v tabulce má nejvíce neúplných dat, vyznačených záznamy '/'?",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

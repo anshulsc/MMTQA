@@ -1,0 +1,289 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Quali modelli hanno ottenuto le migliori (cioè più basse) prestazioni sulla metrica MSE30, escludendo quelli con dati mancanti per quella metrica?",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Qual è il valore medio di MSE7 per tutti i modelli i cui nomi iniziano con la lettera 'M'?",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica il modello che è un chiaro outlier in termini di prestazioni e spiega perché si distingue dagli altri.",
+    "answer": [
+      [
+        "Il modello 'GPT-4-Turbo' è un outlier significativo. I suoi valori di Errore Quadratico Medio su tutti gli orizzonti di previsione (da 2.198 a 11.824) sono drasticamente più alti di quelli di tutti gli altri modelli, che sono generalmente inferiori a 2.0 e spesso inferiori a 1.0. Ciò indica una precisione di previsione sostanzialmente inferiore, rendendo le sue prestazioni un'anomalia in questo dataset."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Qual è il valore MSE complessivo (MSE_over) per il modello che ha il secondo punteggio MSE3 più basso?",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Elenca tutti i modelli che hanno un valore MSE15 inferiore a 0.3 E un valore MSE30 inferiore a 0.2.",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento dell'errore di previsione per il modello 'HTML' man mano che l'orizzonte di previsione si estende da 3 a 30 giorni.",
+    "answer": [
+      [
+        "Per il modello 'HTML', l'errore di previsione, misurato come Errore Quadratico Medio (MSE), diminuisce costantemente all'aumentare dell'orizzonte di previsione. L'MSE scende da 0.845 a 3 giorni, a 0.349 a 7 giorni, 0.251 a 15 giorni e infine a 0.158 a 30 giorni. Ciò indica che le previsioni del modello diventano più accurate per le previsioni a lungo termine."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Quale percentuale dell'errore MSE3 totale, sommato su tutti i modelli, è attribuita al modello 'GPT-4-Turbo'? Arrotondare a due cifre decimali.",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Se il valore MSE15 del modello 'Metodo Classico' fosse migliorato (diminuito) del 10%, quale sarebbe la sua nuova posizione in classifica per quella metrica rispetto agli altri modelli?",
+    "answer": [
+      [
+        "Se il valore MSE15 del modello 'Metodo Classico', pari a 0.330, fosse diminuito del 10%, il nuovo valore sarebbe 0.297. La classifica originale per MSE15 è: AMA-LSTM (0.230), ECC Analyzer (0.237), HTML (0.251), MRDM (0.300), MT-LSTM-ATT (0.304), HAN (Glove) (0.308), LSTM (0.320), Classical Method (0.330), GPT-4-Turbo (7.959). Il nuovo valore di 0.297 lo posizionerebbe tra HTML e MRDM, spostando la sua posizione dalla 8ª alla 4ª migliore."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "Escludendo il valore anomalo 'GPT-4-Turbo', esiste una relazione evidente tra le prestazioni di un modello sulla metrica MSE complessiva (MSE_over) e le sue prestazioni sulla previsione a 7 giorni (MSE7)?",
+    "answer": [
+      [
+        "Sì, sembra esserci una correlazione positiva. In generale, i modelli con un MSE complessivo più basso (migliore) hanno anche un MSE7 più basso. Ad esempio, 'ECC Analyzer' e 'HTML' hanno i due punteggi MSE complessivi più bassi (0.314 e 0.401) e anche due dei punteggi MSE7 più bassi (0.306 e 0.349). Al contrario, modelli come 'MT-LSTM-ATT' e 'LSTM' hanno i punteggi MSE complessivi più alti (0.739 e 0.746) tra questo gruppo e hanno anche punteggi MSE7 relativamente alti (0.435 e 0.459). Ciò suggerisce che la capacità predittiva generale di un modello è coerente tra queste due metriche specifiche."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "Quale modello nella tabella presenta i dati più incompleti, indicati dalle voci '/'?",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

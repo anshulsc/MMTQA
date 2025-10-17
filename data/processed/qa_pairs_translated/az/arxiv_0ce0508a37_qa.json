@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hansı bazar təsir parametri digərinin dəqiq iki dəfə qiymətinə malikdir?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Verilən mümkün dəyərlər dəstinə əsasən 'Qeyri-xəttilik parametri' üçün orta dəyər nədir?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "“Market Dynamics” altında sadalanan ən çox sayda fərqli dəyərə malik parametr üçün simvol nədir?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "'İlkin dəyişkənlik', 'Uzunmüddətli dəyişkənlik' və 'Orta dəyişmə sürəti' dəyərlərinə əsasən, modelin zamanla dəyişkənlik davranışı haqqında nə nəticə çıxarmaq olar?",
+    "answer": [
+      [
+        "Model orta dəyişən dəyişkənlik nümayiş etdirir. 'Uzunmüddətli dəyişkənlik' 0.3-də fiks olunub, bu da bir dayaq rolunu oynayır. 'İlkin dəyişkənlik' daha yüksək (0.4), daha aşağı (0.2) və ya uzunmüddətli səviyyədə (0.3) başlaya bilər. Başlanğıc nöqtəsindən asılı olmayaraq, dəyişkənliyin zamanla 0.3-ə doğru sürüşməsi gözlənilir, bu prosesin sürətini 2.0 olan 'Orta dəyişmə sürəti' tənzimləyir. Bu, yüksək və ya aşağı dəyişkənlik dövrlərinin daimi olmadığı anlamına gəlir."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'Market Dynamics' kateqoriyası altında çoxsaylı mümkün dəyərlər dəsti kimi təqdim olunan, sadalanan bütün dəyərlərin qeyri-mənfi olduğu bütün parametrləri sadalayın.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Əgər 'Risklərin qəbul edilməməsi' risk dözümlülüyünün tərsi kimi müəyyən olunursa və həm 'Daimi təsir' həm də 'Müvəqqəti təsir' dəyərləri 10 dəfə artsa, onda 'Müvəqqəti təsir əmsalı'nın 'Risklərin qəbul edilməməsi'nə olan yeni nisbəti nə olacaq?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Əgər 'Mean reversion speed' 50% azalsaydı və 'Volatility of variance' dəyərləri hər ikisi 0.1 artsaydı, 'Mean reversion speed' və maksimum 'Volatility of variance' dəyərinin yeni cəmi nə qədər olardı?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Cədvəldə 'Korrelasiya' dəyəri -0.7 kimi göstərilib. Maliyyə modelində, bu güclü mənfi dəyər, aktivin qiyməti ilə onun dəyişkənliyi arasındakı münasibətə dair adətən nəyi nəzərdə tutur?",
+    "answer": [
+      [
+        "-0.7 korrelasiyası güclü tərs əlaqəni göstərir, bu tez-tez qaldırac effekti adlandırılır. Bu, aktivin qiyməti azaldıqca, onun dəyişkənliyinin artması, əksinə, aktivin qiyməti artdıqca, onun dəyişkənliyinin azalması tendensiyasını nəzərdə tutur. Bu, real aktiv qiymətlərinin modelləşdirilməsi və törəmə qiymətləndirilməsi üçün vacib bir xüsusiyyətdir."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Cədvəldə neçə parametr birbaşa sabit bir dəyər yerinə çoxlu mümkün dəyərlər dəsti ilə müəyyən edilir?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Hansı parametr tək bir parametrdir ki, onun dəyəri mənfi olan yeganədir?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

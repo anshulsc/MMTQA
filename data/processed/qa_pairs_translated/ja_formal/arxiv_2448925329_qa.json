@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "R二乗値によって示される、最もモデル適合度の高いデータセットはどれですか？",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "BTC/USDに関連する全データセットの平均尖度値はいくつですか？",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "最も低い正のR2値を記録したモデルのダービン・ワトソン統計量はいくつですか？",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "時間間隔が1秒から10秒に増加したとき、LUNA/USDデータセットにおけるR-squaredによって測定されるモデルの説明力はどのように変化しますか？",
+    "answer": [
+      [
+        "R-squared値によって示されるLUNA/USDモデルの説明力は、1秒間隔の場合の0.036から10秒間隔の場合の0.274へと著しく増加します。これは7倍以上の増加に相当し、より長い期間における価格変動を説明する上で、モデルが格段に有効であることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "モデルの残差が負の歪度（歪度 < 0）を示し、かつダービン・ワトソン統計量が2より大きく負の自己相関を示唆している、全てのデータセットを列挙してください。",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "全F統計量の合計のうち、10秒間隔のモデルが占める割合はどのくらいですか？",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "「BTC/USD OFI vs ΔP 10s」モデルの尖度が、他の全モデルの尖度の平均値に調整された場合、その新しい値はいくつになりますか？",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "モデルのF統計量とJarque-Bera（JB）統計量の間には一貫した関係がありますか？パターンを分析してください。",
+    "answer": [
+      [
+        "F統計量とJarque-Bera（JB）統計量の間に、一貫した明確な関係はありません。例えば、最も高いF統計量（15890.0）を持つモデルのJB統計量は6560.394ですが、2番目に低いF統計量（137.0）を持つモデルのJB統計量は816.435と、はるかに小さい値です。しかし、最も低いF統計量（70.87）を持つモデルは、最も高いJB統計量（10204.282）を示しています。このことは、モデル全体の有意性（F統計量）とその残差の正規性（JB統計量）が、このデータセットにおいて直接的に相関しているわけではないことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "「Dataset」識別子を除くと、桁数（最小から最大まで）を考慮した場合、最も広い値の範囲を含む列はどれですか？",
+    "answer": [
+      [
+        "「Prob(JB)」列が、桁数の観点から最も広い値の範囲を示しています。この列には、0.0（実質的に無限小）のように小さな値から、4.26e-263、1.93e-57、5.17e-178、および9.05e-92のように大きな値までが含まれており、数百桁ものオーダーにわたる非常に広範な値域をカバーしています。これは他のどの数値列よりもはるかに大きな範囲です。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "次に高いJB値の5倍を上回る外れ値であるJarque-Bera (JB) 統計量を有するデータセットはどれでしょうか。",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

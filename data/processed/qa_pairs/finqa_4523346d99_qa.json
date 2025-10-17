@@ -1,0 +1,191 @@
+[
+  {
+    "question_id": "finqa_4523346d99_001",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Which component of debt, 'long-term debt due within one year' or 'long-term debt', experienced a higher percentage growth from 2006 to 2007?",
+    "answer": [
+      [
+        "long-term debt due within one year"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_002",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "What was the combined total of 'long-term debt' and 'equity' in 2007, in millions of dollars?",
+    "answer": [
+      [
+        "25307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_4523346d99_003",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "By how many millions of dollars did the increase in 'total debt' from 2006 to 2007 surpass the decrease in 'cash' over the same period?",
+    "answer": [
+      [
+        "2297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_004",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the change in the company's liquidity, considering both 'cash' and 'trusteed funds', from 2006 to 2007.",
+    "answer": [
+      [
+        "The company's liquidity position significantly worsened from 2006 to 2007. 'Cash' decreased by 53.6% (from $2585M to $1199M) and 'trusteed funds from revenue bonds' decreased by 63.0% (from $2013M to $744M). The combined liquid assets fell from $4598M to $1943M, a reduction of nearly 58%, indicating a substantial decrease in readily available funds."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_005",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "List all financial items from the primary balance sheet section (rows 1-6) that had a value greater than $6,000 million in 2007.",
+    "answer": [
+      [
+        "long-term debt"
+      ],
+      [
+        "total debt"
+      ],
+      [
+        "equity"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_006",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "What was the company's debt-to-equity ratio in 2006? Calculate this by dividing 'total debt' by 'equity' and express the result as a decimal rounded to two places.",
+    "answer": [
+      [
+        "0.24"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_4523346d99_007",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "If the company's 'equity' in 2007 had been 15% higher, what would the new value for 'total debt plus equity minus cash' have been for that year, assuming all other values remained constant?",
+    "answer": [
+      [
+        "27378.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B12",
+      "B13",
+      "B14",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_008",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the simultaneous and substantial increase in both 'total debt' and 'equity' from 2006 to 2007, what can be inferred about the company's financial strategy during this period?",
+    "answer": [
+      [
+        "The simultaneous and large increase in both total debt (from $3,532M to $7,215M) and equity (from $14,607M to $19,223M) suggests that the company was pursuing an aggressive growth or expansion strategy. It was actively raising significant capital from both debt and equity markets. This is often done to fund major investments, projects, or acquisitions. The significant jump in the cash-adjusted debt-to-capital ratio from 6% to 22% further indicates a strategic shift towards higher leverage to fuel this growth."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B6",
+      "C6",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_4523346d99_009",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Which label in the 'calculation' section (rows 8-16) is a direct duplication of a label from the main financial statement section (rows 1-6)?",
+    "answer": [
+      [
+        "total debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A8",
+      "A12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_010",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Which calculated financial metric showed the most extreme relative increase from 2006 to 2007, making it a notable outlier?",
+    "answer": [
+      [
+        "The 'total debt minus cash' metric is the most significant outlier. It increased from $947 million in 2006 to $5,272 million in 2007, which represents a growth of over 456%. This far outpaces the percentage change of any other metric listed, including the 267% increase in the 'cash-adjusted debt-to-capital ratio', indicating a dramatic rise in the company's net debt position."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

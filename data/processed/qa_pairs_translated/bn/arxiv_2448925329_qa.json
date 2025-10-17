@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "R-squared মান দ্বারা নির্দেশিত কোন ডেটাসেটটি সবচেয়ে শক্তিশালী মডেল ফিট দেখায়?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "BTC/USD-এর সাথে জড়িত সমস্ত ডেটাসেটের জন্য গড় Kurtosis মান কত?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "সবচেয়ে কম ধনাত্মক R-squared মান যুক্ত মডেলটির জন্য, তার সংশ্লিষ্ট ডারবিন-ওয়াটসন পরিসংখ্যান কত?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "LUNA/USD ডেটাসেটের জন্য, যখন সময়সীমা 1s থেকে 10s-এ বৃদ্ধি করা হয়, তখন মডেলের ব্যাখ্যামূলক ক্ষমতা (R-squared দ্বারা পরিমাপ করা) কীভাবে পরিবর্তিত হয়?",
+    "answer": [
+      [
+        "LUNA/USD মডেলের ব্যাখ্যামূলক ক্ষমতা, যা R-squared মান দ্বারা নির্দেশিত, 1-সেকেন্ডের ব্যবধানের জন্য 0.036 থেকে 10-সেকেন্ডের ব্যবধানের জন্য 0.274 পর্যন্ত উল্লেখযোগ্যভাবে বৃদ্ধি পায়। এটি সাত গুণেরও বেশি বৃদ্ধি নির্দেশ করে, যা মডেলটিকে দীর্ঘ সময়সীমার মধ্যে দামের পরিবর্তন ব্যাখ্যা করতে উল্লেখযোগ্যভাবে বেশি কার্যকর করে তোলে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "যে ডেটাসেটগুলিতে মডেলের অবশিষ্টাংশ ঋণাত্মকভাবে স্কিউড (Skew < 0) এবং ডারবিন-ওয়াটসন পরিসংখ্যান 2 এর বেশি, যা ঋণাত্মক অটোকোরিলেশন নির্দেশ করে, সেগুলির তালিকা দিন।",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "10 সেকেন্ডের ব্যবধানযুক্ত মডেলগুলি দ্বারা মোট F-পরিসংখ্যানের কত আনুপাতিক অংশ দায়ি?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "'BTC/USD OFI vs ΔP 10s' মডেলের জন্য Kurtosis যদি অন্য সব মডেলের গড় Kurtosis-এ সামঞ্জস্য করা হত, তাহলে এর নতুন মান কত হত?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "মডেলের F-পরিসংখ্যান এবং এর Jarque-Bera (JB) পরিসংখ্যানের মধ্যে কি কোনও সামঞ্জস্যপূর্ণ সম্পর্ক আছে? প্যাটার্নটি বিশ্লেষণ করুন।",
+    "answer": [
+      [
+        "F-পরিসংখ্যান এবং Jarque-Bera (JB) পরিসংখ্যানের মধ্যে কোনও সামঞ্জস্যপূর্ণ, সুস্পষ্ট সম্পর্ক নেই। উদাহরণস্বরূপ, সর্বোচ্চ F-পরিসংখ্যান (15890.0) সহ মডেলটির JB পরিসংখ্যান হল 6560.394, যেখানে দ্বিতীয় সর্বনিম্ন F-পরিসংখ্যান (137.0) সহ মডেলটির JB অনেক কম (816.435)। তবে, সর্বনিম্ন F-পরিসংখ্যান (70.87) সহ মডেলটির সর্বোচ্চ JB পরিসংখ্যান (10204.282) রয়েছে। এটি নির্দেশ করে যে এই ডেটাসেটে মডেলের সামগ্রিক তাৎপর্য (F-পরিসংখ্যান) এবং এর অবশিষ্টাংশের স্বাভাবিকতা (JB পরিসংখ্যান) সরাসরি সম্পর্কিত নয়।"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "'Dataset' শনাক্তকারী বাদ দিয়ে, কোন কলামে মানের সবচেয়ে বড় পার্থক্য (ছোট থেকে বড় ক্রমে) দেখা যায়?",
+    "answer": [
+      [
+        "The 'Prob(JB)' column shows the widest range of values by order of magnitude. It contains values as small as 0.0 (effectively infinitesimal) and values as large as 4.26e-263, 1.93e-57, 5.17e-178, and 9.05e-92, spanning many hundreds of orders of magnitude, far greater than any other numerical column."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "কোন ডেটাসেটের Jarque-Bera (JB) পরিসংখ্যানটি একটি আউটলায়ার, যা পরবর্তী সর্বোচ্চ JB মানের চেয়ে 5 গুণের বেশি?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

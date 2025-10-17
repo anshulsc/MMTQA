@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "finqa_ca8448c9ff_001",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Which loan category, excluding purchase accounting adjustments, experienced the largest absolute decrease in value from 2012 to 2013?",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 purchased impaired loans ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_002",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "By adding the individual loan components for 2013 (excluding adjustments), what is the calculated total value in millions?",
+    "answer": [
+      [
+        "51628"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_003",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "What was the 2013 value for the loan category that showed the greatest percentage decrease from its 2012 level?",
+    "answer": [
+      [
+        "$ 1704"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_004",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the overall trend for the 'total home equity and residential real estate loans ( a )' from year-end 2012 to year-end 2013.",
+    "answer": [
+      [
+        "The total home equity and residential real estate loans experienced a slight increase, growing from $51,160 million at the end of 2012 to $51,512 million at the end of 2013. This represents a marginal growth of approximately 0.69% in the overall portfolio."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_005",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Identify all loan categories that had a value exceeding $6,000 million in 2012 and also experienced a decrease in value by 2013.",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 purchased impaired loans ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_006",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "What percentage of the 'total home equity and residential real estate loans ( a )' for December 31, 2013, was comprised of 'purchased impaired loans'?",
+    "answer": [
+      [
+        "10.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_007",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "If the value of 'home equity and residential real estate loans 2013 purchased impaired loans ( b )' had remained at its 2012 level, what would the new 'total home equity and residential real estate loans ( a )' have been for 2013, assuming no other changes?",
+    "answer": [
+      [
+        "$ 52602"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_008",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data, what is the apparent relationship between the growth of standard residential real estate loans (excluding impaired) and the balances of impaired and government-insured loans between 2012 and 2013?",
+    "answer": [
+      [
+        "There appears to be an inverse relationship. The standard 'home equity and residential real estate loans' portfolio grew by $1,651 million, while both the 'purchased impaired loans' and 'government insured' categories decreased significantly (by $1,090 million and $575 million, respectively). This suggests a strategic shift towards growing the core portfolio while reducing exposure to impaired and government-backed assets."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_009",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Which loan component's year-over-year change had the largest absolute impact on the composition of the total loan portfolio?",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 excluding purchased impaired loans ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_010",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "How many line items in the table explicitly reference 'purchased impaired loans' in their description?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

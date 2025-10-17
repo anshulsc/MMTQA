@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "ชุดข้อมูลใดที่แสดงความเหมาะสมของแบบจำลองที่แข็งแกร่งที่สุดตามที่ระบุโดยค่า R-squared?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "ค่า Kurtosis เฉลี่ยสำหรับชุดข้อมูลทั้งหมดที่เกี่ยวข้องกับ BTC/USD คือเท่าไร?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "สำหรับแบบจำลองที่มีค่า R-squared ที่เป็นบวกต่ำที่สุด สถิติ Durbin-Watson ที่เกี่ยวข้องคือเท่าใด?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "อำนาจในการอธิบายของโมเดล ซึ่งวัดโดย R-squared เปลี่ยนแปลงไปอย่างไรสำหรับชุดข้อมูล LUNA/USD เมื่อช่วงเวลาเพิ่มขึ้นจาก 1 วินาที เป็น 10 วินาที?",
+    "answer": [
+      [
+        "อำนาจในการอธิบายของโมเดล LUNA/USD ซึ่งระบุโดยค่า R-squared เพิ่มขึ้นอย่างมีนัยสำคัญจาก 0.036 สำหรับช่วงเวลา 1 วินาที เป็น 0.274 สำหรับช่วงเวลา 10 วินาที ซึ่งคิดเป็นการเพิ่มขึ้นมากกว่าเจ็ดเท่า แสดงให้เห็นว่าโมเดลมีประสิทธิภาพมากขึ้นอย่างมากในการอธิบายการเปลี่ยนแปลงราคาในช่วงเวลาที่ยาวนานขึ้น"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "แสดงชุดข้อมูลทั้งหมดที่ค่า residuals ของแบบจำลองมีความเบ้เป็นลบ (ค่า Skew < 0) และค่าสถิติ Durbin-Watson มีค่ามากกว่า 2 ซึ่งบ่งชี้ถึงภาวะ autocorrelation เชิงลบ",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "สัดส่วนเท่าใดของผลรวม F-statistic ทั้งหมดที่อธิบายได้โดยโมเดลที่มีช่วงเวลา 10 วินาที?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "ถ้าค่า Kurtosis สำหรับโมเดล 'BTC/USD OFI vs ΔP 10s' ถูกปรับให้เป็นค่า Kurtosis เฉลี่ยของโมเดลอื่นๆ ทั้งหมด ค่าใหม่ของมันจะเป็นเท่าใด?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "มีความสัมพันธ์ที่สอดคล้องกันระหว่างค่า F-statistic ของแบบจำลองและค่า Jarque-Bera (JB) statistic หรือไม่? วิเคราะห์รูปแบบดังกล่าว",
+    "answer": [
+      [
+        "ไม่มีความสัมพันธ์ที่สอดคล้องหรือชัดเจนระหว่างค่า F-statistic และค่า Jarque-Bera (JB) statistic ตัวอย่างเช่น แบบจำลองที่มีค่า F-statistic สูงสุด (15890.0) มีค่า JB statistic เท่ากับ 6560.394 ในขณะที่แบบจำลองที่มีค่า F-statistic ต่ำสุดเป็นอันดับสอง (137.0) มีค่า JB ที่น้อยกว่ามากคือ 816.435 อย่างไรก็ตาม แบบจำลองที่มีค่า F-statistic ต่ำสุด (70.87) กลับมีค่า JB statistic สูงสุด (10204.282) สิ่งนี้ชี้ให้เห็นว่าความมีนัยสำคัญโดยรวมของแบบจำลอง (F-statistic) และความเป็นปกติของค่าความคลาดเคลื่อน (residuals) (JB statistic) ไม่ได้มีความสัมพันธ์กันโดยตรงในชุดข้อมูลนี้"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "คอลัมน์ใดที่ไม่รวมตัวระบุ 'Dataset' มีช่วงค่าที่กว้างที่สุดเมื่อพิจารณาตามลำดับขนาด (จากเล็กที่สุดไปใหญ่ที่สุด)?",
+    "answer": [
+      [
+        "คอลัมน์ 'Prob(JB)' แสดงช่วงค่าที่กว้างที่สุดตามลำดับขนาด มีค่าที่เล็กที่สุดคือ 0.0 (ซึ่งถือว่าเล็กมากจนแทบไม่มีค่า) และค่าที่ใหญ่ที่สุดคือ 4.26e-263, 1.93e-57, 5.17e-178 และ 9.05e-92 ซึ่งครอบคลุมหลายร้อยลำดับขนาด และกว้างกว่าคอลัมน์ตัวเลขอื่นๆ อย่างมาก"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "ชุดข้อมูลใดมีค่าสถิติ Jarque-Bera (JB) ที่เป็นค่าผิดปกติ ซึ่งมากกว่าค่า JB ที่สูงเป็นอันดับถัดไปถึง 5 เท่า?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

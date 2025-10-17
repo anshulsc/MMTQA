@@ -1,0 +1,221 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "What was the total net change in 'shares outstanding' resulting from all 'stock repurchase programs' and 'issued on conversions of debentures' activities combined across all years?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Which year-over-year period (2008, 2009, or 2010) saw the smallest absolute change in the year-end balance of 'shares outstanding'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Identify the transaction that caused the largest single increase in 'shares outstanding', and then calculate the ratio of its 'in treasury' shares to its 'shares outstanding' value.",
+    "answer": [
+      [
+        "The transaction is 'acquisition of smith international inc.'. The ratio is approximately 0.432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the overall trend of the 'in treasury' share balance from the beginning of 2008 to the end of 2010.",
+    "answer": [
+      [
+        "The number of shares 'in treasury' shows a fluctuating but generally decreasing trend (becoming a smaller negative number). It started at -138, decreased slightly to -140 in 2008, recovered slightly to -139 in 2009, and then decreased significantly to -73 by the end of 2010, largely due to the shares associated with the Smith International Inc. acquisition."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "List all activities that occurred in 2008 (between the Jan 1 and Dec 31 balances) that had a positive impact on the number of 'shares outstanding'.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "What proportion of the final 'shares outstanding' balance on December 31, 2010, was added by the 'acquisition of smith international inc.' transaction?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "If the 'acquisition of smith international inc.' had not occurred in 2010, what would have been the year-end balance for 'shares outstanding' on December 31, 2010, assuming all other transactions remained the same?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there an observable relationship between the number of shares issued to optionees and the number issued under the employee stock purchase plan in the years presented? Explain.",
+    "answer": [
+      [
+        "There is no consistent relationship. In 2008, more shares were sold to optionees (5) than issued under the purchase plan (2). In 2009, the numbers were equal (4 and 4). In 2010, more shares were sold to optionees (6) than issued under the purchase plan (3). The ratio between the two varies each year, suggesting no direct correlation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Excluding balance rows, which column, 'issued', 'in treasury', or 'shares outstanding', contains the most non-numeric or inconsistent data entries?",
+    "answer": [
+      [
+        "The 'issued' column is the most inconsistent. While other columns contain numeric values (or a consistent format for negatives), the 'issued' column contains a mix of numbers that seem to represent balances ('1334', '1434', '100') and a repeating value '2013' which does not seem to correspond to a quantity for the transactions it's listed against."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Which single transaction stands out as an outlier by having the most significant positive impact on the 'shares outstanding' balance compared to the median impact of all other transactions?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

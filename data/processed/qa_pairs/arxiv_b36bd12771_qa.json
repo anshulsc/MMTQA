@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Which beta coefficient (\u03b2) shows the strongest statistical evidence of its effect, as indicated by the highest absolute t-value?",
+    "answer": [
+      [
+        "\u03b2\u2084"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "What is the average standard error for all the alpha (\u03b1) coefficients that are statistically significant at the p < 0.05 level?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "For the model component (indexed by the subscript number) whose \u03b2 coefficient has the widest 95% confidence interval, what is the p-value of the corresponding \u03b1 coefficient?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend of the \u03b2 coefficients' magnitudes as the subscript increases from 1 to 6. Is there a consistent pattern?",
+    "answer": [
+      [
+        "There is no consistent monotonic trend. The \u03b2 coefficients initially increase from \u03b2\u2081 (0.7208) to \u03b2\u2082 (0.8237), but then drop dramatically for \u03b2\u2083 (0.0025) and subsequent models. The values for the first two components are orders of magnitude larger than those for components 3 through 6, which are all very close to zero."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Identify all fitted models where the alpha (\u03b1) coefficient is both statistically insignificant (P-value > 0.4) AND has a standard error less than 0.03.",
+    "answer": [
+      [
+        "\u03b1\u2081"
+      ],
+      [
+        "\u03b1\u2083"
+      ],
+      [
+        "\u03b1\u2085"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "What percentage of all the fitted model coefficients (both \u03b1 and \u03b2) are statistically significant, defined as having a p-value less than 0.05?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "If the standard error for the \u03b1\u2081 model was halved, what would its new t-statistic be? Based on the relationship between t-statistics and p-values for other models in the table, is it likely this change would make the \u03b1\u2081 coefficient statistically significant (p < 0.05)?",
+    "answer": [
+      [
+        "The new t-statistic would be -1.593 (-0.0215 / (0.027 / 2)). This is unlikely to make the coefficient statistically significant. For comparison, the \u03b1\u2082 model has a t-statistic of -2.803 and a p-value of 0.005. A t-statistic with a smaller absolute value like -1.593 would have a higher p-value, likely remaining above the 0.05 threshold for significance, which typically requires an absolute t-value of around 2 or more."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the relationship between the magnitude of the \u03b2 coefficients and their corresponding t-statistics. Does a larger coefficient consistently lead to a larger t-statistic?",
+    "answer": [
+      [
+        "No, a larger \u03b2 coefficient does not consistently lead to a larger t-statistic. For example, \u03b2\u2082 has the largest coefficient (0.8237) but its t-statistic (8.418) is much smaller than that of \u03b2\u2084 (126.061), which has a very small coefficient (0.0041). The t-statistic is a ratio of the coefficient to its standard error, so a very small standard error can result in a very large t-statistic even for a small coefficient, as seen with models \u03b2\u2083 through \u03b2\u2086."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on statistical principles, a 95% confidence interval that does not contain zero should correspond to a p-value less than 0.05. Are there any fitted model coefficients in the table where the confidence interval and p-value are inconsistent with this principle?",
+    "answer": [
+      [
+        "No, all coefficients in the table show consistency between their p-value and 95% confidence interval. All coefficients with a p-value less than 0.05 (e.g., \u03b2\u2081, \u03b1\u2082, \u03b2\u2082) have a confidence interval that does not span zero. Conversely, all coefficients with a p-value greater than 0.05 (e.g., \u03b1\u2081, \u03b1\u2083, \u03b1\u2084) have a confidence interval that does include zero."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Which alpha (\u03b1) coefficient's t-statistic is the most significant outlier when compared to the t-statistics of the other alpha coefficients?",
+    "answer": [
+      [
+        "\u03b1\u2086, with a t-statistic of 7.305, is the most significant outlier. The other alpha t-statistics are -0.787, -2.803, -0.269, 0.013, and 0.729. Most of these values are clustered between -3 and 1. The value 7.305 is much larger in magnitude and is the only large positive value, making it stand out significantly from the rest of the group."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

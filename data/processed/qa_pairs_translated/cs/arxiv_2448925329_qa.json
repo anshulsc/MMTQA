@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Která datová sada vykazuje nejsilnější shodu modelu, jak naznačuje hodnota R-kvadrát?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Jaká je průměrná hodnota Kurtosis pro všechny datové sady zahrnující BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Jaká je odpovídající Durbin-Watsonova statistika pro model s nejnižší kladnou hodnotou R-kvadrátu?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak se mění vysvětlující síla modelu, měřená R-kvadrátem, pro datovou sadu LUNA/USD, když se časový interval zvýší z 1s na 10s?",
+    "answer": [
+      [
+        "Vysvětlující síla modelu LUNA/USD, indikovaná hodnotou R-kvadrátu, se významně zvyšuje z 0,036 pro 1sekundový interval na 0,274 pro 10sekundový interval. To představuje více než sedminásobné zvýšení, což naznačuje, že model je podstatně efektivnější při vysvětlování změn cen v delším časovém rámci."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Uveďte všechny datasety, kde jsou rezidua modelu záporně šikmá (Šikmost < 0) a Durbin-Watsonova statistika je větší než 2, což naznačuje zápornou autokorelaci.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Jaký podíl z celkového součtu všech F-statistik představují modely s intervalem 10s?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Kdyby byla špičatost pro model 'BTC/USD OFI vs ΔP 10s' upravena na průměrnou špičatost všech ostatních modelů, jaká by byla její nová hodnota?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje konzistentní vztah mezi F-statistikou modelu a jeho Jarque-Bera (JB) statistikou? Analyzujte vzorec.",
+    "answer": [
+      [
+        "Mezi F-statistikou a Jarque-Bera (JB) statistikou neexistuje konzistentní, jednoznačný vztah. Například model s nejvyšší F-statistikou (15890.0) má JB statistiku 6560.394, zatímco model s druhou nejnižší F-statistikou (137.0) má mnohem menší JB hodnotu 816.435. Nicméně, model s nejnižší F-statistikou (70.87) má nejvyšší JB statistiku (10204.282). To naznačuje, že celková významnost modelu (F-statistika) a normalita jeho reziduí (JB statistika) spolu v tomto datovém souboru přímo nekorelují."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Který sloupec, s vyloučením identifikátoru 'Dataset', obsahuje nejširší rozsah hodnot při zohlednění řádu velikosti (od nejmenšího po největší)?",
+    "answer": [
+      [
+        "Sloupec 'Prob(JB)' vykazuje nejširší rozsah hodnot z hlediska řádu velikosti. Obsahuje hodnoty tak malé jako 0.0 (efektivně nekonečně malé) a hodnoty tak velké jako 4.26e-263, 1.93e-57, 5.17e-178 a 9.05e-92, pokrývající mnoho stovek řádů velikosti, což je daleko více než kterýkoli jiný číselný sloupec."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Která datová sada má statistiku Jarque-Bera (JB), která je odlehlou hodnotou a je více než 5krát větší než další nejvyšší hodnota JB?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

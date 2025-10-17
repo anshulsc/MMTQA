@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "wikisql_406d6d4609_001",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Which driver achieved the largest margin of victory, and what was that margin?",
+    "answer": [
+      [
+        "Clint Bowyer",
+        "6.469 sec"
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "I12",
+      "I1",
+      "I3",
+      "I4",
+      "I5",
+      "I7",
+      "I8",
+      "I9",
+      "I13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_002",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "How many victories listed in this dataset were achieved by Hendrick Motorsports?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "G4",
+      "G8",
+      "G10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_003",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "Identify all winning drivers who drove the most frequently victorious car make in this dataset.",
+    "answer": [
+      [
+        "Joe Nemechek"
+      ],
+      [
+        "Jimmie Johnson"
+      ],
+      [
+        "Robby Gordon"
+      ],
+      [
+        "Kyle Busch"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "C2",
+      "C4",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_004",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "What car make won the earliest race recorded in this dataset, and what make won the most recent one?",
+    "answer": [
+      [
+        "Pontiac Grand Prix",
+        "Toyota Camry"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "F9",
+      "A13",
+      "F13",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_005",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "List the drivers who won for Penske Racing in a season after the year 2000.",
+    "answer": [
+      [
+        "Ryan Newman"
+      ],
+      [
+        "Kurt Busch"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "G1",
+      "A11",
+      "C11",
+      "G11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_006",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "What percentage of the races in this dataset were won by a Chevrolet (any model)?",
+    "answer": [
+      [
+        "46.15%"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "F4",
+      "F7",
+      "F8",
+      "F10",
+      "F12",
+      "F1",
+      "F3",
+      "F5",
+      "F6",
+      "F9",
+      "F11",
+      "F13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_007",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "If the race win from 2008 was removed from the dataset, which team would then have the most wins under caution ('UC')?",
+    "answer": [
+      [
+        "The remaining teams with wins 'Under Caution' would be Team SABCO, Roush Racing, and Hendrick Motorsports, each with one such win. Therefore, there would be a three-way tie for the most wins under caution."
+      ]
+    ],
+    "evidence_cells": [
+      "G2",
+      "I2",
+      "G6",
+      "I6",
+      "G10",
+      "I10",
+      "G11",
+      "I11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_008",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data, does a specific sponsor appear to be exclusively associated with a single racing team? Provide an example to support your conclusion.",
+    "answer": [
+      [
+        "No, sponsors do not appear to be exclusively associated with a single team. For example, 'Lowe\\'s' is listed as a sponsor for both Hendrick Motorsports (in 2003) and Richard Childress Racing (in 2001)."
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "G4",
+      "E7",
+      "G7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_009",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Which two columns in the dataset have significant data quality issues in the form of placeholders or non-standardized entries, and what are those issues?",
+    "answer": [
+      [
+        "The 'Avg Speed' and 'Margin of Victory' columns have data quality issues. 'Avg Speed' (Column H) contains only a placeholder 'mph (km/h)' for every entry instead of actual data. 'Margin of Victory' (Column I) contains non-standard text entries like 'UC' and 'UC/Called due to rain' mixed with numerical seconds, which prevents uniform quantitative analysis."
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "I2",
+      "I6",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_010",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "Which race victory stands out as an outlier in terms of its margin of victory compared to the other numerically recorded wins?",
+    "answer": [
+      [
+        "Clint Bowyer's 2007 victory is a significant outlier, with a margin of victory of 6.469 seconds. This is considerably larger than the next highest margin of 5.47 seconds and more than triple the average of the other numerical margins, suggesting an unusually dominant performance."
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "I12",
+      "I1",
+      "I3",
+      "I4",
+      "I5",
+      "I7",
+      "I8",
+      "I9",
+      "I13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

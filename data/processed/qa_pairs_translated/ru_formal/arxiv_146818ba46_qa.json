@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Какие модели предлагают суб-линейную масштабируемость, и в чем заключается ключевое различие в поддерживаемых ими функциях ('Pre-training', 'Multi-task')?",
+    "answer": [
+      [
+        "TimeMixer и PatchTST предлагают суб-линейную масштабируемость. Ключевое различие заключается в том, что TimeMixer поддерживает многозадачное обучение, в то время как PatchTST - нет; ни одна из моделей не использует предварительное обучение."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Каково общее количество моделей, поддерживающих либо предварительное обучение, либо многозадачное обучение, но не оба?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Определите основное применение модели, обладающей линейной масштабируемостью и средними вычислительными требованиями.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Если исследовательский проект развивается от требования модели для «Длинных последовательностей» до последующей необходимости в модели с «Гибкостью задач», какая модель будет подходящим выбором на втором этапе?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Перечислите модели, которые не используют предварительное обучение и обеспечивают сублинейную масштабируемость.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Какая доля от перечисленных моделей требует вычислительных ресурсов высокого уровня?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Если бы модель TimesNet была улучшена для поддержки предварительного обучения, какую из существующих моделей она бы тогда наиболее точно напоминала по своим характеристикам (предварительное обучение, многозадачность, вычисления, масштабируемость)?",
+    "answer": [
+      [
+        "Улучшенная TimesNet не будет в точности напоминать ни одну другую модель. Хотя она будет обладать общими чертами предварительного обучения, многозадачности и линейной масштабируемости с Timer и MOMENT, ее «Средние» вычислительные ресурсы все же будут отличать ее от их «Высоких» вычислительных требований."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Существует ли заметная корреляция между масштабируемостью модели и ориентацией ее основного применения на длину последовательности или гибкость?",
+    "answer": [
+      [
+        "Да, похоже, что корреляция существует. Модели с более эффективной 'Сублинейной' масштабируемостью (TimeMixer, PatchTST) связаны с приложениями, включающими сложные паттерны или длинные последовательности ('Multiscale Patterns', 'Long Sequences'). Напротив, модели с 'Линейной' масштабируемостью, как правило, применяются к задачам, требующим гибкости или обучения в условиях ограничений ('Few-shot Learning', 'Limited Supervision', 'Task Flexibility')."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "В каком столбце, помимо \"Model\", содержится наиболее разнообразный набор уникальных значений?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Какая модель является выбросом, не поддерживающим ни предварительное обучение, ни многозадачное обучение?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

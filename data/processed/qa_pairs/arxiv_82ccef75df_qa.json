@@ -1,0 +1,242 @@
+[
+  {
+    "question_id": "arxiv_82ccef75df_001",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "How many of the listed methods use an LLM from the 'Llama' family (e.g., Llama2, LLaMA-2, FinLlama, etc.)?",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_002",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Which application is supported by the most diverse set of listed data sources?",
+    "answer": [
+      [
+        "Financial sentiment analysis and return prediction"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_003",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "What is the data source for the method that employs the 'StockGPT' model?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_004",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "List the 'Method/Paper' entries that use a model with 'GPT' in its name AND are applied to predicting stock movements.",
+    "answer": [
+      [
+        "[25]"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "B1",
+      "D1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_005",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "What percentage of the listed methods have an application that explicitly involves 'prediction', 'predicting', or 'trends'?",
+    "answer": [
+      [
+        "55.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_006",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Which method uses a data source that is a uniquely named platform ('AlphaFin') rather than a general description of data types?",
+    "answer": [
+      [
+        "Stock-Chain framework [27]"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_007",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "If the creators of 'FinLlama [35]' incorporated 'S&P 500' and 'market indices' into their data, which existing application from the table would their project become most aligned with, and why?",
+    "answer": [
+      [
+        "The project would become most aligned with 'Predicting stock movements'. This is because the method '[25]' uses a very similar data combination ('S&P 500', 'financial reports', 'market indices') for that specific application, and FinLlama already uses 'Earnings reports'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_008",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the table, is there an observable relationship between the number of LLM models used and the number of data sources for a given method?",
+    "answer": [
+      [
+        "Yes, there appears to be a correlation. The methods that list multiple LLM models (Multimodal Gen-AI [9], Fine-tuning LLMs [8], [25]) also tend to use multiple, diverse data sources (4, 1, and 4 respectively). Conversely, methods that specify a single LLM often, though not always, use fewer or more focused data sources (e.g., Stock-Chain framework [27] or SAPPO [37]). This suggests that more complex, multi-model approaches may be designed to synthesize information from a wider array of data inputs."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_009",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Which column, 'LLM Model' or 'Data', contains more entries that list multiple distinct items (separated by commas or 'and')?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B5",
+      "C1",
+      "C3",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_010",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Identify all applications that are powered by a Llama-family model and trained on some form of 'news' data.",
+    "answer": [
+      [
+        "AI-assisted investment analysis"
+      ],
+      [
+        "Stock return prediction"
+      ],
+      [
+        "Financial sentiment analysis and return prediction"
+      ],
+      [
+        "Trading strategies"
+      ],
+      [
+        "Portfolio optimization"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

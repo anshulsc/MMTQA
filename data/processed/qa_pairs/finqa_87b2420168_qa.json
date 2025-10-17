@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_87b2420168_001",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "Which metric, measured in millions of dollars, showed the largest absolute decrease between December 2011 and July 2012?",
+    "answer": [
+      [
+        "deposits under the retrospective responsibility plan"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_002",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "Calculate the total monetary value (in millions) of the 'reduction in equivalent number of shares of class a common stock' for December 2011 using the effective price per share for that same period.",
+    "answer": [
+      [
+        "1526.25"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_87b2420168_003",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "What was the effective price per share in the period that had the lower 'conversion rate of class b common stock to class a common stock after deposits'?",
+    "answer": [
+      [
+        "$ 125.50"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_004",
+    "table_id": "finqa_87b2420168",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the trend in the company's stock valuation and structure between December 2011 and July 2012.",
+    "answer": [
+      [
+        "Between December 2011 and July 2012, the company's valuation appears to have increased, as indicated by the rise in effective price per share from $101.75 to $125.50. Concurrently, the equity structure saw consolidation, with the 'reduction in equivalent number of shares' dropping from 15 million to 1 million, and minor decreases in both the Class B conversion rate and the total 'as-converted class b common stock'."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_005",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "Of the metrics that had a lower value in July 2012 than in December 2011, which one is presented as a decimal rate rather than in millions of dollars or shares?",
+    "answer": [
+      [
+        "conversion rate of class b common stock to class a common stock after deposits"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_006",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "What was the percentage increase in the 'effective price per share' from December 2011 to July 2012?",
+    "answer": [
+      [
+        "23.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_87b2420168_007",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "If the 'deposits under the retrospective responsibility plan' in July 2012 had decreased by only 50% from the December 2011 level, what would the new deposit amount have been (in millions)?",
+    "answer": [
+      [
+        "$ 782.5"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_008",
+    "table_id": "finqa_87b2420168",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the two time periods shown, what is the apparent relationship between the 'effective price per share' and the 'as-converted class b common stock after deposits'?",
+    "answer": [
+      [
+        "The data suggests a possible inverse correlation. As the 'effective price per share' increased from $101.75 to $125.50 between December 2011 and July 2012, the 'as-converted class b common stock after deposits' slightly decreased from 104 million to 103 million. This indicates that as the stock became more valuable, the number of as-converted shares marginally declined."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_87b2420168_009",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "How many metrics in the table are explicitly stated to be related to 'class a common stock'?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_010",
+    "table_id": "finqa_87b2420168",
+    "question_type": "open_ended_reasoning",
+    "question": "Which metric shows an outlier change in magnitude when comparing its absolute change between the two periods to the absolute changes of all other metrics?",
+    "answer": [
+      [
+        "'deposits under the retrospective responsibility plan' is the distinct outlier. Its value decreased by $1415 million ($1565M - $150M), an absolute change far exceeding that of any other metric. For instance, the share price changed by only $23.75 and the number of shares changed by at most 14 million, making the change in deposits an order of magnitude larger."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

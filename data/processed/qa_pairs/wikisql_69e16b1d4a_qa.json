@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "wikisql_69e16b1d4a_001",
+    "table_id": "wikisql_69e16b1d4a",
+    "question_type": "value",
+    "question": "Which driver achieved more wins in this dataset, A.J. Foyt or Johnny Rutherford?",
+    "answer": [
+      [
+        "A.J. Foyt"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_69e16b1d4a_002",
+    "table_id": "wikisql_69e16b1d4a",
+    "question_type": "value",
+    "question": "How many unique teams are recorded as winners in this dataset?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_69e16b1d4a_003",
+    "table_id": "wikisql_69e16b1d4a",
+    "question_type": "value",
+    "question": "Identify the tire manufacturer used by the team with the most recorded wins in this dataset.",
+    "answer": [
+      [
+        "Goodyear"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "F2",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_69e16b1d4a_004",
+    "table_id": "wikisql_69e16b1d4a",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the chronological trend in the usage of different engine types from 1973 to 1979 based on the winning cars.",
+    "answer": [
+      [
+        "The data shows a clear shift in engine usage over time. The Offenhauser engine, which won in 1973 and 1976, does not appear in the winner's circle in later seasons. The Cosworth engine first appears as a winner in 1977 and is used in winning cars consistently through 1979. The Foyt engine also appears starting in 1976 and remains a winning engine type throughout the period. This indicates a decline for Offenhauser and a rise in prominence for Cosworth among winning teams."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8",
+      "A9",
+      "E9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_69e16b1d4a_005",
+    "table_id": "wikisql_69e16b1d4a",
+    "question_type": "value",
+    "question": "Which drivers won races using a Cosworth engine while driving for a team other than Team McLaren?",
+    "answer": [
+      [
+        "Tom Sneva"
+      ],
+      [
+        "Danny Ongais"
+      ],
+      [
+        "A.J. Foyt"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "E4",
+      "G4",
+      "C5",
+      "E5",
+      "G5",
+      "C6",
+      "E6",
+      "G6",
+      "C9",
+      "E9",
+      "G9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_69e16b1d4a_006",
+    "table_id": "wikisql_69e16b1d4a",
+    "question_type": "value",
+    "question": "What percentage of A.J. Foyt's total victories listed in this table were achieved with a Coyote chassis?",
+    "answer": [
+      [
+        "75%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_69e16b1d4a_007",
+    "table_id": "wikisql_69e16b1d4a",
+    "question_type": "value",
+    "question": "If Firestone had supplied the tires for every race winner in this dataset, how many wins would be newly attributed to them compared to what is actually recorded?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_69e16b1d4a_008",
+    "table_id": "wikisql_69e16b1d4a",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data for drivers with multiple wins, is there a discernible correlation between a winning driver and a specific chassis? Explain your reasoning.",
+    "answer": [
+      [
+        "Yes, a strong correlation exists. For instance, Johnny Rutherford's two victories were both achieved with a McLaren chassis, suggesting a consistent driver-chassis pairing for that team. Similarly, three of A.J. Foyt's four wins were in a Coyote chassis, indicating a primary pairing. While he also won with a Parnelli chassis, the data points towards drivers having a high affinity or preference for a particular chassis for their victories."
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_69e16b1d4a_009",
+    "table_id": "wikisql_69e16b1d4a",
+    "question_type": "value",
+    "question": "Which data column exhibits the least diversity, meaning it has the fewest number of unique values?",
+    "answer": [
+      [
+        "Tires"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_69e16b1d4a_010",
+    "table_id": "wikisql_69e16b1d4a",
+    "question_type": "value",
+    "question": "Which season represents a temporal outlier, having the largest time gap from the previously listed winning season in the dataset?",
+    "answer": [
+      [
+        "1976"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

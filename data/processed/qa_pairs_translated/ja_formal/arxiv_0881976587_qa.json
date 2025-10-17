@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_0881976587_001",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "ポートフォリオに記載されているすべての米国財務省証券の総額面金額はいくらですか。",
+    "answer": [
+      [
+        "20000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0881976587_002",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "記載されている2つの「先物契約」のうち、より多くの単位で保有されている原資産は何ですか。",
+    "answer": [
+      [
+        "Crude Oil"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_003",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "説明に基づいて、最も長い満期期間を持つ資産は何ですか？",
+    "answer": [
+      [
+        "10-year"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_004",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "保有数量が10,000単位以上の、債券以外の資産の説明をすべて列挙してください。",
+    "answer": [
+      [
+        "Exxon Mobil"
+      ],
+      [
+        "AT&T"
+      ],
+      [
+        "Long EUR/USD"
+      ],
+      [
+        "Short USD/JPY"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_005",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "最も多額の額面で保有されている通貨に関連する資産の種類は何ですか。",
+    "answer": [
+      [
+        "Currency Pair"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_006",
+    "table_id": "arxiv_0881976587",
+    "question_type": "value",
+    "question": "ポートフォリオのエクイティ保有がリストされた資産に限定されている場合、保有株式総数のうち、AT&Tに投資されている割合は何パーセントですか。",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0881976587_007",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "Exxon Mobilの株式数が25%減少し、金のオンス数が100%増加した場合、これらの2つの資産の新しい量はそれぞれどのようになりますか。",
+    "answer": [
+      [
+        "Exxon Mobilの新しい株式数は7,500株となり、金の新しい量は1,200オンスとなります。"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0881976587_008",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "資産の説明を分析して、ポートフォリオの株式と先物保有の間でどのような潜在的な投資戦略または相関関係が推測できますか？",
+    "answer": [
+      [
+        "エネルギーセクターに焦点を当てた潜在的な戦略が推測できます。ポートフォリオは、主要石油会社であるエクソンモービルの株式と、原油の先物契約の両方を保有しています。これは、投資家がエネルギー価格を投機しているか、同じセクターの株式ポジションをヘッジするために先物を使用している可能性がある、集中した投資テーマを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0881976587_009",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "すべての資産の額面数量を比較すると、数値的に際立っている保有資産はどれで、その理由は？",
+    "answer": [
+      [
+        "10,000,000 JPYの数量を持つ「USD/JPYショート」ポジションは、顕著な数値的異常値です。その数量は、次に大きい値（100,000 EUR）の100倍であり、600から10,000の範囲の他の保有資産よりも数桁大きいです。"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_0881976587_010",
+    "table_id": "arxiv_0881976587",
+    "question_type": "open_ended_reasoning",
+    "question": "どの列が最も多様なデータ型を含み、異なる通貨と測定単位を組み込んでいますか？",
+    "answer": [
+      [
+        "「数量/価値」列は、最も多様なデータ型を持っています。これには、米ドル（$）、物理的な商品単位（オンス、バレル）、株式数（株）、および異なる外国通貨（EUR、JPY）で表現された値が含まれます。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

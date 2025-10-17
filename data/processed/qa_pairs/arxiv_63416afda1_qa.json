@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "For the model that uses high-frequency order-level data, what type of prediction capability does it offer?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "If a project requires general forecasting through simulation, which model characteristic, besides its applicable task, makes it a better fit than the alternative?",
+    "answer": [
+      [
+        "MarS/LMM is a 'Large-scale foundation model' capable of 'Multi-step, sequence generation,' making it inherently more flexible and powerful for general simulation tasks compared to DeepLOB, which is described as a 'Small, handcrafted, and not scalable' model with 'Single-step or fixed-length' prediction."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the table, what is the inferred relationship between a model's scale and its prediction flexibility?",
+    "answer": [
+      [
+        "The data suggests a direct correlation: the model described as 'Small, handcrafted, and not scalable' (DeepLOB) offers limited 'Single-step or fixed-length' predictions, whereas the 'Large-scale foundation model' (MarS/LMM) provides more flexible 'Multi-step, sequence generation.' This implies that larger, more scalable models tend to have more advanced and flexible prediction capabilities."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "How many distinct aspects are used to differentiate DeepLOB and MarS/LMM in this dataset?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Identify the model that is NOT described as a 'Large-scale foundation model' and list its specified input features.",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Which model's description of its 'Model' aspect contains a unique set of three distinct limiting characteristics?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "If DeepLOB were to be modified to perform 'Multi-step, sequence generation', what other two aspects from the table would likely need to be fundamentally changed to align with the characteristics of the model that already has this capability?",
+    "answer": [
+      [
+        "To achieve multi-step generation like MarS/LMM, DeepLOB's 'Model' would likely need to evolve from 'Small, handcrafted, and not scalable' to a 'Large-scale foundation model', and its 'Input Features' might need to expand from 'LOB data' to handle 'High-frequency order-level data'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Contrast the input data requirements for the two models.",
+    "answer": [
+      [
+        "DeepLOB requires 'Limit order book (LOB) data,' which is a specific type of financial data structure. In contrast, MarS/LMM uses 'High-frequency order-level data,' which is more general and implies a larger volume and velocity of data."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "What is the model type for the system designed for task-specific forecasting?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "If a user has only 'Limit order book (LOB) data' available and needs to perform 'General forecasting through simulation', which model presents a conflict based on the provided aspects, and why?",
+    "answer": [
+      [
+        "A conflict exists for both models. DeepLOB can use the LOB data but is designed for 'Task specific forecasting,' not general simulation. MarS/LMM is designed for 'General forecasting' but requires 'High-frequency order-level data,' not LOB data. Therefore, neither model is a perfect fit without modification or compromise."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

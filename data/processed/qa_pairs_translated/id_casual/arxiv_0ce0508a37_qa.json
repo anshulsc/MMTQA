@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Parameter market impact mana yang nilai koefisiennya persis dua kali lipat dari yang lain?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Berapa nilai rata-rata buat 'Non-linearity parameter' berdasarkan kumpulan nilai yang dikasih?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Simbol buat parameter di bawah 'Dinamika Pasar' yang punya paling banyak nilai berbeda itu apa?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan nilai untuk 'Initial volatility', 'Long-term volatility', dan 'Mean reversion speed', apa yang bisa disimpulkan tentang perilaku volatilitas model dari waktu ke waktu?",
+    "answer": [
+      [
+        "Model ini menunjukkan volatilitas yang kembali ke rata-rata. 'Long-term volatility' tetap di 0.3, yang berfungsi sebagai jangkar. 'Initial volatility' bisa mulai lebih tinggi (0.4), lebih rendah (0.2), atau di level jangka panjang (0.3). Terlepas dari titik awalnya, volatilitas diharapkan akan bergerak menuju 0.3 seiring waktu, sebuah proses yang kecepatannya diatur oleh 'Mean reversion speed' sebesar 2.0. Ini berarti periode volatilitas tinggi atau rendah tidaklah permanen."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Sebutin semua parameter di bawah kategori 'Market Dynamics' yang disajiin sebagai kumpulan beberapa nilai yang mungkin, di mana semua nilai yang terdaftar itu nggak negatif.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Kalo 'Risk aversion' didefinisiin sebagai kebalikan dari toleransi risiko, dan nilai 'Permanent impact' sama 'Temporary impact' dinaikin 10 kali lipat, berapa rasio baru antara 'Temporary impact coefficient' sama 'Risk aversion'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Kalo 'Mean reversion speed' turun 50%, dan nilai 'Volatility of variance' dinaikin 0.1, berapa ya jumlah baru dari 'Mean reversion speed' sama nilai maksimum 'Volatility of variance'?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabel ini menyebutkan nilai 'Correlation' sebesar -0.7. Dalam model keuangan, apa yang biasanya diimplikasikan nilai negatif yang kuat ini tentang hubungan antara harga aset dan volatilitasnya?",
+    "answer": [
+      [
+        "Korelasi -0.7 menandakan hubungan terbalik yang kuat, sering disebut sebagai efek leverage. Ini berarti kalau harga aset turun, volatilitasnya cenderung naik, dan sebaliknya, kalau harga aset naik, volatilitasnya cenderung turun. Ini adalah fitur penting untuk pemodelan harga aset dan penetapan harga derivatif yang realistis."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Ada berapa parameter di tabel yang didefinisikan oleh beberapa nilai yang mungkin, bukan hanya satu nilai tetap?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Parameter mana yang nilainya negatif, jadi bisa dibilang beda sendiri?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

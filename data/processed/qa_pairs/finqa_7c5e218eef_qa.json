@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "finqa_7c5e218eef_001",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Which expense category experienced the largest absolute year-over-year change in dollars, irrespective of whether it was an increase or decrease?",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_002",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "What is the sum of all expense reductions (negative changes) reported in millions of dollars?",
+    "answer": [
+      [
+        "-23.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_003",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "What was the total dollar change for expense categories that each represented a 2% increase as a percentage of 2015 expenses?",
+    "answer": [
+      [
+        "53.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_004",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the total figures, what was the overall financial trend for these expense categories year-over-year? Justify your answer.",
+    "answer": [
+      [
+        "The overall financial trend was an increase in costs. This is evidenced by the 'total' row, which shows a positive net year-over-year change of $54.4 million, corresponding to a 4% increase relative to 2015 expenses. While there were some cost reductions, they were significantly outweighed by cost increases in other areas."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_005",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "List all expense categories that had a positive year-over-year change greater than $15 million.",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ],
+      [
+        "professional fees and outside services"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_006",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Calculate the ratio of the total dollar increase to the total absolute dollar decrease from the individual expense items, rounded to two decimal places.",
+    "answer": [
+      [
+        "3.29:1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_007",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "If the 'foreign currency exchange rate fluctuation' had been a cost saving of $13.2 million instead of a cost increase, what would the new total year-over-year change have been?",
+    "answer": [
+      [
+        "$ 28.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_008",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "By comparing categories with the same percentage change (e.g., 2% or 1%), what can you infer about the relationship between the absolute dollar change and the percentage change? What information is missing to confirm this?",
+    "answer": [
+      [
+        "An inference can be made that the absolute dollar change is not directly proportional to the percentage change across different categories. For instance, 'loss on datacenter' ($28.6M) and 'professional fees' ($24.4M) both had a 2% change, implying their base 2015 expenses were different. The missing information needed for confirmation is the actual 2015 expense value for each category."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_009",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Which cell in the 'change as a percentage of 2015 expenses' column contains data that is inconsistent with the column's apparent data type, and what is the anomalous value?",
+    "answer": [
+      [
+        "Cell C7, corresponding to 'other expenses net', contains the value '2014'. This is anomalous because all other values in the column are percentages or numbers representing percentages, while '2014' appears to be a year."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_010",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "The year-over-year change for 'loss on datacenter and related legal fees' is the largest increase. By what percentage is this increase greater than the second-largest increase ('professional fees and outside services')? Round to one decimal place.",
+    "answer": [
+      [
+        "17.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Který parametr tržního dopadu má koeficient, který je přesně dvojnásobek toho druhého?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Jaká je průměrná hodnota pro 'Non-linearity parameter' na základě sady poskytnutých možných hodnot?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Jaký je symbol pro parametr v kategorii 'Market Dynamics', který má nejvyšší počet odlišných uvedených hodnot?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě hodnot 'Počáteční volatility', 'Dlouhodobé volatility' a 'Rychlosti návratu k průměru', co lze usuzovat o chování volatility modelu v průběhu času?",
+    "answer": [
+      [
+        "Model vykazuje návrat volatility k průměru. 'Dlouhodobá volatilita' je fixována na 0.3, což působí jako kotva. 'Počáteční volatilita' může začínat výše (0.4), níže (0.2) nebo na dlouhodobé úrovni (0.3). Bez ohledu na výchozí bod se očekává, že se volatilita bude v průběhu času posouvat směrem k 0.3, proces, jehož rychlost je řízena 'Rychlostí návratu k průměru' 2.0. To znamená, že období vysoké nebo nízké volatility nejsou trvalá."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Uveďte všechny parametry v kategorii 'Market Dynamics', které jsou prezentovány jako množina více možných hodnot, kde jsou všechny uvedené hodnoty nezáporné.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Pokud je 'Odpor k riziku' definován jako inverze tolerance k riziku, a hodnoty 'Permanentní dopad' a 'Dočasný dopad' by se zvýšily 10krát, jaký by byl nový poměr 'Koeficientu dočasného dopadu' k 'Odporu k riziku'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Pokud by se 'Rychlost návratu k průměru' snížila o 50 % a hodnoty 'Volatility variance' se obě zvýšily o 0.1, jaký by byl nový součet 'Rychlosti návratu k průměru' a maximální 'Volatility variance'?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabulka specifikuje hodnotu 'Korelace' -0.7. Co tato silná záporná hodnota obvykle implikuje o vztahu mezi cenou aktiva a jeho volatilitou ve finančním modelu?",
+    "answer": [
+      [
+        "Korelace -0.7 znamená silný inverzní vztah, často označovaný jako efekt páky. To znamená, že když cena aktiva klesá, jeho volatilita má tendenci se zvyšovat, a naopak, když cena aktiva roste, jeho volatilita má tendenci se snižovat. To je klíčová vlastnost pro realistické modelování cen aktiv a oceňování derivátů."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Kolik parametrů v tabulce je definováno sadou více možných hodnot spíše než jednou pevnou hodnotou?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Který jednotlivý parametr je kvalitativní odlehlá hodnota, protože jeho hodnota je jediná, která je záporná?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "question_id": "finqa_5ca164f48a_001",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "By how many percentage points did the 'net charge-offs to average loans' for consumer lending decrease from 2013 to 2014?",
+    "answer": [
+      [
+        "0.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_002",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "What was the combined total, in millions of dollars, for 'provision for credit losses' and the absolute value of 'other' in 2013?",
+    "answer": [
+      [
+        "644"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_003",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "In the year with the higher 'allowance for loan and lease losses to total loans' ratio, what was the value of 'commercial lending net charge-offs'?",
+    "answer": [
+      [
+        "$ -249 ( 249 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_004",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the year-over-year trend for 'total net charge-offs'. What does this trend suggest about the institution's credit risk?",
+    "answer": [
+      [
+        "The 'total net charge-offs' decreased substantially from $1077 million in 2013 to $531 million in 2014, a reduction of over 50%. This downward trend strongly suggests an improvement in the quality of the loan portfolio and more effective credit risk management during that period."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_005",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "List the net charge-off categories where the absolute value exceeded $500 million in 2013.",
+    "answer": [
+      [
+        "total net charge-offs ( a )"
+      ],
+      [
+        "consumer lending net charge-offs ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_006",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "What percentage of 'total net charge-offs' in 2014 was attributable to 'consumer lending'?",
+    "answer": [
+      [
+        "89.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_007",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "If the 'provision for credit losses' in 2014 had been 20% higher, what would the new 'december 31' balance have been, assuming all other line items remained unchanged?",
+    "answer": [
+      [
+        "$ 3385.6 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_008",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the table, what is the relationship between 'total net charge-offs' and 'provision for credit losses' between 2013 and 2014?",
+    "answer": [
+      [
+        "There is a strong positive correlation. In 2013, high net charge-offs ($1077M) corresponded with a high provision ($643M). In 2014, when net charge-offs fell significantly (to $531M), the provision for credit losses also decreased (to $273M). This indicates that the provision is adjusted in line with the level of actual loan losses."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_009",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Identify the financial metric in the table that has missing values for both 2014 and 2013.",
+    "answer": [
+      [
+        "net charge-offs to average loans ( for the year ended )"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_010",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Which lending category, commercial or consumer, showed a more significant relative improvement in its 'net charge-offs to average loans' ratio from 2013 to 2014?",
+    "answer": [
+      [
+        "Commercial lending showed a more significant relative improvement. Its ratio dropped from 0.22% to 0.04%, an 81.8% decrease from its 2013 level. In contrast, consumer lending's ratio dropped from 1.07 to 0.62, a smaller relative decrease of 42.1%. The dramatic percentage reduction in the commercial lending ratio marks it as an outlier in terms of performance improvement."
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "C13",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

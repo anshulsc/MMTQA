@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "arxiv_2ffada3c04_001",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Který model navržený pro trhy „Multi-asset“ má nejnižší nároky na výpočetní výkon?",
+    "answer": [
+      [
+        "DRPO"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A6",
+      "D6",
+      "E6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_002",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Jaký je celkový počet modelů, které využívají strategii provádění 'Direct'?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_003",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Mezi modely s 'vysokými' výpočetními nároky, který z nich uvádí 'Robustní extrakci vzorů' jako klíčovou sílu?",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "F1",
+      "A4",
+      "E4",
+      "F4",
+      "A5",
+      "E5",
+      "F5",
+      "A8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_004",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Identifikujte všechny modely, které operují na trhu s akciemi a používají nepřímou metodu exekuce.",
+    "answer": [
+      [
+        "CPPI-MADDPG"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_005",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Jaké procento všech uvedených modelů má požadavek na „vysoký“ nebo „velmi vysoký“ výpočetní výkon?",
+    "answer": [
+      [
+        "55.6%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_006",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Pokud by infrastruktura firmy dokázala podporovat pouze modely se 'středními' nebo 'nízkými' požadavky na výpočetní výkon, které obchodní strategie uvedené v tabulce by pro ni byly zcela nedostupné?",
+    "answer": [
+      [
+        "Predictive"
+      ],
+      [
+        "Hybrid"
+      ],
+      [
+        "Signal"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_007",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě dat, jaký je patrný vztah mezi typem 'Execution' modelu a úrovní jeho požadavků na 'Compute'?",
+    "answer": [
+      [
+        "Zdá se, že existuje korelace mezi typem provedení ('Execution') a požadavky na výpočetní výkon ('Compute'). Všechny čtyři modely s 'High' úrovní 'Compute' (StockFormer, EarnHFT, MacroHFT, HRT) a ten s 'Very High' úrovní 'Compute' (TRR) se rozdělují mezi 'Direct' (3) a 'Indirect' (2) provedení. Nicméně, modely s 'Medium' nebo 'Low' požadavky na 'Compute' jsou převážně 'Direct' (3 ze 4), přičemž pouze jeden využívá 'Indirect' provedení. To naznačuje, že zatímco modely s vysokými požadavky na 'Compute' mohou být buď 'Direct', nebo 'Indirect', modely s nižšími požadavky na 'Compute' v této sadě dat pravděpodobněji využívají přímou strategii provedení, pravděpodobně za účelem minimalizace režie latence, kterou by nepřímá vrstva mohla zavést."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_008",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Který model je unikátní tím, že má požadavek na výpočetní výkon 'Very High', čímž se vymyká z hlediska výpočetní náročnosti?",
+    "answer": [
+      [
+        "TRR"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_009",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Které modely jsou omezeny designem 'Market-specific' nebo 'Single market focus', ale nefungují na trhu 'Crypto'?",
+    "answer": [
+      [
+        "MacMic"
+      ],
+      [
+        "IMM"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_010",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "Manažer portfolia chce model s ochranou proti poklesu pro akcie, ale obává se složitosti. Na základě dat, jaké jsou hlavní kompromisy u nejvhodnějšího modelu?",
+    "answer": [
+      [
+        "Nejvhodnějším modelem je CPPI-MADDPG, který se zaměřuje na trh 'Equities' (akcií) se strategií 'Portfolio' a výslovně uvádí 'Downside protection' (ochranu proti poklesu) jako klíčovou přednost. Hlavními kompromisy, jak je uvedeno v jeho 'Key Limitations' (klíčových omezeních), jsou 'Coordination overhead' (režijní náklady na koordinaci) a 'Slower adaptation' (pomalejší adaptace). To znamená, že manažer získává bezpečnost portfolia za cenu zvýšené provozní složitosti a snížené schopnosti rychle reagovat na změny na trhu."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

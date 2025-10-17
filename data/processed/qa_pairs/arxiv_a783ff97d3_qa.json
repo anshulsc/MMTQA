@@ -1,0 +1,251 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Which feature selection method achieved the lowest error value for the 'BC2_64' forecasting setting?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "What is the average number of exogenous variables used by the 'LASSO regression feature selection' method across all forecasting settings?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "For the 'BC3_28' forecasting setting, what is the error metric of the method that utilizes the highest number of exogenous variables?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Does increasing the number of exogenous variables consistently improve performance (i.e., lower the error value) for the 'BC1_64' setting? Provide a brief analysis.",
+    "answer": [
+      [
+        "No, there is no consistent relationship. For the 'BC1_64' setting, 'Correlation-Based Selection' uses 3 variables for an error of 14.11, 'LASSO regression' also uses 3 variables but has a higher error of 14.55. 'Forward Feature Selection NP' uses a much larger number of variables (28) and achieves a significantly better (lower) error of 9.16. This suggests that while a higher number of variables can be better, the specific selection method is critical and simply adding variables is not a guarantee of improvement."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "List all feature selection methods that resulted in an error value greater than 15 for the 'BC3_64' setting.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "What percentage of the total number of exogenous variables used by 'Forward Feature Selection NP' across all settings was allocated to the 'BC1_64' setting?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "If a data processing error caused all error metrics for the 'BC2_28' setting to be 2.5 points lower than recorded, what would the new error for 'Manual feature selection' be?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Among the feature selection methods where the number of variables is explicitly listed, which one demonstrates the greatest instability, as measured by the range (max minus min) of variables selected across the different forecasting settings?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "For the 'LASSO regression feature selection' method, the error value for 'BC3_28' is an outlier. How does its corresponding number of exogenous variables compare to the other settings for the same method?",
+    "answer": [
+      [
+        "The 'BC3_28' setting, which has the outlier high error of 28.79 for LASSO, also uses the highest number of exogenous variables (16) for that method. This is significantly more than the other settings, which range from 0 to 10 variables. This suggests a potential issue where the LASSO method selected a large, but poorly performing, set of features for this specific forecasting context."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyzing the performance of the 'Without exogenous variables' baseline, describe the trend in the error metric as you move sequentially from the 'BC1' settings to 'BC2' and then 'BC3'.",
+    "answer": [
+      [
+        "The performance of the 'Without exogenous variables' baseline shows a clear pattern across the settings. It starts with moderate error values for the BC1 settings (11.14, 13.65). Performance improves dramatically for the BC2 settings, which have the lowest errors (3.75, 9.08). Finally, the error increases again for the BC3 settings (17.53, 9.06), with BC3_64 having the highest error overall for this method. This indicates the baseline model is best suited for the conditions of BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

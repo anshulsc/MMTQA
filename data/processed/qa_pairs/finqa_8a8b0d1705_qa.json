@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "finqa_8a8b0d1705_001",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "What was the total amount, in millions, spent on purchasing treasury stock across all three years?",
+    "answer": [
+      [
+        "-8067"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_002",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "In the year with the largest net use of cash in financing activities, what was the value of 'proceeds from debt'?",
+    "answer": [
+      [
+        "429"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_003",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend of the 'total cash change in debt' from 2005 to 2007.",
+    "answer": [
+      [
+        "The trend was highly volatile. It started with a net cash outflow of $485 million in 2005, then dramatically reversed to a large net cash inflow of $1135 million in 2006, and finally flipped back to a significant cash inflow of $1222 million in 2007. There was no consistent upward or downward trend."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_004",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "In 2007, what percentage of cash generated from 'proceeds from debt' was used for 'repayment of debt'?",
+    "answer": [
+      [
+        "39.26%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_005",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Which financial activity experienced the largest absolute change between any two consecutive years?",
+    "answer": [
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_006",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "If the 'reissuances of treasury stock' in 2005 had been 50% higher, what would the 'net cash used in financing activities' have been for that year?",
+    "answer": [
+      [
+        "$-3352.5 (3352.5)"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_007",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "List all financing activities that provided a net cash inflow (a positive value) in 2006.",
+    "answer": [
+      [
+        "change in short-term debt 2014 net"
+      ],
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ],
+      [
+        "reissuances of treasury stock"
+      ],
+      [
+        "excess tax benefits from stock-based compensation"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "A1",
+      "C3",
+      "A3",
+      "C6",
+      "A6",
+      "C8",
+      "A8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_008",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Which year saw the highest amount of cash returned to shareholders, considering both 'purchases of treasury stock' and 'dividends paid to stockholders'?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_009",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data, is there an observable relationship between 'purchases of treasury stock' and 'dividends paid to stockholders' over the three-year period?",
+    "answer": [
+      [
+        "Yes, there appears to be a consistent pattern of significant cash outflows for both activities each year, indicating a steady strategy of returning capital to shareholders. However, there is no clear correlation in their year-over-year changes. For example, from 2005 to 2006, treasury stock purchases decreased slightly while dividends increased slightly. Then from 2006 to 2007, treasury stock purchases increased dramatically while dividends remained almost flat. Both are consistently large uses of cash, but they do not move in tandem."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_010",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "How many financing activities listed consistently resulted in a net cash outflow (a negative value) across all three years?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

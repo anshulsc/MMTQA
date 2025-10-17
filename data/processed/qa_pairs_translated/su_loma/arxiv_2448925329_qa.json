@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Dataset mana anu nunjukkeun kasaluyuan modél anu paling kuat sakumaha anu dituduhkeun ku nilai R-squared?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Sabaraha rata-rata nilai Kurtosis pikeun sadaya dataset anu ngalibetkeun BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Pikeun modél kalayan nilai R-squared positif panghandapna, naon statistik Durbin-Watson anu saluyu?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Kumaha kakuatan panjelasan modél, anu diukur ku R-squared, robah pikeun dataset LUNA/USD nalika interval waktos ditingkatkeun tina 1s ka 10s?",
+    "answer": [
+      [
+        "Kakuatan panjelasan modél LUNA/USD, anu ditunjuk ku nilai R-squared, ningkat sacara signifikan tina 0,036 pikeun interval 1 detik ka 0,274 pikeun interval 10 detik. Ieu ngagambarkeun leuwih ti tujuh kali lipat kanaékan, nunjukkeun yén modél téh leuwih efektif dina ngajelaskeun parobahan harga dina jangka waktu anu leuwih panjang."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Sebutkeun sadaya dataset dimana résidu modélna négatip condong (Skew < 0) sareng statistik Durbin-Watson langkung ti 2, nunjukkeun autokorelasi négatip.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Sabaraha persén tina jumlah total sadaya statistik F anu dicangking ku modél kalayan interval 10s?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Upami Kurtosis kanggo modél 'BTC/USD OFI vs ΔP 10s' disaluyukeun janten rata-rata Kurtosis sadaya modél sanésna, sabaraha niléy énggalna?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Naha aya hubungan anu konsisten antara statistik F hiji modél sareng statistik Jarque-Bera (JB)-na? Analisis polana.",
+    "answer": [
+      [
+        "Henteu aya hubungan anu konsisten sareng jelas antara statistik F sareng statistik Jarque-Bera (JB). Contona, modél kalayan statistik F pangluhurna (15890.0) gaduh statistik JB 6560.394, sedengkeun modél kalayan statistik F panghandapna kadua (137.0) gaduh JB anu langkung alit nyaéta 816.435. Nanging, modél kalayan statistik F panghandapna (70.87) gaduh statistik JB pangluhurna (10204.282). Ieu nunjukkeun yén signifikansi umum modél (statistik F) sareng normalitas sésana (statistik JB) henteu aya korelasi langsung dina dataset ieu."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom mana, teu kaasup identifier 'Dataset', anu ngandung rentang nilai pangalegana lamun tempo urutan gedéna (ti nu pangleutikna nepi ka nu panggedéna)?",
+    "answer": [
+      [
+        "Kolom 'Prob(JB)' némbongkeun rentang nilai pangalegana ku urutan gedéna. Kolom ieu ngandung nilai anu leutik pisan (ampir teu aya) nepi ka nilai anu gedé saperti 4.26e-263, 1.93e-57, 5.17e-178, jeung 9.05e-92, ngalambangkeun ratusan urutan gedéna, leuwih loba batan kolom numerik séjénna."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Dataset mana anu statistik Jarque-Bera (JB)-na mangrupa outlier, leuwih ti 5 kali lipet tina nilai JB pangluhurna kadua?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

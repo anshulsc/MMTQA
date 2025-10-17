@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Quale set di dati mostra la migliore aderenza del modello, come indicato dal valore R-quadro?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Qual è il valore medio di Curtosi per tutti i set di dati che coinvolgono BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Per il modello con il valore R-quadro positivo più basso, qual è la sua statistica Durbin-Watson corrispondente?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Come cambia il potere esplicativo del modello, misurato dall'R-quadro, per il dataset LUNA/USD quando l'intervallo di tempo viene aumentato da 1s a 10s?",
+    "answer": [
+      [
+        "Il potere esplicativo del modello LUNA/USD, indicato dal valore R-quadro, aumenta significativamente da 0.036 per l'intervallo di 1 secondo a 0.274 per l'intervallo di 10 secondi. Ciò rappresenta un aumento di oltre sette volte, suggerendo che il modello è sostanzialmente più efficace nello spiegare i cambiamenti di prezzo su un arco di tempo più lungo."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Elenca tutti i dataset in cui i residui del modello sono asimmetrici negativamente (Skew < 0) e la statistica Durbin-Watson è maggiore di 2, suggerendo autocorrelazione negativa.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Quale proporzione della somma totale di tutti gli F-statistic è rappresentata dai modelli con un intervallo di 10s?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Se la Curtosi per il modello 'BTC/USD OFI vs ΔP 10s' fosse regolata sulla Curtosi media di tutti gli altri modelli, quale sarebbe il suo nuovo valore?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una relazione coerente tra la statistica F di un modello e la sua statistica di Jarque-Bera (JB)? Analizzare il modello.",
+    "answer": [
+      [
+        "Non esiste una relazione coerente e ben definita tra la statistica F e la statistica di Jarque-Bera (JB). Ad esempio, il modello con la statistica F più alta (15890.0) ha una statistica JB di 6560.394, mentre il modello con la seconda statistica F più bassa (137.0) ha una JB molto più piccola di 816.435. Tuttavia, il modello con la statistica F più bassa (70.87) ha la statistica JB più alta (10204.282). Ciò indica che la significatività complessiva del modello (statistica F) e la normalità dei suoi residui (statistica JB) non sono direttamente correlate in questo set di dati."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale colonna, escludendo l'identificatore 'Dataset', contiene il range di valori più ampio considerando l'ordine di grandezza (dal più piccolo al più grande)?",
+    "answer": [
+      [
+        "La colonna 'Prob(JB)' mostra il più ampio range di valori per ordine di grandezza. Contiene valori piccoli come 0.0 (effettivamente infinitesimali) e valori grandi come 4.26e-263, 1.93e-57, 5.17e-178 e 9.05e-92, che si estendono per centinaia di ordini di grandezza, di gran lunga superiore a qualsiasi altra colonna numerica."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Quale dataset presenta una statistica Jarque-Bera (JB) che è un valore anomalo, essendo più di 5 volte maggiore del valore JB più alto successivo?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

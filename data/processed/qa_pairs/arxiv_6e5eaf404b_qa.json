@@ -1,0 +1,181 @@
+[
+  {
+    "question_id": "arxiv_6e5eaf404b_001",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Which research work, MASA or TrendTrader, is demonstrated to be effective across a broader and more diverse set of international stock indices?",
+    "answer": [
+      [
+        "MASA Li et al. (2024e) is shown to be effective across a broader range, as its results cover three major indices (CSI300, DJIA, S&P500) from both China and the US. TrendTrader's results are specified for two indices (DJIA, SSE-50)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_002",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "How many of the listed research works explicitly mention achieving superior performance on Chinese stock market indices (CSI300 or SSE-50)?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_003",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "What is the key innovation of the framework that utilizes a 'Spatial-temporal RL framework' as its methodology?",
+    "answer": [
+      [
+        "Multimodal fusion of price and sentiment"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_004",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Which research paper reports a performance result that is an extreme positive outlier, showing a return of over 60 percentage points higher than its market benchmark?",
+    "answer": [
+      [
+        "LLM-Alpha Kou et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_005",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "List the works that, based on their key innovation, focus on portfolio diversification or asset selection, rather than on predicting price movements.",
+    "answer": [
+      [
+        "EarnMore Zhang et al. (2024d)",
+        "Network-EDM Hui and Wang (2024)",
+        "Market-Graph Yamagata and Ono (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_006",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "What percentage of the listed research works explicitly incorporate non-price data, such as sentiment or network theory, in their core innovation?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_007",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "If the 'EarnMore' framework's profit gain was reduced by 15 percentage points (from +40% to +25%), what would its new primary result be, and how might this affect its claim of having 'Comparable risk levels' when its profit is significantly lower?",
+    "answer": [
+      [
+        "The new primary result would be 'Profit: +25%, Comparable risk levels'. A lower profit of +25% while maintaining the same risk level makes the strategy less attractive. The risk-adjusted return would be lower, potentially making its risk level less 'comparable' or acceptable relative to the diminished returns."
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_008",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the table, what is the inferred relationship between the use of multi-agent systems and the nature of the reported primary results?",
+    "answer": [
+      [
+        "There appears to be a positive correlation between using multi-agent systems and achieving superior, quantifiable returns. The two works using this approach, MASA and LLM-Alpha, report 'Superior risk-adjusted returns' and a specific high return of '+53.17%', respectively. This suggests that multi-agent frameworks are effective at generating strong, measurable financial outperformance."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_009",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "What is the primary result for the work that innovated through a market graph-based clustering approach?",
+    "answer": [
+      [
+        "Higher Sharpe ratios on S&P500"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_010",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Which column, 'Key Innovation' or 'Methodological', provides more specific, technical implementation details about how the research was conducted?",
+    "answer": [
+      [
+        "The 'Methodological' column provides more specific, technical details. For example, while 'Key Innovation' may state a broad concept like 'Frequency domain analysis' (FreQuant) or 'LLM-based alpha factor mining' (LLM-Alpha), the 'Methodological' column specifies the exact techniques used, such as 'Multi-granular asset representation through DFT' and 'Multi-agent system with dynamic weight-gating', respectively."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "question_id": "finqa_5b4c0c0847_001",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Which capital component (excluding totals, assets, and ratios) experienced the largest absolute increase in dollar amount from 2012 to 2013?",
+    "answer": [
+      [
+        "basel i tier 1 common capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_002",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "What was the net total of all 'regulatory capital adjustments' in millions of dollars for the year 2013?",
+    "answer": [
+      [
+        "-1028"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_003",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "By what percentage did the growth of 'Estimated fully phased-in Basel III tier 1 common capital' outpace the growth of 'Basel I tier 1 common capital' between 2012 and 2013? Round to one decimal place.",
+    "answer": [
+      [
+        "40.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_004",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the year-over-year change in the firm's capital position from 2012 to 2013, considering both the capital ratios and their underlying components.",
+    "answer": [
+      [
+        "The firm significantly strengthened its capital position from 2012 to 2013. The pro forma Basel III Advanced Approaches Tier 1 Common Capital Ratio increased from 7.5% to 9.5%. This improvement was driven by two factors: a substantial increase in the estimated Tier 1 common capital (from $22,501M to $27,456M) and a simultaneous decrease in the estimated risk-weighted assets (from $301,006M to $290,080M). The introduction of the Standardized Approach ratio at a strong 9.4% in 2013 further underscores this improved capital adequacy."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_005",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Identify all line items that had a negative value in 2012 and a positive value in 2013.",
+    "answer": [
+      [
+        "all other adjustments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_006",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "What was the 'Estimated fully phased-in Basel III tier 1 common capital' as a percentage of 'Basel I tier 1 common capital' for the year 2012? Round to the nearest whole percent.",
+    "answer": [
+      [
+        "90%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_007",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "If the 'Basel III quantitative limits' adjustment for 2013 had been -$2,000 million instead of the reported value, what would the new 'Estimated fully phased-in Basel III tier 1 common capital' have been for that year?",
+    "answer": [
+      [
+        "$ 26842"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_008",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "What does the data suggest about the relationship between the change in 'Estimated Basel III Advanced Approaches Risk-Weighted Assets' and the 'Pro forma fully phased-in Basel III Advanced Approaches Tier 1 Common Capital Ratio' between 2012 and 2013?",
+    "answer": [
+      [
+        "The data suggests an inverse relationship. Between 2012 and 2013, the Estimated Risk-Weighted Assets (the denominator of the ratio) decreased from $301,006M to $290,080M. Concurrently, the Tier 1 Common Capital Ratio (the result of Capital / RWA) increased from 7.5% to 9.5%. This indicates that a reduction in risk-weighted assets contributed positively to the improvement of the capital ratio."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_009",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Which two related metrics concerning the 'Standardized Approach' were reported for 2013 but were marked as not applicable ('n/a') for 2012?",
+    "answer": [
+      [
+        "estimated basel iii standardized approach risk-weighted assets"
+      ],
+      [
+        "pro forma fully phased-in basel iii standardized approach tier 1 common capitalratio"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_010",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Which specific capital adjustment line item showed a year-over-year change that negatively impacted the capital calculation, and what was the value of this negative change?",
+    "answer": [
+      [
+        "accumulated other comprehensive income ( a )",
+        "-$80 million"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

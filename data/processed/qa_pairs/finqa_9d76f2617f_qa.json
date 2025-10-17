@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "What was the total increase in 'shares outstanding' resulting from the 'employee stock purchase plan' over the entire period shown?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "In which year (2001, 2002, or 2003) did the 'shares sold to optionees' contribute the most to the increase in 'shares outstanding'?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend of the company's treasury shares from the beginning of 2001 to the end of 2003, based on the balance reports.",
+    "answer": [
+      [
+        "The number of shares held in treasury consistently decreased year-over-year. The balance fell from approximately 94.4 million at the start of 2001 to 91.2 million by the end of 2001, then to 84.9 million by the end of 2002, and finally to 81.2 million by the end of 2003. This indicates that the company was reissuing shares from its treasury (e.g., for employee plans and options) more quickly than it was repurchasing them."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "What was the net change in 'shares outstanding' during the full calendar year that included the 'acquisition of technoguide'?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "List all transaction types, excluding balances, that resulted in an increase to 'shares outstanding' of more than 2,000,000 shares.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "What percentage of the total increase in 'shares outstanding' for the year 2002 was attributable to the 'acquisition of technoguide'?",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "If the 'employee stock purchase plan' in 2002 had resulted in 1,000,000 fewer shares being added to the outstanding count, what would the 'balance december 31 2002' for 'shares outstanding' have been?",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Which transaction between the yearly balances represents an outlier in its minimal impact on 'shares outstanding', and what was that impact?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "For the 'shares sold to optionees' events, what is the consistent mathematical relationship between the 'issued', 'in treasury', and 'shares outstanding' columns?",
+    "answer": [
+      [
+        "For all 'shares sold to optionees' transactions, the value in the 'shares outstanding' column is the sum of the values in the 'issued' and 'in treasury' columns. This implies that the shares for optionees were sourced from both a new issuance and from the company's existing treasury stock."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "The 'issued' column contains the value '2013' for several transaction types where the 'in treasury' value is non-zero. What does this suggest about the source of shares for these transactions?",
+    "answer": [
+      [
+        "In every row where the 'issued' column shows '2013', the 'in treasury' value is identical to the 'shares outstanding' value. This indicates that for these transactions (e.g., 'employee stock purchase plan', 'acquisition of technoguide'), all shares came from the treasury and no new shares were actually issued. The number '2013' is likely a placeholder, an identifier, or a data error, not a quantity of issued shares."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

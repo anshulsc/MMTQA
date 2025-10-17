@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "arxiv_20b7e01d70_001",
+    "table_id": "arxiv_20b7e01d70",
+    "question_type": "value",
+    "question": "어떤 연구에서 주요 결과에 언급된 가장 높은 단일 백분율 기반 성능 지표를 달성했습니까?",
+    "answer": [
+      [
+        "MACK"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_20b7e01d70_002",
+    "table_id": "arxiv_20b7e01d70",
+    "question_type": "value",
+    "question": "표에 명시된 모든 F1 및 정확도 백분율 점수의 평균은 얼마입니까?",
+    "answer": [
+      [
+        "84.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_20b7e01d70_003",
+    "table_id": "arxiv_20b7e01d70",
+    "question_type": "value",
+    "question": "'Four-phase news analysis framework'를 방법론으로 활용하는 연구의 주요 혁신은 무엇입니까?",
+    "answer": [
+      [
+        "Temporal reasoning for crash detection"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_20b7e01d70_004",
+    "table_id": "arxiv_20b7e01d70",
+    "question_type": "open_ended_reasoning",
+    "question": "설명에 따르면, 어떤 프로젝트가 명시적으로 시간 경과에 따른 사건 분석을 위해 설계되었으며, 테이블의 어떤 증거가 이를 뒷받침합니까?",
+    "answer": [
+      [
+        "'TRR' 프로젝트는 시간적 분석을 위해 설계되었습니다. 이는 프로젝트 이름 ('Temporal Reasoning')과 핵심 혁신 ('Temporal reasoning for crash detection'), 그리고 주요 결과 ('Superior crisis detection across multiple periods')를 통해 뒷받침됩니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_20b7e01d70_005",
+    "table_id": "arxiv_20b7e01d70",
+    "question_type": "value",
+    "question": "주요 혁신 또는 방법론이 대규모 언어 모델(LLM) 또는 에이전트 기반 시스템을 명시적으로 포함하는 모든 연구의 이름을 나열하십시오.",
+    "answer": [
+      [
+        "LLM-Annotator"
+      ],
+      [
+        "StockAgent"
+      ],
+      [
+        "EconAgent"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_20b7e01d70_006",
+    "table_id": "arxiv_20b7e01d70",
+    "question_type": "value",
+    "question": "나열된 연구 중에서 시뮬레이션을 핵심 혁신 또는 방법론으로 삼는 연구의 비율은 어느 정도입니까?",
+    "answer": [
+      [
+        "2 out of 6 (33.33%)"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_20b7e01d70_007",
+    "table_id": "arxiv_20b7e01d70",
+    "question_type": "value",
+    "question": "LLM-Annotator의 '군중 작업자 대비 29% 향상'이 군중 작업자의 정확도 60%를 기반으로 했다면, LLM-Annotator의 결과 정확도는 얼마가 되겠습니까?",
+    "answer": [
+      [
+        "77.40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_20b7e01d70_008",
+    "table_id": "arxiv_20b7e01d70",
+    "question_type": "open_ended_reasoning",
+    "question": "표에 묘사된 '핵심 혁신'의 유형과 '에이전트'를 포함하는 방법론 사이에 관찰 가능한 관계가 있습니까?",
+    "answer": [
+      [
+        "예, 명확한 관계가 있습니다. 방법론에서 에이전트를 언급하는 두 가지 작업, StockAgent 및 EconAgent는 모두 시뮬레이션('Multi-LLM 트레이딩 시뮬레이션' 및 'LLM 기반 경제 시뮬레이션')을 중심으로 하는 핵심 혁신을 가지고 있습니다. 이는 이 데이터 세트에서 에이전트 기반 방법론이 주로 복잡한 시스템의 시뮬레이션을 만드는 데 적용됨을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_20b7e01d70_009",
+    "table_id": "arxiv_20b7e01d70",
+    "question_type": "value",
+    "question": "어떤 연구가 주요 결과에서 두 개의 서로 다른 F1 점수를 보고했습니까?",
+    "answer": [
+      [
+        "MACK"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_20b7e01d70_010",
+    "table_id": "arxiv_20b7e01d70",
+    "question_type": "open_ended_reasoning",
+    "question": "MACK와 FinReport의 주요 수치 결과를 비교하여, MACK의 특정 결과 중 이상치로 간주될 수 있는 것은 무엇이며, 그 이유는 무엇입니까?",
+    "answer": [
+      [
+        "MACK의 Word F1 점수 96.89%는 이상치로 간주될 수 있습니다. 동일한 범위의 다른 보고된 지표(MACK의 Event F1 81.33% 및 FinReport의 정확도 75.40%)보다 상당히 높으므로, 사건 추출 또는 투자 분석과 같은 다른, 더 복잡한 작업에 비해 단어 수준 작업의 성능이 매우 높았음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "question_id": "finqa_5bb765ef0d_001",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Which original regional class resulted in the highest number of shares after the true-up conversion?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_002",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "What was the total number of 'class c ( series i )' shares created after the true-up from all contributing regional classes?",
+    "answer": [
+      [
+        "284160835"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_003",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Which regional class experienced the largest absolute difference between its pre-true-up and post-true-up number of shares?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_004",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "List all regional classes whose number of shares increased as a result of the reorganization and true-up process.",
+    "answer": [
+      [
+        "class ap"
+      ],
+      [
+        "class lac"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D6",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_005",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Which regional class had the lowest true-up conversion ratio, indicating the largest proportional decrease in shares?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_006",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "What percentage of the total initial shares (issued in the reorganization) did 'class usa ( 1 )' account for?",
+    "answer": [
+      [
+        "55.01%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_007",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Of the regional classes that were converted into 'class c ( series i )', list all that had a true-up conversion ratio less than 1.0.",
+    "answer": [
+      [
+        "class canada"
+      ],
+      [
+        "class cemea"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "A8",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_008",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "If the true-up conversion ratio for 'class canada' were changed to 1.1, what would be the new number of converted shares for that specific class?",
+    "answer": [
+      [
+        "24238154"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_009",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a clear correlation between the initial number of shares in a regional class and its true-up conversion ratio? Explain your finding.",
+    "answer": [
+      [
+        "There is no clear correlation visible in the data. For instance, the class with the highest number of initial shares, 'class usa ( 1 )' (426M), has a conversion ratio below 1.0 (0.93870), resulting in a decrease. In contrast, 'class ap', with the second-highest initial share count (119M), has the highest conversion ratio (1.19043), leading to an increase. Smaller classes like the 'class eu' series have a stable ratio of 1.0. This lack of a consistent trend suggests the conversion ratio is determined by factors other than the initial volume of shares."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_010",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Into which single converted class and series were the most numerous regional classes consolidated?",
+    "answer": [
+      [
+        "class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

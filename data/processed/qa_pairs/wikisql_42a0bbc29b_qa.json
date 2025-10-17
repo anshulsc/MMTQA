@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "wikisql_42a0bbc29b_001",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "What was the total prize money awarded to winning clubs from the First Round Qualifying to the Fourth Round Qualifying, inclusive?",
+    "answer": [
+      [
+        "\u00a327,500"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_002",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "Which round marks the first time the prize money is at least ten times greater than the prize money of the Extra Preliminary Round?",
+    "answer": [
+      [
+        "Third Round Qualifying"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_003",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "Identify the first round that has no new entries and immediately follows a round that did have new entries. What was the name of the Player of the Round for this identified round?",
+    "answer": [
+      [
+        "Craig Davis ( AFC Totton )"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "A5",
+      "E5",
+      "G5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_004",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "List the names of all 'Player of the Round' winners for rounds that took place in 2009.",
+    "answer": [
+      [
+        "Nathan Tyson ( Nottingham Forest )"
+      ],
+      [
+        "Scott Parker ( West Ham United )"
+      ],
+      [
+        "Mikel Arteta ( Everton )"
+      ],
+      [
+        "Robin van Persie ( Arsenal )"
+      ],
+      [
+        "Phil Jagielka ( Everton )"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "G9",
+      "B10",
+      "G10",
+      "B11",
+      "G11",
+      "B12",
+      "G12",
+      "B13",
+      "G13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_005",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend in the number of new entries as the tournament progresses from the qualifying rounds to the proper rounds.",
+    "answer": [
+      [
+        "The number of new entries is highest at the very beginning of the tournament (406 in the Extra Preliminary Round) and then generally decreases through the subsequent qualifying rounds. Once the 'Proper' rounds begin, there are significant injections of new, higher-ranked clubs in the First and Third rounds (48 and 44 new entries, respectively), while the other 'Proper' rounds feature no new entries at all. This indicates a tiered entry system where teams enter at different stages based on their ranking."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8",
+      "A9",
+      "E9",
+      "A10",
+      "E10",
+      "A11",
+      "E11",
+      "A12",
+      "E12",
+      "A13",
+      "E13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_006",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "What percentage of the total number of fixtures in the tournament (from Extra Preliminary Round to Semi-Finals) were played in the qualifying rounds (from Extra Preliminary to Fourth Round Qualifying)?",
+    "answer": [
+      [
+        "83.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_007",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "If the number of fixtures in the 'Third Round Proper' had been 25 instead of 32, how many clubs would have remained in the competition after that round, assuming the number of clubs at the start of the round was unchanged?",
+    "answer": [
+      [
+        "39"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_008",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a direct correlation between the progression of the tournament rounds and the amount of prize money awarded?",
+    "answer": [
+      [
+        "Yes, there is a strong positive correlation. As the tournament progresses to later rounds (e.g., from 'Preliminary' to 'Semi-Finals'), the prize money increases exponentially. For instance, the prize for the Extra Preliminary Round is \u00a3750, which grows to \u00a312,500 by the Fourth Round Qualifying, and reaches \u00a31,000,000 for the winners of the Semi-Finals. This structure heavily incentivizes advancement to the final stages of the competition."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7",
+      "A8",
+      "F8",
+      "A9",
+      "F9",
+      "A10",
+      "F10",
+      "A11",
+      "F11",
+      "A12",
+      "F12",
+      "A13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_009",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "For which rounds is the 'Player of the Round' award not applicable, as indicated by the data in that column?",
+    "answer": [
+      [
+        "Extra Preliminary Round"
+      ],
+      [
+        "Preliminary Round"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_010",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "Between which two consecutive rounds does the prize money see its largest absolute increase, considering the prize for Semi-Final winners?",
+    "answer": [
+      [
+        "Between Sixth Round Proper and Semi-Finals",
+        "\u00a3600,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "F12",
+      "A13",
+      "F13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

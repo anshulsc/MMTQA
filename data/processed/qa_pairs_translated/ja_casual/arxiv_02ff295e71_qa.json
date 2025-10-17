@@ -1,0 +1,187 @@
+[
+  {
+    "question_id": "arxiv_02ff295e71_001",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "'StockFormer'と'EarnHFT'、どっちのワークがプライマリの結果でパーセンテージの増加率が高いの？",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_002",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "明示的にSR（シャープレシオ）を報告しているワークスで言及されている平均SRっていくつ？",
+    "answer": [
+      [
+        "12.44"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_003",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "手法でPPO-DDPG階層を使ってる研究のキーイノベーションって何？",
+    "answer": [
+      [
+        "Integrated selection-execution"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_004",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "市場のクラッシュ検出みたいに、時間的な性質によって定義される金融問題を解決するために明確に設計されたワークってどれ？",
+    "answer": [
+      [
+        "TRR"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_005",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "手法に何らかの「階層的（Hierarchical）」学習を使ってて、結果が「crypto」市場について言及してるのは、どのワーク？",
+    "answer": [
+      [
+        "EarnHFT"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_006",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "'CPPI-MADDPG'っていう研究の年率リターン（AR）とシャープレシオ（SR）の比率を計算してみて。",
+    "answer": [
+      [
+        "4.44"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_007",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "'DRPO'のプロダクションレイテンシが20%改善されたとしたら、新しいレイテンシは何ミリ秒になるの？",
+    "answer": [
+      [
+        "332ms"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_008",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "open_ended_reasoning",
+    "question": "このデータセットにおいて、強化学習（RL）の手法を使うことと、解決しようとしている金融上の問題の種類との間には、どのような関連性が推測できる？",
+    "answer": [
+      [
+        "データは、強化学習（RL）ベースの手法が、静的な予測のためではなく、取引、執行、ポートフォリオ管理のための適応的な戦略を開発するために、動的で逐次的な意思決定タスクの最適化という目的に強く相関していることを示唆している。MacMic（注文執行のための階層的RL）、EarnHFT（取引のためのQ学習）、CPPI-MADDPG（ポートフォリオ保険のためのマルチエージェントRL）、HRT（選択・執行のためのPPO-DDPG）といった研究はすべて、RLの様々な形態を利用している。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_009",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "表の中で、定量的（数値的な）パフォーマンス指標を示すのに主に使われている列は何？",
+    "answer": [
+      [
+        "Primary Results"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_02ff295e71_010",
+    "table_id": "arxiv_02ff295e71",
+    "question_type": "value",
+    "question": "主な結果が、財務リターンや定性的な成果ではなく、時間の単位（レイテンシ）で測定されているため外れ値となっているのはどの研究？",
+    "answer": [
+      [
+        "DRPO"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Which non-multi-task model achieves the lowest overall Mean Squared Error (MSE_over)?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Calculate the average MSE at the 7-day horizon (MSE7) for all models marked as 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "For the model with the second-highest (second worst) MSE3 value, what is its corresponding MSE30 value?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the trend of Mean Squared Error (MSE) for the HTML model as the prediction horizon extends from 3 to 30 days. Does its predictive accuracy improve or worsen over time?",
+    "answer": [
+      [
+        "The HTML model's predictive accuracy improves as the prediction horizon extends. Its MSE values consistently decrease from MSE3 (0.845) to MSE7 (0.349), MSE15 (0.251), and finally MSE30 (0.158), indicating lower error and therefore better performance on longer-term predictions."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Identify all models that are not designated as 'Multi-Task' and also have an MSE15 value lower than 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Identify the model that is a clear performance outlier across all MSE metrics and explain why.",
+    "answer": [
+      [
+        "The GPT-3.5-Turbo model is a clear performance outlier. Its MSE values across all horizons (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) are substantially higher than all other models, most of which have MSE values below 1.0. This indicates significantly worse predictive performance compared to the other models listed."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "What percentage of the total summed MSE3 across all models is attributable to the GPT-3.5-Turbo model? Provide the answer as a percentage rounded to one decimal place.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "If the MSE_over for the RiskLabs model were to improve by 25% (i.e., decrease by 25%), what would its new value be, and how would it rank compared to the HTML model's MSE_over?",
+    "answer": [
+      [
+        "The new MSE_over for RiskLabs would be 0.243. This value is lower, and therefore better, than the HTML model's MSE_over of 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the table, what is the relationship between a model being categorized as 'Multi-Task' and the availability of a 'VaR' score?",
+    "answer": [
+      [
+        "There is a strong correlation. Only models designated as 'Multi-Task' (GPT-3.5-Turbo and RiskLabs) have a reported numeric 'VaR' score. However, not all 'Multi-Task' models have a VaR score (e.g., HTML), and no non-'Multi-Task' models have one, suggesting that the capability to calculate VaR is a feature predominantly associated with the 'Multi-Task' models in this dataset."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Which performance metric column contains non-numeric placeholder data, and for which specific models is this data missing?",
+    "answer": [
+      [
+        "The 'VaR' column contains non-numeric data ('/'). This data is missing for the following models: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, and HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]
