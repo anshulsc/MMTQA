@@ -1,0 +1,39 @@
+{
+  "columns": [
+    "Hyperparameter",
+    "Range / Values",
+    "Type"
+  ],
+  "data": [
+    [
+      "Learning rate",
+      "10^{-6} to 10^{-2} (log uniform distribution)",
+      "Continuous value"
+    ],
+    [
+      "Number of hidden layers",
+      "{16, 32, 64, 128, 256}",
+      "Categorical value"
+    ],
+    [
+      "Dropout rate",
+      "0.0 to 0.5",
+      "Continuous value"
+    ],
+    [
+      "Optimizer",
+      "{Adam, SGD}",
+      "Categorical value"
+    ],
+    [
+      "Activation function",
+      "{ReLU, LeakyReLU, ELU, GELU}",
+      "Categorical value"
+    ],
+    [
+      "Number of R-GCN layers",
+      "1 to 5",
+      "Integer"
+    ]
+  ]
+}

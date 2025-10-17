@@ -1,0 +1,29 @@
+{
+  "columns": [
+    "",
+    "",
+    ""
+  ],
+  "data": [
+    [
+      "모델",
+      "주요 수식",
+      "파라미터 및 설명"
+    ],
+    [
+      "로지스틱 회귀",
+      "p=11+e−(α+β⁢X)𝑝11superscript𝑒𝛼𝛽𝑋p\\,\\,=\\,\\,\\frac{1}{1+e^{-\\left(\\alpha+\\beta X\\right)}}italic_p = divide start_ARG 1 end_ARG start_ARG 1 + italic_e start_POSTSUPERSCRIPT - ( italic_α + italic_β italic_X ) end_POSTSUPERSCRIPT end_ARG",
+      "p𝑝pitalic_p: y=1𝑦1y=1italic_y = 1일 확률; α𝛼\\alphaitalic_α: 회귀 함수의 절편 항; β𝛽\\betaitalic_β: 회귀 계수의 행 벡터; X𝑋Xitalic_X: 설명 변수의 열 벡터."
+    ],
+    [
+      "Z-스코어 모델",
+      "𝒵=1.2⁢X1+1.4⁢X2+3.3⁢X3𝒵1.2subscript𝑋11.4subscript𝑋23.3subscript𝑋3\\mathcal{Z}=1.2X_{1}+1.4X_{2}+3.3X_{3}caligraphic_Z = 1.2 italic_X start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT + 1.4 italic_X start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT + 3.3 italic_X start_POSTSUBSCRIPT 3 end_POSTSUBSCRIPT +0.6⁢X4+0.99⁢X50.6subscript𝑋40.99subscript𝑋5+0.6X_{4}+0.99X_{5}+ 0.6 italic_X start_POSTSUBSCRIPT 4 end_POSTSUBSCRIPT + 0.99 italic_X start_POSTSUBSCRIPT 5 end_POSTSUBSCRIPT",
+      "X1subscript𝑋1X_{1}italic_X start_POSTSUBSCRIPT 1 end_POSTSUBSCRIPT: 유동자산/총자산 비율; X2subscript𝑋2X_{2}italic_X start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT: 재투자 이익/총자산 비율; X3subscript𝑋3X_{3}italic_X start_POSTSUBSCRIPT 3 end_POSTSUBSCRIPT: 이자 및 세금 이전 수익/총자산 비율; X4subscript𝑋4X_{4}italic_X start_POSTSUBSCRIPT 4 end_POSTSUBSCRIPT: 자기자본 시가/총부채 비율; X5subscript𝑋5X_{5}italic_X start_POSTSUBSCRIPT 5 end_POSTSUBSCRIPT: 총매출/총자산 비율."
+    ],
+    [
+      "요인 모델",
+      "E⁢(ri)=rf+βi,M⁢K⁢T⁢(rm−rf)𝐸subscript𝑟𝑖subscript𝑟𝑓subscript𝛽𝑖𝑀𝐾𝑇subscript𝑟𝑚subscript𝑟𝑓E\\left(r_{i}\\right)=r_{f}+\\beta_{i,MKT}\\left(r_{m}-r_{f}\\right)italic_E ( italic_r start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT ) = italic_r start_POSTSUBSCRIPT italic_f end_POSTSUBSCRIPT + italic_β start_POSTSUBSCRIPT italic_i , italic_M italic_K italic_T end_POSTSUBSCRIPT ( italic_r start_POSTSUBSCRIPT italic_m end_POSTSUBSCRIPT - italic_r start_POSTSUBSCRIPT italic_f end_POSTSUBSCRIPT ) +βi,S⁢M⁢B⁢(S⁢M⁢B)+βi,H⁢M⁢L⁢(H⁢M⁢L)subscript𝛽𝑖𝑆𝑀𝐵𝑆𝑀𝐵subscript𝛽𝑖𝐻𝑀𝐿𝐻𝑀𝐿+\\beta_{i,SMB}\\left(SMB\\right)+\\beta_{i,HML}\\left(HML\\right)+ italic_β start_POSTSUBSCRIPT italic_i , italic_S italic_M italic_B end_POSTSUBSCRIPT ( italic_S italic_M italic_B ) + italic_β start_POSTSUBSCRIPT italic_i , italic_H italic_M italic_L end_POSTSUBSCRIPT ( italic_H italic_M italic_L )",
+      "risubscript𝑟𝑖r_{i}italic_r start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT: 자산 또는 포트폴리오 수익률 i𝑖iitalic_i; rfsubscript𝑟𝑓r_{f}italic_r start_POSTSUBSCRIPT italic_f end_POSTSUBSCRIPT: 무위험 수익률; rmsubscript𝑟𝑚r_{m}italic_r start_POSTSUBSCRIPT italic_m end_POSTSUBSCRIPT: 시장 수익률; βisubscript𝛽𝑖\\beta_{i}italic_β start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT: 요인 노출; S⁢M⁢B𝑆𝑀𝐵SMBitalic_S italic_M italic_B: 시점 t𝑡titalic_t에서 크기 요인에 대한 시뮬레이션 포트폴리오 수익률 (소형주 대형주 차이); H⁢M⁢L𝐻𝑀𝐿HMLitalic_H italic_M italic_L: 시점 t𝑡titalic_t에서 장부가치 대 시장가치 비율 요인에 대한 시뮬레이션 포트폴리오 수익률 (고가치 대 저가치)."
+    ]
+  ]
+}

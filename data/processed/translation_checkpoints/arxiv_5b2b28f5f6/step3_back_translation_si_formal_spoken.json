@@ -1,0 +1,34 @@
+{
+  "columns": [
+    "Model Name",
+    "Description",
+    "Training Data",
+    "Evaluation Metrics"
+  ],
+  "data": [
+    [
+      "Market-GAN",
+      "A conditional GAN trained on historical stock price data and news sentiment to generate synthetic financial time series data.",
+      "Daily stock prices and news sentiment data from C-TimesBlock (2000-2023)",
+      "DJIA daily returns prediction accuracy (2000-2023)"
+    ],
+    [
+      "FNSPID",
+      "A deep learning model for financial time series prediction using stock price and news sentiment data.",
+      "4,775 stocks, 29.7M news articles, 15.7M stock price records",
+      "R² = 0.988, daily prediction accuracy on test set"
+    ],
+    [
+      "AlphaFin",
+      "A hybrid model combining stock price analysis and news sentiment analysis for financial forecasting.",
+      "Stock price data and news sentiment data from AlphaFin database",
+      "30.8% improvement in prediction accuracy, compared to baseline models"
+    ],
+    [
+      "StockEmotions",
+      "A transformer-based model for stock price prediction using news sentiment analysis.",
+      "10k stock price records, 12 stock indices, 8 sentiment lexicons",
+      "Stock price prediction accuracy using sentiment analysis"
+    ]
+  ]
+}

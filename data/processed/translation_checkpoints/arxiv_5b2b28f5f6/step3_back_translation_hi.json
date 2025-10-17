@@ -1,0 +1,34 @@
+{
+  "columns": [
+    "Model Name",
+    "Description",
+    "Training Data",
+    "Evaluation"
+  ],
+  "data": [
+    [
+      "Market-GAN",
+      "A GAN-based approach for generating synthetic financial time series data using conditional GANs",
+      "CTimesBlock dataset of 4,775 tickers with 29.7M training, 15.7M validation samples",
+      "DJIA (2000-2023) daily closing prices"
+    ],
+    [
+      "FNSPID",
+      "A hybrid CNN-Transformer model for stock price prediction",
+      "4,775 tickers with 29.7M training, 15.7M validation samples",
+      "R² = 0.988, Mean Absolute Error"
+    ],
+    [
+      "AlphaFin",
+      "LSTM-based forecasting model",
+      "LSTM model trained on historical financial data",
+      "30.8% accuracy, daily closing prices"
+    ],
+    [
+      "StockEmotions",
+      "Sentiment-based stock prediction system",
+      "10k historical tweets, 12 sentiment labels, labeled financial data",
+      "Sentiment analysis of daily financial data"
+    ]
+  ]
+}
