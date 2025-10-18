@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Kolik různých možností je celkem k dispozici pro všechny hyperparametry klasifikované jako 'Categorical'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Které hyperparametry mají největší počet diskrétních možností uvedených v jejich 'Rozsahu / Možnostech'?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Uveďte všechny ne-kategoriální hyperparametry, jejichž číselný rozsah zahrnuje hodnotu 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Jaké procento z uvedených hyperparametrů je typu 'Continuous'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Pro hyperparametr s nejmenším počtem diskrétních možností, jaký je jeho typ?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolik unikátních kategorií 'Type' je uvedeno v tabulce a jaké to jsou?",
+    "answer": [
+      [
+        "V tabulce jsou uvedeny 3 unikátní kategorie 'Type': Continuous, Categorical a Integer."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Pokud by se rozsah 'Počet vrstev R-GCN' rozšířil na '1 až 7' a byl přidán nový 'Kategoriální' hyperparametr 'Velikost dávky' s možnostmi '{16, 32, 64}', jaký by byl nový celkový počet diskrétních možností napříč všemi ne-kontinuálními hyperparametry?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Který hyperparametr typu 'Continuous' má unikátně specifikovaný formát rozsahu ve srovnání s ostatními svého typu a čím je unikátní?",
+    "answer": [
+      [
+        "Parametr 'Learning rate' má unikátní formát. Na rozdíl od 'Dropout rate', který má jednoduchý numerický rozsah, je rozsah 'Learning rate' specifikován pomocí vědecké notace a obsahuje poznámku v závorce '(log-uniform)', která označuje specifické rozdělení vzorkování."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Porovnejte složitost vyhledávacího prostoru pro hyperparametry typu 'Continuous' oproti typu 'Categorical', jak je popsáno v tabulce.",
+    "answer": [
+      [
+        "Podle tabulky mají hyperparametry typu 'Continuous' nekonečně větší vyhledávací prostor než ty 'Categorical'. 'Continuous' parametry jako 'Learning rate' mohou nabývat jakékoli reálné hodnoty v rámci svých mezí, čímž vytvářejí nekonečné možnosti. Na rozdíl od toho mají 'Categorical' parametry jako 'Optimizer' malou, konečnou sadu uvedených možností, což činí jejich vyhledávací prostor diskrétní a spočitatelný."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Který hyperparametr má v seznamu možností pouze mocniny 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

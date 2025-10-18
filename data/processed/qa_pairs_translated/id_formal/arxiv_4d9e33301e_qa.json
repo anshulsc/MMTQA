@@ -1,0 +1,174 @@
+[
+  {
+    "question_id": "arxiv_4d9e33301e_001",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Perusahaan mana yang memiliki margin laba (Pendapatan Bersih / Total Pendapatan) lebih tinggi pada periode terbaru?",
+    "answer": [
+      [
+        "Coca-Cola Co"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_002",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Berapakah total pendapatan gabungan dalam ribuan untuk PepsiCo dan Coca-Cola dalam periode terbaru yang tercatat?",
+    "answer": [
+      [
+        "34294000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_003",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Perusahaan mana yang mencapai peningkatan absolut yang lebih besar dalam Laba Kotor (Total Pendapatan - Biaya Pendapatan) dari periode sebelumnya ke periode terbaru?",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_004",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis tren pendapatan bersih Coca-Cola antara dua periode yang tercatat dan bandingkan dengan tren total pendapatannya.",
+    "answer": [
+      [
+        "Pendapatan bersih Coca-Cola menurun dari 3.107.000 menjadi 2.547.000 (dalam ribuan), sementara total pendapatannya meningkat dari 10.980.000 menjadi 11.972.000 (dalam ribuan). Perbedaan ini menunjukkan bahwa meskipun penjualan tumbuh, profitabilitas menurun, menyiratkan bahwa kenaikan biaya atau pengeluaran melampaui pertumbuhan pendapatan."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_005",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Perusahaan mana yang mengalami pertumbuhan biaya operasional melebihi 1.000.000 ribu sementara biaya bunganya tumbuh sebesar 1.000 ribu atau kurang?",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_006",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Untuk periode terbaru, berapa persen dari total pendapatan PepsiCo yang dikonsumsi oleh jumlah Biaya Pendapatan dan Beban Operasionalnya?",
+    "answer": [
+      [
+        "83.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_007",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Jika Biaya Pendapatan Coca-Cola dalam periode terbaru 10% lebih rendah, berapa Pendapatan Bersih barunya (dalam ribuan), dengan asumsi tidak ada angka lain yang berubah?",
+    "answer": [
+      [
+        "3038200"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_008",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data kedua perusahaan, apa hubungan yang tampak antara perubahan Pendapatan Total dan perubahan Beban Operasional antara kedua periode?",
+    "answer": [
+      [
+        "Terdapat korelasi positif yang tampak. Baik untuk PepsiCo maupun Coca-Cola, peningkatan Pendapatan Total dari periode sebelumnya ke periode terkini disertai dengan peningkatan Beban Operasional. Hal ini menunjukkan bahwa seiring pertumbuhan pendapatan, demikian pula pengeluaran yang diperlukan untuk mendukung pertumbuhan tersebut, seperti biaya pemasaran dan administrasi."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_009",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Untuk Coca-Cola Co, kategori biaya manakah yang merupakan outlier dalam hal arah trennya (kenaikan/penurunan) berlawanan dengan tren Biaya Pendapatan dan Beban Operasional?",
+    "answer": [
+      [
+        "Depreciation and Amortization"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_010",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "Metrik keuangan disajikan sebagai daftar dua elemen (misalnya, [nilai1, nilai2]). Mengingat konteks pelaporan triwulanan, apa kemungkinan makna dari struktur ini?",
+    "answer": [
+      [
+        "Struktur ini kemungkinan besar mewakili perbandingan dari tahun ke tahun untuk kuartal tersebut. Nilai pertama biasanya sesuai dengan hasil keuangan dari kuartal yang sama di tahun sebelumnya, sementara nilai kedua mewakili hasil untuk kuartal saat ini. Format ini standar untuk menilai tren kinerja dan pertumbuhan dari waktu ke waktu."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "arxiv_2ffada3c04_001",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "किन 'मल्टी-एसेट' बाज़ारों के लिए डिज़ाइन किए गए मॉडल की कम्प्यूट आवश्यकता सबसे कम है?",
+    "answer": [
+      [
+        "DRPO"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A6",
+      "D6",
+      "E6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_002",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "'Direct' execution strategy का उपयोग करने वाले मॉडलों की कुल संख्या कितनी है?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_003",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "'हाई' कंप्यूट आवश्यकता वाले मॉडलों में से, किस मॉडल की मुख्य ताकत 'मजबूत पैटर्न एक्सट्रैक्शन' के रूप में सूचीबद्ध है?",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "F1",
+      "A4",
+      "E4",
+      "F4",
+      "A5",
+      "E5",
+      "F5",
+      "A8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_004",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "'इक्विटी' बाज़ार में काम करने वाले और 'इनडायरेक्ट' एग्जीक्यूशन विधि का उपयोग करने वाले सभी मॉडलों की पहचान करें।",
+    "answer": [
+      [
+        "CPPI-MADDPG"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_005",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "सूचीबद्ध सभी मॉडलों में से कितने प्रतिशत मॉडल की कम्प्यूट आवश्यकता 'उच्च' या 'बहुत उच्च' है?",
+    "answer": [
+      [
+        "55.6%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_006",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "यदि किसी फर्म का इंफ्रास्ट्रक्चर केवल 'मीडियम' या 'लो' कंप्यूट रिक्वायरमेंट्स वाले मॉडल को ही सपोर्ट कर सकता है, तो टेबल में सूचीबद्ध कौन सी ट्रेडिंग स्ट्रैटेजी उनके लिए पूरी तरह से अनुपलब्ध होंगी?",
+    "answer": [
+      [
+        "Predictive"
+      ],
+      [
+        "Hybrid"
+      ],
+      [
+        "Signal"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_007",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "डेटा के आधार पर, मॉडल के 'निष्पादन' प्रकार और उसकी 'कम्प्यूट' आवश्यकता स्तर के बीच क्या संबंध प्रतीत होता है?",
+    "answer": [
+      [
+        "निष्पादन प्रकार और कम्प्यूट आवश्यकताओं के बीच एक संबंध प्रतीत होता है। 'उच्च' कम्प्यूट (StockFormer, EarnHFT, MacroHFT, HRT) वाले सभी चार मॉडल और 'बहुत उच्च' कम्प्यूट (TRR) वाले एक मॉडल 'प्रत्यक्ष' (3) और 'अप्रत्यक्ष' (2) निष्पादन के बीच विभाजित हैं। हालांकि, 'मध्यम' या 'कम' कम्प्यूट आवश्यकताओं वाले मॉडल मुख्य रूप से 'प्रत्यक्ष' (4 में से 3) हैं, जिसमें केवल एक 'अप्रत्यक्ष' निष्पादन का उपयोग करता है। यह सुझाव देता है कि उच्च-कम्प्यूट मॉडल प्रत्यक्ष या अप्रत्यक्ष हो सकते हैं, लेकिन इस डेटासेट में कम-कम्प्यूट मॉडल संभवतः प्रत्यक्ष निष्पादन रणनीति का उपयोग करते हैं, ताकि अप्रत्यक्ष परत द्वारा पेश किए जा सकने वाले विलंबता ओवरहेड को कम किया जा सके।"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_008",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "कौन सा मॉडल 'बहुत उच्च' कंप्यूट आवश्यकता होने के लिए अद्वितीय है, जो इसे कम्प्यूटेशनल मांग के मामले में एक आउटलायर बनाता है?",
+    "answer": [
+      [
+        "TRR"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_009",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "'मार्केट-विशिष्ट' या 'एकल मार्केट फ़ोकस' डिज़ाइन द्वारा सीमित कौन से मॉडल हैं, लेकिन 'क्रिप्टो' मार्केट में काम नहीं करते हैं?",
+    "answer": [
+      [
+        "MacMic"
+      ],
+      [
+        "IMM"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_010",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "एक पोर्टफोलियो प्रबंधक इक्विटी के लिए डाउनसाइड प्रोटेक्शन वाले मॉडल की इच्छा रखता है, लेकिन जटिलता के बारे में चिंतित है। डेटा के आधार पर, सबसे उपयुक्त मॉडल के लिए प्राथमिक ट्रेड-ऑफ क्या हैं?",
+    "answer": [
+      [
+        "सबसे उपयुक्त मॉडल CPPI-MADDPG है, जो 'इक्विटी' मार्केट पर 'पोर्टफोलियो' रणनीति के साथ केंद्रित है और स्पष्ट रूप से 'डाउनसाइड प्रोटेक्शन' को एक मुख्य शक्ति के रूप में सूचीबद्ध करता है। इसके 'मुख्य सीमाएं' में बताए गए प्राथमिक ट्रेड-ऑफ 'समन्वय ओवरहेड' (coordination overhead) और 'धीमा अनुकूलन' (slower adaptation) हैं। इसका मतलब है कि प्रबंधक को बढ़ी हुई परिचालन जटिलता और बाजार परिवर्तनों पर तेज़ी से प्रतिक्रिया करने की क्षमता में कमी की कीमत पर पोर्टफोलियो सुरक्षा मिलती है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

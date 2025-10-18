@@ -1,0 +1,172 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "ในบรรดาโมเดลที่ระบุ สถาปัตยกรรมพื้นฐานใดที่มีจำนวนพารามิเตอร์มากที่สุด?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "จำนวนโทเค็นทั้งหมดในคลังข้อมูลที่ใช้ฝึก BloomBergGPT คือเท่าใด",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "งบประมาณการฝึกอบรมสำหรับโมเดลที่สร้างสถาปัตยกรรม T5 คือเท่าใด",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "สำหรับโมเดลที่ระบุว่ามีกระบวนการข้อมูลการฝึกอบรมสองขั้นตอน ขนาดคลังข้อมูลสำหรับขั้นตอนการฝึกเบื้องต้นคือเท่าใด",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "ระบุ LLM ที่ใช้สถาปัตยกรรมที่ใช้ BLOOM และมีงบประมาณการฝึกอบรมที่เผยแพร่ต่อสาธารณะซึ่งระบุเป็น A100·ชั่วโมง",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPT มีส่วนที่เป็นโทเค็นสาธารณะคิดเป็นกี่เปอร์เซ็นต์ของคลังข้อมูลการฝึกทั้งหมด?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "หากงบประมาณการฝึกอบรมของ XuanYuan2.0 ถูกเปิดเผยว่าอยู่ที่ 2,500,000 ชั่วโมง A100 จะส่งผลต่อการจัดอันดับโมเดลตามงบประมาณการฝึกอบรมอย่างไร?",
+    "answer": [
+      [
+        "ปัจจุบัน BloomBergGPT เป็นโมเดลเดียวที่มีงบประมาณตัวเลขที่ระบุ (1,300,000 ชั่วโมง A100) ทำให้ติดอันดับแรก หากงบประมาณของ XuanYuan2.0 อยู่ที่ 2,500,000 ชั่วโมง A100 มันจะกลายเป็นโมเดลที่มีงบประมาณการฝึกอบรมสูงสุดที่ทราบ โดยแซงหน้า BloomBergGPT การจัดอันดับใหม่สำหรับโมเดลที่มีงบประมาณตัวเลขจะเป็น 1. XuanYuan2.0 (2,500,000) และ 2. BloomBergGPT (1,300,000)"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "จากข้อมูลนี้ มีความสัมพันธ์ที่สอดคล้องกันระหว่างจำนวนพารามิเตอร์ของสถาปัตยกรรมโมเดลกับขนาดรวมของคลังข้อมูลการฝึกฝนหรือไม่",
+    "answer": [
+      [
+        "ไม่ มีความสัมพันธ์เชิงบวกที่สอดคล้องกันอย่างชัดเจนในข้อมูล ตัวอย่างเช่น XuanYuan2.0 มีสถาปัตยกรรมที่ใหญ่กว่ามาก (176 พันล้านพารามิเตอร์) กว่า BloomBergGPT (50 พันล้านพารามิเตอร์) แต่กลับถูกฝึกฝนด้วยคลังข้อมูลที่เล็กกว่า (379 พันล้านโทเค็น เทียบกับ 708 พันล้านโทเค็น) สิ่งนี้ชี้ให้เห็นว่าโมเดลที่ใหญ่กว่าไม่จำเป็นต้องใช้คลังข้อมูลการฝึกที่ใหญ่กว่าตามชุดข้อมูลนี้"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "คอลัมน์ข้อมูลใดที่มีความหลากหลายในรูปแบบข้อมูลมากที่สุด โดยมีจำนวนเต็มขนาดใหญ่, ข้อความที่ไม่เปิดเผย, และช่วงเวลา?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "โมเดลใดที่มีงบประมาณการฝึกอบรมที่ระบุว่าเป็นค่าที่โดดเด่นในเชิงบวก เมื่อเทียบกับข้อมูลงบประมาณที่มีอยู่สำหรับโมเดลอื่นๆ?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

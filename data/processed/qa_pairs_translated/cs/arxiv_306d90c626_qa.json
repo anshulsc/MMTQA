@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_306d90c626_001",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Který rodina LLM modelů (např. GPT, Llama) se objevuje v nejvyšším počtu uvedených výzkumných prací?",
+    "answer": [
+      [
+        "GPT"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_002",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Jaký je celkový počet výzkumných prací, které využívají modely vyvinuté společností OpenAI (ChatGPT, GPT-3, GPT-4 a jejich varianty)?",
+    "answer": [
+      [
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_306d90c626_003",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Pro metody, které využívají FinBERT, jaká je primární aplikace, pro kterou jsou použity?",
+    "answer": [
+      [
+        "Stock price prediction"
+      ],
+      [
+        "Financial Portfolio Optimisation"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_004",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Identifikujte výzkumné metody, které vykazují časový postup ve volbě modelu použitím alespoň dvou odlišných generací ze stejné rodiny modelů (např. GPT-3 a GPT-4).",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Few-Shot Stock Trend Prediction [15]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_005",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Uveďte 'Metoda/Článek', které používají model z rodiny Llama a nepoužívají data S&P 500.",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_006",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "S&P 500 je zmíněn jako zdroj dat v 50 % uvedených studií. Co tato vysoká frekvence použití naznačuje o jeho roli ve výzkumu finančních LLM?",
+    "answer": [
+      [
+        "Časté používání S&P 500, které se objevuje v polovině studií, naznačuje, že slouží jako standardní srovnávací datová sada pro finanční výzkum zahrnující LLM. Jeho charakteristiky – být známou, veřejnou, rozsáhlou a likvidní datovou sadou – jej činí ideálním pro testování a porovnávání výkonnosti různých modelů a metod pro úkoly, jako je predikce akcií a výběr portfolia. Tato závislost naznačuje potřebu, aby výzkumníci prokázali účinnost svých modelů na široce přijímaném standardu, než je aplikují na specifičtější nebo proprietární data."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C5",
+      "C6",
+      "C10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_306d90c626_007",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Pokud by nová podmínka vyžadovala, aby všechny výzkumy používaly multimediální data (např. zprávy a tržní data), která metoda by již nebyla v souladu s popsanými daty?",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "MuSA [26]"
+      ],
+      [
+        "SEP [28]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ],
+      [
+        "[45]"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_008",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě tabulky, jaký je vztah mezi složitostí 'Aplikace' a rozmanitostí použitých 'LLM Modelů'? Například, používají širší aplikace rozmanitější modely?",
+    "answer": [
+      [
+        "Data naznačují nepřímý vztah. Složitější a specifičtější aplikace, jako je 'predikce pohybu cen akcií' nebo 'finanční analýza', mají tendenci využívat rozmanitou sadu modelů, včetně více generací a rodin (např. 'GPT-3, GPT-4, LLaMA-2, LLaMA-3'). Naopak aplikace se zdánlivě jednosměrným zaměřením, jako je 'výběr investičního portfolia' nebo 'trend na akciovém trhu', jsou zobrazeny s použitím jediného modelu, jako je ChatGPT. To naznačuje, že řešení nuancovaných finančních úkolů může těžit z přístupu souboru nebo srovnávacího přístupu s využitím několika pokročilých LLM."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_306d90c626_009",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Který sloupec, 'LLM Model' nebo 'Data', obsahuje buňku s největším počtem uvedených odlišných položek?",
+    "answer": [
+      [
+        "LLM Model"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_010",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Která výzkumná práce je odlehlá z hlediska své aplikace a zaměřuje se na široký systémový problém spíše než na konkrétní prediktivní nebo investiční úkol?",
+    "answer": [
+      [
+        "[32]"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

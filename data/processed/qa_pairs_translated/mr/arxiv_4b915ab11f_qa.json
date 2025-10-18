@@ -1,0 +1,172 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "दिलेल्या मॉडेल्सपैकी, पॅरामीटर संख्येच्या बाबतीत सर्वात मोठे बेस आर्किटेक्चर कोणते मॉडेल वापरते?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPT प्रशिक्षित करण्यासाठी वापरलेल्या कॉर्पसमधील एकूण टोकन्सची संख्या किती आहे?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "T5 आर्किटेक्चरवर आधारित मॉडेलसाठी प्रशिक्षण बजेट काय आहे?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "दोन-टप्प्यांच्या प्रशिक्षण डेटा प्रक्रियेचे तपशीलवार वर्णन करणाऱ्या मॉडेलसाठी, प्री-ट्रेनिंग टप्प्यासाठी कॉर्पसचा आकार काय होता?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BLOOM-आधारित आर्किटेक्चर वापरणाऱ्या आणि A100·तासांमध्ये नमूद केलेले प्रशिक्षण बजेट सार्वजनिकरित्या जारी केलेल्या LLM ची ओळख पटवा.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPT च्या एकूण प्रशिक्षण कॉर्पसपैकी किती टक्के सार्वजनिक टोकन्स आहेत?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "जर XuanYuan2.0 चे प्रशिक्षण बजेट 2,500,000 A100·hours असल्याचे उघड झाले, तर प्रशिक्षण बजेटनुसार मॉडेल्सच्या क्रमवारीत याचा कसा परिणाम होईल?",
+    "answer": [
+      [
+        "सध्या, BloomBergGPT कडे एकमेव निर्दिष्ट संख्यात्मक बजेट (1,300,000 A100·hours) आहे, ज्यामुळे ते पहिल्या क्रमांकावर आहे. जर XuanYuan2.0 चे बजेट 2,500,000 A100·hours असते, तर ते BloomBergGPT ला मागे टाकून सर्वाधिक ज्ञात प्रशिक्षण बजेट असलेले मॉडेल बनेल. संख्यात्मक बजेट असलेल्या मॉडेल्सची नवीन क्रमवारी अशी असेल: 1. XuanYuan2.0 (2,500,000) आणि 2. BloomBergGPT (1,300,000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "या डेटानुसार, मॉडेल आर्किटेक्चरच्या पॅरामीटरची संख्या आणि त्याच्या प्रशिक्षण कॉर्पसचा एकूण आकार यामध्ये सुसंगत संबंध आहे का?",
+    "answer": [
+      [
+        "नाही, डेटामध्ये कोणताही सुसंगत सकारात्मक संबंध दिसत नाही. उदाहरणार्थ, XuanYuan2.0 चे आर्किटेक्चर (176B पॅरामीटर्स) BloomBergGPT (50B पॅरामीटर्स) पेक्षा खूप मोठे आहे, तरीही ते लहान कॉर्पसवर (379B टोकन्स विरुद्ध 708B टोकन्स) प्रशिक्षित केले गेले. यावरून असे सूचित होते की मोठ्या मॉडेलसाठी या डेटासेटनुसार मोठ्या प्रशिक्षण कॉर्पसची आवश्यकता नसते."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "कोणत्या डेटा कॉलममध्ये डेटा स्वरूपात सर्वाधिक बदल दिसून येतो, ज्यात एक मोठी पूर्णांक संख्या, एक नॉन-डिस्क्लोजर स्ट्रिंग आणि वेळेवर आधारित श्रेणी समाविष्ट आहे?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "इतर मॉडेल्ससाठी उपलब्ध असलेल्या बजेट माहितीच्या तुलनेत कोणत्या मॉडेलचे नमूद केलेले प्रशिक्षण बजेट लक्षणीय सकारात्मक आउटलायर आहे?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

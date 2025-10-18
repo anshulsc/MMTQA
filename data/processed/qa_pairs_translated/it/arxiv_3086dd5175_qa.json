@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Quante opzioni distinte sono disponibili in totale per tutti gli iperparametri classificati come 'Categorical'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Quali iperparametri hanno il maggior numero di opzioni discrete elencate in 'Range / Options'?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Elenca tutti gli iperparametri non Categorici il cui intervallo numerico include il valore 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Qual è la percentuale degli iperparametri elencati che sono di tipo 'Continuo'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Per l'iperparametro con il minor numero di opzioni discrete, qual è il suo tipo?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Quante categorie uniche di 'Tipo' sono elencate nella tabella e quali sono?",
+    "answer": [
+      [
+        "Ci sono 3 categorie uniche di 'Tipo' elencate nella tabella: Continuo, Categorico e Intero."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Se l'intervallo del 'Numero di layer R-GCN' fosse esteso a '1 a 7' e venisse aggiunto un nuovo iperparametro 'Categorico' 'Dimensione batch' con opzioni '{16, 32, 64}', quale sarebbe il nuovo conteggio totale di opzioni discrete in tutti gli iperparametri non continui?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale iperparametro di tipo 'Continuous' ha un formato di intervallo specificato in modo univoco rispetto agli altri del suo tipo, e cosa lo rende unico?",
+    "answer": [
+      [
+        "Il 'Learning rate' ha un formato unico. A differenza del 'Dropout rate' che ha un semplice intervallo numerico, l'intervallo del 'Learning rate' è specificato utilizzando la notazione scientifica e include una nota tra parentesi '(log-uniform)' che indica una specifica distribuzione di campionamento."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Confronta la complessità dello spazio di ricerca per gli iperparametri di tipo 'Continuo' rispetto a quelli di tipo 'Categorico' come descritto nella tabella.",
+    "answer": [
+      [
+        "In base alla tabella, gli iperparametri di tipo 'Continuo' hanno uno spazio di ricerca infinitamente più grande rispetto a quelli 'Categorici'. I parametri 'Continui' come il 'Learning rate' possono assumere qualsiasi valore reale entro i loro limiti, creando infinite possibilità. Al contrario, i parametri 'Categorici' come 'Optimizer' hanno un piccolo insieme finito di opzioni elencate, rendendo il loro spazio di ricerca discreto e numerabile."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Quale iperparametro ha come opzioni elencate tutte potenze di 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

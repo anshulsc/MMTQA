@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "¿Cuántas opciones distintas están disponibles en total para todos los hiperparámetros clasificados como 'Categorical'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "¿Qué hiperparámetros tienen la mayor cantidad de opciones discretas listadas en su 'Rango / Opciones'?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Enumere todos los hiperparámetros no categóricos cuyo rango numérico incluye el valor 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de los hiperparámetros enumerados son del tipo 'Continuo'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "¿Para el hiperparámetro con la menor cantidad de opciones discretas, ¿cuál es su tipo?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cuántas categorías únicas de 'Tipo' se enumeran en la tabla, y cuáles son?",
+    "answer": [
+      [
+        "Hay 3 categorías únicas de 'Tipo' enumeradas en la tabla: Continuo, Categórico e Entero."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "¿Si el rango de 'Número de capas R-GCN' se expandiera a '1 a 7' y se añadiera un nuevo hiperparámetro 'Categorical' 'Tamaño del lote' con las opciones '{16, 32, 64}', ¿cuál sería el nuevo recuento total de opciones discretas en todos los hiperparámetros no continuos?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué hiperparámetro de tipo 'Continuo' tiene un formato de rango especificado de manera única en comparación con el otro de su tipo, y qué lo hace único?",
+    "answer": [
+      [
+        "La 'Tasa de aprendizaje' tiene un formato único. A diferencia de la 'Tasa de abandono' que tiene un rango numérico simple, el rango de la 'Tasa de aprendizaje' se especifica utilizando notación científica e incluye una nota entre paréntesis '(log-uniforme)' que indica una distribución de muestreo específica."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Contrasta la complejidad del espacio de búsqueda para los hiperparámetros de tipo 'Continuo' versus los de tipo 'Categórico' como se describe en la tabla.",
+    "answer": [
+      [
+        "Según la tabla, los hiperparámetros de tipo 'Continuo' tienen un espacio de búsqueda infinitamente mayor que los 'Categóricos'. Los parámetros 'Continuos' como la 'Tasa de aprendizaje' pueden tomar cualquier valor real dentro de sus límites, creando infinitas posibilidades. Por el contrario, los parámetros 'Categóricos' como el 'Optimizador' tienen un conjunto pequeño y finito de opciones enumeradas, lo que hace que su espacio de búsqueda sea discreto y contable."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "¿Cuáles de las opciones listadas para el hiperparámetro son todas potencias de 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

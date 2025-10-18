@@ -1,0 +1,172 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "나열된 모델 중에서 파라미터 수를 기준으로 가장 큰 기본 아키텍처를 사용하는 모델은 무엇입니까?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPT 훈련에 사용된 코퍼스의 총 토큰 수는 얼마입니까?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "T5 아키텍처를 기반으로 구축된 모델의 훈련 예산은 얼마입니까?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "두 단계 학습 데이터 프로세스를 지정하는 모델의 경우, 사전 학습 단계의 코퍼스 크기는 얼마였습니까?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BLOOM 기반 아키텍처를 사용하고 A100·시간으로 지정된 공개 훈련 예산이 있는 LLM을 식별하십시오.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPT의 전체 학습 코퍼스 중 공개 토큰이 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "만약 XuanYuan2.0의 훈련 예산이 2,500,000 A100·시간으로 공개된다면, 훈련 예산별 모델 순위에 어떤 영향을 미치겠습니까?",
+    "answer": [
+      [
+        "현재 BloomBergGPT만이 수치화된 예산(1,300,000 A100·시간)을 가지고 있어 1위를 차지하고 있습니다. 만약 XuanYuan2.0의 예산이 2,500,000 A100·시간이라면, 이는 BloomBergGPT를 능가하는 가장 높은 알려진 훈련 예산을 가진 모델이 될 것입니다. 수치화된 예산을 가진 모델의 새로운 순위는 1. XuanYuan2.0 (2,500,000) 및 2. BloomBergGPT (1,300,000)가 될 것입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "이 데이터에 따르면 모델 아키텍처의 매개변수 수와 훈련 코퍼스 총 크기 사이에 일관된 상관관계가 있습니까?",
+    "answer": [
+      [
+        "아니요, 데이터에서 일관된 양의 상관관계는 나타나지 않습니다. 예를 들어, XuanYuan2.0은 BloomBergGPT(매개변수 50B)보다 훨씬 더 큰 아키텍처(매개변수 176B)를 가지고 있지만, 더 작은 코퍼스(708B 토큰 대 379B 토큰)로 훈련되었습니다. 이는 이 데이터셋에 따르면 더 큰 모델이 반드시 더 큰 훈련 코퍼스를 요구하지는 않는다는 것을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "데이터 형식의 가장 큰 변동성을 보이며, 큰 정수, 비공개 문자열, 시간 기반 범위를 포함하는 데이터 열은 무엇입니까?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "다른 모델들의 예산 정보에 비해 상당한 양의 예산을 나타내는 모델은 무엇입니까?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_306d90c626_001",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "リストされている研究論文で最も多く登場するLLMモデルファミリー（例：GPT、Llama）は何ですか？",
+    "answer": [
+      [
+        "GPT"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_002",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "OpenAIによって開発されたモデル（ChatGPT、GPT-3、GPT-4およびそれらのバリアント）を利用する研究論文の総数はいくつですか？",
+    "answer": [
+      [
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_306d90c626_003",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "FinBERTを利用する手法において、それらは主に何のために使用されていますか？",
+    "answer": [
+      [
+        "Stock price prediction"
+      ],
+      [
+        "Financial Portfolio Optimisation"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_004",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "モデルファミリー（例：GPT-3 および GPT-4）から少なくとも2つの異なる世代を使用して、モデル選択における時間的進展を示す研究方法を特定してください。",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Few-Shot Stock Trend Prediction [15]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_005",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Llamaファミリーのモデルを使用し、S&P 500のデータを使用しない「Method/Paper」をリストアップしてください。",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_006",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "S&P 500は、提示された研究の50%でデータソースとして言及されています。この高い使用頻度は、金融LLM研究におけるその役割について何を意味しますか？",
+    "answer": [
+      [
+        "研究の半数に登場するS&P 500の頻繁な使用は、それがLLMを用いた金融研究における標準的なベンチマークデータセットとして機能することを示唆しています。その特徴、すなわち、よく知られ、公開されており、広範で流動性の高いデータセットであることは、株式予測やポートフォリオ選択などのタスクにおけるさまざまなモデルや手法のパフォーマンスをテストおよび比較するのに理想的です。この依存性は、研究者がよりニッチまたは独自のデータに適用する前に、広く受け入れられている標準でモデルの効果を実証する必要があることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C5",
+      "C6",
+      "C10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_306d90c626_007",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "もし、すべての研究でマルチモーダルデータ（例：ニュースや市場データ）を使用するという新しい制約が課された場合、記載されているデータに基づくと、どの手法がもはや準拠しなくなりますか？",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "MuSA [26]"
+      ],
+      [
+        "SEP [28]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ],
+      [
+        "[45]"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_008",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "表に基づいて、「アプリケーション」の複雑さと使用される「LLMモデル」の多様性の間にはどのような関係がありますか？例えば、より広範なアプリケーションは、より多様なモデルを使用しますか？",
+    "answer": [
+      [
+        "データは逆の関係を示唆しています。「株価変動予測」や「財務分析」のような、より複雑で特定のアプリケーションは、複数の世代やファミリー（例：「GPT-3、GPT-4、LLaMA-2、LLaMA-3」）を含む多様なモデルセットを活用する傾向があります。対照的に、「投資ポートフォリオ選択」や「株式市場トレンド」のような、単一の焦点を持つように見えるアプリケーションは、ChatGPTのような単一のモデルが使用されていることが示されています。これは、ニュアンスの多い金融タスクに取り組むには、いくつかの高度なLLMを使用したアンサンブルまたは比較アプローチが有益である可能性を示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_306d90c626_009",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "'LLM Model' 列と 'Data' 列のどちらに、リストされている項目数が最も多いセルが含まれていますか？",
+    "answer": [
+      [
+        "LLM Model"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_010",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "特定の予測または投資タスクではなく、広範な体系的な問題に焦点を当てているという点で、アプリケーションの点で外れ値となっている研究論文はどれですか？",
+    "answer": [
+      [
+        "[32]"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_306d90c626_001",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "ตระกูลโมเดล LLM (เช่น GPT, Llama) ใดที่ปรากฏในจำนวนเอกสารวิจัยสูงสุดที่ระบุไว้?",
+    "answer": [
+      [
+        "GPT"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_002",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "มีงานวิจัยทั้งหมดกี่ฉบับที่ใช้โมเดลที่พัฒนาโดย OpenAI (ChatGPT, GPT-3, GPT-4 และรุ่นที่เกี่ยวข้อง)?",
+    "answer": [
+      [
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_306d90c626_003",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "สำหรับวิธีการที่ใช้ FinBERT แอปพลิเคชันหลักที่ใช้คืออะไร?",
+    "answer": [
+      [
+        "Stock price prediction"
+      ],
+      [
+        "Financial Portfolio Optimisation"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_004",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "ระบุวิธีการวิจัยที่แสดงให้เห็นถึงความก้าวหน้าทางเวลาในการเลือกโมเดล โดยใช้โมเดลอย่างน้อยสองรุ่นที่แตกต่างกันจากตระกูลโมเดลเดียวกัน (เช่น GPT-3 และ GPT-4)",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Few-Shot Stock Trend Prediction [15]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_005",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "ระบุ 'Method/Paper' ที่ใช้โมเดลจากตระกูล Llama และไม่ได้ใช้ข้อมูล S&P 500",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_006",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "ดัชนี S&P 500 ถูกกล่าวถึงว่าเป็นแหล่งข้อมูลใน 50% ของการศึกษาที่ระบุไว้ ความถี่ในการใช้งานที่สูงนี้บ่งชี้อะไรเกี่ยวกับบทบาทของมันในการวิจัย LLM ทางการเงิน?",
+    "answer": [
+      [
+        "การใช้ดัชนี S&P 500 บ่อยครั้ง ซึ่งปรากฏในครึ่งหนึ่งของการศึกษา บ่งชี้ว่ามันทำหน้าที่เป็นชุดข้อมูลมาตรฐาน (benchmark dataset) สำหรับการวิจัยทางการเงินที่เกี่ยวข้องกับ LLM คุณลักษณะของมัน — คือเป็นชุดข้อมูลที่รู้จักกันดี เป็นสาธารณะ กว้างขวาง และมีความคล่องตัวสูง — ทำให้เหมาะสมอย่างยิ่งสำหรับการทดสอบและเปรียบเทียบประสิทธิภาพของแบบจำลองและวิธีการต่างๆ สำหรับงานต่างๆ เช่น การทำนายหุ้นและการเลือกพอร์ตการลงทุน การพึ่งพานี้ชี้ให้เห็นถึงความจำเป็นสำหรับนักวิจัยที่จะต้องแสดงให้เห็นถึงประสิทธิผลของแบบจำลองของตนบนมาตรฐานที่ได้รับการยอมรับอย่างกว้างขวาง ก่อนที่จะนำไปใช้กับข้อมูลเฉพาะกลุ่มหรือข้อมูลที่เป็นกรรมสิทธิ์มากขึ้น"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C5",
+      "C6",
+      "C10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_306d90c626_007",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "หากมีข้อกำหนดใหม่ที่ต้องการให้งานวิจัยทั้งหมดใช้ข้อมูลหลายรูปแบบ (เช่น ข่าวสารและข้อมูลตลาด) วิธีการใดบ้างที่จะไม่สอดคล้องกับข้อกำหนดนี้อีกต่อไป โดยพิจารณาจากข้อมูลที่อธิบายไว้?",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "MuSA [26]"
+      ],
+      [
+        "SEP [28]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ],
+      [
+        "[45]"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_008",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "จากตาราง ความสัมพันธ์ระหว่างความซับซ้อนของ 'แอปพลิเคชัน' กับความหลากหลายของ 'โมเดล LLM' ที่ใช้คืออะไร ตัวอย่างเช่น แอปพลิเคชันที่กว้างกว่าใช้โมเดลที่หลากหลายกว่าหรือไม่",
+    "answer": [
+      [
+        "ข้อมูลบ่งชี้ถึงความสัมพันธ์แบบผกผัน แอปพลิเคชันที่ซับซ้อนและเฉพาะเจาะจงมากขึ้น เช่น 'การทำนายการเคลื่อนไหวของราคาหุ้น' หรือ 'การวิเคราะห์ทางการเงิน' มักใช้โมเดลที่หลากหลาย รวมถึงรุ่นและตระกูลต่างๆ (เช่น 'GPT-3, GPT-4, LLaMA-2, LLaMA-3') ในทางตรงกันข้าม แอปพลิเคชันที่มีจุดมุ่งหมายที่ดูเหมือนจะเฉพาะเจาะจง เช่น 'การเลือกพอร์ตการลงทุน' หรือ 'แนวโน้มตลาดหุ้น' แสดงให้เห็นว่ามีการใช้โมเดลเดียว เช่น ChatGPT ซึ่งบ่งชี้ว่าการจัดการงานทางการเงินที่ซับซ้อนอาจได้รับประโยชน์จากแนวทางแบบกลุ่มหรือการเปรียบเทียบโดยใช้ LLM ขั้นสูงหลายตัว"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_306d90c626_009",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "คอลัมน์ 'LLM Model' หรือ 'Data' มีเซลล์ที่มีรายการแตกต่างกันมากที่สุดกี่รายการ?",
+    "answer": [
+      [
+        "LLM Model"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_010",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "เอกสารวิจัยฉบับใดที่ถือเป็นกรณีพิเศษในแง่ของการประยุกต์ใช้งาน โดยมุ่งเน้นไปที่ประเด็นเชิงระบบที่กว้างขวาง แทนที่จะเป็นงานทำนายหรือการลงทุนที่เฉพาะเจาะจง?",
+    "answer": [
+      [
+        "[32]"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

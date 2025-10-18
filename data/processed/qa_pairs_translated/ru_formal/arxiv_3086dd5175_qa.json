@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Сколько всего различных вариантов доступно для всех гиперпараметров, классифицированных как «Категориальные»?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Какие гиперпараметры имеют наибольшее количество дискретных опций, перечисленных в разделе 'Range / Options'?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Перечислите все не категориальные гиперпараметры, численный диапазон которых включает значение 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Какой процент из перечисленных гиперпараметров относится к типу \"Continuous\"?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Для гиперпараметра с наименьшим количеством дискретных опций, каков его тип?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Сколько уникальных категорий 'Type' перечислено в таблице, и какие это категории?",
+    "answer": [
+      [
+        "В таблице указано 3 уникальные категории 'Type': Continuous, Categorical и Integer."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Если диапазон параметра \"Number of R-GCN layers\" был расширен до \"1 to 7\", и был добавлен новый категориальный гиперпараметр \"Batch size\" с опциями \"{16, 32, 64}\", каково было бы новое общее количество дискретных опций по всем непрерывным гиперпараметрам?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Какой гиперпараметр типа «Continuous» имеет уникальный формат указания диапазона по сравнению с другими гиперпараметрами этого типа, и в чем заключается его уникальность?",
+    "answer": [
+      [
+        "«Learning rate» имеет уникальный формат. В отличие от «Dropout rate», который имеет простой числовой диапазон, диапазон «Learning rate» указан с использованием научной нотации и включает в себя примечание в скобках «(log-uniform)», указывающее на конкретное распределение выборки."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Сравните сложность пространства поиска для гиперпараметров типа «Continuous» (непрерывный) и типа «Categorical» (категориальный), как это описано в таблице.",
+    "answer": [
+      [
+        "Согласно таблице, гиперпараметры типа «Continuous» имеют бесконечно большее пространство поиска, чем гиперпараметры типа «Categorical». «Непрерывные» параметры, такие как «Learning rate» (скорость обучения), могут принимать любое действительное значение в пределах своих границ, создавая бесконечное количество возможностей. Напротив, «Категориальные» параметры, такие как «Optimizer» (оптимизатор), имеют небольшой, конечный набор перечисленных вариантов, что делает их пространство поиска дискретным и исчисляемым."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Для какого из перечисленных гиперпараметров все указанные варианты являются степенями двойки?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

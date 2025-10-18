@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_306d90c626_001",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Model keluarga LLM (misalnya, GPT, Llama) manakah yang muncul dalam jumlah makalah penelitian terbanyak yang tercantum?",
+    "answer": [
+      [
+        "GPT"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_002",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Berapa jumlah total makalah penelitian yang menggunakan model yang dikembangkan oleh OpenAI (ChatGPT, GPT-3, GPT-4 dan variannya)?",
+    "answer": [
+      [
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_306d90c626_003",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Untuk metode yang menggunakan FinBERT, apa aplikasi utama yang digunakan?",
+    "answer": [
+      [
+        "Stock price prediction"
+      ],
+      [
+        "Financial Portfolio Optimisation"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_004",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Identifikasi metode penelitian yang menunjukkan progresi temporal dalam pilihan model dengan menggunakan setidaknya dua generasi berbeda dari keluarga model yang sama (misalnya, GPT-3 dan GPT-4).",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Few-Shot Stock Trend Prediction [15]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_005",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Sebutkan 'Metode/Makalah' yang menggunakan model dari keluarga Llama dan tidak menggunakan data S&P 500.",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_006",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "S&P 500 disebutkan sebagai sumber data dalam 50% studi yang terdaftar. Apa implikasi dari frekuensi penggunaan yang tinggi ini terhadap perannya dalam penelitian LLM keuangan?",
+    "answer": [
+      [
+        "Penggunaan S&P 500 yang sering, muncul di separuh studi, menyiratkan bahwa data tersebut berfungsi sebagai kumpulan data tolok ukur standar untuk penelitian keuangan yang melibatkan LLM. Karakteristiknya—sebagai data yang terkenal, publik, luas, dan likuid—menjadikannya ideal untuk menguji dan membandingkan kinerja berbagai model dan metode untuk tugas-tugas seperti prediksi saham dan pemilihan portofolio. Ketergantungan ini menunjukkan perlunya para peneliti untuk mendemonstrasikan efektivitas model mereka pada standar yang diterima secara luas sebelum menerapkannya pada data yang lebih khusus atau hak milik."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C5",
+      "C6",
+      "C10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_306d90c626_007",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Jika batasan baru mengharuskan semua penelitian untuk menggunakan data multi-modal (misalnya, berita dan data pasar), metode mana yang tidak lagi patuh berdasarkan data yang dijelaskan?",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "MuSA [26]"
+      ],
+      [
+        "SEP [28]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ],
+      [
+        "[45]"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_008",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan tabel, apa hubungan antara kompleksitas 'Aplikasi' dan keragaman 'Model LLM' yang digunakan? Misalnya, apakah aplikasi yang lebih luas menggunakan model yang lebih beragam?",
+    "answer": [
+      [
+        "Data menunjukkan hubungan terbalik. Aplikasi yang lebih kompleks dan spesifik seperti 'Prediksi pergerakan harga saham' atau 'Analisis keuangan' cenderung memanfaatkan beragam set model, termasuk berbagai generasi dan keluarga (misalnya, 'GPT-3, GPT-4, LLaMA-2, LLaMA-3'). Sebaliknya, aplikasi dengan fokus tunggal yang tampak, seperti 'Seleksi portofolio investasi' atau 'Tren pasar saham', ditunjukkan menggunakan satu model seperti ChatGPT. Ini menyiratkan bahwa mengatasi tugas keuangan yang bernuansa mungkin mendapat manfaat dari pendekatan ansambel atau komparatif menggunakan beberapa LLM canggih."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_306d90c626_009",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Kolom mana, 'LLM Model' atau 'Data', yang berisi sel dengan jumlah item berbeda terbanyak yang terdaftar?",
+    "answer": [
+      [
+        "LLM Model"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_010",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Makalah penelitian mana yang merupakan pengecualian dalam hal aplikasinya, dengan fokus pada isu sistemik yang luas daripada tugas prediksi atau investasi yang spesifik?",
+    "answer": [
+      [
+        "[32]"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

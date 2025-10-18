@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "「Categorical」に分類されるすべてのハイパーパラメータについて、合計でいくつの異なるオプションが利用可能ですか。",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "「Range / Options」に最も多くの個別オプションがリストされているハイパーパラメータはどれですか？",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "数値範囲に1が含まれる、Categoricalではないすべてのハイパーパラメータを列挙してください。",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "リストに記載されているハイパーパラメータのうち、「Continuous」型は何パーセントですか？",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "最も少ない離散オプションを持つハイパーパラメータについて、そのタイプは何ですか？",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "表に記載されている「Type」カテゴリには、固有のものがいくつあり、それらは何ですか？",
+    "answer": [
+      [
+        "表には、Continuous、Categorical、Integerの3つの固有の「Type」カテゴリが記載されています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "「Number of R-GCN layers」の範囲が「1から7」に拡大され、オプションが「{16, 32, 64}」である新しい「Categorical」ハイパーパラメータ「Batch size」が追加された場合、すべての非連続ハイパーパラメータにわたる離散オプションの新しい総数はいくつになりますか。",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "他の型と比較して、一意に指定された範囲形式を持つ「Continuous」タイプのハイパーパラメータはどれですか？また、そのユニークな点は何ですか？",
+    "answer": [
+      [
+        "「Learning rate」は独特の形式を持っています。単純な数値範囲を持つ「Dropout rate」とは異なり、「Learning rate」の範囲は科学的表記法で指定されており、特定のサンプリング分布を示す括弧書きの注記「(log-uniform)」が含まれています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "表に記載されているように、'Continuous' タイプのハイパーパラメータと 'Categorical' タイプのハイパーパラメータの探索空間の複雑さを対比してください。",
+    "answer": [
+      [
+        "表に基づくと、'Continuous' タイプのハイパーパラメータは、'Categorical' なものよりも無限に大きい探索空間を持ちます。'Learning rate' のような 'Continuous' パラメータは、その範囲内の任意の実数値をとり、無限の可能性を生み出します。対照的に、'Optimizer' のような 'Categorical' パラメータは、小さく有限なリストされたオプションのセットを持ち、その探索空間を離散的で可算的なものにしています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "どのハイパーパラメータのリストされたオプションがすべて2の累乗ですか？",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]
