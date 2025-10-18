@@ -47,7 +47,7 @@
     "question_id": "wikisql_c01440b987_003",
     "table_id": "wikisql_c01440b987",
     "question_type": "value",
-    "question": "What is the area in km\u00b2 of the voivodeship that has the most communes?",
+    "question": "What is the area in km² of the voivodeship that has the most communes?",
     "answer": [
       [
         "9 211"
@@ -88,7 +88,7 @@
     "question": "One voivodeship's name includes a date range. Identify this voivodeship and explain the likely significance of these dates for the context of the entire dataset.",
     "answer": [
       [
-        "The voivodeship is 'Bia\u0142ystok Voivodeship (1975-1998)'. The inclusion of this date range strongly implies that the dataset represents the administrative divisions of Poland as they existed during this specific historical period, before the major administrative reforms of 1999 which established a new voivodeship structure."
+        "The voivodeship is 'Białystok Voivodeship (1975-1998)'. The inclusion of this date range strongly implies that the dataset represents the administrative divisions of Poland as they existed during this specific historical period, before the major administrative reforms of 1999 which established a new voivodeship structure."
       ]
     ],
     "evidence_cells": [
@@ -103,7 +103,7 @@
     "question": "List the names of all voivodeships that have fewer than 10 cities but more than 40 communes.",
     "answer": [
       [
-        "Tarn\u00f3w Voivodeship"
+        "Tarnów Voivodeship"
       ]
     ],
     "evidence_cells": [
@@ -129,7 +129,7 @@
     "question_id": "wikisql_c01440b987_006",
     "table_id": "wikisql_c01440b987",
     "question_type": "value",
-    "question": "What was the ratio of cities to communes in the Pozna\u0144 Voivodeship? Express the answer as a simplified fraction.",
+    "question": "What was the ratio of cities to communes in the Poznań Voivodeship? Express the answer as a simplified fraction.",
     "answer": [
       [
         "11:19"
@@ -145,7 +145,7 @@
     "question_id": "wikisql_c01440b987_007",
     "table_id": "wikisql_c01440b987",
     "question_type": "value",
-    "question": "If the 1980 population of every voivodeship with an area less than 5,000 km\u00b2 had been 5% lower, what would the new total population for this specific group have been?",
+    "question": "If the 1980 population of every voivodeship with an area less than 5,000 km² had been 5% lower, what would the new total population for this specific group have been?",
     "answer": [
       [
         "6047985"
@@ -234,10 +234,10 @@
     "question_id": "wikisql_c01440b987_010",
     "table_id": "wikisql_c01440b987",
     "question_type": "value",
-    "question": "Which voivodeship is an outlier for having the highest density of cities, defined as the number of cities per 1000 km\u00b2 of area?",
+    "question": "Which voivodeship is an outlier for having the highest density of cities, defined as the number of cities per 1000 km² of area?",
     "answer": [
       [
-        "Wa\u0142brzych Voivodeship"
+        "Wałbrzych Voivodeship"
       ]
     ],
     "evidence_cells": [
@@ -252,5 +252,23 @@
       "F20"
     ],
     "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c01440b987_011",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "What pattern can be observed between the number of cities and the population of Voivodeships?",
+    "answer": [
+      [
+        "Voivodeships with more cities generally have higher populations, suggesting urbanization correlates with population size."
+      ]
+    ],
+    "evidence_cells": [
+      "F14",
+      "E14",
+      "F9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
   }
 ]

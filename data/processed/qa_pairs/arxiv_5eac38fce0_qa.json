@@ -104,7 +104,7 @@
     "question": "If the performance improvement of the 'Risk Parity' strategy was overstated by 10 percentage points for both metrics, would it still be superior to the 'Equal Weighted' baseline?",
     "answer": [
       [
-        "Yes, it would still be superior. Its adjusted \u0394Sharpe would be +28.32% and its adjusted \u0394Calmar would be +0.36%. Since both values are still greater than the 0.00% of the 'Equal Weighted' baseline, it would represent an improvement."
+        "Yes, it would still be superior. Its adjusted ΔSharpe would be +28.32% and its adjusted ΔCalmar would be +0.36%. Since both values are still greater than the 0.00% of the 'Equal Weighted' baseline, it would represent an improvement."
       ]
     ],
     "evidence_cells": [
@@ -122,7 +122,7 @@
     "question": "Does the data suggest a consistent, linear relationship between the improvements in the Sharpe and Calmar ratios across all non-baseline strategies? Explain your reasoning.",
     "answer": [
       [
-        "No, the data does not suggest a consistent linear relationship. While 'Risk Parity' and 'Equal Risk Cont.' show a similar profile where a large \u0394Sharpe corresponds to a modest \u0394Calmar, the 'AlphaSharpe' strategy disrupts this pattern. It exhibits a massive \u0394Calmar that far exceeds its \u0394Sharpe, indicating the relationship between the two metrics is non-linear and depends heavily on the strategy."
+        "No, the data does not suggest a consistent linear relationship. While 'Risk Parity' and 'Equal Risk Cont.' show a similar profile where a large ΔSharpe corresponds to a modest ΔCalmar, the 'AlphaSharpe' strategy disrupts this pattern. It exhibits a massive ΔCalmar that far exceeds its ΔSharpe, indicating the relationship between the two metrics is non-linear and depends heavily on the strategy."
       ]
     ],
     "evidence_cells": [
@@ -196,5 +196,21 @@
       "C3"
     ],
     "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "What is the ΔSharpe (%) value for the 'Equal Risk Cont.' portfolio strategy in the table?",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
   }
 ]

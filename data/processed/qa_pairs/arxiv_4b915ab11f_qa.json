@@ -68,7 +68,7 @@
     "question_id": "arxiv_4b915ab11f_005",
     "table_id": "arxiv_4b915ab11f",
     "question_type": "value",
-    "question": "Identify the LLM that uses a BLOOM-based architecture and has a publicly released training budget specified in A100\u00b7hours.",
+    "question": "Identify the LLM that uses a BLOOM-based architecture and has a publicly released training budget specified in A100·hours.",
     "answer": [
       [
         "BloomBergGPT"
@@ -102,10 +102,10 @@
     "question_id": "arxiv_4b915ab11f_007",
     "table_id": "arxiv_4b915ab11f",
     "question_type": "open_ended_reasoning",
-    "question": "If XuanYuan2.0's training budget were revealed to be 2,500,000 A100\u00b7hours, how would this affect the ranking of models by training budget?",
+    "question": "If XuanYuan2.0's training budget were revealed to be 2,500,000 A100·hours, how would this affect the ranking of models by training budget?",
     "answer": [
       [
-        "Currently, BloomBergGPT has the only specified numerical budget (1,300,000 A100\u00b7hours), making it rank first. If XuanYuan2.0's budget was 2,500,000 A100\u00b7hours, it would become the model with the highest known training budget, surpassing BloomBergGPT. The new ranking for models with numerical budgets would be 1. XuanYuan2.0 (2,500,000) and 2. BloomBergGPT (1,300,000)."
+        "Currently, BloomBergGPT has the only specified numerical budget (1,300,000 A100·hours), making it rank first. If XuanYuan2.0's budget was 2,500,000 A100·hours, it would become the model with the highest known training budget, surpassing BloomBergGPT. The new ranking for models with numerical budgets would be 1. XuanYuan2.0 (2,500,000) and 2. BloomBergGPT (1,300,000)."
       ]
     ],
     "evidence_cells": [
@@ -141,7 +141,7 @@
     "question": "Which data column exhibits the most variation in data format, containing a large integer, a non-disclosure string, and a time-based range?",
     "answer": [
       [
-        "Training budget (A100\u00b7hours)"
+        "Training budget (A100·hours)"
       ]
     ],
     "evidence_cells": [
@@ -168,5 +168,21 @@
       "C3"
     ],
     "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_011",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Which pretrained-LLM uses the 50B-BLOOM model architecture?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
   }
 ]

@@ -6,7 +6,7 @@
     "question": "Which dataset shows the strongest model fit as indicated by the R-squared value?",
     "answer": [
       [
-        "BTC/USD \u0394M vs \u0394P 10s"
+        "BTC/USD ΔM vs ΔP 10s"
       ]
     ],
     "evidence_cells": [
@@ -88,8 +88,8 @@
     "question": "List all datasets where the model residuals are negatively skewed (Skew < 0) and the Durbin-Watson statistic is greater than 2, suggesting negative autocorrelation.",
     "answer": [
       [
-        "BTC/USD OFI vs \u0394P 1s",
-        "BTC/USD \u0394M vs \u0394P 1s"
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
       ]
     ],
     "evidence_cells": [
@@ -137,7 +137,7 @@
     "question_id": "arxiv_2448925329_007",
     "table_id": "arxiv_2448925329",
     "question_type": "value",
-    "question": "If the Kurtosis for the 'BTC/USD OFI vs \u0394P 10s' model were adjusted to the average Kurtosis of all other models, what would its new value be?",
+    "question": "If the Kurtosis for the 'BTC/USD OFI vs ΔP 10s' model were adjusted to the average Kurtosis of all other models, what would its new value be?",
     "answer": [
       [
         "5.700"
@@ -220,7 +220,7 @@
     "question": "Which dataset has a Jarque-Bera (JB) statistic that is an outlier, being more than 5 times greater than the next highest JB value?",
     "answer": [
       [
-        "BTC/USD OFI vs \u0394P 10s"
+        "BTC/USD OFI vs ΔP 10s"
       ]
     ],
     "evidence_cells": [
@@ -233,5 +233,22 @@
       "J6"
     ],
     "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2448925329_011",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Between BTC/USD ΔM vs ΔP 1s and LUNA/USD ΔM vs ΔP 1s, which dataset shows a higher predictive power based on R² and F-statistic?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 1s demonstrated the highest predictive power based on R² and F-statistic, with R² = 0.168 and F-statistic = 723.6. "
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
   }
 ]
