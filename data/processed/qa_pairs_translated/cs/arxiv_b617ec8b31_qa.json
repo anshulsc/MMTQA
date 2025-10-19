@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Pro aplikaci, kde metoda MarS zahrnuje porovnání současného trhu se simulovaným trhem, co porovnává odpovídající současná metoda?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Kolik procent aplikací uvedených v seznamu využívá metodu 'MarS', která zahrnuje 'generování' nebo 'simulaci'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak metoda MarS pro aplikaci 'Detekce' mění časové porovnání používané v 'Současných metodách'?",
+    "answer": [
+      [
+        "„Současné metody“ pro „Detekci“ spoléhají na historické porovnání výpočtem rozdílu mezi aktuálním stavem trhu (market_now) a minulým stavem trhu (market_past). Metoda MarS tuto závislost na minulých datech eliminuje. Místo toho porovnává aktuální trh (market_now) se současně simulovaným trhem (simu-market_now), čímž posouvá porovnání z časového (nyní vs. tehdy) na rámec založený na modelu (skutečný vs. simulovaný)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Uveďte 'Aktuální metody' pro všechny aplikace, kde je metoda 'MarS' popsána jako 'pipeline' nebo zahrnuje 'generování'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Která aplikace vykazuje nejzásadnější posun v přístupu mezi 'Současnými metodami' a 'MarS', přecházející od historického srovnání k simulovanému?",
+    "answer": [
+      [
+        "Aplikace 'Detekce' vykazuje nejzásadnější posun. Současná metoda se spoléhá na časové srovnání orientované do minulosti (Diff(market_now, market_past)). Naproti tomu metoda MarS zavádí srovnání se souběžnou simulovanou realitou (Diff(market_now, simu-market_now)). Tato změna z historického základu na simulovaný základ pro srovnání je významným koncepčním odklonem ve srovnání s ostatními metodologickými posuny v tabulce."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Pokud by byl přístup 'MarS' pro 'RL Environment' upraven tak, aby používal dostupnost dat 'Current Methods' pro stejnou aplikaci, jaké dvě charakteristiky by definovaly tuto hypotetickou metodu MarS?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Pro aplikaci 'RL prostředí' jaký je klíčový rozdíl v dostupnosti dat a distribuci pravděpodobnosti mezi 'současnými metodami' a 'MarS'?",
+    "answer": [
+      [
+        "Klíčový rozdíl spočívá jak v objemu dat, tak v autenticitě přechodové pravděpodobnosti. 'Současné metody' se spoléhají na 'konečná data' a 'falešnou' distribuci pravděpodobnosti (P(st+1|st,at)), zatímco 'MarS' využívá 'nekonečná data' a 'skutečnou' distribuci pravděpodobnosti."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Kolik z uvedených aplikací zahrnuje termín 'data' v popisu jejich metod pro 'Current Methods' nebo 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaká je zjevná hlavní výhoda MarS ve srovnání s Current Methods, zejména pokud jde o data a reprezentaci reality?",
+    "answer": [
+      [
+        "Hlavní myšlenka naznačuje, že metody MarS si kladou za cíl překonat omezení historických nebo konečných dat využitím generativních a simulačních přístupů. MarS přechází od extrapolace k generování, od historického srovnání k simulovanému srovnání a od konečných/falešných datových modelů ke konečným/skutečným datovým modelům. To naznačuje strategickou výhodu při vytváření robustnějších, flexibilnějších a realističtějších datových prostředí pro analýzu a posilované učení."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Kolik různých aplikací je v tabulce podrobně popsáno, kromě řádku záhlaví?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Jaká je současná metoda používaná pro prognózování?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]
