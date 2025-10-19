@@ -1,0 +1,316 @@
+[
+  {
+    "question_id": "wikisql_994c53559b_001",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a correlation between securing pole position and winning the GT3 race? Provide an analysis based on the data.",
+    "answer": [
+      [
+        "There is a weak correlation between securing pole position and winning the GT3 race. Out of the 14 rounds, the team that started on pole position went on to win the GT3 race in only 3 instances: 'No. 1 Barwell Motorsport' in Round 5, 'No. 6 Team RPM' in Round 6, and 'No. 23 Christians in Motorsport' in Round 12. This represents a win rate of approximately 21.4% from pole, suggesting that pole position provided little to no significant advantage in securing a GT3 class victory in this championship season."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E3",
+      "F3",
+      "E5",
+      "F5",
+      "E7",
+      "F7",
+      "E9",
+      "F9",
+      "E11",
+      "F11",
+      "E13",
+      "F13",
+      "E15",
+      "F15",
+      "E17",
+      "F17",
+      "E19",
+      "F19",
+      "E21",
+      "F21",
+      "E23",
+      "F23",
+      "E25",
+      "F25",
+      "E27",
+      "F27"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_994c53559b_002",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "value",
+    "question": "Which driver pairing(s) won the GTC class in the longest race(s) of the season?",
+    "answer": [
+      [
+        "Keith Ahlers Steve Hyde"
+      ],
+      [
+        "Graeme Mundy Jamie Smyth"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "G10",
+      "D15",
+      "G16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_994c53559b_003",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "value",
+    "question": "What is the total combined race duration in minutes for all rounds held at Donington Park and Brands Hatch?",
+    "answer": [
+      [
+        "240"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B7",
+      "D7",
+      "B11",
+      "D11",
+      "B13",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_994c53559b_004",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "value",
+    "question": "List the GT3 winning teams for races that were not held in April or September.",
+    "answer": [
+      [
+        "No. 1 Barwell Motorsport"
+      ],
+      [
+        "No. 6 Team RPM"
+      ],
+      [
+        "No. 23 Christians in Motorsport"
+      ],
+      [
+        "No. 3 Barwell Motorsport"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "F9",
+      "C11",
+      "F11",
+      "C13",
+      "F13",
+      "C15",
+      "F15",
+      "C17",
+      "F17",
+      "C19",
+      "F19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_994c53559b_005",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "value",
+    "question": "Which two racing organizations tied for the most wins when combining both GT3 and GTC class victories?",
+    "answer": [
+      [
+        "Barwell Motorsport"
+      ],
+      [
+        "Beechdean Motorsport"
+      ]
+    ],
+    "evidence_cells": [
+      "F5",
+      "F7",
+      "F9",
+      "F17",
+      "F19",
+      "G5",
+      "G7",
+      "G19",
+      "G25",
+      "G27"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_994c53559b_006",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the performance trend of 'No. 99 Beechdean Motorsport' in the GTC class throughout the season.",
+    "answer": [
+      [
+        "The performance of 'No. 99 Beechdean Motorsport' was characterized by a strong start and an even stronger finish, with a long competitive gap in the middle of the season. They secured back-to-back wins at Donington Park in April (Rounds 3 & 4), then did not win again until late August at Thruxton (Round 10). They finished the season dominantly with two more wins at Rockingham in late September (Rounds 13 & 14), making them one of the most successful GTC teams but with inconsistent performance across the entire season."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "G5",
+      "A7",
+      "C7",
+      "G7",
+      "A19",
+      "C19",
+      "G19",
+      "A25",
+      "C25",
+      "G25",
+      "A27",
+      "C27",
+      "G27"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_994c53559b_007",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "value",
+    "question": "What percentage of all GT3 class wins were secured by teams under the 'Barwell Motorsport' banner (including No. 1, No. 2, and No. 3 entries)?",
+    "answer": [
+      [
+        "35.71"
+      ]
+    ],
+    "evidence_cells": [
+      "F5",
+      "F7",
+      "F9",
+      "F17",
+      "F19",
+      "A1",
+      "A3",
+      "A5",
+      "A7",
+      "A9",
+      "A11",
+      "A13",
+      "A15",
+      "A17",
+      "A19",
+      "A21",
+      "A23",
+      "A25",
+      "A27"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_994c53559b_008",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "value",
+    "question": "Which two circuits featured an outlier race length compared to the rest of the season's events?",
+    "answer": [
+      [
+        "Snetterton"
+      ],
+      [
+        "Silverstone"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "D9",
+      "B15",
+      "D15",
+      "D1",
+      "D3",
+      "D5",
+      "D7",
+      "D11",
+      "D13",
+      "D17",
+      "D19",
+      "D21",
+      "D23",
+      "D25",
+      "D27"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_994c53559b_009",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "value",
+    "question": "If the two 120-minute endurance races had been standard 60-minute sprint races instead, what would the new total race time be for the entire season, in hours?",
+    "answer": [
+      [
+        "14"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "D11",
+      "D13",
+      "D15",
+      "D17",
+      "D19",
+      "D21",
+      "D23",
+      "D25",
+      "D27"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_994c53559b_010",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the table's layout, what is the consistent structural difference in the data presented in odd-numbered rows versus even-numbered rows for columns E, F, and G?",
+    "answer": [
+      [
+        "The table is structured with a consistent pattern for the 'Pole Position', 'GT3 Winner', and 'GTC Winner' columns. Odd-numbered rows (1, 3, 5, etc.) always contain the official team name, which typically includes a car number. The subsequent even-numbered rows (2, 4, 6, etc.) provide the corresponding full names of the driver or driver pairing for that entry."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "F1",
+      "F2",
+      "G1",
+      "G2",
+      "E3",
+      "E4",
+      "F3",
+      "F4",
+      "G3",
+      "G4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_994c53559b_011",
+    "table_id": "wikisql_994c53559b",
+    "question_type": "open_ended_reasoning",
+    "question": "Which rounds lasted longer than 60 minutes?",
+    "answer": [
+      [
+        "Rounds 5 and 8 lasted 120 minutes each."
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

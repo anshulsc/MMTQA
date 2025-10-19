@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Parameter dampak pasar mana yang memiliki nilai koefisien tepat dua kali lipat dari parameter lainnya?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Berapakah nilai rata-rata untuk 'Parameter Non-linearitas' berdasarkan serangkaian nilai yang mungkin diberikan?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Apakah simbol untuk parameter di bawah 'Dinamika Pasar' yang memiliki jumlah nilai berbeda yang paling banyak tercantum?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan nilai untuk 'Initial volatility', 'Long-term volatility', dan 'Mean reversion speed', apa yang dapat disimpulkan mengenai perilaku volatilitas model dari waktu ke waktu?",
+    "answer": [
+      [
+        "Model ini menunjukkan volatilitas yang kembali ke rata-rata. 'Long-term volatility' ditetapkan pada 0.3, yang berfungsi sebagai jangkar. 'Initial volatility' dapat dimulai lebih tinggi (0.4), lebih rendah (0.2), atau pada tingkat jangka panjang (0.3). Terlepas dari titik awalnya, volatilitas diharapkan bergeser menuju 0.3 dari waktu ke waktu, sebuah proses yang kecepatannya diatur oleh 'Mean reversion speed' sebesar 2.0. Ini berarti periode volatilitas tinggi atau rendah tidak bersifat permanen."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Sebutkan semua parameter di bawah kategori 'Dinamika Pasar' yang disajikan sebagai kumpulan beberapa nilai yang mungkin, di mana semua nilai yang terdaftar bersifat non-negatif.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Jika 'Keengganan risiko' didefinisikan sebagai kebalikan dari toleransi risiko, dan baik nilai 'Dampak permanen' maupun 'Dampak sementara' meningkat sebesar faktor 10, berapakah rasio baru dari 'Koefisien dampak sementara' terhadap 'Keengganan risiko'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Jika 'Laju pemulihan rata-rata' berkurang sebesar 50%, dan nilai 'Volatilitas varians' keduanya ditingkatkan sebesar 0,1, berapakah jumlah baru dari 'Laju pemulihan rata-rata' dan maksimum 'Volatilitas varians'?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabel tersebut menetapkan nilai 'Korelasi' sebesar -0,7. Dalam model keuangan, apa yang biasanya tersirat dari nilai negatif yang kuat ini mengenai hubungan antara harga aset dan volatilitasnya?",
+    "answer": [
+      [
+        "Korelasi sebesar -0,7 menandakan hubungan terbalik yang kuat, sering disebut sebagai efek leverage. Ini menyiratkan bahwa ketika harga aset menurun, volatilitasnya cenderung meningkat, dan sebaliknya, ketika harga aset meningkat, volatilitasnya cenderung menurun. Ini adalah fitur penting untuk pemodelan harga aset yang realistis dan penetapan harga derivatif."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Berapa banyak parameter dalam tabel yang didefinisikan oleh sekumpulan beberapa nilai yang mungkin, bukan nilai tetap tunggal?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Parameter tunggal manakah yang merupakan pencilan kualitatif karena nilainya adalah satu-satunya yang negatif?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

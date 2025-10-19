@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_306d90c626_001",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Model LLM keluarga mana (contohnya, GPT, Llama) yang paling banyak muncul di daftar paper penelitian?",
+    "answer": [
+      [
+        "GPT"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_002",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Ada berapa total paper riset yang pakai model dari OpenAI (ChatGPT, GPT-3, GPT-4 dan variasinya)?",
+    "answer": [
+      [
+        "9"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_306d90c626_003",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Buat metode yang pakai FinBERT, buat aplikasi apa aja emangnya?",
+    "answer": [
+      [
+        "Stock price prediction"
+      ],
+      [
+        "Financial Portfolio Optimisation"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_004",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Sebutin dong metode riset yang nunjukkin ada perkembangan waktu dalam pemilihan modelnya, dengan pakai minimal dua generasi beda dari keluarga model yang sama (contohnya GPT-3 sama GPT-4).",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Few-Shot Stock Trend Prediction [15]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_005",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Sebutin dong 'Method/Paper' yang pakai model dari keluarga Llama tapi nggak pakai data S&P 500.",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_006",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "S&P 500 disebut sebagai sumber data di 50% studi yang terdaftar. Apa implikasi frekuensi penggunaan yang tinggi ini terhadap perannya dalam riset LLM keuangan?",
+    "answer": [
+      [
+        "Penggunaan S&P 500 yang sering, muncul di separuh studi, menyiratkan bahwa itu berfungsi sebagai dataset benchmark standar untuk penelitian keuangan yang melibatkan LLM. Karakteristiknya—sebagai dataset yang terkenal, publik, ekstensif, dan likuid—membuatnya ideal untuk menguji dan membandingkan kinerja model dan metode yang berbeda untuk tugas-tugas seperti prediksi saham dan pemilihan portofolio. Ketergantungan ini menunjukkan perlunya peneliti untuk mendemonstrasikan efektivitas model mereka pada standar yang diterima secara luas sebelum menerapkannya pada data yang lebih spesifik atau proprietary."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C5",
+      "C6",
+      "C10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_306d90c626_007",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Kalau ada batasan baru yang mewajibkan semua riset pakai data multi-modal (misal, berita dan data pasar), metode mana yang nggak bakal sesuai lagi berdasarkan data yang dijelasin?",
+    "answer": [
+      [
+        "FLLM [11]"
+      ],
+      [
+        "MuSA [26]"
+      ],
+      [
+        "SEP [28]"
+      ],
+      [
+        "Hybrid LLM-based framework [36]"
+      ],
+      [
+        "[45]"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_008",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan tabel, apa hubungan antara kompleksitas 'Aplikasi' dan keragaman 'Model LLM' yang digunakan? Contohnya, apakah aplikasi yang lebih luas pakai model yang lebih beragam?",
+    "answer": [
+      [
+        "Datanya nunjukkin ada hubungan terbalik. Aplikasi yang lebih kompleks dan spesifik kayak 'Prediksi pergerakan harga saham' atau 'Analisis finansial' cenderung pakai banyak model, termasuk generasi dan keluarga yang beda-beda (contoh: 'GPT-3, GPT-4, LLaMA-2, LLaMA-3'). Sebaliknya, aplikasi yang fokusnya keliatannya tunggal, kayak 'Seleksi portofolio investasi' atau 'Prediksi tren pasar saham', itu nunjukkin cuma pakai satu model kayak ChatGPT. Ini ngasih kesan kalau ngerjain tugas finansial yang rumit mungkin lebih untung pakai pendekatan ensemble atau perbandingan pakai beberapa LLM canggih."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_306d90c626_009",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Kolom mana, 'LLM Model' atau 'Data', yang punya sel dengan jumlah item berbeda paling banyak?",
+    "answer": [
+      [
+        "LLM Model"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_306d90c626_010",
+    "table_id": "arxiv_306d90c626",
+    "question_type": "value",
+    "question": "Paper mana yang jadi pengecualian soal aplikasinya, karena fokus ke isu sistemik yang luas daripada tugas prediksi atau investasi spesifik?",
+    "answer": [
+      [
+        "[32]"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

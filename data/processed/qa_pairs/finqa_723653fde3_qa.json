@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_723653fde3_001",
+    "table_id": "finqa_723653fde3",
+    "question_type": "value",
+    "question": "Which plan offers the largest potential for future dilution, defined as the sum of 'shares available for future grant' and 'shares to be issued if performance is achieved at maximum'?",
+    "answer": [
+      [
+        "2005 performance incentive plan ( 1 ) ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_723653fde3_002",
+    "table_id": "finqa_723653fde3",
+    "question_type": "value",
+    "question": "What is the total number of shares (in millions) available for future grant from all plans that do not expect to make new awards?",
+    "answer": [
+      [
+        "18.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_723653fde3_003",
+    "table_id": "finqa_723653fde3",
+    "question_type": "value",
+    "question": "Among the plans that do not expect to make new awards, which one has the highest ratio of 'shares available for future grant' to 'shares available for issuance'?",
+    "answer": [
+      [
+        "rocktenn ( sscc ) equity inventive plan ( 1 ) ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "A2",
+      "E3",
+      "B3",
+      "C3",
+      "A3",
+      "E4",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_723653fde3_004",
+    "table_id": "finqa_723653fde3",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the years mentioned in the plan names, is there a trend suggesting that newer plans are established with a larger number of 'shares available for issuance' compared to older ones?",
+    "answer": [
+      [
+        "No, the data does not support this trend. The newest plan, from 2016, has 11.7 million shares available for issuance, which is less than both the 2004 plan (15.8 million) and the 2005 plan (12.8 million). This indicates that the initial size of an incentive plan is not necessarily increasing over time."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_723653fde3_005",
+    "table_id": "finqa_723653fde3",
+    "question_type": "value",
+    "question": "List the plans where more than 8 million shares are available for future grant and there is no expectation to make new awards.",
+    "answer": [
+      [
+        "2005 performance incentive plan ( 1 ) ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_723653fde3_006",
+    "table_id": "finqa_723653fde3",
+    "question_type": "value",
+    "question": "What percentage of the total 'shares available for issuance' across all plans comes from plans that are no longer being used for new awards?",
+    "answer": [
+      [
+        "75.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "E1",
+      "E2",
+      "E3",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_723653fde3_007",
+    "table_id": "finqa_723653fde3",
+    "question_type": "value",
+    "question": "If the number of 'shares available for future grant' in the '2004 incentive stock plan' were increased by 50%, what would be the new total 'shares available for future grant' across all four plans?",
+    "answer": [
+      [
+        "24.65"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_723653fde3_008",
+    "table_id": "finqa_723653fde3",
+    "question_type": "open_ended_reasoning",
+    "question": "What relationship can be inferred between a plan having performance-based shares and the expectation of making new awards?",
+    "answer": [
+      [
+        "The data suggests a potential correlation. The only plan that has 'shares to be issued if performance is achieved at maximum' (the 2016 plan) is also the only plan that expects to make new awards. Conversely, all plans that have zero performance-based shares do not expect to make new awards. This implies that active, modern plans may incorporate performance-based incentives, while older, inactive plans do not."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_723653fde3_009",
+    "table_id": "finqa_723653fde3",
+    "question_type": "value",
+    "question": "Which numerical column contains a zero value for three out of the four plans listed?",
+    "answer": [
+      [
+        "shares to be issued if performance is achieved at maximum"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_723653fde3_010",
+    "table_id": "finqa_723653fde3",
+    "question_type": "value",
+    "question": "Which plan is a clear outlier in that it is the only one to provide for performance-contingent share issuance?",
+    "answer": [
+      [
+        "amended and restated 2016 incentive stock plan ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_723653fde3_011",
+    "table_id": "finqa_723653fde3",
+    "question_type": "value",
+    "question": "What plan has the highest shares available for issuance?",
+    "answer": [
+      [
+        "Amended and Restated 2016 Incentive Stock Plan"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

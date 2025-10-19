@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "finqa_2ec89c0e86_001",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "Which year had the largest absolute net cash flow from financing activities?",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B0",
+      "C0",
+      "D0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_002",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "What was the total net cash used for investing activities across all three years (2011-2013)?",
+    "answer": [
+      [
+        "-42434"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_003",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "In the year with the highest net cash provided by operating activities, what was the corresponding net increase or decrease in cash and cash equivalents?",
+    "answer": [
+      [
+        "$ -433 ( 433 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_004",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the year-over-year change and overall trend in the 'net cash provided by operating activities' from 2011 to 2013.",
+    "answer": [
+      [
+        "The net cash provided by operating activities showed volatility. It decreased significantly by $2,079 million from 2011 to 2012 ($20,963 to $18,884), and then rebounded with an increase of $1,892 million from 2012 to 2013 ($18,884 to $20,776), nearly returning to the 2011 level."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_005",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "In which year(s) was the absolute value of cash used for investing activities greater than the absolute value of cash used for financing activities?",
+    "answer": [
+      [
+        "2013"
+      ],
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "C2",
+      "C3",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_006",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "In 2012, what percentage of the 'net cash provided by operating activities' was the 'net cash used for financing activities'?",
+    "answer": [
+      [
+        "7.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_007",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "If the 'net cash used for investing activities' in 2013 had been 20% lower, what would the 'net increase (decrease) in cash and cash equivalents' have been for that year, assuming all other values remained constant?",
+    "answer": [
+      [
+        "810.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_008",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a consistent relationship between the amount of cash provided by operating activities and the net change in cash and cash equivalents over this three-year period?",
+    "answer": [
+      [
+        "No, there is not a consistent relationship. In 2011, the highest operating cash flow ($20,963M) resulted in a net decrease in cash ($-433M). In 2012, the lowest operating cash flow ($18,884M) resulted in a large net increase in cash ($3,413M). This indicates that investing and financing activities had a more significant impact on the net change in cash than operating activities alone."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_009",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "Which year's 'net increase (decrease) in cash and cash equivalents' is an outlier, and why?",
+    "answer": [
+      [
+        "2012 is an outlier because it is the only year with a positive net increase in cash and cash equivalents ($3,413 million), whereas both 2011 and 2013 saw a net decrease ($-433 million and $-2,804 million, respectively)."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_010",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "By summing the four cash flow activity categories for 2011, calculate the 'net increase (decrease) in cash and cash equivalents' to verify the table's structure.",
+    "answer": [
+      [
+        "-433"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_011",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "If the company’s net cash provided by operating activities increased in 2013 compared to 2012, but the net cash used for investing activities also increased during the same period, what does this suggest about the company’s overall cash management in 2013?",
+    "answer": [
+      [
+        "It suggests that while the company generated more cash from operations in 2013 than in 2012, it also spent more on investments. This indicates the company may have used the extra operational cash flow to fund higher investment activities."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

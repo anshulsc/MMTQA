@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "किन हाइपरपैरामीटर्स के सर्च स्पेस में सबसे अधिक विकल्प सूचीबद्ध हैं?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "उन कितने हाइपरपैरामीटर का परीक्षण किया गया था जिनके सर्च स्पेस में दो से अधिक संभावित मान थे?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "उस हाइपरपैरामीटर के लिए सर्च स्पेस क्या था जिसका सर्वश्रेष्ठ विकल्प शून्य से सबसे छोटा संख्यात्मक मान है?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "उन सभी हाइपरपैरामीटर्स की सूची बनाएं जिनके लिए 'सर्वश्रेष्ठ विकल्प' उनके संबंधित 'खोज स्थान' में उपलब्ध उच्चतम मान था।",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "संख्यात्मक हाइपरपैरामीटरों में से कितने प्रतिशत का 'सर्वश्रेष्ठ विकल्प' उनके क्रमबद्ध 'खोज स्थान' के मध्य से चुना गया था (अर्थात, न्यूनतम या अधिकतम मान नहीं)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "यदि 'TRADES Layers' की खोज केवल 8 से कम मानों तक सीमित होती, तो इस हाइपरपैरामीटर के लिए 'Best Choice' क्या होता, यह मानते हुए कि मूल खोज स्थान से अगला सबसे अच्छा उपलब्ध विकल्प चुना गया था?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "क्या हाइपरपैरामीटर के सर्च स्पेस के आकार और 'सर्वश्रेष्ठ विकल्प' के चरम (न्यूनतम/अधिकतम) या मध्य मान होने के बीच कोई संबंध है? अपने तर्क की व्याख्या करें।",
+    "answer": [
+      [
+        "हाँ, एक स्पष्ट पैटर्न है। दो विकल्पों (लर्निंग रेट, ड्रॉपआउट) के छोटे सर्च स्पेस वाले हाइपरपैरामीटर्स के लिए, सबसे अच्छा विकल्प अधिकतम मान था। तीन या चार विकल्पों के बड़े सर्च स्पेस वाले सभी हाइपरपैरामीटर्स के लिए, इष्टतम मान रेंज के बीच में पाया गया, कभी भी चरम पर नहीं। यह बताता है कि इस मॉडल के लिए, एक फाइन-ट्यूनिंग प्रक्रिया फायदेमंद है, और प्रारंभिक विस्तृत रेंज ने सफलतापूर्वक एक इष्टतम क्षेत्र को सीमांकित किया जो परीक्षणित स्थान की सीमाओं पर नहीं था।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "किस हाइपरपैरामीटर के सर्च स्पेस का वर्णन गैर-संख्यात्मक लेबल का उपयोग करके किया गया है?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "किस हाइपरपैरामीटर का 'सर्वश्रेष्ठ विकल्प' मान एक संख्यात्मक आउटलायर है, जो अगले उच्चतम संख्यात्मक 'सर्वश्रेष्ठ विकल्प' से कम से कम चार गुना बड़ा है?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "जिन हाइपरपैरामीटर्स के सर्च स्पेस में चार विकल्प हैं ('सीक्वेंस साइज़', 'TRADES लेयर्स', 'ऑग्मेंटेशन डिम.'), उनके 'बेस्ट चॉइस' मानों में क्या सामान्य विशेषता है, और यह ट्यूनिंग रणनीति के बारे में क्या संकेत दे सकता है?",
+    "answer": [
+      [
+        "सामान्य विशेषता यह है कि तीनों हाइपरपैरामीटर्स के लिए, 'बेस्ट चॉइस' एक मध्यवर्ती मान है, न कि कोई चरम (न्यूनतम या अधिकतम)। 'बेस्ट चॉइस' 256 (4 में से तीसरा), 8 (4 में से तीसरा), और 64 (4 में से दूसरा) हैं। यह एक सफल ट्यूनिंग रणनीति का संकेत देता है जहाँ सर्च स्पेस इष्टतम मान को घेरने के लिए पर्याप्त चौड़ा था, यह सुझाव देते हुए कि इन मापदंडों के लिए प्रदर्शन मान के साथ एकरेखीय रूप से नहीं बढ़ता है, बल्कि परीक्षण की गई सीमा के भीतर कहीं चरम पर होता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "ऑप्टिमाइज़र की सबसे अच्छी पसंद क्या है?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

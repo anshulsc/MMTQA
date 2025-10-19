@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "検索空間に記載されているオプションの数が最も多いハイパーパラメータはどれですか？",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "検索空間で2つを超える値を持つ可能性のあるハイパーパラメータはいくつテストされましたか？",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "検索空間において、ゼロより大きい最小の数値が最良の選択肢であるハイパーパラメータは何ですか？",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "「検索空間」で利用可能な最も高い値が「最良の選択」であったハイパーパラメータをすべてリストアップしてください。",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "数値ハイパーパラメータのうち、そのソートされた「検索空間」の中間値（つまり、最小値または最大値ではない値）から「最良の選択肢」が選択された割合はいくつですか？",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "'TRADES Layers' の探索が 8 未満の値に限定されていた場合、元の探索空間から次に最適なオプションが選択されたと仮定すると、このハイパーパラメータの 'Best Choice' は何になりますか？",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "ハイパーパラメータの探索空間のサイズと、「最良の選択肢」が極端な値（最小/最大）か中間値かとの間に観測可能な関係はありますか？その理由を説明してください。",
+    "answer": [
+      [
+        "はい、明確なパターンがあります。2つの選択肢を持つ（学習率、ドロップアウト）小さな探索空間のハイパーパラメータについては、最良の選択肢は最大値でした。3つまたは4つの選択肢を持つより大きな探索空間のすべてのハイパーパラメータについては、最適な値は範囲の中間に見つかり、極端な値になることはありませんでした。これは、このモデルではファインチューニングプロセスが有益であり、初期の広い範囲がテストされた空間の境界にない最適な領域をうまく囲んでいたことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "数値以外のラベルで検索空間が記述されているハイパーパラメータは何ですか？",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "「ベストチョイス」の値が数値的に外れ値であり、次に高い数値の「ベストチョイス」の少なくとも4倍であるハイパーパラメータはどれですか？",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "検索空間に4つの選択肢があるハイパーパラメータ（「シーケンスサイズ」、「TRADESレイヤー」、「拡張次元」）を考慮すると、それらの「最良の選択」の値に共通する特徴は何ですか？また、これはチューニング戦略について何を意味する可能性がありますか？",
+    "answer": [
+      [
+        "共通の特徴は、3つのハイパーパラメータすべてにおいて、「最良の選択」が極端な値（最小値または最大値）ではなく、中間値であるということです。「最良の選択」は、256（4つ中3番目）、8（4つ中3番目）、64（4つ中2番目）です。これは、検索空間が最適値を含むのに十分に広かったチューニング戦略が成功したことを示唆しており、これらのパラメータのパフォーマンスは値とともに単調に増加するのではなく、テストされた範囲内のどこかでピークに達することを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Optimizerの最適な選択肢は何ですか？",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

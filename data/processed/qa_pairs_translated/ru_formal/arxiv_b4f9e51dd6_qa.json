@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Какая конфигурация модуля обеспечивает наилучшую (самую низкую) производительность при самом длинном горизонте прогнозирования, MSE30?",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Каков средний показатель MSE3 для всех модулей, включающих 'Audio+Text' в своей конфигурации?",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_003",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Какой модуль демонстрирует наилучшую общую производительность (самое низкое значение в столбце MSE_over) и каков его конкретный показатель MSE7?",
+    "answer": [
+      [
+        "0.306"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_004",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите тенденцию изменения средней квадратичной ошибки (MSE) для модуля 'Audio+Text+Efo' по мере увеличения горизонта прогнозирования от MSE3 до MSE30.",
+    "answer": [
+      [
+        "Средняя квадратичная ошибка (MSE) для модуля 'Audio+Text+Efo' демонстрирует явную тенденцию к улучшению (снижению ошибки) с увеличением горизонта прогнозирования. Она начинается с наивысшей ошибки 0,579 для MSE3, затем значительно снижается до 0,323 для MSE7 и продолжает стабильно уменьшаться до 0,230 для MSE15, достигая наименьшего значения 0,165 для MSE30."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_005",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Перечислите все конфигурации модулей, у которых оценка MSE15 ниже 0.25 И оценка MSE30 ниже 0.18.",
+    "answer": [
+      [
+        "Audio+Text+Efo"
+      ],
+      [
+        "Eos+Ecs+Efo"
+      ],
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "A7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "На сколько процентов снижается ошибка MSE30 при переходе от базового модуля «Audio+Text» к наиболее сложному модулю «Audio+Text+Eos+Ecs+Efo»?",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Если улучшение предварительной обработки данных снизило значение MSE_over для модуля 'Eos+Ecs+Efo' на 15%, каким будет новое среднее значение MSE_over по всем семи модулям?",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Исходя из данных, существует ли последовательная связь между краткосрочной производительностью модуля (MSE3) и его долгосрочной производительностью (MSE30)? Обоснуйте свой ответ.",
+    "answer": [
+      [
+        "Да, существует сильная положительная корреляция. Модули с самыми низкими показателями MSE3, такие как 'Audio+Text+Eos+Ecs+Efo' (0.553) и 'Audio+Text+Efo' (0.579), также имеют самые низкие показатели MSE30 (0.158 и 0.165 соответственно). И наоборот, модули с самыми высокими показателями MSE3, такие как 'Audio+Text' (0.645) и 'Audio+Text+Ecs' (0.640), демонстрируют самые высокие показатели MSE30 (0.204 и 0.201). Это говорит о том, что модули, которые хорошо работают в краткосрочных прогнозах, как правило, хорошо работают и в долгосрочных прогнозах."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_009",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Каков численный интервал между горизонтами прогнозирования MSE7 и MSE15 в структуре таблицы?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Какие модули показывают худшие результаты (имеют более высокое MSE) на горизонте MSE7 по сравнению с базовым модулем 'Audio+Text', что делает их производительность в этой конкретной точке аномалией по сравнению с ожидаемым улучшением от добавления признаков?",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Каково среднее значение MSE для модуля Audio+Text?",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

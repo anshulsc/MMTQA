@@ -1,0 +1,309 @@
+[
+  {
+    "question_id": "wikisql_93698ab2fb_001",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "value",
+    "question": "Which publisher received the most nominations in the provided dataset?",
+    "answer": [
+      [
+        "THQ"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9",
+      "C10",
+      "E10",
+      "C12",
+      "E12",
+      "C13",
+      "E13",
+      "C15",
+      "E15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_93698ab2fb_002",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "value",
+    "question": "What was the total number of distinct platforms listed for games that won an award in or after 2006?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D6",
+      "E6",
+      "A11",
+      "D11",
+      "E11",
+      "A14",
+      "D14",
+      "E14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_93698ab2fb_003",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "value",
+    "question": "Identify the game that was a nominee, published by Activision, and available on the WII platform.",
+    "answer": [
+      [
+        "Bee Movie Game"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_93698ab2fb_004",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the trend of winning games' platform exclusivity over the years presented in the table.",
+    "answer": [
+      [
+        "The trend shows a shift from winning games being available on multiple platforms to single-platform exclusivity. The winners in 2005, 2006, and 2008 ('Ultimate Spider-Man', 'Flushed Away', 'Kung Fu Panda') were all multi-platform releases available on 4 to 6 systems. However, the latest winner in the dataset, 'Limbo' from 2010, won while being exclusive to a single platform (X360), indicating a potential shift in award recognition towards focused, single-platform experiences over time."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A6",
+      "D6",
+      "E6",
+      "A11",
+      "D11",
+      "E11",
+      "A14",
+      "D14",
+      "E14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_93698ab2fb_005",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "value",
+    "question": "List all games from the 2007 and 2008 ceremonies that were available on PC and resulted in a nomination.",
+    "answer": [
+      [
+        "Bee Movie Game"
+      ],
+      [
+        "Transformers: The Game"
+      ],
+      [
+        "Kung Fu Panda"
+      ],
+      [
+        "Dead Space"
+      ],
+      [
+        "WALL·E"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8",
+      "A9",
+      "B9",
+      "D9",
+      "E9",
+      "A10",
+      "B10",
+      "D10",
+      "E10",
+      "A11",
+      "B11",
+      "D11",
+      "E11",
+      "A12",
+      "B12",
+      "D12",
+      "E12",
+      "A13",
+      "B13",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_93698ab2fb_006",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "value",
+    "question": "What proportion of all listed games in the table were published by Activision (either solely or jointly)?",
+    "answer": [
+      [
+        "20%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C9",
+      "C11",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_93698ab2fb_007",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "value",
+    "question": "If THQ had acquired Double Fine Productions before the 2005 ceremony, and as a result, 'Psychonauts' was published by THQ, what would be THQ's total number of listed games for that year?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_93698ab2fb_008",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data, is there a discernible relationship between a game's publisher being a major company (like Activision, EA, Capcom) versus an independent one (like Double Fine, Playdead) and the game's award outcome?",
+    "answer": [
+      [
+        "The data does not suggest a clear relationship. Major publishers like Activision have both won ('Ultimate Spider-Man', 'Kung Fu Panda') and been nominated ('Bee Movie Game'). Similarly, Electronic Arts and Capcom were nominated. However, independent or smaller publishers also show success; D3 Publisher had a win with 'Flushed Away' and Playdead won with 'Limbo', while Double Fine and Quantic Dream received nominations. This indicates that both major and independent publishers are competitive, and success in these awards is not exclusive to large corporations."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C6",
+      "E6",
+      "C11",
+      "E11",
+      "C12",
+      "E12",
+      "C14",
+      "E14",
+      "C15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_93698ab2fb_009",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "open_ended_reasoning",
+    "question": "Which ceremony year is an outlier in terms of the number of games listed, and why?",
+    "answer": [
+      [
+        "The 2005 (33rd) ceremony is an outlier because it lists 5 games. All other years in the dataset list only 2 or 3 games, making the count for 2005 significantly higher (67% higher than the next highest count) and a clear deviation from the pattern of subsequent years."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_93698ab2fb_010",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "value",
+    "question": "What is the name of the publisher who won an award with a game that was exclusive to a single platform?",
+    "answer": [
+      [
+        "Playdead"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "C6",
+      "D6",
+      "E6",
+      "C11",
+      "D11",
+      "E11",
+      "C14",
+      "D14",
+      "E14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_93698ab2fb_011",
+    "table_id": "wikisql_93698ab2fb",
+    "question_type": "value",
+    "question": "Which platform appears most frequently across all games in 2007?",
+    "answer": [
+      [
+        "DS"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

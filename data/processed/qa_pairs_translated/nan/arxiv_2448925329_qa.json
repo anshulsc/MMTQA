@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "根據R平方值，佗一个數據集表現出上好个模型擬合度？",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "所有 BTC/USD 相關資料集的平均峰度值是多少？",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "最低个正R平方值彼个模型，伊相对个Durbin-Watson统计量是啥？",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "當時間區間對 1s 增加到 10s ê 時，LUNA/USD 資料集 ê 模型 ê 解釋能力 (用 R-squared 來衡量) 是按怎變化？",
+    "answer": [
+      [
+        "LUNA/USD 模型 ê 解釋能力，用 R-squared 值來表示，對 1 秒區間 ê 0.036 大幅增加到 10 秒區間 ê 0.274。這代表增加超過七倍，表示這个模型佇較長 ê 時間範圍內，對解釋價格變化來講，有卡好 ê 效果。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "列出所有資料集，其中模型殘差是負偏斜的 (偏度 < 0)，而且 Durbin-Watson 統計量大於 2，這表示有負自相關性。",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "所有F-統計量總和內底，10秒區間的模型佔的比例是偌濟？",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "若是 'BTC/USD OFI vs ΔP 10s' 模型 ê 峰度，調整做所有其他模型 ê 平均峰度，伊 ê 新數值會是偌濟？",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Bô͘-hêng ê F-thóng-kè-liōng kap i ê Jarque-Bera (JB) thóng-kè-liōng chi-kan kám ū chi̍t-chióng kò͘-tēng ê koan-hē? Hun-sek chit khoán bô͘-sek.",
+    "answer": [
+      [
+        "F-thóng-kè-liōng kap Jarque-Bera (JB) thóng-kè-liōng chi-kan bô chi̍t-chióng kò͘-tēng koh bêng-hián ê koan-hē. Pí-hūn kóng, F-thóng-kè-liōng siāng koân ê bô͘-hêng (15890.0) i ê JB thóng-kè-liōng sī 6560.394, ah F-thóng-kè-liōng tē-jī kē ê bô͘-hêng (137.0) i ê JB sī 816.435, khah chhiat-tōa. M̄-koh, F-thóng-kè-liōng siāng kē ê bô͘-hêng (70.87) i ê JB thóng-kè-liōng tò-tńg sī siāng koân ê (10204.282). Che piáu-sī, bô͘-hêng ê chéng-thé iú-chōng-sèng (F-thóng-kè-liōng) kap i ê chân-cha ê chèng-thah-sèng (JB thóng-kè-liōng) tī chit-ê chu-liāu-chi̍p lāi-té bô ti̍t-chiap ê koan-liân."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "除了 'Dataset' (資料集) 這個識別項以外，哪一个欄位，若考慮其數量級 (從最小到最大) 時，包含著價值範圍最闊的？",
+    "answer": [
+      [
+        "'Prob(JB)' 欄位顯示出數量級價值範圍最闊。伊包含的價值有細到 0.0 (實際上是極細微的)，嘛有大到 4.26e-263, 1.93e-57, 5.17e-178, kap 9.05e-92，橫跨幾百個數量級，遠比任何其他數字欄位閣卡闊。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "哪一个资料集，其Jarque-Bera (JB)统计量是一个离群值，数值比次高的JB值大五倍以上？",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

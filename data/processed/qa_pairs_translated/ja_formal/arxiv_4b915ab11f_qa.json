@@ -1,0 +1,172 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "リストされているモデルの中で、パラメータ数において最も大きなベースアーキテクチャを使用しているのはどれですか？",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPT のトレーニングに使用されたコーパスの総トークン数はいくつですか？",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "T5アーキテクチャに基づいて構築されたモデルのトレーニング予算はいくらですか？",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "2段階の学習データプロセスを指定しているモデルにおいて、事前学習段階のコーパスサイズはどのくらいでしたか？",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BLOOMベースのアーキテクチャを使用し、A100・時間で表される公開済みのトレーニング予算を持つLLMを特定してください。",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "BloomBergGPTの総トレーニングコーパスのうち、パブリック・トークンが占める割合はどのくらいですか？",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "もしXuanYuan2.0のトレーニング予算が2,500,000 A100・時間であると判明した場合、トレーニング予算によるモデルのランキングにどのような影響がありますか？",
+    "answer": [
+      [
+        "現在、BloomBergGPTのみが指定された数値予算（1,300,000 A100・時間）を持っており、これが1位となっています。もしXuanYuan2.0の予算が2,500,000 A100・時間であった場合、BloomBergGPTを上回り、既知のトレーニング予算が最も高いモデルとなります。数値予算を持つモデルの新しいランキングは、1. XuanYuan2.0 (2,500,000) および 2. BloomBergGPT (1,300,000) となります。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "このデータに基づくと、モデルアーキテクチャのパラメータ数と、そのモデルのトレーニングコーパスの総サイズとの間に一貫した相関関係はありますか？",
+    "answer": [
+      [
+        "いいえ、データには一貫した正の相関関係は認められません。例えば、XuanYuan2.0はBloomBergGPT（50Bパラメータ）よりもはるかに大きなアーキテクチャ（176Bパラメータ）を持っていますが、トレーニングされたコーパスはより小さい（379Bトークン対708Bトークン）です。このことから、このデータセットによれば、より大きなモデルが必ずしもより大きなトレーニングコーパスを必要とするわけではないことが示唆されます。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "データ形式のばらつきが最も大きく、大きな整数、非開示文字列、および時間ベースの範囲を含むデータ列はどれですか？",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "他のモデルで利用可能な予算情報と比較して、著しく突出した（有意な正の外れ値である）学習予算が示されているモデルはどれですか？",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

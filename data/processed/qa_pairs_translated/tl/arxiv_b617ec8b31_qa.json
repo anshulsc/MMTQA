@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Para sa aplikasyon kung saan ang MarS method ay nagsasangkot ng paghahambing ng kasalukuyang merkado sa isang simulated na merkado, ano ang ikinukumpara ng kaukulang kasalukuyang paraan?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Anong porsyento ng mga aplikasyong nakalista ang gumagamit ng 'MarS' na paraan na kinabibilangan ng 'generation' o 'simulation'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Paano binabago ng paraan ng MarS para sa aplikasyon ng 'Detection' ang paghahambing na nakabatay sa oras na ginagamit sa 'Current Methods'?",
+    "answer": [
+      [
+        "Ang 'Current Methods' para sa 'Detection' ay umaasa sa isang historikal na paghahambing sa pamamagitan ng pagkalkula ng pagkakaiba sa pagitan ng kasalukuyang estado ng merkado (market_now) at isang nakaraang estado ng merkado (market_past). Tinatanggal ng paraan ng MarS ang pagdepende na ito sa nakaraang datos. Sa halip, inihahambing nito ang kasalukuyang merkado (market_now) sa isang kasabay na simulated na merkado (simu-market_now), na naglilipat ng paghahambing mula sa isang temporal (ngayon kumpara sa dati) patungo sa isang framework na nakabatay sa modelo (totoo kumpara sa simulated)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Ilista ang mga 'Current Methods' para sa lahat ng aplikasyon kung saan ang paraang 'MarS' ay inilarawan bilang isang 'pipeline' o nagsasangkot ng 'generation'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Aling aplikasyon ang nagpapakita ng pinaka-pundamental na pagbabago sa pamamaraan sa pagitan ng 'Current Methods' at 'MarS', mula sa paghahambing ng kasaysayan patungo sa isang simulado?",
+    "answer": [
+      [
+        "Ang aplikasyon ng 'Detection' ang nagpapakita ng pinaka-pundamental na pagbabago. Ang kasalukuyang pamamaraan ay nakasalalay sa isang pansamantalang paghahambing na nakatingin sa nakaraan (Diff(market_now, market_past)). Sa kabilang banda, ang pamamaraan ng MarS ay nagpapakilala ng paghahambing laban sa isang kasabay na simuladong realidad (Diff(market_now, simu-market_now)). Ang pagbabagong ito mula sa historikal na batayan patungo sa simuladong batayan para sa paghahambing ay isang makabuluhang konseptwal na outlier kumpara sa iba pang mga pagbabago sa metodolohiya sa talahanayan."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Kung ang pamamaraang 'MarS' para sa 'RL Environment' ay binago upang gamitin ang pagkakaroon ng data ng 'Current Methods' para sa parehong aplikasyon, ano ang dalawang katangian ang magtutukoy sa haka-hakang MarS na pamamaraan na ito?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Para sa 'RL Environment' na aplikasyon, ano ang pangunahing pagkakaiba sa dami ng datos at distribusyon ng probabilidad sa pagitan ng 'Current Methods' at 'MarS'?",
+    "answer": [
+      [
+        "Ang pangunahing pagkakaiba ay nasa dami ng datos at pagiging totoo ng transition probability. Ang 'Current Methods' ay umaasa sa 'finite data' at isang 'fake' na distribusyon ng probabilidad (P(st+1|st,at)), habang ang 'MarS' ay gumagamit ng 'infinite data' at isang 'real' na distribusyon ng probabilidad."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Ilan sa mga nakalistang aplikasyon ang gumagamit ng terminong 'data' sa paglalarawan ng kanilang pamamaraan para sa 'Current Methods' o 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa talahanayan, ano ang lumilitaw na pangkalahatang bentahe ng MarS kumpara sa Kasalukuyang mga Pamamaraan, lalo na patungkol sa data at representasyon ng realidad?",
+    "answer": [
+      [
+        "Ang pangkalahatang tema ay nagpapahiwatig na ang mga pamamaraan ng MarS ay naglalayong malampasan ang mga limitasyon ng historikal o pinitong data sa pamamagitan ng paggamit ng mga paraang nakabatay sa henerasyon at simulasyon. Ang MarS ay lumilipat mula sa ekstrapolasyon patungo sa henerasyon, mula sa historikal na paghahambing patungo sa simuladong paghahambing, at mula sa pinitong/pekeng mga modelo ng data patungo sa walang hanggan/totoong mga modelo ng data. Nagpapahiwatig ito ng estratehikong bentahe sa paglikha ng mas matatag, nababaluktot, at makatotohanang mga kapaligiran ng data para sa pagsusuri at pagpapatibay na pag-aaral."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Hindi kasama ang header row, ilan ang iba't ibang aplikasyon na detalyado sa talahanayan?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Ano ang kasalukuyang pamamaraan na ginagamit para sa Forecasting?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

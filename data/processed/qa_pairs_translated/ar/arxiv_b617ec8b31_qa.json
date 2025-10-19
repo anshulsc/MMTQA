@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "بالنسبة للتطبيق الذي تتضمن فيه طريقة MarS مقارنة السوق الحالي بسوق محاكاة، بماذا تقارن الطريقة الحالية المقابلة؟",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ما هي نسبة التطبيقات المدرجة التي تستخدم طريقة 'MarS' والتي تتضمن 'التوليد' أو 'المحاكاة'؟",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "كيف يقوم منهج MarS لتطبيق \"الكشف\" بتغيير المقارنة المستندة إلى الوقت المستخدمة في \"الطرق الحالية\"؟",
+    "answer": [
+      [
+        "تعتمد \"الطرق الحالية\" لتطبيق \"الكشف\" على مقارنة تاريخية عن طريق حساب الفرق بين حالة السوق الحالية (market_now) وحالة السوق السابقة (market_past). يقوم منهج MarS بإلغاء هذا الاعتماد على البيانات السابقة. بدلاً من ذلك، يقارن السوق الحالي (market_now) بسوق محاكى معاصر (simu-market_now)، مما يحول المقارنة من إطار زمني (الآن مقابل ذلك الوقت) إلى إطار مستند إلى النموذج (حقيقي مقابل محاكى)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "اذكر 'الطرق الحالية' لجميع التطبيقات حيث تم وصف طريقة 'MarS' بأنها 'خط أنابيب' أو تتضمن 'التوليد'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "أي تطبيق يُظهر التحول الأكثر جوهرية في النهج بين 'الطرق الحالية' و 'MarS'، بالانتقال من مقارنة تاريخية إلى مقارنة محاكاة؟",
+    "answer": [
+      [
+        "يُظهر تطبيق 'الكشف' التحول الأكثر جوهرية. تعتمد الطريقة الحالية على مقارنة زمنية تطلعية للوراء (Diff(market_now, market_past)). في المقابل، تقدم طريقة MarS مقارنة مع واقع محاكاة متزامن (Diff(market_now, simu-market_now)). هذا التحول من أساس تاريخي إلى أساس محاكاة للمقارنة هو شذوذ مفاهيمي هام مقارنة بالتحولات المنهجية الأخرى في الجدول."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "إذا تم تعديل نهج 'MarS' لتطبيق 'بيئة RL' لاستخدام توفر البيانات لطرق 'الأساليب الحالية' لنفس التطبيق، فما هي الخاصيتان اللتان ستحددان هذه الطريقة الافتراضية لـ MarS؟",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "بالنسبة لتطبيق 'بيئة تعلم معزز'، ما هو الاختلاف الرئيسي في توفر البيانات وتوزيع الاحتمالات بين 'الطرق الحالية' و 'MarS'؟",
+    "answer": [
+      [
+        "يتمثل الاختلاف الرئيسي في كل من حجم البيانات وأصالة احتمال الانتقال. تعتمد 'الطرق الحالية' على 'بيانات محدودة' وتوزيع احتمالات 'مزيف' (P(st+1|st,at))، بينما يستخدم 'MarS' 'بيانات لا نهائية' وتوزيع احتمالات 'حقيقي'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "كم عدد التطبيقات المميزة المدرجة التي تتضمن مصطلح \"بيانات\" في وصف طرقها إما لـ \"الطرق الحالية\" أو \"MarS\"؟",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على الجدول، ما هي الميزة الرئيسية الواضحة لـ MarS مقارنة بالطرق الحالية، خاصة فيما يتعلق بتمثيل البيانات والواقع؟",
+    "answer": [
+      [
+        "يشير الموضوع العام إلى أن طرق MarS تهدف إلى التغلب على قيود البيانات التاريخية أو المحدودة من خلال الاستفادة من الأساليب التوليدية والمبنية على المحاكاة. ينتقل MarS من الاستقراء إلى التوليد، ومن المقارنة التاريخية إلى المقارنة المحاكية، ومن نماذج البيانات المحدودة/الزائفة إلى نماذج البيانات اللانهائية/الحقيقية. يشير هذا إلى ميزة استراتيجية في إنشاء بيئات بيانات أكثر قوة ومرونة وواقعية للتحليل والتعلم المعزز."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "باستثناء صف الرأس، كم عدد التطبيقات المميزة المفصلة في الجدول؟",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ما هي الطريقة الحالية المستخدمة للتنبؤ؟",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

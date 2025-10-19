@@ -1,0 +1,280 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Koefisien beta (β) mana yang menunjukkan bukti statistik terkuat dari pengaruhnya, seperti yang ditunjukkan oleh nilai t absolut tertinggi?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Berapa rata-rata standard error untuk semua koefisien alpha (α) yang signifikan secara statistik di level p < 0.05?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Buat komponen model (yang diindeks dengan angka subscript) yang koefisien β-nya punya interval kepercayaan 95% terlebar, berapa p-value dari koefisien α yang sesuai?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasin tren besaran koefisien β pas subscript-nya naik dari 1 sampai 6. Ada pola yang konsisten nggak?",
+    "answer": [
+      [
+        "Nggak ada tren monoton yang konsisten. Koefisien β awalnya naik dari β₁ (0.7208) ke β₂ (0.8237), tapi terus turun drastis buat β₃ (0.0025) dan seterusnya. Nilai buat dua komponen pertama jauh lebih gede dibanding komponen 3 sampai 6, yang semuanya deket banget sama nol."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Sebutin dong model yang koefisien alpha (α)-nya nggak signifikan secara statistik (nilai P > 0.4) DAN error standarnya di bawah 0.03.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Berapa persen koefisien model yang terpasang (baik α maupun β) yang signifikan secara statistik, yang didefinisikan sebagai memiliki nilai p kurang dari 0.05?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalau standard error buat model α₁ di-jadiin setengahnya, berapa t-statistic barunya? Ngeliat hubungan t-statistic sama p-value model lain di tabel, kira-kira koefisien α₁ bakal signifikan nggak (p < 0.05)?",
+    "answer": [
+      [
+        "T-statistic barunya jadi -1.593 (-0.0215 / (0.027 / 2)). Kayaknya sih ini nggak bakal bikin koefisiennya jadi signifikan. Sebagai perbandingan, model α₂ punya t-statistic -2.803 dengan p-value 0.005. T-statistic yang nilai absolutnya lebih kecil kayak -1.593 bakal punya p-value lebih gede, kemungkinan tetep di atas ambang batas 0.05 buat signifikansi, yang biasanya butuh nilai absolut t sekitar 2 atau lebih."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Gimana sih hubungan antara besarnya koefisien β sama statistik t-nya? Apa koefisien yang lebih gede pasti ngasih t-statistic yang lebih gede juga?",
+    "answer": [
+      [
+        "Nggak juga, koefisien β yang lebih gede nggak selalu ngasih t-statistic yang lebih gede. Contohnya, β₂ punya koefisien paling gede (0.8237) tapi t-statistic-nya (8.418) jauh lebih kecil dibanding β₄ (126.061), yang koefisiennya kecil banget (0.0041). T-statistic itu kan perbandingan antara koefisien sama standard error-nya, jadi standard error yang kecil banget bisa ngasih t-statistic yang gede meskipun koefisiennya kecil, kayak yang keliatan di model β₃ sampe β₆."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan prinsip statistik, interval kepercayaan 95% yang tidak mengandung nol seharusnya memiliki nilai p (p-value) kurang dari 0,05. Ada nggak koefisien model yang terpasang di tabel ini yang interval kepercayaannya nggak sesuai sama p-value-nya? ",
+    "answer": [
+      [
+        "Nggak ada, semua koefisien di tabel ini konsisten antara p-value dan interval kepercayaan 95%-nya. Semua koefisien dengan p-value di bawah 0,05 (misalnya, β₁, α₂, β₂) punya interval kepercayaan yang nggak melewati nol. Sebaliknya, semua koefisien dengan p-value di atas 0,05 (misalnya, α₁, α₃, α₄) punya interval kepercayaan yang mencakup nol."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Koefisien alpha (α) mana yang statistik t-nya paling signifikan mencolok dibanding statistik t koefisien alpha lainnya?",
+    "answer": [
+      [
+        "α₆, dengan statistik t 7.305, adalah outlier paling signifikan. Statistik t alpha lainnya adalah -0.787, -2.803, -0.269, 0.013, dan 0.729. Sebagian besar nilai ini berkumpul di antara -3 dan 1. Nilai 7.305 jauh lebih besar secara magnitudo dan merupakan satu-satunya nilai positif yang besar, sehingga sangat menonjol dari kelompok lainnya."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_011",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Ada berapa model yang terpasang di tabel?",
+    "answer": [
+      [
+        "There are 12 fitted models listed in the table (α₁–α₆ and β₁–β₆)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

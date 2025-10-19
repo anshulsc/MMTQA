@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Which model has the highest number of distinct parameter explanations listed in the table?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "How many distinct parameters are explained in total for all the models that use a summation component (Σ) in their main formula?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "List the models whose main formula does not involve exponentiation (e.g., e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "What percentage of the models listed utilize a parameter representing individual samples or data points (e.g., 'sample i') in their formulation?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "If the number of sample categories 'm' in a Decision Tree model is 1, what would be the calculated value of the information entropy 'Ent(D)' according to the formula?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Which model's formula is fundamentally different from the others as it is presented as an optimization problem (minimization) rather than a direct calculation of an output value?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the formulas and parameters, contrast the roles of the 'β' parameter in Logistic Regression with the 'w' parameter in Support Vector Machine.",
+    "answer": [
+      [
+        "In Logistic Regression, 'β' is a row vector of regression coefficients that, along with the intercept, determines the probability of an outcome via the logistic function. In Support Vector Machine, 'w' is a parameter vector that defines the orientation of the separating hyperplane. The goal in SVM is to find the 'w' that maximizes the margin between classes by minimizing its L2 norm, whereas in Logistic Regression, 'β' is typically found by maximizing the likelihood of the observed data."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "How do the concepts of 'layers' in Neural Networks and 'entropy' in Decision Trees reflect their different approaches to learning from data?",
+    "answer": [
+      [
+        "The concept of 'layers' (l and l-1) in Neural Networks reflects a hierarchical feature learning approach. The model learns increasingly complex representations of the data by passing activations through successive layers, adjusting weights ('w') and biases ('b') to create a complex function approximator. In contrast, the concept of 'entropy' (Ent(D)) in Decision Trees reflects a greedy, rule-based approach. The model recursively partitions the data into purer subsets by selecting features that result in the largest decrease in entropy (information gain), creating an explicit set of if-then rules."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "What is the total count of unique models described in the table?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Which column's primary purpose is to define the variables used in the adjacent column?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

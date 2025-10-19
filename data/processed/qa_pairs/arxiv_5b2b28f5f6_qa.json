@@ -1,0 +1,190 @@
+[
+  {
+    "question_id": "arxiv_5b2b28f5f6_001",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Which dataset model is built upon the most extensive collection of raw numerical and textual data points mentioned in the table?",
+    "answer": [
+      [
+        "FNSPID"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_002",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "What is the total number of prices and news records combined in the FNSPID framework?",
+    "answer": [
+      [
+        "45.4M"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_003",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "For the dataset focused on 'investor psychology', what feature type is explicitly mentioned as contributing to its primary result of improved prediction?",
+    "answer": [
+      [
+        "emotional features"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_004",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Which dataset's primary results are validated over a specific multi-decade period, and what is the start and end year of that period?",
+    "answer": [
+      [
+        "Market-GAN",
+        "2000-2023"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_005",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Identify the datasets whose 'Primary Results' include a quantitative performance metric (like a percentage or a statistical score).",
+    "answer": [
+      [
+        "FNSPID"
+      ],
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_006",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "For the FNSPID dataset, what is the approximate ratio of news records to price records?",
+    "answer": [
+      [
+        "Approximately 0.53 to 1 (15.7M / 29.7M)"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_007",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "If the annualized returns reported by AlphaFin were to decrease by 10% of their current value, what would the new percentage be?",
+    "answer": [
+      [
+        "27.72%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_008",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the descriptions for FNSPID and StockEmotions, what relationship can be inferred between a dataset's 'Key Innovation' and its 'Data Characteristics'?",
+    "answer": [
+      [
+        "A strong positive correlation exists where the key innovation is directly enabled by and tailored to the specific nature of the data collected. For instance, FNSPID's innovation in 'price-news integration' is only possible due to its large-scale collection of price and news records. Similarly, StockEmotions' innovation in 'investor psychology' is derived from its unique dataset of 'annotated comments' with emotion classes."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_009",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Which column in the table is designed to summarize the core novel contribution or unique approach of each model?",
+    "answer": [
+      [
+        "Key Innovation"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_010",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Among the listed primary results, which dataset reports a key outcome focused on the model's transparency and explainability, making it an outlier compared to the others that focus primarily on accuracy, returns, or simulation fidelity?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_011",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Which dataset produced a very high accuracy in DJIA simulation?",
+    "answer": [
+      [
+        "Market-GAN"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

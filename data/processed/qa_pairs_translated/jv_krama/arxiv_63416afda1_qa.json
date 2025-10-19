@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Kanggo model ingkang ngginakaken data tingkat pesenan kanthi frekuensi inggil, jinis kapabilitas prediksi menapa ingkang dipun tawakaken?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Menawi proyèk mbetahaken pitadosan umum lumantar simulasi, karakteristik model pundi, sanès tugas ingkang saged dipuntindakaken, ingkang damel langkung trep tinimbang alternatifipun?",
+    "answer": [
+      [
+        "MarS/LMM punika 'Model fondasi skala ageng' ingkang saged 'Ngasilaken urutan multi-tahap,' ingkang damel langkung fleksibel lan kiyat kanggé tugas simulasi umum dibandhingaken kaliyan DeepLOB, ingkang dipunandharaken minangka model 'Alit, dipundamelaken, lan mboten saged dipunskala' kanthi prediksi 'Langkah tunggal utawi dawa tetep.'"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Miturut tabel kasebut, apa gegayutan ing antarane skala model lan keluwesan predhiksine?",
+    "answer": [
+      [
+        "Data kasebut nuduhake korelasine langsung: model sing diterangake minangka 'Cilik, digawe kanthi tangan, lan ora bisa diskalake' (DeepLOB) nawakake prediksi 'Langkah tunggal utawa dawane tetep' sing winates, dene 'Model dhasar skala gedhe' (MarS/LMM) nyedhiyakake 'Generasi urutan, langkah multi' sing luwih fleksibel. Iki nuduhake manawa model sing luwih gedhe lan luwih bisa diskalake cenderung duwe kapabilitas prediksi sing luwih maju lan fleksibel."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Wonten pinten aspek ingkang kaginakaken kangge mbédakaken DeepLOB lan MarS/LMM wonten ing dataset menika?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Sebutaken model ingkang boten dipuntuduhaken minangka 'Model dhasaring skala ageng' saha pratelaaken fitur input ingkang sampun katemtokaken.",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Model pundi ingkang deskripsi 'Model'ipun ngemot set tiga ciri winates ingkang benten?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Menawi DeepLOB badhe dipunowahi kanggé nindakaken 'Multi-step, sequence generation', menapa kalih aspek sanes saking tabel ingkang saged dipunowahi kanthi mendasar supados selaras kaliyan ciri-ciri model ingkang sampun gadhah kapabilitas menika?",
+    "answer": [
+      [
+        "Kanggé ngrapi 'multi-step generation' kados MarS/LMM, 'Model' DeepLOB mbok menawi kedah ngrembaka saking 'Small, handcrafted, and not scalable' dados 'Large-scale foundation model', saha 'Input Features'-ipun saged ngrembaka saking 'LOB data' kanggé nampung 'High-frequency order-level data'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Bandingaken panyuwun data mlebet kanggé kalih model punika.",
+    "answer": [
+      [
+        "DeepLOB mbetahaken 'Limit order book (LOB) data,' ingkang dados jinising struktur data finansial ingkang spesifik. Kosok wangsulipun, MarS/LMM ngginakaken 'High-frequency order-level data,' ingkang langkung umum saha ngisyarataken volume saha kacepetan data ingkang langkung ageng."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Menapa jinis model kanggé sistem ingkang dipunrancang kanggé ramalan ingkang spesifik tumrap tugas?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Menawi penggunan namung gadhah 'Limit order book (LOB) data' ingkang kasedhiya saha mbetahaken 'General forecasting through simulation', model pundi ingkang nampilaken konflik adhedhasar aspek ingkang dipunparingaken, saha ngapa?",
+    "answer": [
+      [
+        "Konflik wonten kanggé kalih model. DeepLOB saged ngginakaken data LOB nanging dipunrancang kanggé 'Task specific forecasting,' sanes simulasi umum. MarS/LMM dipunrancang kanggé 'General forecasting' nanging mbetahaken 'High-frequency order-level data,' sanes data LOB. Pramila, mboten wonten model ingkang sampurna tanpa modifikasi utawi kompromi."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Menapa tugas ingkang saged dipun ginakaken kangge DeepLOB?",
+    "answer": [
+      [
+        "Task specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

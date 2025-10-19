@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "أي من معلمات تأثير السوق لديه قيمة معامل مضاعفة بالضبط للقيمة الأخرى؟",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "ما هي القيمة المتوسطة لـ 'معامل اللاخطية' بناءً على مجموعة القيم المحتملة المقدمة؟",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "ما هو رمز المعلمة الموجودة ضمن 'ديناميكيات السوق' والتي لديها أكبر عدد من القيم المميزة المذكورة؟",
+    "answer": [
+      [
+        "V0subscript⁤⁤⁤⁤⁤\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على قيم 'التقلبات الأولية' و 'التقلبات طويلة الأجل' و 'سرعة الانحدار إلى المتوسط'، ماذا يمكن استنتاجه حول سلوك تقلبات النموذج بمرور الوقت؟",
+    "answer": [
+      [
+        "يُظهر النموذج تقلبات تعود إلى المتوسط. يتم تثبيت 'التقلبات طويلة الأجل' عند 0.3، والتي تعمل كنقطة ارتكاز. يمكن أن تبدأ 'التقلبات الأولية' أعلى (0.4)، أو أقل (0.2)، أو عند المستوى طويل الأجل (0.3). بغض النظر عن نقطة البداية، من المتوقع أن تنجرف التقلبات نحو 0.3 بمرور الوقت، وهي عملية تحكم سرعتها 'سرعة الانحدار إلى المتوسط' البالغة 2.0. هذا يعني أن فترات التقلبات المرتفعة أو المنخفضة ليست دائمة."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "اذكر جميع المعلمات الموجودة ضمن فئة 'ديناميكيات السوق' التي يتم تقديمها كمجموعة من القيم المحتملة المتعددة، حيث تكون جميع القيم المذكورة غير سالبة.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "إذا تم تعريف 'تجنب المخاطرة' على أنه مقلوب 'تحمل المخاطر'، وإذا زادت قيمتي 'التأثير الدائم' و 'التأثير المؤقت' بمعامل 10، فما هي النسبة الجديدة لـ 'معامل التأثير المؤقت' إلى 'تجنب المخاطرة'؟",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "إذا انخفضت سرعة العودة إلى المتوسط بنسبة 50٪، وزادت قيم \"تقلب التباين\" بمقدار 0.1 لكليهما، فما هو المجموع الجديد لـ \"سرعة العودة إلى المتوسط\" والحد الأقصى لـ \"تقلب التباين\"؟",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "تحدد الجدولة قيمة \"الارتباط\" -0.7. في نموذج مالي، ماذا تعني هذه القيمة السالبة القوية عادة عن العلاقة بين سعر الأصل وتقلباته؟",
+    "answer": [
+      [
+        "يشير الارتباط البالغ -0.7 إلى علاقة عكسية قوية، يشار إليها غالبًا باسم تأثير الرافعة المالية. إنه يشير إلى أنه مع انخفاض سعر الأصل، يميل التقلب فيه إلى الزيادة، وعلى العكس من ذلك، مع زيادة سعر الأصل، يميل التقلب فيه إلى الانخفاض. هذه ميزة حاسمة لنمذجة أسعار الأصول والتسعير المشتقات بشكل واقعي."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "كم عدد المعلمات في الجدول المحددة بمجموعة من القيم المحتملة المتعددة بدلاً من قيمة ثابتة واحدة؟",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "ما هي المعلمة الوحيدة التي تعتبر قيمة متطرفة نوعياً لأن قيمتها هي الوحيدة السلبية؟",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

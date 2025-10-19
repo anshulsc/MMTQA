@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quels hyperparamètres ont le plus grand nombre d'options listées dans leur espace de recherche ?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Combien d'hyperparamètres ont été testés avec plus de deux valeurs possibles dans leur espace de recherche ?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quel était l'espace de recherche pour l'hyperparamètre dont le meilleur choix est la plus petite valeur numérique supérieure à zéro ?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Listez tous les hyperparamètres pour lesquels le 'Meilleur choix' était la valeur la plus élevée disponible dans leur 'Espace de recherche' respectif.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quelle proportion des hyperparamètres numériques avait son 'Meilleur Choix' sélectionné au milieu de son 'Espace de Recherche' trié (c'est-à-dire, pas la valeur minimale ou maximale) ?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Si la recherche pour 'TRADES Layers' avait été limitée aux seules valeurs inférieures à 8, quel aurait été le 'Meilleur Choix' pour cet hyperparamètre, en supposant que la prochaine meilleure option disponible dans l'espace de recherche d'origine ait été choisie ?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Y a-t-il une relation observable entre la taille de l'espace de recherche d'un hyperparamètre et le fait que le \"meilleur choix\" soit une valeur extrême (min/max) ou une valeur intermédiaire ? Expliquez votre raisonnement.",
+    "answer": [
+      [
+        "Oui, il y a un schéma clair. Pour les hyperparamètres avec un petit espace de recherche de deux options (Taux d'apprentissage, Dropout), le meilleur choix était la valeur maximale. Pour tous les hyperparamètres avec un espace de recherche plus grand de trois ou quatre options, la valeur optimale a été trouvée au milieu de la plage, jamais aux extrêmes. Cela suggère que pour ce modèle, un processus de réglage fin est bénéfique, et que les plages larges initiales ont correctement encadré une région optimale qui n'était pas aux limites de l'espace testé."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quel hyperparamètre a un espace de recherche décrit par des étiquettes non numériques ?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "La valeur du 'Meilleur Choix' de quel hyperparamètre est une valeur aberrante numérique, étant au moins quatre fois supérieure au 'Meilleur Choix' numérique le plus élevé suivant ?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "En considérant les hyperparamètres avec quatre options dans leur espace de recherche ('Sequence size', 'TRADES Layers', 'Augmentation Dim.'), quelle caractéristique commune leurs valeurs 'Best Choice' partagent-elles, et qu'est-ce que cela pourrait impliquer quant à la stratégie d'optimisation ?",
+    "answer": [
+      [
+        "La caractéristique commune est que pour les trois hyperparamètres, le 'Best Choice' est une valeur intermédiaire, ni extrême (minimum ou maximum). Les 'Best Choices' sont 256 (3ème sur 4), 8 (3ème sur 4) et 64 (2ème sur 4). Cela implique une stratégie d'optimisation réussie où l'espace de recherche était suffisamment large pour encadrer la valeur optimale, suggérant que les performances pour ces paramètres n'augmentent pas de manière monotone avec la valeur, mais atteignent plutôt un pic quelque part dans la plage testée."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quel est le meilleur choix d'optimiseur ?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

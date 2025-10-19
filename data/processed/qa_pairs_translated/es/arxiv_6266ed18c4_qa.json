@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "arxiv_6266ed18c4_001",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "Entre los trabajos que mencionan explícitamente mejoras porcentuales, ¿cuál reporta la mayor ganancia porcentual individual para alguna métrica?",
+    "answer": [
+      [
+        "MASTER Li et al. (2024b)"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_002",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "¿Cuántas de las investigaciones listadas se publicaron en el año 2024?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_003",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "¿Cuál es la innovación clave del trabajo que utiliza una regularización basada en GARCH en su metodología?",
+    "answer": [
+      [
+        "Integration of GARCH theory with neural networks"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_004",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "open_ended_reasoning",
+    "question": "Según la tabla, ¿cómo evolucionó el enfoque de las innovaciones clave de 2022 a 2024?",
+    "answer": [
+      [
+        "El enfoque de las innovaciones evolucionó desde modelos fundamentales basados en grafos y adaptabilidad a cambios de distribución en 2022-2023 hacia enfoques más diversos y sofisticados en 2024. Los trabajos posteriores incorporan correlaciones dinámicas, modelado temporal centrado en características, integración de teorías financieras clásicas (GARCH), nuevos modelos generativos (difusión) y el uso de LLM para procesar datos no estructurados como noticias."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_005",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "Enumere los trabajos que informan específicamente sobre mejoras de rendimiento en índices bursátiles basados en EE. UU. como NASDAQ o NYSE.",
+    "answer": [
+      [
+        "DPA-STIFormer Yan and Tan (2024)"
+      ],
+      [
+        "DIFFSTOCK Daiya et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_006",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de los trabajos listados utilizan una metodología que incorpora alguna forma de mecanismo de 'atención'?",
+    "answer": [
+      [
+        "25%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_007",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Si la metodología de DIFFSTOCK se aplicara al índice CSI500 y lograra una mejora del 14% en IC, cómo se compararía su rendimiento con los modelos que ya informan mejoras en IC?",
+    "answer": [
+      [
+        "Su hipotética mejora del 14% en IC sobre el CSI500 sería inferior a la mejora del 15% en IC reportada por MDGNN sobre el CSI300, pero superior a la mejora en IC mencionada para DPA-STIFormer (que se indica como 'IC mejorado' sin un porcentaje específico)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_008",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe una relación observable entre el uso de metodologías basadas en grafos y el enfoque geográfico de los conjuntos de datos de evaluación?",
+    "answer": [
+      [
+        "Sí, existe una relación potencial. Los dos modelos que utilizan explícitamente innovaciones basadas en grafos, MDGNN y DANSMP, son evaluados en índices bursátiles chinos (CSI300, CSI300E). Esto sugiere que los enfoques basados en grafos podrían ser un foco particular para modelar las complejidades de los mercados chinos."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_009",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "¿Qué columna contiene el conjunto más diverso de métricas de evaluación de rendimiento?",
+    "answer": [
+      [
+        "Primary Results"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_010",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "¿Qué trabajo tiene como resultado principal una capacidad cualitativa en lugar de una métrica de rendimiento cuantitativa en un índice específico?",
+    "answer": [
+      [
+        "DoubleAdapt Zhao et al. (2023)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_011",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "¿Cuál es la innovación clave de MDGNN Xu et al. (2024)?",
+    "answer": [
+      [
+        "Multi-relational graph incorporating industry and institutional relationships.+"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

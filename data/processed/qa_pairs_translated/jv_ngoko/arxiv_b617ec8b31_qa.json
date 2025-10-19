@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Nggo aplikasi sing metode MarS kuwi mbandhingke pasar saiki karo pasar simulasi, sing metode saiki mbandhingke apa?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Piro persen aplikasi sing kegolong metode 'MarS' sing nggunakake 'generation' utawa 'simulation'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Piye carane metode MarS kanggo aplikasi 'Detection' ngowahi perbandingan wektu sing digunakake ing 'Metode Saiki'?",
+    "answer": [
+      [
+        "Metode 'Saiki' kanggo 'Deteksi' gumantung marang perbandingan sejarah kanthi ngitung bedane antarane kahanan pasar saiki (market_now) lan kahanan pasar sing wis kliwat (market_past). Metode MarS ngilangi ketergantungan marang data kepungkur iki. Nanging, dheweke mbandhingake pasar saiki (market_now) karo pasar simulasi sing bebarengan (simu-market_now), nggeser perbandingan saka kerangka kerja temporal (saiki vs. nalika iku) menyang kerangka kerja adhedhasar model (nyata vs. simulasi)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Sebutna 'Metode Saiki' kanggo kabeh aplikasi ing ngendi metode 'MarS' diterangake minangka 'pipeline' utawa nglibatake 'generation'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Aplikasi endi sing nuduhake owah-owahan paling dhasar ing pendekatan antarane 'Cara Saiki' lan 'MarS', obah saka perbandingan historis menyang simulasi?",
+    "answer": [
+      [
+        "Aplikasi 'Deteksi' nuduhake owah-owahan paling dhasar. Cara saiki gumantung ing perbandingan retrospektif (Diff(market_now, market_past)). Kosok baline, cara MarS ngenalake perbandingan marang kasunyatan simulasi sing ana bebarengan (Diff(market_now, simu-market_now)). Owah-owahan saka basis historis menyang basis simulasi kanggo perbandingan minangka outlier konseptual sing signifikan dibandhingake karo owah-owahan metodologis liyane ing tabel."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Nek carane 'MarS' kanggo 'RL Environment' diowahi nganggo kasediyane data saka 'Current Methods' kanggo aplikasi sing padha, opo rong ciri sing bakal nemtokake cara MarS hipotetis iki?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Kanggo aplikasi 'RL Environment', apa bedane utama ing kasedhiyan data lan distribusi probabilitas antarane 'Current Methods' lan 'MarS'?",
+    "answer": [
+      [
+        "Bedane utamane dumunung ing volume data lan otentisitas probabilitas transisi. 'Current Methods' gumantung ing 'data winates' lan distribusi probabilitas 'palsu' (P(st+1|st,at)), dene 'MarS' nggunakake 'data tanpa wates' lan distribusi probabilitas 'nyata'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Ana piro aplikasi sing disebutake nggunakake tembung 'data' ing deskripsi metode, apa iku ing 'Current Methods' utawa 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Miturut tabel kuwi, apa keuntungan gedhe saka MarS dibanding Metode Saiki, mligi babagan data lan representasi kasunyatan?",
+    "answer": [
+      [
+        "Tema utamane nuduhake yen metode MarS ngarahake kanggo ngatasi watesan data sajarah utawa winates kanthi nggunakake pendekatan berbasis generasi lan simulasi. MarS owah saka ekstrapolasi menyang generasi, saka perbandingan sajarah menyang perbandingan simulasi, lan saka model data winates/palsu menyang model data tanpa wates/nyata. Iki nuduhake kaluwihan strategis ing nggawe lingkungan data sing luwih kuwat, luwih fleksibel, lan luwih realistis kanggo analisis lan pembelajaran penguatan."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Ora nganggo baris judhul, ana piro aplikasi sing beda-beda disebutke ing tabel?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Metode opo sing dienggo kanggo Forecasting?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Model endi sing duwe penjelasan parameter paling akeh ing tabel?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Piro pirang-pirang parameter sing beda-bedane diterangake kanthi total kanggo kabeh model sing nggunakake komponen penjumlahan (Σ) ing rumus utamane?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Tulisen model-model sing rumus utamane ora nganggo pangkat (contone, e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Pira persen modele sing nganggo 'sample i' utowo 'sample n' neng rumusane?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Yen jumlah kategori sampel 'm' ing model Decision Tree iku 1, pira regane informasi entropi 'Ent(D)' miturut formulane?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Model endi sing rumuse beda karo liyane amarga disajekake minangka masalah optimasi (minimalisasi) tinimbang minangka pitungan langsung saka nilai output?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Ning Logistic Regression, 'β' kuwi opo lan ning Support Vector Machine, 'w' kuwi opo?",
+    "answer": [
+      [
+        "Ning Logistic Regression, 'β' kuwi vektor baris koefisien regresi sing, bareng karo intercept, nemtokake probabilitas kedadean liwat fungsi logistik. Ning Support Vector Machine, 'w' kuwi vektor parameter sing nemtokake orientasi hyperplane sing misahake. Tujuane ning SVM kuwi nemokake 'w' sing nggedhekake margin antarane kelas kanthi nyilikake norm L2-ne, dene ning Logistic Regression, 'β' biasane ditemokake kanthi nggedhekake kemungkinan data sing diamati."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Piye carane konsep 'lapisan' ing Neural Networks lan 'entropy' ing Decision Trees nggambarake pendekatan sing beda kanggo sinau saka data?",
+    "answer": [
+      [
+        "Konsep 'lapisan' (l lan l-1) ing Neural Networks nggambarake pendekatan hierarkis kanggo sinau fitur. Model sinau representasi data sing luwih kompleks kanthi ngliwati aktivasi liwat lapisan-lapisan sabanjure, nyetel bobot ('w') lan bias ('b') kanggo nggawe aproksimator fungsi sing kompleks. Kosok baline, konsep 'entropy' (Ent(D)) ing Decision Trees nggambarake pendekatan greedy adhedhasar aturan. Model kasebut kanthi rekursif mbagi data dadi subset sing luwih murni kanthi milih fitur sing ngasilake penurunan entropy paling gedhe (information gain), nggawe set aturan if-then sing cetha."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Ana piro macem model unik sing diterangke nang tabel?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Saka kolom ngendi sing tujuane kanggo nemtokake variabel sing digunakake ing kolom jejere?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

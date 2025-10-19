@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Parameter market impact sing endi sing nilai koefisiene persis kaping pindho saka liyane?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Pira nilai rata-rata kanggo 'Parameter Non-linearitas' miturut sawetara nilai sing kasedhiya?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Simbol kanggo parameter ing 'Market Dynamics' sing nduwe nilai paling akeh kuwi apa?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Saka nilai 'Initial volatility', 'Long-term volatility', lan 'Mean reversion speed', apa sing isa disimpulake babagan tingkah laku volatility model kasebut suwe-suwe?",
+    "answer": [
+      [
+        "Model kasebut nuduhake volatility sing bali menyang rata-rata. 'Long-term volatility' tetep ing 0.3, sing dadi jangkar. 'Initial volatility' bisa diwiwiti luwih dhuwur (0.4), luwih endhek (0.2), utawa ing tingkat jangka panjang (0.3). Ora preduli saka titik wiwitan, volatility dikarepake bakal obah menyang 0.3 suwe-suwe, proses sing kacepetane diatur dening 'Mean reversion speed' saka 2.0. Iki tegese wektu volatility dhuwur utawa endhek ora permanen."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Sebutna kabeh paramèter ing kategori 'Market Dynamics' sing disajekake minangka sawetara nilai sing mungkin, ing ngendi kabeh nilai sing kadhaptar ora negatif.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Nek 'Risk aversion' kuwi didhefinisi minangka kuwalikan saka toleransi risiko, lan loro nilai 'Permanent impact' lan 'Temporary impact' mundhak kaping 10, piye rasio anyar antarane 'Temporary impact coefficient' karo 'Risk aversion'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Nek 'Mean reversion speed' dikurangi 50%, lan nilai 'Volatility of variance' ditambah 0.1, piro jumlah anyare 'Mean reversion speed' karo 'Volatility of variance' sing paling dhuwur?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Ing tabel kasebut, nilai 'Correlation' yaiku -0.7. Ing model finansial, apa tegese nilai negatif sing kuwat iki babagan sesambungan antarane rega aset lan volatilitas?",
+    "answer": [
+      [
+        "Korelasi -0.7 ngandharake sesambungan sing kuwat, sing kerep diarani efek leverage. Iki tegese nalika rega aset mudhun, volatilitas cenderung mundhak, lan kosok baline, nalika rega aset mundhak, volatilitas cenderung mudhun. Iki minangka ciri penting kanggo modeling rega aset lan rega derivatif sing nyata."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Ana pirang paramèter ing tabel sing ditetepake kanthi sawetara nilai sing bisa beda-beda, dudu siji nilai tetep?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Saka parameter-parameter kuwi, endi sing mung siji sing duwe nilai negatif?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "搜索空间中选项数量最多的超参数是什么？",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "在其搜索空间中，有多少个超参数的可能值超过了两个？",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": " whose best choice is the smallest numerical value greater than zero? 搜索空间的超参数是什么？",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "列出所有“最佳选择”是其各自“搜索空间”中可用最高值的超参数。",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "在所有数值超参数中，有多少比例的“最佳选择”是从其排序后的“搜索空间”的中间值（即非最小值或最大值）选取的？",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "如果“TRADES Layers”的搜索范围被限制在小于8的数值内，并且假设选择了原始搜索空间中的下一个最佳可用选项，那么该超参数的“最佳选择”将是什么？",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "超参数搜索空间的规模与其“最佳选择”是否为极端值（最小值/最大值）或中间值之间是否存在可观察到的关系？请解释您的理由。",
+    "answer": [
+      [
+        "是的，存在一个明显的模式。对于搜索空间只有两个选项（学习率、Dropout）的超参数，最佳选择是最大值。对于具有三个或四个选项的较大搜索空间的超参数，最优值发现在范围的中间，而不是极端值。这表明对于这个模型，微调过程是有益的，并且初始的宽范围成功地框定了了一个不在测试空间边界的最优区域。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "哪个超参数的搜索空间是用非数字标签描述的？",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "哪个超参数的“最佳选择”值是数值异常值，比次高数值“最佳选择”大至少四倍？",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "在搜索空间中具有四个选项的超参数（“序列大小”、“TRADES 层数”、“增强维度”）中，它们的“最佳选择”值有什么共同特征，这可能对调优策略意味着什么？",
+    "answer": [
+      [
+        "共同的特征是，对于所有这三个超参数，“最佳选择”值都不是极端值（最小值或最大值），而是中间值。“最佳选择”分别为 256（4 个选项中的第 3 个）、8（4 个选项中的第 3 个）和 64（4 个选项中的第 2 个）。这表明一种成功的调优策略，即搜索空间足够宽，能够涵盖最优值，这暗示着这些参数的表现并不会随着值的增大而单调递增，而是在测试范围内达到峰值。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "优化器的最佳选择是什么？",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

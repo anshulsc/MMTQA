@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "finqa_d219c4cd4d_001",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "In which year was the difference between 'net income adjusted...' and 'net cash provided by operating activities' the largest?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_002",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "What was the cumulative 'net cash used in investing activities' over the three-year period from 2012 to 2014?",
+    "answer": [
+      [
+        "-635.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_003",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "What was the 'net income adjusted...' figure for the year that reported the lowest 'net cash provided by operating activities'?",
+    "answer": [
+      [
+        "$ 697.2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_004",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the year-over-year trend for 'net cash provided by operating activities' between 2012 and 2014.",
+    "answer": [
+      [
+        "The 'net cash provided by operating activities' demonstrated a consistent and strong upward trend, growing from $357.2 in 2012 to $592.9 in 2013, and further increasing to $669.5 in 2014. This indicates a steady improvement in the company's ability to generate cash from its core business operations over the period."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_005",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Identify the cash flow activity that provided cash (a positive value) in 2012 but used cash (a negative value) in both 2013 and 2014.",
+    "answer": [
+      [
+        "net cash ( used in ) provided by financing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_006",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "What percentage of 'net income adjusted...' was converted into 'net cash provided by operating activities' in 2014? Provide your answer rounded to one decimal place.",
+    "answer": [
+      [
+        "80.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_007",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "If the magnitude of 'net cash used in working capital' in 2014 had been 20% smaller (i.e., closer to zero), what would the recalculated 'net cash provided by operating activities' have been for that year?",
+    "answer": [
+      [
+        "$ 695.72"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_008",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the provided data, what is the apparent relationship between 'net income' and 'net cash used in working capital'?",
+    "answer": [
+      [
+        "There is no consistent linear correlation. For instance, from 2012 to 2013, net income decreased while the cash used in working capital also decreased dramatically (from -$293.2 to -$9.6). However, from 2013 to 2014, net income increased significantly, and the cash used in working capital also increased (from -$9.6 to -$131.1). This suggests that growth in income might require a greater investment in working capital, but the relationship is not stable year-to-year."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_009",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "open_ended_reasoning",
+    "question": "What formatting convention is used in the table to denote negative financial values or cash outflows?",
+    "answer": [
+      [
+        "Negative values are primarily indicated with a leading minus sign. In many cases, this is followed by the absolute value of the number enclosed in parentheses, serving as a redundant visual confirmation of the negative amount (e.g., '-131.1 ( 131.1 )')."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "D3",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_010",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "Which specific data point for 'net cash ( used in ) provided by financing activities' is a significant outlier compared to the other years provided?",
+    "answer": [
+      [
+        "The value for 2013, which is '-1212.3 ( 1212.3 )'"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d219c4cd4d_011",
+    "table_id": "finqa_d219c4cd4d",
+    "question_type": "value",
+    "question": "What is the total net cash flow from investing activities in 2014?",
+    "answer": [
+      [
+        "-200.8 ( 200.8 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

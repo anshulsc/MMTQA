@@ -1,0 +1,172 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Quale modello, tra quelli elencati, utilizza l'architettura di base più grande in termini di numero di parametri?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Qual è il numero totale di token nel corpus utilizzato per addestrare BloomBergGPT?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Qual è il budget di addestramento per il modello basato sull'architettura T5?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Per il modello che specifica un processo di dati di addestramento a due stadi, qual era la dimensione del corpus per lo stadio di pre-addestramento?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Identifica l'LLM che utilizza un'architettura basata su BLOOM e ha un budget di addestramento pubblicato in A100·ore.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Quale percentuale del corpus di addestramento totale di BloomBergGPT è costituita da token pubblici?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Se il budget di addestramento di XuanYuan2.0 fosse rivelato essere di 2.500.000 A100·ore, come ciò influirebbe sulla classifica dei modelli per budget di addestramento?",
+    "answer": [
+      [
+        "Attualmente, BloomBergGPT ha l'unico budget numerico specificato (1.300.000 A100·ore), il che lo pone al primo posto. Se il budget di XuanYuan2.0 fosse di 2.500.000 A100·ore, diventerebbe il modello con il più alto budget di addestramento conosciuto, superando BloomBergGPT. La nuova classifica per i modelli con budget numerici sarebbe 1. XuanYuan2.0 (2.500.000) e 2. BloomBergGPT (1.300.000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "C'è una correlazione costante tra il numero di parametri dell'architettura di un modello e la dimensione totale del suo corpus di addestramento in base a questi dati?",
+    "answer": [
+      [
+        "No, non c'è una correlazione positiva costante evidente nei dati. Ad esempio, XuanYuan2.0 ha un'architettura molto più grande (176 miliardi di parametri) rispetto a BloomBergGPT (50 miliardi di parametri), ma è stato addestrato su un corpus più piccolo (379 miliardi di token contro 708 miliardi di token). Ciò suggerisce che un modello più grande non richiede necessariamente un corpus di addestramento più grande secondo questo set di dati."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Quale colonna di dati presenta la maggiore variazione nel formato dei dati, contenendo un grande intero, una stringa non divulgata e un intervallo basato sul tempo?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Qual è il budget di addestramento dichiarato per un modello che rappresenta un valore anomalo positivo significativo rispetto alle informazioni disponibili per gli altri modelli?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

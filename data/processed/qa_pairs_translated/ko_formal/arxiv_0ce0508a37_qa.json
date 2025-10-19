@@ -1,0 +1,183 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "어떤 시장 영향 매개변수가 다른 매개변수의 정확히 두 배인 계수 값을 가지고 있습니까?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'비선형성 매개변수'에 대해 제공된 가능한 값 집합을 기준으로 평균값은 얼마입니까?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'시장 역학' 아래에서 나열된 고유 값의 수가 가장 많은 매개변수의 기호는 무엇입니까?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "'초기 변동성', '장기 변동성', 그리고 '평균 회귀 속도'의 값을 기반으로, 시간에 따른 모델의 변동성 행동에 대해 무엇을 추론할 수 있습니까?",
+    "answer": [
+      [
+        "이 모델은 평균 회귀 변동성을 보입니다. '장기 변동성'은 0.3으로 고정되어 있으며 닻 역할을 합니다. '초기 변동성'은 더 높게(0.4), 더 낮게(0.2), 또는 장기 수준(0.3)에서 시작할 수 있습니다. 시작점에 관계없이 변동성은 시간이 지남에 따라 0.3으로 이동할 것으로 예상되며, 그 속도는 '평균 회귀 속도' 2.0에 의해 결정됩니다. 이는 높은 변동성 또는 낮은 변동성 기간이 영구적이지 않음을 의미합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "여러 가능한 값 집합으로 제시된 '시장 역학' 범주에 속하는 모든 매개변수를 나열하십시오. 나열된 모든 값은 음수가 아닙니다.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'위험 회피'가 위험 감수의 역수로 정의될 경우, '영구적 영향'과 '일시적 영향'의 값이 10배 증가한다면, '일시적 영향 계수'와 '위험 회피'의 새로운 비율은 얼마가 되겠습니까?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "'평균 회귀 속도'가 50% 감소하고, '변동성의 변동성' 값이 0.1씩 증가한다면, '평균 회귀 속도'와 최대 '변동성의 변동성'의 합은 얼마가 되겠습니까?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "표에 '상관관계' 값이 -0.7로 명시되어 있습니다. 금융 모델에서 이 강한 음수 값은 일반적으로 자산 가격과 변동성 간의 관계에 대해 무엇을 의미합니까?",
+    "answer": [
+      [
+        "상관관계가 -0.7이라는 것은 강한 역관계를 나타내며, 종종 레버리지 효과라고 불립니다. 이는 자산 가격이 하락할수록 변동성이 증가하는 경향이 있고, 반대로 자산 가격이 상승할수록 변동성이 감소하는 경향이 있음을 의미합니다. 이는 현실적인 자산 가격 모델링과 파생 상품 가격 책정에 매우 중요한 특징입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "어떤 단일 매개변수가 값이 유일하게 음수이므로 질적 이상치입니까?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

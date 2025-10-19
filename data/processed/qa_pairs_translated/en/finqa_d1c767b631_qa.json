@@ -1,0 +1,198 @@
+[
+  {
+    "question_id": "finqa_d1c767b631_001",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "In which year was the use of cash for 'net cash used in investing activities' most pronounced?",
+    "answer": [
+      [
+        "2018"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_002",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "What was the total 'net cash provided by operating activities' across all three years shown in the table?",
+    "answer": [
+      [
+        "$ 1959.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_d1c767b631_003",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "Identify the year where the company funded its activities primarily through operations, as indicated by having positive cash flow from operations and negative cash flows from both investing and financing activities.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "B6",
+      "C4",
+      "C5",
+      "C6",
+      "D4",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_004",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the overall trend in the company's financing activities from 2016 to 2018.",
+    "answer": [
+      [
+        "The company's financing activities show a dramatic shift over the period. In 2016 and 2017, there was a significant use of cash for financing, with outflows of $666.4 and $1004.9 respectively, suggesting activities like debt repayment or stock buybacks. This trend completely reversed in 2018, which saw a massive cash inflow of $1853.2 from financing activities, indicating that the company likely raised substantial capital through debt or equity issuance."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_005",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "List the years where net income was above $1000 and the company experienced a net cash outflow from working capital.",
+    "answer": [
+      [
+        "2018",
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_006",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "In 2017, what percentage of the 'net cash provided by operating activities' was derived from the 'net income adjusted...' line item?",
+    "answer": [
+      [
+        "96.63%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_d1c767b631_007",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "If the 'changes in other non-current assets and liabilities' for 2016 had been zero instead of -$95.5, what would the 'net cash provided by operating activities' have been for that year?",
+    "answer": [
+      [
+        "$ 608.3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_008",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "What is the apparent relationship between 'net cash used in investing activities' and 'net cash provided by ( used in ) financing activities' in the year 2018, and what does it imply about the company's strategy that year?",
+    "answer": [
+      [
+        "In 2018, there is a strong inverse relationship between investing and financing cash flows. The company had a very large cash outflow for investing of $2491.5, which was substantially funded by a large cash inflow from financing of $1853.2. This implies a major strategic initiative, such as a large acquisition or significant capital expenditure, which was primarily paid for by raising new capital rather than from operating cash flow."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_d1c767b631_009",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "Which specific cash flow figure for 2018 represents the largest outlier in absolute terms when compared to the corresponding figures from the previous two years (2016 and 2017)?",
+    "answer": [
+      [
+        "net cash used in investing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_d1c767b631_010",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "open_ended_reasoning",
+    "question": "The table includes values like '-431.1 ( 431.1 )'. Based on the summation that results in 'net cash provided by operating activities', what does this notational style signify in financial reporting?",
+    "answer": [
+      [
+        "This notation is a standard accounting practice to represent negative numbers or cash outflows. The leading negative sign indicates the value to be used in calculations, while the number within parentheses represents the absolute value of the cash outflow, often used for clarity in presentation. The correctness of the 'net cash provided by operating activities' total confirms that these parenthetical figures represent values that are subtracted."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_d1c767b631_011",
+    "table_id": "finqa_d1c767b631",
+    "question_type": "value",
+    "question": "How much is the net cash provided by operating activities at the end of December 31, 2017?",
+    "answer": [
+      [
+        "$881.8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

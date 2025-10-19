@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "R-제곱 값으로 알 수 있는 가장 강력한 모델 적합도를 보여주는 데이터셋은 무엇입니까?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "BTC/USD와 관련된 모든 데이터 세트의 평균 첨도(Kurtosis) 값은 얼마입니까?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "가장 낮은 양의 R-제곱 값을 가진 모델의 해당 더빈-왓슨 통계량은 무엇입니까?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "LUNA/USD 데이터셋의 경우, 시간 간격이 1초에서 10초로 증가할 때 R-제곱으로 측정된 모델의 설명력은 어떻게 변화합니까?",
+    "answer": [
+      [
+        "R-제곱 값으로 나타낸 LUNA/USD 모델의 설명력은 1초 간격의 0.036에서 10초 간격의 0.274로 크게 증가합니다. 이는 7배 이상 증가한 수치로, 더 긴 시간 범위에서 가격 변동을 설명하는 데 모델이 훨씬 더 효과적임을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "모델 잔차가 음의 왜도(Skew < 0)를 보이고 더빈-왓슨 통계량이 2보다 커서 음의 자기상관을 시사하는 모든 데이터셋을 나열하십시오.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "모든 F-통계량의 총합 중에서 10초 간격 모델이 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "'BTC/USD OFI vs ΔP 10s' 모델의 첨도(Kurtosis)를 다른 모든 모델의 평균 첨도로 조정한다면, 새로운 값은 얼마가 되겠습니까?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "모델의 F-통계량과 Jarque-Bera (JB) 통계량 사이에 일관된 관계가 있습니까? 패턴을 분석하십시오.",
+    "answer": [
+      [
+        "F-통계량과 Jarque-Bera (JB) 통계량 사이에는 일관되고 명확한 관계가 없습니다. 예를 들어, F-통계량이 가장 높은 모델(15890.0)은 JB 통계량이 6560.394인 반면, 두 번째로 낮은 F-통계량(137.0)을 가진 모델은 JB 통계량이 816.435로 훨씬 작습니다. 하지만 F-통계량이 가장 낮은 모델(70.87)은 JB 통계량이 가장 높습니다(10204.282). 이는 이 데이터셋에서 모델의 전반적인 유의성(F-통계량)과 잔차의 정규성(JB 통계량)이 직접적으로 상관관계가 없음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "'Dataset' 식별자를 제외하고, 자릿수 크기(가장 작은 값에서 가장 큰 값까지)를 고려할 때 어떤 열이 가장 넓은 값의 범위를 포함하고 있습니까?",
+    "answer": [
+      [
+        "'Prob(JB)' 열은 자릿수 크기 기준으로 가장 넓은 값의 범위를 보여줍니다. 이 열은 0.0과 같이 (사실상 무한히 작은) 매우 작은 값과 4.26e-263, 1.93e-57, 5.17e-178, 9.05e-92와 같이 큰 값을 포함하고 있으며, 이는 수백 자릿수에 걸쳐 다른 어떤 숫자 열보다 훨씬 넓습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "다음으로 높은 JB 값보다 5배를 초과하는 이상치(outlier)인 Jarque-Bera (JB) 통계량을 가진 데이터셋은 무엇입니까?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

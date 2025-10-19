@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "표에 나열된 서로 다른 매개변수 설명이 가장 많은 모델은 무엇입니까?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "주요 공식에 합계(Σ) 구성 요소를 사용하는 모든 모델에 대해 총 몇 개의 개별 매개변수가 설명됩니까?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "지수 함수(예: e^x)를 포함하지 않는 주 공식을 가진 모델들을 나열해 주십시오.",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "명시된 모델들 중 몇 퍼센트가 수식에서 개별 샘플 또는 데이터 포인트를 나타내는 매개변수(예: 'sample i')를 사용합니까?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "의사결정 트리 모델에서 샘플 범주의 수 'm'이 1일 때, 공식에 따른 정보 엔트로피 'Ent(D)'의 계산값은 얼마입니까?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "어떤 모델의 공식은 출력 값의 직접적인 계산이 아니라 최적화 문제(최소화)로 제시되어 다른 모델들과 근본적으로 다릅니까?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "로지스틱 회귀의 'β' 매개변수와 서포트 벡터 머신의 'w' 매개변수의 역할을 공식과 매개변수를 바탕으로 비교 설명해 주십시오.",
+    "answer": [
+      [
+        "로지스틱 회귀에서 'β'는 회귀 계수의 행 벡터로, 절편과 함께 로지스틱 함수를 통해 결과의 확률을 결정합니다. 서포트 벡터 머신에서 'w'는 분리 초평면의 방향을 정의하는 매개변수 벡터입니다. SVM의 목표는 클래스 간의 마진을 최대화하는 'w'를 찾는 것이며, 이는 'w'의 L2 norm을 최소화함으로써 달성됩니다. 반면 로지스틱 회귀에서는 'β'가 일반적으로 관찰된 데이터의 가능성을 최대화하여 찾아집니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "신경망의 '층(layer)' 개념과 결정 트리의 '엔트로피(entropy)' 개념은 데이터로부터 학습하는 각기 다른 접근 방식을 어떻게 반영하나요?",
+    "answer": [
+      [
+        "신경망에서의 '층(l과 l-1)' 개념은 계층적 특징 학습 접근 방식을 반영합니다. 모델은 연속적인 층을 통해 활성화를 전달하고, 가중치('w')와 편향('b')을 조정하여 복잡한 함수 근사자를 생성함으로써 데이터의 점점 더 복잡한 표현을 학습합니다. 반대로, 결정 트리에서의 '엔트로피(Ent(D))' 개념은 탐욕적이고 규칙 기반의 접근 방식을 반영합니다. 모델은 엔트로피(정보 이득)의 가장 큰 감소를 초래하는 특징을 선택하여 데이터를 재귀적으로 더 순수한 부분 집합으로 분할하며, 명시적인 if-then 규칙 집합을 생성합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "테이블에 설명된 고유 모델의 총 개수는 몇 개입니까?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "다음 열에 사용될 변수를 정의하는 것이 주 목적이 되는 열은 무엇입니까?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

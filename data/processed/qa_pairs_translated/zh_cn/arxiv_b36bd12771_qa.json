@@ -1,0 +1,280 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "哪个 beta 系数（β）显示出其效应最强的统计学证据，以最高的绝对 t 值表示？",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "在 p < 0.05 水平下，所有统计上显著的 alpha (α) 系数的平均标准误差是多少？",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "对于 β 系数具有最宽 95% 置信区间的模型组件（由下标数字索引），其对应的 α 系数的 p 值为多少？",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "随着下标从 1 增加到 6，β 系数幅度的趋势如何？是否存在一致的模式？",
+    "answer": [
+      [
+        "没有持续的单调趋势。β 系数最初从 β₁ (0.7208) 增加到 β₂ (0.8237)，但随后急剧下降至 β₃ (0.0025) 及后续模型。前两个分量的值比第三至第六个分量的值大几个数量级，而第三至第六个分量都非常接近于零。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "找出所有 alpha (α) 系数在统计上不显著 (P值 > 0.4) 且标准误差小于 0.03 的拟合模型。",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "在所有拟合模型的系数（包括 α 和 β）中，有多少百分比被定义为具有统计学意义（p值小于0.05）？",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "如果 α₁ 模型的标准误差减半，其新的 t 统计量将是多少？根据表中其他模型的 t 统计量与 p 值之间的关系，该变化是否可能使 α₁ 系数在统计上显著（p < 0.05）？",
+    "answer": [
+      [
+        "新的 t 统计量将是 -1.593 (-0.0215 / (0.027 / 2))。该变化不太可能使系数在统计上显著。作为比较，α₂ 模型具有 -2.803 的 t 统计量和 0.005 的 p 值。绝对值较小的 t 统计量（如 -1.593）将具有更高的 p 值，很可能仍高于 0.05 的显著性阈值，该阈值通常需要大约 2 或更大的绝对 t 值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "分析 β 系数的绝对值与其对应的 t 统计量之间的关系。较大的系数是否总是导致较大的 t 统计量？",
+    "answer": [
+      [
+        "否，较大的 β 系数并不总是导致较大的 t 统计量。例如，β₂ 的系数最大（0.8237），但其 t 统计量（8.418）远小于 β₄（126.061），而后者的系数（0.0041）非常小。t 统计量是系数与其标准误的比值，因此即使系数很小，非常小的标准误也可能导致非常大的 t 统计量，如模型 β₃ 到 β₆ 所示。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "根据统计学原理，不包含零的 95% 置信区间应对应一个小于 0.05 的 p 值。表中是否存在任何拟合模型系数，其置信区间和 p 值与此原理不一致？",
+    "answer": [
+      [
+        "否，表中所有系数的 p 值和 95% 置信区间均显示一致。所有 p 值小于 0.05 的系数（例如，β₁, α₂, β₂）的置信区间均不跨越零。反之，所有 p 值大于 0.05 的系数（例如，α₁, α₃, α₄）的置信区间均包含零。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "在所有 alpha (α) 系数的 t 统计量中，哪个最显著地偏离了其他 alpha 系数的 t 统计量？",
+    "answer": [
+      [
+        "α₆，其 t 统计量为 7.305，是最显著的离群值。其他 alpha 的 t 统计量分别为 -0.787、-2.803、-0.269、0.013 和 0.729。这些值大多集中在 -3 和 1 之间。7.305 这个值在量级上大得多，并且是唯一一个大的正值，这使得它在群体中显得尤为突出。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_011",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "表中列出了多少个拟合模型？",
+    "answer": [
+      [
+        "There are 12 fitted models listed in the table (α₁–α₆ and β₁–β₆)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

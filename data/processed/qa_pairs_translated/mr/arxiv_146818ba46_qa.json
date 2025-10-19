@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "कोणते मॉडेल उप-रेषीय (Sublinear) स्केलेबिलिटी देतात, आणि त्यांच्या समर्थित वैशिष्ट्यांमध्ये ('Pre-training', 'Multi-task') काय मुख्य फरक आहे?",
+    "answer": [
+      [
+        "TimeMixer आणि PatchTST उप-रेषीय (Sublinear) स्केलेबिलिटी देतात. मुख्य फरक असा आहे की TimeMixer मल्टी-टास्क लर्निंगला समर्थन देतो, तर PatchTST देत नाही; कोणत्याही मॉडेलमध्ये प्री-ट्रेनिंगचा वापर नाही."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "प्री-ट्रेनिंग किंवा मल्टी-टास्क लर्निंगला सपोर्ट करणार्‍या मॉडेल्सची एकूण संख्या किती आहे, परंतु दोन्ही नाही?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "ज्या मॉडेलमध्ये 'Linear' scalability आणि 'Medium' compute आवश्यकता आहे, त्याचे प्राथमिक ऍप्लिकेशन ओळखा.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "'लांब सीक्वेंस' साठी मॉडेलची आवश्यकता असलेल्या रिसर्च प्रोजेक्टमध्ये, 'टास्क लवचिकते'ची गरज भासल्यास, दुसर्‍या टप्प्यावर कोणता मॉडेल योग्य निवड असेल?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "जे मॉडेल प्री-ट्रेनिंग वापरत नाहीत आणि सबलिनेअर स्केलएबिलिटी (sublinear scalability) देतात त्यांची यादी करा.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "'उच्च' संगणन संसाधने आवश्यक असलेल्या मॉडेलचे प्रमाण किती आहे?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "'TimesNet' मध्ये 'Pre-training' ची क्षमता वाढवल्यास, ते सध्याच्या मॉडेलपैकी कोणत्या मॉडेलच्या वैशिष्ट्यांशी (Pre-training, Multi-task, Compute, Scalability) सर्वात जास्त जुळेल?",
+    "answer": [
+      [
+        "TimesNet मध्ये सुधारणा केल्यास ते इतर कोणत्याही मॉडेलशी जुळणार नाही. जरी ते 'Pre-training', 'Multi-task' आणि 'Linear' scalability Timer आणि MOMENT सोबत सामायिक करेल, तरीही त्याचे 'Medium' compute त्यांना 'High' compute असलेल्या गरजांपासून वेगळे करेल."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "मॉडेलची स्केलेबिलिटी आणि त्याच्या प्राथमिक ऍप्लिकेशनचे अनुक्रम लांबी किंवा लवचिकतेवर लक्ष केंद्रित यात काही संबंध आहे का?",
+    "answer": [
+      [
+        "होय, संबंध असल्याचं दिसतं. अधिक कार्यक्षम 'सब-लिनियर' स्केलेबिलिटी (टाइममिक्सर, पॅचटीऍसटी) असलेले मॉडेल्स जटिल नमुने किंवा लांब अनुक्रमांशी संबंधित ऍप्लिकेशन्स ('मल्टिस्केल पॅटर्न', 'लाँग सीक्वेन्स') शी संबंधित आहेत. याउलट, 'लिनियर' स्केलेबिलिटी असलेले मॉडेल्स लवचिकतेची किंवा निर्बंधांखाली शिकण्याची आवश्यकता असलेल्या कार्यांसाठी वापरले जातात ('फ्यू-शॉट लर्निंग', 'लिमिटेड सुपरव्हिजन', 'टास्क फ्लेक्सिबिलिटी')."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "मॉडेल व्यतिरिक्त, कोणत्या स्तंभात सर्वात विविध अद्वितीय मूल्यांचा संच आहे?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "कोणते मॉडेल प्री-ट्रेनिंग किंवा मल्टी-टास्क लर्निंगला सपोर्ट करत नाही?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

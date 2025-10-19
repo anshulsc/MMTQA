@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Dataset endi sing nuduhake model paling pas adhedhasar regane R-squared?",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Piro rata-rata nilai Kurtosis kanggo kabeh dataset sing nglibatake BTC/USD?",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Kanggo model kanthi nilai R-squared positif paling ngisor, apa statistik Durbin-Watson sing cocog?",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Piye carane daya njelasake model, sing diukur nganggo R-squared, owah-owahan kanggo dataset LUNA/USD nalika wektu interval ditambah saka 1 detik nganti 10 detik?",
+    "answer": [
+      [
+        "Daya njelasake model LUNA/USD, ditengeri nganggo nilai R-squared, mundhak sacara signifikan saka 0,036 kanggo interval 1 detik dadi 0,274 kanggo interval 10 detik. Iki minangka kenaikan luwih saka pitu, nuduhake yen model luwih efektif banget ing njelasake owah-owahan rega sajrone wektu sing luwih suwe."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Sebutna kabeh dataset sing model residu-ne negatif miring (Skew < 0) lan statistik Durbin-Watson luwih saka 2, nuduhake autokorelasi negatif.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Pira persentase saka total jumlah kabeh statistik F sing diwakili dening model kanthi interval 10s?",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Nek Kurtosis nggo model 'BTC/USD OFI vs ΔP 10s' diowahi dadi rata-rata Kurtosis kabeh model liyane, piye regane sing anyar?",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Ono ora hubungan sing konsisten antarane statistik F-ne model karo statistik Jarque-Bera (JB)-ne? Analisen polane.",
+    "answer": [
+      [
+        "Ora ono hubungan sing konsisten lan cetha antarane statistik F lan statistik Jarque-Bera (JB). Contone, model kanthi statistik F paling dhuwur (15890.0) duwe statistik JB 6560.394, dene model kanthi statistik F nomer loro paling ngisor (137.0) duwe JB sing luwih cilik yaiku 816.435. Nanging, model kanthi statistik F paling ngisor (70.87) duwe statistik JB paling dhuwur (10204.282). Iki nuduhake yen signifikansi umum model (statistik F) lan normalitas residu-ne (statistik JB) ora ana korelasine langsung ing dataset iki."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom endi, ora kalebu ID 'Dataset', sing isine nilai paling akeh urutane (saka cilik nganti gedhe)?",
+    "answer": [
+      [
+        "Kolom 'Prob(JB)' nuduhake jangkauan nilai paling akeh miturut urutan gedhene. Isine nilai cilik banget 0.0 (lumayan cilik) lan nilai gedhe kaya 4.26e-263, 1.93e-57, 5.17e-178, lan 9.05e-92, nganti atusan urutan gedhene, luwih gedhe tinimbang kolom nomer liyane."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "Dataset endi sing statistik Jarque-Bera (JB)-ne dadi outlier, luwih saka 5 ping luwih gedhe tinimbang nilai JB paling dhuwur sabanjure?",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

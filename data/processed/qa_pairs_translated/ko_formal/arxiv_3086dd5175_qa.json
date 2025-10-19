@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "범주형으로 분류된 모든 하이퍼파라미터에 대해 총 몇 개의 서로 다른 옵션을 사용할 수 있습니까?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "'Range / Options'에 가장 많은 개별 옵션이 나열된 하이퍼파라미터는 무엇입니까?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "1을 포함하는 수치 범위를 가진 비범주형 하이퍼파라미터를 모두 나열하십시오.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "나열된 하이퍼파라미터 중 'Continuous' 유형의 비율은 얼마입니까?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "가장 적은 개별 옵션을 가진 하이퍼파라미터의 유형은 무엇입니까?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "표에 나열된 'Type' 범주는 총 몇 개이며, 각각 무엇입니까?",
+    "answer": [
+      [
+        "표에는 'Continuous', 'Categorical', 'Integer'의 3가지 고유한 'Type' 범주가 나열되어 있습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "'Number of R-GCN layers'의 범위가 '1 to 7'로 확장되고, 옵션이 '{16, 32, 64}'인 새로운 'Categorical' 하이퍼파라미터 'Batch size'가 추가된다면, 모든 비연속 하이퍼파라미터에서 새로운 총 이산 옵션 수는 얼마입니까?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "어떤 'Continuous' 유형의 하이퍼파라미터가 다른 유형과 비교하여 고유하게 지정된 범위 형식을 가지고 있으며, 무엇이 그것을 고유하게 만듭니까?",
+    "answer": [
+      [
+        "'Learning rate'는 고유한 형식을 가지고 있습니다. 간단한 숫자 범위를 가진 'Dropout rate'와 달리, 'Learning rate' 범위는 과학적 표기법을 사용하여 지정되며, 특정 샘플링 분포를 나타내는 괄호 안의 메모 '(log-uniform)'을 포함합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "표에 설명된 대로 'Continuous' 유형과 'Categorical' 유형의 하이퍼파라미터에 대한 탐색 공간 복잡성을 비교해 주십시오.",
+    "answer": [
+      [
+        "표를 기준으로 'Continuous' 유형의 하이퍼파라미터는 'Categorical' 유형보다 무한히 더 큰 탐색 공간을 갖습니다. 'Learning rate'와 같은 'Continuous' 파라미터는 경계 내에서 모든 실수 값을 가질 수 있어 무한한 가능성을 만듭니다. 반면에 'Optimizer'와 같은 'Categorical' 파라미터는 작고 유한한 일련의 나열된 옵션을 가지므로 탐색 공간이 이산적이고 셀 수 있습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "어떤 하이퍼파라미터의 나열된 옵션이 모두 2의 거듭제곱입니까?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

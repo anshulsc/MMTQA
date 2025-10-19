@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "如果交割时间 T 为 30，哪个 SIDC 变量代表订单簿的关闭，以及该事件发生在什么交易时间 t？",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "SIDCO 和 SIDCL 定义的交易时段在交付时间方面有何根本区别？",
+    "answer": [
+      [
+        "根本区别在于它们相对于交付的时间。SIDCO 定义了订单簿开放的时段，该时段必须在交付前至少两段时间单位（T-t ≥ 2）。相比之下，SIDCL 定义了订单簿关闭后的时段，该时段在交付前两段时间单位内（T-t ≤ 2）。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "根据提供的解释，第一波和第二波跨境订单簿撮合之间经过了多少小时？",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "根据交易时间条件，哪个SIDC事件代表了SIDCL时段开始前紧邻的那个特定时刻？",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "对于交货时间 T=20 的产品，两个指定的“波次”事件（SIDC1 或 SIDC2）中的哪一个可能不会发生，因为其交易时间会落在有效开放期之外？",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "如果第二轮耦合（SIDC2）推迟到 t=30 发生，为了使该事件仍然落在 SIDCO 定义的普遍开放时期内，所需的最小整数交付时间 T 是多少？",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "列表中“Variable”列出的每个变量的类函数表示法中使用的通用参数是什么？",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "在交易时间t=20，一个产品的交货时间T=25。该交易满足哪个SIDC变量的条件？",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "哪个变量标志着 SIDCO 时期到 SIDCL 时期的过渡，其定义的交易时间条件是什么？",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "根据定义，对比 SIDCO 变量和 SIDC1 变量的时间范围。",
+    "answer": [
+      [
+        "SIDCO 代表订单簿开放的连续时间段，定义为 t≥12 且 T-t≥2。相比之下，SIDC1 代表一个单一的、离散的时间点，t=12，它标志着 SIDCO 周期开始时第一次撮合事件的具体时刻。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "哪个SIDC变量代表跨国订单簿的关闭，它发生在什么交易时间条件下？",
+    "answer": [
+      [
+        "变量SIDC꜀(d,h,t)代表跨国订单簿的关闭，并且发生在T - t = 2时。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

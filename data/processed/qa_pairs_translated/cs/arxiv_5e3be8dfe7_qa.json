@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Který model má v tabulce nejvíce uvedených různých vysvětlení parametrů?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Kolik různých parametrů je celkem vysvětleno pro všechny modely, které ve svém hlavním vzorci používají sumační člen (Σ)?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Uveďte modely, jejichž hlavní vzorec nezahrnuje umocňování (např. e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Kolik procent z uvedených modelů používá ve svém vzorci parametr reprezentující jednotlivé vzorky nebo datové body (např. 'vzorek i')?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Pokud je počet kategorií vzorků 'm' v modelu rozhodovacího stromu 1, jaká by byla vypočtená hodnota informační entropie 'Ent(D)' podle vzorce?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Který model má vzorec, který se zásadně liší od ostatních tím, že je prezentován jako optimalizační problém (minimalizace), nikoli jako přímý výpočet výstupní hodnoty?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě vzorců a parametrů porovnejte role parametru 'β' v logistické regresi s parametrem 'w' v Support Vector Machine.",
+    "answer": [
+      [
+        "V logistické regresi je 'β' řádkový vektor regresních koeficientů, který spolu s interceptem určuje pravděpodobnost výsledku prostřednictvím logistické funkce. V Support Vector Machine je 'w' vektor parametrů, který definuje orientaci oddělující nadroviny. Cílem SVM je najít 'w', které maximalizuje marži mezi třídami minimalizací jeho L2 normy, zatímco v logistické regresi se 'β' obvykle nachází maximalizací věrohodnosti pozorovaných dat."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak pojmy 'vrstvy' v neuronových sítích a 'entropie' v rozhodovacích stromech odrážejí jejich odlišné přístupy k učení z dat?",
+    "answer": [
+      [
+        "Pojem 'vrstvy' (l a l-1) v neuronových sítích odráží hierarchický přístup k učení příznaků. Model se učí stále složitější reprezentace dat tím, že předává aktivace přes po sobě jdoucí vrstvy, upravuje váhy ('w') a odchylky ('b') k vytvoření složitého aproximátoru funkcí. Na rozdíl od toho pojem 'entropie' (Ent(D)) v rozhodovacích stromech odráží chamtivý, na pravidlech založený přístup. Model rekurzivně rozděluje data do čistších podmnožin výběrem příznaků, které vedou k největšímu snížení entropie (získání informací), čímž vytváří explicitní sadu pravidel typu pokud-pak."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Jaký je celkový počet unikátních modelů popsaných v tabulce?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Který sloupec slouží primárně k definování proměnných použitých v sousedním sloupci?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

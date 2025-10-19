@@ -1,0 +1,289 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "किन मॉडलों ने MSE30 मेट्रिक पर सबसे अच्छा (यानी, सबसे कम) प्रदर्शन प्राप्त किया, उस मेट्रिक के लिए गायब डेटा वाले किसी भी मॉडल को छोड़कर?",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "जिन मॉडलों के नाम 'M' अक्षर से शुरू होते हैं, उन सभी के लिए MSE7 का औसत मान क्या है?",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "प्रदर्शन के मामले में स्पष्ट रूप से भिन्न मॉडल की पहचान करें और बताएं कि यह बाकी मॉडलों से अलग क्यों है।",
+    "answer": [
+      [
+        "'GPT-4-Turbo' मॉडल एक महत्वपूर्ण अपवाद (outlier) है। इसके सभी पूर्वानुमान क्षितिजों पर माध्य वर्ग त्रुटि (MSE) मान (2.198 से 11.824 तक) अन्य सभी मॉडलों की तुलना में नाटकीय रूप से अधिक हैं, जो आम तौर पर 2.0 से कम और अक्सर 1.0 से कम हैं। यह काफी कम पूर्वानुमान सटीकता को दर्शाता है, जिससे इस डेटासेट में इसका प्रदर्शन एक विसंगति बन जाता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "उस मॉडल का समग्र MSE मान (MSE_over) क्या है जिसका दूसरा सबसे कम MSE3 स्कोर है?",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "उन सभी मॉडलों को सूचीबद्ध करें जिनका MSE15 मान 0.3 से कम है और MSE30 मान 0.2 से कम है।",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "'HTML' मॉडल के लिए भविष्यवाणी त्रुटि की प्रवृत्ति का वर्णन करें, जब भविष्यवाणी क्षितिज 3 से 30 दिनों तक बढ़ता है।",
+    "answer": [
+      [
+        "'HTML' मॉडल के लिए, मीन स्क्वायर्ड एरर (MSE) द्वारा मापी गई भविष्यवाणी त्रुटि, जैसे-जैसे भविष्यवाणी क्षितिज लंबा होता जाता है, लगातार घटती जाती है। MSE 3 दिनों पर 0.845 से घटकर, 7 दिनों पर 0.349, 15 दिनों पर 0.251, और अंततः 30 दिनों पर 0.158 हो जाता है। यह दर्शाता है कि मॉडल की भविष्यवाणियाँ लंबी अवधि के पूर्वानुमानों के लिए अधिक सटीक हो जाती हैं।"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "सभी मॉडलों की कुल MSE3 त्रुटि में से, 'GPT-4-Turbo' मॉडल का कितना प्रतिशत योगदान है? दशमलव के दो स्थानों तक पूर्णांक करें।",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "यदि 'क्लासिकल मेथड' मॉडल का MSE15 मान 10% बेहतर (घटाया) जाता, तो अन्य मॉडलों की तुलना में उस मेट्रिक के लिए उसकी नई रैंक क्या होगी?",
+    "answer": [
+      [
+        "यदि 'क्लासिकल मेथड' मॉडल का MSE15 मान 0.330 को 10% कम किया जाता, तो नया मान 0.297 होगा। MSE15 के लिए मूल रैंकिंग इस प्रकार है: AMA-LSTM (0.230), ECC Analyzer (0.237), HTML (0.251), MRDM (0.300), MT-LSTM-ATT (0.304), HAN (Glove) (0.308), LSTM (0.320), Classical Method (0.330), GPT-4-Turbo (7.959)। 0.297 का नया मान इसे HTML और MRDM के बीच रखेगा, जिससे इसकी रैंक 8वें से 4वें सर्वश्रेष्ठ स्थान पर आ जाएगी।"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "'GPT-4-Turbo' अपवाद को छोड़कर, क्या एक मॉडल के समग्र MSE मेट्रिक (MSE_over) पर प्रदर्शन और इसके 7-दिवसीय पूर्वानुमान (MSE7) पर प्रदर्शन के बीच कोई स्पष्ट संबंध है?",
+    "answer": [
+      [
+        "हाँ, एक सकारात्मक संबंध प्रतीत होता है। आमतौर पर, जिन मॉडलों का समग्र MSE कम (बेहतर) होता है, उनका MSE7 भी कम होता है। उदाहरण के लिए, 'ECC Analyzer' और 'HTML' के समग्र MSE स्कोर (0.314 और 0.401) सबसे कम हैं और उनके MSE7 स्कोर (0.306 और 0.349) भी सबसे कम में से दो हैं। इसके विपरीत, 'MT-LSTM-ATT' और 'LSTM' जैसे मॉडलों के इस समूह में समग्र MSE स्कोर (0.739 और 0.746) सबसे अधिक हैं और उनके MSE7 स्कोर (0.435 और 0.459) भी अपेक्षाकृत अधिक हैं। यह दर्शाता है कि एक मॉडल की सामान्य भविष्य कहनेवाला शक्ति इन दो विशिष्ट मेट्रिक्स में सुसंगत है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "तालिका में किस मॉडल का डेटा सबसे अधूरा है, जैसा कि '/' प्रविष्टियों से पता चलता है?",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

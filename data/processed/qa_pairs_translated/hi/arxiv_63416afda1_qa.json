@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "वह मॉडल जो हाई-फ्रीक्वेंसी ऑर्डर-लेवल डेटा का उपयोग करता है, वह किस प्रकार की भविष्यवाणी क्षमता प्रदान करता है?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "यदि किसी परियोजना के लिए सिमुलेशन के माध्यम से सामान्य पूर्वानुमान की आवश्यकता होती है, तो इसके लागू होने वाले कार्य के अलावा, कौन सी मॉडल विशेषता इसे विकल्प की तुलना में बेहतर बनाती है?",
+    "answer": [
+      [
+        "MarS/LMM एक 'बड़े पैमाने का फाउंडेशन मॉडल' है जो 'मल्टी-स्टेप, सीक्वेंस जनरेशन' में सक्षम है, जिससे यह सामान्य सिमुलेशन कार्यों के लिए DeepLOB की तुलना में स्वाभाविक रूप से अधिक लचीला और शक्तिशाली है, जिसे 'छोटा, हस्तनिर्मित और स्केलेबल नहीं' मॉडल के रूप में 'सिंगल-स्टेप या फिक्स्ड-लेंथ' भविष्यवाणी के साथ वर्णित किया गया है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "तालिका के आधार पर, मॉडल के पैमाने और उसकी भविष्यवाणी की लचीलेपन के बीच क्या अनुमानित संबंध है?",
+    "answer": [
+      [
+        "डेटा एक सीधा संबंध बताता है: 'Small, handcrafted, and not scalable' (DeepLOB) के रूप में वर्णित मॉडल सीमित 'Single-step or fixed-length' भविष्यवाणियां प्रदान करता है, जबकि 'Large-scale foundation model' (MarS/LMM) अधिक लचीला 'Multi-step, sequence generation' प्रदान करता है। इससे पता चलता है कि बड़े, अधिक स्केलेबल मॉडल में अधिक उन्नत और लचीली भविष्यवाणी क्षमताएं होती हैं।"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "इस डेटासेट में DeepLOB और MarS/LMM के बीच अंतर करने के लिए कितने विशिष्ट पहलुओं का उपयोग किया जाता है?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "'लार्ज-स्केल फाउंडेशन मॉडल' के रूप में किसे वर्णित नहीं किया गया है, उसकी पहचान करें और उसकी निर्दिष्ट इनपुट विशेषताओं को सूचीबद्ध करें।",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "किस मॉडल के 'मॉडल' पहलू के विवरण में तीन अलग-अलग सीमित विशेषताओं का एक अनूठा सेट है?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "यदि DeepLOB को 'मल्टी-स्टेप, सीक्वेंस जनरेशन' करने के लिए संशोधित किया जाए, तो तालिका के कौन से अन्य दो पहलू संभवतः उस मॉडल की विशेषताओं के साथ संरेखित करने के लिए मौलिक रूप से बदले जाने की आवश्यकता होगी जिसमें यह क्षमता पहले से मौजूद है?",
+    "answer": [
+      [
+        "MarS/LMM की तरह मल्टी-स्टेप जनरेशन प्राप्त करने के लिए, DeepLOB के 'मॉडल' को 'स्मॉल, हैंडक्राफ्टेड, और स्केलेबल नहीं' से 'लार्ज-स्केल फाउंडेशन मॉडल' में विकसित करने की आवश्यकता होगी, और इसके 'इनपुट फीचर्स' को 'LOB डेटा' से 'हाई-फ्रीक्वेंसी ऑर्डर-लेवल डेटा' को संभालने के लिए विस्तारित करने की आवश्यकता हो सकती है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "दोनों मॉडलों के लिए इनपुट डेटा आवश्यकताओं की तुलना करें।",
+    "answer": [
+      [
+        "DeepLOB को 'लिमिट ऑर्डर बुक (LOB) डेटा' की आवश्यकता होती है, जो एक विशिष्ट प्रकार की वित्तीय डेटा संरचना है। इसके विपरीत, MarS/LMM 'हाई-फ्रीक्वेंसी ऑर्डर-लेवल डेटा' का उपयोग करता है, जो अधिक सामान्य है और डेटा की बड़ी मात्रा और वेग का अर्थ है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "कार्य-विशिष्ट पूर्वानुमान के लिए डिज़ाइन की गई प्रणाली का मॉडल प्रकार क्या है?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "यदि किसी उपयोगकर्ता के पास केवल 'लिमिट ऑर्डर बुक (LOB) डेटा' उपलब्ध है और उसे 'सिमुलेशन के माध्यम से सामान्य पूर्वानुमान' करने की आवश्यकता है, तो प्रदान किए गए पहलुओं के आधार पर कौन सा मॉडल एक विरोध प्रस्तुत करता है, और क्यों?",
+    "answer": [
+      [
+        "दोनों मॉडल के लिए एक विरोध मौजूद है। DeepLOB LOB डेटा का उपयोग कर सकता है लेकिन यह 'टास्क स्पेसिफिक फोरकास्टिंग' के लिए डिज़ाइन किया गया है, न कि सामान्य सिमुलेशन के लिए। MarS/LMM 'जनरल फोरकास्टिंग' के लिए डिज़ाइन किया गया है लेकिन इसके लिए 'हाई-फ्रीक्वेंसी ऑर्डर-लेवल डेटा' की आवश्यकता होती है, न कि LOB डेटा की। इसलिए, संशोधन या समझौते के बिना कोई भी मॉडल पूरी तरह से उपयुक्त नहीं है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "DeepLOB के लागू कार्य क्या हैं?",
+    "answer": [
+      [
+        "Task specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

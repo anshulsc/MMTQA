@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "إذا كان وقت التسليم T هو 30، فأي متغير SIDC يمثل إغلاق دفاتر الطلبات، وفي أي وقت تداول t يحدث هذا الحدث؟",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "ما هو الاختلاف الأساسي بين فترتي التداول المحددتين بواسطة SIDCO و SIDCL فيما يتعلق بوقت التسليم؟",
+    "answer": [
+      [
+        "يكمن الاختلاف الأساسي في توقيتهما بالنسبة للتسليم. تحدد SIDCO الفترة التي تكون فيها دفاتر الطلبات مفتوحة، والتي يجب أن تكون قبل التسليم بساعتين زمنيتين على الأقل (T-t ≥ 2). في المقابل، تحدد SIDCL الفترة بعد إغلاق دفاتر الطلبات، والتي تقع في غضون ساعتين زمنيتين من التسليم (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "وفقًا للتفسيرات المقدمة، كم ساعة تنقضي بين الموجة الأولى والموجة الثانية من اقتران دفاتر الطلبات عبر الحدود؟",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "بناءً على شروط وقت التداول، أي حدث SIDC يمثل اللحظة المحددة التي تسبق مباشرة بداية فترة SIDCL مباشرة؟",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "بالنسبة لمنتج بوقت تسليم T=20، أي من حدثي \"الموجة\" المحددين (SIDC1 أو SIDC2) لا يمكن أن يحدث لأن وقته التجاري سيقع خارج الفترة المفتوحة الصالحة؟",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "إذا تأخرت الموجة الثانية من الربط (SIDC2) لتحدث عند t=30، فما هو الحد الأدنى لوقت التسليم الصحيح T المطلوب لهذا الحدث ليقع ضمن الفترة المفتوحة العامة المعرفة بواسطة SIDCO؟",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ما هي المعلمات الشائعة المستخدمة في الترميز الشبيه بالدالة لكل متغير مدرج في عمود 'المتغير'؟",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "تم إجراء صفقة في وقت التداول t=20 لمنتج بوقت تسليم T=25. ما هي الشروط الخاصة بمتغير SIDC التي تحققها هذه الصفقة؟",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ما هو المتغير الذي يحدد الانتقال من فترة SIDCO إلى فترة SIDCL، وما هو شرط وقت التداول المحدد له؟",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "قارن النطاق الزمني للمتغير SIDCO بالنطاق الزمني للمتغير SIDC1 بناءً على تعريفاتهما.",
+    "answer": [
+      [
+        "يمثل SIDCO فترة زمنية مستمرة تكون فيها سجلات الطلبات مفتوحة، معرفة بالنطاق t≥12 و T-t≥2. في المقابل، يمثل SIDC1 نقطة زمنية واحدة ومنفصلة، t=12، والتي تمثل اللحظة المحددة لأول حدث اقتران في بداية فترة SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "ما هو متغير SIDC الذي يمثل إغلاق دفاتر الطلبات عبر الحدود وفي أي شرط من أوقات التداول يحدث؟",
+    "answer": [
+      [
+        "يمثل المتغير SIDC꜀(d,h,t) إغلاق دفاتر الطلبات عبر الحدود، ويحدث عندما T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

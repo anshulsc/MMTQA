@@ -1,0 +1,190 @@
+[
+  {
+    "question_id": "arxiv_4d9e33301e_001",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Which company had a higher profit margin (Net Income / Total Revenue) in the most recent period?",
+    "answer": [
+      [
+        "Coca-Cola Co"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_002",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "What was the combined total revenue in thousands for both PepsiCo and Coca-Cola in the most recent period recorded?",
+    "answer": [
+      [
+        "34294000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_003",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Which company achieved a greater absolute increase in Gross Profit (Total Revenue - Cost of Revenue) from the prior period to the most recent period?",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_004",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the trend in Coca-Cola's net income between the two recorded periods and contrast it with the trend in its total revenue.",
+    "answer": [
+      [
+        "Coca-Cola's net income decreased from 3,107,000 to 2,547,000 (in thousands), while its total revenue increased from 10,980,000 to 11,972,000 (in thousands). This divergence indicates that while sales grew, profitability declined, suggesting that increases in costs or expenses outpaced the revenue growth."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_005",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "Which company experienced growth in operating expenses exceeding 1,000,000 thousand while its interest expense grew by 1,000 thousand or less?",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_006",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "For the most recent period, what percentage of PepsiCo's total revenue was consumed by the sum of its Cost of Revenue and Operating Expense?",
+    "answer": [
+      [
+        "83.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_007",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "If Coca-Cola's Cost of Revenue in the most recent period had been 10% lower, what would its new Net Income have been (in thousands), assuming no other figures changed?",
+    "answer": [
+      [
+        "3038200"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_008",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data for both companies, what is the apparent relationship between the change in Total Revenue and the change in Operating Expense between the two periods?",
+    "answer": [
+      [
+        "There appears to be a positive correlation. For both PepsiCo and Coca-Cola, an increase in Total Revenue from the prior to the recent period is accompanied by an increase in Operating Expense. This suggests that as revenue grows, so does the spending required to support that growth, such as marketing and administrative costs."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_009",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "For Coca-Cola Co, which expense category is an outlier in that its trend direction (increase/decrease) is opposite to the trends of both Cost of Revenue and Operating Expense?",
+    "answer": [
+      [
+        "Depreciation and Amortization"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_010",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "The financial metrics are presented as a two-element list (e.g., [value1, value2]). Given the quarterly reporting context, what is the most likely meaning of this structure?",
+    "answer": [
+      [
+        "This structure most likely represents a year-over-year comparison for the quarter. The first value typically corresponds to the financial result from the same quarter in the previous year, while the second value represents the result for the current quarter. This format is standard for assessing performance trends and growth over time."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_011",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "What is the quarterly net income (in thousands) of PepsiCo, Inc.?",
+    "answer": [
+      [
+        "PepsiCo earned between $1.9B and $2.7B in net income this quarter."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

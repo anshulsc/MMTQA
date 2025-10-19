@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_987530c2ac_001",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "In which year did the company experience the smallest pro-forma net loss?",
+    "answer": [
+      [
+        "2004"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_002",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "What was the cumulative 'net loss as reported' for the years 2002, 2003, and 2004 combined?",
+    "answer": [
+      [
+        "-1736448"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_987530c2ac_003",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "For the year that had the largest absolute difference between the 'as reported' and 'pro-forma' basic net loss per share, what was that difference?",
+    "answer": [
+      [
+        "0.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "C5",
+      "C6",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_004",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the trend of the company's 'pro-forma net loss' from 2002 to 2004.",
+    "answer": [
+      [
+        "The company's pro-forma net loss showed a consistent and significant decreasing trend from 2002 to 2004. The loss reduced from $1,201,666 in 2002 to $354,400 in 2003, and further down to $269,196 in 2004, indicating a substantial improvement in financial performance over this period."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_005",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "What was the 'pro-forma net loss' in the year when the 'add : stock-based employee compensation expense' was 2077?",
+    "answer": [
+      [
+        "$ -354400 ( 354400 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_006",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "In 2003, what percentage of the 'net loss as reported' did the absolute 'total stock-based employee compensation expense' represent?",
+    "answer": [
+      [
+        "9.58%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_987530c2ac_007",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "If the 'stock-based employee compensation expense' modification for 2002 had been 5,000 instead of being a missing value, what would the recalculated 'pro-forma net loss' for that year have been?",
+    "answer": [
+      [
+        "-1196666"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_008",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data, what is the apparent relationship between the 'total stock-based employee compensation expense' and the 'pro-forma net loss' from 2002 to 2004?",
+    "answer": [
+      [
+        "There appears to be a positive correlation between the magnitude of the 'total stock-based employee compensation expense' and the 'pro-forma net loss'. As the stock-based compensation expense decreased each year from $38,126 in 2002 to $23,906 in 2004, the pro-forma net loss also consistently decreased from $1,201,666 to $269,196, suggesting that years with higher stock-based expenses also had higher pro-forma losses."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_987530c2ac_009",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Which financial item has incomplete data across the years presented in the table?",
+    "answer": [
+      [
+        "add : stock-based employee compensation expense associated with modifications net of related tax effect included in net loss asreported"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_010",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Which year's 'basic and diluted net loss per share as reported' can be considered an outlier compared to the other years, and why?",
+    "answer": [
+      [
+        "The year 2002 is a clear outlier. Its 'basic and diluted net loss per share as reported' was $-5.95, which is over 3.8 times greater in magnitude than the $-1.56 reported in 2003 and over 5.4 times greater than the $-1.10 in 2004. The sharp decrease in this metric in the following years highlights 2002 as a year of exceptionally high per-share losses."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_987530c2ac_011",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "What was the pro-forma net loss in 2003?",
+    "answer": [
+      [
+        "$ -354,400"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

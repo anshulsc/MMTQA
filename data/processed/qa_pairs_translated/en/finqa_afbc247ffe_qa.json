@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "What was the net total of all 'amounts reclassified from accumulated other comprehensive income' recorded across the three periods shown in the table?",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Which of the three main financial categories (derivative instruments, joint venture share, marketable securities) experienced the largest absolute increase in its balance from December 31, 2014, to December 31, 2017?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "In the period with the highest total 'other comprehensive income before reclassifications', what was the corresponding amount reclassified from 'sl green 2019s share of joint venture net unrealized gain on derivative instruments'?",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the year-over-year trend of the total balance from December 31, 2014, to December 31, 2017. Was the change consistent?",
+    "answer": [
+      [
+        "The trend was not consistent; it was volatile. The total balance decreased from -6980 in 2014 to -8749 in 2015. It then saw a very large increase to 22137 in 2016, followed by a moderate decrease to 18604 in 2017. The growth was not steady or linear."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "List the financial categories that had a negative balance at the start of the period (December 31, 2014) and concluded with a positive balance at the end of the period (December 31, 2017).",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "What percentage of the total 'other comprehensive income before reclassifications' in the 2016 period was attributable to 'net unrealized gain on derivative instruments ( 1 )'?",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "If the 'other comprehensive (loss) income before reclassifications' for 'net unrealized gain on marketable securities' in the 2017 period had been a gain of $1,000 instead of a loss of $1,348, what would the new 'total' balance at December 31, 2017 have been?",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data provided, is there a consistent correlation (either direct or inverse) between the 'other comprehensive (loss) income before reclassifications' and the 'amounts reclassified from accumulated other comprehensive income' for the total amounts in each period?",
+    "answer": [
+      [
+        "No, there is no consistent correlation. In the 2015 period, a comprehensive loss of -13,467 was followed by a positive reclassification of 11,698 (inverse relationship). However, in both the 2016 and 2017 periods, the income/loss and the reclassification had the same sign (positive/positive and negative/negative respectively), indicating a direct relationship in those years. The inconsistency suggests the timing and amount of reclassifications are not solely determined by the preceding period's unrealized performance."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "How are the year-end balances mathematically derived from the preceding balance and the interim financial activities shown in the table?",
+    "answer": [
+      [
+        "Each year-end balance is the sum of the previous year's ending balance, the 'other comprehensive (loss) income before reclassifications' for the current period, and the 'amounts reclassified from accumulated other comprehensive income' for the current period. For example, the 2016 balance (22,137) is calculated as the 2015 balance (-8,749) plus the 2016 period's other comprehensive income (18,211) and reclassified amounts (12,675)."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Which single financial event (i.e., a non-balance row item) in the 'total' column represents the largest absolute value, indicating the most significant comprehensive income or loss event during the three-year period?",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "What is the total net unrealized gain across all categories at the end of 2015?",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

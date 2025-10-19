@@ -1,0 +1,193 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Categorical ලෙස වර්ගීකරණය කර ඇති සියලුම අධිපරාමිතීන් සඳහා සමස්තයක් වශයෙන් කොපමණ වෙනස් විකල්ප තිබේද?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "‘Range / Options’ වල ලැයිස්තුගත කර ඇති විශාලතම විවික්ත විකල්ප ගණන ඇත්තේ කුමන අධි-පරාමිතීන් වලද?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "1 අගය අඩංගු වන සංඛ්‍යාත්මක පරාසයක් සහිත සියලුම වර්ගීකරණය නොවන අධිපරාමිතීන් ලැයිස්තුගත කරන්න.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "අවම විවික්ත විකල්පයන් සහිත අධි-පරාමිතිය සඳහා, එහි වර්ගය කුමක්ද?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "වගුවේ ලැයිස්තුගත කර ඇති 'වර්ගය' කාණ්ඩ කීයක් තිබේද, ඒවා මොනවාද?",
+    "answer": [
+      [
+        "වගුවේ ලැයිස්තුගත කර ඇති සුවිශේෂී 'වර්ගය' කාණ්ඩ 3 ක් ඇත: අඛණ්ඩ, වර්ගීකරණ, සහ පූර්ණ සංඛ්‍යා."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "'R-GCN ස්ථර ගණන' පරාසය '1 සිට 7' දක්වා පුළුල් කර නව 'Categorical' අධි-පරාමිතියක් '{16, 32, 64}' විකල්ප සහිත 'Batch size' එකතු කළහොත්, සියලුම අඛණ්ඩ නොවන අධි-පරාමිතීන් හරහා ඇති නව මුළු විකල්ප ගණන කීයද?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "වෙනත් වර්ගවලට සාපේක්ෂව, 'Continuous' වර්ගයේ කුමන අධිපරාමිතියටද අනන්‍ය පරාස ආකෘතියක් ඇති අතර, එය සුවිශේෂී කරන්නේ කුමක්ද?",
+    "answer": [
+      [
+        "'Learning rate' හි සුවිශේෂී ආකෘතියක් ඇත. සරල සංඛ්‍යාත්මක පරාසයක් ඇති 'Dropout rate' මෙන් නොව, 'Learning rate' පරාසය විද්‍යාත්මක සංකේත භාවිතයෙන් දක්වා ඇති අතර, නිශ්චිත සාම්පල බෙදා හැරීමක් පෙන්නුම් කරන '(log-uniform)' යන වරහන්ගත සටහනක් ඇතුළත් වේ."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "'Continuous' වර්ගයේ සහ 'Categorical' වර්ගයේ අධිපරාමිතීන් සඳහා සෙවුම් අවකාශයේ සංකීර්ණත්වය වගුවේ විස්තර කර ඇති පරිදි සංසන්දනය කරන්න.",
+    "answer": [
+      [
+        "වගුව මත පදනම්ව, 'Continuous' වර්ගයේ අධිපරාමිතීන් 'Categorical' වර්ගයට වඩා නිමක් නැතිව විශාල සෙවුම් අවකාශයක් ඇත. 'Learning rate' වැනි 'Continuous' පරාමිතීන්, ඔවුන්ගේ සීමාවන් තුළ ඕනෑම සත්‍ය අගයක් ගත හැකි අතර, අසීමිත හැකියාවන් ඇති කරයි. ඊට වෙනස්ව, 'Optimizer' වැනි 'Categorical' පරාමිතීන්, කුඩා, සීමිත ලැයිස්තුගත විකල්ප සමූහයක් ඇති අතර, එමඟින් ඒවායේ සෙවුම් අවකාශය වෙනස් වන අතර ගණන් කළ හැකිය."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "ලැයිස්තුගත කර ඇති විකල්පයන් සියල්ලම 2 හි බලයන් වන අධිපරාමිතිය කුමක්ද?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

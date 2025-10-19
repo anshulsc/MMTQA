@@ -1,0 +1,39 @@
+{
+  "columns": [
+    "Hyperparameter",
+    "Search Space / Sampling Method",
+    "Choice Type"
+  ],
+  "data": [
+    [
+      "Learning rate",
+      "10⁻⁶ to 10⁻² (log-uniform)",
+      "Sampled"
+    ],
+    [
+      "Hidden units",
+      "{16, 32, 64, 128, 256}",
+      "Choices"
+    ],
+    [
+      "Dropout rate",
+      "0.0 to 0.5",
+      "Sampled"
+    ],
+    [
+      "Optimizer",
+      "{Adam, SGD}",
+      "Choices"
+    ],
+    [
+      "Activation function",
+      "{ReLU, LeakyReLU, ELU, GELU}",
+      "Choices"
+    ],
+    [
+      "Number of R-GCN layers",
+      "1 to 5",
+      "Sampled"
+    ]
+  ]
+}

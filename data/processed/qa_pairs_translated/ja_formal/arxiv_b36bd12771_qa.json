@@ -1,0 +1,280 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "絶対値で最も大きいt値を示す、効果に対する最も強い統計的証拠を示すベータ係数（β）はどれですか？",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "p < 0.05 の水準で統計的に有意なすべてのアルファ (α) 係数の平均標準誤差はいくつですか？",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "β係数が最も広い95%信頼区間を持つモデルコンポーネント（添え字番号でインデックス付け）について、対応するα係数のp値は何ですか？",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "サブスクリプトが1から6まで増加するにつれて、β係数の大きさの傾向を説明してください。一貫したパターンはありますか？",
+    "answer": [
+      [
+        "一貫した単調な傾向はありません。β係数は、当初β₁（0.7208）からβ₂（0.8237）へと増加しますが、その後、β₃（0.0025）およびそれ以降のモデルでは劇的に減少します。最初の2つの成分の値は、ゼロに非常に近い3から6までの成分の値よりも桁違いに大きいです。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "P値が0.4より大きく、かつ標準誤差が0.03未満であるアルファ（α）係数を持つ、適合済みモデルをすべて特定してください。",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "適合モデルの全係数（αおよびβの両方）のうち、p値が0.05未満である統計的に有意なものは何パーセントですか？",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "標準誤差が半分になった場合、α₁モデルの新しいt統計量はいくつになりますか？表の他のモデルにおけるt統計量とp値の関係に基づくと、この変化はこの係数を統計的に有意にする（p < 0.05）可能性はありますか？",
+    "answer": [
+      [
+        "新しいt統計量は -1.593 (-0.0215 / (0.027 / 2)) になります。この係数が統計的に有意になる可能性は低いです。比較として、α₂モデルはt統計量 -2.803、p値 0.005 を持ちます。-1.593 のような絶対値の小さいt統計量は、より高いp値を持つことになり、通常は絶対値で2以上が必要とされる有意性の0.05の閾値を上回ったままになる可能性が高いです。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "β係数の大きさとその対応するt統計量との関係を分析してください。係数が大きいほど、t統計量も一貫して大きくなりますか？",
+    "answer": [
+      [
+        "いいえ、β係数が大きいほど、t統計量が常に大きくなるわけではありません。例えば、β₂は係数が最も大きい（0.8237）ですが、そのt統計量（8.418）は、係数が非常に小さい（0.0041）β₄のt統計量（126.061）よりもはるかに小さいです。t統計量は、係数をその標準誤差で割った比率であるため、標準誤差が非常に小さい場合、係数が小さくても非常に大きなt統計量が得られることがあります。これは、モデルβ₃からβ₆で見られるような場合です。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "統計的原理に基づくと、ゼロを含まない95%信頼区間は0.05未満のp値に対応するはずです。表の中に、この原理と信頼区間およびp値の間に不整合が見られる適合モデル係数はありますか？",
+    "answer": [
+      [
+        "いいえ、表中のすべての係数は、p値と95%信頼区間の間に一貫性を示しています。p値が0.05未満のすべての係数（例：β₁, α₂, β₂）は、ゼロをまたがない信頼区間を持っています。逆に、p値が0.05より大きいすべての係数（例：α₁, α₃, α₄）は、ゼロを含む信頼区間を持っています。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "他のアルファ係数（α）のt統計量と比較して、どのアルファ（α）係数のt統計量が最も顕著な外れ値ですか？",
+    "answer": [
+      [
+        "t統計量が7.305であるα₆が最も顕著な外れ値です。他のアルファのt統計量は-0.787、-2.803、-0.269、0.013、0.729です。これらの値のほとんどは-3から1の間に集中しています。値7.305は絶対値がはるかに大きく、唯一の大きな正の値であり、グループの他の値から際立っています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_011",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "表に記載されている適合モデルの数はいくつですか？",
+    "answer": [
+      [
+        "There are 12 fitted models listed in the table (α₁–α₆ and β₁–β₆)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

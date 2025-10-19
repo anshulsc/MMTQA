@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Какая модель имеет наибольшее количество различных объяснений параметров, перечисленных в таблице?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Сколько всего различных параметров объясняется для всех моделей, в основной формуле которых используется компонент суммирования (Σ)?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Перечислите модели, в основной формуле которых не используется возведение в степень (например, e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Каков процент перечисленных моделей, в формулировке которых используется параметр, представляющий отдельные образцы или точки данных (например, «образец i»)?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Если количество категорий выборки 'm' в модели 'Дерево решений' равно 1, каким будет расчетное значение информационной энтропии 'Ent(D)' согласно формуле?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Какая модель имеет формулу, принципиально отличающуюся от других тем, что она представлена как задача оптимизации (минимизации), а не прямое вычисление выходного значения?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Исходя из формул и параметров, сравните роли параметра 'β' в логистической регрессии с параметром 'w' в методе опорных векторов.",
+    "answer": [
+      [
+        "В логистической регрессии 'β' — это вектор-строка коэффициентов регрессии, который вместе с свободным членом определяет вероятность исхода с помощью логистической функции. В методе опорных векторов 'w' — это вектор параметров, определяющий ориентацию разделяющей гиперплоскости. Цель в методе опорных векторов — найти 'w', максимизирующий зазор между классами путем минимизации его L2-нормы, тогда как в логистической регрессии 'β' обычно находится путем максимизации правдоподобия наблюдаемых данных."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Как концепции 'слоев' в нейронных сетях и 'энтропии' в деревьях решений отражают их различные подходы к обучению на данных?",
+    "answer": [
+      [
+        "Концепция 'слоев' (l и l-1) в нейронных сетях отражает иерархический подход к обучению признаков. Модель изучает все более сложные представления данных, пропуская активации через последовательные слои, корректируя веса ('w') и смещения ('b') для создания сложного аппроксиматора функции. В отличие от этого, концепция 'энтропии' (Ent(D)) в деревьях решений отражает жадный, основанный на правилах подход. Модель рекурсивно разбивает данные на более чистые подмножества, выбирая признаки, которые приводят к наибольшему уменьшению энтропии (приросту информации), создавая явный набор правил \"если-то\"."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Каково общее количество уникальных моделей, описанных в таблице?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Какая колонка предназначена для определения переменных, используемых в соседней колонке?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

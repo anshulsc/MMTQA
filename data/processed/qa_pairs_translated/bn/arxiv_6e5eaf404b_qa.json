@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "arxiv_6e5eaf404b_001",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "MASA নাকি TrendTrader, কোন গবেষণাটি বিস্তৃত ও বৈচিত্র্যময় আন্তর্জাতিক স্টক সূচকের উপর কার্যকর বলে প্রমাণিত হয়েছে?",
+    "answer": [
+      [
+        "MASA Li et al. (2024e) একটি বিস্তৃত পরিসরের উপর কার্যকর বলে দেখা গেছে, কারণ এর ফলাফল চীন এবং মার্কিন যুক্তরাষ্ট্র উভয় দেশের তিনটি প্রধান সূচক (CSI300, DJIA, S&P500) জুড়ে রয়েছে। TrendTrader-এর ফলাফল দুটি সূচক (DJIA, SSE-50)-এর জন্য নির্দিষ্ট করা হয়েছে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_002",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "তালিকাভুক্ত গবেষণা কাজগুলির মধ্যে কতটিতে স্পষ্টভাবে চীনা স্টক মার্কেট সূচকগুলিতে (CSI300 বা SSE-50) উন্নত পারফরম্যান্স অর্জনের কথা উল্লেখ করা হয়েছে?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_003",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "কোন ফ্রেমওয়ার্কের মূল উদ্ভাবনটি হল 'স্পেশাল-টেম্পোরাল আরএল ফ্রেমওয়ার্ক' কে তার পদ্ধতি হিসাবে ব্যবহার করা?",
+    "answer": [
+      [
+        "Multimodal fusion of price and sentiment"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_004",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "কোন গবেষণা পত্রে একটি চরম ইতিবাচক আউটলায়ার পারফরম্যান্স ফলাফল জানানো হয়েছে, যা তার মার্কেট বেঞ্চমার্কের চেয়ে ৬০ শতাংশ পয়েন্টের বেশি রিটার্ন দেখায়?",
+    "answer": [
+      [
+        "LLM-Alpha Kou et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_005",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "কোন কাজগুলির মূল উদ্ভাবন মূল্য বৈচিত্র্যকরণ বা সম্পদ নির্বাচনের উপর আলোকপাত করে, দামের পূর্বাভাস দেওয়ার পরিবর্তে?",
+    "answer": [
+      [
+        "EarnMore Zhang et al. (2024d)",
+        "Network-EDM Hui and Wang (2024)",
+        "Market-Graph Yamagata and Ono (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_006",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "তালিকাভুক্ত গবেষণা কাজের কত শতাংশ তাদের মূল উদ্ভাবনে স্পষ্টভাবে অ-মূল্য (non-price) ডেটা, যেমন সেন্টিমেন্ট বা নেটওয়ার্ক তত্ত্ব অন্তর্ভুক্ত করে?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_007",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "'EarnMore' ফ্রেমওয়ার্কের লাভের পরিমাণ ১৫ শতাংশ পয়েন্ট কমে গেলে (৪০% থেকে ২৫%), এর নতুন প্রাথমিক ফলাফল কী হবে, এবং কম লাভের তুলনায় এর 'তুলনীয় ঝুঁকির মাত্রা' থাকার দাবিকে এটি কীভাবে প্রভাবিত করতে পারে?",
+    "answer": [
+      [
+        "নতুন প্রাথমিক ফলাফল হবে 'লাভ: +২৫%, তুলনীয় ঝুঁকির মাত্রা'। একই ঝুঁকির মাত্রা বজায় রেখে কম লাভ (+২৫%) কৌশলটিকে কম আকর্ষণীয় করে তোলে। ঝুঁকি-সমন্বয়কৃত রিটার্ন কম হবে, যা সম্ভাব্যভাবে হ্রাসকৃত রিটার্নের তুলনায় এর ঝুঁকির মাত্রাকে কম 'তুলনীয়' বা গ্রহণযোগ্য করে তুলতে পারে।"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_008",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "সারণি অনুসারে, মাল্টি-এজেন্ট সিস্টেম ব্যবহার এবং উল্লিখিত প্রাথমিক ফলাফলের প্রকৃতির মধ্যে সম্পর্ক কী?",
+    "answer": [
+      [
+        "দেখা যাচ্ছে যে মাল্টি-এজেন্ট সিস্টেম ব্যবহার এবং উন্নত, পরিমাণযোগ্য রিটার্ন অর্জনের মধ্যে একটি ইতিবাচক সম্পর্ক রয়েছে। এই পদ্ধতি ব্যবহারকারী দুটি কাজ, MASA এবং LLM-Alpha, যথাক্রমে ' superiori risk-adjusted returns' এবং '+53.17%' নির্দিষ্ট উচ্চ রিটার্ন রিপোর্ট করেছে। এটি ইঙ্গিত দেয় যে মাল্টি-এজেন্ট ফ্রেমওয়ার্কগুলি শক্তিশালী, পরিমাপযোগ্য আর্থিক আউটপারফরম্যান্স তৈরি করতে কার্যকর।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_009",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "বাজার গ্রাফ-ভিত্তিক ক্লাস্টারিং পদ্ধতির মাধ্যমে উদ্ভাবিত কাজের প্রাথমিক ফলাফল কী?",
+    "answer": [
+      [
+        "Higher Sharpe ratios on S&P500"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_010",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "'Key Innovation' নাকি 'Methodological' কলাম, গবেষণাটি কীভাবে পরিচালিত হয়েছিল সে সম্পর্কে আরও নির্দিষ্ট, প্রযুক্তিগত বাস্তবায়নের বিবরণ প্রদান করে?",
+    "answer": [
+      [
+        "‘Methodological’ কলামটি আরও নির্দিষ্ট, প্রযুক্তিগত বিবরণ প্রদান করে। উদাহরণস্বরূপ, যেখানে ‘Key Innovation’ একটি বিস্তৃত ধারণা যেমন ‘Frequency domain analysis’ (FreQuant) বা ‘LLM-based alpha factor mining’ (LLM-Alpha) উল্লেখ করতে পারে, সেখানে ‘Methodological’ কলামটি নির্দিষ্ট কৌশলগুলি উল্লেখ করে, যেমন যথাক্রমে ‘Multi-granular asset representation through DFT’ এবং ‘Multi-agent system with dynamic weight-gating’।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_011",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "MASA Li et al. (2024e) এর মূল উদ্ভাবন কী?",
+    "answer": [
+      [
+        "বিশেষজ্ঞ ঝুঁকি এবং রিটার্ন এজেন্ট সহ মাল্টি-এজেন্ট ফ্রেমওয়ার্ক।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Content Reasoning"
+  }
+]

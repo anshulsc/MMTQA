@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "arxiv_2ffada3c04_001",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Model mana yang didesain buat pasar 'Multi-asset' punya kebutuhan komputasi paling rendah?",
+    "answer": [
+      [
+        "DRPO"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A6",
+      "D6",
+      "E6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_002",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Ada berapa total model yang pakai strategi eksekusi 'Direct'?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_003",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Di antara model-model dengan kebutuhan komputasi 'High', mana yang mencantumkan 'Robust pattern extraction' sebagai keunggulan utama?",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "F1",
+      "A4",
+      "E4",
+      "F4",
+      "A5",
+      "E5",
+      "F5",
+      "A8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_004",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Model apa aja yang beroperasi di pasar 'Equities' dan pake metode eksekusi 'Indirect'?",
+    "answer": [
+      [
+        "CPPI-MADDPG"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_005",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Berapa persen dari semua model yang terdaftar punya kebutuhan komputasi 'High' atau 'Very High'?",
+    "answer": [
+      [
+        "55.6%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_006",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Kalau infrastruktur perusahaan cuma bisa dukung model dengan kebutuhan komputasi 'Medium' atau 'Low', strategi trading apa aja yang ada di tabel ini yang sama sekali nggak bisa mereka pakai?",
+    "answer": [
+      [
+        "Predictive"
+      ],
+      [
+        "Hybrid"
+      ],
+      [
+        "Signal"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_007",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, apa sih hubungan antara tipe 'Execution' suatu model sama tingkat kebutuhan 'Compute'-nya?",
+    "answer": [
+      [
+        "Sepertinya ada korelasi antara tipe eksekusi sama kebutuhan komputasi. Semua empat model dengan komputasi 'High' (StockFormer, EarnHFT, MacroHFT, HRT) dan satu model dengan komputasi 'Very High' (TRR) terbagi antara eksekusi 'Direct' (3) dan 'Indirect' (2). Tapi, model-model dengan kebutuhan komputasi 'Medium' atau 'Low' kebanyakan 'Direct' (3 dari 4), cuma satu yang pakai eksekusi 'Indirect'. Ini nunjukkin kalau model yang butuh komputasi tinggi bisa 'Direct' atau 'Indirect', tapi model dengan komputasi lebih rendah di dataset ini lebih mungkin pakai strategi eksekusi 'Direct', mungkin buat minimalisir *latency* tambahan yang bisa timbul dari lapisan *indirect*."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_008",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Model mana yang unik karena butuh komputasi 'Very High', bikin dia jadi paling beda sendiri dalam hal permintaan komputasi?",
+    "answer": [
+      [
+        "TRR"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_009",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "Model mana aja yang dibatasi oleh desain 'Market-specific' atau 'Single market focus' tapi nggak beroperasi di pasar 'Crypto'?",
+    "answer": [
+      [
+        "MacMic"
+      ],
+      [
+        "IMM"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_010",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "Seorang manajer portofolio pengen model yang bisa ngelindungin dari kerugian buat saham, tapi dia khawatir soal kerumitannya. Berdasarkan data, apa aja sih konsekuensi utama dari model yang paling cocok?",
+    "answer": [
+      [
+        "Model yang paling cocok itu CPPI-MADDPG. Model ini fokus ke pasar 'Equities' dengan strategi 'Portfolio' dan jelas-jelas nyebut 'Downside protection' sebagai keunggulan utamanya. Nah, konsekuensi utamanya, sesuai yang ada di 'Key Limitations'-nya, itu 'Coordination overhead' sama 'Slower adaptation'. Artinya, manajer dapet keamanan portofolio, tapi harus ngadepin kerumitan operasional yang lebih tinggi dan kurang bisa gerak cepet buat nyesuaiin diri sama perubahan pasar."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

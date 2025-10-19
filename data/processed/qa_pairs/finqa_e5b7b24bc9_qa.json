@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_e5b7b24bc9_001",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "In which year did the 'net cash used in working capital' have the most negative impact on cash flow?",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_002",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "Calculate the cumulative 'net cash provided by operating activities' for the entire period covered by the table (2011-2013).",
+    "answer": [
+      [
+        "$ 1223.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_003",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "What was the 'net income adjusted to reconcile net income to net cashprovided by operating activities1' in the year that reported the highest 'net cash provided by operating activities'?",
+    "answer": [
+      [
+        "$ 598.4"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_004",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the year-over-year trend of 'net cash provided by operating activities' from 2011 to 2013.",
+    "answer": [
+      [
+        "The 'net cash provided by operating activities' shows a consistent and strong positive trend over the three-year period. It increased from $273.5 in 2011 to $357.2 in 2012, and then significantly rose to $592.9 in 2013, indicating improving operational cash generation each year."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_005",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "Identify the year(s) where 'net cash ( used in ) provided by financing activities' was negative and 'net cash used in investing activities' was also negative by more than $100.",
+    "answer": [
+      [
+        "2013"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_006",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "For the year 2013, what proportion of the 'net income adjusted to reconcile net income to net cashprovided by operating activities1' was converted into 'net cash provided by operating activities'? Express this as a percentage, rounded to two decimal places.",
+    "answer": [
+      [
+        "99.08%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_007",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "Assuming 'net cash provided by operating activities' is the sum of the three preceding line items, what would its value have been in 2012 if the 'net cash used in working capital' had been 50% less negative (i.e., -$146.6)?",
+    "answer": [
+      [
+        "$ 503.8"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_008",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data from 2011 to 2013, what is the apparent relationship between 'net income adjusted...' and 'net cash provided by operating activities'? Does a higher adjusted net income consistently result in higher net cash from operations?",
+    "answer": [
+      [
+        "No, a higher adjusted net income does not consistently result in higher net cash from operations. The data shows an inverse trend: from 2011 to 2013, 'net income adjusted...' decreased each year (from $735.7 to $598.4), while 'net cash provided by operating activities' increased each year (from $273.5 to $592.9). This indicates that changes in working capital and other non-current items had a significant and increasingly favorable impact on cash flow."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_009",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "Which major cash flow activity ('operating', 'investing', or 'financing') is represented by a data row that contains both a positive value and negative values across the three-year period?",
+    "answer": [
+      [
+        "net cash ( used in ) provided by financing activities"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_010",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "Which single cash flow entry across all categories and years represents the largest absolute cash movement (either inflow or outflow)?",
+    "answer": [
+      [
+        "-1212.3 ( 1212.3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_e5b7b24bc9_011",
+    "table_id": "finqa_e5b7b24bc9",
+    "question_type": "value",
+    "question": "What is the total cash (in million) used in investing activities for the years 2011, 2012, and 2013?",
+    "answer": [
+      [
+        "$493.5"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "question_id": "arxiv_4d9e33301e_001",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "¿Qué compañía tuvo un mayor margen de beneficio (Ingresos Netos / Ingresos Totales) en el período más reciente?",
+    "answer": [
+      [
+        "Coca-Cola Co"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_002",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "¿Cuál fue el ingreso total combinado en miles para PepsiCo y Coca-Cola en el período más reciente registrado?",
+    "answer": [
+      [
+        "34294000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_003",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "¿Qué empresa logró un mayor aumento absoluto en la Ganancia Bruta (Ingresos Totales - Costo de los Ingresos) del período anterior al más reciente?",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_004",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Analice la tendencia de los ingresos netos de Coca-Cola entre los dos períodos registrados y contrástela con la tendencia de sus ingresos totales.",
+    "answer": [
+      [
+        "Los ingresos netos de Coca-Cola disminuyeron de 3.107.000 a 2.547.000 (en miles), mientras que sus ingresos totales aumentaron de 10.980.000 a 11.972.000 (en miles). Esta divergencia indica que, si bien las ventas crecieron, la rentabilidad disminuyó, lo que sugiere que el aumento de los costos o gastos superó el crecimiento de los ingresos."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_005",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "¿Qué compañía experimentó un crecimiento en gastos operativos superior a 1,000,000 miles, mientras que sus gastos por intereses crecieron en 1,000 miles o menos?",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_006",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "¿Para el período más reciente, qué porcentaje de los ingresos totales de PepsiCo fue consumido por la suma de su Costo de Ingresos y Gastos Operativos?",
+    "answer": [
+      [
+        "83.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_007",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "¿Si el Costo de Ingresos de Coca-Cola en el período más reciente hubiera sido un 10% menor, cuál habría sido su nuevo Ingreso Neto (en miles), asumiendo que ninguna otra cifra hubiera cambiado?",
+    "answer": [
+      [
+        "3038200"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_008",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Según los datos de ambas empresas, cuál es la relación aparente entre el cambio en los Ingresos Totales y el cambio en los Gastos Operativos entre los dos períodos?",
+    "answer": [
+      [
+        "Parece haber una correlación positiva. Tanto para PepsiCo como para Coca-Cola, un aumento en los Ingresos Totales del período anterior al reciente va acompañado de un aumento en los Gastos Operativos. Esto sugiere que a medida que aumentan los ingresos, también lo hacen los gastos necesarios para respaldar ese crecimiento, como los costos de marketing y administrativos."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_009",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "¿Para Coca-Cola Co, qué categoría de gasto es un valor atípico dado que su dirección de tendencia (aumento/disminución) es opuesta a las tendencias tanto del Costo de los Ingresos como del Gasto Operativo?",
+    "answer": [
+      [
+        "Depreciation and Amortization"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_010",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "Las métricas financieras se presentan como una lista de dos elementos (por ejemplo, [valor1, valor2]). Dado el contexto de informes trimestrales, ¿cuál es el significado más probable de esta estructura?",
+    "answer": [
+      [
+        "Esta estructura representa muy probablemente una comparación año tras año para el trimestre. El primer valor corresponde típicamente al resultado financiero del mismo trimestre del año anterior, mientras que el segundo valor representa el resultado del trimestre actual. Este formato es estándar para evaluar las tendencias de rendimiento y el crecimiento a lo largo del tiempo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

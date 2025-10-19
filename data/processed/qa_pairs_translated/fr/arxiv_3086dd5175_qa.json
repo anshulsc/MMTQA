@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Combien d'options distinctes sont disponibles au total pour tous les hyperparamètres classés comme 'Catégoriel' ?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Quels hyperparamètres ont le plus grand nombre d'options discrètes listées dans leur 'Range / Options' ?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Énumérez tous les hyperparamètres non catégoriels dont la plage numérique inclut la valeur 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Quel pourcentage des hyperparamètres listés sont de type 'Continuous' ?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Pour l'hyperparamètre avec le moins d'options discrètes, quel est son type ?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Combien de catégories uniques de 'Type' sont listées dans le tableau, et quelles sont-elles ?",
+    "answer": [
+      [
+        "Il y a 3 catégories uniques de 'Type' listées dans le tableau : Continuous, Categorical et Integer."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Si la plage du 'Nombre de couches R-GCN' était étendue à '1 à 7' et qu'un nouvel hyperparamètre 'Taille du lot' de type 'Catégoriel' avec les options '{16, 32, 64}' était ajouté, quel serait le nouveau nombre total d'options discrètes pour tous les hyperparamètres non continus ?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel hyperparamètre de type 'Continuous' possède un format de plage spécifié de manière unique par rapport aux autres de son type, et qu'est-ce qui le rend unique ?",
+    "answer": [
+      [
+        "Le 'Learning rate' a un format unique. Contrairement au 'Dropout rate' qui a une plage numérique simple, la plage du 'Learning rate' est spécifiée en utilisant la notation scientifique et inclut une note entre parenthèses '(log-uniform)' indiquant une distribution d'échantillonnage spécifique."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Compare la complexité de l'espace de recherche des hyperparamètres de type \"Continu\" par rapport à ceux de type \"Catégoriel\", comme décrit dans le tableau.",
+    "answer": [
+      [
+        "Selon le tableau, les hyperparamètres de type \"Continu\" ont un espace de recherche infiniment plus grand que ceux de type \"Catégoriel\". Les paramètres \"Continus\" comme le \"taux d'apprentissage\" peuvent prendre n'importe quelle valeur réelle dans leurs limites, créant des possibilités infinies. En revanche, les paramètres \"Catégoriels\" comme \"Optimiseur\" ont un petit ensemble fini d'options énumérées, ce qui rend leur espace de recherche discret et dénombrable."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Quels paramètres hyperparamètres ont des options répertoriées qui sont toutes des puissances de 2 ?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

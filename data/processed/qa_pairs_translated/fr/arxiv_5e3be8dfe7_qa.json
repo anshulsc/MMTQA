@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Quel modèle présente le plus grand nombre d'explications de paramètres distinctes listées dans le tableau ?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Combien de paramètres distincts sont expliqués au total pour tous les modèles qui utilisent un composant de sommation (Σ) dans leur formule principale ?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Listez les modèles dont la formule principale n'implique pas d'exponentiation (par exemple, e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Quel pourcentage des modèles listés utilise un paramètre représentant des échantillons ou des points de données individuels (par exemple, 'échantillon i') dans leur formulation ?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Si le nombre de catégories d'échantillons 'm' dans un modèle d'arbre de décision est de 1, quelle serait la valeur calculée de l'entropie d'information 'Ent(D)' selon la formule ?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Quel modèle présente une formule fondamentalement différente des autres, car elle est présentée comme un problème d'optimisation (minimisation) plutôt qu'un calcul direct d'une valeur de sortie ?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "En se basant sur les formules et les paramètres, quel est le rôle du paramètre 'β' dans la régression logistique par rapport au paramètre 'w' dans la Machine à Vecteurs de Support ?",
+    "answer": [
+      [
+        "Dans la régression logistique, 'β' est un vecteur ligne de coefficients de régression qui, avec l'intercept, détermine la probabilité d'un résultat via la fonction logistique. Dans la Machine à Vecteurs de Support, 'w' est un vecteur de paramètres qui définit l'orientation de l'hyperplan séparateur. L'objectif dans la SVM est de trouver le 'w' qui maximise la marge entre les classes en minimisant sa norme L2, tandis que dans la régression logistique, 'β' est généralement trouvé en maximisant la vraisemblance des données observées."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Comment les concepts de 'couches' dans les réseaux de neurones et d''entropie' dans les arbres de décision reflètent-ils leurs différentes approches d'apprentissage à partir des données ?",
+    "answer": [
+      [
+        "Le concept de 'couches' (l et l-1) dans les réseaux de neurones reflète une approche hiérarchique d'apprentissage des caractéristiques. Le modèle apprend des représentations de plus en plus complexes des données en faisant passer des activations à travers des couches successives, en ajustant les poids ('w') et les biais ('b') pour créer un approximateur de fonction complexe. En revanche, le concept d''entropie' (Ent(D)) dans les arbres de décision reflète une approche gloutonne basée sur des règles. Le modèle partitionne récursivement les données en sous-ensembles plus purs en sélectionnant des caractéristiques qui entraînent la plus grande diminution de l'entropie (gain d'information), créant ainsi un ensemble explicite de règles si-alors."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Quel est le nombre total de modèles uniques décrits dans le tableau ?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Quelle colonne a pour objectif principal de définir les variables de la colonne adjacente ?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "arxiv_7638040826_001",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "哪个数据集专门关注中央银行为理解货币政策影响而使用的语言，以及谁发表了它？",
+    "answer": [
+      [
+        "Trillion Dollar Words",
+        "Shah et al. (2023a)"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_002",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "列出所有在2020年后发布，并且明确描述为人工标注或专家撰写的资源。",
+    "answer": [
+      [
+        "SEntFiN 1.0"
+      ],
+      [
+        "Gold Commodity Dataset"
+      ],
+      [
+        "FINQA"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_003",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "根据出版日期，描述这些金融数据集在 2010 年代初期到 2020 年代关注点的演变。",
+    "answer": [
+      [
+        "这些数据集展示了从 2010 年代初期的基础情感分析到 2020 年代更复杂、更专业的任务的演变。SentiWordNet (2010) 和 Financial Phrase Bank (2014) 等早期资源处理的是通用的词语/短语情感。相比之下，SEntFiN 1.0 (特定实体情感)、REFinD (关系提取) 和 FINQA (深度推理) 等 2020 年代的资源则解决了更细粒度、更复杂的问题，表明该领域正朝着更细致的金融文本理解方向成熟。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_004",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "所列资源中有多少主要关注情感分析（分配积极、消极或中性标签）？",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_7638040826_005",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "与其他资源相比，哪个资源在其特定的地理焦点上是独特的？",
+    "answer": [
+      [
+        "Financial Phrase Bank"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_7638040826_006",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "列表中列出的数据集有多少百分比是在2023年发布的？",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_7638040826_007",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "如果移除“SEntFiN 1.0”数据集，哪个专注于分析新闻头条的资源是最新发布的？",
+    "answer": [
+      [
+        "MULTIFIN"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_008",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "在此列表中，哪位作者或作者组贡献的独立资源数量最多？",
+    "answer": [
+      [
+        "Shah et al."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_009",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "请比较“FiNER”和“REFinD”主要处理的NLP任务。",
+    "answer": [
+      [
+        "“FiNER”旨在处理一个基础的NLP任务，即命名实体识别（NER），它涉及识别和分类诸如金融公司之类的实体。“REFinD”则处理一个更复杂的后续任务，即关系抽取，旨在识别已识别实体之间的关系（例如，人名-职位、组织-金额）。因此，FiNER侧重于识别‘参与者’，而REFinD侧重于识别他们的‘互动’。"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_010",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "根据描述，专注于“新闻标题”的数据集与其发表年份的近（新）近程度之间是否存在相关性？请解释你的理由。",
+    "answer": [
+      [
+        "是的，似乎存在正相关。所有在描述中明确提到“新闻标题”的数据集（SEntFiN 1.0、Gold Commodity Dataset 和 MULTIFIN）都发表于 2021 年或之后。早些时候（2010 年代）发表的数据集并未提及这一特定焦点。这表明近年来分析金融新闻标题的简洁而有影响力的语言的研究兴趣日益浓厚。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B7",
+      "C7",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_7638040826_011",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "与SenticNet相比，SentiWordNet在金融文本分析中的主要目的是什么？",
+    "answer": [
+      [
+        "SentiWordNet为单个词义分配情感分数，以量化积极性、消极性或客观性，而SenticNet则结合了人工智能和语义网技术，以在金融背景下解释和处理意见。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

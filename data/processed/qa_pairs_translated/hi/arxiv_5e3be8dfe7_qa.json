@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "तालिका में सूचीबद्ध स्पष्ट पैरामीटर स्पष्टीकरण की सबसे बड़ी संख्या किस मॉडल में है?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "उन सभी मॉडलों के लिए कुल कितने अलग-अलग पैरामीटर समझाए गए हैं जो अपने मुख्य फ़ॉर्मूले में योग घटक (Σ) का उपयोग करते हैं?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "उन मॉडलों की सूची बनाएं जिनके मुख्य फ़ार्मुलों में एक्सपोनेंशियल (जैसे e^x) शामिल नहीं है।",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "सूचीबद्ध मॉडलों में से कितने प्रतिशत अपने फ़ॉर्मूलेशन में व्यक्तिगत नमूनों या डेटा बिंदुओं (जैसे, 'नमूना i') का प्रतिनिधित्व करने वाले पैरामीटर का उपयोग करते हैं?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "यदि डिसीजन ट्री मॉडल में सैंपल कैटेगरी की संख्या 'm' 1 है, तो फॉर्मूले के अनुसार इनफॉर्मेशन एंट्रॉपी 'Ent(D)' का कैलकुलेट किया गया मान क्या होगा?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "कौन से मॉडल का सूत्र दूसरों से मौलिक रूप से भिन्न है क्योंकि इसे आउटपुट मान की सीधी गणना के बजाय एक अनुकूलन समस्या (न्यूनतमीकरण) के रूप में प्रस्तुत किया गया है?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "लॉजिस्टिक रिग्रेशन में 'β' पैरामीटर की भूमिका और सपोर्ट वेक्टर मशीन में 'w' पैरामीटर की भूमिका की तुलना करें।",
+    "answer": [
+      [
+        "लॉजिस्टिक रिग्रेशन में, 'β' रिग्रेशन गुणांकों का एक रो वेक्टर है जो इंटरसेप्ट के साथ, लॉजिस्टिक फ़ंक्शन के माध्यम से एक परिणाम की संभावना निर्धारित करता है। सपोर्ट वेक्टर मशीन में, 'w' एक पैरामीटर वेक्टर है जो सेपरेटिंग हाइपरप्लेन की ओरिएंटेशन को परिभाषित करता है। SVM में लक्ष्य 'w' को खोजना है जो अपने L2 नॉर्म को कम करके वर्गों के बीच मार्जिन को अधिकतम करता है, जबकि लॉजिस्टिक रिग्रेशन में, 'β' आमतौर पर देखे गए डेटा की संभावना को अधिकतम करके पाया जाता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "न्यूरल नेटवर्क में 'परतों' (l और l-1) की अवधारणा और निर्णय वृक्षों में 'एंट्रॉपी' (Ent(D)) की अवधारणा, डेटा से सीखने के उनके विभिन्न दृष्टिकोणों को कैसे दर्शाती है?",
+    "answer": [
+      [
+        "न्यूरल नेटवर्क में 'परतों' (l और l-1) की अवधारणा एक पदानुक्रमित सुविधा सीखने के दृष्टिकोण को दर्शाती है। मॉडल क्रमिक परतों के माध्यम से सक्रियण को पारित करके डेटा के तेजी से जटिल प्रतिनिधित्व सीखता है, एक जटिल फ़ंक्शन सन्निकटक बनाने के लिए भार ('w') और पूर्वाग्रहों ('b') को समायोजित करता है। इसके विपरीत, निर्णय वृक्षों में 'एंट्रॉपी' (Ent(D)) की अवधारणा एक लालची, नियम-आधारित दृष्टिकोण को दर्शाती है। मॉडल एंट्रॉपी (सूचना लाभ) में सबसे बड़ी कमी के परिणामस्वरूप सुविधाओं का चयन करके डेटा को पुनरावर्ती रूप से शुद्ध उपसमूहों में विभाजित करता है, जिससे if-then नियमों का एक स्पष्ट सेट बनता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "तालिका में वर्णित अद्वितीय मॉडलों की कुल संख्या कितनी है?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "किस कॉलम का प्राथमिक उद्देश्य आसन्न कॉलम में उपयोग किए जाने वाले चर को परिभाषित करना है?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

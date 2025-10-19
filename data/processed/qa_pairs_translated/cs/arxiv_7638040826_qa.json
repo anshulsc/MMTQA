@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "arxiv_7638040826_001",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Která datová sada se konkrétně zaměřuje na jazyk používaný centrální bankou k pochopení vlivu měnové politiky a kdo ji publikoval?",
+    "answer": [
+      [
+        "Trillion Dollar Words",
+        "Shah et al. (2023a)"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_002",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Vyjmenujte všechny zdroje publikované po roce 2020, které jsou výslovně popsány jako lidsky anotované nebo napsané odborníky.",
+    "answer": [
+      [
+        "SEntFiN 1.0"
+      ],
+      [
+        "Gold Commodity Dataset"
+      ],
+      [
+        "FINQA"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_003",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě dat publikací popište vývoj zaměření těchto finančních databází od začátku 2010s do 2020s.",
+    "answer": [
+      [
+        "Databáze ukazují vývoj od základní analýzy sentimentu na počátku 2010s k složitějším, specializovaným úlohám ve 2020s. Rané zdroje jako SentiWordNet (2010) a Financial Phrase Bank (2014) se zabývaly obecným sentimentem slov/frází. Naopak zdroje z 2020s jako SEntFiN 1.0 (sentiment specifický pro entitu), REFinD (extrakce vztahů) a FINQA (hluboké uvažování) řeší granulárnější a složitější NLP problémy, což naznačuje zrání oboru směrem k nuancovanějšímu porozumění finančním textům."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_004",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Kolik z uvedených zdrojů se primárně zaměřuje na analýzu sentimentu (přiřazování pozitivních, negativních nebo neutrálních štítků)?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_7638040826_005",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Který zdroj se v porovnání s ostatními liší specifickým geografickým zaměřením?",
+    "answer": [
+      [
+        "Financial Phrase Bank"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_7638040826_006",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Jaké procento z uvedených datových sad bylo publikováno v roce 2023?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_7638040826_007",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Pokud by byl datový soubor 'SEntFiN 1.0' odstraněn, jaký by byl nejnověji publikovaný zdroj zaměřený na analýzu titulků zpráv?",
+    "answer": [
+      [
+        "MULTIFIN"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_008",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Který autor nebo skupina autorů přispěla nejvyšším počtem různých zdrojů v tomto seznamu?",
+    "answer": [
+      [
+        "Shah et al."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_009",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Porovnejte primární NLP úlohu, kterou řeší 'FiNER', s úlohou 'REFinD'.",
+    "answer": [
+      [
+        "'FiNER' je navržen pro základní NLP úlohu, rozpoznávání pojmenovaných entit (NER), která zahrnuje identifikaci a klasifikaci entit, jako jsou finanční společnosti. 'REFinD' se zabývá složitější, následnou úlohou extrakce vztahů, jejímž cílem je identifikovat vztahy mezi již identifikovanými entitami (např. osoba-pozice, organizace-peníze). FiNER se tedy zaměřuje na identifikaci 'aktérů', zatímco REFinD se zaměřuje na identifikaci jejich 'interakcí'."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_010",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě popisů, existuje korelace mezi datovými soubory zaměřenými na „titulky“ a aktuálností jejich publikace? Vysvětlete své zdůvodnění.",
+    "answer": [
+      [
+        "Ano, zdá se, že existuje pozitivní korelace. Všechny tři datové soubory, které výslovně zmiňují „titulky“ ve svých popisech (SEntFiN 1.0, Gold Commodity Dataset a MULTIFIN), byly publikovány v roce 2021 nebo později. Datové soubory publikované dříve, v roce 2010, tuto specifickou oblast nezmiňují. To naznačuje rostoucí výzkumný zájem o analýzu stručného a vlivného jazyka finančních zpravodajských titulků v posledních letech."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B7",
+      "C7",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_7638040826_011",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký je hlavní účel SentiWordNet ve srovnání se SenticNet při analýze finančních textů?",
+    "answer": [
+      [
+        "SentiWordNet přiřazuje skóre sentimentu jednotlivým smyslům slov, aby kvantifikoval pozitivitu, negativitu nebo objektivitu, zatímco SenticNet kombinuje technologie umělé inteligence a sémantického webu k interpretaci a zpracování názorů ve finančních kontextech."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

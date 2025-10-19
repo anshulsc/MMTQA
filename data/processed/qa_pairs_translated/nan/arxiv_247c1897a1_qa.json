@@ -1,0 +1,289 @@
+[
+  {
+    "question_id": "arxiv_247c1897a1_001",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "哪些模型在MSE30指标上达到最好（即最低）的绩效，并且排除任何在该指标有缺失数据的模型？",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F8",
+      "F9",
+      "A6",
+      "A9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_002",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "所有名稱以 'M' 開頭 ê 模型，伊 ê MSE7 平均值是偌濟？",
+    "answer": [
+      [
+        "0.4275"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_003",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "请指出表现显明异常的模型，并解释伊为何与众毋同。",
+    "answer": [
+      [
+        "「GPT-4-Turbo」模型是一个显明个异常值。伊佇所有预测时程（对 2.198 到 11.824）的平均平方误差（MSE）值，拢比其它所有模型卡悬真济，其它模型大拢伫 2.0 以下，嘛真济是伫 1.0 以下。这表示伊的预测准确度相当低，致使伊的表现在这组资料内底是一个异常。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A6",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_004",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "有第二低个MSE3分数彼个模型，伊个总MSE值 (MSE_over) 是偌济？",
+    "answer": [
+      [
+        "/"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_005",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "列出所有MSEMSE15值低於0.3，且MSEMSE30值低於0.2的模型。",
+    "answer": [
+      [
+        "HTML"
+      ],
+      [
+        "ECC Analyzer"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "E7",
+      "F7",
+      "E8",
+      "F8",
+      "A9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_006",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "請說明 'HTML' 模式佇預測時程對 3 日延伸到 30 日時，伊的預測誤差有啥物趨勢？",
+    "answer": [
+      [
+        "對 'HTML' 模式來講，用平均平方誤差 (MSE) 來衡量ê預測誤差，隨預測時程變長，伊是持續咧減少。MSE 對 3 日時的 0.845 降到 7 日時的 0.349，15 日時的 0.251，最後到 30 日時的 0.158。這表示講，對較長期的預測，這个模式的預測結果會變甲較準確。"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_007",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "所有模型加總的MSE3總誤差中，「GPT-4-Turbo」模型貢獻的比例是多少？請四捨五入到小數點後兩位。",
+    "answer": [
+      [
+        "23.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_008",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "若「傳統方法」模型 ê MSE15 值減少 10% (進步)，伊 kap 其他模型 tī chit-ê 指標 ê 新排名會是啥？",
+    "answer": [
+      [
+        "若「傳統方法」模型 ê MSE15 值 0.330 減少 10%，新 ê 值會是 0.297。MSE15 原本 ê 排名是：AMA-LSTM (0.230), ECC Analyzer (0.237), HTML (0.251), MRDM (0.300), MT-LSTM-ATT (0.304), HAN (Glove) (0.308), LSTM (0.320), Classical Method (0.330), GPT-4-Turbo (7.959)。新 ê 0.297 值會 kā 伊排佇 HTML kap MRDM 中間，將伊 ê 排名對第 8 名改做第 4 名。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_009",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "open_ended_reasoning",
+    "question": "排除 'GPT-4-Turbo' 異常值，佇總體 MSE 指標 (MSE_over) 的模型表現，kah 伊佇 7 日預測 (MSE7) 的表現，敢有明確的關係？",
+    "answer": [
+      [
+        "是，看起來有正相關。一般來講，總體 MSE 較低（較好）的模型，伊的 MSE7 也較低。例如講，'ECC Analyzer' kah 'HTML' 有上低的兩個總體 MSE 分數 (0.314 kah 0.401)，而且嘛有上低的兩個 MSE7 分數 (0.306 kah 0.349)。反過來講，像 'MT-LSTM-ATT' kah 'LSTM' 這款模型佇這組內底有上懸的總體 MSE 分數 (0.739 kah 0.746)，而且伊的 MSE7 分數嘛相對懸 (0.435 kah 0.459)。這表示一個模型的通用預測能力佇這兩項特別的指標上是仝款的。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_247c1897a1_010",
+    "table_id": "arxiv_247c1897a1",
+    "question_type": "value",
+    "question": "佇這个表格內，佗一个模型 ê 資料是上欠缺的，用 '/' 符號來表示？",
+    "answer": [
+      [
+        "AMA-LSTM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

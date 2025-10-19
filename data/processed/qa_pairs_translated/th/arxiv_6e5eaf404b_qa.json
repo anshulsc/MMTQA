@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "arxiv_6e5eaf404b_001",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "งานวิจัย MASA หรือ TrendTrader งานใดที่แสดงให้เห็นว่ามีประสิทธิภาพในกลุ่มดัชนีหุ้นนานาชาติที่กว้างและหลากหลายกว่ากัน?",
+    "answer": [
+      [
+        "MASA Li et al. (2024e) แสดงให้เห็นว่ามีประสิทธิภาพในวงกว้างกว่า เนื่องจากผลลัพธ์ครอบคลุมสามดัชนีหลัก (CSI300, DJIA, S&P500) จากทั้งจีนและสหรัฐอเมริกา ในขณะที่ผลลัพธ์ของ TrendTrader ระบุเฉพาะสำหรับสองดัชนี (DJIA, SSE-50)"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_002",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "มีงานวิจัยกี่ชิ้นที่ระบุว่าบรรลุผลการดำเนินงานที่เหนือกว่าในดัชนีตลาดหุ้นจีน (CSI300 หรือ SSE-50)?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_003",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "กรอบงานใดที่ใช้วิธีการ 'Spatial-temporal RL framework' เป็นระเบียบวิธี?",
+    "answer": [
+      [
+        "Multimodal fusion of price and sentiment"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_004",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "งานวิจัยใดรายงานผลการดำเนินงานที่สูงผิดปกติ โดยมีผลตอบแทนสูงกว่าเกณฑ์มาตรฐานตลาดมากกว่า 60 เปอร์เซ็นต์?",
+    "answer": [
+      [
+        "LLM-Alpha Kou et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_005",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "มีงานวิจัยใดบ้างที่เมื่อพิจารณาจากนวัตกรรมหลัก มุ่งเน้นไปที่การกระจายพอร์ตการลงทุนหรือการเลือกสินทรัพย์ แทนที่จะเป็นการคาดการณ์การเคลื่อนไหวของราคา",
+    "answer": [
+      [
+        "EarnMore Zhang et al. (2024d)",
+        "Network-EDM Hui and Wang (2024)",
+        "Market-Graph Yamagata and Ono (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_006",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "มีงานวิจัยกี่เปอร์เซ็นต์ที่รวมข้อมูลที่ไม่ใช่ราคา เช่น ความรู้สึกหรือทฤษฎีเครือข่าย เข้ามาเป็นนวัตกรรมหลัก?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_007",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "หากกำไรของเฟรมเวิร์ก 'EarnMore' ลดลง 15 เปอร์เซ็นต์ (จาก +40% เป็น +25%) ผลลัพธ์หลักใหม่ของมันจะเป็นอย่างไร และสิ่งนี้อาจส่งผลต่อการอ้างว่ามี 'ระดับความเสี่ยงที่เปรียบเทียบได้' อย่างไร เมื่อกำไรลดลงอย่างมาก?",
+    "answer": [
+      [
+        "ผลลัพธ์หลักใหม่จะเป็น 'กำไร: +25%, ระดับความเสี่ยงที่เปรียบเทียบได้' กำไรที่ลดลงเหลือ +25% ในขณะที่ระดับความเสี่ยงเท่าเดิม ทำให้กลยุทธ์น่าสนใจน้อยลง ผลตอบแทนที่ปรับด้วยความเสี่ยงจะต่ำลง ซึ่งอาจทำให้ระดับความเสี่ยงไม่ 'เปรียบเทียบได้' หรือไม่เป็นที่ยอมรับเมื่อเทียบกับผลตอบแทนที่ลดลง"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_008",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "จากตาราง ความสัมพันธ์ที่อนุมานได้ระหว่างการใช้ระบบแบบหลายเอเจนต์กับลักษณะของผลลัพธ์หลักที่รายงานคืออะไร",
+    "answer": [
+      [
+        "ดูเหมือนว่าจะมีความสัมพันธ์เชิงบวกระหว่างการใช้ระบบแบบหลายเอเจนต์กับการให้ผลตอบแทนที่เหนือกว่าและวัดผลได้ งานวิจัยสองชิ้นที่ใช้วิธีการนี้ คือ MASA และ LLM-Alpha รายงาน 'ผลตอบแทนที่ปรับด้วยความเสี่ยงที่เหนือกว่า' และผลตอบแทนที่สูงเป็นพิเศษ '+53.17%' ตามลำดับ สิ่งนี้บ่งชี้ว่าเฟรมเวิร์กแบบหลายเอเจนต์มีประสิทธิภาพในการสร้างผลตอบแทนทางการเงินที่แข็งแกร่งและวัดผลได้"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_009",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "ผลลัพธ์หลักของงานที่สร้างสรรค์นวัตกรรมด้วยแนวทางการจัดกลุ่มตามกราฟของตลาดคืออะไร",
+    "answer": [
+      [
+        "Higher Sharpe ratios on S&P500"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_010",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "คอลัมน์ใด 'นวัตกรรมหลัก' หรือ 'ระเบียบวิธี' ที่ให้รายละเอียดการนำไปใช้ทางเทคนิคที่เฉพาะเจาะจงมากขึ้นเกี่ยวกับวิธีการดำเนินการวิจัย?",
+    "answer": [
+      [
+        "คอลัมน์ 'ระเบียบวิธี' ให้รายละเอียดทางเทคนิคที่เฉพาะเจาะจงมากขึ้น ตัวอย่างเช่น ในขณะที่ 'นวัตกรรมหลัก' อาจระบุแนวคิดกว้างๆ เช่น 'การวิเคราะห์โดเมนความถี่' (FreQuant) หรือ 'การขุดปัจจัยอัลฟาโดยใช้ LLM' (LLM-Alpha) คอลัมน์ 'ระเบียบวิธี' จะระบุเทคนิคที่ใช้ เช่น 'การแทนค่าสินทรัพย์หลายระดับผ่าน DFT' และ 'ระบบหลายเอเจนต์ที่มีการถ่วงน้ำหนักแบบไดนามิก' ตามลำดับ"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_011",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "นวัตกรรมหลักของ MASA Li et al. (2024e) คืออะไร?",
+    "answer": [
+      [
+        "กรอบงานแบบหลายเอเจนต์ (Multi-agent framework) พร้อมเอเจนต์เฉพาะทางด้านความเสี่ยงและผลตอบแทน"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Content Reasoning"
+  }
+]

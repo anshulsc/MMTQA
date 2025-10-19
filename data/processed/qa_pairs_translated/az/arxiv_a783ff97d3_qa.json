@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64' proqnozlaşdırma parametrləri üçün hansı xüsusiyyət seçimi metodu ən aşağı səhv dəyərini əldə etdi?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO regression feature selection' metodu tərəfindən bütün proqnoz ayarları üzrə istifadə olunan kənar dəyişkənlərin orta sayı nə qədərdir?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28' proqnozlaşdırma parametrləri üçün ən yüksək sayda kənar dəyişkənlərdən istifadə edən metodun xəta metrikası nədir?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'BC1_64' ayarı üçün ekzojen dəyişkənlərin sayını artırmaq performans (yəni səhv dəyərini azaltmaq) üçün müntəzəm olaraq yaxşılaşdırırmı? Qısa bir təhlil edin.",
+    "answer": [
+      [
+        "Xeyr, müntəzəm bir əlaqə yoxdur. 'BC1_64' ayarı üçün 'Korrelyasiya əsaslı seçim' 14.11 səhvi üçün 3 dəyişkəndən istifadə edir, 'LASSO reqresiyası' da 3 dəyişkəndən istifadə edir, lakin daha yüksək 14.55 səhvinə malikdir. 'Forward Feature Selection NP' daha böyük sayda dəyişkəndən (28) istifadə edir və əhəmiyyətli dərəcədə daha yaxşı (aşağı) 9.16 səhvini əldə edir. Bu, daha yüksək sayda dəyişkənin daha yaxşı ola biləcəyini göstərir, lakin xüsusi seçim üsulu həlledicidir və sadəcə dəyişkən əlavə etmək təkmilləşmənin təminatı deyil."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64' parametrləri üçün 15-dən çox səhv dəyəri göstərən bütün xüsusiyyət seçimi üsullarını siyahıya alın.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'Forward Feature Selection NP' tərəfindən bütün parametrlərdə istifadə olunan cəmi xarici dəyişkənlərin neçə faizi 'BC1_64' parametrinə ayrılmışdı?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Əgər məlumat emalı səhvi 'BC2_28' parametrləri üçün bütün səhv göstəricilərini qeyd olunandan 2.5 vahid aşağı salıbsa, 'Manual feature selection' üçün yeni səhv nə olardı?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Değişik proqnozlaşdırma parametrləri üzrə seçilən dəyişənlərin diapazonuna (maksimumdan minimuma çıxılan) görə ən böyük qeyri-sabitliyi hansı xüsusiyyət seçimi metodu göstərir, dəyişənlərin sayı açıq şəkildə qeyd olunan metodlar arasında?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' metodu üçün 'BC3_28' üzrə səhv dəyəri bir kənar göstəricidir. Eyni metod üçün digər parametrlərlə müqayisədə onun müvafiq ekzogen dəyişkənlərinin sayı necədir?",
+    "answer": [
+      [
+        "LASSO üçün 28.79 səhv səviyyəsi ilə kənar yüksək səhvə sahib olan 'BC3_28' parametrləri, həmçinin bu metod üçün ən yüksək ekzogen dəyişkənlər sayından (16) istifadə edir. Bu, 0-dan 10-a qədər dəyişkən diapazonunda olan digər parametrlərdən əhəmiyyətli dərəcədə çoxdur. Bu, LASSO metodunun bu xüsusi proqnozlaşdırma konteksti üçün böyük, lakin zəif nəticə verən bir xüsusiyyət dəsti seçdiyini göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'Tənzimləmədən kənar dəyişənlər olmadan' əsas xəttinin performansını təhlil edərək, 'BC1' parametrlərindən 'BC2'-yə, sonra isə 'BC3'-ə ardıcıl keçdikdə xəta metrikindəki trendi təsvir edin.",
+    "answer": [
+      [
+        "Tənzimləmədən kənar dəyişənlər olmadan əsas xəttinin performansı parametrlər üzrə aydın bir nümunə göstərir. O, BC1 parametrləri üçün orta səviyyəli xəta dəyərləri ilə (11.14, 13.65) başlayır. Performans BC2 parametrləri üçün dramatik şəkildə yaxşılaşır, bu da ən aşağı xətalara (3.75, 9.08) malikdir. Nəhayət, BC3 parametrləri üçün xəta yenidən artır (17.53, 9.06), BC3_64 bu metod üçün ümumilikdə ən yüksək xəta ilə. Bu, əsas modelin BC2 şərtləri üçün ən uyğun olduğunu göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' və 'Forward Feature Selection NP' arasında, BC2_64 konfiqurasiyasında hansı proqnozlaşdırma parametrləri daha aşağı dəyərə nail olub?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' 'LASSO regression feature selection' (5.73) ilə müqayisədə BC2_64 konfiqurasiyasında daha aşağı dəyərə (2.9) nail olub."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

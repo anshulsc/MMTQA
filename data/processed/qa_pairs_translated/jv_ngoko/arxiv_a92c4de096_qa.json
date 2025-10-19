@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hyperparameter apa wae sing opsi paling akeh ing daftar space-ne?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Piro hyperparameters sing diuji nganggo luwih saka loro pilihan nilai ing search space-ne?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Piro ruang panggolekan kanggo hyperparameter sing pilihan paling apik iku nilai angka paling cilik luwih saka nol?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Sebutna kabeh hyperparameter sing 'Pilihan Paling Apik' (Best Choice) iku nilai paling dhuwur sing ana ing 'Papan Panggolekan' (Search Space) dhewe-dhewe.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Piro persentase saka hyperparameter angka sing 'Pilihan Paling Apik' dijupuk saka tengah 'Spasi Telusuran' (yakuwi, dudu nilai minimal utawa maksimal)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Yen panggolekan 'TRADES Layers' dibatesi mung kanggo nilai kurang saka 8, 'Pilihan Paling Apik' kanggo hyperparameter iki bakal dadi apa, kanthi asumsi pilihan sabanjure sing kasedhiya saka ruang telusur asli dipilih?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Ono ora hubungane sing ketok antarane gedhene jangkauan pencarian hyperparameter lan apa 'Pilihan Paling Apik' iku nilai pinggir (minimal/maksimal) utawa nilai tengah? Jelasna alesanmu.",
+    "answer": [
+      [
+        "Iyo, ono pola sing cetho. Kanggo hyperparameter sing jangkauan pencariane mung loro (Learning Rate, Dropout), pilihan paling apik iku nilai paling dhuwur. Kanggo kabeh hyperparameter sing jangkauan luwih akeh telu utawa papat pilihan, nilai optimal ditemokake ing tengah-tengah, ora tau ing pinggirane. Iki nuduhake yen kanggo model iki, proses fine-tuning iku migunani, lan jangkauan jembar wiwitan sukses njangkep wilayah optimal sing ora ana ing wates ruang sing diuji."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Nomer pira sing ruang pencariane diterangake nganggo label non-numerik?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Nilai 'Best Choice' saka hyperparameter endi sing dadi outlier numerik, luwih gedhe ping papat tinimbang 'Best Choice' numerik sabanjure sing paling dhuwur?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Ndelok hyperparameter sing pilihané ono papat ing search space-é ('Sequence size', 'TRADES Layers', 'Augmentation Dim.'), opo ciri umumé nilai 'Best Choice'-né, lan opo sing disirapkake babagan strategi tuning-é?",
+    "answer": [
+      [
+        "Ciri umumé yaiku kabeh telung hyperparameter mau, 'Best Choice'-né iku nilai tengah, dudu paling sithik utowo paling dhuwur. 'Best Choice'-né yaiku 256 (kaping 3 saka 4), 8 (kaping 3 saka 4), lan 64 (kaping 2 saka 4). Iki nyirapaké strategi tuning sing sukses sing search space-é wis cukup amba kanggo ngrakup nilai optimal, nuduhaké yèn performa parameter-parameter iki ora monotonically mundhak bareng karo nilaine nanging malah tekan puncak ing sawijining panggonan ing jero rentang sing diuji."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Pilihan Optimizer sing paling apik apa?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

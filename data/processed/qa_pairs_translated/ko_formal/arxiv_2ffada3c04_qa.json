@@ -1,0 +1,249 @@
+[
+  {
+    "question_id": "arxiv_2ffada3c04_001",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "'Multi-asset' 시장을 위해 설계되었으며 가장 낮은 컴퓨팅 요구 사항을 가진 모델은 무엇입니까?",
+    "answer": [
+      [
+        "DRPO"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A6",
+      "D6",
+      "E6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_002",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "'Direct' 실행 전략을 사용하는 모델의 총 개수는 몇 개입니까?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_003",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "컴퓨트 요구사항이 'High'인 모델 중에서, 'Robust pattern extraction'을 핵심 강점으로 나열하는 모델은 무엇입니까?",
+    "answer": [
+      [
+        "StockFormer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "F1",
+      "A4",
+      "E4",
+      "F4",
+      "A5",
+      "E5",
+      "F5",
+      "A8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_004",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "'Equities' 시장에서 운영되며 'Indirect' 실행 방식을 사용하는 모든 모델을 식별하십시오.",
+    "answer": [
+      [
+        "CPPI-MADDPG"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_005",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "상장된 모든 모델 중 '높음' 또는 '매우 높음'의 컴퓨팅 요구사항을 가진 모델의 비율은 얼마입니까?",
+    "answer": [
+      [
+        "55.6%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_006",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "회사의 인프라가 '중간(Medium)' 또는 '낮음(Low)'의 컴퓨팅 요구사항을 가진 모델만 지원할 수 있다면, 표에 나열된 모델 중 어떤 트레이딩 전략들이 완전히 사용할 수 없게 됩니까?",
+    "answer": [
+      [
+        "Predictive"
+      ],
+      [
+        "Hybrid"
+      ],
+      [
+        "Signal"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_007",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터에 따르면, 모델의 '실행(Execution)' 유형과 '컴퓨팅(Compute)' 요구 수준 간의 명백한 관계는 무엇입니까?",
+    "answer": [
+      [
+        "실행 유형과 컴퓨팅 요구 사항 사이에 상관관계가 있는 것으로 보입니다. '높음(High)' 컴퓨팅 요구 사항을 가진 네 모델(StockFormer, EarnHFT, MacroHFT, HRT)과 '매우 높음(Very High)' 컴퓨팅 요구 사항을 가진 한 모델(TRR)은 '직접(Direct)'(3개) 실행과 '간접(Indirect)'(2개) 실행으로 나뉩니다. 그러나 '중간(Medium)' 또는 '낮음(Low)' 컴퓨팅 요구 사항을 가진 모델은 대부분 '직접(Direct)'(4개 중 3개) 실행이며, '간접(Indirect)' 실행을 사용하는 경우는 하나뿐입니다. 이는 고성능 컴퓨팅 모델은 직접 또는 간접 실행이 모두 가능하지만, 이 데이터셋에서는 저성능 컴퓨팅 모델이 간접 계층이 도입할 수 있는 지연 시간 오버헤드를 최소화하기 위해 직접 실행 전략을 사용할 가능성이 더 높다는 것을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_008",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "컴퓨팅 요구 사항이 '매우 높음'으로 고유하며 계산 요구 사항 측면에서 특이치를 나타내는 모델은 무엇입니까?",
+    "answer": [
+      [
+        "TRR"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_009",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "value",
+    "question": "'Market-specific' 또는 'Single market focus' 디자인으로 제한되지만 'Crypto' 시장에서 운영되지 않는 모델은 무엇입니까?",
+    "answer": [
+      [
+        "MacMic"
+      ],
+      [
+        "IMM"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2ffada3c04_010",
+    "table_id": "arxiv_2ffada3c04",
+    "question_type": "open_ended_reasoning",
+    "question": "자산 운용사가 주식 시장에서 하방 위험 보호 기능이 있는 모델을 원하지만 복잡성에 대해 우려하고 있습니다. 데이터에 따르면 가장 적합한 모델의 주요 절충점은 무엇인가요?",
+    "answer": [
+      [
+        "가장 적합한 모델은 '주식(Equities)' 시장에 초점을 맞추고 '포트폴리오(Portfolio)' 전략을 사용하는 CPPI-MADDPG입니다. 이 모델은 '하방 보호(Downside protection)'를 핵심 강점으로 명시적으로 나열하고 있습니다. 핵심 약점으로 '조정 오버헤드(Coordination overhead)'와 '느린 적응(Slower adaptation)'이 언급되어 있습니다. 이는 운용사가 포트폴리오 안전성을 확보하는 대신 운영 복잡성이 증가하고 시장 변화에 신속하게 대응하는 능력이 감소한다는 것을 의미합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "arxiv_82ccef75df_001",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Combien de méthodes listées utilisent un LLM de la famille 'Llama' (par exemple, Llama2, LLaMA-2, FinLlama, etc.) ?",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_002",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Quelle application est prise en charge par l'ensemble de sources de données répertoriées le plus diversifié ?",
+    "answer": [
+      [
+        "Financial sentiment analysis and return prediction"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_003",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Quelle est la source de données pour la méthode qui utilise le modèle 'StockGPT' ?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_004",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Listez les entrées 'Method/Paper' qui utilisent un modèle avec 'GPT' dans son nom ET sont appliquées à la prédiction des mouvements boursiers.",
+    "answer": [
+      [
+        "[25]"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "B1",
+      "D1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_005",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Quel pourcentage des méthodes listées ont une application qui implique explicitement la « prédiction », le « prédit » ou les « tendances » ?",
+    "answer": [
+      [
+        "55.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_006",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Quelle méthode utilise une source de données qui est une plateforme nommée de manière unique ('AlphaFin') plutôt qu'une description générale des types de données ?",
+    "answer": [
+      [
+        "Stock-Chain framework [27]"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_007",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Si les créateurs de 'FinLlama [35]' intégraient 'S&P 500' et 'indices boursiers' dans leurs données, à quelle application existante dans le tableau leur projet deviendrait-il le plus aligné, et pourquoi ?",
+    "answer": [
+      [
+        "Le projet serait le plus aligné avec la 'Prédiction des mouvements boursiers'. En effet, la méthode '[25]' utilise une combinaison de données très similaire ('S&P 500', 'rapports financiers', 'indices boursiers') pour cette application spécifique, et FinLlama utilise déjà des 'rapports de bénéfices'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_008",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après le tableau, existe-t-il une relation observable entre le nombre de modèles LLM utilisés et le nombre de sources de données pour une méthode donnée ?",
+    "answer": [
+      [
+        "Oui, il semble y avoir une corrélation. Les méthodes qui répertorient plusieurs modèles LLM (Multimodal Gen-AI [9], Fine-tuning LLMs [8], [25]) ont également tendance à utiliser plusieurs sources de données diverses (4, 1 et 4 respectivement). Inversement, les méthodes qui spécifient un seul LLM utilisent souvent, bien que pas toujours, moins de sources de données ou des sources de données plus ciblées (par exemple, le cadre Stock-Chain [27] ou SAPPO [37]). Cela suggère que les approches multi-modèles plus complexes peuvent être conçues pour synthétiser des informations à partir d'un plus large éventail d'entrées de données."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_009",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Quelle colonne, 'LLM Model' ou 'Data', contient plus d'entrées qui listent plusieurs éléments distincts (séparés par des virgules ou 'et') ?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B5",
+      "C1",
+      "C3",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_010",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Identifiez toutes les applications alimentées par un modèle de la famille Llama et entraînées sur une forme de données de 'actualités'.",
+    "answer": [
+      [
+        "AI-assisted investment analysis"
+      ],
+      [
+        "Stock return prediction"
+      ],
+      [
+        "Financial sentiment analysis and return prediction"
+      ],
+      [
+        "Trading strategies"
+      ],
+      [
+        "Portfolio optimization"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_011",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Quels modèles LLM ont été appliqués pour la prédiction des cours boursiers, et quels ensembles de données ont-ils utilisés ?",
+    "answer": [
+      [
+        "Pour la prédiction des cours boursiers, les modèles Distilled RoBERT et LLaMA3-8B ont été utilisés. Les ensembles de données utilisés étaient des données de news financières, S&P- Bigdata23, Bigdata22, ACL18 et CIKM1."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B8",
+      "D4",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

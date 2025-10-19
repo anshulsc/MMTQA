@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Yen wektu pangiriman T kuwi 30, variabel SIDC endi sing nggambarke nutupe order book, lan ing wektu dagang t pira kedadean iki dumadi?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Bedane pokoke antarane wektu dagang SIDCO lan SIDCL hubungane karo wektu pangiriman kuwi apa?",
+    "answer": [
+      [
+        "Bedane pokoke ana ing wektune sing gegayutan karo pangiriman. SIDCO nemtokake wektu nalika order book wis bukak, sing kudu paling ora rong unit wektu sadurunge pangiriman (T-t ≥ 2). Sakwalike, SIDCL nemtokake wektu sawise order book ditutup, sing ana ing rong unit wektu pangiriman (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Miturut interpretasi sing diwenehake, piye carane cacahing jam antaraning gelombang kapisan lan kapindho sambung order lintas batas?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ngoling kondisi wektu dagang, acara SIDC endi sing nggambarake wayahe persis sadurunge wiwitan wektu SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Kanggo produk sing wektu pangirimane T=20, acara \"gelombang\" loro sing disebutake (SIDC1 utawa SIDC2) sing ora bisa kedadeyan amarga wektu perdagangane metu saka periode sing mbukak?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Nek gelombang kapindho pasangan (SIDC2) telat dadi jam 30, pira paling sithik wektu pangiriman T sing dibutuhake supaya kedadeyan iki isih mlebu ing wektu umum sing ditemtokake dening SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Simból-simból umumé kang dienggo ing notasi kaya fungsi kanggo saben variabel sing disebutké ing kolom 'Variabel' kuwi apa waé?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Ana dagangan dilebokke pas jam dagang t=20 nggo produk sing wektu kirime T=25. Kahanan SIDC variabel endi sing dicukupi dagangan iki?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Variabel opo sing nuduhake transisi saka periode SIDCO menyang periode SIDCL, lan opo kondisi wektu dagange?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Bandingna cakupan wektu variabel SIDCO karo variabel SIDC1 miturut definisine.",
+    "answer": [
+      [
+        "SIDCO kuwi nuduhake wektu sing terus-terusan nalika order book kebuka, sing ditemtokake dening rentang t≥12 lan T-t≥2. Sakwalike, SIDC1 kuwi nuduhake titik wektu tunggal lan kapisah, t=12, sing nuduhake wektu tartamtu nalika acara coupling pertama ing wiwitan periode SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Variabel SIDC endi sing nuduhake penutupan buku pesanan lintas batas lan ing kondisi wektu dagang apa kedadeyan?",
+    "answer": [
+      [
+        "Variabel SIDCC(d,h,t) nuduhake penutupan buku pesanan lintas batas, lan kedadeyan nalika T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

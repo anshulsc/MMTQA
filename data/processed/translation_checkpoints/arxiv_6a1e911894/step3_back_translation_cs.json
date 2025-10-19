@@ -1,0 +1,34 @@
+{
+  "columns": [
+    "Variable",
+    "Trading time t",
+    "Interpretation"
+  ],
+  "data": [
+    [
+      "SIDCO(d,h,t)",
+      "t≥12 & T−t≥2",
+      "All periods when cross-border order books are open."
+    ],
+    [
+      "SIDC1(d,h,t)",
+      "t=12",
+      "First wave of merging cross-border order books on d−1 at 18:00 hours."
+    ],
+    [
+      "SIDC2(d,h,t)",
+      "t=28",
+      "Second wave of merging cross-border order books on d−1 at 22:00 hours."
+    ],
+    [
+      "SIDCC(d,h,t)",
+      "T−t=2",
+      "Closing of cross-border order books one hour before delivery."
+    ],
+    [
+      "SIDCL(d,h,t)",
+      "T−t≤2",
+      "All periods after the closing of cross-border order books."
+    ]
+  ]
+}

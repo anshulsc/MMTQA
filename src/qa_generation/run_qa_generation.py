@@ -11,16 +11,22 @@ def main():
     print("      STARTING PHASE 2: QA GENERATION (ENGLISH)      ")
     print("======================================================")
 
+    # Load already processed tables
+    QAGenerator.load_processed_tables()
 
     source_table_paths = sorted(list(cfg.TABLES_DIR.glob("*.json")))
     print(f"Found {len(source_table_paths)} source English tables.")
 
+    skipped_count = 0
+    processed_count = 0
+
     for table_path in tqdm(source_table_paths, desc="Generating QA Pairs"):
         table_id = table_path.stem
-        output_path = cfg.QA_PAIRS_DIR / f"{table_id}_qa.json"
 
-        if output_path.exists():
-            tqdm.write(f"Skipping {table_id}, QA file already exists.")
+        # Check if already processed
+        if QAGenerator.is_processed(table_id):
+            skipped_count += 1
+            tqdm.write(f"Skipping {table_id}, already processed.")
             continue
             
         tqdm.write(f"\nProcessing table: {table_id}")
@@ -36,6 +42,7 @@ def main():
         qa_collection = generator.generate()
 
         if qa_collection:
+            output_path = cfg.QA_PAIRS_DIR / f"{table_id}_qa.json"
             final_output = []
             for i, qa_pair in enumerate(qa_collection.qa_pairs):
                 final_item = {
@@ -52,10 +59,12 @@ def main():
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(final_output, f, indent=2)
             tqdm.write(f"  Successfully saved {len(final_output)} QA pairs to {output_path.name}")
+            processed_count += 1
 
     end_time = time.time()
     print("\n======================================================")
     print("      PHASE 2: QA GENERATION COMPLETE      ")
+    print(f"      Skipped: {skipped_count} | Processed: {processed_count}")
     print(f"      Total time taken: {end_time - start_time:.2f} seconds")
     print("======================================================")
 

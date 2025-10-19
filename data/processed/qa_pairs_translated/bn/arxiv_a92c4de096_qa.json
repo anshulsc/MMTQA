@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "কোন হাইপারপ্যারামিটারগুলির অনুসন্ধান স্পেসে সর্বাধিক সংখ্যক বিকল্প তালিকাভুক্ত আছে?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "সার্চ স্পেসে দুইটির বেশি সম্ভাব্য মান সহ কতগুলি হাইপারপ্যারামিটার পরীক্ষা করা হয়েছিল?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "যে হাইপারপ্যারামিটারের জন্য শূন্যের চেয়ে বড় ক্ষুদ্রতম সাংখ্যিক মানটি সেরা পছন্দ, তার অনুসন্ধান স্পেসটি কী ছিল?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "সেই সব হাইপারপ্যারামিটারগুলির তালিকা দিন যেগুলির জন্য 'Best Choice' তাদের নিজ নিজ 'Search Space'-এর মধ্যে সর্বোচ্চ মান ছিল।",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "সংখ্যার হাইপারপ্যারামিটারগুলির কত অংশ তাদের 'সার্চ স্পেস'-এর মাঝামাঝি থেকে 'সেরা পছন্দ' হিসাবে নির্বাচিত হয়েছিল (অর্থাৎ, সর্বনিম্ন বা সর্বোচ্চ মান নয়)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "'TRADES Layers'-এর অনুসন্ধান শুধুমাত্র 8-এর কম মানের মধ্যে সীমাবদ্ধ থাকলে, এই হাইপারপ্যারামিটারের জন্য 'Best Choice' কী হতো, যদি মূল সার্চ স্পেস থেকে পরবর্তী সেরা উপলব্ধ বিকল্পটি বেছে নেওয়া হয়?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "একটি হাইপারপ্যারামিটারের সার্চ স্পেসের আকার এবং 'সেরা পছন্দ' প্রান্তিক (সর্বনিম্ন/সর্বোচ্চ) মান নাকি মধ্যবর্তী মান, এই দুটির মধ্যে কি কোনো পর্যবেক্ষণযোগ্য সম্পর্ক আছে? আপনার যুক্তিসহ ব্যাখ্যা করুন।",
+    "answer": [
+      [
+        "হ্যাঁ, একটি স্পষ্ট বিন্যাস রয়েছে। যে হাইপারপ্যারামিটারগুলির সার্চ স্পেস মাত্র দুটি বিকল্প (লার্নিং রেট, ড্রপআউট), সেগুলির জন্য সেরা পছন্দটি ছিল সর্বোচ্চ মান। তিনটি বা চারটি বিকল্প সহ বৃহত্তর সার্চ স্পেসযুক্ত সমস্ত হাইপারপ্যারামিটারের জন্য, সর্বোত্তম মানটি পরিসরের মাঝখানে পাওয়া গিয়েছিল, কখনও চরম মানে নয়। এটি ইঙ্গিত দেয় যে এই মডেলটির জন্য, একটি ফাইন-টিউনিং প্রক্রিয়া উপকারী, এবং প্রাথমিক বিস্তৃত পরিসীমাগুলি পরীক্ষিত স্পেসের সীমানায় না থাকা একটি সর্বোত্তম অঞ্চলকে সফলভাবে আবদ্ধ করেছিল।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "কোন হাইপারপ্যারামিটারের সার্চ স্পেস নন-নিউমেরিক লেবেল ব্যবহার করে বর্ণনা করা হয়েছে?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "কোন হাইপারপ্যারামিটারের 'সর্বোত্তম পছন্দ' মানটি একটি সংখ্যাসূচক বহির্ভূত, যা পরবর্তী সর্বোচ্চ সংখ্যাসূচক 'সর্বোত্তম পছন্দ' থেকে অন্তত চারগুণ বড়?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "'Sequence size', 'TRADES Layers', 'Augmentation Dim.' - এই হাইপারপ্যারামিটারগুলির প্রতিটিতে চারটি করে অপশন আছে। এদের 'Best Choice' মানগুলোর মধ্যে কী সাধারণ বৈশিষ্ট্য আছে, এবং টিউনিং কৌশল সম্পর্কে এটি কী ইঙ্গিত দেয়?",
+    "answer": [
+      [
+        "সাধারণ বৈশিষ্ট্য হল যে তিনটি হাইপারপ্যারামিটারের জন্যই 'Best Choice' একটি মধ্যবর্তী মান, চরম (সর্বনিম্ন বা সর্বোচ্চ) নয়। 'Best Choices' হল 256 (৪টির মধ্যে ৩য়), 8 (৪টির মধ্যে ৩য়), এবং 64 (৪টির মধ্যে ২য়)। এটি একটি সফল টিউনিং কৌশল নির্দেশ করে যেখানে অপ্টিমাল মানটিকে ব্র্যাকেট করার জন্য সার্চ স্পেস যথেষ্ট প্রশস্ত ছিল, যা থেকে বোঝা যায় যে এই প্যারামিটারগুলির পারফরম্যান্স মানের সাথে একঘেয়েভাবে বৃদ্ধি পায় না, বরং পরীক্ষিত পরিসরের মধ্যেই কোথাও শীর্ষে পৌঁছায়।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "অপ্টিমাইজারের সেরা পছন্দ কী?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

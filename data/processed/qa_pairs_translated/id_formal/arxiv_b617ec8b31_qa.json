@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Untuk aplikasi di mana metode MarS melibatkan perbandingan pasar saat ini dengan pasar simulasi, metode saat ini yang sesuai membandingkan apa?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Berapa persentase aplikasi yang terdaftar menggunakan metode 'MarS' yang melibatkan 'generasi' atau 'simulasi'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana metode MarS untuk aplikasi 'Detection' mengubah perbandingan berbasis waktu yang digunakan dalam 'Current Methods'?",
+    "answer": [
+      [
+        "Metode 'Current Methods' untuk 'Detection' mengandalkan perbandingan historis dengan menghitung perbedaan antara keadaan pasar saat ini (market_now) dan keadaan pasar di masa lalu (market_past). Metode MarS menghilangkan ketergantungan pada data masa lalu ini. Sebaliknya, metode ini membandingkan pasar saat ini (market_now) dengan pasar simulasi kontemporer (simu-market_now), menggeser perbandingan dari kerangka kerja temporal (sekarang vs. kemudian) ke kerangka kerja berbasis model (nyata vs. simulasi)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Sebutkan 'Metode Saat Ini' untuk semua aplikasi di mana metode 'MarS' dijelaskan sebagai 'pipeline' atau melibatkan 'generasi'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Aplikasi mana yang menunjukkan pergeseran pendekatan paling mendasar antara 'Metode Saat Ini' dan 'MarS', bergerak dari perbandingan historis ke perbandingan simulasi?",
+    "answer": [
+      [
+        "Aplikasi 'Deteksi' menunjukkan pergeseran paling mendasar. Metode saat ini mengandalkan perbandingan temporal yang melihat ke belakang (Diff(market_now, market_past)). Sebaliknya, metode MarS memperkenalkan perbandingan terhadap realitas simulasi yang bersamaan (Diff(market_now, simu-market_now)). Perubahan dari dasar historis ke dasar simulasi untuk perbandingan merupakan outlier konseptual yang signifikan dibandingkan dengan pergeseran metodologis lainnya dalam tabel."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Jika pendekatan 'MarS' untuk 'RL Environment' dimodifikasi untuk menggunakan ketersediaan data dari 'Current Methods' untuk aplikasi yang sama, dua karakteristik apa yang akan mendefinisikan metode MarS hipotetis ini?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Untuk aplikasi 'RL Environment', apa perbedaan utama dalam ketersediaan data dan distribusi probabilitas antara 'Metode Saat Ini' dan 'MarS'?",
+    "answer": [
+      [
+        "Perbedaan utamanya terletak pada volume data dan keaslian probabilitas transisi. 'Metode Saat Ini' mengandalkan 'data terbatas' dan distribusi probabilitas 'palsu' (P(st+1|st,at)), sedangkan 'MarS' memanfaatkan 'data tak terbatas' dan distribusi probabilitas 'nyata'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Berapa banyak aplikasi berbeda yang terdaftar yang melibatkan istilah 'data' dalam deskripsi metode mereka untuk 'Metode Saat Ini' atau 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan tabel, apa keunggulan menyeluruh MarS dibandingkan dengan Metode Saat Ini, khususnya terkait representasi data dan realitas?",
+    "answer": [
+      [
+        "Tema menyeluruh menunjukkan bahwa metode MarS bertujuan untuk mengatasi keterbatasan data historis atau terbatas dengan memanfaatkan pendekatan generatif dan berbasis simulasi. MarS bergeser dari ekstrapolasi ke generasi, dari perbandingan historis ke perbandingan simulasi, dan dari model data terbatas/palsu ke model data tak terbatas/nyata. Hal ini menunjukkan keunggulan strategis dalam menciptakan lingkungan data yang lebih kuat, fleksibel, dan realistis untuk analisis dan pembelajaran penguatan."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Tidak termasuk baris header, berapa banyak aplikasi berbeda yang dirinci dalam tabel?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Metode apa yang digunakan saat ini untuk Peramalan?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

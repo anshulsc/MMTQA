@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "arxiv_7638040826_001",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Quel ensemble de données se concentre spécifiquement sur le langage utilisé par une banque centrale pour comprendre l'influence de la politique monétaire, et qui l'a publié ?",
+    "answer": [
+      [
+        "Trillion Dollar Words",
+        "Shah et al. (2023a)"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_002",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Listez toutes les ressources publiées après 2020 qui sont explicitement décrites comme étant annotées par des humains ou rédigées par des experts.",
+    "answer": [
+      [
+        "SEntFiN 1.0"
+      ],
+      [
+        "Gold Commodity Dataset"
+      ],
+      [
+        "FINQA"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_003",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "En vous basant sur les dates de publication, décrivez l'évolution des axes d'intérêt de ces jeux de données financiers des débuts des années 2010 aux années 2020.",
+    "answer": [
+      [
+        "Les jeux de données montrent une évolution de l'analyse fondamentale des sentiments au début des années 2010 vers des tâches plus complexes et spécialisées dans les années 2020. Les premières ressources comme SentiWordNet (2010) et Financial Phrase Bank (2014) traitaient du sentiment général des mots/phrases. En revanche, les ressources des années 2020 comme SEntFiN 1.0 (sentiment spécifique à l'entité), REFinD (extraction de relations) et FINQA (raisonnement approfondi) abordent des problèmes NLP plus granulaires et complexes, indiquant une maturation du domaine vers une compréhension plus nuancée des textes financiers."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_004",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Combien des ressources listées se concentrent principalement sur l'analyse des sentiments (attribution d'étiquettes positive, négative ou neutre) ?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_7638040826_005",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Quelle ressource se distingue par sa focalisation géographique spécifique par rapport aux autres ?",
+    "answer": [
+      [
+        "Financial Phrase Bank"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_7638040826_006",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Quel pourcentage des ensembles de données listés ont été publiés en 2023 ?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_7638040826_007",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Si le jeu de données 'SEntFiN 1.0' était supprimé, quelle serait la ressource la plus récente publiée axée sur l'analyse des gros titres de journaux ?",
+    "answer": [
+      [
+        "MULTIFIN"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_008",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Quel auteur ou groupe d'auteurs a contribué au plus grand nombre de ressources distinctes dans cette liste ?",
+    "answer": [
+      [
+        "Shah et al."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_009",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Comparez la tâche principale de TALN abordée par 'FiNER' avec celle de 'REFinD'.",
+    "answer": [
+      [
+        "'FiNER' est conçu pour une tâche fondamentale de TALN, la Reconnaissance d'Entités Nommées (REN), qui consiste à identifier et classer des entités telles que les entreprises financières. 'REFinD' aborde une tâche plus complexe et subséquente d'extraction de relations, visant à identifier les relations entre des entités déjà identifiées (par exemple, personne-titre, organisation-argent). Par conséquent, FiNER se concentre sur l'identification des 'acteurs' tandis que REFinD se concentre sur l'identification de leurs 'interactions'."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_010",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après les descriptions, existe-t-il une corrélation entre les ensembles de données axés sur les « titres d'actualité » et la date de publication la plus récente ? Expliquez votre raisonnement.",
+    "answer": [
+      [
+        "Oui, il semble y avoir une corrélation positive. Les trois ensembles de données qui mentionnent explicitement « titres d'actualité » dans leurs descriptions (SEntFiN 1.0, Gold Commodity Dataset et MULTIFIN) ont été publiés en 2021 ou plus tard. Les ensembles de données publiés plus tôt, dans les années 2010, ne mentionnent pas cet axe spécifique. Cela suggère un intérêt de recherche croissant pour l'analyse du langage concis et percutant des titres d'actualité financière ces dernières années."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B7",
+      "C7",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_7638040826_011",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel est le but principal de SentiWordNet par rapport à SenticNet dans l'analyse des textes financiers ?",
+    "answer": [
+      [
+        "SentiWordNet attribue des scores de sentiment à des sens de mots individuels pour quantifier la positivité, la négativité ou l'objectivité, tandis que SenticNet combine l'IA et les technologies du Web sémantique pour interpréter et traiter les opinions dans les contextes financiers."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

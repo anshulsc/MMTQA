@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64' ফোরকাস্টিং সেটিংয়ের জন্য কোন ফিচার সিলেকশন পদ্ধতি সর্বনিম্ন ত্রুটি মান অর্জন করেছে?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO regression feature selection' পদ্ধতিতে সমস্ত ফোরকাস্টিং সেটিংসে গড় বহিরাগত চলকের সংখ্যা কত?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28' ফোরকাস্টিং সেটিং-এর জন্য, সর্বোচ্চ সংখ্যক এক্সোজেনাস ভ্যারিয়েবল ব্যবহারকারী পদ্ধতির ত্রুটি মেট্রিক কত?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'BC1_64' সেটিংয়ের জন্য এক্সোজেনাস ভেরিয়েবলের সংখ্যা বৃদ্ধি করলে কি পারফরম্যান্স ধারাবাহিকভাবে উন্নত হয় (অর্থাৎ, ত্রুটির মান কমায়)? একটি সংক্ষিপ্ত বিশ্লেষণ প্রদান করুন।",
+    "answer": [
+      [
+        "না, এর মধ্যে কোনও ধারাবাহিক সম্পর্ক নেই। 'BC1_64' সেটিংয়ের জন্য, 'Correlation-Based Selection' 3টি ভেরিয়েবল ব্যবহার করে 14.11 ত্রুটির জন্য, 'LASSO regression'ও 3টি ভেরিয়েবল ব্যবহার করে কিন্তু এর ত্রুটি 14.55 বেশি। 'Forward Feature Selection NP' অনেক বেশি সংখ্যক ভেরিয়েবল (28) ব্যবহার করে এবং 9.16 এর একটি উল্লেখযোগ্যভাবে ভাল (কম) ত্রুটি অর্জন করে। এটি থেকে বোঝা যায় যে যদিও বেশি সংখ্যক ভেরিয়েবল ভাল হতে পারে, তবে নির্দিষ্ট নির্বাচন পদ্ধতি গুরুত্বপূর্ণ এবং কেবল ভেরিয়েবল যোগ করা উন্নতির নিশ্চয়তা দেয় না।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64' সেটিংয়ের জন্য 15-এর বেশি ত্রুটি মান (error value) পাওয়া গেছে এমন সমস্ত ফিচার সিলেকশন পদ্ধতির তালিকা দিন।",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'Forward Feature Selection NP' দ্বারা ব্যবহৃত মোট এক্সোজিনাস ভেরিয়েবলের কত শতাংশ 'BC1_64' সেটিং-এ বরাদ্দ করা হয়েছিল?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_28' সেটিং-এর সমস্ত ত্রুটির মেট্রিক যদি রেকর্ড করা মানের চেয়ে ২.৫ পয়েন্ট কম হত, তাহলে 'ম্যানুয়াল ফিচার সিলেকশন'-এর জন্য নতুন ত্রুটি কত হত?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "বিভিন্ন ফোরকাস্টিং সেটিংসে নির্বাচিত ভেরিয়েবলের রেঞ্জ (সর্বোচ্চ বিয়োগ সর্বনিম্ন) দ্বারা পরিমাপ করা অস্থিরতার ক্ষেত্রে, যেখানে ভেরিয়েবলের সংখ্যা স্পষ্টভাবে তালিকাভুক্ত করা হয়েছে, কোন ফিচার সিলেকশন পদ্ধতিটি সবচেয়ে বেশি অস্থিরতা প্রদর্শন করে?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' পদ্ধতির জন্য, 'BC3_28' এর ত্রুটির মান একটি আউটলায়ার। একই পদ্ধতির অন্যান্য সেটিংসের সাথে তুলনা করলে এর সংশ্লিষ্ট এক্সোজেনাস ভ্যারিয়েবলের সংখ্যা কেমন?",
+    "answer": [
+      [
+        "LASSO-র জন্য ২৮.৭৯-এর অস্বাভাবিক উচ্চ ত্রুটি সহ 'BC3_28' সেটিংটিতে এই পদ্ধতির জন্য সর্বাধিক সংখ্যক এক্সোজেনাস ভ্যারিয়েবল (১৬) ব্যবহার করা হয়েছে। এটি অন্য সেটিংসগুলির (যেগুলো ০ থেকে ১০ পর্যন্ত ভ্যারিয়েবল) থেকে উল্লেখযোগ্যভাবে বেশি। এটি একটি সম্ভাব্য সমস্যার ইঙ্গিত দেয় যেখানে LASSO পদ্ধতিটি এই নির্দিষ্ট পূর্বাভাস প্রসঙ্গে একটি বৃহৎ, কিন্তু দুর্বল পারফর্মিং, ফিচার সেট নির্বাচন করেছে।"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'ব্যতিক্রমী ভ্যারিয়েবল ছাড়া' (Without exogenous variables) বেসলাইনের পারফরম্যান্স বিশ্লেষণ করে, 'BC1' সেটিংস থেকে 'BC2' এবং তারপর 'BC3' সেটিংসে যাওয়ার সাথে সাথে এরর মেট্রিকের প্রবণতা বর্ণনা করুন।",
+    "answer": [
+      [
+        "ব্যতিক্রমী ভ্যারিয়েবল ছাড়া' (Without exogenous variables) বেসলাইনের পারফরম্যান্স বিভিন্ন সেটিংস জুড়ে একটি স্পষ্ট প্যাটার্ন দেখায়। এটি BC1 সেটিংসের জন্য মাঝারি ত্রুটির মান (11.14, 13.65) দিয়ে শুরু হয়। BC2 সেটিংসের জন্য পারফরম্যান্স নাটকীয়ভাবে উন্নত হয়, যেগুলিতে সর্বনিম্ন ত্রুটি (3.75, 9.08) রয়েছে। অবশেষে, BC3 সেটিংসের (17.53, 9.06) জন্য ত্রুটি আবার বৃদ্ধি পায়, যেখানে এই পদ্ধতির জন্য BC3_64 সামগ্রিকভাবে সর্বোচ্চ ত্রুটি দেখায়। এটি নির্দেশ করে যে বেসলাইন মডেলটি BC2-এর অবস্থার জন্য সবচেয়ে উপযুক্ত।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' এবং 'Forward Feature Selection NP'-এর মধ্যে, কোন ফোরকাস্টিং সেটিং BC2_64 কনফিগারেশনে কম ভ্যালু অর্জন করেছে?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' 'LASSO regression feature selection' (5.73)-এর তুলনায় কম ভ্যালু (2.9) অর্জন করেছে BC2_64 কনফিগারেশনে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

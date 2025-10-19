@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Pikeun aplikasi di mana métode MarS ngalibatkeun ngabandingkeun pasar ayeuna sareng pasar simulasi, naon anu dibandingkeun ku metode ayeuna?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Sabaraha persén aplikasi anu didaptarkeun ngagunakeun metode 'MarS' anu ngalibetkeun 'generasi' atanapi 'simulasi'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Kumaha metode MarS pikeun aplikasi 'Detection' ngarobah pambanding dumasar kana waktos anu dianggo dina 'Metode Ayeuna'?",
+    "answer": [
+      [
+        "Pikeun 'Detection', 'Metode Ayeuna' ngandelkeun pambanding historis ku ngitung bédana antara kaayaan pasar ayeuna (market_now) sareng kaayaan pasar baheula (market_past). Metode MarS ngaleungitkeun katergantungan kana data baheula. Gantina, éta ngabandingkeun pasar ayeuna (market_now) sareng pasar simulasi anu sasarengan (simu-market_now), ngalihkeun pambanding tina kerangka waktos (ayeuna vs. harita) ka kerangka dumasar modél (asli vs. simulasi)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Sebutkeun 'Metode Ayeuna' pikeun sadaya aplikasi dimana metode 'MarS' dijelaskeun salaku 'pipeline' atanapi ngalibatkeun 'generasi'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Aplikasi mana nu némbongkeun parobahan paling fundamental dina pendekatan antara 'Metode Ayeuna' jeung 'MarS', pindah tina babandingan historis ka nu disimulasikeun?",
+    "answer": [
+      [
+        "Aplikasi 'Deteksi' némbongkeun parobahan paling fundamental. Métode ayeuna gumantung kana babandingan nu patali jeung waktu, nu nempo ka tukang (Diff(market_now, market_past)). Sabalikna, métode MarS ngenalkeun babandingan ngalawan kanyataan simulasi nu lumangsung dina waktu nu sarua (Diff(market_now, simu-market_now)). Parobahan tina dasar historis ka dasar simulasi pikeun babandingan mangrupa hal nu signifikan sacara konseptual dibandingkeun jeung parobahan metodologis séjénna dina tabel."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Upami pendekatan 'MarS' kanggo 'RL Environment' dirobah pikeun nganggo kasadiaan data tina 'Current Methods' kanggo aplikasi anu sami, naon dua ciri anu bakal ngartikeun metode MarS hipotetis ieu?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Pikeun aplikasi 'RL Environment', naon bédana konci dina kasadiaan data jeung distribusi probabilitas antara 'Metode Ayeuna' jeung 'MarS'?",
+    "answer": [
+      [
+        "Bédana konci téh aya dina volume data jeung oténtisitas probabilitas transisi. 'Metode Ayeuna' gumantung kana 'data kawates' jeung distribusi probabilitas 'palus' (P(st+1|st,at)), sedengkeun 'MarS' ngagunakeun 'data taya wates' jeung distribusi probabilitas 'bener'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Aya sabaraha aplikasi anu bénten anu kalebet istilah 'data' dina katerangan metodesuna pikeun 'Metode Ayeuna' atanapi 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": " Dumasar kana tabel, naon kaunggulan umum MarS dibandingkeun jeung Metode Ayeuna, hususna ngeunaan data jeung ngagambarkeun kanyataan?",
+    "answer": [
+      [
+        "Téma umumna nuduhkeun yén métode MarS boga tujuan pikeun ngungkulan watesan data historis atawa kawates ku cara ngagunakeun génératif jeung simulasi. MarS robah tina ekstrapolasi jadi generasi, tina babandingan historis jadi babandingan simulasi, jeung tina modél data kawates/palsu jadi modél data taya wates/asli. Ieu nunjukkeun kaunggulan strategis dina nyiptakeun lingkungan data anu leuwih kuat, fleksibel, jeung realistis pikeun analisis jeung pangaweruh pangrojong."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Komo data dina tabel, teu kaasup baris judul, aya sabaraha aplikasi nu béda nu dijelaskeun?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Naon metode ayeuna anu dianggo pikeun Prediksi?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

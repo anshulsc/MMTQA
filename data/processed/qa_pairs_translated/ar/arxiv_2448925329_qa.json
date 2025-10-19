@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "arxiv_2448925329_001",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "أي مجموعة بيانات تُظهر أفضل توافق للنموذج كما هو موضح بقيمة مربع R؟",
+    "answer": [
+      [
+        "BTC/USD ΔM vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_002",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "ما هو متوسط قيمة التفرطح لجميع مجموعات البيانات التي تتضمن BTC/USD؟",
+    "answer": [
+      [
+        "7.7025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_2448925329_003",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "بالنسبة للنموذج ذي القيمة الموجبة الأدنى لـ R-squared، ما هي إحصائية دوربين-واتسون المقابلة له؟",
+    "answer": [
+      [
+        "0.337"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_004",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "كيف يتغير معدل القدرة التفسيرية للنموذج، كما هو مقاس بواسطة مربع R، لمجموعة بيانات LUNA/USD عندما تزداد الفترة الزمنية من ثانية واحدة إلى 10 ثواني؟",
+    "answer": [
+      [
+        "تزداد القدرة التفسيرية لنموذج LUNA/USD، والمشار إليها بقيمة مربع R، بشكل كبير من 0.036 للفترة الزمنية ثانية واحدة إلى 0.274 للفترة الزمنية 10 ثواني. وهذا يمثل زيادة بأكثر من سبعة أضعاف، مما يشير إلى أن النموذج أكثر فعالية بشكل كبير في شرح تغيرات الأسعار على الإطار الزمني الأطول."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_005",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "اذكر جميع مجموعات البيانات التي يكون فيها انحراف بقايا النموذج سالبًا (Skew < 0) وإحصائية دوربين-واتسون أكبر من 2، مما يشير إلى الارتباط الذاتي السلبي.",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 1s",
+        "BTC/USD ΔM vs ΔP 1s"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "I1",
+      "A3",
+      "G3",
+      "I3",
+      "G2",
+      "I2",
+      "G4",
+      "I4",
+      "G5",
+      "I5",
+      "G6",
+      "I6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_006",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "ما هي نسبة مجموع كل إحصائيات F التي تمثلها النماذج بفترة 10 ثوانٍ؟",
+    "answer": [
+      [
+        "93.68%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A6",
+      "C6",
+      "C1",
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_2448925329_007",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "إذا تم تعديل التواء نموذج 'BTC/USD OFI vs ΔP 10s' إلى متوسط ​​الالتواء لجميع النماذج الأخرى، فما هي قيمته الجديدة؟",
+    "answer": [
+      [
+        "5.700"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_008",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "هل توجد علاقة ثابتة بين الإحصائية F للنموذج وإحصائية جارك-بيرا (JB) الخاصة به؟ قم بتحليل النمط.",
+    "answer": [
+      [
+        "لا توجد علاقة ثابتة وواضحة بين الإحصائية F وإحصائية جارك-بيرا (JB). على سبيل المثال، النموذج الذي لديه أعلى إحصائية F (15890.0) لديه إحصائية JB تبلغ 6560.394، بينما النموذج الذي لديه ثاني أدنى إحصائية F (137.0) لديه JB أصغر بكثير تبلغ 816.435. ومع ذلك، فإن النموذج الذي لديه أدنى إحصائية F (70.87) لديه أعلى إحصائية JB (10204.282). يشير هذا إلى أن الأهمية الإجمالية للنموذج (الإحصائية F) وتوزيعه الطبيعي لبقاياه (إحصائية JB) ليسا مرتبطين بشكل مباشر في مجموعة البيانات هذه."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "J1",
+      "C2",
+      "J2",
+      "C3",
+      "J3",
+      "C4",
+      "J4",
+      "C5",
+      "J5",
+      "C6",
+      "J6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_2448925329_009",
+    "table_id": "arxiv_2448925329",
+    "question_type": "open_ended_reasoning",
+    "question": "أي عمود، باستثناء مُعرّف 'Dataset'، يحتوي على أوسع نطاق من القيم عند النظر إلى حجم الترتيب (من الأصغر إلى الأكبر)؟",
+    "answer": [
+      [
+        "يُظهر العمود 'Prob(JB)' أوسع نطاق من القيم حسب حجم الترتيب. فهو يحتوي على قيم صغيرة مثل 0.0 (صغيرة جدًا بشكل فعال) وقيم كبيرة مثل 4.26e-263 و 1.93e-57 و 5.17e-178 و 9.05e-92، وتمتد على مئات الترتيبات من الحجم، وهي أكبر بكثير من أي عمود رقمي آخر."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "C1",
+      "C6",
+      "D1",
+      "D6",
+      "E1",
+      "E6",
+      "F1",
+      "F6",
+      "G1",
+      "G6",
+      "H1",
+      "H6",
+      "I1",
+      "I6",
+      "J1",
+      "J6",
+      "K1",
+      "K6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_2448925329_010",
+    "table_id": "arxiv_2448925329",
+    "question_type": "value",
+    "question": "أي مجموعة بيانات لديها إحصائية جارك-بيرا (JB) وهي قيمة متطرفة، حيث تزيد بأكثر من 5 مرات عن ثاني أعلى قيمة لـ JB؟",
+    "answer": [
+      [
+        "BTC/USD OFI vs ΔP 10s"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

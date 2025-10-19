@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Berapa banyak pilihan berbeda yang tersedia secara total untuk semua hyperparameter yang diklasifikasikan sebagai 'Kategorikal'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Hiperparameter mana yang memiliki jumlah opsi diskrit terbanyak yang terdaftar dalam 'Rentang / Opsi' mereka?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Sebutkan semua hiperparameter non-Kategorikal yang rentang numeriknya mencakup nilai 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Berapa persentase dari hyperparameter yang terdaftar yang bertipe 'Kontinu'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Untuk hiperparameter dengan opsi diskrit paling sedikit, apa tipenya?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Berapa banyak kategori 'Tipe' unik yang terdaftar dalam tabel, dan apa saja itu?",
+    "answer": [
+      [
+        "Terdapat 3 kategori 'Tipe' unik yang terdaftar dalam tabel: Kontinu, Kategorikal, dan Integer."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Jika rentang 'Jumlah lapisan R-GCN' diperluas menjadi '1 hingga 7' dan ditambahkan sebuah hyperparameter 'Ukuran batch' 'Kategorikal' baru dengan opsi '{16, 32, 64}', berapakah total jumlah opsi diskrit baru di semua hyperparameter non-kontinu?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Hiperparameter tipe 'Continuous' mana yang memiliki format rentang yang ditentukan secara unik dibandingkan dengan tipe lainnya, dan apa yang membuatnya unik?",
+    "answer": [
+      [
+        "'Learning rate' memiliki format yang unik. Tidak seperti 'Dropout rate' yang memiliki rentang numerik sederhana, rentang 'Learning rate' ditentukan menggunakan notasi ilmiah dan menyertakan catatan dalam tanda kurung '(log-uniform)' yang menunjukkan distribusi pengambilan sampel tertentu."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Bandingkan kompleksitas ruang pencarian untuk hiperparameter tipe 'Continuous' versus tipe 'Categorical' seperti yang dijelaskan dalam tabel.",
+    "answer": [
+      [
+        "Berdasarkan tabel, hiperparameter tipe 'Continuous' memiliki ruang pencarian yang tak terhingga lebih besar daripada yang 'Categorical'. Parameter 'Continuous' seperti 'Learning rate' dapat mengambil nilai riil apa pun dalam batasannya, menciptakan kemungkinan tak terbatas. Sebaliknya, parameter 'Categorical' seperti 'Optimizer' memiliki sekumpulan opsi yang terdaftar kecil dan terbatas, membuat ruang pencarian mereka diskrit dan terhitung."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Hiperparameter mana yang pilihan terdaftarnya semuanya merupakan pangkat dari 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

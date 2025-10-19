@@ -1,0 +1,280 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Který beta koeficient (β) vykazuje nejsilnější statistický důkaz svého účinku, jak je patrné z nejvyšší absolutní hodnoty t-statistiky?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Jaká je průměrná standardní chyba pro všechny koeficienty alfa (α), které jsou statisticky významné na úrovni p < 0,05?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Pro komponentu modelu (indexovanou číslem v dolním indexu), jejíž β koeficient má nejširší 95% interval spolehlivosti, jaká je p-hodnota odpovídajícího α koeficientu?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký je trend velikostí koeficientů β, když se dolní index zvyšuje z 1 na 6. Existuje nějaký konzistentní vzorec?",
+    "answer": [
+      [
+        "Neexistuje žádný konzistentní monotónní trend. Koeficienty β se zpočátku zvyšují z β₁ (0,7208) na β₂ (0,8237), ale poté dramaticky klesají u β₃ (0,0025) a následujících modelů. Hodnoty pro první dvě složky jsou o řády větší než hodnoty pro složky 3 až 6, které jsou všechny velmi blízké nule."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Identifikujte všechny ajustované modely, kde koeficient alfa (α) je jak statisticky nevýznamný (P-hodnota > 0,4) TAK má standardní chybu menší než 0,03.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Jaké procento ze všech koeficientů (α i β) ve vyrovnaném modelu je statisticky významných, s p-hodnotou menší než 0,05?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud by se standardní chyba pro model α₁ snížila na polovinu, jaký by byl jeho nový t-statistik? Na základě vztahu mezi t-statistikami a p-hodnotami pro jiné modely v tabulce, je pravděpodobné, že by tato změna způsobila, že koeficient α₁ bude statisticky významný (p < 0,05)?",
+    "answer": [
+      [
+        "Nový t-statistik by byl -1,593 (-0,0215 / (0,027 / 2)). Je nepravděpodobné, že by to koeficient učinilo statisticky významným. Pro srovnání, model α₂ má t-statistiku -2,803 a p-hodnotu 0,005. T-statistika s menší absolutní hodnotou, jako je -1,593, by měla vyšší p-hodnotu, která by pravděpodobně zůstala nad prahem významnosti 0,05, což obvykle vyžaduje absolutní t-hodnotu kolem 2 nebo více."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyzujte vztah mezi velikostí koeficientů β a jejich odpovídajícími t-statistikami. Vede větší koeficient konzistentně k větší t-statistice?",
+    "answer": [
+      [
+        "Ne, větší koeficient β nevede konzistentně k větší t-statistice. Například β₂ má největší koeficient (0,8237), ale jeho t-statistika (8,418) je mnohem menší než u β₄ (126,061), který má velmi malý koeficient (0,0041). T-statistika je poměr koeficientu k jeho standardní chybě, takže velmi malá standardní chyba může vést k velmi velké t-statistice i pro malý koeficient, jak je vidět u modelů β₃ až β₆."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě statistických principů by 95% interval spolehlivosti, který neobsahuje nulu, měl odpovídat p-hodnotě menší než 0,05. Existují v tabulce nějaké koeficienty modelu, u kterých interval spolehlivosti a p-hodnota neodpovídají tomuto principu?",
+    "answer": [
+      [
+        "Ne, všechny koeficienty v tabulce vykazují konzistenci mezi jejich p-hodnotou a 95% intervalem spolehlivosti. Všechny koeficienty s p-hodnotou menší než 0,05 (např. β₁, α₂, β₂) mají interval spolehlivosti, který nezasahuje nulu. Naopak všechny koeficienty s p-hodnotou větší než 0,05 (např. α₁, α₃, α₄) mají interval spolehlivosti, který nulu zahrnuje."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Který koeficient alfa (α) má statistiku t, která je nejvýznamnějším odlehlým pozorováním ve srovnání se statistikami t ostatních koeficientů alfa?",
+    "answer": [
+      [
+        "α₆ s t-statistikou 7,305 je nejvýznamnějším odlehlým pozorováním. Ostatní t-statistiky alfa jsou -0,787, -2,803, -0,269, 0,013 a 0,729. Většina těchto hodnot je seskupena mezi -3 a 1. Hodnota 7,305 má mnohem větší absolutní hodnotu a je jedinou velkou kladnou hodnotou, což ji činí výrazně odlišnou od zbytku skupiny."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_011",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Kolik je v tabulce uvedených modelů?",
+    "answer": [
+      [
+        "V tabulce je uvedeno 12 modelů (α₁–α₆ a β₁–β₆)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

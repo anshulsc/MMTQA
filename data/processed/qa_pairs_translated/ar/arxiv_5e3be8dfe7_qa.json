@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "أي نموذج لديه أعلى عدد من تفسيرات المعلمات المميزة المدرجة في الجدول؟",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "كم عدد المعاملات المميزة المشروحة إجمالاً لجميع النماذج التي تستخدم مكون جمع (Σ) في صيغتها الرئيسية؟",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "اذكر النماذج التي لا تتضمن صيغتها الرئيسية أسًا (على سبيل المثال، e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "ما هي نسبة النماذج المدرجة التي تستخدم معلمة تمثل عينات أو نقاط بيانات فردية (على سبيل المثال، 'العينة i') في صيغتها؟",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "إذا كان عدد فئات العينة 'm' في نموذج شجرة القرار يساوي 1، فما هي القيمة المحسوبة لاحتمال المعلومات 'Ent(D)' وفقًا للصيغة؟",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "أي نموذج تختلف صيغته جوهريًا عن النماذج الأخرى حيث يتم تقديمه كمشكلة تحسين (تصغير) بدلاً من حساب مباشر لقيمة المخرجات؟",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على الصيغ والمعلمات، قارن بين دور المعلمة 'β' في الانحدار اللوجستي ودور المعلمة 'w' في آلة المتجهات الداعمة.",
+    "answer": [
+      [
+        "في الانحدار اللوجستي، 'β' هو متجه صفي لمعاملات الانحدار التي تحدد، جنبًا إلى جنب مع الحد الثابت، احتمالية حدوث نتيجة عبر الدالة اللوجستية. في آلة المتجهات الداعمة، 'w' هو متجه معلمات يحدد اتجاه المستوى الفاصل. الهدف في آلة المتجهات الداعمة هو إيجاد 'w' الذي يزيد الهامش بين الفئات عن طريق تقليل معيار L2 الخاص به، بينما في الانحدار اللوجستي، عادةً ما يتم العثور على 'β' عن طريق زيادة احتمالية البيانات المرصودة."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "كيف تعكس مفاهيم 'الطبقات' في الشبكات العصبية و'الإنتروبيا' في أشجار القرار نهجها المختلف في التعلم من البيانات؟",
+    "answer": [
+      [
+        "يعكس مفهوم 'الطبقات' (l و l-1) في الشبكات العصبية نهجًا هرميًا لتعلم الميزات. يتعلم النموذج تمثيلات متزايدة التعقيد للبيانات عن طريق تمرير التنشيطات عبر طبقات متعاقبة، وتعديل الأوزان ('w') والانحيازات ('b') لإنشاء مقرب دالة معقد. في المقابل، يعكس مفهوم 'الإنتروبيا' (Ent(D)) في أشجار القرار نهجًا جشعًا قائمًا على القواعد. يقوم النموذج بتقسيم البيانات بشكل متكرر إلى مجموعات فرعية أنقى عن طريق اختيار الميزات التي تؤدي إلى أكبر انخفاض في الإنتروبيا (كسب المعلومات)، وإنشاء مجموعة صريحة من قواعد \"إذا-فإن\"."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "ما هو العدد الإجمالي للنماذج الفريدة الموصوفة في الجدول؟",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "أي عمود غرضه الأساسي هو تعريف المتغيرات المستخدمة في العمود المجاور؟",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

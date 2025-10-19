@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Model manakah yang memiliki jumlah penjelasan parameter berbeda terbanyak yang tercantum dalam tabel?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Berapa banyak parameter berbeda yang dijelaskan secara total untuk semua model yang menggunakan komponen penjumlahan (Σ) dalam formula utamanya?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Sebutkan model-model yang rumus utamanya tidak melibatkan eksponensial (contoh: e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Berapa persentase model yang terdaftar menggunakan parameter yang mewakili sampel atau titik data individual (misalnya, 'sampel i') dalam formulasinya?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Jika jumlah kategori sampel 'm' dalam model Pohon Keputusan adalah 1, berapakah nilai entropi informasi 'Ent(D)' yang dihitung berdasarkan rumus tersebut?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Model manakah yang formulanya secara fundamental berbeda dari yang lain karena disajikan sebagai masalah optimasi (minimasi) daripada perhitungan langsung nilai keluaran?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan rumus dan parameter, bandingkan peran parameter 'β' dalam Regresi Logistik dengan parameter 'w' dalam Support Vector Machine.",
+    "answer": [
+      [
+        "Dalam Regresi Logistik, 'β' adalah vektor baris dari koefisien regresi yang, bersama dengan intersep, menentukan probabilitas suatu hasil melalui fungsi logistik. Dalam Support Vector Machine, 'w' adalah vektor parameter yang mendefinisikan orientasi bidang pemisah. Tujuannya dalam SVM adalah menemukan 'w' yang memaksimalkan margin antar kelas dengan meminimalkan norma L2-nya, sedangkan dalam Regresi Logistik, 'β' biasanya ditemukan dengan memaksimalkan kemungkinan data yang diamati."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana konsep 'lapisan' (layer) dalam Jaringan Saraf Tiruan dan 'entropi' dalam Pohon Keputusan mencerminkan pendekatan yang berbeda dalam belajar dari data?",
+    "answer": [
+      [
+        "Konsep 'lapisan' (l dan l-1) dalam Jaringan Saraf Tiruan mencerminkan pendekatan pembelajaran fitur hierarkis. Model mempelajari representasi data yang semakin kompleks dengan melewatkan aktivasi melalui lapisan-lapisan berturut-turut, menyesuaikan bobot ('w') dan bias ('b') untuk menciptakan aproksimator fungsi yang kompleks. Sebaliknya, konsep 'entropi' (Ent(D)) dalam Pohon Keputusan mencerminkan pendekatan serakah (greedy) berbasis aturan. Model secara rekursif mempartisi data menjadi subset yang lebih murni dengan memilih fitur yang menghasilkan penurunan entropi terbesar (gain informasi), menciptakan seperangkat aturan if-then yang eksplisit."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Berapakah jumlah total model unik yang dijelaskan dalam tabel?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Kolom manakah yang tujuan utamanya adalah untuk mendefinisikan variabel yang digunakan di kolom sebelahnya?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

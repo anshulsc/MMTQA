@@ -21,7 +21,7 @@ class VLLMOfflineClient(BaseModelClient):
             tensor_parallel_size=tensor_parallel_size,
             gpu_memory_utilization=gpu_memory_utilization,
             trust_remote_code=True,
-            max_model_len=8192, 
+            max_model_len=10000, 
         )
         self.model_name = model_name
         

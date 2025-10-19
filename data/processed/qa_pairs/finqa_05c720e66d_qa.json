@@ -1,0 +1,242 @@
+[
+  {
+    "question_id": "finqa_05c720e66d_001",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "Which expense category experienced the largest absolute decrease in cost between 2017 and 2018?",
+    "answer": [
+      [
+        "amortization of deferred cash awards deferred cash stock units and performance stock units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_002",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "What was the combined total expense for all 'amortization' related costs in 2016?",
+    "answer": [
+      [
+        "845"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_05c720e66d_003",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "In the year with the highest 'total' expense, what was the largest single expense category for that year?",
+    "answer": [
+      [
+        "other variable incentive compensation"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_004",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the year-over-year trend for 'amortization of restricted and deferred stock awards' from 2016 to 2018.",
+    "answer": [
+      [
+        "The 'amortization of restricted and deferred stock awards' showed a consistent declining trend from 2016 to 2018. It started at $509 million in 2016, decreased to $474 million in 2017, and fell further to $435 million in 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_005",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "List all expense categories that were greater than $600 million in 2017 AND also increased in cost from 2016 to 2017.",
+    "answer": [
+      [
+        "charges for estimated awards to retirement-eligible employees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_006",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "What percentage of the 'total' 2018 expense was attributed to 'charges for estimated awards to retirement-eligible employees'?",
+    "answer": [
+      [
+        "33.10%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_05c720e66d_007",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "If 'other variable incentive compensation' in 2018 had been 10% lower, what would the new total expense for 2018 have been?",
+    "answer": [
+      [
+        "$ 1957"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_008",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "Does the trend in total expenses from 2016 to 2018 correlate with the trend in 'other variable incentive compensation' over the same period? Explain your reasoning.",
+    "answer": [
+      [
+        "No, the trends do not correlate. 'Other variable incentive compensation' shows a consistent decrease from 2016 ($710M) to 2017 ($694M) to 2018 ($640M). In contrast, the 'total' expense increased from 2016 ($2183M) to 2017 ($2251M) before decreasing in 2018 ($2021M). The divergence in 2016-2017 shows a lack of correlation."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_05c720e66d_009",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "By manually summing the individual expense items for 2018, confirm if the provided 'total' figure is accurate.",
+    "answer": [
+      [
+        "Yes, the total figure for 2018 is accurate. The sum of the individual expense categories ($669 + $202 + $75 + $435 + $640) is $2021, which matches the value in the 'total' row."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_010",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "Which expense category experienced the most dramatic one-year change (either increase or decrease) across the entire period shown?",
+    "answer": [
+      [
+        "'amortization of deferred cash awards deferred cash stock units and performance stock units' experienced the most dramatic change, dropping by $152 million between 2017 ($354M) and 2018 ($202M). This is the largest single-year change among all categories."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_05c720e66d_011",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "What is the total compensation (in millions) for employees in 2018?",
+    "answer": [
+      [
+        "$2,021"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

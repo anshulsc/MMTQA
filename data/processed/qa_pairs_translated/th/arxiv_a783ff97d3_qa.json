@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "วิธีเลือกคุณลักษณะใดที่ให้ค่าข้อผิดพลาดต่ำที่สุดสำหรับการตั้งค่าการคาดการณ์ 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ค่าเฉลี่ยของจำนวนตัวแปรภายนอกที่ใช้โดยวิธีการ 'LASSO regression feature selection' ในทุกการตั้งค่าการพยากรณ์คือเท่าใด",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "สำหรับการตั้งค่าการพยากรณ์ 'BC3_28' ค่าเมตริกข้อผิดพลาดของวิธีที่ใช้จำนวนตัวแปรภายนอกสูงสุดคือเท่าใด",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "การเพิ่มจำนวนตัวแปรภายนอกช่วยปรับปรุงประสิทธิภาพ (ลดค่าความผิดพลาด) สำหรับการตั้งค่า 'BC1_64' อย่างสม่ำเสมอหรือไม่? โปรดวิเคราะห์โดยย่อ",
+    "answer": [
+      [
+        "ไม่ ความสัมพันธ์ดังกล่าวไม่มีความสม่ำเสมอ สำหรับการตั้งค่า 'BC1_64', 'Correlation-Based Selection' ใช้ 3 ตัวแปร โดยมีค่าความผิดพลาด 14.11, 'LASSO regression' ก็ใช้ 3 ตัวแปรเช่นกัน แต่มีค่าความผิดพลาดสูงกว่าที่ 14.55, 'Forward Feature Selection NP' ใช้จำนวนตัวแปรที่มากกว่ามาก (28) และให้ค่าความผิดพลาดที่ดีกว่าอย่างมีนัยสำคัญ (ต่ำกว่า) ที่ 9.16 สิ่งนี้ชี้ให้เห็นว่า แม้ว่าจำนวนตัวแปรที่มากขึ้นอาจจะดีกว่า แต่วิธีการเลือกที่เฉพาะเจาะจงมีความสำคัญ และการเพิ่มตัวแปรเพียงอย่างเดียวไม่ได้รับประกันว่าจะมีการปรับปรุง"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ระบุวิธีการเลือกฟีเจอร์ทั้งหมดที่ส่งผลให้ค่าข้อผิดพลาดมากกว่า 15 สำหรับการตั้งค่า 'BC3_64'",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ร้อยละเท่าใดของจำนวนตัวแปรภายนอกทั้งหมดที่ใช้โดย 'Forward Feature Selection NP' ในทุกการตั้งค่าที่ถูกจัดสรรให้กับการตั้งค่า 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "หากข้อผิดพลาดในการประมวลผลข้อมูลทำให้เมตริกข้อผิดพลาดทั้งหมดสำหรับการตั้งค่า 'BC2_28' ต่ำกว่าที่บันทึกไว้ 2.5 จุด ข้อผิดพลาดใหม่สำหรับ 'Manual feature selection' จะเป็นเท่าใด",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ในบรรดาวิธีการเลือกฟีเจอร์ที่ระบุจำนวนตัวแปรอย่างชัดเจน วิธีใดมีความไม่เสถียรมากที่สุด โดยวัดจากช่วง (ค่าสูงสุดลบค่าต่ำสุด) ของตัวแปรที่เลือกในการตั้งค่าการพยากรณ์ที่แตกต่างกัน?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "สำหรับวิธีการ 'LASSO regression feature selection' ค่าข้อผิดพลาดสำหรับ 'BC3_28' ถือเป็นค่าผิดปกติ (outlier) จำนวนตัวแปรภายนอกที่สอดคล้องกันเปรียบเทียบกับค่าอื่นๆ ของวิธีการเดียวกันอย่างไร?",
+    "answer": [
+      [
+        "การตั้งค่า 'BC3_28' ซึ่งมีค่าข้อผิดพลาดสูงผิดปกติที่ 28.79 สำหรับ LASSO ยังใช้จำนวนตัวแปรภายนอกมากที่สุด (16) สำหรับวิธีนั้น ซึ่งมากกว่าการตั้งค่าอื่นๆ อย่างมีนัยสำคัญ โดยมีค่าตั้งแต่ 0 ถึง 10 ตัวแปร สิ่งนี้ชี้ให้เห็นถึงปัญหาที่อาจเกิดขึ้น โดยวิธีการ LASSO เลือกชุดของคุณสมบัติจำนวนมาก แต่ทำงานได้ไม่ดีสำหรับบริบทการพยากรณ์เฉพาะนี้"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "เมื่อวิเคราะห์ประสิทธิภาพของเกณฑ์มาตรฐาน 'โดยไม่มีตัวแปรภายนอก' ให้บรรยายแนวโน้มของเมตริกข้อผิดพลาดเมื่อเลื่อนลำดับจากค่าที่ตั้งไว้ 'BC1' ไปยัง 'BC2' และจากนั้นไปยัง 'BC3'",
+    "answer": [
+      [
+        "ประสิทธิภาพของเกณฑ์มาตรฐาน 'โดยไม่มีตัวแปรภายนอก' แสดงรูปแบบที่ชัดเจนในการตั้งค่าต่างๆ เริ่มต้นด้วยค่าข้อผิดพลาดปานกลางสำหรับการตั้งค่า BC1 (11.14, 13.65) ประสิทธิภาพดีขึ้นอย่างมากสำหรับการตั้งค่า BC2 ซึ่งมีข้อผิดพลาดต่ำที่สุด (3.75, 9.08) สุดท้าย ข้อผิดพลาดจะเพิ่มขึ้นอีกครั้งสำหรับการตั้งค่า BC3 (17.53, 9.06) โดย BC3_64 มีข้อผิดพลาดสูงสุดโดยรวมสำหรับวิธีนี้ สิ่งนี้บ่งชี้ว่าโมเดลเกณฑ์มาตรฐานเหมาะสมที่สุดกับเงื่อนไขของ BC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "ระหว่าง 'LASSO regression feature selection' และ 'Forward Feature Selection NP' การตั้งค่าการพยากรณ์แบบใดมีค่าต่ำกว่าในคอนฟิกูเรชัน BC2_64?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' มีค่าต่ำกว่า (2.9) เมื่อเทียบกับ 'LASSO regression feature selection' (5.73) ในคอนฟิกูเรชัน BC2_64"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

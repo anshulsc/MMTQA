@@ -1,0 +1,172 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Model manakah, di antara yang terdaftar, yang menggunakan arsitektur dasar terbesar dalam hal jumlah parameter?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Berapakah jumlah total token dalam korpus yang digunakan untuk melatih BloomBergGPT?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Berapakah anggaran pelatihan untuk model yang dibangun di atas arsitektur T5?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Untuk model yang menentukan proses data pelatihan dua tahap, berapakah ukuran korpus untuk tahap pra-pelatihan?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Identifikasi LLM yang menggunakan arsitektur berbasis BLOOM dan memiliki anggaran pelatihan yang dirilis secara publik yang ditentukan dalam A100·jam.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Berapa persentase total korpus pelatihan BloomBergGPT yang terdiri dari token publik?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Jika anggaran pelatihan XuanYuan2.0 terungkap sebesar 2.500.000 A100·jam, bagaimana hal ini akan memengaruhi peringkat model berdasarkan anggaran pelatihan?",
+    "answer": [
+      [
+        "Saat ini, BloomBergGPT memiliki satu-satunya anggaran numerik yang ditentukan (1.300.000 A100·jam), menjadikannya peringkat pertama. Jika anggaran XuanYuan2.0 adalah 2.500.000 A100·jam, model tersebut akan menjadi model dengan anggaran pelatihan tertinggi yang diketahui, melampaui BloomBergGPT. Peringkat baru untuk model dengan anggaran numerik adalah 1. XuanYuan2.0 (2.500.000) dan 2. BloomBergGPT (1.300.000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah terdapat korelasi yang konsisten antara jumlah parameter arsitektur model dan total ukuran korpus pelatihannya berdasarkan data ini?",
+    "answer": [
+      [
+        "Tidak, tidak ada korelasi positif yang konsisten yang terlihat dalam data. Sebagai contoh, XuanYuan2.0 memiliki arsitektur yang jauh lebih besar (176B parameter) daripada BloomBergGPT (50B parameter), namun dilatih pada korpus yang lebih kecil (379B token vs. 708B token). Hal ini menunjukkan bahwa model yang lebih besar belum tentu memerlukan korpus pelatihan yang lebih besar berdasarkan kumpulan data ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Kolom data mana yang menunjukkan variasi paling besar dalam format data, yang berisi bilangan bulat besar, string yang tidak diungkapkan, dan rentang berbasis waktu?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Model mana yang anggaran pelatihannya yang dinyatakan merupakan pencilan positif yang signifikan dibandingkan dengan informasi anggaran yang tersedia untuk model lainnya?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Which contractual obligation, excluding the total, has the highest amount due in the '1-3 years' period?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "By summing the payments for each individual obligation, confirm whether the grand total for the '1-3 years' period listed in the 'total payments on contractual obligations' row is accurate.",
+    "answer": [
+      [
+        "Yes, the grand total is accurate. The sum of the individual obligations for the '1-3 years' period is $188.3 + $316.4 + $37.1 + $3779.4, which equals $4321.2, matching the value in the total row."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "For the contractual obligation with the lowest total payment amount, what percentage of its total is due in the '1-3 years' period?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the payment schedule for 'long-term debt including capital leases' across the specified periods. Is it front-loaded, back-loaded, or evenly distributed?",
+    "answer": [
+      [
+        "The payment schedule for long-term debt is heavily back-loaded. Payments start small at $34.5 million ('less than 1 year'), increase steadily through the 1-3 and 3-5 year periods, and culminate in a very large payment of $2160.2 million in the 'more than 5 years' period, which represents over 78% of the total obligation."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "List all obligation categories where the payment due in 'less than 1 year' is less than the payment due in '1-3 years'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "What percentage of the total 'long-term debt including capital leases' is scheduled to be paid in more than 5 years?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "If a new policy required all 'purchase obligations' due in '1-3 years' to be paid immediately (in the 'less than 1 year' period), what would the new total for the 'less than 1 year' payments on contractual obligations become?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "The table contains a data integrity issue where the sum of periodic payments for one obligation type does not match its stated total. Identify this obligation and calculate the discrepancy.",
+    "answer": [
+      [
+        "The 'purchase obligations ( c )' row has a data integrity issue. The sum of its periodic payments ($2709.5 + $3779.4 + $98.0 + $2212 = $8798.9 million) does not match its stated total of $6586.9 million. The discrepancy is $2212 million."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Looking at the '3-5 years' payment period, which contractual obligation's value is the lowest and could be considered an outlier compared to the others in the same column?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a consistent relationship between the magnitude of a total obligation and its payment structure (e.g., are larger obligations always more back-loaded)? Justify your answer with data.",
+    "answer": [
+      [
+        "No, there is no consistent relationship. The largest total obligation, 'purchase obligations' ($6586.9M), is heavily front-loaded with the majority due within 3 years. Conversely, the second-largest, 'long-term debt' ($2750.1M), is heavily back-loaded, with the largest payment due in more than 5 years. This indicates the payment structure is specific to the obligation type, not its total value."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "What is the total payments in millions on contractual obligations due by period 1-3 years?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

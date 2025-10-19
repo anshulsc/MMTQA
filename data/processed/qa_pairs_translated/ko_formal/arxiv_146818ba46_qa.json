@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "어떤 모델이 Sublinear 확장성을 제공하며, 지원되는 기능('사전 훈련', '다중 작업')에서 주요 차이점은 무엇입니까?",
+    "answer": [
+      [
+        "TimeMixer와 PatchTST는 Sublinear 확장성을 제공합니다. 주요 차이점은 TimeMixer가 다중 작업 학습을 지원하는 반면 PatchTST는 지원하지 않는다는 것입니다. 두 모델 모두 사전 훈련을 사용하지 않습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "사전 훈련 또는 다중 작업 학습 중 하나를 지원하지만 둘 다 지원하지 않는 모델의 총 개수는 얼마입니까?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "선형 확장성과 중간 수준의 컴퓨팅 요구 사항을 가진 모델의 주요 응용 분야를 식별하십시오.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "'Long Sequences'용 모델이 필요했던 연구 프로젝트가 'Task Flexibility'를 요구하게 된다면, 두 번째 단계에서 어떤 모델이 적절한 선택일까요?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "사전 훈련을 사용하지 않고 하위 선형 확장성을 제공하는 모델을 나열해 주십시오.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "나열된 모델 중 'High' 컴퓨팅 자원을 필요로 하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "'TimesNet'이 '사전 훈련'을 지원하도록 향상된다면, 어떤 기존 모델이 그 특징(사전 훈련, 다중 작업, 계산량, 확장성) 측면에서 가장 유사해질까요?",
+    "answer": [
+      [
+        "향상된 TimesNet은 다른 단일 모델과 크게 유사하지 않을 것입니다. '사전 훈련', '다중 작업', 그리고 '선형' 확장성을 Timer 및 MOMENT와 공유하겠지만, '중간' 계산량은 여전히 '높음' 계산량을 요구하는 두 모델과 차별성을 보일 것입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "모델의 확장성과 주요 응용 분야가 시퀀스 길이 또는 유연성에 초점을 맞추는 것 사이에 뚜렷한 상관관계가 있습니까?",
+    "answer": [
+      [
+        "예, 상관관계가 있는 것으로 보입니다. 더 효율적인 'Sublinear' 확장성(TimeMixer, PatchTST)을 가진 모델은 복잡한 패턴 또는 긴 시퀀스('Multiscale Patterns', 'Long Sequences')와 관련된 응용 프로그램과 관련이 있습니다. 반면, 'Linear' 확장성을 가진 모델은 유연성 또는 제약 조건 하에서의 학습('Few-shot Learning', 'Limited Supervision', 'Task Flexibility')을 필요로 하는 작업에 적용되는 경향이 있습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "‘Model’ 열을 제외하고, 가장 다양한 고유 값 집합을 포함하는 열은 무엇입니까?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "사전 훈련이나 다중 작업 학습을 지원하지 않는 모델은 무엇입니까?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

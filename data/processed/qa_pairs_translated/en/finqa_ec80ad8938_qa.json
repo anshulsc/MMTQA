@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "finqa_ec80ad8938_001",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "What is the total carrying amount for all assets (both trading assets and loans) reported across both presented data sets?",
+    "answer": [
+      [
+        "26557"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_002",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "In the second data set (columns D and E), which asset category—trading assets or loans—has the greater 'aggregate unpaid principal balance in excess of fair value'?",
+    "answer": [
+      [
+        "loans"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_003",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "For the first set of loans (column C), what percentage of the total 'carrying amount' is represented by the 'balance of non-accrual loans'?",
+    "answer": [
+      [
+        "0.03%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_004",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "What is the combined carrying amount of the asset type (Trading Assets or Loans) that has the lower total 'balance of non-accrual loans' across both data sets?",
+    "answer": [
+      [
+        "7598"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_005",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "List the carrying amounts for all asset portfolios where the 'balance of non-accrual loans or loans more than 90 days past due' is exactly $1 million.",
+    "answer": [
+      [
+        "$ 3224"
+      ],
+      [
+        "$ 4374"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_006",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "If the carrying amount for trading assets in the first data set (column B) were adjusted by subtracting its 'aggregate unpaid principal balance in excess of fair value', what would the new carrying amount be?",
+    "answer": [
+      [
+        "9673"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_007",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyzing the 'balance of non-accrual loans', which asset type's balance is a significant outlier compared to the other, and what does this imply about their relative risk profiles?",
+    "answer": [
+      [
+        "The Trading Assets in both data sets show a non-accrual balance of $2,014 million, which is an extreme outlier compared to the $1 million for Loans in both sets. This stark difference suggests that the Trading Assets portfolio carries significantly higher credit risk or has experienced a major default event, whereas the Loans portfolio appears to be in exceptionally good health with almost no non-accrual balances."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_008",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Does the data show a consistent positive correlation between an asset's 'carrying amount' and its 'aggregate unpaid principal balance in excess of fair value' for the Trading Assets category?",
+    "answer": [
+      [
+        "No, a consistent positive correlation is not shown. The first set of trading assets has a higher carrying amount ($10,108M vs $8,851M) but a lower aggregate unpaid principal balance in excess of fair value ($435M vs $623M). This indicates that a larger portfolio size does not necessarily lead to a proportionally larger unrealized loss in this dataset."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_009",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "Identify any rows that contain repeated or seemingly redundant data points and explain the pattern.",
+    "answer": [
+      [
+        "Data redundancy is present in rows 3 and 4. In row 3, 'balance of non-accrual loans...', the value for trading assets is $2,014M in both sets (B3, D3) and $1M for loans in both sets (C3, E3). In row 4, the value $2,014M is repeated three times for both sets of trading assets and the first set of loans (B4, C4, D4), suggesting either a data entry pattern or a specific financial reporting artifact."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_010",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "value",
+    "question": "For the data set (Set 1: cols B,C or Set 2: cols D,E) with the higher total carrying amount, calculate the portfolio's overall 'unrealized loss percentage' (total 'unpaid principal balance in excess of fair value' divided by total 'carrying amount').",
+    "answer": [
+      [
+        "8.82%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ec80ad8938_011",
+    "table_id": "finqa_ec80ad8938",
+    "question_type": "open_ended_reasoning",
+    "question": "How does the carrying amount reported on the consolidated balance sheet for trading assets compare to loans as of December 31, 2018?",
+    "answer": "The carrying amount for trading assets was higher than for loans. For trading assets, it was $10,108 million and $8,851 million, whereas for loans it was $3,224 million and $4,374 million.",
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

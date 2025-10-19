@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "MarS পদ্ধতিতে বর্তমান বাজারকে সিমুলেটেড বাজারের সাথে তুলনা করার জন্য, সংশ্লিষ্ট বর্তমান পদ্ধতিতে কী তুলনা করা হয়?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "তালিকাভুক্ত অ্যাপ্লিকেশনগুলির মধ্যে কত শতাংশ 'MarS' পদ্ধতি ব্যবহার করে যেখানে 'জেনারেশন' বা 'সিমুলেশন' জড়িত?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'ডিটেকশন' অ্যাপ্লিকেশনের জন্য MarS পদ্ধতি 'কারেন্ট মেথডস'-এ ব্যবহৃত সময়-ভিত্তিক তুলনাকে কীভাবে পরিবর্তন করে?",
+    "answer": [
+      [
+        "'ডিটেকশন'-এর জন্য 'কারেন্ট মেথডস' ঐতিহাসিক তুলনার উপর নির্ভর করে বর্তমান বাজার অবস্থা (market_now) এবং অতীত বাজার অবস্থার (market_past) মধ্যে পার্থক্য গণনা করে। MarS পদ্ধতি অতীতের ডেটার উপর এই নির্ভরতা দূর করে। পরিবর্তে, এটি বর্তমান বাজারকে (market_now) একটি সমসাময়িক সিমুলেটেড বাজারের (simu-market_now) সাথে তুলনা করে, তুলনাটিকে একটি টেম্পোরাল (এখন বনাম তখন) থেকে একটি মডেল-ভিত্তিক (বাস্তব বনাম সিমুলেটেড) কাঠামোর দিকে স্থানান্তরিত করে।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "যেখানে 'MarS' পদ্ধতিকে একটি 'pipeline' হিসাবে বর্ণনা করা হয়েছে বা 'generation' এর সাথে জড়িত, সেখানে সমস্ত অ্যাপ্লিকেশনের জন্য 'Current Methods' তালিকাভুক্ত করুন।",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'বর্তমান পদ্ধতি' (Current Methods) এবং 'MarS'-এর মধ্যে পদ্ধতির সবচেয়ে মৌলিক পরিবর্তন কোন অ্যাপ্লিকেশনে দেখা যায়, যেখানে এটি একটি ঐতিহাসিক তুলনার পরিবর্তে একটি সিমুলেটেড তুলনার দিকে এগিয়ে যায়?",
+    "answer": [
+      [
+        "ডিটেকশন (Detection) অ্যাপ্লিকেশনটি পদ্ধতির সবচেয়ে মৌলিক পরিবর্তন দেখায়। বর্তমান পদ্ধতিতে একটি টেম্পোরাল, পশ্চাদগামী তুলনা (Diff(market_now, market_past)) ব্যবহার করা হয়। বিপরীতে, MarS পদ্ধতি একটি সমসাময়িক সিমুলেটেড বাস্তবতার (Diff(market_now, simu-market_now)) সাথে তুলনা প্রবর্তন করে। ঐতিহাসিক ভিত্তির উপর ভিত্তি করে এই পরিবর্তন একটি গুরুত্বপূর্ণ ধারণাগত ব্যতিক্রম, যা টেবিলের অন্যান্য পদ্ধতিগত পরিবর্তনের তুলনায় উল্লেখযোগ্য।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'আরএল এনভায়রনমেন্ট'-এর জন্য 'মার্স' পদ্ধতিটিকে যদি একই অ্যাপ্লিকেশনের জন্য 'কারেন্ট মেথডস'-এর ডেটা উপলব্ধতা ব্যবহার করার জন্য পরিবর্তন করা হয়, তাহলে এই কাল্পনিক মার্স পদ্ধতিটিকে কোন দুটি বৈশিষ্ট্য সংজ্ঞায়িত করবে?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'RL Environment' অ্যাপ্লিকেশনের জন্য, 'Current Methods' এবং 'MarS'-এর মধ্যে ডেটার প্রাপ্যতা এবং সম্ভাব্যতা বিতরণের মূল পার্থক্য কী?",
+    "answer": [
+      [
+        "মূল পার্থক্যটি ডেটার পরিমাণ এবং ট্রানজিশন সম্ভাবনার সত্যতা উভয় ক্ষেত্রেই নিহিত। 'Current Methods' 'সীমিত ডেটা' এবং একটি 'নকল' সম্ভাব্যতা বিতরণের (P(st+1|st,at)) উপর নির্ভর করে, যেখানে 'MarS' 'অসীম ডেটা' এবং একটি 'বাস্তব' সম্ভাব্যতা বিতরণ ব্যবহার করে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'Current Methods' বা 'MarS' এর জন্য তাদের পদ্ধতির বর্ণনায় 'data' শব্দটি জড়িত আছে এমন কতগুলি স্বতন্ত্র অ্যাপ্লিকেশন তালিকাভুক্ত করা হয়েছে?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "সারণী অনুসারে, বর্তমান পদ্ধতিগুলির তুলনায় MarS-এর আপাত সার্বিক সুবিধা কী, বিশেষ করে ডেটা এবং বাস্তবতার উপস্থাপনার বিষয়ে?",
+    "answer": [
+      [
+        "সার্বিক মূল ধারণাটি ইঙ্গিত করে যে MarS পদ্ধতিগুলি জেনারেটিভ এবং সিমুলেশন-ভিত্তিক পদ্ধতির ব্যবহার করে ঐতিহাসিক বা সীমিত ডেটার সীমাবদ্ধতাগুলি অতিক্রম করার লক্ষ্য রাখে। MarS এক্সট্রাপোলেশন থেকে জেনারেশনে, ঐতিহাসিক তুলনা থেকে সিমুলেটেড তুলনার দিকে এবং সীমিত/জাল ডেটা মডেল থেকে অসীম/বাস্তব ডেটা মডেলের দিকে স্থানান্তরিত হয়। এটি বিশ্লেষণ এবং রিইনফোর্সমেন্ট লার্নিংয়ের জন্য আরও শক্তিশালী, নমনীয় এবং বাস্তবসম্মত ডেটা পরিবেশ তৈরি করার ক্ষেত্রে একটি কৌশলগত সুবিধা নির্দেশ করে।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "টেবিলে হেডার সারি বাদ দিয়ে কয়টি স্বতন্ত্র অ্যাপ্লিকেশনের বিবরণ দেওয়া হয়েছে?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Forecasting এর জন্য বর্তমান ব্যবহৃত পদ্ধতি কী?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

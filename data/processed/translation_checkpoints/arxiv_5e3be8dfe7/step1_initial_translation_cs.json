@@ -1,0 +1,55 @@
+{
+  "columns": [],
+  "data": [
+    [
+      "Model",
+      "Hlavní formulář",
+      "Parametr a vysvětlení"
+    ],
+    [
+      "Logistická regrese",
+      "p=11+e−(α+β⁢X)𝑝11superscript𝑒𝛼𝛽𝑋p\\,\\,=\\,\\,\\frac{1}{1+e^{-\\left(\\alpha+\\beta X\\right)}}italic_p = divide start_ARG 1 end_ARG start_ARG 1 + italic_e start_POSTSUPERSCRIPT - ( italic_α + italic_β italic_X ) end_POSTSUPERSCRIPT end_ARG",
+      "p𝑝pitalic_p: Pravděpodobnost y=1𝑦1y=1italic_y = 1; α𝛼\\alphaitalic_α: Absolutní člen regresní funkce;"
+    ],
+    [
+      "Logistická regrese",
+      "p=11+e−(α+β⁢X)𝑝11superscript𝑒𝛼𝛽𝑋p\\,\\,=\\,\\,\\frac{1}{1+e^{-\\left(\\alpha+\\beta X\\right)}}italic_p = divide start_ARG 1 end_ARG start_ARG 1 + italic_e start_POSTSUPERSCRIPT - ( italic_α + italic_β italic_X ) end_POSTSUPERSCRIPT end_ARG",
+      "β𝛽\\betaitalic_β: Rovinné vektory regresních koeficientů; X𝑋Xitalic_X: Sloupcové vektory vysvětlujících proměnných"
+    ],
+    [
+      "Neuronové sítě",
+      "ajl=σ⁢(∑kwj⁢kl⁢akl−1+bjl)superscriptsubscript𝑎𝑗𝑙𝜎subscript𝑘superscriptsubscript𝑤𝑗𝑘𝑙superscriptsubscript𝑎𝑘𝑙1superscriptsubscript𝑏𝑗𝑙a_{j}^{l}\\,\\,=\\,\\,\\sigma\\left(\\sum_{k}{w_{jk}^{l}a_{k}^{l-1}+b_{j}^{l}}\\right)italic_a start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT = italic_σ ( ∑ start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT italic_w start_POSTSUBSCRIPT italic_j italic_k end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT italic_a start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l - 1 end_POSTSUPERSCRIPT + italic_b start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT )",
+      "ajlsuperscriptsubscript𝑎𝑗𝑙a_{j}^{l}italic_a start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT: Aktivovaný neuron j𝑗jitalic_j v vrstvě l𝑙litalic_l; akl−1superscriptsubscript𝑎𝑘𝑙1a_{k}^{l-1}italic_a start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l - 1 end_POSTSUPERSCRIPT: Aktivovaný neuron k𝑘kitalic_k v vrstvě l−1𝑙1l-1italic_l - 1;"
+    ],
+    [
+      "Neuronové sítě",
+      "ajl=σ⁢(∑kwj⁢kl⁢akl−1+bjl)superscriptsubscript𝑎𝑗𝑙𝜎subscript𝑘superscriptsubscript𝑤𝑗𝑘𝑙superscriptsubscript𝑎𝑘𝑙1superscriptsubscript𝑏𝑗𝑙a_{j}^{l}\\,\\,=\\,\\,\\sigma\\left(\\sum_{k}{w_{jk}^{l}a_{k}^{l-1}+b_{j}^{l}}\\right)italic_a start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT = italic_σ ( ∑ start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT italic_w start_POSTSUBSCRIPT italic_j italic_k end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT italic_a start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l - 1 end_POSTSUPERSCRIPT + italic_b start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT )",
+      "wj⁢klsuperscriptsubscript𝑤𝑗𝑘𝑙w_{jk}^{l}italic_w start_POSTSUBSCRIPT italic_j italic_k end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT: Váha z neuronu k𝑘kitalic_k ve vrstvě l−1𝑙1l-1italic_l - 1 na neuron j𝑗jitalic_j ve vrstvě l𝑙litalic_l;"
+    ],
+    [
+      "Neuronové sítě",
+      "ajl=σ⁢(∑kwj⁢kl⁢akl−1+bjl)superscriptsubscript𝑎𝑗𝑙𝜎subscript𝑘superscriptsubscript𝑤𝑗𝑘𝑙superscriptsubscript𝑎𝑘𝑙1superscriptsubscript𝑏𝑗𝑙a_{j}^{l}\\,\\,=\\,\\,\\sigma\\left(\\sum_{k}{w_{jk}^{l}a_{k}^{l-1}+b_{j}^{l}}\\right)italic_a start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT = italic_σ ( ∑ start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT italic_w start_POSTSUBSCRIPT italic_j italic_k end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT italic_a start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l - 1 end_POSTSUPERSCRIPT + italic_b start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT )",
+      "bjlsuperscriptsubscript𝑏𝑗𝑙b_{j}^{l}italic_b start_POSTSUBSCRIPT italic_j end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_l end_POSTSUPERSCRIPT: Posun neuronu j𝑗jitalic_j ve vrstvě l𝑙litalic_l"
+    ],
+    [
+      "Podpůrný vektorový stroj",
+      "minw,b⁡12⁢‖𝒘‖2,s.t.yi⁢(wT⁢xi+b)⩾1formulae-sequencesubscript𝑤𝑏12superscriptnorm𝒘2𝑠𝑡subscript𝑦𝑖superscript𝑤𝑇subscript𝑥𝑖𝑏1\\min_{w,b}\\,\\,\\frac{1}{2}\\left\\|\\bm{w}\\right\\|^{2},s.t.y_{i}\\left(w^{T}x_{i}+b% \\right)\\geqslant 1roman_min start_POSTSUBSCRIPT italic_w , italic_b end_POSTSUBSCRIPT divide start_ARG 1 end_ARG start_ARG 2 end_ARG ∥ bold_italic_w ∥ start_POSTSUPERSCRIPT 2 end_POSTSUPERSCRIPT , italic_s . italic_t . italic_y start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT ( italic_w start_POSTSUPERSCRIPT italic_T end_POSTSUPERSCRIPT italic_x start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT + italic_b ) ⩾ 1",
+      "w𝑤witalic_w: Parametrický vektor; b𝑏bitalic_b: Posunový člen;"
+    ],
+    [
+      "Podpůrný vektorový stroj",
+      "minw,b⁡12⁢‖𝒘‖2,s.t.yi⁢(wT⁢xi+b)⩾1formulae-sequencesubscript𝑤𝑏12superscriptnorm𝒘2𝑠𝑡subscript𝑦𝑖superscript𝑤𝑇subscript𝑥𝑖𝑏1\\min_{w,b}\\,\\,\\frac{1}{2}\\left\\|\\bm{w}\\right\\|^{2},s.t.y_{i}\\left(w^{T}x_{i}+b% \\right)\\geqslant 1roman_min start_POSTSUBSCRIPT italic_w , italic_b end_POSTSUBSCRIPT divide start_ARG 1 end_ARG start_ARG 2 end_ARG ∥ bold_italic_w ∥ start_POSTSUPERSCRIPT 2 end_POSTSUPERSCRIPT , italic_s . italic_t . italic_y start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT ( italic_w start_POSTSUPERSCRIPT italic_T end_POSTSUPERSCRIPT italic_x start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT + italic_b ) ⩾ 1",
+      "yisubscript𝑦𝑖y_{i}italic_y start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT: Štítek i𝑖iitalic_i; xisubscript𝑥𝑖x_{i}italic_x start_POSTSUBSCRIPT italic_i end_POSTSUBSCRIPT: Vzorek i𝑖iitalic_i"
+    ],
+    [
+      "Rozhodovací strom",
+      "E⁢n⁢t⁢(D)=−∑k=1mpk⁢log2⁡pk𝐸𝑛𝑡𝐷superscriptsubscript𝑘1𝑚subscript𝑝𝑘subscript2subscript𝑝𝑘Ent\\left(D\\right)=-\\sum_{k=1}^{m}{p_{k}\\log_{2}p_{k}}italic_E italic_n italic_t ( italic_D ) = - ∑ start_POSTSUBSCRIPT italic_k = 1 end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_m end_POSTSUPERSCRIPT italic_p start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT roman_log start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT italic_p start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT",
+      "E⁢n⁢t⁢(⋅)𝐸𝑛𝑡⋅Ent\\left(\\cdot\\right)italic_E italic_n italic_t ( ⋅ ): Informační entropie; D𝐷Ditalic_D: Soubor vzorků;"
+    ],
+    [
+      "Rozhodovací strom",
+      "E⁢n⁢t⁢(D)=−∑k=1mpk⁢log2⁡pk𝐸𝑛𝑡𝐷superscriptsubscript𝑘1𝑚subscript𝑝𝑘subscript2subscript𝑝𝑘Ent\\left(D\\right)=-\\sum_{k=1}^{m}{p_{k}\\log_{2}p_{k}}italic_E italic_n italic_t ( italic_D ) = - ∑ start_POSTSUBSCRIPT italic_k = 1 end_POSTSUBSCRIPT start_POSTSUPERSCRIPT italic_m end_POSTSUPERSCRIPT italic_p start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT roman_log start_POSTSUBSCRIPT 2 end_POSTSUBSCRIPT italic_p start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT",
+      "m𝑚mitalic_m: Počet kategorií vzorků; pksubscript𝑝𝑘p_{k}italic_p start_POSTSUBSCRIPT italic_k end_POSTSUBSCRIPT: Proporce vzorku třídy k𝑘kitalic_k"
+    ]
+  ]
+}

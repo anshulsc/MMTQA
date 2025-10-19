@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Hans modul konfiqurasiyası ən uzun proqnoz üfüqündə, MSE30-da ən aşağı (ən yaxşı) performansı əldə edir?",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "MSE3 ballarinin 'Audio+Text' konfiqurasiyasini ozunde ehtiva eden butun modullar uzre ortalamasi ne qederdir?",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_003",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Ən yaxşı ümumi performansı (MSE_over sütununda ən aşağı dəyər) göstərən modul üçün onun spesifik MSE7 balı nədir?",
+    "answer": [
+      [
+        "0.306"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_004",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "'Audio+Text+Efo' modulunun MSE3-dən MSE30-a qədər proqnoz üfüqü artdıqca xəta səviyyəsinin göstəricisini təsvir edin.",
+    "answer": [
+      [
+        "\"Audio+Text+Efo\" modulunun MSE dəyəri, proqnoz üfüqü genişləndikcə aydın bir inkişaf (səhvin azalması) tendensiyası göstərir. Ən yüksək səhvi MSE3 üçün 0.579-da başlayır, sonra MSE7 üçün 0.323-ə əhəmiyyətli dərəcədə azalır və MSE15 üçün 0.230-a sabit bir eniş davam edir və MSE30 üçün ən aşağı 0.165 nöqtəsinə çatır."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_005",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "MSE15 balı 0.25-dən aşağı VƏ MSE30 balı 0.18-dən aşağı olan bütün modul konfiqurasiyalarını siyahıya alın.",
+    "answer": [
+      [
+        "Audio+Text+Efo"
+      ],
+      [
+        "Eos+Ecs+Efo"
+      ],
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "A7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "'Audio+Text' modulundan ən mürəkkəb 'Audio+Text+Eos+Ecs+Efo' moduluna keçərkən MSE30 səhvi hansı faizlə azalır?",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Əgər məlumatların ilkin emalı təkmilləşdirilməsi 'Eos+Ecs+Efo' modulunun MSE_over dəyərini 15% endirsə, yeddi modul üzrə yeni orta MSE_over dəyəri nə olacaq?",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Məlumata əsasən, modulun qısamüddətli (MSE3) və uzunmüddətli (MSE30) performansları arasında müntəzəm bir əlaqə varmı? Cavabınızı əsaslandırın.",
+    "answer": [
+      [
+        "Bəli, güclü müsbət korrelyasiya var. Ən aşağı MSE3 xallarına sahib olan modullar, 'Audio+Text+Eos+Ecs+Efo' (0.553) və 'Audio+Text+Efo' (0.579), eyni zamanda ən aşağı MSE30 xallarına (müvafiq olaraq 0.158 və 0.165) malikdir. Əksinə, ən yüksək MSE3 xallarına sahib olan modullar, məsələn 'Audio+Text' (0.645) və 'Audio+Text+Ecs' (0.640), ən yüksək MSE30 xallarını (0.204 və 0.201) göstərir. Bu, qısamüddətli proqnozlaşdırmada yaxşı nəticə verən modulların həm də uzunmüddətli proqnozlaşdırmada yaxşı performans göstərməyə meylli olduğunu göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_009",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Cədvəldəki MSE7 və MSE15 proqnoz üfüqləri arasındakı rəqəmsal interval nə qədərdir?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Hans modullar MSE7 üfüqündə 'Audio+Text' baza modulundan daha pis performans göstərir (daha yüksək MSE-yə malikdir), bu da onların bu xüsusi nöqtədəki performansını əlavə xüsusiyyətlərdən gözlənilən yaxşılaşmadan kənarlaşdırır?",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Audio+Mətn modulunun orta MSE dəyəri nə qədərdir?",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ما هي طريقة اختيار الميزات التي حققت أقل قيمة خطأ لإعداد التنبؤ 'BC2_64'؟",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ما هو متوسط عدد المتغيرات الخارجية المستخدمة بواسطة طريقة 'اختيار الميزات بانحدار LASSO' عبر جميع إعدادات التنبؤ؟",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "بالنسبة لإعداد التنبؤ 'BC3_28'، ما هي مقياس الخطأ للطريقة التي تستخدم أعلى عدد من المتغيرات الخارجية؟",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "هل يؤدي زيادة عدد المتغيرات الخارجية باستمرار إلى تحسين الأداء (أي خفض قيمة الخطأ) لإعداد 'BC1_64'؟ قدم تحليلًا موجزًا.",
+    "answer": [
+      [
+        "لا، لا توجد علاقة ثابتة. بالنسبة لإعداد 'BC1_64'، تستخدم 'Correlation-Based Selection' (اختيار قائم على الارتباط) 3 متغيرات لخطأ قدره 14.11، وتستخدم 'LASSO regression' (انحدار LASSO) أيضًا 3 متغيرات ولكن لديها خطأ أعلى قدره 14.55. تستخدم 'Forward Feature Selection NP' (اختيار الميزات الأمامي NP) عددًا أكبر بكثير من المتغيرات (28) وتحقق خطأ أفضل بكثير (أقل) قدره 9.16. يشير هذا إلى أنه بينما يمكن أن يكون عدد أكبر من المتغيرات أفضل، فإن طريقة الاختيار المحددة أمر بالغ الأهمية وإضافة المتغيرات ببساطة ليست ضمانًا للتحسين."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "اذكر جميع طرق اختيار الميزات التي أسفرت عن قيمة خطأ أكبر من 15 لإعداد 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية لإجمالي عدد المتغيرات الخارجية التي استخدمها 'Forward Feature Selection NP' عبر جميع الإعدادات والتي تم تخصيصها لإعداد 'BC1_64'؟",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "إذا تسببت مشكلة في معالجة البيانات في انخفاض جميع مقاييس الخطأ لإعداد 'BC2_28' بمقدار 2.5 نقطة عن المسجلة، فما هو الخطأ الجديد لـ 'Manual feature selection'؟",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "من بين طرق اختيار الميزات حيث يتم إدراج عدد المتغيرات بشكل صريح، أي منها تظهر أكبر قدر من عدم الاستقرار، كما تم قياسه بواسطة المدى (الحد الأقصى مطروحًا منه الحد الأدنى) للمتغيرات المختارة عبر إعدادات التنبؤ المختلفة؟",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "بالنسبة لطريقة 'اختيار الميزات بانحدار LASSO'، فإن قيمة الخطأ لـ 'BC3_28' تُعد قيمة شاذة. كيف يُقارن عدد المتغيرات الخارجية المقابلة لها بالإعدادات الأخرى لنفس الطريقة؟",
+    "answer": [
+      [
+        "إعداد 'BC3_28'، الذي يمتلك الخطأ الشاذ المرتفع البالغ 28.79 لـ LASSO، يستخدم أيضًا أعلى عدد من المتغيرات الخارجية (16) لتلك الطريقة. هذا أكثر بكثير من الإعدادات الأخرى، التي تتراوح من 0 إلى 10 متغيرات. يشير هذا إلى مشكلة محتملة حيث اختارت طريقة LASSO مجموعة كبيرة، ولكنها ضعيفة الأداء، من الميزات لسياق التنبؤ المحدد هذا."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "بتحليل أداء خط الأساس 'بدون متغيرات خارجية'، صف الاتجاه في مقياس الخطأ أثناء الانتقال بالتسلسل من إعدادات 'BC1' إلى 'BC2' ثم إلى 'BC3'.",
+    "answer": [
+      [
+        "يُظهر أداء خط الأساس 'بدون متغيرات خارجية' نمطًا واضحًا عبر الإعدادات. يبدأ بقيم خطأ معتدلة لإعدادات BC1 (11.14، 13.65). يتحسن الأداء بشكل كبير لإعدادات BC2، التي لديها أقل الأخطاء (3.75، 9.08). وأخيرًا، يزداد الخطأ مرة أخرى لإعدادات BC3 (17.53، 9.06)، مع كون BC3_64 الأعلى خطأً بشكل عام لهذه الطريقة. يشير هذا إلى أن نموذج خط الأساس هو الأنسب لظروف BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "بين 'LASSO regression feature selection' و 'Forward Feature Selection NP'، أي إعداد للتنبؤ حقق قيمة أقل في تهيئة BC2_64؟",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' حقق قيمة أقل (2.9) مقارنة بـ 'LASSO regression feature selection' (5.73) في تهيئة BC2_64."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

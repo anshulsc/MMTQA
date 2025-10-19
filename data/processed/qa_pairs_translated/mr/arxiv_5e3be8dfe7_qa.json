@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "तक्त्यामध्ये नमूद केलेल्या भिन्न पॅरामीटर स्पष्टीकरणांची सर्वाधिक संख्या कोणत्या मॉडेलमध्ये आहे?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "मुख्य सूत्रामध्ये बेरजेचा घटक (Σ) वापरणाऱ्या सर्व मॉडेल्ससाठी एकूण किती भिन्न पॅरामीटर्स स्पष्ट केले आहेत?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "मुख्य सूत्रामध्ये एक्सपोनेंशियल (उदा. e^x) समाविष्ट नसलेल्या मॉडेल्सची यादी करा.",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "त्यांच्या सूत्रामध्ये वैयक्तिक नमुने किंवा डेटा पॉइंट्स (उदा. 'नमुना i') दर्शवणारे पॅरामीटर वापरणाऱ्या मॉडेल्सची टक्केवारी किती आहे?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "एखाद्या डिसिजन ट्री (Decision Tree) मॉडेलमध्ये जर सॅम्पल कॅटेगरीची संख्या 'm' 1 असेल, तर सूत्रांनुसार इन्फॉर्मेशन एन्ट्रॉपी 'Ent(D)' ची गणली गेलेली किंमत काय असेल?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "इतर मॉडेल्सच्या तुलनेत कोणते मॉडेल मूलभूतपणे वेगळे आहे, कारण ते आउटपुट मूल्याच्या थेट गणनेऐवजी ऑप्टिमायझेशन समस्या (कमीत कमी करणे) म्हणून सादर केले जाते?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "लॉजिस्टिक रिग्रेशनमधील 'β' पॅरामीटरची भूमिका सपोर्ट व्हेक्टर मशीनमधील 'w' पॅरामीटरशी कशी वेगळी आहे, हे सूत्रे आणि पॅरामीटर्सच्या आधारावर स्पष्ट करा.",
+    "answer": [
+      [
+        "लॉजिस्टिक रिग्रेशनमध्ये, 'β' हे रिग्रेशन कोएफिशियंट्सचे (coefficients) रो व्हेक्टर (row vector) आहे, जे इंटरसेप्टसह (intercept) लॉजिस्टिक फंक्शनद्वारे परिणामाची संभाव्यता निर्धारित करते. सपोर्ट व्हेक्टर मशीनमध्ये, 'w' हे पॅरामीटर व्हेक्टर आहे जे सेपरेटिंग हायपरप्लेनचे (separating hyperplane) ओरिएंटेशन (orientation) परिभाषित करते. SVM मध्ये लक्ष्य 'w' शोधणे आहे जे वर्गांमधील मार्जिन (margin) वाढवते, तर लॉजिस्टिक रिग्रेशनमध्ये, 'β' साधारणपणे निरीक्षित डेटाची शक्यता वाढवून शोधले जाते."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "न्यूरल नेटवर्क्समधील 'लेयर्स' (layers) आणि डिसिजन ट्रीजमधील 'एन्ट्रॉपी' (entropy) या संकल्पना डेटा लर्निंगकडे त्यांच्या भिन्न दृष्टिकोन कशा दर्शवतात?",
+    "answer": [
+      [
+        "न्यूरल नेटवर्क्समधील 'लेयर्स' (l आणि l-1) ही संकल्पना एका श्रेणीबद्ध वैशिष्ट्य शिक्षण दृष्टिकोन दर्शवते. मॉडेल successive layers मधून ऍक्टिव्हेशन्स पास करून डेटाचे अधिकाधिक क्लिष्ट प्रतिनिधित्व शिकते, वजन ('w') आणि बायस ('b') समायोजित करून एक क्लिष्ट फंक्शन ऍप्रोक्झिमेटर तयार करते. याउलट, डिसिजन ट्रीजमधील 'एन्ट्रॉपी' (Ent(D)) ही संकल्पना एका लोभी, नियम-आधारित दृष्टिकोन दर्शवते. मॉडेल एन्ट्रॉपीमध्ये (माहिती लाभ) सर्वात मोठी घट होणारी वैशिष्ट्ये निवडून डेटाला वारंवार शुद्ध सबसेट्समध्ये विभाजित करते, ज्यामुळे if-then नियमांचा एक स्पष्ट संच तयार होतो."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "टेबलमध्ये वर्णन केलेल्या युनिक मॉडेल्सची एकूण संख्या किती आहे?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "कोणत्या स्तंभाचा मुख्य उद्देश शेजारील स्तंभात वापरलेले व्हेरिएबल्स परिभाषित करणे आहे?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

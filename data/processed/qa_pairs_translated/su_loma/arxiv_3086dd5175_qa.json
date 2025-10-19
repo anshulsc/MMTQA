@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Sabaraha pilihan béda sadayana aya pikeun sadaya hyperparameter anu digolongkeun salaku 'Kategorikal'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Hiperparameter mana waé anu boga pilihan diskrit panglobana nu didaptarkeun dina 'Range / Options' maranéhanana?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Daptar sadaya hyperparameter anu sanes Kategori anu rentang numerisna kalebet nilai 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Sabaraha persén tina hyperparameter nu didaptarkeun anu jenis 'Continuous'?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Pikeun hyperparameter kalayan pilihan diskrit pangsaeutikna, naon jinisna?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Sabaraha kategori 'Type' anu unik anu didaptarkeun dina tabél, sareng naon waé?",
+    "answer": [
+      [
+        "Aya 3 kategori 'Type' anu unik anu didaptarkeun dina tabél: Continuous, Categorical, sareng Integer."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Lamun rentang 'Jumlah lapisan R-GCN' dipanjangkeun jadi '1 nepi ka 7' jeung hiji 'hyperparameter Kategori' anyar 'Ukuran Batch' kalawan pilihan '{16, 32, 64}' ditambahkeun, sabaraha jumlahna pilihan diskrit anyar di sakuliah sadaya hyperparameters non-kontinyu?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Hyperparameter jenis 'Kontinyu' mana nu boga format rentang anu unik dibandingkeun jeung nu séjén dina jinisna, jeung naon nu ngajadikeun unik?",
+    "answer": [
+      [
+        "The 'Learning rate' boga format unik. Teu kawas 'Dropout rate' nu boga rentang angka basajan, rentang 'Learning rate' ditangtukeun maké notasi ilmiah jeung ngawengku catetan dina kurung '(log-uniform)' nu nunjukkeun distribusi sampling husus."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Bandélkeun rarancang kerumitan rohangan pikeun hyperparameter tipe 'Terus-terusan' versus tipe 'Katégorial' sakumaha anu dijelaskeun dina tabel.",
+    "answer": [
+      [
+        "Dumasar kana tabel, hyperparameter tina tipe 'Terus-terusan' boga rohangan pilarian anu teu kawatesan leuwih badag batan anu 'Katégorial'. Parameter 'Terus-terusan' kawas 'Laju diajar' bisa nyokot sagala nilai nyata dina watesna, nyieun kamungkinan anu teu kawatesan. Sabalikna, parameter 'Katégorial' kawas 'Optimizer' boga set leutik, kawates pilihan anu didaptarkeun, sahingga rohangan pilarianna diskrit jeung bisa diitung."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Hiperparameter mana anu pilihanana didaptarkeun sadayana kakawasaan 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

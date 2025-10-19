@@ -1,0 +1,280 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Hans beta əmsalı (β), ən yüksək mütləq t-dəyəri ilə göstərildiyi kimi, öz təsirinin ən güclü statistik sübutunu göstərir?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Statistik cəhətdən < 0.05 p-dəyərində əhəmiyyətli olan bütün alfa (α) əmsalları üçün orta standart səhv nə qədərdir?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "95% etibarlı aralığı ən geniş olan β əmsalına (alt yazılı indeks nömrəsi ilə göstərilən model komponenti) malik model komponentinin müvafiq α əmsalının p-qiyməti nədir?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Alt yazının artmasından 1-dən 6-ya qədər β əmsallarının böyüklüyünün tendensiyasını təsvir edin. Tutarlı bir nümunə varmı?",
+    "answer": [
+      [
+        "Tutarlı monoton bir tendensiya yoxdur. β əmsalları əvvəlcə β₁ (0.7208) -dən β₂ (0.8237) -yə qədər artır, lakin sonra β₃ (0.0025) və sonrakı modellər üçün dramatik şəkildə azalır. İlk iki komponentin dəyərləri, sıfıra çox yaxın olan 3-dən 6-ya qədər olan komponentlərin dəyərlərindən dəfələrlə böyükdür."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Alınmış bütün modelləri müəyyən edin ki, alfa (α) əmsalı həm statistik cəhətdən əhəmiyyətsizdir (P-value > 0.4) VƏ standart xətası 0.03-dən azdır.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Bütün quraşdırılmış model əmsallarının (həm α, həm də β) statistik cəhətdən əhəmiyyətli olan, p-dərəci 0.05-dən az olan faizi nə qədərdir?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Əgər α₁ modelinin standart xətası yarıya qədər azalsaydı, onun yeni t-statisti nə olardı? Cədvəldəki digər modellər üçün t-statistika və p-dəyərləri arasındakı əlaqəyə əsaslanaraq, bu dəyişiklik α₁ əmsalını statistik cəhətdən əhəmiyyətli edə bilərdimi (p < 0.05)?",
+    "answer": [
+      [
+        "Yeni t-statisti -1.593 (-0.0215 / (0.027 / 2)) olardı. Bu, əmsalın statistik cəhətdən əhəmiyyətli olmasını təmin etməyəcək. Müqayisə üçün, α₂ modelinin t-statisti -2.803 və p-dəyəri 0.005-dir. -1.593 kimi daha kiçik bir mütləq qiymətə malik t-statistika daha yüksək p-dərəcəsinə sahib olardı, adətən əhəmiyyətlilik üçün 0.05 həddindən yuxarı qalardı, bu da adətən təxminən 2 və ya daha çox mütləq t-dəyər tələb edir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "β əmsallarının böyüklüyü ilə onların müvafiq t-statistika arasındakı əlaqəni təhlil edin. Daha böyük əmsal ardıcıl olaraq daha böyük t-statistika gətirirmi?",
+    "answer": [
+      [
+        "Xeyr, daha böyük β əmsalı ardıcıl olaraq daha böyük t-statistika gətirmir. Məsələn, β₂ ən böyük əmsala (0.8237) malikdir, lakin onun t-statistika (8.418) çox kiçik əmsala (0.0041) malik olan β₄-ün t-statistika (126.061) ilə müqayisədə xeyli kiçikdir. T-statistika əmsalın onun standart səhvinə nisbətidir, buna görə də çox kiçik standart səhv, β₃-dən β₆-ya qədər olan modellərdə göründüyü kimi, kiçik bir əmsal üçün belə çox böyük bir t-statistika verə bilər."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Statistik prinsiplərə əsasən, sıfırı əhatə etməyən 95% etibarlı aralığı 0.05-dən kiçik p-qiymətinə uyğun gəlməlidir. Cədvəldə etibarlı aralıq və p-qiyməti bu prinsipə zidd olan hər hansı uyğunlaşdırılmış model əmsalı varmı?",
+    "answer": [
+      [
+        "Xeyr, cədvəldəki bütün əmsallar onların p-qiyməti və 95% etibarlı aralığı arasında uyğunluq göstərir. 0.05-dən kiçik p-qiymətinə malik olan bütün əmsallar (məsələn, β₁, α₂, β₂) sıfırı əhatə etməyən etibarlı aralığa malikdir. Əksinə, 0.05-dən böyük p-qiymətinə malik olan bütün əmsallar (məsələn, α₁, α₃, α₄) sıfırı əhatə edən etibarlı aralığa malikdir."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Hans alfa (α) əmsalının t-statistika digər alfa əmsallarının t-statistikaı ilə müqayisədə ən əhəmiyyətli kənarlaşma göstəricisidir?",
+    "answer": [
+      [
+        "α₆, 7.305 t-statistika dəyəri ilə, ən əhəmiyyətli kənarlaşmadır. Digər alfa t-statistika dəyərləri isə -0.787, -2.803, -0.269, 0.013 və 0.729-dur. Bu dəyərlərin çoxu -3 ilə 1 arasında yerləşir. 7.305 dəyəri, əhəmiyyətli dərəcədə böyük bir mənəvi dəyərə malikdir və qalan dəyərlərdən əhəmiyyətli dərəcədə fərqlənən yeganə böyük müsbət dəyərdir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_011",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Cədvəldə göstərilən uyğunlaşdırılmış modellərin sayı nə qədərdir?",
+    "answer": [
+      [
+        "There are 12 fitted models listed in the table (α₁–α₆ and β₁–β₆)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

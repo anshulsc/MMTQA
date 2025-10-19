@@ -77,15 +77,18 @@ VLLM_BASE_URL = "http://localhost:8000/v1"
 VLLM_API_KEY = "EMPTY"
 VLLM_MODEL_NAME = "Qwen/Qwen3-32B" 
 
-GEMINI_API_KEY = "Key"
-GEMINI_MODEL_NAME = "gemini-2.5-flash-lite"
+GEMINI_API_KEY = [
+"API"
+]
+
+GEMINI_MODEL_NAME = "gemini-flash-latest"
 
 VLLM_MODE = 'offline'  
 
 
 
 VLLM_TENSOR_PARALLEL_SIZE = 2  
-VLLM_GPU_MEMORY_UTIL = 0.8  
+VLLM_GPU_MEMORY_UTIL = 0.8
 
 
 

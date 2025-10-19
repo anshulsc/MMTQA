@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "arxiv_146818ba46_001",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Quels modèles offrent une évolutivité sous-linéaire, et quelle est la différence essentielle de leurs fonctionnalités prises en charge ('Pre-entraînement', 'Multi-tâche') ?",
+    "answer": [
+      [
+        "TimeMixer et PatchTST offrent une évolutivité sous-linéaire. La principale différence est que TimeMixer prend en charge l'apprentissage multi-tâches, alors que PatchTST ne le fait pas ; aucun des deux modèles n'utilise le pré-entraînement."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "E3",
+      "A5",
+      "B5",
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_002",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Quel est le nombre total de modèles qui prennent en charge soit la pré-entraînement, soit l'apprentissage multi-tâches, mais pas les deux?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_146818ba46_003",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Identifiez l'application principale du modèle qui a une évolutivité linéaire et des exigences de calcul moyennes.",
+    "answer": [
+      [
+        "Task Flexibility"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_004",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Si un projet de recherche évolue de la nécessité d'un modèle pour les 'Long Sequences' à la nécessité d'un modèle avec 'Task Flexibility', quel modèle serait le choix approprié à la deuxième étape ?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_005",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Énumérez les modèles qui n'utilisent pas de pré-entraînement et qui offrent une évolutivité sous-linéaire.",
+    "answer": [
+      [
+        "TimeMixer"
+      ],
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A5",
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_006",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Quelle proportion des modèles répertoriés nécessitent des ressources de calcul \"High\" ?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_146818ba46_007",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Si 'TimesNet' était amélioré pour prendre en charge la 'Pré-entraînement', quel modèle existant ressemblerait-il le plus en termes de fonctionnalités (Pré-entraînement, Multi-tâche, Calcul, Évolutivité) ?",
+    "answer": [
+      [
+        "Le TimesNet amélioré ne ressemblerait pas étroitement à un autre modèle unique. Bien qu'il partagerait la 'Pré-entraînement', la 'Multi-tâche' et l'évolutivité 'Linéaire' avec Timer et MOMENT, son calcul 'Moyen' le différencierait toujours de leurs exigences de calcul 'Élevé'."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B4",
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_008",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe-t-il une corrélation discernable entre l'évolutivité d'un modèle et l'accent mis par son application principale sur la longueur de la séquence ou la flexibilité ?",
+    "answer": [
+      [
+        "Oui, il semble y avoir une corrélation. Les modèles avec une évolutivité 'Sublinéaire' plus efficace (TimeMixer, PatchTST) sont associés à des applications impliquant des schémas complexes ou de longues séquences ('Multiscale Patterns', 'Long Sequences'). En revanche, les modèles avec une évolutivité 'Linéaire' ont tendance à être appliqués à des tâches nécessitant de la flexibilité ou un apprentissage sous contraintes ('Few-shot Learning', 'Limited Supervision', 'Task Flexibility')."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_146818ba46_009",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Quelle colonne, autre que 'Model', contient l'ensemble de valeurs uniques le plus diversifié ?",
+    "answer": [
+      [
+        "Primary Application"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_146818ba46_010",
+    "table_id": "arxiv_146818ba46",
+    "question_type": "value",
+    "question": "Quel modèle est une valeur aberrante car il ne prend en charge ni la pré-entraînement ni l'apprentissage multi-tâches ?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "arxiv_6e5eaf404b_001",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "MASAとTrendTraderの研究のうち、より広範で多様な国際株価指数にわたって有効性が実証されているのはどちらの研究ですか？",
+    "answer": [
+      [
+        "MASA Li et al. (2024e) は、中国と米国の主要な3つの指数（CSI300、DJIA、S&P500）をカバーしており、より広範な範囲で有効であることが示されています。TrendTraderの結果は2つの指数（DJIA、SSE-50）に限定されています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_002",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "記載されている研究のうち、中国の株式市場指数（CSI300またはSSE-50）で優れたパフォーマンスを達成したと明示的に言及しているものはいくつありますか？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_003",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "「空間時間的強化学習フレームワーク」をその手法として利用するフレームワークの主要なイノベーションは何ですか？",
+    "answer": [
+      [
+        "Multimodal fusion of price and sentiment"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_004",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "市場ベンチマークを60パーセントポイント以上上回るリターンを示した、極端に高いアウトライヤーとなるパフォーマンス結果を報告している研究論文はどれですか？",
+    "answer": [
+      [
+        "LLM-Alpha Kou et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_005",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "主要なイノベーションに基づいて、価格変動の予測ではなく、ポートフォリオの多様化または資産選択に焦点を当てた研究をリストアップしてください。",
+    "answer": [
+      [
+        "EarnMore Zhang et al. (2024d)",
+        "Network-EDM Hui and Wang (2024)",
+        "Market-Graph Yamagata and Ono (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_006",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "コアとなるイノベーションに、センチメントやネットワーク理論などの非価格データを明示的に組み込んでいる研究は、リストされた研究作品全体の何パーセントを占めますか？",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_007",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "'EarnMore'フレームワークの利益増加率が15パーセントポイント（+40%から+25%へ）減少した場合、その新たな主要な結果は何になり、利益が大幅に低下した場合に、リスクレベルが「同等」であるという主張にどのように影響しますか？",
+    "answer": [
+      [
+        "新たな主要な結果は「利益: +25%、同等のリスクレベル」となります。リスクレベルが同じであるにもかかわらず利益が+25%に低下すると、その戦略の魅力は低下します。リスク調整後リターンは低下し、そのリスクレベルが低下したリターンと比較して「同等」ではない、あるいは許容できないものになる可能性があります。"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_008",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "表に基づくと、マルチエージェントシステムの利用と報告されている一次結果の性質との間には、どのような関係が推測されますか？",
+    "answer": [
+      [
+        "マルチエージェントシステムの使用と、優れた定量化可能なリターンの達成との間には、正の相関関係があるように見えます。このアプローチを使用した2つの研究、MASAとLLM-Alphaは、それぞれ「優れたリスク調整後リターン」と「+53.17%」という特定の高リターンを報告しています。これは、マルチエージェントフレームワークが強力で測定可能な財務的アウトパフォームを生み出すのに効果的であることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_009",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "市場グラフベースのクラスタリングアプローチで革新を行った研究の主な結果は何ですか？",
+    "answer": [
+      [
+        "Higher Sharpe ratios on S&P500"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_010",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "「主な革新」または「方法論」のどちらの列が、研究がどのように実施されたかについて、より具体的で技術的な実装の詳細を提供していますか？",
+    "answer": [
+      [
+        "「方法論」の列が、より具体的で技術的な詳細を提供します。例えば、「主な革新」は「周波数領域解析」（FreQuant）や「LLMベースのアルファファクターマイニング」（LLM-Alpha）のような広範な概念を示すかもしれませんが、「方法論」の列は、それぞれ「DFTによるマルチグラニュラー資産表現」や「動的ウェイトゲーティングを備えたマルチエージェントシステム」といった、使用された正確な技術を特定します。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_011",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "MASA Li et al. (2024e) における主要なイノベーションは何ですか？",
+    "answer": [
+      [
+        "専門化されたリスクおよびリターンエージェントを備えたマルチエージェントフレームワーク。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Content Reasoning"
+  }
+]

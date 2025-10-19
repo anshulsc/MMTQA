@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Si l'heure de livraison T est de 30, quelle variable SIDC représente la clôture des carnets d'ordres, et à quelle heure de négociation t cet événement se produit-il ?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle est la différence fondamentale entre les périodes de négociation définies par SIDCO et SIDCL par rapport au moment de la livraison ?",
+    "answer": [
+      [
+        "La différence fondamentale réside dans leur moment par rapport à la livraison. SIDCO définit la période pendant laquelle les carnets d'ordres sont ouverts, ce qui doit être au moins deux unités de temps avant la livraison (T-t ≥ 2). En revanche, SIDCL définit la période après la clôture des carnets d'ordres, qui se situe dans les deux unités de temps précédant la livraison (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Selon les interprétations fournies, combien d'heures s'écoulent entre la première et la seconde vague de couplage des carnets d'ordres transfrontaliers ?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "En se basant sur les conditions de temps de négociation, quel événement SIDC représente le moment spécifique qui précède immédiatement le début de la période SIDCL ?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Pour un produit avec un temps de livraison T=20, lequel des deux événements spécifiés \"vague\" (SIDC1 ou SIDC2) ne pourrait pas se produire car son temps de négociation tomberait en dehors de la période d'ouverture valide ?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Si la deuxième vague de couplage (SIDC2) était retardée pour se produire à t=30, quel serait le temps de livraison minimum T requis pour que cet événement tombe toujours dans la période d'ouverture générale définie par SIDCO ?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Quels sont les paramètres communs utilisés dans la notation de type fonction pour chaque variable listée dans la colonne 'Variable' ?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Un échange est effectué à l'heure de négociation t=20 pour un produit avec une heure de livraison T=25. Quelles sont les conditions de la variable SIDC satisfaites par cet échange ?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Quelle variable marque la transition de la période SIDCO à la période SIDCL, et quelle est sa condition de temps de négociation définissant ?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Comparez la portée temporelle de la variable SIDCO avec celle de la variable SIDC1 en vous basant sur leurs définitions.",
+    "answer": [
+      [
+        "SIDCO représente une période continue pendant laquelle les carnets d'ordres sont ouverts, définie par les intervalles t≥12 et T-t≥2. En revanche, SIDC1 représente un point temporel unique et discret, t=12, qui marque le moment précis du premier événement de couplage au début de la période SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle variable SIDC représente la clôture des carnets d'ordres transfrontaliers et à quelle condition de temps de négociation cela se produit-il ?",
+    "answer": [
+      [
+        "La variable SIDC꜀(d,h,t) représente la clôture des carnets d'ordres transfrontaliers, et elle se produit lorsque T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

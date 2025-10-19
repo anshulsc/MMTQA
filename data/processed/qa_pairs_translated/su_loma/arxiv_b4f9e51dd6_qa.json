@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Konfigurasi modul mana anu ngahontal kinerja panghandapna (pangsaéna) dina cakrawala prediksi pangpanjangna, MSE30?",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Sabaraha skor MSE3 rata-rata dina sakabéh modul anu ngawengku 'Audio+Text' dina konfigurasina?",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_003",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Pikeun modul nu némbongkeun kinerja panghadéna sacara umum (nilai panghandapna dina kolom MSE_over), sabaraha skor MSE7 na?",
+    "answer": [
+      [
+        "0.306"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_004",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskeun tren tina Mean Squared Error (MSE) pikeun modul 'Audio+Text+Efo' nalika cakrawala prediksi ningkat ti MSE3 ka MSE30.",
+    "answer": [
+      [
+        "MSE pikeun modul 'Audio+Text+Efo' nunjukkeun tren perbaikan anu jelas (panurunan kasalahan) nalika cakrawala prediksi ngalegaan. Dimimitian dina titik kasalahan pangluhurna 0.579 pikeun MSE3, teras turun sacara signifikan ka 0.323 pikeun MSE7, sareng teras-terasan turun ka 0.230 pikeun MSE15 sareng ngahontal titik panghandapna 0.165 pikeun MSE30."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_005",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Sebutkeun sadaya konfigurasi modul anu skor MSE15 na langkung alit tibatan 0,25 SARENG skor MSE30 na langkung alit tibatan 0,18.",
+    "answer": [
+      [
+        "Audio+Text+Efo"
+      ],
+      [
+        "Eos+Ecs+Efo"
+      ],
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "A7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Sabaraha persén panurunan kasalahan MSE30 nalika pindah ti modul 'Audio+Téks' dasar ka modul 'Audio+Téks+Eos+Ecs+Efo' anu paling kompléks?",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Upami perbaikan pra-pemrosesan data ngirangan nilai MSE_over pikeun modul 'Eos+Ecs+Efo' ku 15%, sabaraha nilai MSE_over rata-rata anu énggal di tujuh modul?",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Nalika ningali data, naha aya hubungan anu konsisten antara kinerja jangka pondok modul (MSE3) sareng kinerja jangka panjangna (MSE30)?,\nJustifikasi jawaban anjeun.",
+    "answer": [
+      [
+        "Sumuhun, aya korelasi positif anu kuat. Modul anu gaduh skor MSE3 panghandapna, 'Audio+Text+Eos+Ecs+Efo' (0.553) sareng 'Audio+Text+Efo' (0.579), ogé gaduh skor MSE30 panghandapna (masing-masing 0.158 sareng 0.165). Sabalikna, modul anu gaduh skor MSE3 pangluhurna, sapertos 'Audio+Text' (0.645) sareng 'Audio+Text+Ecs' (0.640), nunjukkeun skor MSE30 pangluhurna (masing-masing 0.204 sareng 0.201). Ieu nunjukkeun yén modul anu performa saé dina prediksi jangka pondok ogé condong performa saé dina prediksi jangka panjang."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_009",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Sabaraha panalungtikan dina antarwaktu antara MSE7 jeung MSE15 dina struktur tabel?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Modul mana waé anu performana langkung goréng (ngagaduhan MSE langkung luhur) dina cakrawala MSE7 tibatan modul 'Audio+Text' salaku baseline, anu ngajantenkeun performana dina titik ieu janten outlier dibandingkeun sareng perbaikan anu diarepkeun tina nambihan fitur?",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Naon rata-rata MSE tina modul Audio+Téks?",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

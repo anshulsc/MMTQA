@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "यदि डिलीवरी का समय T 30 है, तो कौन सा SIDC चर ऑर्डर बुक के बंद होने का प्रतिनिधित्व करता है, और यह घटना किस ट्रेडिंग समय t पर होती है?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "डिलीवरी समय के संबंध में SIDCO और SIDCL द्वारा परिभाषित ट्रेडिंग अवधियों के बीच मौलिक अंतर क्या है?",
+    "answer": [
+      [
+        "मौलिक अंतर डिलीवरी के संबंध में उनके समय में निहित है। SIDCO उस अवधि को परिभाषित करता है जब ऑर्डर बुक खुली होती हैं, जो डिलीवरी से कम से कम दो समय इकाई पहले होनी चाहिए (T-t ≥ 2)। इसके विपरीत, SIDCL उस अवधि को परिभाषित करता है जब ऑर्डर बुक बंद हो जाती हैं, जो डिलीवरी के दो समय इकाइयों के भीतर होती है (T-t ≤ 2)।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "दिए गए स्पष्टीकरणों के अनुसार, क्रॉस-बॉर्डर ऑर्डर बुक कपलिंग की पहली और दूसरी लहरों के बीच कितने घंटे बीतते हैं?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ट्रेडिंग समय की शर्तों के आधार पर, कौन सी SIDC घटना SIDCL अवधि की शुरुआत से ठीक पहले के विशिष्ट क्षण का प्रतिनिधित्व करती है?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "20 के डिलीवरी समय वाले उत्पाद के लिए, दो निर्दिष्ट \"वेव\" इवेंट्स (SIDC1 या SIDC2) में से कौन सा घटित नहीं हो सकता क्योंकि उसका ट्रेडिंग समय मान्य खुले अवधि के बाहर होगा?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "यदि कपलिंग की दूसरी लहर (SIDC2) को t=30 पर होने के लिए विलंबित किया गया होता, तो इस घटना के SIDCO द्वारा परिभाषित सामान्य खुले अवधि के भीतर आने के लिए आवश्यक न्यूनतम पूर्णांक वितरण समय T क्या होता?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "'Variable' कॉलम में सूचीबद्ध प्रत्येक वेरिएबल के लिए फ़ंक्शन-जैसे नोटेशन में उपयोग किए जाने वाले सामान्य पैरामीटर क्या हैं?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "एक व्यापार 25 की डिलीवरी समय वाले उत्पाद के लिए 20 के ट्रेडिंग समय पर रखा गया है। यह व्यापार किस SIDC वेरिएबल की शर्तों को पूरा करता है?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "कौन सा चर SIDCO अवधि से SIDCL अवधि में संक्रमण को चिह्नित करता है, और इसकी परिभाषित ट्रेडिंग समय की स्थिति क्या है?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "उनकी परिभाषाओं के आधार पर SIDCO चर के कालानुक्रमिक दायरे की SIDC1 चर के कालानुक्रमिक दायरे के साथ तुलना करें।",
+    "answer": [
+      [
+        "SIDCO समय की एक सतत अवधि का प्रतिनिधित्व करता है जब ऑर्डर बुक खुली होती है, जिसे t≥12 और T-t≥2 की सीमा द्वारा परिभाषित किया गया है। इसके विपरीत, SIDC1 समय के एक एकल, असतत बिंदु, t=12 का प्रतिनिधित्व करता है, जो SIDCO अवधि की शुरुआत में पहली कपलिंग घटना के विशिष्ट क्षण को चिह्नित करता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "कौन सा SIDC चर क्रॉस-बॉर्डर ऑर्डर बुक्स के बंद होने का प्रतिनिधित्व करता है और यह किस ट्रेडिंग टाइम कंडीशन पर होता है?",
+    "answer": [
+      [
+        "चर SIDCC(d,h,t) क्रॉस-बॉर्डर ऑर्डर बुक्स के बंद होने का प्रतिनिधित्व करता है, और यह तब होता है जब T − t = 2।"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

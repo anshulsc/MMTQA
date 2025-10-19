@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "arxiv_6266ed18c4_001",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "Mezi pracemi, které výslovně uvádějí procentuální zlepšení, která z nich hlásí nejvyšší jednotlivé procentuální navýšení pro jakékoli měřítko?",
+    "answer": [
+      [
+        "MASTER Li et al. (2024b)"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_002",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "Kolik z uvedených výzkumných prací bylo publikováno v roce 2024?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A7",
+      "A8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_003",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "Jaká je klíčová inovace práce, která ve své metodologii využívá regularizaci založenou na GARCH?",
+    "answer": [
+      [
+        "Integration of GARCH theory with neural networks"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_004",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak se podle tabulky vyvíjelo zaměření klíčových inovací od roku 2022 do roku 2024?",
+    "answer": [
+      [
+        "Zaměření inovací se vyvinulo od základních grafových modelů a adaptability na posuny distribuce v letech 2022-2023 k rozmanitějším a sofistikovanějším přístupům v roce 2024. Pozdější práce zahrnují dynamické korelace, časové modelování zaměřené na příznaky, integraci klasických finančních teorií (GARCH), nové generativní modely (difuzní) a použití LLM pro zpracování nestrukturovaných dat, jako jsou zprávy."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_005",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "Uveďte práce, které konkrétně uvádějí zlepšení výkonu na amerických akciových indexech, jako jsou NASDAQ nebo NYSE.",
+    "answer": [
+      [
+        "DPA-STIFormer Yan and Tan (2024)"
+      ],
+      [
+        "DIFFSTOCK Daiya et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_006",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "Kolik procent z uvedených prací využívá metodologii, která zahrnuje nějakou formu mechanismu 'attention'?",
+    "answer": [
+      [
+        "25%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_007",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud by se metodika DIFFSTOCK aplikovala na index CSI500 a dosáhla by 14% zlepšení IC, jak by se její výkon ve srovnání s modely, které již vykazují zlepšení IC, lišil?",
+    "answer": [
+      [
+        "Její hypotetické 14% zlepšení IC na CSI500 by bylo nižší než 15% zlepšení IC vykázané MDGNN na CSI300, ale lepší než zlepšení IC zmíněné pro DPA-STIFormer (které je uvedeno jako 'Zlepšení IC' bez konkrétního procenta)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_008",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje pozorovatelný vztah mezi použitím grafových metodologií a geografickým zaměřením evaluačních datových sad?",
+    "answer": [
+      [
+        "Ano, potenciální vztah existuje. Dva modely explicitně využívající inovace založené na grafech, MDGNN a DANSMP, jsou oba hodnoceny na čínských akciových indexech (CSI300, CSI300E). To naznačuje, že grafové přístupy by mohly být zvláštním zaměřením pro modelování spletitostí čínských trhů."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_009",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "Který sloupec obsahuje nejrozmanitější sadu metrik hodnocení výkonu?",
+    "answer": [
+      [
+        "Primary Results"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_010",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "Čí výsledky jsou považovány za odlehlé, protože popisují kvalitativní schopnost, nikoli kvantitativní výkonnostní metrikou na konkrétním indexu?",
+    "answer": [
+      [
+        "DoubleAdapt Zhao et al. (2023)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6266ed18c4_011",
+    "table_id": "arxiv_6266ed18c4",
+    "question_type": "value",
+    "question": "Jaká je klíčová inovace MDGNN Xu et al. (2024)?",
+    "answer": [
+      [
+        "Multi-relational graph incorporating industry and institutional relationships.+"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

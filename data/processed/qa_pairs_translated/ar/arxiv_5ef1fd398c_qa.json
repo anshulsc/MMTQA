@@ -1,0 +1,243 @@
+[
+  {
+    "question_id": "arxiv_5ef1fd398c_001",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "ما هي 'فئة التركيز' التي تظهر بشكل متكرر في الجدول؟",
+    "answer": [
+      [
+        "Financial Indicator"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_002",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "كم عدد فئات التركيز المميزة التي تحتوي على ثلاثة عناصر تركيز بالضبط؟",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_003",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "ضمن الفئة التي تشمل \"المعاش التقاعدي\"، ما هو \"عنصر التركيز\" الآخر الذي يحتوي على أسئلة تتعلق بتعويضات الموظفين ومزاياهم؟",
+    "answer": [
+      [
+        "Salary"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_004",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "أي 'عنصر تركيز' لديه أسئلة تركز بشكل أكثر صراحة على مقارنة الأداء عبر فترات زمنية ماضية مختلفة، مثل مقارنة الربع الحالي بالربع السابق والربع الحالي بالعام السابق؟",
+    "answer": [
+      [
+        "Revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_005",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "سرد جميع 'عناصر التركيز' ضمن فئة 'التوسع' التي لا تذكر منتجات مادية على وجه التحديد.",
+    "answer": [
+      [
+        "Geographic Expansion"
+      ],
+      [
+        "Market Segmentation Expansion"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_006",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "ما هي نسبة 'العناصر المحورية' في فئة 'المؤشرات المالية' التي تتعلق مباشرة بعوائد المساهمين (مثل الأرباح الموزعة، العائد على حقوق الملكية، عمليات إعادة شراء الأسهم)؟",
+    "answer": [
+      [
+        "2/4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_007",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "إذا تم إعادة تصنيف عنصر التركيز 'Dividend' (الأرباح الموزعة) تحت فئة جديدة 'Shareholder Value' (قيمة المساهمين)، فكيف سيتغير عدد العناصر في فئة 'Financial Indicator' (المؤشرات المالية)؟",
+    "answer": [
+      [
+        "سينخفض عدد العناصر من 4 إلى 3."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_008",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على الأسئلة المقدمة، ما هي العلاقة الضمنية بين تغيير إدارة الشركة واستراتيجيتها المؤسسية؟",
+    "answer": [
+      [
+        "يشير الجدول إلى وجود علاقة سببية مباشرة، حيث أن السؤال الثالث (Q3) لفئة 'تغيير الإدارة' يسأل صراحة عن التأثير المتوقع لهذه التغييرات على استراتيجية الشركة. هذا يوحي بأن تحولات القيادة تُعتبر محركات رئيسية للتحولات الاستراتيجية."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_009",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "حدد \"عناصر التركيز\" التي تعتبر قيمًا شاذة هيكلية، حيث يتطابق اسم العنصر مع اسم فئته وهو العنصر الوحيد في تلك الفئة.",
+    "answer": [
+      [
+        "Business"
+      ],
+      [
+        "Future Outlook"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "A15",
+      "B15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_010",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "قارن بين التركيز الموضوعي للأسئلة الخاصة بعناصر \"المؤشر المالي\" وعناصر \"مدير الموظفين\".",
+    "answer": [
+      [
+        "تركز الأسئلة المتعلقة بعناصر \"المؤشر المالي\" على مقاييس الأداء الكمية التي تركز خارجيًا مثل الإيرادات والأرباح الموزعة والأرباح، وذلك بشكل أساسي لتحليل المستثمرين. في المقابل، تركز أسئلة \"مدير الموظفين\" داخليًا على رأس المال البشري والجوانب الإدارية، مثل الرواتب، والتزامات المعاشات التقاعدية، وتأثير تغييرات الإدارة، والتي تتعلق بالعمليات الداخلية ورفاهية الموظفين."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_011",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "كم عدد بنود التركيز الموجودة تحت فئة المؤشرات المالية؟",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

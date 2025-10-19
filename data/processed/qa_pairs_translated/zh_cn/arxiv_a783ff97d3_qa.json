@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "在“BC2_64”预测设置下，哪种特征选择方法实现的错误值最低？",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "在所有预测设置中，“LASSO回归特征选择”方法使用的平均外生变量数量是多少？",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "对于 'BC3_28' 预测设置，使用最多外源变量的方法的误差指标是多少？",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "增加外生变量的数量是否能持续提高'BC1_64'设置下的性能（即降低误差值）？请提供简要分析。",
+    "answer": [
+      [
+        "不，没有持续的关系。对于'BC1_64'设置，'相关性基础选择'使用了3个变量，误差为14.11，'LASSO回归'也使用了3个变量，但误差更高，为14.55。'前向特征选择NP'使用了更多的变量（28个），并达到了显著更好的（更低的）误差9.16。这表明虽然更多的变量可能更好，但具体的选择方法至关重要，简单地增加变量并不能保证改进。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "列出 'BC3_64' 设置下，错误值大于 15 的所有特征选择方法。",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "在所有设置中，'Forward Feature Selection NP' 使用的总外生变量数中有多少百分比分配给了 'BC1_64' 设置？",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "如果数据处理错误导致“BC2_28”设置的所有误差指标比记录值低 2.5，那么“手动特征选择”的误差将是多少？",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "在明确列出了变量数量的特征选择方法中，哪种方法的变量选择范围（最大值减最小值）在不同预测设置下的不稳定程度最大？",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "对于“LASSO回归特征选择”方法，‘BC3_28’的误差值是否异常。它对应的外源变量数量与其他相同方法的设置相比如何？",
+    "answer": [
+      [
+        "‘BC3_28’设置的LASSO方法具有异常高的误差值28.79，并且使用了最多的外源变量数量（16个）。这显著多于其他设置，其变量数量范围在0到10之间。这表明LASSO方法在此特定的预测环境中选择了一组数量庞大但表现不佳的特征，可能存在潜在问题。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "分析“无外生变量”基线模型的性能，描述一下从“BC1”设置到“BC2”再到“BC3”的误差指标趋势。",
+    "answer": [
+      [
+        "“无外生变量”基线模型的性能在不同设置下呈现出明显的模式。它在BC1设置下表现为中等误差值（11.14, 13.65）。对于BC2设置，性能有了显著提升，误差最低（3.75, 9.08）。最后，对于BC3设置，误差再次增加（17.53, 9.06），其中BC3_64是该方法总体误差最高的。这表明该基线模型最适合BC2的条件。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "在“LASSO回归特征选择”和“前向特征选择NP”之间，哪种预测设置在BC2_64配置中实现了较低的值？",
+    "answer": [
+      [
+        "在BC2_64配置中，“前向特征选择NP”实现了较低的值（2.9），而“LASSO回归特征选择”的值为5.73。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

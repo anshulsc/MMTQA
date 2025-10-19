@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "哪种投资组合策略在Calmar比率上提高了最大的百分比？",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "如果将所有非基线策略的改进相加，夏普比率的总百分点改进是多少？",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "找出在夏普比率（Sharpe ratio）改进方面排名第二的策略，并说明其对应的卡尔玛比率（Calmar ratio）改进值。",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "列出Calmar比率的改进小于15%且Sharpe比率的改进大于35%的投资组合策略。",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "在所有非基线策略中，'AlphaSharpe'策略对总Calmar改进的贡献百分比是多少？",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "如果“风险均值”（Risk Parity）策略的绩效提升在两个指标上都被高估了10个百分点，它是否仍然优于“等权重”（Equal Weighted）基准？",
+    "answer": [
+      [
+        "是的，它仍然会更优。其调整后的ΔSharpe将为+28.32%，调整后的ΔCalmar将为+0.36%。由于这两个值都仍大于“等权重”（Equal Weighted）基准的0.00%，因此它仍然代表了改进。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，在所有非基线策略中，Sharpe比率和Calmar比率的改进之间是否存在一种一致的、线性的关系？请解释您的推理。",
+    "answer": [
+      [
+        "不，数据并不表明存在一致的线性关系。虽然“风险均值”和“等风险贡献”策略显示出相似的模式，即较大的ΔSharpe对应于适度的ΔCalmar，但“AlphaSharpe”策略打破了这种模式。它显示出巨大的ΔCalmar，远超其ΔSharpe，这表明两个指标之间的关系是非线性的，并且在很大程度上取决于策略。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "表中 Calmar 比率的改进幅度大于其 Sharpe 比率改进幅度的策略有多少个？",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "在 Sharpe 比率和 Calmar 比率的改善平衡方面，哪种投资组合策略与其他非基准策略相比是一个异常值，为什么？",
+    "answer": [
+      [
+        "“AlphaSharpe”策略是一个异常值。对于“Risk Parity”（风险均值）和“Equal Risk Cont.”（等风险贡献），Sharpe 比率的改善幅度大约是 Calmar 比率改善幅度的 3.7 倍。相比之下，“AlphaSharpe”则扭转了这一趋势，其 Calmar 比率的改善（+116.31%）明显大于 Sharpe 比率的改善（+71.04%），这表明其风险回报特征的改善存在根本性差异。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "比较“风险均值”和“均等风险贡献”策略。基于提供的数据指标，哪种策略表现更好，在各项指标上分别好多少？",
+    "answer": [
+      [
+        "“均等风险贡献”策略表现略好。其夏普比率提升值（+38.55% 对比 +38.32%）比“风险均值”策略高 0.23 个百分点，卡尔玛比率提升值（+10.44% 对比 +10.36%）比“风险均值”策略高 0.08 个百分点。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "表中“Equal Risk Cont.”投资组合策略的ΔSharpe (%)值是多少？",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

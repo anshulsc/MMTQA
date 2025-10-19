@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Axtarış fəzasında ən çox seçim siyahıya alınan hiperparametrlər hansılardır?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Axtarış sahəsində iki-dən çox mümkün dəyəri olan neçə hiperparametrlər test edildi?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Ən kiçik sıfırdan böyük rəqəmsal dəyəri olan hiperparametrin axtarış sahəsi nə idi?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Axtarış sahəsindəki müvafiq dəyərlərindən ən yüksək olanı 'Ən Yaxşı Seçim' olan bütün hiperparametrləri siyahıya alın.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Rəqəmsal hiperparametrlərin hans hissəsinin 'Ən Yaxşı Seçimi' onların sıralanmış 'Axtarış Sahəsi'nin ortasından (yəni minimum və ya maksimum dəyər deyil) seçilmişdi?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "'TRADES Layers' axtarışı yalnız 8-dən az qiymətlərlə məhdudlaşdırılsaydı, orijinal axtarış sahəsindən sonrakı ən yaxşı mövcud seçim seçilsəydi, bu hiperparametrin 'Ən Yaxşı Seçimi' nə olardı?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Hiperparametrin axtarış sahəsi ilə 'Ən Yaxşı Seçim'in ekstremal (minimum/maksimum) və ya orta dəyər olub-olmaması arasında müşahidə olunan əlaqə varmı? Əsaslandırmanızı izah edin.",
+    "answer": [
+      [
+        "Bəli, aydın bir nümunə var. İki seçimdən ibarət kiçik axtarış sahəsinə malik hiperparametrlər (Öyrənmə Dərəcəsi, Düşmə) üçün ən yaxşı seçim maksimum dəyər idi. Üç və ya dörd seçimdən ibarət daha böyük axtarış sahəsinə malik bütün hiperparametrlər üçün optimal dəyər diapazonun ortasında tapıldı, heç vaxt kənarlarda olmadı. Bu, bu model üçün incə tənzimləmə prosesinin faydalı olduğunu və ilkin geniş diapazonların test edilmiş sahənin sərhədlərində olmayan optimal bir bölgəni uğurla əhatə etdiyini göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hans hiperparametrin axtarış fəzası qeyri-rəqəmsal etiketlərdən istifadə edərək təsvir edilmişdir?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hans hiperparametrin 'Ən yaxşı seçim' dəyəri, növbəti ən yüksək rəqəmsal 'Ən yaxşı seçimdən' ən az dörd dəfə böyük olmaqla, rəqəmsal kənarlaşmadır?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Axtarış fəzalarında dörd seçənəyi olan hiperparametrləri ('Sekvensiya ölçüsü', 'TRADES Layları', 'Artırma ölçüsü') nəzərə alaraq, onların 'Ən Yaxşı Seçim' dəyərləri hansı ümumi xarakteristikaya malikdir və bu, sazlama strategiyası haqqında nə demək olar?",
+    "answer": [
+      [
+        "Ümumi xarakteristika ondan ibarətdir ki, hər üç hiperparametr üçün 'Ən Yaxşı Seçim' ekstremal (minimum və ya maksimum) deyil, aralıq bir dəyərdir. 'Ən Yaxşı Seçimlər' 256 (4-dən 3-cü), 8 (4-dən 3-cü) və 64 (4-dən 2-ci) təşkil edir. Bu, axtarış fəzasının optimal dəyəri əhatə etmək üçün kifayət qədər geniş olduğu uğurlu sazlama strategiyasını göstərir, bu da bu parametrlər üçün performansın dəyərlə monoton artmadığını, əksinə test edilmiş diapazon daxilində zirvəyə çatdığını ehtimal edir."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Optimizer üçün ən yaxşı seçim nədir?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

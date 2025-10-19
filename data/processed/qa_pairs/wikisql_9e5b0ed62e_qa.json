@@ -1,0 +1,318 @@
+[
+  {
+    "question_id": "wikisql_9e5b0ed62e_001",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Which player, David West or Chris Paul, had a higher total number of points in games where they were listed as the top scorer?",
+    "answer": [
+      [
+        "David West"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_002",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "What was the average attendance for games played at the New Orleans Arena?",
+    "answer": [
+      [
+        "16821"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H4",
+      "H5",
+      "H6",
+      "H8",
+      "H10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_003",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "In the game with the highest attendance, who led the team in assists and with how many?",
+    "answer": [
+      [
+        "Chris Paul (6)"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_004",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the team's performance trend during the last four games recorded in the table (Games 11-14).",
+    "answer": [
+      [
+        "The team's performance showed a significant positive trend. They won all four of their last recorded games, going on a winning streak. This is evidenced by the 'W' in the Score column for each game from Game 11 to 14, which improved their record from 5-5 after Game 10 to 9-5 after Game 14."
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "I9",
+      "D10",
+      "I10",
+      "D11",
+      "I11",
+      "D12",
+      "I12",
+      "I8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_005",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "List the opponents for all games where the team lost and the location was New Orleans Arena.",
+    "answer": [
+      [
+        "Atlanta"
+      ],
+      [
+        "L.A. Lakers"
+      ],
+      [
+        "Sacramento"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "H2",
+      "C5",
+      "D5",
+      "H5",
+      "C8",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_006",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "What proportion of the total recorded games ended in a loss?",
+    "answer": [
+      [
+        "41.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_007",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "If the attendance for every away game ('@' symbol in Team column) had been 10% higher, what would have been the total attendance across all 12 games?",
+    "answer": [
+      [
+        "197307"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "H3",
+      "C7",
+      "H7",
+      "C9",
+      "H9",
+      "C11",
+      "H11",
+      "C12",
+      "H12",
+      "H1",
+      "H2",
+      "H4",
+      "H5",
+      "H6",
+      "H8",
+      "H10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_008",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a consistent relationship between the number of rebounds by the team's leader and the game's outcome (Win/Loss)?",
+    "answer": [
+      [
+        "There is no consistent relationship. The number of rebounds by the leader varies widely for both wins and losses. For instance, the team won with as few as 6 high rebounds (Game 3) and as many as 10 (Game 6, 12, 13). They also lost games where the rebound leader had 7 (Game 4, 5) and won games with the same number (Game 8). The highest rebound count (12 by David West) occurred in a loss (Game 7), indicating that a dominant rebounding performance by one player does not guarantee a win."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11",
+      "D12",
+      "F12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_009",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Which of the three player performance columns ('High points', 'High rebounds', 'High assists') features the least diversity in leading players?",
+    "answer": [
+      [
+        "High assists"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_010",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Which game represents a performance outlier for David West in terms of points scored, when compared to his other high-scoring games in this period?",
+    "answer": [
+      [
+        "Game 12"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "E1",
+      "E4",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_011",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Which player appears most consistently in the high points column?",
+    "answer": [
+      [
+        "David West appears in nearly every game."
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E4",
+      "E6",
+      "E8",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

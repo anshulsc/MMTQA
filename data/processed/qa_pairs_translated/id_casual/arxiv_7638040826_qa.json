@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "arxiv_7638040826_001",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Dataset mana yang khusus fokus ke bahasa yang dipakai bank sentral buat ngerti pengaruh kebijakan moneter, dan siapa yang nerbitin?",
+    "answer": [
+      [
+        "Trillion Dollar Words",
+        "Shah et al. (2023a)"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_002",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Sebutkan semua resource yang diterbitkan setelah 2020 yang secara eksplisit dideskripsikan sebagai dianotasi manual atau ditulis oleh pakar.",
+    "answer": [
+      [
+        "SEntFiN 1.0"
+      ],
+      [
+        "Gold Commodity Dataset"
+      ],
+      [
+        "FINQA"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_003",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan tanggal publikasinya, jelaskan evolusi fokus di dataset finansial ini dari awal 2010-an sampai 2020-an.",
+    "answer": [
+      [
+        "Dataset-dataset ini menunjukkan evolusi dari analisis sentimen dasar di awal 2010-an ke tugas-tugas yang lebih kompleks dan terspesialisasi di tahun 2020-an. Sumber daya awal seperti SentiWordNet (2010) dan Financial Phrase Bank (2014) menangani sentimen kata/frasa umum. Sebaliknya, sumber daya dari tahun 2020-an seperti SEntFiN 1.0 (sentimen spesifik entitas), REFinD (ekstraksi relasi), dan FINQA (penalaran mendalam) menangani masalah NLP yang lebih granular dan kompleks, yang menunjukkan pendewasaan bidang ini ke arah pemahaman teks finansial yang lebih bernuansa."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_004",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Ada berapa sumber daya yang terdaftar yang fokus utamanya pada analisis sentimen (memberi label positif, negatif, atau netral)?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_7638040826_005",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Sumber mana yang fokus geografisnya spesifik banget dibanding yang lain?",
+    "answer": [
+      [
+        "Financial Phrase Bank"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_7638040826_006",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Berapa persen dataset yang terdaftar diterbitkan tahun 2023?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_7638040826_007",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Kalo dataset 'SEntFiN 1.0' dihapus, apa sumber daya yang paling baru diterbitkan buat analisis berita?",
+    "answer": [
+      [
+        "MULTIFIN"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_008",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "Siapa penulis atau grup penulis yang paling banyak berkontribusi sumber daya di daftar ini?",
+    "answer": [
+      [
+        "Shah et al."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_009",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Bandingin tugas NLP utama yang ditangani 'FiNER' sama kayak 'REFinD'.",
+    "answer": [
+      [
+        "'FiNER' itu dirancang buat tugas NLP dasar, yaitu Named Entity Recognition (NER), yang isinya ngidentifikasi sama ngelompokin entitas kayak perusahaan finansial. 'REFinD' itu nanganin tugas yang lebih rumit dan lanjutan, yaitu ekstraksi relasi, tujuannya buat ngidentifikasi hubungan antar entitas yang udah diidentifikasi (contohnya, orang-jabatannya, organisasi-uang). Jadi, FiNER fokus ngidentifikasi 'aktornya' sementara REFinD fokus ngidentifikasi 'interaksi mereka'."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_010",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan deskripsinya, apakah ada korelasi antara dataset yang fokus pada 'headline' dan tahun publikasi yang lebih baru? Jelaskan alasanmu.",
+    "answer": [
+      [
+        "Ya, sepertinya ada korelasi positif. Ketiga dataset yang secara eksplisit menyebutkan 'headline' dalam deskripsinya (SEntFiN 1.0, Gold Commodity Dataset, dan MULTIFIN) dipublikasikan pada tahun 2021 atau setelahnya. Dataset yang diterbitkan lebih awal, di tahun 2010-an, tidak menyebutkan fokus spesifik ini. Ini menunjukkan minat penelitian yang berkembang dalam menganalisis bahasa berita keuangan yang ringkas dan berdampak dalam beberapa tahun terakhir."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B7",
+      "C7",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_7638040826_011",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa sih tujuan utama SentiWordNet dibandingin sama SenticNet buat analisis teks finansial?",
+    "answer": [
+      [
+        "SentiWordNet tuh ngasih skor sentimen ke tiap arti kata buat ngukur positif, negatif, atau objektifnya, sementara SenticNet gabungin AI sama teknologi Semantic Web buat ngerti dan proses opini di konteks finansial."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

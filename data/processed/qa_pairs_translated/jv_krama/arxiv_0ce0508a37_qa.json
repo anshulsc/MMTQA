@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Parameter dampak pasar ingkang pundi ingkang gadhah nilai koefisien ingkang tepat kaping kalih saking sanesipun?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Pinten nilai rata-rata kanggo 'parameter Non-linearity' adhedhasar sawetara nilai sing kasedhiya?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Simbol kagem paramèter ing sangandhapipun 'Dinamika Pasar' ingkang gadhah kathah nilai béda piyambak punapa?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Adhedhasar nilai kanggo 'Initial volatility', 'Long-term volatility', lan 'Mean reversion speed', punapa ingkang saged dipunpendhet saking prilaku volatilitas model kasebat ing wekdal?",
+    "answer": [
+      [
+        "Model kasebut nuduhake volatilitas sing bali-bali. 'Long-term volatility' tetep ing 0.3, minangka jangkar. 'Initial volatility' saged wiwit luwih dhuwur (0.4), luwih cendhek (0.2), utawi ing tingkat jangka panjang (0.3). Senajan saking ngendi wiwitipun, volatilitas dipunajeng-ajeng badhe ngalih dhateng 0.3 ing wekdal, sawijining proses ingkang kacepetanipun dipunatur dening 'Mean reversion speed' 2.0. Tegesipun wekdal volatilitas ingkang dhuwur utawi cendhek mboten langgeng."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Sebutaken sedaya paramèter ing sangandhapipun kategori 'Market Dynamics' ingkang dipunandharaken minangka sawijining dhaptar pirang-pirang nilai ingkang dipunpanggihi, ing pundi sedaya nilai ingkang dipunandharaken boten negatif.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Menawi 'Risk aversion' dipun-tegesi minangka walikan saking toleransi risiko, lan kalih nilai 'Permanent impact' lan 'Temporary impact' menika badhe mundhak kaping 10, pinten rasio enggal saking 'Temporary impact coefficient' dhumateng 'Risk aversion'?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Menawi 'Mean reversion speed' dipun suda ngantos 50%, saha nilai 'Volatility of variance' kalih-kalihipun dipun tambahi 0.1, punapa gunggungipun 'Mean reversion speed' lan 'Volatility of variance' ingkang paling ageng?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Ing tabel kasebut kasebut nilai 'Korelasi' -0.7. Ing model finansial, apa tegese nilai negatif sing kuwat iki babagan sesambungan antarane rega aset lan volatilitas?",
+    "answer": [
+      [
+        "Korelasi -0,7 nandhakake sesambungan mbalikke sing kuwat, sing asring diarani efek leverage. Iki tegese nalika rega aset mudhun, volatilitas cenderung mundhak, lan kosok baline, nalika rega aset mundhak, volatilitas cenderung mudhun. Iki minangka fitur sing penting kanggo modeling rega aset lan pricing derivatif sing realistis."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Pinten kathah parameter ing tabel ingkang katranganipun migunakaken sawetara nilai tinimbang nilai tetep?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Sinten parameter tunggal ingkang dados outlier kualitatif amargi reginipun namung negatif?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

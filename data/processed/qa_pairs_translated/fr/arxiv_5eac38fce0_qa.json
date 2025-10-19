@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Quelle stratégie de portefeuille offre la plus grande amélioration en pourcentage du ratio de Calmar ?",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Quelle est l'amélioration totale en points de pourcentage du ratio de Sharpe si l'on additionne les améliorations de toutes les stratégies non de référence ?",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Identifiez la stratégie qui a la deuxième plus forte amélioration du ratio de Sharpe et indiquez son amélioration correspondante du ratio de Calmar.",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Listez les stratégies de portefeuille où l'amélioration du ratio de Calmar est inférieure à 15 % ET l'amélioration du ratio de Sharpe est supérieure à 35 %.",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Quel pourcentage de l'amélioration totale du Calmar sur toutes les stratégies non de référence est apporté par la stratégie 'AlphaSharpe' ?",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Si l'amélioration des performances de la stratégie 'Risk Parity' était surestimée de 10 points de pourcentage pour les deux métriques, serait-elle toujours supérieure à la référence 'Equal Weighted' ?",
+    "answer": [
+      [
+        "Oui, elle serait toujours supérieure. Son ΔSharpe ajusté serait de +28,32 % et son ΔCalmar ajusté serait de +0,36 %. Comme les deux valeurs sont toujours supérieures au 0,00 % de la référence 'Equal Weighted', cela représenterait une amélioration."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Les données suggèrent-elles une relation linéaire et constante entre les améliorations des ratios de Sharpe et de Calmar pour toutes les stratégies non de référence ? Expliquez votre raisonnement.",
+    "answer": [
+      [
+        "Non, les données ne suggèrent pas de relation linéaire constante. Alors que la 'Risk Parity' et l''Equal Risk Cont.' montrent un profil similaire où un ΔSharpe important correspond à un ΔCalmar modeste, la stratégie 'AlphaSharpe' perturbe ce schéma. Elle présente un ΔCalmar massif qui dépasse largement son ΔSharpe, indiquant que la relation entre les deux métriques est non linéaire et dépend fortement de la stratégie."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Combien de stratégies dans le tableau ont une amélioration de leur ratio Calmar supérieure à celle de leur ratio Sharpe ?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle stratégie de portefeuille se démarque en termes d'équilibre entre l'amélioration de ses ratios de Sharpe et de Calmar par rapport aux autres stratégies non de base, et pourquoi ?",
+    "answer": [
+      [
+        "La stratégie 'AlphaSharpe' est une exception. Pour 'Risk Parity' et 'Equal Risk Cont.', l'amélioration du ratio de Sharpe est environ 3,7 fois plus importante que l'amélioration du ratio de Calmar. En revanche, 'AlphaSharpe' inverse cette tendance, son amélioration de Calmar (+116,31 %) étant nettement supérieure à son amélioration de Sharpe (+71,04 %), ce qui indique une amélioration fondamentalement différente du profil risque-rendement."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Comparez les stratégies 'Risk Parity' et 'Equal Risk Cont.'. Laquelle offre un meilleur profil de performance basé sur les métriques fournies, et de combien sur chaque métrique ?",
+    "answer": [
+      [
+        "'Equal Risk Cont.' offre un profil de performance légèrement meilleur. Elle surpasse 'Risk Parity' avec une amélioration de 0,23 point de pourcentage du ratio de Sharpe (+38,55 % contre +38,32 %) et une amélioration de 0,08 point de pourcentage du ratio de Calmar (+10,44 % contre +10,36 %)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Quelle est la valeur de ΔSharpe (%) pour la stratégie de portefeuille 'Equal Risk Cont.' dans le tableau ?",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

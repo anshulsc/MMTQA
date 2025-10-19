@@ -1,0 +1,280 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "절댓값 t-값(t-value)이 가장 높아 효과에 대한 통계적 증거가 가장 강한 베타 계수(β)는 무엇입니까?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "p < 0.05 수준에서 통계적으로 유의미한 모든 알파(α) 계수의 평균 표준 오차는 얼마입니까?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "95% 신뢰 구간이 가장 넓은 β 계수를 갖는 모델 구성 요소(아래 첨자 번호로 인덱싱됨)에 대해 해당 α 계수의 p-값은 얼마입니까?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "β 계수의 후첨자가 1부터 6까지 증가함에 따라 β 계수 크기의 추세를 설명해 주십시오. 일관된 패턴이 있습니까?",
+    "answer": [
+      [
+        "일관된 단조 추세는 없습니다. β 계수는 처음에 β₁ (0.7208)에서 β₂ (0.8237)로 증가하지만, 그 후 β₃ (0.0025) 및 이후 모델에서는 극적으로 감소합니다. 처음 두 구성 요소의 값은 3에서 6까지의 구성 요소 값보다 몇 자릿수 더 크며, 후자들은 모두 0에 매우 가깝습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "알파(α) 계수가 통계적으로 유의하지 않고(P-value > 0.4) 표준 오차가 0.03 미만인 모든 적합 모델을 식별하십시오.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "모든 적합된 모델 계수(α 및 β 모두) 중에서 통계적으로 유의미한(p-값 0.05 미만) 비율은 몇 퍼센트입니까?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "만약 α₁ 모델의 표준 오차가 절반으로 줄어든다면, 새로운 t-통계량은 얼마가 될까요? 표의 다른 모델들의 t-통계량과 p-값 간의 관계를 바탕으로 볼 때, 이 변화가 α₁ 계수를 통계적으로 유의하게 만들 가능성이 있을까요(p < 0.05)?",
+    "answer": [
+      [
+        "새로운 t-통계량은 -1.593(-0.0215 / (0.027 / 2))이 될 것입니다. 이 변화로 인해 계수가 통계적으로 유의하게 될 가능성은 낮습니다. 비교하자면, α₂ 모델은 -2.803의 t-통계량과 0.005의 p-값을 가집니다. -1.593과 같이 절댓값이 더 작은 t-통계량은 더 높은 p-값을 가질 것이며, 일반적으로 유의성 임계값인 0.05를 초과할 가능성이 높고, 이는 대략 2 이상의 절댓값 t-값을 요구합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "β 계수의 크기와 해당 t-통계량 간의 관계를 분석하십시오. 계수가 클수록 t-통계량이 일관되게 커집니까?",
+    "answer": [
+      [
+        "아니요, β 계수가 크다고 해서 t-통계량이 일관되게 커지는 것은 아닙니다. 예를 들어, β₂는 가장 큰 계수(0.8237)를 가지고 있지만, t-통계량(8.418)은 계수가 매우 작은 β₄(0.0041)의 t-통계량(126.061)보다 훨씬 작습니다. t-통계량은 계수를 표준 오차로 나눈 비율이므로, β₃부터 β₆까지에서 볼 수 있듯이 표준 오차가 매우 작으면 계수가 작더라도 t-통계량이 매우 클 수 있습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "통계적 원칙에 따르면, 0을 포함하지 않는 95% 신뢰 구간은 0.05 미만의 p-값에 해당해야 합니다. 테이블에 있는 적합 모형 계수 중 신뢰 구간과 p-값이 이 원칙과 일치하지 않는 것이 있습니까?",
+    "answer": [
+      [
+        "아니요, 테이블의 모든 계수는 p-값과 95% 신뢰 구간 사이에 일관성을 보입니다. 0.05 미만의 p-값을 갖는 모든 계수(예: β₁, α₂, β₂)는 0을 포함하지 않는 신뢰 구간을 갖습니다. 반대로, 0.05 초과의 p-값을 갖는 모든 계수(예: α₁, α₃, α₄)는 0을 포함하는 신뢰 구간을 갖습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "다른 알파(α) 계수의 t-통계량과 비교했을 때, 어느 알파(α) 계수의 t-통계량이 가장 유의미한 이상치인가요?",
+    "answer": [
+      [
+        "t-통계량이 7.305인 α₆이 가장 유의미한 이상치입니다. 다른 알파의 t-통계량은 -0.787, -2.803, -0.269, 0.013, 0.729입니다. 이 값들의 대부분은 -3에서 1 사이에 분포합니다. 7.305라는 값은 절대값이 훨씬 크며 유일하게 큰 양수 값이므로 나머지 그룹과 확연히 구분됩니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_011",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "표에 나열된 적합 모델의 수는 몇 개입니까?",
+    "answer": [
+      [
+        "There are 12 fitted models listed in the table (α₁–α₆ and β₁–β₆)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Yüksək tezlikli sifariş səviyyəli məlumatlardan istifadə edən model üçün hansı növ proqnozlaşdırma imkanı təklif olunur?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Bir layihə simulyasiya yolu ilə ümumi proqnozlaşdırma tələb edərsə, onun tətbiq olunan tapşırıqlarından başqa hansı model xüsusiyyəti onu alternativdən daha yaxşı uyğunlaşdırır?",
+    "answer": [
+      [
+        "MarS/LMM 'Çox addımlı, ardıcıllıq nəsli' qabiliyyətinə malik 'Genişmiqyaslı əsas modeldir', bu da onu DeepLOB-dan fərqli olaraq, 'Kiçik, əl işi və miqyaslanmayan' model kimi təsvir olunan və 'Tək addımlı və ya sabit uzunluqlu' proqnozlaşdırma edən modeldən ümumi simulyasiya tapşırıqları üçün təbii olaraq daha çevik və güclü edir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Cədvələ əsasən, modelin miqyası ilə proqnozlaşdırma çevikliyi arasında hansı əlaqə olduğu təxmin edilir?",
+    "answer": [
+      [
+        "Məlumatlar birbaşa əlaqəni göstərir: 'Kiçik, əllə hazırlanmış və genişlənməyən' (DeepLOB) kimi təsvir edilən model məhdud 'Tək addımlı və ya sabit uzunluqlu' proqnozlar təklif edir, halbuki 'Böyük miqyaslı əsas model' (MarS/LMM) daha çevik 'Çox addımlı, ardıcıllıq generasiyası' təmin edir. Bu, daha böyük, daha genişlənən modellərin daha qabaqcıl və çevik proqnozlaşdırma imkanlarına sahib olduğunu göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Bu məlumat dəstində DeepLOB və MarS/LMM-i fərqləndirmək üçün neçə fərqli aspekt istifadə olunur?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "'Təsvir edilən böyük miqyaslı əsas model' olmayan modeli müəyyənləşdirin və onun göstərilən giriş xüsusiyyətlərini siyahıya alın.",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Hans modelin 'Model' aspektinin təsvirində üç unikal məhdudlaşdırıcı xüsusiyyət var?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Əgər DeepLOB bu qabiliyyətə artıq sahib olan modelin xüsusiyyətlərinə uyğunlaşdırmaq üçün 'Çoxaddımlı, ardıcıl generasiya' etməsi üçün dəyişdirilsəydi, cədvəldən hansı digər iki aspektin əsaslı şəkildə dəyişdirilməsi ehtimal olunardı?",
+    "answer": [
+      [
+        "MarS/LMM kimi çoxaddımlı generasiya etmək üçün DeepLOB-un 'Model'i 'Kiçik, əl ilə hazırlanmış və genişləndirilə bilməyən'dən 'Böyük miqyaslı əsas model'ə evrilməli olardı və onun 'Giriş Xüsusiyyətləri' 'Limit order book (LOB) məlumatları'ndan 'Yüksək tezlikli sifariş səviyyəli məlumatlar'ı idarə etmək üçün genişləndirilməli ola bilərdi."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "İki model üçün tələb olunan giriş məlumatlarını müqayisə edin.",
+    "answer": [
+      [
+        "DeepLOB, 'Limit order book (LOB) data' tələb edir ki, bu da maliyyə məlumat strukturunun xüsusi bir növüdür. Bunun əksinə olaraq, MarS/LMM 'High-frequency order-level data' istifadə edir ki, bu da daha ümumidir və daha böyük həcmdə və sürətdə məlumatı nəzərdə tutur."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Tapşırıq üçün xüsusi proqnozlaşdırma üçün nəzərdə tutulmuş sistemin model növü nədir?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Əgər istifadəçinin yalnız 'Limit order book (LOB) məlumatları' mövcuddursa və 'simulyasiya yolu ilə ümumi proqnozlaşdırma' aparmaq lazım gəlirsə, hansı model verilmiş cəhətlərə əsasən ziddiyyət təşkil edir və niyə?",
+    "answer": [
+      [
+        "Hər iki model üçün ziddiyyət mövcuddur. DeepLOB LOB məlumatlarından istifadə edə bilər, lakin o, 'ümumi simulyasiya' üçün deyil, 'tapşırıq spesifik proqnozlaşdırma' üçün nəzərdə tutulub. MarS/LMM isə 'ümumi proqnozlaşdırma' üçün nəzərdə tutulub, lakin o, LOB məlumatları deyil, 'yüksək tezlikli sifariş səviyyəli məlumatlar' tələb edir. Buna görə də, heç bir model modifikasiya və ya güzəşt olmadan mükəmməl uyğun gəlmir."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "DeepLOB-un tətbiq olunan tapşırıqları hansılardır?",
+    "answer": [
+      [
+        "Task specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

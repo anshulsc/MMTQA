@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "¿Qué modelo tiene el mayor número de explicaciones de parámetros distintas enumeradas en la tabla?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "¿Cuántos parámetros distintos se explican en total para todos los modelos que usan un componente de sumatoria (Σ) en su fórmula principal?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "¿Enumera los modelos cuya fórmula principal no involucre exponenciación (por ejemplo, e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de los modelos listados utilizan un parámetro que representa muestras o puntos de datos individuales (por ejemplo, 'muestra i') en su formulación?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "¿Si el número de categorías de muestra 'm' en un modelo de árbol de decisión es 1, cuál sería el valor calculado de la entropía de información 'Ent(D)' según la fórmula?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "¿Qué modelo tiene una fórmula fundamentalmente diferente a los demás, ya que se presenta como un problema de optimización (minimización) en lugar de un cálculo directo de un valor de salida?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Basándonos en las fórmulas y parámetros, ¿cuál es el rol del parámetro 'β' en la Regresión Logística en comparación con el parámetro 'w' en la Máquina de Vectores de Soporte?",
+    "answer": [
+      [
+        "En la Regresión Logística, 'β' es un vector de fila de coeficientes de regresión que, junto con la intersección, determina la probabilidad de un resultado a través de la función logística. En la Máquina de Vectores de Soporte, 'w' es un vector de parámetros que define la orientación del hiperplano separador. El objetivo en SVM es encontrar el 'w' que maximiza el margen entre clases minimizando su norma L2, mientras que en la Regresión Logística, 'β' se suele encontrar maximizando la verosimilitud de los datos observados."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cómo reflejan los conceptos de 'capas' en Redes Neuronales y 'entropía' en Árboles de Decisión sus diferentes enfoques para aprender de los datos?",
+    "answer": [
+      [
+        "El concepto de 'capas' (l y l-1) en Redes Neuronales refleja un enfoque de aprendizaje jerárquico de características. El modelo aprende representaciones cada vez más complejas de los datos al pasar activaciones a través de capas sucesivas, ajustando pesos ('w') y sesgos ('b') para crear un aproximador de función complejo. En contraste, el concepto de 'entropía' (Ent(D)) en Árboles de Decisión refleja un enfoque codicioso basado en reglas. El modelo particiona recursivamente los datos en subconjuntos más puros seleccionando características que resultan en la mayor disminución de la entropía (ganancia de información), creando un conjunto explícito de reglas de si-entonces."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "¿Cuál es el recuento total de modelos únicos descritos en la tabla?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "¿Qué columna tiene como propósito principal definir las variables utilizadas en la columna adyacente?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

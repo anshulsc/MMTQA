@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "배송 시간 T가 30일 때, 어떤 SIDC 변수가 주문서 마감을 나타내며, 이 이벤트는 어떤 거래 시간 t에 발생합니까?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "배송 시간을 기준으로 SIDCO와 SIDCL이 정의하는 거래 시간 간의 근본적인 차이는 무엇입니까?",
+    "answer": [
+      [
+        "근본적인 차이는 배송 시간과의 관계에서 시간입니다. SIDCO는 주문 책이 열려 있는 기간을 정의하며, 이는 배송 2단위 시간 전이어야 합니다(T-t ≥ 2). 반대로, SIDCL은 주문 책이 닫힌 후의 기간을 정의하며, 이는 배송 2단위 시간 이내입니다(T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "제공된 해석에 따르면, 최초 및 두 번째 국경 간 주문서 결합 웨이브 사이에 몇 시간의 간격이 있습니까?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "거래 시간 조건을 바탕으로, SIDCL 기간의 시작 직전을 나타내는 SIDC 이벤트는 무엇입니까?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "배송 시간 T=20인 제품의 경우, 거래 시간이 유효 개방 기간 외에 해당하기 때문에 발생할 수 없는 두 가지 지정된 \"웨이브\" 이벤트(SIDC1 또는 SIDC2)는 무엇입니까?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "만약 2차 커플링(SIDC2)이 t=30으로 지연된다면, 이 이벤트가 SIDCO에 의해 정의된 일반 개방 기간 내에 포함되기 위한 최소 정수 배송 시간 T는 얼마입니까?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "모든 변수에 대해 함수 형식 표기에서 사용되는 일반적인 매개변수는 무엇입니까?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "거래 시간 t=20에 인도 시간 T=25인 상품의 거래가 이루어졌습니다. 이 거래는 어떤 SIDC 변수의 조건을 만족합니까?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "SIDCO 기간에서 SIDCL 기간으로의 전환을 표시하는 변수는 무엇이며, 해당 변수의 거래 시간 조건은 어떻게 됩니까?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "SIDCO 변수와 SIDC1 변수의 정의에 기반하여 이들의 시간적 범위를 대조하십시오.",
+    "answer": [
+      [
+        "SIDCO는 주문서가 열려 있는 연속적인 시간 구간을 나타내며, t≥12 및 T-t≥2로 정의됩니다. 이와 대조적으로, SIDC1은 첫 번째 연계 이벤트가 발생하는 특정 시점인 t=12라는 단일하고 이산적인 시간을 나타내며, 이는 SIDCO 기간의 시작점에 해당합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "어떤 SIDC 변수가 국경 간 주문서 마감을 나타내며, 어떤 거래 시간 조건에서 발생합니까?",
+    "answer": [
+      [
+        "SIDC꜀(d,h,t) 변수가 국경 간 주문서 마감을 나타내며, T − t = 2일 때 발생합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

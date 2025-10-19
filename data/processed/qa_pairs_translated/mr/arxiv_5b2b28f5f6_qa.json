@@ -1,0 +1,174 @@
+[
+  {
+    "question_id": "arxiv_5b2b28f5f6_001",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "तक्त्यामध्ये नमूद केलेल्या कच्च्या अंकीय आणि मजकूर डेटा पॉइंट्सच्या सर्वात विस्तृत संग्रहावर आधारित कोणता डेटासेट मॉडेल तयार केले आहे?",
+    "answer": [
+      [
+        "FNSPID"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_002",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "FNSPID फ्रेमवर्कमध्ये एकूण किती किंमती आणि बातम्यांचे रेकॉर्ड्स एकत्र आहेत?",
+    "answer": [
+      [
+        "45.4M"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_003",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "'गुंतवणूकदार मानसशास्त्र' यावर लक्ष केंद्रित केलेल्या डेटासेटसाठी, सुधारित अंदाजासाठी कोणता वैशिष्ट्य प्रकार स्पष्टपणे नमूद केला आहे?",
+    "answer": [
+      [
+        "emotional features"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_004",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "कोणत्या डेटासेटचे प्राथमिक निकाल एका विशिष्ट दशकाहून अधिक कालावधीसाठी प्रमाणित केले जातात आणि त्या कालावधीचे सुरुवातीचे आणि अंतिम वर्ष कोणते आहे?",
+    "answer": [
+      [
+        "Market-GAN",
+        "2000-2023"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_005",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "'प्राथमिक निकाल' मध्ये परिमाणात्मक कार्यप्रदर्शन मेट्रिक (उदा. टक्केवारी किंवा सांख्यिकीय स्कोअर) समाविष्ट असलेल्या डेटासेटची ओळख पटवा.",
+    "answer": [
+      [
+        "FNSPID"
+      ],
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_006",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "FNSPID डेटासेटसाठी, बातम्यांच्या नोंदी आणि किंमतीच्या नोंदींचे अंदाजे गुणोत्तर किती आहे?",
+    "answer": [
+      [
+        "Approximately 0.53 to 1 (15.7M / 29.7M)"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_007",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "जर अल्फाफिनने नोंदवलेल्या वार्षिक परतावामध्ये त्यांच्या सध्याच्या मूल्याच्या १०% घट झाली, तर नवीन टक्केवारी किती असेल?",
+    "answer": [
+      [
+        "27.72%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_008",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "open_ended_reasoning",
+    "question": "FNSPID आणि StockEmotions च्या वर्णनांवर आधारित, डेटासेटच्या 'मुख्य नविनते' (Key Innovation) आणि त्याच्या 'डेटा वैशिष्ट्यांमध्ये' (Data Characteristics) काय संबंध आहे असे अनुमान काढता येईल?",
+    "answer": [
+      [
+        "यामध्ये एक मजबूत सकारात्मक संबंध आहे, जिथे मुख्य नविनता ही गोळा केलेल्या डेटाच्या विशिष्ट स्वरूपामुळे थेट शक्य होते आणि त्यानुसार तयार केली जाते. उदाहरणार्थ, FNSPID ची 'किंमत-बातम्या एकत्रीकरण' (price-news integration) मधील नविनता केवळ किंमती आणि बातम्यांच्या मोठ्या प्रमाणावरील नोंदींच्या संकलनामुळेच शक्य आहे. त्याचप्रमाणे, StockEmotions मधील 'गुंतवणूकदारांचे मानसशास्त्र' (investor psychology) मधील नविनता, भावना वर्गांसह 'एनोटेट केलेल्या टिप्पण्यांच्या' (annotated comments) अद्वितीय डेटामधून प्राप्त झाली आहे."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_009",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "टेबलमधील कोणता कॉलम प्रत्येक मॉडेलचे मुख्य नवीन योगदान किंवा अद्वितीय दृष्टिकोन सारांशित करण्यासाठी डिझाइन केलेला आहे?",
+    "answer": [
+      [
+        "Key Innovation"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_010",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "नमूद केलेल्या प्राथमिक परिणामांमध्ये, कोणत्या डेटासेटमध्ये मॉडेलची पारदर्शकता आणि स्पष्टीकरणक्षमतेवर लक्ष केंद्रित केले आहे, ज्यामुळे तो इतरांपेक्षा वेगळा ठरतो जे प्रामुख्याने अचूकता, परतावा किंवा सिम्युलेशन फिडेलिटीवर लक्ष केंद्रित करतात?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

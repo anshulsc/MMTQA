@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_0ce0508a37_001",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Quel paramètre d'impact sur le marché a une valeur de coefficient exactement double de celle de l'autre ?",
+    "answer": [
+      [
+        "Temporary impact coefficient"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_002",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Quelle est la valeur moyenne du « paramètre de non-linéarité » basée sur l'ensemble des valeurs possibles fournies ?",
+    "answer": [
+      [
+        "0.567"
+      ]
+    ],
+    "evidence_cells": [
+      "C11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_003",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Quel est le symbole du paramètre sous 'Market Dynamics' qui a le plus grand nombre de valeurs distinctes répertoriées ?",
+    "answer": [
+      [
+        "V0subscript𝑉0\\sqrt{V_{0}}square-root start_ARG italic_V start_POSTSUBSCRIPT 0 end_POSTSUBSCRIPT end_ARG"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_004",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "En se basant sur les valeurs de 'Volatilité initiale', 'Volatilité à long terme' et 'Vitesse de reversion vers la moyenne', qu'est-ce qui peut être déduit du comportement de la volatilité du modèle au fil du temps ?",
+    "answer": [
+      [
+        "Le modèle présente une volatilité de reversion vers la moyenne. La 'Volatilité à long terme' est fixée à 0.3, ce qui sert d'ancrage. La 'Volatilité initiale' peut commencer plus haut (0.4), plus bas (0.2), ou au niveau à long terme (0.3). Quel que soit le point de départ, la volatilité devrait dériver vers 0.3 au fil du temps, un processus dont le rythme est régi par la 'Vitesse de reversion vers la moyenne' de 2.0. Cela signifie que les périodes de forte ou de faible volatilité ne sont pas permanentes."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_005",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Énumérez tous les paramètres de la catégorie 'Market Dynamics' qui sont présentés sous forme d'un ensemble de valeurs multiples possibles, où toutes les valeurs listées sont non négatives.",
+    "answer": [
+      [
+        "Drift rate"
+      ],
+      [
+        "Initial volatility"
+      ],
+      [
+        "Volatility of variance"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_006",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Si l'« aversion au risque » est définie comme l'inverse de la tolérance au risque, et que les valeurs d'« impact permanent » et d'« impact temporaire » augmentaient d'un facteur de 10, quel serait le nouveau rapport du « coefficient d'impact temporaire » à l'« aversion au risque » ?",
+    "answer": [
+      [
+        "50.0"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_007",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Si la \"Vitesse de retour à la moyenne\" diminuait de 50%, et que les valeurs de la \"Volatilité de la variance\" étaient toutes deux augmentées de 0,1, quelle serait la nouvelle somme de la \"Vitesse de retour à la moyenne\" et de la \"Volatilité de la variance\" maximale ?",
+    "answer": [
+      [
+        "1.4"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_008",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "open_ended_reasoning",
+    "question": "Le tableau spécifie une valeur de 'Corrélation' de -0,7. Dans un modèle financier, qu'est-ce que cette forte valeur négative implique généralement concernant la relation entre le prix d'un actif et sa volatilité ?",
+    "answer": [
+      [
+        "Une corrélation de -0,7 signifie une forte relation inverse, souvent appelée effet de levier. Cela implique que lorsque le prix de l'actif diminue, sa volatilité a tendance à augmenter, et inversement, lorsque le prix de l'actif augmente, sa volatilité a tendance à diminuer. Il s'agit d'une caractéristique cruciale pour la modélisation réaliste des prix des actifs et l'évaluation des produits dérivés."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_009",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Combien de paramètres dans le tableau sont définis par un ensemble de valeurs possibles multiples plutôt qu'une seule valeur fixe ?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_0ce0508a37_010",
+    "table_id": "arxiv_0ce0508a37",
+    "question_type": "value",
+    "question": "Quel paramètre unique est une valeur aberrante qualitative car sa valeur est la seule à être négative ?",
+    "answer": [
+      [
+        "Correlation"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C9",
+      "C10",
+      "C11",
+      "C13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

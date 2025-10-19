@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "arxiv_3086dd5175_001",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Ilan ang magkakaibang opsyon na magagamit sa kabuuan para sa lahat ng hyperparameters na ikinategorya bilang 'Categorical'?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_002",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Aling mga hyperparameter ang may pinakamaraming natatanging opsyon na nakalista sa kanilang 'Saklaw / Opsyon'?",
+    "answer": [
+      [
+        "Hidden units"
+      ],
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_003",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng hindi Kategoryang hyperparameters na ang saklaw na numerikal ay kinabibilangan ng halagang 1.",
+    "answer": [
+      [
+        "Number of R-GCN layers"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_004",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Anong porsyento ng mga nakalistang hyperparameters ang may 'Continuous' na uri?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_005",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Para sa hyperparameter na may pinakakaunting pagpipilian, ano ang uri nito?",
+    "answer": [
+      [
+        "Categorical"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C4",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_006",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Ilan ang natatanging kategorya ng 'Uri' na nakalista sa talahanayan, at ano-ano ang mga ito?",
+    "answer": [
+      [
+        "Mayroong 3 natatanging kategorya ng 'Uri' na nakalista sa talahanayan: Continuous, Categorical, at Integer."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_007",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Kung ang saklaw ng 'Bilang ng mga R-GCN layer' ay pinalawak sa '1 hanggang 7' at isang bagong 'Categorical' hyperparameter na 'Laki ng Batch' na may mga opsyon na '{16, 32, 64}' ay idinagdag, ano ang magiging bagong kabuuang bilang ng mga hiwalay na opsyon sa lahat ng hindi tuloy-tuloy na hyperparameters?",
+    "answer": [
+      [
+        "21"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5",
+      "B6",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_008",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Anong 'Continuous' na uri ng hyperparameter ang may natatanging format ng saklaw kumpara sa iba pang kapareho nito, at ano ang nagpapatingkad dito?",
+    "answer": [
+      [
+        "Ang 'Learning rate' ay may natatanging format. Hindi tulad ng 'Dropout rate' na may simpleng numerikal na saklaw, ang saklaw ng 'Learning rate' ay tinukoy gamit ang notasyong siyentipiko at may kasamang panotes na '(log-uniform)' na nagpapahiwatig ng isang partikular na sampling distribution."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_009",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "open_ended_reasoning",
+    "question": "Ikumpara ang kumplikado ng search space para sa mga hyperparameters na may uri na 'Continuous' kumpara sa uri na 'Categorical' gaya ng inilarawan sa talahanayan.",
+    "answer": [
+      [
+        "Batay sa talahanayan, ang mga hyperparameters na may uri na 'Continuous' ay mayroong walang katapusang mas malaking search space kaysa sa mga 'Categorical'. Ang mga 'Continuous' na parameter tulad ng 'Learning rate' ay maaaring kumuha ng anumang tunay na halaga sa loob ng kanilang mga hangganan, na lumilikha ng walang katapusang posibilidad. Sa kabilang banda, ang mga 'Categorical' na parameter tulad ng 'Optimizer' ay may maliit, may hangganang hanay ng mga nakalistang opsyon, na ginagawang discrete at mabilang ang kanilang search space."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_3086dd5175_010",
+    "table_id": "arxiv_3086dd5175",
+    "question_type": "value",
+    "question": "Aling hyperparameter ang lahat ng nakalistang opsyon ay mga kapangyarihan ng 2?",
+    "answer": [
+      [
+        "Hidden units"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "wikisql_042ff50ebe_001",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "Which coin has the highest mass-to-diameter ratio?",
+    "answer": [
+      [
+        "5 Kč"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_002",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "What is the total mass of all coins currently in circulation that are made of 'Nickel plated steel'?",
+    "answer": [
+      [
+        "12.1 g"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "K4",
+      "D5",
+      "E5",
+      "K5",
+      "D6",
+      "E6",
+      "K6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_003",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "What is the composition of the coin that remained in circulation for the longest period before being withdrawn?",
+    "answer": [
+      [
+        "99% aluminium 1% magnesium"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "J1",
+      "K1",
+      "J2",
+      "K2",
+      "J3",
+      "K3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_004",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "For how many full years was the '50 h' coin officially in circulation (from issue to withdrawal)?",
+    "answer": [
+      [
+        "15"
+      ]
+    ],
+    "evidence_cells": [
+      "J3",
+      "K3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_005",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "List the values of all coins that were issued on '9 June 1993' AND have a 'Milled' edge.",
+    "answer": [
+      [
+        "1 Kč"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "J4",
+      "A5",
+      "F5",
+      "J5",
+      "A6",
+      "F6",
+      "J6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_006",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "What proportion of the listed coin types share the same 'first minting' year but had different 'issue' dates?",
+    "answer": [
+      [
+        "100%"
+      ]
+    ],
+    "evidence_cells": [
+      "I1",
+      "J1",
+      "I2",
+      "J2",
+      "I3",
+      "J3",
+      "I4",
+      "J4",
+      "I5",
+      "J5",
+      "I6",
+      "J6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_007",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "If the thickness of all coins with a 'Milled' edge were increased to 2.0mm, what would be the new average thickness for this specific group of coins?",
+    "answer": [
+      [
+        "2.0mm"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "F2",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_008",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyze the relationship between a coin's composition and its lifespan in circulation as suggested by the withdrawal dates.",
+    "answer": [
+      [
+        "The data suggests a strong correlation between composition and circulation lifespan. All coins made of '99% aluminium 1% magnesium' (10h, 20h, 50h) have been withdrawn from circulation. In contrast, all coins made of 'Nickel plated steel' (1 Kč, 2 Kč, 5 Kč) are still listed as 'Current'. This indicates that the nickel-plated steel coins were designed for longer-term circulation than the aluminum-magnesium alloy coins."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "K1",
+      "E2",
+      "K2",
+      "E3",
+      "K3",
+      "E4",
+      "K4",
+      "E5",
+      "K5",
+      "E6",
+      "K6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_009",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "open_ended_reasoning",
+    "question": "Which descriptive column ('Obverse' or 'Reverse') provides unique information for identifying each coin, and why?",
+    "answer": [
+      [
+        "The 'Reverse' column provides unique identifying information for each coin. Every coin has a different description for its reverse side, such as 'stylized river' or 'St. Wenceslas crown'. The 'Obverse' column, however, is not useful for differentiation as it contains the exact same text for all six coins."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_010",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "open_ended_reasoning",
+    "question": "Which coin is an outlier based on its physical shape as described in the 'Diameter' column, and what makes it different?",
+    "answer": [
+      [
+        "The '2 Kč' coin is an outlier. While all other coins are described by a single measurement, implying a circular shape, the '2 Kč' coin's diameter is specified as '21.5mm, 11-sided'. This polygonal, 11-sided shape is unique among the listed coins."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_011",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "Which coin is made of nickel plated steel and has a milled edge?",
+    "answer": [
+      [
+        "1 Kč"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

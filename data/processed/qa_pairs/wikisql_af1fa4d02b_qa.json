@@ -1,0 +1,264 @@
+[
+  {
+    "question_id": "wikisql_af1fa4d02b_001",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Which writer has their name appear on the most episodes in this table, either as a solo writer or as part of a team?",
+    "answer": [
+      [
+        "Michele J. Wolff"
+      ],
+      [
+        "Gene Braunstein"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E5",
+      "E13",
+      "E10",
+      "E2",
+      "E9",
+      "E15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_002",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "How many episodes listed were written by a team of exactly three authors?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "E6",
+      "E7",
+      "E8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_003",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "What is the air date of the first episode written by the team that also wrote \"Who's the Boss?\"?",
+    "answer": [
+      [
+        "October19,1991"
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "E12",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_004",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the airing pattern for episodes in November 1991. Was it consistent, and what does this imply?",
+    "answer": [
+      [
+        "The airing pattern in November 1991 was highly consistent. Episodes were aired on November 2, 9, 16, and 23. The dates are exactly seven days apart, which implies a regular weekly broadcast schedule, likely on the same day of the week (Saturday)."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_005",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "List the titles of all episodes that aired in 1992 and were written by a single individual.",
+    "answer": [
+      [
+        "Tony Micelli, This is Your Other Life"
+      ],
+      [
+        "Allergic to Love"
+      ],
+      [
+        "Tony and the Honeymooners"
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "E13",
+      "C13",
+      "E14",
+      "C14",
+      "E15",
+      "C15"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_006",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "What percentage of the listed episodes were written by a team of two or more people?",
+    "answer": [
+      [
+        "46.7%"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "E6",
+      "E7",
+      "E8",
+      "E10",
+      "E11",
+      "E12",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_007",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "If the episode \"Misery\" had been written by the same team as \"Death and Love (Part 1)\", what would be the total count of episodes written by the 'Bob Rosenfarb, Danny Kallis & Phil Doran' team?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C7",
+      "E7",
+      "E6",
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_008",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there an observed tendency for the same writing team to be assigned to consecutive parts of a multipart episode? Justify your answer with data.",
+    "answer": [
+      [
+        "Yes, based on the available data, there is a clear tendency. The only multipart episode listed, 'Death and Love', has both 'Part 1' and 'Part 2' credited to the same writing team: 'Bob Rosenfarb, Danny Kallis & Phil Doran'. This suggests a deliberate choice to maintain narrative and stylistic consistency across the story arc."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "E7",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_009",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Which numeric column contains identifiers that are unique for each entry but have clear gaps in their sequence, indicating that not all episodes from the season are listed?",
+    "answer": [
+      [
+        "Series #"
+      ],
+      [
+        "Season #"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_010",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Identify the title of the first episode that aired after the longest hiatus in the broadcast schedule shown in the table.",
+    "answer": [
+      [
+        "Tony, Can You Spare a Dime?"
+      ]
+    ],
+    "evidence_cells": [
+      "F9",
+      "F10",
+      "C10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_011",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Which episode was first aired on October 12, 1991?",
+    "answer": [
+      [
+        "\"Misery\""
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

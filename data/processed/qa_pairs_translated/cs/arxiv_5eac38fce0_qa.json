@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Která strategie portfolia nabízí největší procentuální zlepšení poměru Calmar?",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Jaký je celkový procentuální bodový nárůst poměru Sharpe, pokud sečtete nárůsty všech nestrategických strategií?",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Identifikujte strategii s druhým nejvyšším zlepšením Sharpeova poměru a uveďte její odpovídající zlepšení v Calmarově poměru.",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Uveďte strategie portfolia, kde je zlepšení poměru Calmar menší než 15 % A ZÁROVEŇ zlepšení poměru Sharpe je větší než 35 %.",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Jaké procento z celkového zlepšení Calmar napříč všemi strategiemi (kromě základních) je přispěno strategií 'AlphaSharpe'?",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud by se zlepšení výkonnosti strategie 'Risk Parity' pro obě metriky nadhodnotilo o 10 procentních bodů, byla by stále lepší než základní strategie 'Equal Weighted'?",
+    "answer": [
+      [
+        "Ano, stále by byla lepší. Její upravené ΔSharpe by bylo +28.32 % a její upravené ΔCalmar by bylo +0.36 %. Jelikož obě hodnoty jsou stále vyšší než 0.00 % základní strategie 'Equal Weighted', představovalo by to zlepšení."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Naznačují data konzistentní, lineární vztah mezi zlepšením poměrů Sharpe a Calmar napříč všemi nestrannými strategiemi? Vysvětlete své uvažování.",
+    "answer": [
+      [
+        "Ne, data nenaznačují konzistentní lineární vztah. Zatímco strategie 'Risk Parity' a 'Equal Risk Cont.' vykazují podobný profil, kde velké ΔSharpe odpovídá mírné ΔCalmar, strategie 'AlphaSharpe' tento vzorec narušuje. Vykazuje masivní ΔCalmar, které dalece přesahuje její ΔSharpe, což naznačuje, že vztah mezi těmito dvěma metrikami je nelineární a silně závisí na strategii."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Kolik strategií v tabulce má vyšší zlepšení poměru Calmar než poměru Sharpe?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Která strategie portfolia je odlehlá z hlediska rovnováhy mezi zlepšením poměru Sharpe a Calmar ve srovnání s ostatními strategiemi, které nejsou základní, a proč?",
+    "answer": [
+      [
+        "Strategie 'AlphaSharpe' je odlehlá. U strategií 'Risk Parity' a 'Equal Risk Cont.' je zlepšení poměru Sharpe přibližně 3,7krát větší než zlepšení poměru Calmar. Naopak 'AlphaSharpe' tento trend obrací, přičemž její zlepšení poměru Calmar (+116,31 %) je výrazně větší než její zlepšení poměru Sharpe (+71,04 %), což naznačuje zásadně odlišné zlepšení profilu rizika a výnosu."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Porovnejte strategie 'Risk Parity' a 'Equal Risk Cont.'. Která z nich nabízí lepší profil výkonnosti na základě poskytnutých metrik a o kolik v každé metrice?",
+    "answer": [
+      [
+        "Strategie 'Equal Risk Cont.' nabízí nepatrně lepší profil výkonnosti. Překonává strategii 'Risk Parity' s o 0,23 procentního bodu vyšším zlepšením poměru Sharpe (o +38,55 % oproti +38,32 %) a o 0,08 procentního bodu vyšším zlepšením poměru Calmar (o +10,44 % oproti +10,36 %)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Jaká je hodnota ΔSharpe (%) pro strategii portfolia 'Equal Risk Cont.' v tabulce?",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

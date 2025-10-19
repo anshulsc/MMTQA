@@ -1,0 +1,172 @@
+[
+  {
+    "question_id": "arxiv_4b915ab11f_001",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Aling modelo, sa mga nakalista, ang gumagamit ng pinakamalaking base na arkitektura sa termino ng bilang ng parameter?",
+    "answer": [
+      [
+        "XuanYuan2.0"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_002",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ano ang kabuuang bilang ng mga token sa corpus na ginamit upang sanayin ang BloomBergGPT?",
+    "answer": [
+      [
+        "708B"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_003",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Ano ang badyet sa pagsasanay para sa modelo na binuo sa arkitektura ng T5?",
+    "answer": [
+      [
+        "Days/weeks"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_004",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Para sa modelo na nagtatakda ng dalawang-yugtong proseso ng datos sa pagsasanay, ano ang laki ng corpus para sa yugto ng pre-training?",
+    "answer": [
+      [
+        "366B"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_005",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Kilalanin ang LLM na gumagamit ng arkitekturang batay sa BLOOM at may pampublikong inilabas na badyet sa pagsasanay na tinukoy sa A100·hours.",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_006",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Anong porsyento ng kabuuang training corpus ng BloomBergGPT ang binubuo ng mga public token?",
+    "answer": [
+      [
+        "48.73%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_007",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Kung ang badyet sa pagsasanay ng XuanYuan2.0 ay isiniwalat na 2,500,000 A100·hours, paano ito makakaapekto sa pagraranggo ng mga modelo ayon sa badyet sa pagsasanay?",
+    "answer": [
+      [
+        "Sa kasalukuyan, ang BloomBergGPT lamang ang may tinukoy na numerical na badyet (1,300,000 A100·hours), na ginagawa itong unang ranggo. Kung ang badyet ng XuanYuan2.0 ay 2,500,000 A100·hours, ito ang magiging modelo na may pinakamataas na kilalang badyet sa pagsasanay, na lalampas sa BloomBergGPT. Ang bagong ranggo para sa mga modelo na may numerical na badyet ay magiging 1. XuanYuan2.0 (2,500,000) at 2. BloomBergGPT (1,300,000)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_008",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "open_ended_reasoning",
+    "question": "Mayroon bang pare-parehong ugnayan sa pagitan ng bilang ng parameter ng arkitektura ng isang modelo at ng kabuuang laki ng corpus ng pagsasanay nito batay sa datos na ito?",
+    "answer": [
+      [
+        "Hindi, walang pare-parehong positibong ugnayan na makikita sa datos. Halimbawa, ang XuanYuan2.0 ay may mas malaking arkitektura (176B na parameter) kaysa BloomBergGPT (50B na parameter), ngunit sinanay ito sa mas maliit na corpus (379B na token kumpara sa 708B na token). Ipinapahiwatig nito na ang isang mas malaking modelo ay hindi kinakailangang mangailangan ng mas malaking corpus ng pagsasanay ayon sa dataset na ito."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_009",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Aling kolumna ng datos ang nagpapakita ng pinakamaraming pagkakaiba-iba sa format ng data, na naglalaman ng malaking integer, isang string ng hindi paglalantad, at isang hanay na nakabatay sa oras?",
+    "answer": [
+      [
+        "Training budget (A100·hours)"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_4b915ab11f_010",
+    "table_id": "arxiv_4b915ab11f",
+    "question_type": "value",
+    "question": "Aling modelo ang nakasaad na badyet sa pagsasanay ay isang makabuluhang positibong outlier kumpara sa impormasyon ng badyet na magagamit para sa ibang mga modelo?",
+    "answer": [
+      [
+        "BloomBergGPT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

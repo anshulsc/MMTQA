@@ -1,0 +1,243 @@
+[
+  {
+    "question_id": "arxiv_5ef1fd398c_001",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Which 'Focus Category' appears most frequently in the table?",
+    "answer": [
+      [
+        "Financial Indicator"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_002",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "How many distinct focus categories contain exactly three focus items?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_003",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Within the category that includes 'Pension', what other 'Focus Item' has questions related to employee compensation and benefits?",
+    "answer": [
+      [
+        "Salary"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_004",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Which 'Focus Item' has questions that are most explicitly focused on comparing performance across different past time periods, such as quarter-over-quarter and year-over-year?",
+    "answer": [
+      [
+        "Revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_005",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "List all 'Focus Items' under the 'Expansion' category that do not specifically mention physical products.",
+    "answer": [
+      [
+        "Geographic Expansion"
+      ],
+      [
+        "Market Segmentation Expansion"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_006",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "What proportion of 'Focus Items' in the 'Financial Indicator' category are directly concerned with shareholder returns (e.g., dividends, ROE, buybacks)?",
+    "answer": [
+      [
+        "2/4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_007",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "If the 'Dividend' focus item were re-categorized under a new 'Shareholder Value' category, how would the number of items in the 'Financial Indicator' category change?",
+    "answer": [
+      [
+        "The number of items would decrease from 4 to 3."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_008",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the provided questions, what relationship is implied between a change in company management and its corporate strategy?",
+    "answer": [
+      [
+        "The table implies a direct causal relationship, as question Q3 for 'Management Change' explicitly asks about the expected impact of such changes on the company's strategy. This suggests that leadership transitions are seen as key drivers of strategic shifts."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_009",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Identify the 'Focus Items' that are structural outliers, where the item name is identical to its category name and it is the sole item in that category.",
+    "answer": [
+      [
+        "Business"
+      ],
+      [
+        "Future Outlook"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "A15",
+      "B15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_010",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Compare the thematic focus of the questions for 'Financial Indicator' items versus 'Employee Manager' items.",
+    "answer": [
+      [
+        "The questions for 'Financial Indicator' items are externally focused on quantitative performance metrics like revenue, dividends, and earnings, primarily for investor analysis. In contrast, the 'Employee Manager' questions are internally focused on human capital and administrative aspects, such as salaries, pension liabilities, and the impact of management changes, which concern internal operations and employee welfare."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_011",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "How many focus items are under the Financial Indicator category?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]
