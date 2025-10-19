@@ -12,15 +12,15 @@ from .prompts import QA_TRANSLATION_PROMPT, TranslatedQA
 
 
 class APIKeyRotator:
-    """Manages circular rotation of API keys with rate limiting and quota tracking"""
+    """Manages API keys - uses one key until quota exceeded, then shifts to next"""
     
-    def __init__(self, api_keys: list, requests_per_minute: int = 10):
+    def __init__(self, api_keys: list, requests_per_minute: int = 12):
         self.api_keys = api_keys
         self.current_key_index = 0
         self.requests_per_minute = requests_per_minute
         
-        # Track request timestamps for each API key
-        self.request_history = {i: deque() for i in range(len(api_keys))}
+        # Track request count for current key (resets after wait)
+        self.current_key_request_count = 0
         
         # Track keys that have exceeded quota (blacklist them)
         self.quota_exceeded_keys: Set[int] = set()
@@ -34,115 +34,43 @@ class APIKeyRotator:
         return self.current_key_index
     
     def mark_quota_exceeded(self, key_index: int):
-        """Mark a key as having exceeded quota"""
+        """Mark a key as having exceeded quota and rotate to next available key"""
         self.quota_exceeded_keys.add(key_index)
         cprint(f"    [QUOTA] Key #{key_index + 1} marked as quota exceeded. {len(self.quota_exceeded_keys)}/{len(self.api_keys)} keys exhausted.", "red")
+        
+        # Rotate to next available key
+        if self.has_available_keys():
+            self._rotate_to_next_available_key()
     
     def has_available_keys(self) -> bool:
         """Check if there are any keys left that haven't exceeded quota"""
         return len(self.quota_exceeded_keys) < len(self.api_keys)
     
-    def _clean_old_requests(self, key_index: int):
-        """Remove request timestamps older than 1 minute"""
-        current_time = datetime.now()
-        one_minute_ago = current_time - timedelta(minutes=1)
-        
-        history = self.request_history[key_index]
-        while history and history[0] < one_minute_ago:
-            history.popleft()
-    
-    def can_make_request(self, key_index: int) -> bool:
-        """Check if we can make a request with the given key"""
-        # Skip if quota exceeded
-        if key_index in self.quota_exceeded_keys:
-            return False
-            
-        self._clean_old_requests(key_index)
-        return len(self.request_history[key_index]) < self.requests_per_minute
-    
-    def record_request(self, key_index: int):
-        """Record that a request was made with the given key"""
-        self.request_history[key_index].append(datetime.now())
-    
-    def get_wait_time(self, key_index: int) -> float:
-        """Calculate how long to wait before the key can make another request"""
-        self._clean_old_requests(key_index)
-        
-        if len(self.request_history[key_index]) < self.requests_per_minute:
-            return 0.0
-        
-        # Wait until oldest request expires
-        oldest_request = self.request_history[key_index][0]
-        wait_until = oldest_request + timedelta(minutes=1)
-        wait_seconds = (wait_until - datetime.now()).total_seconds()
-        return max(0.0, wait_seconds)
-    
-    def wait_or_rotate(self) -> bool:
-        """
-        Wait for rate limit or rotate to next available key.
-        Returns True if rotation happened, False if waited.
-        Raises Exception if all keys have exceeded quota.
-        """
-        if not self.has_available_keys():
-            raise Exception("All API keys have exceeded their quota. Please try again later or add more keys.")
-        
-        # If current key can make request, no action needed
-        if self.can_make_request(self.current_key_index):
-            return False
-        
-        # Try to find an available key
-        initial_index = self.current_key_index
+    def _rotate_to_next_available_key(self):
+        """Rotate to the next key that hasn't exceeded quota"""
         attempts = 0
-        min_wait_time = float('inf')
-        best_key_index = initial_index
-        
-        while attempts < len(self.api_keys):
-            next_index = (self.current_key_index + 1) % len(self.api_keys)
-            self.current_key_index = next_index
-            attempts += 1
-            
-            # Skip quota-exceeded keys
-            if next_index in self.quota_exceeded_keys:
-                continue
-            
-            if self.can_make_request(next_index):
-                cprint(f"    [ROTATION] Switched to API key #{next_index + 1}", "cyan")
-                return True
-            
-            # Track which key has shortest wait time
-            wait_time = self.get_wait_time(next_index)
-            if wait_time < min_wait_time:
-                min_wait_time = wait_time
-                best_key_index = next_index
-        
-        # All available keys are rate limited, wait for the one with shortest wait time
-        self.current_key_index = best_key_index
-        wait_time = self.get_wait_time(best_key_index)
-        
-        if wait_time > 0:
-            cprint(f"    [RATE LIMIT] All available keys busy. Waiting {wait_time:.1f}s for key #{best_key_index + 1}...", "yellow")
-            time.sleep(wait_time + 0.5)  # Add buffer
-        
-        return False
-    
-    def rotate_on_error(self):
-        """Rotate to next key due to an error"""
-        if not self.has_available_keys():
-            raise Exception("All API keys have exceeded their quota.")
-        
-        old_index = self.current_key_index
-        attempts = 0
-        
         while attempts < len(self.api_keys):
             self.current_key_index = (self.current_key_index + 1) % len(self.api_keys)
             attempts += 1
             
-            # Skip quota-exceeded keys
             if self.current_key_index not in self.quota_exceeded_keys:
-                cprint(f"    [ERROR ROTATION] Key #{old_index + 1} failed, switching to key #{self.current_key_index + 1}", "magenta")
+                self.current_key_request_count = 0  # Reset counter for new key
+                cprint(f"    [ROTATION] Switched to API key #{self.current_key_index + 1}", "cyan")
                 return
         
         raise Exception("All API keys have exceeded their quota.")
+    
+    def check_and_wait_if_needed(self):
+        """Check if we need to wait after 10 requests"""
+        if self.current_key_request_count >= self.requests_per_minute:
+            cprint(f"    [RATE LIMIT] Reached {self.requests_per_minute} requests on key #{self.current_key_index + 1}. Waiting 60 seconds...", "yellow")
+            time.sleep(30)
+            self.current_key_request_count = 0  # Reset counter after wait
+            cprint(f"    [RESUMED] Continuing with key #{self.current_key_index + 1}", "green")
+    
+    def record_request(self):
+        """Record that a request was made with the current key"""
+        self.current_key_request_count += 1
 
 
 class TranslationTracker:
@@ -236,7 +164,7 @@ class QATranslator:
         
         Args:
             target_language: Name of target language (e.g., "Spanish", "French")
-            max_retries: Maximum number of retry attempts per key
+            max_retries: Maximum number of retry attempts per error
             
         Returns:
             TranslatedQA object or None if translation fails
@@ -258,12 +186,16 @@ class QATranslator:
         
         total_attempts = 0
         max_total_attempts = max_retries * len(cfg.GEMINI_API_KEYS)
-        consecutive_quota_errors = 0
         
         while total_attempts < max_total_attempts:
             try:
-                # Wait or rotate if rate limit reached
-                self.key_rotator.wait_or_rotate()
+                # Check if all keys are exhausted before attempting
+                if not self.key_rotator.has_available_keys():
+                    cprint(f"    [CRITICAL] All {len(cfg.GEMINI_API_KEYS)} API keys have exceeded quota!", "red")
+                    return None
+                
+                # Check and wait if we've reached request limit for current key
+                self.key_rotator.check_and_wait_if_needed()
                 
                 key_index = self.key_rotator.get_current_key_index()
                 
@@ -271,13 +203,12 @@ class QATranslator:
                 response = self.model.generate_content(prompt)
                 
                 # Record successful request
-                self.key_rotator.record_request(key_index)
-                consecutive_quota_errors = 0  # Reset on success
+                self.key_rotator.record_request()
                 
                 # Validate the response using Pydantic model
                 validated_translation = TranslatedQA.model_validate_json(response.text)
                 
-                cprint(f"    [SUCCESS] Translation to {target_language} completed (Key #{key_index + 1}).", "green")
+                cprint(f"    [SUCCESS] Translation to {target_language} completed (Key #{key_index + 1}, Request #{self.key_rotator.current_key_request_count}).", "green")
                 return validated_translation
 
             except Exception as e:
@@ -285,13 +216,10 @@ class QATranslator:
                 total_attempts += 1
                 key_index = self.key_rotator.get_current_key_index()
                 
-                
-                
                 cprint(f"    [ERROR] Attempt {total_attempts} (Key #{key_index + 1}): {e}", "red")
                 
-                # Handle quota exceeded - mark key and rotate immediately
+                # Handle quota exceeded - mark key and rotate to next
                 if any(keyword in error_msg for keyword in ["quota exceeded", "resource exhausted", "429"]):
-                    consecutive_quota_errors += 1
                     self.key_rotator.mark_quota_exceeded(key_index)
                     
                     # Check if all keys are exhausted
@@ -299,22 +227,20 @@ class QATranslator:
                         cprint(f"    [CRITICAL] All {len(cfg.GEMINI_API_KEYS)} API keys have exceeded quota!", "red")
                         return None
                     
-                    # Rotate and reconfigure
-                    self.key_rotator.rotate_on_error()
+                    # Reconfigure model with new key
                     self._configure_model()
                     
-                    # Add delay after quota errors
+                    # Add small delay after quota error
                     delay = getattr(cfg, 'QUOTA_ERROR_DELAY', 2)
                     time.sleep(delay)
                 
-                # Handle rate limit - rotate and try again
+                # Handle rate limit errors (shouldn't happen with our logic, but just in case)
                 elif "rate limit" in error_msg:
-                    cprint("    Rate limit detected, rotating key...", "yellow")
-                    self.key_rotator.rotate_on_error()
-                    self._configure_model()
-                    time.sleep(1)
+                    cprint("    Rate limit detected, waiting 60 seconds...", "yellow")
+                    time.sleep(60)
+                    self.key_rotator.current_key_request_count = 0
                 
-                # Handle other errors with exponential backoff
+                # Handle validation or other errors with exponential backoff
                 elif total_attempts < max_total_attempts:
                     wait_time = min(2 ** (total_attempts % 5), 16)  # Cap at 16 seconds
                     cprint(f"    Waiting {wait_time}s before retry...", "yellow")
