@@ -1,0 +1,243 @@
+[
+  {
+    "question_id": "arxiv_5ef1fd398c_001",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Kategori 'Fokus' mana yang paling sering muncul di tabel?",
+    "answer": [
+      [
+        "Financial Indicator"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_002",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Berapa banyak kategori fokus yang berbeda yang berisi tepat tiga item fokus?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_003",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Dalam kategori yang mencakup 'Pensiun', 'Fokus Item' lain apa yang memiliki pertanyaan terkait kompensasi dan tunjangan karyawan?",
+    "answer": [
+      [
+        "Salary"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_004",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Item Fokus 'Focus Item' mana yang memiliki pertanyaan yang paling jelas berfokus pada perbandingan kinerja di berbagai periode waktu sebelumnya, seperti kuartal-ke-kuartal dan tahun-ke-tahun?",
+    "answer": [
+      [
+        "Revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_005",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Sebutkan semua 'Focus Item' di bawah kategori 'Expansion' yang tidak secara spesifik menyebutkan produk fisik.",
+    "answer": [
+      [
+        "Geographic Expansion"
+      ],
+      [
+        "Market Segmentation Expansion"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_006",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Berapa proporsi 'Item Fokus' dalam kategori 'Indikator Keuangan' yang secara langsung berkaitan dengan imbal hasil pemegang saham (misalnya, dividen, ROE, pembelian kembali saham)?",
+    "answer": [
+      [
+        "2/4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_007",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Jika item fokus 'Dividen' dikategorikan ulang di bawah kategori baru 'Nilai Pemegang Saham', bagaimana jumlah item dalam kategori 'Indikator Keuangan' akan berubah?",
+    "answer": [
+      [
+        "Jumlah item akan berkurang dari 4 menjadi 3."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_008",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan pertanyaan yang diberikan, hubungan apa yang tersirat antara perubahan manajemen perusahaan dan strategi korporatnya?",
+    "answer": [
+      [
+        "Tabel tersebut menyiratkan hubungan sebab-akibat yang langsung, karena pertanyaan Q3 untuk 'Perubahan Manajemen' secara eksplisit menanyakan tentang dampak yang diharapkan dari perubahan tersebut terhadap strategi perusahaan. Hal ini menunjukkan bahwa transisi kepemimpinan dipandang sebagai pendorong utama pergeseran strategis."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_009",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Identifikasi 'Focus Item' yang merupakan outlier struktural, di mana nama item identik dengan nama kategorinya dan merupakan satu-satunya item dalam kategori tersebut.",
+    "answer": [
+      [
+        "Business"
+      ],
+      [
+        "Future Outlook"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "A15",
+      "B15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_010",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Bandingkan fokus tematik pertanyaan untuk item 'Indikator Keuangan' versus item 'Manajemen Karyawan'.",
+    "answer": [
+      [
+        "Pertanyaan untuk item 'Indikator Keuangan' berfokus eksternal pada metrik kinerja kuantitatif seperti pendapatan, dividen, dan laba, terutama untuk analisis investor. Sebaliknya, pertanyaan 'Manajemen Karyawan' berfokus internal pada modal manusia dan aspek administratif, seperti gaji, kewajiban pensiun, dan dampak perubahan manajemen, yang menyangkut operasi internal dan kesejahteraan karyawan."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_011",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Berapa banyak item fokus yang termasuk dalam kategori Indikator Keuangan?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

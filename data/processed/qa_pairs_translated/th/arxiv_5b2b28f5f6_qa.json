@@ -1,0 +1,174 @@
+[
+  {
+    "question_id": "arxiv_5b2b28f5f6_001",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "ชุดข้อมูลใดสร้างขึ้นจากการรวบรวมจุดข้อมูลตัวเลขและข้อความดิบที่กว้างขวางที่สุดตามที่กล่าวถึงในตาราง?",
+    "answer": [
+      [
+        "FNSPID"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_002",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "เฟรมเวิร์ก FNSPID มีจำนวนข้อมูลราคาและข่าวรวมกันทั้งหมดเท่าใด",
+    "answer": [
+      [
+        "45.4M"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_003",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "สำหรับชุดข้อมูลที่เน้นเรื่อง 'จิตวิทยาของนักลงทุน' คุณลักษณะประเภทใดที่ถูกกล่าวถึงอย่างชัดเจนว่ามีส่วนช่วยในผลลัพธ์หลักของการคาดการณ์ที่ดีขึ้น?",
+    "answer": [
+      [
+        "emotional features"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_004",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "ชุดข้อมูลใดที่มีผลลัพธ์หลักได้รับการตรวจสอบในช่วงเวลาหลายทศวรรษที่เฉพาะเจาะจง และปีเริ่มต้นและสิ้นสุดของช่วงเวลานั้นคือปีใด",
+    "answer": [
+      [
+        "Market-GAN",
+        "2000-2023"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_005",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "ระบุชุดข้อมูลที่มี 'ผลลัพธ์หลัก' ซึ่งรวมถึงตัวชี้วัดประสิทธิภาพเชิงปริมาณ (เช่น เปอร์เซ็นต์ หรือคะแนนทางสถิติ)",
+    "answer": [
+      [
+        "FNSPID"
+      ],
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_006",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "สำหรับชุดข้อมูล FNSPID อัตราส่วนโดยประมาณของข้อมูลข่าวสารต่อข้อมูลราคาคือเท่าใด",
+    "answer": [
+      [
+        "Approximately 0.53 to 1 (15.7M / 29.7M)"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_007",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "หากผลตอบแทนรายปีที่รายงานโดย AlphaFin ลดลง 10% จากมูลค่าปัจจุบัน จะเป็นกี่เปอร์เซ็นต์ใหม่?",
+    "answer": [
+      [
+        "27.72%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_008",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "open_ended_reasoning",
+    "question": "จากคำอธิบายสำหรับ FNSPID และ StockEmotions ความสัมพันธ์ใดที่สามารถอนุมานได้ระหว่าง 'นวัตกรรมหลัก' ของชุดข้อมูล กับ 'ลักษณะข้อมูล' ของชุดข้อมูลนั้น?",
+    "answer": [
+      [
+        "มีความสัมพันธ์เชิงบวกที่แข็งแกร่ง โดยนวัตกรรมหลักได้รับการส่งเสริมโดยตรงและปรับให้เข้ากับลักษณะเฉพาะของข้อมูลที่รวบรวมไว้ ตัวอย่างเช่น นวัตกรรมของ FNSPID ใน 'การรวมราคา-ข่าว' สามารถทำได้เนื่องจากการรวบรวมบันทึกราคาและข่าวจำนวนมาก ในทำนองเดียวกัน นวัตกรรมของ StockEmotions ใน 'จิตวิทยาของนักลงทุน' ก็มาจากชุดข้อมูลเฉพาะของ 'ความคิดเห็นที่ถูกอธิบาย' พร้อมด้วยคุณลักษณะทางอารมณ์"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_009",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "คอลัมน์ใดในตารางที่ออกแบบมาเพื่อสรุปผลงานใหม่ที่เป็นแก่นแท้หรือแนวทางที่เป็นเอกลักษณ์ของแต่ละโมเดล",
+    "answer": [
+      [
+        "Key Innovation"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_010",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "ในบรรดาผลลัพธ์หลักที่ระบุไว้ ชุดข้อมูลใดรายงานผลลัพธ์สำคัญที่มุ่งเน้นที่ความโปร่งใสและความสามารถในการอธิบายของโมเดล ทำให้แตกต่างจากชุดข้อมูลอื่น ๆ ที่มุ่งเน้นที่ความแม่นยำ ผลตอบแทน หรือความเที่ยงตรงของการจำลองเป็นหลัก?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

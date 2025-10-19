@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Metode pamilihan fitur mana nu ngahontal nilai kasalahan panghandapna pikeun setelan ramalan 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Sabaraha rata-rata jumlah variabel eksogen anu dianggo ku metode 'LASSO regression feature selection' dina sadaya pangaturan prakiraan?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Pikeun setting ramalan 'BC3_28', sabaraha metrik kasalahan tina metodeu anu ngagunakeun jumlah pangluhurna variabel éksogén?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Nalika jumlah variabel éksogén ningkat, naha éta salawasna ngaronjatkeun pagelaran (nyaéta, nurunkeun nilai kasalahan) pikeun setélan 'BC1_64'? Pasihan analisis ringkes.",
+    "answer": [
+      [
+        "Henteu, teu aya patalian anu konsisten. Pikeun setélan 'BC1_64', 'Correlation-Based Selection' ngagunakeun 3 variabel pikeun kasalahan 14.11, 'LASSO regression' ogé ngagunakeun 3 variabel tapi ngagaduhan kasalahan anu langkung luhur nyaéta 14.55. 'Forward Feature Selection NP' ngagunakeun jumlah variabel anu langkung ageung (28) sareng ngahontal kasalahan anu langkung saé (langkung handap) nyaéta 9.16. Ieu nunjukkeun yén sanaos jumlah variabel anu langkung luhur tiasa langkung saé, metode pamilihan khusus penting pisan sareng nambihan variabel henteu ngajamin perbaikan."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Sebutkeun sadaya metode pamilihan fitur anu ngahasilkeun nilai kasalahan langkung ti 15 pikeun setelan 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Sabaraha persén tina jumlah total variabel eksogen anu dianggo ku 'Forward Feature Selection NP' di sadaya pangaturan dialokasikeun pikeun pangaturan 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Upami aya kasalahan pamrosesan data nyababkeun sadaya métrik kasalahan pikeun pangaturan 'BC2_28' janten 2,5 poin langkung handap tina anu kacatet, sabaraha kasalahan énggal pikeun 'Manual feature selection'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Di antara metode pamilihan fitur anu jumlah variabelna dikedalkeun sacara eksplisit, mana anu nunjukkeun kagagalan panggedéna, diukur ku rentang (maksimum dikurangan minimum) tina variabel anu dipilih dina sababaraha setélan prakiraan?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Pikeun metode 'LASSO regression feature selection', nilai kasalahan pikeun 'BC3_28' mangrupikeun outlier. Kumaha jumlah variabel eksogen anu saluyu sareng éta dibandingkeun sareng setélan sanés pikeun metode anu sami?",
+    "answer": [
+      [
+        "Setélan 'BC3_28', anu ngagaduhan kasalahan luhur outlier 28.79 pikeun LASSO, ogé ngagunakeun jumlah variabel eksogen anu pangluhurna (16) pikeun metode éta. Ieu langkung seueur tibatan setélan sanés, anu mimitian ti 0 dugi ka 10 variabel. Ieu nunjukkeun kamungkinan masalah dimana metode LASSO milih kumpulan fitur anu ageung, tapi performana goréng, pikeun konteks perkiraan khusus ieu."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Nalika nganalisis kinerja dasar 'Tanpa variabel eksogén', jelaskeun tren dina métrik kasalahan nalika anjeun pindah sacara sékuensial tina setélan 'BC1' ka 'BC2' teras ka 'BC3'.",
+    "answer": [
+      [
+        "Kinerja dasar 'Tanpa variabel eksogén' nunjukkeun pola anu jelas dina sadaya setélan. Éta dimimitian ku nilai kasalahan sedeng pikeun setélan BC1 (11.14, 13.65). Kinerja ningkat pisan pikeun setélan BC2, anu ngagaduhan kasalahan panghandapna (3.75, 9.08). Tungtungna, kasalahan naék deui pikeun setélan BC3 (17.53, 9.06), kalayan BC3_64 ngagaduhan kasalahan pangluhurna sadayana pikeun metode ieu. Ieu nunjukkeun yén modél dasar pangsaéna cocog pikeun kaayaan BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Di antara 'LASSO regression feature selection' jeung 'Forward Feature Selection NP', setting forecasting mana nu ngahontal nilai leuwih handap dina konfigurasi BC2_64?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' ngahontal nilai nu leuwih handap (2.9) dibandingkeun jeung 'LASSO regression feature selection' (5.73) dina konfigurasi BC2_64."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

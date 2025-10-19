@@ -1,0 +1,174 @@
+[
+  {
+    "question_id": "arxiv_5b2b28f5f6_001",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "표에 언급된 가장 방대한 양의 원시 수치 및 텍스트 데이터 포인트들을 기반으로 구축된 데이터셋 모델은 무엇입니까?",
+    "answer": [
+      [
+        "FNSPID"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_002",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "FNSPID 프레임워크에서 총 가격 및 뉴스 기록의 수는 얼마입니까?",
+    "answer": [
+      [
+        "45.4M"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_003",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "'투자자 심리'에 초점을 맞춘 데이터셋의 경우, 예측 개선이라는 주요 결과에 기여한다고 명시적으로 언급된 특징 유형은 무엇입니까?",
+    "answer": [
+      [
+        "emotional features"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_004",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "어떤 데이터셋의 주요 결과가 특정 수십 년에 걸쳐 검증되었으며, 해당 기간의 시작 연도와 종료 연도는 무엇입니까?",
+    "answer": [
+      [
+        "Market-GAN",
+        "2000-2023"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_005",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "'주요 결과'에 백분율 또는 통계 점수와 같은 정량적 성능 지표가 포함된 데이터셋을 식별하십시오.",
+    "answer": [
+      [
+        "FNSPID"
+      ],
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_006",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "FNSPID 데이터셋의 경우, 뉴스 레코드와 가격 레코드의 대략적인 비율은 어떻게 됩니까?",
+    "answer": [
+      [
+        "Approximately 0.53 to 1 (15.7M / 29.7M)"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_007",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "AlphaFin에서 보고된 연간 수익률이 현재 가치의 10%만큼 감소한다면, 새로운 비율은 얼마입니까?",
+    "answer": [
+      [
+        "27.72%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_008",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "open_ended_reasoning",
+    "question": "FNSPID와 StockEmotions에 대한 설명을 바탕으로, 데이터셋의 '주요 혁신(Key Innovation)'과 '데이터 특성(Data Characteristics)' 사이에 어떤 관계가 있다고 추론할 수 있습니까?",
+    "answer": [
+      [
+        "주요 혁신은 수집된 데이터의 특정 특성에 의해 직접적으로 가능해지고 맞춤화되는 경우 강한 양의 상관관계가 존재합니다. 예를 들어, FNSPID의 '가격-뉴스 통합(price-news integration)' 혁신은 가격 및 뉴스 기록의 대규모 수집 덕분에만 가능합니다. 마찬가지로, StockEmotions의 '투자자 심리(investor psychology)' 혁신은 감정 분류를 포함한 '주석이 달린 댓글(annotated comments)'이라는 고유한 데이터셋에서 파생됩니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_009",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "표에서 각 모델의 핵심적인 새로운 기여 또는 고유한 접근 방식을 요약하도록 설계된 열은 무엇입니까?",
+    "answer": [
+      [
+        "Key Innovation"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_010",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "명시된 주요 결과 중, 모델의 투명성과 설명 가능성에 초점을 맞춘 핵심 결과가 다른 데이터셋들의 정확도, 수익률, 또는 시뮬레이션 충실도 중심 결과와 비교했을 때 두드러지는 데이터셋은 무엇입니까?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

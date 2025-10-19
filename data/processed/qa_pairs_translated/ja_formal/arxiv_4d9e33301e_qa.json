@@ -1,0 +1,174 @@
+[
+  {
+    "question_id": "arxiv_4d9e33301e_001",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "直近の期間で、どちらの企業の利益率（純利益 / 総収益）が高かったですか？",
+    "answer": [
+      [
+        "Coca-Cola Co"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_002",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "ペプシコとコカ・コーラの最近記録された期間における総収入（千ドル単位）の合計はいくらでしたか？",
+    "answer": [
+      [
+        "34294000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_003",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "前期から直近の期間にかけて、売上総利益（総収入 - 売上原価）の絶対額の増加がより大きかった企業はどちらですか？",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_004",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "コカ・コーラの2つの記録期間における純利益の傾向を分析し、その総収益の傾向と比較してください。",
+    "answer": [
+      [
+        "コカ・コーラの純利益は3,107,000（千単位）から2,547,000（千単位）に減少しましたが、総収益は10,980,000（千単位）から11,972,000（千単位）に増加しました。この乖離は、売上は増加したものの、収益の伸びを上回るコストまたは経費の増加を示唆し、収益性が低下したことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_005",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "1,000,000千ドルを超える営業費用の増加を経験し、かつ利息費用の増加が1,000千ドル以下の企業はどれですか？",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_006",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "直近の期間において、ペプシコの総収入のうち、売上原価と営業費用の合計が占める割合はいくらですか？",
+    "answer": [
+      [
+        "83.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_007",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "もし、コカ・コーラの直近の期間における売上原価が10%低かった場合、他の数値に変更がないと仮定すると、新しい純利益（単位：千ドル）はいくらになりますか？",
+    "answer": [
+      [
+        "3038200"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_008",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "両社のデータに基づくと、2つの期間における総収入の変化と営業費用（オペレーティング・エクスペンス）の変化の間には、どのような関係が見られますか？",
+    "answer": [
+      [
+        "正の相関関係があるようです。ペプシコとコカ・コーラの両社において、前期から当期にかけて総収入が増加すると、営業費用も増加しています。これは、収入が増加するにつれて、マーケティング費用や管理費など、その成長を支えるために必要な支出も増加することを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_009",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "コカ・コーラ社において、売上原価および営業費用の両方のトレンド（増加・減少）とは反対のトレンド傾向を示す費用項目はどれですか？",
+    "answer": [
+      [
+        "Depreciation and Amortization"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_010",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "財務指標は2要素のリスト（例：[値1、値2]）として提示されています。四半期報告の文脈を考慮すると、この構造の最も可能性の高い意味は何ですか？",
+    "answer": [
+      [
+        "この構造は、おそらく四半期の前年同期比比較を表しています。最初の値は通常、前年の同じ四半期の財務結果に対応し、2番目の値は現在の四半期の結果を表します。この形式は、パフォーマンスの傾向と経年変化を評価するための標準的なものです。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

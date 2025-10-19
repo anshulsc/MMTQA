@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "कौन सी पोर्टफोलियो रणनीति कलमर अनुपात में सबसे बड़ा प्रतिशत सुधार प्रदान करती है?",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "यदि आप सभी गैर-आधारभूत रणनीतियों के सुधारों का योग करते हैं, तो शार्प अनुपात में कुल प्रतिशत अंकों का सुधार कितना है?",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "उस रणनीति की पहचान करें जिसमें शार्प अनुपात में दूसरी-सर्वोच्च सुधार हुआ है और कैल्मर अनुपात में उसका संबंधित सुधार बताएं।",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "उन पोर्टफोलियो रणनीतियों को सूचीबद्ध करें जहां Calmar अनुपात में सुधार 15% से कम है और Sharpe अनुपात में सुधार 35% से अधिक है।",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "'अल्फा शार्प' रणनीति द्वारा सभी गैर-आधारभूत रणनीतियों में कुल कालमार सुधार में कितने प्रतिशत का योगदान दिया गया है?",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "'Risk Parity' रणनीति के प्रदर्शन में यदि दोनों मेट्रिक्स के लिए 10 प्रतिशत अंक अधिक बताया गया होता, तो क्या यह 'Equal Weighted' बेसलाइन से बेहतर होता?",
+    "answer": [
+      [
+        "हाँ, यह अभी भी बेहतर होता। इसका समायोजित ΔSharpe +28.32% और समायोजित ΔCalmar +0.36% होता। चूंकि दोनों मान अभी भी 'Equal Weighted' बेसलाइन के 0.00% से अधिक हैं, यह एक सुधार का प्रतिनिधित्व करेगा।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "क्या डेटा सभी गैर-आधारभूत रणनीतियों में शार्प और कैल्मर अनुपातों में सुधार के बीच एक सुसंगत, रैखिक संबंध का सुझाव देता है? अपने तर्क की व्याख्या करें।",
+    "answer": [
+      [
+        "नहीं, डेटा एक सुसंगत रैखिक संबंध का सुझाव नहीं देता है। जबकि 'रिस्क पैरिटी' और 'इक्वल रिस्क कॉन्ट.' एक समान प्रोफ़ाइल दिखाते हैं जहाँ एक बड़े ΔSharpe के अनुरूप एक मामूली ΔCalmar होता है, 'अल्फाशार्प' रणनीति इस पैटर्न को बाधित करती है। यह एक विशाल ΔCalmar प्रदर्शित करता है जो इसके ΔSharpe से कहीं अधिक है, यह दर्शाता है कि दो मेट्रिक्स के बीच संबंध गैर-रैखिक है और रणनीति पर बहुत अधिक निर्भर करता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "तालिका में कितनी रणनीतियों में उनके शार्प अनुपात की तुलना में उनके कल्मार अनुपात में अधिक सुधार हुआ है?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "कौन सी पोर्टफोलियो रणनीति अन्य गैर-आधारभूत रणनीतियों की तुलना में अपने शार्प और कैल्मर अनुपात सुधारों के बीच संतुलन के मामले में एक आउटलायर (असंगत) है, और क्यों?",
+    "answer": [
+      [
+        "अल्फाशार्प' (AlphaSharpe) रणनीति एक आउटलायर है। 'रिस्क पैरिटी' (Risk Parity) और 'इक्वल रिस्क कंट.' (Equal Risk Cont.) के लिए, शार्प अनुपात में सुधार कैल्मर अनुपात में सुधार की तुलना में लगभग 3.7 गुना बड़ा है। इसके विपरीत, 'अल्फाशार्प' इस प्रवृत्ति को उलट देता है, जिसमें कैल्मर सुधार (+116.31%) इसके शार्प सुधार (+71.04%) से काफी बड़ा है, जो जोखिम-इनाम प्रोफ़ाइल सुधार में एक मौलिक अंतर का संकेत देता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "'Risk Parity' और 'Equal Risk Cont.' रणनीतियों की तुलना करें। प्रदान किए गए मेट्रिक्स के आधार पर कौन सी बेहतर प्रदर्शन प्रोफ़ाइल प्रदान करती है, और प्रत्येक मेट्रिक पर कितनी?",
+    "answer": [
+      [
+        "'Equal Risk Cont.' एक मामूली बेहतर प्रदर्शन प्रोफ़ाइल प्रदान करती है। यह 'Risk Parity' को शार्प अनुपात में 0.23 प्रतिशत अंक अधिक सुधार (+38.55% बनाम +38.32%) और कैल्मार अनुपात में 0.08 प्रतिशत अंक अधिक सुधार (+10.44% बनाम +10.36%) के साथ बेहतर प्रदर्शन करती है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "तालिका में 'Equal Risk Cont.' पोर्टफोलियो रणनीति के लिए ΔSharpe (%) मान क्या है?",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

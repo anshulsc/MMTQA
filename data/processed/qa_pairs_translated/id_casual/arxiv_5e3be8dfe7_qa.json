@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Model mana yang punya penjelasan parameter paling banyak di tabel?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Ada berapa parameter berbeda yang dijelaskan secara total untuk semua model yang menggunakan komponen penjumlahan (Σ) di rumus utamanya?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Sebutin model-model yang formula utamanya gak pake eksponensial (contohnya, e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Berapa persen model yang terdaftar pakai parameter yang mewakili sampel atau titik data individu (contoh: 'sampel i') dalam formulasinya?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Kalo di model Decision Tree, jumlah kategori sampel 'm'-nya ada 1, jadi 'Ent(D)' itu nilainya jadi berapa kalo pake rumus?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Model mana yang rumusnya beda banget sama yang lain karena disajikan sebagai masalah optimasi (meminimalkan) dibanding ngitung langsung nilai output?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalau dilihat dari rumus dan parameternya, apa bedanya peran parameter 'β' di Regresi Logistik sama parameter 'w' di Support Vector Machine?",
+    "answer": [
+      [
+        "Di Regresi Logistik, 'β' itu semacam vektor baris koefisien regresi yang, bareng sama intercept, nentuin kemungkinan suatu hasil lewat fungsi logistik. Nah, di Support Vector Machine, 'w' itu vektor parameter yang nentuin orientasi bidang pemisah. Tujuannya di SVM itu cari 'w' yang bikin margin antar kelas paling gede dengan cara ngecilin L2 norm-nya, sementara di Regresi Logistik, 'β' biasanya dicari dengan cara maksimalkan kemungkinan data yang ada."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Gimana sih konsep 'layer' di Neural Network sama 'entropy' di Decision Tree itu ngerefleksiin cara belajarnya dari data yang beda?",
+    "answer": [
+      [
+        "Konsep 'layer' (l dan l-1) di Neural Network itu nunjukin cara belajar fitur yang hierarkis. Modelnya belajar representasi data yang makin kompleks dengan ngalirinin aktivasi lewat layer-layer berurutan, ngatur bobot ('w') dan bias ('b') buat bikin fungsi aproksimasi yang rumit. Sebaliknya, konsep 'entropy' (Ent(D)) di Decision Tree nunjukin pendekatan greedy yang berbasis aturan. Modelnya secara rekursif mempartisi data jadi subset yang lebih murni dengan milih fitur yang ngasilin penurunan entropy (information gain) paling besar, jadi kayak bikin aturan 'if-then' yang eksplisit."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Berapa total model unik yang ada di tabel?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Kolom mana yang tujuan utamanya buat ngejelasin variabel yang dipake di kolom sebelahnya?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

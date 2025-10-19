@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Какой метод отбора признаков показал наименьшее значение ошибки для параметра прогнозирования 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Каково среднее количество экзогенных переменных, используемых методом 'LASSO regression feature selection' для всех настроек прогнозирования?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Для настройки прогнозирования 'BC3_28', какое значение метрики ошибки у метода, использующего наибольшее количество экзогенных переменных?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Улучшает ли увеличение количества экзогенных переменных стабильно производительность (т.е. снижает значение ошибки) для настройки 'BC1_64'? Предоставьте краткий анализ.",
+    "answer": [
+      [
+        "Нет, последовательной зависимости нет. Для настройки 'BC1_64' метод 'Correlation-Based Selection' (Отбор на основе корреляции) использует 3 переменные при ошибке 14.11, 'LASSO regression' (Регрессия LASSO) также использует 3 переменные, но имеет более высокую ошибку 14.55. Метод 'Forward Feature Selection NP' (Прямой отбор признаков NP) использует гораздо большее количество переменных (28) и достигает значительно лучшего (более низкого) значения ошибки 9.16. Это говорит о том, что, хотя большее количество переменных может быть лучше, конкретный метод отбора имеет решающее значение, и простое добавление переменных не гарантирует улучшения."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Перечислите все методы отбора признаков, которые привели к значению ошибки, превышающему 15, для настройки 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Какой процент от общего числа экзогенных переменных, используемых в 'Forward Feature Selection NP' для всех настроек, был выделен для настройки 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Если бы ошибка обработки данных привела к тому, что все метрики ошибок для настройки 'BC2_28' стали на 2.5 пункта ниже, чем было зарегистрировано, какой стала бы новая ошибка для 'Ручного отбора признаков'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Среди методов отбора признаков, где явно указано количество переменных, какой метод демонстрирует наибольшую нестабильность, измеряемую как разница (максимум минус минимум) между количеством выбранных переменных для различных настроек прогнозирования?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Для метода 'LASSO regression feature selection' значение ошибки для 'BC3_28' является выбросом. Как соответствующее количество экзогенных переменных соотносится с другими настройками для того же метода?",
+    "answer": [
+      [
+        "Настройка 'BC3_28', которая показывает аномально высокую ошибку 28.79 для LASSO, также использует наибольшее количество экзогенных переменных (16) для этого метода. Это значительно больше, чем у других настроек, где количество переменных варьируется от 0 до 10. Это предполагает потенциальную проблему, заключающуюся в том, что метод LASSO выбрал большой, но плохо работающий набор признаков для данного конкретного контекста прогнозирования."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Анализируя производительность базовой модели 'Без экзогенных переменных', опишите тенденцию метрики ошибки при последовательном переходе от настроек 'BC1' к 'BC2', а затем к 'BC3'.",
+    "answer": [
+      [
+        "Производительность базовой модели 'Без экзогенных переменных' демонстрирует четкую закономерность в различных настройках. Она начинается с умеренных значений ошибки для настроек BC1 (11,14, 13,65). Производительность резко улучшается для настроек BC2, которые имеют наименьшие ошибки (3,75, 9,08). Наконец, ошибка снова увеличивается для настроек BC3 (17,53, 9,06), причем BC3_64 показывает наибольшую ошибку в целом для этого метода. Это указывает на то, что базовая модель лучше всего подходит для условий BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Между 'LASSO regression feature selection' и 'Forward Feature Selection NP', какая настройка прогнозирования показала более низкое значение в конфигурации BC2_64?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' показал более низкое значение (2.9) по сравнению с 'LASSO regression feature selection' (5.73) в конфигурации BC2_64."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "question_id": "finqa_16910e868d_001",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Which specific obligation type accounts for the largest payment due in the 'fiscal 2022 and 2023' period?",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_002",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "What is the total amount of all lease-related obligations (operating and capital) due in the 'fiscal 2020 and 2021' period?",
+    "answer": [
+      [
+        "206.6"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_16910e868d_003",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "For the obligation type with the smallest payment due in fiscal 2019, what is the corresponding payment amount due 'thereafter'?",
+    "answer": [
+      [
+        "138.1"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_004",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the payment trend for 'operating lease obligations' across the specified fiscal periods.",
+    "answer": [
+      [
+        "The payments for 'operating lease obligations' show a front-loaded trend. They start at $132.1 million in 2019, peak at $199.9 million in the 2020-2021 period, and then decline to $118.4 million in 2022-2023, with a final $165.4 million due thereafter. This suggests many leases were active in the near term with fewer long-term commitments compared to their peak period."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_005",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "List all obligation categories where the total amount due is less than $1000 million and the amount due 'thereafter' is more than $150 million.",
+    "answer": [
+      [
+        "operating lease obligations ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A2",
+      "B2",
+      "F2",
+      "A3",
+      "B3",
+      "F3",
+      "A4",
+      "B4",
+      "F4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_006",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "What percentage of the total 'long-term debt' is due 'thereafter'?",
+    "answer": [
+      [
+        "51.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_16910e868d_007",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "If all 'capital lease obligations' were forgiven and removed from the table, what would the new 'total' payments due for 'fiscal 2019' be?",
+    "answer": [
+      [
+        "$ 2535.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_008",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data, what is the fundamental difference in the maturity structure between 'long-term debt' and 'purchase obligations and other'?",
+    "answer": [
+      [
+        "There is a clear inverse relationship in their maturity structures. 'Long-term debt' is significantly back-loaded, with over half of its total ($3136.6M of $6039.0M) due in the 'thereafter' period. Conversely, 'purchase obligations and other' are heavily front-loaded, with the vast majority ($1676.6M of $2210.5M) due in the earliest period, fiscal 2019, indicating these are primarily short-term commitments."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B4",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_16910e868d_009",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "How is the value in cell E5, the total for 'fiscal 2022 and 2023', calculated from other figures in the table?",
+    "answer": [
+      [
+        "The value in cell E5 ($ 1587.0) is the vertical sum of the payments due in the 'fiscal 2022 and 2023' period for each of the four obligation categories listed above it: $1351.0 (E1), $118.4 (E2), $2.7 (E3), and $114.9 (E4)."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_010",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Which payment period represents a significant outlier in terms of its proportion of the total obligations, and what drives this anomaly?",
+    "answer": [
+      [
+        "Fiscal 2019 is an outlier. Its total of $2540.3 million is significantly higher than the subsequent two periods ($1255.5M and $1587.0M). This anomaly is driven almost entirely by the 'purchase obligations and other' category, which has an unusually large payment of $1676.6 million due in that year, representing about 66% of the period's total."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_16910e868d_011",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "What is the total of all lease obligations (operating and capital) in millions due by fiscal 2019 and 2020–2021 combined?",
+    "answer": [
+      [
+        "$343.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

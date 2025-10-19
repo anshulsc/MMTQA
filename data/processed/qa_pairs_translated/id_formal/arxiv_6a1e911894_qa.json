@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Jika waktu pengiriman T adalah 30, variabel SIDC mana yang mewakili penutupan buku pesanan, dan pada waktu perdagangan t berapa peristiwa ini terjadi?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa perbedaan mendasar antara periode perdagangan yang didefinisikan oleh SIDCO dan SIDCL terkait dengan waktu pengiriman?",
+    "answer": [
+      [
+        "Perbedaan mendasar terletak pada waktu relatifnya terhadap pengiriman. SIDCO mendefinisikan periode saat buku pesanan dibuka, yang harus setidaknya dua unit waktu sebelum pengiriman (T-t ≥ 2). Sebaliknya, SIDCL mendefinisikan periode setelah buku pesanan ditutup, yang berada dalam dua unit waktu dari pengiriman (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Berdasarkan interpretasi yang diberikan, berapa jam yang berlalu antara gelombang pertama dan gelombang kedua penyambungan buku pesanan lintas batas?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Berdasarkan kondisi waktu perdagangan, peristiwa SIDC manakah yang merepresentasikan momen spesifik yang segera mendahului dimulainya periode SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Untuk produk dengan waktu pengiriman T=20, peristiwa \"gelombang\" mana (SIDC1 atau SIDC2) yang tidak dapat terjadi karena waktu perdagangannya akan jatuh di luar periode terbuka yang valid?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Jika gelombang kedua penyambungan (SIDC2) ditunda hingga terjadi pada t=30, berapakah waktu pengiriman T integer minimum yang diperlukan agar peristiwa ini masih terjadi dalam periode terbuka umum yang didefinisikan oleh SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Apa saja parameter umum yang digunakan dalam notasi seperti fungsi untuk setiap variabel yang tercantum di kolom 'Variabel'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Perdagangan dilakukan pada waktu perdagangan t=20 untuk produk dengan waktu pengiriman T=25. Kondisi variabel SIDC yang mana yang dipenuhi oleh perdagangan ini?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Variabel manakah yang menandai transisi dari periode SIDCO ke periode SIDCL, dan apa kondisi waktu perdagangan yang mendefinisikannya?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Bandingkan cakupan temporal variabel SIDCO dengan variabel SIDC1 berdasarkan definisi mereka.",
+    "answer": [
+      [
+        "SIDCO merepresentasikan periode waktu yang berkelanjutan ketika buku pesanan terbuka, yang didefinisikan oleh rentang t≥12 dan T-t≥2. Sebaliknya, SIDC1 merepresentasikan satu titik waktu yang diskret, t=12, yang menandai momen spesifik dari acara penggabungan pertama di awal periode SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Variabel SIDC manakah yang merepresentasikan penutupan buku pesanan lintas batas dan pada kondisi waktu perdagangan manakah hal itu terjadi?",
+    "answer": [
+      [
+        "Variabel SIDC꜀(d,h,t) merepresentasikan penutupan buku pesanan lintas batas, dan hal itu terjadi ketika T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

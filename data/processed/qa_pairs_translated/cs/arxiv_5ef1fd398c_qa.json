@@ -1,0 +1,243 @@
+[
+  {
+    "question_id": "arxiv_5ef1fd398c_001",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Která 'Kategorie zaměření' se v tabulce vyskytuje nejčastěji?",
+    "answer": [
+      [
+        "Financial Indicator"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_002",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Kolik různých kategorií zaměření obsahuje přesně tři položky zaměření?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_003",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "V rámci kategorie, která zahrnuje 'Pension', jaká další 'Focus Item' má otázky týkající se odměňování a benefitů zaměstnanců?",
+    "answer": [
+      [
+        "Salary"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_004",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Která položka „Focus Item“ má otázky, které se nejvíce výslovně zaměřují na porovnání výkonnosti v různých minulých časových obdobích, jako je čtvrtletí oproti čtvrtletí a rok oproti roku?",
+    "answer": [
+      [
+        "Revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_005",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Uveďte všechny 'Focus Items' v kategorii 'Expansion', které se konkrétně nezmiňují o fyzických produktech.",
+    "answer": [
+      [
+        "Geographic Expansion"
+      ],
+      [
+        "Market Segmentation Expansion"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_006",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Jaký podíl 'Focus Items' v kategorii 'Financial Indicator' se přímo týká výnosů pro akcionáře (např. dividendy, ROE, zpětné odkupy akcií)?",
+    "answer": [
+      [
+        "2/4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_007",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud by se 'Výplata dividend' zařadila do nové kategorie 'Hodnota pro akcionáře', jak by se změnil počet položek v kategorii 'Finanční ukazatel'?",
+    "answer": [
+      [
+        "Počet položek by se snížil ze 4 na 3."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_008",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě poskytnutých otázek, jaký vztah je naznačen mezi změnou ve vedení společnosti a její podnikovou strategií?",
+    "answer": [
+      [
+        "Tabulka naznačuje přímý kauzální vztah, protože otázka Q3 u položky 'Management Change' (Změna ve vedení) se výslovně ptá na očekávaný dopad těchto změn na strategii společnosti. To naznačuje, že personální změny ve vedení jsou považovány za klíčové hnací síly strategických posunů."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_009",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Identifikujte 'Focus Items', které jsou strukturálními odlehlými hodnotami, kde název položky je totožný s názvem kategorie a je to jediná položka v dané kategorii.",
+    "answer": [
+      [
+        "Business"
+      ],
+      [
+        "Future Outlook"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "A15",
+      "B15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_010",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Porovnejte tematické zaměření otázek pro položky 'Finanční ukazatel' oproti položkám 'Zaměstnanec a management'.",
+    "answer": [
+      [
+        "Otázky týkající se 'Finančních ukazatelů' jsou zaměřeny externě na kvantitativní výkonnostní metriky, jako jsou příjmy, dividendy a zisky, primárně pro analýzu investory. Naopak otázky týkající se 'Zaměstnance a managementu' jsou zaměřeny interně na lidský kapitál a administrativní aspekty, jako jsou mzdy, závazky z penzijního pojištění a dopad změn ve vedení, které se týkají vnitřních operací a blaha zaměstnanců."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_011",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Kolik položek zaměření spadá do kategorie Finanční ukazatel?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

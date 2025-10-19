@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quali iperparametri hanno il maggior numero di opzioni elencate nel loro spazio di ricerca?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quanti iperparametri sono stati testati con più di due valori possibili nel loro spazio di ricerca?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Qual è stato lo spazio di ricerca per l'iperparametro la cui scelta migliore è il valore numerico più piccolo maggiore di zero?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Elenca tutti gli iperparametri per i quali la 'Scelta Migliore' era il valore più alto disponibile nel rispettivo 'Spazio di Ricerca'.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quale proporzione degli iperparametri numerici ha avuto la loro 'Scelta Migliore' selezionata dal centro del loro 'Spazio di Ricerca' ordinato (cioè, non il valore minimo o massimo)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Se la ricerca per 'TRADES Layers' fosse stata limitata solo a valori inferiori a 8, quale sarebbe stata la 'Best Choice' per questo iperparametro, supponendo che fosse stata scelta la successiva opzione migliore disponibile nello spazio di ricerca originale?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una relazione osservabile tra la dimensione dello spazio di ricerca di un iperparametro e il fatto che la 'Scelta Migliore' sia un valore estremo (min/max) o un valore intermedio? Spiega il tuo ragionamento.",
+    "answer": [
+      [
+        "Sì, c'è uno schema chiaro. Per gli iperparametri con un piccolo spazio di ricerca di due opzioni (Learning Rate, Dropout), la scelta migliore è stata il valore massimo. Per tutti gli iperparametri con uno spazio di ricerca più ampio di tre o quattro opzioni, il valore ottimale è stato trovato nel mezzo dell'intervallo, mai agli estremi. Questo suggerisce che per questo modello è vantaggioso un processo di fine-tuning e che intervalli iniziali ampi hanno definito con successo una regione ottimale che non si trovava ai confini dello spazio testato."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Quale spazio di ricerca dell'iperparametro è descritto utilizzando etichette non numeriche?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Qual è il valore del 'Best Choice' di un iperparametro che è un valore anomalo numerico, essendo almeno quattro volte maggiore del successivo valore numerico 'Best Choice' più alto?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Considerando gli iperparametri con quattro opzioni nello loro spazio di ricerca ('Sequence size', 'TRADES Layers', 'Augmentation Dim.'), quale caratteristica comune condividono i loro valori di 'Best Choice' e cosa potrebbe implicare ciò sulla strategia di tuning?",
+    "answer": [
+      [
+        "La caratteristica comune è che per tutti e tre gli iperparametri, il 'Best Choice' è un valore intermedio, non un estremo (minimo o massimo). I 'Best Choices' sono 256 (3° su 4), 8 (3° su 4) e 64 (2° su 4). Ciò implica una strategia di tuning di successo in cui lo spazio di ricerca era sufficientemente ampio da includere il valore ottimale, suggerendo che le prestazioni per questi parametri non aumentano monotonicamente con il valore, ma piuttosto raggiungono un picco da qualche parte nell'intervallo testato."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Qual è la scelta migliore per l'Optimizer?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

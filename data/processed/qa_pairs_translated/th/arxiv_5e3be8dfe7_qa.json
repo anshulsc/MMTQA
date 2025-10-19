@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "แบบจำลองใดมีจำนวนคำอธิบายพารามิเตอร์ที่แตกต่างกันมากที่สุดที่แสดงในตาราง?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "มีพารามิเตอร์ที่แตกต่างกันกี่รายการที่อธิบายไว้ทั้งหมดสำหรับโมเดลทั้งหมดที่ใช้ส่วนประกอบผลรวม (Σ) ในสูตรหลัก?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "ระบุโมเดลที่สูตรหลักไม่มีการยกกำลัง (เช่น e^x)",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "โมเดลที่ระบุมีกี่เปอร์เซ็นต์ที่ใช้พารามิเตอร์ที่แสดงถึงตัวอย่างแต่ละรายการหรือจุดข้อมูล (เช่น 'ตัวอย่าง i') ในสูตรของพวกมัน?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "หากจำนวนหมวดหมู่ตัวอย่าง 'm' ในโมเดล Decision Tree มีค่าเท่ากับ 1 ค่าที่คำนวณได้ของ information entropy 'Ent(D)' ตามสูตรจะเป็นเท่าใด",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "โมเดลใดมีสูตรที่แตกต่างจากโมเดลอื่นโดยพื้นฐาน โดยนำเสนอในรูปแบบของปัญหาการหาค่าเหมาะที่สุด (การทำให้มีค่าน้อยที่สุด) แทนที่จะเป็นการคำนวณค่าผลลัพธ์โดยตรง",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "จากสูตรและพารามิเตอร์ จงเปรียบเทียบหน้าที่ของพารามิเตอร์ 'β' ใน Logistic Regression กับพารามิเตอร์ 'w' ใน Support Vector Machine",
+    "answer": [
+      [
+        "ใน Logistic Regression 'β' คือเวกเตอร์แถวของสัมประสิทธิ์การถดถอยที่ร่วมกับค่าตัดแกน (intercept) จะกำหนดความน่าจะเป็นของผลลัพธ์ผ่านฟังก์ชันโลจิสติก ใน Support Vector Machine 'w' คือเวกเตอร์ของพารามิเตอร์ที่กำหนดทิศทางของระนาบแบ่งแยก (separating hyperplane) เป้าหมายใน SVM คือการหา 'w' ที่เพิ่มระยะห่าง (margin) ระหว่างคลาสให้มากที่สุดโดยการลด L2 norm ของมัน ในขณะที่ใน Logistic Regression 'β' มักจะหาได้จากการเพิ่มความเป็นไปได้ (likelihood) ของข้อมูลที่สังเกตได้"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "แนวคิดเรื่อง 'เลเยอร์' (layers) ในโครงข่ายประสาทเทียม (Neural Networks) และ 'เอนโทรปี' (entropy) ในต้นไม้ตัดสินใจ (Decision Trees) สะท้อนวิธีการเรียนรู้จากข้อมูลที่แตกต่างกันอย่างไร?",
+    "answer": [
+      [
+        "แนวคิดเรื่อง 'เลเยอร์' (l และ l-1) ในโครงข่ายประสาทเทียม (Neural Networks) สะท้อนถึงแนวทางการเรียนรู้คุณลักษณะแบบลำดับชั้น (hierarchical feature learning) โมเดลจะเรียนรู้การแสดงข้อมูล (representations) ที่ซับซ้อนขึ้นเรื่อยๆ โดยการส่งค่าการกระตุ้น (activations) ผ่านเลเยอร์ที่ต่อเนื่องกัน ปรับค่าน้ำหนัก ('w') และค่าไบแอส ('b') เพื่อสร้างฟังก์ชันประมาณค่าที่ซับซ้อน ในทางตรงกันข้าม แนวคิดเรื่อง 'เอนโทรปี' (Ent(D)) ในต้นไม้ตัดสินใจ (Decision Trees) สะท้อนถึงแนวทางแบบโลภ (greedy) ที่อิงตามกฎ (rule-based) โมเดลจะแบ่งพาร์ติชันข้อมูลเป็นชุดย่อยๆ ที่บริสุทธิ์ขึ้นอย่างต่อเนื่อง (recursively partitions) โดยการเลือกคุณลักษณะที่ทำให้เอนโทรปีลดลงมากที่สุด (information gain) สร้างชุดกฎ if-then ที่ชัดเจน"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "มีโมเดลที่ไม่ซ้ำกันทั้งหมดกี่รายการที่อธิบายไว้ในตาราง?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "คอลัมน์ใดมีวัตถุประสงค์หลักเพื่อกำหนดตัวแปรที่ใช้ในคอลัมน์ที่อยู่ติดกัน",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

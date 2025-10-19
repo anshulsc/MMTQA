@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Metode seleksi fitur mana yang mencapai nilai kesalahan terendah untuk pengaturan perkiraan 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Berapakah rata-rata jumlah variabel eksogen yang digunakan oleh metode 'LASSO regression feature selection' di semua pengaturan perkiraan?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Untuk pengaturan peramalan 'BC3_28', berapakah metrik kesalahan dari metode yang menggunakan jumlah variabel eksogen tertinggi?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah penambahan jumlah variabel eksogen secara konsisten meningkatkan kinerja (yaitu, menurunkan nilai kesalahan) untuk pengaturan 'BC1_64'? Berikan analisis singkat.",
+    "answer": [
+      [
+        "Tidak, tidak ada hubungan yang konsisten. Untuk pengaturan 'BC1_64', 'Correlation-Based Selection' menggunakan 3 variabel dengan kesalahan 14.11, 'LASSO regression' juga menggunakan 3 variabel tetapi memiliki kesalahan lebih tinggi yaitu 14.55. 'Forward Feature Selection NP' menggunakan jumlah variabel yang jauh lebih besar (28) dan mencapai kesalahan yang jauh lebih baik (lebih rendah) yaitu 9.16. Hal ini menunjukkan bahwa meskipun jumlah variabel yang lebih banyak dapat lebih baik, metode seleksi spesifik sangat penting dan penambahan variabel semata tidak menjamin peningkatan."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Sebutkan semua metode pemilihan fitur yang menghasilkan nilai kesalahan lebih besar dari 15 untuk pengaturan 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Berapa persentase dari jumlah total variabel eksogen yang digunakan oleh 'Forward Feature Selection NP' di semua pengaturan dialokasikan ke pengaturan 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Jika kesalahan pemrosesan data menyebabkan semua metrik kesalahan untuk pengaturan 'BC2_28' menjadi 2,5 poin lebih rendah dari yang tercatat, berapa kesalahan baru untuk 'Manual feature selection'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Di antara metode pemilihan fitur di mana jumlah variabel tercantum secara eksplisit, metode manakah yang menunjukkan ketidakstabilan terbesar, sebagaimana diukur oleh rentang (maksimum dikurangi minimum) variabel yang dipilih di berbagai pengaturan peramalan?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Untuk metode 'LASSO regression feature selection', nilai kesalahan untuk 'BC3_28' adalah outlier. Bagaimana jumlah variabel eksogen yang sesuai dengan pengaturan tersebut dibandingkan dengan pengaturan lain untuk metode yang sama?",
+    "answer": [
+      [
+        "Pengaturan 'BC3_28', yang memiliki tingkat kesalahan tinggi outlier sebesar 28,79 untuk LASSO, juga menggunakan jumlah variabel eksogen terbanyak (16) untuk metode tersebut. Ini secara signifikan lebih banyak daripada pengaturan lain, yang berkisar dari 0 hingga 10 variabel. Hal ini menunjukkan potensi masalah di mana metode LASSO memilih sekumpulan fitur yang besar, tetapi berkinerja buruk, untuk konteks peramalan spesifik ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Menganalisis kinerja baseline 'Tanpa variabel eksogen', jelaskan tren metrik kesalahan saat bergerak secara berurutan dari pengaturan 'BC1' ke 'BC2' dan kemudian 'BC3'.",
+    "answer": [
+      [
+        "Kinerja baseline 'Tanpa variabel eksogen' menunjukkan pola yang jelas di seluruh pengaturan. Dimulai dengan nilai kesalahan sedang untuk pengaturan BC1 (11,14, 13,65). Kinerja meningkat secara dramatis untuk pengaturan BC2, yang memiliki kesalahan terendah (3,75, 9,08). Akhirnya, kesalahan meningkat lagi untuk pengaturan BC3 (17,53, 9,06), dengan BC3_64 memiliki kesalahan tertinggi secara keseluruhan untuk metode ini. Ini menunjukkan bahwa model baseline paling sesuai untuk kondisi BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Antara 'LASSO regression feature selection' dan 'Forward Feature Selection NP', pengaturan peramalan manakah yang mencapai nilai lebih rendah pada konfigurasi BC2_64?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' mencapai nilai yang lebih rendah (2,9) dibandingkan dengan 'LASSO regression feature selection' (5,73) pada konfigurasi BC2_64."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

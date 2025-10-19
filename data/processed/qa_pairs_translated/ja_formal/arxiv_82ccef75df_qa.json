@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "arxiv_82ccef75df_001",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "'Llama'ファミリー（例：Llama2、LLaMA-2、FinLlamaなど）のLLMを使用している手法はいくつありますか？",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_002",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "最も多様なデータソースでサポートされているアプリケーションはどれですか？",
+    "answer": [
+      [
+        "Financial sentiment analysis and return prediction"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_003",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "'StockGPT'モデルを採用している手法のデータソースは何ですか？",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_004",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "'GPT'という名前のモデルを使用し、かつ株価の変動予測に応用されている「Method/Paper」エントリをリストアップしてください。",
+    "answer": [
+      [
+        "[25]"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "B1",
+      "D1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_005",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "記載されている手法のうち、'予測'、'予測する'、または'トレンド'を明確に含むアプリケーションを持つものは何パーセントですか？",
+    "answer": [
+      [
+        "55.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_006",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "データソースとして一般的なデータ型ではなく、固有の名前のプラットフォーム（「AlphaFin」）を使用している手法はどれですか？",
+    "answer": [
+      [
+        "Stock-Chain framework [27]"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_007",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "'FinLlama [35]' の作成者が、データに 'S&P 500' および 'market indices' を組み込んだ場合、どの既存のアプリケーションと最も一致するようになりますか。その理由も説明してください。",
+    "answer": [
+      [
+        "そのプロジェクトは、「株価の変動予測」と最も一致するようになります。これは、手法 '[25]' が、その特定のアプリケーションのために非常に類似したデータ（「S&P 500」、「financial reports」、「market indices」）を使用しており、FinLlama は既に「Earnings reports」を使用しているためです。"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_008",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "表に基づいて、使用されるLLMモデルの数と、特定のメソッドにおけるデータソースの数の間に観察可能な関係はありますか？",
+    "answer": [
+      [
+        "はい、相関関係があるようです。複数のLLMモデルをリストしているメソッド（Multimodal Gen-AI [9]、Fine-tuning LLMs [8]、[25]）は、複数の多様なデータソース（それぞれ4、1、4）も使用する傾向があります。逆に、単一のLLMを指定するメソッドは、常にではありませんが、より少なく、またはより焦点を絞ったデータソースを使用することがよくあります（例：Stock-Chain framework [27]またはSAPPO [37]）。これは、より複雑なマルチモデルアプローチが、より広範なデータ入力からの情報を統合するために設計されている可能性を示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_009",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "'LLM Model'列と'Data'列のどちらに、複数の異なる項目（コンマまたは'and'で区切られたもの）がリストされているエントリがより多く含まれていますか？",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B5",
+      "C1",
+      "C3",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_010",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Llamaファミリーモデルによって実行され、「ニュース」データでトレーニングされたすべてのアプリケーションを特定してください。",
+    "answer": [
+      [
+        "AI-assisted investment analysis"
+      ],
+      [
+        "Stock return prediction"
+      ],
+      [
+        "Financial sentiment analysis and return prediction"
+      ],
+      [
+        "Trading strategies"
+      ],
+      [
+        "Portfolio optimization"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_011",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "株式​​価​​額​​予測​​に​​適用​​された​​LLM​​モデル​​と​​その​​使用​​データセット​​は​​何​​です​​か？",
+    "answer": [
+      [
+        "株式​​価​​額​​予測​​には​​、Distilled RoBERT​​と​​LLaMA3-8B​​モデル​​が​​使用​​されました。使用​​された​​データセット​​は、Financial news data​​、S&P- Bigdata23​​、Bigdata22​​、ACL18​​、およびCIKM1​​です。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B8",
+      "D4",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

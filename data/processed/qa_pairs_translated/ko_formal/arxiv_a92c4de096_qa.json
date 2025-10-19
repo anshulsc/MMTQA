@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "검색 공간에 가장 많은 옵션이 나열된 하이퍼파라미터는 무엇입니까?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "탐색 공간에 두 개 이상의 가능한 값을 가진 하이퍼파라미터는 몇 개였습니까?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "최소 0보다 큰 수치 값을 가지는 하이퍼파라미터의 탐색 공간은 무엇이었습니까?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "각각의 '탐색 공간'에서 가능한 가장 높은 값이 '최적 선택'이었던 모든 하이퍼파라미터의 목록을 제공해주세요.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "정렬된 '탐색 공간'의 중간값(즉, 최소 또는 최대 값이 아닌 값)에서 '최적 선택'이 선택된 수치형 하이퍼파라미터의 비율은 얼마입니까?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "'TRADES Layers'의 탐색 범위를 8 미만의 값으로만 제한했을 경우, 원래 탐색 공간에서 다음으로 좋은 옵션을 선택했다고 가정할 때 이 하이퍼파라미터의 'Best Choice'는 무엇이었을까요?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "하이퍼파라미터의 탐색 공간 크기와 '최적 선택(Best Choice)'이 극단값(최소/최대)인지 또는 중간값인지 사이에 관찰 가능한 관계가 있습니까? 그 이유를 설명해 주십시오.",
+    "answer": [
+      [
+        "네, 명확한 패턴이 있습니다. 두 가지 옵션(학습률, 드롭아웃)의 작은 탐색 공간을 가진 하이퍼파라미터의 경우, 최적 선택은 최대값이었습니다. 세 개 또는 네 개의 옵션으로 이루어진 더 큰 탐색 공간을 가진 모든 하이퍼파라미터의 경우, 최적값은 범위의 중간에서 발견되었으며 극단값은 아니었습니다. 이는 이 모델의 경우 미세 조정 프로세스가 유익하며, 초기 넓은 범위가 테스트 공간의 경계가 아닌 최적 영역을 성공적으로 포함했음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "숫자 외의 레이블로 검색 공간이 설명되는 하이퍼파라미터는 무엇인가요?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "각 '하이퍼파라미터'의 '최적 선택' 값 중에서, 다음으로 높은 '최적 선택' 숫자보다 최소 4배 이상 큰 수치적 이상치(outlier)는 무엇입니까?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "'Sequence size', 'TRADES Layers', 'Augmentation Dim.'와 같이 탐색 공간에 네 가지 옵션이 있는 하이퍼파라미터를 고려할 때, 이들의 'Best Choice' 값들이 공유하는 공통적인 특징은 무엇이며, 이는 튜닝 전략에 대해 무엇을 시사할 수 있습니까?",
+    "answer": [
+      [
+        "세 가지 하이퍼파라미터 모두 'Best Choice'가 극단값(최소 또는 최대)이 아닌 중간값이라는 공통적인 특징을 가지고 있습니다. 'Best Choice'는 각각 256(4개 중 3번째), 8(4개 중 3번째), 64(4개 중 2번째)입니다. 이는 최적값을 포함할 만큼 탐색 공간이 충분히 넓었음을 시사하며, 해당 매개변수들의 성능이 값이 증가함에 따라 단조롭게 증가하는 것이 아니라 테스트된 범위 내의 어딘가에서 최대치를 보인다는 것을 의미하므로 성공적인 튜닝 전략이었음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "최적화 프로그램(Optimizer)의 최적 선택값은 무엇인가요?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

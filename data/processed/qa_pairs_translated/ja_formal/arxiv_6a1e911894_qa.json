@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "配当前端交收时段（T）为30时，哪个SIDC变量代表交收时段的结束，该事件发生在交易时段（t）的何时？",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "SIDCOとSIDCLによって定義される取引期間と、納入時間との間にある根本的な違いは何ですか？",
+    "answer": [
+      [
+        "根本的な違いは、納入時間との関係におけるタイミングです。SIDCOは注文板が開いている期間を定義し、それは納入の少なくとも2時間前（T-t ≥ 2）でなければなりません。対照的に、SIDCLは注文板が閉まった後の期間を定義し、それは納入の2時間以内（T-t ≤ 2）です。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "提供された解釈によると、クロスボーダー注文板の結合の第1波と第2波の間には何時間経過しますか？",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "取引時間条件に基づき、SIDCL期間の開始直前にあたる特定の瞬間を表すSIDCイベントはどれですか？",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "引渡し時間 T=20 の商品について、取引時間が有効なオープン期間外となるため、指定された2つの「波」イベント（SIDC1 または SIDC2）のうち、発生し得ないのはどちらですか？",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "もし、カップリングの第2波（SIDC2）がt=30に遅延した場合、このイベントがSIDCOで定義される一般的なオープン期間内に収まるために必要な最小整数配信時間Tは何ですか？",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "変数」列に記載されているすべての変数で使用される共通のパラメータは何ですか？",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "取引時刻 t=20、引渡し時刻 T=25 の商品について、この取引はどの SIDC 変数の条件を満たしますか？",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "SIDCO期間からSIDCL期間への移行を示す変数は何であり、その定義的な取引時間はどのような条件ですか？",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "定義に基づき、SIDCO変数とSIDC1変数の時間的範囲を比較してください。",
+    "answer": [
+      [
+        "SIDCOは、t≥12およびT-t≥2の範囲で定義される、オーダーブックが開いている連続した期間を表します。対照的に、SIDC1は、SIDCO期間の開始時の特定時点である、最初のカップリングイベントの瞬間を示す単一の離散的な時点、t=12を表します。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "クロスボーダー注文板のクローズを表すSIDC変数はどれで、どのような取引時間条件で発生しますか？",
+    "answer": [
+      [
+        "SIDC꜀(d,h,t)変数がクロスボーダー注文板のクローズを表し、T − t = 2 の場合に発生します。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

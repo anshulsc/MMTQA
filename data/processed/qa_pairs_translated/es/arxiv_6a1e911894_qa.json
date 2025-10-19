@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "¿Si el tiempo de entrega T es 30, qué variable SIDC representa el cierre de los libros de órdenes y en qué tiempo de negociación t ocurre este evento?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cuál es la diferencia fundamental entre los períodos de negociación definidos por SIDCO y SIDCL en relación con el tiempo de entrega?",
+    "answer": [
+      [
+        "La diferencia fundamental radica en su temporización en relación con la entrega. SIDCO define el período en el que los libros de órdenes están abiertos, lo cual debe ser al menos dos unidades de tiempo antes de la entrega (T-t ≥ 2). En contraste, SIDCL define el período después de que los libros de órdenes se han cerrado, lo cual está dentro de las dos unidades de tiempo de la entrega (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "¿Según las interpretaciones proporcionadas, cuántas horas transcurren entre la primera y la segunda oleada de acoplamiento de libros de órdenes transfronterizos?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Basándonos en las condiciones de tiempo de negociación, ¿qué evento SIDC representa el momento específico que precede inmediatamente al inicio del período SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "¿Para un producto con tiempo de entrega T=20, cuál de los dos eventos de \"onda\" especificados (SIDC1 o SIDC2) no podría ocurrir porque su tiempo de negociación caería fuera del período abierto válido?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "¿Si la segunda ola de acoplamiento (SIDC2) se retrasara hasta t=30, cuál sería el tiempo mínimo de entrega T entero requerido para que este evento aún caiga dentro del período abierto general definido por SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "¿Cuáles son los parámetros comunes utilizados en la notación similar a una función para cada variable enumerada en la columna 'Variable'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "¿Se realiza una operación a la hora de negociación t=20 para un producto con una hora de entrega T=25. ¿Qué condiciones de la variable SIDC cumple esta operación?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "¿Qué variable marca la transición del período SIDCO al período SIDCL y cuál es su condición de tiempo de negociación definitoria?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Contraste el alcance temporal de la variable SIDCO con el de la variable SIDC1 basándose en sus definiciones.",
+    "answer": [
+      [
+        "SIDCO representa un período de tiempo continuo en el que los libros de órdenes están abiertos, definido por el rango t≥12 y T-t≥2. En contraste, SIDC1 representa un único punto discreto en el tiempo, t=12, que marca el momento específico del primer evento de acoplamiento al inicio del período SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué variable SIDC representa el cierre de los libros de órdenes transfronterizos y bajo qué condición de tiempo de negociación ocurre?",
+    "answer": [
+      [
+        "La variable SIDCC(d,h,t) representa el cierre de los libros de órdenes transfronterizos y ocurre cuando T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

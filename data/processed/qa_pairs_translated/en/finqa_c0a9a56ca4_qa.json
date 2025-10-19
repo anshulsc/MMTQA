@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "finqa_c0a9a56ca4_001",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "value",
+    "question": "Which loan category experienced the largest absolute decrease in total value from December 31, 2007, to December 31, 2008?",
+    "answer": [
+      [
+        "commercial and other consumer loan commitments"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c0a9a56ca4_002",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "value",
+    "question": "What percentage of the total loan commitments for December 31, 2008, were located outside the U.S.?",
+    "answer": [
+      [
+        "17.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c0a9a56ca4_003",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "value",
+    "question": "For the loan category that had the smallest value within the U.S., what was its total value at the end of 2007?",
+    "answer": [
+      [
+        "4587"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "E2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c0a9a56ca4_004",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "value",
+    "question": "List all loan categories for which the 2008 value was greater outside the U.S. than within the U.S.",
+    "answer": [
+      [
+        "commercial and similar letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c0a9a56ca4_005",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "value",
+    "question": "If 'revolving open-end loans secured by one- to four-family residential properties' had decreased by only 10% from their 2007 value, what would their new 2008 total have been?",
+    "answer": [
+      [
+        "31668.3"
+      ]
+    ],
+    "evidence_cells": [
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c0a9a56ca4_006",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "value",
+    "question": "Which loan category represented an outlier by having the most dramatic percentage decrease between 2007 and 2008?",
+    "answer": [
+      [
+        "one- to four-family residential mortgages"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c0a9a56ca4_007",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "value",
+    "question": "What was the total value in millions of dollars for all non-real estate related loan commitments in the U.S.?",
+    "answer": [
+      [
+        "1087266"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c0a9a56ca4_008",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the totals, describe the overall trend in loan commitments from the end of 2007 to the end of 2008.",
+    "answer": [
+      [
+        "The data shows a significant contraction in total loan commitments, which decreased from $1,630,949 million at the end of 2007 to $1,349,500 million at the end of 2008. This represents a substantial decline of $281,449 million, or approximately 17.2%, indicating a major downturn in lending activity during this period."
+      ]
+    ],
+    "evidence_cells": [
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c0a9a56ca4_009",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "open_ended_reasoning",
+    "question": "Does the data suggest a correlation between the size of a loan category in the U.S. and its size outside the U.S.? Explain your reasoning.",
+    "answer": [
+      [
+        "Yes, a positive correlation is observable. The largest loan categories in the U.S. ('credit card lines' at $867,261M and 'commercial and other consumer loan commitments' at $217,818M) are also the largest outside the U.S. ($135,176M and $92,179M respectively). Conversely, smaller U.S. categories tend to be smaller abroad as well. However, the relationship isn't uniform; 'commercial and similar letters of credit' is an exception, being nearly three times larger outside the U.S. than within it, suggesting that different products have varying levels of international market penetration."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c0a9a56ca4_010",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "open_ended_reasoning",
+    "question": "Some numerical cells are prefixed with a dollar sign ('$') while others are not. Which columns contain this formatting inconsistency, and what is its potential impact on data analysis?",
+    "answer": [
+      [
+        "The columns 'u.s .', 'outside u.s .', 'december 31 2008', and 'december 31 2007' all exhibit this formatting inconsistency. While it does not alter the meaning of the data for a human reader, it would pose a problem for automated data analysis software, which would likely fail to interpret the values with dollar signs as numbers. This would necessitate a data cleaning step to remove the '$' prefix and any extra spaces before numerical calculations could be performed."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B7",
+      "C1",
+      "C2",
+      "C7",
+      "D1",
+      "D2",
+      "D7",
+      "E1",
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c0a9a56ca4_011",
+    "table_id": "finqa_c0a9a56ca4",
+    "question_type": "open_ended_reasoning",
+    "question": "In which year did the Class A common stock and Class B common stock convert to Class C (Series I)?",
+    "answer": [
+      [
+        "$1,002,437 million in 2008, which decreased from $1,103,535 million in 2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

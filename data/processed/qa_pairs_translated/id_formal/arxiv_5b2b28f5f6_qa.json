@@ -1,0 +1,174 @@
+[
+  {
+    "question_id": "arxiv_5b2b28f5f6_001",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Model dataset mana yang dibangun di atas kumpulan data numerik dan tekstual mentah terlengkap yang disebutkan dalam tabel?",
+    "answer": [
+      [
+        "FNSPID"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_002",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Berapa total gabungan jumlah data harga dan berita dalam kerangka kerja FNSPID?",
+    "answer": [
+      [
+        "45.4M"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_003",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Untuk dataset yang berfokus pada 'psikologi investor', jenis fitur apa yang secara eksplisit disebutkan berkontribusi pada hasil utamanya berupa prediksi yang lebih baik?",
+    "answer": [
+      [
+        "emotional features"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_004",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Dataset mana yang hasil utamanya divalidasi selama periode multi-dekade tertentu, dan apa tahun mulai dan akhir periode tersebut?",
+    "answer": [
+      [
+        "Market-GAN",
+        "2000-2023"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_005",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Identifikasi dataset yang 'Hasil Utama' nya mencakup metrik kinerja kuantitatif (seperti persentase atau skor statistik).",
+    "answer": [
+      [
+        "FNSPID"
+      ],
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_006",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Untuk dataset FNSPID, berapakah perkiraan rasio catatan berita terhadap catatan harga?",
+    "answer": [
+      [
+        "Approximately 0.53 to 1 (15.7M / 29.7M)"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_007",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Jika imbal hasil tahunan yang dilaporkan oleh AlphaFin menurun sebesar 10% dari nilai saat ini, berapa persentase baru tersebut?",
+    "answer": [
+      [
+        "27.72%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_008",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan deskripsi untuk FNSPID dan StockEmotions, hubungan apa yang dapat disimpulkan antara 'Inovasi Kunci' sebuah dataset dan 'Karakteristik Data'-nya?",
+    "answer": [
+      [
+        "Terdapat korelasi positif yang kuat di mana inovasi kunci secara langsung dimungkinkan oleh dan disesuaikan dengan sifat spesifik dari data yang dikumpulkan. Misalnya, inovasi FNSPID dalam 'integrasi harga-berita' hanya dimungkinkan karena pengumpulan catatan harga dan berita berskala besar. Demikian pula, inovasi StockEmotions dalam 'psikologi investor' berasal dari kumpulan data uniknya yang berisi 'komentar yang dianotasi' dengan kelas emosi."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_009",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Kolom mana dalam tabel yang dirancang untuk merangkum kontribusi inti yang baru atau pendekatan unik dari setiap model?",
+    "answer": [
+      [
+        "Key Innovation"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_010",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Di antara hasil utama yang terdaftar, dataset mana yang melaporkan hasil kunci yang berfokus pada transparansi dan kemampuan untuk dijelaskan dari model, menjadikannya outlier dibandingkan dengan yang lain yang berfokus terutama pada akurasi, imbal hasil, atau fidelitas simulasi?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

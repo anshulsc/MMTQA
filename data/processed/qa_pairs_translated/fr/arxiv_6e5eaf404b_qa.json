@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "arxiv_6e5eaf404b_001",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Parmi les travaux de recherche, MASA ou TrendTrader, lequel est démontré comme étant efficace sur un ensemble plus large et plus diversifié d'indices boursiers internationaux ?",
+    "answer": [
+      [
+        "MASA Li et al. (2024e) est démontré comme étant efficace sur une plus large gamme, car ses résultats couvrent trois indices majeurs (CSI300, DJIA, S&P500) provenant de Chine et des États-Unis. Les résultats de TrendTrader sont spécifiés pour deux indices (DJIA, SSE-50)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_002",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Combien d'études répertoriées mentionnent explicitement l'atteinte de performances supérieures sur les indices boursiers chinois (CSI300 ou SSE-50) ?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_003",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Quelle est l'innovation clé du cadre qui utilise un 'cadre RL spatial-temporel' comme méthodologie ?",
+    "answer": [
+      [
+        "Multimodal fusion of price and sentiment"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_004",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Quel article de recherche rapporte un résultat de performance qui est un extrême anomalie positive, montrant un rendement supérieur de plus de 60 points de pourcentage à son indice de référence du marché ?",
+    "answer": [
+      [
+        "LLM-Alpha Kou et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_005",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Listez les travaux qui, sur la base de leur innovation clé, se concentrent sur la diversification de portefeuille ou la sélection d'actifs, plutôt que sur la prédiction des mouvements de prix.",
+    "answer": [
+      [
+        "EarnMore Zhang et al. (2024d)",
+        "Network-EDM Hui and Wang (2024)",
+        "Market-Graph Yamagata and Ono (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_006",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Quel pourcentage des travaux de recherche listés incorpore explicitement des données non-prix, telles que le sentiment ou la théorie des réseaux, dans leur innovation principale ?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_007",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Si le gain de profit du framework 'EarnMore' était réduit de 15 points de pourcentage (de +40% à +25%), quel serait son nouveau résultat principal, et comment cela affecterait-il son affirmation d'avoir des 'niveaux de risque comparables' alors que son profit est significativement plus bas ?",
+    "answer": [
+      [
+        "Le nouveau résultat principal serait 'Profit : +25%, niveaux de risque comparables'. Un profit plus faible de +25% tout en maintenant le même niveau de risque rend la stratégie moins attrayante. Le rendement ajusté au risque serait plus faible, rendant potentiellement son niveau de risque moins 'comparable' ou acceptable par rapport aux rendements diminués."
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_008",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après le tableau, quelle est la relation inférée entre l'utilisation de systèmes multi-agents et la nature des résultats primaires rapportés ?",
+    "answer": [
+      [
+        "Il semble y avoir une corrélation positive entre l'utilisation de systèmes multi-agents et l'obtention de rendements supérieurs et quantifiables. Les deux travaux utilisant cette approche, MASA et LLM-Alpha, rapportent respectivement des 'rendements supérieurs ajustés au risque' et un rendement spécifique élevé de '+53,17 %'. Cela suggère que les cadres multi-agents sont efficaces pour générer des surperformances financières solides et mesurables."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_009",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Quel est le résultat principal pour l'étude qui a innové par une approche de clustering basée sur des graphes de marché ?",
+    "answer": [
+      [
+        "Higher Sharpe ratios on S&P500"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_010",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Parmi les colonnes 'Key Innovation' et 'Methodological', laquelle fournit des détails d'implémentation technique plus spécifiques sur la manière dont la recherche a été menée ?",
+    "answer": [
+      [
+        "La colonne 'Methodological' fournit des détails techniques plus spécifiques. Par exemple, tandis que 'Key Innovation' peut énoncer un concept large comme 'Analyse dans le domaine fréquentiel' (FreQuant) ou 'Exploitation de facteurs alpha basée sur les LLM' (LLM-Alpha), la colonne 'Methodological' spécifie les techniques exactes utilisées, telles que 'Représentation multi-granulaire des actifs via DFT' et 'Système multi-agents avec pondération dynamique', respectivement."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_011",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle est l'innovation clé dans MASA Li et al. (2024e) ?",
+    "answer": [
+      [
+        "Cadre multi-agents avec des agents spécialisés en risque et rendement."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Content Reasoning"
+  }
+]

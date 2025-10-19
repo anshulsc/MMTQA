@@ -1,0 +1,174 @@
+[
+  {
+    "question_id": "arxiv_5b2b28f5f6_001",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "أي نموذج مجموعة بيانات تم بناؤه على أوسع مجموعة من نقاط البيانات الرقمية والنصية الأولية المذكورة في الجدول؟",
+    "answer": [
+      [
+        "FNSPID"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_002",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "ما هو العدد الإجمالي للأسعار وسجلات الأخبار المدمجة في إطار FNSPID؟",
+    "answer": [
+      [
+        "45.4M"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_003",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "بالنسبة لمجموعة البيانات التي تركز على 'علم نفس المستثمر'، ما هو نوع الميزة المذكور صراحةً على أنه يساهم في نتيجتها الأساسية المتمثلة في تحسين التنبؤ؟",
+    "answer": [
+      [
+        "emotional features"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_004",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "أي مجموعة بيانات تم التحقق من نتائجها الأولية على مدى فترة محددة متعددة العقود، وما هي سنة البداية والنهاية لتلك الفترة؟",
+    "answer": [
+      [
+        "Market-GAN",
+        "2000-2023"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_005",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "حدد مجموعات البيانات التي تتضمن 'النتائج الأولية' مقياسًا كميًا للأداء (مثل نسبة مئوية أو درجة إحصائية).",
+    "answer": [
+      [
+        "FNSPID"
+      ],
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_006",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "بالنسبة لمجموعة بيانات FNSPID، ما هي النسبة التقريبية لسجلات الأخبار إلى سجلات الأسعار؟",
+    "answer": [
+      [
+        "Approximately 0.53 to 1 (15.7M / 29.7M)"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_007",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "إذا انخفضت العوائد السنوية التي أبلغت عنها AlphaFin بنسبة 10% من قيمتها الحالية، فما هي النسبة الجديدة؟",
+    "answer": [
+      [
+        "27.72%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_008",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على الأوصاف الخاصة بـ FNSPID و StockEmotions، ما العلاقة التي يمكن استنتاجها بين 'الابتكار الرئيسي' لمجموعة البيانات وطبيعة 'خصائص البيانات' الخاصة بها؟",
+    "answer": [
+      [
+        "هناك ارتباط إيجابي قوي حيث يتم تمكين الابتكار الرئيسي بشكل مباشر وتكييفه ليناسب الطبيعة المحددة للبيانات التي تم جمعها. على سبيل المثال، يتيح الابتكار في FNSPID في 'دمج الأسعار والأخبار' فقط من خلال مجموعة بياناته الكبيرة من سجلات الأسعار والأخبار. وبالمثل، فإن ابتكار StockEmotions في 'علم نفس المستثمر' مستمد من مجموعة بياناته الفريدة من 'التعليقات المشروحة' مع فئات المشاعر."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_009",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "ما هو العمود في الجدول المصمم لتلخيص المساهمة الأساسية المبتكرة أو النهج الفريد لكل نموذج؟",
+    "answer": [
+      [
+        "Key Innovation"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_010",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "من بين النتائج الأولية المدرجة، أي مجموعة بيانات تسجل نتيجة رئيسية تركز على شفافية النموذج وقابليته للتفسير، مما يجعلها استثناءً مقارنة بالنتائج الأخرى التي تركز بشكل أساسي على الدقة أو العوائد أو دقة المحاكاة؟",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

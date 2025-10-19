@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64' या पूर्वानुमान सेटिंगसाठी कोणत्या फीचर सिलेक्शन पद्धतीने सर्वात कमी एरर व्हॅल्यू मिळवली?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO regression feature selection' पद्धतीने सर्व फोरकास्टिंग सेटिंग्जमध्ये वापरल्या जाणाऱ्या एक्सोजेनस व्हेरिएबल्सची सरासरी संख्या किती आहे?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28' या पूर्वानुमान सेटिंगसाठी, सर्वाधिक बाह्य व्हेरिएबल्स वापरणाऱ्या पद्धतीचे एरर मेट्रिक काय आहे?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'BC1_64' सेटिंगसाठी बाह्य चलांची (exogenous variables) संख्या वाढवल्याने कार्यक्षमतेत (त्रुटी मूल्य कमी होणे) सातत्याने सुधारणा होते का? थोडक्यात विश्लेषण द्या.",
+    "answer": [
+      [
+        "नाही, यात कोणताही सातत्यपूर्ण संबंध नाही. 'BC1_64' सेटिंगसाठी, 'Correlation-Based Selection' मध्ये 14.11 त्रुटीसाठी 3 व्हेरिएबल्स वापरले जातात, 'LASSO regression' मध्ये देखील 3 व्हेरिएबल्स वापरले जातात परंतु 14.55 इतकी जास्त त्रुटी आहे. 'Forward Feature Selection NP' मध्ये व्हेरिएबल्सची संख्या खूप मोठी (28) वापरली जाते आणि 9.16 इतकी लक्षणीयरीत्या चांगली (कमी) त्रुटी मिळते. यावरून असे सूचित होते की व्हेरिएबल्सची जास्त संख्या चांगली असू शकते, परंतु विशिष्ट निवड पद्धत गंभीर आहे आणि केवळ व्हेरिएबल्स जोडल्याने सुधारणेची हमी मिळत नाही."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64' सेटिंगसाठी 15 पेक्षा जास्त त्रुटी मूल्य असलेल्या सर्व वैशिष्ट्य निवड पद्धतींची यादी करा.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'फॉरवर्ड फीचर सिलेक्शन एनपी' ने सर्व सेटिंग्जमध्ये वापरलेल्या एकूण एक्सोजेनस व्हेरिएबल्सपैकी किती टक्के 'बीसी१_६४' सेटिंगला वाटप केले गेले?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_28' सेटिंगसाठी सर्व त्रुटी मेट्रिक्स (error metrics) नोंदवलेल्या मूल्यांपेक्षा 2.5 अंकांनी कमी झाल्या तर 'Manual feature selection' साठी नवीन त्रुटी काय असेल?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "ज्या वैशिष्ट्य निवड पद्धतींमध्ये व्हेरिएबल्सची संख्या स्पष्टपणे सूचीबद्ध आहे, त्यापैकी कोणता व्हेरिएबल्सच्या श्रेणीनुसार (कमाल वजा किमान) वेगवेगळ्या पूर्वानुमान सेटिंग्जमध्ये सर्वाधिक अस्थिरता दर्शवते?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO रिग्रेशन फीचर सिलेक्शन' या पद्धतीसाठी, 'BC3_28' चे त्रुटी मूल्य (error value) एक आउटलायर (outlier) आहे. त्याच पद्धतीसाठी इतर सेटिंग्जच्या तुलनेत त्याचं संबंधित एक्सोजेनस व्हेरिएबल्सची (exogenous variables) संख्या कशी आहे?",
+    "answer": [
+      [
+        "LASSO साठी 28.79 ची आउटलायर उच्च त्रुटी (outlier high error) दर्शवणारे 'BC3_28' सेटिंग, त्या पद्धतीसाठी एक्सोजेनस व्हेरिएबल्सची (exogenous variables) सर्वाधिक संख्या (16) वापरते. ही संख्या इतर सेटिंग्जच्या तुलनेत लक्षणीयरीत्या जास्त आहे, जी 0 ते 10 व्हेरिएबल्सच्या दरम्यान आहे. हे असे सूचित करते की LASSO पद्धतीने या विशिष्ट फोरकास्टिंग संदर्भासाठी (forecasting context) मोठ्या संख्येने, परंतु खराब कामगिरी करणाऱ्या फीचर्सची निवड केली असावी."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'बाह्य व्हेरिएबल्सशिवाय' (Without exogenous variables) बेसलाइनच्या कामगिरीचे विश्लेषण करून, 'BC1' सेटिंग्जपासून 'BC2' आणि नंतर 'BC3' पर्यंत क्रमशः जाताना त्रुटी मेट्रिकमधील (error metric) ट्रेंडचे वर्णन करा.",
+    "answer": [
+      [
+        "'बाह्य व्हेरिएबल्सशिवाय' (Without exogenous variables) बेसलाइनची कामगिरी सेटिंग्जमध्ये एक स्पष्ट नमुना दर्शवते. BC1 सेटिंग्जसाठी (11.14, 13.65) मध्यम त्रुटी मूल्यांसह ती सुरू होते. BC2 सेटिंग्जसाठी कामगिरीमध्ये लक्षणीय सुधारणा होते, ज्यामध्ये सर्वात कमी त्रुटी (3.75, 9.08) आहेत. शेवटी, BC3 सेटिंग्जसाठी (17.53, 9.06) त्रुटी पुन्हा वाढते, या पद्धतीसाठी BC3_64 मध्ये एकूण सर्वाधिक त्रुटी आहे. हे दर्शवते की बेसलाइन मॉडेल BC2 च्या परिस्थितीसाठी सर्वोत्तम अनुकूल आहे."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' आणि 'Forward Feature Selection NP' यांपैकी BC2_64 कॉन्फिगरेशनमध्ये कोणत्या फोरकास्टिंग सेटिंगमध्ये कमी मूल्य प्राप्त झाले?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' ने 'LASSO regression feature selection' (5.73) च्या तुलनेत BC2_64 कॉन्फिगरेशनमध्ये कमी मूल्य (2.9) प्राप्त केले."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

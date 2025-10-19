@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64'の予測設定において、最も低いエラー値を達成した特徴量選択方法はどれですか？",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO回帰特徴選択'手法が、すべての予測設定において使用する外因性変数の平均数はいくつですか？",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28'の予測設定において、最も多くの外因性変数を利用する手法のエラー指標は何ですか？",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'BC1_64'設定において、外生変数の数を増やすことは、エラー値を低下させることで一貫してパフォーマンスを向上させますか？簡単な分析を提供してください。",
+    "answer": [
+      [
+        "いいえ、一貫した関係はありません。「BC1_64」設定では、「相関ベース選択」は14.11のエラーに対して3つの変数を使用していますが、「LASSO回帰」も3つの変数を使用していますが、エラーは14.55と高くなっています。「Forward Feature Selection NP」は、はるかに多くの変数（28）を使用し、9.16という大幅に優れた（低い）エラーを達成しています。これは、変数の数が多いほど良い場合もありますが、特定の選択方法が重要であり、単に変数を追加しても改善が保証されるわけではないことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64'設定において、エラー値が15を超えるすべての特徴量選択方法をリストアップしてください。",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'Forward Feature Selection NP' で使用された外因性変数の総数に対し、「BC1_64」設定に割り当てられた割合は何パーセントですか？",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "データ処理エラーにより、「BC2_28」設定のエラーメトリクスがすべて記録値より2.5ポイント低くなった場合、「Manual feature selection」の新しいエラー値はいくつになりますか？",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "変数の数が明示的に記載されている特徴量選択手法の中で、異なる予測設定における選択変数の範囲（最大値から最小値を引いた値）で測定される、最も不安定な手法はどれですか？",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "「LASSO回帰特徴量選択」手法において、「BC3_28」のエラー値は外れ値となっています。この手法における他の設定と比較して、対応する外因性変数の数はどのようになっていますか？",
+    "answer": [
+      [
+        "LASSOにおいて28.79という異常に高いエラー値を持つ「BC3_28」設定は、この手法において最も多い外因性変数（16個）も使用しています。これは、0から10個の変数を持つ他の設定よりも大幅に多い数です。これは、LASSO手法がこの特定の予測コンテキストに対して、多数の、しかしパフォーマンスの低い特徴量を選択した可能性のある問題を示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'外生変数なし' のベースラインのパフォーマンスを分析し、'BC1' 設定から 'BC2'、そして 'BC3' へと順に移動するにつれて、エラー指標の傾向を記述してください。",
+    "answer": [
+      [
+        "「外生変数なし」のベースラインのパフォーマンスは、設定全体を通して明確なパターンを示しています。BC1 設定では中程度のエラー値（11.14、13.65）から始まります。BC2 設定ではパフォーマンスが劇的に改善し、最も低いエラー（3.75、9.08）を示します。最後に、BC3 設定（17.53、9.06）ではエラーが再び増加し、この方法では BC3_64 が全体として最も高いエラーとなります。これは、ベースラインモデルが BC2 の条件に最も適していることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO回帰特徴量選択'と'Forward Feature Selection NP'のうち、BC2_64構成でより低い値を示したのはどちらの予測設定ですか？",
+    "answer": [
+      [
+        "'Forward Feature Selection NP'はBC2_64構成において、'LASSO回帰特徴量選択'(5.73)と比較してより低い値(2.9)を達成しました。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Which property has the highest 'building' value?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "What is the total 'purchase price allocation' for all properties listed in the table?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "What is the 'net consideration funded by us at closing' for the property that has the lowest 'acquired in-place leases' value?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "For the '1515 broadway' property, what percentage of its 'assets acquired' value comes from the sum of its 'land' and 'building' values?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Identify all properties where the 'debt assumed' is more than three times the 'equity and/or debt investment held'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "If an accounting adjustment re-evaluated the 'building' value for '110 east 42nd street' to be 10% lower, what would be the new 'assets acquired' value for that property?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "The 'fair value adjustment to mortgage note payable' for '1515 broadway' is a negative value while it's a positive, uniform value for most other properties. What does this significant outlier suggest about that specific property's financing?",
+    "answer": [
+      [
+        "The negative value of '-3693' for '1515 broadway' in the 'fair value adjustment to mortgage note payable' category is a distinct outlier compared to the uniform positive value of '2014' for the other properties. This suggests that the mortgage note associated with the 1515 Broadway acquisition had terms that were more favorable than the prevailing market rates at the time of acquisition, creating an asset (a negative liability adjustment). In contrast, the other properties might have had mortgages at or near market rates, requiring a standard, nominal adjustment."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the data, is there a direct positive correlation between a property's 'purchase price allocation' and its 'net consideration funded by us at closing'?",
+    "answer": [
+      [
+        "No, there is not a direct positive correlation. For instance, '180 maiden lane' has the second-highest purchase price ($442,325) but its net consideration ($81,835) is nearly identical to that of '51 east 42nd street', which has a much lower purchase price ($80,000). Furthermore, '1515 broadway' has the highest purchase price by a large margin ($1,234,000) but not the highest net consideration. This indicates that other factors, such as 'debt assumed' (which is very high for '1515 broadway'), significantly influence the net consideration required at closing."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Calculate the total 'liabilities assumed' for properties that have an 'above market lease value' of less than $6,000.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "The value '2014' appears repeatedly across four different financial categories, often for the same properties. What does the consistent use of this specific, non-rounded number in different contexts suggest about its nature?",
+    "answer": [
+      [
+        "The value '2014' appears in 'other assets net of other liabilities', 'fair value adjustment to mortgage note payable', 'equity and/or debt investment held', and 'debt assumed'. Its repeated use as a relatively small, identical value across different categories and properties suggests it is not a measured market value but rather a nominal placeholder, a standard minimum value used for accounting purposes, or possibly a reference to a specific event or regulation year (e.g., a transaction from 2014). It signifies a standardized entry rather than a unique valuation for each instance."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "How much is it to buy the land at 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

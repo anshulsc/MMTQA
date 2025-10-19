@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Se l'orario di consegna T è 30, quale variabile SIDC rappresenta la chiusura dei libri ordini e a quale orario di trading t si verifica questo evento?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual è la differenza fondamentale tra i periodi di trading definiti da SIDCO e SIDCL in relazione all'ora di consegna?",
+    "answer": [
+      [
+        "La differenza fondamentale risiede nella loro tempistica rispetto alla consegna. SIDCO definisce il periodo in cui i libri ordini sono aperti, che deve essere almeno due unità di tempo prima della consegna (T-t ≥ 2). Al contrario, SIDCL definisce il periodo dopo la chiusura dei libri ordini, che avviene entro due unità di tempo dalla consegna (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Secondo le interpretazioni fornite, quante ore intercorrono tra la prima e la seconda ondata di accoppiamento dei libri ordini transfrontalieri?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "In base alle condizioni di tempo di trading, quale evento SIDC rappresenta il momento specifico che precede immediatamente l'inizio del periodo SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Per un prodotto con orario di consegna T=20, quale dei due eventi specificati \"wave\" (SIDC1 o SIDC2) non potrebbe verificarsi perché il suo orario di trading cadrebbe al di fuori del periodo di apertura valido?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Se la seconda ondata di accoppiamento (SIDC2) fosse ritardata al momento t=30, quale sarebbe il tempo minimo di consegna intero T richiesto affinché questo evento rientri ancora nel periodo di apertura generale definito da SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Quali sono i parametri comuni utilizzati nella notazione simile a una funzione per ogni variabile elencata nella colonna 'Variabile'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Uno scambio viene effettuato al tempo di negoziazione t=20 per un prodotto con un tempo di consegna T=25. Quali condizioni della variabile SIDC soddisfa questo scambio?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Quale variabile segna la transizione dal periodo SIDCO al periodo SIDCL e qual è la sua condizione di tempo di trading definente?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Contrasta l'ambito temporale della variabile SIDCO con quello della variabile SIDC1 in base alle loro definizioni.",
+    "answer": [
+      [
+        "SIDCO rappresenta un periodo di tempo continuo in cui i libri degli ordini sono aperti, definito dall'intervallo t≥12 e T-t≥2. Al contrario, SIDC1 rappresenta un singolo punto discreto nel tempo, t=12, che segna il momento specifico del primo evento di accoppiamento all'inizio del periodo SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale variabile SIDC rappresenta la chiusura dei libri ordini transfrontalieri e a quale condizione di tempo di trading si verifica?",
+    "answer": [
+      [
+        "La variabile SIDC꜀(d,h,t) rappresenta la chiusura dei libri ordini transfrontalieri e si verifica quando T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

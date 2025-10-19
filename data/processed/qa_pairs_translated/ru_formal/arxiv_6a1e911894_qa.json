@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Если время поставки T равно 30, какая переменная SIDC представляет закрытие книги заявок и в какое торговое время t происходит это событие?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Какова основная разница между торговыми периодами, определенными SIDCO и SIDCL, по отношению ко времени поставки?",
+    "answer": [
+      [
+        "Основное различие заключается во времени относительно поставки. SIDCO определяет период, когда книги заявок открыты, что должно быть как минимум за два временных интервала до поставки (T-t ≥ 2). В отличие от этого, SIDCL определяет период после закрытия книг заявок, который приходится на два временных интервала до поставки (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Согласно предоставленным интерпретациям, сколько часов проходит между первой и второй волнами трансграничной привязки книг заявок?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Исходя из условий времени торговли, какое событие SIDC представляет конкретный момент, непосредственно предшествующий началу периода SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Для продукта со временем поставки T=20, какое из двух указанных событий \"волны\" (SIDC1 или SIDC2) не могло произойти, поскольку время торговли пришлось бы на период, выходящий за пределы допустимого открытого периода?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Если вторая волна объединения (SIDC2) была отложена и произойдет при t=30, какое минимальное целое значение времени поставки T потребуется, чтобы это событие все еще попадало в общий открытый период, определенный SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Каковы общие параметры, используемые в обозначении, подобном функции, для каждой переменной, перечисленной в столбце 'Variable'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Сделка совершается в торговое время t=20 для продукта со сроком поставки T=25. Условиям какой переменной SIDC соответствует эта сделка?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Какая переменная обозначает переход от периода SIDCO к периоду SIDCL, и каково ее определяющее условие времени торговли?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Сравните временной интервал переменной SIDCO с интервалом переменной SIDC1 на основе их определений.",
+    "answer": [
+      [
+        "SIDCO представляет собой непрерывный период времени, когда книги заявок открыты, определяемый диапазоном t≥12 и T-t≥2. В отличие от этого, SIDC1 представляет собой единую, дискретную точку во времени, t=12, которая отмечает конкретный момент первого события соединения в начале периода SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Какая переменная SIDC представляет собой закрытие трансграничных книг заявок и при каком условии торгового времени это происходит?",
+    "answer": [
+      [
+        "Переменная SIDC꜀(d,h,t) представляет собой закрытие трансграничных книг заявок, и это происходит, когда T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

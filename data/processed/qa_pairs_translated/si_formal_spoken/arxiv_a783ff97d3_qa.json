@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64' අනාවැකි සැකසුම සඳහා අඩුම දෝෂ අගය ලබා දුන්නේ කුමන විශේෂාංග තේරීම් ක්‍රමයද?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO regression feature selection' ක්‍රමය මගින් සියලු අනාවැකි සැකසුම් වලදී භාවිතා කරන විදේශීය විචල්‍යයන්ගේ සාමාන්‍ය සංඛ්‍යාව කොපමණද?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28' අනාවැකි සැකසුම සඳහා, වැඩිම බාහිර විචල්‍ය සංඛ්‍යාවක් භාවිතා කරන ක්‍රමයේ දෝෂ මානය කුමක්ද?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'BC1_64' සැකසුම සඳහා විචල්‍ය බාහිර ගණන වැඩි කිරීමෙන් ක්‍රියාකාරිත්වය (එනම්, දෝෂ අගය අඩු කිරීම) අඛණ්ඩව වැඩි දියුණු වේද? සංක්ෂිප්ත විශ්ලේෂණයක් සපයන්න.",
+    "answer": [
+      [
+        "නැත, අඛණ්ඩ සම්බන්ධතාවයක් නොමැත. 'BC1_64' සැකසුම සඳහා, 'Correlation-Based Selection' 3 න් විචල්‍යයන් 14.11 ක දෝෂයක් සඳහා භාවිතා කරයි, 'LASSO regression' ද 3 න් විචල්‍යයන් භාවිතා කරයි නමුත් 14.55 ක ඉහළ දෝෂයක් ඇත. 'Forward Feature Selection NP' විචල්‍යයන් (28) විශාල සංඛ්‍යාවක් භාවිතා කරන අතර 9.16 ක සැලකිය යුතු ලෙස වඩා හොඳ (අඩු) දෝෂයක් ලබා ගනී. මෙය යෝජනා කරන්නේ විචල්‍යයන්ගේ ඉහළ සංඛ්‍යාව වඩා හොඳ විය හැකි නමුත්, නිශ්චිත තේරීම් ක්‍රමය ඉතා වැදගත් වන අතර විචල්‍යයන් එකතු කිරීම පමණක් දියුණුවක් සඳහා සහතිකයක් නොවන බවයි."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64' සැකසුම සඳහා 15ට වඩා වැඩි දෝෂ අගයක් ලබා දුන් සියලුම විශේෂාංග තේරීම් ක්‍රම ලැයිස්තුගත කරන්න.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'Forward Feature Selection NP' මඟින් සියලු සැකසුම් වලදී භාවිතා කරන ලද මුළු විදේශීය විචල්‍ය ගණනින් කොපමණ ප්‍රතිශතයක් 'BC1_64' සැකසුම සඳහා වෙන් කර තිබේද?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "දත්ත සැකසුම් දෝෂයක් නිසා 'BC2_28' සැකසුමේ සියලු දෝෂ මිනුම් පටිගත කළ ප්‍රමාණයට වඩා ලකුණු 2.5කින් අඩු වුවහොත්, 'Manual feature selection' සඳහා නව දෝෂය කුමක් වේද?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "විවිධ පුරෝකථන සැකසුම් හරහා තෝරා ගන්නා ලද විචල්‍යයන්ගේ පරාසය (උපරිමයෙන් සුළු එක අඩු කිරීම) අනුව මනිනු ලබන විශාලතම අස්ථාවරත්වය පෙන්නුම් කරන්නේ, විචල්‍ය ගණන පැහැදිලිව ලැයිස්තුගත කර ඇති විශේෂාංග තේරීමේ ක්‍රම අතරින් කුමක්ද?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' ක්‍රමය සඳහා, 'BC3_28' හි දෝෂ අගය අසාමාන්‍ය වන අතර, එම ක්‍රමය සඳහා වන අනෙකුත් සැකසුම් හා සසඳන විට එහි අනුරූප බාහිර විචල්‍ය සංඛ්‍යාව කොපමණද?",
+    "answer": [
+      [
+        "LASSO සඳහා 28.79 ක අධික දෝෂයක් සහිත 'BC3_28' සැකසුම, එම ක්‍රමය සඳහා උපරිම බාහිර විචල්‍ය සංඛ්‍යාව (16) ද භාවිතා කරයි. මෙය අනෙකුත් සැකසුම් (0 සිට 10 දක්වා විචල්‍ය) වලට වඩා සැලකිය යුතු ලෙස වැඩිය. මෙය, LASSO ක්‍රමය මෙම විශේෂිත අනාවැකි සන්දර්භය සඳහා විශාල, නමුත් දුර්වල ලෙස ක්‍රියාත්මක වන, විශේෂාංග කට්ටලයක් තෝරා ගත් බවට ඇති විය හැකි ගැටළුවක් යෝජනා කරයි."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'බාහිර විචල්‍යයන් නොමැතිව' (Without exogenous variables) පදනම් වන කාර්ය සාධනය විශ්ලේෂණය කරමින්, 'BC1' සිටුවම් වලින් 'BC2' වෙත, ඉන්පසු 'BC3' වෙත අනුක්‍රමිකව ගමන් කරන විට දෝෂ මිණුම් වල ප්‍රවණතාවය විස්තර කරන්න.",
+    "answer": [
+      [
+        "'බාහිර විචල්‍යයන් නොමැතිව' (Without exogenous variables) පදනම් වන කාර්ය සාධනය සැකසුම් පුරා පැහැදිලි රටාවක් පෙන්නුම් කරයි. එය BC1 සැකසුම් සඳහා මධ්‍යස්ථ දෝෂ අගයන්ගෙන් (11.14, 13.65) ආරම්භ වේ. BC2 සැකසුම් සඳහා කාර්ය සාධනය නාටකාකාර ලෙස වැඩිදියුණු වන අතර, එයට අඩුම දෝෂ (3.75, 9.08) ඇත. අවසාන වශයෙන්, BC3 සැකසුම් සඳහා දෝෂය නැවතත් වැඩි වේ (17.53, 9.06), මෙහි BC3_64 මෙම ක්‍රමවේදය සඳහා සමස්තයක් ලෙස ඉහළම දෝෂය ඇත. මෙය BC2 හි කොන්දේසි සඳහා පදනම් වන ආකෘතිය වඩාත් සුදුසු බව දක්වයි."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection' සහ 'Forward Feature Selection NP' අතරින්, BC2_64 configuration එකේ අඩු අගයක් ලබා ගත්තේ කුමන forecasting setting එකද?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' මඟින් BC2_64 configuration එකේ 'LASSO regression feature selection' (5.73) හා සසඳන විට අඩු අගයක් (2.9) ලබා ගන්නා ලදී."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

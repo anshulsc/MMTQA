@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "arxiv_82ccef75df_001",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Berapa banyak dari metode yang terdaftar menggunakan LLM dari keluarga 'Llama' (misalnya, Llama2, LLaMA-2, FinLlama, dll.)?",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B8",
+      "B9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_002",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Aplikasi mana yang didukung oleh rangkaian sumber data terdaftar yang paling beragam?",
+    "answer": [
+      [
+        "Financial sentiment analysis and return prediction"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_003",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Apa sumber data untuk metode yang menggunakan model 'StockGPT'?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_004",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Sebutkan entri 'Method/Paper' yang menggunakan model dengan 'GPT' dalam namanya DAN diterapkan untuk memprediksi pergerakan saham.",
+    "answer": [
+      [
+        "[25]"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "B1",
+      "D1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_005",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Berapa persentase metode yang tercantum memiliki aplikasi yang secara eksplisit melibatkan 'prediksi', 'memprediksi', atau 'tren'?",
+    "answer": [
+      [
+        "55.56%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_006",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Metode manakah yang menggunakan sumber data berupa platform bernama unik ('AlphaFin') daripada deskripsi umum tipe data?",
+    "answer": [
+      [
+        "Stock-Chain framework [27]"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_007",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Jika para pembuat 'FinLlama [35]' menggabungkan 'S&P 500' dan 'indeks pasar' ke dalam data mereka, aplikasi yang sudah ada dari tabel mana yang akan paling selaras dengan proyek mereka, dan mengapa?",
+    "answer": [
+      [
+        "Proyek tersebut akan paling selaras dengan 'Prediksi pergerakan saham'. Hal ini karena metode '[25]' menggunakan kombinasi data yang sangat mirip ('S&P 500', 'laporan keuangan', 'indeks pasar') untuk aplikasi spesifik tersebut, dan FinLlama sudah menggunakan 'laporan pendapatan'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_008",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan tabel, apakah ada hubungan yang dapat diamati antara jumlah model LLM yang digunakan dan jumlah sumber data untuk metode tertentu?",
+    "answer": [
+      [
+        "Ya, tampaknya ada korelasi. Metode yang mencantumkan beberapa model LLM (Multimodal Gen-AI [9], Fine-tuning LLMs [8], [25]) cenderung menggunakan beberapa sumber data yang beragam (masing-masing 4, 1, dan 4). Sebaliknya, metode yang menentukan satu LLM seringkali, meskipun tidak selalu, menggunakan sumber data yang lebih sedikit atau lebih terfokus (misalnya, kerangka kerja Stock-Chain [27] atau SAPPO [37]). Hal ini menunjukkan bahwa pendekatan multi-model yang lebih kompleks mungkin dirancang untuk mensintesis informasi dari berbagai masukan data."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_009",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Kolom mana, 'LLM Model' atau 'Data', yang berisi lebih banyak entri yang mencantumkan beberapa item berbeda (dipisahkan oleh koma atau 'dan')?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B5",
+      "C1",
+      "C3",
+      "C5",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_010",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "value",
+    "question": "Identifikasi semua aplikasi yang didukung oleh model keluarga Llama dan dilatih pada suatu bentuk data 'berita'.",
+    "answer": [
+      [
+        "AI-assisted investment analysis"
+      ],
+      [
+        "Stock return prediction"
+      ],
+      [
+        "Financial sentiment analysis and return prediction"
+      ],
+      [
+        "Trading strategies"
+      ],
+      [
+        "Portfolio optimization"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_82ccef75df_011",
+    "table_id": "arxiv_82ccef75df",
+    "question_type": "open_ended_reasoning",
+    "question": "Model LLM mana yang telah diterapkan untuk prediksi harga saham, dan dataset apa saja yang digunakannya?",
+    "answer": [
+      [
+        "Untuk prediksi harga saham, model Distilled RoBERT dan LLaMA3-8B digunakan. Dataset yang digunakan adalah data berita keuangan, S&P- Bigdata23, Bigdata22, ACL18, dan CIKM1."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B8",
+      "D4",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

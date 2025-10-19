@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Metode seleksi fitur apa sing entuk nilai error paling sithik kanggo setelan ramalan 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Piro rata-ratane variabel eksogen sing digunakake metode 'LASSO regression feature selection' ing kabeh setting forecasting?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Kanggo setelan ramalan 'BC3_28', apa metrik kesalahane metode sing nggunakake jumlah variabel eksogen paling akeh?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa nambahé jumlah variabel eksogené konsisten ningkatké kinerja (yaiku, nurunké nilé kesalahan) kanggo setelan 'BC1_64'? Wenehké analisis ringkes.",
+    "answer": [
+      [
+        "Ora, ora ana gayutan sing konsisten. Kanggo setelan 'BC1_64', 'Correlation-Based Selection' nggunakaké 3 variabel kanthi kesalahan 14.11, 'LASSO regression' uga nggunakaké 3 variabel nanging nduwèni kesalahan sing luwih dhuwur yaiku 14.55. 'Forward Feature Selection NP' nggunakaké jumlah variabel sing luwih akèh (28) lan ngasilké kesalahan sing luwih apik (luwih cendhèk) yaiku 9.16. Iki nuduhaké yèn sanajan jumlah variabel sing luwih akèh bisa luwih apik, cara pamilahan tartamtu iku wigati lan mung nambah variabel ora njamin pangapikan."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Sebutna kabeh cara seleksi fitur sing ngasilake nilai error luwih saka 15 kanggo setelan 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Piro persentase saka total variabel eksogen sing digunakake dening 'Forward Feature Selection NP' ing kabeh setelan dialokasikan menyang setelan 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Nek ana kesalahan ngolah data sing nyebabake kabeh metrik kesalahan kanggo setelan 'BC2_28' dadi luwih murah 2.5 poin tinimbang sing kacathet, pinten skor kesalahan anyar kanggo 'Manual feature selection'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Ing antarane metode seleksi fitur sing jumlah variabel dicethakaken, endi sing nuduhake ketidakstabilan paling gedhe, diukur saka rentang (maksimal dikurangi minimal) variabel sing dipilih ing macem-macem setelan ramalan?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Kanggo metode 'LASSO regression feature selection', nilai error kanggo 'BC3_28' kuwi outlier. Piye perbandingan jumlah variabel eksogen sing cocog karo setelan liyane kanggo metode sing padha?",
+    "answer": [
+      [
+        "Setelan 'BC3_28', sing duwe error paling dhuwur sing ora lumrah yaiku 28.79 kanggo LASSO, uga nggunakake jumlah variabel eksogen paling akeh (16) kanggo metode kasebut. Iki luwih akeh tinimbang setelan liyane, sing rata-rata 0 nganti 10 variabel. Iki nuduhake ana masalah potensial ing ngendi metode LASSO milih set fitur sing gedhe, nanging kinerja kurang apik, kanggo konteks ramalan tartamtu iki."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Naliti kinerja 'Tanpa variabel eksogen' baseline, njlentrehna tren ing metrik kesalahan nalika pindhah urut saka setelan 'BC1' menyang 'BC2' banjur menyang 'BC3'.",
+    "answer": [
+      [
+        "Kinerja baseline 'Tanpa variabel eksogen' nuduhake pola sing jelas ing kabeh setelan. Iki diwiwiti kanthi nilai kesalahan moderat kanggo setelan BC1 (11.14, 13.65). Kinerja saya apik banget kanggo setelan BC2, sing duwe kesalahan paling sithik (3.75, 9.08). Pungkasan, kesalahan mundhak maneh kanggo setelan BC3 (17.53, 9.06), kanthi BC3_64 duwe kesalahan paling dhuwur kabeh kanggo metode iki. Iki nuduhake model baseline paling cocok kanggo kahanan BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Nang 'LASSO regression feature selection' karo 'Forward Feature Selection NP', setelan forecasting sing entuk nilai luwih cilik nang konfigurasi BC2_64 kuwi apa?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' entuk nilai luwih cilik (2.9) dibanding 'LASSO regression feature selection' (5.73) nang konfigurasi BC2_64."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

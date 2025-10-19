@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_77d21be6b3_001",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "Combien de modèles entrent dans la catégorie 'Paramétrique (PM)' ?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_002",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "Quelle catégorie de modèle a le plus de modèles listés dans le tableau ?",
+    "answer": [
+      [
+        "Parametric (PM)"
+      ],
+      [
+        "Neural network (NN)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_003",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "Listez les noms de tous les modèles dont la 'Note' mentionne explicitement qu'ils sont basés sur le 'rendement des rendements'.",
+    "answer": [
+      [
+        "AR_RET"
+      ],
+      [
+        "GARCH_RET"
+      ],
+      [
+        "GARCHt_RET"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_004",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "Quelle est la description complète (Note) pour le seul modèle de la catégorie 'Simulation historique (HS)' qui intègre un filtrage ?",
+    "answer": [
+      [
+        "Filtered historical simulation (EWMA)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_005",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "Quel pourcentage du total des modèles listés sont classés comme 'Réseau neuronal (NN)' ?",
+    "answer": [
+      [
+        "42.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_006",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "Quelle catégorie de modèle est la moins représentée dans le tableau, ce qui en fait une valeur aberrante en termes de fréquence ?",
+    "answer": [
+      [
+        "Historical simulation (HS)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_007",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "Si tous les modèles fonctionnant sur le 'rendement des rendements' étaient déplacés vers une nouvelle catégorie 'Basé sur les rendements', combien de modèles cette nouvelle catégorie contiendrait-elle ?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_008",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel suffixe commun est utilisé dans le 'Nom du modèle' pour distinguer les modèles qui opèrent sur le 'rendement des rendements' de ceux qui opèrent sur les 'rendements' au sein de la catégorie Paramétrique ?",
+    "answer": [
+      [
+        "Le suffixe commun est '_RET'. Ceci est observé en comparant 'AR' (modèle de rendements) avec 'AR_RET' (modèle de rendement des rendements) et 'GARCH' avec 'GARCH_RET'."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_009",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des données pour 'CGAN-FC' et 'CGAN-LSTM', quelle relation peut être déduite entre le nom d'un modèle et son architecture sous-jacente dans la catégorie 'Réseau neuronal (NN)' ?",
+    "answer": [
+      [
+        "Une relation directe peut être déduite où le suffixe dans le 'Nom du modèle' (par exemple, '-FC', '-LSTM') décrit explicitement le type de couches réseau ('couches entièrement connectées', 'couches LSTM') détaillé dans la 'Note'. Cela suggère une convention de nommage systématique pour identifier rapidement l'architecture d'un modèle."
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_010",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "Comparez la diversité interne des modèles dans la catégorie 'Paramétrique (PM)' par rapport à la catégorie 'Réseau neuronal (NN)'. Quelle catégorie semble avoir une plus large gamme d'approches de modélisation distinctes d'après leurs descriptions ?",
+    "answer": [
+      [
+        "La catégorie 'Réseau neuronal (NN)' présente une plus grande diversité interne. Alors que les modèles 'Paramétrique (PM)' sont des variations de cadres statistiques établis comme AR et GARCH, différant principalement par les données d'entrée (rendements vs. rendements des retours) ou la distribution des erreurs, la catégorie 'Réseau neuronal (NN)' comprend des architectures fondamentalement différentes. Elle propose divers réseaux antagonistes génératifs (CGAN, CWGAN), un modèle de diffusion et un auto-encodeur variationnel (VAE), qui représentent un spectre plus large de techniques distinctes d'apprentissage automatique."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "D9",
+      "B10",
+      "D10",
+      "B11",
+      "D11",
+      "B12",
+      "D12",
+      "B13",
+      "D13",
+      "B14",
+      "D14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_011",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "Que signifie PHS et quel type de modèle est-ce ?",
+    "answer": [
+      [
+        "PHS signifie Plain Historical Simulation et c'est un modèle de simulation historique (HS)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

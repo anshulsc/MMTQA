@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_64' 예측 설정에 대해 어떤 특징 선택 방법이 가장 낮은 오차 값을 달성했습니까?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'LASSO 회귀 특징 선택' 방법이 모든 예측 설정에서 사용한 평균 외생 변수는 몇 개입니까?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_28' 예측 설정에서, 가장 많은 외생 변수를 활용하는 방법의 오류 지표는 무엇입니까?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'BC1_64' 설정에서 외생 변수의 수를 늘리면 성능이 꾸준히 향상됩니까(즉, 오류 값이 낮아집니까)? 간략한 분석을 제공해 주십시오.",
+    "answer": [
+      [
+        "아니요, 일관된 관계는 없습니다. 'BC1_64' 설정의 경우, '상관 기반 선택(Correlation-Based Selection)'은 14.11의 오류를 위해 3개의 변수를 사용하고, 'LASSO 회귀(LASSO regression)'도 3개의 변수를 사용하지만 14.55로 더 높은 오류를 가집니다. '전방 특징 선택 NP(Forward Feature Selection NP)'는 훨씬 더 많은 수의 변수(28개)를 사용하며 9.16이라는 훨씬 더 나은(낮은) 오류를 달성합니다. 이는 변수 수가 많을수록 더 좋을 수 있지만, 특정 선택 방법이 결정적이며 단순히 변수를 추가하는 것이 개선을 보장하지는 않는다는 것을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC3_64' 설정에서 15보다 큰 오류 값을 초래한 모든 특징 선택 방법을 나열하십시오.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'Forward Feature Selection NP'에서 모든 설정에 걸쳐 사용된 총 외생 변수 중 'BC1_64' 설정에 할당된 비율은 얼마입니까?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "'BC2_28' 설정에 대한 모든 오류 지표가 기록된 값보다 2.5포인트 낮아지는 데이터 처리 오류가 발생했다면, 'Manual feature selection'의 새로운 오류 값은 얼마입니까?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "변수 개수가 명시적으로 나열된 특징 선택 방법 중에서, 각 예측 설정별로 선택된 변수 범위(최댓값 - 최솟값)로 측정했을 때 가장 불안정성을 보이는 방법은 무엇입니까?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO 회귀 특징 선택' 방법에서 'BC3_28'의 오류 값이 특이값입니다. 동일한 방법에 대한 다른 설정과 비교했을 때 해당 외생 변수의 수는 어떻습니까?",
+    "answer": [
+      [
+        "LASSO에서 28.79로 높은 오류 값을 보이는 'BC3_28' 설정은 해당 방법에서 가장 많은 수의 외생 변수(16개)를 사용합니다. 이는 0에서 10개의 변수를 갖는 다른 설정들에 비해 상당히 많은 수입니다. 이는 LASSO 방법이 이 특정 예측 맥락에 대해 많은 수의 특징을 선택했지만 성능은 좋지 않았음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'외생 변수 없음' 기준선의 성능을 분석할 때, 'BC1' 설정에서 'BC2'로, 그리고 'BC3'로 순차적으로 이동함에 따라 오차 지표의 추세를 설명해 주십시오.",
+    "answer": [
+      [
+        "‘외생 변수 없음’ 기준선의 성능은 설정 전반에 걸쳐 명확한 패턴을 보입니다. BC1 설정의 경우 중간 정도의 오차 값(11.14, 13.65)으로 시작합니다. BC2 설정의 경우 성능이 극적으로 향상되어 가장 낮은 오차(3.75, 9.08)를 보입니다. 마지막으로 BC3 설정(17.53, 9.06)의 경우 오차가 다시 증가하며, 이 방법에서 BC3_64가 전반적으로 가장 높은 오차를 나타냅니다. 이는 기준선 모델이 BC2의 조건에 가장 적합함을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "'LASSO regression feature selection'와 'Forward Feature Selection NP' 중에서 BC2_64 구성에서 더 낮은 값을 달성한 예측 설정은 무엇입니까?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP'가 'LASSO regression feature selection'(5.73)에 비해 BC2_64 구성에서 더 낮은 값(2.9)을 달성했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

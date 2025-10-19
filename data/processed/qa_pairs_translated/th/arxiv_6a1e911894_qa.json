@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "หากเวลาส่งมอบ T คือ 30 ตัวแปร SIDC ใดที่แสดงถึงการปิดของสมุดคำสั่งซื้อ และเหตุการณ์นี้เกิดขึ้นที่เวลาซื้อขาย t เท่าใด",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "ความแตกต่างพื้นฐานระหว่างช่วงเวลาการซื้อขายที่กำหนดโดย SIDCO และ SIDCL เกี่ยวกับเวลาส่งมอบคืออะไร?",
+    "answer": [
+      [
+        "ความแตกต่างพื้นฐานอยู่ที่ช่วงเวลาที่สัมพันธ์กับการส่งมอบ SIDCO กำหนดช่วงเวลาที่สมุดคำสั่งซื้อเปิดอยู่ ซึ่งต้องเป็นอย่างน้อยสองหน่วยเวลาก่อนการส่งมอบ (T-t ≥ 2) ในทางตรงกันข้าม SIDCL กำหนดช่วงเวลาหลังจากที่สมุดคำสั่งซื้อปิดแล้ว ซึ่งอยู่ภายในสองหน่วยเวลาของการส่งมอบ (T-t ≤ 2)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ตามการตีความที่ให้ไว้ มีกี่ชั่วโมงที่ผ่านไประหว่างคลื่นลูกแรกและคลื่นลูกที่สองของการจับคู่สมุดคำสั่งซื้อข้ามพรมแดน?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ตามเงื่อนไขเวลาการซื้อขาย กิจกรรม SIDC ใดแสดงถึงช่วงเวลาเฉพาะที่นำหน้าช่วงเวลา SIDCL โดยทันที?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "สำหรับผลิตภัณฑ์ที่มีเวลาส่งมอบ T=20 เหตุการณ์ \"คลื่น\" ที่ระบุสองเหตุการณ์ (SIDC1 หรือ SIDC2) เหตุใดจึงไม่สามารถเกิดขึ้นได้เนื่องจากเวลาซื้อขายจะตกนอกช่วงเวลาเปิดทำการที่ถูกต้อง?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "หากคลื่นลูกที่สองของการจับคู่ (SIDC2) ล่าช้าออกไปเป็น t=30 เวลาส่งมอบขั้นต่ำ T ที่ต้องการเพื่อให้เหตุการณ์นี้ยังคงอยู่ในช่วงเวลาเปิดทำการทั่วไปตามที่กำหนดโดย SIDCO คือเท่าใด",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "พารามิเตอร์ร่วมที่ใช้ในสัญกรณ์แบบฟังก์ชันสำหรับทุกตัวแปรที่ระบุในคอลัมน์ 'Variable' คืออะไร?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "การซื้อขายเกิดขึ้นในเวลาซื้อขาย t=20 สำหรับผลิตภัณฑ์ที่มีเวลาส่งมอบ T=25 เงื่อนไขของตัวแปร SIDC ใดที่การซื้อขายนี้ตรงตามเงื่อนไข?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ตัวแปรใดที่บ่งชี้การเปลี่ยนผ่านจากช่วง SIDCO ไปยังช่วง SIDCL และเงื่อนไขเวลาซื้อขายที่กำหนดคืออะไร",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "เปรียบเทียบขอบเขตเวลาของตัวแปร SIDCO กับตัวแปร SIDC1 โดยอิงตามคำจำกัดความของตัวแปรทั้งสอง",
+    "answer": [
+      [
+        "SIDCO แสดงถึงช่วงเวลาต่อเนื่องที่สมุดคำสั่งซื้อเปิดอยู่ โดยกำหนดด้วยช่วง t≥12 และ T-t≥2 ในทางตรงกันข้าม SIDC1 แสดงถึงจุดเวลาเดียวที่ไม่ต่อเนื่อง คือ t=12 ซึ่งเป็นช่วงเวลาที่แน่นอนของการจับคู่ครั้งแรกที่จุดเริ่มต้นของช่วง SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "SIDC ตัวแปรใดแสดงถึงการปิดของสมุดคำสั่งซื้อข้ามพรมแดน และภายใต้เงื่อนไขเวลาการซื้อขายใดที่เกิดขึ้น?",
+    "answer": [
+      [
+        "ตัวแปร SIDC꜀(d,h,t) แสดงถึงการปิดของสมุดคำสั่งซื้อข้ามพรมแดน และเกิดขึ้นเมื่อ T − t = 2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

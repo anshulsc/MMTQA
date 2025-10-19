@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "कौन सा मॉड्यूल कॉन्फ़िगरेशन सबसे लंबे प्रेडिक्शन हॉरिज़न, MSE30 पर सबसे कम (सर्वोत्तम) प्रदर्शन प्राप्त करता है?",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "उन सभी मॉड्यूलों में औसत MSE3 स्कोर क्या है जिनकी कॉन्फ़िगरेशन में 'Audio+Text' शामिल है?",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_003",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "उस मॉड्यूल के लिए जो सर्वश्रेष्ठ समग्र प्रदर्शन (MSE_over कॉलम में सबसे कम मान) प्रदर्शित करता है, उसका विशिष्ट MSE7 स्कोर क्या है?",
+    "answer": [
+      [
+        "0.306"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_004",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "'Audio+Text+Efo' मॉड्यूल के लिए मीन स्क्वेयर्ड एरर (MSE) का रुझान बताएं, जैसे-जैसे प्रेडिक्शन होराइजन MSE3 से MSE30 तक बढ़ता है।",
+    "answer": [
+      [
+        "MSE3 के लिए 0.579 की उच्चतम त्रुटि बिंदु से शुरू होकर, 'Audio+Text+Efo' मॉड्यूल के लिए MSE प्रेडिक्शन होराइजन के बढ़ने पर सुधार (घटती त्रुटि) का एक स्पष्ट रुझान दिखाता है, फिर MSE7 के लिए 0.323 तक काफी कम हो जाता है, और लगातार घटकर MSE15 के लिए 0.230 हो जाता है और MSE30 के लिए 0.165 के अपने निम्नतम बिंदु पर पहुंच जाता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_005",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "उन सभी मॉड्यूल कॉन्फ़िगरेशन की सूची बनाएं जिनका MSE15 स्कोर 0.25 से कम है और MSE30 स्कोर 0.18 से कम है।",
+    "answer": [
+      [
+        "Audio+Text+Efo"
+      ],
+      [
+        "Eos+Ecs+Efo"
+      ],
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "A7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "जब बेसलाइन 'ऑडियो+टेक्स्ट' मॉड्यूल से सबसे जटिल 'ऑडियो+टेक्स्ट+ईओएस+ईसीएस+ईफो' मॉड्यूल में जाते हैं तो MSE30 त्रुटि कितने प्रतिशत कम हो जाती है?",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "यदि डेटा प्री-प्रोसेसिंग सुधार ने 'Eos+Ecs+Efo' मॉड्यूल के लिए MSE_over मान को 15% कम कर दिया, तो सभी सात मॉड्यूल में नया औसत MSE_over मान क्या होगा?",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "क्या डेटा के आधार पर, किसी मॉड्यूल के अल्पकालिक प्रदर्शन (MSE3) और उसके दीर्घकालिक प्रदर्शन (MSE30) के बीच एक सुसंगत संबंध है? अपने उत्तर का औचित्य सिद्ध करें।",
+    "answer": [
+      [
+        "हाँ, एक मजबूत सकारात्मक सहसंबंध है। जिन मॉड्यूल में सबसे कम MSE3 स्कोर हैं, 'Audio+Text+Eos+Ecs+Efo' (0.553) और 'Audio+Text+Efo' (0.579), उनमें सबसे कम MSE30 स्कोर (क्रमशः 0.158 और 0.165) भी हैं। इसके विपरीत, जिन मॉड्यूल में उच्चतम MSE3 स्कोर हैं, जैसे 'Audio+Text' (0.645) और 'Audio+Text+Ecs' (0.640), उनमें उच्चतम MSE30 स्कोर (0.204 और 0.201) प्रदर्शित होते हैं। यह बताता है कि जो मॉड्यूल अल्पकालिक भविष्यवाणियों पर अच्छा प्रदर्शन करते हैं, वे दीर्घकालिक भविष्यवाणियों पर भी अच्छा प्रदर्शन करते हैं।"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_009",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "तालिका की संरचना में MSE7 और MSE15 भविष्यवाणी क्षितिजों के बीच संख्यात्मक अंतराल क्या है?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "कौन से मॉड्यूल MSE7 होराइज़न पर 'Audio+Text' मॉड्यूल की तुलना में खराब प्रदर्शन (उच्च MSE) करते हैं, जिससे इस विशिष्ट बिंदु पर उनका प्रदर्शन सुविधाओं को जोड़ने से अपेक्षित सुधार की तुलना में एक आउटलायर बन जाता है?",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "ऑडियो+टेक्स्ट मॉड्यूल का औसत MSE क्या है?",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

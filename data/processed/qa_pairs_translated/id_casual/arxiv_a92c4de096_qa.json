@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hyperparameter mana aja sih yang punya pilihan paling banyak di search space-nya?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Berapa banyak hyperparameter yang diuji dengan lebih dari dua kemungkinan nilai dalam search space-nya?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Gimana sih search space buat hyperparameter yang best choice-nya itu nilai angka terkecil yang lebih dari nol?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Sebutkan semua hyperparameter yang 'Best Choice'-nya adalah nilai tertinggi yang tersedia di 'Search Space' masing-masing.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Berapa proporsi hyperparameter numerik yang 'Pilihan Terbaik'-nya dipilih dari tengah 'Ruang Pencarian' yang diurutkan (yaitu, bukan nilai minimum atau maksimum)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Kalo pencarian 'TRADES Layers' dibatesin cuma nilai di bawah 8, kira-kira 'Best Choice' buat hyperparameter ini jadi berapa ya, asumsiin aja dipilih opsi terbaik berikutnya yang ada di search space awal?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ada hubungan yang terlihat antara ukuran ruang pencarian hyperparameter dengan apakah 'Pilihan Terbaik' itu nilai ekstrem (minimum/maksimum) atau nilai tengah? Jelaskan alasannya.",
+    "answer": [
+      [
+        "Ya, ada pola yang jelas. Untuk hyperparameter dengan ruang pencarian dua opsi (Learning Rate, Dropout), pilihan terbaiknya adalah nilai maksimum. Untuk semua hyperparameter dengan ruang pencarian tiga atau empat opsi yang lebih besar, nilai optimal ditemukan di tengah rentang, tidak pernah di ekstrem. Ini menunjukkan bahwa untuk model ini, proses penyetelan halus (fine-tuning) bermanfaat, dan rentang awal yang lebar berhasil membingkai wilayah optimal yang tidak berada di batas-batas ruang yang diuji."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hyperparameter mana yang ruang pencariannya dideskripsikan pake label non-numerik?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hyperparameter mana yang nilai 'Best Choice'-nya itu outlier secara numerik, jadi setidaknya empat kali lebih besar dari 'Best Choice' numerik tertinggi berikutnya?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalau kita lihat hyperparameter yang punya empat pilihan di search space-nya ('Sequence size', 'TRADES Layers', 'Augmentation Dim.'), apa sih kesamaan dari nilai 'Best Choice'-nya, dan kira-kira ini nunjukkin apa soal strategi tuningnya?",
+    "answer": [
+      [
+        "Kesamaannya adalah untuk ketiga hyperparameter itu, 'Best Choice'-nya itu nilai tengah, bukan yang paling ujung (minimum atau maksimum). 'Best Choice'-nya itu 256 (urutan ke-3 dari 4), 8 (urutan ke-3 dari 4), dan 64 (urutan ke-2 dari 4). Ini nunjukkin kalau strategi tuningnya berhasil, di mana search space-nya cukup luas buat nemuin nilai optimalnya. Jadi, performa buat parameter-parameter ini nggak terus-terusan naik seiring naiknya nilai, tapi malah mencapai puncaknya di rentang nilai yang dicoba."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Apa pilihan terbaik untuk Optimizer?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

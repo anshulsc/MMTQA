@@ -1,0 +1,174 @@
+[
+  {
+    "question_id": "arxiv_5b2b28f5f6_001",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Který datasetový model je postaven na nejrozsáhlejší sbírce surových číselných a textových datových bodů zmíněných v tabulce?",
+    "answer": [
+      [
+        "FNSPID"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_002",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Jaký je celkový počet cen a zpravodajských záznamů dohromady v rámci FNSPID?",
+    "answer": [
+      [
+        "45.4M"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_003",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Jaký typ příznaku je explicitně zmíněn jako přispívající k primárnímu výsledku zlepšeného predikce pro dataset zaměřený na 'psychologii investorů'?",
+    "answer": [
+      [
+        "emotional features"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_004",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Která datová sada má primární výsledky ověřené za určité období trvající několik desetiletí a jaký je počáteční a koncový rok tohoto období?",
+    "answer": [
+      [
+        "Market-GAN",
+        "2000-2023"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_005",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Identifikujte datasety, jejichž 'Primární výsledky' zahrnují kvantitativní metrikou výkonu (jako je procento nebo statistické skóre).",
+    "answer": [
+      [
+        "FNSPID"
+      ],
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_006",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Jaký je přibližný poměr počtu záznamů o zprávách k záznamům o cenách pro datovou sadu FNSPID?",
+    "answer": [
+      [
+        "Approximately 0.53 to 1 (15.7M / 29.7M)"
+      ]
+    ],
+    "evidence_cells": [
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_007",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Pokud by se roční výnosy uváděné společností AlphaFin snížily o 10 % jejich současné hodnoty, jaké by bylo nové procento?",
+    "answer": [
+      [
+        "27.72%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_008",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě popisů pro FNSPID a StockEmotions, jaký vztah lze odvodit mezi \"Klíčovou inovací\" datové sady a jejími \"Datovými charakteristikami\"?",
+    "answer": [
+      [
+        "Existuje silná pozitivní korelace, kde klíčová inovace je přímo umožněna a přizpůsobena specifické povaze shromážděných dat. Například inovace FNSPID v \"integraci cen a zpráv\" je možná pouze díky rozsáhlému sběru cenových záznamů a zpráv. Podobně inovace StockEmotions v \"psychologii investorů\" vychází z jeho unikátní datové sady \"anotovaných komentářů\" s emočními třídami."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_009",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Který sloupec v tabulce je navržen tak, aby shrnoval hlavní novinku nebo jedinečný přístup každého modelu?",
+    "answer": [
+      [
+        "Key Innovation"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5b2b28f5f6_010",
+    "table_id": "arxiv_5b2b28f5f6",
+    "question_type": "value",
+    "question": "Mezi uvedenými primárními výsledky, která datová sada uvádí klíčový výsledek zaměřený na transparentnost a vysvětlitelnost modelu, což ji odlišuje od ostatních, které se primárně zaměřují na přesnost, výnosy nebo věrnost simulace?",
+    "answer": [
+      [
+        "AlphaFin"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

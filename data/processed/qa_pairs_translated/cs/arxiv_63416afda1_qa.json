@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Jaký typ předpovědí nabízí model, který používá data na úrovni řádu s vysokou frekvencí?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud projekt vyžaduje obecné předpovídání prostřednictvím simulace, která charakteristika modelu, kromě jeho použitelného úkolu, jej činí lepší volbou než alternativa?",
+    "answer": [
+      [
+        "MarS/LMM je 'rozsáhlý základní model' schopný 'vícekrokového generování sekvencí', což jej činí inherentně flexibilnějším a výkonnějším pro obecné simulační úkoly ve srovnání s DeepLOB, který je popsán jako 'malý, ručně vytvořený a neskalovatelný' model s předpovědí 'jednoho kroku nebo pevné délky'."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký je podle tabulky odvozený vztah mezi velikostí modelu a flexibilitou jeho predikcí?",
+    "answer": [
+      [
+        "Data naznačují přímou korelaci: model popsaný jako 'malý, ručně vytvořený a neškálovatelný' (DeepLOB) nabízí omezené predikce 'jednokrokové nebo s pevnou délkou', zatímco 'velký základní model' (MarS/LMM) poskytuje flexibilnější 'vícekrokové, sekvenční generování'. To naznačuje, že větší, škálovatelnější modely mají tendenci mít pokročilejší a flexibilnější prediktivní schopnosti."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Kolik různých aspektů se v tomto datovém souboru používá k rozlišení DeepLOB a MarS/LMM?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Identifikujte model, který NENÍ popsán jako 'rozsáhlý základní model', a uveďte jeho specifikované vstupní rysy.",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Český překlad otázky: Jaký model ve svém popisu aspektu 'Model' obsahuje jedinečnou sadu tří odlišných omezujících charakteristik?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud by měl být DeepLOB upraven pro provádění 'Vícestupňové generace sekvencí', které další dva aspekty z tabulky by se pravděpodobně musely zásadně změnit, aby odpovídaly charakteristikám modelu, který již tuto schopnost má?",
+    "answer": [
+      [
+        "Aby DeepLOB dosáhl vícestupňové generace podobné MarS/LMM, jeho 'Model' by se pravděpodobně musel vyvinout z 'Malý, ručně vytvořený a neškálovatelný' na 'Rozsáhlý základní model' a jeho 'Vstupní příznaky' by se mohly muset rozšířit z 'dat knihy limitních objednávek (LOB)' na zpracování 'dat na úrovni řádu ve vysokofrekvenčním obchodování'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Porovnejte požadavky na vstupní data pro oba modely.",
+    "answer": [
+      [
+        "DeepLOB vyžaduje 'data z knihy limitních objednávek (LOB)', což je specifický typ datové struktury pro finanční trhy. Naproti tomu MarS/LMM používá 'data na úrovni objednávek s vysokou frekvencí', která jsou obecnější a implikují větší objem a rychlost dat."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Jaký je typ modelu pro systém navržený pro specifické předpovídání úloh?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud má uživatel k dispozici pouze data 'Limit order book (LOB)' a potřebuje provádět 'Obecné prognózování pomocí simulace', který model představuje konflikt na základě poskytnutých aspektů a proč?",
+    "answer": [
+      [
+        "Konflikt existuje u obou modelů. DeepLOB může využít LOB data, ale je navržen pro 'Specifické prognózování úkolů', nikoli pro obecnou simulaci. MarS/LMM je navržen pro 'Obecné prognózování', ale vyžaduje 'Data na úrovni objednávek ve vysoké frekvenci', nikoli LOB data. Proto žádný z modelů není bez úprav nebo kompromisů ideální volbou."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Jaké jsou použitelné úlohy DeepLOB?",
+    "answer": [
+      [
+        "Task-specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

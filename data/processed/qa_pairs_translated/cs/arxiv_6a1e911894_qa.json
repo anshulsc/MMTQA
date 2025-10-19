@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Pokud je čas dodání T 30, která proměnná SIDC představuje uzavření knih objednávek a v jakém obchodním čase t tato událost nastává?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký je zásadní rozdíl mezi obchodními obdobími definovanými SIDCO a SIDCL ve vztahu k dodacímu času?",
+    "answer": [
+      [
+        "Zásadní rozdíl spočívá v jejich načasování vzhledem k dodávce. SIDCO definuje období, kdy jsou knihy objednávek otevřené, což musí být nejméně dva časové jednotky před dodáním (T-t ≥ 2). Naproti tomu SIDCL definuje období po uzavření knih objednávek, které je do dvou časových jednotek od dodání (T-t ≤ 2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Podle uvedených interpretací, kolik hodin uplyne mezi prvním a druhým vlnami párování přeshraničních knih objednávek?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Která událost SIDC na základě podmínek obchodního času představuje specifický okamžik těsně před začátkem období SIDCL?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "U produktu s dodacím časem T=20, která ze dvou specifikovaných \"vlnových\" událostí (SIDC1 nebo SIDC2) nemohla nastat, protože její obchodní čas by spadal mimo platné otevřené období?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Pokud by se druhá vlna spojení (SIDC2) zpozdila na t=30, jaký by byl minimální celočíselný čas dodání T potřebný, aby se tato událost stále nacházela v obecném otevřeném období definovaném SIDCO?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Jaké jsou společné parametry používané ve funkcionářské notaci pro každou proměnnou uvedenou ve sloupci 'Variable'?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Obchod je uzavřen v obchodním čase t=20 pro produkt s dodacím časem T=25. Podmínky které SIDC proměnné tento obchod splňuje?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "Která proměnná označuje přechod z období SIDCO do období SIDCL a jaká je její definující podmínka obchodního času?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "V jakém časovém rozsahu se liší proměnná SIDCO od proměnné SIDC1 na základě jejich definic?",
+    "answer": [
+      [
+        "SIDCO představuje nepřetržitý časový úsek, kdy jsou otevřené knihy objednávek, definovaný rozsahem t≥12 a T-t≥2. Naproti tomu SIDC1 představuje jediný, diskrétní bod v čase, t=12, který označuje specifický okamžik prvního propojení na začátku období SIDCO."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "Která proměnná SIDC představuje uzavření přeshraničních knih objednávek a za jaké podmínky obchodního času k němu dochází?",
+    "answer": [
+      [
+        "Proměnná SIDC꜀(d,h,t) představuje uzavření přeshraničních knih objednávek a dochází k ní, když T − t = 2."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

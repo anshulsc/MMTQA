@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "กลยุทธ์พอร์ตโฟลิโอใดที่ให้การปรับปรุงอัตราส่วน Calmar เป็นเปอร์เซ็นต์ที่มากที่สุด",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "หากรวมส่วนต่างของ Sharpe ratio ที่เพิ่มขึ้นของทุกกลยุทธ์ที่ไม่ใช่กลยุทธ์พื้นฐาน จะได้ผลรวมเป็นกี่เปอร์เซ็นต์?",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "ระบุกลยุทธ์ที่มีการปรับปรุงอัตราส่วน Sharpe สูงสุดเป็นอันดับสอง และระบุการปรับปรุงอัตราส่วน Calmar ที่สอดคล้องกัน",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "โปรดระบุกลยุทธ์พอร์ตโฟลิโอที่ค่า Calmar ratio ที่ปรับปรุงดีขึ้นน้อยกว่า 15% และค่า Sharpe ratio ที่ปรับปรุงดีขึ้นมากกว่า 35%",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "กลยุทธ์ 'AlphaSharpe' มีส่วนช่วยในการปรับปรุง Calmar โดยรวมทั้งหมดกี่เปอร์เซ็นต์ เมื่อเทียบกับกลยุทธ์ทั้งหมดที่ไม่ใช่กลยุทธ์พื้นฐาน?",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "หากสมมติว่าผลการดำเนินงานที่เพิ่มขึ้นของกลยุทธ์ 'Risk Parity' ถูกกล่าวเกินจริงไป 10 เปอร์เซ็นต์สำหรับทั้งสองตัวชี้วัด กลยุทธ์นี้จะยังคงเหนือกว่าเกณฑ์มาตรฐาน 'Equal Weighted' หรือไม่",
+    "answer": [
+      [
+        "ใช่ กลยุทธ์นี้จะยังคงเหนือกว่า โดยค่า ΔSharpe ที่ปรับปรุงใหม่จะเป็น +28.32% และค่า ΔCalmar ที่ปรับปรุงใหม่จะเป็น +0.36% เนื่องจากทั้งสองค่ายังคงมากกว่า 0.00% ของเกณฑ์มาตรฐาน 'Equal Weighted' จึงถือเป็นการปรับปรุง"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "ข้อมูลบ่งชี้ถึงความสัมพันธ์เชิงเส้นที่สอดคล้องกันระหว่างการปรับปรุงอัตราส่วน Sharpe และ Calmar ในทุกกลยุทธ์ที่ไม่ใช่กลยุทธ์พื้นฐานหรือไม่? อธิบายเหตุผลของคุณ",
+    "answer": [
+      [
+        "ไม่ ข้อมูลไม่ได้บ่งชี้ถึงความสัมพันธ์เชิงเส้นที่สอดคล้องกัน แม้ว่า 'Risk Parity' และ 'Equal Risk Cont.' จะแสดงรูปแบบที่คล้ายคลึงกัน โดยที่ ΔSharpe สูงสอดคล้องกับ ΔCalmar ที่พอประมาณ แต่กลยุทธ์ 'AlphaSharpe' ทำให้รูปแบบนี้เสียไป กลยุทธ์นี้แสดงให้เห็น ΔCalmar ที่สูงมากซึ่งเกินกว่า ΔSharpe ของมันอย่างมาก บ่งชี้ว่าความสัมพันธ์ระหว่างตัวชี้วัดทั้งสองนั้นไม่เป็นเชิงเส้นและขึ้นอยู่กับกลยุทธ์อย่างมาก"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "มีกลยุทธ์ใดบ้างในตารางที่มีการปรับปรุงอัตราส่วน Calmar สูงกว่าการปรับปรุงอัตราส่วน Sharpe?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "กลยุทธ์พอร์ตโฟลิโอใดที่ถือเป็นความผิดปกติในแง่ของความสมดุลระหว่างการปรับปรุงอัตราส่วน Sharpe และ Calmar เมื่อเทียบกับกลยุทธ์อื่น ๆ ที่ไม่ใช่กลยุทธ์พื้นฐาน และเพราะเหตุใด?",
+    "answer": [
+      [
+        "กลยุทธ์ 'AlphaSharpe' ถือเป็นความผิดปกติ สำหรับ 'Risk Parity' และ 'Equal Risk Cont.' การปรับปรุงอัตราส่วน Sharpe มีค่ามากกว่าการปรับปรุงอัตราส่วน Calmar ประมาณ 3.7 เท่า ในทางตรงกันข้าม 'AlphaSharpe' กลับทิศทางนี้ โดยการปรับปรุง Calmar (+116.31%) มีค่ามากกว่าการปรับปรุง Sharpe (+71.04%) อย่างมีนัยสำคัญ ซึ่งบ่งชี้ถึงการปรับปรุงโปรไฟล์ความเสี่ยงต่อผลตอบแทนที่แตกต่างกันโดยพื้นฐาน"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "เปรียบเทียบกลยุทธ์ 'Risk Parity' และ 'Equal Risk Cont.' กลยุทธ์ใดให้โปรไฟล์ประสิทธิภาพที่ดีกว่าตามตัวชี้วัดที่ให้มา และดีกว่าเท่าใดในแต่ละตัวชี้วัด?",
+    "answer": [
+      [
+        "'Equal Risk Cont.' ให้โปรไฟล์ประสิทธิภาพที่ดีกว่าเล็กน้อย โดยมีประสิทธิภาพเหนือกว่า 'Risk Parity' ด้วยการปรับปรุง Sharpe ratio ที่สูงกว่า 0.23 เปอร์เซ็นต์ (เทียบกับ +38.55% vs +38.32%) และการปรับปรุง Calmar ratio ที่สูงกว่า 0.08 เปอร์เซ็นต์ (เทียบกับ +10.44% vs +10.36%)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "ค่า ΔSharpe (%) สำหรับกลยุทธ์พอร์ต 'Equal Risk Cont.' ในตารางคือเท่าใด",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "त्यांच्या सर्च स्पेसमध्ये सर्वाधिक पर्याय सूचीबद्ध केलेले हायपरपॅरामीटर्स कोणते आहेत?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "त्यांच्या शोध अवकाशात दोनपेक्षा जास्त संभाव्य मूल्ये असलेल्या किती हायपरपॅरामीटर्सची चाचणी केली गेली?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "ज्या हायपरपॅरामीटरची सर्वोत्तम निवड शून्यापेक्षा मोठी असलेली सर्वात लहान अंकीय मूल्य आहे, त्याची शोध जागा (search space) काय होती?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "'Search Space' मध्ये उपलब्ध असलेल्या सर्वाधिक मूल्यांपैकी 'Best Choice' असलेले सर्व हायपरपॅरामीटर्सची यादी करा.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "संख्यात्मक हायपरपॅरामीटर्सपैकी किती टक्के हायपरपॅरामीटर्ससाठी 'उत्तम निवड' (Best Choice) त्यांच्या क्रमवारी लावलेल्या 'शोध अवकाशातून' (Search Space) मधून निवडली गेली होती (म्हणजे किमान किंवा कमाल मूल्य नाही)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "'TRADES Layers' साठी शोध 8 पेक्षा कमी मूल्यांपुरता मर्यादित ठेवला असता, आणि मूळ शोध जागेतून पुढचा उपलब्ध सर्वोत्तम पर्याय निवडला असता, तर या हायपरपॅरामीटरसाठी 'Best Choice' काय ठरला असता?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "हायपरपॅरामीटरच्या सर्च स्पेसच्या आकाराचा आणि 'बेस्ट चॉइस' (Best Choice) हा किमान/कमाल (extreme) किंवा मध्य (middle) मूल्य आहे का, यांच्यात काही संबंध दिसतो का? तुमच्या उत्तराचे स्पष्टीकरण द्या.",
+    "answer": [
+      [
+        "होय, यात एक स्पष्ट नमुना दिसतो. ज्या हायपरपॅरामीटर्समध्ये दोन पर्यायांची (लर्निंग रेट, ड्रॉपआउट) छोटी सर्च स्पेस होती, त्यांमध्ये 'बेस्ट चॉइस' हे कमाल मूल्य होते. तीन किंवा चार पर्यायांची मोठी सर्च स्पेस असलेल्या सर्व हायपरपॅरामीटर्ससाठी, सर्वोत्तम मूल्य श्रेणीच्या मध्यभागी आढळले, कधीही टोकाला (extremes) नाही. यावरून असे सूचित होते की या मॉडेलसाठी, फाइन-ट्यूनिंग प्रक्रिया फायदेशीर आहे आणि सुरुवातीच्या विस्तृत श्रेणींनी (wide ranges) तपासलेल्या जागेच्या सीमारेषा नसलेल्या एका इष्टतम क्षेत्राला (optimal region) यशस्वीरित्या व्यापले."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "कोणत्या हायपरपॅरामीटरचे सर्च स्पेस गैर-अंकात्मक लेबल्स वापरून वर्णन केले आहे?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "कोणत्या हायपरपॅरामीटरचे 'उत्कृष्ट निवड' मूल्य हे संख्यात्मक दृष्ट्या वेगळे आहे, जे पुढील सर्वोच्च संख्यात्मक 'उत्कृष्ट निवड' पेक्षा किमान चार पट मोठे आहे?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "'Sequence size', 'TRADES Layers', 'Augmentation Dim.' या हायपरपॅरामीटर्समध्ये प्रत्येकी चार पर्याय त्यांच्या सर्च स्पेसमध्ये विचारात घेता, त्यांच्या 'Best Choice' मूल्यांमध्ये कोणती सामान्य विशेषता आहे आणि ट्युनिंग स्ट्रॅटेजीबद्दल हे काय सूचित करते?",
+    "answer": [
+      [
+        "या तिन्ही हायपरपॅरामीटर्ससाठी 'Best Choice' हे एक मध्यवर्ती मूल्य आहे, टोकाचे (किमान किंवा कमाल) नाही, ही सामान्य विशेषता आहे. 'Best Choices' 256 (4 पैकी 3रे), 8 (4 पैकी 3रे) आणि 64 (4 पैकी 2रे) आहेत. यावरून असे सूचित होते की ट्युनिंग स्ट्रॅटेजी यशस्वी झाली, कारण सर्च स्पेसने सर्वोत्तम मूल्य मर्यादित करण्यासाठी पुरेशी रुंदी दिली. यावरून असेही सूचित होते की या पॅरामीटर्ससाठीची कार्यक्षमता मूल्यासोबत एकदिष्टपणे वाढत नाही, तर तपासलेल्या श्रेणीमध्ये कुठेतरी सर्वोच्च होते."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "ऑप्टिमाइझरची सर्वोत्तम निवड कोणती आहे?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

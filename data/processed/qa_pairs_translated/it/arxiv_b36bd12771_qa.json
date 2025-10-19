@@ -1,0 +1,280 @@
+[
+  {
+    "question_id": "arxiv_b36bd12771_001",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Quale coefficiente beta (β) mostra la prova statistica più forte del suo effetto, come indicato dal valore t assoluto più alto?",
+    "answer": [
+      [
+        "β₄"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "D8",
+      "D2",
+      "D4",
+      "D6",
+      "D10",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_002",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Qual è l'errore standard medio per tutti i coefficienti alfa (α) che sono statisticamente significativi al livello p < 0,05?",
+    "answer": [
+      [
+        "0.036"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "E3",
+      "A11",
+      "C11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_003",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Per il componente del modello (indicizzato dal numero della sottoscritta) il cui coefficiente β ha l'intervallo di confidenza del 95% più ampio, qual è il p-value del corrispondente coefficiente α?",
+    "answer": [
+      [
+        "0.005"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "G2",
+      "F4",
+      "G4",
+      "F6",
+      "G6",
+      "F8",
+      "G8",
+      "F10",
+      "G10",
+      "F12",
+      "G12",
+      "A3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_004",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento delle magnitudo dei coefficienti β all'aumentare del pedice da 1 a 6. Esiste uno schema coerente?",
+    "answer": [
+      [
+        "Non esiste una tendenza monotona coerente. I coefficienti β inizialmente aumentano da β₁ (0.7208) a β₂ (0.8237), ma poi diminuiscono drasticamente per β₃ (0.0025) e i modelli successivi. I valori per le prime due componenti sono di ordini di grandezza superiori a quelli delle componenti da 3 a 6, che sono tutti molto vicini a zero."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A6",
+      "B6",
+      "A8",
+      "B8",
+      "A10",
+      "B10",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_005",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Identifica tutti i modelli adattati in cui il coefficiente alfa (α) è sia statisticamente insignificante (valore P > 0,4) SIA ha un errore standard inferiore a 0,03.",
+    "answer": [
+      [
+        "α₁"
+      ],
+      [
+        "α₃"
+      ],
+      [
+        "α₅"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A5",
+      "C5",
+      "E5",
+      "A9",
+      "C9",
+      "E9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_006",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Quale percentuale di tutti i coefficienti del modello adattato (sia α che β) sono statisticamente significativi, definiti come p-value inferiore a 0.05?",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_007",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Se l'errore standard per il modello α₁ fosse dimezzato, quale sarebbe la sua nuova statistica t? Basandosi sulla relazione tra statistiche t e valori p per altri modelli nella tabella, è probabile che questa modifica renda il coefficiente α₁ statisticamente significativo (p < 0,05)?",
+    "answer": [
+      [
+        "La nuova statistica t sarebbe -1,593 (-0,0215 / (0,027 / 2)). È improbabile che ciò renda il coefficiente statisticamente significativo. A titolo di confronto, il modello α₂ ha una statistica t di -2,803 e un valore p di 0,005. Una statistica t con un valore assoluto inferiore come -1,593 avrebbe un valore p più alto, probabilmente rimanendo al di sopra della soglia di significatività dello 0,05, che tipicamente richiede un valore t assoluto di circa 2 o più."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_008",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza la relazione tra la magnitudine dei coefficienti β e le loro statistiche t corrispondenti. Un coefficiente più grande porta costantemente a una statistica t più grande?",
+    "answer": [
+      [
+        "No, un coefficiente β più grande non porta costantemente a una statistica t più grande. Ad esempio, β₂ ha il coefficiente più grande (0.8237) ma la sua statistica t (8.418) è molto più piccola di quella di β₄ (126.061), che ha un coefficiente molto piccolo (0.0041). La statistica t è un rapporto tra il coefficiente e il suo errore standard, quindi un errore standard molto piccolo può comportare una statistica t molto grande anche per un coefficiente piccolo, come si vede con i modelli da β₃ a β₆."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B4",
+      "D4",
+      "B6",
+      "D6",
+      "B8",
+      "D8",
+      "B10",
+      "D10",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_009",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Basandosi sui principi statistici, un intervallo di confidenza del 95% che non contiene zero dovrebbe corrispondere a un p-value inferiore a 0.05. Ci sono coefficienti del modello adattato nella tabella in cui l'intervallo di confidenza e il p-value sono incoerenti con questo principio?",
+    "answer": [
+      [
+        "No, tutti i coefficienti nella tabella mostrano coerenza tra il loro p-value e l'intervallo di confidenza del 95%. Tutti i coefficienti con un p-value inferiore a 0.05 (ad esempio, β₁, α₂, β₂) hanno un intervallo di confidenza che non include zero. Al contrario, tutti i coefficienti con un p-value superiore a 0.05 (ad esempio, α₁, α₃, α₄) hanno un intervallo di confidenza che include zero."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_010",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale coefficiente alpha (α) presenta una statistica t che è il più significativo outlier rispetto alle statistiche t degli altri coefficienti alpha?",
+    "answer": [
+      [
+        "α₆, con una statistica t di 7.305, è l'outlier più significativo. Le altre statistiche t alpha sono -0.787, -2.803, -0.269, 0.013 e 0.729. La maggior parte di questi valori è raggruppata tra -3 e 1. Il valore 7.305 è molto più grande in magnitudine ed è l'unico valore positivo elevato, facendolo risaltare significativamente dal resto del gruppo."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A11",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b36bd12771_011",
+    "table_id": "arxiv_b36bd12771",
+    "question_type": "value",
+    "question": "Qual è il numero di modelli adattati elencati nella tabella?",
+    "answer": [
+      [
+        "There are 12 fitted models listed in the table (α₁–α₆ and β₁–β₆)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

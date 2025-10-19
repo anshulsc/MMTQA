@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "arxiv_6e5eaf404b_001",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Která práce, MASA nebo TrendTrader, je prokázána jako účinná napříč širším a rozmanitějším souborem mezinárodních akciových indexů?",
+    "answer": [
+      [
+        "MASA Li et al. (2024e) je ukázána jako účinná napříč širším rozsahem, protože její výsledky pokrývají tři hlavní indexy (CSI300, DJIA, S&P500) z Číny i USA. Výsledky TrendTrader jsou specifikovány pro dva indexy (DJIA, SSE-50)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_002",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Kolik z uvedených výzkumných prací explicitně zmiňuje dosažení lepšího výkonu na čínských akciových indexech (CSI300 nebo SSE-50)?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_003",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Jaká je klíčová inovace frameworku, který jako metodologii využívá 'prostorově-časový RL framework'?",
+    "answer": [
+      [
+        "Multimodal fusion of price and sentiment"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_004",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Která výzkumná práce uvádí extrémně pozitivní odlehlý výkonnostní výsledek, který ukazuje výnos o více než 60 procentních bodů vyšší než jeho tržní benchmark?",
+    "answer": [
+      [
+        "LLM-Alpha Kou et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_005",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Uveďte práce, které se na základě své klíčové inovace zaměřují na diverzifikaci portfolia nebo výběr aktiv, spíše než na předpovídání cenových pohybů.",
+    "answer": [
+      [
+        "EarnMore Zhang et al. (2024d)",
+        "Network-EDM Hui and Wang (2024)",
+        "Market-Graph Yamagata and Ono (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_006",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Jaké procento uvedených výzkumných prací explicitně začleňuje do své klíčové inovace data jiná než cena, například sentiment nebo teorie sítí?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_007",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud by ziskovost frameworku 'EarnMore' byla snížena o 15 procentních bodů (z +40 % na +25 %), jaký by byl jeho nový primární výsledek a jak by to mohlo ovlivnit jeho tvrzení o „srovnatelné úrovni rizika“, když je jeho zisk výrazně nižší?",
+    "answer": [
+      [
+        "Novým primárním výsledkem by bylo „Zisk: +25 %, srovnatelná úroveň rizika“. Nižší zisk +25 % při zachování stejné úrovně rizika činí strategii méně atraktivní. Rizikově očištěný výnos by byl nižší, což by mohlo vést k tomu, že jeho úroveň rizika by nebyla „srovnatelná“ nebo přijatelná vzhledem ke sníženým výnosům."
+      ]
+    ],
+    "evidence_cells": [
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_008",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký je podle tabulky předpokládaný vztah mezi použitím multi-agentních systémů a povahou uváděných primárních výsledků?",
+    "answer": [
+      [
+        "Zdá se, že existuje pozitivní korelace mezi použitím multi-agentních systémů a dosažením vynikajících, kvantifikovatelných výnosů. Dvě práce využívající tento přístup, MASA a LLM-Alpha, hlásí „Vynikající výnosy upravené o riziko“ a specifický vysoký výnos „+53,17 %“. To naznačuje, že multi-agentní frameworky jsou účinné při generování silného, měřitelného finančního překonání."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_009",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "value",
+    "question": "Jaký je hlavní výsledek práce, která inovovala prostřednictvím přístupu založeného na shlukování tržních grafů?",
+    "answer": [
+      [
+        "Higher Sharpe ratios on S&P500"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_010",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Který sloupec, 'Klíčová inovace' nebo 'Metodologie', poskytuje specifičtější technické detaily implementace o tom, jak byl výzkum proveden?",
+    "answer": [
+      [
+        "Sloupec 'Metodologie' poskytuje specifičtější technické detaily. Například, zatímco 'Klíčová inovace' může uvádět obecný koncept jako 'Analýza v kmitočtové oblasti' (FreQuant) nebo 'Těžba alfa faktorů založená na LLM' (LLM-Alpha), sloupec 'Metodologie' uvádí přesné použité techniky, jako jsou 'Víceúrovňová reprezentace aktiv prostřednictvím DFT' a 'Víceagentový systém s dynamickým vážením', respektive."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6e5eaf404b_011",
+    "table_id": "arxiv_6e5eaf404b",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaká je klíčová inovace v MASA Li et al. (2024e)?",
+    "answer": [
+      [
+        "Víceagentový rámec se specializovanými agenty pro riziko a výnos."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Content Reasoning"
+  }
+]

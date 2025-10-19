@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Která metoda výběru příznaků dosáhla nejnižší hodnoty chybovosti pro nastavení prognózování 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Jaký je průměrný počet exogenních proměnných použitých metodou 'LASSO regression feature selection' napříč všemi nastaveními prognóz?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Jaká je chybová metrika metody využívající nejvyšší počet externích proměnných pro nastavení předpovědi 'BC3_28'?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Zvyšuje konzistentně zvyšování počtu externích proměnných výkon (tj. snižuje hodnotu chyby) pro nastavení 'BC1_64'? Poskytněte krátkou analýzu.",
+    "answer": [
+      [
+        "Ne, neexistuje žádný konzistentní vztah. Pro nastavení 'BC1_64' používá 'Correlation-Based Selection' 3 proměnné s chybou 14,11, 'LASSO regression' také používá 3 proměnné, ale má vyšší chybu 14,55. 'Forward Feature Selection NP' používá mnohem větší počet proměnných (28) a dosahuje výrazně lepší (nižší) chyby 9,16. To naznačuje, že ačkoli vyšší počet proměnných může být lepší, konkrétní metoda výběru je klíčová a prosté přidávání proměnných nezaručuje zlepšení."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Uveďte všechny metody výběru příznaků, které vedly k chybové hodnotě vyšší než 15 pro nastavení 'BC3_64'.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Jaké procento z celkového počtu externích proměnných použitých v 'Forward Feature Selection NP' napříč všemi nastaveními bylo přiděleno nastavení 'BC1_64'?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Pokud by chyba zpracování dat způsobila, že by všechny metriky chybovosti pro nastavení 'BC2_28' byly o 2,5 bodu nižší než zaznamenané, jaká by byla nová chyba pro 'Manual feature selection'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Mezi metodami výběru příznaků, kde je počet proměnných explicitně uveden, která vykazuje největší nestabilitu, měřenou rozsahem (maximum mínus minimum) vybraných proměnných napříč různými nastaveními předpovědi?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Pro metodu 'LASSO regression feature selection' je chybová hodnota pro 'BC3_28' odlehlá hodnota. Jaké je její odpovídající počet externích proměnných ve srovnání s ostatními nastaveními pro stejnou metodu?",
+    "answer": [
+      [
+        "Nastavení 'BC3_28', které má pro LASSO odlehlou vysokou chybu 28,79, také používá nejvyšší počet externích proměnných (16) pro tuto metodu. To je výrazně více než ostatní nastavení, která se pohybují od 0 do 10 proměnných. To naznačuje potenciální problém, kdy metoda LASSO vybrala velkou, ale špatně fungující sadu příznaků pro tento konkrétní prognostický kontext."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Při analýze výkonu základní metody 'Bez externích proměnných' popište trend v chybovém metrice při postupu sekvenčně od nastavení 'BC1' k 'BC2' a poté k 'BC3'.",
+    "answer": [
+      [
+        "Výkon základní metody 'Bez externích proměnných' ukazuje jasný vzorec napříč nastaveními. Začíná s mírnými hodnotami chyb pro nastavení BC1 (11.14, 13.65). Výkon se dramaticky zlepšuje pro nastavení BC2, které mají nejnižší chyby (3.75, 9.08). Nakonec se chyba opět zvyšuje pro nastavení BC3 (17.53, 9.06), přičemž BC3_64 má pro tuto metodu celkově nejvyšší chybu. To naznačuje, že základní model je nejvhodnější pro podmínky BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Mezi 'LASSO regression feature selection' a 'Forward Feature Selection NP', která metoda předpovědi dosáhla nižší hodnoty v konfiguraci BC2_64?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' dosáhlo nižší hodnoty (2,9) ve srovnání s 'LASSO regression feature selection' (5,73) v konfiguraci BC2_64."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "表の中で、最も多くの異なるパラメータ説明を持つモデルはどれですか？",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "主数式に合計（Σ）コンポーネントを使用するすべてのモデルについて、説明されている個別のパラメータは合計でいくつありますか？",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "主数式に指数関数（例：e^x）が含まれていないモデルをリストアップしてください。",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "リストされているモデルのうち、その定式化において個々のサンプルまたはデータポイント（例：「サンプルi」）を表すパラメータを利用しているものは何パーセントですか？",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "決定木モデルにおいて、サンプルカテゴリ数「m」が1の場合、数式によれば情報エントロピー「Ent(D)」の計算値はいくらになりますか？",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "他のモデルとは異なり、直接的な出力値の計算ではなく、最適化問題（最小化）として提示されているモデルの数式はどれですか？",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "「β」パラメータのロジスティック回帰における役割と、「w」パラメータのサポートベクターマシンにおける役割について、数式とパラメータに基づいて説明してください。",
+    "answer": [
+      [
+        "ロジスティック回帰では、「β」は回帰係数の行ベクトルであり、切片とともにロジスティック関数を介して結果の確率を決定します。サポートベクターマシンでは、「w」は分離超平面の方向を定義するパラメータベクトルです。SVMの目標は、L2ノルムを最小化することでクラス間のマージンを最大化する「w」を見つけることですが、ロジスティック回帰では、「β」は通常、観測データの尤度を最大化することによって見つけられます。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "ニューラルネットワークにおける「層（レイヤー）」の概念と、決定木における「エントロピー」の概念は、データからの学習に対するそれぞれの異なるアプローチをどのように反映していますか？",
+    "answer": [
+      [
+        "ニューラルネットワークにおける「層」（l および l-1）の概念は、階層的な特徴学習アプローチを反映しています。モデルは、連続する層を介して活性化を通過させることにより、データに対してますます複雑な表現を学習し、重み（「w」）とバイアス（「b」）を調整して複雑な関数近似器を作成します。対照的に、決定木における「エントロピー」（Ent(D)）の概念は、貪欲なルールベースのアプローチを反映しています。モデルは、エントロピー（情報利得）の減少が最大となる特徴を選択することにより、データを再帰的により純粋なサブセットに分割し、明示的な「if-then」ルールのセットを作成します。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "表に記載されているユニークなモデルの総数はいくつですか？",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "隣接する列で使用される変数を定義することを主な目的とする列はどれですか？",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

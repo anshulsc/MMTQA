@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "arxiv_5e3be8dfe7_001",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Quale modello ha il maggior numero di spiegazioni di parametri distinte elencate nella tabella?",
+    "answer": [
+      [
+        "Neural Networks"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_002",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Quanti parametri distinti sono spiegati in totale per tutti i modelli che utilizzano un componente di sommatoria (Σ) nella loro formula principale?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_003",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Elenca i modelli la cui formula principale non coinvolge l'esponenziazione (ad es. e^x).",
+    "answer": [
+      [
+        "Neural Networks"
+      ],
+      [
+        "Support Vector Machine"
+      ],
+      [
+        "Decision Tree"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_004",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Quale percentuale dei modelli elencati utilizza un parametro che rappresenta campioni o punti dati individuali (ad es. 'campione i') nella sua formulazione?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "C8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_005",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Se il numero di categorie di campioni 'm' in un modello di Albero Decisionale è 1, quale sarebbe il valore calcolato dell'entropia di informazione 'Ent(D)' secondo la formula?",
+    "answer": [
+      [
+        "0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_006",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Quale modello ha una formula fondamentalmente diversa dalle altre in quanto presentata come un problema di ottimizzazione (minimizzazione) piuttosto che un calcolo diretto di un valore di output?",
+    "answer": [
+      [
+        "Support Vector Machine"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_007",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Sulla base delle formule e dei parametri, contrasta i ruoli del parametro 'β' nella regressione logistica con il parametro 'w' nella Support Vector Machine.",
+    "answer": [
+      [
+        "Nella regressione logistica, 'β' è un vettore riga di coefficienti di regressione che, insieme all'intercetta, determina la probabilità di un risultato tramite la funzione logistica. Nella Support Vector Machine, 'w' è un vettore di parametri che definisce l'orientamento dell'iperpiano separatore. L'obiettivo in SVM è trovare il 'w' che massimizza il margine tra le classi minimizzando la sua norma L2, mentre nella regressione logistica, 'β' viene tipicamente trovato massimizzando la verosimiglianza dei dati osservati."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C3",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_008",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "open_ended_reasoning",
+    "question": "Come i concetti di 'strati' nelle Reti Neurali e 'entropia' negli Alberi Decisionali riflettono i loro diversi approcci all'apprendimento dai dati?",
+    "answer": [
+      [
+        "Il concetto di 'strati' (l e l-1) nelle Reti Neurali riflette un approccio gerarchico all'apprendimento delle caratteristiche. Il modello apprende rappresentazioni sempre più complesse dei dati passando le attivazioni attraverso strati successivi, regolando i pesi ('w') e i bias ('b') per creare un approssimatore di funzione complesso. Al contrario, il concetto di 'entropia' (Ent(D)) negli Alberi Decisionali riflette un approccio goloso basato su regole. Il modello partiziona ricorsivamente i dati in sottoinsiemi più puri selezionando le caratteristiche che portano alla maggiore diminuzione dell'entropia (guadagno di informazione), creando un insieme esplicito di regole if-then."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "C5",
+      "C6",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_009",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Qual è il numero totale di modelli univoci descritti nella tabella?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5e3be8dfe7_010",
+    "table_id": "arxiv_5e3be8dfe7",
+    "question_type": "value",
+    "question": "Quale colonna ha lo scopo principale di definire le variabili utilizzate nella colonna adiacente?",
+    "answer": [
+      [
+        "Parameter and Explanation"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "question_id": "arxiv_5ef1fd398c_001",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Quelle catégorie 'Focus Category' apparaît le plus fréquemment dans le tableau ?",
+    "answer": [
+      [
+        "Financial Indicator"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_002",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Combien de catégories de focus distinctes contiennent exactement trois éléments de focus ?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_003",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Dans la catégorie qui inclut 'Pension', quel autre 'Focus Item' a des questions relatives à la rémunération et aux avantages sociaux des employés ?",
+    "answer": [
+      [
+        "Salary"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_004",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Quel 'Focus Item' contient des questions qui se concentrent le plus explicitement sur la comparaison des performances sur différentes périodes passées, telles que trimestre par trimestre et année par année ?",
+    "answer": [
+      [
+        "Revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_005",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Listez tous les 'Focus Items' de la catégorie 'Expansion' qui ne mentionnent pas spécifiquement de produits physiques.",
+    "answer": [
+      [
+        "Geographic Expansion"
+      ],
+      [
+        "Market Segmentation Expansion"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_006",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Quelle proportion des \"Focus Items\" dans la catégorie \"Financial Indicator\" concerne directement les rendements pour les actionnaires (par exemple, dividendes, ROE, rachats d'actions)?",
+    "answer": [
+      [
+        "2/4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_007",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Si l'élément de focus 'Dividende' était reclassé sous une nouvelle catégorie 'Valeur actionnariale', comment le nombre d'éléments dans la catégorie 'Indicateur financier' changerait-il ?",
+    "answer": [
+      [
+        "Le nombre d'éléments diminuerait de 4 à 3."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_008",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des questions fournies, quelle relation est sous-entendue entre un changement de direction de l'entreprise et sa stratégie d'entreprise ?",
+    "answer": [
+      [
+        "Le tableau implique une relation causale directe, car la question Q3 pour 'Changement de direction' interroge explicitement sur l'impact attendu de tels changements sur la stratégie de l'entreprise. Cela suggère que les transitions de direction sont considérées comme des moteurs clés des changements stratégiques."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_009",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Identifiez les \"Focus Items\" qui sont des valeurs aberrantes structurelles, où le nom de l'élément est identique à son nom de catégorie et constitue le seul élément de cette catégorie.",
+    "answer": [
+      [
+        "Business"
+      ],
+      [
+        "Future Outlook"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "A15",
+      "B15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_010",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "open_ended_reasoning",
+    "question": "Comparez l'orientation thématique des questions relatives aux éléments 'Indicateur Financier' par rapport aux éléments 'Responsable Employé'.",
+    "answer": [
+      [
+        "Les questions relatives aux 'Indicateurs Financiers' sont axées sur l'extérieur et portent sur des métriques de performance quantitatives comme le chiffre d'affaires, les dividendes et les bénéfices, principalement pour l'analyse des investisseurs. En revanche, les questions relatives aux 'Responsables Employés' sont axées sur l'intérieur et portent sur le capital humain et les aspects administratifs, tels que les salaires, les passifs de retraite et l'impact des changements de direction, qui concernent les opérations internes et le bien-être des employés."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5ef1fd398c_011",
+    "table_id": "arxiv_5ef1fd398c",
+    "question_type": "value",
+    "question": "Combien d'éléments de focus sont sous la catégorie Indicateur Financier ?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

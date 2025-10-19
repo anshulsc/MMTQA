@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Which financial category experienced the largest absolute loss as part of the 'other comprehensive ( loss ) income before reclassifications'?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "What was the combined total of all 'amounts reclassified out of other comprehensive loss' for the individual categories?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "What was the starting balance on November 3, 2018 for the component that had the smallest absolute value as an ending balance on November 2, 2019?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe the overall trend of the 'total' accumulated other comprehensive loss from the beginning to the end of the period.",
+    "answer": [
+      [
+        "The total accumulated loss significantly worsened during the period, increasing from -$58,440 to -$187,799. This represents an additional net loss of $129,359, more than tripling the accumulated loss from the start of the period."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "For all categories that had a net loss in 'other comprehensive ( loss ) income', what was their combined total ending balance on November 2, 2019?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "What percentage of the total negative balance on November 2, 2019, is attributable to 'unrealized holding gains ( losses ) on derivatives'?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "If the 'other comprehensive ( loss ) income' for 'pension plans' had been a gain of 24,344 instead of a loss, what would the new total ending balance be on November 2, 2019?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Is there a consistent relationship between the sign (positive/negative) of 'other comprehensive ( loss ) income before reclassifications' and the sign of the final 'other comprehensive ( loss ) income' for each category?",
+    "answer": [
+      [
+        "Yes, the relationship is consistent across all four categories. For 'foreign currency', 'derivatives', and 'pension plans', the values are negative in both line items. For 'available for sale securities', the values are positive in both line items. Therefore, the sign of the income before reclassifications consistently matches the sign of the final net comprehensive income for the period."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Which specific line item entry, excluding totals, represents the most extreme value (i.e., largest absolute value) in the table?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Using the roll-forward logic where Ending Balance = Beginning Balance + 'other comprehensive ( loss ) income', identify the financial category whose reported values are mathematically inconsistent.",
+    "answer": [
+      [
+        "The 'unrealized holding gains ( losses ) on available for sale securities' category is inconsistent. Its beginning balance of -10 (cell C1) plus its 'other comprehensive ( loss ) income' of 10 (cell C5) results in a calculated ending balance of 0, which does not match the reported ending balance of 2,014 (cell C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "How much did the pension plans decrease from 2018 to 2019?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

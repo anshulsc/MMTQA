@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hyperparameter naon waé anu ngagaduhan jumlah pilihan pangageungna anu didaptarkeun dina spasi pencarianana?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Aya sabaraha hyperparameter anu diuji kalayan langkung ti dua kamungkinan nilai dina rohangan pilarianana?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Naon ruang pilarian pikeun hyperparameter anu pilihan pangsaéna nyaéta nilai angka pangleutikna anu langkung ageung tibatan nol?",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Sebutkeun kabéh hiperparameter nu 'Best Choice'-na mangrupa nilai pangluhurna nu aya dina 'Search Space'-na masing-masing.",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Sabaraha perséntaseun tina hyperparameters numerik anu pilihan pangalusna na dipilih tina tengah spasi pilarian maranéhanana (nyaéta, sanés nilai minimum atanapi maksimum)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Upami milarian 'TRADES Layers' ngan ukur diwatesan kana nilai anu kirang ti 8, naon anu bakal janten 'Pilihan Pangsaéna' pikeun hyperparameter ieu, nganggap pilihan pangsaéna salajengna anu sayogi tina rohangan milarian asli dipilih?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Naha aya patali nu katempo antara ukuran spasi pilarian hyperparameter jeung naha 'Pilihan Pangalusna' mangrupakeun nilai ekstrim (min/max) atawa nilai tengah? Jelaskeun alesan anjeun.",
+    "answer": [
+      [
+        "Leres, aya pola anu jelas. Pikeun hyperparameter kalawan spasi pilarian leutik dua pilihan (Learning Rate, Dropout), pilihan pangalusna nyaéta nilai pangluhurna. Pikeun sakabeh hyperparameter kalawan spasi pilarian leuwih badag tilu atawa opat pilihan, nilai optimal kapanggih di tengah-tengah jangkauan, teu pernah di sisi. Ieu nunjukkeun yén pikeun model ieu, prosés fine-tuning mangpaat, sarta rentang lega awal suksés ngabeungkeut wewengkon optimal nu teu aya di wates spasi diuji."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Daptar hyperparameter mana anu spasi pilarianana digambarkeun ku labél non-numerik?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Dina hiji hyperparameter, nilai 'Best Choice' na anu mangrupa outlier numerik, sahenteuna opat kali leuwih gede dibandingkeun jeung 'Best Choice' numerik pangluhurna salajengna?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "Ku mapay dina hyperparameter anu ngagaduhan opat pilihan dina spasi pilarianana ('Sequence size', 'TRADES Layers', 'Augmentation Dim.'), naon ciri umum anu dibagikeun ku nilai 'Best Choice'-na, sareng naon anu tiasa dicaritakeun ngeunaan strategi tuningna?",
+    "answer": [
+      [
+        "Ciri umumna nyaéta pikeun katilu hyperparameter éta, 'Best Choice' téh mangrupa nilai tengah, lain nu panghandapna atawa pangluhurna. 'Best Choices'na nyaéta 256 (katilu tina 4), 8 (katilu tina 4), jeung 64 (kadua tina 4). Ieu nunjukkeun yén strategi tuning lumaku suksés nu mana spasi pilarianana cukup lega pikeun ngawengku nilai optimal, ngisyaratkeun yén kinerja pikeun parameter ieu henteu monotonically naek bareng jeung nilaina tapi leuwih ka puncak dina jangkauan anu dites."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Naon pilihan Optimizer pangalusna?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

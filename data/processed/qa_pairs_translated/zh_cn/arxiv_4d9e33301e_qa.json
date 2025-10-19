@@ -1,0 +1,174 @@
+[
+  {
+    "question_id": "arxiv_4d9e33301e_001",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "在最近一个时期内，哪家公司的利润率（净收益/总收入）更高？",
+    "answer": [
+      [
+        "Coca-Cola Co"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_002",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "在记录的最近一个时期内，百事公司和可口可乐公司的合计总收入（以千为单位）是多少？",
+    "answer": [
+      [
+        "34294000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_003",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "从前期到最近期，哪家公司的毛利润（总收入 - 收入成本）绝对增长额更大？",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_004",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "分析可口可乐在两个记录时期内的净收入趋势，并将其与其总收入趋势进行对比。",
+    "answer": [
+      [
+        "可口可乐的净收入从3,107,000（以千为单位）下降至2,547,000（以千为单位），而其总收入从10,980,000（以千为单位）增加至11,972,000（以千为单位）。这种差异表明，尽管销售额增长，但盈利能力却下降了，这可能表明成本或费用的增加超过了收入的增长。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_005",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "哪家公司的运营费用增长超过1,000,000千元，而其利息费用增长为1,000千元或更少？",
+    "answer": [
+      [
+        "PepsiCo, Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_006",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "就最近一个时期而言，百事公司（PepsiCo, Inc.）的总收入中有多少百分比被其收入成本和运营费用之和所消耗？",
+    "answer": [
+      [
+        "83.61%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_007",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "如果可口可乐最近一个季度的营收成本降低 10%，在其他数据不变的情况下，其新的净收入（以千美元计）会是多少？",
+    "answer": [
+      [
+        "3038200"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_008",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "根据两家公司的数据，总收入的变化与两个时期之间运营费用变化之间是否存在明显的关联？",
+    "answer": [
+      [
+        "似乎存在正相关。对于百事公司和可口可乐公司而言，从前期到近期总收入的增长伴随着运营费用的增加。这表明随着收入的增长，支持这种增长所需的支出，如营销和管理费用，也会随之增加。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_009",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "value",
+    "question": "对于可口可乐公司 (Coca-Cola Co)，哪个费用类别在其趋势方向（增加/减少）与收入成本 (Cost of Revenue) 和运营费用 (Operating Expense) 的趋势相反，从而成为异常值？",
+    "answer": [
+      [
+        "Depreciation and Amortization"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_4d9e33301e_010",
+    "table_id": "arxiv_4d9e33301e",
+    "question_type": "open_ended_reasoning",
+    "question": "财务指标以两元素列表（例如 [值1, 值2]）的形式呈现。考虑到季度的报告背景，这种结构的可能含义是什么？",
+    "answer": [
+      [
+        "这种结构最有可能代表了季度的同比比较。第一个值通常对应于去年同期 the 财务结果，而第二个值代表当前季度的结果。这种格式是评估绩效趋势和随时间增长的标准格式。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_77d21be6b3_001",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "'Parametric (PM)'类别下有多少个模型？",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_002",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "表中列出的模型类别中，哪个包含的模型最多？",
+    "answer": [
+      [
+        "Parametric (PM)"
+      ],
+      [
+        "Neural network (NN)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_003",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "列出所有在“备注”中明确提到基于“收益率回报”的模型名称。",
+    "answer": [
+      [
+        "AR_RET"
+      ],
+      [
+        "GARCH_RET"
+      ],
+      [
+        "GARCHt_RET"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_004",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "在'历史模拟（HS）'类别中，哪一个模型使用了过滤，它的完整描述（备注）是什么？",
+    "answer": [
+      [
+        "Filtered historical simulation (EWMA)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_005",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "列表中总模型中，有多少百分比被归类为“神经网络 (NN)”？",
+    "answer": [
+      [
+        "42.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_006",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "表中哪个模型类别代表性最少，使其成为频率上的异常值？",
+    "answer": [
+      [
+        "Historical simulation (HS)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_007",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "value",
+    "question": "如果所有在‘收益回报’上运行的模型都被移到一个新的‘基于回报’类别，这个新类别将包含多少个模型？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_008",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "在“参数模型 (Parametric)”类别中，用于区分操作“收益率回报 (return of yields)”的模型与操作“收益率 (yields)”的模型，“模型名称 (Model Name)”中使用的常见后缀是什么？",
+    "answer": [
+      [
+        "常见后缀是 '_RET'。通过比较 'AR'（收益率模型）与 'AR_RET'（收益率回报模型），以及 'GARCH' 与 'GARCH_RET'，可以观察到这一点。"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_009",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "根据 'CGAN-FC' 和 'CGAN-LSTM' 的数据，在 '神经网络 (NN)' 类别中，可以推断出模型的名称与其底层架构之间存在什么关系？",
+    "answer": [
+      [
+        "可以推断出名称与架构之间存在直接关系，其中“模型名称”中的后缀（例如“-FC”、“-LSTM”）明确描述了“备注”中详述的网络层类型（“全连接层”、“LSTM 层”）。这表明存在一种系统的命名约定，可以快速识别模型的架构。"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_010",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "与“神经网络 (NN)”类别相比，“参数模型 (PM)”类别内部模型的多元化程度如何？根据它们的描述，哪个类别似乎拥有更广泛的不同建模方法？",
+    "answer": [
+      [
+        "“神经网络 (NN)”类别显示出更大的内部多样性。虽然“参数模型 (PM)”模型是 AR 和 GARCH 等成熟统计框架的变体，主要在输入数据（收益率 vs. 回报率）或误差分布上有所不同，但“神经网络 (NN)”类别包含根本上不同的架构。它包括各种生成对抗网络（CGAN、CWGAN）、扩散模型和变分自编码器（VAE），这些代表了更广泛的不同机器学习技术。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "D9",
+      "B10",
+      "D10",
+      "B11",
+      "D11",
+      "B12",
+      "D12",
+      "B13",
+      "D13",
+      "B14",
+      "D14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_77d21be6b3_011",
+    "table_id": "arxiv_77d21be6b3",
+    "question_type": "open_ended_reasoning",
+    "question": "PHS代表什么，它属于哪种模型？",
+    "answer": [
+      [
+        "PHS代表Plain Historical Simulation（纯历史模拟），它是一种Historical simulation (HS)（历史模拟）模型。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

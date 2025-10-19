@@ -1,0 +1,269 @@
+[
+  {
+    "question_id": "arxiv_a783ff97d3_001",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Aling paraan ng pagpili ng feature ang nakakuha ng pinakamababang halaga ng error para sa setting ng forecasting na 'BC2_64'?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_002",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Ano ang karaniwang bilang ng mga exogenous variable na ginamit ng pamamaraang 'LASSO regression feature selection' sa lahat ng forecasting setting?",
+    "answer": [
+      [
+        "6.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_003",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Para sa 'BC3_28' forecasting setting, ano ang error metric ng paraan na gumagamit ng pinakamaraming exogenous variables?",
+    "answer": [
+      [
+        "18.23"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "G3",
+      "A4",
+      "G4",
+      "G5",
+      "A6",
+      "G6",
+      "G7",
+      "A8",
+      "G8",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_004",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Ang pagtaas ba ng bilang ng mga exogenous variable ay palaging nagpapabuti sa performance (ibig sabihin, nagpapababa ng error value) para sa 'BC1_64' setting? Magbigay ng maikling pagsusuri.",
+    "answer": [
+      [
+        "Hindi, walang pare-parehong relasyon. Para sa 'BC1_64' setting, ang 'Correlation-Based Selection' ay gumagamit ng 3 variable para sa error na 14.11, ang 'LASSO regression' ay gumagamit din ng 3 variable ngunit may mas mataas na error na 14.55. Ang 'Forward Feature Selection NP' ay gumagamit ng mas malaking bilang ng mga variable (28) at nakakamit ng mas mahusay (mas mababa) na error na 9.16. Ipinapahiwatig nito na bagama't maaaring maging mas mahusay ang mas mataas na bilang ng mga variable, kritikal ang partikular na paraan ng pagpili at ang simpleng pagdaragdag ng mga variable ay hindi garantiya ng pagpapabuti."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "A4",
+      "B4",
+      "B5",
+      "A6",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_005",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng feature selection method na nagresulta sa error value na mas mataas sa 15 para sa 'BC3_64' setting.",
+    "answer": [
+      [
+        "Without exogenous variables"
+      ],
+      [
+        "Correlation-Based Selection"
+      ],
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Manual feature selection"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A4",
+      "F4",
+      "A6",
+      "F6",
+      "A8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_006",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Ano ang porsyento ng kabuuang bilang ng mga exogenous variable na ginamit ng 'Forward Feature Selection NP' sa lahat ng setting na inilaan sa 'BC1_64' na setting?",
+    "answer": [
+      [
+        "28.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_007",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Kung ang isang error sa pagpoproseso ng data ay nagdulot na ang lahat ng error metrics para sa setting na 'BC2_28' ay naging 2.5 puntos na mas mababa kaysa sa naitala, ano ang magiging bagong error para sa 'Manual feature selection'?",
+    "answer": [
+      [
+        "13.57"
+      ]
+    ],
+    "evidence_cells": [
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_008",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "value",
+    "question": "Sa mga paraan ng pagpili ng feature kung saan tahasang nakalista ang bilang ng mga variable, alin ang nagpapakita ng pinakamalaking kawalang-tatag, ayon sa sukat ng range (pinakamataas binawasan ng pinakamababa) ng mga variable na napili sa iba't ibang setting ng pagtataya?",
+    "answer": [
+      [
+        "Forward Feature Selection NP"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "A6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "A8",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "G9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_009",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Para sa paraang 'LASSO regression feature selection', ang halaga ng error para sa 'BC3_28' ay isang outlier. Paano maihahambing ang katumbas nitong bilang ng mga exogenous variable sa ibang mga setting para sa parehong paraan?",
+    "answer": [
+      [
+        "Ang setting na 'BC3_28', na may outlier na mataas na error na 28.79 para sa LASSO, ay gumagamit din ng pinakamataas na bilang ng exogenous variables (16) para sa paraang iyon. Ito ay mas malaki kumpara sa ibang mga setting, na mula 0 hanggang 10 variables. Ito ay nagmumungkahi ng posibleng isyu kung saan ang LASSO method ay pumili ng malaki, ngunit hindi maganda ang pagganap, na hanay ng mga feature para sa partikular na konteksto ng pag-forecast na ito."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5",
+      "E4",
+      "E5",
+      "F4",
+      "F5",
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_010",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Sinusuri ang pagganap ng 'Without exogenous variables' baseline, ilarawan ang takbo ng error metric habang sunud-sunod kang gumagalaw mula sa 'BC1' settings patungong 'BC2' at pagkatapos ay 'BC3'.",
+    "answer": [
+      [
+        "Ang pagganap ng 'Without exogenous variables' baseline ay nagpapakita ng malinaw na pattern sa mga setting. Nagsisimula ito sa mga katamtamang halaga ng error para sa mga setting ng BC1 (11.14, 13.65). Dramatikong bumubuti ang pagganap para sa mga setting ng BC2, na may pinakamababang mga error (3.75, 9.08). Sa wakas, muling tumataas ang error para sa mga setting ng BC3 (17.53, 9.06), kung saan ang BC3_64 ang may pinakamataas na error sa kabuuan para sa pamamaraang ito. Ito ay nagpapahiwatig na ang baseline model ay pinakaangkop sa mga kondisyon ng BC2."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_a783ff97d3_011",
+    "table_id": "arxiv_a783ff97d3",
+    "question_type": "open_ended_reasoning",
+    "question": "Sa pagitan ng 'LASSO regression feature selection' at 'Forward Feature Selection NP', aling forecasting setting ang nakakuha ng mas mababang halaga sa BC2_64 configuration?",
+    "answer": [
+      [
+        "'Forward Feature Selection NP' ang nakakuha ng mas mababang halaga (2.9) kumpara sa 'LASSO regression feature selection' (5.73) sa BC2_64 configuration."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "D5",
+      "D7"
+    ],
+    "reasoning_category": "Comaparative Reasoning"
+  }
+]

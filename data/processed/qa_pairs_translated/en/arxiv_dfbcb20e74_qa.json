@@ -1,0 +1,180 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Which model's main formula explicitly includes a risk-free rate component?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "What is the total count of distinct 'X' variables that are used as inputs in the Z-score Model's formula?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Identify the model that utilizes 'Total assets' as a denominator in at least three of its explained parameters, and then state which parameter from that model represents the ratio of 'Market value of equity' to 'Total liabilities'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Which model incorporates parameters that are explicitly defined as being measured 'at time t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "If the analytical goal is to determine the probability of a binary outcome (y=1), which model listed in the table is the most appropriate choice?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "In the Z-score model, what is the weight (coefficient) of the variable representing the 'Earnings before interest and tax/Total assets ratio', and how does this weight compare to the other variables?",
+    "answer": [
+      [
+        "The coefficient for X3 (Earnings before interest and tax/Total assets ratio) is 3.3. This is the highest weight of all five variables, suggesting it has the most significant impact on the final Z-score compared to variables like X1 (1.2), X2 (1.4), X4 (0.6), and X5 (0.99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "If an updated version of the Z-score model reduced the influence of the 'Working capital/Total assets ratio' by 50%, what would the new coefficient for X1 be?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Based on the formula for the Z-score Model, what is the inferred relationship between a company's total sales to total assets ratio and its resulting Z-score?",
+    "answer": [
+      [
+        "There is a positive correlation between the total sales/total assets ratio (X5) and the Z-score. The formula shows that the Z-score is a weighted sum of five ratios, and the coefficient for X5 is positive (0.99). Therefore, holding all other factors constant, an increase in the total sales to total assets ratio will result in a higher Z-score."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Which model's description includes the largest number of distinct parameters that are explained in the third column?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "When examining the numerical coefficients in the Z-score Model's formula, which coefficient stands out as an outlier compared to the others?",
+    "answer": [
+      [
+        "The coefficient 3.3 for the variable X3 is a significant outlier. The other coefficients in the formula are 1.2, 1.4, 0.6, and 0.99, which are all clustered in a range between 0.6 and 1.4. The value 3.3 is more than twice the value of the next highest coefficient (1.4), making it substantially larger than the rest."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Which model would be more appropriate for predicting asset returns considering both market and size/book-to-market factors, and why?",
+    "answer": "The Factor Model would be more appropriate because it explicitly incorporates market returns (r_m - r_f), size factor (SMB), and book-to-market factor (HML), allowing it to capture multiple dimensions of asset return variations that the Logistic Regression or Z-score Model do not consider.",
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

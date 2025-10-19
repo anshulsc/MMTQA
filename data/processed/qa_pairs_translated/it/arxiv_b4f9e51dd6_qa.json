@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "arxiv_b4f9e51dd6_001",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Quale configurazione del modulo ottiene le prestazioni più basse (migliori) sull'orizzonte di previsione più lungo, MSE30?",
+    "answer": [
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_002",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Qual è il punteggio MSE3 medio tra tutti i moduli che includono 'Audio+Text' nella loro configurazione?",
+    "answer": [
+      [
+        "0.614"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_003",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Per il modulo che dimostra le migliori prestazioni complessive (valore più basso nella colonna MSE_over), qual è il suo punteggio specifico MSE7?",
+    "answer": [
+      [
+        "0.306"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_004",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento del Mean Squared Error per il modulo 'Audio+Text+Efo' all'aumentare dell'orizzonte di previsione da MSE3 a MSE30.",
+    "answer": [
+      [
+        "L'MSE per il modulo 'Audio+Text+Efo' mostra una chiara tendenza al miglioramento (diminuzione dell'errore) all'estendersi dell'orizzonte di previsione. Inizia con il suo punto di errore più alto di 0,579 per MSE3, poi scende significativamente a 0,323 per MSE7 e continua a diminuire costantemente fino a 0,230 per MSE15, raggiungendo il suo punto più basso di 0,165 per MSE30."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_005",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Elenca tutte le configurazioni del modulo che hanno un punteggio MSE15 inferiore a 0,25 E un punteggio MSE30 inferiore a 0,18.",
+    "answer": [
+      [
+        "Audio+Text+Efo"
+      ],
+      [
+        "Eos+Ecs+Efo"
+      ],
+      [
+        "Audio+Text+Eos+Ecs+Efo"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "F5",
+      "A6",
+      "E6",
+      "F6",
+      "A7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_006",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Di quale percentuale diminuisce l'errore MSE30 passando dal modulo di base 'Audio+Text' al modulo più complesso 'Audio+Text+Eos+Ecs+Efo'?",
+    "answer": [
+      [
+        "22.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_007",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Se un miglioramento nella pre-elaborazione dei dati abbassasse il valore MSE_over per il modulo 'Eos+Ecs+Efo' del 15%, quale sarebbe il nuovo valore medio di MSE_over per tutti e sette i moduli?",
+    "answer": [
+      [
+        "0.349"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_008",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "open_ended_reasoning",
+    "question": "Basandosi sui dati, esiste una relazione coerente tra le prestazioni a breve termine di un modulo (MSE3) e le sue prestazioni a lungo termine (MSE30)? Giustifica la tua risposta.",
+    "answer": [
+      [
+        "Sì, esiste una forte correlazione positiva. I moduli con i punteggi MSE3 più bassi, 'Audio+Text+Eos+Ecs+Efo' (0,553) e 'Audio+Text+Efo' (0,579), hanno anche i punteggi MSE30 più bassi (rispettivamente 0,158 e 0,165). Al contrario, i moduli con i punteggi MSE3 più alti, come 'Audio+Text' (0,645) e 'Audio+Text+Ecs' (0,640), mostrano i punteggi MSE30 più alti (0,204 e 0,201). Ciò suggerisce che i moduli che si comportano bene nelle previsioni a breve termine tendono anche a comportarsi bene nelle previsioni a lungo termine."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_009",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Qual è l'intervallo numerico tra gli orizzonti predittivi MSE7 e MSE15 nella struttura della tabella?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_010",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Quali moduli hanno prestazioni peggiori (hanno un MSE più alto) all'orizzonte MSE7 rispetto al modulo di base 'Audio+Text', rendendo le loro prestazioni in questo specifico punto un valore anomalo rispetto al miglioramento previsto dall'aggiunta di funzionalità?",
+    "answer": [
+      [
+        "Audio+Text+Eos"
+      ],
+      [
+        "Audio+Text+Ecs"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b4f9e51dd6_011",
+    "table_id": "arxiv_b4f9e51dd6",
+    "question_type": "value",
+    "question": "Qual è l'MSE medio del modulo Audio+Text?",
+    "answer": [
+      [
+        "0.373"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

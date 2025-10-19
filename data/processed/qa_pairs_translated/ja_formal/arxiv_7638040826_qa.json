@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "arxiv_7638040826_001",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "中央銀行が金融政策の影響を理解するために使用する言語に特化したデータセットは何で、誰がそれを発表しましたか？",
+    "answer": [
+      [
+        "Trillion Dollar Words",
+        "Shah et al. (2023a)"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_002",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "2020年以降に公開され、人間によるアノテーションが付与されている、または専門家によって記述されていると明示的に説明されているリソースをすべてリストアップしてください。",
+    "answer": [
+      [
+        "SEntFiN 1.0"
+      ],
+      [
+        "Gold Commodity Dataset"
+      ],
+      [
+        "FINQA"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_003",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "出版年を基に、2010年代前半から2020年代にかけて、これらの財務データセットにおける注力分野の進化について説明してください。",
+    "answer": [
+      [
+        "データセットは、2010年代前半の基本的な感情分析から、2020年代のより複雑で専門的なタスクへと進化しています。SentiWordNet（2010年）やFinancial Phrase Bank（2014年）のような初期のリソースは、一般的な単語/フレーズの感情を扱っていました。対照的に、SEntFiN 1.0（エンティティ固有の感情）、REFinD（関係抽出）、FINQA（ディープ・リーズニング）などの2020年代のリソースは、より詳細で複雑なNLP問題に取り組んでおり、金融テキストのより微妙な理解へと分野が成熟していることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_004",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "記載されているリソースのうち、主にセンチメント分析（肯定的、否定的、または中立的なラベルの割り当て）に焦点を当てているものはいくつありますか？",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_7638040826_005",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "他のリソースと比較して、地理的な焦点が特異なリソースはどれですか？",
+    "answer": [
+      [
+        "Financial Phrase Bank"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_7638040826_006",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "記載されているデータセットのうち、2023年に公開されたものの割合は何パーセントですか？",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_7638040826_007",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "'SEntFiN 1.0'データセットが削除された場合、ニュースの見出しの分析に焦点を当てた最も最近公開されたリソースは何ですか？",
+    "answer": [
+      [
+        "MULTIFIN"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_008",
+    "table_id": "arxiv_7638040826",
+    "question_type": "value",
+    "question": "このリストの中で、最も多くの異なるリソースに貢献した著者または著者グループは誰ですか？",
+    "answer": [
+      [
+        "Shah et al."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_009",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "'FiNER'と'REFinD'がそれぞれ対処する主要なNLPタスクを比較してください。",
+    "answer": [
+      [
+        "'FiNER'は、金融会社のようなエンティティを識別・分類する、基本的なNLPタスクである固有表現認識（NER）のために設計されています。一方、'REFinD'は、すでに識別されたエンティティ間の関係（例：person-title、org-money）を識別することを目的とした、より複雑で後続のタスクである関係抽出に対処します。したがって、FiNERは「アクター」の識別に着目し、REFinDはその「相互作用」の識別に着目します。"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_7638040826_010",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "説明に基づくと、「ヘッドライン」に焦点を当てたデータセットとその発行年の新しさとの間に関連性はありますか？理由を説明してください。",
+    "answer": [
+      [
+        "はい、正の相関関係があるようです。説明に明確に「ヘッドライン」という言葉が含まれている3つのデータセット（SEntFiN 1.0、Gold Commodity Dataset、MULTIFIN）はすべて、2021年以降に公開されています。2010年代に公開されたデータセットには、この特定の焦点についての言及はありません。これは、近年の金融ニュースの見出しの簡潔でインパクトのある言語を分析することへの研究関心の高まりを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B7",
+      "C7",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_7638040826_011",
+    "table_id": "arxiv_7638040826",
+    "question_type": "open_ended_reasoning",
+    "question": "金融テキスト分析において、SenticNetと比較した場合のSentiWordNetの主な目的は何ですか？",
+    "answer": [
+      [
+        "SentiWordNetは、個々の単語の意味（synsets）に感情スコア（客観的、肯定的、否定的）を割り当てることにより、ポジティブさ、ネガティブさ、または客観性を定量化します。一方、SenticNetは、AIとセマンティックWeb技術を組み合わせて、金融コンテキスト内での意見を解釈および処理します。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

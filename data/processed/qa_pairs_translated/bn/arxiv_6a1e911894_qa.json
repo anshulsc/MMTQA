@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "arxiv_6a1e911894_001",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ডেলিভারির সময় T যদি 30 হয়, তাহলে কোন SIDC ভেরিয়েবল অর্ডার বই বন্ধ হওয়াকে প্রতিনিধিত্ব করে এবং এই ঘটনাটি কোন ট্রেডিং সময় t-এ ঘটে?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "28"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_002",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "ডেলিভারি সময়ের সাপেক্ষে SIDCO এবং SIDCL দ্বারা সংজ্ঞায়িত ট্রেডিং সময়ের মধ্যে মৌলিক পার্থক্য কী?",
+    "answer": [
+      [
+        "মৌলিক পার্থক্যটি হলো ডেলিভারির সাপেক্ষে তাদের সময়ের ব্যবধান। SIDCO সেই সময়কালকে সংজ্ঞায়িত করে যখন অর্ডার বই খোলা থাকে, যা ডেলিভারির কমপক্ষে দুই সময় ইউনিট আগে হতে হবে (T-t ≥ 2)। এর বিপরীতে, SIDCL সেই সময়কালকে সংজ্ঞায়িত করে যখন অর্ডার বই বন্ধ হয়ে গেছে, যা ডেলিভারির দুই সময় ইউনিটের মধ্যে (T-t ≤ 2)।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_003",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "প্রদত্ত ব্যাখ্যা অনুসারে, ক্রস-বর্ডার অর্ডার বুক কাপলিংয়ের প্রথম এবং দ্বিতীয় তরঙ্গের মধ্যে কত ঘন্টা অতিবাহিত হয়?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_004",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ট্রেডিং সময়ের শর্তাবলী অনুসারে, কোন SIDC ইভেন্টটি SIDCL সময়সীমার ঠিক আগের মুহূর্তটিকে নির্দেশ করে?",
+    "answer": [
+      [
+        "SIDCC"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_005",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "ডেলিভারির সময় T=20 সহ একটি পণ্যের জন্য, দুটি নির্দিষ্ট \"ওয়েভ\" ইভেন্টের (SIDC1 বা SIDC2) মধ্যে কোনটি ঘটতে পারবে না কারণ এর ট্রেডিং সময় বৈধ খোলা সময়ের বাইরে চলে যাবে?",
+    "answer": [
+      [
+        "SIDC2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_006",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "যদি কাপলিং-এর দ্বিতীয় তরঙ্গ (SIDC2) t=30-এ ঘটতে বিলম্বিত হয়, তবে এই ঘটনাটি SIDCO দ্বারা সংজ্ঞায়িত সাধারণ খোলা সময়ের মধ্যে আসার জন্য ন্যূনতম পূর্ণসংখ্যার ডেলিভারি সময় T কত হবে?",
+    "answer": [
+      [
+        "32"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_007",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "প্রতিটি ভ্যারিয়েবলের জন্য ফাংশন-সদৃশ নোটেশনে ব্যবহৃত সাধারণ প্যারামিটারগুলি কী কী যা 'Variable' কলামে তালিকাভুক্ত করা হয়েছে?",
+    "answer": [
+      [
+        "d"
+      ],
+      [
+        "h"
+      ],
+      [
+        "t"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_008",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "একটি ট্রেড t=20 ট্রেডিং সময়ে একটি পণ্যের জন্য স্থাপন করা হয়েছে যার ডেলিভারি সময় T=25। এই ট্রেডটি কোন SIDC ভেরিয়েবলের শর্ত পূরণ করে?",
+    "answer": [
+      [
+        "SIDCO"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_009",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "value",
+    "question": "কোন ভেরিয়েবল SIDCO পিরিয়ড থেকে SIDCL পিরিয়ডে স্থানান্তর চিহ্নিত করে এবং এর সুনির্দিষ্ট ট্রেডিং সময়ের শর্ত কী?",
+    "answer": [
+      [
+        "SIDCC"
+      ],
+      [
+        "T-t=2"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B1",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_010",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "তাদের সংজ্ঞার উপর ভিত্তি করে SIDCO ভেরিয়েবলের টেম্পোরাল স্কোপকে SIDC1 ভেরিয়েবলের সাথে তুলনা করুন।",
+    "answer": [
+      [
+        "SIDCO সময়কালের একটি অবিচ্ছিন্ন সময়কে প্রতিনিধিত্ব করে যখন অর্ডার বই খোলা থাকে, যা t≥12 এবং T-t≥2 রেঞ্জ দ্বারা সংজ্ঞায়িত। বিপরীতে, SIDC1 সময়ের একটি একক, বিচ্ছিন্ন মুহূর্তকে প্রতিনিধিত্ব করে, t=12, যা SIDCO সময়ের শুরুতে প্রথম কাপলিং ইভেন্টের নির্দিষ্ট মুহূর্তটিকে চিহ্নিত করে।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_6a1e911894_011",
+    "table_id": "arxiv_6a1e911894",
+    "question_type": "open_ended_reasoning",
+    "question": "কোন SIDC ভেরিয়েবল ক্রস-বর্ডার অর্ডার বই বন্ধ হওয়াকে প্রতিনিধিত্ব করে এবং এটি কোন ট্রেডিং সময়ের শর্তে ঘটে?",
+    "answer": [
+      [
+        "SIDC꜀(d,h,t) ভেরিয়েবলটি ক্রস-বর্ডার অর্ডার বই বন্ধ হওয়াকে প্রতিনিধিত্ব করে এবং এটি ঘটে যখন T − t = 2।"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "arxiv_a92c4de096_001",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hyperparameters ใดมีตัวเลือกมากที่สุดใน Search Space?",
+    "answer": [
+      [
+        "Sequence size"
+      ],
+      [
+        "TRADES Layers"
+      ],
+      [
+        "Augmentation Dim."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_002",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "มีไฮเปอร์พารามิเตอร์กี่ตัวที่มีค่าที่เป็นไปได้มากกว่าสองค่าในพื้นที่การค้นหา?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_003",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "ช่องการค้นหาสำหรับไฮเปอร์พารามิเตอร์ที่ค่าที่ดีที่สุดเป็นค่าตัวเลขที่เล็กที่สุดที่มีค่ามากกว่าศูนย์คืออะไร",
+    "answer": [
+      [
+        "{10−3,10−4}superscript103superscript104\\{{10^{-3}},10^{-4}\\}{ 10 start_POSTSUPERSCRIPT - 3 end_POSTSUPERSCRIPT , 10 start_POSTSUPERSCRIPT - 4 end_POSTSUPERSCRIPT }"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_004",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "แสดงรายการไฮเปอร์พารามิเตอร์ทั้งหมดที่ 'Best Choice' เป็นค่าสูงสุดที่มีอยู่ใน 'Search Space' ของแต่ละรายการ",
+    "answer": [
+      [
+        "Learning Rate"
+      ],
+      [
+        "Dropout"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_005",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "ไฮเปอร์พารามิเตอร์เชิงตัวเลขกี่เปอร์เซ็นต์ที่มี 'ค่าที่ดีที่สุด' ถูกเลือกจากกลาง 'พื้นที่การค้นหา' ที่เรียงลำดับแล้ว (เช่น ไม่ใช่ค่าต่ำสุดหรือสูงสุด)?",
+    "answer": [
+      [
+        "5/7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_006",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "หากการค้นหา 'TRADES Layers' ถูกจำกัดให้มีเฉพาะค่าที่น้อยกว่า 8 อะไรคือ 'Best Choice' สำหรับไฮเปอร์พารามิเตอร์นี้ โดยสมมติว่าตัวเลือกที่ดีที่สุดถัดไปที่มีอยู่จากพื้นที่การค้นหาเดิมถูกเลือก?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_007",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "มีความสัมพันธ์ที่สังเกตได้ระหว่างขนาดของพื้นที่การค้นหาของไฮเปอร์พารามิเตอร์กับการเป็น 'ค่าที่ดีที่สุด' ที่เป็นค่าสุดขั้ว (ต่ำสุด/สูงสุด) หรือค่ากลางหรือไม่? โปรดอธิบายเหตุผลของคุณ",
+    "answer": [
+      [
+        "ใช่ มีรูปแบบที่ชัดเจน สำหรับไฮเปอร์พารามิเตอร์ที่มีพื้นที่การค้นหาขนาดเล็กเพียงสองตัวเลือก (Learning Rate, Dropout) ค่าที่ดีที่สุดคือค่าสูงสุด สำหรับไฮเปอร์พารามิเตอร์ทั้งหมดที่มีพื้นที่การค้นหาขนาดใหญ่กว่า ซึ่งมีสามหรือสี่ตัวเลือก ค่าที่เหมาะสมที่สุดพบได้ตรงกลางของช่วง ไม่ใช่ที่ค่าขอบสุด สิ่งนี้บ่งชี้ว่าสำหรับโมเดลนี้ กระบวนการปรับแต่งอย่างละเอียดมีประโยชน์ และช่วงกว้างเริ่มต้นได้กำหนดขอบเขตของบริเวณที่เหมาะสมซึ่งไม่ได้อยู่ที่ขอบของพื้นที่ที่ทดสอบไว้สำเร็จ"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_008",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hyperparameter ใดที่มีช่วงการค้นหาที่อธิบายด้วยป้ายที่ไม่ใช่ตัวเลข?",
+    "answer": [
+      [
+        "Optimizer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_009",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Hyperparameter ใดที่มี 'Best Choice' เป็นค่าที่แตกต่างจากค่าอื่นอย่างชัดเจน โดยมีค่ามากกว่าค่าที่สูงที่สุดอันดับรองลงมาอย่างน้อยสี่เท่า?",
+    "answer": [
+      [
+        "Sequence size"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_010",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "open_ended_reasoning",
+    "question": "เมื่อพิจารณาไฮเปอร์พารามิเตอร์ที่มีตัวเลือกสี่แบบในพื้นที่การค้นหา ('Sequence size', 'TRADES Layers', 'Augmentation Dim.') ลักษณะร่วมกันของค่า 'Best Choice' คืออะไร และสิ่งนี้อาจบ่งบอกอะไรเกี่ยวกับกลยุทธ์การปรับแต่ง?",
+    "answer": [
+      [
+        "ลักษณะร่วมกันคือสำหรับไฮเปอร์พารามิเตอร์ทั้งสาม ค่า 'Best Choice' เป็นค่ากลาง ไม่ใช่ค่าสุดขั้ว (ต่ำสุดหรือสูงสุด) 'Best Choices' คือ 256 (อันดับที่ 3 จาก 4), 8 (อันดับที่ 3 จาก 4) และ 64 (อันดับที่ 2 จาก 4) สิ่งนี้บ่งชี้ถึงกลยุทธ์การปรับแต่งที่ประสบความสำเร็จ โดยที่พื้นที่การค้นหาได้ครอบคลุมค่าที่เหมาะสมเพียงพอ ซึ่งบ่งชี้ว่าประสิทธิภาพสำหรับพารามิเตอร์เหล่านี้ไม่ได้เพิ่มขึ้นตามค่าอย่างต่อเนื่อง แต่มีจุดสูงสุดอยู่ที่ใดที่หนึ่งภายในช่วงที่ทดสอบ"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_a92c4de096_011",
+    "table_id": "arxiv_a92c4de096",
+    "question_type": "value",
+    "question": "Optimizer ที่ดีที่สุดคืออะไร?",
+    "answer": [
+      [
+        "Adam"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

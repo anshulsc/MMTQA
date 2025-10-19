@@ -1,0 +1,216 @@
+[
+  {
+    "question_id": "arxiv_5eac38fce0_001",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Strategi portofolio mana yang menawarkan peningkatan persentase terbesar di rasio Calmar?",
+    "answer": [
+      [
+        "AlphaSharpe"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_002",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Berapa total peningkatan persentase Sharpe ratio kalau dijumlahin peningkatan semua strategi non-baseline?",
+    "answer": [
+      [
+        "147.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_003",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Sebutin strategi yang punya peningkatan Sharpe ratio paling tinggi kedua, terus sebutin juga peningkatan Calmar ratio-nya berapa.",
+    "answer": [
+      [
+        "+10.44%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_004",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Sebutin dong strategi portofolio yang peningkatan Calmar ratio-nya di bawah 15% DAN peningkatan Sharpe ratio-nya di atas 35%.",
+    "answer": [
+      [
+        "Risk Parity"
+      ],
+      [
+        "Equal Risk Cont."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_005",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Berapa persen peningkatan Calmar total di semua strategi non-baseline yang disumbangkan oleh strategi 'AlphaSharpe'?",
+    "answer": [
+      [
+        "84.83%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_006",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalau peningkatan performa strategi 'Risk Parity' itu dilebih-lebihkan 10 poin persentase buat kedua metrik, apakah masih lebih bagus dibanding 'Equal Weighted'?",
+    "answer": [
+      [
+        "Iya, masih lebih bagus. ΔSharpe-nya kalau disesuaikan jadi +28.32% dan ΔCalmar-nya jadi +0.36%. Karena kedua nilai itu masih lebih besar dari 0.00% punya 'Equal Weighted', itu berarti ada peningkatan."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_007",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Menurut data, ada hubungan yang konsisten dan linear antara peningkatan rasio Sharpe dan Calmar di semua strategi non-baseline? Jelaskan alasanmu.",
+    "answer": [
+      [
+        "Nggak ada, datanya nggak nunjukkin hubungan linear yang konsisten. Jadi gini, strategi 'Risk Parity' sama 'Equal Risk Cont.' itu profilnya mirip, di mana peningkatan Sharpe yang gede itu cuma dibarengi peningkatan Calmar yang biasa aja. Tapi, strategi 'AlphaSharpe' ini beda banget. Peningkatannya Calmar-nya itu gila-gilaan, jauh melebihi peningkatannya Sharpe. Ini nunjukkin kalau hubungan kedua metrik itu nggak linear dan bener-bener tergantung strateginya."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_008",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Ada berapa strategi di tabel yang peningkatan rasio Calmar-nya lebih tinggi daripada rasio Sharpe-nya?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_009",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Strategi portofolio mana yang jadi outlier kalo diliat dari keseimbangan peningkatan rasio Sharpe dan Calmar dibandingin sama strategi lain yang bukan baseline, dan kenapa?",
+    "answer": [
+      [
+        "Strategi 'AlphaSharpe' itu outlier. Buat 'Risk Parity' sama 'Equal Risk Cont.', peningkatan rasio Sharpe itu sekitar 3.7 kali lebih gede daripada peningkatan rasio Calmar. Nah, sebaliknya, 'AlphaSharpe' ini kebalikannya, peningkatan Calmar-nya (+116.31%) jauh lebih gede daripada peningkatan Sharpe-nya (+71.04%), yang nunjukkin peningkatan profil risk-reward yang beda banget."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "A4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_010",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "open_ended_reasoning",
+    "question": "Bandingin strategi 'Risk Parity' sama 'Equal Risk Cont.'. Mana yang performanya lebih bagus berdasarkan metrik yang dikasih, dan bedanya berapa di tiap metrik?",
+    "answer": [
+      [
+        "'Equal Risk Cont.' punya profil performa yang sedikit lebih baik. Performanya ngalahin 'Risk Parity' dengan peningkatan rasio Sharpe 0,23 poin persentase lebih tinggi (+38,55% vs +38,32%) dan peningkatan rasio Calmar 0,08 poin persentase lebih tinggi (+10,44% vs +10,36%)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_5eac38fce0_011",
+    "table_id": "arxiv_5eac38fce0",
+    "question_type": "value",
+    "question": "Berapa nilai ΔSharpe (%) buat strategi portofolio 'Equal Risk Cont.' di tabel?",
+    "answer": [
+      [
+        "+38.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

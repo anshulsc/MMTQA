@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "arxiv_63416afda1_001",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Для модели, использующей данные высокого уровня частоты ордеров, какую возможность прогнозирования она предлагает?",
+    "answer": [
+      [
+        "Multi-step, sequence generation."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_002",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Если проект требует общего прогнозирования посредством моделирования, какая характеристика модели, помимо применимых задач, делает ее лучшим выбором по сравнению с альтернативой?",
+    "answer": [
+      [
+        "MarS/LMM представляет собой «масштабируемую базовую модель» ('Large-scale foundation model'), способную к «многошаговому генерации последовательностей» ('Multi-step, sequence generation'), что делает ее изначально более гибкой и мощной для общих задач моделирования по сравнению с DeepLOB, который описывается как «небольшая, разработанная вручную и не масштабируемая» ('Small, handcrafted, and not scalable') модель с «одношаговым или фиксированной длины» ('Single-step or fixed-length') прогнозированием."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_003",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Основываясь на таблице, какова подразумеваемая связь между масштабом модели и гибкостью ее предсказаний?",
+    "answer": [
+      [
+        "Данные предполагают прямую корреляцию: модель, описанная как «маленькая, созданная вручную и не масштабируемая» (DeepLOB), предлагает ограниченные предсказания «одношаговые или фиксированной длины», тогда как «крупномасштабная базовая модель» (MarS/LMM) обеспечивает более гибкие предсказания «многошаговые, генерация последовательностей». Это подразумевает, что более крупные и масштабируемые модели, как правило, обладают более продвинутыми и гибкими возможностями прогнозирования."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_63416afda1_004",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Сколько различных аспектов используется для различения DeepLOB и MarS/LMM в этом наборе данных?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_005",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Определите модель, которая НЕ описана как «масштабная фундаментальная модель», и перечислите ее указанные входные признаки.",
+    "answer": [
+      [
+        "DeepLOB",
+        "Limit order book (LOB) data."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "B3",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_006",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Описание какого 'модели' (Model) содержит уникальный набор из трех различных ограничивающих характеристик?",
+    "answer": [
+      [
+        "DeepLOB"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_63416afda1_007",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Если бы DeepLOB был модифицирован для выполнения 'Многошаговая генерация последовательности', какие еще два аспекта из таблицы, вероятно, потребовали бы фундаментального изменения, чтобы соответствовать характеристикам модели, которая уже обладает этой возможностью?",
+    "answer": [
+      [
+        "Чтобы достичь многошаговой генерации, подобной MarS/LMM, 'Модель' DeepLOB, вероятно, должна была бы эволюционировать от 'Маленькая, разработанная вручную и не масштабируемая' до 'Масштабируемая базовая модель', а ее 'Входные признаки' могли бы потребоваться расширить от 'данных книги лимитных ордеров (LOB)' для обработки 'данных на уровне ордеров высокой частоты'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A3",
+      "B3",
+      "C3",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_008",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Сравните требования к входным данным для двух моделей.",
+    "answer": [
+      [
+        "DeepLOB требует «данные книги лимитных ордеров (LOB)», что является специфическим типом структуры финансовых данных. В отличие от этого, MarS/LMM использует «данные на уровне ордеров с высокой частотой», которые являются более общими и подразумевают больший объем и скорость поступления данных."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_009",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Какой тип модели у системы, разработанной для прогнозирования, специфичного для конкретной задачи?",
+    "answer": [
+      [
+        "Small, handcrafted, and not scalable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_010",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "open_ended_reasoning",
+    "question": "Если у пользователя доступны только 'Limit order book (LOB) data' (данные книги лимитных ордеров), и ему необходимо выполнить 'General forecasting through simulation' (общее прогнозирование посредством симуляции), какая модель представляет конфликт, исходя из предоставленных аспектов, и почему?",
+    "answer": [
+      [
+        "Конфликт существует для обеих моделей. DeepLOB может использовать данные LOB, но предназначен для 'Task specific forecasting' (специфичного для задачи прогнозирования), а не для общего моделирования. MarS/LMM предназначен для 'General forecasting' (общего прогнозирования), но требует 'High-frequency order-level data' (данных на уровне ордеров с высокой частотой), а не LOB-данных. Следовательно, ни одна из моделей не является идеальным решением без модификации или компромисса."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_63416afda1_011",
+    "table_id": "arxiv_63416afda1",
+    "question_type": "value",
+    "question": "Какие применимые задачи у DeepLOB?",
+    "answer": [
+      [
+        "Task-specific forecasting."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]
