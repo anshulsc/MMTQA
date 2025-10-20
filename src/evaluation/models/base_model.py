@@ -58,7 +58,7 @@ class BaseModel:
         return SamplingParams(
             temperature=self.cfg.model.temperature,
             max_tokens=self.cfg.model.max_new_tokens,
-            guided_decoding=guided_params,
+            # guided_decoding=guided_params,
         )
 
     def generate_response(self, inputs: dict) -> str:
@@ -97,7 +97,7 @@ class BaseModel:
             return parsed_response.data
         except (json.JSONDecodeError, ValidationError) as e:
             cprint(f"\n[WARN] Failed to parse model output as valid JSON: {response_str}. Error: {e}", "yellow")
-            return [["PARSING_ERROR", str(e)]]
+            return [[response_str]]
         except Exception as e:
             cprint(f"\n[WARN] An unexpected error occurred during parsing: {e}", "yellow")
             return [["UNEXPECTED_PARSING_ERROR", str(e)]]

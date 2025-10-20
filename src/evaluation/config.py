@@ -3,13 +3,13 @@ from dataclasses import dataclass, field
 
 @dataclass
 class ModelConfig:
-    name: str = "qwen"
-    model_path: str = "Qwen/Qwen2.5-VL-7B-Instruct"
+    name: str = "gemma3"
+    model_path: str = "google/gemma-3-12b-it""
     tensor_parallel_size: int = 1
     max_model_len: int = 8192
     gpu_memory_utilization: float = 0.90
     temperature: float = 0.0
-    max_new_tokens: int = 1024
+    max_new_tokens: int = 512
     batch_size: int = 8  
 
 @dataclass

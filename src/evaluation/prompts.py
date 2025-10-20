@@ -35,5 +35,5 @@ Question: "What were the product and revenue for all entries in 2022?"
 
 ---
 
-Your response must contain **only** the valid JSON object — no prose, no code blocks, and no additional explanation.
+Your response must contain **only** the valid JSON object — no prose, no code blocks, and no additional explanation. Do not hallucinate any answer, if not sure.
 """

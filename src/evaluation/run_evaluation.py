@@ -9,10 +9,12 @@ os.environ['OMP_NUM_THREADS'] = '1'
 
 from .config import get_config
 from src.evaluation.models.qwen import QwenModel
+from src.evaluation.models.gemma3 import Gemma3Model
 from src.evaluation.data_loader import load_benchmark_data
 
 MODEL_EVALUATOR_MAPPING = {
     "qwen": QwenModel,
+    "gemma3": Gemma3Model,
 }
 
 def get_output_filepath(cfg) -> str:
