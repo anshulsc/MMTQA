@@ -58,7 +58,7 @@ class BaseModel:
         return SamplingParams(
             temperature=self.cfg.model.temperature,
             max_tokens=self.cfg.model.max_new_tokens,
-            # guided_decoding=guided_params,
+            guided_decoding=guided_params,
         )
 
     def generate_response(self, inputs: dict) -> str:
