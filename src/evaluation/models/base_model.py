@@ -9,8 +9,8 @@ from vllm import LLM, SamplingParams
 from vllm.sampling_params import GuidedDecodingParams
 from pydantic import ValidationError
 
-from ..prompts import Response
-from ..config import MainConfig # <-- IMPORT FROM PYTHON CONFIG
+from src.evaluation.prompts import Response
+from src.evaluation.config import MainConfig # <-- IMPORT FROM PYTHON CONFIG
 
 class TimeoutException(Exception):
     pass

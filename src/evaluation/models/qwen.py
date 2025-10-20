@@ -3,9 +3,9 @@ from PIL import Image
 from transformers import AutoProcessor
 from termcolor import cprint
 
-from .base_model import BaseModel
-from ..prompts import VISUAL_TABLE_QA_PROMPT
-from ..config import MainConfig
+from src.evaluation.models.base_model import BaseModel
+from src.evaluation.prompts import VISUAL_TABLE_QA_PROMPT
+from src.evaluation.config import MainConfig
 
 class QwenModel(BaseModel):
     def __init__(self, cfg: MainConfig):

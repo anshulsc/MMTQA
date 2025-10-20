@@ -2,24 +2,21 @@ from datetime import datetime
 from pathlib import Path
 from termcolor import cprint
 
-# Import the new Python-based config system
+
 from .config import get_config
-from .models.qwen import QwenModel
-from .models.gemma import GemmaModel
-from .data_loader import load_benchmark_data
+from src.evaluation.models.qwen import QwenModel
+from src.evaluation.data_loader import load_benchmark_data
 
 MODEL_EVALUATOR_MAPPING = {
     "qwen": QwenModel,
-    "gemma": GemmaModel, # Add Gemma or other models here
 }
 
 def get_output_filepath(cfg) -> str:
-    """Generates a descriptive output filename from the config object."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     model_name_safe = cfg.model.model_path.replace("/", "_")
     lang_str = cfg.dataset.lang_code
     
-    # Use the template from the config object
+   
     output_file_base = cfg.output_file_template.format(
         model_name=model_name_safe,
         dataset_name=cfg.dataset.name,
@@ -29,7 +26,6 @@ def get_output_filepath(cfg) -> str:
     return f"{output_file_base}_{lang_str}_{timestamp}.jsonl"
 
 def main():
-    # Get configuration from defaults and command-line overrides
     cfg = get_config()
 
     cprint("--- MultiTableQA Evaluation Pipeline (Python Config) ---", "magenta", attrs=["bold"])
