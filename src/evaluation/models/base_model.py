@@ -10,7 +10,7 @@ from vllm.sampling_params import GuidedDecodingParams
 from pydantic import ValidationError
 
 from src.evaluation.prompts import Response
-from src.evaluation.config import MainConfig # <-- IMPORT FROM PYTHON CONFIG
+from src.evaluation.config import MainConfig
 
 class TimeoutException(Exception):
     pass
@@ -19,11 +19,12 @@ def timeout_handler(signum, frame):
     raise TimeoutException("Inference timed out!")
 
 class BaseModel:
-    def __init__(self, cfg: MainConfig): # <-- USE MainConfig TYPE
+    def __init__(self, cfg: MainConfig):
         self.cfg = cfg
         self.model = self.load_model()
         self.processor = self.load_processor()
         self.resolution = cfg.dataset.resolution
+        self.batch_size = getattr(cfg.model, 'batch_size', 8)
 
     def load_model(self):
         cprint(f"Loading VLLM engine for model: {self.cfg.model.model_path}", "yellow")
@@ -48,7 +49,8 @@ class BaseModel:
 
     def _create_vllm_sampling_params(self) -> SamplingParams:
         try:
-            guided_params = GuidedDecodingParams(json_schema=Response.model_json_schema())
+            json_schema = Response.model_json_schema()
+            guided_params = GuidedDecodingParams(json=json_schema)
         except Exception as e:
             cprint(f"Warning: Could not create guided decoding params. Error: {e}", "red")
             guided_params = None
@@ -61,12 +63,33 @@ class BaseModel:
 
     def generate_response(self, inputs: dict) -> str:
         sampling_params = self._create_vllm_sampling_params()
-        outputs = self.model.generate(
-            prompt=inputs["prompt"],
-            multi_modal_data=inputs["multi_modal_data"],
-            sampling_params=sampling_params
-        )
+        request = {
+            "prompt": inputs["prompt"],
+            "multi_modal_data": inputs.get("multi_modal_data")
+        }
+        outputs = self.model.generate(request, sampling_params=sampling_params)
         return outputs[0].outputs[0].text
+
+    def generate_batch_responses(self, batch_inputs: list) -> list:
+        sampling_params = self._create_vllm_sampling_params()
+        
+        requests = []
+        for inp in batch_inputs:
+            request = {
+                "prompt": inp["prompt"],
+                "multi_modal_data": inp.get("multi_modal_data")
+            }
+            requests.append(request)
+        
+        try:
+            outputs = self.model.generate(requests, sampling_params=sampling_params)
+            return [output.outputs[0].text for output in outputs]
+        except RuntimeError as e:
+            if "out of memory" in str(e).lower():
+                torch.cuda.empty_cache()
+                cprint("GPU OOM during batch processing. Falling back to single-item mode.", "red")
+                raise
+            raise
 
     def _parse_model_response(self, response_str: str) -> list:
         try:
@@ -79,8 +102,17 @@ class BaseModel:
             cprint(f"\n[WARN] An unexpected error occurred during parsing: {e}", "yellow")
             return [["UNEXPECTED_PARSING_ERROR", str(e)]]
 
-    def evaluate(self, data: list, output_file: str, images_dir: str):
+    def evaluate(self, data: list, output_file: str, images_dir: str, use_batch: bool = True):
         cprint(f"Starting evaluation on {len(data)} instances...", "cyan")
+        
+        if use_batch:
+            cprint(f"Using batch processing with batch_size={self.batch_size}", "green")
+            self._evaluate_batch(data, output_file, images_dir)
+        else:
+            cprint("Using single-item processing", "yellow")
+            self._evaluate_single(data, output_file, images_dir)
+
+    def _evaluate_single(self, data: list, output_file: str, images_dir: str):
         with open(output_file, "a+", encoding="utf-8") as out_file:
             for i, row in enumerate(tqdm(data, desc="Evaluating")):
                 try:
@@ -95,6 +127,63 @@ class BaseModel:
                 if (i + 1) % 20 == 0:
                     out_file.flush()
 
+    def _evaluate_batch(self, data: list, output_file: str, images_dir: str):
+        """Batch evaluation for improved throughput"""
+        with open(output_file, "a+", encoding="utf-8") as out_file:
+            for batch_start in tqdm(range(0, len(data), self.batch_size), desc="Evaluating batches"):
+                batch_end = min(batch_start + self.batch_size, len(data))
+                batch_data = data[batch_start:batch_end]
+                
+                # Prepare inputs for the entire batch
+                batch_inputs = []
+                batch_rows = []
+                failed_indices = []
+                
+                for idx, row in enumerate(batch_data):
+                    try:
+                        inputs = self.prepare_input(row, images_dir)
+                        batch_inputs.append(inputs)
+                        batch_rows.append(row)
+                    except Exception as e:
+                        cprint(f"\nError preparing input for question {row['question_id']}: {e}", "red")
+                        result = self.handle_exception(row, e)
+                        out_file.write(json.dumps(result) + "\n")
+                        failed_indices.append(idx)
+                
+                # Skip if all items in batch failed preparation
+                if not batch_inputs:
+                    continue
+                
+                # Generate responses for the batch
+                try:
+                    raw_responses = self.generate_batch_responses_with_timeout(batch_inputs, timeout=300)
+                    
+                    # Process each response
+                    for row, raw_response in zip(batch_rows, raw_responses):
+                        try:
+                            parsed_response_data = self._parse_model_response(raw_response)
+                            result = self.create_result_dict(row, parsed_response_data)
+                        except Exception as e:
+                            result = self.handle_exception(row, e)
+                        
+                        out_file.write(json.dumps(result) + "\n")
+                    
+                except TimeoutException as e:
+                    cprint(f"\nBatch inference timed out: {e}", "red")
+                    for row in batch_rows:
+                        result = self.handle_exception(row, e)
+                        out_file.write(json.dumps(result) + "\n")
+                except Exception as e:
+                    cprint(f"\nBatch generation error: {e}", "red")
+                    # Fall back to processing failed items individually
+                    for row in batch_rows:
+                        result = self.handle_exception(row, e)
+                        out_file.write(json.dumps(result) + "\n")
+                
+                # Flush periodically
+                if (batch_end) % 100 == 0:
+                    out_file.flush()
+
     def generate_response_with_timeout(self, inputs, timeout=120):
         signal.signal(signal.SIGALRM, timeout_handler)
         signal.alarm(timeout)
@@ -102,6 +191,17 @@ class BaseModel:
             result = self.generate_response(inputs)
         except TimeoutException:
             raise TimeoutException(f"Inference timed out after {timeout} seconds")
+        finally:
+            signal.alarm(0)
+        return result
+
+    def generate_batch_responses_with_timeout(self, batch_inputs, timeout=300):
+        signal.signal(signal.SIGALRM, timeout_handler)
+        signal.alarm(timeout)
+        try:
+            result = self.generate_batch_responses(batch_inputs)
+        except TimeoutException:
+            raise TimeoutException(f"Batch inference timed out after {timeout} seconds")
         finally:
             signal.alarm(0)
         return result

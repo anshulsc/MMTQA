@@ -1,7 +1,11 @@
+import os
 from datetime import datetime
 from pathlib import Path
 from termcolor import cprint
 
+os.environ['TOKENIZERS_PARALLELISM'] = 'false'
+os.environ['VLLM_WORKER_MULTIPROC_METHOD'] = 'spawn'
+os.environ['OMP_NUM_THREADS'] = '1'
 
 from .config import get_config
 from src.evaluation.models.qwen import QwenModel
@@ -16,7 +20,6 @@ def get_output_filepath(cfg) -> str:
     model_name_safe = cfg.model.model_path.replace("/", "_")
     lang_str = cfg.dataset.lang_code
     
-   
     output_file_base = cfg.output_file_template.format(
         model_name=model_name_safe,
         dataset_name=cfg.dataset.name,
@@ -33,6 +36,7 @@ def main():
     cprint(f"  - Model: {cfg.model.name} ({cfg.model.model_path})", "yellow")
     cprint(f"  - Dataset: {cfg.dataset.data_file}", "yellow")
     cprint(f"  - Images: {cfg.dataset.image_type} (lang: {cfg.dataset.lang_code})", "yellow")
+    cprint(f"  - Batch size: {cfg.model.batch_size}", "yellow")
     cprint("-" * 50, "magenta")
 
     model_name = cfg.model.name
@@ -44,6 +48,7 @@ def main():
         # 1. Load Data
         data = load_benchmark_data(
             data_file_path=cfg.dataset.data_file,
+            images_root_dir=cfg.dataset.images_root_dir,
             image_type=cfg.dataset.image_type,
             lang_code_filter=cfg.dataset.lang_code
         )
@@ -51,15 +56,20 @@ def main():
             cprint("No data loaded for the specified criteria. Exiting.", "red")
             return
 
-        # 2. Initialize Model (this loads the VLLM engine into GPU memory)
         model = model_class(cfg)
 
-        # 3. Prepare output file and run evaluation
         output_file = get_output_filepath(cfg)
         Path(output_file).parent.mkdir(parents=True, exist_ok=True)
         cprint(f"Output will be saved to: {output_file}", "cyan")
 
-        model.evaluate(data, output_file, cfg.dataset.images_root_dir)
+        import sys
+        use_batch = True
+        if hasattr(cfg, 'no_batch'):
+            use_batch = not cfg.no_batch
+        elif '--no_batch' in sys.argv:
+            use_batch = False
+        
+        model.evaluate(data, output_file, cfg.dataset.images_root_dir, use_batch=use_batch)
         cprint(f"\nEvaluation finished successfully!", "green", attrs=["bold"])
         cprint(f"Results saved to {output_file}", "green")
 

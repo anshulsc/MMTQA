@@ -41,5 +41,5 @@ class QwenModel(BaseModel):
 
         return {
             "prompt": prompt_text,
-            "multi_modal_data": {"image": [resized_image]}
+            "multi_modal_data": {"image": resized_image}
         }
