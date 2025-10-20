@@ -2,8 +2,8 @@ import json
 
 # Paths to your datasets
 real_dataset_file = "C:/Users/HP VICTUS/MMTQA/dataset_en.jsonl"    # gold/reference
-demo_predictions_file = "demo_dataset.jsonl"  # predicted responses
-combined_file = "combined_eval.jsonl"
+demo_predictions_file = "C:/Users/HP VICTUS/MMTQA/data/processed/evaluation_results/Qwen_Qwen2.5-VL-32B-Instruct_multitableqa_clean_en_20251020_113836.jsonl"  # predicted responses
+combined_file = "combined_qwen2.5_32B.jsonl"
 
 # Load real dataset (gold)
 gold_data = {}
@@ -37,7 +37,7 @@ with open(combined_file, "w", encoding="utf-8") as f:
             "question_type": gold_item.get("question_type"),
             "question": gold_item.get("question"),
             "golden_answer": gold_item.get("answer"),         # golden answer
-            "response": demo_data.get(qid, {}).get("response", []),  # predicted response
+            "response": demo_data.get(qid, {}).get("model_response", []),  # predicted response
             "evidence_cells": gold_item.get("evidence_cells"),
             "reasoning_category": gold_item.get("reasoning_category"),
             "image_clean": gold_item.get("image_clean"),

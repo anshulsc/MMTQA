@@ -27,11 +27,6 @@ class Colors:
 # -------------------------
 
 def normalize_item(item: Union[str, int, float, list]) -> Union[str, int, float, list]:
-    """
-    Normalize an individual item (str/int/float/list)
-    - Strings: lowercased, stripped, numbers cleaned
-    - Floats: converted to int if integer
-    """
     if isinstance(item, list):
         return [normalize_item(e) for e in item]
     if isinstance(item, (int, float)):
@@ -45,39 +40,29 @@ def normalize_item(item: Union[str, int, float, list]) -> Union[str, int, float,
     return item
 
 def normalize_element(element: Union[str, int, float, list, dict]) -> Union[str, int, float, list]:
-    """
-    Recursively normalize elements including dicts and lists
-    """
     if isinstance(element, dict):
         values = [element[key] for key in element.keys()]
         return normalize_element(values)
     if isinstance(element, list):
         return [normalize_element(e) for e in element]
     if isinstance(element, str):
-        # remove potential JSON artifacts
         element = re.sub(r'[{}]|[\w-]+:', '', element)
     return normalize_item(element)
 
 def structure_to_string(data: Union[str, list, dict]) -> str:
-    """
-    Converts any nested data structure (list/dict/JSON string) into a flat, normalized string
-    """
-    # If input is JSON string, try to load it
     if isinstance(data, str):
         try:
             data = json.loads(data)
         except json.JSONDecodeError:
-            # fallback: extract words and numbers
             numbers = re.findall(r'\b\d+\b', data)
             words = re.findall(r'\b[a-zA-Z]+\b', data)
             data = numbers + words
 
     if isinstance(data, dict):
-        data = data.get("data", data)  # if key 'data' exists, take it
+        data = data.get("data", data)
 
     normalized = normalize_element(data)
 
-    # flatten nested lists
     def flatten(items):
         result = []
         for item in items if isinstance(items, list) else [items]:
@@ -95,16 +80,9 @@ def structure_to_string(data: Union[str, list, dict]) -> str:
 # -------------------------
 
 def compute_exact_match(prediction: str, truth: str) -> int:
-    """
-    EM = 1 if prediction == truth else 0
-    """
     return int(prediction == truth)
 
 def compute_f1(prediction: str, truth: str) -> float:
-    """
-    F1 score = 2 * (precision * recall) / (precision + recall)
-    Token-level overlap between prediction and truth
-    """
     pred_tokens = prediction.split()
     truth_tokens = truth.split()
     
@@ -123,12 +101,6 @@ def compute_f1(prediction: str, truth: str) -> float:
     return 2 * (precision * recall) / (precision + recall) if (precision + recall) != 0 else 0.0
 
 def compute_adaptive_bleu(prediction: str, references: List[str]) -> float:
-    """
-    Adaptive BLEU as per the paper you provided:
-    - Short text (L <= 3): BLEU-1 only
-    - Medium text (4 <= L <= 7): avg(BLEU-1, BLEU-2)
-    - Long text (L >= 8): avg(BLEU-1, BLEU-2, BLEU-4)
-    """
     smoothing = SmoothingFunction().method1
     pred_tokens = prediction.split()
     L = len(pred_tokens)
@@ -153,13 +125,6 @@ def compute_adaptive_bleu(prediction: str, references: List[str]) -> float:
 # -------------------------
 
 def process_jsonl(input_file: str) -> dict:
-    """
-    Process each JSONL line:
-    1. Normalize golden_answer and response
-    2. Compute EM, F1, Adaptive BLEU
-    3. Track skipped samples (errors)
-    4. Aggregate overall metrics
-    """
     results = []
     total = 0
     total_skipped = 0
@@ -182,7 +147,6 @@ def process_jsonl(input_file: str) -> dict:
                 parse_errors += 1
                 continue
 
-            # Check for special skipped cases
             response_raw = entry.get("response", "")
             if isinstance(response_raw, str) and any(err in response_raw for err in ["CUDA out of memory", "Table too large"]):
                 total_skipped += 1
@@ -194,33 +158,31 @@ def process_jsonl(input_file: str) -> dict:
 
             total += 1
 
-            # Convert to flat normalized strings
             gold_str = structure_to_string(entry.get("golden_answer", {})).lower()
             model_str = structure_to_string(entry.get("response", {})).lower()
 
-            # Compute metrics
             em = compute_exact_match(model_str, gold_str)
             f1 = compute_f1(model_str, gold_str)
             bleu = compute_adaptive_bleu(model_str, [gold_str])
 
-            # Accumulate sums
             em_sum += em
             f1_sum += f1
             bleu_sum += bleu
 
-            # Store per-sample results
+            # ✅ Added reasoning_category and type (clean/noise)
             results.append({
                 "question_id": entry.get("question_id"),
                 "question": entry.get("question"),
                 "golden_answer": entry.get("golden_answer"),
                 "model_response": entry.get("response"),
+                "reasoning_category": entry.get("reasoning_category", None),
+                "type": entry.get("type", None),
                 "exact_match": em,
                 "f1_score": f1,
                 "bleu_score": bleu,
                 "skipped": False
             })
 
-    # Overall metrics
     overall_metrics = {
         "exact_match": em_sum / total if total > 0 else 0,
         "f1_score": f1_sum / total if total > 0 else 0,
@@ -248,14 +210,12 @@ def main():
     parser.add_argument("--wandb-run-name", help="Weights & Biases run name")
     args = parser.parse_args()
 
-    # Initialize W&B
     if args.wandb_project:
         wandb.init(project=args.wandb_project, entity=args.wandb_entity, name=args.wandb_run_name, config=vars(args))
 
     print(f"{Colors.OKBLUE}Processing results from:{Colors.RESET} {Colors.BOLD}{args.input_file}{Colors.RESET}")
     metrics = process_jsonl(args.input_file)
 
-    # Save metrics to JSON
     os.makedirs(os.path.dirname(args.output_file), exist_ok=True)
     with open(args.output_file, "w", encoding="utf-8") as f:
         json.dump(metrics, f, indent=2)
@@ -263,7 +223,6 @@ def main():
     if args.wandb_project:
         wandb.log(metrics["overall_metrics"])
 
-    # Print summary
     print(f"\n{Colors.OKGREEN}Evaluation results saved to:{Colors.RESET} {Colors.OKCYAN}{args.output_file}{Colors.RESET}")
     print(f"{Colors.OKGREEN}Processed Samples:{Colors.RESET} {Colors.OKBLUE}{metrics['overall_metrics']['processed_samples']}{Colors.RESET}")
     print(f"{Colors.WARNING}Skipped Samples:{Colors.RESET} {Colors.OKBLUE}{metrics['overall_metrics']['skipped_samples']}{Colors.RESET}")
@@ -274,3 +233,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+   

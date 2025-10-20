@@ -7,13 +7,17 @@ from src.evaluation.models.base_model import BaseModel
 from src.evaluation.prompts import VISUAL_TABLE_QA_SYSTEM_PROMPT
 from src.evaluation.config import MainConfig
 
-class QwenModel(BaseModel):
+class Gemma3Model(BaseModel):
     def __init__(self, cfg: MainConfig):
         super().__init__(cfg)
 
     def load_processor(self):
         cprint(f"Loading processor for: {self.cfg.model.model_path}", "blue")
-        return AutoProcessor.from_pretrained(self.cfg.model.model_path, trust_remote_code=True)
+        return AutoProcessor.from_pretrained(
+            self.cfg.model.model_path, 
+            trust_remote_code=True,
+            padding_side="left"
+        )
 
     def prepare_input(self, data_row: dict, images_dir: str) -> dict:
         table_id = data_row['table_id']
@@ -27,19 +31,31 @@ class QwenModel(BaseModel):
         image = Image.open(image_path).convert("RGB")
         resized_image = self._resize_image(image)
 
+        # Gemma3 uses a specific message format with system and user roles
         messages = [
-            {"role": "system", "content": VISUAL_TABLE_QA_SYSTEM_PROMPT},
-            {"role": "user", "content": [
-                {"type": "image"},
-                {"type": "text", "text": f"\nQuestion: {data_row['question']}"}
-            ]},
+            {
+                "role": "system",
+                "content": [
+                    {"type": "text", "text": VISUAL_TABLE_QA_SYSTEM_PROMPT}
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {"type": "image", "image": resized_image},
+                    {"type": "text", "text": f"Question: {data_row['question']}"}
+                ]
+            }
         ]
         
-        prompt_text = self.processor.apply_chat_template(
-            messages, tokenize=False, add_generation_prompt=True
+        inputs = self.processor.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+            return_dict=False
         )
 
         return {
-            "prompt": prompt_text,
-            "multi_modal_data": {"image": resized_image}
+            "prompt": inputs,
+            "multi_modal_data": {"image": [resized_image]}
         }
