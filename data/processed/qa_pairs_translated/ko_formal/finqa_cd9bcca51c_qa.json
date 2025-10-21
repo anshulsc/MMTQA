@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "finqa_cd9bcca51c_001",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "모든 부동산의 총 점유 면적은 얼마입니까?",
+    "answer": [
+      [
+        "3348000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_002",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "다른 임대 만료일들과 비교했을 때, 현저히 늦어 이상치로 분류되는 임대 만료일을 가진 부동산은 어디입니까?",
+    "answer": [
+      [
+        "200 e . randolph street chicago illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_003",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "점유 면적이 350,000 평방피트를 초과하고, 2020년에 임대 계약이 만료되는 부동산을 나열해 주십시오.",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_004",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "최종 임대 만료일이 2020년 이전인 부동산의 평균 점유 면적은 얼마입니까?",
+    "answer": [
+      [
+        "316666.67"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_005",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "일리노이에 위치한 두 부동산의 점유 면적 차이는 얼마입니까?",
+    "answer": [
+      [
+        "828000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_006",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "총 점유 면적 중 뉴욕에 위치한 부동산이 차지하는 비율은 몇 퍼센트입니까?",
+    "answer": [
+      [
+        "9.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_007",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "가장 이른 임대 만료일과 가장 늦은 임대 만료일 간의 연도 범위가 가장 넓은 부동산은 어디입니까?",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_008",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "'dlf city and unitech cyber park gurgaon india' 부동산의 모든 임대 계약이 7년 연장된다면, 새로운 임대 만료일은 어떻게 되겠습니까?",
+    "answer": [
+      [
+        "2021 2020 2022"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_009",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "단일 속성에 대해 여러 개의 고유한 데이터 포인트가 하나의 셀에 나열될 수 있는 기록을 포함하는 열은 무엇입니까?",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_010",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "open_ended_reasoning",
+    "question": "부동산의 점유 면적과 해당 부동산이 가진 별개의 임대 만료일 수 사이에 명확한 상관관계가 있습니까? 데이터에 근거하여 답변을 설명해 주십시오.",
+    "answer": [
+      [
+        "명확한 상관관계는 없습니다. 가장 넓은 점유 면적을 가진 부동산(링컨셔의 1,224,000)은 여러 개의 임대 만료일을 가지고 있어 양의 상관관계를 시사할 수도 있습니다. 하지만 두 번째로 넓은 부동산(더 우드랜즈의 414,000)은 단 하나의 만료일만을 가지며, 세 번째로 넓은 부동산(구르가온의 413,000)은 여러 개의 만료일을 가집니다. 이처럼 넓은 부동산들이 단일 및 다중 임대 만료일을 모두 가지고 있는 불일치는 이 데이터 세트를 기반으로 할 때, 점유 면적이 부동산의 임대 계약 수를 예측하는 신뢰할 수 있는 지표가 아님을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_011",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "점유 면적이 400,000평방 피트를 초과하는 부동산은 몇 개입니까?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "BD3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

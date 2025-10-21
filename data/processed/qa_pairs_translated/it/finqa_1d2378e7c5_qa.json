@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Al 31 dicembre 2015, quale approccio normativo, 'Avanzato' o 'Standardizzato', ha determinato un 'Capitale Totale' riportato più elevato e di quanto in milioni di dollari?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Qual è stato il 'Tier 1 Capital' medio in milioni di dollari in tutte e quattro le colonne riportate?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Indica il 'Total Risk-Weighted Assets' corrispondente alla colonna con il 'Total Capital Ratio' più basso.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Supponendo che le ultime due colonne rappresentino i dati dell'anno precedente, descrivi il trend anno su anno per il 'Common Equity Tier 1 Capital Ratio' nell'ambito dello 'Standardized Approach'.",
+    "answer": [
+      [
+        "Il 'Common Equity Tier 1 Capital Ratio' per lo 'Standardized Approach' ha mostrato un trend positivo, aumentando di 1,51 punti percentuali dall'11,12% del periodo precedente al 12,63% al 31 dicembre 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Quali ratio di capitale nell'ambito dell'\"Approccio Standardizzato al 31 dicembre 2015\" erano inferiori al 15%?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Per il '31 dicembre 2015 Approcci Avanzati', quale proporzione del 'Capitale Totale' è attribuibile al 'Tier 2 Capital'? (Nota: Tier 2 Capital = Capitale Totale - Tier 1 Capital)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Se le 'Total Risk-Weighted Assets' secondo l'approccio 'December 31, 2015 Standardized Approach' fossero ipoteticamente il 10% in più, quale sarebbe il nuovo 'Tier 1 Capital Ratio', assumendo che il 'Tier 1 Capital' rimanga costante?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale relazione si può dedurre tra 'Total Risk-Weighted Assets' (Attività ponderate per il rischio totali) e i rapporti di capitale presentati nella tabella? Utilizzare i dati per supportare la vostra conclusione.",
+    "answer": [
+      [
+        "Esiste una correlazione inversa tra 'Total Risk-Weighted Assets' e i rapporti di capitale. All'aumentare delle attività ponderate per il rischio (il denominatore nel calcolo del rapporto), i rapporti di capitale diminuiscono. Ad esempio, la colonna con le attività maggiori (1.292.605 milioni di dollari) riporta il 'Total Capital Ratio' (Rapporto di capitale totale) più basso (12,80), mentre la colonna con le attività minori (1.162.884 milioni di dollari) riporta il 'Total Capital Ratio' più alto (17,08)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual è la metrica finanziaria al 31 dicembre 2015 che mostra una discrepanza insolitamente ampia tra gli approcci 'Avanzato' e 'Standardizzato', dato che le sue componenti primarie sono identiche?",
+    "answer": [
+      [
+        "Il Capitale Totale mostra una discrepanza insolitamente ampia. Sia il Common Equity Tier 1 Capital che il Tier 1 Capital hanno valori identici in entrambi gli approcci per il 2015. Tuttavia, il Capitale Totale differisce di oltre 12 miliardi di dollari (186.097 milioni contro 198.655 milioni), indicando che l'intera differenza è dovuta al calcolo del Tier 2 Capital, rendendolo un valore anomalo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Nonostante le intestazioni di colonna incoerenti per i due periodi mostrati, quali importi di capitale (in milioni di dollari) sono riportati con valori identici sia per gli approcci 'Avanzati' che 'Standardizzati' in ciascun rispettivo periodo?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Se le attività ponderate per il rischio totali della banca secondo l'approccio avanzato dovessero aumentare mentre il capitale totale rimanesse costante, cosa succederebbe al rapporto sul capitale totale?",
+    "answer": [
+      [
+        "Il rapporto sul capitale totale diminuirebbe perché attività ponderate per il rischio più elevate con capitale invariato riducono il rapporto sul capitale."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

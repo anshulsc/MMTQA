@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "¿Qué instrumento de deuda específico, excluyendo totales y ajustes, tuvo el valor más alto en ambos períodos reportados?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "¿Cuál es el valor total de todos los bonos de ingresos identificables que figuran en el período en la segunda columna de datos?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "¿En cuánto superó el cambio absoluto en 'vencimientos actuales de deuda a largo plazo' entre los dos períodos al cambio absoluto en 'descuento de deuda no amortizado'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Describa la tendencia de la 'deuda a largo plazo total' entre los dos períodos que se muestran y explique la importancia de este cambio.",
+    "answer": [
+      [
+        "La deuda a largo plazo total aumentó en $275.3, de $10007.5 en el período que se muestra en la columna C a $10282.8 en el período que se muestra en la columna B. Esto indica que las obligaciones totales de deuda a largo plazo de la entidad crecieron durante este período, lo que sugiere que probablemente incurrió en más deuda nueva de la que pagó."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Identifique todos los elementos de línea, excluyendo el total, que se representan como valores negativos en la segunda columna de datos.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Como porcentaje de la deuda a largo plazo total para el período en la columna B, ¿qué parte se clasifica como 'vencimientos actuales de deuda a largo plazo'? Utilice valores absolutos para el cálculo y redondee a dos decimales.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "¿Si se eliminara el 'descuento de deuda no amortizado' de la segunda columna de datos (columna B) (es decir, se estableciera en cero), cuál habría sido la 'deuda a largo plazo total 2013 kmp' para ese período?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe una relación aparente entre el cambio en los 'vencimientos corrientes de deuda a largo plazo' y el cambio en la 'deuda total a largo plazo' entre los dos períodos?",
+    "answer": [
+      [
+        "Sí, parece haber una relación inversa en sus movimientos. Mientras que la deuda total a largo plazo aumentó en $275.3 (de $10007.5 a $10282.8), la magnitud de los 'vencimientos corrientes' disminuyó sustancialmente (de un valor absoluto de 1263.3 a 596.6). Esto sugiere que, si bien la empresa asumió más deuda en general, simultáneamente redujo la porción de esa deuda que vencía en el futuro inmediato."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué fila del conjunto de datos parece ser una agregación de otras filas y qué evidencia respalda esta conclusión?",
+    "answer": [
+      [
+        "La fila etiquetada como 'total long-term debt 2013 kmp' es una agregación. La evidencia principal es el uso explícito de la palabra 'total' en su descripción. Además, su valor se presenta con un símbolo de moneda ('$'), que es distinto de las otras filas, lo que significa que es una cifra financiera final y resumen."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "¿Qué partida muestra el cambio más significativo en valor absoluto entre los dos períodos, convirtiéndola en un valor atípico financiero en términos de volatilidad?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Considerando la deuda a largo plazo total y el descuento de deuda no amortizado, cuál es el aumento efectivo en la deuda a largo plazo de 2012 a 2013?",
+    "answer": [
+      [
+        "La deuda a largo plazo total aumentó de $10,007.5 millones en 2012 a $10,282.8 millones en 2013. Considerando que el descuento de deuda no amortizado cambió de -21.2 en 2012 a -20.3 en 2013, el aumento efectivo de la deuda es de $276.8 millones."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

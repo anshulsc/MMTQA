@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_987530c2ac_001",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2004년, 2003년, 2002년 중 어느 해에 회사의 주당 순손실이 가장 적었습니까?",
+    "answer": [
+      [
+        "2004"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_002",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2002년, 2003년, 2004년 3개년의 '보고된 순손실'의 누계액은 얼마입니까?",
+    "answer": [
+      [
+        "-1736448"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_987530c2ac_003",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "'보고된 수치'와 '프로포마' 기본 주당 순손실 간의 절대값 차이가 가장 컸던 연도는 언제이며, 그 차이는 얼마였습니까?",
+    "answer": [
+      [
+        "0.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "C5",
+      "C6",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_004",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "2002년부터 2004년까지 회사의 '미래 추정 순손실' 추세를 설명해주십시오.",
+    "answer": [
+      [
+        "회사의 미래 추정 순손실은 2002년부터 2004년까지 꾸준하고 상당한 감소 추세를 보였습니다. 손실액은 2002년 1,201,666달러에서 2003년 354,400달러로, 그리고 2004년에는 269,196달러로 감소하여 해당 기간 동안 재무 성과가 크게 개선되었음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_005",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "'add : stock-based employee compensation expense'가 2077이었던 해의 'pro-forma net loss'는 얼마였습니까?",
+    "answer": [
+      [
+        "$ -354400 ( 354400 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_006",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2003년 '보고된 순손실'에서 '총 주식 기반 직원 보상 비용'의 절대값이 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "9.58%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_987530c2ac_007",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2002년 '주식 기반 직원 보상 비용' 수정액이 누락된 값이 아닌 5,000이었다면, 해당 연도의 재계산된 '주식 기반 직원 보상 비용'은 얼마였을까요?",
+    "answer": [
+      [
+        "-1196666"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_008",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터에 따르면, 2002년부터 2004년까지 '총 주식 기반 직원 보상 비용'과 '추정 순손실' 간의 명백한 관계는 무엇입니까?",
+    "answer": [
+      [
+        "'총 주식 기반 직원 보상 비용'의 규모와 '추정 순손실' 사이에는 양의 상관관계가 있는 것으로 보입니다. 주식 기반 보상 비용이 2002년의 38,126달러에서 2004년의 23,906달러로 매년 감소함에 따라, 추정 순손실도 1,201,666달러에서 269,196달러로 꾸준히 감소했습니다. 이는 주식 기반 비용이 높았던 해에 추정 순손실도 더 높았음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_987530c2ac_009",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "표에 제시된 연도별로 데이터가 불완전한 재무 항목은 무엇입니까?",
+    "answer": [
+      [
+        "add : stock-based employee compensation expense associated with modifications net of related tax effect included in net loss asreported"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_010",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "다른 연도에 비해 '기본 및 희석 주당 순손실(보고 기준)'이 이례적인 수치를 보인 연도는 언제이며, 그 이유는 무엇입니까?",
+    "answer": [
+      [
+        "2002년이 명백한 이례치입니다. 2002년의 '기본 및 희석 주당 순손실(보고 기준)'은 $-5.95로, 2003년 보고된 $-1.56보다 3.8배 이상, 2004년의 $-1.10보다는 5.4배 이상 큰 수치입니다. 이 지표가 다음 해에 급격히 감소한 것은 2002년이 주당 손실이 예외적으로 높았던 해임을 강조합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_987530c2ac_011",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2003년의 예상 순손실은 얼마였습니까?",
+    "answer": [
+      [
+        "$ -354,400"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

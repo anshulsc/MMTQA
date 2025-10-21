@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_04f8db9765_001",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento della 'perdita netta registrata' dal 2000 al 2002.",
+    "answer": [
+      [
+        "La 'perdita netta registrata' mostra un andamento di perdite accelerate nel periodo di tre anni. La perdita è più che raddoppiata da $194.628 nel 2000 a $450.094 nel 2001, per poi più che raddoppiare nuovamente a $1.141.879 nel 2002, indicando un peggioramento significativo della performance finanziaria ogni anno."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_002",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Qual è stata la 'perdita netta pro-forma' totale accumulata in tutti e tre gli anni presentati nella tabella?",
+    "answer": [
+      [
+        "-1926453"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_04f8db9765_003",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "In quale anno la differenza assoluta tra la perdita netta di base e diluita per azione 'as reported' e 'pro-forma' è stata la più piccola?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_004",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Calcola la 'spesa totale per compensazione dei dipendenti basata su azioni' come percentuale della 'perdita netta dichiarata' per l'anno 2001.",
+    "answer": [
+      [
+        "11.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_04f8db9765_005",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Quale anno, se presente, ha registrato una 'perdita netta registrata' assoluta maggiore di $400.000 ma una 'perdita netta pro-forma' assoluta inferiore a $600.000?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "C1",
+      "C3",
+      "D1",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_006",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "In quale anno la perdita netta pro-forma è cresciuta dell'importo assoluto maggiore rispetto all'anno precedente?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_04f8db9765_007",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Se la 'spesa totale per compensazione dei dipendenti basata su azioni' per il 2000 fosse stata superiore del 20%, quale sarebbe stata la 'perdita netta pro-forma' per quell'anno?",
+    "answer": [
+      [
+        "-256041.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_008",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Quale metrica ha avuto una magnitudo maggiore nel 2002: la 'perdita netta registrata' o la 'perdita netta pro-forma'?",
+    "answer": [
+      [
+        "pro-forma net loss"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_009",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Sulla base dei dati forniti, qual è la relazione apparente tra la 'perdita netta registrata' e la 'spesa totale per compensazione dei dipendenti basata su azioni' nel periodo di tre anni?",
+    "answer": [
+      [
+        "C'è una relazione inversa tra le due metriche. Mentre la 'perdita netta registrata' è aumentata significativamente in magnitudine dal 2000 al 2002, la 'spesa per compensazione dei dipendenti basata su azioni' è diminuita ogni anno. Ciò suggerisce che, man mano che le perdite dell'azienda crescevano, la compensazione basata su azioni potrebbe essere stata ridotta."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_04f8db9765_010",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual è l'effetto costante dell'aggiustamento 'pro-forma' sulla 'perdita netta per azione base e diluita' rispetto alla cifra 'come riportato' in tutti gli anni?",
+    "answer": [
+      [
+        "L'aggiustamento 'pro-forma' aumenta costantemente la magnitudine della perdita per azione in ogni anno mostrato. Ciò indica che le voci rettificate, come la compensazione basata su azioni, comportano sempre una perdita calcolata maggiore su base per azione."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_011",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Qual è la perdita totale riportata nel 2001?",
+    "answer": [
+      [
+        "$ -450094 ( 450094 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

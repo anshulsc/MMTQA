@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "finqa_c8b3934b16_001",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "'支払利息純収入'の『総収入純利息費用』が最も高かったのは何年ですか？",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_002",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "2016年、2017年、2018年の3年間における「純信用損失」の合計額はいくらでしたか？",
+    "answer": [
+      [
+        "605"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_003",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "「総営業費用」が最も高かった年の「純利息収益」はいくらでしたか？",
+    "answer": [
+      [
+        "$ 3045"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_004",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "2016年から2018年までの「純信用損失」の3年間の傾向について説明してください。",
+    "answer": [
+      [
+        "「純信用損失」は一貫して大幅な減少傾向を示しており、2016年の4億3500万ドルから2017年には1億4900万ドル、さらに2018年には2100万ドルへと減少しました。この急激な減少（前年比66％減、次いで86％減）は、会社の信用リスク管理または資産の質における大きな改善を示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_005",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "2018年に黒字であったものの、2017年には赤字を計上した財務項目をリストアップしてください。",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) before attribution of noncontrolling interests"
+      ],
+      [
+        "noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_006",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "'支払利息控除後総収入' は、2018年に'総営業費用' によって何パーセント消費されましたか？",
+    "answer": [
+      [
+        "109.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_007",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "「 credit reserve build ( release ) 」 が 2018 年に 2億1800万ドルのマイナスではなくゼロであった場合、「 income ( loss ) from continuing operations before taxes 」 はいくらになったでしょうか？",
+    "answer": [
+      [
+        "$ -205"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_008",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "'総収入（利息費用控除後）' と '純利益（損失）' の間には、3年間を通して直接的な正の相関関係はありますか？説明してください。",
+    "answer": [
+      [
+        "いいえ、直接的な正の相関関係は明らかではありません。収入は2016年の52億3300万ドルから2018年には20億8300万ドルへと着実に減少しましたが、純利益は5億2100万ドルの利益からマイナス196億7600万ドルの損失、そして再び1億700万ドルの利益へと劇的に変動しました。2018年よりも収入が高かった2017年の巨額の損失は、単なる収入の変動だけではなく、主に190億6400万ドルという異常な「法人所得税（還付）」項目によって引き起こされました。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B11",
+      "C11",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_009",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "「nm」（意味をなさない）というエントリが最も多い、年率換算の変更を表す列はどれですか？",
+    "answer": [
+      [
+        "% (  % ) change2017 vs . 2016"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "F2",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_010",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "2016年および2018年の同項目と比較して、2017年の明確な異常値となっている財務項目を特定し、その全体的な結果への影響を説明してください。",
+    "answer": [
+      [
+        "2017年の「税金（控除額）」は190億6400万ドルであり、2016年のマイナス4億5500万ドル、2018年のマイナス1億1300万ドルと比較して大幅な異常値となっています。この例外的に巨額な税金費用が、税引前損失5億700万ドルを、継続事業からの税引後損失195億7100万ドルという驚異的な数字に変えた主な要因であり、その年のデータセットにおいて最も影響力のある異常値となっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "B11",
+      "C11",
+      "D11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_011",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "2016年から2018年にかけて、純利益（損失）は何百万ドル減少しましたか？",
+    "answer": [
+      [
+        "$414"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

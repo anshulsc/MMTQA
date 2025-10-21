@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_bdc69f2dff_001",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Quale classe di azioni ordinarie aveva il maggior numero di azioni emesse e in circolazione al 30 settembre 2008?",
+    "answer": [
+      [
+        "class a common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_002",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Qual è stato il numero totale combinato di azioni per tutte le serie di azioni ordinarie di Classe C al 30 settembre 2008?",
+    "answer": [
+      [
+        "266608750"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_003",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Per la classe azionaria con il valore assoluto maggiore di rimborsi nell'ottobre 2008, qual è stato il suo conteggio finale di azioni nella colonna 'come convertito post rimborsi ottobre 2008'?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "F4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_004",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Al 30 settembre 2008, quale percentuale del totale delle azioni in circolazione era rappresentata dalle azioni ordinarie di Classe A? Fornisci la risposta arrotondata a due cifre decimali.",
+    "answer": [
+      [
+        "46.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_005",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Elenca tutte le classi di azioni che hanno subito una riduzione delle proprie azioni a causa dell'evento 'conversione in classe c (serie i)'.",
+    "answer": [
+      [
+        "class c ( series iii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_006",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Il valore '2014' compare frequentemente, probabilmente come segnaposto per indicare nessuna attività. Quali sono le due classi di azioni per cui questo valore specifico compare in tre colonne diverse delle rispettive righe?",
+    "answer": [
+      [
+        "class c ( series ii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_007",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Se il conteggio delle azioni 'al 30 settembre 2008' per 'class a common stock' fosse stato di 500.000.000 anziché il suo valore registrato, quale sarebbe stato il 'total shares issued and outstanding' rettificato in quella data?",
+    "answer": [
+      [
+        "1012122135"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_008",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Basandosi sui dati delle diverse serie di azioni di Classe C, qual è la relazione tra le 'Riscatti di Ottobre 2008' e la 'conversione in classe c (serie i)'? Sono eventi direttamente correlati?",
+    "answer": [
+      [
+        "Non vi è una correlazione coerente e diretta che suggerisca che le azioni riscattate siano state sistematicamente convertite in Classe C (Serie I). Ad esempio, la Classe C (Serie II) ha avuto oltre 79 milioni di azioni riscattate ma nessuna attività di conversione corrispondente registrata. Al contrario, la Classe C (Serie IV) ha visto azioni convertite via da essa senza riscatti significativi. La Classe C (Serie III) è l'unica che mostra sia riscatti significativi che conversioni via da essa, ma i numeri non corrispondono. Ciò suggerisce che riscatti e conversioni siano stati in gran parte transazioni separate piuttosto che un singolo evento combinato per la maggior parte delle serie."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_009",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Quali due colonne nella tabella utilizzano il formato dati specifico di un numero negativo seguito dal suo equivalente positivo tra parentesi, ad esempio '-X ( X )'?",
+    "answer": [
+      [
+        "october 2008 redemptions"
+      ],
+      [
+        "conversion to class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_010",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Basandosi sulle intestazioni delle colonne e sulla riga 'total shares', descrivi la sequenza di eventi che ha portato dal conteggio iniziale delle azioni al 30 settembre 2008 al conteggio finale.",
+    "answer": [
+      [
+        "I dati delineano una riduzione in più fasi del numero totale di azioni. Il processo inizia con 959.868.396 azioni al 30 settembre 2008. Il primo evento sono i 'rimborsi di ottobre 2008', durante i quali sono state rimborsate oltre 115 milioni di azioni in totale. A ciò segue una 'conversione in classe c (serie i)'. Il risultato di queste conversioni si riflette nella colonna 'following immediate conversion...', che mostra un totale di 844.855.954 azioni. L'ultima colonna, 'as converted post october 2008 redemptions', fornisce la cifra conclusiva di 774.710.051 azioni, che rappresenta il risultato netto di tutte le transazioni precedenti."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_011",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "In quale anno le azioni ordinarie di Classe A e le azioni ordinarie di Classe B sono state convertite in Classe C (Serie I)?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

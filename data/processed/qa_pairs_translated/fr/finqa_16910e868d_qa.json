@@ -1,0 +1,217 @@
+[
+  {
+    "question_id": "finqa_16910e868d_001",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Quel type d'obligation représente le paiement le plus important dû pour la période 'exercice 2022 et 2023' ?",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_002",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Quel est le montant total de toutes les obligations locatives (d'exploitation et de capital) dues sur la période « exercice 2020 et 2021 » ?",
+    "answer": [
+      [
+        "206.6"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_16910e868d_003",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Pour le type d'obligation avec le plus petit paiement dû au cours de l'exercice 2019, quel est le montant correspondant du paiement dû 'ultérieurement' ?",
+    "answer": [
+      [
+        "138.1"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_004",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance de paiement pour les 'obligations locatives opérationnelles' sur les périodes fiscales spécifiées.",
+    "answer": [
+      [
+        "Les paiements pour les 'obligations locatives opérationnelles' montrent une tendance axée sur le court terme. Ils commencent à 132,1 millions de dollars en 2019, atteignent un pic de 199,9 millions de dollars pour la période 2020-2021, puis diminuent à 118,4 millions de dollars en 2022-2023, avec 165,4 millions de dollars supplémentaires dus par la suite. Cela suggère que de nombreux baux étaient actifs à court terme avec moins d'engagements à long terme par rapport à leur période de pic."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_005",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Listez toutes les catégories d'obligations où le montant total dû est inférieur à 1000 millions de dollars et le montant dû 'ultérieurement' est supérieur à 150 millions de dollars.",
+    "answer": [
+      [
+        "operating lease obligations ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A2",
+      "B2",
+      "F2",
+      "A3",
+      "B3",
+      "F3",
+      "A4",
+      "B4",
+      "F4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_006",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Quel pourcentage de la 'dette à long terme' est dû 'ultérieurement' ?",
+    "answer": [
+      [
+        "51.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_16910e868d_007",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Si toutes les 'obligations de location-acquisition' étaient annulées et retirées du tableau, quels seraient les nouveaux 'paiements totaux' dus pour l'exercice 2019 ?",
+    "answer": [
+      [
+        "$ 2535.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_008",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des données, quelle est la différence fondamentale dans la structure d'échéance entre la 'dette à long terme' et les 'obligations d'achat et autres' ?",
+    "answer": [
+      [
+        "Il existe une relation inverse claire dans leurs structures d'échéance. La 'dette à long terme' est considérablement chargée sur la fin, avec plus de la moitié de son total (3136,6 M$ sur 6039,0 M$) due dans la période 'ultérieure'. Inversement, les 'obligations d'achat et autres' sont fortement chargées sur le début, avec la grande majorité (1676,6 M$ sur 2210,5 M$) due dans la période la plus précoce, l'exercice 2019, indiquant qu'il s'agit principalement d'engagements à court terme."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B4",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_16910e868d_009",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Comment la valeur dans la cellule E5, le total pour 'exercice 2022 et 2023', est-elle calculée à partir des autres chiffres du tableau ?",
+    "answer": [
+      [
+        "La valeur dans la cellule E5 ( 1587,0 $) est la somme verticale des paiements dus sur la période 'exercice 2022 et 2023' pour chacune des quatre catégories d'obligations listées au-dessus : 1351,0 $ (E1), 118,4 $ (E2), 2,7 $ (E3) et 114,9 $ (E4)."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_010",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle période de paiement représente une valeur aberrante significative en termes de proportion des obligations totales, et qu'est-ce qui motive cette anomalie ?",
+    "answer": [
+      [
+        "L'exercice 2019 est une valeur aberrante. Son total de 2540,3 millions de dollars est nettement supérieur à celui des deux périodes suivantes (1255,5 millions de dollars et 1587,0 millions de dollars). Cette anomalie est principalement due à la catégorie 'obligations d'achat et autres', qui présente un paiement inhabituellement élevé de 1676,6 millions de dollars dû cette année-là, représentant environ 66 % du total de la période."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_16910e868d_011",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Quel est le total de toutes les obligations locatives (d'exploitation et de capital) en millions dus d'ici 2019 et 2020-2021 combinés ?",
+    "answer": [
+      [
+        "$343.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

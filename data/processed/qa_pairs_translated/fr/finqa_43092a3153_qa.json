@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "finqa_43092a3153_001",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Quel bien immobilier a la deuxième plus grande superficie occupée ?",
+    "answer": [
+      [
+        "tikri campus and unitech cyber park gurgaon india"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_002",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Quelle est la superficie totale occupée pour toutes les propriétés situées en Illinois ?",
+    "answer": [
+      [
+        "1487000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_43092a3153_003",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Quel est le superficie occupée du bien avec la date d'expiration de bail globale la plus récente ?",
+    "answer": [
+      [
+        "428000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_004",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Quelle propriété a des baux qui s'étendent sur la plus longue durée, de sa date d'expiration la plus ancienne à la plus récente ?",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_005",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Listez les propriétés dont la superficie occupée est supérieure à 350 000 et dont le bail expire en 2020.",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_006",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Quel pourcentage de la superficie totale occupée est attribué au campus de Gurgaon, en Inde ?",
+    "answer": [
+      [
+        "13.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_43092a3153_007",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Si toutes les dates d'expiration de bail antérieures à 2020 étaient prolongées jusqu'en 2022, combien de propriétés auraient un bail expirant en 2022 ?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_008",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après les données fournies, existe-t-il une relation observable entre la taille d'une propriété et le nombre de dates d'expiration de bail qu'elle a?",
+    "answer": [
+      [
+        "Oui, il semble y avoir une corrélation positive. Les deux plus grandes propriétés, '4 overlook point' (1 059 000 pieds carrés) et 'tikri campus' (440 000 pieds carrés), sont les seules à avoir plusieurs dates d'expiration de bail listées (trois chacune). Toutes les plus petites propriétés du tableau n'ont qu'une seule date d'expiration, ce qui suggère que les installations plus grandes sont plus susceptibles d'avoir des accords de bail complexes et décalés."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_43092a3153_009",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Quelle colonne contient des données où une seule cellule peut représenter plusieurs valeurs distinctes ?",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_010",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle propriété a la superficie occupée la plus significative comme valeur aberrante positive, et pourquoi ?",
+    "answer": [
+      [
+        "La propriété située au '4 overlook point and other locations lincolnshire illinois' est la valeur aberrante positive la plus significative. Sa superficie de 1 059 000 pieds carrés est plus de 2,4 fois supérieure à celle de la propriété suivante la plus grande (440 000 pieds carrés) et s'écarte considérablement de la médiane (414 000 pieds carrés) et de la moyenne (environ 463 143 pieds carrés) de l'ensemble de données, la distinguant ainsi nettement des autres propriétés."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_43092a3153_011",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Quelle est la superficie totale occupée des propriétés dont les baux expirent d'ici 2020 ?",
+    "answer": [
+      [
+        "1,537,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

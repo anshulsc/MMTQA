@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "มูลค่ารวมของสินทรัพย์ ('การลงทุน' และ 'สินทรัพย์อื่นๆ') ณ วันที่ 31 ธันวาคม 2550 คือเท่าใด",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "หมวดสินทรัพย์ใด 'การลงทุน' หรือ 'สินทรัพย์อื่น' ที่ขาดทุนสุทธิมากกว่าจาก 'กำไร/ (ขาดทุน) สุทธิที่เกิดขึ้นจริงและที่ยังไม่เกิดขึ้นจริง'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "ตรวจสอบว่ายอดคงเหลือ ณ วันที่ 31 ธันวาคม 2551 ของ 'เงินลงทุน' สอดคล้องกับยอดเปิดและรายการที่เกิดขึ้นภายหลังหรือไม่ แสดงการคำนวณของคุณ",
+    "answer": [
+      [
+        "ใช่ ยอดคงเหลือสอดคล้องกัน การคำนวณคือ: $1240 (ยอดเปิด) - $409 (กำไร/ขาดทุน) + $11 (ซื้อ/ขาย) - $29 (การโอนสุทธิ) = $813 ซึ่งตรงกับยอดคงเหลือที่รายงาน"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "การเปลี่ยนแปลงมูลค่าสินทรัพย์สุทธิทั้งหมดในช่วงระยะเวลาทั้งหมด ตั้งแต่วันที่ 31 ธันวาคม 2550 ถึง 31 ธันวาคม 2551 คือเท่าใด?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "หมวดหมู่สินทรัพย์ใดที่ 'การโอนสุทธิเข้าและ/หรือออกระดับ 3' ส่งผลให้มูลค่าสินทรัพย์เพิ่มขึ้น?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "สัดส่วนของ 'ผลขาดทุนสุทธิทั้งหมดสำหรับงวดที่รวมอยู่ในรายได้' ที่มาจาก 'การลงทุน' เป็นเท่าใด",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "หาก 'กำไร/ (ขาดทุน) ที่เกิดขึ้นจริงและยังไม่เกิดขึ้นสุทธิ' สำหรับ 'สินทรัพย์อื่น' เป็นศูนย์แทนที่จะเป็น $-16 ยอดปิดใหม่สำหรับ 'สินทรัพย์อื่น' ณ วันที่ 31 ธันวาคม 2008 จะเป็นเท่าใด",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "จากข้อมูล 'การลงทุน' ความสัมพันธ์ระหว่าง 'กำไร/ (ขาดทุน) สุทธิที่เกิดขึ้นจริงและยังไม่เกิดขึ้น' กับ 'ผลขาดทุนสุทธิทั้งหมด...ที่เกี่ยวข้องกับสินทรัพย์ที่ยังคงถือครอง ณ วันที่รายงาน' คืออะไร?",
+    "answer": [
+      [
+        "มีความสัมพันธ์ที่แข็งแกร่งและโดยตรง 'ผลขาดทุนสุทธิ...ที่เกี่ยวข้องกับสินทรัพย์ที่ยังคงถือครอง' ($-366) คิดเป็น 89.5% ของ 'กำไร/(ขาดทุน) สุทธิที่เกิดขึ้นจริงและยังไม่เกิดขึ้น' ($-409) ทั้งหมด ซึ่งบ่งชี้ว่าผลขาดทุนสุทธิส่วนใหญ่ของงวดสำหรับการลงทุนนั้นยังไม่เกิดขึ้นและเกี่ยวข้องกับสินทรัพย์ที่ยังไม่ได้ขาย ณ สิ้นสุดรอบระยะเวลารายงาน"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "รูปแบบการแสดงค่าติดลบ เช่น '-409 ( 409 )' บ่งชี้ถึงหลักการบัญชีแบบใด?",
+    "answer": [
+      [
+        "รูปแบบการแสดงจำนวนติดลบตามด้วยค่าสัมบูรณ์ในวงเล็บ เป็นหลักปฏิบัติทางการบัญชีทั่วไปที่ใช้เพื่อระบุตัวเลขทางการเงินที่เป็นค่าลบอย่างชัดเจนและเน้นย้ำ เช่น การขาดทุน ค่าใช้จ่าย หรือมูลค่าตรงข้ามของสินทรัพย์"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "รายการใดส่งผลกระทบเชิงลบมากที่สุดต่อมูลค่าสินทรัพย์รวมในช่วงเวลานั้น?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "การลงทุนลดลงเท่าใดตั้งแต่ปี 2550 ถึง 2551?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

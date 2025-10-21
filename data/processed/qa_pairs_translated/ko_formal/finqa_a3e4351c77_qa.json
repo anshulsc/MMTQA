@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "총계와 조정 항목을 제외하고, 보고된 두 기간 모두에서 가장 높은 가치를 가진 특정 부채 상품은 무엇입니까?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "두 번째 데이터 열에 명시된 모든 식별 가능한 수익 채권의 총 가치는 얼마입니까?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "2013년 KMP의 '총 장기 부채' 금액이 '2013년 KMP의 장기 부채 할인 상각액' 금액보다 얼마나 더 컸습니까?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "표시된 두 기간 동안 '총 장기 부채'의 추세를 설명하고 이 변화의 중요성을 설명해 주십시오.",
+    "answer": [
+      [
+        "총 장기 부채는 열 C에 표시된 기간의 $10007.5에서 열 B에 표시된 기간의 $10282.8으로 $275.3 증가했습니다. 이는 이 기간 동안 해당 기관의 전체 장기 부채 의무가 증가했음을 나타내며, 상환한 것보다 더 많은 신규 부채를 발생시켰을 가능성이 있음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "두 번째 데이터 열에서 음수 값으로 표시된 모든 항목(총계 제외)을 식별하십시오.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "B열의 해당 기간 총 장기 부채 대비 '장기 부채의 현 현금 흐름'으로 분류되는 비율은 얼마입니까? 계산 시 절대값을 사용하고 소수점 둘째 자리까지 반올림하십시오.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "'2013년 KMP 총 장기 부채' 항목에서 두 번째 데이터 열(B열)의 '미상각 부채 할인액'이 제거된다면(즉, 0으로 설정된다면), 해당 기간의 '2013년 KMP 총 장기 부채'는 얼마였을까요?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "'유동 부채의 단기 상환액'의 변화와 '총 장기 부채'의 변화 사이에 두 기간에 걸쳐 명백한 관계가 있습니까?",
+    "answer": [
+      [
+        "네, 움직임에 있어 역의 관계가 있는 것으로 보입니다. 총 장기 부채는 $275.3 증가했습니다($10007.5에서 $10282.8으로). 반면 '유동 부채의 단기 상환액'의 절대값은 상당히 감소했습니다(1263.3에서 596.6으로). 이는 회사가 전반적인 부채는 더 많이 부담했지만, 동시에 즉시 만기가 도래하는 부채의 비중은 줄였다는 것을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터셋에서 다른 행들의 합계로 보이는 행은 무엇이며, 이러한 결론을 뒷받침하는 근거는 무엇입니까?",
+    "answer": [
+      [
+        "'total long-term debt 2013 kmp'로 표시된 행이 합계입니다. 주된 근거는 설명에 'total'이라는 단어가 명시적으로 사용되었다는 점입니다. 또한, 다른 행들과 구별되는 통화 기호('$' )와 함께 값이 표시되어 있어 최종적인 요약 재무 수치임을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "두 기간 사이에 절대값 기준으로 가장 큰 변화를 보이며 변동성 측면에서 재무적으로 특이한 항목은 무엇입니까?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "총 장기 부채와 상환되지 않은 부채 할인액을 고려할 때, 2012년부터 2013년까지 장기 부채의 실질적인 증가는 얼마입니까?",
+    "answer": [
+      [
+        "총 장기 부채는 2012년 100억 7,500만 달러에서 2013년 102억 8,280만 달러로 증가했습니다. 상환되지 않은 부채 할인액은 2012년 -21.2에서 2013년 -20.3으로 변경된 것을 고려하면, 실질적인 부채 증가는 2억 7,680만 달러입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

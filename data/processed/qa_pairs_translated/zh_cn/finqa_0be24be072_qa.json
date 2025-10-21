@@ -1,0 +1,199 @@
+[
+  {
+    "question_id": "finqa_0be24be072_001",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "从上一年开始，“不包括CIB市场的净利息收入”的绝对增幅最大的一年是哪一年？",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_002",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "提供的三年中，“平均计息资产”的平均值是多少？",
+    "answer": [
+      [
+        "2123479.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0be24be072_003",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "在“cib markets net interest income”最高的年份，对应的“average cib markets interest-earning assets”的值是多少？",
+    "answer": [
+      [
+        "520307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_004",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述一下从2015年到2017年‘平均CIB市场生息资产净利息收益率’的趋势。",
+    "answer": [
+      [
+        "该收益率波动很大。从2015年的1.04增至2016年的1.22，增长了约17.3%，但随后大幅下降了约29.5%，于2017年降至0.86。"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_005",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "列出“CIB市场净利息收入”大于50亿美元且“CIB市场平均生息资产净利息收益率”大于1.10的年份。",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_006",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "2016年，“平均生息资产”中“平均CIB市场生息资产”所占的百分比是多少？",
+    "answer": [
+      [
+        "24.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0be24be072_007",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "如果2017年的“CIB市场净利息收入”增加20%，而“2013年管理基础净利息收入”保持不变，那么新的“不包括CIB市场的净利息收入”将是多少？",
+    "answer": [
+      [
+        "$ 45854"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_008",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "根据表格，在三年的时间里，‘2013年管理基础净利息收入’和‘2013年管理基础平均生息资产净利息收益率’之间是否存在可观察到的相关性？",
+    "answer": [
+      [
+        "是的，存在明显的正相关性。随着‘2013年管理基础净利息收入’从2015年的446.2亿美元持续增长到2017年的514.10亿美元，‘2013年管理基础平均生息资产净利息收益率’同期也显示出从2.14%增长到2.36%的稳定增长。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0be24be072_009",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "表中哪两个指标相除可以计算出“剔除CIB市场的平均生息资产净利息收益率”？",
+    "answer": [
+      [
+        "net interest income excluding cib markets ( a )"
+      ],
+      [
+        "average interest-earning assets excluding cib markets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A6",
+      "A9",
+      "B3",
+      "B6",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_010",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "就与前一个时期相比的同比增长而言，哪一年的“2013年管理基础上净利息收入”是一个异常值？",
+    "answer": [
+      [
+        "2017年是一个异常值，因为其增长率显著较高。从2016年到2017年的增长为41.18亿美元（514.10亿美元 - 472.92亿美元），这远大于2015年到2016年期间37.27亿美元的增长（472.92亿美元 - 446.20亿美元）。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_0be24be072_011",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "2016年不包括CIB市场的净利息收入（百万美元）是多少？",
+    "answer": [
+      [
+        "$40,958"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

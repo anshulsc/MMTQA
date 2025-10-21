@@ -1,0 +1,329 @@
+[
+  {
+    "question_id": "wikisql_830b3eaa68_001",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "Quelle tempête classée comme 'cyclone tropical intense' a eu la pression centrale la plus basse, indiquant l'intensité la plus élevée au sein de ce groupe ?",
+    "answer": [
+      [
+        "Hondo"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "C10",
+      "E10",
+      "A11",
+      "C11",
+      "E11",
+      "A12",
+      "C12",
+      "E12",
+      "A13",
+      "C13",
+      "E13",
+      "A14",
+      "C14",
+      "E14",
+      "A15",
+      "C15",
+      "E15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_002",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "En supposant que les valeurs numériques de la colonne 'Refs' pour les tempêtes 'Ivan' et 'Jokwe' représentent le bilan des décès, quel a été le nombre total de décès dus aux tempêtes qui ont affecté Madagascar ?",
+    "answer": [
+      [
+        "38"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F12",
+      "I12",
+      "F13",
+      "I13",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_003",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "Parmi les tempêtes classées comme 'Tempête tropicale sévère', laquelle a eu la plus longue durée entre sa date de début et sa date de fin ?",
+    "answer": [
+      [
+        "Lee-Ariel"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_004",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle est la tendance générale de l'intensité des tempêtes, basée sur la 'Classification maximale', depuis le début de la saison (octobre) jusqu'aux mois suivants (février-mars)?",
+    "answer": [
+      [
+        "Les données indiquent une nette escalade de l'intensité des tempêtes au fur et à mesure que la saison progressait. La saison a commencé avec des systèmes plus faibles comme 'Dépression tropicale' en octobre, suivis par des tempêtes tropicales 'sévères' et 'modérées' jusqu'en décembre. Une augmentation significative de l'intensité s'est produite de fin janvier à mars, qui a vu les classifications les plus puissantes, y compris plusieurs événements 'Cyclone tropical' et 'Cyclone tropical intense'."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B15",
+      "C15",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_005",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "Listez les noms de toutes les tempêtes qui étaient actives en février et dont la classification maximale était 'cyclone tropical intense'.",
+    "answer": [
+      [
+        "Hondo"
+      ],
+      [
+        "Ivan"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_006",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "Quel pourcentage des événements météorologiques uniques listés dans le tableau ont été classés comme une forme de 'tempête tropicale' (sévère, modérée) ?",
+    "answer": [
+      [
+        "37.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C12",
+      "C13",
+      "C15",
+      "C16"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_007",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "Si la pression de tous les événements 'Tempête tropicale modérée' devait diminuer de 5 hPa supplémentaires en raison d'une intensification rapide, quelle serait la nouvelle pression moyenne pour cette catégorie ?",
+    "answer": [
+      [
+        "989 hPa"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C16",
+      "E16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_008",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez la relation entre les vitesses du vent des tempêtes et les valeurs de pression centrale à travers les différentes classifications de pic.",
+    "answer": [
+      [
+        "Il existe une forte corrélation inverse entre les vitesses du vent et la pression centrale. À mesure que la classification du pic devient plus intense (par exemple, de 'Perturbation tropicale' à 'Cyclone tropical intense'), les valeurs de vitesse du vent augmentent constamment tandis que les valeurs de pression centrale diminuent constamment. Par exemple, la 'Perturbation tropicale' 07 avait des vents de 35 km/h et une pression de 1003 hPa, tandis que le 'Cyclone tropical intense' Hondo avait des vents de 215 km/h et une pression de 915 hPa."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "C2",
+      "D2",
+      "E2",
+      "C3",
+      "D3",
+      "E3",
+      "C4",
+      "D4",
+      "E4",
+      "C5",
+      "D5",
+      "E5",
+      "C6",
+      "D6",
+      "E6",
+      "C7",
+      "D7",
+      "E7",
+      "C8",
+      "D8",
+      "E8",
+      "C9",
+      "D9",
+      "E9",
+      "C10",
+      "D10",
+      "E10",
+      "C12",
+      "D12",
+      "E12",
+      "C13",
+      "D13",
+      "E13",
+      "C15",
+      "D15",
+      "E15",
+      "C16",
+      "D16",
+      "E16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_009",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "open_ended_reasoning",
+    "question": "Plusieurs lignes, comme celles des tempêtes 'Fame' et 'Ivan', présentent des problèmes de qualité de données où les valeurs semblent se trouver dans les mauvaises colonnes. Identifiez le schéma de ce désalignement des données dans les colonnes 'Damage (USD)' et 'Deaths' pour ces lignes affectées.",
+    "answer": [
+      [
+        "Pour les tempêtes qui ont des données dans les colonnes 'Damage (USD)' et 'Deaths', il y a une erreur d'entrée de données cohérente. La colonne 'Damage (USD)' contient incorrectement une date (par exemple, 'January27', 'February17'). La colonne 'Deaths' contient incorrectement les données de vitesse du vent de la tempête. Le nombre réel de décès, lorsqu'il est disponible, semble avoir été déplacé dans la colonne 'Refs'."
+      ]
+    ],
+    "evidence_cells": [
+      "G8",
+      "H8",
+      "I8",
+      "G10",
+      "H10",
+      "I10",
+      "G12",
+      "H12",
+      "I12",
+      "G13",
+      "H13",
+      "I13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_010",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "Quelle tempête a une vitesse de vent qui est une nette aberration, étant significativement plus élevée que toute autre tempête dans l'ensemble de données ?",
+    "answer": [
+      [
+        "Hondo"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "D10",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D12",
+      "D13",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_011",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "Quels orages ont atteint au moins 185 km/h de vent ?",
+    "answer": [
+      [
+        "Ivan",
+        "Jokwe",
+        "Kamba",
+        "Hondo"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "D10",
+      "D11",
+      "D12",
+      "D13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

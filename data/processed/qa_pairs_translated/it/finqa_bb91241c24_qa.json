@@ -1,0 +1,224 @@
+[
+  {
+    "question_id": "finqa_bb91241c24_001",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Qual è stato il numero totale di nuove azioni emesse tramite azioni aziendali specifiche (escludendo l'esercizio di routine delle stock option) tra il saldo del 28 dicembre 2014 e il saldo del 3 gennaio 2016?",
+    "answer": [
+      [
+        "834944"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bb91241c24_002",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Quale singolo evento ha comportato la maggiore emissione di azioni in circolazione?",
+    "answer": [
+      [
+        "acquisition of kraft foods group inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_003",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Calcola la variazione netta delle azioni in circolazione dall'equilibrio iniziale del 29 dicembre 2013 all'equilibrio finale del 31 dicembre 2016.",
+    "answer": [
+      [
+        "839644"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_004",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati, descrivi l'andamento delle attività relative alle azioni proprie della società dopo il 28 dicembre 2014.",
+    "answer": [
+      [
+        "Dopo il 28 dicembre 2014, la società ha avviato attività relative alle azioni proprie, come indicato dai valori negativi che compaiono nella colonna 'azioni proprie' a partire dal periodo che precede il saldo al 3 gennaio 2016. Il saldo delle azioni proprie è diventato sempre più negativo, passando da -413 a -2471 entro il 31 dicembre 2016. Questo suggerisce che la società stava attivamente riacquistando le proprie azioni o riemettendo azioni proprie per piani di remunerazione dei dipendenti, riducendo il totale delle azioni detenute in portafoglio."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_005",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Elenca gli eventi che hanno comportato sia l'emissione di nuove azioni sia una variazione delle azioni proprie.",
+    "answer": [
+      [
+        "exercise of stock options issuance of other stock awards and other"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_006",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Le azioni emesse per 'l'acquisizione di Kraft Foods Group Inc.' rappresentano quale percentuale delle azioni totali emesse al saldo del 31 dicembre 2016?",
+    "answer": [
+      [
+        "48.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bb91241c24_007",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Se il numero di azioni emesse agli sponsor fosse stato superiore del 20%, quale sarebbe stato il 'saldo al 3 gennaio 2016' per le 'azioni emesse', assumendo che tutte le altre transazioni fossero rimaste invariate?",
+    "answer": [
+      [
+        "1258725"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_008",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una relazione osservabile tra il tipo di evento di emissione di azioni e la magnitudo delle azioni emesse? Giustifica la tua risposta.",
+    "answer": [
+      [
+        "Sì, esiste una chiara relazione. Grandi azioni aziendali come 'acquisizione di kraft foods group inc .' (592.898 azioni) e 'emissione di azioni ordinarie a sponsor' (221.666 azioni) comportano emissioni di azioni che sono ordini di grandezza superiori rispetto a eventi di routine come 'esercizio di stock option' (che varia da 178 a 4.555 azioni). Ciò indica che le transazioni strategiche hanno un impatto diluitivo molto più significativo rispetto alle normali attività di compensazione dei dipendenti."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bb91241c24_009",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale colonna contiene tipi di dati incoerenti che richiedono interpretazione e quali sono le incoerenze?",
+    "answer": [
+      [
+        "La colonna 'treasury shares' (azioni proprie) contiene tipi di dati incoerenti. Per le prime sei righe, contiene l'anno '2014', che è un testo non numerico e sembra essere rumore. Per le ultime quattro righe, contiene numeri negativi in stile contabile come '-413 ( 413 )', che richiedono interpretazione per essere utilizzati come un valore numerico standard (-413)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_010",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica la transazione che rappresenta un chiaro outlier in termini di impatto sul numero di azioni emesse e spiega perché.",
+    "answer": [
+      [
+        "L'acquisizione di 'kraft foods group inc .' rappresenta un significativo outlier. Ha portato all'emissione di 592.898 azioni, che è più di 2,6 volte superiore alla transazione successiva più grande ('emissione di azioni ordinarie a sponsor' con 221.666 azioni) e oltre 28 volte superiore a qualsiasi altra transazione nell'elenco. La sua magnitudo la distingue chiaramente dalle normali attività di capitale."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bb91241c24_011",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Quante azioni sono state emesse per l'acquisizione di Kraft Foods Group Inc.?",
+    "answer": [
+      [
+        "592,898"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

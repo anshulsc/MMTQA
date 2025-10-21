@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2 পরিস্থিতিতে (BC2_64 এবং BC2_28 উভয়ই) কোন পূর্বাভাস পদ্ধতি সর্বনিম্ন ত্রুটির হার অর্জন করেছে?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "'LASSO regression feature selection' পদ্ধতিটির জন্য ছয়টি BC পরিস্থিতিতে গড় ত্রুটির হার কত?",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "কোন ফিচার সিলেকশন পদ্ধতিটি কোনো একক পরিস্থিতির জন্য সর্বোচ্চ সংখ্যক এক্সোজিনাস ভেরিয়েবল ব্যবহার করেছে তা সনাক্ত করুন। তারপর, সেই নির্দিষ্ট পদ্ধতির জন্য, BC3_64 পরিস্থিতিতে এর ত্রুটির হার রিপোর্ট করুন।",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "কোন বিসি (BC) সিনারিও-র জন্য পারফরম্যান্স গ্যাপ, যা সমস্ত ফোরকাস্টিং সেটিংসে সর্বোচ্চ এবং সর্বনিম্ন ত্রুটির হারের মধ্যে পার্থক্য হিসাবে সংজ্ঞায়িত করা হয়, সবচেয়ে বেশি?",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC1_28 পরিস্থিতিতে কোন কোন ফোরকাস্টিং সেটিং ব্যবহার করা হয়েছে যেখানে ৫টির বেশি এক্সোজিনাস ভ্যারিয়েবল ব্যবহার করা হয়েছে এবং ত্রুটির হার ১৬.০ এর নিচে ছিল?",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2_28 পরিস্থিতিতে, 'Forward Feature Selection SARIMAX' পদ্ধতির ত্রুটি 'Without exogenous variables' পদ্ধতির ত্রুটির চেয়ে কত শতাংশ কম?",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "যদি BC1_28 এর অধীনে 'Correlation-Based Selection' এর ত্রুটি ৭৫% কমানো হয়, তাহলে পাঁচটি পূর্বাভাস সেটিংসের জন্য BC1_28 পরিস্থিতিটির নতুন গড় ত্রুটি কত হবে?",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "বিভিন্ন ফিচার সিলেকশন পদ্ধতির মধ্যে কি এক্সোজেনাস ভ্যারিয়েবলের সংখ্যা বেশি ব্যবহার এবং ত্রুটির হার কম অর্জনের মধ্যে কোনো ধারাবাহিক সম্পর্ক আছে কি?",
+    "answer": [
+      [
+        "না, কোনো ধারাবাহিক সম্পর্ক নেই। উদাহরণস্বরূপ, BC1_64 পরিস্থিতিতে, 'Forward Feature Selection SARIMAX' মাত্র 1টি ভ্যারিয়েবল ব্যবহার করে এবং সর্বনিম্ন ত্রুটি (5.64) অর্জন করে, যেখানে 'Manual feature selection' 18টি ভ্যারিয়েবল ব্যবহার করে এবং অনেক বেশি ত্রুটি (13.99) দেখায়। বিপরীতভাবে, BC1_28 পরিস্থিতিতে, 'Forward Feature Selection SARIMAX'-এর ত্রুটি (15টি ভ্যারিয়েবল সহ 5.94) 'LASSO'-এর (10টি ভ্যারিয়েবল সহ 15.38) চেয়ে কম, যা কিছু ক্ষেত্রে বেশি ভ্যারিয়েবল ভালো হতে পারে এমন ইঙ্গিত দেয়। এটি নির্দেশ করে যে ভ্যারিয়েবলের সংখ্যার চেয়ে সিলেকশন পদ্ধতির কার্যকারিতা বেশি গুরুত্বপূর্ণ।"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "অন্যান্য পরিস্থিতির তুলনায় 'Correlation-Based Selection' পদ্ধতির জন্য কোন ত্রুটির মান একটি উল্লেখযোগ্য আউটলায়ার?",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "এই টেবিলে কয়টি স্বতন্ত্র ফিচার সিলেকশন পদ্ধতি তুলনা করা হচ্ছে যা এক্সোজেনাস ভেরিয়েবল ব্যবহার করে?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2_28 এর জন্য কোন পূর্বাভাস পদ্ধতি সর্বনিম্ন ত্রুটি অর্জন করেছে?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Model mana yang bukan multi-task yang punya Mean Squared Error (MSE_over) terendah?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Kalkulasi rata-rata MSE di horizon 7 hari (MSE7) buat semua model yang ditandai 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Buat model yang nilai MSE3-nya paling tinggi kedua (terburuk kedua), berapa nilai MSE30-nya?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis tren Mean Squared Error (MSE) buat model HTML pas cakrawala prediksi nambah dari 3 sampe 30 hari. Akurasi prediksinya makin bagus apa makin jelek seiring waktu?",
+    "answer": [
+      [
+        "Akurasi prediksi model HTML makin bagus seiring bertambahnya cakrawala prediksi. Nilai MSE-nya terus menurun dari MSE3 (0.845) ke MSE7 (0.349), MSE15 (0.251), dan terakhir MSE30 (0.158), yang nunjukkin error lebih kecil dan performa lebih baik buat prediksi jangka panjang."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Sebutin semua model yang bukan 'Multi-Task' dan nilai MSE15-nya di bawah 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Model mana yang jelas beda sendiri untuk semua metrik MSE dan jelaskan kenapa?",
+    "answer": [
+      [
+        "Model GPT-3.5-Turbo jelas beda sendiri performanya. Nilai MSE-nya di semua horizon (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) jauh lebih tinggi dibanding model lain, yang mana kebanyakan nilainya di bawah 1.0. Ini nunjukkin performa prediksi yang jauh lebih jelek dibanding model-model lain yang ada."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Berapa persen MSE3 total dari semua model yang disumbangkan oleh model GPT-3.5-Turbo? Berikan jawaban dalam persentase yang dibulatkan ke satu desimal.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalo MSE_over buat model RiskLabs turun 25% (jadi lebih kecil 25%), nilai barunya berapa ya, sama peringkatnya dibandingin MSE_over-nya model HTML gimana?",
+    "answer": [
+      [
+        "MSE_over baru buat RiskLabs jadi 0.243. Nilai ini lebih kecil, jadi lebih bagus, daripada MSE_over-nya model HTML yang 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan tabel, apa hubungan antara model yang dikategorikan sebagai 'Multi-Task' dan ketersediaan skor 'VaR'?",
+    "answer": [
+      [
+        "Ada korelasi yang kuat. Hanya model yang ditunjuk sebagai 'Multi-Task' (GPT-3.5-Turbo dan RiskLabs) yang memiliki skor 'VaR' numerik yang dilaporkan. Namun, tidak semua model 'Multi-Task' memiliki skor VaR (misalnya, HTML), dan tidak ada model non-'Multi-Task' yang memilikinya, menunjukkan bahwa kemampuan untuk menghitung VaR adalah fitur yang terutama terkait dengan model 'Multi-Task' dalam kumpulan data ini."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom metrik performa mana yang isinya bukan angka (placeholder), dan untuk model spesifik apa data ini hilang?",
+    "answer": [
+      [
+        "Kolom 'VaR' berisi data yang bukan angka ('/'). Data ini hilang untuk model-model berikut: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, dan HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Model mana yang nunjukkin keseimbangan paling bagus secara keseluruhan antara akurasi prediksi di berbagai cakrawala (MSE3–MSE30) sama estimasi risiko (VaR)?",
+    "answer": [
+      [
+        "Model RiskLabs itu paling bagus secara keseluruhan, dia punya nilai MSE paling rendah di semua cakrawala dan VaR paling rendah juga (0.049), yang nunjukkin akurasi prediksi bagus dan estimasi risiko yang bisa diandalkan."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

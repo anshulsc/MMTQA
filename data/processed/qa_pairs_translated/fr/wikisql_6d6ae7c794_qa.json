@@ -1,0 +1,220 @@
+[
+  {
+    "question_id": "wikisql_6d6ae7c794_001",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "value",
+    "question": "Combien de chapitres sont principalement axés sur les éléments de l'environnement naturel, y compris la cosmologie, la géographie et les organismes vivants ?",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_6d6ae7c794_002",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "value",
+    "question": "Identifiez le Pinyin du chapitre qui couvre les 'adjectifs' et les 'adverbes' mais ne liste explicitement pas les 'verbes' dans la description de son sujet.",
+    "answer": [
+      [
+        "Shixun"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_6d6ae7c794_003",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "value",
+    "question": "Quelle est la traduction anglaise du chapitre qui est thématiquement séquencé entre l'étude des structures construites par l'homme ('architecture') et l'étude des arts du spectacle ('musique') ?",
+    "answer": [
+      [
+        "Explaining Utensils"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_6d6ae7c794_004",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "open_ended_reasoning",
+    "question": "En comparant les trois premiers chapitres, quel chapitre a la focalisation linguistique la plus spécifique, et qu'est-ce qui le rend plus spécifique que les autres ?",
+    "answer": [
+      [
+        "Le chapitre 3, 'Shixun', a la focalisation la plus spécifique car la description de son sujet mentionne explicitement qu'il traite \"principalement de la redoublement\", un processus morphologique particulier non spécifié pour les chapitres 1 et 2, qui couvrent des catégories plus larges comme les verbes et les adjectifs en général."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_6d6ae7c794_005",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "value",
+    "question": "Combien de chapitres consacrés aux organismes vivants (Chapitres 13-18) ont des sujets qui mentionnent explicitement des types d'animaux au-delà de l'implication directe de leurs titres ?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "D13",
+      "E13",
+      "D14",
+      "E14",
+      "D15",
+      "E15",
+      "D16",
+      "E16",
+      "D17",
+      "E17",
+      "D18",
+      "E18"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_6d6ae7c794_006",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "open_ended_reasoning",
+    "question": "En se basant sur la séquence des chapitres, quel est le principe organisationnel inféré du texte, passant des concepts abstraits au monde physique ?",
+    "answer": [
+      [
+        "Le texte suit une progression hiérarchique et thématique claire. Il commence par les éléments les plus abstraits (langage et mots dans les chapitres 1-3), passe au monde centré sur l'humain (parenté, habitations, outils, musique dans les chapitres 4-7), puis s'étend au monde naturel, en commençant par les plus grandes échelles (ciel, terre, montagnes dans les chapitres 8-12) et en se concentrant progressivement sur des formes de vie spécifiques (plantes et animaux dans les chapitres 13-18)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A4",
+      "E4",
+      "A8",
+      "E8",
+      "A13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_6d6ae7c794_007",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "value",
+    "question": "Quel chapitre inclut dans son sujet un sujet comme les « termes Fengshui », qui est un système métaphysique, le rendant ainsi atypique par rapport aux sujets de sciences plus purement physiques de ses chapitres voisins ?",
+    "answer": [
+      [
+        "Shiqiu"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_6d6ae7c794_008",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "value",
+    "question": "Si un nouveau chapitre, \"Explication des vêtements\", était créé en extrayant le sujet \"vêtements\" du Chapitre 6, quel serait le sujet révisé pour le Chapitre 6 ?",
+    "answer": [
+      [
+        "tools, weapons, and their uses"
+      ]
+    ],
+    "evidence_cells": [
+      "E6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_6d6ae7c794_009",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "open_ended_reasoning",
+    "question": "En analysant la séquence des chapitres concernant la géographie, comment le texte démontre-t-il une progression du général au spécifique ?",
+    "answer": [
+      [
+        "La séquence démontre une progression claire du général au spécifique en introduisant d'abord \"L'explication de la Terre\" (Chapitre 9), qui couvre des sujets généraux tels que la géographie et la géologie, puis en se concentrant sur des caractéristiques topographiques spécifiques dans les chapitres suivants comme \"L'explication des Collines\" (Chapitre 10) et \"L'explication des Montagnes\" (Chapitre 11)."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D9",
+      "E9",
+      "A10",
+      "D10",
+      "E10",
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_6d6ae7c794_010",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "value",
+    "question": "Four chapters out of ten discuss the topic of dwelling.",
+    "answer": [
+      [
+        "Chapters 1-10",
+        "verbs, adjectives, adverbs, grammatical particles, kinship, marriage, architecture, engineering, music, musical instruments, dancing, astronomy, astrology, meteorology, calendar, geography, geology, regional lore, topography, Fengshui terms, mountains, famous mountains, rivers, navigation, irrigation, boating, grasses, herbs, grains, vegetables, trees, shrubs, botanical terms, insects, spiders, reptiles, fish, amphibians, crustaceans, birds, wildfowl, ornithology, wild animals, legendary animals"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_6d6ae7c794_011",
+    "table_id": "wikisql_6d6ae7c794",
+    "question_type": "value",
+    "question": "Quel chapitre se concentre sur l'explication des rivières ?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

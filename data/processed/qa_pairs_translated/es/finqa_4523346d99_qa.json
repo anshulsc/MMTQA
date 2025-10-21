@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "finqa_4523346d99_001",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "¿Cuál componente de la deuda, 'deuda a largo plazo con vencimiento en un año' o 'deuda a largo plazo', experimentó un mayor crecimiento porcentual de 2006 a 2007?",
+    "answer": [
+      [
+        "long-term debt due within one year"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_002",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "¿Cuál fue el total combinado de 'deuda a largo plazo' y 'patrimonio' en 2007, en millones de dólares?",
+    "answer": [
+      [
+        "25307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_4523346d99_003",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "¿En cuántos millones de dólares superó el aumento de la 'deuda total' de 2006 a 2007 la disminución del 'efectivo' durante el mismo período?",
+    "answer": [
+      [
+        "2297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_004",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Analice el cambio en la liquidez de la empresa, considerando tanto el 'efectivo' como los 'fondos fideicomitidos', de 2006 a 2007.",
+    "answer": [
+      [
+        "La posición de liquidez de la empresa empeoró significativamente de 2006 a 2007. El 'efectivo' disminuyó un 53,6% (de 2585 millones de dólares a 1199 millones de dólares) y los 'fondos fideicomitidos de bonos de ingresos' disminuyeron un 63,0% (de 2013 millones de dólares a 744 millones de dólares). Los activos líquidos combinados cayeron de 4598 millones de dólares a 1943 millones de dólares, una reducción de casi el 58%, lo que indica una disminución sustancial de los fondos fácilmente disponibles."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_005",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Enumere todos los elementos financieros de la sección principal del balance (filas 1-6) que tuvieron un valor superior a $6,000 millones en 2007.",
+    "answer": [
+      [
+        "long-term debt"
+      ],
+      [
+        "total debt"
+      ],
+      [
+        "equity"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_006",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "¿Cuál fue la relación deuda-capital de la empresa en 2006? Calcule esto dividiendo la 'deuda total' por el 'capital propio' y exprese el resultado como un decimal redondeado a dos lugares.",
+    "answer": [
+      [
+        "0.24"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_4523346d99_007",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "¿Si el 'capital' de la empresa en 2007 hubiera sido un 15% más alto, ¿cuál habría sido el nuevo valor para 'deuda total más capital menos efectivo' para ese año, asumiendo que todos los demás valores se mantuvieron constantes?",
+    "answer": [
+      [
+        "27378.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B12",
+      "B13",
+      "B14",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_008",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Basado en el aumento simultáneo y sustancial tanto de la 'deuda total' como del 'capital' de 2006 a 2007, ¿qué se puede inferir sobre la estrategia financiera de la empresa durante este período?",
+    "answer": [
+      [
+        "El aumento simultáneo y grande tanto de la deuda total (de $3,532M a $7,215M) como del capital (de $14,607M a $19,223M) sugiere que la empresa estaba persiguiendo una estrategia agresiva de crecimiento o expansión. Estaba recaudando activamente capital significativo tanto de los mercados de deuda como de capital. Esto a menudo se hace para financiar inversiones, proyectos o adquisiciones importantes. El salto significativo en la relación deuda/capital ajustada por efectivo del 6% al 22% indica además un cambio estratégico hacia un mayor apalancamiento para impulsar este crecimiento."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B6",
+      "C6",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_4523346d99_009",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "¿Qué etiqueta en la sección 'cálculo' (filas 8-16) es una duplicación directa de una etiqueta de la sección principal del estado financiero (filas 1-6)?",
+    "answer": [
+      [
+        "total debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A8",
+      "A12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_010",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué métrica financiera calculada mostró el aumento relativo más extremo de 2006 a 2007, convirtiéndose en un valor atípico notable?",
+    "answer": [
+      [
+        "La métrica 'deuda total menos efectivo' es el valor atípico más significativo. Aumentó de $947 millones en 2006 a $5,272 millones en 2007, lo que representa un crecimiento de más del 456%. Esto supera con creces el cambio porcentual de cualquier otra métrica enumerada, incluido el aumento del 267% en el 'ratio deuda-capital ajustado por efectivo', lo que indica un aumento drástico en la posición de deuda neta de la empresa."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_4523346d99_011",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "¿En cuánto aumentó la deuda en 2007 en comparación con 2006?",
+    "answer": [
+      [
+        "$3,683"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "৩১ ডিসেম্বর, ২০০৭ তারিখে 'বিনিয়োগ' এবং 'অন্যান্য সম্পদ'-এর মোট মূল্য কত ছিল?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'বিনিয়োগ' (investments) নাকি 'অন্যান্য সম্পদ' (other assets) বিভাগে 'উপলব্ধি করা এবং উপলব্ধি না করা লাভ / (ক্ষতি) নেট' (realized and unrealized gains / ( losses ) net) থেকে বেশি নিট ক্ষতি হয়েছে?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "৩১ ডিসেম্বর, ২০০৮ তারিখে 'বিনিয়োগ'-এর সমাপনী ব্যালেন্স এর প্রারম্ভিক ব্যালেন্স এবং পরবর্তী লেনদেনগুলির সাথে সঙ্গতিপূর্ণ কিনা তা যাচাই করুন। আপনার গণনা দেখান।",
+    "answer": [
+      [
+        "হ্যাঁ, ব্যালেন্স সঙ্গতিপূর্ণ। গণনাটি হল: $১২৪০ (প্রারম্ভিক ব্যালেন্স) - $৪০৯ (লাভ/ক্ষতি) + $১১ (ক্রয়/বিক্রয়) - $২৯ (নেট স্থানান্তর) = $৮১৩, যা রিপোর্ট করা সমাপনী ব্যালেন্সের সাথে মিলে যায়।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "৩১ ডিসেম্বর, ২০০৭ থেকে ৩১ ডিসেম্বর, ২০০৮ পর্যন্ত, পুরো সময়কালে সম্পদের মোট নেট পরিবর্তন কত ছিল?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "লেভেল ৩ থেকে নেট ট্রান্সফারের ফলে কোন সম্পদ বিভাগগুলির সম্পদের মানে একটি ইতিবাচক অবদান রেখেছে?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'মোট নিট (লোকসান) আয়ের জন্য পিরিয়ডের মধ্যে' এর কত অংশ 'বিনিয়োগ' থেকে এসেছে?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'অন্যান্য সম্পদ'-এর জন্য 'উপার্জিত এবং অপরিমার্জিত লাভ/(ক্ষতি) নেট' যদি -16 ডলারের পরিবর্তে শূন্য হত, তাহলে 31 ডিসেম্বর 2008 তারিখে 'অন্যান্য সম্পদ'-এর নতুন ক্লোজিং ব্যালেন্স কত হত?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "'বিনিয়োগ' (investments) ডেটা অনুসারে, 'উপার্জিত এবং অপরিশোধিত লাভ / (ক্ষতি) নিট' (realized and unrealized gains / ( losses ) net) এবং 'মোট নিট (ক্ষতি) ... যা প্রতিবেদন তারিখেও থাকা সম্পদগুলির সাথে সম্পর্কিত' (total net ( losses ) ... relating to assets still held at the reporting date)' এর মধ্যে সম্পর্ক কী?",
+    "answer": [
+      [
+        "একটি শক্তিশালী, প্রত্যক্ষ সম্পর্ক রয়েছে। 'মোট নিট (ক্ষতি) ... যা প্রতিবেদন তারিখেও থাকা সম্পদগুলির সাথে সম্পর্কিত' ($-366) মোট 'উপার্জিত এবং অপরিশোধিত লাভ / (ক্ষতি) নিট' ($-409) এর ৮৯.৫%। এটি বোঝায় যে বিনিয়োগের জন্য এই সময়কালের বেশিরভাগ নিট ক্ষতি ছিল অপরিশোধিত এবং এমন সম্পদগুলির সাথে যুক্ত যা প্রতিবেদন তারিখের মধ্যে বিক্রি হয়নি।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "ঋণাত্মক মান, যেমন '-409 ( 409 )'-এর জন্য ব্যবহৃত ডেটা বিন্যাসের দ্বারা কোন অ্যাকাউন্টিং রীতি নির্দেশিত হয়?",
+    "answer": [
+      [
+        "একটি ঋণাত্মক সংখ্যার পরে বন্ধনীতে তার পরম মান দেখানো একটি সাধারণ অ্যাকাউন্টিং রীতি, যা ক্ষতি, খরচ বা বিবিধ-সম্পদের মতো ঋণাত্মক আর্থিক চিত্রগুলিকে স্পষ্টভাবে এবং জোরের সাথে বোঝানোর জন্য ব্যবহৃত হয়।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "কোন লাইন আইটেমটি পিরিয়ডের মধ্যে সম্মিলিত সম্পদ মূল্যের উপর সবচেয়ে বড় একক নেতিবাচক প্রভাব ফেলে?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "২০০৭ থেকে ২০০৮ সাল পর্যন্ত বিনিয়োগ কত কমেছে?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

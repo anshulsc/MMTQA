@@ -1,0 +1,291 @@
+[
+  {
+    "question_id": "wikisql_9f67a2003e_001",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Quelle espèce a la plus grande longueur moyenne de pétale basée sur les échantillons fournis ?",
+    "answer": [
+      [
+        "I.virginica"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_002",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Quelle est la largeur totale des sépales pour toutes les fleurs de l'espèce 'I.setosa' ?",
+    "answer": [
+      [
+        "13.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "B5",
+      "E5",
+      "B7",
+      "E7",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_003",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Pour la fleur avec la largeur de pétale maximale, quelle est sa longueur de sépale correspondante ?",
+    "answer": [
+      [
+        "6.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_004",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Si les fleurs étaient triées par longueur de pétale dans l'ordre croissant, quelle espèce serait la cinquième dans la liste ?",
+    "answer": [
+      [
+        "I.versicolor"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_005",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Listez les longueurs de pétales pour toutes les fleurs 'I.virginica' qui ont une largeur de sépale de 2,7 ou moins.",
+    "answer": [
+      [
+        "5.0"
+      ],
+      [
+        "5.3"
+      ],
+      [
+        "5.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "C2",
+      "E2",
+      "B4",
+      "E4",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_006",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Pour l'espèce 'I.versicolor', quel est le ratio de sa longueur moyenne de pétale à sa largeur moyenne de pétale ?",
+    "answer": [
+      [
+        "3.2"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "D6",
+      "E6",
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_007",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Si la largeur des pétales de chaque fleur 'I.setosa' était doublée, quelle serait la nouvelle largeur moyenne des pétales pour cette espèce ?",
+    "answer": [
+      [
+        "0.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D7",
+      "E7",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_008",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des données fournies, quelle est la relation générale entre la longueur des pétales et la largeur des pétales pour toutes les espèces ?",
+    "answer": [
+      [
+        "Les données indiquent une forte corrélation positive entre la longueur des pétales et la largeur des pétales. Lorsque la longueur des pétales augmente, la largeur des pétales augmente également de manière constante. Par exemple, les fleurs avec de petites longueurs de pétales (par exemple, 1,1, 1,4, 1,5) ont de petites largeurs de pétales (0,1, 0,3, 0,4), tandis que celles avec de grandes longueurs de pétales (par exemple, 5,0, 5,3, 5,6) ont de grandes largeurs de pétales (1,9, 1,9, 2,2)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_009",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Combien d'espèces distinctes sont représentées dans cet ensemble de données ?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_010",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel spécimen de fleur a la longueur de sépale la plus faible dans le jeu de données, et comment ses dimensions de pétale se comparent-elles à la moyenne pour sa propre espèce ?",
+    "answer": [
+      [
+        "La fleur avec la longueur de sépale la plus faible est l'I.setosa dans la ligne 3 (longueur de sépale 4,3). Sa longueur de pétale de 1,1 et sa largeur de pétale de 0,1 sont toutes deux inférieures à la moyenne pour son espèce dans ce jeu de données (longueur moyenne des pétales : 1,425, largeur moyenne des pétales : 0,25)."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "C5",
+      "D5",
+      "E5",
+      "C7",
+      "D7",
+      "E7",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_011",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Quelle est l'espèce de la fleur avec une longueur de sépale de 4,3 et une largeur de sépale de 3,0 ?",
+    "answer": [
+      [
+        "I.setosa"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "E14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

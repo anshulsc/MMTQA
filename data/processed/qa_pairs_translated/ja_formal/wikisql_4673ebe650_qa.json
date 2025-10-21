@@ -1,0 +1,357 @@
+[
+  {
+    "question_id": "wikisql_4673ebe650_001",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "テーブル内で「February」という値を含むデータセルの総数はいくつでしょうか。",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_002",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "「2002年：」の行（2行目）のデータと、列ヘッダー（0行目）を比較してください。最初の列を除いた、主要な構造上の違いは何でしょうか？",
+    "answer": [
+      [
+        "主要な構造上の違いは、「2002年：」の行がデータ本体の一部であるのに対し、ヘッダーがテーブルのスキーマを定義している点です。2列目以降の値（「January」から「December」まで）は、ヘッダー行と「2002年：」の行の両方で同一ですが、それらの機能は異なります。一方はラベルであり、もう一方はデータポイントです。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "K2",
+      "L2",
+      "M2",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_003",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "「2011 :」のエントリから4行上にある行の9列目に記載されている月は何ですか？",
+    "answer": [
+      [
+        "August"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_004",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "データセットの最初の列に示されている年の時系列パターンについて説明してください。",
+    "answer": [
+      [
+        "最初の列には一貫した時系列の進行が示されており、各行は「2001 :」から始まり「2012 :」で終わる連続した年を表しています。この順序は、行ごとに正確に1年ずつ増加しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_005",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "5列目に「April」、12列目に「November」が表示される全ての年を列挙してください。",
+    "answer": [
+      [
+        "2001 :",
+        "2002 :",
+        "2003 :",
+        "2004 :",
+        "2005 :",
+        "2006 :",
+        "2007 :",
+        "2008 :",
+        "2009 :",
+        "2010 :",
+        "2011 :",
+        "2012 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "L1",
+      "A2",
+      "E2",
+      "L2",
+      "A3",
+      "E3",
+      "L3",
+      "A4",
+      "E4",
+      "L4",
+      "A5",
+      "E5",
+      "L5",
+      "A6",
+      "E6",
+      "L6",
+      "A7",
+      "E7",
+      "L7",
+      "A8",
+      "E8",
+      "L8",
+      "A9",
+      "E9",
+      "L9",
+      "A10",
+      "E10",
+      "L10",
+      "A11",
+      "E11",
+      "L11",
+      "A12",
+      "E12",
+      "L12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_006",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "本表が2013年の行を含むように拡張された場合、『October』列に対応するセルに期待される値は何でしょうか。",
+    "answer": [
+      [
+        "October"
+      ]
+    ],
+    "evidence_cells": [
+      "K0",
+      "K1",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_007",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "テーブル全体において、2列目以降の列見出しと、それぞれの列内のデータとの関係性はいかがでしょうか？",
+    "answer": [
+      [
+        "直接的な1対1の同一関係がございます。2列目（「January」）から最終列（「December」）までのいずれの列におきましても、その列内のすべてのデータセルには、当該列の見出しと完全に同一の文字列値が格納されております。"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_008",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "テーブル全体のデータセル値で、その列ヘッダーまたは最初の列の確立された「YYYY :」形式と一致しないものはありますか？データに不整合がないか分析してください。",
+    "answer": [
+      [
+        "いいえ、データに外れ値や不整合はございません。最初の列のすべてのセルは連続する年の「YYYY :」形式に従っており、2列目から最終列までのすべてのセルは、対応する月名のヘッダーと完全に一致しております。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_009",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "データ本体の列の中で、月名を含む列の割合はどのくらいですか。",
+    "answer": [
+      [
+        "0.923"
+      ]
+    ],
+    "evidence_cells": [
+      "A0",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_010",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "最終行と「July」列の交点にある値は何でございますか？",
+    "answer": [
+      [
+        "July"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "H0",
+      "H12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_011",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "この表において、2008年の直後に来る年はどれですか？",
+    "answer": [
+      [
+        "2009 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Sequential/Temporal Reasoning"
+  }
+]

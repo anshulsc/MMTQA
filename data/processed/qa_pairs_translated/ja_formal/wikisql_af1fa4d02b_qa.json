@@ -1,0 +1,264 @@
+[
+  {
+    "question_id": "wikisql_af1fa4d02b_001",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "この表の中で、単独またはチームの一員として、最も多くのエピソードで名前が記載されているライターは誰ですか？",
+    "answer": [
+      [
+        "Michele J. Wolff"
+      ],
+      [
+        "Gene Braunstein"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E5",
+      "E13",
+      "E10",
+      "E2",
+      "E9",
+      "E15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_002",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "リストされているエピソードのうち、正確に3人の作者によって書かれたものはいくつありますか？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "E6",
+      "E7",
+      "E8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_003",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "\"Who's the Boss?\" を執筆したチームが最初に執筆したエピソードの放送日はいつですか？",
+    "answer": [
+      [
+        "October19,1991"
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "E12",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_004",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "open_ended_reasoning",
+    "question": "1991年11月のエピソードの放送パターンを説明してください。一貫性がありましたか、またそれは何を意味しますか？",
+    "answer": [
+      [
+        "1991年11月の放送パターンは非常に一貫していました。エピソードは11月2日、9日、16日、23日に放送されました。日付は正確に7日ごとに離れており、これは規則的な週刊放送スケジュール、おそらく同じ曜日に放送されていたことを示唆しています（土曜日）。"
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_005",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "1992年に放送され、かつ単独の人物によって脚本が書かれたエピソードのタイトルをすべてリストアップしてください。",
+    "answer": [
+      [
+        "Tony Micelli, This is Your Other Life"
+      ],
+      [
+        "Allergic to Love"
+      ],
+      [
+        "Tony and the Honeymooners"
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "E13",
+      "C13",
+      "E14",
+      "C14",
+      "E15",
+      "C15"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_006",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "記載されているエピソードのうち、2名以上のチームによって脚本が書かれたものの割合はどのくらいですか？",
+    "answer": [
+      [
+        "46.7%"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "E6",
+      "E7",
+      "E8",
+      "E10",
+      "E11",
+      "E12",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_007",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "もしエピソード「Misery」が「Death and Love (Part 1)」と同じチームによって書かれていた場合、「Bob Rosenfarb, Danny Kallis & Phil Doran」チームが書いたエピソードの総数はいくつになりますか？",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C7",
+      "E7",
+      "E6",
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_008",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "open_ended_reasoning",
+    "question": "同じライティングチームが複数パートにわたるエピソードの連続するパートに割り当てられる傾向はありますか？データに基づいて、その根拠を示してください。",
+    "answer": [
+      [
+        "はい、利用可能なデータに基づくと、明確な傾向があります。リストされている唯一の複数パートのエピソード「Death and Love」では、「パート1」と「パート2」の両方が同じライティングチーム「Bob Rosenfarb, Danny Kallis & Phil Doran」にクレジットされています。これは、ストーリーアーク全体で物語とスタイルの整合性を維持するための意図的な選択を示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "E7",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_009",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "各エントリで一意ですが、シーケンスに明らかなギャップがあり、シーズンからすべてのエピソードがリストされているわけではないことを示す数値列はどれですか？",
+    "answer": [
+      [
+        "Series #"
+      ],
+      [
+        "Season #"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_010",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "表に示されている放送スケジュールにおいて、最も長い休止期間の後に放送された最初のエピソードのタイトルを特定してください。",
+    "answer": [
+      [
+        "Tony, Can You Spare a Dime?"
+      ]
+    ],
+    "evidence_cells": [
+      "F9",
+      "F10",
+      "C10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_011",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "1991年10月12日に最初に放送されたエピソードはどれですか？",
+    "answer": [
+      [
+        "\"Misery\""
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Kategori finansial mana yang ngalamin kerugian terbesar secara absolut di bawah 'other comprehensive ( loss ) income before reclassifications'?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Berapa total gabungan dari semua 'jumlah yang diklasifikasikan ulang dari kerugian komprehensif lainnya' untuk kategori individual?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Berapa saldo awal pada 3 November 2018 untuk komponen yang punya nilai saldo akhir terkecil pada 2 November 2019?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasin dong tren kerugian lain yang terkumpul secara keseluruhan dari awal sampai akhir periode.",
+    "answer": [
+      [
+        "Total kerugian yang terkumpul bertambah parah banget selama periode itu, dari -$58.440 jadi -$187.799. Ini berarti ada tambahan kerugian bersih sebesar $129.359, lebih dari tiga kali lipat kerugian yang terkumpul di awal periode."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Buat semua kategori yang punya kerugian bersih di 'pendapatan (rugi) komprehensif lain', berapa total gabungannya per 2 November 2019?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Berapa persen dari total saldo negatif pada 2 November 2019 yang diatribusikan ke 'unrealized holding gains (losses) on derivatives'?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Kalau 'other comprehensive ( loss ) income' buat 'pension plans' jadi untung 24.344, bukannya rugi, berapa total saldo akhir yang baru di 2 November 2019?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ada hubungan yang konsisten antara tanda (positif/negatif) dari 'laba komprehensif lain (rugi) sebelum reklasifikasi' dan tanda dari 'laba komprehensif lain (rugi)' akhir untuk setiap kategori?",
+    "answer": [
+      [
+        "Ya, hubungannya konsisten di keempat kategori. Untuk 'mata uang asing', 'derivatif', dan 'program pensiun', nilainya negatif di kedua item baris. Untuk 'sekuritas yang tersedia untuk dijual', nilainya positif di kedua item baris. Oleh karena itu, tanda laba sebelum reklasifikasi secara konsisten cocok dengan tanda laba komprehensif bersih akhir untuk periode tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Item baris spesifik mana, selain total, yang nilainya paling ekstrem (nilai absolut terbesar) di tabel?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Pakai logika roll-forward di mana Saldo Akhir = Saldo Awal + 'other comprehensive ( loss ) income', identifikasi kategori finansial yang nilai laporannya nggak konsisten secara matematis.",
+    "answer": [
+      [
+        "Kategori 'unrealized holding gains ( losses ) on available for sale securities' itu nggak konsisten. Saldo awalnya -10 (sel C1) ditambah 'other comprehensive ( loss ) income'-nya 10 (sel C5) jadi saldo akhir yang dihitung 0, tapi nggak sesuai sama saldo akhir yang dilaporkan 2.014 (sel C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Berapa penurunan dana pensiun dari tahun 2018 ke 2019?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "finqa_ca8448c9ff_001",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Kategori pinjaman mana, tidak termasuk penyesuaian akuntansi pembelian, yang mengalami penurunan nilai terbesar secara absolut dari tahun 2012 ke 2013?",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 purchased impaired loans ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_002",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Dengan menambahkan komponen pinjaman individu untuk tahun 2013 (tidak termasuk penyesuaian), berapa nilai total yang dihitung dalam jutaan?",
+    "answer": [
+      [
+        "51628"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_003",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Berapakah nilai tahun 2013 untuk kategori pinjaman yang menunjukkan penurunan persentase terbesar dari tingkat tahun 2012?",
+    "answer": [
+      [
+        "$ 1704"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_004",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Gambarkan tren keseluruhan untuk 'total pinjaman ekuitas rumah dan real estat residensial (a)' dari akhir tahun 2012 hingga akhir tahun 2013.",
+    "answer": [
+      [
+        "Total pinjaman ekuitas rumah dan real estat residensial mengalami sedikit peningkatan, tumbuh dari $51.160 juta pada akhir tahun 2012 menjadi $51.512 juta pada akhir tahun 2013. Ini mewakili pertumbuhan marjinal sekitar 0,69% pada portofolio keseluruhan."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_005",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Sebutkan semua kategori pinjaman yang nilainya melebihi $6.000 juta pada tahun 2012 dan juga mengalami penurunan nilai pada tahun 2013.",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 purchased impaired loans ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_006",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Berapa persentase dari 'total pinjaman ekuitas rumah dan real estat residensial ( a )' per 31 Desember 2013, yang terdiri dari 'pinjaman terganggu yang dibeli'?",
+    "answer": [
+      [
+        "10.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_007",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Jika nilai 'pinjaman ekuitas rumah dan real estat residensial 2013 pinjaman terganggu yang dibeli (b)' tetap pada tingkat 2012-nya, berapakah 'total pinjaman ekuitas rumah dan real estat residensial (a)' yang baru untuk tahun 2013, dengan asumsi tidak ada perubahan lain?",
+    "answer": [
+      [
+        "$ 52602"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_008",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, apa hubungan yang tampak antara pertumbuhan pinjaman real estat residensial standar (tidak termasuk yang terganggu) dan saldo pinjaman yang terganggu serta yang dijamin pemerintah antara tahun 2012 dan 2013?",
+    "answer": [
+      [
+        "Tampaknya ada hubungan terbalik. Portofolio 'pinjaman ekuitas rumah dan real estat residensial' tumbuh sebesar $1.651 juta, sementara kategori 'pinjaman yang terganggu yang dibeli' dan 'yang dijamin pemerintah' menurun secara signifikan (masing-masing sebesar $1.090 juta dan $575 juta). Hal ini menunjukkan pergeseran strategis menuju pertumbuhan portofolio inti sambil mengurangi eksposur terhadap aset yang terganggu dan yang didukung pemerintah."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_009",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Komponen pinjaman mana yang perubahan tahun-ke-tahunnya memiliki dampak absolut terbesar pada komposisi total portofolio pinjaman?",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 excluding purchased impaired loans ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_010",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Berapa banyak item baris dalam tabel yang secara eksplisit merujuk pada 'pinjaman yang terganggu karena pembelian' dalam deskripsinya?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_011",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "Berapa persen kenaikan total pinjaman ekuitas rumah dan real estat residensial dari tahun 2012 hingga 2013?",
+    "answer": [
+      [
+        "0.69%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

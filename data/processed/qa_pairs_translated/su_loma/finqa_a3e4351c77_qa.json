@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Instrumén hutang naon, teu kaasup total sareng pangaluyuan, anu nilaina pangluhurna dina dua période anu dilaporkeun?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Sabaraha total nilai tina sadaya obligasi pendapatan anu kaidentifikasi anu didaptarkeun pikeun période dina kolom data kadua?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Sabaraha pisan parobahan mutlak dina 'bayaran maturity ayeuna tina hutang jangka panjang' antara dua période ngaleuwihan parobahan mutlak dina 'diskonto hutang anu teu dilunasan'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskeun tren 'total hutang jangka panjang' antara dua période anu ditémbongkeun sareng terangkeun pentingna parobahan ieu.",
+    "answer": [
+      [
+        "Total hutang jangka panjang naék $275,3, tina $10007,5 dina periode anu ditémbongkeun dina kolom C ka $10282,8 dina periode anu ditémbongkeun dina kolom B. Ieu nunjukkeun yén kawajiban hutang jangka panjang éntitas sacara keseluruhan ningkat dina jangka waktu ieu, nunjukkeun yén éta kamungkinan ngaluarkeun langkung seueur hutang énggal tibatan anu dibayar deui."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Sebutkeun sadaya item baris, teu kaasup total, anu direpresentasikeun salaku nilai négatip dina kolom data kadua.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Salaku perséntase tina total hutang jangka panjang pikeun période dina kolom B, bagian mana anu diklasifikasikeun salaku 'hawatos hutang jangka panjang'? Paké nilai mutlak pikeun itungan jeung buleudkeun kana dua tempat desimal.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Upami 'unamortized debt discount' dina kolom data kadua (kolom B) dileungitkeun (nyaeta, disetél jadi nol), sabaraha 'total long-term debt 2013 kmp' kanggo période éta?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Naha aya patalina antara robahna 'current maturities of long-term debt' jeung robahna 'total long-term debt' dina dua période?",
+    "answer": [
+      [
+        "Leres, katingalina aya hubungan sabalikna dina gerakanna. Nalika total hutang jangka panjang naék $275,3 (tina $10007,5 janten $10282,8), gedéna 'current maturities' naék sacara signifikan (tina nilai mutlak 1263,3 janten 596,6). Ieu nunjukkeun yén sanajan perusahaan ngagaduhan hutang langkung seueur sacara umum, éta ogé ngirangan bagian tina hutang éta anu bakal datang dina waktos anu caket."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Baris mana dina kumpulan data anu katingalina mangrupikeun agregasi tina baris sanés, sareng bukti naon anu ngadukung kacindekan ieu?",
+    "answer": [
+      [
+        "Baris anu dilabelan 'total long-term debt 2013 kmp' mangrupikeun agregasi. Bukti utamana nyaéta pamakéan eksplisit kecap 'total' dina kateranganna. Salaku tambahan, nilaina diberekeun kalayan simbol mata uang ('$'), anu béda ti baris séjén, nunjukkeun yén éta mangrupikeun inohong finansial ahir, ringkesan."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Garis item mana anu némbongkeun parobahan paling signifikan dina nilai mutlak antara dua période, ngajantenkeun outlier kauangan tina segi volatilitas?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Nilik kana total hutang jangka panjang jeung diskon hutang nu teu diamortisasi, naon paningkatan efektif dina hutang jangka panjang ti taun 2012 nepi ka 2013?",
+    "answer": [
+      [
+        "Total hutang jangka panjang naek tina $10.007,5 juta dina taun 2012 nepi ka $10.282,8 juta dina taun 2013. Ku nuluykeun diskon hutang nu teu diamortisasi robah tina -21,2 dina taun 2012 nepi ka -20,3 dina taun 2013, paningkatan efektif dina hutang nyaeta $276,8 juta."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

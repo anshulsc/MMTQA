@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "finqa_72311a2c52_001",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "2017年12月31日から2018年12月31日までの総額で最も大きな絶対値の減少を経験したローンカテゴリはどれですか？",
+    "answer": [
+      [
+        "revolving open-end loans secured by one- to four-family residential properties"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_002",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "米国外でのローンカテゴリーで最も高い値が、2018年の総コミットメントの何パーセントを占めていますか？",
+    "answer": [
+      [
+        "28.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "D6",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_003",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "2018年の「商業用不動産建設および土地開発」の米国での価値が10%低かった場合、2018年12月31日の新しい「合計」はいくらになりますか？",
+    "answer": [
+      [
+        "$ 1017937.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_004",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "米国内のコミットメントカテゴリのうち、2017年から2018年にかけて総額が増加し、かつ米国内の金額が100,000百万ドルを超えたものをすべてリストアップしてください。",
+    "answer": [
+      [
+        "credit card lines"
+      ],
+      [
+        "commercial and other consumer loan commitments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "E5",
+      "A6",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_005",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "2017年から2018年の間に、記載されているすべてのコミットメントカテゴリ（合計行を除く）の総額の年平均変化額はいくらでしたか？",
+    "answer": [
+      [
+        "$ 4817.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_72311a2c52_006",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "'商業信用状および類似信用状' のカテゴリーにおいて、2018年時点での米国内の価値と米国外の価値の比率はいくらですか？",
+    "answer": [
+      [
+        "0.18"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_72311a2c52_007",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "総米国コミットメントに対する寄与という点で外れ値となっているカテゴリーは何であり、その総額の何パーセントを占めていますか？",
+    "answer": [
+      [
+        "「クレジットカードライン」カテゴリーは著しい外れ値であり、2018年12月31日時点で総米国コミットメントの約74.27%を占めています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_72311a2c52_008",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "2017年から2018年にかけて、「クレジットカードの利用枠」の年間成長率を、ポートフォリオ全体の成長率と比較して分析してください。",
+    "answer": [
+      [
+        "「クレジットカードの利用枠」カテゴリーは、2017年から2018年にかけて約2.61%成長しました（678,300百万ドルから696,007百万ドル）。これに対し、ポートフォリオ全体は約3.42%成長しました（985,174百万ドルから1,018,894百万ドル）。このことから、「クレジットカードの利用枠」は最大の単一カテゴリーであるものの、この期間におけるポートフォリオ全体の成長率をわずかに下回る成長率であったことが示唆されます。"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "E5",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_009",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "データに基づくと、コミットメントカテゴリーの米国（U.S.）の金額と、2017年から2018年にかけての年間成長率との間に一貫した相関関係はありますか？",
+    "answer": [
+      [
+        "いいえ、一貫した相関関係はありません。例えば、「クレジットカード・ライン」と「商業・その他消費者ローン・コミットメント」という、米国（U.S.）における2つの最大のカテゴリーは、両方とも大幅な成長を経験しました。しかし、米国（U.S.）における3番目に大きいカテゴリーである「1～4家族向け住宅ローン担保付き回転型ローン」は、絶対額で最大の減少を記録しました。これは、米国（U.S.）における金額が大きいことが、年率換算でのプラス成長を保証しないことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "E1",
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B4",
+      "D4",
+      "E4",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_72311a2c52_010",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "表の中で、各コミットメントカテゴリについて、どの列の値が他の2つの列の値を基に計算されていますか？その関係性を説明してください。",
+    "answer": [
+      [
+        "「december 312018」の列は他の列から導出されています。各カテゴリについて、その値は「u.s .」列の値と「outside ofu.s .」列の値の合計です。例えば、最初の行では、$823 (B1) + $4638 (C1) = $5461 (D1)となります。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_011",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "2018年12月31日時点での、米国以外のコミットメント総額に対する米国内コミットメント総額の比率はどのくらいですか？",
+    "answer": [
+      [
+        "4.02 : 1"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

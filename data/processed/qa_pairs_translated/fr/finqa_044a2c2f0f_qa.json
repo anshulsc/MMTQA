@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "finqa_044a2c2f0f_001",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Quel était le total combiné (en millions) de la 'rémunération à base d'actions' et des 'coûts de restructuration, d'atteinte à la valeur et autres coûts de sortie' pour l'exercice 2018 ?",
+    "answer": [
+      [
+        "203.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_002",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Quelle était la valeur des \"impôts différés\" pour l'exercice qui a généré les \"bénéfices nets, y compris les bénéfices attribuables aux intérêts rachetables et non contrôlants\" les plus élevés ?",
+    "answer": [
+      [
+        "-504.3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_003",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "La variation de 'bénéfice net' entre 2017 et 2018, ou la variation de 'flux de trésorerie nets provenant des activités d'exploitation' entre 2016 et 2017, laquelle a connu le plus grand changement en termes absolus ?",
+    "answer": [
+      [
+        "La variation de 'bénéfice net' entre 2017 et 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_004",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance sur trois ans pour les 'frais de pension et d'autres régimes de retraite' de l'exercice 2016 à 2018.",
+    "answer": [
+      [
+        "Les « frais de pension et d'autres régimes de retraite » montrent une tendance à la baisse constante et significative sur la période de trois ans. Les coûts sont passés de 118,1 millions de dollars en 2016 à 35,7 millions de dollars en 2017, puis ont de nouveau chuté à seulement 4,6 millions de dollars en 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_005",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Au cours de l'exercice 2018, quel pourcentage des 'flux de trésorerie nets générés par les activités d'exploitation' était représenté par les 'bénéfices nets, y compris les bénéfices attribuables aux intérêts rachetables et non contrôlants' ? Arrondir à une décimale.",
+    "answer": [
+      [
+        "76.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_006",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Listez les catégories financières qui avaient une valeur positive pour l'exercice 2017 mais sont devenues une valeur négative pour l'exercice 2018.",
+    "answer": [
+      [
+        "deferred income taxes"
+      ],
+      [
+        "pension and other postretirement benefit plan costs"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_007",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiez la ligne financière qui présente le comportement le plus anomal dans l'exercice 2018 par rapport aux deux années précédentes et expliquez pourquoi il s'agit d'une valeur aberrante.",
+    "answer": [
+      [
+        "Les 'impôts différés sur le résultat' constituent l'anomalie la plus significative. Pour les exercices 2016 et 2017, il s'agissait d'un revenu positif de 120,6 M$ et 183,9 M$, respectivement. Cependant, en 2018, il s'est inversé de manière spectaculaire pour devenir une valeur négative de -504,3 M$. Ce revirement de près de 700 M$ par rapport à l'année précédente, passant d'un chiffre positif à un chiffre négatif important, est beaucoup plus extrême que les fluctuations observées dans toute autre catégorie."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_008",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Si la 'perte (gain) sur cessions' pour l'exercice 2018 avait été un gain de 50,0 millions de dollars au lieu de zéro ('-'), quel aurait été le 'flux de trésorerie net fourni par les activités d'exploitation' pour cette année, en supposant que tous les autres chiffres soient restés constants ?",
+    "answer": [
+      [
+        "$ 2891.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_009",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Quelle catégorie financière est la seule à contenir une valeur non numérique et non monétaire dans l'une des colonnes de l'exercice ?",
+    "answer": [
+      [
+        "divestitures loss ( gain )"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_010",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des données fournies, existe-t-il une corrélation observable entre les 'bénéfices nets' et les 'flux de trésorerie nets provenant des activités d'exploitation' sur les trois exercices fiscaux ? Expliquez votre raisonnement.",
+    "answer": [
+      [
+        "Oui, il existe une corrélation positive observable. De 2016 à 2017, les 'bénéfices nets' ont diminué de 1736,8 M$ à 1701,1 M$, et par conséquent, les 'flux de trésorerie nets provenant des activités d'exploitation' ont également diminué de 2764,2 M$ à 2415,2 M$. De 2017 à 2018, les 'bénéfices nets' ont augmenté de manière significative pour atteindre 2163,0 M$, et les 'flux de trésorerie nets' ont également augmenté pour atteindre 2841,0 M$. Dans les deux cas, les deux chiffres ont évolué dans la même direction, suggérant que des bénéfices plus élevés sont associés à un flux de trésorerie d'exploitation plus élevé."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_011",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Au cours de quelle année l'entreprise a-t-elle enregistré la rémunération minimale fondée sur des actions ?",
+    "answer": [
+      [
+        "2018"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

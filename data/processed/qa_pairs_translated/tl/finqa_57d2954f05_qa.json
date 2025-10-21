@@ -1,0 +1,312 @@
+[
+  {
+    "question_id": "finqa_57d2954f05_001",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Aling lokasyon, na eksklusibong nasa ilalim ng 'owned' na pagmamay-ari, ang may pinakamalaking square footage?",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "E5",
+      "A10",
+      "D10",
+      "E10",
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_002",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Kalkulahin ang kabuuang square footage para sa lahat ng mga property na eksklusibong inuupahan.",
+    "answer": [
+      [
+        "701000"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_57d2954f05_003",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Sa pamamagitan ng unang pagtukoy sa lokasyon na nagsisilbing punong-tanggapan ng kumpanya at pagkatapos ay pagsasama-sama ng espasyong pagmamay-ari at inuupahan nito batay sa pinagsamang halaga sa column na squarefootage, alamin ang kabuuang square footage nito.",
+    "answer": [
+      [
+        "1662000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_004",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Tukuyin ang lahat ng lokasyon sa China na ang pangunahing gamit ay kasama ang 'research development and engineering'.",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "C11",
+      "A13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_005",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Anong porsyento ng kabuuang square footage ng lahat ng mga ari-arian na may pinaghalong 'ownedleased' na pagmamay-ari ang nauugnay sa espasyong inuupahan? Ipagpalagay na ang halaga ng square footage para sa mga ari-arian na ito ay nagdudugtong ng mga halaga ng pagmamay-ari at pag-upa (hal., 'X...XY...Y').",
+    "answer": [
+      [
+        "9.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_006",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Kung magpasya ang kumpanya na pagsamahin ang lahat ng kanilang operasyon para sa 'customer support' sa isang sentral na hub, at pipiliin nila ang pasilidad na kasalukuyang nakalista ang 'customer support' bilang pangunahing gamit at may pinakamalaking kabuuang square footage, aling lokasyon ang mapipili?",
+    "answer": [
+      [
+        "santa clara ca"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10",
+      "A12",
+      "C12",
+      "D12",
+      "A13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_007",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Suriin ang datos upang matukoy kung may ugnayan sa pagitan ng 'uri' ng ari-arian at ang katayuan ng 'pagmamay-ari' nito. Partikular, mas madalas bang lumitaw ang isang uri ng ari-arian na may tiyak na modelo ng pagmamay-ari?",
+    "answer": [
+      [
+        "Oo, mukhang may ugnayan. Ang uri na 'office plant & warehouse' ay nagpapakita ng iba't ibang profile ng pagmamay-ari, kabilang ang 5 'ownedleased', 3 'owned', at 3 'leased' na mga ari-arian. Sa kabilang banda, ang uri na 'office & warehouse', na kinakatawan ng dalawang lokasyon lamang, ay may kasamang isang 'ownedleased' at isang 'leased' na ari-arian, ngunit kapansin-pansin na walang mga pasilidad na ganap na 'owned' sa dataset na ito. Ito ay nagpapahiwatig na ang mga pasilidad na may kasamang 'plant' ay mas malamang na hindi bababa sa bahagyang o ganap na pagmamay-ari ng kumpanya kumpara sa mga pasilidad na opisina at bodega lamang."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8",
+      "B9",
+      "E9",
+      "B10",
+      "E10",
+      "B11",
+      "E11",
+      "B12",
+      "E12",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_57d2954f05_008",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Mula sa pananaw ng isang data analyst, aling column ang nagpapakita ng pinakamahalagang structural complexity na mangangailangan ng conditional parsing logic bago maisagawa ang numerical analysis?",
+    "answer": [
+      [
+        "Ang column na 'squarefootage' (D) ang nagpapakita ng pinakamaraming structural complexity. Habang ang 'principal use' column ay naglalaman ng mga delimited list, ang 'squarefootage' column ay naglalaman ng parehong standard integer values at concatenated string values (halimbawa, '1512000150000'). Upang tama na mabigyang-kahulugan at magamit ang data na ito para sa numerical analysis, kailangang magpatupad ng conditional logic na titingnan ang katumbas na value sa 'ownership' column (E). Kung ang ownership ay 'ownedleased', ang string ay dapat hatiin sa dalawang magkahiwalay na numerical values; kung hindi, maaari itong ituring bilang isang solong integer. Ang pag-asa sa ibang column na ito ang nagpapataas ng kumplikasyon sa parsing logic nito kumpara sa iba pang mga column."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12",
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_009",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Sa lahat ng mga pasilidad kung saan ang 'manufacturing' ay isang pangunahing gamit, aling lokasyon ang may pinakamalaking positibong outlier sa kabuuang square footage kumpara sa median na laki ng grupong ito?",
+    "answer": [
+      [
+        "austin tx"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_57d2954f05_010",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Ilang porsyento ng mga nakalistang pasilidad ang matatagpuan sa USA (tinukoy ng mga daglat ng estado CA, TX, MT, MA)?",
+    "answer": [
+      [
+        "30.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_011",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Ano ang square footage ng opisina na matatagpuan sa Austin, TX?",
+    "answer": [
+      [
+        "1,719,000–1,450,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

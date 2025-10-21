@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Aktivitas mana yang punya dampak negatif lebih besar ke 'total equity': 'dividends' atau 'repurchases of common stock'?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Berapa perubahan bersih di 'modal disetor' dari semua aktivitas yang terdaftar di antara tanggal saldo 2011 dan 2012?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Berapa dampak total ekuitas dari transaksi yang melibatkan kenaikan 'modal disetor' sebesar $662?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Coba analisis perubahan 'total ekuitas' dari 31 Desember 2011 sampai 31 Desember 2012, dan sebutin faktor utama yang bikin berubah.",
+    "answer": [
+      [
+        "Total ekuitas turun dari $70.078 jadi $65.428, penurunan bersih $4.650. Walaupun ada beberapa faktor yang berkontribusi, penyebab terbesar penurunan ini adalah 'reklasifikasi ke kepentingan non-pengendali yang dapat ditebus', yang sendirian menyumbang dampak negatif $4.288, mewakili lebih dari 92% dari total penurunan bersih."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Sebutin semua aktivitas keuangan yang bikin 'modal disetor' berkurang tapi nggak ngaruh ke 'laba ditahan'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Berapa persen 'retained earnings' awal dari 31 Des 2011 yang dibayarkan sebagai 'dividen' selama periode tersebut?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Kalau 'foreign currency translation adjustments' dampaknya netral (alias nol) ke total ekuitas, berapa saldo akhir total ekuitas per 31 Desember 2012?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan saldo awal dan akhir, serta baris transaksi 'shares issued under employee plans', apa hubungan antara 'employee stock trust' dan 'common stock issued to employee trust'?",
+    "answer": [
+      [
+        "Ada hubungan terbalik yang konsisten. Nilai di kolom 'common stock issued to employee trust' selalu merupakan kebalikan persis dari nilai di kolom 'employee stock trust' untuk setiap baris yang diberikan (misalnya, $3166 vs -$3166 pada saldo awal; -$234 vs $234 untuk saham yang diterbitkan). Ini menunjukkan bahwa keduanya adalah akun kontra satu sama lain, yang dirancang untuk menyeimbangkan dampaknya dalam perhitungan total ekuitas."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Nggak ngitung baris pertama sama terakhir yang isinya saldo, nilai apa yang paling sering muncul di dataset dari kolom B sampe K?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Di antara semua transaksi yang memengaruhi 'total ekuitas', item tunggal mana yang paling menonjol sebagai outlier negatif terbesar?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Berapa total preferred stock di akhir 31 Desember 2012?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

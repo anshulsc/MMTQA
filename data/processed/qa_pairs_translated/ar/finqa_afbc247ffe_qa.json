@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "ما هو المبلغ الإجمالي لـ \"المبالغ المعاد تصنيفها من الدخل الشامل الآخر المتراكم\" المسجلة عبر الفترات الثلاث المعروضة في الجدول؟",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "أي من الفئات المالية الرئيسية الثلاث (الأدوات المشتقة، حصة المشروع المشترك، الأوراق المالية القابلة للتسويق) شهدت أكبر زيادة مطلقة في رصيدها من 31 ديسمبر 2014 إلى 31 ديسمبر 2017؟",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "في الفترة التي شهدت أعلى إجمالي 'الدخل الشامل الآخر قبل إعادة التصنيفات'، ما هو المبلغ المقابل الذي تم إعادة تصنيفه من 'حصة إس إل جرين 2019 في الربح غير المحقق الصافي لأدوات المشتقات للمشروع المشترك'؟",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "صف الاتجاه السنوي للرصيد الإجمالي من 31 ديسمبر 2014 إلى 31 ديسمبر 2017. هل كان التغيير ثابتًا؟",
+    "answer": [
+      [
+        "لم يكن الاتجاه ثابتًا؛ بل كان متقلبًا. انخفض الرصيد الإجمالي من -6980 في عام 2014 إلى -8749 في عام 2015. ثم شهد زيادة كبيرة جدًا ليصل إلى 22137 في عام 2016، تلتها انخفاض معتدل ليصل إلى 18604 في عام 2017. لم يكن النمو ثابتًا أو خطيًا."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "اذكر الفئات المالية التي كان لديها رصيد سلبي في بداية الفترة (31 ديسمبر 2014) وانتهت برصيد إيجابي في نهاية الفترة (31 ديسمبر 2017).",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية من إجمالي 'الدخل الشامل الآخر قبل إعادة التصنيف' في فترة عام 2016 التي تُعزى إلى 'صافي الربح غير المحقق من الأدوات المشتقة (1)'؟",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "إذا كان 'الدخل (الخسارة) الشامل الآخر قبل إعادة التصنيف' لـ 'صافي الربح غير المحقق على الأوراق المالية القابلة للتسويق' في فترة عام 2017 قد بلغ ربحًا قدره 1000 دولار بدلاً من خسارة قدرها 1348 دولارًا، فما هو رصيد 'الإجمالي' الجديد في 31 ديسمبر 2017؟",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على البيانات المقدمة، هل هناك ارتباط ثابت (مباشر أو عكسي) بين 'الدخل الشامل الآخر (الخسارة) قبل إعادة التصنيف' و 'المبالغ المعاد تصنيفها من الدخل الشامل المتراكم' للإجمالي في كل فترة؟",
+    "answer": [
+      [
+        "لا، لا يوجد ارتباط ثابت. في فترة عام 2015، تبعت خسارة شاملة قدرها -13,467 إعادة تصنيف إيجابية بقيمة 11,698 (علاقة عكسية). ومع ذلك، في كل من فترتي عام 2016 وعام 2017، كان للدخل/الخسارة وإعادة التصنيف نفس الإشارة (إيجابي/إيجابي وسلبي/سلبي على التوالي)، مما يشير إلى علاقة مباشرة في تلك السنوات. يشير عدم الاتساق إلى أن التوقيت والمبلغ المعاد تصنيفهما لا يتحددان فقط بناءً على الأداء غير المحقق للفترة السابقة."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "كيف يتم اشتقاق أرصدة نهاية العام رياضياً من الرصيد السابق والأنشطة المالية المؤقتة الموضحة في الجدول؟",
+    "answer": [
+      [
+        "يمثل رصيد نهاية كل عام مجموع رصيد نهاية العام السابق، و \"إجمالي الدخل (الخسارة) الشامل الآخر قبل إعادة التصنيف\" للفترة الحالية، و \"المبالغ المعاد تصنيفها من الدخل الشامل الآخر المتراكم\" للفترة الحالية. على سبيل المثال، يتم حساب رصيد عام 2016 (22137) على أنه رصيد عام 2015 (-8749) مضافاً إليه الدخل الشامل الآخر للفترة 2016 (18211) والمبالغ المعاد تصنيفها (12675)."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "أي حدث مالي منفرد (أي، بند غير بند رصيد) في عمود 'الإجمالي' يمثل أكبر قيمة مطلقة، مما يشير إلى الحدث الأكثر أهمية للدخل الشامل أو الخسارة خلال الفترة المكونة من ثلاث سنوات؟",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "ما هو إجمالي صافي الربح غير المحقق عبر جميع الفئات في نهاية عام 2015؟",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

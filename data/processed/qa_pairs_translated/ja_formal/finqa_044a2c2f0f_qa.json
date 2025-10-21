@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "finqa_044a2c2f0f_001",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "2018会計年度における「株式報酬」および「リストラ、減損、その他の離職関連費用」の合計（百万ドル単位）はいくらでしたか？",
+    "answer": [
+      [
+        "203.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_002",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "「清算可能株式及び非支配持分に帰属する収益を除く純利益」が最も高かった事業年度における「繰延法人税」の値は何でしたか？",
+    "answer": [
+      [
+        "-504.3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_003",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "'純利益'の2017年から2018年にかけての増減額と、'営業活動によるキャッシュフロー'の2016年から2017年にかけての増減額とを、絶対額で比較した場合、どちらの増減額がより大きかったですか？",
+    "answer": [
+      [
+        "'純利益'の2017年から2018年にかけての増減額"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_004",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "2016年度から2018年度までの「年金およびその他の退職後給付制度費用」の3年間の推移を説明してください。",
+    "answer": [
+      [
+        "「年金およびその他の退職後給付制度費用」は、3年間で一貫して大幅に減少する傾向を示しています。費用は2016年度の1億1810万ドルから2017年度には3570万ドルに減少し、その後2018年度にはわずか460万ドルに急落しました。"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_005",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "2018会計年度において、「発行済株式総数」は「希薄後一株当たり利益」の何パーセントを占めましたか？小数点以下一位を四捨五入してください。",
+    "answer": [
+      [
+        "76.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_006",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "2017年度は正の値であったが、2018年度には負の値となった財務カテゴリーをリストアップしてください。",
+    "answer": [
+      [
+        "deferred income taxes"
+      ],
+      [
+        "pension and other postretirement benefit plan costs"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_007",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "2018年度において、過去2年と比較して最も異常な動きを示した財務項目を特定し、それが外れ値である理由を説明してください。",
+    "answer": [
+      [
+        "'繰延税金負債'（deferred income taxes）が最も顕著な外れ値です。2016年度と2017年度はそれぞれ1億2060万ドル、1億8390万ドルのプラスの収益でしたが、2018年度にはマイナス5億430万ドルへと劇的に反転しました。前年からの約7億ドルの変動、つまりプラスから大きなマイナスへの転換は、他のどの項目で見られる変動よりもはるかに極端です。"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_008",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "2018年度の「譲渡損失（利益）」がゼロ（「-」）ではなく5000万ドル（50.0百万ドル）の利益であった場合、他のすべての数値を一定と仮定すると、その年度の「営業活動により提供された純現金」はいくらになっていたでしょうか？",
+    "answer": [
+      [
+        "$ 2891.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_009",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": " fiscal year のいずれかの列に、数値および通貨以外の値が唯一含まれる財務カテゴリはどれですか？",
+    "answer": [
+      [
+        "divestitures loss ( gain )"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_010",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "提供されたデータに基づき、「純利益」と「営業活動による純キャッシュフロー」の間には、3つの会計年度にわたって観測可能な相関関係はありますか？その理由を説明してください。",
+    "answer": [
+      [
+        "はい、観測可能な正の相関関係があります。2016年から2017年にかけて、「純利益」は17億3680万ドルから17億110万ドルに減少し、それに伴い、「営業活動による純キャッシュフロー」も27億6420万ドルから24億1520万ドルに減少しました。2017年から2018年にかけて、「純利益」は21億6300万ドルへと大幅に増加し、「純キャッシュフロー」も28億4100万ドルに上昇しました。どちらのケースでも、両者の数値は同じ方向に動いており、利益が高いほど営業キャッシュフローも高くなることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_011",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "同社が株式報酬を最も少なく計上した年度はいつですか？",
+    "answer": [
+      [
+        "2018"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

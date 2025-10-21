@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "어떤 모델의 주 수식에 무위험 이자율 구성 요소가 명시적으로 포함되어 있습니까?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Z-점수 모델 공식에서 입력으로 사용되는 고유한 'X' 변수의 총 개수는 몇 개입니까?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "'총 자산'을 최소 세 개의 설명된 파라미터에서 분모로 사용하는 모델을 식별하고, 해당 모델에서 '시가 총액' 대 '총 부채' 비율을 나타내는 파라미터는 무엇인지 명시하십시오.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "'t 시점'으로 명시적으로 측정된 매개변수를 포함하는 모델은 무엇입니까?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "결과가 이진 결과(y=1)의 확률을 결정하는 분석 목표인 경우, 표에 나열된 모델 중 어떤 것이 가장 적합한 선택입니까?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-점수 모델에서 '세전 이자 지급 전 이익/총자산 비율'을 나타내는 변수의 가중치(계수)는 얼마이며, 다른 변수들과 비교했을 때 이 가중치는 어떻습니까?",
+    "answer": [
+      [
+        "X3(세전 이자 지급 전 이익/총자산 비율)의 계수는 3.3입니다. 이는 다섯 가지 변수 중 가장 높은 가중치로, X1(1.2), X2(1.4), X4(0.6), X5(0.99)와 같은 변수들에 비해 최종 Z-점수에 가장 큰 영향을 미친다는 것을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Z-점수 모델의 업데이트 버전에서 '총 자산 대비 운전 자본 비율'의 영향이 50% 감소했다면, X1의 새로운 계수는 얼마입니까?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-점수 모델 공식에 따르면, 기업의 총 매출 대비 총자산 비율과 그 결과로 나타나는 Z-점수 사이에는 어떤 관계가 있다고 추론할 수 있습니까?",
+    "answer": [
+      [
+        "총 매출/총자산 비율(X5)과 Z-점수 사이에는 양의 상관관계가 있습니다. 공식에 따르면 Z-점수는 다섯 가지 비율의 가중 합이며, X5의 계수는 양수(0.99)입니다. 따라서 다른 모든 요인을 일정하게 유지할 경우, 총 매출 대비 총자산 비율의 증가는 Z-점수의 상승으로 이어질 것입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "세 번째 열에 설명된 가장 많은 수의 고유 매개변수를 포함하는 모델은 무엇입니까?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-점수 모델의 공식에서 수치 계수를 살펴볼 때, 다른 계수들에 비해 특이값으로 두드러지는 계수는 무엇입니까?",
+    "answer": [
+      [
+        "변수 X3에 대한 계수 3.3은 상당한 특이값입니다. 공식의 다른 계수들은 1.2, 1.4, 0.6, 0.99로, 모두 0.6에서 1.4 사이의 범위에 집중되어 있습니다. 값 3.3은 다음으로 높은 계수(1.4) 값의 두 배 이상으로, 나머지 계수들보다 훨씬 큽니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "시장 및 규모/장부가치 대비 요인 모두를 고려할 때 자산 수익률 예측에 어떤 모델이 더 적합하며 그 이유는 무엇입니까?",
+    "answer": [
+      [
+        "요인 모델(Factor Model)이 더 적합할 것입니다. 이 모델은 시장 수익률(r_m - r_f), 규모 요인(SMB), 그리고 장부가치 대비 요인(HML)을 명시적으로 통합하여 로지스틱 회귀(Logistic Regression)나 Z-점수 모델(Z-score Model)이 고려하지 않는 자산 수익률 변동의 여러 차원을 포착할 수 있기 때문입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

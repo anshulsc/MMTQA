@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "สำหรับแอปพลิเคชันที่วิธี MarS เกี่ยวข้องกับการเปรียบเทียบตลาดปัจจุบันกับตลาดจำลอง วิธีการปัจจุบันที่สอดคล้องกันจะเปรียบเทียบอะไร",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "แอปพลิเคชันที่ระบุมีกี่เปอร์เซ็นต์ที่ใช้วิธีการ 'MarS' ซึ่งเกี่ยวข้องกับ 'การสร้าง' หรือ 'การจำลอง'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "MarS ซึ่งเป็นวิธีการสำหรับแอปพลิเคชัน 'Detection' มีการเปลี่ยนแปลงการเปรียบเทียบตามเวลาที่ใช้ใน 'Current Methods' อย่างไร?",
+    "answer": [
+      [
+        "'Current Methods' สำหรับ 'Detection' อาศัยการเปรียบเทียบในอดีตโดยการคำนวณความแตกต่างระหว่างสถานะตลาดปัจจุบัน (market_now) และสถานะตลาดในอดีต (market_past) วิธีการ MarS ช่วยลดการพึ่งพาข้อมูลในอดีตนี้ลง โดยจะเปรียบเทียบตลาดปัจจุบัน (market_now) กับตลาดจำลองที่เกิดขึ้นพร้อมกัน (simu-market_now) แทน ซึ่งเป็นการเปลี่ยนการเปรียบเทียบจากการพิจารณาตามเวลา (ตอนนี้เทียบกับตอนนั้น) ไปสู่กรอบการทำงานที่อิงตามแบบจำลอง (จริงเทียบกับจำลอง)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "โปรดระบุ 'Current Methods' สำหรับแอปพลิเคชันทั้งหมดที่ 'MarS' method ถูกอธิบายว่าเป็น 'pipeline' หรือเกี่ยวข้องกับการ 'generation'?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "แอปพลิเคชันใดแสดงให้เห็นถึงการเปลี่ยนแปลงแนวทางที่สำคัญที่สุดระหว่าง 'วิธีการปัจจุบัน' และ 'MarS' โดยเปลี่ยนจากการเปรียบเทียบเชิงประวัติศาสตร์ไปเป็นการเปรียบเทียบจากการจำลอง?",
+    "answer": [
+      [
+        "แอปพลิเคชัน 'การตรวจจับ' (Detection) แสดงให้เห็นถึงการเปลี่ยนแปลงที่สำคัญที่สุด วิธีการปัจจุบันอาศัยการเปรียบเทียบตามลำดับเวลาที่มองย้อนกลับไป (Diff(market_now, market_past)) ในทางตรงกันข้าม วิธีการ MarS นำเสนอการเปรียบเทียบกับความเป็นจริงจำลองที่เกิดขึ้นพร้อมกัน (Diff(market_now, simu-market_now)) การเปลี่ยนแปลงนี้จากการอ้างอิงเชิงประวัติศาสตร์ไปสู่การอ้างอิงจากการจำลองสำหรับการเปรียบเทียบถือเป็นจุดแตกต่างทางแนวคิดที่สำคัญเมื่อเทียบกับการเปลี่ยนแปลงวิธีการอื่น ๆ ในตาราง"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "หากวิธีการ 'MarS' สำหรับ 'RL Environment' ถูกปรับเปลี่ยนให้ใช้ความพร้อมใช้งานของข้อมูลจาก 'Current Methods' สำหรับแอปพลิเคชันเดียวกัน ลักษณะสองประการใดที่จะกำหนดวิธีการ MarS สมมตินี้?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "สำหรับแอปพลิเคชัน 'RL Environment' ความแตกต่างที่สำคัญในด้านความพร้อมใช้งานของข้อมูลและการแจกแจงความน่าจะเป็นระหว่าง 'Current Methods' และ 'MarS' คืออะไร?",
+    "answer": [
+      [
+        "ความแตกต่างที่สำคัญอยู่ที่ปริมาณข้อมูลและความถูกต้องของการแจกแจงความน่าจะเป็น 'Current Methods' อาศัย 'ข้อมูลจำกัด' และการแจกแจงความน่าจะเป็นที่ 'ไม่ถูกต้อง' (P(st+1|st,at)) ในขณะที่ 'MarS' ใช้ 'ข้อมูลไม่จำกัด' และการแจกแจงความน่าจะเป็นที่ 'ถูกต้อง'"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "มีแอปพลิเคชันที่ระบุจำนวนกี่รายการที่เกี่ยวข้องกับคำว่า 'data' ในคำอธิบายวิธีการสำหรับ 'Current Methods' หรือ 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "จากตาราง ข้อได้เปรียบโดยรวมที่เห็นได้ชัดของ MarS เมื่อเทียบกับ Current Methods คืออะไร โดยเฉพาะอย่างยิ่งในเรื่องของข้อมูลและการแสดงความเป็นจริง?",
+    "answer": [
+      [
+        "ธีมหลักชี้ให้เห็นว่าวิธีการของ MarS มีเป้าหมายเพื่อเอาชนะข้อจำกัดของข้อมูลในอดีตหรือข้อมูลที่มีจำกัด โดยใช้แนวทางที่สร้างขึ้นและการจำลอง MarS เปลี่ยนจากการประมาณค่าไปสู่การสร้าง จากการเปรียบเทียบในอดีตไปสู่การเปรียบเทียบแบบจำลอง และจากโมเดลข้อมูลที่จำกัด/ปลอมไปสู่โมเดลข้อมูลที่ไม่มีที่สิ้นสุด/จริง สิ่งนี้แสดงให้เห็นถึงความได้เปรียบเชิงกลยุทธ์ในการสร้างสภาพแวดล้อมข้อมูลที่แข็งแกร่ง ยืดหยุ่น และสมจริงยิ่งขึ้นสำหรับการวิเคราะห์และการเรียนรู้แบบเสริมกำลัง"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ไม่รวมแถวส่วนหัว มีแอปพลิเคชันที่แตกต่างกันกี่รายการที่ระบุไว้ในตาราง?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "วิธีการปัจจุบันที่ใช้สำหรับการคาดการณ์คืออะไร?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

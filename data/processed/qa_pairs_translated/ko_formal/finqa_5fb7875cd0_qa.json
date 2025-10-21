@@ -1,0 +1,276 @@
+[
+  {
+    "question_id": "finqa_5fb7875cd0_001",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "가장 큰 2017년 연간 인센티브 상을 받은 명명된 임원은 누구입니까?",
+    "answer": [
+      [
+        "leo p . denault"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_002",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "표에 기재된 모든 임원의 기본 급여 총액은 얼마입니까?",
+    "answer": [
+      [
+        "$5,436,072"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_003",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "'기본 급여 대비 목표 비율'이 가장 낮으면서 '목표 대비 지급 비율'은 가장 낮지 않은 임원의 연간 인센티브 상금은 얼마입니까?",
+    "answer": [
+      [
+        "$ 169123"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "A9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_004",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "'연간 인센티브 상여금'에 대한 데이터는 어느 연도에 대해 제공됩니까?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_005",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "기본급이 400,000달러 미만이고 목표 비율 대비 지급액이 120%를 초과하는 모든 임원의 이름을 나열하십시오.",
+    "answer": [
+      [
+        "phillip r . may jr .",
+        "richard c . riley"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_006",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Phillip R. May Jr.의 목표 인센티브 금액은 얼마였습니까? (기본 급여 * 목표 비율로 계산)",
+    "answer": [
+      [
+        "$219,690"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_007",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "만약 회사가 모든 임원에게 '목표 대비 지급률'을 130%로 상한선을 정했다면, Richard C. Riley의 '2017년 연간 인센티브 상여금'은 얼마였을까요? (상여금 = 기본 급여 * 목표율 * 지급률)",
+    "answer": [
+      [
+        "$178,984"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_008",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "open_ended_reasoning",
+    "question": "'기본 급여 대비 목표 비율'과 실제 '목표 대비 지급 비율' 사이에 일관된 관계가 있습니까? 그 결과를 설명해 주십시오.",
+    "answer": [
+      [
+        "명확하고 일관된 관계는 없습니다. 예를 들어, 목표 비율이 70%인 임원은 129%의 지급액을 받았고, 목표 비율이 135%인 임원도 129%의 지급액을 받았습니다. 반대로, 목표 비율이 40%인 네 명의 임원은 세 가지 다른 지급 비율(119%, 79%, 204%)을 가졌습니다. 이는 지급 비율이 초기 목표 비율 자체 이외의 다른 요인에 의해 결정될 가능성이 높다는 것을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_009",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "'목표 대비 지급률' 열에 몇 개의 고유한 값이 있습니까?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_010",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "모든 임원의 중간 시상금과 비교했을 때 '2017 연간 인센티브 시상금'이 가장 큰 이상치를 보이는 임원은 누구입니까?",
+    "answer": [
+      [
+        "leo p . denault"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_011",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "기본급으로 500,000달러 이상을 받는 임원진은 몇 명입니까?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

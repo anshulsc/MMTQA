@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_987530c2ac_001",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "会社が最も小額のプロフォーマ純損失を経験したのはどの年ですか？",
+    "answer": [
+      [
+        "2004"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_002",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2002年、2003年、2004年の3年間の「報告済みの純損失」の合計はいくらでしたか？",
+    "answer": [
+      [
+        "-1736448"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_987530c2ac_003",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "「報告済み」および「プロフォーマ」の普通株一株当たり純損失の絶対額の差が最も大きかった年は、その差額はいくらでしたか？",
+    "answer": [
+      [
+        "0.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "C5",
+      "C6",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_004",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "会社の「プロフォーマ純損失」の2002年から2004年にかけての推移について説明してください。",
+    "answer": [
+      [
+        "同社のプロフォーマ純損失は、2002年から2004年にかけて一貫して大幅な減少傾向を示しました。損失額は2002年の1,201,666ドルから2003年には354,400ドルに、さらに2004年には269,196ドルへと減少し、この期間における財務実績の顕著な改善を示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_005",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "「株式報酬費用（追加）」が2077であった年の「株主異議訴訟の予測純損失」はいくらでしたか？",
+    "answer": [
+      [
+        "$ -354400 ( 354400 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_006",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2003年において、「報告済みの純損失」の絶対額のうち、「総株式報酬費用」はどのくらいの割合を占めましたか？",
+    "answer": [
+      [
+        "9.58%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_987530c2ac_007",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2002年の「株式報酬費用」の修正が欠損値ではなく5,000であった場合、その年の再計算された「プロフォーマ純損失」はいくらになりますか？",
+    "answer": [
+      [
+        "-1196666"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_008",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "データに基づくと、「総株式報酬費用」と「プロフォーマ純損失」の間には、2002年から2004年にかけてどのような関係が見られますか？",
+    "answer": [
+      [
+        "「総株式報酬費用」の規模と「プロフォーマ純損失」の間には、正の相関関係があるようです。株式報酬費用は、2002年の38,126ドルから2004年の23,906ドルへと毎年減少するにつれて、プロフォーマ純損失も1,201,666ドルから269,196ドルへと一貫して減少し、株式報酬費用が高い年はプロフォーマ純損失も高かったことが示唆されます。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_987530c2ac_009",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "表に示された年において、データが不完全な財務項目はどれですか？",
+    "answer": [
+      [
+        "add : stock-based employee compensation expense associated with modifications net of related tax effect included in net loss asreported"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_010",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "「報告済みの1株当たり基本および希薄化後純損失」は、他の年と比較してどの年のものが外れ値と見なされるか、またその理由は何か？",
+    "answer": [
+      [
+        "2002年が明確な外れ値です。2002年の「報告済みの1株当たり基本および希薄化後純損失」は-5.95ドルであり、これは2003年の-1.56ドルや2004年の-1.10ドルと比較して、その絶対値で3.8倍以上、5.4倍以上大きくなっています。その後の数年間でこの指標が急激に減少していることは、2002年が例外的に高い1株当たり損失を計上した年であることを浮き彫りにしています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_987530c2ac_011",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2003年のプロフォーマ純損失はいくらでしたか？",
+    "answer": [
+      [
+        "$ -354,400"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

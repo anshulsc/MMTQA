@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Qual è stato il totale netto di tutti gli 'importi riclassificati dall'utile complessivo netto accumulato' registrati nei tre periodi mostrati nella tabella?",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Qual delle tre categorie finanziarie principali (strumenti derivati, quota di joint venture, titoli negoziabili) ha registrato il maggiore aumento assoluto del saldo dal 31 dicembre 2014 al 31 dicembre 2017?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Nel periodo con il maggior 'altro reddito complessivo prima delle riclassificazioni', qual era l'importo corrispondente riclassificato da 'quota di sl green 2019s dell'utile netto non realizzato sugli strumenti derivati della joint venture'?",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento anno su anno del saldo totale dal 31 dicembre 2014 al 31 dicembre 2017. La variazione è stata costante?",
+    "answer": [
+      [
+        "L'andamento non è stato costante; è stato volatile. Il saldo totale è diminuito da -6980 nel 2014 a -8749 nel 2015. Successivamente ha registrato un aumento molto elevato fino a 22137 nel 2016, seguito da una diminuzione moderata a 18604 nel 2017. La crescita non è stata stabile né lineare."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Elenca le categorie finanziarie che avevano un saldo negativo all'inizio del periodo (31 dicembre 2014) e hanno concluso con un saldo positivo alla fine del periodo (31 dicembre 2017).",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Quale percentuale del 'reddito complessivo netto prima delle riclassificazioni' totale nel periodo 2016 era attribuibile al 'guadagno netto non realizzato su strumenti derivati (1)'?",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Se l'\"other comprehensive (loss) income before reclassifications\" per l'\"net unrealized gain on marketable securities\" nel periodo 2017 fosse stato un guadagno di $1.000 invece di una perdita di $1.348, quale sarebbe stato il nuovo \"total\" al 31 dicembre 2017?",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Sulla base dei dati forniti, esiste una correlazione coerente (diretta o inversa) tra \"other comprehensive (loss) income before reclassifications\" e \"amounts reclassified from accumulated other comprehensive income\" per gli importi totali in ciascun periodo?",
+    "answer": [
+      [
+        "No, non esiste una correlazione coerente. Nel periodo 2015, una perdita complessiva di -13.467 è stata seguita da una riallocazione positiva di 11.698 (relazione inversa). Tuttavia, sia nel periodo 2016 che nel 2017, il reddito/perdita e la riallocazione hanno avuto lo stesso segno (positivo/positivo e negativo/negativo rispettivamente), indicando una relazione diretta in quegli anni. L'incoerenza suggerisce che la tempistica e l'importo delle riallocazioni non sono determinati esclusivamente dalle prestazioni non realizzate del periodo precedente."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Come vengono derivati matematicamente i saldi di fine anno dal saldo precedente e dalle attività finanziarie intermedie mostrate nella tabella?",
+    "answer": [
+      [
+        "Ogni saldo di fine anno è la somma del saldo di chiusura dell'anno precedente, dell'\"altro reddito (perdita) complessivo prima delle riclassificazioni\" per il periodo corrente e degli \"importi riclassificati dall'utile complessivo accumulato\" per il periodo corrente. Ad esempio, il saldo del 2016 (22.137) è calcolato come il saldo del 2015 (-8.749) più il reddito complessivo (18.211) e gli importi riclassificati (12.675) del periodo 2016."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Quale singolo evento finanziario (cioè, una voce di riga non di saldo) nella colonna 'totale' rappresenta il valore assoluto più grande, indicando l'evento di reddito o perdita complessiva più significativo durante il periodo di tre anni?",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Qual è il guadagno netto non realizzato totale in tutte le categorie alla fine del 2015?",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

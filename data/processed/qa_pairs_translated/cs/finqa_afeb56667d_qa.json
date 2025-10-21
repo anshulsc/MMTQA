@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "finqa_afeb56667d_001",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Jaké byly celkové příjmy za celý rok 2009?",
+    "answer": [
+      [
+        "995847"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afeb56667d_002",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Který finanční ukazatel, kromě 'celkových příjmů', zůstal ve všech čtyřech čtvrtletích roku 2009 naprosto konzistentní?",
+    "answer": [
+      [
+        "preferred stock dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_003",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Ve čtvrtletí s nejvyšším \"ziskem z předčasného splacení dluhu\" jaký byl odpovídající \"čistý zisk (ztráta) na akcii s běžnou akcií - zředěný\"?",
+    "answer": [
+      [
+        "$ 0.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_004",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište trend „čistého zisku (ztráty) připadajícího na akcionáře kmenových akcií SL Green“ od začátku do konce roku 2009.",
+    "answer": [
+      [
+        "Čistý zisk pro akcionáře kmenových akcií vykazoval během roku 2009 konzistentní a prudce klesající trend. Začal na vysokém zisku 32 768 USD k datu 31. března, výrazně klesl na 12 543 USD k 30. červnu, změnil se ve ztrátu -2 520 USD k 30. září a ztráta se dále prohloubila na -5 123 USD k 31. prosinci."
+      ]
+    ],
+    "evidence_cells": [
+      "E10",
+      "D10",
+      "C10",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_005",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Uveďte všechna čtvrtletí, kde byl „čistý zisk (ztráta) připadající na společnost SL Green“ kladný A zároveň „zisk (ztráta) z prodeje ukončených provozů“ byl také kladný.",
+    "answer": [
+      [
+        "june 30"
+      ],
+      [
+        "march 31"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_006",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Jaké procento z 'celkových příjmů' za čtvrtletí končící 30. září představovaly 'dividendy z prioritních akcií'? Uveďte absolutní procento zaokrouhlené na dvě desetinná místa.",
+    "answer": [
+      [
+        "2.02%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afeb56667d_007",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Pokud by byly 'dividendy z preferenčních akcií' pro čtvrtletí končící 30. září zrušeny (tj. byly by 0 USD), jaký by byl 'čistý zisk (ztráta) připadající na akcionáře preferenčních akcií SL Green' za toto čtvrtletí?",
+    "answer": [
+      [
+        "$ 2449"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_008",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký je zjevný vztah mezi 'zisky z předčasného splacení dluhu' a 'čistým ziskem (ztrátou) připadajícím akcionářům SL Green na běžných akciích' na základě čtvrtletních údajů?",
+    "answer": [
+      [
+        "Zdá se, že existuje silná pozitivní korelace. Ve dvou čtvrtletích s nejvyššími 'zisky z předčasného splacení dluhu' (31. března a 30. června) byly také vykázány nejvyšší 'čisté zisky (ztráty) připadající akcionářům SL Green na běžných akciích'. Naopak čtvrtletí s nižšími zisky (30. září a 31. prosince) vedla k čistým ztrátám pro akcionáře na běžných akciích, což naznačuje, že tyto velké zisky byly hlavním faktorem ziskovosti v první polovině roku."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B10",
+      "C10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afeb56667d_009",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Kolik finančních řádků vykázalo zápornou hodnotu (ztrátu) za čtvrtletí končící 31. prosince?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_010",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Který kvartál vykázal u položky 'příjem (ztráta) čistý bez podílů menšin a před zisky z prodeje' významný odklon oproti trendu pozorovanému ve třech ostatních kvartálech?",
+    "answer": [
+      [
+        "Kvartál končící 30. zářím je odlehlá hodnota. Zatímco ostatní tři kvartály vykázaly v této kategorii významné ztráty (-380 $, -10 242 $ a -26 600 $), zářijový kvartál jako jediný vykázal zisk (4 099 $), což z něj činí pozoruhodnou výjimku z převládajícího trendu ztrát u této položky."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afeb56667d_011",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Který čtvrtletní výkaz z roku 2009 vykázal nejvyšší čistý zisk připadající na akcionáře SL Green, a jaké další faktory k tomuto výsledku přispěly?",
+    "answer": [
+      [
+        "Výkaz k 31. březnu vykázal nejvyšší čistý zisk připadající na akcionáře SL Green ve výši 32 768 USD. K tomu přispěly vyšší celkové příjmy (258 787 USD) a značné zisky z předčasného splacení dluhu (47 712 USD), jakož i pozitivní příspěvky z ukončených provozů (1 319 USD)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B10",
+      "E2",
+      "E4",
+      "E6",
+      "E10",
+      "H2",
+      "H4",
+      "H6",
+      "H10",
+      "K2",
+      "K4",
+      "K6",
+      "K10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

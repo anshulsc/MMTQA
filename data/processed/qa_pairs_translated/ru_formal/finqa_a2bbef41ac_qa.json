@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Какова общая стоимость активов ('инвестиции' и 'другие активы') на 31 декабря 2007 года?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Какая категория активов, 'инвестиции' или 'другие активы', понесла больший абсолютный чистый убыток от 'реализованных и нереализованных прибылей / (убытков) нетто'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Подтвердите, соответствует ли итоговый остаток по статье «инвестиции» на 31 декабря 2008 года его начальному остатку и последующим указанным операциям. Покажите ваш расчет.",
+    "answer": [
+      [
+        "Да, остаток соответствует. Расчет: 1240 долларов (начальный остаток) - 409 долларов (прибыли/убытки) + 11 долларов (покупки/продажи) - 29 долларов (чистые переводы) = 813 долларов, что соответствует заявленному итоговому остатку."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Каково было общее чистое изменение стоимости активов за весь период с 31 декабря 2007 года по 31 декабря 2008 года?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "По каким категориям активов «чистые переводы на уровень 3 и/или с уровня 3» привели к положительному вкладу в стоимость активов?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Какую долю от 'общих чистых (убытков) за период, включенных в прибыль' составили 'инвестиции'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Если бы 'реализованные и нереализованные прибыли / (убытки) нет' для 'других активов' составили ноль вместо $-16, каким был бы новый итоговый баланс 'других активов' на 31 декабря 2008 года?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Исходя из данных по 'инвестициям', какова взаимосвязь между 'реализованной и нереализованной прибылью / (убытком) нетто' и 'общим чистым (убытком) за период, включенным в доходы, обусловленным изменением нереализованной прибыли или (убытков), относящихся к активам, все еще удерживаемым на отчетную дату'?",
+    "answer": [
+      [
+        "Существует сильная, прямая взаимосвязь. 'Общий чистый (убыток) ... относящийся к активам, все еще удерживаемым' ($-366) составляет 89,5% от общей 'реализованной и нереализованной прибыли / (убытка) нетто' ($-409). Это означает, что большая часть чистого убытка инвестиций за период была нереализованной и связана с активами, которые не были проданы к концу отчетного периода."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Какая бухгалтерская конвенция подразумевается используемым форматом для отрицательных значений, таких как '-409 ( 409 )'?",
+    "answer": [
+      [
+        "Формат представления отрицательного числа с последующим его абсолютным значением в скобках является общепринятой бухгалтерской конвенцией для четкого и недвусмысленного обозначения отрицательных финансовых показателей, таких как убытки, расходы или контр-активные стоимости."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Какой пункт в таблице представляет собой самое большое единичное отрицательное влияние на совокупную стоимость активов за отчетный период?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "На сколько сократились инвестиции с 2007 по 2008 год?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Properti mana yang punya nilai 'building' paling tinggi?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Berapa total 'purchase price allocation' buat semua properti yang ada di tabel?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Berapa 'net consideration funded by us at closing' buat properti yang punya nilai 'acquired in-place leases' paling rendah?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Buat properti '1515 broadway', berapa persen nilai 'aset yang diperoleh' yang berasal dari total nilai 'tanah' dan 'bangunan'-nya?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Sebutin dong properti mana aja yang 'debt assumed'-nya lebih dari tiga kali lipat 'equity and/or debt investment held'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Kalau ada penyesuaian akuntansi yang bikin nilai 'building' buat '110 east 42nd street' jadi 10% lebih rendah, berapa nilai 'assets acquired' yang baru buat properti itu?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Nilai 'penyesuaian nilai wajar atas wesel hipotek terutang' buat '1515 broadway' itu minus, padahal buat properti lain kebanyakan nilainya positif dan sama. Ini nunjukkin apa sih soal pembiayaan properti yang satu itu?",
+    "answer": [
+      [
+        "Nilai negatif '-3693' buat '1515 broadway' di kategori 'penyesuaian nilai wajar atas wesel hipotek terutang' itu beda banget sama nilai positif '2014' yang sama buat properti lain. Ini nunjukkin kalo wesel hipotek yang terkait sama akuisisi 1515 Broadway itu punya persyaratan yang lebih menguntungkan dibanding suku bunga pasar pas waktu akuisisi, jadi kayak aset (penyesuaian liabilitas negatif). Sebaliknya, properti lain mungkin punya hipotek yang sesuai atau mendekati suku bunga pasar, jadi butuh penyesuaian standar yang nominal."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan datanya, ada korelasi positif langsung antara 'purchase price allocation' properti dengan 'net consideration funded by us at closing'-nya nggak sih?",
+    "answer": [
+      [
+        "Nggak ada korelasi positif langsung. Contohnya, '180 maiden lane' punya harga beli tertinggi kedua ($442.325) tapi pertimbangan bersihnya ($81.835) hampir sama dengan '51 east 42nd street', yang harga belinya jauh lebih rendah ($80.000). Lagian, '1515 broadway' punya harga beli paling tinggi banget ($1.234.000) tapi pertimbangan bersihnya bukan yang paling tinggi. Ini nunjukkin kalo faktor lain, kayak 'debt assumed' (yang tinggi banget buat '1515 broadway'), ngaruh banget ke pertimbangan bersih yang dibutuhin pas closing."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hitung total 'liabilities assumed' untuk properti yang punya 'above market lease value' kurang dari $6.000.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Angka '2014' muncul berulang kali di empat kategori keuangan yang berbeda, seringkali untuk properti yang sama. Apa yang disarankan oleh penggunaan angka spesifik yang tidak dibulatkan ini secara konsisten dalam konteks yang berbeda tentang sifatnya?",
+    "answer": [
+      [
+        "Nilai '2014' muncul pada 'aset lain dikurangi liabilitas lain', 'penyesuaian nilai wajar atas wesel bayar hipotek', 'investasi ekuitas dan/atau utang yang dipegang', dan 'utang yang diasumsikan'. Penggunaannya yang berulang sebagai nilai identik yang relatif kecil di berbagai kategori dan properti menunjukkan bahwa itu bukan nilai pasar yang terukur tetapi lebih merupakan placeholder nominal, nilai minimum standar yang digunakan untuk tujuan akuntansi, atau mungkin referensi ke peristiwa atau tahun peraturan tertentu (misalnya, transaksi dari tahun 2014). Ini menandakan entri standar daripada penilaian unik untuk setiap contoh."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Berapa harga tanah di 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

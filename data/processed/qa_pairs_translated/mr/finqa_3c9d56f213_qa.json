@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "टेबलमध्ये सूचीबद्ध केलेल्या सर्व पवन-ऊर्जा प्रकल्पांमधून एकूण किती सकल MW निर्माण केले गेले?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "यादी केलेल्या प्रकल्पांमध्ये कोळसा (Coal) किंवा जलविद्युत (Hydro) यांपैकी कोणत्या इंधन प्रकारात सरासरी ग्रॉस मेगावॅट (Gross MW) आउटपुट जास्त आहे?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "चीनमध्ये स्थित असलेल्या आणि अक्षय इंधन स्त्रोत (हायड्रो किंवा पवन) वापरणाऱ्या सर्व प्रकल्पांची नावे सांगा.",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "चिलीमधील सर्वाधिक ग्रॉस MW असलेल्या प्रकल्पासाठी AES ला किती प्रभावी ग्रॉस MW श्रेयस्कर आहे?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "AES चा 100% इक्विटी इंटरेस्ट असलेल्या प्रकल्पांमधून सर्व प्रकल्पांच्या एकूण ग्रॉस MW मध्ये किती टक्के योगदान आहे?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "सर्वाधिक असामान्य ग्रॉस मेगावॅट (Gross MW) आउटपुट असलेला प्रकल्प ओळखा आणि तो डेटासेटमधील इतर सर्व प्रकल्पांपेक्षा वेगळा का आहे याचे स्पष्टीकरण द्या.",
+    "answer": [
+      [
+        "The 'ballylumford' project is the most significant outlier. Its Gross MW of 1246 is more than three times larger than the next largest project, 'jhrh' (379 MW), and over 25 times the median Gross MW of the entire dataset (49 MW). This vast difference in magnitude makes its power generation capacity anomalous compared to every other project listed."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "जर तुर्कीमधील सर्व प्रकल्पांमध्ये AES च्या इक्विटी हिश्श्यामध्ये त्यांच्या सध्याच्या पातळीवरून दुप्पट वाढ झाली, तर तुर्कीमधून AES साठी नवीन एकूण प्रभावी सकल MW किती असेल?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "डेटाच्या आधारावर, प्रकल्पाच्या एकूण मेगावॅट (Gross MW) आणि एईएसच्या इक्विटीमधील (AES's equity interest) पातळी यांच्यात कोणताही स्पष्ट संबंध दिसतो का? तुमच्या कारणांचे स्पष्टीकरण द्या.",
+    "answer": [
+      [
+        "प्रकल्पाच्या एकूण मेगावॅट (Gross MW) आणि एईएसच्या इक्विटीमधील (AES's equity interest) पातळी यांच्यात कोणताही स्पष्ट किंवा सातत्यपूर्ण संबंध नाही. उदाहरणार्थ, सर्वाधिक एकूण मेगावॅट (Gross MW) असलेल्या प्रकल्पाचा ('ballylumford', 1246 MW) 100% हिस्सा आहे, परंतु दुसऱ्या क्रमांकावर असलेल्या ('jhrh', 379 MW) प्रकल्पाचा फक्त 35% हिस्सा आहे. याउलट, खूप कमी मेगावॅट (MW) असलेल्या प्रकल्पाचा ('north rhins', 22 MW) देखील 100% हिस्सा आहे. वेगवेगळ्या प्रकल्पांच्या आकारांमध्ये इक्विटीच्या वाटपातील मोठी तफावत दर्शवते की प्रकल्पाचा आकार एईएसच्या गुंतवणुकीची पातळी थेट ठरवत नाही."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "'aes equity interest ( percent rounded )' या स्तंभात अनावश्यक माहिती आहे. या अनावश्यकतेचा नमुना सांगा.",
+    "answer": [
+      [
+        "या स्तंभात अनावश्यकतेचा एक सुसंगत नमुना दिसतो, जिथे प्रत्येक सेलमध्ये कंसात पुन्हा नमूद केलेली टक्केवारी असते, उदाहरणार्थ '71% ( 71 % )'. कंसातली माहिती ही त्यापूर्वी दिलेल्या माहितीची थेट पुनरावृत्ती आहे."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "तक्त्यात एकापेक्षा जास्त प्रकल्प सूचीबद्ध असलेल्या देशांपैकी, AES साठी सर्वात कमी एकत्रित प्रभावी सकल MW कोणत्या देशाकडे आहे?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "मुख्य इंधन म्हणून पवन ऊर्जा वापरणारे किती प्रकल्प आहेत?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

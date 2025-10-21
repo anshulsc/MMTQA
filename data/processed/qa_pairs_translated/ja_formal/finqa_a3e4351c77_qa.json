@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "合計および調整を除いた場合、両方の報告期間にわたって最も高い価値を持っていた特定の債務証券は何ですか？",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "第二データ列に記載されている、期間中の識別可能なすべての収入債券の総額はいくらですか？",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "「長大負債の期間内満期」の2期間における絶対額の変動は、「未償却負債割引額」の絶対額の変動をいくら上回りましたか？",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "表示されている2つの期間における「総長期負債」の傾向を説明し、この変化の意義について解説してください。",
+    "answer": [
+      [
+        "総長期負債は、C列に表示されている期間の10007.5ドルからB列に表示されている期間の10282.8ドルへと275.3ドル増加しました。これは、この期間中に企業の総長期負債額が増加したことを示しており、返済した新規負債よりも多くの新規負債を抱えた可能性を示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "第2データ列で負の値として表される項目（合計を除く）をすべて特定してください。",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "カラムBの期間における総長期負債に対する割合として、「長期負債の現在満期」はどの部分を占めますか？計算には絶対値を使用し、小数点以下2桁に丸めてください。",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "2番目のデータ列（B列）の「未償却負債割引額」がゼロになった場合、その期間の「総長期負債 2013 kmp」はいくらになりますか？",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "「長期負債の現時点での満期」と「長期負債合計」の2期間における変動の間には、明白な関係はありますか？",
+    "answer": [
+      [
+        "はい、両者の動きには逆相関の関係が見られます。長期負債合計が275.3（10007.5から10282.8へ）増加したのに対し、「現時点での満期」の金額は大幅に減少しました（絶対値で1263.3から596.6へ）。これは、会社が全体的な負債を増やしながらも、同時に近い将来に満期を迎える負債の割合を減らしたことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "データセットの中で、他の行の集計であると思われる行はどれですか。また、その結論を裏付ける証拠は何ですか？",
+    "answer": [
+      [
+        "「total long-term debt 2013 kmp」というラベルの行が集計です。主な証拠は、その説明に「total」という言葉が明示的に使用されていることです。さらに、その値は通貨記号（「$」）とともに表示されており、他の行とは異なり、最終的な財務概要であることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "絶対値で見て、2つの期間で最も大きな変動を示し、ボラティリティの観点から財務上の例外となっている項目は何ですか？",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "総長期負債と未償却負債割引を考慮した場合、2012年から2013年にかけて長期負債は実質的にいくら増加しましたか？",
+    "answer": [
+      [
+        "総長期負債は、2012年の100億750万ドルから2013年の102億8280万ドルに増加しました。未償却負債割引は2012年の-21.2から2013年には-20.3に変化したことを考慮すると、負債の実質的な増加額は2億7680万ドルです。"
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

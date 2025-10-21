@@ -1,0 +1,281 @@
+[
+  {
+    "question_id": "wikisql_406d6d4609_001",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "最も大きな勝利差を達成したドライバーは誰ですか、また、その勝利差はどれくらいでしたか？",
+    "answer": [
+      [
+        "Clint Bowyer",
+        "6.469 sec"
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "I12",
+      "I1",
+      "I3",
+      "I4",
+      "I5",
+      "I7",
+      "I8",
+      "I9",
+      "I13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_002",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "このデータセットに記載されている勝利のうち、ヘンドリック・モータースポーツが達成したものはいくつですか？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "G4",
+      "G8",
+      "G10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_003",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "本データセットにおいて、最多勝利を収めた車種メーカーの車両を運転した、全ての優勝ドライバーを特定してください。",
+    "answer": [
+      [
+        "Joe Nemechek"
+      ],
+      [
+        "Jimmie Johnson"
+      ],
+      [
+        "Robby Gordon"
+      ],
+      [
+        "Kyle Busch"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "C2",
+      "C4",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_004",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "このデータセットに記録されている最も古いレースで優勝した車種と、最も新しいレースで優勝した車種は何ですか？",
+    "answer": [
+      [
+        "Pontiac Grand Prix",
+        "Toyota Camry"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "F9",
+      "A13",
+      "F13",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_005",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "2000年以降のシーズンで、ペンスキー・レーシングのために勝利を収めたドライバーを列挙してください。",
+    "answer": [
+      [
+        "Ryan Newman"
+      ],
+      [
+        "Kurt Busch"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "G1",
+      "A11",
+      "C11",
+      "G11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_006",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "このデータセットに含まれるレースのうち、シボレー（全モデル）が勝利した割合は何パーセントですか？",
+    "answer": [
+      [
+        "46.15%"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "F4",
+      "F7",
+      "F8",
+      "F10",
+      "F12",
+      "F1",
+      "F3",
+      "F5",
+      "F6",
+      "F9",
+      "F11",
+      "F13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_007",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "データセットから2008年のレース優勝記録を除外した場合、警告状態での勝利（「UC」）が最も多くなるチームはどこになりますでしょうか？",
+    "answer": [
+      [
+        "警告状態下での勝利（「UC」）を記録したまま残るチームは、チームSABCO、ラウシュ・レーシング、およびヘンドリック・モータースポーツであり、それぞれが1勝ずつを保持します。したがって、コーション下での最多勝利については、3チームが同率で並ぶ結果となります。"
+      ]
+    ],
+    "evidence_cells": [
+      "G2",
+      "I2",
+      "G6",
+      "I6",
+      "G10",
+      "I10",
+      "G11",
+      "I11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_008",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "このデータに基づき、特定のスポンサーが単一のレーシングチームにのみ排他的に関連付けられていると判断されますか。その結論を裏付ける事例を一つ示してください。",
+    "answer": [
+      [
+        "いいえ、スポンサーが単一のチームに排他的に関連付けられているようには見受けられません。例えば、「Lowe's（ローズ）」は、ヘンドリック・モータースポーツ（2003年）とリチャード・チルドレス・レーシング（2001年）の両チームのスポンサーとして記載されております。"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "G4",
+      "E7",
+      "G7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_009",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "データセットにおいて、プレースホルダーや非標準化された入力形式により、重大なデータ品質上の問題が認められる2つの列はどれですか。また、その具体的な問題点をご教示ください。",
+    "answer": [
+      [
+        "データ品質上の問題は、「Avg Speed」（平均速度）列および「Margin of Victory」（勝利差）列に認められます。「Avg Speed」（H列）は、実際のデータではなく、全ての項目においてプレースホルダーである「mph (km/h)」のみを含んでおります。「Margin of Victory」（I列）は、数値による秒数に加え、「UC」や「UC/Called due to rain」といった非標準的なテキスト入力が混在しており、均一な定量的分析を実施することが困難となっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "I2",
+      "I6",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_010",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "他の数値で記録された勝利と比較して、勝利差の観点から外れ値として際立っているレースでの優勝はどれですか？",
+    "answer": [
+      [
+        "クリント・ボウヤー選手の2007年の優勝は、勝利差が6.469秒であり、著しい外れ値です。これは、次に大きな差である5.47秒よりも大幅に大きく、他の数値による勝利差の平均の3倍以上にもなり、異例なほどの圧倒的なパフォーマンスであったことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "I12",
+      "I1",
+      "I3",
+      "I4",
+      "I5",
+      "I7",
+      "I8",
+      "I9",
+      "I13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_011",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "複数のシーズンおよびレースにおいて、同じスポンサーを代表したドライバーは誰ですか？",
+    "answer": [
+      [
+        "Jeff Burton (Exide Batteries)"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8",
+      "C9",
+      "C12",
+      "E5",
+      "E8",
+      "E9",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

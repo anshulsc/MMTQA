@@ -1,0 +1,312 @@
+[
+  {
+    "question_id": "finqa_57d2954f05_001",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Která lokalita, výhradně ve vlastnictví typu 'owned', má největší rozlohu (square footage)?",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "E5",
+      "A10",
+      "D10",
+      "E10",
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_002",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Vypočítejte celkovou rozlohu pro všechny nemovitosti, které jsou výhradně v pronájmu.",
+    "answer": [
+      [
+        "701000"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_57d2954f05_003",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Určete celkovou rozlohu společnosti zjištěním lokality, která slouží jako její sídlo, a následným sečtením její vlastněné a pronajaté plochy na základě zřetězené hodnoty ve sloupci rozlohy (squarefootage).",
+    "answer": [
+      [
+        "1662000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_004",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Identifikujte všechny lokality v Číně, jejichž hlavní využití zahrnuje 'výzkum, vývoj a inženýrství'.",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "C11",
+      "A13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_005",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Jaké procento z celkové rozlohy všech nemovitostí s kombinovaným vlastnictvím 'vlastněno/pronajato' připadá na pronajaté prostory? Předpokládejte, že sloupec rozlohy pro tyto nemovitosti spojuje hodnoty vlastněných a pronajatých prostor (např. 'X...XY...Y').",
+    "answer": [
+      [
+        "9.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_006",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Pokud by se společnost rozhodla konsolidovat všechny své operace 'zákaznické podpory' do jediného centra, přičemž by vybrala zařízení, které v současné době uvádí 'zákaznickou podporu' jako hlavní využití a má největší celkovou rozlohu, která lokalita by byla vybrána?",
+    "answer": [
+      [
+        "santa clara ca"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10",
+      "A12",
+      "C12",
+      "D12",
+      "A13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_007",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyzujte data a určete, zda existuje korelace mezi typem nemovitosti a jejím stavem vlastnictví. Konkrétně, objevuje se jeden typ nemovitosti častěji s určitým modelem vlastnictví?",
+    "answer": [
+      [
+        "Ano, zdá se, že korelace existuje. Typ „kancelářská budova a sklad“ vykazuje rozmanitý profil vlastnictví, včetně 5 nemovitostí „vlastněno/pronajato“, 3 „vlastněných“ a 3 „pronajatých“. Na rozdíl od toho typ „kancelář a sklad“, reprezentovaný pouze dvěma lokalitami, zahrnuje jednu nemovitost „vlastněno/pronajato“ a jednu „pronajatou“, ale v tomto datovém souboru zřetelně postrádá jakákoli plně „vlastněná“ zařízení. To naznačuje, že zařízení, která zahrnují „výrobní závod“, jsou s větší pravděpodobností alespoň částečně nebo plně vlastněna společností ve srovnání s těmi, která jsou pouze kanceláří a skladem."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8",
+      "B9",
+      "E9",
+      "B10",
+      "E10",
+      "B11",
+      "E11",
+      "B12",
+      "E12",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_57d2954f05_008",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Z pohledu datového analytika, který sloupec představuje nejvýznamnější strukturální složitost, která by vyžadovala podmíněné logické zpracování před provedením numerické analýzy?",
+    "answer": [
+      [
+        "Sloupec 'squarefootage' (D) představuje největší strukturální složitost. Zatímco sloupec 'principal use' obsahuje oddělené seznamy, sloupec 'squarefootage' obsahuje jak standardní celočíselné hodnoty, tak zřetězené textové hodnoty (např. '1512000150000'). Aby bylo možné tato data správně interpretovat a použít pro numerickou analýzu, je nutné implementovat podmíněnou logiku, která kontroluje odpovídající hodnotu ve sloupci 'ownership' (E). Pokud je vlastnictví 'ownedleased', musí být řetězec rozdělen na dvě samostatné numerické hodnoty; jinak lze s ním zacházet jako s jedním celým číslem. Tato závislost na jiném sloupci činí jeho logiku zpracování složitější než u jakéhokoli jiného sloupce."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12",
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_009",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Mezi všemi zařízeními, kde je hlavním účelem 'výroba', která lokalita má nejvýznamnější pozitivní odlehlou hodnotu celkové rozlohy ve srovnání s mediánovou velikostí této skupiny?",
+    "answer": [
+      [
+        "austin tx"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_57d2954f05_010",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Jaké procento z uvedených zařízení se nachází v USA (identifikovaných podle zkratek států CA, TX, MT, MA)?",
+    "answer": [
+      [
+        "30.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_011",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Jaká je rozloha kanceláří v Austinu, TX?",
+    "answer": [
+      [
+        "1,719,000–1,450,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

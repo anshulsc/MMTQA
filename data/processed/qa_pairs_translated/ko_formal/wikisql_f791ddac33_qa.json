@@ -1,0 +1,372 @@
+[
+  {
+    "question_id": "wikisql_f791ddac33_001",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "차트에 등재된 엘비스 프레슬리의 모든 곡에서 누적된 총 포인트는 얼마입니까?",
+    "answer": [
+      [
+        "839"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5",
+      "B8",
+      "E8",
+      "B10",
+      "E10",
+      "B24",
+      "E24"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_002",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "1위 '최고 순위'에 도달한 노래가 하나 이상 있는 아티스트 중에서, 목록에 있는 노래당 평균 점수가 가장 높은 아티스트는 누구입니까?",
+    "answer": [
+      [
+        "Anita Lindblom"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "E5",
+      "B8",
+      "E8",
+      "B10",
+      "E10",
+      "B24",
+      "E24",
+      "D5",
+      "D10",
+      "D24",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13",
+      "B21",
+      "D21",
+      "E21",
+      "B25",
+      "D25",
+      "E25"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_003",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "'최고 순위'가 2이고 200점 이상을 획득한 노래 제목을 나열해 주세요.",
+    "answer": [
+      [
+        "\" Æille så ner som a Ingebjørg \""
+      ],
+      [
+        "\" I'm Lookin' Out the Window \""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "C6",
+      "D6",
+      "E6",
+      "C7",
+      "D7",
+      "E7",
+      "C9",
+      "D9",
+      "E9",
+      "C19",
+      "D19",
+      "E19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_004",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "'The Shadows'의 두 곡 중 'Highest position'이 더 좋은 곡이 다른 곡보다 몇 점 더 높은가요?",
+    "answer": [
+      [
+        "121"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B20",
+      "D20",
+      "E20"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_005",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "이 차트의 모든 곡에서 나온 총점에 대해, '최고 순위' 1위에 도달한 곡들이 기여한 비율은 얼마입니까? 답은 소수점 둘째 자리까지 반올림하여 제공하십시오.",
+    "answer": [
+      [
+        "47.21%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D10",
+      "E10",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D21",
+      "E21",
+      "D24",
+      "E24",
+      "D25",
+      "E25",
+      "E1",
+      "E2",
+      "E4",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E11",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E22",
+      "E23",
+      "E26",
+      "E27"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_006",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "상위 3위 안에 든 곡 중에서 해당 최상위권 성능 등급 내 다른 곡들에 비해 현저히 낮은, 특이값에 해당하는 점수를 가진 곡은 무엇입니까?",
+    "answer": [
+      [
+        "\" Telstar \""
+      ]
+    ],
+    "evidence_cells": [
+      "C16",
+      "D16",
+      "E16",
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D10",
+      "E10",
+      "D2",
+      "E2",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_007",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "open_ended_reasoning",
+    "question": "제공된 데이터를 바탕으로 노래의 '최고 순위'와 '점수' 간의 관계를 설명해 주십시오.",
+    "answer": [
+      [
+        "'최고 순위' 숫자와 노래가 받는 '점수' 사이에는 강한 음의 상관관계가 있습니다. 더 낮은 '최고 순위' 숫자(예: 1 또는 2)는 일관되게 더 높은 점수와 연관됩니다. 예를 들어, 가장 많은 점수(383점)를 받은 노래는 1위에 올랐으며, 250점 이상을 받은 모든 노래는 1위 또는 2위까지 기록했습니다. 반대로, \"Guitar Tango\"(10위, 22점)나 \"Swiss Maid\"(8위, 75점)와 같이 '최고 순위' 숫자가 높은 노래들은 현저히 적은 점수를 받았는데, 이는 차트 성적이 좋을수록 점수가 더 많이 축적된다는 것을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D14",
+      "E14",
+      "D15",
+      "E15",
+      "D16",
+      "E16",
+      "D17",
+      "E17",
+      "D18",
+      "E18",
+      "D19",
+      "E19",
+      "D20",
+      "E20",
+      "D21",
+      "E21",
+      "D22",
+      "E22",
+      "D23",
+      "E23",
+      "D24",
+      "E24",
+      "D25",
+      "E25",
+      "D26",
+      "E26",
+      "D27",
+      "E27"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_008",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "최고 순위 10위 안에 들었지만, '가장 높은 순위'에서 1위에 도달하지 못한 곡은 무엇인가요?",
+    "answer": [
+      [
+        "\" Æille så ner som a Ingebjørg \""
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A21",
+      "D21",
+      "A25",
+      "D25"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_009",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "이 차트에서 두 개 이상의 곡이 있는 아티스트의 모든 곡에 10%의 포인트 보너스가 주어진다면, The Shadows의 'Wonderful Land'의 새로운 포인트 총계는 얼마입니까?",
+    "answer": [
+      [
+        "157.3"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "E2",
+      "B5",
+      "B6",
+      "B8",
+      "B10",
+      "B20",
+      "B24",
+      "B26"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_010",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "이 차트에서 가장 많이 이름을 올린 아티스트는 누구이며, 그가 발표한 곡은 몇 곡입니까?",
+    "answer": [
+      [
+        "Elvis Presley",
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18",
+      "B19",
+      "B20",
+      "B21",
+      "B22",
+      "B23",
+      "B24",
+      "B25",
+      "B26",
+      "B27"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_011",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "open_ended_reasoning",
+    "question": "최고 순위와 총점 간에 어떤 패턴을 관찰할 수 있습니까?",
+    "answer": [
+      [
+        "더 높은 차트 순위는 일반적으로 더 높은 점수에 해당하지만, 차트 지속 시간이 짧은 곡의 경우 예외가 존재합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D6",
+      "E1",
+      "E2",
+      "E3",
+      "E6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

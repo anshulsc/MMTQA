@@ -1,0 +1,289 @@
+[
+  {
+    "question_id": "wikisql_c24d04a09e_001",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "¿Cuántas películas listadas en la tabla lograron un resultado mejor que 'No Nominada'?",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "E7",
+      "E9",
+      "E13",
+      "E14",
+      "E15",
+      "E19",
+      "E20"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_002",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué director tuvo el conjunto más variado de resultados para sus películas, que van desde ganar el máximo galardón hasta no ser nominado?",
+    "answer": [
+      [
+        "Pedro Almodóvar es el director con los resultados más variados. Su película 'Todo sobre mi madre' ganó un Premio de la Academia, 'Volver [4 ]' llegó a la lista de enero y 'Tacones lejanos' no fue nominada, mostrando un espectro completo de resultados desde el éxito de primer nivel hasta una salida temprana."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_003",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "¿Cuáles son los títulos de las películas que recibieron el estado 'Nominada' y fueron dirigidas por la misma persona que dirigió 'Canción de cuna'?",
+    "answer": [
+      [
+        "The Grandfather"
+      ],
+      [
+        "Course Completed"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "D12",
+      "B14",
+      "D14",
+      "E14",
+      "B15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_004",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "Describe la tendencia de los resultados de las películas presentadas durante la década de 1990 (años de ceremonia 1991-1999) según se presenta en esta tabla.",
+    "answer": [
+      [
+        "Las presentaciones de la década de 1990 muestran una tendencia ascendente significativa en el éxito. La década comenzó con películas de 1991 y 1992 sin ser nominadas. Sin embargo, esto fue seguido por éxitos importantes, incluyendo dos premios de la Academia para películas de 1993 ('Belle Époque') y 1999 ('Todo sobre mi madre'), y una nominación para una película de 1998 ('El abuelo'). Esto sugiere un período de creciente reconocimiento internacional para las películas presentadas."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A12",
+      "E12",
+      "A14",
+      "E14",
+      "A20",
+      "E20"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_005",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "Enumera los títulos de nominación de todas las películas de la década de 1980 que 'No fueron nominadas'.",
+    "answer": [
+      [
+        "The Witching Hour"
+      ],
+      [
+        "Patrimonio nacional"
+      ],
+      [
+        "Love, Hate and Death"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A8",
+      "B8",
+      "E8",
+      "A16",
+      "B16",
+      "E16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_006",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de películas en esta lista de los años 2000 (años de ceremonia 2000-2009) ganaron un Premio de la Academia?",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "A13",
+      "E13",
+      "A18",
+      "E18",
+      "A19",
+      "E19"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_007",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Si 'Tristana' hubiera ganado el Premio de la Academia en lugar de ser solo una nominada, ¿cuál sería el nuevo número total de películas ganadoras dirigidas por Luis Buñuel en este conjunto de datos?",
+    "answer": [
+      [
+        "El nuevo total sería 1. Actualmente, Luis Buñuel tiene cero películas ganadoras en esta lista, por lo que cambiar el resultado de 'Tristana' de 'Nominada' a una victoria aumentaría su total de 0 a 1."
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_008",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Según los datos, ¿existe alguna relación discernible entre que el título de nominación de una película sea diferente de su título original y su probabilidad de ganar un Premio de la Academia?",
+    "answer": [
+      [
+        "No hay una relación discernible. De las tres películas que ganaron el Premio de la Academia, dos tenían títulos de nominación diferentes (\"Todo sobre mi madre\" y \"Mar adentro\"), mientras que una tenía el mismo título (\"Belle Époque\"). Esto indica que tener un título de nominación traducido o diferente no es un predictor claro de ganar."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "B19",
+      "C19",
+      "E19",
+      "B20",
+      "C20",
+      "E20"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_009",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "¿Qué columna contiene una cadena de texto extraña y consistente añadida a cada entrada?",
+    "answer": [
+      [
+        "Director"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D20",
+      "D21"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_010",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué década representada en los datos es una excepción en términos del número de premios de la Academia ganados en comparación con otras décadas?",
+    "answer": [
+      [
+        "Los años 90 son una excepción, con dos películas ('Todo sobre mi madre' y 'Belle Époque') ganando el Premio de la Academia. En contraste, los años 2000 tienen solo una ganadora, y todas las demás décadas representadas (1950s, 1960s, 1970s, 1980s, 2010s) tienen cero ganadoras, lo que hace que la tasa de éxito en los años 90 sea excepcionalmente alta para este conjunto de datos."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8",
+      "A9",
+      "E9",
+      "A10",
+      "E10",
+      "A11",
+      "E11",
+      "A12",
+      "E12",
+      "A13",
+      "E13",
+      "A14",
+      "E14",
+      "A15",
+      "E15",
+      "A16",
+      "E16",
+      "A17",
+      "E17",
+      "A18",
+      "E18",
+      "A19",
+      "E19",
+      "A20",
+      "E20",
+      "A21",
+      "E21"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_011",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Si la película de Pedro Almodóvar de 1995 hubiera sido nominada, cómo cambiaría su total de nominaciones?",
+    "answer": [
+      [
+        "Aumentaría su total de nominaciones de 4 a 5."
+      ]
+    ],
+    "evidence_cells": [
+      "B31",
+      "D31"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  }
+]

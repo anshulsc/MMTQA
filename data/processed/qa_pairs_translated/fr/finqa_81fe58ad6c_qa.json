@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_81fe58ad6c_001",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "Au cours de quelle année la « charge de rémunération liée à (l'appréciation) / la dépréciation des régimes de retraite différée » a-t-elle été la plus favorable financièrement (c'est-à-dire la plus faible) ?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_002",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "Quel était le total cumulé pour 'revenus (charges) non opérationnels moins résultat net (perte) attribuable au NCI, ajusté' sur la période de trois ans de 2008 à 2010 ?",
+    "answer": [
+      [
+        "-405"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_003",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "Au cours de l'année où le \"résultat net (perte) attribuable à la NIC\" était le plus élevé (en valeur absolue), quelle était la différence entre le revenu non opérationnel \"base GAAP\" et le revenu non opérationnel final \"tel qu'ajusté\" ?",
+    "answer": [
+      [
+        "-193"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "E1",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_004",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance financière des « revenus (dépenses) non opérationnels (base GAAP) » pour la période se terminant le 31 décembre 2008 au 31 décembre 2010.",
+    "answer": [
+      [
+        "La tendance montre une reprise positive significative. La valeur s'est considérablement améliorée, passant d'une dépense importante de 577 millions de dollars en 2008 à une dépense beaucoup plus faible de 6 millions de dollars en 2009, pour finalement devenir un revenu positif de 23 millions de dollars en 2010."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_005",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "Lister toutes les catégories financières qui ont déclaré une valeur positive (revenu) en 2010 mais une valeur négative (dépense) en 2009.",
+    "answer": [
+      [
+        "non-operating income ( expense ) gaap basis"
+      ],
+      [
+        "non-operating income ( expense ) ( 1 )"
+      ],
+      [
+        "non-operating income ( expense ) less net income ( loss ) attributable to nci as adjusted"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "C3",
+      "D3",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_006",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "Pour l'année 2008, quel pourcentage du 'revenu (dépense) non opérationnel (1)' représentait la ligne 'frais de rémunération' ?",
+    "answer": [
+      [
+        "-9.00%"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_007",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "Si le 'revenu ( dépenses ) non opérationnel de base GAAP' pour 2010 avait été 10 % plus bas, quelle aurait été la valeur résultante pour le 'revenu ( dépenses ) non opérationnel ( 1 )' pour cette année, en supposant que les autres chiffres sont restés constants ?",
+    "answer": [
+      [
+        "33.7"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_008",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez la relation entre les variations d'une année sur l'autre des \"revenus (charges) non opérationnels selon les normes GAAP\" et des \"revenus (charges) non opérationnels moins le résultat net attribuable aux NCI, ajustés\".",
+    "answer": [
+      [
+        "Il existe une forte corrélation positive dans leurs variations d'une année sur l'autre. L'amélioration du chiffre selon les normes GAAP, passant de -577 millions de dollars en 2008 à -6 millions de dollars en 2009 (une variation de +571 millions de dollars), correspond à une amélioration importante du chiffre ajusté, passant de -384 millions de dollars à -46 millions de dollars (une variation de +338 millions de dollars). De même, le passage de -6 millions de dollars en 2009 à +23 millions de dollars en 2010 pour la base GAAP correspond à une évolution positive de -46 millions de dollars à +25 millions de dollars pour le chiffre ajusté. Cela indique que la performance de la base GAAP est le principal moteur de la tendance du résultat final ajusté."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_009",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "Quel élément de ligne financière dans le tableau est un calcul direct dérivé de 'revenus (charges) non opérationnels base GAAP' et 'moins : résultat net attribuable au NCI' ?",
+    "answer": [
+      [
+        "non-operating income ( expense ) ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "C1",
+      "C2",
+      "C3",
+      "D1",
+      "D2",
+      "D3",
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_010",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel point de donnée unique dans le tableau représente l'aberration la plus significative en termes d'ampleur par rapport à tous les autres chiffres listés ?",
+    "answer": [
+      [
+        "La dépense de 577 millions de dollars pour 'revenus non opérationnels (charges) sur base GAAP' en 2008."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "C2",
+      "D2",
+      "E2",
+      "C3",
+      "D3",
+      "E3",
+      "C4",
+      "D4",
+      "E4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_011",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "Quelle année a eu le revenu (dépense) non opérationnel le plus bas, sur la base des PCGR ?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

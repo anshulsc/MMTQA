@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "finqa_4523346d99_001",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "从2006年到2007年，'一年内到期的长期债务'还是'长期债务'的百分比增长更高？",
+    "answer": [
+      [
+        "long-term debt due within one year"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_002",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "2007年，“长期债务”和“股权”合计多少百万美元？",
+    "answer": [
+      [
+        "25307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_4523346d99_003",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "从 2006 年到 2007 年，‘总债务’的增长超过了同期‘现金’减少了多少百万美元？",
+    "answer": [
+      [
+        "2297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_004",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "考虑到公司从2006年到2007年‘现金’和‘信托基金’的变化，请分析公司流动性的变化。",
+    "answer": [
+      [
+        "从2006年到2007年，公司的流动性状况显著恶化。“现金”减少了53.6%（从25.85亿美元降至11.99亿美元），“收入债券信托基金”减少了63.0%（从20.13亿美元降至7.44亿美元）。合计流动资产从45.98亿美元降至19.43亿美元，减少了近58%，表明可支配资金大幅下降。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_005",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "列出2007年主要资产负债表部分（第1-6行）中价值大于60亿美元的所有财务项目。",
+    "answer": [
+      [
+        "long-term debt"
+      ],
+      [
+        "total debt"
+      ],
+      [
+        "equity"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_006",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "2006年公司的负债权益比是多少？计算方法是用‘总负债’除以‘股本’，并将结果表示为四舍五入到两位小数的十进制数。",
+    "answer": [
+      [
+        "0.24"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_4523346d99_007",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "如果公司在2007年的“股本”增加了15%，在假设所有其他数值保持不变的情况下，该年度“总债务加上股本减去现金”的新值是多少？",
+    "answer": [
+      [
+        "27378.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B12",
+      "B13",
+      "B14",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_008",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "基于2006年至2007年间“总债务”和“股本”同时大幅增加的情况，可以推断出公司在此期间的财务战略是什么？",
+    "answer": [
+      [
+        "总债务（从35.32亿美元增至72.15亿美元）和股本（从146.07亿美元增至192.23亿美元）的同时大幅增加，表明公司正在奉行一种积极的增长或扩张战略。公司正在积极地从债务和股权市场筹集大量资金。这通常是为了资助重大的投资、项目或收购。现金调整后债务股本比率从6%大幅跃升至22%，进一步表明了向更高杠杆的战略转变，以助推这一增长。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B6",
+      "C6",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_4523346d99_009",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "在“计算”部分（第8-16行）中，哪个标签是“主要财务报表”部分（第1-6行）标签的直接重复？",
+    "answer": [
+      [
+        "total debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A8",
+      "A12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_010",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "哪个计算出的财务指标在2006年至2007年间相对增长最为显著，成为一个值得注意的数据异常值？",
+    "answer": [
+      [
+        "“总债务减去现金”这一指标是最显著的异常值。该指标从2006年的9.47亿美元增至2007年的52.72亿美元，增长超过456%。这远远超过了所列其他指标的百分比变化，包括“经现金调整后的债务资本比率”的267%增幅，表明公司的净债务状况急剧上升。"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_4523346d99_011",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "与2006年相比，2007年的债务增加了多少？",
+    "answer": [
+      [
+        "$3,683"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

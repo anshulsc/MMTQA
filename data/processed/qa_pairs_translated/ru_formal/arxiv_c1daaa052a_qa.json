@@ -1,0 +1,203 @@
+[
+  {
+    "question_id": "arxiv_c1daaa052a_001",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Какая работа показала наибольший процентный прирост 'Доходности' и какой это был процент?",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ],
+      [
+        "+40.4%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_002",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Каково общее количество различных фондовых рынков, оцененных во всех перечисленных исследовательских работах?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_003",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Назовите ключевое новшество для модели, которая была проверена на рынке CSI.",
+    "answer": [
+      [
+        "Pure convolutional temporal-relational modeling"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_004",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "По сравнению с работой 2023 года, каковы основные изменения в фокусе «Ключевой инновации» в работах 2024 года?",
+    "answer": [
+      [
+        "Основное внимание сместилось от архитектурной эффективности и нового моделирования («Чистое сверточное темпорально-реляционное моделирование» в 2023 г.) к решению более сложных задач, связанных с данными и рыночной динамикой в 2024 г. Инновации 2024 года решают такие проблемы, как независимость каналов, снижение предвзятости и адаптация к сдвигам рыночных режимов, что указывает на тенденцию к созданию более надежных и адаптивных моделей, а не к сосредоточению исключительно на новых сетевых структурах."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_005",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Перечислите все работы, опубликованные в 2024 году, в методологии которых использовался какой-либо вид состязательного обучения или тренировки.",
+    "answer": [
+      [
+        "ADB-TRM Chen et al. (2024)"
+      ],
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_006",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Какой процент перечисленных исследовательских работ был опубликован в 2024 году?",
+    "answer": [
+      [
+        "75%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_007",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Если бы прирост 'Returns' для ADB-TRM Chen et al. (2024) был на 10,3 процентных пункта ниже, какая работа показала бы более высокий прирост производительности между ней и RSAP-DFM Xiang et al. (2024)?",
+    "answer": [
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_008",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "Наблюдается ли закономерность между использованием методологий состязательного обучения и географическим разнообразием рынков, на которых тестировались модели?",
+    "answer": [
+      [
+        "Да, оба исследования, в которых явно упоминается состязательное обучение в методологии (ADB-TRM и RSAP-DFM), были протестированы на комбинации рынков США и за пределами США (соответственно TSE и рынок A-share). В отличие от этого, два других исследования, в которых не упоминается состязательное обучение, были протестированы либо только на рынках США (CI-STHPAN), либо на смеси, включающей китайский рынок CSI (RT-GCN). Это предполагает возможную связь между использованием передовых состязательных методов и их проверкой на более широком, глобально более разнообразном наборе финансовых рынков."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_009",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Какая работа сообщает о результате производительности, который является множителем скорости, а не процентным приростом?",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_010",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Каков методологический вклад работы, представившей «механизм двойного сдвига режима»?",
+    "answer": [
+      [
+        "Gradient-based posterior factors with adversarial learning"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_011",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Какова ключевая инновация работы CI-STHPAN Xia.",
+    "answer": [
+      [
+        "Channel-independent pre-training with dynamic hypergraph learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

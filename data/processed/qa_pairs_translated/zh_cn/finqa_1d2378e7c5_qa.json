@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "截至 2015 年 12 月 31 日，哪种监管方法“高级”或“标准化”报告的“总资本”更高，高出多少百万美元？",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "跨越所有四个报告列，“一级资本”的平均金额（以百万美元为单位）是多少？",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "找出“总资本比率”最低时对应的“总风险加权资产”。",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "假设最后两列代表上一年的数据，请描述“标准法”下“普通股一级资本充足率”的同比趋势。",
+    "answer": [
+      [
+        "“标准法”下的“普通股一级资本充足率”呈现积极趋势，从上一期的 11.12% 增至 2015 年 12 月 31 日的 12.63%，增长了 1.51 个百分点。"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "在“2015年12月31日标准化方法”下，哪些资本比率低于15%？",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "在“2015年12月31日高级方法”中，“总资本”中有多少比例归因于“次级资本”？（注意：次级资本 = 总资本 - 一级资本）",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "假设“一级资本”保持不变，“2015年12月31日标准化方法”下的“总风险加权资产”如果假设性地增加10%，那么新的“一级资本比率”将是多少？",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "从表格中可以推断出“总风险加权资产”与所呈现的资本比率之间存在何种关系？请使用数据点来支持您的结论。",
+    "answer": [
+      [
+        "“总风险加权资产”与资本比率之间存在反比关系。随着风险加权资产（比率计算中的分母）的增加，资本比率会下降。例如，资产最多的那一栏（1,292,605 百万美元）报告了最低的“总资本比率”（12.80），而资产最少的那一栏（1,162,884 百万美元）则报告了最高的“总资本比率”（17.08）。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "截至2015年12月31日，哪项财务指标在“高级”方法和“标准化”方法之间显示出异常大的差异，尽管其主要组成部分是相同的？",
+    "answer": [
+      [
+        "总资本显示出异常大的差异。截至2015年，普通股一级资本和一级资本在这两种方法下的价值是相同的。然而，总资本相差超过120亿美元（186,097百万美元 vs 198,655百万美元），这表明全部差异是由于二级资本的计算造成的，使其成为一个离群值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "尽管所显示的两段时间的列标题不一致，但在每个相应时期，哪些资本金额（以百万美元为单位）在“高级”和“标准化”两种方法下报告的值是相同的？",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "如果银行在采用高级法（advanced approach）下的总风险加权资产增加，而总资本保持不变，那么总资本比率会发生什么变化？",
+    "answer": [
+      [
+        "总资本比率会下降，因为风险加权资产增加而资本不变会降低资本比率。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

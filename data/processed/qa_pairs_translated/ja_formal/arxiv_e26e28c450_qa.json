@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "MSE_over（平均二乗誤差）が最も低い、マルチタスクではないモデルはどれですか？",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "「Multi-Task」としてマークされたすべてのモデルについて、7日間の予測期間（MSE7）における平均MSEを計算してください。",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "MSE3値が2番目に高い（2番目に悪い）モデルについて、対応するMSE30値は何ですか？",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "HTMLモデルにおいて、予測期間が3日から30日に延長されるにつれて、平均二乗誤差（MSE）の傾向を分析してください。その予測精度は時間とともに向上しますか、それとも悪化しますか？",
+    "answer": [
+      [
+        "HTMLモデルの予測精度は、予測期間が延長されるにつれて向上します。MSE値は、MSE3（0.845）からMSE7（0.349）、MSE15（0.251）、そして最終的にMSE30（0.158）へと一貫して減少し、これはエラーが低く、したがって長期予測におけるパフォーマンスが良いことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "「Multi-Task」として指定されておらず、かつMSE15の値が0.31未満であるモデルをすべて特定してください。",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "すべてのMSEメトリクスにわたって明確なパフォーマンスの異常値を示すモデルを特定し、その理由を説明してください。",
+    "answer": [
+      [
+        "GPT-3.5-Turboモデルは、明確なパフォーマンスの異常値を示しています。すべての予測期間（MSE_over: 2.198、MSE3: 2.152、MSE7: 1.793、MSE15: 2.514、MSE30: 2.332）におけるMSE値は、他のほとんどのモデルが1.0未満のMSE値を持つのに対し、他のすべてのモデルよりも著しく高くなっています。これは、リストされている他のモデルと比較して、予測パフォーマンスが著しく悪いことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "全モデルのMSE3の合計値のうち、GPT-3.5-Turboモデルが占める割合はどのくらいですか？ 小数点以下1桁のパーセンテージで回答してください。",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "RiskLabsモデルのMSE_overが25%改善された（つまり25%減少した）場合、その新しい値はいくらになり、HTMLモデルのMSE_overと比較してどのようにランク付けされますか？",
+    "answer": [
+      [
+        "RiskLabsの新しいMSE_overは0.243になります。この値は、HTMLモデルのMSE_overである0.401よりも低く、したがって良好です。"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "表に基づいて、「マルチタスク」として分類されるモデルと「VaR」スコアの利用可能性との関係は何ですか？",
+    "answer": [
+      [
+        "強い相関があります。「マルチタスク」として指定されたモデル（GPT-3.5-TurboおよびRiskLabs）のみが、報告された数値の「VaR」スコアを持っています。しかし、すべての「マルチタスク」モデルがVaRスコアを持っているわけではなく（例：HTML）、非「マルチタスク」モデルはいずれもVaRスコアを持っていません。これは、VaRを計算する能力が、このデータセットでは主に「マルチタスク」モデルに関連付けられた機能であることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "非数値のプレースホルダーデータを含むパフォーマンス指標の列はどれですか。また、そのデータが欠落している特定のモデルはどれですか。",
+    "answer": [
+      [
+        "「VaR」列には非数値データ（「/」）が含まれています。このデータは、Classical Method、LSTM、MT-LSTM-ATT、HAN、MRDM、HTMLの各モデルで欠落しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "予測精度（MSE3–MSE30）とリスク推定（VaR）の間の全体的なバランスが最も優れているモデルはどれですか？",
+    "answer": [
+      [
+        "RiskLabsモデルは、すべての予測期間にわたるMSE値が最も低く、VaR（0.049）も最も低いため、全体的なバランスが最も優れています。これは、強力な予測精度と信頼性の高いリスク推定の両方を示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_c8712e7938_001",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento della 'perdita netta registrata' dal 2003 al 2005.",
+    "answer": [
+      [
+        "La 'perdita netta registrata' mostra una tendenza costante al ribasso, indicando un miglioramento finanziario. La perdita è diminuita da $325.321 nel 2003 a $247.587 nel 2004, e si è ulteriormente ridotta a $171.590 nel 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_002",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "In quale anno la differenza assoluta tra la 'perdita netta pro-forma' e la 'perdita netta registrata' è stata maggiore?",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_003",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Qual è stata la spesa totale per 'compensazione dei dipendenti basata su azioni' aggiunta indietro nei tre anni mostrati?",
+    "answer": [
+      [
+        "11478"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8712e7938_004",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Per l'anno con la più piccola 'perdita netta per azione di base e diluita riportata', qual era il rapporto tra la 'perdita netta pro-forma' assoluta e la 'perdita netta riportata' assoluta? Arrotonda a tre cifre decimali.",
+    "answer": [
+      [
+        "1.088"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_005",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Elenca gli anni in cui il valore assoluto di 'spese totali per compensazione dei dipendenti basata su azioni determinate con il metodo del fair value' è stato superiore a $ 25.000.",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_006",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Nel 2004, quale percentuale della 'perdita netta pro-forma' assoluta può essere attribuita all'aggiustamento delle 'spese totali per compensazioni basate su azioni per i dipendenti'? Arrotondare a due cifre decimali.",
+    "answer": [
+      [
+        "8.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8712e7938_007",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Se la 'spesa per compensazione dei dipendenti basata su azioni' aggiunta nel 2005 fosse stata inferiore del 50%, quale sarebbe stata la nuova 'perdita netta pro-forma' per quell'anno?",
+    "answer": [
+      [
+        "$ -190276 ( 190276 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_008",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale voce di aggiustamento delle spese ('add' o 'less') ha subito la variazione percentuale anno su anno più drastica, e tra quali due anni si è verificata?",
+    "answer": [
+      [
+        "La voce 'add : stock-based employee compensation expense' ha registrato la variazione più drastica. È aumentata di oltre il 209% da $2.297 nel 2004 a $7.104 nel 2005, rappresentando un valore anomalo significativo rispetto alle altre variazioni anno su anno nella tabella."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8712e7938_009",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Qual è la relazione tra la 'perdita netta registrata' e la 'perdita netta pro-forma' nel corso dei tre anni?",
+    "answer": [
+      [
+        "Esiste una relazione diretta e costante in cui la 'perdita netta pro-forma' è sempre maggiore in magnitudine rispetto alla 'perdita netta registrata' per ogni anno. Entrambe le metriche mostrano lo stesso trend di miglioramento (diminuzione della perdita) dal 2003 al 2005, suggerendo che, sebbene gli aggiustamenti per le compensazioni basate su azioni aumentino la perdita calcolata, il trend sottostante delle performance aziendali è coerente in entrambe le misure."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8712e7938_010",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "In base alla struttura della tabella, quale operazione aritmetica collega la 'perdita netta registrata', la voce 'aggiungi' e la voce 'meno' alla 'perdita netta pro-forma'? Verifica con i dati del 2003.",
+    "answer": [
+      [
+        "La formula è: ('perdita netta registrata') + ('aggiungi: costo delle azioni per dipendenti...') - ('costo totale delle azioni per dipendenti...'). Utilizzando i dati del 2003: (-325321) + (2077) - (31156) = -354400, che corrisponde alla 'perdita netta pro-forma' per quell'anno."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_011",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Come è cambiata la perdita netta dichiarata dal 2003 al 2005?",
+    "answer": [
+      [
+        "La perdita netta dichiarata è diminuita da 325.321$ nel 2003 a 171.590$ nel 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

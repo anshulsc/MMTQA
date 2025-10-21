@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Quale query richiede l'analisi del maggior numero di metriche finanziarie primarie?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Calcola il numero totale di 'Metriche correlate' individuali elencate in tutte e tre le query.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Per la query che confronta un'azienda con i suoi concorrenti, qual è l'intervallo di date esatto specificato nella corrispondente 'Richiesta di Dati Strutturati'?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Quale query in linguaggio naturale corrisponde alla richiesta strutturata che copre il periodo di tempo più lungo?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Elenca tutte le metriche primarie richieste per le query che fanno specificamente riferimento a una società con un identificatore legale come 'plc' o 'Co.' nel campo 'Required Data'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Per la query su Amcor plc, quale percentuale di tutte le metriche elencate nella 'Richiesta di dati strutturati' contiene esplicitamente la parola 'Cash'?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Se la query in linguaggio naturale per Adobe fosse ampliata per includere una richiesta di 'Return on Working Capital', come verrebbe modificato l'elenco delle metriche nella 'Structured Data Request', utilizzando le informazioni della query di Halliburton come modello?",
+    "answer": [
+      [
+        "La sezione delle metriche della 'Structured Data Request' verrebbe aggiornata per includere 'Return on Working Capital' e i suoi componenti correlati dalla query di Halliburton. Ciò significherebbe aggiungere 'Return on Working Capital; Net income; Working capital' all'elenco esistente, risultando in: (Sales Revenue; Total Revenue; Economic Value Added; Net operating profit after tax (NOPAT); Cost of capital; Return on Working Capital; Net income; Working capital)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati forniti, qual è la relazione apparente tra la complessità di una 'Query' in linguaggio naturale e il numero totale di metriche specificate nella 'Structured Data Request'?",
+    "answer": [
+      [
+        "Sembra esserci una correlazione positiva. Le due query più complesse (per Amcor e Halliburton) corrispondono a un numero significativamente maggiore di metriche nelle loro richieste strutturate (14 e 12, rispettivamente) rispetto alla query più semplice per Adobe, che ha solo 5 metriche. Ciò suggerisce che man mano che la profondità analitica della domanda dell'utente aumenta, aumenta anche il payload di dati richiesto."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Quale colonna serve alla funzione di analizzare la query in linguaggio naturale in un formato semi-strutturato che elenca esplicitamente le società, le metriche primarie, le sottometriche correlate e l'intervallo di tempo richiesto?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza le informazioni temporali nelle colonne 'Required Data' e 'Structured Data Request'. Esiste una query in cui queste due colonne presentano un intervallo di tempo contrastante? In tal caso, identifica la query e descrivi la discrepanza.",
+    "answer": [
+      [
+        "Sì, la query di Amcor plc mostra una discrepanza significativa. La sezione 'Required Data' specifica un intervallo di tempo di 'negli ultimi 6 mesi', mentre la corrispondente 'Structured Data Request' specifica un periodo molto più breve, di 7 giorni '(7/1/2024 - 7/7/2024)'. Le altre due query mostrano coerenza temporale tra le colonne."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Quante aziende uniche vengono menzionate nei dati?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_7c5e218eef_001",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "金額ベースで、増加・減少を問わず、最も大きな増減を経験した費用カテゴリーは何ですか？",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_002",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "報告されているすべての経費削減額（マイナスの変動）の合計を百万ドル単位で教えてください。",
+    "answer": [
+      [
+        "-23.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_003",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "2015年の費用に対する増加率がそれぞれ2%であった費用項目の合計ドル変更額はいくらでしたか？",
+    "answer": [
+      [
+        "53.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_004",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "総計の数値を基にすると、これらの費用項目の前年比での全体的な財務傾向はどうでしたか。その回答を正当化してください。",
+    "answer": [
+      [
+        "全体的な財務傾向はコストの増加でした。これは、「総計」の行に示されており、前年比で5440万ドルの増加（2015年の費用に対する4%の増加に相当）を示しています。一部のコスト削減はありましたが、他の分野でのコスト増加によって著しく相殺されました。"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_005",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "$15百万ドルを超える前年比増加があったすべての費用カテゴリーをリストしてください。",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ],
+      [
+        "professional fees and outside services"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_006",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "個別の費用項目における総額の増加と総額の絶対額の減少の比率を計算し、小数点以下2桁に丸めてください。",
+    "answer": [
+      [
+        "3.29:1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_007",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "もし「外国為替レートの変動」がコスト増加ではなく、1320万ドルのコスト削減であった場合、新しい通年の変動額はいくらになりますか？",
+    "answer": [
+      [
+        "$ 28.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_008",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "同じ変化率（例：2%または1%）のカテゴリを比較した場合、絶対的なドル変化と変化率の関係についてどのような推測ができますか？これを裏付けるために不足している情報はどのようなものですか？",
+    "answer": [
+      [
+        "絶対的なドル変化は、カテゴリ間で変化率に直接比例するわけではないと推測できます。例えば、「データセンターの損失」（2860万ドル）と「専門家への手数料」（2440万ドル）はどちらも2%の変化でしたが、これは2015年の基準となる経費が異なっていたことを示唆しています。これを裏付けるために不足している情報は、各カテゴリの実際の2015年の経費額です。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_009",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "'2015年の費用に対する割合'列のうち、列の明らかなデータ型と矛盾するデータが含まれているセルはどれで、その異常な値は何ですか？",
+    "answer": [
+      [
+        "セルC7、すなわち「その他の純費用」に対応するセルには、「2014」という値が含まれています。これは、列の他のすべての値がパーセンテージまたはパーセンテージを表す数値であるのに対し、「2014」が年号のように見えるため、異常です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_010",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "'データセンターの損失および関連訴訟費用'における前年比増減額は最大の増加です。この増加額は、2番目に大きい増加額である「専門職手数料および外部サービス」と比較して、何パーセント大きいですか？小数点以下第1位を四捨五入してください。",
+    "answer": [
+      [
+        "17.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_011",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "前年同期比で最も増加した費用カテゴリはどれですか？",
+    "answer": [
+      [
+        "Loss on data center and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

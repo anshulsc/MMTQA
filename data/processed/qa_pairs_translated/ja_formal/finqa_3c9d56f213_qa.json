@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "表に記載されているすべての風力発電プロジェクトによって生成された総総メガワット（MW）は何ですか？",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "記載されているプロジェクト全体で、石炭（Coal）または水力（Hydro）のうち、どちらの燃料タイプがより高い平均総発電量（Gross MW）を持っていますか？",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "中国にあり、再生可能燃料源（水力または風力）を使用するすべてのプロジェクトの名前をリストアップしてください。",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "チリに所在するプロジェクトで、最大の総発電量（Gross MW）を持つプロジェクトにおけるAESの持分による実効総発電量（Gross MW）はいくらですか？",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "AESが100%の持分比率を持つプロジェクトからの総総出力量（Gross MW）のうち、その割合は何パーセントですか？",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "最も異常な総発電量（MW）を持つプロジェクトを特定し、それがデータセット内の他のすべてのプロジェクトとどのように異なるのか説明してください。",
+    "answer": [
+      [
+        "「バリーラムフォード」プロジェクトが最も顕著な外れ値です。その総発電量（MW）1246は、次に大きいプロジェクトである「JHRH」（379 MW）の3倍以上、データセット全体の総発電量（MW）の中央値（49 MW）の25倍以上です。この巨大な差は、その発電能力がリストされている他のすべてのプロジェクトと比較して異常であることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "トルコの全プロジェクトにおけるAESの持分比率が現在の水準から倍増した場合、AESに帰属するトルコからの新しい総実効総メガワット（Gross MW）はいくらになりますか？",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "データに基づくと、プロジェクトの総発電量（Gross MW）とAESの持分比率の間には、観察可能な相関関係はありますか？その理由を説明してください。",
+    "answer": [
+      [
+        "プロジェクトの総発電量（Gross MW）とAESの持分比率の間には、明確で一貫した相関関係は観察されません。例えば、総発電量が最も高いプロジェクト（'ballylumford'、1246 MW）は100%の持分がありますが、2番目に高いプロジェクト（'jhrh'、379 MW）は35%という低い持分です。逆に、総発電量が非常に低いプロジェクト（'north rhins'、22 MW）も100%の持分を有しています。異なるプロジェクト規模にわたる持分比率の広範な分布は、プロジェクトの規模がAESの投資レベルを直接決定するわけではないことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "'aes equity interest ( percent rounded )' 列には冗長な情報が含まれています。この冗長性のパターンを説明してください。",
+    "answer": [
+      [
+        "この列は、各セルにパーセンテージ値があり、その後に括弧内に同じ値が繰り返されるという一貫した冗長性のパターンを示しています。例えば、「71% ( 71 % )」のような形式です。括弧内の情報は、その前に来る情報と全く同じ重複です。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "表に複数のプロジェクトが記載されている国の中で、AESに帰属する実効総出力を合計した場合、最も低い国はどこですか？",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "主な燃料として風力を使用しているプロジェクトはいくつありますか？",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

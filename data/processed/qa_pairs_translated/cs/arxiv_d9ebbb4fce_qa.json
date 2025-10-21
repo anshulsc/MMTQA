@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "arxiv_d9ebbb4fce_001",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Který model je explicitně zmíněn jako dosažující výkonu State-of-the-Art (SOTA) napříč mnoha benchmarky?",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_002",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Kolik z uvedených modelů zahrnuje technologii 'transformer' buď ve své klíčové inovaci, nebo v metodologii?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_003",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Jaká je klíčová inovace modelu, který využívá strategie trénování na více datových sadách?",
+    "answer": [
+      [
+        "Open-source foundation model family"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_004",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Metodika kterého modelu jedinečně zahrnuje transformaci 1D časových dat do 2D reprezentace pro analýzu vzorců?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_005",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Vygenerujte modely, které jsou buď popsány jako 'základní model' nebo používají přístup 'předtrénovaný' ve své inovaci.",
+    "answer": [
+      [
+        "Timer"
+      ],
+      [
+        "MOMENT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_006",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Jaké procento modelů v tomto seznamu využívá architekturu založenou na transformerech?",
+    "answer": [
+      [
+        "60%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_007",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Pokud je hlavním omezením výzkumného týmu velmi malé množství trénovacích dat (1-5 %), výsledky kterého modelu naznačují, že by byl nejúčinnější volbou?",
+    "answer": [
+      [
+        "Timer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_008",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě tabulky, jaký vztah lze odvodit mezi metodologií modelu a jeho primárními výsledky, zejména pokud jde o architektury transformer?",
+    "answer": [
+      [
+        "Data naznačují korelaci mezi přijetím architektur založených na transformerech a dosažením silného výkonu ve specifických, náročných scénářích. Například předtrénovaný transformer pouze s dekodérem v modelu Timer vede k silnému výkonu v režimu few-shot, zatímco nezávislý transformer modelu PatchTST na kanálech vede k významnému snížení MSE při dlouhodobém předpovídání. To naznačuje, že metodologie založené na transformerech jsou obzvláště účinné pro úkoly vyžadující buď datovou efektivitu (few-shot učení) nebo zachycení dlouhodobých závislostí (dlouhodobé předpovídání)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_009",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Který sloupec obsahuje informace popisující základní algoritmický nebo strukturální přístup každého modelu?",
+    "answer": [
+      [
+        "Methodology"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_010",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Který primární výsledek modelu vyniká tím, že poskytuje specifickou, kvantitativní metriku výkonu namísto kvalitativního popisu, jako je 'silný' nebo 'vynikající' výkon?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_011",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Který model překonal všechny modely na 18 benchmarkových datasetech?",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

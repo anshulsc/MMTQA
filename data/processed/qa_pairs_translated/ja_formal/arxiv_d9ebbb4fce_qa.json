@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "arxiv_d9ebbb4fce_001",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "多数のベンチマーク全体で最先端（SOTA）のパフォーマンスを達成したと明示的に言及されているモデルはどれですか？",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_002",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "提示されたモデルのうち、「transformer」技術をキーイノベーションまたは方法論のいずれかに組み込んでいるものはいくつありますか？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_003",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "マルチデータセットトレーニング戦略を利用するモデルの主なイノベーションは何ですか？",
+    "answer": [
+      [
+        "Open-source foundation model family"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_004",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "1次元の時間データを2次元表現に変換してパターンを分析するという手法を採用しているモデルはどれですか？",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_005",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "「ファウンデーションモデル」として説明されている、またはそのイノベーションにおいて「事前学習済み」アプローチを使用しているモデルをリストアップしてください。",
+    "answer": [
+      [
+        "Timer"
+      ],
+      [
+        "MOMENT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_006",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "このリストにあるモデルのうち、トランスフォーマーベースのアーキテクチャを利用しているものは何パーセントですか？",
+    "answer": [
+      [
+        "60%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_007",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "研究チームの主な制約が非常に少ないトレーニングデータ（1～5%）である場合、どのモデルの結果が最も効果的な選択肢を示唆していますか？",
+    "answer": [
+      [
+        "Timer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_008",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "open_ended_reasoning",
+    "question": "表に基づくと、モデルの方法論とその主な結果との間には、特にTransformerアーキテクチャに関して、どのような関係が推測できますか？",
+    "answer": [
+      [
+        "データは、Transformerベースのアーキテクチャの採用と、特定の困難なシナリオにおける強力なパフォーマンスの達成との間に相関関係があることを示唆しています。例えば、Timerの事前学習済みデコーダーオンリーTransformerは強力なFew-shotパフォーマンスにつながり、PatchTSTのチャネル独立Transformerは長期予測におけるMSEの大幅な削減につながります。これは、Transformerベースの方法論が、データ効率（Few-shot学習）または長期依存関係のキャプチャ（長期予測）のいずれかを必要とするタスクに特に効果的であることを意味します。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_009",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "各モデルの基本的なアルゴリズムまたは構造的アプローチを説明する情報が含まれる列はどれですか？",
+    "answer": [
+      [
+        "Methodology"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_010",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "定性的説明（「強力」や「優れている」など）ではなく、具体的な定量的パフォーマンス指標を提供することで、プライマリの結果が際立っているモデルはどれですか？",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_011",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "18のベンチマークデータセット全体で、すべてのモデルを上回ったモデルはどれですか？",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

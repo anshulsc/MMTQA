@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "哪种担保类型在其“投资级”和“非投资级”潜在付款之间以十亿美元为单位的绝对差额最大？",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "所有评级为“投资级”但“未评级”值为占位符（“2014”）的担保类型的总潜在付款金额是多少？",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "对于具有最高总体潜在支付总额的担保类型，哪个评级类别（“投资级”、“非投资级”或“未评级”）构成了该总额的最大部分？",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "最大潜在未来付款总计中，有多少百分比被归类为‘未评级’？",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "如果“无评级”金额的“证券借贷赔偿”被发现比标明的金额低 10%，那么所有担保的总计将是多少？",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "对于在“投资级”和“非投资级”评级中均具有零值或占位符（“2014”）值的担保类型，“总计”的潜在付款金额平均是多少？",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "在付款评级列（“投资级”、“非投资级”或“未评级”）中，哪一列包含最多的非数字占位符值（“2014”）？",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "根据提供的数据，找出“最大潜在未来付款总额”栏中的最显著的异常值，并解释其突出原因。",
+    "answer": [
+      [
+        "“金融备用信用证”类别，总计942亿美元，是最显著的上限异常值。该数值比次高类别（“衍生工具”，为679亿美元）高约38.4%，并且是所有类别平均值（381.1亿美元）的2.4倍以上。相反，“担保应收合同现金流”和“有追索权出售的贷款”是以各自仅为3亿美元的数值成为显著的下限异常值。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "分析“履约保证”和“托管赔偿及其他”两类保证在投资级、非投资级和未评级这三个评级类别中的潜在支付额分布。这种比较说明了这两种保证类型的风险状况有何差异？",
+    "answer": [
+      [
+        "对于“履约保证”，金额在投资级（57亿美元）、非投资级（50亿美元）和未评级（56亿美元）之间分布相对均匀，表明其风险状况多样化。相比之下，“托管赔偿及其他”的金额则严重偏向投资级（185亿美元），非投资级部分（31亿美元）要小得多，并且没有未评级金额。这表明与“履约保证”相比，“托管赔偿”与之相关的信用风险交易对手的风险显著较低。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "不同担保类型下，‘投资级’和‘非投资级’潜在付款金额之间是否存在一种一致的、可观察的相关性？请解释原因。",
+    "answer": [
+      [
+        "否，不存在一致的、可观察的相关性。由于只有三类在两个列中都具有数值，因此数据过于稀疏，无法建立可靠的模式。‘金融备用信用证’的投资级金额很高（492亿美元），而非投资级金额也很高（286亿美元）。‘履约保函’两者的数值相似（57亿美元和50亿美元）。然而，‘托管义务解除保证’的投资级金额很高（185亿美元），但非投资级金额非常低（31亿美元），这与前两项所示的任何简单的正相关关系相矛盾。大量的占位符值阻碍了更彻底的分析。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "哪项具有最大的投资级未来付款潜在金额？",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

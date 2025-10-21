@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "ما هي القيمة الإجمالية للأصول ('الاستثمارات' و 'الأصول الأخرى') في 31 ديسمبر 2007؟",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "أي فئة من الأصول، 'الاستثمارات' أم 'أصول أخرى'، شهدت خسارة صافية أكبر بالقيمة المطلقة من 'المكاسب / (الخسائر) الصافية المحققة وغير المحققة'؟",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "تحقق مما إذا كان الرصيد الختامي لـ 'الاستثمارات' في 31 ديسمبر 2008 يتفق مع رصيده الافتتاحي والمعاملات اللاحقة المدرجة. أظهر حسابك.",
+    "answer": [
+      [
+        "نعم، الرصيد متسق. الحساب هو: 1240 دولار (رصيد افتتاحي) - 409 دولار (مكاسب/خسائر) + 11 دولار (مشتريات/مبيعات) - 29 دولار (تحويلات صافية) = 813 دولار، وهو ما يتطابق مع الرصيد الختامي المبلغ عنه."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "ما هو إجمالي التغير الصافي في قيمة الأصول للفترة بأكملها، من 31 ديسمبر 2007 إلى 31 ديسمبر 2008؟",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "لأي فئات الأصول أدت 'صافي التحويلات الواردة و/أو الصادرة من المستوى 3' إلى مساهمة إيجابية في قيمة الأصول؟",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "ما هي نسبة 'إجمالي الخسائر (الصافية) للفترة المدرجة في الأرباح' التي جاءت من 'الاستثمارات'؟",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "إذا كانت \"المكاسب / (الخسائر) المحققة وغير المحققة الصافية\" لـ \"الأصول الأخرى\" صفرًا بدلاً من -16 دولارًا، فما هو الرصيد الختامي الجديد للأصول الأخرى في 31 ديسمبر 2008؟",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على بيانات 'الاستثمارات'، ما هي العلاقة بين 'صافي المكاسب / (الخسائر) المحققة وغير المحققة' و 'إجمالي صافي (الخسائر) ... المتعلقة بالأصول التي لا تزال محتفظ بها في تاريخ التقرير'؟",
+    "answer": [
+      [
+        "هناك علاقة قوية ومباشرة. يمثل 'إجمالي صافي (الخسائر) ... المتعلقة بالأصول التي لا تزال محتفظ بها' (366 دولارًا) 89.5٪ من إجمالي 'صافي المكاسب / (الخسائر) المحققة وغير المحققة' (409 دولارًا). هذا يعني أن غالبية صافي خسائر الفترة للاستثمارات كانت غير محققة ومرتبطة بالأصول التي لم يتم بيعها بحلول نهاية الفترة المشمولة بالتقرير."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "ما هو العرف المحاسبي الذي تشير إليه صيغة القيم السالبة، مثل '-409 (409)'؟",
+    "answer": [
+      [
+        "إن صيغة إظهار رقم سالب متبوعًا بقيمته المطلقة بين قوسين هي عرف محاسبي شائع للإشارة بوضوح وتأكيد إلى الأرقام المالية السالبة مثل الخسائر أو المصروفات أو قيم الأصول المقابلة."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "أي بند في السجل يمثل أكبر تأثير سلبي مفرد على قيم الأصول المجمعة خلال الفترة؟",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "كم انخفضت الاستثمارات من عام 2007 إلى عام 2008؟",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

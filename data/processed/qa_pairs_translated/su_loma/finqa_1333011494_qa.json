@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Aset naon anu gaduh nilai 'bangunan' pangluhurna?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Naon 'alokasi harga beuli' total pikeun sadaya properti anu didaptarkeun dina tabél?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Naon 'net consideration funded by us at closing' pikeun properti anu ngagaduhan nilai 'acquired in-place leases' panghandapna?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Pikeun properti '1515 broadway', sabaraha persén tina nilai 'aset anu kaakuisisi' na anu asalna tina jumlah nilai 'tanah' jeung 'bangunan'?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Sebutkeun kabéhanana sipat di mana 'hutang anu dicokot' leuwih ti tilu kali 'investasi ekuitas jeung/atawa hutang anu dicekel'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Upami aya panyesuaian akuntansi anu ngévaluasi deui nilai 'bangunan' pikeun '110 east 42nd street' janten 10% langkung handap, sabaraha nilai 'aset anu kaakuisisi' anu énggal pikeun éta properti?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Nilai 'penyesuaian nilai wajar kana hutang hipoték' pikeun '1515 broadway' mangrupikeun nilai négatip sedengkeun éta mangrupikeun nilai anu positif sareng seragam pikeun kalolobaan properti sanés. Naon anu disarankeun ku légok tarik anu signifikan ieu ngeunaan pembiayaan properti khusus éta?",
+    "answer": [
+      [
+        "Nilai négatip '-3693' pikeun '1515 broadway' dina kategori 'penyesuaian nilai wajar kana hutang hipoték' mangrupikeun légok tarik anu béda dibandingkeun sareng nilai positif seragam '2014' pikeun properti sanés. Ieu nunjukkeun yén hipoték anu aya hubunganana sareng akuisisi 1515 Broadway ngagaduhan istilah anu langkung nguntungkeun tibatan tingkat pasar anu berlaku dina waktos akuisisi, nyiptakeun aset (penyesuaian kawajiban négatip). Sabalikna, properti sanés panginten ngagaduhan hipotek dina atanapi caket sareng tingkat pasar, meryogikeun penyesuaian standar nominal."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": " Dumasar kana data, naha aya korelasi positif langsung antara 'alokasi harga beuli' hiji properti jeung 'pertimbangan bersih anu dibiayaan ku urang nalika nutup'?",
+    "answer": [
+      [
+        "Henteu, teu aya korelasi positif langsung. Contona, '180 maiden lane' ngagaduhan harga beuli pangluhurna kadua ($442.325) tapi pertimbangan bersihna ($81.835) ampir sami sareng '51 east 42nd street', anu gaduh harga beuli langkung handap ($80.000). Leuwih ti éta, '1515 broadway' ngagaduhan harga beuli pangluhurna ku margin anu ageung ($1.234.000) tapi sanés pertimbangan bersih pangluhurna. Ieu nunjukkeun yén faktor sanés, sapertos 'hutang anu dianggap' (anu luhur pisan pikeun '1515 broadway'), sacara signifikan mangaruhan pertimbangan bersih anu diperyogikeun nalika nutup."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Hitung total 'liabilities assumed' pikeun properti anu ngagaduhan 'above market lease value' kirang ti $6.000.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Nilai '2014' muncul sababaraha kali dina opat kategori kauangan anu béda, seringna pikeun properti anu sami. Naon anu disarankeun ku pamakéan konstanta nomer husus ieu, anu henteu buleud, dina kontéks anu béda ngeunaan sipatna?",
+    "answer": [
+      [
+        "Nilai '2014' muncul dina 'aset séjén dikurangan kawajiban séjén', 'penyesuaian nilai pasar pikeun hipotek catetan anu kedah dibayar', 'investasi é equity sareng/atanapi hutang anu dicekel', sareng 'hutang anu ditampi'. Pamakéanana anu terus-terusan salaku nilai anu sarua anu kawilang leutik dina sababaraha kategori sareng properti nunjukkeun yén éta sanés nilai pasar anu diukur tapi langkung mangrupikeun tempat panyekelan nominal, nilai minimal standar anu dianggo pikeun tujuan akuntansi, atanapi sigana rujukan kana kajadian atanapi taun peraturan khusus (contona, transaksi ti 2014). Éta ngalambangkeun éntri anu standar tibatan penilaian unik pikeun unggal instance."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Sabaraha hargana pikeun mésér lahan di 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

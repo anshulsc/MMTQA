@@ -1,0 +1,311 @@
+[
+  {
+    "question_id": "wikisql_05702949b9_001",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "米国視聴者数が最も多かったエピソードのタイトルは何ですか？",
+    "answer": [
+      [
+        "\"On Behalf of a Grateful Nation\""
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_002",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "ジョン・ターレスキー氏が監督した全エピソードの総視聴者数（百万単位）はいくつでしたか。",
+    "answer": [
+      [
+        "8.1"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "G4",
+      "D12",
+      "G12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_05702949b9_003",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "シーズン最低視聴者数を記録したエピソードの直後に放送されたエピソードの脚本家は、どなたですか。",
+    "answer": [
+      [
+        "Debra Fordham"
+      ]
+    ],
+    "evidence_cells": [
+      "E9",
+      "F8",
+      "F9",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_004",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "open_ended_reasoning",
+    "question": "2011年3月に放映されたエピソードの視聴者数の推移についてご説明ください。",
+    "answer": [
+      [
+        "2011年3月の視聴者数の推移は変動的でした。当初は420万と好調に始まりましたが、第2週目には330万にまで大幅に低下しました。その後、着実に回復・増加し、月末にはシーズン最高視聴者数となる470万で終了いたしました。全体的な傾向としては、落ち込みの後に力強い急増が見られました。"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "G1",
+      "F2",
+      "G2",
+      "F3",
+      "G3",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_005",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "「Debra Fordham」または「James Stanley」によって脚本が執筆され、かつ視聴者数が350万人を超えたエピソードのタイトルは何でしょうか？",
+    "answer": [
+      [
+        "\"Line of Departure\""
+      ],
+      [
+        "\"Drop Zone\""
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "G1",
+      "C6",
+      "E6",
+      "G6",
+      "C9",
+      "E9",
+      "G9",
+      "C11",
+      "E11",
+      "G11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_006",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "今シーズンのエピソードのうち、Rob Spera氏が監督を務めたものの割合は何パーセントですか？",
+    "answer": [
+      [
+        "16.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_05702949b9_007",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "2011年5月に放送された全てのエピソードの視聴者数が10%増加していた場合、その月の新たな平均視聴者数（百万人単位）はいくつになりますか。",
+    "answer": [
+      [
+        "3.63"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "G8",
+      "F9",
+      "G9",
+      "F10",
+      "G10",
+      "F11",
+      "G11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_008",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "open_ended_reasoning",
+    "question": "このデータに基づき、シーズン内のエピソード番号とその米国視聴者数との間に、明確な線形相関（正または負のいずれか）は認められますか。その理由をご説明ください。",
+    "answer": [
+      [
+        "いいえ、明確な線形相関は認められません。視聴者数は、シーズンが進むにつれて一貫した増減を見せていません。視聴者数は変動しており、高く（420万）で始まり、エピソード4でピーク（470万）に達し、エピソード8で最低値（310万）を記録した後、300万台半ばの範囲で安定しています。このパターンは線形ではなく、むしろ不規則です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2",
+      "A3",
+      "G3",
+      "A4",
+      "G4",
+      "A5",
+      "G5",
+      "A6",
+      "G6",
+      "A7",
+      "G7",
+      "A8",
+      "G8",
+      "A9",
+      "G9",
+      "A10",
+      "G10",
+      "A11",
+      "G11",
+      "A12",
+      "G12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_05702949b9_009",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "「Directed by」（監督）または「Written by」（脚本）のいずれかの列において、2回以上クレジットされている人物をすべて列挙してください。",
+    "answer": [
+      [
+        "John T. Kretchmer"
+      ],
+      [
+        "Debra Fordham"
+      ],
+      [
+        "John Terlesky"
+      ],
+      [
+        "Rasheed Newson"
+      ],
+      [
+        "Rob Spera"
+      ],
+      [
+        "James Stanley"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_010",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "シーズン平均視聴者数に対し、最も大きな正の乖離を示した視聴者数に対応するエピソードのタイトルは何ですか？",
+    "answer": [
+      [
+        "\"On Behalf of a Grateful Nation\""
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_05702949b9_011",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "open_ended_reasoning",
+    "question": "週間の視聴者数（オーディエンス・エンゲージメント）に関して、どのような傾向が推察されますか？",
+    "answer": [
+      [
+        "視聴者数は時間の経過とともにわずかに減少しており、これは徐々に視聴者が離脱したか、あるいは競合する番組が存在したことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E12",
+      "G1",
+      "G12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

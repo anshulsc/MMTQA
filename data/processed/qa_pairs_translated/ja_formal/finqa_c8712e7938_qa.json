@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_c8712e7938_001",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "2003年から2005年までの「報告済みの純損失」の傾向について説明してください。",
+    "answer": [
+      [
+        "報告済みの純損失は一貫して減少傾向を示しており、財務状況の改善が見られます。損失額は2003年の325,321ドルから2004年には247,587ドルに減少し、2005年にはさらに171,590ドルに縮小しました。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_002",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "「報告された純損失」と「プロフォーマ純損失」との絶対差が最も大きかったのは何年ですか？",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_003",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "表示されている3年間すべてにおいて、「株式報酬費用」は合計でいくら加算されましたか？",
+    "answer": [
+      [
+        "11478"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8712e7938_004",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "「報告された基本的な希薄化後1株当たり純損失」が最も小さかった年の、「プロフォーマ純損失」の絶対額と「報告された純損失」の絶対額との比率はいくつですか。小数点以下3桁に丸めてください。",
+    "answer": [
+      [
+        "1.088"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_005",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "'公正価値ベースの方法'で算定された'総株式報酬費用'の絶対値が25,000ドルを超えた年をリストアップしてください。",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_006",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "2004年において、「プロフォーマ純損失」の絶対値のうち、「報酬総額株式報酬費用」の調整によるものは何パーセントを占めますか？小数点以下2桁に丸めてください。",
+    "answer": [
+      [
+        "8.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8712e7938_007",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "2005年に加算された「株式報酬費用」が50％少なかった場合、その年の新しい「プロフォーマ純損失」はいくらになりますか？",
+    "answer": [
+      [
+        "$ -190276 ( 190276 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_008",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "「追加：株式報酬費用」または「控除：株式報酬費用」のいずれかの項目で、前年比の変動率が最も大きかったのはどの項目で、それはどの2年間の間でしたか？",
+    "answer": [
+      [
+        "「追加：株式報酬費用」という項目が最も大きな変動を経験しました。2004年の2,297ドルから2005年の7,104ドルへと209%以上増加し、表中の他の前年比変動と比較して著しく外れ値となっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8712e7938_009",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "「報告済みの純損失」と「プロフォーマ純損失」は、3年間でどのような関係にありますか？",
+    "answer": [
+      [
+        "「プロフォーマ純損失」は、各年において「報告済みの純損失」よりも常に損失額が大きいという、直接的かつ一貫した関係があります。両指標とも、2003年から2005年にかけて損失が減少するという同じ改善傾向を示しており、株式報酬の調整により計算上の損失が増加するものの、両指標にわたる根本的な事業業績の傾向は一貫していることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8712e7938_010",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "表の構造に基づき、「net loss as reported」（報告された純損失）、「add」（追加）項目、「less」（控除）項目が、「pro-forma net loss」（プロフォーマ純損失）にどのように関連付けられるか、算術演算を説明してください。2003年のデータで検証してください。",
+    "answer": [
+      [
+        "計算式は、（「net loss as reported」）+（「add : stock-based employee compensation expense...」）-（「total stock-based employee compensation expense...」）です。2003年のデータを使用すると、（-325321）+（2077）-（31156）= -354400となり、その年の「pro-forma net loss」と一致します。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_011",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "2003年から2005年にかけて、報告された純損失はどのように変化しましたか？",
+    "answer": [
+      [
+        "報告された純損失は、2003年の325,321ドルから2005年には171,590ドルに減少しました。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

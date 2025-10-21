@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "أي استعلام يتطلب تحليل أكبر عدد من المقاييس المالية الأولية؟",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "احسب العدد الإجمالي لـ 'المقاييس ذات الصلة' المدرجة عبر جميع الاستعلامات الثلاثة.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "بالنسبة للاستعلام الذي يتضمن مقارنة شركة بنظرائها، ما هو النطاق الزمني المحدد في 'طلب البيانات المنظمة' المقابل؟",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "ما هو الاستعلام باللغة الطبيعية الذي يتوافق مع الطلب المنظم الذي يغطي أطول فترة زمنية؟",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "اذكر جميع المقاييس الأساسية المطلوبة للاستعلامات التي تشير تحديدًا إلى شركة بمعرف قانوني مثل 'plc' أو 'Co.' في حقل 'Required Data'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "بالنسبة لاستعلام Amcor plc، ما هي النسبة المئوية لجميع المقاييس المدرجة في 'طلب البيانات المنظمة' التي تحتوي صراحةً على كلمة 'Cash'؟",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "إذا تم توسيع الاستعلام باللغة الطبيعية لشركة Adobe ليشمل طلبًا لـ 'العائد على رأس المال العامل'، فكيف سيتم تعديل قائمة المقاييس في 'طلب البيانات المنظمة'، باستخدام معلومات من استعلام Haliburton كنموذج؟",
+    "answer": [
+      [
+        "سيتم تحديث قسم المقاييس في 'طلب البيانات المنظمة' ليشمل 'العائد على رأس المال العامل' ومكوناته ذات الصلة من استعلام Haliburton. وهذا يعني إضافة 'العائد على رأس المال العامل؛ صافي الدخل؛ رأس المال العامل' إلى القائمة الحالية، مما يؤدي إلى: (إيرادات المبيعات؛ إجمالي الإيرادات؛ القيمة الاقتصادية المضافة؛ صافي الربح التشغيلي بعد الضرائب (NOPAT)؛ تكلفة رأس المال؛ العائد على رأس المال العامل؛ صافي الدخل؛ رأس المال العامل)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على البيانات المقدمة، ما هي العلاقة الظاهرية بين تعقيد الاستعلام باللغة الطبيعية (\"Query\") والعدد الإجمالي للمقاييس المحددة في طلب البيانات المنظمة (\"Structured Data Request\")؟",
+    "answer": [
+      [
+        "يبدو أن هناك ارتباطًا إيجابيًا. الاستعلامان الأكثر تعقيدًا (لأمكور وهاليبرتون) يقابلان عددًا أعلى بكثير من المقاييس في طلباتهما المنظمة (14 و 12 على التوالي) مقارنة بالاستعلام الأبسط لـ Adobe، الذي يحتوي على 5 مقاييس فقط. يشير هذا إلى أنه مع زيادة العمق التحليلي لسؤال المستخدم، تزداد أيضًا حمولة البيانات المطلوبة."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "أي عمود يؤدي وظيفة تحليل الاستعلام باللغة الطبيعية إلى تنسيق شبه منظم يسرد صراحةً الشركات والمقاييس الأساسية والمقاييس الفرعية ذات الصلة والإطار الزمني المطلوب؟",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "قم بتحليل المعلومات الزمنية في عمودي \"البيانات المطلوبة\" و \"طلب البيانات المهيكلة\". هل هناك استعلام يعرض فيه هذان العمودان إطارًا زمنيًا متعارضًا؟ إذا كان الأمر كذلك، فحدد الاستعلام ووصف التناقض.",
+    "answer": [
+      [
+        "نعم، يُظهر استعلام Amcor plc تناقضًا كبيرًا. يحدد قسم \"البيانات المطلوبة\" إطارًا زمنيًا لـ \"لآخر 6 أشهر\"، بينما يحدد \"طلب البيانات المهيكلة\" المقابل فترة أقصر بكثير مدتها 7 أيام وهي \"(1/7/2024 - 7/7/2024)\". يظهر الاستعلامان الآخران اتساقًا زمنيًا بين العمودين."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "كم عدد الشركات الفريدة المذكورة في البيانات؟",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

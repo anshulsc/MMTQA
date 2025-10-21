@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "finqa_516cee154e_001",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Quelle année a eu le 'résultat net dilué disponible pour les actions ordinaires et les actions ordinaires potentiellement dilutives' le plus élevé ?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_002",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Quel était le total des 'unités de partenariat moyennes pondérées en circulation' pour les trois années enregistrées dans le tableau ?",
+    "answer": [
+      [
+        "52813"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_516cee154e_003",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Au cours de l'année où les 'unités de partenariat moyennes pondérées en circulation' étaient les plus faibles, quel était le 'bénéfice net de base disponible pour les actions ordinaires' ?",
+    "answer": [
+      [
+        "$ 161272"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "B1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_004",
+    "table_id": "finqa_516cee154e",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez l'évolution du nombre moyen pondéré d'actions ordinaires en circulation de 2000 à 2002.",
+    "answer": [
+      [
+        "Le nombre moyen pondéré d'actions ordinaires en circulation a montré une tendance à la hausse constante. Il a commencé à 126 836 en 2000, a augmenté à 129 660 en 2001 et a continué de croître pour atteindre 133 981 en 2002."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_005",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Listez toutes les métriques financières où la valeur en 2002 était inférieure à la valeur en 2000.",
+    "answer": [
+      [
+        "basic net income available for common shares"
+      ],
+      [
+        "minority interest in earnings of common unitholders"
+      ],
+      [
+        "diluted net income available for common shares and dilutive potential common shares"
+      ],
+      [
+        "weighted average partnership units outstanding"
+      ],
+      [
+        "dilutive shares for stock-based compensation plans"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_006",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "En 2001, quelle proportion du 'nombre moyen pondéré d'actions ordinaires et de potentielles actions ordinaires dilutives' était attribuable aux 'unités de partenariat moyennes pondérées en circulation' ?",
+    "answer": [
+      [
+        "12.06%"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_516cee154e_007",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Si le 'revenu net de base' en 2002 avait été supérieur de 20 %, quel serait le nouveau revenu net de base moyen sur les trois années ?",
+    "answer": [
+      [
+        "224090.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_008",
+    "table_id": "finqa_516cee154e",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après les données, existe-t-il une corrélation observable entre le \"nombre moyen pondéré d'actions ordinaires en circulation\" et le \"résultat net de base disponible pour les actions ordinaires\" ?",
+    "answer": [
+      [
+        "Il semble y avoir une corrélation inverse entre ces deux indicateurs. Alors que le nombre moyen pondéré d'actions ordinaires en circulation a augmenté régulièrement de 2000 à 2002, le résultat net de base a fluctué, atteignant un pic en 2001 avant de chuter à son point le plus bas en 2002, l'année où le nombre d'actions était le plus élevé. Cela suggère que l'augmentation des actions n'a pas nécessairement entraîné une augmentation du résultat net, et en fait, le nombre d'actions le plus élevé correspond au résultat net le plus bas."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_516cee154e_009",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Parmi les deux métriques de revenus, 'de base' ou 'dilué', laquelle a systématiquement une valeur plus élevée sur toutes les années ?",
+    "answer": [
+      [
+        "diluted net income available for common shares and dilutive potential common shares"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_010",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Quelle métrique financière a connu la plus forte baisse absolue de valeur entre son année record et 2002 ?",
+    "answer": [
+      [
+        "diluted net income available for common shares and dilutive potential common shares"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_516cee154e_011",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "Quel est le pourcentage de diminution du bénéfice net de base attribuable aux actionnaires ordinaires entre 2000 et 2002 ?",
+    "answer": [
+      [
+        "24.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

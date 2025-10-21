@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Mean Squared Error (MSE_over) හි අඩුම අගයක් ලබා ගන්නා, බහු-කාර්ය නොවන ආකෘතිය කුමක්ද?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "සියලුම 'බහු-කාර්ය' ලෙස සලකුණු කරන ලද ආකෘති සඳහා දින 7ක කාලපරිච්ඡේදය (MSE7) තුළ සාමාන්‍ය MSE ගණනය කරන්න.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "MSE3 අගය අනුව දෙවන-උසම (දෙවන නරකම) මෝස්තරය කුමක්ද, එහි අනුරූප MSE30 අගය කුමක්ද?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "HTML ආකෘතිය සඳහා පුරෝකථන කාලසීමාව දින 3 සිට 30 දක්වා දීර්ඝ වන විට එහි සාමාන්‍ය වර්ගඵල දෝෂය (MSE) පිළිබඳව විශ්ලේෂණය කරන්න. කාලයත් සමඟ එහි අනාවැකි නිරවද්‍යතාවය වැඩි දියුණු වේද හෝ නරක අතට හැරේද?",
+    "answer": [
+      [
+        "HTML ආකෘතියේ අනාවැකි නිරවද්‍යතාවය, පුරෝකථන කාලසීමාව දීර්ඝ වන විට, වැඩි දියුණු වේ. එහි MSE අගයන් MSE3 (0.845) සිට MSE7 (0.349), MSE15 (0.251) සහ අවසානයේ MSE30 (0.158) දක්වා ස්ථාවරව අඩුවීම, අඩු දෝෂයක් සහ එම නිසා දිගු කාලීන අනාවැකි මත වඩා හොඳ කාර්ය සාධනයක් පෙන්නුම් කරයි."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "'Multi-Task' ලෙස නම් නොකෙරෙන සහ MSE15 අගය 0.31 ට වඩා අඩු සියලුම මාදිලි හඳුනා ගන්න.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "සියලුම MSE මෙಟ್ರික් හරහා කාර්ය සාධනයේ පැහැදිලි වෙනසක් පෙන්වන මාදිලි හඳුනාගෙන ඊට හේතුව පැහැදිලි කරන්න.",
+    "answer": [
+      [
+        "GPT-3.5-Turbo මාදිලි කාර්ය සාධනයේ පැහැදිලි වෙනසක් පෙන්වයි. එහි MSE අගයන් සියලු කාලසීමාවන් (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) තුළ අනෙකුත් සියලුම මාදිලිවලට වඩා සැලකිය යුතු තරම් ඉහළ අගයන් වේ. ඉන් වැඩි හරියක MSE අගය 1.0 ට වඩා අඩුය. මෙය ලැයිස්තුගත කර ඇති අනෙකුත් මාදිලි සමඟ සසඳන විට සැලකිය යුතු තරම් නරක අනාවැකි කාර්ය සාධනයක් පෙන්නුම් කරයි."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "සියලුම මාදිලිවල මුළු එකතුව MSE3 හි කොපමණ ප්‍රතිශතයක් GPT-3.5-Turbo මාදිල්ලට ආරෝපණය කළ හැකිද? පිළිතුර දශම ස්ථාන එකකට වටකුරු කළ ප්‍රතිශතයක් ලෙස සපයන්න.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "RiskLabs ආකෘතියේ MSE_over 25% කින් (එනම් 25% කින්) දියුණු වුවහොත්, එහි නව අගය කුමක්ද, සහ HTML ආකෘතියේ MSE_over හා සසඳන විට එහි ශ්‍රේණිය කුමක්ද?",
+    "answer": [
+      [
+        "RiskLabs සඳහා නව MSE_over 0.243 වනු ඇත. මෙම අගය HTML ආකෘතියේ MSE_over 0.401 ට වඩා අඩු, එබැවින් වඩා හොඳය."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "ሠట్టి බැලීමෙන්, 'Multi-Task' ලෙස වර්ගීకరించීම සහ 'VaR' ලකුණු ලබා ගැනීමේ හැකියාව අතර සම්බන්ධය කුමක්ද?",
+    "answer": [
+      [
+        "ඒ අතර ශක්තිමත් සම්බන්ධතාවක් ඇත. 'Multi-Task' ලෙස නම් කර ඇති ආකෘති (GPT-3.5-Turbo සහ RiskLabs) පමණක් වාර්තාගත සංඛ්‍යාත්මක 'VaR' ලකුණු ලබා ගනී. කෙසේ වෙතත්, සියලුම 'Multi-Task' ආකෘතිවලට VaR ලකුණක් නොමැත (උදා., HTML), සහ 'Multi-Task' නොවන කිසිදු ආකෘතියකට එය නොමැත, මේ දත්ත කට්ටලයේ VaR ගණනය කිරීමේ හැකියාව ප්‍රධාන වශයෙන් 'Multi-Task' ආකෘති සමඟ සම්බන්ධ වන අංගයක් බව යෝජනා කරයි."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "සංඛ්‍යාත්මක නොවන ප්ලේස්හෝල්ඩර් දත්ත අඩංගු කාර්ය සාධන මෙಟ್ರික් විෂය පථය කුමක්ද, මෙම දත්ත කුමන නිශ්චිත මාදිලි සඳහා අස්ථානගත වී තිබේද?",
+    "answer": [
+      [
+        "‘VaR’ විෂය පථය සංඛ්‍යාත්මක නොවන දත්ත ('/') අඩංගු වේ. මෙම දත්ත පහත මාදිලි සඳහා අස්ථානගත වී ඇත: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, සහ HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "MSE3–MSE30 (مختلف கால அளவுகளுக்கு இடையிலான முன்னறிவிப்புத் துல்லியம்) மற்றும் VaR (இடர் மதிப்பீடு) ஆகியவற்றுக்கு இடையேயான ஒட்டுமொத்த சமநிலையை எந்த மாதிரி சிறப்பாக வெளிப்படுத்துகிறது?",
+    "answer": [
+      [
+        "RiskLabs மாதிரி ஒட்டுமொத்த சமநிலையை மிகச் சிறப்பாக அடைகிறது, அனைத்து கால அளவுகளிலும் மிகக் குறைந்த MSE பெறுமதிനിലಗಳನ್ನು பராமரிப்பதோடு, மிகக் குறைந்த VaR (0.049) ஐயும் கொண்டுள்ளது, இது வலுவான கணிப்புத் துல்லியம் மற்றும் நம்பகமான இடர் மதிப்பீடு இரண்டையும் குறிக்கிறது."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

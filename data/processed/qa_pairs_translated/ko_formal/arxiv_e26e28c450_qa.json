@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "전체 평균 제곱 오차(MSE_over)가 가장 낮은 비-멀티태스크 모델은 무엇입니까?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "모든 'Multi-Task'로 표시된 모델에 대한 7일 예측 시점(MSE7)의 평균 MSE를 계산해 주십시오.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "MSE3 값이 두 번째로 높은 (두 번째로 나쁜) 모델의 경우, 해당 MSE30 값은 무엇입니까?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "HTML 모델의 예측 정확도를 3일부터 30일까지 예측 범위를 확장함에 따라 분석해 보십시오. 시간이 지남에 따라 예측 정확도가 향상됩니까, 아니면 악화됩니까?",
+    "answer": [
+      [
+        "HTML 모델의 예측 정확도는 예측 범위가 확장됨에 따라 향상됩니다. MSE3 (0.845)에서 MSE7 (0.349), MSE15 (0.251), 그리고 MSE30 (0.158)까지 MSE 값이 꾸준히 감소하여 장기 예측에서 더 낮은 오류와 따라서 더 나은 성능을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "'Multi-Task'로 지정되지 않았으며 MSE15 값이 0.31보다 낮은 모든 모델을 식별하십시오.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "모든 MSE 지표에서 성능이 확연히 다른 모델을 식별하고 그 이유를 설명하십시오.",
+    "answer": [
+      [
+        "GPT-3.5-Turbo 모델은 성능이 확연히 다른 아웃라이어입니다. 모든 예측 기간(MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332)에 걸친 MSE 값이 대부분 1.0 미만의 MSE 값을 갖는 다른 모든 모델보다 상당히 높습니다. 이는 나열된 다른 모델에 비해 예측 성능이 현저히 떨어진다는 것을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "모든 모델의 MSE3 합계에서 GPT-3.5-Turbo 모델이 차지하는 비율은 얼마입니까? 답은 소수점 첫째 자리까지 반올림한 백분율로 제공하십시오.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "RiskLabs 모델의 MSE_over 값이 25% 개선된다면(즉, 25% 감소한다면) 새로운 값은 무엇이며, HTML 모델의 MSE_over와 비교했을 때 순위는 어떻게 되겠습니까?",
+    "answer": [
+      [
+        "RiskLabs의 새로운 MSE_over 값은 0.243이 될 것입니다. 이 값은 HTML 모델의 MSE_over 값인 0.401보다 낮으므로 더 좋습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "표를 바탕으로, 모델이 'Multi-Task'로 분류되는 것과 'VaR' 점수의 가용성 사이에 어떤 관계가 있습니까?",
+    "answer": [
+      [
+        "강한 상관관계가 있습니다. 'Multi-Task'로 지정된 모델(GPT-3.5-Turbo 및 RiskLabs)만이 보고된 수치 'VaR' 점수를 가지고 있습니다. 그러나 모든 'Multi-Task' 모델이 VaR 점수를 가지고 있는 것은 아니며(예: HTML), 'Multi-Task'가 아닌 모델은 아무것도 가지고 있지 않습니다. 이는 VaR를 계산하는 기능이 이 데이터셋에서 주로 'Multi-Task' 모델과 관련된 특징임을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "어떤 성능 지표 열에 숫자 외의 자리 표시자 데이터가 포함되어 있으며, 해당 데이터는 어떤 특정 모델에서 누락되었습니까?",
+    "answer": [
+      [
+        "VaR 열에 숫자 외의 데이터('/')가 포함되어 있습니다. 이 데이터는 다음 모델에서 누락되었습니다: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "다양한 예측 기간(MSE3–MSE30) 전반에 걸친 예측 정확도와 위험 추정(VaR) 간의 전반적인 균형이 가장 좋은 모델은 무엇입니까?",
+    "answer": [
+      [
+        "RiskLabs 모델은 모든 예측 기간에 걸쳐 가장 낮은 MSE 값과 가장 낮은 VaR(0.049)을 유지하여 전반적으로 가장 좋은 균형을 달성했습니다. 이는 강력한 예측 정확도와 신뢰할 수 있는 위험 추정을 모두 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

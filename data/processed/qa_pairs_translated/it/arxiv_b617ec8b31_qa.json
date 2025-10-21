@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Per l'applicazione in cui il metodo MarS prevede il confronto del mercato attuale con un mercato simulato, cosa confronta il metodo attuale corrispondente?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Quale percentuale di applicazioni elencate utilizza un metodo 'MarS' che coinvolge 'generazione' o 'simulazione'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Come il metodo MarS per l'applicazione 'Detection' altera il confronto basato sul tempo utilizzato nei 'Metodi Attuali'?",
+    "answer": [
+      [
+        "I 'Metodi Attuali' per il 'Detection' si basano su un confronto storico calcolando la differenza tra lo stato attuale del mercato (market_now) e uno stato passato del mercato (market_past). Il metodo MarS elimina questa dipendenza dai dati passati. Invece, confronta il mercato attuale (market_now) con un mercato simulato contemporaneo (simu-market_now), spostando il confronto da un quadro temporale (ora vs. allora) a uno basato su modello (reale vs. simulato)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Elenca i 'Metodi Correnti' per tutte le applicazioni in cui il metodo 'MarS' è descritto come una 'pipeline' o coinvolge la 'generazione'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale applicazione mostra il cambiamento più fondamentale nell'approccio tra 'Metodi Correnti' e 'MarS', passando da un confronto storico a uno simulato?",
+    "answer": [
+      [
+        "L'applicazione 'Rilevamento' mostra il cambiamento più fondamentale. Il metodo corrente si basa su un confronto temporale retrospettivo (Diff(market_now, market_past)). Al contrario, il metodo MarS introduce un confronto con una realtà simulata concomitante (Diff(market_now, simu-market_now)). Questo passaggio da una base storica a una base simulata per il confronto è un elemento concettuale anomalo significativo rispetto agli altri cambiamenti metodologici nella tabella."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Se l'approccio 'MarS' per l''RL Environment' fosse modificato per utilizzare la disponibilità dei dati dei 'Current Methods' per la stessa applicazione, quali due caratteristiche definirebbero questo ipotetico metodo MarS?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Per l'applicazione 'RL Environment', qual è la differenza chiave nella disponibilità dei dati e nella distribuzione di probabilità tra 'Current Methods' e 'MarS'?",
+    "answer": [
+      [
+        "La differenza fondamentale risiede sia nel volume dei dati che nell'autenticità della probabilità di transizione. 'Current Methods' si basa su 'dati finiti' e una distribuzione di probabilità 'falsa' (P(st+1|st,at)), mentre 'MarS' utilizza 'dati infiniti' e una distribuzione di probabilità 'reale'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Quante applicazioni distinte elencate coinvolgono il termine 'dati' nelle descrizioni dei loro metodi sia per 'Metodi Correnti' che per 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Basandosi sulla tabella, qual è il vantaggio generale apparente di MarS rispetto ai Metodi Attuali, in particolare per quanto riguarda i dati e la rappresentazione della realtà?",
+    "answer": [
+      [
+        "Il tema generale suggerisce che i metodi MarS mirano a superare i limiti dei dati storici o finiti sfruttando approcci generativi e basati su simulazioni. MarS passa dall'estrapolazione alla generazione, dal confronto storico al confronto simulato e da modelli con dati finiti/falsi a modelli con dati infiniti/reali. Ciò indica un vantaggio strategico nella creazione di ambienti di dati più robusti, flessibili e realistici per l'analisi e l'apprendimento per rinforzo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Escludendo la riga di intestazione, quante applicazioni distinte sono dettagliate nella tabella?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Qual è il metodo attuale utilizzato per le previsioni?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

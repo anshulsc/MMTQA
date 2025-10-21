@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "किस मॉडल के मुख्य सूत्र में स्पष्ट रूप से जोखिम-मुक्त दर घटक शामिल है?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Z-score मॉडल के सूत्र में इनपुट के रूप में उपयोग किए जाने वाले विशिष्ट 'X' चरों की कुल संख्या कितनी है?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "उस मॉडल की पहचान करें जो अपने कम से कम तीन समझाए गए मापदंडों में 'कुल संपत्ति' का उपयोग भाजक के रूप में करता है, और फिर उस मॉडल से वह मापदंड बताएं जो 'इक्विटी के बाजार मूल्य' और 'कुल देनदारियों' के अनुपात का प्रतिनिधित्व करता है।",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "किन मॉडलों में ऐसे पैरामीटर शामिल हैं जिन्हें स्पष्ट रूप से 'समय t पर मापा गया' के रूप में परिभाषित किया गया है?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "यदि विश्लेषणात्मक लक्ष्य बाइनरी परिणाम (y=1) की संभावना निर्धारित करना है, तो तालिका में सूचीबद्ध कौन सा मॉडल सबसे उपयुक्त विकल्प है?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-स्कोर मॉडल में, 'ब्याज और कर से पहले की कमाई/कुल संपत्ति अनुपात' का प्रतिनिधित्व करने वाले चर का भार (गुणांक) क्या है, और यह भार अन्य चरों की तुलना में कैसा है?",
+    "answer": [
+      [
+        "X3 (ब्याज और कर से पहले की कमाई/कुल संपत्ति अनुपात) के लिए गुणांक 3.3 है। यह पाँचों चरों में सबसे अधिक भार है, जो बताता है कि इसका अंतिम Z-स्कोर पर X1 (1.2), X2 (1.4), X4 (0.6), और X5 (0.99) जैसे चरों की तुलना में सबसे महत्वपूर्ण प्रभाव पड़ता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "यदि Z-स्कोर मॉडल के अद्यतन संस्करण ने 'कार्यशील पूंजी/कुल संपत्ति अनुपात' के प्रभाव को 50% कम कर दिया, तो X1 के लिए नया गुणांक क्या होगा?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-score मॉडल के सूत्र के आधार पर, किसी कंपनी की कुल बिक्री के कुल संपत्ति अनुपात और उसके परिणामी Z-score के बीच क्या अनुमानित संबंध है?",
+    "answer": [
+      [
+        "कुल बिक्री/कुल संपत्ति अनुपात (X5) और Z-score के बीच एक सकारात्मक सहसंबंध है। सूत्र से पता चलता है कि Z-score पांच अनुपातों का भारित योग है, और X5 के लिए गुणांक सकारात्मक (0.99) है। इसलिए, अन्य सभी कारकों को स्थिर रखते हुए, कुल बिक्री के कुल संपत्ति अनुपात में वृद्धि से Z-score अधिक होगा।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "किस मॉडल के विवरण में तीसरा कॉलम में समझाए गए सबसे अधिक विशिष्ट पैरामीटर शामिल हैं?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-score मॉडल के सूत्र में संख्यात्मक गुणांकों की जाँच करते समय, कौन सा गुणांक दूसरों की तुलना में एक आउटलायर के रूप में सामने आता है?",
+    "answer": [
+      [
+        "चर X3 के लिए गुणांक 3.3 एक महत्वपूर्ण आउटलायर है। सूत्र में अन्य गुणांक 1.2, 1.4, 0.6 और 0.99 हैं, जो सभी 0.6 और 1.4 के बीच की सीमा में क्लस्टर किए गए हैं। मान 3.3 अगले उच्चतम गुणांक (1.4) के मान से दोगुना से अधिक है, जिससे यह बाकी से काफी बड़ा हो जाता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "बाजार और आकार/बुक-टू-मार्केट कारकों को ध्यान में रखते हुए, संपत्ति रिटर्न की भविष्यवाणी के लिए कौन सा मॉडल अधिक उपयुक्त होगा, और क्यों?",
+    "answer": [
+      [
+        "फैक्टर मॉडल अधिक उपयुक्त होगा क्योंकि यह स्पष्ट रूप से बाजार रिटर्न (r_m - r_f), आकार कारक (SMB), और बुक-टू-मार्केट कारक (HML) को शामिल करता है, जिससे यह संपत्ति रिटर्न भिन्नताओं के कई आयामों को पकड़ने की अनुमति देता है जिन्हें लॉजिस्टिक रिग्रेशन या Z-स्कोर मॉडल द्वारा विचार नहीं किया जाता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

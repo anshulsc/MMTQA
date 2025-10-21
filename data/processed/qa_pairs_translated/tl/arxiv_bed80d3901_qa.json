@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Aling query ang nangangailangan ng pagsusuri sa pinakamaraming pangunahing sukatan sa pananalapi?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Kalkulahin ang kabuuang bilang ng mga indibidwal na 'Related Metrics' na nakalista sa lahat ng tatlong query.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Para sa query na kinabibilangan ng paghahambing ng isang kumpanya sa mga kapantay nito, ano ang eksaktong saklaw ng petsa na tinukoy sa kaukulang 'Structured Data Request'?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Aling natural language query ang tumutugma sa structured request na sumasakop sa pinakamahabang panahon?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng pangunahing sukatan na hinihiling para sa mga query na partikular na tumutukoy sa isang kumpanya na may legal na identifier tulad ng 'plc' o 'Co.' sa field na 'Required Data'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Para sa tanong tungkol sa Amcor plc, anong porsyento ng lahat ng mga sukatan na nakalista sa 'Structured Data Request' ang tahasang naglalaman ng salitang 'Cash'?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Kung ang natural language query para sa Adobe ay pinalawig upang isama ang isang kahilingan para sa 'Return on Working Capital', paano babaguhin ang listahan ng mga sukatan sa 'Structured Data Request', gamit ang impormasyon mula sa query ng Halliburton bilang isang template?",
+    "answer": [
+      [
+        "Ang mga sukatan sa seksyon ng 'Structured Data Request' ay ia-update upang isama ang 'Return on Working Capital' at ang mga kaugnay na bahagi nito mula sa query ng Halliburton. Nangangahulugan ito ng pagdaragdag ng 'Return on Working Capital; Net income; Working capital' sa umiiral na listahan, na magreresulta sa: (Sales Revenue; Total Revenue; Economic Value Added; Net operating profit after tax (NOPAT); Cost of capital; Return on Working Capital; Net income; Working capital)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Batay sa ibinigay na data, ano ang lumilitaw na relasyon sa pagitan ng pagiging kumplikado ng isang natural language na 'Query' at ang kabuuang bilang ng mga metriko na tinukoy sa 'Structured Data Request'?",
+    "answer": [
+      [
+        "May lumilitaw na positibong ugnayan. Ang dalawang mas kumplikadong mga query (para sa Amcor at Halliburton) ay tumutugma sa mas mataas na bilang ng mga metriko sa kanilang mga structured request (14 at 12, ayon sa pagkakabanggit) kumpara sa mas simpleng query para sa Adobe, na mayroon lamang 5 metriko. Ito ay nagpapahiwatig na habang tumataas ang analytical depth ng tanong ng user, tumataas din ang kinakailangang data payload."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Aling column ang nagsisilbing pag-parse ng natural language query sa isang semi-structured na format na malinaw na naglilista ng mga kumpanya, pangunahing sukatan, mga kaugnay na sub-sukatan, at ang hinihiling na time frame?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Suriin ang impormasyong pang-oras sa mga column na 'Required Data' at 'Structured Data Request'. Mayroon bang query kung saan ang dalawang column na ito ay nagpapakita ng magkasalungat na time frame? Kung oo, tukuyin ang query at ilarawan ang hindi pagkakapare-pareho.",
+    "answer": [
+      [
+        "Oo, ang query para sa Amcor plc ay nagpapakita ng malaking hindi pagkakapare-pareho. Ang seksyon ng 'Required Data' ay tumutukoy sa time frame na 'sa nakaraang 6 na buwan', habang ang katugmang 'Structured Data Request' ay tumutukoy sa mas maikli, 7-araw na panahon na '(7/1/2024 - 7/7/2024)'. Ang dalawang iba pang mga query ay nagpapakita ng pagkakapare-pareho sa oras sa pagitan ng mga column."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Ilan ang mga natatanging kumpanya na nabanggit sa datos?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

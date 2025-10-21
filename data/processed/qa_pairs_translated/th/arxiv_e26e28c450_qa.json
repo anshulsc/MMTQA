@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "โมเดลใดที่ไม่ใช่ multi-task ที่มีค่า Mean Squared Error (MSE_over) โดยรวมต่ำที่สุด",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "คำนวณค่าเฉลี่ย MSE ที่ระยะเวลา 7 วัน (MSE7) สำหรับโมเดลทั้งหมดที่ถูกทำเครื่องหมายว่าเป็น 'Multi-Task'",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "สำหรับโมเดลที่มีค่า MSE3 สูงเป็นอันดับสอง (แย่เป็นอันดับสอง) ค่า MSE30 ที่สอดคล้องกันคือเท่าใด",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "วิเคราะห์แนวโน้มของ Mean Squared Error (MSE) สำหรับโมเดล HTML เมื่อช่วงการคาดการณ์ขยายจาก 3 เป็น 30 วัน ความแม่นยำในการคาดการณ์ของโมเดลดีขึ้นหรือแย่ลงเมื่อเวลาผ่านไป?",
+    "answer": [
+      [
+        "ความแม่นยำในการคาดการณ์ของโมเดล HTML ดีขึ้นเมื่อช่วงการคาดการณ์ขยายออกไป ค่า MSE ลดลงอย่างต่อเนื่องจาก MSE3 (0.845) เป็น MSE7 (0.349), MSE15 (0.251) และสุดท้าย MSE30 (0.158) ซึ่งบ่งชี้ถึงข้อผิดพลาดที่ลดลงและประสิทธิภาพที่ดีขึ้นสำหรับการคาดการณ์ระยะยาว"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "ระบุทุกโมเดลที่ไม่ได้กำหนดว่าเป็น 'Multi-Task' และมีค่า MSE15 ต่ำกว่า 0.31",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "ระบุโมเดลที่เป็นค่าผิดปกติที่ชัดเจนในทุกเมตริก MSE และอธิบายเหตุผล",
+    "answer": [
+      [
+        "โมเดล GPT-3.5-Turbo เป็นค่าผิดปกติที่ชัดเจน ค่า MSE ของโมเดลนี้ในทุกช่วงเวลา (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) นั้นสูงกว่าโมเดลอื่นๆ อย่างมีนัยสำคัญ โดยส่วนใหญ่มีค่า MSE ต่ำกว่า 1.0 ซึ่งบ่งชี้ถึงประสิทธิภาพการคาดการณ์ที่แย่กว่าอย่างมากเมื่อเทียบกับโมเดลอื่นๆ ที่ระบุไว้"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "ร้อยละเท่าใดของ MSE3 ทั้งหมดที่รวมกันจากทุกโมเดลที่มาจากโมเดล GPT-3.5-Turbo? แสดงคำตอบเป็นเปอร์เซ็นต์ปัดเศษทศนิยมหนึ่งตำแหน่ง",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "หาก MSE_over ของโมเดล RiskLabs ปรับปรุงขึ้น 25% (นั่นคือ ลดลง 25%) ค่าใหม่จะเป็นเท่าใด และจะมีการจัดอันดับอย่างไรเมื่อเทียบกับ MSE_over ของโมเดล HTML?",
+    "answer": [
+      [
+        "MSE_over ใหม่สำหรับ RiskLabs จะอยู่ที่ 0.243 ค่านี้ต่ำกว่า ดังนั้นจึงดีกว่า MSE_over ของโมเดล HTML ที่ 0.401"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "จากตาราง ความสัมพันธ์ระหว่างโมเดลที่ถูกจัดว่าเป็น 'Multi-Task' กับการมีคะแนน 'VaR' เป็นอย่างไร?",
+    "answer": [
+      [
+        "มีความสัมพันธ์ที่แข็งแกร่ง โมเดลที่ถูกระบุว่าเป็น 'Multi-Task' เท่านั้น (GPT-3.5-Turbo และ RiskLabs) ที่มีคะแนน 'VaR' เป็นตัวเลข อย่างไรก็ตาม ไม่ใช่ทุกโมเดล 'Multi-Task' ที่มีคะแนน VaR (เช่น HTML) และไม่มีโมเดลที่ไม่ใช่ 'Multi-Task' ที่มีคะแนนดังกล่าว ชี้ให้เห็นว่าความสามารถในการคำนวณ VaR เป็นคุณสมบัติที่เกี่ยวข้องกับโมเดล 'Multi-Task' ในชุดข้อมูลนี้เป็นส่วนใหญ่"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "คอลัมน์เมตริกประสิทธิภาพใดที่มีข้อมูลตัวยึดตำแหน่งที่ไม่ใช่ตัวเลข และสำหรับโมเดลใดโดยเฉพาะที่ข้อมูลนี้ขาดหายไป?",
+    "answer": [
+      [
+        "คอลัมน์ 'VaR' มีข้อมูลที่ไม่ใช่ตัวเลข ('/'). ข้อมูลนี้ขาดหายไปสำหรับโมเดลต่อไปนี้: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM และ HTML"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "โมเดลใดแสดงความสมดุลโดยรวมที่ดีที่สุดระหว่างความแม่นยำในการคาดการณ์ในกรอบเวลาที่แตกต่างกัน (MSE3–MSE30) และการประมาณความเสี่ยง (VaR)",
+    "answer": [
+      [
+        "โมเดล RiskLabs บรรลุความสมดุลโดยรวมที่ดีที่สุด โดยรักษาค่า MSE ที่ต่ำที่สุดในทุกกรอบเวลา และ VaR ที่ต่ำที่สุด (0.049) ซึ่งบ่งชี้ถึงความแม่นยำในการคาดการณ์ที่แข็งแกร่งและการประมาณความเสี่ยงที่เชื่อถือได้"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

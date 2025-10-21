@@ -1,0 +1,305 @@
+[
+  {
+    "question_id": "finqa_a15821894f_001",
+    "table_id": "finqa_a15821894f",
+    "question_type": "value",
+    "question": "计算所有列出的资本信托的总面值。",
+    "answer": [
+      [
+        "$ 433000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a15821894f_002",
+    "table_id": "finqa_a15821894f",
+    "question_type": "value",
+    "question": "哪个信托的到期日最长且面值最高？",
+    "answer": [
+      [
+        "etbh capital trust xxv 2014xxx"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a15821894f_003",
+    "table_id": "finqa_a15821894f",
+    "question_type": "value",
+    "question": "年利率固定的信托的票面价值是多少？",
+    "answer": [
+      [
+        "$ 5000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a15821894f_004",
+    "table_id": "finqa_a15821894f",
+    "question_type": "open_ended_reasoning",
+    "question": "随着信托到期日的推迟，观察到的高于LIBOR的利率利差的总体趋势是怎样的？",
+    "answer": [
+      [
+        "对于浮动利率信托，到期日与高于LIBOR的利率利差之间存在明显的反比关系。随着到期日从2032年推迟到2037年，高于3个月LIBOR的规定百分比利差持续下降，从2032年到期的高区间3.25%-3.65%降至2037年到期的1.90%-2.00%。"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a15821894f_005",
+    "table_id": "finqa_a15821894f",
+    "question_type": "value",
+    "question": "列出所有信托的名称，这些信托的年利率基于“3个月libor”且面值大于55,000美元。",
+    "answer": [
+      [
+        "etbh capital trust vii ix 2014xii"
+      ],
+      [
+        "etbh capital trust xiii 2014xviii xx"
+      ],
+      [
+        "etbh capital trust xix xxi xxii"
+      ],
+      [
+        "etbh capital trust xxv 2014xxx"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a15821894f_006",
+    "table_id": "finqa_a15821894f",
+    "question_type": "value",
+    "question": "2031年到期的信托占总面值的百分比是多少？",
+    "answer": [
+      [
+        "5.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a15821894f_007",
+    "table_id": "finqa_a15821894f",
+    "question_type": "value",
+    "question": "如果所有以“3个月libor”为基准的信托的票面价值均降低10%，所有信托的总票面价值将是多少？",
+    "answer": [
+      [
+        "$ 392200"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a15821894f_008",
+    "table_id": "finqa_a15821894f",
+    "question_type": "open_ended_reasoning",
+    "question": "信托名称的复杂性（罗马数字的数量）与其面值之间是否存在一致的关系？请解释你的结论。",
+    "answer": [
+      [
+        "信托名称的复杂性与其面值之间没有一致、清晰的关系。例如，'etbh capital trust i' 的面值较低，为 20,000 美元，而 'etbh capital trust ii' 的面值甚至更低，为 5,000 美元。相反，'etbh capital trust xxv 2014xxx'，一个名称最为复杂的信托，拥有最高面值（110,000 美元），但 'etbh capital trust xix xxi xxii' 的面值（60,000 美元）低于名称相对不那么复杂的 'etbh capital trust xiii 2014xviii xx'（77,000 美元）。这种模式是混乱无序的。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a15821894f_009",
+    "table_id": "finqa_a15821894f",
+    "question_type": "open_ended_reasoning",
+    "question": "从其结构与其它信托相比来看，哪个信托的利率是最显著的异常值？",
+    "answer": [
+      [
+        "etbh capital trust ii' 是最显著的异常值。虽然所有其他信托的利率都与 LIBOR 基准（3个月或6个月）挂钩，但这是唯一一个利率为 10.25% 的固定年利率的信托，这使其结构与其他信托根本不同。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a15821894f_010",
+    "table_id": "finqa_a15821894f",
+    "question_type": "value",
+    "question": "表中列出的信托使用了哪些不同的利率基准？",
+    "answer": [
+      [
+        "Fixed Rate"
+      ],
+      [
+        "6-month libor"
+      ],
+      [
+        "3-month libor"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a15821894f_011",
+    "table_id": "finqa_a15821894f",
+    "question_type": "open_ended_reasoning",
+    "question": "ETBH Capital Trust XIII 2014XVIII XX 的到期日是哪一年？该信托的票面价值是多少？",
+    "answer": [
+      [
+        "它将于 2034 年到期，票面价值为 77,000 美元。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

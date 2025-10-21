@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "2014년부터 2017년까지 특정 연도에 총액을 제외하고 가장 큰 만기 금액을 가진 상업적 약정은 무엇입니까?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "2016년과 2017년의 모든 개별 약정 만료액의 합계는 얼마입니까?",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "가장 오랜 기간에 걸쳐 만기가 분산된 약정 유형을 식별하고 해당 총액을 명시하십시오.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "'총 상업 약정' 만기의 2013년부터 2016년까지의 기간별 패턴을 설명해 주십시오.",
+    "answer": [
+      [
+        "패턴은 변동성이 매우 큽니다. 2013년 6억 3,200만 달러에서 시작하여 2014년에는 약 66% 감소한 2억 1,500만 달러까지 떨어졌다가, 2015년에는 사상 최고치인 18억 1,200만 달러로 극적으로 치솟았고, 이후 2016년에는 98% 이상 급감하여 3,000만 달러에 불과했습니다. 일관된 성장이나 감소 추세는 없습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "2013년 만기 금액이 0달러보다 크지만 2015년 이후 만기가 없는 약정 유형을 나열하십시오.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "2013년 총 만기액 중 '수취채권 유동화 약정'이 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "2015년에 만료되는 '신용 시설'의 '18억 달러'가 대신 2016년과 2017년 사이에 균등하게 분할된다면, 2016년 '총 상업적 약정'의 새로운 총액은 얼마가 되겠습니까?",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "표에 따르면, 약정 총액과 만기 연도 수 사이에 관찰 가능한 상관관계가 있습니까?",
+    "answer": [
+      [
+        "아니요, 직접적인 상관관계는 없습니다. 사실, 데이터는 역의 관계를 시사합니다. 가장 큰 약정인 '신용 시설' (18억 달러)은 한 해 (2015년)에 모두 만기됩니다. 반대로, 더 작은 약정 중 하나인 '보증' (3억 7백만 달러)은 나열된 여섯 기간에 걸쳐 분산되어 있습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "0이 아닌 값으로 가장 적은 수의 개별 약정 유형을 가진 만기 연도 열은 무엇입니까?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "다른 기간에 비해 총 만기 금액이 상당한 이상치를 보이는 연도는 무엇이며, 그 근거는 무엇입니까?",
+    "answer": [
+      [
+        "2015년은 총 만기 금액이 18억 1,200만 달러로 명백한 이상치입니다. 이 수치는 다음으로 높은 연간 총액(2013년 6억 3,200만 달러)의 2.8배 이상이며, 1,000만 달러에서 2억 1,500만 달러 범위의 다른 모든 기간보다 현저히 높습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "2013년부터 2017년까지의 총 상업 약정액은 얼마입니까?",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

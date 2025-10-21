@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Model manakah yang rumus utamanya secara eksplisit mencakup komponen suku bunga bebas risiko?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Berapa jumlah total variabel 'X' berbeda yang digunakan sebagai input dalam formula Model Skor-Z?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Identifikasi model yang menggunakan 'Total aset' sebagai penyebut di setidaknya tiga parameter yang dijelaskannya, lalu sebutkan parameter mana dari model tersebut yang mewakili rasio 'Nilai pasar ekuitas' terhadap 'Total liabilitas'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Model mana yang menggabungkan parameter yang secara eksplisit didefinisikan sebagai terukur 'pada waktu t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Jika tujuan analisis adalah untuk menentukan probabilitas hasil biner (y=1), model mana yang tercantum dalam tabel yang merupakan pilihan yang paling sesuai?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Dalam model Z-score, berapakah bobot (koefisien) dari variabel yang mewakili 'Pendapatan sebelum bunga dan pajak/Rasio aset total', dan bagaimana bobot ini dibandingkan dengan variabel lainnya?",
+    "answer": [
+      [
+        "Koefisien untuk X3 (Pendapatan sebelum bunga dan pajak/Rasio aset total) adalah 3,3. Ini adalah bobot tertinggi dari kelima variabel, menunjukkan bahwa variabel ini memiliki dampak paling signifikan terhadap skor Z akhir dibandingkan dengan variabel seperti X1 (1,2), X2 (1,4), X4 (0,6), dan X5 (0,99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Jika versi pembaruan dari model Z-score mengurangi pengaruh 'Rasio modal kerja/Total aset' sebesar 50%, berapa koefisien baru untuk X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan formula Model Z-score, apa hubungan yang disimpulkan antara rasio total penjualan terhadap total aset suatu perusahaan dengan skor Z-nya?",
+    "answer": [
+      [
+        "Terdapat korelasi positif antara rasio total penjualan terhadap total aset (X5) dengan skor Z. Formula tersebut menunjukkan bahwa skor Z adalah jumlah tertimbang dari lima rasio, dan koefisien untuk X5 adalah positif (0,99). Oleh karena itu, dengan menjaga faktor-faktor lain tetap konstan, peningkatan rasio total penjualan terhadap total aset akan menghasilkan skor Z yang lebih tinggi."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Model manakah yang deskripsinya mencakup jumlah parameter berbeda terbanyak yang dijelaskan di kolom ketiga?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Saat memeriksa koefisien numerik dalam rumus Model Z-score, koefisien manakah yang menonjol sebagai pencilan dibandingkan dengan yang lain?",
+    "answer": [
+      [
+        "Koefisien 3,3 untuk variabel X3 merupakan pencilan yang signifikan. Koefisien lain dalam rumus adalah 1,2, 1,4, 0,6, dan 0,99, yang semuanya terkonsentrasi dalam rentang antara 0,6 dan 1,4. Nilai 3,3 lebih dari dua kali nilai koefisien tertinggi berikutnya (1,4), sehingga secara substansial lebih besar dari yang lain."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Model mana yang akan lebih sesuai untuk memprediksi imbal hasil aset dengan mempertimbangkan faktor pasar dan faktor ukuran/nilai buku terhadap pasar, dan mengapa?",
+    "answer": [
+      [
+        "Model Faktor akan lebih sesuai karena secara eksplisit menggabungkan imbal hasil pasar (r_m - r_f), faktor ukuran (SMB), dan faktor nilai buku terhadap pasar (HML), sehingga memungkinkannya menangkap berbagai dimensi variasi imbal hasil aset yang tidak dipertimbangkan oleh Model Regresi Logistik atau Model Z-score."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

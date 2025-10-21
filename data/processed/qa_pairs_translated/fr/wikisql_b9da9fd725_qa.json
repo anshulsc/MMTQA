@@ -1,0 +1,304 @@
+[
+  {
+    "question_id": "wikisql_b9da9fd725_001",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "value",
+    "question": "Quelle ville a le pourcentage le plus élevé de locuteurs irlandais ?",
+    "answer": [
+      [
+        "Gortahork"
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "E11",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_b9da9fd725_002",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "value",
+    "question": "Quelle est la population totale de toutes les villes listées dans le comté de Donegal ?",
+    "answer": [
+      [
+        "7572"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A9",
+      "D9",
+      "A10",
+      "D10",
+      "A11",
+      "D11",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_b9da9fd725_003",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "value",
+    "question": "Quel comté a le pourcentage moyen le plus élevé d'irlandophones parmi ses villes répertoriées ?",
+    "answer": [
+      [
+        "County Kerry"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8",
+      "A9",
+      "E9",
+      "A10",
+      "E10",
+      "A11",
+      "E11",
+      "A12",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_b9da9fd725_004",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "value",
+    "question": "Si les villes du comté de Donegal étaient classées par population dans l'ordre décroissant, quel serait le nom anglais de la troisième ville classée ?",
+    "answer": [
+      [
+        "Gortahork"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A9",
+      "B9",
+      "D9",
+      "A10",
+      "B10",
+      "D10",
+      "A11",
+      "B11",
+      "D11",
+      "A12",
+      "B12",
+      "D12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_b9da9fd725_005",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "value",
+    "question": "Quels sont les noms anglais des villes ayant une population supérieure à 500 habitants et un pourcentage d'anglophones supérieur à 60 % ?",
+    "answer": [
+      [
+        "Arranmore"
+      ],
+      [
+        "Gweedore"
+      ],
+      [
+        "Gortahork"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6",
+      "E6",
+      "B9",
+      "D9",
+      "E9",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_b9da9fd725_006",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "value",
+    "question": "Combien de personnes environ parlent irlandais à Gweedore ?",
+    "answer": [
+      [
+        "2041"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_b9da9fd725_007",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "value",
+    "question": "Si la population de chaque ville répertoriée dans le comté de Kerry augmentait de 10%, quelle serait leur nouvelle population combinée, arrondie au nombre entier le plus proche ?",
+    "answer": [
+      [
+        "963"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_b9da9fd725_008",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après cet ensemble de données, existe-t-il une corrélation claire entre la taille de la population d'une ville et son pourcentage de locuteurs irlandais ? Justifiez votre réponse.",
+    "answer": [
+      [
+        "Non, il n'y a pas de corrélation claire. Par exemple, Gortahork a une population élevée (1599) et le plus haut pourcentage de locuteurs irlandais (81%), mais Feohanagh a une très faible population (462) et le deuxième plus haut pourcentage (78%). Inversement, Annagry a une population très élevée (2235) mais un pourcentage relativement modéré de locuteurs (55%). Les points de données sont trop variés pour suggérer une corrélation positive ou négative constante entre la taille de la population et la concentration de locuteurs irlandais."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_b9da9fd725_009",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "value",
+    "question": "Combien de comtés uniques sont listés dans le tableau ?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_b9da9fd725_010",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "value",
+    "question": "Quelle ville du comté de Donegal a une population qui constitue une valeur aberrante significative par rapport aux autres villes répertoriées dans le même comté ?",
+    "answer": [
+      [
+        "Gweedore"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A9",
+      "D9",
+      "A10",
+      "D10",
+      "A11",
+      "D11",
+      "A12",
+      "D12",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_b9da9fd725_011",
+    "table_id": "wikisql_b9da9fd725",
+    "question_type": "open_ended_reasoning",
+    "question": "Quels villages ont des pourcentages presque égaux d'anglophones, et qu'est-ce que cela pourrait impliquer ?",
+    "answer": [
+      [
+        "Alt na Péiste (55 %) et Annagry (55 %) ont des pourcentages égaux de locuteurs irlandais, ce qui suggère des similitudes culturelles ou une proximité géographique étroite."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "E1",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

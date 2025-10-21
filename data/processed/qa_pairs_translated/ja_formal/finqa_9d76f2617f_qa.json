@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "'従業員株式購入プラン' による '発行済株式数' の全期間における合計増加数はいくらですか？",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "「オプション購入者への株式発行数」が「発行済株式総数」の増加に最も貢献したのは、2001年、2002年、2003年のうちどの年ですか？",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "2001年初頭から2003年末までの、会社の自己株式の残高報告に基づいた推移を説明してください。",
+    "answer": [
+      [
+        "自己株式数は、前年比で一貫して減少しました。残高は2001年初頭の約9440万株から、2001年末には9120万株、2002年末には8490万株、そして2003年末には8120万株に減少しました。これは、会社が自社株買いよりも、株式を再発行（例えば、従業員制度やオプションのため）する方が速いペースで行っていたことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "'acquisition of technoguide' が含まれる通期における 'shares outstanding' の純変動額はいくらでしたか？",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "200万株を超える「発行済株式数」の増加につながった、残高を除くすべての取引タイプをリストアップしてください。",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "2002年における「発行済株式数」の総増加分のうち、「テクノガイドの買収」に起因する割合はいくらですか？",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "2002年の「従業員株式購入プラン」において、発行済株式総数に1,000,000株少なく計上されていた場合、「2002年12月31日時点の発行済株式総数」の残高はいくらになっていたでしょうか？",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "年間の残高間の取引のうち、「発行済株式数」への影響が最小限であり、特異なものはどれですか。また、その影響額はいくらでしたか？",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "「オプション権保有者に売却された株式」のイベントにおいて、「発行済」、「金庫保有」、「発行済株式数」の各項目間には、どのような一貫した数学的関係がありますか？",
+    "answer": [
+      [
+        "「オプション権保有者に売却された株式」のすべての取引において、「発行済株式数」の項目値は、「発行済」の項目値と「金庫保有」の項目値の合計となります。これは、オプション権保有者向けの株式が、新規発行と、会社が保有する既存の金庫株式の両方から調達されたことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "「issued」列に「2013」という値が複数トランザクションタイプで表示され、「in treasury」の値がゼロでない場合、これらのトランザクションの株式の出所について何が示唆されますか？",
+    "answer": [
+      [
+        "「issued」列に「2013」と表示されているすべての行において、「in treasury」の値は「shares outstanding」の値と同一です。これは、これらのトランザクション（例：「employee stock purchase plan」、「acquisition of technoguide」）では、すべての株式が自己株式であり、実際に新規発行された株式はないことを示しています。「2013」という数字は、発行済み株式数ではなく、プレースホルダー、識別子、またはデータエラーである可能性が高いです。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "2001年1月1日時点の残高から2003年12月31日時点の残高にかけて、発行済株式数はどのように変動しましたか。また、この変動に寄与した可能性のある活動は何ですか？",
+    "answer": [
+      [
+        "発行済株式数は13,223,634株増加しました（572,724,694株から585,948,328株へ）。この増加は、オプションの行使や従業員購入プランの活動（「オプション権行使者への株式売却」や「従業員株式購入プラン」のエントリが複数見られます）、買収関連の発行（Technoguide）、および自己株式の純減といった株式発行によってもたらされたと考えられます。これらが総合的に発行済株式数を増加させています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

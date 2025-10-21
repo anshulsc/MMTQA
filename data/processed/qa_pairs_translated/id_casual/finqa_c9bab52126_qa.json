@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "finqa_c9bab52126_001",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Di tahun berapa 'interest expense net' perusahaan paling tinggi, dan berapa jumlahnya?",
+    "answer": [
+      [
+        "2009",
+        "$431.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_002",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Berapa total biaya 'depreciation and amortization' yang tercatat selama periode lima tahun dari 2009 hingga 2013?",
+    "answer": [
+      [
+        "1050.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c9bab52126_003",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Berapa 'net income ( loss )' di tahun yang 'ebitda'-nya paling rendah?",
+    "answer": [
+      [
+        "$ -373.4 ( 373.4 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_004",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "Gimana nih tren 'net income ( loss )' dari tahun paling awal (2009) sampe tahun paling baru (2013) yang ada di tabel?",
+    "answer": [
+      [
+        "Tren 'net income ( loss )' perusahaan nunjukkin perbaikan positif yang kuat dari 2009 sampai 2013. Dimulai dari kerugian besar $373,4 juta di 2009, yang berkurang jadi kerugian lebih kecil $29,2 juta di 2010. Perusahaan kemudian jadi untung, dengan laba bersih naik dari $17,1 juta di 2011 jadi $119,0 juta di 2012, dan terakhir $132,8 juta di 2013."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_005",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Sebutin dong semua item keuangan yang nilainya negatif di tahun 2010 tapi positif di tahun 2013.",
+    "answer": [
+      [
+        "net income ( loss )"
+      ],
+      [
+        "income tax expense ( benefit )"
+      ],
+      [
+        "net loss ( gain ) on extinguishments of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "E3",
+      "A10",
+      "B10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_006",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Sebagai persentase dari 'adjusted ebitda', berapa 'depreciation and amortization' di tahun 2012?",
+    "answer": [
+      [
+        "27.42%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c9bab52126_007",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Kalo biaya konsultasi dan biaya profesional terkait utang di tahun 2010 itu turun 50%, kira-kira 'adjusted ebitda' di tahun itu jadi berapa ya, asumsinya penyesuaian ini langsung ngurangin totalnya?",
+    "answer": [
+      [
+        "$594.25"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "E14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_008",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data dari tahun 2009 sampai 2013, apa sih hubungannya antara 'beban bunga neto' sama 'ebitda yang disesuaikan'?",
+    "answer": [
+      [
+        "Ada korelasi terbalik yang kuat antara 'beban bunga neto' dan 'ebitda yang disesuaikan'. Seiring 'beban bunga neto' terus menurun dari $431,7 juta di tahun 2009 menjadi $250,1 juta di tahun 2013, 'ebitda yang disesuaikan' terus meningkat dari $465,4 juta menjadi $808,5 juta dalam periode yang sama. Ini nunjukin kalau usaha perusahaan buat ngurangin utang dan pembayaran bunga kemungkinan berkontribusi ke perbaikan profitabilitas inti perusahaan."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A14",
+      "B14",
+      "C14",
+      "D14",
+      "E14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c9bab52126_009",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Item penyesuaian keuangan mana aja, antara 'non-cash equity-based compensation' dan 'other adjustments ( ii )' termasuk di dalamnya, yang punya nilai numerik buat setiap tahun dari 2009 sampai 2013?",
+    "answer": [
+      [
+        "non-cash equity-based compensation"
+      ],
+      [
+        "sponsor fees"
+      ],
+      [
+        "consulting and debt-related professional fees"
+      ],
+      [
+        "other adjustments ( ii )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_010",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Nilai 'net loss ( gain ) on extinguishments of long-term debt' untuk tahun 2011 kayaknya aneh ya. Berapa lebihnya nilai ini dibanding nilai tertinggi berikutnya di tahun-tahun lain?",
+    "answer": [
+      [
+        "$54.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D10",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c9bab52126_011",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Tahun berapa sih pendapatan bersih (rugi)-nya paling kecil dibanding tahun-tahun lain?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

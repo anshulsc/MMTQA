@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Naon paningkatan total dina 'saham anu kaluar' anu hasil tina 'rencana beuli saham karyawan' dina sakabeh période anu ditémbongkeun?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Taun sabaraha (2001, 2002, atanapi 2003) 'shares sold to optionees' nyumbang paling seueur kana kanaékan 'shares outstanding'?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Dina laporanna, kumaha tren saham perusahaan dina treasury ti mimiti 2001 nepi ka ahir 2003?",
+    "answer": [
+      [
+        "Jumlah saham anu dicepeng dina treasury terus ngirangan unggal taun. Saldo turun ti sakitar 94,4 juta dina awal 2001 janten 91,2 juta dina ahir 2001, teras janten 84,9 juta dina ahir 2002, sareng tungtungna janten 81,2 juta dina ahir 2003. Ieu nunjukkeun yén perusahaan ngaluarkeun deui saham tina treasury na (contone, pikeun rencana sareng pilihan karyawan) langkung gancang tibatan ngagaleuh deui."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Naon parobahan bersih dina 'shares outstanding' salami taun kalénder pinuh anu kalebet 'acquisition of technoguide'?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Sebutkeun sadaya jinis transaksi, teu kaasup saldo, anu ngakibatkeun paningkatan 'saham anu kaluar' leuwih ti 2.000.000 lembar saham.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Sabaraha persén tina total paningkatan dina 'shares outstanding' pikeun taun 2002 anu disababkeun ku 'acquisition of technoguide'?",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Lamun 'employee stock purchase plan' dina taun 2002 ngahasilkeun 1.000.000 lembar saham pangsaeutikna anu ditambah kana jumlah anu kaluar, sabaraha 'balance december 31 2002' pikeun 'shares outstanding'?",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Transaksi mana di antara kas taunan anu janten outlier dina dampak minimalna kana 'shares outstanding', sareng naon dampaknya?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Pikeun kajadian 'shares sold to optionees', naon hubungan matematis anu konsisten antara kolom 'issued', 'in treasury', jeung 'shares outstanding'?",
+    "answer": [
+      [
+        "Pikeun sakabeh transaksi 'shares sold to optionees', nilai dina kolom 'shares outstanding' téh jumlah tina nilai dina kolom 'issued' jeung 'in treasury'. Ieu nunjukkeun yén saham pikeun optionees dicandak tina duanana émission anyar jeung tina saham perbendaharaan perusahaan anu tos aya."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom 'issued' ngandung nilai '2013' pikeun sababaraha jenis transaksi di mana nilai 'in treasury' henteu nol. Naon hartosna ieu ngeunaan sumber saham pikeun transaksi ieu?",
+    "answer": [
+      [
+        "Dina unggal baris di mana kolom 'issued' némbongkeun '2013', nilai 'in treasury' sarua jeung nilai 'shares outstanding'. Ieu nunjukkeun yén pikeun transaksi ieu (contona, 'employee stock purchase plan', 'acquisition of technoguide'), sakabeh saham asalna tina treasury jeung teu aya saham anyar nu sabenerna dikaluarkeun. Angka '2013' kamungkinan mangrupa placeholder, identifier, atawa kasalahan data, lain jumlah saham nu dikaluarkeun."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Kumaha parobahan saham anu beredar tina kasaimbangan 1 Januari 2001 dugi ka kasaimbangan 31 Désémber 2003, sarta kagiatan naon waé anu kamungkinan nyumbang kana parobahan ieu?",
+    "answer": [
+      [
+        "Saham anu beredar naék 13.223.634 (tina 572.724.694 janten 585.948.328). Peningkatan ieu sigana didorong ku penerbitan saham sapertos latihan pilihan sareng kagiatan rencana pameseran karyawan (sababaraha éntri 'saham dijual ka optionees' sareng 'employee stock purchase plan'), penerbitan anu aya hubunganana sareng akuisisi (Technoguide), sareng pangirangan bersih dina saham perbendaharaan — sacara kolektif ningkatkeun jumlah saham anu beredar."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Mezi obdobími závazků od roku 2012 do roku 2016, který rok měl nejvyšší celkovou částku splatnosti?",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Jaká je průměrná roční výše splatnosti závazků u 'záruk [c]' za období od roku 2012 do roku 2016?",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Identifikujte typ závazku s největší částkou splatnosti 'po roce 2016'. Poté pro tento konkrétní typ závazku vypočítejte součet jeho splatností za roky 2013 a 2014.",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište vývoj propadnutí závazků pro 'záruky [c]' od roku 2012 do období 'po roce 2016'.",
+    "answer": [
+      [
+        "Propadnutí závazků pro 'záruky [c]' vykazuje velmi volatilní trend. Začínajíc na 18 milionech USD v roce 2012 klesly na 8 milionů USD v roce 2013, poté zaznamenaly masivní nárůst na 214 milionů USD v roce 2014. Po tomto vrcholu propadnutí výrazně klesly na 12 milionů USD v roce 2015 a 13 milionů USD v roce 2016, než vzrostly na 60 milionů USD pro období po roce 2016. Vzor není lineární ani konzistentní, ale je dominován vrcholem v roce 2014."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Uveďte všechny typy závazků, které mají v roce 2012 částku splatnosti vyšší než 0 USD a celkový závazek nižší než 1000 milionů USD.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Jaké procento z celkových obchodních závazků vypršených v roce 2015 připadá na 'úvěrové linky [a]'?",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Pokud by celková částka pro 'záruky [c]' byla o 10 % vyšší a tento nárůst by se plně projevil v období vypršení platnosti po roce 2016, jaká by byla nová částka 'celkové obchodní závazky'?",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje na základě dat pozorovatelný vztah mezi velikostí 'celkové' hodnoty závazku a časovým rámcem jeho splatnosti?",
+    "answer": [
+      [
+        "Neexistuje jednoduchá lineární korelace, ale pozorovatelný vzorec ano. Největší závazek ('úvěrová zařízení' [a], 1800 milionů USD) má jedno vzdálené datum splatnosti (2015). Naopak závazek s nejvíce rozloženým harmonogramem splatnosti ('záruky' [c], 325 milionů USD) je jedním z menších. Další dva závazky ('sekuritizace pohledávek' [b] a 'stojací akreditivy' [d]) jsou splaceny v plné výši v prvním roce (2012), ačkoli mají velmi rozdílné celkové hodnoty (600 milionů USD a 24 milionů USD). To naznačuje, že větší závazky mohou být strukturovány jako jednorázové platby, zatímco menší jsou buď řešeny okamžitě, nebo jsou strukturovány jako dlouhodobé, rozložené závazky."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Které období vypršení závazků obsahuje nejvíce nenulových hodnot mezi jednotlivými typy závazků?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Při analýze splatností 'celkových obchodních závazků' v letech 2012 až 2016, který rok představuje významnou odchylku a proč?",
+    "answer": [
+      [
+        "Rok 2015 je významnou odchylkou. Celkové splatnosti za roky 2012-2016 jsou 642, 8, 214, 1812 a 13 milionů USD. Medián hodnoty je 214 milionů USD. Celková částka 1812 milionů USD v roce 2015 je více než 8krát vyšší než medián a téměř 3krát vyšší než další nejvyšší hodnota (642 milionů USD), což z ní činí jasnou statistickou odchylku způsobenou téměř výhradně splatností 'úvěrových linek'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Jaké jsou celkové komerční závazky (v milionech) od roku 2012 do roku 2015?",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

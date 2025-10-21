@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "finqa_c8b3934b16_001",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "'이자 비용 차감 후 총수익'이 가장 높았던 연도는 언제입니까?",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_002",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "2016년부터 2018년까지 3년간 '순신용손실'의 총 합계는 얼마였습니까?",
+    "answer": [
+      [
+        "605"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_003",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "'총 영업 비용'이 가장 높았던 연도의 '순 이자 수익'은 얼마였습니까?",
+    "answer": [
+      [
+        "$ 3045"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_004",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "2016년부터 2018년까지 '순 신용 손실'의 3년간 추세를 설명해 주십시오.",
+    "answer": [
+      [
+        "'순 신용 손실'은 2016년 4억 3,500만 달러에서 2017년 1억 4,900만 달러, 2018년에는 2,100만 달러로 꾸준하고 상당한 감소 추세를 보였습니다. 이러한 가파른 감소율은 전년 대비 66%에서 86%로, 회사의 신용 위험 관리 또는 자산 품질의 중대한 개선을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_005",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "2018년에는 양수 값을 보고했지만 2017년에는 음수 값(손실)을 보고한 재무 항목을 나열하십시오.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) before attribution of noncontrolling interests"
+      ],
+      [
+        "noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_006",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "2018년에 '이자 비용을 제외한 총 수익' 중 '총 영업 비용'이 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "109.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_007",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "'신용 준비금 증감(환입)'이 2018년에 2억 1,800만 달러 환입이 아닌 0이었다면, '세전 계속영업손익'은 얼마였을까요?",
+    "answer": [
+      [
+        "$ -205"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_008",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "'총 이자 비용을 제외한 총수익'과 '순이익(손실)' 사이에 3년간 직접적인 양의 상관관계가 있습니까? 설명해 주십시오.",
+    "answer": [
+      [
+        "아니요, 직접적인 양의 상관관계는 보이지 않습니다. 수익은 2016년 52억 3,300만 달러에서 2018년 20억 8,300만 달러로 꾸준히 감소한 반면, 순이익은 5억 2,100만 달러의 이익에서 -196억 7,600만 달러의 손실로 돌아섰다가 다시 1억 700만 달러의 이익으로 변동하는 등 극심한 변동을 보였습니다. 2018년보다 수익이 높았음에도 불구하고 2017년에 발생한 막대한 손실은 수익 변화만으로는 설명되지 않으며, 주로 190억 6,400만 달러의 비정상적인 '소득세(세액 공제)' 항목에 기인합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B11",
+      "C11",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_009",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "연도별 변화를 나타내는 열 중 'nm'(의미 없음) 항목이 가장 많은 열은 무엇입니까?",
+    "answer": [
+      [
+        "% (  % ) change2017 vs . 2016"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "F2",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_010",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "2016년 및 2018년과 비교했을 때 2017년의 명확한 이상치에 해당하는 재무 항목을 식별하고, 그것이 전반적인 결과에 미친 영향을 설명하십시오.",
+    "answer": [
+      [
+        "2017년의 '법인세 (환급)' 항목은 2016년의 -4억 5,500만 달러, 2018년의 -1억 1,300만 달러와 비교할 때 190억 6,400만 달러로 엄청난 이상치입니다. 이 예외적으로 큰 세금 비용은 5억 700만 달러의 세전 손실을 195억 7,100만 달러의 놀라운 세후 계속 영업 손실로 전환시킨 주된 요인이었으며, 이는 해당 연도의 데이터 세트에서 가장 영향력 있는 변칙적인 결과였습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "B11",
+      "C11",
+      "D11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_011",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "2016년부터 2018년까지 순이익(손실)은 백만 달러 기준으로 얼마만큼 감소했습니까?",
+    "answer": [
+      [
+        "$414"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

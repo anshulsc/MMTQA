@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "2016년 12월 31일 마감 연도에 대해 B열에서 시작하는 데이터 세트와 E열에서 시작하는 데이터 세트 중 어느 것이 '조정 후' 영업 이익이 더 높았습니까?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "첫 번째 데이터 세트(C열)의 '회계 원칙 변경'에 대한 모든 달러 기반 조정의 순합계는 얼마입니까?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "이자 소득에 대한 '회계 원칙 변경'이 '-414 ( 414 )'인 데이터 세트의 'as filed' 조정 EBITDA 마진은 얼마였습니까?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "첫 번째 데이터 세트(B-D 열)에서 'as filed' 순이익을 'as filed' 조정 EBITDA로 나눈 비율은 얼마이며, 소수점 셋째 자리까지 반올림해야 합니까?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "B열부터 D열까지 제시된 데이터 세트에서 '조정 후' 값이 '제출 당시' 값보다 작은 지표를 식별하십시오.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "'서비스 수익 대비 순이익 비율' 행에서 '회계 원칙 변경' 값이 비정상적으로 보이는 이유는 무엇입니까?",
+    "answer": [
+      [
+        "C4 및 F4 셀의 '회계 원칙 변경' 값인 '2014%(2014%)'는 비정상적입니다. 두 데이터 세트 모두 '회계 원칙 변경' 전후의 '서비스 수익 대비 순이익 비율'이 변경되지 않았습니다(각각 5%에서 5%, 3%에서 3%). 논리적인 변경은 0%가 되어야 하므로 '2014%'는 명백한 이상치이며, 이는 데이터 입력 오류로 인한 것일 가능성이 높습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "두 번째 데이터 세트에서 운영 소득에 대한 '회계 원칙 변경'이 표시된 값 대신 5천만 달러 감소였다면, 새로운 '조정 후' 운영 소득은 얼마였을까요?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "운영 소득 및 조정 EBITDA에 대한 회계 조정이 두 데이터 세트 전반에 걸쳐 일관된 관계를 보입니까?",
+    "answer": [
+      [
+        "예, 일관된 긍정적 관계가 존재합니다. 첫 번째 데이터 세트에서 운영 소득 변경액(+$248)은 조정 EBITDA 변경액(+$248)과 동일합니다. 두 번째 데이터 세트에서도 운영 소득 변경액(+$414)은 조정 EBITDA 변경액(+$414)과 동일합니다. 이는 운영 소득에 영향을 미치는 회계 원칙 변경이 동일한 금액으로 조정 EBITDA에 직접 반영된다는 것을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "표 해석 시 혼란을 야기할 수 있는 열 헤더의 가장 중요한 구조적 문제는 무엇입니까?",
+    "answer": [
+      [
+        "주요 구조적 문제는 상위 수준의 그룹화 없이 열 헤더가 중복된다는 것입니다. 'year ended december 31 2016 as filed'와 'year ended december 31 2016 change in accounting principle' 헤더가 두 개의 다른 열 세트(B열과 E열; C열과 F열)에 사용됩니다. 이러한 모호성으로 인해 명시적으로 명시되기보다는 두 개의 별도 개체 또는 시나리오가 비교되고 있다고 사용자가 추론해야 합니다."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "'조정 후' (as adjusted) 값을 사용하여 두 데이터 세트에 대한 암시적 서비스 수익(조정 EBITDA / 조정 EBITDA 마진)을 계산하고, 백만 단위로 두 값 간의 차이(첫 번째 세트에서 두 번째 세트 뺀 값)를 가장 가까운 정수로 반올림하여 보고하십시오.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "조정 후 'As Filed'에서 'As Adjusted'로 변경된 첫 번째 데이터 세트의 영업 이익(백만 달러)은 얼마만큼 변동했습니까?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

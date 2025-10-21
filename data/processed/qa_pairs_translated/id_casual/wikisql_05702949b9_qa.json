@@ -1,0 +1,311 @@
+[
+  {
+    "question_id": "wikisql_05702949b9_001",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Apa judul episode dengan jumlah penonton A.S. terbanyak?",
+    "answer": [
+      [
+        "\"On Behalf of a Grateful Nation\""
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_002",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Berapa total jumlah penonton, dalam jutaan, untuk semua episode yang disutradarai John Terlesky?",
+    "answer": [
+      [
+        "8.1"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "G4",
+      "D12",
+      "G12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_05702949b9_003",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Siapa penulis episode yang tayang persis setelah episode dengan jumlah penonton paling sedikit di musim ini?",
+    "answer": [
+      [
+        "Debra Fordham"
+      ]
+    ],
+    "evidence_cells": [
+      "E9",
+      "F8",
+      "F9",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_004",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "open_ended_reasoning",
+    "question": "Gimana tren penonton untuk episode yang tayang pada Maret 2011?",
+    "answer": [
+      [
+        "Tren jumlah penonton di bulan Maret 2011 itu naik turun (volatil). Awalnya kuat di 4,2 juta, lalu turun drastis ke 3,3 juta di minggu kedua, setelah itu pulih dan naik terus, mengakhiri bulan dengan jumlah penonton tertinggi di musim itu, yaitu 4,7 juta. Pola keseluruhannya adalah turun dulu, lalu melonjak kuat."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "G1",
+      "F2",
+      "G2",
+      "F3",
+      "G3",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_005",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Apa saja judul episode yang ditulis oleh Debra Fordham atau James Stanley dan memiliki lebih dari 3,5 juta penonton?",
+    "answer": [
+      [
+        "\"Line of Departure\""
+      ],
+      [
+        "\"Drop Zone\""
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "G1",
+      "C6",
+      "E6",
+      "G6",
+      "C9",
+      "E9",
+      "G9",
+      "C11",
+      "E11",
+      "G11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_006",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Berapa persen episode di musim ini yang disutradarai oleh Rob Spera?",
+    "answer": [
+      [
+        "16.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_05702949b9_007",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Kalau penonton setiap episode yang tayang di Mei 2011 naik 10%, berapa rata-rata penonton baru bulan itu (dalam jutaan)?",
+    "answer": [
+      [
+        "3.63"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "G8",
+      "F9",
+      "G9",
+      "F10",
+      "G10",
+      "F11",
+      "G11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_008",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, apakah ada korelasi linear yang jelas (positif atau negatif) antara nomor episode di musim itu dan jumlah penonton di A.S.? Coba jelaskan alasannya.",
+    "answer": [
+      [
+        "Enggak, tidak ada korelasi linear yang jelas. Jumlah penonton tidak secara konsisten meningkat atau menurun seiring berjalannya musim. Jumlah penonton berfluktuasi, mulai dari tinggi (4.2M), mencapai puncaknya di episode 4 (4.7M), mencapai titik terendah di episode 8 (3.1M), dan kemudian stabil di kisaran pertengahan 3 juta. Pola ini lebih tidak teratur daripada linear."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2",
+      "A3",
+      "G3",
+      "A4",
+      "G4",
+      "A5",
+      "G5",
+      "A6",
+      "G6",
+      "A7",
+      "G7",
+      "A8",
+      "G8",
+      "A9",
+      "G9",
+      "A10",
+      "G10",
+      "A11",
+      "G11",
+      "A12",
+      "G12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_05702949b9_009",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Coba sebutin semua orang yang punya kredit lebih dari satu kali di kolom 'Directed by' atau 'Written by'.",
+    "answer": [
+      [
+        "John T. Kretchmer"
+      ],
+      [
+        "Debra Fordham"
+      ],
+      [
+        "John Terlesky"
+      ],
+      [
+        "Rasheed Newson"
+      ],
+      [
+        "Rob Spera"
+      ],
+      [
+        "James Stanley"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_010",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Judul episode yang mana yang jumlah penontonnya paling jauh melampaui rata-rata penonton musim ini?",
+    "answer": [
+      [
+        "\"On Behalf of a Grateful Nation\""
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_05702949b9_011",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "open_ended_reasoning",
+    "question": "Tren apa yang bisa kamu simpulkan tentang keterlibatan penonton mingguan?",
+    "answer": [
+      [
+        "Jumlah penonton sedikit menurun seiring waktu, ini menunjukkan penurunan penonton yang bertahap atau adanya acara saingan."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E12",
+      "G1",
+      "G12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

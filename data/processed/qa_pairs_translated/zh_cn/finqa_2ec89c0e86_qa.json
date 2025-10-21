@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "finqa_2ec89c0e86_001",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "哪一年的融资活动产生的现金流量净额的绝对值最大？",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B0",
+      "C0",
+      "D0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_002",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "2011年至2013年这三年，用于投资活动的净现金总额是多少？",
+    "answer": [
+      [
+        "-42434"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_003",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "在经营活动提供的净现金最高的年份，现金及现金等价物的净增加（减少）是多少？",
+    "answer": [
+      [
+        "$ -433 ( 433 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_004",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述一下从2011年到2013年“经营活动产生的现金净额”的同比变化和总体趋势。",
+    "answer": [
+      [
+        "经营活动产生的现金净额显示出波动性。从2011年到2012年，它大幅减少了20.79亿美元（从209.63亿美元降至188.84亿美元），然后从2012年到2013年反弹增加了18.92亿美元（从188.84亿美元增至207.76亿美元），几乎恢复到2011年的水平。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_005",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "在哪一年（或哪些年份）用于投资活动的现金净流量的绝对值大于用于融资活动的现金净流量的绝对值？",
+    "answer": [
+      [
+        "2013"
+      ],
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "C2",
+      "C3",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_006",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "2012年，“经营活动产生的净现金”占“为筹资活动使用的净现金”的百分比是多少？",
+    "answer": [
+      [
+        "7.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_007",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "如果2013年‘用于投资活动的净现金’减少20%，其他所有数值保持不变，那么该年的‘现金及现金等价物的净增加（减少）额’将是多少？",
+    "answer": [
+      [
+        "810.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_008",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "在这三年期间，经营活动产生的现金与现金及现金等价物的净变动之间是否存在一致的关系？",
+    "answer": [
+      [
+        "没有，不存在一致的关系。2011年，最高的经营现金流（209.63亿美元）导致现金净减少（-4.33亿美元）。2012年，最低的经营现金流（188.84亿美元）导致现金净大幅增加（34.13亿美元）。这表明投资和融资活动对现金净变动的影响比仅经营活动的影响更大。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_009",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "哪个年份的“现金及现金等价物净增加（减少）额”是异常值，为什么？",
+    "answer": [
+      [
+        "2012 年是异常值，因为它是唯一一年现金及现金等价物净增加额为正（34.13 亿美元），而 2011 年和 2013 年的净减少额分别为（-4.33 亿美元）和（-28.04 亿美元）。"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_010",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "通过汇总2011年四项现金流活动类别，计算“现金及现金等价物净增加（减少）额”，以验证表格结构。",
+    "answer": [
+      [
+        "-433"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_011",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "如果公司2013年来自经营活动的净现金与2012年相比有所增加，但同期用于投资活动的净现金也增加了，这表明了公司2013年整体现金管理情况如何？",
+    "answer": [
+      [
+        "这表明公司在2013年比2012年产生的运营现金更多，但同时在投资方面的支出也更多。这表明公司可能将额外的运营现金流用于资助更大的投资活动。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

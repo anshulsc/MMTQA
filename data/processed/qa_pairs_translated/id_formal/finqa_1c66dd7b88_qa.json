@@ -1,0 +1,238 @@
+[
+  {
+    "question_id": "finqa_1c66dd7b88_001",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "value",
+    "question": "Akun liabilitas individual mana yang mengalami penurunan nilai absolut terbesar (yaitu, menjadi kurang negatif) dari tahun 2006 hingga 2007?",
+    "answer": [
+      [
+        "notes payable and current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1c66dd7b88_002",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "value",
+    "question": "Berapakah total gabungan aset yang paling likuid ('kas dan setara kas') dan aset lancar yang paling tidak likuid ('persediaan') pada tahun 2007?",
+    "answer": [
+      [
+        "415.4"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1c66dd7b88_003",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "value",
+    "question": "Berapakah perubahan tahun-ke-tahun dalam nilai aset yang merupakan komponen terbesar kedua dari 'total aset lancar' pada tahun 2006?",
+    "answer": [
+      [
+        "-0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1c66dd7b88_004",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis tren kesehatan keuangan jangka pendek perusahaan dari tahun 2006 hingga 2007 dengan membahas perubahan pada total aset lancar, total liabilitas lancar, dan total modal kerja.",
+    "answer": [
+      [
+        "Kesehatan keuangan jangka pendek perusahaan membaik secara signifikan dari tahun 2006 hingga 2007. Total aset lancar meningkat sebesar $74,2 juta (dari $1113,2 menjadi $1187,4), sementara total liabilitas lancar menurun sebesar $42,8 juta (dari $682,0 menjadi $639,2). Kombinasi positif antara peningkatan aset dan penurunan liabilitas ini menghasilkan pertumbuhan modal kerja total sebesar $117,0 juta (dari $431,2 menjadi $548,2), yang menunjukkan kapasitas yang lebih kuat untuk menutupi kewajiban jangka pendek."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1c66dd7b88_005",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "value",
+    "question": "Identifikasi semua akun aset lancar yang memiliki nilai lebih besar dari $300 juta pada tahun 2007 dan juga mengalami penurunan nilai dibandingkan tahun 2006.",
+    "answer": [
+      [
+        "inventories"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1c66dd7b88_006",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "value",
+    "question": "Berapakah rasio lancar (Total Aset Lancar / Total Liabilitas Lancar) untuk tahun 2007, dibulatkan ke dua tempat desimal?",
+    "answer": [
+      [
+        "1.86"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1c66dd7b88_007",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "value",
+    "question": "Jika nilai 'inventories' pada tahun 2007 secara tidak terduga turun hingga menyamai nilai 'other current assets' pada tahun yang sama, berapakah nilai baru 'total working capital'?",
+    "answer": [
+      [
+        "410.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1c66dd7b88_008",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ada hubungan yang dapat diamati antara perubahan 'kas dan setara kas' dan perubahan 'utang wesel dan jatuh tempo lancar utang jangka panjang' antara tahun 2006 dan 2007?",
+    "answer": [
+      [
+        "Ya, ada hubungan terbalik yang disarankan oleh data. Dari tahun 2006 hingga 2007, 'utang wesel' menurun secara signifikan sebesar $27,7 juta, menunjukkan pembayaran utang. Bersamaan dengan itu, 'kas dan setara kas' meningkat sebesar $29,6 juta. Meskipun bukan hubungan langsung satu lawan satu, pengurangan utang yang besar seringkali melibatkan arus kas keluar, sehingga posisi kas yang kuat pada tahun 2007 dapat terkait dengan aktivitas pembiayaan yang juga memungkinkan pelunasan utang ini, menunjukkan korelasi potensial antara manajemen kas dan strategi pengurangan utang."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1c66dd7b88_009",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "value",
+    "question": "Dua baris manakah dalam tabel yang merupakan agregasi yang merangkum nilai dari baris lain yang bukan total?",
+    "answer": [
+      [
+        "total current assets"
+      ],
+      [
+        "total current liabilities"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1c66dd7b88_010",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "value",
+    "question": "Akun individu mana (tidak termasuk total) yang menunjukkan perubahan persentase tahun-ke-tahun paling signifikan ketika mempertimbangkan nilai absolut?",
+    "answer": [
+      [
+        "notes payable and current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1c66dd7b88_011",
+    "table_id": "finqa_1c66dd7b88",
+    "question_type": "value",
+    "question": "Berapa total modal kerja (dalam jutaan) pada tahun 2007?",
+    "answer": [
+      [
+        "$548.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

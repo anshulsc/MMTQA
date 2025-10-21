@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "finqa_cd9bcca51c_001",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "全物件を合わせた総占有面積はどのくらいですか？",
+    "answer": [
+      [
+        "3348000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_002",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "他の物件と比較して、リース有効期限が著しく遅く、突出している物件はどれですか？",
+    "answer": [
+      [
+        "200 e . randolph street chicago illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_003",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "占有面積が350,000平方フィートを超え、かつリース契約が2020年に満了する物件を挙げてください。",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_004",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "最新のリース満了日が2020年より前である物件の平均占有平方フィート数はどのくらいですか？",
+    "answer": [
+      [
+        "316666.67"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_005",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "イリノイ州に所在する2つの物件を比較した場合、それらの占有平方フィートの差はどのくらいでしょうか？",
+    "answer": [
+      [
+        "828000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_006",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "ニューヨーク所在の物件が、総占有面積に占める割合は何パーセントですか？",
+    "answer": [
+      [
+        "9.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_007",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "リース満了日の最も早い年と最も遅い年の間の期間の幅が最も広い物件はどれですか？",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_008",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "「dlf city and unitech cyber park gurgaon india」物件のすべてのリース契約が7年間延長された場合、その新しいリース満了日はどうなりますか？",
+    "answer": [
+      [
+        "2021 2020 2022"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_009",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "1つの物件に対して、1つのセル内に複数の異なるデータポイントが記載されている記録を含む列はどれですか？",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_010",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "open_ended_reasoning",
+    "question": "物件の占有面積と、その物件が持つ個別のリース有効期限の数との間に、明確な相関関係は認められますか？データに基づいて回答を正当化してください。",
+    "answer": [
+      [
+        "明確な相関関係はありません。最大の占有面積を持つ物件（リンカンシャーの1,224,000）は複数の有効期限を持っており、これは正の相関を示唆するかもしれません。しかし、2番目に大きい物件（ザ・ウッドランズの414,000）は1つの有効期限しか持たず、3番目に大きい物件（グルガオンの413,000）は複数を持っています。このように、大規模な物件が単一および複数の有効期限の両方を持つという矛盾は、このデータセットに基づくと、占有面積が物件のリース契約数の信頼できる予測因子ではないことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_011",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "占有面積が400,000平方フィートを超える物件はいくつございますか？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "BD3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

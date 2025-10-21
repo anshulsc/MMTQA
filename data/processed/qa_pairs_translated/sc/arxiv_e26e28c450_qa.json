@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Cale modello non multi-task otènet su Mean Squared Error (MSE_over) generale prus bàsciu?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Cunfarma sa media de s'MSE a s'orizontu de 7 dies (MSE7) pro totu sos modellos marcados comente 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Pro su modellu cun su secondu valore MSE3 prus artu (secondu peus), cale est su valore suo de MSE30 cuntestu?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Analitzi su trend de s'Errore Quadràticu Mediu (MSE) pro su modellu HTML cumente s'orizontu de preìvisione s'allàngat de 3 a 30 dies. Sa preìcisione sua de preìvisione meliorat o peigorat in su tempus?",
+    "answer": [
+      [
+        "Sa preìcisione de preìvisione de su modellu HTML meliorat cumente s'orizontu de preìvisione s'allàngat. Is valores suoos de MSE disminuint in manera costante de MSE3 (0.845) a MSE7 (0.349), MSE15 (0.251), e finalmente MSE30 (0.158), indichende unucribile errore e duncas una mègius performance in is preìvisiones de prus longu tèrmine."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Identifica tottus is modellos chi non sunt designados comente 'Multi-Task' e chi ant fintzes un ANNEX15 bàsciu de 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica sufitza su modellu chi est un'isulamentu de prestatzione craru in totu sos metricos MSE e contat custu.",
+    "answer": [
+      [
+        "Su modellu GPT-3.5-Turbo est un'isulamentu de prestatzione craru. Sos valores suos de MSE in totu sos orizontes (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) sunt aumentados de mannudu respetu a sos àteros modelos, medas de sos cales tenent valores de MSE a sutu de 1.0. Custu indicat una prestatzione de prebida significativamente peus respetu a sos àteros modelos listados."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "A cale perchentu de s'imparis de s'MSE3 totu sos modellos est attribuìbile a su modellu GPT-3.5-Turbo? Data sa resposta comente perchentu arrondidu a una tzifra decimale.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Si su MSE_over pro su modellu RiskLabs miglioraret de su 25% (est a nàrrer, agatare de su 25%), cale diat èsser su valore suo nou, e comente diat classificare·si respetu a su MSE_over de su modellu HTML?",
+    "answer": [
+      [
+        "Su MSE_over nou pro RiskLabs diat èssere 0.243. Custu valore est prus bàsciu, e pro tantu prus bonu, de su MSE_over de su modellu HTML de 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Basende si in saVIDIA, cale est sa relatzione intre un modellu classificadu comente 'Multi-Task' e sa presentzia de un puntu 'VaR'?",
+    "answer": [
+      [
+        "B'at una forte currelatzione. Solu sos modellos designados comente 'Multi-Task' (GPT-3.5-Turbo e RiskLabs) tenent unu puntu numericu de 'VaR' registradu. Nonostanti custu, non totus sos modellos 'Multi-Task' tenent unu puntu VaR (es. HTML), e perunu modellu non-'Multi-Task' nde tenet unu, sugerende chi sa capatzidade de calculare VaR siat una carateristica predominantemente associada a sos modellos 'Multi-Task' in custu dataset."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Calu columena de performance metrica cuntenet datos non numèricos a tzeru, e pro cales modellos custu dato est mancante?",
+    "answer": [
+      [
+        "Sa columena 'VaR' cuntenet datos non numèricos ('/'). Custu dato est mancante pro sos modellos sighèntes: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, e HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale modellu ammostat su equilibriu generale pius bonu intre s'atzurru de sa preidditzione in custos orizontes (MSE3–MSE30) e sa istima de su arriscu (VaR)?",
+    "answer": [
+      [
+        "Su modellu RiskLabs otènet su equilibriu generale pius bonu, mantenende sos valores MSE prus bàscios in totu sos orizontes e su VaR prus bàsciu (0.049), inditende custa sia un'atzurru de preidditzione forte chi puru una istima de arriscu affidàbile."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

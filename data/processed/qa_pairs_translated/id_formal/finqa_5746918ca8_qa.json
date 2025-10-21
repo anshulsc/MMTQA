@@ -1,0 +1,287 @@
+[
+  {
+    "question_id": "finqa_5746918ca8_001",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Pada tahun berapa 'kerugian bersih dari pelunasan utang jangka panjang' paling besar?",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_002",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Berapa total 'amortisasi aset tak berwujud' dalam jutaan dari tahun 2011 hingga 2015?",
+    "answer": [
+      [
+        "825.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5746918ca8_003",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Berapakah pendapatan bersih pada tahun yang memiliki 'kompensasi berbasis ekuitas non-tunai' terendah?",
+    "answer": [
+      [
+        "$ 132.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_004",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren 'non-gaap net income' dari tahun 2011 hingga 2015 berdasarkan data yang diberikan.",
+    "answer": [
+      [
+        "Pendapatan bersih non-GAAP menunjukkan tren pertumbuhan positif yang konsisten dan kuat selama periode lima tahun, meningkat setiap tahun dari $198,8 juta pada tahun 2011 menjadi $503,5 juta pada tahun 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "E10",
+      "D10",
+      "C10",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_005",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Identifikasi semua item baris keuangan yang memiliki nilai lebih tinggi pada tahun 2015 dibandingkan tahun 2014, kecualikan item dengan data non-numerik untuk tahun 2014.",
+    "answer": [
+      [
+        "net income"
+      ],
+      [
+        "amortization of intangibles ( a )"
+      ],
+      [
+        "non-cash equity-based compensation"
+      ],
+      [
+        "other adjustments ( e )"
+      ],
+      [
+        "aggregate adjustment for income taxes ( f )"
+      ],
+      [
+        "non-gaap net income ( g )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_006",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Pada tahun 2015, berapa persentase dari 'non-gaap net income ( g )' yang diwakili oleh 'net income'? Berikan jawaban dibulatkan hingga satu tempat desimal.",
+    "answer": [
+      [
+        "80.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5746918ca8_007",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Dengan asumsi 'laba bersih non-GAAP' adalah jumlah dari 'laba bersih' dan semua penyesuaian yang terdaftar, berapakah 'laba bersih non-GAAP' untuk tahun 2013 jika 'amortisasi aset tak berwujud (a)' 10% lebih rendah pada tahun itu? (dalam jutaan)",
+    "answer": [
+      [
+        "298.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_008",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data dari tahun 2011 hingga 2015, apa hubungan yang tampak antara 'pendapatan bersih' dan 'pendapatan bersih non-GAAP ( g )'?",
+    "answer": [
+      [
+        "Terdapat korelasi positif yang kuat antara 'pendapatan bersih' dan 'pendapatan bersih non-GAAP'. Selama periode lima tahun, seiring 'pendapatan bersih' terus meningkat dari $17,1 juta menjadi $403,1 juta, 'pendapatan bersih non-GAAP' juga terus meningkat dari $198,8 juta menjadi $503,5 juta, menunjukkan bahwa kedua metrik bergerak ke arah yang sama."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5746918ca8_009",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Item baris manakah yang berisi data placeholder non-numerik untuk satu atau lebih tahun antara 2011 dan 2014?",
+    "answer": [
+      [
+        "non-cash equity-based compensation related to equity investment ( b )"
+      ],
+      [
+        "acquisition and integration expenses ( c )"
+      ],
+      [
+        "gain on remeasurement of equity investment ( d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_010",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "Tahun berapa yang memiliki 'kerugian bersih atas pelunasan utang jangka panjang' yang tampaknya merupakan nilai ekstrem dibandingkan dengan tahun-tahun lain dalam periode tersebut, dan mengapa?",
+    "answer": [
+      [
+        "Tahun 2011 memiliki nilai ekstrem untuk 'kerugian bersih atas pelunasan utang jangka panjang'. Kerugiannya adalah $118,9 juta, yang secara signifikan lebih tinggi dibandingkan tahun-tahun lainnya, lebih dari 30% lebih besar dari nilai tertinggi berikutnya ($90,7 juta pada tahun 2014) dan hampir tujuh kali lipat dari nilai terendah ($17,2 juta pada tahun 2012)."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5746918ca8_011",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana laba bersih non-GAAP berubah dari tahun 2011 hingga 2015, dan penyesuaian apa yang paling berkontribusi terhadap perubahan ini?",
+    "answer": [
+      [
+        "Laba bersih non-GAAP meningkat dari $198,8 juta pada tahun 2011 menjadi $503,5 juta pada tahun 2015. Penyesuaian utama yang berkontribusi meliputi amortisasi aset tak berwujud, kompensasi berbasis ekuitas non-tunai, kerugian bersih atas pelunasan utang jangka panjang, dan penyesuaian agregat untuk pajak penghasilan, yang secara berurutan diterapkan pada laba bersih untuk mencapai angka non-GAAP."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "A10",
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "أي التزام تعاقدي، باستثناء الإجمالي، لديه أعلى مبلغ مستحق في فترة '1-3 سنوات'؟",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "من خلال جمع المدفوعات لكل التزام فردي، أكد ما إذا كان المجموع الإجمالي لفترة '1-3 سنوات' المدرج في صف 'إجمالي المدفوعات على الالتزامات التعاقدية' دقيقًا.",
+    "answer": [
+      [
+        "نعم، المجموع الإجمالي دقيق. مجموع الالتزامات الفردية لفترة '1-3 سنوات' هو $188.3 + $316.4 + $37.1 + $3779.4، وهو ما يساوي $4321.2، ويتطابق مع القيمة في صف الإجمالي."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "بالنسبة للالتزام التعاقدي بأقل مبلغ إجمالي للدفع، ما هي النسبة المئوية من إجماليه المستحقة في فترة '1-3 سنوات'؟",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "صف الجدول الزمني للدفعات المستحقة بموجب \"الديون طويلة الأجل بما في ذلك عقود الإيجار الرأسمالية\" عبر الفترات الزمنية المحددة. هل هو موجّه نحو البداية، أم موجّه نحو النهاية، أم موزع بالتساوي؟",
+    "answer": [
+      [
+        "الجدول الزمني للدفعات المتعلقة بالديون طويلة الأجل يتركز بشكل كبير في نهايته. تبدأ الدفعات بمبلغ صغير يبلغ 34.5 مليون دولار ('أقل من سنة واحدة')، وتزداد باطراد خلال فترتي 1-3 سنوات و 3-5 سنوات، وتتوج بدفعة كبيرة جدًا تبلغ 2160.2 مليون دولار في فترة 'أكثر من 5 سنوات'، والتي تمثل أكثر من 78% من الالتزام الإجمالي."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "اذكر فئات الالتزامات التي يكون فيها المبلغ المستحق الدفع خلال 'أقل من سنة واحدة' أقل من المبلغ المستحق الدفع خلال '1-3 سنوات'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية من 'إجمالي الديون طويلة الأجل بما في ذلك عقود الإيجار الرأسمالية' المقرر سدادها في غضون أكثر من 5 سنوات؟",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "إذا تطلب سياسة جديدة دفع جميع 'التزامات الشراء' المستحقة في '1-3 سنوات' فورًا (في فترة 'أقل من سنة واحدة')، فما هو المبلغ الإجمالي الجديد لـ 'مدفوعات أقل من سنة واحدة' على الالتزامات التعاقدية؟",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "يحتوي الجدول على مشكلة في سلامة البيانات حيث لا يتطابق مجموع المدفوعات الدورية لنوع التزام واحد مع إجماليه المذكور. حدد هذا الالتزام واحسب التناقض.",
+    "answer": [
+      [
+        "صف \"التزامات الشراء (ج)\" بها مشكلة في سلامة البيانات. مجموع مدفوعاتها الدورية (2709.5 دولار + 3779.4 دولار + 98.0 دولار + 2212 دولار = 8798.9 مليون دولار) لا يتطابق مع إجماليه المذكور البالغ 6586.9 مليون دولار. التناقض هو 2212 مليون دولار."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "بالنظر إلى فترة الدفع '3-5 سنوات'، أي التزام تعاقدي قيمته هي الأدنى ويمكن اعتباره قيمة شاذة مقارنة بالآخرين في نفس العمود؟",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "هل توجد علاقة ثابتة بين حجم الالتزام الإجمالي وهيكل سداده (على سبيل المثال، هل الالتزامات الأكبر دائمًا ما تكون مؤجلة الدفع بشكل أكبر)؟ برر إجابتك بالبيانات.",
+    "answer": [
+      [
+        "لا، لا توجد علاقة ثابتة. أكبر التزام إجمالي، 'التزامات الشراء' (6586.9 مليون دولار)، يتم سداده بشكل كبير في وقت مبكر، حيث يكون الجزء الأكبر مستحقًا في غضون 3 سنوات. على العكس من ذلك، ثاني أكبر التزام، 'الديون طويلة الأجل' (2750.1 مليون دولار)، يتم سداده بشكل كبير في وقت لاحق، مع استحقاق أكبر دفعة في أكثر من 5 سنوات. هذا يشير إلى أن هيكل السداد خاص بنوع الالتزام، وليس بقيمته الإجمالية."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "ما هي إجمالي المدفوعات بالملايين على الالتزامات التعاقدية المستحقة حسب الفترة 1-3 سنوات؟",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

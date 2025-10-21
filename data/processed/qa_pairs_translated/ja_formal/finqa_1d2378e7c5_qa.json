@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "2015年12月31日時点で、「総資本」の報告値が高いのは「アドバンスト・アプローチ」と「標準アプローチ」のどちらですか。また、その差額は何百万ドルですか？",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "報告されている4つの列すべてにおける、「Tier 1 Capital」の平均額（百万ドル単位）はいくらでしたか？",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "最も低い「総資本比率」の列に対応する「総リスク加重資産」を特定してください。",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "過去2年間が前年のデータであると仮定した場合、「標準的アプローチ」における「普通株式等Tier1（CET1）資本比率」の前年比の推移を記述してください。",
+    "answer": [
+      [
+        "「標準的アプローチ」における「普通株式等Tier1（CET1）資本比率」は、前期間の11.12%から2015年12月31日には12.63%へと1.51パーセンテージポイント増加し、増加傾向を示しました。"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "2015年12月31日 標準アプローチにおいて、15%未満の資本比率はどれですか？",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "'2015年12月31日 先進的アプローチ'において、'Tier 2 Capital' は '総資本' の何パーセントを占めていますか？ (注: Tier 2 Capital = 総資本 - Tier 1 Capital)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "「2015年12月31日 標準的アプローチ」における「総リスク加重資産」が仮に10%増加した場合、「Tier 1 Capital」が一定であると仮定すると、新しい「Tier 1 Capital Ratio」はいくらになりますか？",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "「総リスク加重資産」と表に示されている自己資本比率との間に、どのような関係が推測できますか？結論を裏付けるためにデータポイントを使用してください。",
+    "answer": [
+      [
+        "「総リスク加重資産」と自己資本比率との間には、逆相関が存在します。リスク加重資産（比率計算における分母）が増加すると、自己資本比率は低下します。例えば、最も資産が多い列（12億9260万ドル）では、「総資本比率」が最も低い（12.80％）のに対し、最も資産が少ない列（11億6288万4000ドル）では、「総資本比率」が最も高く（17.08％）なっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "2015年12月31日時点で、主要構成要素が同一であるにもかかわらず、「Advanced」アプローチと「Standardized」アプローチの間で著しく大きな乖離を示している財務指標は何ですか？",
+    "answer": [
+      [
+        "総資本（Total Capital）に著しく大きな乖離が見られます。共通株式ティア1資本（Common Equity Tier 1 Capital）およびティア1資本（Tier 1 Capital）は、2015年において両アプローチで同一の値を示しています。しかし、総資本は120億ドル以上（186,097百万ドル対198,655百万ドル）異なり、これはティア2資本（Tier 2 Capital）の計算に起因する全額の差であることを示しており、外れ値となっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "2つの期間で示された列ヘッダーに一貫性がないにもかかわらず、各期間において「Advanced」アプローチと「Standardized」アプローチの両方で同一の値として報告されている資本額（百万ドル単位）は何ですか？",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "銀行の総リスク加重資産が先進的アプローチにおいて増加し、総資本が一定のままであった場合、総資本比率にはどのような影響がありますか？",
+    "answer": [
+      [
+        "総資本比率は低下します。なぜなら、資本が変わらないままリスク加重資産が増加すると、資本比率が低下するからです。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

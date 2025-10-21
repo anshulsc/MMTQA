@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "「1-3年」の期間で、総額を除いたどの契約上の義務が最も高額ですか？",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "「総契約上の義務に対する支払額」の行に記載されている「1～3年」の期間の支払額を個別の義務ごとに合計し、その合計値が正確であるか確認してください。",
+    "answer": [
+      [
+        "はい、総計は正確です。「1～3年」の期間における個別の義務の合計は、$188.3 + $316.4 + $37.1 + $3779.4 であり、これは$4321.2となり、総計行の値と一致します。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "総支払額が最も少ない契約上の義務について、その総額のうち「1～3年」の期間に支払われる割合はいくらですか？",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "'資本リースを含む長期負債' の指定期間における支払スケジュールについて説明してください。これは前倒し、後倒し、または均等に分散されていますか？",
+    "answer": [
+      [
+        "長期負債の支払スケジュールは、大幅に後倒しになっています。支払いは3450万ドル（「1年未満」）と少なく始まり、1～3年および3～5年の期間で着実に増加し、最終的に「5年超」の期間で21602億ドルという非常に大きな支払いに達します。これは総額の78%超を占めます。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "'1年未満'の支払期日が'1～3年'の支払期日よりも少ないすべての義務カテゴリーをリストしてください。",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "'長期負債（キャピタルリース含む）' のうち、5年超の期間で支払いが予定されているものは全体の何パーセントを占めますか？",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "もし新しい方針により、「購入義務」のうち「1～3年」で支払期日が到来するものをすべて直ちに（「1年未満」の期間に）支払う必要がある場合、「契約上の義務」に対する「1年未満」の支払いの新しい合計はいくらになりますか？",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "表には、ある債務の種類について、期間別の支払額の合計が記載された合計額と一致しないというデータの整合性の問題が含まれています。この債務を特定し、その差異を計算してください。",
+    "answer": [
+      [
+        "「購入義務（c）」の行にデータの整合性の問題があります。その期間別の支払額の合計（$2709.5 + $3779.4 + $98.0 + $2212 = $8798.9百万ドル）は、記載されている合計額$6586.9百万ドルと一致しません。差異は$2212百万ドルです。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "「3-5年」の支払期間を見た場合、どの契約上の義務の金額が最も低く、同じ列の他の値と比較して外れ値と見なされる可能性がありますか？",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "総義務の金額とその支払い構造（例えば、より大きな義務は常に支払いが遅延する傾向がありますか？）との間に一貫した関係はありますか？データを用いて説明してください。",
+    "answer": [
+      [
+        "いいえ、一貫した関係はありません。最も総額の大きい義務である「購入義務」（6586.9百万ドル）は、大部分が3年以内に支払われる、前面に集中した構造になっています。対照的に、2番目に大きい「長期負債」（2750.1百万ドル）は、支払いの大部分が5年超に設定されている、後ろに集中した構造になっています。これは、支払い構造が総額ではなく、義務の種類に固有であることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "契約上の義務による支払総額（100万ドル単位）で、期間1～3年のものはいくらですか？",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

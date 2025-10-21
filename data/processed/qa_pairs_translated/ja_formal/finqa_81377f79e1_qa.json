@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_81377f79e1_001",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "提示された3年間で、「総回収額」が最も低かったのは何年ですか？",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_002",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "2007年から2009年までの3年間における「純引当金繰入（戻入）」の合計額はいくらでしたか？",
+    "answer": [
+      [
+        "23588"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_81377f79e1_003",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "'期首貸倒引当金' が最も高かった年の '貸倒引当金総額' はいくらでしたか？",
+    "answer": [
+      [
+        "$ 38760"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_004",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "2007年から2009年までの「総与信損失」の年次推移を分析してください。",
+    "answer": [
+      [
+        "「総与信損失」は、2007年から2009年にかけて、著しく一貫した増加傾向を示しました。損失額は、2007年の118億6,400万ドルから2008年には207億6,000万ドル、さらに2009年には327億8,400万ドルへと増加し、2年間でほぼ3倍になりました。これは、ローンの質が悪化し、信用環境が悪化していることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_005",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "「貸付コミットメント引当金繰入額」が、引当金の増加を示す正の金額であった年をすべて特定してください。",
+    "answer": [
+      [
+        "2009"
+      ],
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_006",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "2009年において、「net specific reserve builds ( releases )」（純個別準備金の積み増し（または戻入れ））は、「total provision for credit losses」（信用損失総引当金）の何パーセントを占めましたか？小数点以下2桁まで丸めて回答してください。",
+    "answer": [
+      [
+        "5.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_81377f79e1_007",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "2009年の「総回収額」が10%増加した場合、「純信用損失（損失）回収額（NCLS）」は、その年の百万円単位で、再計算するといくらになりますか？",
+    "answer": [
+      [
+        "-30536.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_008",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "「ncls」（純信用損失）の金額と「貸倒引当金合計額」の3年間における関係性を分析してください。認識可能な相関関係はありますか？",
+    "answer": [
+      [
+        "はい、強い正の相関関係が見られます。2007年の99億2,600万ドルから2009年の307億4,100万ドルへと「ncls」（純信用損失）の金額が年々増加するにつれて、「貸倒引当金合計額」も168億3,200万ドルから387億6,000万ドルへと増加する傾向にあります。これは、銀行がより多くの純損失を経験するにつれて、それらおよび予想される将来の損失をカバーするために、それに応じて引当金を増額していることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_81377f79e1_009",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "「貸倒引当金」について、期末から翌年初への関係が示唆されていますが、2007年および2008年の「期末の貸倒引当金」の値は、それぞれ2008年および2009年の「期初の貸倒引当金」の値と正しく一致していますか？",
+    "answer": [
+      [
+        "はい、構造的な整合性は保たれています。2007年の「期末の貸倒引当金」（16,117ドル）は、2008年の「期初の貸倒引当金」と同一です。同様に、2008年末の引当金（29,616ドル）は2009年初頭の引当金と一致します。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_010",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "'ネット特定準備金の積み増し（释放）' の 3 年間の値を比較した場合、他の値と比べて著しく突出しているのはどの年の値ですか？",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_81377f79e1_011",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "2009年における、ローン、リース、およびアンファンド貸付コミットメントの総引当金はいくらでしたか？",
+    "answer": [
+      [
+        "$37,190"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

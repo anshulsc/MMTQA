@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_81fe58ad6c_001",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "ในปีใดที่ 'ค่าใช้จ่ายในการจ่ายค่าตอบแทนที่เกี่ยวข้องกับการ (เพิ่มขึ้น) / ค่าเสื่อมราคาของแผนค่าตอบแทนรอการตัดบัญชี' มีความได้เปรียบทางการเงินมากที่สุด (คือ มีค่าน้อยที่สุด)?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_002",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "ยอดรวมสะสมสำหรับ 'รายได้ (ค่าใช้จ่าย) ที่ไม่เกี่ยวกับการดำเนินงาน หักด้วยกำไร (ขาดทุน) สุทธิซึ่งเป็นของผู้ถือหุ้นส่วนน้อย (NCI) ที่ปรับปรุงแล้ว' ในช่วงสามปีตั้งแต่ปี 2008 ถึง 2010 คือเท่าใด",
+    "answer": [
+      [
+        "-405"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_003",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "ในปีที่มี 'รายได้สุทธิ (ขาดทุน) ที่จัดสรรให้กับ NCI' มากที่สุด (เมื่อพิจารณาจากค่าสัมบูรณ์) ผลต่างระหว่างรายได้ที่ยังไม่ดำเนินงาน 'ตามหลักการ GAAP' กับรายได้ที่ยังไม่ดำเนินงานขั้นสุดท้าย 'ที่ปรับปรุงแล้ว' คือเท่าใด",
+    "answer": [
+      [
+        "-193"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "E1",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_004",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "open_ended_reasoning",
+    "question": "อธิบายแนวโน้มทางการเงินของ 'รายได้ (ค่าใช้จ่าย) ที่ไม่ใช่จากการดำเนินงานตามหลัก GAAP' ตั้งแต่วันที่ 31 ธันวาคม 2551 ถึง 31 ธันวาคม 2553",
+    "answer": [
+      [
+        "แนวโน้มแสดงให้เห็นถึงการฟื้นตัวที่เป็นบวกอย่างมีนัยสำคัญ โดยมูลค่ามีการปรับปรุงอย่างมากจากค่าใช้จ่ายจำนวนมาก 577 ล้านดอลลาร์สหรัฐในปี 2551 เป็นค่าใช้จ่ายที่น้อยลงมาก 6 ล้านดอลลาร์สหรัฐในปี 2552 และท้ายที่สุดกลายเป็นรายได้ที่เป็นบวก 23 ล้านดอลลาร์สหรัฐในปี 2553"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_005",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "ระบุรายการทางการเงินทั้งหมดที่รายงานมูลค่าเป็นบวก (รายได้) ในปี 2010 แต่เป็นมูลค่าติดลบ (ค่าใช้จ่าย) ในปี 2009",
+    "answer": [
+      [
+        "non-operating income ( expense ) gaap basis"
+      ],
+      [
+        "non-operating income ( expense ) ( 1 )"
+      ],
+      [
+        "non-operating income ( expense ) less net income ( loss ) attributable to nci as adjusted"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "C3",
+      "D3",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_006",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "สำหรับปี 2008 รายการ 'ค่าใช้จ่ายในการชดเชย' คิดเป็นกี่เปอร์เซ็นต์ของ 'รายได้ (ค่าใช้จ่าย) ที่ไม่ใช่จากการดำเนินงาน (1)'?",
+    "answer": [
+      [
+        "-9.00%"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_007",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "หาก 'รายได้ (ค่าใช้จ่าย) จากการดำเนินงานที่ไม่ใช่การดำเนินงานตามหลักการ GAAP' สำหรับปี 2010 ลดลง 10% ค่าที่ได้สำหรับ 'รายได้ (ค่าใช้จ่าย) จากการดำเนินงานที่ไม่ใช่การดำเนินงาน (1)' สำหรับปีนั้นจะเป็นเท่าใด โดยสมมติว่าตัวเลขอื่นๆ คงที่?",
+    "answer": [
+      [
+        "33.7"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_008",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "open_ended_reasoning",
+    "question": "วิเคราะห์ความสัมพันธ์ระหว่างการเปลี่ยนแปลงรายปีของ 'รายได้ (ค่าใช้จ่าย) ที่ไม่ใช่การดำเนินงาน ตามหลักการ GAAP' และ 'รายได้ (ค่าใช้จ่าย) ที่ไม่ใช่การดำเนินงาน หักด้วยกำไร (ขาดทุน) สุทธิที่จัดสรรให้ NCI ปรับปรุงแล้ว'",
+    "answer": [
+      [
+        "มีความสัมพันธ์เชิงบวกที่แข็งแกร่งในการเปลี่ยนแปลงรายปี การปรับปรุงตัวเลขตามหลักการ GAAP จาก -$577 ล้านในปี 2008 เป็น -$6 ล้านในปี 2009 (การเปลี่ยนแปลง +$571 ล้าน) สอดคล้องกับการปรับปรุงครั้งใหญ่ในตัวเลขที่ปรับปรุงแล้วจาก -$384 ล้านเป็น -$46 ล้าน (การเปลี่ยนแปลง +$338 ล้าน) ในทำนองเดียวกัน การเปลี่ยนแปลงจาก -$6 ล้านในปี 2009 เป็น +$23 ล้านในปี 2010 สำหรับหลักการ GAAP สอดคล้องกับการเปลี่ยนแปลงเชิงบวกจาก -$46 ล้านเป็น +$25 ล้านในตัวเลขที่ปรับปรุงแล้ว สิ่งนี้บ่งชี้ว่าผลการดำเนินงานตามหลักการ GAAP เป็นตัวขับเคลื่อนหลักของแนวโน้มผลลัพธ์สุดท้ายที่ปรับปรุงแล้ว"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_009",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "รายการทางการเงินใดในตารางที่คำนวณโดยตรงจาก 'รายได้ (ค่าใช้จ่าย) ที่ไม่เกี่ยวข้องกับการดำเนินงานตามเกณฑ์ GAAP' และ 'หัก: กำไร (ขาดทุน) สุทธิที่เกี่ยวข้องกับ NCI'?",
+    "answer": [
+      [
+        "non-operating income ( expense ) ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "C1",
+      "C2",
+      "C3",
+      "D1",
+      "D2",
+      "D3",
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_010",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "open_ended_reasoning",
+    "question": "ข้อมูลใดจุดเดียวในตารางที่แสดงถึงค่าที่ผิดปกติมากที่สุดในแง่ของขนาดเมื่อเทียบกับตัวเลขอื่น ๆ ทั้งหมดที่แสดงไว้?",
+    "answer": [
+      [
+        "ค่าใช้จ่าย 577 ล้านดอลลาร์สำหรับ 'รายได้ (ค่าใช้จ่าย) ที่ไม่ใช่การดำเนินงานตามหลัก GAAP' ในปี 2008"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "C2",
+      "D2",
+      "E2",
+      "C3",
+      "D3",
+      "E3",
+      "C4",
+      "D4",
+      "E4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_81fe58ad6c_011",
+    "table_id": "finqa_81fe58ad6c",
+    "question_type": "value",
+    "question": "ปีใดมีรายได้ (ค่าใช้จ่าย) ที่ไม่ใช่การดำเนินงานตามหลักการ GAAP ต่ำที่สุด?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

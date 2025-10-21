@@ -1,0 +1,199 @@
+[
+  {
+    "question_id": "finqa_0be24be072_001",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "¿Qué año registró el mayor aumento absoluto en 'Ingresos netos por intereses excluyendo mercados CIB' respecto al año anterior?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_002",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "¿Cuál fue el promedio de 'activos medios generadores de intereses' a lo largo de los tres años proporcionados?",
+    "answer": [
+      [
+        "2123479.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0be24be072_003",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "En el año en que los 'ingresos netos por intereses de mercados CIB' fueron más altos, ¿cuál fue el valor correspondiente para los 'activos productivos promedio de mercados CIB'?",
+    "answer": [
+      [
+        "520307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_004",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Describa la tendencia del 'rendimiento neto de intereses sobre activos que devengan intereses de mercados CIB' de 2015 a 2017.",
+    "answer": [
+      [
+        "La tendencia fue muy volátil. El rendimiento aumentó aproximadamente un 17.3% de 1.04 en 2015 a 1.22 en 2016, pero luego experimentó una fuerte caída de aproximadamente el 29.5%, descendiendo a 0.86 en 2017."
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_005",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Enumere los años en que los 'ingresos netos por intereses del mercado cib' fueron superiores a $5,000 millones y el 'rendimiento neto por intereses sobre los activos de interés devengado del mercado cib' fue superior a 1.10.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_006",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "¿En 2016, qué porcentaje de los 'activos medios que generan intereses' totales representaban los 'activos medios que generan intereses de los mercados CIB'?",
+    "answer": [
+      [
+        "24.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0be24be072_007",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "¿Si el 'ingreso neto por intereses de los mercados cib' en 2017 hubiera sido un 20% más alto mientras que el 'ingreso neto por intereses base gestionada 2013' se hubiera mantenido igual, cuál habría sido el nuevo 'ingreso neto por intereses excluyendo los mercados cib'?",
+    "answer": [
+      [
+        "$ 45854"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_008",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Según la tabla, se observa una correlación entre los 'ingresos netos por intereses 2013 base administrada' totales y el 'rendimiento neto por intereses sobre activos productivos promedio 2013 base administrada' en los tres años?",
+    "answer": [
+      [
+        "Sí, hay una correlación positiva clara. A medida que los 'ingresos netos por intereses 2013 base administrada' aumentaron consistentemente de $44,620 millones en 2015 a $51,410 millones en 2017, el 'rendimiento neto por intereses sobre activos productivos promedio 2013 base administrada' también mostró un aumento constante del 2.14% al 2.36% durante el mismo período."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0be24be072_009",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "¿Qué dos métricas de la tabla, cuando la primera se divide por la segunda, calculan el 'rendimiento neto de intereses sobre activos promedio que devengan intereses excluyendo los mercados CIB'?",
+    "answer": [
+      [
+        "net interest income excluding cib markets ( a )"
+      ],
+      [
+        "average interest-earning assets excluding cib markets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A6",
+      "A9",
+      "B3",
+      "B6",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_010",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué año presenta una anomalía en el 'ingreso neto por intereses base administrada 2013' en términos de su crecimiento interanual en comparación con el otro período?",
+    "answer": [
+      [
+        "2017 es una anomalía debido a su crecimiento significativamente mayor. El aumento de 2016 a 2017 fue de $4,118 millones ($51,410 - $47,292), que es sustancialmente mayor que el aumento de $2,672 millones observado de 2015 a 2016 ($47,292 - $44,620)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_0be24be072_011",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "¿Cuánto fue el ingreso neto por intereses (en millones) excluyendo los mercados CIB en 2016?",
+    "answer": [
+      [
+        "$40,958"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

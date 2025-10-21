@@ -1,0 +1,230 @@
+[
+  {
+    "question_id": "finqa_bc4731cd2f_001",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2008년, 2009년, 2010년 3개 연도의 총 영업 비용은 백만 달러로 얼마였습니까?",
+    "answer": [
+      [
+        "32101"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_002",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2008년부터 2009년까지 가장 큰 폭의 퍼센트 포인트 증가를 경험한 재무 지표는 무엇입니까?",
+    "answer": [
+      [
+        "net credit losses"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_003",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "'총 수익(이자 비용 제외)'이 가장 높았던 해의 해당 '순 손실'은 얼마였습니까?",
+    "answer": [
+      [
+        "$ -8369 ( 8369 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_004",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "2008년부터 2010년까지 '비이자 수익'의 추세를 설명해 주십시오.",
+    "answer": [
+      [
+        "2008년 63억 6,200만 달러에서 시작하여 2009년에는 25% 감소한 47억 7,000만 달러로 떨어졌고, 2010년에는 58%라는 더욱 극적인 감소율을 기록하며 19억 9,500만 달러로 하락하는 등 3년간 꾸준하고 가파른 하락세를 보였습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_005",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2010년에 2009년 대비 손실 또는 비용의 절대값이 감소한 모든 재무 범주를 나열하십시오.",
+    "answer": [
+      [
+        "total operating expenses"
+      ],
+      [
+        "net credit losses"
+      ],
+      [
+        "provision for benefits and claims"
+      ],
+      [
+        "provisions for credit losses and for benefits and claims"
+      ],
+      [
+        "( loss ) from continuing operations before taxes"
+      ],
+      [
+        "( loss ) from continuing operations"
+      ],
+      [
+        "net ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_006",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2010년 '총 영업 비용'을 '이자 비용 차감 후 총 수익'으로 나눈 비율은 얼마였습니까? 답을 소수점 둘째 자리까지 백분율로 표시하십시오.",
+    "answer": [
+      [
+        "50.95%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_007",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2010년의 '신용 충당금 적립 (환입)'이 17억 7,100만 달러 환입 대신 10억 달러 적립이었다면, 해당 연도의 새로운 '신용 손실 및 수수료 및 보험금 충당금'은 얼마였을까요?",
+    "answer": [
+      [
+        "$ 18815 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_008",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "'평균 자산'의 연도별 변화와 '순이자수익'의 연도별 변화 사이에 일관된 관계가 있습니까?",
+    "answer": [
+      [
+        "아니요, 일관된 관계는 없습니다. 2008년부터 2009년까지 평균 자산은 16% 감소했고, 순이자수익 또한 24% 감소했습니다. 이는 가능한 양의 상관관계를 시사합니다. 그러나 2009년부터 2010년까지 평균 자산은 8% 다시 감소했지만, 이번에는 순이자수익이 6% 증가하여 이전 패턴을 깼습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_009",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "2010년 대비 2009년 기간 변경에서 'nm'이라는 비숫자, 비백분율 변경 값을 가진 행 항목은 무엇이며, 그 이유는 무엇일 가능성이 높습니까?",
+    "answer": [
+      [
+        "'credit reserve build ( release )'(신용 준비금 증감(환입)) 항목은 2010년 대 2009년 변경에서 'nm'(의미 없음) 값을 가집니다. 이는 2009년에는 양수($5799 백만 증감)였던 값이 2010년에는 음수(-$1771 백만 환입)로 변경되었기 때문이며, 부호 변경(양수에서 음수)에 따른 백분율 변경은 수학적으로 정의되지 않거나 재무 보고에서 의미 없는 것으로 간주되기 때문일 가능성이 높습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_010",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "두 기간(연간 변화) 간에 가장 극적인 부정적 반전을 보인 재무 지표는 무엇입니까(즉, 2008-2009년에는 긍정적이거나 약간 부정적인 변화를 보였으나, 2009-2010년에는 큰 폭의 부정적 변화를 보인 지표)?",
+    "answer": [
+      [
+        "non-interest revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_011",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2009년부터 2008년까지 총 영업 비용의 변화율은 얼마입니까?",
+    "answer": [
+      [
+        "31%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

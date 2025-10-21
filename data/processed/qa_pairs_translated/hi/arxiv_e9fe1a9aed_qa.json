@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2 परिदृश्यों (BC2_64 और BC2_28 दोनों) के लिए किस पूर्वानुमान विधि ने सबसे कम त्रुटि दर हासिल की?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "सभी छह बीसी परिदृश्यों में 'LASSO रिग्रेशन फ़ीचर चयन' विधि के लिए औसत त्रुटि दर क्या है?",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "उस फ़ीचर चयन विधि की पहचान करें जिसने किसी भी एकल परिदृश्य के लिए सबसे अधिक बाह्य चर (exogenous variables) का उपयोग किया। फिर, उस विशिष्ट विधि के लिए, BC3_64 परिदृश्य में उसकी त्रुटि दर (error rate) बताएं।",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "किस BC परिदृश्य के लिए उच्चतम और निम्नतम त्रुटि दरों के बीच के अंतर के रूप में परिभाषित प्रदर्शन अंतर सबसे बड़ा है?",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC1_28 परिदृश्य के लिए उन सभी पूर्वानुमान सेटिंग्स की सूची बनाएं जिन्होंने 5 से अधिक बाह्य चर (exogenous variables) का उपयोग किया और 16.0 से कम त्रुटि दर प्राप्त की।",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2_28 परिदृश्य में, 'फॉरवर्ड फ़ीचर सेलेक्शन SARIMAX' विधि की त्रुटि, बेसलाइन 'बिना बाह्य चर के' विधि की त्रुटि से कितने प्रतिशत कम है?",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "यदि BC1_28 के तहत 'Correlation-Based Selection' के लिए त्रुटि को 75% कम कर दिया गया, तो सभी पांच पूर्वानुमान सेटिंग्स में BC1_28 परिदृश्य के लिए नया औसत त्रुटि क्या होगा?",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "क्या विभिन्न फीचर चयन विधियों में बाहरी चर (exogenous variables) की अधिक संख्या का उपयोग करने और त्रुटि दर को कम करने के बीच कोई सुसंगत संबंध है?",
+    "answer": [
+      [
+        "नहीं, कोई सुसंगत संबंध नहीं है। उदाहरण के लिए, BC1_64 परिदृश्य में, 'Forward Feature Selection SARIMAX' केवल 1 चर का उपयोग करता है और सबसे कम त्रुटि (5.64) प्राप्त करता है, जबकि 'Manual feature selection' 18 चर का उपयोग करता है और उसमें बहुत अधिक त्रुटि (13.99) होती है। इसके विपरीत, BC1_28 परिदृश्य में, 'Forward Feature Selection SARIMAX' (15 चर के साथ 5.94) के लिए त्रुटि 'LASSO' (10 चर के साथ 15.38) की तुलना में कम है, जो बताता है कि कुछ मामलों में अधिक चर बेहतर हो सकते हैं। यह इंगित करता है कि चयन विधि की प्रभावशीलता चर की कुल संख्या से अधिक महत्वपूर्ण है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "'Correlation-Based Selection' विधि के लिए कौन सा त्रुटि मान इसके अन्य परिदृश्यों के प्रदर्शन की तुलना में एक महत्वपूर्ण आउटलायर है?",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "इस तालिका में बाहरी चरों का उपयोग करने वाली कितनी विशिष्ट फ़ीचर चयन पद्धतियों की तुलना की जा रही है?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2_28 के लिए किस पूर्वानुमान विधि ने सबसे कम त्रुटि प्राप्त की?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

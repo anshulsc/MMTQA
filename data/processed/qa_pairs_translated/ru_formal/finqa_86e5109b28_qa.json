@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Какое коммерческое обязательство, исключая итоги, имеет самый большой объем погашения в любой год с 2014 по 2017 год?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Какова сумма всех индивидуальных сроков действия обязательств за 2016 и 2017 годы вместе взятые?",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Определите тип обязательства, сроки действия которого охватывают наибольшее количество периодов, и укажите его общую стоимость.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите временную динамику «общих коммерческих обязательств» по срокам погашения с 2013 по 2016 год.",
+    "answer": [
+      [
+        "Динамика весьма волатильна. Она начинается с 632 миллионов долларов в 2013 году, снижается примерно на 66% до 215 миллионов долларов в 2014 году, затем резко возрастает до рекордного уровня в 1812 миллионов долларов в 2015 году, после чего падает более чем на 98% до всего лишь 30 миллионов долларов в 2016 году. Нет последовательного роста или снижения."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Перечислите типы обязательств, по которым сумма погашения в 2013 году превышает 0 долларов США, но отсутствует с 2015 года и далее.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Какая доля от общего объема погашений за 2013 год приходится на «facility секьюритизации дебиторской задолженности»?",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Если бы 1800 миллионов долларов США для «кредитных fasilitas», срок действия которых истекает в 2015 году, были вместо этого равномерно распределены между 2016 и 2017 годами, каков был бы новый общий объем «общих коммерческих обязательств» за 2016 год?",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Основываясь на таблице, существует ли наблюдаемая корреляция между общей суммой обязательства и количеством лет, в течение которых оно истекает?",
+    "answer": [
+      [
+        "Нет, прямой корреляции нет. Фактически, данные предполагают обратную зависимость. Крупнейшее обязательство, «кредитные fasilitas» (1800 млн долларов США), истекает в течение одного года (2015). Напротив, «гарантии» (307 млн долларов США), одно из меньших обязательств, распределено по всем шести указанным периодам времени."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Какой год окончания обязательств имеет наименьшее количество отдельных типов обязательств с ненулевым значением?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Определите год, в котором общая сумма истечения обязательств является значительным отклонением по сравнению с другими периодами, и обоснуйте свой ответ.",
+    "answer": [
+      [
+        "2015 год является явным отклонением с общей суммой истечения обязательств в 1812 млн долларов США. Эта цифра исключительно высока, более чем в 2,8 раза превышает следующую по величине годовую сумму (632 млн долларов США в 2013 году) и значительно превосходит все остальные периоды, которые составляют от 10 млн долларов США до 215 млн долларов США."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Каковы общие коммерческие обязательства с 2013 по 2017 год?",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

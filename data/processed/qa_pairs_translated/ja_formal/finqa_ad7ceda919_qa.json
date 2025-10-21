@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "finqa_ad7ceda919_001",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "スティーブン・P・ジョブズからジェローム・B・ヨークまでの個人受益者の中で、最も多くの普通株式を保有しているのは誰ですか？",
+    "answer": [
+      [
+        "steven p . jobs"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_002",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "表に記載されている保有株式数が最も少ない上位3名の個人が保有する株式数の合計は何ですか？",
+    "answer": [
+      [
+        "40484"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B10",
+      "B11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_003",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "フィデリティ・インベストメンツは、「すべての現職役員および取締役（グループとして）」の合計株式数と比較して、あと何株多く所有していますか？",
+    "answer": [
+      [
+        "48231474"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_004",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "250,000株超、400,000株未満を保有する全ての個人受益権者のお名前をリストアップしてください。",
+    "answer": [
+      [
+        "tony fadell"
+      ],
+      [
+        "arthur d . levinson"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_005",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "「すべての現職執行役員および取締役（グループ合計14名）」が保有する株式総数のうち、ロナルド・B・ジョンソン氏が所有する割合はどれくらいですか？",
+    "answer": [
+      [
+        "17.37%"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "B13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_006",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "ミリヤード・S・ドレクスラー氏が保有株式を15%増加させるために十分な追加株式を取得した場合、彼の新しい保有株式総数は何株になりますか？",
+    "answer": [
+      [
+        "264500"
+      ]
+    ],
+    "evidence_cells": [
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_007",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "データに基づくと、受益所有者の種類（個人か機関/グループか）と「発行済普通株式の割合」列に記載されている情報との間に、どのような関係が見られますか？",
+    "answer": [
+      [
+        "大規模な機関投資家（フィデリティ・インベストメンツ）や集団（「すべての現職役員および取締役の合計（14名）」）には、発行済株式の特定の割合が記載されているという明確なパターンが見られます。対照的に、個々の所有者すべてには、この列にアスタリスク（「*」）が付いています。これは、個人の持ち分はパーセンテージ開示の特定の報告閾値を下回っているのに対し、より大きなエンティティの持ち分は、特定のパーセンテージ報告に値するほど大きいことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A10",
+      "D10",
+      "A11",
+      "D11",
+      "A12",
+      "D12",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_008",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "他の個人株主（2〜12行目）と比較して、どの受益所有者の株式数が最も顕著な外れ値ですか？その理由を説明してください。",
+    "answer": [
+      [
+        "スティーブン・P・ジョブズ氏が最も顕著な外れ値です。このリスト（2〜12行目）の個人株主の株式数のメディアンは112,900株です。スティーブン・P・ジョブズ氏の保有数5,546,451株は、メディアンの約50倍、次に多い個人株主（ロナルド・B・ジョンソン氏）の3.8倍以上であり、明白な外れ値となっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_009",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "ヘッダーを除き、一次データ値ではなく、主に脚注や注釈として使用されている列を位置（1、2、3、または4）で示してください。",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_010",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "open_ended_reasoning",
+    "question": "'全現職役員および取締役のグループ（14名）' における、1人あたりの平均株式保有数を計算してください。アーサー・D・レヴィンソン氏の保有数は、この平均値と比較してどうなりますか？",
+    "answer": [
+      [
+        "グループ内の1人あたりの平均株式保有数は約596,600株（8,352,396株 ÷ 14名）です。アーサー・D・レヴィンソン氏の保有数365,015株は、この計算された平均値を230,000株以上下回っています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "A13",
+      "B13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ad7ceda919_011",
+    "table_id": "finqa_ad7ceda919",
+    "question_type": "value",
+    "question": "普通株式の株式を最も多く保有している受益所有者は誰ですか？",
+    "answer": [
+      [
+        "Fidelity Investments"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11",
+      "A12",
+      "B12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

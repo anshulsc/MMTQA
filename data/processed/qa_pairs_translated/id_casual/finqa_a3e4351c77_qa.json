@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Instrumen utang spesifik mana, nggak termasuk total dan penyesuaian, yang nilainya paling tinggi di kedua periode yang dilaporkan?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Berapa total nilai semua obligasi pendapatan yang teridentifikasi yang terdaftar untuk periode tersebut di kolom data kedua?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Berapa selisih perubahan absolut 'jatuh tempo utang jangka panjang saat ini' antara dua periode melebihi perubahan absolut 'diskonto utang yang belum diamortisasi'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Gimana tren 'total utang jangka panjang' di dua periode yang ada, dan apa pentingnya perubahan ini?",
+    "answer": [
+      [
+        "Total utang jangka panjang naik sebesar $275,3, dari $10007,5 di periode yang ada di kolom C ke $10282,8 di periode yang ada di kolom B. Ini nunjukkin kalau kewajiban utang jangka panjang entitas secara keseluruhan nambah selama periode ini, yang berarti kemungkinan utang baru yang diambil lebih banyak daripada yang dibayar lunas."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Sebutin semua item baris, kecuali total, yang nilainya negatif di kolom data kedua.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Sebagai persentase dari total utang jangka panjang untuk periode di kolom B, berapa porsi yang diklasifikasikan sebagai 'jatuh tempo utang jangka panjang saat ini'? Gunakan nilai absolut untuk perhitungan dan bulatkan ke dua desimal.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Kalau 'unamortized debt discount' di kolom data kedua (kolom B) dihilangkan (jadi nol), berapa 'total long-term debt 2013 kmp' untuk periode itu?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Ada hubungan yang kelihatan nggak sih antara perubahan 'utang jangka panjang yang jatuh tempo' dan perubahan 'total utang jangka panjang' di kedua periode?",
+    "answer": [
+      [
+        "Iya, kayaknya ada hubungan terbalik di pergerakannya. Total utang jangka panjang naik $275,3 (dari $10007,5 jadi $10282,8), tapi nilai 'jatuh tempo saat ini' turun drastis (dari nilai absolut 1263,3 jadi 596,6). Ini nunjukin kalau perusahaan ngambil utang lebih banyak secara keseluruhan, tapi barengan sama itu ngurangin porsi utang yang bakal jatuh tempo dalam waktu dekat."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Baris mana di dataset yang tampaknya merupakan agregasi dari baris lain, dan bukti apa yang mendukung kesimpulan ini?",
+    "answer": [
+      [
+        "Baris yang diberi label 'total long-term debt 2013 kmp' adalah agregasi. Bukti utamanya adalah penggunaan eksplisit kata 'total' dalam deskripsinya. Selain itu, nilainya disajikan dengan simbol mata uang ('$'), yang berbeda dari baris lainnya, menandakan itu adalah angka keuangan akhir, ringkasan."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Item mana yang nunjukin perubahan paling gede (secara nilai mutlak) antara dua periode, jadi kayak paling beda dari yang lain soal volatilitas?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalau lihat total utang jangka panjang sama diskon utang yang belum diamortisasi, berapa kenaikan efektif utang jangka panjang dari 2012 ke 2013?",
+    "answer": [
+      [
+        "Total utang jangka panjang naik dari $10.007,5 juta di 2012 jadi $10.282,8 juta di 2013. Kalau diskon utang yang belum diamortisasi berubah dari -21,2 di 2012 jadi -20,3 di 2013, kenaikan efektif utangnya jadi $276,8 juta."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

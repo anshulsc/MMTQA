@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Какая деятельность оказала более значительное негативное влияние на 'совокупный капитал': 'дивиденды' или 'выкуп обыкновенных акций'?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Каково чистое изменение в 'оплаченном капитале' в результате всех перечисленных операций за период между балансовыми датами 2011 и 2012 годов?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Каково было общее влияние на собственный капитал сделки, которая предусматривала увеличение «оплаченного капитала» на 662 долл. США?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Проанализируйте изменение \"совокупного капитала\" с 31 декабря 2011 года по 31 декабря 2012 года и определите основную движущую силу этого изменения.",
+    "answer": [
+      [
+        "Совокупный капитал уменьшился с 70 078 долл. США до 65 428 долл. США, что составило чистое сокращение на 4 650 долл. США. Хотя было несколько способствующих факторов, единственной крупнейшей движущей силой этого снижения стала \"переклассификация в выкупаемые неконтролирующие доли\", которая сама по себе обусловила отрицательное влияние в размере 4 288 долл. США, что составляет более 92% от общего чистого сокращения."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Перечислите все финансовые операции, которые привели к уменьшению внесенного капитала, но не повлияли на нераспределенную прибыль.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Какой процент от начальной нераспределенной прибыли по состоянию на 31 декабря 2011 года был выплачен в виде дивидендов за данный период?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Если бы «корректировки пересчета иностранной валюты» оказали нейтральное (то есть нулевое) влияние на общий акционерный капитал, каков был бы конечный баланс общего акционерного капитала по состоянию на 31 декабря 2012 года?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "На основании начального и конечного сальдо, а также строки транзакции 'акции, выпущенные по планам для сотрудников', какова взаимосвязь между 'трастом акций для сотрудников' и 'обыкновенными акциями, выпущенными для траста акций сотрудников'?",
+    "answer": [
+      [
+        "Существует постоянная обратная взаимосвязь. Значение в столбце 'обыкновенные акции, выпущенные для траста акций сотрудников' всегда является точным отрицательным значением величины в столбце 'траст акций для сотрудников' для любой данной строки (например, $3166 против -$3166 в начальном сальдо; -$234 против $234 для выпущенных акций). Это указывает на то, что они являются контр-счетами друг для друга, предназначенными для взаимокомпенсации их влияния в расчете общего капитала."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Исключая первую и последнюю строки, описывающие балансы, каково наиболее часто встречающееся значение в наборе данных из столбцов с B по K?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Среди всех операций, влияющих на 'общий капитал', какой отдельный пункт представляет собой наибольшее отрицательное значение?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Каков был общий объём привилегированных акций на конец 31 декабря 2012 года?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

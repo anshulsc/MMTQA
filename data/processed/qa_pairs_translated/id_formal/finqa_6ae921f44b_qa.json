@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Kategori keuangan mana yang mengalami kerugian absolut terbesar sebagai bagian dari 'pendapatan (kerugian) komprehensif lainnya sebelum reklasifikasi'?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Berapakah total gabungan dari semua 'jumlah yang diklasifikasikan ulang dari kerugian komprehensif lainnya' untuk kategori individual?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Berapakah saldo awal pada 3 November 2018 untuk komponen yang memiliki nilai absolut terkecil sebagai saldo akhir pada 2 November 2019?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren keseluruhan dari akumulasi kerugian lain yang komprehensif ('total') dari awal hingga akhir periode.",
+    "answer": [
+      [
+        "Total akumulasi kerugian memburuk secara signifikan selama periode tersebut, meningkat dari -$58.440 menjadi -$187.799. Ini mewakili kerugian bersih tambahan sebesar $129.359, lebih dari tiga kali lipat akumulasi kerugian dari awal periode."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Untuk semua kategori yang memiliki kerugian bersih dalam 'pendapatan komprehensif lain (rugi)', berapa total gabungan saldo akhir mereka pada 2 November 2019?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Berapa persentase dari total saldo negatif pada tanggal 2 November 2019 yang diatribusikan pada 'keuntungan (kerugian) yang belum direalisasi dari sekuritas yang tersedia untuk dijual'?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Jika 'pendapatan komprehensif lain (kerugian)' untuk 'rencana pensiun' merupakan keuntungan sebesar 24.344 bukan kerugian, berapa total saldo akhir yang baru pada tanggal 2 November 2019?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ada hubungan yang konsisten antara tanda (positif/negatif) dari 'pendapatan komprehensif lain (kerugian) sebelum reklasifikasi' dan tanda dari 'pendapatan komprehensif lain (kerugian)' akhir untuk setiap kategori?",
+    "answer": [
+      [
+        "Ya, hubungannya konsisten di keempat kategori tersebut. Untuk 'mata uang asing', 'derivatif', dan 'rencana pensiun', nilainya negatif di kedua item baris. Untuk 'sekuritas yang tersedia untuk dijual', nilainya positif di kedua item baris. Oleh karena itu, tanda pendapatan sebelum reklasifikasi secara konsisten sesuai dengan tanda pendapatan komprehensif bersih akhir untuk periode tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Item baris spesifik mana, tidak termasuk total, yang mewakili nilai paling ekstrem (yaitu, nilai absolut terbesar) dalam tabel?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Menggunakan logika penyesuaian di mana Saldo Akhir = Saldo Awal + 'pendapatan (kerugian) komprehensif lainnya', identifikasi kategori keuangan yang nilai yang dilaporkan secara matematis tidak konsisten.",
+    "answer": [
+      [
+        "Kategori 'keuntungan (kerugian) penahanan yang belum direalisasi atas sekuritas yang tersedia untuk dijual' tidak konsisten. Saldo awal sebesar -10 (sel C1) ditambah 'pendapatan (kerugian) komprehensif lainnya' sebesar 10 (sel C5) menghasilkan saldo akhir yang dihitung sebesar 0, yang tidak sesuai dengan saldo akhir yang dilaporkan sebesar 2.014 (sel C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Berapa penurunan pada rencana pensiun dari tahun 2018 hingga 2019?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

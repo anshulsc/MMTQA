@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "কোন ক্যোয়ারীতে সর্বাধিক সংখ্যক প্রাথমিক আর্থিক মেট্রিক্সের বিশ্লেষণ প্রয়োজন?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "তিনটি কোয়েরি জুড়ে তালিকাভুক্ত স্বতন্ত্র 'সম্পর্কিত মেট্রিক্স'-এর মোট সংখ্যা গণনা করুন।",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "যে কোয়েরিটি কোনও কোম্পানিকে তার প্রতিদ্বন্দ্বীদের সাথে তুলনা করে, সেটির সংশ্লিষ্ট 'Structured Data Request'-এ নির্দিষ্ট করা সঠিক তারিখের পরিসীমা কত?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "কোন প্রাকৃতিক ভাষা জিজ্ঞাসাটি দীর্ঘতম সময়সীমার জন্য কাঠামোগত অনুরোধের সাথে সঙ্গতিপূর্ণ?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "'plc' বা 'Co.'-এর মতো আইনি শনাক্তকারী সহ কোনও কোম্পানির বিশেষভাবে উল্লেখ করে এমন কোয়েরিগুলির জন্য 'Required Data' ফিল্ডে অনুরোধ করা সমস্ত প্রাথমিক মেট্রিক্স তালিকাভুক্ত করুন।",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Amcor plc কোয়েরির জন্য, 'Structured Data Request'-এ তালিকাভুক্ত সমস্ত মেট্রিকের কত শতাংশে স্পষ্টভাবে 'Cash' শব্দটি রয়েছে?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "যদি অ্যাডোবির জন্য প্রাকৃতিক ভাষা জিজ্ঞাসাটি 'রিটার্ন অন ওয়ার্কিং ক্যাপিটাল' অন্তর্ভুক্ত করার জন্য প্রসারিত করা হয়, তাহলে 'স্ট্রাকচার্ড ডেটা রিকোয়েস্ট'-এর মেট্রিক্স তালিকাটি কীভাবে পরিবর্তিত হবে, যেখানে হ্যালিবার্টন কোয়েরি থেকে তথ্য টেমপ্লেট হিসেবে ব্যবহার করা হবে?",
+    "answer": [
+      [
+        "The metrics section of the 'Structured Data Request' would be updated to include 'Return on Working Capital' and its related components from the Halliburton query. This would mean adding 'Return on Working Capital; Net income; Working capital' to the existing list, resulting in: (Sales Revenue; Total Revenue; Economic Value Added; Net operating profit after tax (NOPAT); Cost of capital; Return on Working Capital; Net income; Working capital)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "প্রদত্ত ডেটার উপর ভিত্তি করে, একটি প্রাকৃতিক ভাষা 'Query'-এর জটিলতা এবং 'Structured Data Request'-এ উল্লিখিত মেট্রিকের মোট সংখ্যার মধ্যে আপাত সম্পর্ক কী?",
+    "answer": [
+      [
+        "একটি ইতিবাচক সম্পর্ক দেখা যাচ্ছে। দুটি আরও জটিল প্রশ্ন (Amcor এবং Halliburton-এর জন্য) তাদের স্ট্রাকচার্ড অনুরোধগুলিতে উল্লেখযোগ্যভাবে বেশি সংখ্যক মেট্রিকের সাথে সঙ্গতিপূর্ণ (যথাক্রমে ১৪ এবং ১২) যা Adobe-এর সহজ প্রশ্নের তুলনায় বেশি, যেখানে মাত্র ৫টি মেট্রিক রয়েছে। এটি ইঙ্গিত দেয় যে ব্যবহারকারীর প্রশ্নের বিশ্লেষণাত্মক গভীরতা বৃদ্ধির সাথে সাথে প্রয়োজনীয় ডেটার পরিমাণও বৃদ্ধি পায়।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "কোন কলামটি প্রাকৃতিক ভাষা কোয়েরিটিকে আধা-কাঠামোগত বিন্যাসে পার্স করার কাজ করে যা স্পষ্টভাবে কোম্পানি, প্রাথমিক মেট্রিক, সম্পর্কিত সাব-মেট্রিক এবং অনুরোধ করা সময়সীমা তালিকাভুক্ত করে?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "'Required Data' এবং 'Structured Data Request' কলামের সময় সম্পর্কিত তথ্য বিশ্লেষণ করুন। এমন কোনো প্রশ্ন আছে যেখানে এই দুটি কলামের সময়সীমা সাংঘর্ষিক? যদি থাকে, তাহলে প্রশ্নটি চিহ্নিত করুন এবং অসামঞ্জস্যতা বর্ণনা করুন।",
+    "answer": [
+      [
+        "হ্যাঁ, Amcor plc-এর প্রশ্নে একটি উল্লেখযোগ্য অসামঞ্জস্য দেখা যাচ্ছে। 'Required Data' অংশে 'for the previous 6 months' (গত ৬ মাস) সময়সীমা উল্লেখ করা হয়েছে, যেখানে সংশ্লিষ্ট 'Structured Data Request' একটি অনেক সংক্ষিপ্ত, ৭ দিনের সময়সীমা '(7/1/2024 - 7/7/2024)' নির্দিষ্ট করেছে। অন্য দুটি প্রশ্নে কলামগুলির মধ্যে সময়ের সামঞ্জস্য দেখা যায়।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "ডেটাতে কতগুলি স্বতন্ত্র কোম্পানির নাম উল্লেখ করা হয়েছে?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

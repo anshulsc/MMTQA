@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Berapa total perubahan bersih di 'shares outstanding' yang dihasilkan dari semua program 'stock repurchase program' dan 'issued on conversions of debentures' digabungin di semua tahun?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Periode tahunan mana (2008, 2009, atau 2010) yang mengalami perubahan absolut terkecil di akhir tahun untuk 'saham beredar'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Sebutin transaksi yang bikin 'shares outstanding' paling banyak nambah, terus hitung rasio 'in treasury' punya dia dibandingin sama nilai 'shares outstanding'-nya.",
+    "answer": [
+      [
+        "Transaksinya adalah 'acquisition of smith international inc.'. Rasionya kira-kira 0.432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasin dong tren umum saldo saham 'di kas' dari awal 2008 sampai akhir 2010.",
+    "answer": [
+      [
+        "Jumlah saham 'di kas' menunjukkan tren yang berfluktuasi tapi cenderung menurun (menjadi angka negatif yang lebih kecil). Dimulai dari -138, sedikit menurun menjadi -140 di tahun 2008, sedikit pulih menjadi -139 di tahun 2009, lalu menurun drastis menjadi -73 di akhir 2010, sebagian besar karena saham yang terkait dengan akuisisi Smith International Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Sebutkan semua aktivitas yang terjadi di tahun 2008 (antara saldo 1 Jan dan 31 Des) yang berdampak positif pada jumlah 'shares outstanding'.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Berapa proporsi dari total 'shares outstanding' akhir di 31 Desember 2010, yang ditambahkan oleh transaksi 'acquisition of smith international inc.'?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Kalau akuisisi Smith International Inc. nggak kejadian di tahun 2010, berapa ya sisa saldo akhir tahun 'saham beredar' pas 31 Desember 2010, kalau diasumsiin semua transaksi lain sama?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Ada nggak sih hubungan yang jelas antara jumlah saham yang dikasih ke optionees sama yang dikeluarin lewat program pembelian saham karyawan di tahun-tahun yang ada? Coba jelasin.",
+    "answer": [
+      [
+        "Nggak ada hubungan yang konsisten. Di tahun 2008, saham yang dijual ke optionees lebih banyak (5) daripada yang dikeluarin lewat program pembelian (2). Di tahun 2009, angkanya sama (4 dan 4). Di tahun 2010, saham yang dijual ke optionees lebih banyak (6) daripada yang dikeluarin lewat program pembelian (3). Rasio antara keduanya beda-beda tiap tahun, jadi kayaknya nggak ada korelasi langsung."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Nggak ngitung baris saldo, kolom mana ('issued', 'in treasury', atau 'shares outstanding') yang paling banyak punya data yang bukan angka atau nggak konsisten?",
+    "answer": [
+      [
+        "Kolom 'issued' paling nggak konsisten. Sementara kolom lain isinya angka (atau format konsisten buat angka negatif), kolom 'issued' isinya campuran angka yang kelihatannya kayak saldo ('1334', '1434', '100') sama nilai '2013' yang berulang dan kayaknya nggak sesuai sama jumlah transaksi yang tercantum di situ."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Transaksi tunggal mana yang paling menonjol sebagai outlier karena punya dampak positif paling signifikan ke saldo 'saham beredar' dibanding dampak median dari semua transaksi lain?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Berapa rasio In Treasury terhadap Saham Beredar dalam program pembelian kembali saham dari tahun ke tahun?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "finqa_afeb56667d_001",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "2009年全年的总收入是多少？",
+    "answer": [
+      [
+        "995847"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afeb56667d_002",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "除了“总收入”之外，2009年哪项财务指标在四个季度中保持完全一致？",
+    "answer": [
+      [
+        "preferred stock dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_003",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "在“提前偿还债务收益”最高的那个季度，“每股收益（稀释后）”是多少？",
+    "answer": [
+      [
+        "$ 0.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_004",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述“归属于SL Green普通股股东的净收益（亏损）”在2009年初至年底的趋势。",
+    "answer": [
+      [
+        "普通股股东的净收益在2009年全年呈现持续且急剧下降的趋势。该收益从3月31日的32,768美元的较高利润开始，到6月30日显著下降至12,543美元，到9月30日转为亏损-2,520美元，到12月31日亏损进一步扩大至-5,123美元。"
+      ]
+    ],
+    "evidence_cells": [
+      "E10",
+      "D10",
+      "C10",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_005",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "列出“净收益（亏损）归属于SL Green”为正值且“已终止业务出售收益（亏损）”也为正值的ear all quarters where the 'net income ( loss ) attributable to sl green' was positive AND the 'gain ( loss ) on sale of discontinued operations' was also positive.",
+    "answer": [
+      [
+        "june 30"
+      ],
+      [
+        "march 31"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_006",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "截至9月30日的季度，“股息（优先股）”占“总收入”的百分比是多少？提供绝对百分比，保留两位小数。",
+    "answer": [
+      [
+        "2.02%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afeb56667d_007",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "如果在 9 月 30 日的季度中，“优先股股息”被放弃（即为 0 美元），那么该季度“归属于 SL Green 普通股股东的净收益（亏损）”将是多少？",
+    "answer": [
+      [
+        "$ 2449"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_008",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "根据季度数据，“债务提前兑付收益”与“归属于SL Green普通股股东的净收益（亏损）”之间是否存在明显的关系？",
+    "answer": [
+      [
+        "两者似乎存在很强的正相关性。“债务提前兑付收益”最高的两个季度（3月31日和6月30日）也报告了最高的“归属于SL Green普通股股东的净收益（亏损）”。相反，收益较低的季度（9月30日和12月31日）导致了普通股股东的净亏损，这表明这些巨额收益是上半年盈利能力的主要驱动因素。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B10",
+      "C10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afeb56667d_009",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "截至12月31日的季度，有多少财务项目报告了负值（亏损）？",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_010",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "与另外三个季度相比，哪个季度的“扣除非控股权益且计入销售收益前的净利润（亏损）”金额存在显著的异常值？",
+    "answer": [
+      [
+        "9月30日结束的季度是异常值。虽然其他三个季度在此类别中都报告了巨额亏损（-380 美元、-10,242 美元和 -26,600 美元），但9月季度是唯一报告盈利（4,099 美元）的季度，这使得它成为该项目普遍亏损趋势的一个显著例外。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afeb56667d_011",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "在2009年的所有季度中，哪个季度的SL Green普通股股东应占净利润最高，其他哪些因素促成了这一结果？",
+    "answer": [
+      [
+        "截至3月31日的季度，SL Green普通股股东应占净利润最高，为32,768美元。这得益于较高的总收入（258,787美元）和可观的债务提前偿还收益（47,712美元），以及已终止业务带来的积极贡献（1,319美元）。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B10",
+      "E2",
+      "E4",
+      "E6",
+      "E10",
+      "H2",
+      "H4",
+      "H6",
+      "H10",
+      "K2",
+      "K4",
+      "K6",
+      "K10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

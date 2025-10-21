@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Berapakah total peningkatan 'saham beredar' yang dihasilkan dari 'rencana pembelian saham karyawan' selama seluruh periode yang ditampilkan?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Dalam tahun berapa (2001, 2002, atau 2003) 'shares sold to optionees' memberikan kontribusi terbanyak pada peningkatan 'shares outstanding'?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren saham perbendaharaan perusahaan dari awal tahun 2001 hingga akhir tahun 2003, berdasarkan laporan saldo.",
+    "answer": [
+      [
+        "Jumlah saham yang disimpan di perbendaharaan secara konsisten menurun dari tahun ke tahun. Saldo turun dari sekitar 94,4 juta pada awal tahun 2001 menjadi 91,2 juta pada akhir tahun 2001, kemudian menjadi 84,9 juta pada akhir tahun 2002, dan akhirnya menjadi 81,2 juta pada akhir tahun 2003. Hal ini menunjukkan bahwa perusahaan menerbitkan kembali saham dari perbendaharaannya (misalnya, untuk program karyawan dan opsi) lebih cepat daripada membeli kembali saham tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Berapa perubahan bersih pada 'saham beredar' selama satu tahun kalender penuh yang mencakup 'akuisisi technoguide'?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Sebutkan semua jenis transaksi, tidak termasuk saldo, yang menghasilkan peningkatan 'saham beredar' lebih dari 2.000.000 saham.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Berapa persentase dari total peningkatan 'saham beredar' untuk tahun 2002 yang diatribusikan pada 'akuisisi technoguide'?",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Jika 'employee stock purchase plan' pada tahun 2002 menghasilkan 1.000.000 saham lebih sedikit ditambahkan ke jumlah yang beredar, berapa 'balance december 31 2002' untuk 'shares outstanding'?",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Transaksi mana di antara saldo tahunan yang mewakili pencilan dalam dampaknya yang minimal terhadap 'saham beredar', dan berapa dampaknya itu?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Untuk peristiwa 'shares sold to optionees', apakah hubungan matematis yang konsisten antara kolom 'issued', 'in treasury', dan 'shares outstanding'?",
+    "answer": [
+      [
+        "Untuk semua transaksi 'shares sold to optionees', nilai dalam kolom 'shares outstanding' adalah jumlah dari nilai-nilai dalam kolom 'issued' dan 'in treasury'. Ini menyiratkan bahwa saham untuk pemegang opsi bersumber baik dari penerbitan baru maupun dari saham perusahaan yang ada di kas."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom 'issued' berisi nilai '2013' untuk beberapa jenis transaksi di mana nilai 'in treasury' tidak nol. Apa yang ditunjukkan oleh hal ini tentang sumber saham untuk transaksi tersebut?",
+    "answer": [
+      [
+        "Di setiap baris di mana kolom 'issued' menunjukkan '2013', nilai 'in treasury' identik dengan nilai 'shares outstanding'. Ini menunjukkan bahwa untuk transaksi tersebut (misalnya, 'employee stock purchase plan', 'acquisition of technoguide'), semua saham berasal dari kas perusahaan (treasury) dan tidak ada saham baru yang benar-benar diterbitkan. Angka '2013' kemungkinan adalah placeholder, pengenal, atau kesalahan data, bukan jumlah saham yang diterbitkan."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana jumlah saham beredar berubah dari saldo pada 1 Januari 2001 hingga saldo pada 31 Desember 2003, dan aktivitas apa yang kemungkinan berkontribusi terhadap perubahan ini?",
+    "answer": [
+      [
+        "Saham beredar meningkat sebesar 13.223.634 (dari 572.724.694 menjadi 585.948.328). Peningkatan ini tampaknya didorong oleh penerbitan saham seperti pelaksanaan opsi dan aktivitas paket pembelian karyawan (beberapa entri 'saham dijual kepada pemegang opsi' dan 'paket saham karyawan'), penerbitan terkait akuisisi (Technoguide), dan pengurangan bersih saham dalam portepel (treasury shares) — yang secara kolektif meningkatkan jumlah saham beredar."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

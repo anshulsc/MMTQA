@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "finqa_7d819ab37b_001",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "¿Qué categoría de gastos, excluyendo los totales, experimentó la mayor disminución porcentual desde el año terminado en diciembre de 2010 hasta el año terminado en diciembre de 2012?",
+    "answer": [
+      [
+        "occupancy"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9",
+      "A10",
+      "B10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_002",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "¿Cuál fue el promedio de 'gastos operativos totales' en los tres años proporcionados en la tabla, en millones de dólares?",
+    "answer": [
+      [
+        "$ 23955.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_003",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Para el año con el mayor número de empleados al final del período, ¿cuál fue el gasto en compensación y beneficios por empleado, en millones de dólares?",
+    "answer": [
+      [
+        "$ 0.4307 million"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_004",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "open_ended_reasoning",
+    "question": "Describa la tendencia de los 'gastos totales no salariales' de 2010 a 2012 e infiera una razón potencial para esta tendencia basándose en otros datos de la tabla.",
+    "answer": [
+      [
+        "Los 'gastos totales no salariales' muestran una tendencia a la baja, aunque leve pero constante, pasando de $10,428 millones en 2010 a $10,419 millones en 2011 y luego a $10,012 millones en 2012. Esta tendencia se correlaciona con la disminución constante del 'total de personal al final del período' durante el mismo período, lo que sugiere que una reducción de la fuerza laboral puede haber llevado a menores costos no salariales relacionados, como los gastos de 'ocupación', que también disminuyeron significativamente."
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "C11",
+      "D11",
+      "B13",
+      "C13",
+      "D13",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_005",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "¿Enumera todas las categorías de gastos (excluyendo totales) donde el gasto en 2012 fue mayor que el gasto en 2011.",
+    "answer": [
+      [
+        "compensation and benefits"
+      ],
+      [
+        "insurance reserves1"
+      ],
+      [
+        "other expenses"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_006",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "¿Qué proporción de los 'gastos operativos totales' en 2010 se atribuyó a 'compensación y beneficios'?",
+    "answer": [
+      [
+        "58.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_007",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "¿Si los 'otros gastos' en 2012 hubieran sido un 20% más bajos, cuáles habrían sido los 'gastos operativos totales' de ese año, asumiendo que todas las demás cifras se mantuvieron constantes?",
+    "answer": [
+      [
+        "$ 22469"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_008",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe una correlación discernible entre el 'personal total al final del período' y los gastos de 'ocupación' de 2010 a 2012? Explique su razonamiento.",
+    "answer": [
+      [
+        "Sí, existe una fuerte correlación positiva. A medida que el 'personal total al final del período' disminuyó constantemente de 35.700 en 2010 a 32.400 en 2012, los gastos de 'ocupación' también experimentaron una disminución constante y significativa de 1.086 millones de dólares a 875 millones de dólares durante el mismo período. Esto sugiere que una fuerza laboral más pequeña requirió menos espacio de oficina o condujo a la consolidación de instalaciones, reduciendo así los costos de ocupación."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_009",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "¿Qué fila en la tabla contiene valores numéricos para 2011 y 2012 que son inconsistentes con el formato monetario ('$ X') utilizado para la mayoría de los otros elementos de gastos?",
+    "answer": [
+      [
+        "u.k . bank payrolltax"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_010",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "¿Identifique la categoría de gasto que fue el valor atípico más significativo en 2010, donde su valor fue drásticamente más alto que en los dos años siguientes?",
+    "answer": [
+      [
+        "compensation and benefits"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_011",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "¿En qué año fueron las reservas de seguros más altas?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

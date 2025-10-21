@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "가장 많은 수의 주요 재무 지표 분석을 요구하는 쿼리는 무엇입니까?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "세 가지 쿼리 전체에 걸쳐 나열된 개별 '관련 지표(Related Metrics)'의 총 개수를 계산하십시오.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "회사를 경쟁사와 비교하는 쿼리의 경우, 해당 '구조화된 데이터 요청'에 명시된 정확한 날짜 범위는 무엇입니까?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "가장 긴 기간을 포함하는 구조화된 요청에 해당하는 자연어 쿼리는 무엇입니까?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "'plc' 또는 'Co.'와 같은 법적 식별자가 있는 회사를 명시적으로 참조하는 쿼리에 대해 'Required Data' 필드에서 요청된 모든 기본 지표를 나열하십시오.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Amcor plc 관련 문의에서 'Structured Data Request'에 명시된 전체 메트릭 중 'Cash'라는 단어를 포함하는 메트릭의 비율은 얼마입니까?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Adobe에 대한 자연어 쿼리에 'Return on Working Capital' 요청이 포함되도록 확장된다면, Halliburton 쿼리의 정보를 템플릿으로 사용하여 'Structured Data Request'의 측정값 목록은 어떻게 수정됩니까?",
+    "answer": [
+      [
+        "Halliburton 쿼리의 'Return on Working Capital' 및 관련 구성 요소를 포함하도록 'Structured Data Request'의 측정값 섹션이 업데이트됩니다. 이는 기존 목록에 'Return on Working Capital; Net income; Working capital'을 추가하여 다음과 같은 결과를 초래합니다: (Sales Revenue; Total Revenue; Economic Value Added; Net operating profit after tax (NOPAT); Cost of capital; Return on Working Capital; Net income; Working capital)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "제공된 데이터를 기반으로, 자연어 'Query'의 복잡성과 'Structured Data Request'에 명시된 총 메트릭 수 사이에는 어떤 명백한 관계가 있습니까?",
+    "answer": [
+      [
+        "양의 상관관계가 있는 것으로 보입니다. 두 가지 더 복잡한 쿼리(Amcor 및 Halliburton)는 Adobe의 더 간단한 쿼리에 비해 구조화된 요청에 훨씬 더 많은 메트릭(각각 14개 및 12개)이 포함된 것과 일치합니다. 이는 사용자의 질문의 분석 깊이가 증가함에 따라 필요한 데이터 페이로드도 증가함을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "자연어 쿼리를 회사, 주요 지표, 관련 하위 지표 및 요청된 기간을 명시적으로 나열하는 반구조화된 형식으로 구문 분석하는 기능은 어떤 열이 수행합니까?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "'Required Data' 열과 'Structured Data Request' 열에 있는 시간 정보를 분석하십시오. 이 두 열이 상충되는 시간 범위를 제시하는 쿼리가 있습니까? 그렇다면 해당 쿼리를 식별하고 불일치를 설명하십시오.",
+    "answer": [
+      [
+        "네, Amcor plc 쿼리에서 상당한 불일치가 나타납니다. 'Required Data' 섹션에서는 '지난 6개월'의 기간을 명시했지만, 해당 'Structured Data Request'에서는 '(2024년 7월 1일 - 2024년 7월 7일)'이라는 훨씬 짧은 7일 기간을 명시했습니다. 나머지 두 쿼리는 열 간에 시간적 일관성을 보여줍니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "데이터에 언급된 고유한 회사는 몇 개입니까?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

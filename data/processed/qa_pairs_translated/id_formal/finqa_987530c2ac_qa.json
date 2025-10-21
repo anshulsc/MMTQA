@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_987530c2ac_001",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Pada tahun berapa perusahaan mengalami kerugian bersih pro-forma terkecil?",
+    "answer": [
+      [
+        "2004"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_002",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Berapakah total gabungan 'kerugian bersih yang dilaporkan' untuk tahun 2002, 2003, dan 2004?",
+    "answer": [
+      [
+        "-1736448"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_987530c2ac_003",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Untuk tahun yang memiliki perbedaan absolut terbesar antara kerugian bersih per saham 'seperti yang dilaporkan' dan 'pro-forma', berapakah perbedaan tersebut?",
+    "answer": [
+      [
+        "0.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "C5",
+      "C6",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_004",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren 'kerugian bersih pro-forma' perusahaan dari tahun 2002 hingga 2004.",
+    "answer": [
+      [
+        "Kerugian bersih pro-forma perusahaan menunjukkan tren penurunan yang konsisten dan signifikan dari tahun 2002 hingga 2004. Kerugian berkurang dari $1.201.666 pada tahun 2002 menjadi $354.400 pada tahun 2003, dan terus menurun menjadi $269.196 pada tahun 2004, menunjukkan perbaikan substansial dalam kinerja keuangan selama periode ini."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_005",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Berapakah 'rugi bersih pro-forma' pada tahun ketika 'tambah: kompensasi karyawan berbasis saham' adalah 2077?",
+    "answer": [
+      [
+        "$ -354400 ( 354400 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_006",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Pada tahun 2003, 'kerugian bersih yang dilaporkan' merupakan persentase berapa dari 'total biaya kompensasi karyawan berbasis saham' absolut?",
+    "answer": [
+      [
+        "9.58%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_987530c2ac_007",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Jika modifikasi 'biaya kompensasi karyawan berbasis saham' untuk tahun 2002 adalah 5.000 alih-alih bernilai hilang, berapa 'kerugian bersih pro-forma' yang dihitung ulang untuk tahun tersebut?",
+    "answer": [
+      [
+        "-1196666"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_008",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, apa hubungan yang tampak antara 'total biaya kompensasi karyawan berbasis saham' dan 'kerugian bersih pro-forma' dari tahun 2002 hingga 2004?",
+    "answer": [
+      [
+        "Tampak ada korelasi positif antara besarnya 'total biaya kompensasi karyawan berbasis saham' dan 'kerugian bersih pro-forma'. Seiring penurunan biaya kompensasi berbasis saham setiap tahun dari $38.126 pada tahun 2002 menjadi $23.906 pada tahun 2004, kerugian bersih pro-forma juga terus menurun dari $1.201.666 menjadi $269.196, menunjukkan bahwa tahun-tahun dengan biaya berbasis saham yang lebih tinggi juga memiliki kerugian pro-forma yang lebih tinggi."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_987530c2ac_009",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Item keuangan manakah yang memiliki data tidak lengkap di seluruh tahun yang disajikan dalam tabel?",
+    "answer": [
+      [
+        "add : stock-based employee compensation expense associated with modifications net of related tax effect included in net loss asreported"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_010",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Tahun berapa 'kerugian bersih per saham dasar dan dilusian yang dilaporkan' dapat dianggap sebagai outlier dibandingkan dengan tahun-tahun lainnya, dan mengapa?",
+    "answer": [
+      [
+        "Tahun 2002 merupakan outlier yang jelas. 'Kerugian bersih per saham dasar dan dilusian yang dilaporkan'-nya adalah $-5,95, yang lebih dari 3,8 kali lebih besar magnitudonya dibandingkan dengan $-1,56 yang dilaporkan pada tahun 2003 dan lebih dari 5,4 kali lebih besar daripada $-1,10 pada tahun 2004. Penurunan tajam dalam metrik ini di tahun-tahun berikutnya menyoroti tahun 2002 sebagai tahun kerugian per saham yang sangat tinggi."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_987530c2ac_011",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Berapakah kerugian bersih pro-forma pada tahun 2003?",
+    "answer": [
+      [
+        "$ -354,400"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

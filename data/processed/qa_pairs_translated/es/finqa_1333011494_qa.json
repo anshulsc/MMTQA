@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "¿Qué propiedad tiene el valor 'building' más alto?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "¿Cuál es la 'asignación del precio de compra' total para todas las propiedades listadas en la tabla?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "¿Cuál es la 'contraprestación neta financiada por nosotros al cierre' para la propiedad que tiene el valor más bajo de 'arrendamientos adquiridos en su lugar'?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "¿Para la propiedad '1515 broadway', qué porcentaje del valor de sus 'activos adquiridos' proviene de la suma de los valores de su 'terreno' y 'edificio'?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Identifica todas las propiedades donde la 'deuda asumida' es más de tres veces la 'inversión en capital y/o deuda mantenida'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "¿Si un ajuste contable reevaluara el valor del 'edificio' para '110 east 42nd street' a un 10% menos, cuál sería el nuevo valor de 'activos adquiridos' para esa propiedad?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "El 'ajuste de valor razonable a la hipoteca a pagar' para '1515 broadway' es un valor negativo, mientras que es un valor positivo y uniforme para la mayoría de las otras propiedades. ¿Qué sugiere esta importante variación sobre la financiación de esa propiedad específica?",
+    "answer": [
+      [
+        "El valor negativo de '-3693' para '1515 broadway' en la categoría 'ajuste de valor razonable a la hipoteca a pagar' es una variación clara en comparación con el valor positivo uniforme de '2014' para las otras propiedades. Esto sugiere que la hipoteca asociada con la adquisición de 1515 Broadway tenía términos más favorables que las tasas predominantes del mercado en el momento de la adquisición, creando un activo (un ajuste de pasivo negativo). En contraste, las otras propiedades podrían haber tenido hipotecas a tasas de mercado o cercanas a ellas, requiriendo un ajuste estándar y nominal."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Según los datos, existe una correlación positiva directa entre la 'asignación del precio de compra' de una propiedad y su 'consideración neta financiada por nosotros al cierre'?",
+    "answer": [
+      [
+        "No, no existe una correlación positiva directa. Por ejemplo, '180 maiden lane' tiene el segundo precio de compra más alto ($442,325), pero su consideración neta ($81,835) es prácticamente idéntica a la de '51 east 42nd street', que tiene un precio de compra mucho más bajo ($80,000). Además, '1515 broadway' tiene el precio de compra más alto por un amplio margen ($1,234,000), pero no la consideración neta más alta. Esto indica que otros factores, como la 'deuda asumida' (que es muy alta para '1515 broadway'), influyen significativamente en la consideración neta requerida al cierre."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Calcule el total de 'pasivos asumidos' para las propiedades que tienen un 'valor de arrendamiento por encima del mercado' de menos de $6,000.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "El valor '2014' aparece repetidamente en cuatro categorías financieras diferentes, a menudo para las mismas propiedades. ¿Qué sugiere el uso constante de este número específico, no redondeado, en diferentes contextos sobre su naturaleza?",
+    "answer": [
+      [
+        "El valor '2014' aparece en 'otros activos netos de otros pasivos', 'ajuste a valor razonable de pagarés hipotecarios', 'inversión en capital y/o deuda mantenida' y 'deuda asumida'. Su uso repetido como un valor idéntico relativamente pequeño en diferentes categorías y propiedades sugiere que no es un valor de mercado medido, sino más bien un marcador de posición nominal, un valor mínimo estándar utilizado con fines contables, o posiblemente una referencia a un evento específico o año de regulación (por ejemplo, una transacción de 2014). Significa una entrada estandarizada en lugar de una valoración única para cada instancia."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "¿Cuánto cuesta comprar el terreno en 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "question_id": "arxiv_c1daaa052a_001",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Kerja mana yang nunjukin kenaikan persentase tertinggi di bagian 'Returns', dan berapa persennya?",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ],
+      [
+        "+40.4%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_002",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Berapa total jumlah bursa saham berbeda yang dievaluasi di semua karya riset yang terdaftar?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_003",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Sebutin inovasi kunci buat model yang diuji di pasar CSI dong.",
+    "answer": [
+      [
+        "Pure convolutional temporal-relational modeling"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_004",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "Dibandingin sama kerjaan tahun 2023 sama yang tahun 2024, ada pergeseran fokus utama di bagian 'Key Innovation'?",
+    "answer": [
+      [
+        "Fokus inovasi utamanya bergeser dari efisiensi arsitektur dan pemodelan baru ('Pure convolutional temporal-relational modeling' di 2023) ke penanganan data dan dinamika pasar yang lebih kompleks di tahun 2024. Inovasi tahun 2024 membahas tantangan seperti independensi channel, mitigasi bias, dan adaptasi terhadap pergeseran rezim pasar, yang nunjukkin tren ke arah pembuatan model yang lebih kuat dan adaptif daripada sekadar fokus ke struktur jaringan yang baru."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_005",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Sebutin dong karya-karya yang terbit tahun 2024 yang pakai metode adversarial learning atau training?",
+    "answer": [
+      [
+        "ADB-TRM Chen et al. (2024)"
+      ],
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_006",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Berapa persen karya penelitian yang terdaftar diterbitkan tahun 2024?",
+    "answer": [
+      [
+        "75%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_007",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Kalau 'Returns' gain dari ADB-TRM Chen et al. (2024) turun 10,3 poin persentase, karya mana yang bakal ngasih gain performa lebih tinggi antara itu dan RSAP-DFM Xiang et al. (2024)?",
+    "answer": [
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_008",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "Ada pola yang kelihatan nggak sih antara pemakaian metode adversarial learning sama keragaman geografis pasar tempat model-modelnya diuji?",
+    "answer": [
+      [
+        "Iya, kedua riset yang nyebutin adversarial learning di metodenya (ADB-TRM dan RSAP-DFM) itu diuji di kombinasi pasar AS sama luar AS (masing-masing TSE dan A-share market). Sebaliknya, dua riset lainnya yang nggak nyebutin adversarial learning, cuma diuji di pasar AS aja (CI-STHPAN) atau campuran yang ada pasar CSI China-nya (RT-GCN). Ini nunjukin ada kemungkinan kaitan antara pemakaian teknik adversarial yang canggih sama validasinya di set pasar finansial yang lebih luas dan beragam secara global."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_009",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Kerja mana yang ngelaporin hasil performa yang itu kelipatan kecepatan bukannya kenaikan persentase?",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_010",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Apa kontribusi metodologis dari riset yang memperkenalkan 'mekanisme dual regime-shifting'?",
+    "answer": [
+      [
+        "Gradient-based posterior factors with adversarial learning"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_011",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Apa inovasi kunci dari risetnya Xia pake CI-STHPAN?",
+    "answer": [
+      [
+        "Channel-independent pre-training with dynamic hypergraph learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

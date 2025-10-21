@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_c8712e7938_001",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez l'évolution de la 'perte nette déclarée' de 2003 à 2005.",
+    "answer": [
+      [
+        "La 'perte nette déclarée' montre une tendance à la baisse constante, indiquant une amélioration financière. La perte a diminué de 325 321 $ en 2003 à 247 587 $ en 2004, et a encore été réduite à 171 590 $ en 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_002",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "En quelle année la différence absolue entre la « perte nette pro forma » et la « perte nette déclarée » était-elle la plus importante ?",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_003",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Quel était le total des 'charges de rémunération à base d'actions pour les employés' ajoutées sur les trois années présentées ?",
+    "answer": [
+      [
+        "11478"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8712e7938_004",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Pour l'année où la 'perte nette de base et diluée par action déclarée' était la plus faible, quel était le ratio de la 'perte nette pro forma' absolue à la 'perte nette déclarée' absolue ? Arrondir à trois décimales.",
+    "answer": [
+      [
+        "1.088"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_005",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Lister les années où la valeur absolue des \"frais de rémunération des employés basés sur des actions déterminés selon la méthode basée sur la juste valeur\" était supérieure à 25 000 $.",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_006",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "En 2004, quel pourcentage de la 'perte nette pro forma' absolue peut être attribué à l'ajustement des 'charges totales de rémunération des employés à base d'actions' ? Arrondir à deux décimales.",
+    "answer": [
+      [
+        "8.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8712e7938_007",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Si les \"charges de rémunération à base d'actions versées aux employés\" ajoutées en 2005 avaient été inférieures de 50 %, quelle aurait été la nouvelle \"perte nette pro forma\" pour cette année-là ?",
+    "answer": [
+      [
+        "$ -190276 ( 190276 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_008",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel poste de rajustement des dépenses ('ajouter' ou 'moins') a connu le changement le plus drastique d'une année sur l'autre en pourcentage, et entre quelles deux années s'est-il produit ?",
+    "answer": [
+      [
+        "Le poste 'ajouter : charges de rémunération à base d'actions pour les employés' a connu le changement le plus drastique. Il a augmenté de plus de 209 % passant de 2 297 $ en 2004 à 7 104 $ en 2005, ce qui représente une valeur aberrante significative par rapport aux autres changements d'une année sur l'autre dans le tableau."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8712e7938_009",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle est la relation entre la 'perte nette déclarée' et la 'perte nette pro-forma' sur les trois années ?",
+    "answer": [
+      [
+        "Il existe une relation directe et cohérente où la 'perte nette pro-forma' est toujours supérieure en magnitude à la 'perte nette déclarée' pour chaque année. Les deux métriques montrent la même tendance d'amélioration (diminution de la perte) de 2003 à 2005, suggérant que bien que les ajustements liés aux rémunérations à base d'actions augmentent la perte calculée, la tendance sous-jacente de la performance de l'entreprise est cohérente entre les deux mesures."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8712e7938_010",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "En se basant sur la structure du tableau, quelle opération arithmétique relie la 'perte nette déclarée', la ligne 'ajout' et la ligne 'moins' à la 'perte nette pro-forma' ? Vérifiez avec les données de 2003.",
+    "answer": [
+      [
+        "La formule est : ('perte nette déclarée') + ('ajout : charge de rémunération à base d'actions...' ) - ('charge totale de rémunération à base d'actions...'). En utilisant les données de 2003 : (-325321) + (2077) - (31156) = -354400, ce qui correspond à la 'perte nette pro-forma' pour cette année-là."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_011",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Comment la perte nette déclarée a-t-elle évolué entre 2003 et 2005 ?",
+    "answer": [
+      [
+        "La perte nette déclarée a diminué, passant de 325 321 $ en 2003 à 171 590 $ en 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

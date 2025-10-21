@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Kategori finansial endi sing ngalami kerugian paling gedhe minangka bagéan saka 'other comprehensive ( loss ) income before reclassifications'?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Piro total gabungan saka kabeh 'jumlah sing diowahi metu saka kerugian komprehensif liyane' kanggo kabeh kategori?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Piro saldo ngarep tanggal 3 November 2018 nggo komponen sing nilaine paling cilik sawise diitung nggo tanggal 2 November 2019?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasna tren sakabèhé rugi akumulasi liyos sing ditampa saka wiwitan nganti pungkasan wektu.",
+    "answer": [
+      [
+        "Rugi sakabèhé saya parah banget sajrone wektu, mundhak saka -$58.440 dadi -$187.799. Iki nuduhake kerugian bersih tambahan $129.359, luwih saka kaping telune rugi akumulasi wiwit wiwitan periode."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Kanggo kabeh kategori sing rugi resik ing 'pendapatan (rugi) liyane sing komprehensif', pira total saldo pungkasan sing nggabung ing tanggal 2 November 2019?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Piro persene saka total saldo negatif ing tanggal 2 November 2019 sing disebabake dening 'unrealized holding gains (losses) on derivatives'?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Nek 'other comprehensive (loss) income' kanggo 'pension plans' kuwi untung 24.344 tinimbang rugi, pira total saldo akhir sing anyar ing tanggal 2 November 2019?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Ono ora sesambungan sing ajeg antarane tandha (positif/negatif) 'other comprehensive (loss) income before reclassifications' lan tandha 'other comprehensive (loss) income' final kanggo saben kategori?",
+    "answer": [
+      [
+        "Iyo, sesambungan iku ajeg ing kabeh patang kategori. Kanggo 'foreign currency', 'derivatives', lan 'pension plans', nilaine negatif ing loro item kasebut. Kanggo 'available for sale securities', nilaine positif ing loro item kasebut. Mulane, tandha 'income before reclassifications' ajeg cocog karo tandha 'net comprehensive income' final kanggo periode kasebut."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Entri baris tartamtu endi, ora kalebu total, sing makili nilai paling ekstrem (yaiku, nilai absolut paling gedhe) ing tabel?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Nggunakake logika roll-forward ngendi Saldo Pungkasan = Saldo Wiwitan + 'liyane kang komprehensif ( rugi ) bathi', kenali kategori finansial sing nilai sing dilapurake ora konsisten sacara matematis.",
+    "answer": [
+      [
+        "Kategori 'unrealized holding gains (losses) on available for sale securities' ora konsisten. Saldo wiwitane -10 (sel C1) ditambah 'other comprehensive (loss) income' 10 (sel C5) ngasilake saldo pungkasan sing diitung 0, sing ora cocog karo saldo pungkasan sing dilapurake 2.014 (sel C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Pinten pensiun plan niku mudun saking 2018 ngantos 2019?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

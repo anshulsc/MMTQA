@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "투자 등급과 비투자 등급 잠재 지급액 간의 절대 금액 차이가 가장 큰 보증 유형은 무엇입니까(단위: 십억 달러)?",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "투자 등급'의 경우 값이 있지만 '등급 없음'의 경우 플레이스홀더('2014')가 있는 모든 보증 유형의 총 잠재 지급액은 얼마입니까?",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "전체 총 잠재 지급액이 가장 높은 보증 유형에 대해, 해당 총액의 가장 큰 비중을 차지하는 등급 범주('투자 등급', '비투자 등급', 또는 '미평가')는 무엇입니까?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "최대 잠재적 미래 지급액의 총합에서 '등급 미지정'으로 분류된 금액의 비율은 얼마입니까?",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "'증권 대여 면책' 항목의 '등급 미분류' 금액이 명시된 금액보다 10% 낮게 발견되었다면, 모든 보증에 대한 새로운 총계는 얼마가 됩니까?",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "투자 등급 및 비투자 등급 모두에서 0 또는 플레이스홀더('2014') 값을 갖는 보증 유형의 평균 '총' 잠재 지급액은 얼마입니까?",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "'투자 등급', '비투자 등급' 또는 '등급 없음' 중 어떤 지급 등급 열에 '2014'와 같은 비수치 자리 표시자 값이 가장 많이 포함되어 있습니까?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "제공된 데이터를 기반으로 'maximum potential amount of future payments total' 열에서 가장 두드러진 이상치를 식별하고 그 이유를 설명해 주십시오.",
+    "answer": [
+      [
+        "총 942억 달러의 'financial standby letters of credit' 범주가 가장 두드러진 높은 쪽 이상치입니다. 이 값은 다음으로 큰 범주('derivative instruments' 679억 달러)보다 약 38.4% 높으며, 모든 범주의 평균(381.1억 달러)의 2.4배 이상입니다. 반대로, 'guarantees of collection of contractual cash flows'와 'loans sold with recourse'는 각각 3억 달러에 불과한 중요한 낮은 쪽 이상치입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "'성과 보증' 및 '수탁 면책 및 기타'에 대한 잠재 지급액 분포를 세 가지 등급으로 분석해 보십시오. 이 비교는 이 두 가지 보증 유형의 위험 프로필에 대해 무엇을 시사합니까?",
+    "answer": [
+      [
+        "'성과 보증'의 경우, 투자 등급($5.7B), 비투자 등급($5.0B), 등급 미지정($5.6B) 전반에 걸쳐 금액이 비교적 고르게 분포되어 있어 다각화된 위험 프로필을 시사합니다. 반면, '수탁 면책 및 기타'는 투자 등급($18.5B)에 크게 집중되어 있으며, 비투자 등급 부분($3.1B)은 훨씬 적고 '등급 미지정' 금액은 없습니다. 이는 '수탁 면책'이 '성과 보증'에 비해 신용 위험이 훨씬 낮은 거래 상대방과 관련이 있음을 의미합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "'투자 등급'과 '비투자 등급' 잠재 지급액 간에 서로 다른 보증 유형에 걸쳐 일관되고 관찰 가능한 상관관계가 있습니까? 근거를 설명해 주십시오.",
+    "answer": [
+      [
+        "아니요, 일관되고 관찰 가능한 상관관계는 없습니다. 두 열 모두에 대해 수치 값이 있는 범주는 세 개뿐이므로 신뢰할 수 있는 패턴을 설정하기에는 데이터가 너무 희박합니다. '재무 보증 신용장'의 투자 등급 금액($49.2B)은 높고 비투자 등급 금액($28.6B)도 높습니다. '이행 보증'의 경우 두 항목의 값이 유사합니다($5.7B 및 $5.0B). 그러나 '수탁 수수료 및 기타'의 경우 투자 등급 금액($18.5B)은 높지만 비투자 등급 금액($3.1B)은 매우 낮아 다른 두 지점에서 시사하는 단순한 양의 상관관계와 모순됩니다. 수많은 자리 표시자 값으로 인해 더 철저한 분석이 불가능합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "가장 높은 투자 등급 잠재적 미래 지급액은 무엇입니까?",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

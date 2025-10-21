@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Quel ensemble de données financières, celui commençant dans la colonne B ou celui de la colonne E, a eu un revenu d'exploitation 'tel qu'ajusté' plus élevé pour l'exercice clos le 31 décembre 2016 ?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Quelle est la somme nette de tous les ajustements en dollars pour le « changement de principe comptable » pour le premier jeu de données (colonne C) ?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Quelle était la marge d'EBITDA ajusté 'as filed' pour l'ensemble de données où le 'changement de principe comptable' pour les revenus d'intérêts était de '-414 ( 414 )' ?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pour le premier ensemble de données (colonnes B-D), quel est le ratio du bénéfice net 'tel que déposé' sur l'EBITDA ajusté 'tel que déposé', arrondi à trois décimales ?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pour l'ensemble de données présenté dans les colonnes B à D, identifiez la métrique pour laquelle la valeur 'tel qu'ajusté' est inférieure à la valeur 'tel que déposé'.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Dans les lignes 'bénéfice net en pourcentage du chiffre d'affaires des services', quelle valeur de 'changement de principe comptable' semble anormale et pourquoi ?",
+    "answer": [
+      [
+        "La valeur de '2014% ( 2014 % )' pour le 'changement de principe comptable' dans les cellules C4 et F4 est anormale. Pour les deux ensembles de données, le 'bénéfice net en pourcentage du chiffre d'affaires des services' reste inchangé entre les chiffres 'tels que déclarés' et 'ajustés' (5 % à 5 % et 3 % à 3 %, respectivement). Un changement logique serait de 0 %, faisant de '2014 %' une valeur aberrante évidente, résultant probablement d'une erreur de saisie de données."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Si le 'changement de principe comptable' pour le résultat d'exploitation dans le deuxième jeu de données avait été une diminution de 50 millions de dollars au lieu de la valeur indiquée, quel aurait été le nouveau résultat d'exploitation 'tel qu'ajusté' ?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe-t-il une relation cohérente entre les ajustements comptables du résultat d'exploitation et de l'EBITDA ajusté pour les deux ensembles de données ?",
+    "answer": [
+      [
+        "Oui, il existe une relation positive cohérente. Dans le premier ensemble de données, la variation du résultat d'exploitation (+$248) est identique à la variation de l'EBITDA ajusté (+$248). Dans le second ensemble de données, la variation du résultat d'exploitation (+$414) est également identique à la variation de l'EBITDA ajusté (+$414). Cela suggère que le changement de principe comptable affectant le résultat d'exploitation se répercute directement sur l'EBITDA ajusté pour le même montant."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel est le problème structurel le plus important des en-têtes de colonnes qui pourrait prêter à confusion lors de l'interprétation du tableau ?",
+    "answer": [
+      [
+        "Le principal problème structurel est la duplication des en-têtes de colonnes sans regroupement de niveau supérieur. Les en-têtes 'year ended december 31 2016 as filed' et 'year ended december 31 2016 change in accounting principle' sont utilisés pour deux ensembles de colonnes distincts (B et E ; C et F). Cette ambiguïté oblige l'utilisateur à déduire que deux entités ou scénarios distincts sont comparés, plutôt que cela ne soit explicitement indiqué."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "En utilisant les valeurs \"as adjusted\", calculez le chiffre d'affaires de services implicite pour les deux ensembles de données (EBITDA ajusté / Marge d'EBITDA ajusté) et rapportez la différence en millions entre les deux (premier ensemble moins le second ensemble), arrondie au million entier le plus proche.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "De combien le résultat d'exploitation (en millions) a-t-il varié pour le premier ensemble de données après l'ajustement de « Tel que déposé » à « Tel qu'ajusté » ?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

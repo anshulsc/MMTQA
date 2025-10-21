@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "¿Cuál fue el total neto de todas las 'cantidades reclasificadas del ingreso acumulado otro integral' registradas en los tres períodos que se muestran en la tabla?",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "¿Cuál de las tres categorías financieras principales (instrumentos derivados, participación en joint venture, valores negociables) experimentó el mayor aumento absoluto en su saldo del 31 de diciembre de 2014 al 31 de diciembre de 2017?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "¿En el período con la mayor 'otra ganancia integral antes de reclasificaciones' total, cuál fue el monto correspondiente reclasificado de la 'participación de SL Green 2019 en la ganancia neta no realizada de instrumentos derivados de la empresa conjunta'?",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Describa la tendencia interanual del saldo total del 31 de diciembre de 2014 al 31 de diciembre de 2017. ¿Fue consistente el cambio?",
+    "answer": [
+      [
+        "La tendencia no fue consistente; fue volátil. El saldo total disminuyó de -6980 en 2014 a -8749 en 2015. Luego experimentó un aumento muy grande a 22137 en 2016, seguido de una disminución moderada a 18604 en 2017. El crecimiento no fue estable ni lineal."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "¿Enumera las categorías financieras que tuvieron un saldo negativo al inicio del período (31 de diciembre de 2014) y concluyeron con un saldo positivo al final del período (31 de diciembre de 2017)?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "¿Qué porcentaje del 'ingreso integral acumulado antes de reclasificaciones' total en el período de 2016 se atribuyó a la 'ganancia neta no realizada en instrumentos derivados (1)'?",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "¿Si la 'otra pérdida (ganancia) integral antes de reclasificaciones' para la 'ganancia neta no realizada en valores negociables' en el período de 2017 hubiera sido una ganancia de $1,000 en lugar de una pérdida de $1,348, cuál habría sido el nuevo saldo 'total' al 31 de diciembre de 2017?",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Según los datos proporcionados, ¿existe una correlación consistente (directa o inversa) entre la 'otra pérdida (ganancia) integral antes de reclasificaciones' y los 'montos reclasificados del otro ingreso integral acumulado' para los montos totales en cada período?",
+    "answer": [
+      [
+        "No, no existe una correlación consistente. En el período de 2015, una pérdida integral de -13,467 fue seguida por una reclasificación positiva de 11,698 (relación inversa). Sin embargo, tanto en los períodos de 2016 como en 2017, la ganancia/pérdida y la reclasificación tuvieron el mismo signo (positivo/positivo y negativo/negativo respectivamente), lo que indica una relación directa en esos años. La inconsistencia sugiere que el momento y la cantidad de las reclasificaciones no están determinados únicamente por el rendimiento no realizado del período anterior."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cómo se derivan matemáticamente los saldos de fin de año del saldo anterior y las actividades financieras provisionales que se muestran en la tabla?",
+    "answer": [
+      [
+        "El saldo de fin de cada año es la suma del saldo de cierre del año anterior, la 'otra pérdida (ganancia) integral antes de reclasificaciones' del período actual y las 'cantidades reclasificadas del otro resultado integral acumulado' del período actual. Por ejemplo, el saldo de 2016 (22.137) se calcula como el saldo de 2015 (-8.749) más la otra ganancia integral del período de 2016 (18.211) y las cantidades reclasificadas (12.675)."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "¿Qué evento financiero único (es decir, un elemento que no sea de saldo) en la columna 'total' representa el valor absoluto más grande, indicando el evento de ingreso o pérdida integral más significativo durante el período de tres años?",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "¿Cuál es la ganancia neta no realizada total en todas las categorías al final de 2015?",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

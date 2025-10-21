@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Aling paraan ng pag-forecast ang nakakuha ng pinakamababang error rate para sa mga senaryo ng BC2 (parehong BC2_64 at BC2_28)?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Ano ang average na error rate para sa paraan ng 'LASSO regression feature selection' sa lahat ng anim na sitwasyon ng BC?",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Tukuyin ang feature selection method na gumamit ng pinakamataas na bilang ng exogenous variables para sa alinmang isang scenario. Pagkatapos, para sa partikular na method na iyon, iulat ang error rate nito sa BC3_64 scenario.",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Para saang BC scenario pinakamalaki ang performance gap, na tinukoy bilang pagkakaiba sa pagitan ng pinakamataas at pinakamababang error rate sa lahat ng forecasting setting?",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Ilista ang lahat ng mga setting ng pagtataya para sa sitwasyong BC1_28 na gumamit ng higit sa 5 exogenous variables at nakakuha ng error rate na mas mababa sa 16.0.",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Sa sitwasyong BC2_28, ilang porsyento mas mababa ang error mula sa paraang 'Forward Feature Selection SARIMAX' kumpara sa error mula sa baseline na paraang 'Without exogenous variables'?",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Kung mababawasan ng 75% ang error para sa 'Correlation-Based Selection' sa ilalim ng BC1_28, ano ang magiging bagong average error para sa BC1_28 scenario sa lahat ng limang forecasting setting?",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "Mayroon bang pare-parehong relasyon sa pagitan ng paggamit ng mas mataas na bilang ng mga exogenous variable at pagkamit ng mas mababang error rate sa iba't ibang pamamaraan ng feature selection?",
+    "answer": [
+      [
+        "Hindi, walang pare-parehong relasyon. Halimbawa, sa sitwasyon ng BC1_64, ang 'Forward Feature Selection SARIMAX' ay gumagamit lamang ng 1 variable at nakakamit ang pinakamababang error (5.64), habang ang 'Manual feature selection' ay gumagamit ng 18 variables at may mas mataas na error (13.99). Sa kabilang banda, sa sitwasyon ng BC1_28, ang error para sa 'Forward Feature Selection SARIMAX' (5.94 na may 15 variables) ay mas mababa kaysa sa 'LASSO' (15.38 na may 10 variables), na nagmumungkahi na ang mas maraming variable ay maaaring mas mahusay sa ilang mga kaso. Ito ay nagpapakita na ang pagiging epektibo ng pamamaraan ng pagpili ay mas kritikal kaysa sa dami lamang ng mga variable."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Alin sa mga value ng error para sa pamamaraang 'Correlation-Based Selection' ang isang malaking outlier kumpara sa performance nito sa ibang mga sitwasyon?",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Ilan ang magkakaibang pamamaraan ng pagpili ng feature na gumagamit ng mga exogenous variable na pinaghahambing sa talahanayang ito?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Aling paraan ng pagtataya ang nakakuha ng pinakamababang error para sa BC2_28?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

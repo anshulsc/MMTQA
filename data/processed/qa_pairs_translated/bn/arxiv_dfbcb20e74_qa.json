@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "কোন মডেলের প্রধান সূত্রে স্পষ্টভাবে একটি ঝুঁকি-মুক্ত হারের উপাদান অন্তর্ভুক্ত আছে?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "'Z-score Model'-এর সূত্রে ইনপুট হিসেবে ব্যবহৃত স্বতন্ত্র 'X' ভেরিয়েবলের মোট সংখ্যা কত?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "সেই মডেলটি সনাক্ত করুন যা তার ব্যাখ্যা করা প্যারামিটারগুলির মধ্যে কমপক্ষে তিনটিতে 'মোট সম্পদ' (Total assets) কে ডিনোমিনেটর (denominator) হিসেবে ব্যবহার করে, এবং তারপর সেই মডেল থেকে কোন প্যারামিটারটি 'ইক্যুইটির বাজার মূল্য' (Market value of equity) কে 'মোট দায়'-এর (Total liabilities) অনুপাত হিসেবে উপস্থাপন করে তা বলুন।",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "কোন মডেলে 'সময় t'-এ পরিমাপ করা হয়েছে এমন প্যারামিটারগুলি অন্তর্ভুক্ত করা হয়েছে?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "যদি কোনো দ্বিপদী ফলাফলের (y=1) সম্ভাবনা নির্ণয় করা বিশ্লেষণাত্মক লক্ষ্য হয়, তাহলে সারণীতে তালিকাভুক্ত কোন মডেলটি সবচেয়ে উপযুক্ত পছন্দ?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-score মডেলে, 'Earnings before interest and tax/Total assets ratio' নির্দেশক চলকের সহগ (weight) কত এবং অন্যান্য চলকের তুলনায় এর তাৎপর্য কেমন?",
+    "answer": [
+      [
+        "X3 (Earnings before interest and tax/Total assets ratio)-এর সহগ হলো 3.3। এটি পাঁচটি চলকের মধ্যে সর্বোচ্চ, যা ইঙ্গিত দেয় যে X1 (1.2), X2 (1.4), X4 (0.6), এবং X5 (0.99)-এর মতো চলকগুলির তুলনায় এটি চূড়ান্ত Z-score-এর উপর সবচেয়ে বেশি প্রভাব ফেলে।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "যদি Z-score মডেলের একটি আপডেট করা সংস্করণ 'Working capital/Total assets ratio'-এর প্রভাব 50% কমিয়ে দেয়, তাহলে X1-এর নতুন সহগ কত হবে?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-score মডেলের সূত্র অনুসারে, একটি কোম্পানির মোট বিক্রয় থেকে মোট সম্পদ অনুপাত এবং এর ফলস্বরূপ Z-স্কোরের মধ্যে সম্পর্ক কী?",
+    "answer": [
+      [
+        "মোট বিক্রয়/মোট সম্পদ অনুপাত (X5) এবং Z-স্কোরের মধ্যে একটি ইতিবাচক সম্পর্ক রয়েছে। সূত্রটি দেখায় যে Z-স্কোর হল পাঁচটি অনুপাতের একটি ভারিত সমষ্টি, এবং X5 এর জন্য সহগটি ইতিবাচক (0.99)। অতএব, অন্যান্য সমস্ত কারণ স্থির রেখে, মোট বিক্রয় থেকে মোট সম্পদ অনুপাতের বৃদ্ধি একটি উচ্চতর Z-স্কোরের ফলাফল দেবে।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "কোন মডেলের বিবরণে তৃতীয় কলামে ব্যাখ্যা করা সবচেয়ে বেশি সংখ্যক স্বতন্ত্র প্যারামিটার অন্তর্ভুক্ত রয়েছে?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-score Model-এর সূত্রে সাংখ্যিক সহগগুলি পরীক্ষা করার সময়, অন্যগুলির তুলনায় কোন সহগটি একটি আউটলায়ার হিসাবে দাঁড়িয়েছে?",
+    "answer": [
+      [
+        "X3 ভেরিয়েবলের জন্য 3.3 সহগটি একটি উল্লেখযোগ্য আউটলায়ার। ফর্মুলার অন্যান্য সহগগুলি হল 1.2, 1.4, 0.6, এবং 0.99, যা সবই 0.6 থেকে 1.4 এর মধ্যে একটি পরিসরে গুচ্ছবদ্ধ। 3.3 মানটি পরবর্তী সর্বোচ্চ সহগ (1.4) এর দ্বিগুণেরও বেশি, যা এটিকে বাকিগুলির চেয়ে যথেষ্ট বড় করে তোলে।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "বাজার এবং আকার/বুক-টু-মার্কেট ফ্যাক্টর উভয় বিবেচনা করে অ্যাসেট রিটার্ন ভবিষ্যদ্বাণী করার জন্য কোন মডেলটি বেশি উপযুক্ত হবে এবং কেন?",
+    "answer": [
+      [
+        "ফ্যাক্টর মডেলটি বেশি উপযুক্ত হবে কারণ এটি স্পষ্টভাবে মার্কেট রিটার্ন (r_m - r_f), সাইজ ফ্যাক্টর (SMB), এবং বুক-টু-মার্কেট ফ্যাক্টর (HML) অন্তর্ভুক্ত করে, যা লজিস্টিক রিগ্রেশন বা Z-স্কোর মডেলের বিবেচনা না করা অ্যাসেট রিটার্নের একাধিক মাত্রাকে ধরতে সাহায্য করে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

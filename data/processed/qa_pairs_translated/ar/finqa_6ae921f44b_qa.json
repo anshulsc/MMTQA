@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "أي فئة مالية شهدت أكبر خسارة مطلقة كجزء من \"الدخل الشامل الآخر (الخسارة) قبل إعادة التصنيف\"؟",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "ما هو المبلغ الإجمالي المجمع لجميع \"المبالغ المعاد تصنيفها خارج الخسارة الشاملة الأخرى\" للفئات الفردية؟",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "ما هو الرصيد الافتتاحي في 3 نوفمبر 2018 للمكون الذي كان له أصغر قيمة مطلقة كرصيد ختامي في 2 نوفمبر 2019؟",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "صف الاتجاه العام للخسارة الشاملة الأخرى المتراكمة \"الإجمالي\" من بداية الفترة إلى نهايتها.",
+    "answer": [
+      [
+        "تدهورت الخسارة الإجمالية المتراكمة بشكل كبير خلال الفترة، حيث زادت من 58,440 دولارًا إلى 187,799 دولارًا. ويمثل هذا خسارة صافية إضافية قدرها 129,359 دولارًا، مما أدى إلى تضاعف الخسارة المتراكمة بأكثر من ثلاثة أضعاف من بداية الفترة."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "بالنسبة لجميع الفئات التي كان لديها صافي خسارة في 'إجمالي الدخل الشامل الآخر (خسارة)'، ما هو إجمالي مجموع رصيدها في 2 نوفمبر 2019؟",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية للرصيد السلبي الإجمالي في 2 نوفمبر 2019، التي تُعزى إلى 'الأرباح (الخسائر) غير المحققة من الحيازة على الأوراق المالية المتاحة للبيع'؟",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "إذا كان \"إجمالي الدخل الشامل الآخر (خسارة)\" لـ \"خطط المعاشات\" قد حقق ربحًا قدره 24,344 بدلاً من خسارة، فما هو الرصيد الإجمالي الجديد في 2 نوفمبر 2019؟",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "هل توجد علاقة متسقة بين الإشارة (موجبة/سالبة) لـ \"إجمالي الدخل الشامل الآخر قبل إعادة التصنيفات\" وإشارة \"إجمالي الدخل الشامل الآخر\" النهائي لكل فئة؟",
+    "answer": [
+      [
+        "نعم، العلاقة متسقة عبر الفئات الأربع. بالنسبة لـ \"العملات الأجنبية\" و\"المشتقات\" و\"خطط المعاشات التقاعدية\"، تكون القيم سالبة في كلا البندين. بالنسبة لـ \"الأوراق المالية المتاحة للبيع\"، تكون القيم موجبة في كلا البندين. لذلك، تتوافق إشارة الدخل قبل إعادة التصنيفات باستمرار مع إشارة الدخل الشامل الصافي النهائي للفترة."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "ما هو البند المحدد في الجدول، باستثناء الإجماليات، الذي يمثل القيمة الأكثر تطرفًا (أي أكبر قيمة مطلقة)؟",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "باستخدام منطق الترحيل حيث يكون الرصيد الختامي = رصيد البداية + \"الدخل الشامل الآخر (خسارة)\"، حدد الفئة المالية التي لا تتوافق فيها القيم المبلغ عنها رياضياً.",
+    "answer": [
+      [
+        "فئة \"مكاسب (خسائر) الاحتفاظ غير المحققة في الأوراق المالية المتاحة للبيع\" غير متسقة. رصيد بدايتها البالغ -10 (الخلية C1) بالإضافة إلى \"الدخل الشامل الآخر (خسارة)\" البالغ 10 (الخلية C5) ينتج عنه رصيد ختامي محسوب قدره 0، والذي لا يتطابق مع الرصيد الختامي المبلغ عنه البالغ 2014 (الخلية C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "كم انخفضت خطط المعاشات التقاعدية من عام 2018 إلى عام 2019؟",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

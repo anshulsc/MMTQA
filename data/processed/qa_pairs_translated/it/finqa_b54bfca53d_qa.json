@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Quale obbligazione contrattuale, escluso il totale, ha l'importo più elevato dovuto nel periodo '1-3 anni'?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Confermando se il totale generale per il periodo \"1-3 anni\" elencato nella riga \"totale pagamenti sugli obblighi contrattuali\" sia accurato, sommando i pagamenti per ogni singolo obbligo.",
+    "answer": [
+      [
+        "Sì, il totale generale è accurato. La somma degli obblighi individuali per il periodo \"1-3 anni\" è $188,3 + $316,4 + $37,1 + $3779,4, che equivale a $4321,2, corrispondendo al valore nella riga del totale."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Per l'obbligazione contrattuale con l'importo totale di pagamento più basso, quale percentuale del suo totale è dovuta nel periodo '1-3 anni'?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi il piano di pagamenti per 'debiti a lungo termine inclusi leasing finanziari' nei periodi specificati. È caricato in anticipo, caricato in ritardo o distribuito equamente?",
+    "answer": [
+      [
+        "Il piano di pagamenti per i debiti a lungo termine è fortemente posticipato. I pagamenti iniziano con cifre basse, pari a 34,5 milioni di dollari ('meno di 1 anno'), aumentano costantemente attraverso i periodi da 1 a 3 anni e da 3 a 5 anni, e culminano in un pagamento molto elevato di 2160,2 milioni di dollari nel periodo 'oltre 5 anni', che rappresenta oltre il 78% dell'obbligazione totale."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Elenca tutte le categorie di obbligazioni in cui il pagamento dovuto in 'meno di 1 anno' è inferiore al pagamento dovuto in '1-3 anni'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Quale percentuale del 'debito a lungo termine inclusi leasing di capitale' è prevista per essere pagata in più di 5 anni?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Se una nuova politica richiedesse il pagamento immediato di tutti gli 'obblighi di acquisto' dovuti entro '1-3 anni' (nel periodo 'meno di 1 anno'), quale sarebbe il nuovo totale per i pagamenti di 'meno di 1 anno' relativi agli obblighi contrattuali?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "La tabella contiene un problema di integrità dei dati in cui la somma dei pagamenti periodici per un tipo di obbligazione non corrisponde al totale dichiarato. Identifica questa obbligazione e calcola la discrepanza.",
+    "answer": [
+      [
+        "La riga 'purchase obligations ( c )' presenta un problema di integrità dei dati. La somma dei suoi pagamenti periodici ($2709,5 + $3779,4 + $98,0 + $2212 = $8798,9 milioni) non corrisponde al suo totale dichiarato di $6586,9 milioni. La discrepanza è di $2212 milioni."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Guardando al periodo di pagamento '3-5 anni', quale obbligazione contrattuale ha il valore più basso e potrebbe essere considerata un valore anomalo rispetto alle altre nella stessa colonna?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una relazione coerente tra la magnitudo di un obbligo totale e la sua struttura di pagamento (ad esempio, gli obblighi maggiori sono sempre più concentrati nella parte finale)? Giustifica la tua risposta con dati.",
+    "answer": [
+      [
+        "No, non esiste una relazione coerente. L'obbligo totale maggiore, 'obblighi di acquisto' (6586,9 milioni di dollari), è fortemente concentrato nella parte iniziale con la maggior parte dovuto entro 3 anni. Al contrario, il secondo maggiore, 'debito a lungo termine' (2750,1 milioni di dollari), è fortemente concentrato nella parte finale, con il pagamento maggiore dovuto in più di 5 anni. Ciò indica che la struttura di pagamento è specifica per il tipo di obbligo, non per il suo valore totale."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Quali sono i pagamenti totali in milioni di obblighi contrattuali dovuti per il periodo da 1 a 3 anni?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

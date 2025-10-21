@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_bdc69f2dff_001",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Kelas saham biasa naon anu gaduh paling seueur saham anu dikaluarkeun sareng beredar dina 30 Séptémber 2008?",
+    "answer": [
+      [
+        "class a common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_002",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Naon jumlah gabungan sadaya saham Kelas C umum dugi ka 30 Séptémber 2008?",
+    "answer": [
+      [
+        "266608750"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_003",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Pikeun kelas saham kalayan nilai mutlak pangluhurna tina pamiceunan dina Oktober 2008, sabaraha jumlah saham ahirna dina kolom 'sakumaha dikonversi saatos pamiceunan Oktober 2008'?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "F4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_004",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Dumasar kana 30 Séptémber 2008, sabaraha persén tina total saham anu luar biasa diwakilan ku saham biasa Kelas A? Pasihan jawaban dibulatan dugi ka dua tempat desimal.",
+    "answer": [
+      [
+        "46.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_005",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Sebutkeun sadaya kelas saham anu ngalaman pangurangan sahamna sorangan alatan kajadian 'konversi kana kelas c (seri i)'.",
+    "answer": [
+      [
+        "class c ( series iii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_006",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Nilai '2014' sering muncul, sigana salaku placeholder pikeun henteu aya kagiatan. Dua kelas saham mana anu gaduh nilai spesifik ieu muncul dina tilu kolom anu béda dina barisna masing-masing?",
+    "answer": [
+      [
+        "class c ( series ii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_007",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Upami cacah saham 'class a common stock' dina 'at september 30 2008' téh 500.000.000 tibatan nilai anu kacatet, sabaraha 'total shares issued and outstanding' dina tanggal éta?",
+    "answer": [
+      [
+        "1012122135"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_008",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Numutkeun kana data pikeun sababaraha séri saham Kelas C, naon hubunganana antara 'pajeg Oktober 2008' sareng 'konversi ka kelas c (sérian i)'? Naha éta kajadian anu patali langsung?",
+    "answer": [
+      [
+        "Henteu aya korelasi langsung anu konsisten anu nunjukkeun yén saham anu dipajeg sacara sistematis dikonversi kana Kelas C (Seri I). Contona, Kelas C (Seri II) ngagaduhan langkung ti 79 juta saham anu dipajeg tapi henteu aya kagiatan konvérsi anu dicatet. Sabalikna, Kelas C (Seri IV) ngagaduhan saham anu dikonversi kaluar tina éta tanpa pajeg anu signifikan. Kelas C (Seri III) mangrupikeun hiji-hijina anu nunjukkeun pajeg anu signifikan sareng konvérsi kaluar tina éta, tapi jumlahna henteu cocog. Ieu nunjukkeun yén pajeg sareng konvérsi seuseuhna mangrupikeun transaksi anu misah tibatan hiji kajadian, anu digabungkeun pikeun sabagéan ageung séri."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_009",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Kolom mana dina tabel nu maké format data husus angka négatip dituturkeun ku sarua positipna dina kurung, contona, '-X ( X )'?",
+    "answer": [
+      [
+        "october 2008 redemptions"
+      ],
+      [
+        "conversion to class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_010",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": " Dumasar kana judul kolom sareng baris 'total shares', jelaskeun runtuyan kajadian anu ngakibatkeun jumlah saham awal dina 30 Séptémber 2008 dugi ka jumlah akhir.",
+    "answer": [
+      [
+        "Data ieu ngagambarkeun pangurangan sababaraha léngkah dina total saham. Prosésna dimimitian ku 959.868.396 saham dina 30 Séptémber 2008. Acara munggaran nyaéta 'October 2008 redemptions', dimana langkung ti 115 juta saham ditarik total. Ieu dituturkeun ku 'conversion to class c ( series i )'. Hasil tina konversi ieu katémbong dina kolom 'following immediate conversion...', anu nunjukkeun total 844.855.954 saham. Kolom pamungkas, 'as converted post october 2008 redemptions', nyadiakeun inohong ahir 774.710.051 saham, ngagambarkeun hasil tina sadaya transaksi saméméhna."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_011",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Taun sabaraha saham umum Kelas A sareng saham umum Kelas B dikonversi janten Kelas C (Seri I)?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "question_id": "finqa_bc4731cd2f_001",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2008年、2009年和2010年这三年合计的总运营费用是多少（以百万美元为单位）？",
+    "answer": [
+      [
+        "32101"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_002",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "哪个财务指标在2008年至2009年间的百分点增幅最大？",
+    "answer": [
+      [
+        "net credit losses"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_003",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "在“总收入（扣除利息费用）”最高的年份，“净（亏损）”是多少？",
+    "answer": [
+      [
+        "$ -8369 ( 8369 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_004",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述一下“非利息收入”从2008年到2010年的趋势。",
+    "answer": [
+      [
+        "“非利息收入”在这三年间呈现持续且急剧的下降趋势。2008年为63.62亿美元，2009年下降25%至47.70亿美元，随后在2010年进一步大幅下降58%，达到19.95亿美元。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_005",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "列出2010年与2009年相比，损失或费用绝对值下降的所有财务类别。",
+    "answer": [
+      [
+        "total operating expenses"
+      ],
+      [
+        "net credit losses"
+      ],
+      [
+        "provision for benefits and claims"
+      ],
+      [
+        "provisions for credit losses and for benefits and claims"
+      ],
+      [
+        "( loss ) from continuing operations before taxes"
+      ],
+      [
+        "( loss ) from continuing operations"
+      ],
+      [
+        "net ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_006",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2010年，“总运营费用”占“利息费用净额总收入”的比例是多少？请将答案以百分比形式表示，保留两位小数。",
+    "answer": [
+      [
+        "50.95%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_007",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "如果2010年的“信贷准备金计提（冲销）”金额为计提1000百万美元，而不是冲销1771百万美元，那么当年的“信贷损失准备金及惠益与赔款准备金”将是多少？",
+    "answer": [
+      [
+        "$ 18815 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_008",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "“平均资产”的同比变化与“净利息收入”的同比变化之间是否存在一致的关系？",
+    "answer": [
+      [
+        "否，不存在一致的关系。从2008年到2009年，平均资产下降了16%，净利息收入也下降了24%。这表明可能存在正相关。然而，从2009年到2010年，平均资产再次下降了8%，但净利息收入却增长了6%，打破了之前的模式。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_009",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "哪个行项目在2010年至2009年的期间变化中有一个非数字、非百分比的“nm”变化值，为什么可能出现这种情况？",
+    "answer": [
+      [
+        "“信贷准备金增加（冲销）”在2010年至2009年的变化值为“nm”（无意义）。这可能是因为该值从2009年的正数（5799百万美元的增加）变为2010年的负数（-1771百万美元的冲销），而跨越符号变化（正到负）的百分比变化在数学上是未定义的，或者在财务报告中被认为无意义。"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_010",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "哪个财务指标在两个同比变化时期之间显示出最剧烈的负向转变（即，它在2008-2009年间有正向或小的负向变化，但在2009-2010年间有大的负向变化）？",
+    "answer": [
+      [
+        "non-interest revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_011",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "2009年到2008年总运营费用变化百分比是多少？",
+    "answer": [
+      [
+        "31%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

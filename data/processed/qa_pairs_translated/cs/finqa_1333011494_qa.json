@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Která nemovitost má nejvyšší hodnotu 'budovy'?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Jaká je celková \"alokace kupní ceny\" pro všechny nemovitosti uvedené v tabulce?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Jaká je hodnota 'čistého zvážení financovaného námi při uzavření' pro nemovitost, která má nejnižší hodnotu 'získaných pronájmů ve stávajícím stavu'?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Pro nemovitost '1515 broadway', jaké procento z její hodnoty 'nabytých aktiv' pochází ze součtu hodnot jejích 'pozemků' a 'budov'?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Identifikujte všechny nemovitosti, kde 'převzatý dluh' je více než trojnásobek 'držené investice do vlastního kapitálu a/nebo dluhu'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Pokud by účetní úprava přehodnotila hodnotu 'budovy' pro '110 east 42nd street' o 10 % nižší, jaká by byla nová hodnota 'získaných aktiv' pro danou nemovitost?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Hodnota „úpravy reálné hodnoty hypotéky“ pro „1515 broadway“ je záporná, zatímco u většiny ostatních nemovitostí je kladná a jednotná. Co tento významný odlehlý údaj naznačuje o financování této konkrétní nemovitosti?",
+    "answer": [
+      [
+        "Záporná hodnota „-3693“ pro „1515 broadway“ v kategorii „úprava reálné hodnoty hypotéky“ je zřetelným odlehlým údajem ve srovnání s jednotnou kladnou hodnotou „2014“ pro ostatní nemovitosti. To naznačuje, že hypotéka spojená s akvizicí 1515 Broadway měla podmínky, které byly výhodnější než tehdejší převládající tržní sazby, čímž vzniklo aktivum (záporná úprava závazku). Naproti tomu ostatní nemovitosti mohly mít hypotéky na úrovni tržních sazeb nebo blízko nich, což vyžadovalo standardní, nominální úpravu."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje na základě dat přímá pozitivní korelace mezi alokací kupní ceny nemovitosti a čistou úvahou financovanou námi při uzavření?",
+    "answer": [
+      [
+        "Ne, přímá pozitivní korelace neexistuje. Například '180 maiden lane' má druhou nejvyšší kupní cenu (442 325 $), ale jeho čistá úvaha (81 835 $) je téměř identická s kupní cenou '51 east 42nd street', která má mnohem nižší kupní cenu (80 000 $). Navíc '1515 broadway' má zdaleka nejvyšší kupní cenu (1 234 000 $), ale ne nejvyšší čistou úvahu. To naznačuje, že čistou úvahu požadovanou při uzavření významně ovlivňují jiné faktory, jako je 'převzatý dluh' (který je pro '1515 broadway' velmi vysoký)."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Vypočítejte celkovou hodnotu 'převzatých závazků' pro nemovitosti, které mají 'nájemní hodnotu nad trhem' menší než 6 000 $.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Hodnota '2014' se opakovaně objevuje ve čtyřech různých finančních kategoriích, často pro stejné nemovitosti. Co naznačuje opakované použití tohoto specifického, nezaokrouhleného čísla v různých kontextech o jeho povaze?",
+    "answer": [
+      [
+        "Hodnota '2014' se objevuje v kategoriích 'ostatní aktiva po odečtení ostatních závazků', 'úprava reálné hodnoty hypotečního dluhu splatného', 'držený kapitálový a/nebo dluhový podíl' a 'převzatý dluh'. Její opakované použití jako relativně malé, stejné hodnoty napříč různými kategoriemi a nemovitostmi naznačuje, že nejde o měřenou tržní hodnotu, ale spíše o nominální zástupnou hodnotu, standardní minimální hodnotu použitou pro účetní účely, nebo možná odkaz na konkrétní událost či rok regulace (např. transakce z roku 2014). Znamená standardizovaný záznam spíše než jedinečné ocenění pro každý případ."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Kolik stojí pozemek na adrese 1515 Broadway?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

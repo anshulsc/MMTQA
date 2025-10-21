@@ -1,0 +1,247 @@
+[
+  {
+    "question_id": "finqa_12f30e27b8_001",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "value",
+    "question": "Quelle catégorie de prêt a connu la plus forte diminution absolue en valeur totale entre le 31 décembre 2008 et le 31 décembre 2009 ?",
+    "answer": [
+      [
+        "credit card lines"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_12f30e27b8_002",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "value",
+    "question": "Quel pourcentage des engagements totaux de crédit en 2009 était situé en dehors des États-Unis ?",
+    "answer": [
+      [
+        "21.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_12f30e27b8_003",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "value",
+    "question": "Identifiez la catégorie de prêt qui a montré une augmentation de valeur entre 2008 et 2009, ce qui constitue une valeur aberrante par rapport à la tendance générale.",
+    "answer": [
+      [
+        "one- to four-family residential mortgages"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_12f30e27b8_004",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "value",
+    "question": "Pour la catégorie de prêts ayant la proportion la plus élevée de sa valeur de 2009 en dehors des États-Unis, quelle était sa valeur totale en 2008 ?",
+    "answer": [
+      [
+        "$ 8215"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_12f30e27b8_005",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "value",
+    "question": "Calculez la valeur totale pour toutes les catégories de prêts combinées en 2009, en considérant uniquement les engagements aux États-Unis.",
+    "answer": [
+      [
+        "$ 841343"
+      ]
+    ],
+    "evidence_cells": [
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_12f30e27b8_006",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "value",
+    "question": "Listez toutes les catégories de prêts pour lesquelles la valeur aux États-Unis en 2009 était supérieure à 150 000 millions de dollars et la valeur totale en 2009 était inférieure à 800 000 millions de dollars.",
+    "answer": [
+      [
+        "commercial and other consumer loan commitments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_12f30e27b8_007",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "value",
+    "question": "Si les 'lignes de cartes de crédit' avaient diminué de seulement 10% par rapport à leur valeur de 2008, quel aurait été le nouveau total pour tous les engagements en 2009 ?",
+    "answer": [
+      [
+        "1182393.3"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "E5",
+      "D7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_12f30e27b8_008",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez l'évolution des engagements totaux entre 2008 et 2009 et expliquez ce que cette tendance signifie probablement concernant l'environnement économique de cette période.",
+    "answer": [
+      [
+        "Les engagements totaux ont diminué de manière significative, passant de 1 349 500 millions de dollars en 2008 à 1 076 738 millions de dollars en 2009, soit une baisse de plus de 20 %. Cette contraction substantielle de l'exposition au crédit indique fortement une période de ralentissement économique ou de crise financière, où les institutions financières réduisaient activement leur risque et resserraient les critères de prêt en réponse à l'instabilité du marché."
+      ]
+    ],
+    "evidence_cells": [
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_12f30e27b8_009",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "value",
+    "question": "Parmi les catégories qui ont connu une baisse, laquelle a enregistré la plus forte diminution en pourcentage par rapport à sa valeur de 2008 ?",
+    "answer": [
+      [
+        "commercial real estate construction and land development"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_12f30e27b8_010",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe-t-il une relation observable entre la taille d'une catégorie de prêt et son exposition aux États-Unis, et la variation de sa valeur entre 2008 et 2009 ? Expliquez votre raisonnement.",
+    "answer": [
+      [
+        "Oui, il semble y avoir une corrélation positive. Les deux catégories avec la plus grande exposition aux États-Unis, « lignes de cartes de crédit » et « engagements de prêts commerciaux et autres prêts à la consommation », ont également connu les plus fortes baisses absolues de valeur totale entre 2008 et 2009. Cela suggère que les plus grandes catégories de crédit nationales ont été la principale priorité pour la réduction des risques par l'institution au cours de cette période."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "E1",
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B4",
+      "D4",
+      "E4",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_12f30e27b8_011",
+    "table_id": "finqa_12f30e27b8",
+    "question_type": "value",
+    "question": "Quel est le ratio des lignes de cartes de crédit aux États-Unis par rapport à celles hors des États-Unis ?",
+    "answer": [
+      [
+        "Approximately 4.78 : 1"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

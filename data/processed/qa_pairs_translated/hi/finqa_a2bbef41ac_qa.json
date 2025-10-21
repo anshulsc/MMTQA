@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "31 दिसंबर 2007 को, 'निवेश' और 'अन्य संपत्तियों' का कुल मूल्य क्या था?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'निवेश' या 'अन्य परिसंपत्तियां' में से किस परिसंपत्ति श्रेणी में 'वास्तविक और अवास्तविक लाभ / (हानि) शुद्ध' से अधिक पूर्ण शुद्ध हानि हुई?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "'निवेश' (investments) का 31 दिसंबर, 2008 को अंतिम शेष, इसके प्रारंभिक शेष और सूचीबद्ध बाद के लेन-देन के अनुरूप है या नहीं, इसकी पुष्टि करें। अपनी गणना दिखाएं।",
+    "answer": [
+      [
+        "हाँ, शेष अनुरूप है। गणना इस प्रकार है: $1240 (प्रारंभिक शेष) - $409 (लाभ/हानि) + $11 (खरीद/बिक्री) - $29 (शुद्ध हस्तांतरण) = $813, जो रिपोर्ट किए गए अंतिम शेष से मेल खाता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "31 दिसंबर, 2007 से 31 दिसंबर, 2008 तक, पूरी अवधि के लिए संपत्ति के मूल्य में कुल शुद्ध परिवर्तन क्या था?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'नेट ट्रांसफर इन एंड/या आउट ऑफ़ लेवल 3' के कारण किस संपत्ति श्रेणियों में संपत्ति के मूल्य में सकारात्मक योगदान हुआ?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'कमाई में शामिल अवधि के लिए कुल शुद्ध (हानि)' का कितना अनुपात 'निवेश' से आया?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "यदि 'अन्य संपत्तियों' के लिए 'वास्तविक और अवास्तविक लाभ / (हानि) शुद्ध' -16 डॉलर के बजाय शून्य होता, तो 31 दिसंबर, 2008 को 'अन्य संपत्तियों' का नया क्लोजिंग बैलेंस क्या होता?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "निवेश' (investments) के डेटा के आधार पर, 'वास्तविक और अवास्तविक लाभ / (हानि) नेट' (realized and unrealized gains / ( losses ) net) और 'कमाई में शामिल कुल शुद्ध (हानि)... रिपोर्टिंग तिथि पर अभी भी रखे गए परिसंपत्तियों से संबंधित' (total net ( losses ) ... relating to assets still held at the reporting date) के बीच क्या संबंध है?",
+    "answer": [
+      [
+        "एक मजबूत, सीधा संबंध है। 'रिपोर्टिंग तिथि पर अभी भी रखे गए परिसंपत्तियों से संबंधित कुल शुद्ध (हानि)' ($-366) कुल 'वास्तविक और अवास्तविक लाभ / (हानि) नेट' ($-409) का 89.5% है। यह दर्शाता है कि निवेश के लिए अवधि की शुद्ध हानियों का अधिकांश हिस्सा अवास्तविक था और उन परिसंपत्तियों से संबंधित था जिन्हें रिपोर्टिंग अवधि के अंत तक बेचा नहीं गया था।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "ऋणात्मक मानों, जैसे '-409 ( 409 )' के लिए उपयोग किए जाने वाले डेटा प्रारूप द्वारा कौन सी लेखांकन परंपरा का सुझाव दिया गया है?",
+    "answer": [
+      [
+        "एक ऋणात्मक संख्या को कोष्ठकों में उसके निरपेक्ष मान के साथ दिखाना, नुकसान, खर्च या प्रति-परिसंपत्ति मूल्यों जैसे ऋणात्मक वित्तीय आंकड़ों को स्पष्ट और जोरदार ढंग से दर्शाने के लिए एक सामान्य लेखांकन परंपरा है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "अवधि के दौरान संयुक्त संपत्ति मूल्यों पर सबसे बड़ा एकल नकारात्मक प्रभाव किस लाइन आइटम द्वारा दर्शाया गया है?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "2007 से 2008 तक निवेश में कितनी कमी आई?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

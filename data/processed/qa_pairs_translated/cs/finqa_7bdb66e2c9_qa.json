@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Který typ záruky vykazuje největší absolutní rozdíl v miliardách dolarů mezi svými potenciálními platbami \"investičního stupně\" a \"neinvestičního stupně\"?",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Jaká je celková potenciální částka platby pro všechny typy záruk, které mají hodnotu pro 'investiční stupeň', ale zástupný symbol ('2014') pro 'není hodnoceno'?",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Pro typ záruky s nejvyšším celkovým potenciálním plněním, která kategorie hodnocení ('investiční stupeň', 'neinvestiční stupeň' nebo 'nehodnoceno') tvoří největší část tohoto celku?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Jaké procento z celkového součtu maximálních potenciálních budoucích plateb je klasifikováno jako 'nehodnocené'?",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Pokud by se zjistilo, že částka 'není hodnocena' pro 'cenné papíry půjčování indemnifikací' je o 10 % nižší, než je uvedeno, jaký by byl nový celkový součet pro všechny záruky?",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Jaká je průměrná 'celková' částka potenciálních plateb pro typy záruk, které mají nulové nebo zástupné ('2014') hodnoty pro hodnocení 'investiční stupeň' i 'neinvestiční stupeň'?",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Který sloupec hodnocení plateb ('investiční stupeň', 'neinvestiční stupeň' nebo 'nehodnoceno') obsahuje nejvíce nek číselných zástupných hodnot ('2014')?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě poskytnutých dat identifikujte nejvýraznější odlehlou hodnotu ve sloupci „maximální potenciální výše budoucích plateb celkem“ a vysvětlete, proč vyniká.",
+    "answer": [
+      [
+        "Kategorie „finanční standby akreditivy“ s celkovou částkou 94,2 miliardy USD představuje nejvýznamnější pozitivní odlehlou hodnotu. Tato hodnota je přibližně o 38,4 % vyšší než další největší kategorie („derivátové nástroje“ ve výši 67,9 miliardy USD) a je více než 2,4krát vyšší než průměr všech kategorií (38,11 miliardy USD). Naopak „záruky za inkaso smluvních peněžních toků“ a „prodané úvěry s postihovým právem“ jsou významné negativní odlehlé hodnoty s pouhými 0,3 miliardy USD u každé z nich."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyzujte rozložení potenciálních plateb napříč třemi ratingovými stupni pro 'výkonnostní záruky' a 'úschovní plnění a ostatní'. Co toto srovnání naznačuje o rizikových profilech těchto dvou typů záruk?",
+    "answer": [
+      [
+        "U 'výkonnostních záruk' jsou částky relativně rovnoměrně rozloženy mezi investiční stupeň (5,7 mld. USD), neinvestiční stupeň (5,0 mld. USD) a neratované (5,6 mld. USD), což naznačuje diverzifikovaný rizikový profil. Naproti tomu 'úschovní plnění a ostatní' je silně zaměřeno na investiční stupeň (18,5 mld. USD), s mnohem menší částkou v neinvestičním stupni (3,1 mld. USD) a bez částky pro neratované. To naznačuje, že 'úschovní plnění' jsou spojena s protistranami s výrazně nižším kreditním rizikem ve srovnání s 'výkonnostními zárukami'."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje konzistentní, pozorovatelná korelace mezi částkami pro potenciální platby 'investičního stupně' a 'neinvestičního stupně' napříč různými typy záruk? Vysvětlete své zdůvodnění.",
+    "answer": [
+      [
+        "Ne, konzistentní, pozorovatelná korelace neexistuje. Jelikož pouze tři kategorie mají číselné hodnoty pro oba sloupce, data jsou příliš řídká na to, aby bylo možné spolehlivě stanovit vzorec. 'Finanční standby akreditivy' mají vysokou částku investičního stupně (49,2 miliardy USD) spárovanou s vysokou částkou neinvestičního stupně (28,6 miliardy USD). 'Výkonnostní záruky' mají podobné hodnoty pro obě (5,7 miliardy USD a 5,0 miliardy USD). Nicméně 'custody indemnifications and other' mají vysokou částku investičního stupně (18,5 miliardy USD), ale velmi nízkou částku neinvestičního stupně (3,1 miliardy USD), což odporuje jakékoli jednoduché pozitivní korelaci naznačené ostatními dvěma body. Četné zástupné hodnoty znemožňují důkladnější analýzu."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Co má maximální potenciální částku budoucích plateb s investičním stupněm?",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

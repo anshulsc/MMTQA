@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "wikisql_2c47965ad4_001",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Шоу какой страны транслировалось на протяжении наибольшего количества сезонов, и сколько именно сезонов было выпущено?",
+    "answer": [
+      [
+        "South Korea",
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2",
+      "A3",
+      "G3",
+      "A4",
+      "G4",
+      "A5",
+      "G5",
+      "A6",
+      "G6",
+      "A7",
+      "G7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_002",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Чему равно общее количество сезонов для всех шоу, премьера которых состоялась до 2008 года?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2",
+      "E5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_003",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Укажите ведущего того шоу, премьера которого состоялась в том же году, что и малайзийской версии, и которое транслировалось на канале «Slice Global».",
+    "answer": [
+      [
+        "Iman"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "E2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_004",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Расположив шоу в хронологическом порядке по дате их первой премьеры, премьера какого из них создала самый длительный временной интервал до премьеры следующего шоу?",
+    "answer": [
+      [
+        "פרויקט מסלול Proyekt Maslul"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_005",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Укажите названия всех шоу, в составе постоянных судей которых присутствует наставник, и которые транслировались более одного сезона.",
+    "answer": [
+      [
+        "المصمم العربي El Musamim El Arabi"
+      ],
+      [
+        "Project Runway Canada"
+      ],
+      [
+        "프로젝트 런웨이 코리아 Project Runway Korea"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1",
+      "G1",
+      "B2",
+      "F2",
+      "G2",
+      "B4",
+      "F4",
+      "G4",
+      "B7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_006",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Какой процент из перечисленных шоу длился всего один сезон?",
+    "answer": [
+      [
+        "57.14%"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_007",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Если бы количество сезонов для каждого шоу, премьера которого состоялась в 2009 году, удвоилось, каково было бы новое общее количество сезонов исключительно для данных шоу?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "G3",
+      "E4",
+      "G4",
+      "E7",
+      "G7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_008",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "open_ended_reasoning",
+    "question": "На основе представленных данных, прослеживается ли очевидная корреляция между ранней датой премьеры шоу и общим количеством его сезонов? Обоснуйте Ваш ответ.",
+    "answer": [
+      [
+        "Четкой корреляции между датой премьеры и количеством сезонов не наблюдается. Например, самое раннее шоу, вышедшее в 2006 году, длилось 2 сезона, в то время как шоу с наибольшим количеством сезонов (4) было впервые показано позже, в 2009 году. Кроме того, самое недавнее шоу 2014 года имеет всего 1 сезон. Долговечность, по-видимому, не зависит от года премьеры, поскольку шоу 2009 года (Южная Корея) имеет вдвое больше сезонов, чем шоу 2006 и 2007 годов."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2",
+      "E3",
+      "G3",
+      "E4",
+      "G4",
+      "E5",
+      "G5",
+      "E6",
+      "G6",
+      "E7",
+      "G7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_009",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "В данных какого столбца явно проводится различие между как минимум двумя различными ролями экранного персонала (например, судья и наставник) в пределах одной ячейки?",
+    "answer": [
+      [
+        "Regular Judge"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F4",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_010",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Какое шоу представляет собой значительное положительное отклонение по количеству сезонов по сравнению с медианным количеством сезонов для всех шоу в данном списке?",
+    "answer": [
+      [
+        "프로젝트 런웨이 코리아 Project Runway Korea"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_2c47965ad4_011",
+    "table_id": "wikisql_2c47965ad4",
+    "question_type": "value",
+    "question": "Сколько сезонов было выпущено для издания «Project Runway Malaysia»?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

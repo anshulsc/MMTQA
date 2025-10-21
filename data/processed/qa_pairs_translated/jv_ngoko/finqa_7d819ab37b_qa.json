@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "finqa_7d819ab37b_001",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Kategori pengeluaran endi, ora kalebu total, sing ngalami persentase penurunan paling gedhe saka taun sing rampung Desember 2010 nganti taun sing rampung Desember 2012?",
+    "answer": [
+      [
+        "occupancy"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9",
+      "A10",
+      "B10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_002",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Pira rata-rata 'total operating expenses' ing telung taun sing kasedhiya ing tabel, ing yuta dolar?",
+    "answer": [
+      [
+        "$ 23955.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_003",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Kanggo taun kanthi jumlah pegawe paling akeh ing pungkasan periode, pinten biaya kompensasi lan tunjangan saben karyawan, ing yuta dolar?",
+    "answer": [
+      [
+        "$ 0.4307 million"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_004",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasake tren 'total non-compensation expenses' saka taun 2010 nganti 2012 lan perkiraan alesan kanggo tren iki adhedhasar data liyane ing tabel.",
+    "answer": [
+      [
+        "The 'total non-compensation expenses' show a slight but consistent declining trend, from $10,428 million in 2010 to $10,419 million in 2011, and then to $10,012 million in 2012. This trend correlates with the steady decrease in 'total staff at period-end' over the same period, suggesting that a reduction in workforce may have led to lower related non-compensation costs, such as 'occupancy' expenses, which also decreased significantly."
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "C11",
+      "D11",
+      "B13",
+      "C13",
+      "D13",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_005",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Sebutna kabeh kategori pengeluaran (ora kalebu total) sing pengeluaran ing taun 2012 luwih gedhe tinimbang ing taun 2011.",
+    "answer": [
+      [
+        "compensation and benefits"
+      ],
+      [
+        "insurance reserves1"
+      ],
+      [
+        "other expenses"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_006",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Pira persentase 'total operating expenses' ing taun 2010 sing disebabake dening 'compensation and benefits'?",
+    "answer": [
+      [
+        "58.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_007",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Nek 'other expenses' ing taun 2012 mudhun 20%, pira 'total operating expenses' taun kuwi, kabeh angka liyane tetep?",
+    "answer": [
+      [
+        "$ 22469"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_008",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "open_ended_reasoning",
+    "question": "Ana gegayutan sing ketara antara 'total karyawan ing pungkasan periode' lan biaya 'penempati' saka taun 2010 nganti 2012? Jelasna alesanmu.",
+    "answer": [
+      [
+        "Ya, ana gegayutan positif sing kuwat. Sakwise 'total karyawan ing pungkasan periode' mudhun terus-terusan saka 35.700 ing taun 2010 nganti 32.400 ing taun 2012, biaya 'penempati' uga mudhun konsisten lan signifikan saka $1.086 yuta dadi $875 yuta ing wektu sing padha. Iki nuduhake yen buruh sing luwih sithik mbutuhake luwih sithik papan kantor utawa nyebabake konsolidasi fasilitas, saengga nyuda biaya penempati."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_009",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Baris endi ing tabel sing isine nilai angka kanggo taun 2011 lan 2012 sing ora konsisten karo format moneter ('$ X') sing digunakake kanggo umume item biaya liyane?",
+    "answer": [
+      [
+        "u.k . bank payrolltax"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_010",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Sebutna kategori pengeluaran sing paling dhuwur dhewe ing taun 2010, sing nilaine luwih dhuwur banget tinimbang rong taun sabanjure.",
+    "answer": [
+      [
+        "compensation and benefits"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_011",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Ing taun pira cadangan asuransi paling dhuwur?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

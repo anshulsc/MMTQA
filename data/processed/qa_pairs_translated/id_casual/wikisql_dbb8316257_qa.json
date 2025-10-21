@@ -1,0 +1,252 @@
+[
+  {
+    "question_id": "wikisql_dbb8316257_001",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Dari atlet yang menang di pertandingan pertama mereka, siapa yang kemudian kalah di pertandingan berikutnya dengan selisih poin terbesar?",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_002",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Berapa total poin yang dicetak melawan semua atlet digabungin di pertandingan 'Babak 32' mereka?",
+    "answer": [
+      [
+        "81"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_003",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Atlet mana yang bertanding di 'Babak 32 Besar' dengan total poin tertinggi yang dicetak (jumlah kedua skor), dan berapa totalnya?",
+    "answer": [
+      [
+        "Driss Moussaid",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_004",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Sebutin dong atlet yang kalah di 'Babak 32' dengan selisih 10 poin atau lebih.",
+    "answer": [
+      [
+        "Abdelillah Nhaila"
+      ],
+      [
+        "Tahar Tamsamani"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A7",
+      "C7",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_005",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Di antara atlet yang tereliminasi di 'Babak 16 Besar', siapa yang memenangkan pertandingan 'Babak 32 Besar' dengan selisih poin lebih besar?",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_006",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Berapa persen atlet yang bertanding di 'Babak 32' yang lanjut ke 'Babak 16'?",
+    "answer": [
+      [
+        "25%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_007",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "Telusuri perkembangan kompetitif atlet yang melaju paling jauh di turnamen, jelaskan hasil mereka di setiap ronde.",
+    "answer": [
+      [
+        "Mohamed Arjaoui melaju paling jauh, mencapai Perempat Final. Dia mendapat bye di 'Babak 32' (hasil N/A), lalu memenangkan pertandingan 'Babak 16' melawan Pitt dengan skor 11-6. Dia akhirnya tereliminasi di 'Perempat Final' setelah hasil imbang 10-10 dengan Wilder, kalah berdasarkan keputusan juri."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_008",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Kalau Mohamed Arjaoui menang di babak Perempatfinal bukannya kalah, ada berapa atlet dari daftar ini yang bakal tanding di Semifinal?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E9",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_009",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah data ini nunjukkin ada hubungan antara kelas berat atlet sama keberhasilannya di turnamen? Coba jelasin kenapa.",
+    "answer": [
+      [
+        "Iya, datanya nunjukkin ada korelasi positif antara kelas berat sama kesuksesan. Atlet di kelas paling berat, Mohamed Arjaoui (Heavyweight), maju paling jauh sampai Quarterfinals. Sebaliknya, semua atlet di lima kelas berat paling ringan tereliminasi di pertandingan pertama mereka. Dua atlet dari kelas berat menengah maju satu ronde sebelum tereliminasi. Pola ini nunjukkin kalau atlet yang lebih berat di dataset ini cenderung tampil lebih baik."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_010",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "Kelas berat mana yang tercatat tidak punya hasil kompetitif (Menang/Kalah) di 'Babak 32'?",
+    "answer": [
+      [
+        "Heavyweight"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

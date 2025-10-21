@@ -1,0 +1,207 @@
+[
+  {
+    "question_id": "finqa_2ec89c0e86_001",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "¿Qué año tuvo el mayor flujo neto de efectivo absoluto de las actividades de financiación?",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B0",
+      "C0",
+      "D0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_002",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "¿Cuál fue el flujo neto total de efectivo utilizado en actividades de inversión durante los tres años (2011-2013)?",
+    "answer": [
+      [
+        "-42434"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_003",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "¿En el año con el mayor flujo neto de efectivo de actividades operativas, cuál fue el aumento o disminución neta correspondiente en efectivo y equivalentes de efectivo?",
+    "answer": [
+      [
+        "$ -433 ( 433 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_004",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "Describa el cambio interanual y la tendencia general en el 'efectivo neto proporcionado por las actividades operativas' de 2011 a 2013.",
+    "answer": [
+      [
+        "El efectivo neto proporcionado por las actividades operativas mostró volatilidad. Disminuyó significativamente en $2,079 millones de 2011 a 2012 ($20,963 a $18,884), y luego se recuperó con un aumento de $1,892 millones de 2012 a 2013 ($18,884 a $20,776), casi volviendo al nivel de 2011."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_005",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "¿En qué año(s) el valor absoluto del efectivo utilizado en actividades de inversión fue mayor que el valor absoluto del efectivo utilizado en actividades de financiación?",
+    "answer": [
+      [
+        "2013"
+      ],
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "C2",
+      "C3",
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_006",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "¿En 2012, qué porcentaje del 'efectivo neto proporcionado por las actividades operativas' representó el 'efectivo neto utilizado en actividades de financiación'?",
+    "answer": [
+      [
+        "7.46%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_007",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "¿Si el 'efectivo neto utilizado en actividades de inversión' en 2013 hubiera sido un 20% menor, cuál habría sido el 'aumento (disminución) neto en efectivo y equivalentes de efectivo' para ese año, asumiendo que todos los demás valores permanecieron constantes?",
+    "answer": [
+      [
+        "810.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_008",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe una relación consistente entre la cantidad de efectivo proporcionada por las actividades operativas y el cambio neto en efectivo y equivalentes de efectivo durante este período de tres años?",
+    "answer": [
+      [
+        "No, no hay una relación consistente. En 2011, el flujo de efectivo operativo más alto (20.963 millones de dólares) resultó en una disminución neta de efectivo (-433 millones de dólares). En 2012, el flujo de efectivo operativo más bajo (18.884 millones de dólares) resultó en un gran aumento neto de efectivo (3.413 millones de dólares). Esto indica que las actividades de inversión y financiación tuvieron un impacto más significativo en el cambio neto de efectivo que las actividades operativas solas."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_009",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué año presenta un valor atípico en 'aumento (disminución) neto en efectivo y equivalentes de efectivo', y por qué?",
+    "answer": [
+      [
+        "2012 es un valor atípico porque es el único año con un aumento neto positivo en efectivo y equivalentes de efectivo ($3,413 millones), mientras que tanto en 2011 como en 2013 se observó una disminución neta ($-433 millones y $-2,804 millones, respectivamente)."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_010",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "value",
+    "question": "Sumando las cuatro categorías de actividad de flujo de efectivo para 2011, calcule el 'aumento (disminución) neto en efectivo y equivalentes de efectivo' para verificar la estructura de la tabla.",
+    "answer": [
+      [
+        "-433"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_2ec89c0e86_011",
+    "table_id": "finqa_2ec89c0e86",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Si el efectivo neto generado por actividades operativas de la empresa aumentó en 2013 en comparación con 2012, pero el efectivo neto utilizado en actividades de inversión también aumentó durante el mismo período, ¿qué sugiere esto sobre la gestión general de efectivo de la empresa en 2013?",
+    "answer": [
+      [
+        "Sugiere que, si bien la empresa generó más efectivo de las operaciones en 2013 que en 2012, también gastó más en inversiones. Esto indica que la empresa pudo haber utilizado el flujo de efectivo operativo adicional para financiar mayores actividades de inversión."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

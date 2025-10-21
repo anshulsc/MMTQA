@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "所有年份的所有“股票回购计划”和“债券兑换发行”活动合计，“股份流通总量”净变动是多少？",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "在 2008 年、2009 年或 2010 年的年同比期间，'流通在外的股数'年末余额的绝对变化最小的是哪一年？",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "找出导致“流通股”单次增幅最大的交易，然后计算其“库藏股”与“流通股”价值的比率。",
+    "answer": [
+      [
+        "交易是“收购史密斯国际公司”。比率约为 0.432（76 / 176）。"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述从2008年初到2010年底“在库股份”余额的总体趋势。",
+    "answer": [
+      [
+        "“在库股份”的数量呈现波动但总体下降的趋势（负数越来越小）。它从-138开始，在2008年略微下降到-140，在2009年略微回升到-139，然后到2010年底显著下降到-73，这在很大程度上是由于与史密斯国际公司（Smith International Inc.）收购相关的股份。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "列出2008年（在1月1日和12月31日余额之间）对“流通股”数量产生积极影响的所有活动。",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "截至2010年12月31日的最终‘流通股’余额中，‘收购史密斯国际公司’交易增加了多少比例？",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "如果在2010年没有发生“收购Smith International Inc.”，并且所有其他交易保持不变，那么在2010年12月31日的‘流通股’年终余额将是多少？",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "在所呈现的年份中，授予选择权者股份数量与根据员工股票购买计划发行的股份数量之间是否存在可观察到的关系？请解释。",
+    "answer": [
+      [
+        "没有一致的关系。在2008年，授予选择权者的股份（5股）多于根据购买计划发行的股份（2股）。在2009年，两者的数量相等（均为4股）。在2010年，授予选择权者的股份（6股）多于根据购买计划发行的股份（3股）。这两者之间的比例每年都在变化，表明没有直接的关联。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "排除掉余额行，'issued'、'in treasury' 或 'shares outstanding' 哪个列包含最多的非数字或不一致的数据条目？",
+    "answer": [
+      [
+        "“issued”列是最不一致的。虽然其他列包含数值（或负数的标准格式），但“issued”列混合了似乎代表余额的数字（'1334'、'1434'、'100'）以及一个重复值 '2013'，该值似乎与它所列交易的数量不符。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "与所有其他交易对“流通股”余额产生的中间影响相比，哪项单笔交易对“流通股”余额产生了最显著的积极影响，从而显得与众不同？",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "股票回购计划中，历年“库存股”与“流通股”的比例是多少？",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

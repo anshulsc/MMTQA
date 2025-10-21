@@ -1,0 +1,294 @@
+[
+  {
+    "question_id": "wikisql_ffa7cd8f87_001",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "open_ended_reasoning",
+    "question": "从决赛出场次数来看，哪个球员明显是例外，为什么？",
+    "answer": [
+      [
+        "Billie Jean King 是例外。她进入了 6 次决赛，这比进入决赛次数第二多的球员（Jana Novotná 和 Lindsay Davenport，各 3 次）还要多一倍。名单上的绝大多数球员只有 1 或 2 次决赛出场记录，因此她 6 次决赛的记录与其他人相比是一个显著的偏差。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C20",
+      "C21",
+      "C22",
+      "C23"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_ffa7cd8f87_002",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "value",
+    "question": "表格中列出的所有美国球员的总决赛出场次数是多少？",
+    "answer": [
+      [
+        "11"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B3",
+      "C3",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_ffa7cd8f87_003",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "value",
+    "question": "哪些国家（并列）产生了获得至少一次决赛冠军的球员最多？",
+    "answer": [
+      [
+        "United States"
+      ],
+      [
+        "Czech Republic"
+      ],
+      [
+        "France"
+      ],
+      [
+        "United Kingdom"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B9",
+      "D9",
+      "B10",
+      "D10",
+      "B11",
+      "D11",
+      "B12",
+      "D12",
+      "B13",
+      "D13",
+      "B14",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_ffa7cd8f87_004",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "value",
+    "question": "列出所有来自非欧洲国家且在决赛中有获胜记录（胜场多于负场）的球员。",
+    "answer": [
+      [
+        "Billie Jean King"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A15",
+      "B15",
+      "D15",
+      "A18",
+      "B18",
+      "D18",
+      "A19",
+      "B19",
+      "D19",
+      "A20",
+      "B20",
+      "D20"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_ffa7cd8f87_005",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "value",
+    "question": "哪些选手在进入决赛次数超过一次的情况下，从未赢得过决赛？",
+    "answer": [
+      [
+        "Hana Mandlíková"
+      ],
+      [
+        "Justine Henin"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_ffa7cd8f87_006",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "value",
+    "question": "表格中列出的所有法国球员在决赛中的合计胜率是多少？",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "B13",
+      "C13",
+      "D13",
+      "B22",
+      "C22",
+      "D22"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_ffa7cd8f87_007",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "value",
+    "question": "根据此表，哪个十年是美国选手进入决赛次数最多的十年？",
+    "answer": [
+      [
+        "1970s"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B3",
+      "E3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_ffa7cd8f87_008",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "value",
+    "question": "如果澳大利亚选手的所有决赛出场都以获胜告终，玛格丽特·考特新的胜负记录会是多少？",
+    "answer": [
+      [
+        "2–0"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_ffa7cd8f87_009",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "open_ended_reasoning",
+    "question": "在不败决赛记录（X-0）的球员和他们参加的决赛次数之间，是否存在可观察到的关系？请根据数据进行解释。",
+    "answer": [
+      [
+        "是的，在这个数据集中存在着完美的相关性。所有决赛记录不败（胜负记录为 1-0）的球员都只参加过一次决赛。没有球员在多次决赛中保持不败的记录。"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9",
+      "C10",
+      "D10",
+      "C11",
+      "D11",
+      "C12",
+      "D12",
+      "C13",
+      "D13",
+      "C14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_ffa7cd8f87_010",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "open_ended_reasoning",
+    "question": "表格中有些球员的名字后面跟着一个“+”号。这些球员在首次有记录的决赛方面有什么共同特征？",
+    "answer": [
+      [
+        "所有名字后面带有“+”号的球员，他们的首次有记录的决赛都出现在21世纪（即2000年或之后）。玛丽亚·莎拉波娃的第一次决赛是在2004年，马里恩·巴尔托利的第一次决赛是在2007年，佩特拉·科维托娃的第一次决赛是在2011年。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A14",
+      "E14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_ffa7cd8f87_011",
+    "table_id": "wikisql_ffa7cd8f87",
+    "question_type": "open_ended_reasoning",
+    "question": "捷克共和国球员在决赛次数和胜场数之间存在什么规律？",
+    "answer": [
+      [
+        "捷克球员的决赛次数多于胜场数，这表明他们在决赛中争夺激烈但成功率较低。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A14",
+      "C2",
+      "C14",
+      "D2",
+      "D14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

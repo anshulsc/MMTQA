@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Jaký byl celkový nárůst 'akcií v oběhu' vyplývající z 'plánu zaměstnaneckých akciových opcí' za celé uvedené období?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Ve kterém roce (2001, 2002 nebo 2003) přispěly 'akcie prodané opcionářům' nejvíce ke zvýšení 'akcií v oběhu'?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište trend akcií držených ve vlastní režii společnosti od začátku roku 2001 do konce roku 2003, na základě zpráv o zůstatku.",
+    "answer": [
+      [
+        "Počet akcií držených ve vlastní režii meziročně konzistentně klesal. Zůstatek klesl z přibližně 94,4 milionu na začátku roku 2001 na 91,2 milionu do konce roku 2001, poté na 84,9 milionu do konce roku 2002 a nakonec na 81,2 milionu do konce roku 2003. To naznačuje, že společnost přerozdělovala akcie ze své vlastní režie (např. pro zaměstnanecké plány a opce) rychleji, než je zpětně odkupovala."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Jaká byla čistá změna v počtu 'akcií v oběhu' během celého kalendářního roku, který zahrnoval 'akvizici společnosti Technoguide'?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Uveďte všechny typy transakcí, kromě zůstatků, které vedly ke zvýšení 'vydaných akcií' o více než 2 000 000 kusů.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Jaké procento z celkového nárůstu 'akcií v oběhu' za rok 2002 bylo přičitatelné 'akvizici společnosti Technoguide'?",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Pokud by plán nákupu akcií pro zaměstnance v roce 2002 vedl k tomu, že by do celkového počtu outstanding akcií bylo přidáno o 1 000 000 akcií méně, jaký by byl zůstatek 'shares outstanding' k 31. prosinci 2002?",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Která transakce mezi ročními zůstatky představuje odlehlou hodnotu s minimálním dopadem na 'akcie v oběhu' a jaký byl tento dopad?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký je konzistentní matematický vztah mezi sloupci 'issued' (vydáno), 'in treasury' (v držení společnosti) a 'shares outstanding' (akcie v oběhu) u událostí typu 'shares sold to optionees' (akcie prodané opcionářům)?",
+    "answer": [
+      [
+        "U všech transakcí typu 'shares sold to optionees' (akcie prodané opcionářům) je hodnota ve sloupci 'shares outstanding' (akcie v oběhu) součtem hodnot ve sloupcích 'issued' (vydáno) a 'in treasury' (v držení společnosti). To naznačuje, že akcie pro opcionáře byly získány jak z nového vydání, tak z existujících vlastních akcií společnosti."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Strupec 'issued' obsahuje hodnotu '2013' pro několik typů transakcí, kde je hodnota 'in treasury' nenulová. Co to naznačuje o zdroji akcií pro tyto transakce?",
+    "answer": [
+      [
+        "V každém řádku, kde sloupec 'issued' ukazuje '2013', je hodnota 'in treasury' totožná s hodnotou 'shares outstanding'. To naznačuje, že pro tyto transakce (např. 'employee stock purchase plan', 'acquisition of technoguide') pocházely všechny akcie z pokladny a ve skutečnosti nebyly vydány žádné nové akcie. Číslo '2013' je pravděpodobně zástupný symbol, identifikátor nebo chyba v datech, nikoli množství vydaných akcií."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak se počet akcií v oběhu změnil od stavu k 1. lednu 2001 do stavu k 31. prosinci 2003 a jaké aktivity k této změně pravděpodobně přispěly?",
+    "answer": [
+      [
+        "Počet akcií v oběhu se zvýšil o 13 223 634 (z 572 724 694 na 585 948 328). Toto zvýšení se zdá být poháněno emisemi akcií, jako jsou uplatnění opcí a aktivita zaměstnaneckých nákupních plánů (několik položek 'akcie prodané opcionářům' a 'zaměstnanecký akciový nákupní plán'), emise související s akvizicí (Technoguide) a čisté snížení akcií ve vlastních rukou – což kolektivně zvyšuje počet akcií v oběhu."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

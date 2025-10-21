@@ -1,0 +1,357 @@
+[
+  {
+    "question_id": "wikisql_4673ebe650_001",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Quel est le nombre total de cellules de données dans le tableau qui contiennent la valeur 'February' ?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_002",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "Comparez les données de la ligne pour '2002 :' (ligne 2) avec les en-têtes de colonne (ligne 0). Quelle est la principale différence structurelle, mis à part la première colonne ?",
+    "answer": [
+      [
+        "La principale différence structurelle est que la ligne pour '2002 :' fait partie du corps des données, tandis que les en-têtes définissent le schéma du tableau. Bien que les valeurs à partir de la deuxième colonne ('Janvier' jusqu'à 'Décembre') soient identiques dans la ligne d'en-tête et dans la ligne '2002 :', leurs fonctions sont différentes : l'une est une étiquette, et l'autre est un point de donnée."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "K2",
+      "L2",
+      "M2",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_003",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Quel est le mois indiqué dans la 9e colonne de la ligne qui se trouve quatre lignes au-dessus de l'entrée '2011 :'?",
+    "answer": [
+      [
+        "August"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_004",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez le motif séquentiel des années présentées dans la première colonne de l'ensemble de données.",
+    "answer": [
+      [
+        "La première colonne affiche une progression temporelle cohérente, chaque ligne représentant une année consécutive, commençant par '2001 :' et se terminant par '2012 :'. La séquence s'incrémente d'exactement une année par ligne."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_005",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Listez toutes les années pour lesquelles 'Avril' apparaît dans la 5ème colonne et 'Novembre' apparaît dans la 12ème colonne.",
+    "answer": [
+      [
+        "2001 :",
+        "2002 :",
+        "2003 :",
+        "2004 :",
+        "2005 :",
+        "2006 :",
+        "2007 :",
+        "2008 :",
+        "2009 :",
+        "2010 :",
+        "2011 :",
+        "2012 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "L1",
+      "A2",
+      "E2",
+      "L2",
+      "A3",
+      "E3",
+      "L3",
+      "A4",
+      "E4",
+      "L4",
+      "A5",
+      "E5",
+      "L5",
+      "A6",
+      "E6",
+      "L6",
+      "A7",
+      "E7",
+      "L7",
+      "A8",
+      "E8",
+      "L8",
+      "A9",
+      "E9",
+      "L9",
+      "A10",
+      "E10",
+      "L10",
+      "A11",
+      "E11",
+      "L11",
+      "A12",
+      "E12",
+      "L12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_006",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Si le tableau était étendu pour inclure une ligne pour '2013', quelle serait la valeur attendue dans la cellule correspondant à la colonne 'October' ?",
+    "answer": [
+      [
+        "October"
+      ]
+    ],
+    "evidence_cells": [
+      "K0",
+      "K1",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_007",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle est la relation entre les en-têtes de colonne (à partir de la deuxième colonne) et les données contenues dans leurs colonnes respectives sur l'ensemble du tableau ?",
+    "answer": [
+      [
+        "Il existe une relation d'identité directe un-à-un. Pour toute colonne donnée, de la deuxième ('Janvier') à la dernière ('Décembre'), chaque cellule de données au sein de cette colonne contient une valeur de chaîne de caractères identique à l'en-tête de la colonne."
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_008",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "Y a-t-il une valeur de cellule de données dans tout le tableau qui ne correspond pas à son en-tête de colonne ou au format établi 'AAAA :' dans la première colonne ? Analysez les données pour détecter toute incohérence.",
+    "answer": [
+      [
+        "Non, il n'y a pas de valeurs aberrantes ou d'incohérences dans les données. Chaque cellule de la première colonne respecte le format 'AAAA :' pour les années consécutives, et chaque cellule de la deuxième à la dernière colonne correspond parfaitement à son en-tête de mois."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_009",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Quelle proportion des colonnes dans le corps de données contient des noms de mois ?",
+    "answer": [
+      [
+        "0.923"
+      ]
+    ],
+    "evidence_cells": [
+      "A0",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_010",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Quelle est la valeur située à l'intersection de la dernière ligne et de la colonne nommée 'July' ?",
+    "answer": [
+      [
+        "July"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "H0",
+      "H12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_011",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Quelle année vient immédiatement après 2008 dans ce tableau ?",
+    "answer": [
+      [
+        "2009 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Sequential/Temporal Reasoning"
+  }
+]

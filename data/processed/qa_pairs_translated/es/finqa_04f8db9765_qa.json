@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_04f8db9765_001",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Describe la tendencia de la 'pérdida neta según lo informado' desde el año 2000 hasta 2002?",
+    "answer": [
+      [
+        "La 'pérdida neta según lo informado' muestra una tendencia de pérdidas aceleradas durante el período de tres años. La pérdida se duplicó con creces de $194,628 en 2000 a $450,094 en 2001, y luego se duplicó nuevamente a $1,141,879 en 2002, lo que indica un desempeño financiero significativamente peor cada año."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_002",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "¿Cuál fue la 'pérdida neta pro forma' total acumulada en los tres años presentados en la tabla?",
+    "answer": [
+      [
+        "-1926453"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_04f8db9765_003",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "¿En qué año fue la diferencia absoluta entre la pérdida neta por acción básica y diluida 'según lo informado' y la 'pro-forma' la más pequeña?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_004",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "¿Calcular el 'gasto total en compensación de empleados con base en acciones' como un porcentaje de la 'pérdida neta según lo informado' para el año 2001?",
+    "answer": [
+      [
+        "11.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_04f8db9765_005",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "¿Qué año, si alguno, tuvo una 'pérdida neta según lo informado' absoluta mayor que $400,000 pero una 'pérdida neta pro-forma' absoluta de menos de $600,000?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "C1",
+      "C3",
+      "D1",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_006",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "¿En qué año la pérdida neta pro forma creció en la mayor cantidad absoluta en comparación con el año anterior?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_04f8db9765_007",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "¿Si el 'total stock-based employee compensation expense' para 2000 hubiera sido un 20% más alto, ¿cuál habría sido la 'pro-forma net loss' para ese año?",
+    "answer": [
+      [
+        "-256041.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_008",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "¿Qué métrica tuvo una mayor magnitud en 2002: la 'pérdida neta según lo informado' o la 'pérdida neta pro-forma'?",
+    "answer": [
+      [
+        "pro-forma net loss"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_009",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Según los datos proporcionados, ¿cuál es la relación aparente entre la 'pérdida neta según lo informado' y el 'gasto total en compensación de empleados basada en acciones' durante el período de tres años?",
+    "answer": [
+      [
+        "Existe una relación inversa entre las dos métricas. A medida que la 'pérdida neta según lo informado' aumentó significativamente en magnitud de 2000 a 2002, el 'gasto total en compensación de empleados basada en acciones' disminuyó cada año. Esto sugiere que a medida que las pérdidas de la empresa crecieron, pudo haber reducido la compensación basada en acciones."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_04f8db9765_010",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cuál es el efecto consistente del ajuste 'pro-forma' en la 'pérdida neta básica y diluida por acción' en comparación con la cifra 'tal como se informa' en todos los años?",
+    "answer": [
+      [
+        "El ajuste 'pro-forma' aumenta consistentemente la magnitud de la pérdida por acción en cada año que se muestra. Esto indica que los elementos ajustados, como la compensación basada en acciones, siempre resultan en una pérdida calculada mayor en una base por acción."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_011",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "¿Cuál es la pérdida neta reportada en 2001?",
+    "answer": [
+      [
+        "$ -450094 ( 450094 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

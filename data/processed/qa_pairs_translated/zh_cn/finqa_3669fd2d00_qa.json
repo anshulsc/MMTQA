@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "在2012年至2016年的承诺期中，哪一年的到期总额最大？",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012年至2016年期间，“担保[c]”的平均年度承诺到期金额是多少？",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "确定“2016年后”到期金额最大的承诺类型。然后，针对该特定承诺类型，计算其2013年和2014年到期金额的总和。",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述一下从2012年到2016年之后的“担保[c]”的承诺到期趋势。",
+    "answer": [
+      [
+        "“担保[c]”的承诺到期呈现出高度波动的趋势。从2012年的1800万美元开始，下降到2013年的800万美元，然后在2014年急剧飙升至21400万美元。在此峰值之后，到期金额显著下降至2015年的1200万美元和2016年的1300万美元，然后在2016年之后上升到6000万美元。该模式并非线性或一致的，而是以2014年的峰值为主要特征。"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "列出2012年到期金额大于0且总承诺小于1000百万的承诺类型。",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2015年到期的总商业承诺中，有多少百分比归因于‘信用额度[a]’？",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "如果“担保 [c]”的总额提高10%，并且这种增长完全体现在“2016年后”的到期期间，那么“商业承诺总额”的新金额将是多少？",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，承诺的“总计”金额大小与其到期时间框架之间是否存在可观察到的关系？",
+    "answer": [
+      [
+        "没有简单的线性相关性，但存在可观察到的模式。最大的承诺（“信贷额度”，18亿美元）有一个单一的、较远的到期日（2015年）。相比之下，到期时间表最分散的承诺（“担保”，3.25亿美元）是其中较小的承诺之一。另外两项承诺（“应收款项”和“备用信用证”）尽管总价值差异很大（分别为6亿美元和2400万美元），但在第一年（2012年）就全部付清了。这表明较大的承诺可能是以一次性大额支付的形式处理的，而较小的承诺则要么立即处理，要么以长期、分期支付的方式进行。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "在个体承诺类型中，哪个承诺到期期间包含最多的非零值？",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "分析2012年至2016年‘总商业承诺’的到期情况，哪一年的到期金额存在显著异常，原因是什么？",
+    "answer": [
+      [
+        "2015年是一个显著的异常年份。2012-2016年的总到期金额分别为6.42亿、8百万、2.14亿、18.12亿和13百万美元。中位数为2.14亿美元。2015年的总额18.12亿美元是中位数的8倍多，并且是次高值（6.42亿美元）的近3倍，这使得它成为一个明显的统计异常值，几乎完全是由‘信贷便利’的到期驱动的。"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012年至2015年（百万）的总商业承诺是多少？",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

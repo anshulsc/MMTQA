@@ -1,0 +1,309 @@
+[
+  {
+    "question_id": "wikisql_a0d8092819_001",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "킹돔에서 열린 모든 경기의 평균 관중 수는 얼마였습니까?",
+    "answer": [
+      [
+        "52707"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "G2",
+      "E4",
+      "G4",
+      "E5",
+      "G5",
+      "E8",
+      "G8",
+      "E10",
+      "G10",
+      "E11",
+      "G11",
+      "E12",
+      "G12",
+      "E14",
+      "G14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_002",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "취소되지 않은 모든 경기와 비교했을 때 어느 경기의 관중 수가 눈에 띄게 적으며, 당시 관중 수는 얼마였습니까?",
+    "answer": [
+      [
+        "at Detroit Lions",
+        "8,310"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "G1",
+      "G2",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_003",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "가장 낮은 관중 수를 기록한 승리 경기 상대는 누구였습니까?",
+    "answer": [
+      [
+        "at Detroit Lions"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "G2",
+      "D4",
+      "G4",
+      "D6",
+      "G6",
+      "D7",
+      "G7",
+      "D8",
+      "G8",
+      "D10",
+      "G10",
+      "D11",
+      "G11",
+      "D14",
+      "G14",
+      "D15",
+      "G15",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_004",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "Kingdome에서 열린 경기 중 패배한 상대 팀들을 나열해 주세요.",
+    "answer": [
+      [
+        "Cincinnati Bengals"
+      ],
+      [
+        "Los Angeles Raiders"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "C12",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_005",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "open_ended_reasoning",
+    "question": "시즌 마지막 네 경기(12주차-15주차) 동안 팀의 경기력 추세에 대해 설명해 주십시오.",
+    "answer": [
+      [
+        "팀은 마지막 네 경기에서 회복력을 보였습니다. 12주차와 13주차에 두 번의 연패를 당했지만, 덴버 브롱코스와 시카고 베어스와의 마지막 두 경기를 모두 이기며 시즌을 긍정적인 추세로 마무리했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "D12",
+      "A13",
+      "D13",
+      "A14",
+      "D14",
+      "A15",
+      "D15"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_006",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "원정 경기(상대 팀 이름 앞에 'at'이 붙는 경기)에서의 팀 승률은 몇 퍼센트였습니까?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C3",
+      "D3",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C9",
+      "D9",
+      "C13",
+      "D13",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_007",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "킹돔에서 열린 홈 경기와 원정 경기 중 평균 관중 수가 더 많았던 것은 어느 쪽이며, 더 많았던 쪽의 평균 관중 수를 알려주십시오.",
+    "answer": [
+      [
+        "Away games",
+        "60117"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2",
+      "E4",
+      "G4",
+      "E5",
+      "G5",
+      "E6",
+      "G6",
+      "E7",
+      "G7",
+      "E8",
+      "G8",
+      "E9",
+      "G9",
+      "E10",
+      "G10",
+      "E11",
+      "G11",
+      "E12",
+      "G12",
+      "E13",
+      "G13",
+      "E14",
+      "G14",
+      "E15",
+      "G15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_008",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "3주차에 취소된 경기가 진행되어 승리했다고 가정할 경우, 4주차 종료 시점의 팀 기록은 어떻게 되었을까요?",
+    "answer": [
+      [
+        "3-1"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3",
+      "F2",
+      "F4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_009",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터에 따르면, 홈 경기(킹돔)와 경기 결과 사이에 어떤 관계가 있다고 볼 수 있습니까?",
+    "answer": [
+      [
+        "데이터는 강력한 홈 경기 이점을 시사합니다. 해당 팀은 킹돔에서 8경기 중 6경기를 승리하여 75%의 승률을 기록했으며, 원정 경기의 승률은 6경기 중 3승으로 50%에 불과했습니다. 이는 홈 경기와 승리 사이에 긍정적인 상관 관계가 있음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D14",
+      "E14",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_010",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "value",
+    "question": "3주차 일정의 특이사항에 대한 사유는 데이터 테이블에 어떻게 명시되어 있습니까?",
+    "answer": [
+      [
+        "Cancelled due to player's strike"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_a0d8092819_011",
+    "table_id": "wikisql_a0d8092819",
+    "question_type": "open_ended_reasoning",
+    "question": "각 경기마다 관중 수가 달랐던 이유를 설명해주시겠습니까?",
+    "answer": [
+      [
+        "경기 장소, 상대팀, 그리고 경기 시기의 차이가 각 경기에 참석한 팬 수에 영향을 미쳤을 수 있습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C15",
+      "G1",
+      "G15"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

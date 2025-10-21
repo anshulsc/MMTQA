@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "finqa_7029f59db3_001",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "ما هو نوع المفاعل الذي يمتلك متوسط سعة أعلى، وما هو هذا المتوسط للسعة بالميغاوات؟",
+    "answer": [
+      [
+        "Pressurized Water",
+        "960"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_002",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "ما هي السعة الإجمالية المجمعة (بالميجاوات) لجميع محطات الطاقة الواقعة في ولاية نيويورك (NY)؟",
+    "answer": [
+      [
+        "2907"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7029f59db3_003",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "ما هو تاريخ انتهاء ترخيص المحطة في سوق 'nyiso' والتي كانت في الخدمة الأطول؟",
+    "answer": [
+      [
+        "2013 ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "B3",
+      "B4",
+      "C2",
+      "C3",
+      "C4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_004",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "احسب متوسط عدد السنوات بين 'سنة بدء التشغيل' و 'تاريخ انتهاء الترخيص' لجميع المحطات التي تم شراؤها بعد عام 2000.",
+    "answer": [
+      [
+        "52.25"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6",
+      "C3",
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_005",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "اذكر أسماء جميع محطات الطاقة التي ليست في سوق 'nyiso' ولديها سعة تزيد عن 700 ميجاوات.",
+    "answer": [
+      [
+        "palisades ( e )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A5",
+      "B5",
+      "F5",
+      "A6",
+      "B6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_006",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "ما هي نسبة القدرة الإجمالية لجميع المحطات المدرجة التي تساهم بها المحطات ذات مفاعلات الماء المغلي؟ عبر عن الإجابة كنسبة مئوية مقربة إلى منزلتين عشريتين.",
+    "answer": [
+      [
+        "42.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7029f59db3_007",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "إذا تمت ترقية سعة جميع مفاعلات 'الماء المضغوط' بنسبة 10٪، فما هي السعة الإجمالية الجديدة لمحطة 'indian point 3 ( c )'؟",
+    "answer": [
+      [
+        "1145.1 mw"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_008",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "open_ended_reasoning",
+    "question": "حلل العلاقة بين سنة حيازة المحطة ومدتها التشغيلية المرخصة (سنة انتهاء الترخيص مطروحًا منها سنة بدء التشغيل). هل هناك نمط يمكن تمييزه؟",
+    "answer": [
+      [
+        "لا توجد علاقة واضحة بين سنة الحيازة ومدة التشغيل المرخصة. المدد هي: بيلغريم (تم الحصول عليها عام 1999) - 60 عامًا، فيتزباتريك (2000) - 59 عامًا، إنديان بوينت 3 (2000) - 39 عامًا، إنديان بوينت 2 (2001) - 39 عامًا، فيرمونت يانكي (2002) - 60 عامًا، وباليساديس (2007) - 60 عامًا. المحطات التي تم الحصول عليها مؤخرًا (مثل باليساديس في عام 2007) لها مدد طويلة (60 عامًا)، بينما بعض المحطات التي تم الحصول عليها سابقًا (مثل محطات إنديان بوينت في عامي 2000/2001) لها مدد أقصر بكثير (39 عامًا). يبدو أن المدة مستقلة عن تاريخ الحيازة."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1",
+      "C2",
+      "D2",
+      "G2",
+      "C3",
+      "D3",
+      "G3",
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7029f59db3_009",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "أي محطة طاقة لديها \"سنة بدء التشغيل\" تمثل أكبر انحراف مقارنة بمتوسط \"سنة بدء التشغيل\" للمحطات الأخرى في نفس الموقع؟",
+    "answer": [
+      [
+        "fitzpatrick ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7029f59db3_010",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "باستثناء عمود \"السعة - نوع المفاعل\"، ما هما العمودان في مجموعة البيانات اللذان يحتويان على مؤهلات بين قوسين في إدخالات بياناتهما، مما يشير إلى أنهما قد يرتبطان بحواشي سفلية أو تفاصيل إضافية غير موجودة في الجدول؟",
+    "answer": [
+      [
+        "power plant",
+        "license expiration date"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_011",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "أي محطة طاقة تم الاستحواذ عليها مؤخرًا؟",
+    "answer": [
+      [
+        "Palisades"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

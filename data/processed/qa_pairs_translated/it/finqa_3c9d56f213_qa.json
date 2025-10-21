@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Qual è il totale dei MW lordi generati da tutti i progetti alimentati a vento elencati nella tabella?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Quale tipo di combustibile, Carbone o Idroelettrico, ha un'uscita media lorda in MW superiore tra i progetti elencati?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Elenca i nomi di tutti i progetti situati in Cina che utilizzano una fonte di carburante rinnovabile (Idroelettrico o Eolico).",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Qual è il Gross MW effettivo attribuibile ad AES per il progetto con il Gross MW più alto situato in Cile?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Qual è la percentuale del Gross MW totale di tutti i progetti contribuita dai progetti in cui AES ha un interesse azionario del 100%?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica il progetto con l'output di Gross MW più anomalo e spiega perché si distingue da tutti gli altri progetti nel set di dati.",
+    "answer": [
+      [
+        "Il progetto 'ballylumford' è il valore anomalo più significativo. Il suo Gross MW di 1246 è più di tre volte superiore al progetto successivo più grande, 'jhrh' (379 MW), e oltre 25 volte il Gross MW mediano dell'intero set di dati (49 MW). Questa vasta differenza di magnitudo rende la sua capacità di generazione di energia anomala rispetto a ogni altro progetto elencato."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Se la partecipazione azionaria di AES in tutti i progetti turchi dovesse raddoppiare rispetto al livello attuale, quale sarebbe il nuovo totale effettivo di Gross MW dalla Turchia attribuibile ad AES?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati, esiste una correlazione osservabile tra i MW lordi di un progetto e il livello di partecipazione azionaria di AES? Spiega il tuo ragionamento.",
+    "answer": [
+      [
+        "Non esiste una correlazione chiara o coerente tra i MW lordi di un progetto e la partecipazione azionaria di AES. Ad esempio, il progetto con i MW lordi più alti ('ballylumford', 1246 MW) ha una partecipazione del 100%, ma il secondo più alto ('jhrh', 379 MW) ha una bassa partecipazione del 35%. Al contrario, un progetto con MW molto bassi ('north rhins', 22 MW) ha anch'esso una partecipazione del 100%. La vasta distribuzione delle partecipazioni azionarie tra diverse dimensioni di progetto suggerisce che la scala del progetto non determina direttamente il livello di investimento di AES."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "La colonna 'aes equity interest ( percent rounded )' contiene informazioni ridondanti. Descrivi il pattern di questa ridondanza.",
+    "answer": [
+      [
+        "La colonna mostra un pattern coerente di ridondanza in cui ogni cella contiene un valore percentuale seguito dallo stesso valore ripetuto tra parentesi, ad esempio '71% ( 71 % )'. Le informazioni all'interno delle parentesi sono un duplicato diretto delle informazioni che le precedono."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Quale paese ha il più basso Gross MW effettivo combinato attribuibile ad AES, considerando solo i paesi con più progetti elencati nella tabella?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Quanti progetti utilizzano l'energia eolica come combustibile principale?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

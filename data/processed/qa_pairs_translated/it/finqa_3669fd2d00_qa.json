@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Tra i periodi di impegno dal 2012 al 2016, quale anno ha avuto l'importo totale di scadenza maggiore?",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Qual è l'importo medio annuale di scadenza dell'impegno per le 'garanzie [c]' per il periodo dal 2012 al 2016?",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Individua il tipo di impegno con il maggiore importo di scadenza 'dopo il 2016'. Quindi, per quel tipo specifico di impegno, calcola la somma delle sue scadenze per gli anni 2013 e 2014.",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento delle scadenze degli impegni per le 'garanzie [c]' dal 2012 al periodo 'successivo al 2016'.",
+    "answer": [
+      [
+        "Le scadenze degli impegni per le 'garanzie [c]' mostrano un andamento altamente volatile. Partendo da 18 milioni di dollari nel 2012, sono diminuite a 8 milioni nel 2013, per poi registrare un picco massiccio fino a 214 milioni di dollari nel 2014. A seguito di questo picco, le scadenze sono diminuite significativamente a 12 milioni nel 2015 e 13 milioni nel 2016, prima di aumentare a 60 milioni per il periodo successivo al 2016. Il modello non è lineare o coerente, ma è dominato dal picco del 2014."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Elenca tutti i tipi di impegni che hanno un importo di scadenza maggiore di $0 nel 2012 e un impegno totale inferiore a 1000 milioni di dollari.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Quale percentuale dei totali impegni commerciali in scadenza nel 2015 è attribuibile alle 'linee di credito [a]'?",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Se il totale per 'garanzie [c]' fosse superiore del 10%, e questo aumento fosse riflesso interamente nel periodo di scadenza 'dopo il 2016', quale sarebbe il nuovo importo dei 'total commercialcommitments'?",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati, esiste una relazione osservabile tra la dimensione del valore 'totale' di un impegno e l'intervallo di tempo della sua scadenza?",
+    "answer": [
+      [
+        "Non c'è una semplice correlazione lineare, ma esiste uno schema osservabile. L'impegno più grande ('linee di credito', 1800 milioni di dollari) ha una singola data di scadenza lontana (2015). Al contrario, l'impegno con il piano di scadenza più distribuito ('garanzie', 325 milioni di dollari) è uno dei più piccoli. Gli altri due impegni ('ricevute' e 'lettere di credito standby') sono interamente saldati nel primo anno (2012), nonostante abbiano valori totali molto diversi (600 milioni di dollari e 24 milioni di dollari). Ciò suggerisce che impegni più grandi potrebbero essere strutturati come pagamenti unici forfettari, mentre quelli più piccoli vengono gestiti immediatamente o strutturati come obblighi a lungo termine e distribuiti."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Quale periodo di scadenza dell'impegno contiene il maggior numero di valori diversi da zero tra i singoli tipi di impegno?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizzando le scadenze dei 'total commercialcommitments' dal 2012 al 2016, quale anno rappresenta un significativo valore anomalo e perché?",
+    "answer": [
+      [
+        "L'anno 2015 è un significativo valore anomalo. Le scadenze totali per gli anni 2012-2016 sono rispettivamente 642 milioni, 8 milioni, 214 milioni, 1812 milioni e 13 milioni di dollari. Il valore mediano è di 214 milioni di dollari. Il totale del 2015 di 1812 milioni di dollari è oltre 8 volte la mediana e quasi 3 volte il valore successivo più alto (642 milioni di dollari), rendendolo un chiaro valore anomalo statistico guidato quasi interamente dalla scadenza delle 'credit facilities'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Quali sono i totali degli impegni commerciali (in milioni) dal 2012 al 2015?",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

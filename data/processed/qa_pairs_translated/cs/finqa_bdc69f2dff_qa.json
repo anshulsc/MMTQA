@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_bdc69f2dff_001",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Která třída kmenových akcií měla nejvíce vydaných a držených akcií k 30. září 2008?",
+    "answer": [
+      [
+        "class a common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_002",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Jaký byl celkový součet akcií všech sérií běžných akcií třídy C k 30. září 2008?",
+    "answer": [
+      [
+        "266608750"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_003",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Pro třídu akcií s největší absolutní hodnotou zpětných odkupů v říjnu 2008, jaký byl její konečný počet akcií ve sloupci 'po zpětných odkupech v říjnu 2008, po konverzi'?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "F4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_004",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "K datu 30. září 2008, jaké procento z celkového počtu akcií v oběhu představovaly akcie třídy A? Uveďte odpověď zaokrouhlenou na dvě desetinná místa.",
+    "answer": [
+      [
+        "46.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_005",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Uveďte všechny třídy akcií, u kterých došlo ke snížení vlastních akcií v důsledku události 'převod na třídu c (série i)'.",
+    "answer": [
+      [
+        "class c ( series iii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_006",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Hodnota '2014' se často objevuje, pravděpodobně jako zástupný symbol pro žádnou aktivitu. Které dvě třídy akcií mají tuto konkrétní hodnotu uvedenou ve třech různých sloupcích svých příslušných řádků?",
+    "answer": [
+      [
+        "class c ( series ii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_007",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Pokud by počet akcií 'class a common stock' k 30. září 2008 byl 500 000 000 místo zaznamenané hodnoty, jaký by byl upravený celkový počet vydaných a držených akcií k tomuto datu?",
+    "answer": [
+      [
+        "1012122135"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_008",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě údajů pro různé série akcií třídy C, jaký je vztah mezi 'Odkupy v říjnu 2008' a 'převodem na třídu c (série i)'? Jsou to přímo související události?",
+    "answer": [
+      [
+        "Neexistuje žádná konzistentní, přímá korelace naznačující, že odkoupené akcie byly systematicky převedeny na třídu C (série I). Například u třídy C (série II) bylo odkoupeno přes 79 milionů akcií, ale nebyla zaznamenána žádná odpovídající konverzní aktivita. Naopak u třídy C (série IV) byly akcie převedeny pryč bez významných odkupů. Třída C (série III) je jediná, u které dochází k významným odkupům i konverzím pryč, ale čísla se neshodují. To naznačuje, že odkupy a konverze byly pro většinu sérií z velké části oddělené transakce, nikoli jediná, kombinovaná událost."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_009",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Které dva sloupce v tabulce používají specifický datový formát záporného čísla následovaného jeho kladnou ekvivalentní hodnotou v závorkách, například '-X ( X )'?",
+    "answer": [
+      [
+        "october 2008 redemptions"
+      ],
+      [
+        "conversion to class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_010",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě záhlaví sloupců a řádku 'celkový počet akcií' popište sled událostí, které vedly od počátečního počtu akcií k 30. září 2008 k konečnému počtu.",
+    "answer": [
+      [
+        "Data popisují vícestupňové snížení celkového počtu akcií. Proces začíná s 959 868 396 akciemi k 30. září 2008. První událostí jsou 'výkupy v říjnu 2008', kde bylo vykoupeno celkem přes 115 milionů akcií. Následuje 'konverze na třídu c (série i)'. Výsledek těchto konverzí se odráží ve sloupci 'po okamžité konverzi...', který ukazuje celkem 844 855 954 akcií. Konečný sloupec, 'po konverzích a výkupech v říjnu 2008', uvádí konečnou částku 774 710 051 akcií, což představuje čistý výsledek všech předchozích transakcí."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_011",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "V kterém roce došlo ke konverzi běžných akcií třídy A a běžných akcií třídy B na třídu C (série I)?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

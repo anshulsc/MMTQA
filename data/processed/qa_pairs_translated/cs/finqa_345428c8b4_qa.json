@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Jaká byla celková čistá změna v 'akciích v oběhu' vyplývající ze všech 'programů zpětného odkupu akcií' a 'vydaných při konverzích dluhopisů' dohromady za všechna léta?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Které období meziročně (2008, 2009 nebo 2010) zaznamenalo nejmenší absolutní změnu v konečném zůstatku „vydaných akcií“?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikujte transakci, která způsobila největší jednorázový nárůst „vydaných akcií“, a poté vypočítejte poměr akcií „v držbě“ k hodnotě „vydaných akcií“.",
+    "answer": [
+      [
+        "Transakcí je „akvizice společnosti Smith International Inc.“. Poměr je přibližně 0,432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište celkový trend zůstatku akcií „držených ve vlastní režii“ od začátku roku 2008 do konce roku 2010.",
+    "answer": [
+      [
+        "Počet akcií „držených ve vlastní režii“ vykazuje kolísavý, ale obecně klesající trend (stává se menším záporným číslem). Začal na -138, mírně klesl na -140 v roce 2008, mírně se zotavil na -139 v roce 2009 a poté výrazně klesl na -73 do konce roku 2010, z velké části kvůli akciím spojeným s akvizicí Smith International Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Uveďte všechny činnosti, které se vyskytly v roce 2008 (mezi zůstatky k 1. lednu a 31. prosinci), které měly pozitivní dopad na počet 'vydaných akcií'.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Jaký podíl konečného zůstatku 'akcie v oběhu' k 31. prosinci 2010 byl přidán transakcí 'akvizice společnosti Smith International Inc.'?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Pokud by k akvizici společnosti Smith International Inc. v roce 2010 nedošlo, jaký by byl konečný zůstatek „akcie v oběhu“ k 31. prosinci 2010, za předpokladu, že všechny ostatní transakce zůstaly stejné?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje pozorovatelný vztah mezi počtem akcií vydaných opcionářům a počtem vydaných v rámci plánu zaměstnaneckých akciových opcí v prezentovaných letech? Vysvětlete.",
+    "answer": [
+      [
+        "Neexistuje konzistentní vztah. V roce 2008 bylo prodáno více akcií opcionářům (5) než vydáno v rámci nákupního plánu (2). V roce 2009 byly počty stejné (4 a 4). V roce 2010 bylo prodáno více akcií opcionářům (6) než vydáno v rámci nákupního plánu (3). Poměr mezi těmito dvěma údaji se každý rok liší, což naznačuje absenci přímé korelace."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Který sloupec, 'vydáno', 'v pokladně' nebo 'akcie v oběhu', obsahuje nejvíce nečíselných nebo nekonzistentních datových záznamů, pokud pomineme řádky zůstatku?",
+    "answer": [
+      [
+        "Sloupec 'vydáno' je nejvíce nekonzistentní. Zatímco ostatní sloupce obsahují číselné hodnoty (nebo konzistentní formát pro záporná čísla), sloupec 'vydáno' obsahuje směsici čísel, která se zdají představovat zůstatky ('1334', '1434', '100') a opakující se hodnotu '2013', která se nezdá odpovídat množství transakcí, ke kterým je uvedena."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Která jednotlivá transakce vyniká jako odlehlá tím, že měla nejvýznamnější pozitivní dopad na zůstatek 'akcie v oběhu' ve srovnání s mediálním dopadem všech ostatních transakcí?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Jaký je poměr akcií držených ve vlastní režii k akciím v oběhu v programu zpětného odkupu akcií v průběhu let?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

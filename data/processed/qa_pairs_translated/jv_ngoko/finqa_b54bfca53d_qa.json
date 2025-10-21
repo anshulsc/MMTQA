@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Kewajiban kontraktual endi, ora kalebu total, sing duwe jumlah paling dhuwur sing kudu dibayar ing periode '1-3 taun'?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Kanthi ngetung total bayaran saben kewajiban individu, konfirmasi manawa total umume kanggo periode '1-3 taun' sing kasebut ing baris 'total bayaran ing kewajiban kontrak' wis bener.",
+    "answer": [
+      [
+        "Ya, total umume wis bener. Jumlah saka kewajiban individu kanggo periode '1-3 taun' yaiku $188.3 + $316.4 + $31.1 + $3779.4, sing padha karo $4321.2, cocog karo nilai ing baris total."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Kanggo kewajiban kontrak kanthi jumlah pembayaran total paling sithik, persentase pira saka total kasebut sing kudu dibayar ing periode '1-3 taun'?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasna jadwal pembayaran kanggo 'utang jangka panjang kalebu sewa modal' ing wektu sing ditemtokake. Apa iki dimuat ngarep, dimuat mburi, utawa disebar kanthi rata?",
+    "answer": [
+      [
+        "Jadwal pembayaran utang jangka panjang luwih akeh mburi. Pembayaran diwiwiti kanthi cilik ing $34,5 yuta ('kurang saka 1 taun'), mundhak kanthi stabil liwat periode 1-3 lan 3-5 taun, lan culminates ing pembayaran gedhe banget ing $2160,2 yuta ing periode 'luwih saka 5 taun', sing makili luwih saka 78% saka total kewajiban."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Sebutna kabeh kategori kewajiban ngendi bayaran sing bakal teka ing 'kurang saka 1 taun' luwih sithik tinimbang bayaran sing bakal teka ing '1-3 taun'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Piro persen utang jangka panjang kalebu sewa modal sing dijadwalake bakal dibayar luwih saka 5 taun?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Nek ana kebijakan anyar sing nglarang kabeh 'purchase obligations' sing bakal dibayar ing '1-3 taun' kudu dibayar langsung (ing periode 'kurang saka 1 taun'), pira dadi total anyar kanggo pembayaran 'kurang saka 1 taun' kanggo kewajiban kontrak?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabel iki ana masalah integritas data ngendi jumlah pembayaran periodik kanggo jinis kewajiban siji ora cocog karo total sing kasebut. Identifikasi kewajiban iki lan etung selisihé.",
+    "answer": [
+      [
+        "Baris 'kewajiban tuku ( c )' ana masalah integritas data. Jumlah pembayaran periodiké ($2709,5 + $3779,4 + $98,0 + $2212 = $8798,9 yuta) ora cocog karo total sing kasebut yaiku $6586,9 yuta. Selisihé yaiku $2212 yuta."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Ndelok wektu pembayaran '3-5 taun', kewajiban kontrak sing regane paling sithik lan bisa dianggep ora lumrah dibanding liyane ing kolom sing padha?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Ono hubungan sing ajeg antarane gedhene total kewajiban lan struktur mbayare (contohe, opo kewajiban sing luwih gedhe mesthi \"back-loaded\" luwih akeh)? Jebarno jawabmu nganggo data.",
+    "answer": [
+      [
+        "Ora, ora ono hubungan sing ajeg. Kewajiban total sing paling gedhe, 'purchase obligations' (utang tuku) ($6586.9M), iku akeh banget dicicil ing awal, mayoritas mbayar kurang saka 3 taun. Kosok baline, sing nomer loro paling gedhe, 'long-term debt' (utang jangka panjang) ($2750.1M), iku akeh banget dicicil ing akhir, pembayaran paling gedhe luwih saka 5 taun. Iki nuduhake yen struktur pembayaran iku khusus kanggo jinis kewajiban, dudu nilai total."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Pira total bayaran kewajiban kontrak sing kudu dibayar sajeroning wektu 1-3 taun ing yuta?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Pro s'apricatzione inue su MarS aplicat su mercadu atuale a unu mercadu simula, ite comparat s'apricatzione corrispondente cun sos metodos atuais?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Custa proprotzioni de aplicatziones listadas impreat unu métodu 'MarS' chi cunsistet in 'generatzione' o 'simulatzione'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Comente MarS pro s'apricatzione 'Detection' mudat su cunfrontu temporale usadu in sos 'Current Methods'?",
+    "answer": [
+      [
+        "Sos 'Current Methods' pro 'Detection' s'apoiant a unu cunfrontu istòricu calculende sa diferèntzia intre s'istadu de mercadu currente (market_now) e unu istadu de mercadu coladu (market_past). Su métodu MarS bogat custa dependèntzia de datos colados. In fatu, cunfrontat su mercadu currente (market_now) cun unu mercadu simulao in su matessi tempus (simu-market_now), mudende su cunfrontu dae unu quadu temporale (como vs tando) a unu basadu subra de su modellu (reale vs simulao)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Enumera sos \"Metodos atuales\" pro totus sas aplicatziones in ue su metodu \"MarS\" est descritu comente \"pipeline\" o cuncordat \"generation\".",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale applicatzione montat su pustadorgiu fundamentale de approgiu intre 'Metodos Currente' e 'MarS', movende dae un'arregionu storica a una simulada?",
+    "answer": [
+      [
+        "S'aplicatzione 'Detetzione' montat su pustadorgiu fundamentale de pustadorgiu. Su mètodu currente si basat in un'arregionu temporale, chi mirat a innantis (Diff(market_now, market_past)). In contrastu, su mètodu MarS introduet un'arregionu in contra a una realtade simulada de paris tempus (Diff(market_now, simu-market_now)). Custu cambiamentu dae una base storica a una simulada pro s'arregionu est unu pustadorgiu concetu de importu respetu a is àteros pustadorgios metodologicos in sa tabella."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Si s'apropiu 'MarS' pro 'RL Environment' fessit modìficadu pro impreare sa disponibilidade de datos de sos 'Current Methods' pro s'apricatzione a pare, duas carateristicas definitzient custu mètodu MarS ipotèticu?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Pro s'aplicatzione 'RL Environment', calesu est sa diferèntzia printzipale in sa disponibidilidade de datos e in sa probabilidade de distribuidura intre 'Current Methods' e 'MarS'?",
+    "answer": [
+      [
+        "Sa diferèntzia printzipale est in su volume de datos e in s'autenticidade de sa probabilidade de transitzione. 'Current Methods' si basat in 'datos finitos' e una distribuidura de probabilidade 'faussa' (P(st+1|st,at)), mentras chi 'MarS' impreat 'datos infinitos' e una distribuidura de probabilidade 'reale'."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Cantas aplicatziones diferentes listadas cunsistetint in su tèrmine 'data' in is descritziones de is metodos pro s'unu o s'àteru de 'Current Methods' o 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Afundu a sa arca, cal'est su vantàgiu mannu de MarS respetu a sos Metodos Currente, in modu particulare in contu de datos e representatzione de sa realtade?",
+    "answer": [
+      [
+        "Su tema mannu suggerit chi sos metodos de MarS tenent s'intentu de superare sos limitas de datos istòricos o finitos impreende approgios generativos e basados in simulatzione. MarS mudat dae s'extrapolatzione a sa generatzione, dae su paragonu istòricu a su paragonu simulaadu, e dae modelos de datos finitos/falsos a modelos de datos infinitos/reales. Custu indicat un'avantàgiu istraetegicu in sa creatzione de ambientes de datos prus robustos, flexibles e realistas pro s'anàlisi e s'apidu deforcement."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Cun exetu de sa ruga de cabu, cantas aplicatziones diferentes sunt detalladas in sa tabula?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Quale est su mètodu currente usadu pro s'àndala de foe­ra?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

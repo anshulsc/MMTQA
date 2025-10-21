@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Model naon non-multi-task anu ngahontal Mean Squared Error (MSE_over) anu panghandapna?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Hitung rata-rata MSE dina horizon 7 dinten (MSE7) kanggo sadaya modél anu ditandaan salaku 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Pikeun modél kalayan nilai MSE3 pangluhurna kadua (kadua goréngna), sabaraha nilai MSE30 na?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis tren Mean Squared Error (MSE) pikeun modél HTML nalika cakrawala prediksi manjang ti 3 dugi ka 30 dinten. Naha akurasi prediksina ningkat atanapi mudun kana waktosna?",
+    "answer": [
+      [
+        "Akurasi prediksi modél HTML ningkat nalika cakrawala prediksi manjang. Nilai MSE na terus turun ti MSE3 (0.845) ka MSE7 (0.349), MSE15 (0.251), sareng pamungkasna MSE30 (0.158), nunjukkeun kasalahan anu langkung handap sareng ku kituna kinerja anu langkung saé dina prediksi jangka panjang."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Sebutkeun sadaya modél anu henteu ditunjuk salaku 'Multi-Task' sareng gaduh nilai MSE15 langkung handap tina 0,31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Sebutkeun modél anu mangrupakeun outlier kinerja anu jelas dina sadaya métrik MSE sareng jelaskeun naha.",
+    "answer": [
+      [
+        "Modél GPT-3.5-Turbo mangrupakeun outlier kinerja anu jelas. Nilai MSE na di sadaya cakrawala (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) langkung luhur pisan tibatan modél sanésna, sabagéan ageung anu gaduh nilai MSE di handapeun 1.0. Ieu nunjukkeun kinerja prediktif anu langkung goréng dibandingkeun sareng modél sanésna anu didaptarkeun."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Sabaraha persén tina total MSE3 anu dijumlahkeun tina sadaya modél anu tiasa disababkeun ku modél GPT-3.5-Turbo? Pasihan jawaban dina bentuk perséntase dibuludkeun kana hiji tempat desimal.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Upami MSE_over pikeun modél RiskLabs ningkat ku 25% (nyaéta, turun 25%), sabaraha niléy énggalna, sareng kumaha rangkingna dibandingkeun sareng MSE_over modél HTML?",
+    "answer": [
+      [
+        "MSE_over énggal pikeun RiskLabs bakal janten 0.243. Niléy ieu langkung handap, sareng ku kituna langkung saé, tibatan MSE_over modél HTML anu 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": " Dumasar kana tabel, naon patalina antara modél dikategorikeun salaku 'Multi-Task' sareng ayana skor 'VaR'?",
+    "answer": [
+      [
+        "Aya korelasi anu kuat. Ngan ukur modél anu ditunjuk salaku 'Multi-Task' (GPT-3.5-Turbo sareng RiskLabs) anu ngagaduhan skor 'VaR' numerik anu dilaporkeun. Nanging, henteu sadayana modél 'Multi-Task' ngagaduhan skor VaR (sapertos HTML), sareng henteu aya modél non-'Multi-Task' anu ngagaduhanana, nunjukkeun yén kamampuan ngitung VaR mangrupikeun fitur anu utamina pakait sareng modél 'Multi-Task' dina kumpulan data ieu."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom métrik kinerja mana anu ngandung data panyekel non-numerik, sareng pikeun modél naon waé data ieu leungit?",
+    "answer": [
+      [
+        "Kolom 'VaR' ngandung data non-numerik ('/'). Data ieu leungit pikeun modél-modél ieu: Metode Klasik, LSTM, MT-LSTM-ATT, HAN, MRDM, sareng HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Model mana anu nunjukkeun kasaimbangan pangsaéna sacara umum antara akurasi prediksi dina sababaraha cakrawala (MSE3–MSE30) sareng estimasi résiko (VaR)?",
+    "answer": [
+      [
+        "Model RiskLabs ngahontal kasaimbangan pangsaéna sacara umum, ngajaga nilai MSE panghandapna dina sadaya cakrawala sareng VaR panghandapna (0.049), nunjukkeun akurasi prediksi anu kuat sareng estimasi résiko anu tiasa diandelkeun."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

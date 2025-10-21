@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "31 डिसेंबर 2007 रोजी 'गुंतवणूक' आणि 'इतर मालमत्ता' या एकूण मालमत्तेचे मूल्य किती होते?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'गुंतवणूक' (investments) किंवा 'इतर मालमत्ता' (other assets) यापैकी कोणत्या मालमत्ता श्रेणीला 'वास्तविक आणि अवास्तव नफा / (तोटा) निव्वळ' (realized and unrealized gains / ( losses ) net) मधून जास्त निव्वळ तोटा झाला?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "31 डिसेंबर 2008 रोजी 'गुंतवणूक' (investments) ची अंतिम शिल्लक, तिची सुरुवातीची शिल्लक आणि त्यानंतर सूचीबद्ध केलेल्या व्यवहारांशी सुसंगत आहे का, हे पडताळा. तुमची गणना दाखवा.",
+    "answer": [
+      [
+        "होय, शिल्लक सुसंगत आहे. गणना अशी आहे: $1240 (सुरुवातीची शिल्लक) - $409 (नफा/तोटा) + $11 (खरेदी/विक्री) - $29 (निव्वळ हस्तांतरण) = $813, जी अहवाल केलेल्या अंतिम शिल्लकीशी जुळते."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "31 डिसेंबर 2007 ते 31 डिसेंबर 2008 या संपूर्ण कालावधीत मालमत्तेच्या मूल्यात एकूण किती निव्वळ बदल झाला?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'निव्वळ स्तर ३ मध्ये आणि/किंवा बाहेर हस्तांतरण' मुळे मालमत्ता मूल्यामध्ये कोणत्या मालमत्ता श्रेणींमध्ये सकारात्मक योगदान मिळाले?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'कमाईमध्ये समाविष्ट असलेल्या कालावधीसाठी निव्वळ (तोटे)' यापैकी किती वाटा 'गुंतवणुकीं'मधून आला?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'इतर मालमत्तां'साठी 'मिळालेला आणि न मिळालेला नफा / (तोटा) निव्वळ' हा $-16 ऐवजी शून्य असता, तर ३१ डिसेंबर २००८ रोजी 'इतर मालमत्तां'साठी नवीन अंतिम शिल्लक काय असती?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "'गुंतवणूक' (investments) या डेटावर आधारित, 'वास्तविक आणि अवास्तव नफा / (तोटे) निव्वळ' (realized and unrealized gains / ( losses ) net) आणि 'एकूण निव्वळ (तोटे)... अहवाल तारखेपर्यंत कायम असलेल्या मालमत्तेशी संबंधित' (total net ( losses ) ... relating to assets still held at the reporting date)' यांच्यातील संबंध काय आहे?",
+    "answer": [
+      [
+        "त्यांच्यात एक मजबूत, थेट संबंध आहे. 'एकूण निव्वळ (तोटे)... अहवाल तारखेपर्यंत कायम असलेल्या मालमत्तेशी संबंधित' ($-366) हे 'वास्तविक आणि अवास्तव नफा / (तोटे) निव्वळ' ($-409) च्या ८९.५% आहे. यावरून असे सूचित होते की गुंतवणुकीसाठीच्या कालावधीतील निव्वळ तोट्याचा मोठा भाग अवास्तव होता आणि तो अहवाल कालावधीच्या शेवटी विकल्या गेलेल्या नसलेल्या मालमत्तेशी संबंधित होता."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "नकारात्मक मूल्यांसाठी वापरल्या जाणार्‍या डेटा फॉरमॅटमध्ये, जसे की '-409 ( 409 )', कोणता अकाउंटिंग कन्व्हेन्शन सूचित केला आहे?",
+    "answer": [
+      [
+        "नकारात्मक संख्या दर्शविण्याचा आणि त्यानंतर कंसात तिचे निरपेक्ष मूल्य (absolute value) दर्शविण्याचा हा फॉरमॅट, तोटा, खर्च किंवा मालमत्तेच्या विरुद्ध मूल्ये यांसारख्या नकारात्मक आर्थिक आकडेवारीला स्पष्टपणे आणि ठामपणे सूचित करण्यासाठी एक सामान्य अकाउंटिंग कन्व्हेन्शन आहे."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "कालावधीत एकत्रित मालमत्ता मूल्यांवर सर्वाधिक एकल नकारात्मक परिणाम दर्शवणारी कोणती माहिती आहे?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "2007 ते 2008 पर्यंत गुंतवणुकीत किती घट झाली?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

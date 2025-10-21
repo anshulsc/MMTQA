@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "'सर्व वर्षांतील' 'स्टॉक पुनर्खरेदी कार्यक्रम' आणि 'डिबेंचर रूपांतरणांवर जारी' या सर्व क्रियांच्या एकत्रित परिणामामुळे 'शेअर्स आउटस्टँडिंग' मध्ये झालेला एकूण निव्वळ बदल काय होता?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "'शेअर्स आउटस्टँडिंग' (shares outstanding) याच्या वर्षाअखेरच्या शिल्लकमध्ये 2008, 2009 किंवा 2010 यांपैकी कोणत्या वर्षांमध्ये सर्वात कमी बदल झाला?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "'shares outstanding' मध्ये सर्वात मोठी एकल वाढ घडवून आणणारा व्यवहार ओळखा आणि नंतर त्याच्या 'in treasury' शेअर्सचे त्याच्या 'shares outstanding' मूल्याशी असलेले गुणोत्तर मोजा.",
+    "answer": [
+      [
+        "व्यवहार 'acquisition of smith international inc.' हा आहे. गुणोत्तर अंदाजे 0.432 (76 / 176) आहे."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "2008 च्या सुरुवातीपासून ते 2010 च्या अखेरपर्यंत 'ट्रेझरीमधील' शेअर्सच्या शिल्लकमध्ये (in treasury' share balance) एकूण काय कल (trend) दिसतो?",
+    "answer": [
+      [
+        "'ट्रेझरीमधील' शेअर्सची संख्या चढ-उतार दर्शवते परंतु सामान्यतः कमी होत जाते (ती लहान नकारात्मक संख्या बनते). ही संख्या -138 पासून सुरू झाली, 2008 मध्ये किंचित कमी होऊन -140 झाली, 2009 मध्ये किंचित सुधारून -139 झाली आणि नंतर 2010 च्या अखेरीस स्मिथ इंटरनॅशनल इंक. (Smith International Inc.) च्या अधिग्रहणाशी संबंधित शेअर्समुळे लक्षणीयरीत्या कमी होऊन -73 झाली."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "2008 मध्ये (जानेवारी 1 आणि डिसेंबर 31 च्या शिल्लक दरम्यान) 'outstanding shares' च्या संख्येत सकारात्मक परिणाम करणाऱ्या कोणत्या ऍक्टिव्हिटीजची यादी करा.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "31 डिसेंबर 2010 रोजी 'शेअर्स आउटस्टँडिंग' (shares outstanding) च्या अंतिम शिल्लकमध्ये 'अधिग्रहण ऑफ स्मिथ इंटरनॅशनल इंक.' (acquisition of smith international inc.) व्यवहारामुळे किती प्रमाण वाढले?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "जर 'acquisition of smith international inc.' २०१० मध्ये झाले नसते, तर ३१ डिसेंबर २०१० रोजी 'shares outstanding' चे वर्षाअखेरचे शिल्लक किती असते, असे गृहीत धरून की इतर सर्व व्यवहार तसेच राहिले?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "ऑप्टिओनीजना जारी केलेल्या शेअर्सच्या संख्येत आणि कर्मचाऱ्यांच्या स्टॉक खरेदी योजनेअंतर्गत जारी केलेल्या शेअर्सच्या संख्येत सादर केलेल्या वर्षांमध्ये काही संबंध आहे का? स्पष्ट करा.",
+    "answer": [
+      [
+        "यामध्ये कोणताही सुसंगत संबंध नाही. २००८ मध्ये, खरेदी योजनेअंतर्गत जारी केलेल्या (२) शेअर्सपेक्षा ऑप्टिओनीजना अधिक शेअर्स विकले गेले (५). २००९ मध्ये, आकडे समान होते (४ आणि ४). २०१० मध्ये, खरेदी योजनेअंतर्गत जारी केलेल्या (३) शेअर्सपेक्षा ऑप्टिओनीजना अधिक शेअर्स विकले गेले (६). दोन्हीमधील प्रमाण दरवर्षी बदलते, जे थेट संबंध दर्शवत नाही."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "संतुलन नोंदी वगळता, 'issued', 'in treasury' किंवा 'shares outstanding' यापैकी कोणत्या कॉलममध्ये सर्वाधिक गैर-अंकीय किंवा विसंगत डेटा नोंदी आहेत?",
+    "answer": [
+      [
+        "'issued' कॉलम सर्वाधिक विसंगत आहे. इतर कॉलममध्ये अंकीय मूल्ये (किंवा नकारात्मकसाठी एक सुसंगत स्वरूप) आहेत, तर 'issued' कॉलममध्ये शिल्लक दर्शवणारे अंक ('1334', '1434', '100') आणि '2013' हे पुनरावृत्ती होणारे मूल्य आहे, जे त्यासोबत सूचीबद्ध असलेल्या व्यवहारांसाठी प्रमाणाशी संबंधित दिसत नाही."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "सर्व इतर व्यवहारांच्या तुलनेत 'शेअर्स थकित' शिल्लकमध्ये सर्वाधिक सकारात्मक प्रभाव टाकणारा कोणता व्यवहार इतरांपेक्षा वेगळा आहे?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "स्टॉक पुनर्खरेदी कार्यक्रमांतर्गत वर्षांनुसार 'ट्रेझरीमधील' (In Treasury) आणि 'आउटस्टँडिंग शेअर्स' (Outstanding Shares) यांचे गुणोत्तर काय आहे?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

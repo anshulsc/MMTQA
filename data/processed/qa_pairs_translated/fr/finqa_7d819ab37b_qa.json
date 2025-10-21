@@ -1,0 +1,253 @@
+[
+  {
+    "question_id": "finqa_7d819ab37b_001",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Quelle catégorie de dépenses, hors totaux, a connu la plus forte diminution en pourcentage entre l'exercice clos en décembre 2010 et l'exercice clos en décembre 2012 ?",
+    "answer": [
+      [
+        "occupancy"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9",
+      "A10",
+      "B10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_002",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Quelles étaient les 'dépenses d'exploitation totales' moyennes sur les trois années fournies dans le tableau, en millions de dollars ?",
+    "answer": [
+      [
+        "$ 23955.67"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_003",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Pour l'année avec le plus grand nombre d'employés à la fin de la période, quelles étaient les dépenses de rémunération et d'avantages sociaux par employé, en millions de dollars ?",
+    "answer": [
+      [
+        "$ 0.4307 million"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_004",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance des \"dépenses totales hors rémunération\" de 2010 à 2012 et déduisez une raison potentielle de cette tendance en vous basant sur d'autres données du tableau.",
+    "answer": [
+      [
+        "Les \"dépenses totales hors rémunération\" montrent une tendance à la baisse, légère mais constante, passant de 10 428 millions de dollars en 2010 à 10 419 millions de dollars en 2011, puis à 10 012 millions de dollars en 2012. Cette tendance est en corrélation avec la diminution constante du \"personnel total en fin de période\" sur la même période, suggérant qu'une réduction des effectifs pourrait avoir entraîné une baisse des coûts connexes hors rémunération, tels que les frais \"d'occupation\", qui ont également diminué de manière significative."
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "C11",
+      "D11",
+      "B13",
+      "C13",
+      "D13",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_005",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Listez toutes les catégories de dépenses (hors totaux) où la dépense en 2012 était supérieure à la dépense en 2011.",
+    "answer": [
+      [
+        "compensation and benefits"
+      ],
+      [
+        "insurance reserves1"
+      ],
+      [
+        "other expenses"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_006",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Quelle proportion des 'dépenses d'exploitation totales' en 2010 était attribuée à la 'rémunération et avantages sociaux' ?",
+    "answer": [
+      [
+        "58.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_007",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Si les 'autres charges' en 2012 avaient été inférieures de 20 %, quel aurait été le nouveau 'total des charges d'exploitation' pour cette année-là, en supposant que tous les autres chiffres soient restés constants ?",
+    "answer": [
+      [
+        "$ 22469"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "B12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_008",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "open_ended_reasoning",
+    "question": "Y a-t-il une corrélation discernable entre le 'nombre total d'employés à la fin de la période' et les dépenses d''occupation' de 2010 à 2012 ? Expliquez votre raisonnement.",
+    "answer": [
+      [
+        "Oui, il existe une forte corrélation positive. Alors que le 'nombre total d'employés à la fin de la période' a diminué régulièrement de 35 700 en 2010 à 32 400 en 2012, les dépenses d''occupation' ont également connu une baisse constante et significative de 1 086 millions de dollars à 875 millions de dollars sur la même période. Cela suggère qu'une main-d'œuvre moins nombreuse nécessitait moins d'espace de bureau ou a conduit à la consolidation des installations, réduisant ainsi les coûts d'occupation."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_009",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Quelle ligne du tableau contient des valeurs numériques pour 2011 et 2012 qui sont incohérentes avec le format monétaire ('$ X') utilisé pour la plupart des autres postes de dépenses ?",
+    "answer": [
+      [
+        "u.k . bank payrolltax"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_010",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Identifiez la catégorie de dépenses qui a représenté l'anomalie la plus significative en 2010, où sa valeur était considérablement plus élevée que les deux années suivantes.",
+    "answer": [
+      [
+        "compensation and benefits"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7d819ab37b_011",
+    "table_id": "finqa_7d819ab37b",
+    "question_type": "value",
+    "question": "Au cours de quelle année les provisions pour assurance étaient-elles les plus élevées ?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

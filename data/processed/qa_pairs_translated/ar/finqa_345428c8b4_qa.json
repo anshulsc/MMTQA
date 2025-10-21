@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "ما هو صافي التغير الإجمالي في 'الأسهم القائمة' الناتج عن جميع أنشطة 'برامج إعادة شراء الأسهم' و 'الإصدار عند تحويل سندات قابلة للتحويل' مجتمعة عبر جميع السنوات؟",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "أي فترة عامًا بعد عام (2008، 2009، أو 2010) شهدت أصغر تغيير مطلق في رصيد نهاية العام لـ \"الأسهم القائمة\"؟",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "حدد المعاملة التي تسببت في أكبر زيادة فردية في \"الأسهم القائمة\"، ثم احسب نسبة أسهمها \"في الخزينة\" إلى قيمة \"أسهمها القائمة\".",
+    "answer": [
+      [
+        "المعاملة هي \"الاستحواذ على شركة سميث إنترناشونال\". النسبة التقريبية هي 0.432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "صف الاتجاه العام لرصيد الأسهم \"في الخزينة\" من بداية عام 2008 إلى نهاية عام 2010.",
+    "answer": [
+      [
+        "يُظهر عدد الأسهم \"في الخزينة\" اتجاهًا متذبذبًا ولكنه متناقص بشكل عام (يصبح رقمًا سالبًا أصغر). بدأ بـ -138، وانخفض قليلاً إلى -140 في عام 2008، وتعافى قليلاً إلى -139 في عام 2009، ثم انخفض بشكل كبير إلى -73 بنهاية عام 2010، ويرجع ذلك إلى حد كبير إلى الأسهم المرتبطة بالاستحواذ على شركة سميث إنترناشونال."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "اذكر جميع الأنشطة التي وقعت في عام 2008 (بين الأرصدة في 1 يناير و 31 ديسمبر) والتي كان لها تأثير إيجابي على عدد 'الأسهم القائمة'.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "ما هي نسبة الرصيد النهائي لـ 'الأسهم القائمة' في 31 ديسمبر 2010، التي تمت إضافتها بواسطة معاملة 'الاستحواذ على شركة سميث إنترناشيونال'؟",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "إذا لم يكن \"الاستحواذ على شركة سميث إنترناشونال\" قد حدث في عام 2010، فماذا كان سيكون رصيد نهاية العام لـ \"الأسهم القائمة\" في 31 ديسمبر 2010، مع افتراض بقاء جميع المعاملات الأخرى كما هي؟",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "هل هناك علاقة ملحوظة بين عدد الأسهم المصدرة للمفوض لهم وعدد الأسهم المصدرة بموجب خطة شراء أسهم الموظفين في السنوات المعروضة؟ اشرح.",
+    "answer": [
+      [
+        "لا توجد علاقة ثابتة. في عام 2008، تم بيع أسهم للمفوض لهم (5) أكثر من تلك المصدرة بموجب خطة الشراء (2). في عام 2009، كانت الأرقام متساوية (4 و 4). في عام 2010، تم بيع أسهم للمفوض لهم (6) أكثر من تلك المصدرة بموجب خطة الشراء (3). تختلف النسبة بين الاثنين كل عام، مما يشير إلى عدم وجود ارتباط مباشر."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "باستثناء صفوف الرصيد، أي عمود، 'الصادر'، 'في الخزينة'، أو 'الأسهم القائمة'، يحتوي على أكبر عدد من الإدخالات غير الرقمية أو غير المتسقة؟",
+    "answer": [
+      [
+        "عمود 'الصادر' هو الأكثر عدم اتساقًا. فبينما تحتوي الأعمدة الأخرى على قيم رقمية (أو تنسيق متسق للسالب)، يحتوي عمود 'الصادر' على مزيج من الأرقام التي تبدو أنها تمثل أرصدة ('1334'، '1434'، '100') وقيمة متكررة '2013' التي لا تبدو أنها تتوافق مع كمية للمعاملات المدرجة مقابلها."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "ما هي الصفقة الوحيدة التي تبرز كقيمة متطرفة من خلال تأثيرها الإيجابي الأكثر أهمية على رصيد 'الأسهم القائمة' مقارنة بالتأثير المتوسط لجميع المعاملات الأخرى؟",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "ما هي نسبة الأسهم لدى الخزينة إلى الأسهم القائمة في برنامج إعادة شراء الأسهم على مر السنين؟",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

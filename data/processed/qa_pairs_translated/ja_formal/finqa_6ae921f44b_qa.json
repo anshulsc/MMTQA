@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "'その他の包括（損失）収益（再分類前）' の一部として、最も大きな絶対額の損失を経験した財務カテゴリーはどれですか？",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "個別のカテゴリーにおける「その他包括損失から再分類された金額」の合計はいくらでしたか？",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "2019年11月2日時点の期末残高の絶対値が最も小さかった項目について、2018年11月3日時点の期首残高はいくらでしたか？",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "期間の初めから終わりにかけて、「合計」の累積その他包括損失の全体的な傾向について説明してください。",
+    "answer": [
+      [
+        "総累積損失は期間中に著しく悪化し、-58,440ドルから-187,799ドルに増加しました。これは、期間開始時の累積損失の3倍以上となる、追加の純損失129,359ドルを意味します。"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "「その他の包括（損失） income」において純損失となったすべてのカテゴリーについて、2019年11月2日時点での合計残高はいくらでしたか？",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "2019年11月2日時点における、総負残高のうち「デリバティブの未実現保有利益（損失）」が占める割合はいくらですか？",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "「年金制度」の「その他の包括（損失）利益」が損失ではなく24,344の利益であった場合、2019年11月2日時点での新しい期末残高はいくらになりますか？",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "'その他包括（損失） income' の最終的な項目と '再分類前のその他包括（損失） income' の項目で、符号（正/負）に一貫した関係はありますか？",
+    "answer": [
+      [
+        "はい、4つのカテゴリーすべてにおいて関係は一貫しています。「外国通貨」および「デリバティブ」、「年金制度」の項目では、両方の行項目で値は否定的です。「売却可能証券」の項目では、両方の行項目で値は肯定的です。したがって、再分類前の所得の符号は、期間の最終的な純包括所得の符号と一貫して一致します。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "表の中で、合計を除いて最も極端な値（絶対値が最も大きい値）を表す個別の項目はどれですか？",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "繰越ロジック（期末残高 = 期首残高 + 「その他の包括（損失）利益」）を使用して、報告値に数学的な不整合がある財務カテゴリを特定してください。",
+    "answer": [
+      [
+        "「売却可能有価証券の未実現保有利益（損失）」カテゴリに不整合があります。この期首残高 -10（セルC1）と「その他の包括（損失）利益」10（セルC5）を合計すると、計算上の期末残高は0となりますが、これは報告されている期末残高2,014（セルC6）と一致しません。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "2018年から2019年にかけて、年金制度はいくら減少しましたか？",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

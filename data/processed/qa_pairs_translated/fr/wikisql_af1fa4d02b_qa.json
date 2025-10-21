@@ -1,0 +1,264 @@
+[
+  {
+    "question_id": "wikisql_af1fa4d02b_001",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Quel scénariste a le plus d'épisodes inscrits à son nom dans ce tableau, seul ou en équipe ?",
+    "answer": [
+      [
+        "Michele J. Wolff"
+      ],
+      [
+        "Gene Braunstein"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E5",
+      "E13",
+      "E10",
+      "E2",
+      "E9",
+      "E15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_002",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Combien d'épisodes listés ont été écrits par une équipe de exactement trois auteurs ?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "E6",
+      "E7",
+      "E8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_003",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Quelle est la date de diffusion du premier épisode écrit par l'équipe qui a également écrit \"Who's the Boss?\" ?",
+    "answer": [
+      [
+        "October19,1991"
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "E12",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_004",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez le schéma de diffusion des épisodes en novembre 1991. Était-il cohérent, et qu'implique-t-il ?",
+    "answer": [
+      [
+        "Le schéma de diffusion en novembre 1991 était très cohérent. Les épisodes ont été diffusés les 2, 9, 16 et 23 novembre. Les dates sont espacées de sept jours exactement, ce qui implique un calendrier de diffusion hebdomadaire régulier, probablement le même jour de la semaine (samedi)."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_005",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Listez les titres de tous les épisodes diffusés en 1992 et écrits par une seule personne.",
+    "answer": [
+      [
+        "Tony Micelli, This is Your Other Life"
+      ],
+      [
+        "Allergic to Love"
+      ],
+      [
+        "Tony and the Honeymooners"
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "E13",
+      "C13",
+      "E14",
+      "C14",
+      "E15",
+      "C15"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_006",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Quel pourcentage des épisodes listés ont été écrits par une équipe de deux personnes ou plus ?",
+    "answer": [
+      [
+        "46.7%"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "E6",
+      "E7",
+      "E8",
+      "E10",
+      "E11",
+      "E12",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_007",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Si l'épisode \"Misery\" avait été écrit par la même équipe que \"Death and Love (Part 1)\", quel serait le nombre total d'épisodes écrits par l'équipe 'Bob Rosenfarb, Danny Kallis & Phil Doran' ?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C7",
+      "E7",
+      "E6",
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_008",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "open_ended_reasoning",
+    "question": "Y a-t-il une tendance observée à attribuer la même équipe d'écriture à des parties consécutives d'un épisode en plusieurs parties ? Justifiez votre réponse avec des données.",
+    "answer": [
+      [
+        "Oui, sur la base des données disponibles, il existe une tendance claire. Le seul épisode en plusieurs parties listé, 'Death and Love', a à la fois 'Part 1' et 'Part 2' crédités à la même équipe d'écriture : 'Bob Rosenfarb, Danny Kallis & Phil Doran'. Cela suggère un choix délibéré pour maintenir la cohérence narrative et stylistique tout au long de l'arc narratif."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "E7",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_009",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Quelle colonne numérique contient des identifiants uniques pour chaque entrée, mais présente des écarts évidents dans leur séquence, indiquant que tous les épisodes de la saison ne sont pas listés ?",
+    "answer": [
+      [
+        "Series #"
+      ],
+      [
+        "Season #"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_010",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Identifiez le titre du premier épisode diffusé après la plus longue interruption dans le programme de diffusion montré dans le tableau.",
+    "answer": [
+      [
+        "Tony, Can You Spare a Dime?"
+      ]
+    ],
+    "evidence_cells": [
+      "F9",
+      "F10",
+      "C10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_011",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "Quel épisode a été diffusé pour la première fois le 12 octobre 1991 ?",
+    "answer": [
+      [
+        "\"Misery\""
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

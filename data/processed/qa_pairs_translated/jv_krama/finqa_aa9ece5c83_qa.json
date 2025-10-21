@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Set data finansial pundi, ingkang kawiwitan saking kolom B utawi ingkang wonten ing kolom E, gadhah 'as adjusted' operating income ingkang langkung inggil kanggé warsa ingkang pungkasan 31 Desember 2016?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pinten jumlah nett sedaya penyesuaian 'owah-owahaning prinsip akuntansi' ing format dolar kangge set data angka satunggal (kolom C)?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pinten margin EBITDA 'as filed' kangge set data ingkang 'change in accounting principle' kangge 'interest income' menika '-414 ( 414 )'?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Kanggo set data pisanan (kolom B-D), pinten rasio 'as filed' net income kaliyan 'as filed' adjusted EBITDA, dibunderaken ngantos tiga desimal?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Kanggo kumpulan data sing disajikake ing kolom B nganti D, identifikasi metrik ing ngendi nilai 'as adjusted' luwih cilik tinimbang nilai 'as filed'.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Wonten ing baris 'net income as a percentage of service revenue', pundi nilai 'change in accounting principle' ingkang katingal anomali, lan ngapa?",
+    "answer": [
+      [
+        "Nilai 'change in accounting principle' inggih menika '2014% ( 2014 % )' wonten ing sel C4 lan F4 ingkang katingal anomali. Kangge kalih set data menika, 'net income as a percentage of service revenue' tetep sami antawisipun angka 'as filed' lan 'as adjusted' ( saking 5% dados 5% lan 3% dados 3% ). Owah-owahan ingkang logis kedahipun 0%, saéngga '2014%' menika katingal jumbuh, mbok bilih amargi kalepatan anggenipun ngetik data."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Menawi 'owah-owahaning pranatan akuntansi' kanggé panghasilan operasional wonten ing data set kaping kalih menika awit saking kirangipun $50 yuta tinimbang nilainipun ingkang kacathet, pundi 'kados ingkang dipun selarasaken' panghasilan operasional ingkang énggal?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Punapa wonten gayutan ingkang ajeg antawisipun penyesuaian akuntansi kanggé nglemprakaken kêrja lan gêdhene EBITDA ing sakabèhaning dhata?",
+    "answer": [
+      [
+        "Inggih, wonten gayutan positif ingkang ajeg. Ing set data sepisanan, owah-owahan kanggé nglemprakaken kêrja (+$248) sami kaliyan owah-owahan kanggé gêdhene EBITDA (+$248). Ing set data kapindho, owah-owahan kanggé nglemprakaken kêrja (+$414) ugi sami kaliyan owah-owahan kanggé gêdhene EBITDA (+$414). Punika nedahaken bilih prinsip akuntansi ingkang mangaruhi nglemprakaken kêrja tumunten mili dhateng gêdhene EBITDA kanthi gunggung ingkang sami."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Menapa masalah struktural ingkang paling wigatos wonten ing judhul kolom ingkang saged nyebapaken bingung nalika njarwani tabel?",
+    "answer": [
+      [
+        "Masalah struktural ingkang utami inggih menika wontenipun duplikasi judhul kolom tanpa pengelompokan ingkang langkung inggil. Judhul 'year ended december 31 2016 as filed' lan 'year ended december 31 2016 change in accounting principle' dipunginakaken kanggé kalih set kolom ingkang benten (B lan E; C lan F). Ambiguwitas menika meksa panganggo kanggé nyimpulaken bilih kalih entitas utawi skenario ingkang benten dipunbandingaken, tinimbang dipunandharaken kanthi cetha."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Kanthi nggunakake 'as adjusted' nilai, hitung layanan pendapatan sing tersirat kanggo loro set data (Adjusted EBITDA / Adjusted EBITDA margin) lan lapurna bedane ing yuta antarane loro mau (set pisanan dikurangi set kapindho), dibunderake menyang yuta sing paling cedhak.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pinten owah-owahanipun operating income (ing yuta) kangge set data sepisanan sasampunipun penyesuaian saking 'As Filed' dhateng 'As Adjusted'?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

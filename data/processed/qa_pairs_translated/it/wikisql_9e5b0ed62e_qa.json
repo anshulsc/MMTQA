@@ -1,0 +1,318 @@
+[
+  {
+    "question_id": "wikisql_9e5b0ed62e_001",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Quale giocatore, David West o Chris Paul, ha avuto un numero totale di punti più alto nelle partite in cui sono stati indicati come miglior marcatore?",
+    "answer": [
+      [
+        "David West"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_002",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Qual è stata l'affluenza media per le partite giocate alla New Orleans Arena?",
+    "answer": [
+      [
+        "16821"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H4",
+      "H5",
+      "H6",
+      "H8",
+      "H10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_003",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Nella partita con la massima affluenza di pubblico, chi ha guidato la squadra negli assist e con quanti?",
+    "answer": [
+      [
+        "Chris Paul (6)"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_004",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza la tendenza delle prestazioni della squadra nelle ultime quattro partite registrate nella tabella (Partite 11-14).",
+    "answer": [
+      [
+        "Le prestazioni della squadra hanno mostrato una significativa tendenza positiva. Hanno vinto tutte e quattro le loro ultime partite registrate, inanellando una serie vincente. Ciò è dimostrato dalla 'W' nella colonna Punteggio per ogni partita dalla Partita 11 alla 14, che ha migliorato il loro record da 5-5 dopo la Partita 10 a 9-5 dopo la Partita 14."
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "I9",
+      "D10",
+      "I10",
+      "D11",
+      "I11",
+      "D12",
+      "I12",
+      "I8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_005",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Elenca gli avversari per tutte le partite in cui la squadra ha perso e la sede era il New Orleans Arena.",
+    "answer": [
+      [
+        "Atlanta"
+      ],
+      [
+        "L.A. Lakers"
+      ],
+      [
+        "Sacramento"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "H2",
+      "C5",
+      "D5",
+      "H5",
+      "C8",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_006",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Quale proporzione del totale delle partite registrate è terminata con una sconfitta?",
+    "answer": [
+      [
+        "41.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_007",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Se la partecipazione per ogni partita in trasferta (simbolo '@' nella colonna Team) fosse stata superiore del 10%, quale sarebbe stata la partecipazione totale in tutte le 12 partite?",
+    "answer": [
+      [
+        "197307"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "H3",
+      "C7",
+      "H7",
+      "C9",
+      "H9",
+      "C11",
+      "H11",
+      "C12",
+      "H12",
+      "H1",
+      "H2",
+      "H4",
+      "H5",
+      "H6",
+      "H8",
+      "H10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_008",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una relazione costante tra il numero di rimbalzi del leader della squadra e l'esito della partita (Vittoria/Sconfitta)?",
+    "answer": [
+      [
+        "Non esiste una relazione costante. Il numero di rimbalzi del leader varia ampiamente sia per le vittorie che per le sconfitte. Ad esempio, la squadra ha vinto con soli 6 rimbalzi (Partita 3) e fino a 10 (Partita 6, 12, 13). Hanno anche perso partite in cui il leader dei rimbalzi ne aveva 7 (Partita 4, 5) e vinto partite con lo stesso numero (Partita 8). Il conteggio più alto di rimbalzi (12 da David West) si è verificato in una sconfitta (Partita 7), indicando che una prestazione dominante nei rimbalzi da parte di un singolo giocatore non garantisce una vittoria."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11",
+      "D12",
+      "F12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_009",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Quale delle tre colonne di performance dei giocatori ('Punti più alti', 'Rimbalzi più alti', 'Assist più alti') presenta la minor diversità di giocatori capolista?",
+    "answer": [
+      [
+        "High assists"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_010",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Quale partita rappresenta un'eccezione per David West in termini di punti segnati, rispetto alle sue altre partite ad alto punteggio in questo periodo?",
+    "answer": [
+      [
+        "Game 12"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "E1",
+      "E4",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_011",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale giocatore appare più costantemente nella colonna dei punti più alti?",
+    "answer": [
+      [
+        "David West appare in quasi ogni partita."
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E4",
+      "E6",
+      "E8",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

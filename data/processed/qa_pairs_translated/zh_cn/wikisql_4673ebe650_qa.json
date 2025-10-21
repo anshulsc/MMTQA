@@ -1,0 +1,357 @@
+[
+  {
+    "question_id": "wikisql_4673ebe650_001",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "表中包含值“February”的数据单元格总数是多少？",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_002",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "将 '2002 :' 行（第 2 行）中的数据与列标题（第 0 行）进行比较。除第一列外，主要的结构区别是什么？",
+    "answer": [
+      [
+        "主要的结构区别在于，'2002 :' 行是数据主体的一部分，而标题定义了表的模式。尽管从第二列开始的值（'一月' 到 '十二月'）在标题行和 '2002 :' 行中是相同的，但它们的功能不同：一个是标签，另一个是数据点。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "K2",
+      "L2",
+      "M2",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_003",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "在比“2011：”条目高四行的那一行中，第九列列出的月份是什么？",
+    "answer": [
+      [
+        "August"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_004",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "描述数据集中第一列所示年份的顺序模式。",
+    "answer": [
+      [
+        "第一列显示了一个持续的时间进程，每一行代表一个连续的年份，从“2001 :”开始，到“2012 :”结束。该序列每行递增一岁。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_005",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "列出第五列出现“April”且第十二列出现“November”的所有年份。",
+    "answer": [
+      [
+        "2001 :",
+        "2002 :",
+        "2003 :",
+        "2004 :",
+        "2005 :",
+        "2006 :",
+        "2007 :",
+        "2008 :",
+        "2009 :",
+        "2010 :",
+        "2011 :",
+        "2012 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "L1",
+      "A2",
+      "E2",
+      "L2",
+      "A3",
+      "E3",
+      "L3",
+      "A4",
+      "E4",
+      "L4",
+      "A5",
+      "E5",
+      "L5",
+      "A6",
+      "E6",
+      "L6",
+      "A7",
+      "E7",
+      "L7",
+      "A8",
+      "E8",
+      "L8",
+      "A9",
+      "E9",
+      "L9",
+      "A10",
+      "E10",
+      "L10",
+      "A11",
+      "E11",
+      "L11",
+      "A12",
+      "E12",
+      "L12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_006",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "如果表格扩展到包含“2013”的一行，对应“October”列的单元格的预期值是多少？",
+    "answer": [
+      [
+        "October"
+      ]
+    ],
+    "evidence_cells": [
+      "K0",
+      "K1",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_007",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "从第二列开始，列标题（从第二列开始）与它们各自列中的数据在整个表格中存在什么关系？",
+    "answer": [
+      [
+        "存在直接的一一对应关系。对于从第二列（“一月”）到最后一列（“十二月”）的任何给定列，该列中的每个数据单元格都包含一个与该列标题完全相同的字符串值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_008",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "在整个表格中，是否有任何数据单元格的值与其列标题或第一列中建立的“YYYY :”格式不匹配？分析数据是否存在任何不一致之处。",
+    "answer": [
+      [
+        "没有，数据中没有异常值或不一致之处。第一列中的每个单元格都遵循连续年份的“YYYY :”格式，而从第二列到最后一列的每个单元格都与其对应的月份名称标题完全匹配。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_009",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "数据主体中有多少比例的列包含月份名称？",
+    "answer": [
+      [
+        "0.923"
+      ]
+    ],
+    "evidence_cells": [
+      "A0",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_010",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "位于最后一行和“July”列交叉处的数值是多少？",
+    "answer": [
+      [
+        "July"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "H0",
+      "H12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_011",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "这张表格中 2008 年之后紧接着的是哪一年？",
+    "answer": [
+      [
+        "2009 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Sequential/Temporal Reasoning"
+  }
+]

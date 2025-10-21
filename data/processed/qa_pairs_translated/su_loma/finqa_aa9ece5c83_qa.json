@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Set data keuangan mana, anu mimiti dina kolom B atanapi anu dina kolom E, anu ngagaduhan 'as adjusted' operating income anu langkung luhur pikeun taun anu berakhir 31 Désémber 2016?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Naon jumlah bersih tina sagala 'robah prinsip akuntansi' dollar-based pikeun set data kahiji (kolom C)?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Sabaraha persén margin EBITDA anu disaluyukeun 'as filed' pikeun kumpulan data dimana 'robah prinsip akuntansi' pikeun panghasilan bunga nyaéta '-414 ( 414 )'?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pikeun kumpulan data kahiji (kolom B-D), naon rasio panghasilan bersih 'as filed' kana 'adjusted EBITDA' 'as filed', dibulatan ka tilu tempat desimal?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Kanggo kumpulan data anu disayogikeun dina kolom B dugi ka D, tangtukeun metrik dimana nilai 'salaku disaluyukeun' langkung alit tibatan nilai 'salaku diajukeun'.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Dina baris 'net income as a percentage of service revenue', nilai 'change in accounting principle' mana anu katingalina teu normal, sarta kunaon?",
+    "answer": [
+      [
+        "Nilai 'change in accounting principle' nyaéta '2014% ( 2014 % )' dina sél C4 jeung F4 mah teu normal. Pikeun duanana data set, 'net income as a percentage of service revenue' tetep sarua antara angka 'as filed' jeung 'as adjusted' (5% ka 5% jeung 3% ka 3%, sabalikna). Parobahan nu logis kuduna 0%, nu matak '2014%' téh jelas béda, meureun alatan kasalahan nalika asupkeun data."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Upami 'robah prinsip akuntansi' kanggo panghasilan operasional dina kumpulan data kadua mangrupikeun panurunan $ 50 juta tinimbang nilai anu ditampilkeun, sabaraha panghasilan operasional 'sakumaha disaluyukeun' anu anyar?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Naha aya hubungan anu konsisten antara pangaluyuan akuntansi pikeun pamiceunan operasional sareng EBITDA anu disaluyukeun dina dua set data?",
+    "answer": [
+      [
+        "Leres, aya hubungan positif anu konsisten. Dina kumpulan data kahiji, parobihan pikeun pamiceunan operasional (+$248) sami sareng parobihan pikeun EBITDA anu disaluyukeun (+$248). Dina kumpulan data kadua, parobihan pikeun pamiceunan operasional (+$414) ogé sami sareng parobihan pikeun EBITDA anu disaluyukeun (+$414). Ieu nunjukkeun yén prinsip akuntansi anu mangaruhan pamiceunan operasional langsung ngalir ka EBITDA anu disaluyukeun dina jumlah anu sami."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Naon masalah struktural utama dina judul kolom anu tiasa nyababkeun kabingungan nalika napsirkeun tabel?",
+    "answer": [
+      [
+        "Masalah struktural utamana nyaéta duplikasi judul kolom tanpa pangelompokan tingkat luhur. Judul 'year ended december 31 2016 as filed' jeung 'year ended december 31 2016 change in accounting principle' dipaké pikeun dua sét kolom nu béda (B jeung E; C jeung F). Ambiguitas ieu maksa pamaké pikeun nyimpulkeun yén dua entitas atawa skenario nu misah keur dibandingkeun, tinimbang eta dinyatakeun sacara eksplisit."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Ngagunakeun nilai 'as adjusted', hitung jasa pendapatan anu tersirat pikeun dua set data (Adjusted EBITDA / Adjusted EBITDA margin) jeung laporkeun bédana dina jutaan antara dua (set kahiji dikurangan set kadua), dibuleudkeun ka jutaan anu pangdeukeutna.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Kunaon pendapatan operasional (dina jutaan) robah dina set data kahiji sanggeus adjustment tina 'As Filed' ka 'As Adjusted'?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "표에 나열된 모든 풍력 발전 프로젝트에서 총 발전량(MW)은 얼마입니까?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "프로젝트 목록에서 석탄 또는 수력 발전 중 어떤 연료 유형이 더 높은 평균 총 메가와트 출력을 가지고 있습니까?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "재생 가능 연료원(수력 또는 풍력)을 사용하는 중국에 위치한 모든 프로젝트의 이름을 나열하십시오.",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "칠레에 위치한 발전 용량(Gross MW)이 가장 높은 프로젝트에 대해 AES에 귀속되는 유효 발전 용량(Gross MW)은 얼마입니까?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "AES가 100% 지분을 보유한 프로젝트에서 발생하는 총 Gross MW의 몇 퍼센트가 기여됩니까?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "가장 이례적인 총 발전량(Gross MW)을 가진 프로젝트를 식별하고, 해당 프로젝트가 데이터셋의 다른 모든 프로젝트와 어떻게 다른지 설명해 주십시오.",
+    "answer": [
+      [
+        "가장 중요한 이상치(outlier)는 'ballylumford' 프로젝트입니다. 이 프로젝트의 총 발전량(Gross MW)은 1246으로, 다음으로 큰 프로젝트인 'jhrh'(379MW)보다 세 배 이상 많고, 전체 데이터셋의 중간값인 49MW보다 25배 이상 많습니다. 이 엄청난 규모의 차이는 다른 모든 프로젝트에 비해 발전 용량이 이례적임을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "AES의 모든 터키 프로젝트 지분이 현재 수준에서 두 배로 증가한다면, AES에 귀속되는 터키발 총 유효 총 발전량(Gross MW)은 얼마입니까?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터를 바탕으로 볼 때, 프로젝트의 총 발전 용량(Gross MW)과 AES의 지분율 사이에 관찰 가능한 상관관계가 있습니까? 귀하의 추론을 설명해 주십시오.",
+    "answer": [
+      [
+        "프로젝트의 총 발전 용량(Gross MW)과 AES의 지분율 사이에는 명확하거나 일관된 상관관계가 없습니다. 예를 들어, 가장 높은 총 발전 용량(1246 MW)을 가진 프로젝트('ballylumford')는 100%의 지분을 가지고 있지만, 두 번째로 높은('jhrh', 379 MW)는 35%의 낮은 지분을 가지고 있습니다. 반대로, 매우 낮은 MW 프로젝트('north rhins', 22 MW)도 100%의 지분을 가지고 있습니다. 다양한 프로젝트 규모에 걸쳐 지분율이 광범위하게 분포되어 있다는 점은 프로젝트 규모가 AES의 투자 수준을 직접적으로 결정하지 않음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "'aes equity interest ( percent rounded )' 열에 중복 정보가 포함되어 있습니다. 이 중복의 패턴을 설명해주십시오.",
+    "answer": [
+      [
+        "해당 열은 각 셀에 백분율 값이 표시된 후 괄호 안에 동일한 값이 반복되는 패턴을 보입니다. 예를 들어 '71% ( 71 % )'와 같습니다. 괄호 안의 정보는 그 앞에 오는 정보의 직접적인 복사본입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "표에 여러 프로젝트가 나열된 국가들 중에서, AES에 귀속되는 가장 낮은 총 유효 발전 용량(Gross MW)을 가진 국가는 어디입니까?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "주요 연료로 풍력을 사용하는 프로젝트는 몇 개입니까?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

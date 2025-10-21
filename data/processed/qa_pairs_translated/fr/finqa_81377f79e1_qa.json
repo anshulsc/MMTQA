@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_81377f79e1_001",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Au cours de quelle année les « recouvrements bruts » ont-ils été les plus bas parmi les trois années présentées ?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_002",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Quelle a été la somme totale des \"augmentations (diminutions) nettes de réserves\" pour les trois années de 2007 à 2009 ?",
+    "answer": [
+      [
+        "23588"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_81377f79e1_003",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Quelle était la 'provision totale pour pertes sur créances' pour l'année qui a connu la 'provision pour pertes sur prêts en début d'année' la plus élevée ?",
+    "answer": [
+      [
+        "$ 38760"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_004",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez la tendance d'une année sur l'autre des \"pertes brutes sur prêts\" de 2007 à 2009.",
+    "answer": [
+      [
+        "Les \"pertes brutes sur prêts\" ont démontré une tendance ascendante significative et constante de 2007 à 2009. Les pertes sont passées de 11 864 millions de dollars en 2007 à 20 760 millions de dollars en 2008, puis à 32 784 millions de dollars en 2009, soit près du triple sur la période de deux ans. Cela indique une détérioration de la qualité des prêts et un environnement de crédit qui s'aggrave."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_005",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Identifiez toutes les années où la 'provision pour les engagements de prêt non financés' était un montant positif, indiquant une augmentation de la provision.",
+    "answer": [
+      [
+        "2009"
+      ],
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_006",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "En 2009, quel pourcentage de la 'provision totale pour pertes sur créances' les 'augmentations (diminutions) nettes spécifiques des provisions' représentaient-elles ? Fournissez la réponse arrondie à deux décimales.",
+    "answer": [
+      [
+        "5.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_81377f79e1_007",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Si les 'gross recoveries' en 2009 avaient augmenté de 10 %, quel aurait été le 'net credit ( losses ) recoveries ( ncls )' recalculé pour cette année-là, en millions de dollars ?",
+    "answer": [
+      [
+        "-30536.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_008",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez la relation entre la magnitude des \"ncls\" (pertes nettes de crédit) et le \"total provision pour pertes de crédit\" sur la période de trois ans. Y a-t-il une corrélation discernable ?",
+    "answer": [
+      [
+        "Oui, il existe une forte corrélation positive. À mesure que la magnitude des \"ncls\" (pertes nettes de crédit) augmente chaque année, passant de 9 926 millions de dollars en 2007 à 30 741 millions de dollars en 2009, le \"total provision pour pertes de crédit\" suit également une tendance à la hausse, passant de 16 832 millions de dollars à 38 760 millions de dollars. Cela suggère qu'à mesure que la banque connaît des pertes nettes plus importantes, elle augmente proportionnellement sa provision pour couvrir ces pertes et les pertes futures anticipées."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_81377f79e1_009",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Le tableau implique une relation entre la fin d'année et le début de l'année suivante pour la \"provision pour pertes sur prêts\". La valeur de la \"provision pour pertes sur prêts en fin d'année\" pour 2007 et 2008 correspond-elle correctement à la \"provision pour pertes sur prêts en début d'année\" pour 2008 et 2009, respectivement ?",
+    "answer": [
+      [
+        "Oui, l'intégrité structurelle est maintenue. La \"provision pour pertes sur prêts en fin d'année\" pour 2007 (16 117 $) est identique à la \"provision pour pertes sur prêts en début d'année\" pour 2008. De même, la provision de fin d'année pour 2008 (29 616 $) correspond à la provision de début d'année pour 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_010",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Lorsque l'on examine les « augmentations (diminutions) nettes de réserves spécifiques » sur les trois années, quelle année se distingue comme une valeur aberrante significative par rapport aux autres ?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_81377f79e1_011",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Quelle était la provision totale pour les prêts, les leasing et les engagements de prêt non financés en 2009 ?",
+    "answer": [
+      [
+        "$37,190"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

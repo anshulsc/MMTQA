@@ -1,0 +1,310 @@
+[
+  {
+    "question_id": "wikisql_592ca23134_001",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Kabupaten mana yang selisih persentase poinnya paling tipis antara Kerry dan Bush?",
+    "answer": [
+      [
+        "Winnebago"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_002",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Berapa total suara yang didapat Bush di semua county yang terdaftar?",
+    "answer": [
+      [
+        "534400"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21",
+      "E22"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_592ca23134_003",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Di county dengan jumlah total suara paling sedikit (Kerry# + Bush# + Others#), berapa persentase suara Kerry?",
+    "answer": [
+      [
+        "50.8%"
+      ]
+    ],
+    "evidence_cells": [
+      "A22",
+      "C22",
+      "E22",
+      "G22",
+      "B22"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_004",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Sebutin dong semua county yang Bush dapet lebih dari 60% suara DAN Kerry dapet kurang dari 5.000 suara.",
+    "answer": [
+      [
+        "Cumberland"
+      ],
+      [
+        "Johnson"
+      ],
+      [
+        "Ford"
+      ],
+      [
+        "Effingham"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "C3",
+      "A8",
+      "D8",
+      "C8",
+      "A9",
+      "D9",
+      "C9",
+      "A12",
+      "D12",
+      "C12",
+      "A15",
+      "D15",
+      "C15",
+      "A16",
+      "D16",
+      "C16",
+      "A17",
+      "D17",
+      "C17"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_005",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Berapa persen total suara Kerry dari semua kabupaten yang terdaftar berasal dari satu kabupaten di mana dia mendapatkan suara terbanyak?",
+    "answer": [
+      [
+        "41.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C20",
+      "C21",
+      "C22"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_592ca23134_006",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalau suara 'Lainnya' di county Winnebago dialokasikan ulang ke Kerry, apakah pemenangnya di county itu akan berubah?",
+    "answer": [
+      [
+        "Ya, pemenangnya akan berubah dari Bush ke Kerry. Awalnya, Bush menang dengan selisih 1.042 suara (60.782 vs 59.740). Mengalokasikan ulang 903 suara 'Lainnya' ke Kerry akan memberinya 60.643 suara, yang masih lebih sedikit dari total suara Bush. Oleh karena itu, Bush tetap akan menang, tapi dengan selisih yang jauh lebih kecil yaitu 139 suara. Tunggu, saya hitung ulang. Total baru Kerry adalah 59.740 + 903 = 60.643. Total suara Bush adalah 60.782. Bush tetap menang. Kesimpulan saya sebelumnya salah. Pemenangnya TIDAK akan berubah."
+      ],
+      [
+        "Tidak, pemenangnya tidak akan berubah. Bush awalnya menang dengan 60.782 suara berbanding 59.740 suara Kerry. Menambahkan 903 suara 'Lainnya' ke total suara Kerry menghasilkan 60.643 suara, yang masih lebih sedikit dari total suara Bush. Bush akan tetap menjadi pemenang, meskipun dengan selisih yang jauh lebih kecil yaitu 139 suara."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "G6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_007",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalau dilihat dari datanya, ada nggak hubungan yang kelihatan antara persentase suara 'Lainnya' yang lebih tinggi sama persaingan ketat antara Kerry dan Bush?",
+    "answer": [
+      [
+        "Nggak ada hubungan yang konsisten. Kabupaten dengan persentase 'Lainnya' tertinggi itu Jackson (1,3%), di mana persaingannya nggak terlalu ketat (selisih 12,1% buat Kerry). Sebaliknya, persaingan paling ketat itu di Winnebago (selisih 0,9%), yang persentase 'Lainnya'-nya di bawah rata-rata, yaitu 0,7%. Ini nunjukkin kalau performa kandidat pihak ketiga nggak bisa diandalkan buat nebak selisih suara antara dua kandidat utama di dataset ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "D6",
+      "F6",
+      "B13",
+      "D13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_592ca23134_008",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Kabupaten mana yang paling signifikan outlier dalam hal total suara mentah yang diberikan untuk semua kandidat digabungkan?",
+    "answer": [
+      [
+        "DuPage"
+      ]
+    ],
+    "evidence_cells": [
+      "A19",
+      "C19",
+      "E19",
+      "G19"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_592ca23134_009",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Berapa perkiraan total suara yang masuk di kabupaten Effingham, berdasarkan persentase dan jumlah suara mentah yang diberikan untuk kandidat mana pun?",
+    "answer": [
+      [
+        "16278"
+      ]
+    ],
+    "evidence_cells": [
+      "B16",
+      "C16",
+      "D16",
+      "E16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_010",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "value",
+    "question": "Siapa kandidat yang menang lebih banyak county, Kerry atau Bush, dan selisihnya berapa?",
+    "answer": [
+      [
+        "Bush"
+      ],
+      [
+        "10"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B9",
+      "D9",
+      "B10",
+      "D10",
+      "B11",
+      "D11",
+      "B12",
+      "D12",
+      "B13",
+      "D13",
+      "B14",
+      "D14",
+      "B15",
+      "D15",
+      "B16",
+      "D16",
+      "B17",
+      "D17",
+      "B18",
+      "D18",
+      "B19",
+      "D19",
+      "B20",
+      "D20",
+      "B21",
+      "D21",
+      "B22",
+      "D22"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_592ca23134_011",
+    "table_id": "wikisql_592ca23134",
+    "question_type": "open_ended_reasoning",
+    "question": "Menurut kamu, ada pola apa sih antara persentase Kerry dan persentase Bush di kebanyakan county?",
+    "answer": [
+      [
+        "Di kebanyakan county, persentase suara salah satu kandidat berbanding terbalik dengan kandidat lainnya, menunjukkan persaingan dua partai yang jelas dengan suara minimal untuk kandidat lain-lain."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B90",
+      "D90"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

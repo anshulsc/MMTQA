@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b1e25da5f9_001",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "value",
+    "question": "除每股指标外，哪个财务指标在2016年至2017年期间的正百分比增长最高？",
+    "answer": [
+      [
+        "core earnings ( loss ) attributable to devon ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "A8",
+      "C8",
+      "A9",
+      "C9",
+      "A10",
+      "C10",
+      "A11",
+      "C11",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b1e25da5f9_002",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "open_ended_reasoning",
+    "question": "根据提供的数据，描述一下从2015年到2017年‘总负债’的趋势。",
+    "answer": [
+      [
+        "总负债从2015年的13,032美元大幅下降22%至2016年的10,154美元。在此减少之后，2017年略有增长2%，达到10,406美元。这三年的总体趋势是总负债有所净减少。"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b1e25da5f9_003",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "value",
+    "question": "在2015年至2016年期间百分比下降最大的指标，其在2017年的对应值为多少？",
+    "answer": [
+      [
+        "$ 427"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b1e25da5f9_004",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "value",
+    "question": "列出所有从 2016 年到 2017 年百分比变化为负，并且在 2017 年价值超过 20 亿美元的指标。",
+    "answer": [
+      [
+        "capitalized expenditures including acquisitions"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b1e25da5f9_005",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "value",
+    "question": "在2016年，“保留产量”占“总产量”的百分比是多少？",
+    "answer": [
+      [
+        "92.14%"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b1e25da5f9_006",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "open_ended_reasoning",
+    "question": "就“归属于德文的净收益（亏损）每股稀释后收益”而言，哪一年出现了明显的亏损异常值，该数值与其他年份的表现有何不同？",
+    "answer": [
+      [
+        "2015年出现了显著的异常值，每股稀释后净亏损为$-31.72。这一亏损比2016年的$-2.09亏损额大15倍以上，与2017年每股1.70美元的利润形成了鲜明对比，突显了当年异常艰难，随后出现了强劲复苏。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b1e25da5f9_007",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据显示，从2015年到2017年，‘每桶油当量实际价格’的趋势与‘经营现金流’的趋势之间是否存在相关性？",
+    "answer": [
+      [
+        "是的，这表明存在正相关。从2015年到2016年，每桶油当量实际价格从21.68美元跌至18.72美元，经营现金流也从4,898美元大幅下降至1,500美元。反之，从2016年到2017年，每桶油当量价格上涨至25.96美元，经营现金流则显著增至2,909美元。这两个指标在两个时期内的变动方向是一致的。"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "D6",
+      "F6",
+      "A7",
+      "B7",
+      "D7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b1e25da5f9_008",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "value",
+    "question": "如果2017年的“留存产量”按“总产量”从2016年到2017年下降的百分比（-11%）进行假设性下降，那么2017年的假设“留存产量”将是多少？",
+    "answer": [
+      [
+        "501.07"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b1e25da5f9_009",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "value",
+    "question": "2015年至2017年三年间的“资本化支出（含收购）”总计是多少？",
+    "answer": [
+      [
+        "$ 12557"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "D8",
+      "F8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b1e25da5f9_010",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "value",
+    "question": "在哪个年份，“包含收购的资本支出”与“经营现金流”之间的差额最大，该差额的值是多少？",
+    "answer": [
+      [
+        "2016",
+        "$ 2408"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "D7",
+      "F7",
+      "B8",
+      "D8",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b1e25da5f9_011",
+    "table_id": "finqa_b1e25da5f9",
+    "question_type": "open_ended_reasoning",
+    "question": "从2015年到2017年，总债务每年的变化是多少，百分比变化是多少？",
+    "answer": [
+      [
+        "从2015年到2016年，总债务从13,032美元减少到10,154美元，变化率为-22%。从2016年到2017年，总债务从10,154美元增加到10,406美元，变化率为+2%。"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

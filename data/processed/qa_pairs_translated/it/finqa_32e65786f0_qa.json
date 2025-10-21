@@ -1,0 +1,242 @@
+[
+  {
+    "question_id": "finqa_32e65786f0_001",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Quale categoria di attività ha registrato il maggiore aumento assoluto di valore (in milioni) dal 2011 al 2012?",
+    "answer": [
+      [
+        "Institutional client services"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8",
+      "A15",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_002",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Qual era il valore medio in milioni per le componenti di 'Investimenti e Prestiti' (capitale proprio, debito, crediti e altro) a dicembre 2011?",
+    "answer": [
+      [
+        "17224"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_32e65786f0_003",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "La tabella contiene una riga di riepilogo per 'liquidità in eccesso e contanti'. Qual è stata la crescita percentuale anno su anno per questa specifica voce di riepilogo dal 2011 al 2012, arrotondata a due decimali?",
+    "answer": [
+      [
+        "1.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_004",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Analizzando il periodo da dicembre 2011 a dicembre 2012, quale voce tra 'icbc1', 'equity (excluding icbc)' e 'secured client financing' è stata l'unica a mostrare una diminuzione di valore?",
+    "answer": [
+      [
+        "icbc1"
+      ],
+      [
+        "equity ( excluding icbc )"
+      ],
+      [
+        "secured client financing"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_005",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Elenca tutte le voci di riga che avevano un valore superiore a 250 miliardi di dollari nel 2011 e il cui valore è aumentato anche nel 2012.",
+    "answer": [
+      [
+        "inventory"
+      ],
+      [
+        "institutional client services"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_006",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Quale proporzione del 'totale attività' rappresentava il valore combinato di 'finanziamenti a clienti garantiti' e 'scorte' a dicembre 2012? Fornisci la risposta in percentuale arrotondata a due decimali.",
+    "answer": [
+      [
+        "58.36%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "B16"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_32e65786f0_007",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Se 'otherassets2' fosse cresciuto solo della metà della sua effettiva crescita percentuale dal 2011 al 2012, quali sarebbero stati i nuovi 'total assets' per il 2012, supponendo che tutte le altre voci fossero rimaste invariate?",
+    "answer": [
+      [
+        "$ 930331.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_008",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai cambiamenti dal 2011 al 2012, quale potenziale relazione o cambiamento strategico si potrebbe dedurre tra il 'finanziamento garantito ai clienti' e l''inventario'?",
+    "answer": [
+      [
+        "C'è una relazione inversa osservabile tra il 'finanziamento garantito ai clienti' e l''inventario' dal 2011 al 2012. Il 'finanziamento garantito ai clienti' è diminuito significativamente di 54.265 milioni di dollari, mentre l''inventario' è aumentato di 44.683 milioni di dollari. Questo spostamento sostanziale potrebbe suggerire un deleveraging strategico dalle attività finanziate dai clienti e un corrispondente aumento delle partecipazioni dirette dell'azienda di attività nel proprio bilancio."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_32e65786f0_009",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi i passaggi di preparazione dei dati necessari per rendere le cifre finanziarie nelle colonne 'as of december 2012' e 'as of december 2011' adatte a calcoli matematici.",
+    "answer": [
+      [
+        "Per preparare i dati al calcolo, sono necessari diversi passaggi. Innanzitutto, il segno del dollaro ('$') deve essere rimosso da celle come B1, C1, B16 e C16. In secondo luogo, eventuali spazi bianchi iniziali o finali devono essere eliminati da tutti i valori in entrambe le colonne. Infine, le stringhe pulite devono essere convertite in un tipo di dato numerico, come intero o float, per consentire operazioni matematiche come la somma o la media."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_010",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Quale voce specifica ha registrato la variazione percentuale più estrema (positiva o negativa) tra il 2011 e il 2012, rendendola un potenziale valore anomalo per l'analisi della crescita?",
+    "answer": [
+      [
+        "otherassets2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_32e65786f0_011",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Quanto è aumentato il debito in milioni dal 2011 al 2012?",
+    "answer": [
+      [
+        "2,075"
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

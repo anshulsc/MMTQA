@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Model mana yang formula utamanya secara eksplisit menyertakan komponen suku bunga bebas risiko?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Ada berapa total 'X' variabel beda yang dipake buat input di rumus Z-score Model?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Sebutin model yang pake 'Total aset' di bagian penyebut setidaknya tiga parameternya, terus sebutin parameter mana dari model itu yang ngewakilin rasio 'Nilai pasar ekuitas' terhadap 'Total liabilitas'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Model mana yang mencakup parameter yang secara eksplisit didefinisikan sebagai diukur 'pada waktu t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Kalau tujuan analisanya buat nentuin probabilitas hasil biner (y=1), model mana di tabel yang paling cocok?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Di model Z-score, berapa bobot (koefisien) dari variabel 'Pendapatan sebelum bunga dan pajak/Rasio aset', dan gimana perbandingannya sama variabel lain?",
+    "answer": [
+      [
+        "Koefisien buat X3 (Pendapatan sebelum bunga dan pajak/Rasio aset) itu 3.3. Ini bobot paling tinggi di antara kelima variabel, nunjukin dampaknya paling signifikan ke skor Z akhir dibanding variabel kayak X1 (1.2), X2 (1.4), X4 (0.6), sama X5 (0.99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Kalau versi Z-score model yang diperbarui ngurangin pengaruh 'Working capital/Total assets ratio' sampe 50%, berapa koefisien baru buat X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan rumus Z-score Model, apa hubungan yang bisa disimpulkan antara rasio total penjualan terhadap total aset perusahaan dan Z-score-nya?",
+    "answer": [
+      [
+        "Ada korelasi positif antara rasio total penjualan/total aset (X5) dan Z-score. Rumusnya menunjukkan bahwa Z-score adalah jumlah tertimbang dari lima rasio, dan koefisien untuk X5 positif (0.99). Oleh karena itu, dengan asumsi faktor lain konstan, peningkatan rasio total penjualan terhadap total aset akan menghasilkan Z-score yang lebih tinggi."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Model mana yang deskripsinya punya jumlah parameter terbanyak yang dijelasin di kolom ketiga?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalau dilihat angka-angkanya di rumus Z-score Model, ada koefisien yang nyolok nggak sih dibanding yang lain?",
+    "answer": [
+      [
+        "Koefisien 3.3 buat variabel X3 itu jelas banget kelihatan beda. Koefisien lain di rumusnya itu 1.2, 1.4, 0.6, dan 0.99, yang semuanya berkisar antara 0.6 sampai 1.4. Nilai 3.3 itu lebih dari dua kali lipat nilai koefisien tertinggi berikutnya (1.4), jadi jelas jauh lebih besar dari yang lain."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Model mana yang lebih cocok buat prediksi return aset kalau ngeliat faktor pasar sama faktor ukuran/book-to-market, dan kenapa?",
+    "answer": [
+      [
+        "Model Faktor (Factor Model) bakal lebih cocok karena dia secara eksplisit ngajak masukin return pasar (r_m - r_f), faktor ukuran (SMB), dan faktor book-to-market (HML). Ini bikin dia bisa nangkap banyak dimensi variasi return aset yang gak dipikirin sama Model Regresi Logistik atau Model Z-score."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

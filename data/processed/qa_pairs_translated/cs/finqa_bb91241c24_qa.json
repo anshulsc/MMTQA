@@ -1,0 +1,224 @@
+[
+  {
+    "question_id": "finqa_bb91241c24_001",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Jaký byl celkový počet nových akcií vydaných prostřednictvím specifických korporátních akcí (kromě běžného uplatnění akciových opcí) mezi zůstatkem k 28. prosinci 2014 a zůstatkem k 3. lednu 2016?",
+    "answer": [
+      [
+        "834944"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bb91241c24_002",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Která jediná událost vedla k největšímu vydání akcií v oběhu?",
+    "answer": [
+      [
+        "acquisition of kraft foods group inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_003",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Vypočítejte čistou změnu v počtu nesplacených akcií od počátečního zůstatku k 29. prosinci 2013 do konečného zůstatku k 31. prosinci 2016.",
+    "answer": [
+      [
+        "839644"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_004",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě dat popište trend aktivit společnosti v oblasti vlastních akcií po 28. prosinci 2014.",
+    "answer": [
+      [
+        "Po 28. prosinci 2014 společnost zahájila aktivity s vlastními akciemi, což naznačují záporné hodnoty ve sloupci 'vlastní akcie', které se objevily v období před bilancí k 3. lednu 2016. Zůstatek vlastních akcií se postupně stával zápornějším, z -413 se k 31. prosinci 2016 vyšplhal na -2471. To naznačuje, že společnost aktivně zpětně odkupovala své akcie nebo znovu vydávala vlastní akcie pro plány zaměstnaneckých odměn, čímž snižovala celkový počet držených vlastních akcií."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_005",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Uveďte události, které zahrnovaly jak emisi nových akcií, tak změnu akcií držených společností.",
+    "answer": [
+      [
+        "exercise of stock options issuance of other stock awards and other"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_006",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Akcie vydané na 'akvizici Kraft Foods Group Inc.' představují jaké procento z celkového počtu akcií vydaných k datu 31. prosince 2016?",
+    "answer": [
+      [
+        "48.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bb91241c24_007",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Kdyby počet akcií vydaných sponzorům byl o 20 % vyšší, jaký by byl zůstatek 'vydaných akcií' k 3. lednu 2016, za předpokladu, že všechny ostatní transakce zůstanou stejné?",
+    "answer": [
+      [
+        "1258725"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_008",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje zřejmý vztah mezi typem události vydání akcií a velikostí vydaných akcií? Zdůvodněte svou odpověď.",
+    "answer": [
+      [
+        "Ano, jasný vztah existuje. Hlavní korporátní akce, jako je 'akvizice kraft foods group inc .' (592 898 akcií) a 'vydání kmenových akcií sponzorům' (221 666 akcií), vedou k vydání akcií, které jsou o řád větší než běžné události, jako je 'uplatnění opcí na akcie' (v rozsahu od 178 do 4 555 akcií). To naznačuje, že strategické transakce mají mnohem významnější ředící dopad než standardní aktivity zaměstnaneckých kompenzací."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bb91241c24_009",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Který sloupec obsahuje nekonzistentní datové typy, které vyžadují interpretaci, a jaké jsou tyto nekonzistence?",
+    "answer": [
+      [
+        "Sloupec 'treasury shares' (kmenové akcie ve vlastnictví společnosti) obsahuje nekonzistentní datové typy. V prvních šesti řádcích obsahuje rok '2014', což je nečíselný text a zdá se, že jde o šum. V posledních čtyřech řádcích obsahuje účetní záporná čísla ve formátu jako '-413 ( 413 )', která vyžadují interpretaci, aby mohla být použita jako standardní číselná hodnota (-413)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_010",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikujte transakci, která je jasným outlierem z hlediska dopadu na počet vydaných akcií, a vysvětlete proč.",
+    "answer": [
+      [
+        "„Akquisition von kraft foods group inc.“ je významným outlierem. Vedla k emisi 592 898 akcií, což je více než 2,6krát více než další největší transakce („emise kmenových akcií pro sponzory“ ve výši 221 666 akcií) a více než 28krát více než jakákoli jiná transakce na seznamu. Její velikost ji jasně odlišuje od běžných kapitálových aktivit."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bb91241c24_011",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Kolik akcií bylo vydáno v souvislosti s akvizicí Kraft Foods Group Inc.?",
+    "answer": [
+      [
+        "592,898"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

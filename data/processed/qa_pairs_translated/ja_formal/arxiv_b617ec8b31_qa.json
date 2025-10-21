@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "MarSメソッドにおいて、現在の市場とシミュレーション市場を比較するアプリケーションでは、対応する現在のメソッドは何を比較しますか？",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'MarS'手法のうち、「生成」または「シミュレーション」を伴うものは、リストされているアプリケーションの何パーセントを占めていますか？",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "「検出」アプリケーションにおけるMarSメソッドは、「現在の方法」で使用される時間ベースの比較をどのように変更しますか？",
+    "answer": [
+      [
+        "「検出」における「現在の方法」では、現在の市場状態（market_now）と過去の市場状態（market_past）との差を計算することにより、過去の比較に依存しています。MarSメソッドは、過去のデータへのこの依存性を排除します。その代わりに、現在の市場（market_now）を同時期のシミュレートされた市場（simu-market_now）と比較し、比較を時間ベース（現在対過去）からモデルベース（実在対シミュレート）のフレームワークに移行させます。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'MarS'の手法が「パイプライン」として記述されている、または「生成」を伴うすべてのアプリケーションについて、「現在の方法」をリストしてください。",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "「現在の方法」と「MarS」の間で、歴史的な比較からシミュレートされた比較へとアプローチが最も根本的に変化したのはどのアプリケーションですか？",
+    "answer": [
+      [
+        "「検出」アプリケーションは、最も根本的な変化を示しています。現在の方法では、時間的で過去を振り返る比較（Diff(market_now, market_past)）に依存しています。対照的に、MarSの方法では、同時期のシミュレートされた現実との比較（Diff(market_now, simu-market_now)）が導入されています。この歴史的根拠からシミュレートされた根拠への比較の変更は、表の他の方法論的な変化と比較して、概念的に顕著な例外です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "「RL Environment」における「MarS」アプローチが、同じアプリケーションの「Current Methods」のデータ可用性を使用するように変更された場合、この仮説的なMarSメソッドを定義する2つの特性は何になりますか？",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'RL Environment'アプリケーションにおいて、「Current Methods」と「MarS」の間で、データの利用可能性と確率分布における主な違いは何ですか？",
+    "answer": [
+      [
+        "主な違いは、データの量と遷移確率の信頼性の両方にあります。「Current Methods」は「有限データ」と「偽の」確率分布（P(st+1|st,at)）に依存していますが、「MarS」は「無限データ」と「実際の」確率分布を利用しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'Current Methods' または 'MarS' のいずれかの手法の説明に 'data' という用語が含まれる、リストされているアプリケーションはいくつありますか？",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "表に基づき、特にデータと現実の表現に関して、現在の手法と比較した場合のMarSの明白な全体的な利点は何ですか？",
+    "answer": [
+      [
+        "全体的なテーマは、MarSの手法が生成およびシミュレーションベースのアプローチを活用することで、歴史的または有限なデータの限界を克服することを目指していることを示唆しています。MarSは、外挿から生成へ、過去の比較からシミュレートされた比較へ、そして有限/偽のデータモデルから無限/実際のデータモデルへと移行します。これは、分析および強化学習のために、より堅牢で柔軟性があり、現実的なデータ環境を作成する上での戦略的な利点を示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ヘッダー行を除いて、表にはいくつの異なるアプリケーションが記載されていますか？",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "予測（Forecasting）に使用される現在の手法は何ですか？",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

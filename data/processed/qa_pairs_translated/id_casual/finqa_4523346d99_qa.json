@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "finqa_4523346d99_001",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Komponen utang mana, 'utang jangka panjang yang jatuh tempo dalam satu tahun' atau 'utang jangka panjang', yang mengalami pertumbuhan persentase lebih tinggi dari tahun 2006 ke 2007?",
+    "answer": [
+      [
+        "long-term debt due within one year"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_002",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Berapa total gabungan 'utang jangka panjang' dan 'ekuitas' di tahun 2007, dalam jutaan dolar?",
+    "answer": [
+      [
+        "25307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_4523346d99_003",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Berapa juta dolar kenaikan 'total utang' dari 2006 ke 2007 melebihi penurunan 'kas' pada periode yang sama?",
+    "answer": [
+      [
+        "2297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_004",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis perubahan likuiditas perusahaan, dengan mempertimbangkan 'kas' dan 'dana terpercaya', dari 2006 ke 2007.",
+    "answer": [
+      [
+        "Posisi likuiditas perusahaan memburuk secara signifikan dari 2006 ke 2007. 'Kas' berkurang 53,6% (dari $2585M ke $1199M) dan 'dana terpercaya dari obligasi pendapatan' berkurang 63,0% (dari $2013M ke $744M). Total aset likuid gabungan turun dari $4598M ke $1943M, penurunan hampir 58%, yang mengindikasikan berkurangnya dana yang tersedia secara substansial."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_005",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Sebutin semua item finansial dari bagian neraca utama (baris 1-6) yang nilainya lebih dari $6.000 juta di tahun 2007.",
+    "answer": [
+      [
+        "long-term debt"
+      ],
+      [
+        "total debt"
+      ],
+      [
+        "equity"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_006",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Berapa rasio utang terhadap ekuitas perusahaan di tahun 2006? Hitung ini dengan membagi 'total utang' dengan 'ekuitas' dan nyatakan hasilnya sebagai desimal dibulatkan dua angka.",
+    "answer": [
+      [
+        "0.24"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_4523346d99_007",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Kalo 'ekuitas' perusahaan di 2007 itu naik 15%, berapa nilai baru buat 'total utang plus ekuitas minus kas' di tahun itu, dengan asumsi semua nilai lain tetap sama?",
+    "answer": [
+      [
+        "27378.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B12",
+      "B13",
+      "B14",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_008",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Melihat peningkatan signifikan di 'total debt' dan 'equity' dari 2006 ke 2007, kira-kira strategi finansial perusahaan selama periode ini gimana ya?",
+    "answer": [
+      [
+        "Peningkatan signifikan dan bersamaan di total utang (dari $3.532 juta menjadi $7.215 juta) dan ekuitas (dari $14.607 juta menjadi $19.223 juta) nunjukkin kalau perusahaan lagi ngejalanin strategi pertumbuhan atau ekspansi yang agresif. Mereka aktif ngumpulin modal gede dari pasar utang dan ekuitas. Ini biasanya dilakuin buat danain investasi besar, proyek, atau akuisisi. Lompatan gede di rasio utang terhadap modal yang disesuaikan dengan kas dari 6% jadi 22% makin nunjukkin pergeseran strategi ke leverage yang lebih tinggi buat ngebutin pertumbuhan ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B6",
+      "C6",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_4523346d99_009",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Label mana di bagian 'calculation' (baris 8-16) yang merupakan duplikasi langsung dari label di bagian laporan keuangan utama (baris 1-6)?",
+    "answer": [
+      [
+        "total debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A8",
+      "A12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_010",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "Metrik keuangan mana yang menunjukkan kenaikan relatif paling ekstrem dari 2006 ke 2007, menjadikannya outlier yang patut diperhatikan?",
+    "answer": [
+      [
+        "Metrik 'total utang dikurangi kas' adalah outlier yang paling signifikan. Angkanya meningkat dari $947 juta pada tahun 2006 menjadi $5.272 juta pada tahun 2007, yang mewakili pertumbuhan lebih dari 456%. Ini jauh melampaui perubahan persentase metrik lain yang terdaftar, termasuk peningkatan 267% pada 'rasio utang terhadap modal yang disesuaikan kas', yang menunjukkan kenaikan dramatis dalam posisi utang bersih perusahaan."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_4523346d99_011",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "Utang nambah berapa banyak di 2007 dibanding 2006?",
+    "answer": [
+      [
+        "$3,683"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

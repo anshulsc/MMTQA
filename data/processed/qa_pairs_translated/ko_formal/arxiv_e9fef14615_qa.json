@@ -1,0 +1,306 @@
+[
+  {
+    "question_id": "arxiv_e9fef14615_001",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'ccfraud' 데이터셋에서 가장 높은 F1 점수를 달성한 모델은 무엇입니까?",
+    "answer": [
+      [
+        "Gemini"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "C4",
+      "D4",
+      "F4",
+      "G4",
+      "H4",
+      "I4",
+      "J4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_002",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'GPT 4' 모델의 'Acc' 지표에 대한 평균 점수는 모든 데이터셋에서 얼마입니까?",
+    "answer": [
+      [
+        "0.543"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B5",
+      "D5",
+      "B9",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_003",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'FinMA 7B'가 가장 높은 점수를 기록한 데이터셋을 식별하고, 해당 작업에서 0점을 기록한 모델들을 나열하십시오.",
+    "answer": [
+      [
+        "taiwan",
+        "Falcon 7B"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I11",
+      "L11",
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I12",
+      "I10",
+      "L10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_004",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'TSA' 데이터셋에서 바로 왼쪽 열의 모델과 비교했을 때 성능이 가장 크게 감소한 모델은 무엇이며, 그 감소량은 얼마입니까?",
+    "answer": [
+      [
+        "FinGPT 7B-lora",
+        "0.80"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "I3",
+      "J3",
+      "I10",
+      "J10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_005",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'Gemini' 모델이 0.90 이상의 점수를 얻었고, 'Chat GPT' 모델이 0.20 이하의 점수를 얻은 모든 데이터셋을 식별하십시오.",
+    "answer": [
+      [
+        "ccfraud"
+      ],
+      [
+        "taiwan"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "E4",
+      "A11",
+      "C11",
+      "E11",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_006",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'LendingClub' 데이터셋에서, 이 태스크를 위한 상위 3개 모델의 누적 점수 대비 기여도는 몇 퍼센트입니까? 소수점 첫째 자리까지 반올림하십시오.",
+    "answer": [
+      [
+        "41.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I6",
+      "J6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "O6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_007",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "'LLaMA2 70B' 모델의 모든 평가 점수가 10%씩 증가한다면, 모든 평가 작업에서 해당 모델의 새로운 평균 점수는 얼마입니까? 소수점 셋째 자리까지 반올림하십시오.",
+    "answer": [
+      [
+        "0.354"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G11",
+      "G12",
+      "G10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_008",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "'F1' 또는 'MicroF1' 지표로 측정된 작업들을 살펴보십시오. 'GPT 4'와 'Gemini' 모델 간에 일관된 성능 관계가 존재합니까? 귀하의 추론을 설명하십시오.",
+    "answer": [
+      [
+        "강한 양의 상관관계는 없지만, 명확한 성능 계층이 존재합니다. F1 기반 작업에서 Gemini는 GPT 4보다 일관되게 우수한 성능을 보이거나 동등한 성능을 보입니다. 'ccfraud' 및 'taiwan' 데이터셋의 경우, Gemini의 점수(각각 0.90 및 0.95)는 GPT 4의 점수(두 경우 모두 0.55)보다 훨씬 높습니다. 'LendingClub'의 경우 Gemini(0.65)가 GPT 4(0.55)보다 여전히 중간 정도로 높습니다. 'MLESG' 데이터셋에서만 두 점수가 거의 동일합니다(0.35 대 0.34). 이는 두 모델의 성능이 밀접하게 상관되어 있지는 않지만, Gemini가 이러한 특정 F1 측정 작업에 대해 일반적으로 더 우수한 모델임을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "E4",
+      "B6",
+      "D6",
+      "E6",
+      "B11",
+      "D11",
+      "E11",
+      "B12",
+      "D12",
+      "E12",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_009",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "성능 데이터를 기반으로 할 때, 모든 테스트된 모델에서 0점수를 보이며 잠재적인 평가 실패 또는 어떤 모델도 완료할 수 없었던 작업을 시사하는 두 개의 데이터셋은 무엇입니까?",
+    "answer": [
+      [
+        "FNXL"
+      ],
+      [
+        "ECTSUM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "I7",
+      "J7",
+      "K7",
+      "L7",
+      "M7",
+      "N7",
+      "O7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8",
+      "H8",
+      "I8",
+      "J8",
+      "K8",
+      "L8",
+      "M8",
+      "N8",
+      "O8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_010",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "'Gemini' 모델의 경우, 어떤 데이터셋 점수가 가장 두드러진 긍정적 성능 이상치를 나타내며, 그 이유는 무엇입니까?",
+    "answer": [
+      [
+        "Gemini 모델의 'taiwan' 데이터셋 점수(0.95)가 가장 두드러진 긍정적 이상치입니다. Gemini의 0이 아닌 점수들의 평균을 계산하면 약 0.615입니다. 0.95라는 점수는 다른 모든 점수에 비해 이 평균에서 가장 멀리 떨어진 가장 높은 값입니다. 이례적으로 높은 성능은 Gemini 모델이 'taiwan' 데이터셋과 'F1' 지표로 정의된 작업에 매우 적합하거나, 해당 작업 자체가 다른 모델들에 비해 이 모델에 훨씬 쉬웠음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "E11",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E12",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_011",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "개체명 인식(NER, FINER-ORD) 및 감성 분류(FPB, SC) 작업 전반에 걸쳐 견고한 일반화 성능을 보여주는 모델은 무엇입니까?",
+    "answer": [
+      [
+        "GPT-4는 다른 모델에 비해 높은 EntityF1 및 F1 점수를 달성하며 개체명 인식 및 감성 분류 데이터셋 전반에 걸쳐 일관되게 우수한 성능을 보입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "J5",
+      "A9",
+      "J9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

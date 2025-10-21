@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "कौन सा नॉन-मल्टी-टास्क मॉडल सबसे कम समग्र माध्य वर्ग त्रुटि (MSE_over) प्राप्त करता है?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "सभी 'मल्टी-टास्क' के रूप में चिह्नित मॉडलों के लिए 7-दिन के होराइजन (MSE7) पर औसत MSE की गणना करें।",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "MSE3 मान के आधार पर दूसरी सबसे खराब (दूसरे सबसे ज़्यादा) मॉडल का MSE30 मान क्या है?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "HTML मॉडल के लिए मीन स्क्वेयर्ड एरर (MSE) के ट्रेंड का विश्लेषण करें क्योंकि प्रेडिक्शन हॉरिज़न 3 से 30 दिनों तक बढ़ता है। क्या समय के साथ इसकी प्रेडिक्टिव एक्यूरेसी में सुधार होता है या गिरावट आती है?",
+    "answer": [
+      [
+        "HTML मॉडल की प्रेडिक्टिव एक्यूरेसी प्रेडिक्शन हॉरिज़न बढ़ने के साथ-साथ सुधरती है। इसके MSE मान लगातार MSE3 (0.845) से MSE7 (0.349), MSE15 (0.251), और अंततः MSE30 (0.158) तक कम होते हैं, जो लंबी अवधि की भविष्यवाणियों पर कम एरर और इसलिए बेहतर प्रदर्शन का संकेत देते हैं।"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "उन सभी मॉडलों की पहचान करें जिन्हें 'मल्टी-टास्क' के रूप में नामित नहीं किया गया है और जिनका MSE15 मान 0.31 से कम है।",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "सभी MSE मेट्रिक्स में एक स्पष्ट प्रदर्शन आउटलायर वाले मॉडल की पहचान करें और बताएं क्यों।",
+    "answer": [
+      [
+        "GPT-3.5-Turbo मॉडल एक स्पष्ट प्रदर्शन आउटलायर है। सभी समय-सीमाओं (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) में इसके MSE मान अन्य सभी मॉडलों की तुलना में काफी अधिक हैं, जिनमें से अधिकांश में MSE मान 1.0 से नीचे हैं। यह सूचीबद्ध अन्य मॉडलों की तुलना में काफी खराब भविष्य कहनेवाला प्रदर्शन को दर्शाता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "सभी मॉडलों के कुल योग MSE3 का कितना प्रतिशत GPT-3.5-Turbo मॉडल के कारण है? उत्तर को एक दशमलव स्थान तक पूर्णांकित प्रतिशत के रूप में प्रदान करें।",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "यदि रिस्कलैब्स मॉडल के लिए MSE_over में 25% का सुधार होता (अर्थात, 25% की कमी), तो इसका नया मान क्या होगा, और HTML मॉडल के MSE_over की तुलना में इसकी रैंकिंग क्या होगी?",
+    "answer": [
+      [
+        "रिस्कलैब्स के लिए नया MSE_over 0.243 होगा। यह मान HTML मॉडल के MSE_over 0.401 से कम है, और इसलिए बेहतर है।"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "तालिका के आधार पर, 'मल्टी-टास्क' के रूप में वर्गीकृत मॉडल होने और 'VaR' स्कोर की उपलब्धता के बीच क्या संबंध है?",
+    "answer": [
+      [
+        "एक मजबूत सहसंबंध है। केवल 'मल्टी-टास्क' के रूप में नामित मॉडल (GPT-3.5-Turbo और RiskLabs) के पास एक रिपोर्ट किया गया संख्यात्मक 'VaR' स्कोर है। हालाँकि, सभी 'मल्टी-टास्क' मॉडल में VaR स्कोर नहीं होता है (जैसे, HTML), और किसी भी गैर-'मल्टी-टास्क' मॉडल में यह नहीं होता है, यह सुझाव देता है कि VaR की गणना करने की क्षमता इस डेटासेट में 'मल्टी-टास्क' मॉडल से मुख्य रूप से जुड़ी एक विशेषता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "कौन सा प्रदर्शन मीट्रिक कॉलम गैर-संख्यात्मक प्लेसहोल्डर डेटा रखता है, और किन विशिष्ट मॉडलों के लिए यह डेटा अनुपस्थित है?",
+    "answer": [
+      [
+        "\"VaR\" कॉलम में गैर-संख्यात्मक डेटा ('/') शामिल है। यह डेटा निम्नलिखित मॉडलों के लिए अनुपस्थित है: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, और HTML।"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "कौन सा मॉडल विभिन्न समय-सीमाओं (MSE3–MSE30) पर भविष्यवाणी की सटीकता और जोखिम अनुमान (VaR) के बीच सर्वोत्तम समग्र संतुलन दिखाता है?",
+    "answer": [
+      [
+        "RiskLabs मॉडल सर्वोत्तम समग्र संतुलन प्राप्त करता है, जिसमें सभी समय-सीमाओं पर सबसे कम MSE मान और सबसे कम VaR (0.049) बना रहता है, जो मजबूत भविष्य कहनेवाला सटीकता और विश्वसनीय जोखिम अनुमान दोनों को दर्शाता है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

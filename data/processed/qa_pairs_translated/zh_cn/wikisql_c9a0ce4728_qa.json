@@ -1,0 +1,327 @@
+[
+  {
+    "question_id": "wikisql_c9a0ce4728_001",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "哪款气缸结构为'VR'（VR5或VR6）的发动机的0-100公里/小时加速时间最快？",
+    "answer": [
+      [
+        "2.8 24v [1]"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "H9",
+      "C10",
+      "H10",
+      "C11",
+      "H11",
+      "A11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_002",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "生产周期在2002年或之前结束的柴油发动机的平均二氧化碳排放量（以克/公里为单位）是多少？",
+    "answer": [
+      [
+        "139"
+      ]
+    ],
+    "evidence_cells": [
+      "D13",
+      "J13",
+      "K13",
+      "D14",
+      "J14",
+      "K14",
+      "D16",
+      "J16",
+      "K16",
+      "D17",
+      "J17",
+      "K17"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_003",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "找出具有最低二氧化碳排放量的汽油发动机的发动机ID代码。",
+    "answer": [
+      [
+        "BAD"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "J1",
+      "D2",
+      "J2",
+      "D3",
+      "J3",
+      "D4",
+      "J4",
+      "D5",
+      "J5",
+      "D6",
+      "J6",
+      "D7",
+      "J7",
+      "D8",
+      "J8",
+      "D9",
+      "J9",
+      "D10",
+      "J10",
+      "D11",
+      "J11",
+      "G5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_004",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "open_ended_reasoning",
+    "question": "'1.6 8v'发动机型号在其生产时间线上是如何演变的，特别是在二氧化碳排放和加速方面？",
+    "answer": [
+      [
+        "“1.6 8v”发动机在1999-2000年的初步生产运行后进行了更新。后续版本在新的发动机ID代码（AVU/BFQ）下生产，生产时间为2000年至2006年，其二氧化碳排放量从180克/公里减少到170克/公里，表明效率有所提高。然而，这次更新带来了一点性能的下降，因为0-100公里/小时的加速时间从11.9秒增加到12.1秒。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "H2",
+      "J2",
+      "K2",
+      "A3",
+      "G3",
+      "H3",
+      "J3",
+      "K3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_005",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "列出所有在2000年或之后开始生产、且0-100公里/小时加速时间不到9.5秒的汽油发动机的名称。",
+    "answer": [
+      [
+        "1.8 20v Turbo"
+      ],
+      [
+        "2.3 20v [1]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "K3",
+      "H3",
+      "A4",
+      "D4",
+      "K4",
+      "H4",
+      "A5",
+      "D5",
+      "K5",
+      "H5",
+      "A6",
+      "D6",
+      "K6",
+      "H6",
+      "A8",
+      "D8",
+      "K8",
+      "H8",
+      "A10",
+      "D10",
+      "K10",
+      "H10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_006",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "所有列出的发动机中，有多少百分比的0-100km/h加速时间在10.0秒或以内，可以被视为高性能发动机？",
+    "answer": [
+      [
+        "22.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H14",
+      "H15",
+      "H16",
+      "H17",
+      "H18"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_007",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "如果新的排气系统将所有VR5和VR6发动机的二氧化碳排放量减少了15%，那么这个特定发动机组的平均二氧化碳排放量将是多少？",
+    "answer": [
+      [
+        "198.05 g/km"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "J9",
+      "C10",
+      "J10",
+      "C11",
+      "J11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_008",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "open_ended_reasoning",
+    "question": "仅分析汽油发动机，发动机排量（cc）与加速性能（0-100km/h时间）之间有什么普遍关系？请举例说明。",
+    "answer": [
+      [
+        "对于汽油发动机，发动机排量与0-100km/h加速时间之间存在很强的负相关关系，这意味着随着发动机排量的增加，加速到100km/h的时间通常会减少（性能提高）。例如，最小的汽油发动机1.4 16v（1390 cc）的加速时间最慢，为15.6秒。相比之下，最大的发动机2.8 24v（2792 cc）的加速时间最快，为7.6秒。这一趋势在大部分范围内都是一致的。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "H1",
+      "D2",
+      "B2",
+      "H2",
+      "D3",
+      "B3",
+      "H3",
+      "D4",
+      "B4",
+      "H4",
+      "D5",
+      "B5",
+      "H5",
+      "D6",
+      "B6",
+      "H6",
+      "D7",
+      "B7",
+      "H7",
+      "D8",
+      "B8",
+      "H8",
+      "D9",
+      "B9",
+      "H9",
+      "D10",
+      "B10",
+      "H10",
+      "D11",
+      "B11",
+      "H11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_009",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "表中哪一列完全由占位符值填充，导致无法直接比较发动机性能？",
+    "answer": [
+      [
+        "Top speed"
+      ]
+    ],
+    "evidence_cells": [
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I10",
+      "I11",
+      "I12",
+      "I13",
+      "I14",
+      "I15",
+      "I16",
+      "I17",
+      "I18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_010",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "哪款柴油发动机是性能上的“特例”，其0-100公里/小时加速时间比列表中任何其他柴油车型都慢得多？",
+    "answer": [
+      [
+        "1.9 8v SDI"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "D12",
+      "H12",
+      "D13",
+      "H13",
+      "D14",
+      "H14",
+      "D15",
+      "H15",
+      "D16",
+      "H16",
+      "D17",
+      "H17",
+      "D18",
+      "H18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_011",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "有多少柴油发动机？",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

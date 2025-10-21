@@ -1,0 +1,294 @@
+[
+  {
+    "question_id": "wikisql_1378433992_001",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "สถานีใดมีคลื่นความถี่สูงสุดในบรรดา 'Variety Hits'?",
+    "answer": [
+      [
+        "WWLB-FM"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7",
+      "F7",
+      "C11",
+      "D11",
+      "F11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_002",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "สถานีทั้งหมดที่มีความถี่ต่ำกว่า 200 MHz มีจำนวนเท่าใด",
+    "answer": [
+      [
+        "16"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_1378433992_003",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "สถานีที่มีรหัส DMA ต่ำที่สุดและมีความถี่สูงสุดในตลาดนั้นมีรูปแบบรายการเป็นอย่างไร",
+    "answer": [
+      [
+        "Soft Adult Contemporary"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "F1",
+      "A2",
+      "D2",
+      "F2",
+      "A3",
+      "D3",
+      "F3",
+      "A4",
+      "D4",
+      "F4",
+      "A5",
+      "D5",
+      "F5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_004",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "แสดง 'Branding' สำหรับสถานีทั้งหมดที่อยู่ในรูปแบบ 'Oldies' และอยู่ในคลื่น AM (ความถี่ > 200)",
+    "answer": [
+      [
+        "True Oldies 96.3"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E8",
+      "F8",
+      "D9",
+      "E9",
+      "F9",
+      "D18",
+      "E18",
+      "F18",
+      "D19",
+      "E19",
+      "F19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_005",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "กี่เปอร์เซ็นต์ของสถานีในตลาด Hagerstown เป็นสถานี AM (ความถี่ > 200)?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "D15",
+      "B16",
+      "D16",
+      "B17",
+      "D17",
+      "B18",
+      "D18",
+      "B19",
+      "D19"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_1378433992_006",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "หากมีการเพิ่มสถานีใหม่ชื่อ 'STAR 101.9' ที่มีรูปแบบ 'Pop' เข้าไปในตลาด Dayton, OH จำนวนสถานีเฉลี่ยต่อตลาดจะกลายเป็นเท่าใด",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "B10",
+      "B15"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_007",
+    "table_id": "wikisql_1378433992",
+    "question_type": "open_ended_reasoning",
+    "question": "มีความสัมพันธ์ที่สังเกตได้ระหว่างประเภทของเครื่องหมายเรียกสถานี (ลงท้ายด้วย -FM หรือ -AM) กับรูปแบบของสถานีที่เป็นเพลงหรือรายการพูดโดยเฉพาะหรือไม่?",
+    "answer": [
+      [
+        "ไม่มีความสัมพันธ์ที่ชัดเจนในชุดข้อมูลนี้ แม้ว่าสถานีส่วนใหญ่ที่ลงท้ายด้วย -FM จะเป็นรายการเพลง แต่สถานีที่ลงท้ายด้วย -AM ไม่ใช่รายการพูดเท่านั้น WING-AM มีรูปแบบ 'Sports' แต่ WCHA-AM และ WHAG-AM ทั้งคู่มีรูปแบบ 'Oldies' ที่อิงตามเพลง ซึ่งบ่งชี้ว่าเครื่องหมายเรียกทั้งสองประเภทสามารถเชื่อมโยงกับการเขียนโปรแกรมเพลงได้"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7",
+      "C8",
+      "F8",
+      "C9",
+      "F9",
+      "C10",
+      "F10",
+      "C11",
+      "F11",
+      "C12",
+      "F12",
+      "C13",
+      "F13",
+      "C14",
+      "F14",
+      "C15",
+      "F15",
+      "C16",
+      "F16",
+      "C17",
+      "F17",
+      "C18",
+      "F18",
+      "C19",
+      "F19"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_1378433992_008",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "นอกเหนือจาก 'DMA' และ 'Market' แล้ว คอลัมน์ข้อมูลใดบ้างที่มีค่าเหมือนกันสำหรับสถานี WARV-FM และ WBBT-FM ที่แตกต่างกัน",
+    "answer": [
+      [
+        "Branding"
+      ],
+      [
+        "Format"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "E8",
+      "F8",
+      "C9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_009",
+    "table_id": "wikisql_1378433992",
+    "question_type": "open_ended_reasoning",
+    "question": "สถานีใดมี 'Branding' ที่ไม่สอดคล้องกับ 'Frequency' ที่ระบุไว้?",
+    "answer": [
+      [
+        "สถานี WARV-FM เป็นสถานีที่ผิดปกติอย่างเห็นได้ชัด Branding คือ 'Big Oldies 107.3' ซึ่งบ่งชี้ความถี่ที่ 107.3 แต่ความถี่จริงที่ระบุไว้คือ 100.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_1378433992_010",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "รูปแบบสถานีใดบ้างที่มีอยู่ในทั้งตลาด 'Louisville, KY' และ 'Dayton, OH'?",
+    "answer": [
+      [
+        "Urban AC"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1",
+      "B2",
+      "F2",
+      "B3",
+      "F3",
+      "B4",
+      "F4",
+      "B5",
+      "F5",
+      "B10",
+      "F10",
+      "B11",
+      "F11",
+      "B12",
+      "F12",
+      "B13",
+      "F13",
+      "B14",
+      "F14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_011",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "สถานีใดใน Louisville ที่มีความถี่ 101.3?",
+    "answer": [
+      [
+        "WMJM-FM"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

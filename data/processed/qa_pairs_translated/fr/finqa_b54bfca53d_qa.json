@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Quelle obligation contractuelle, hors total, a le montant le plus élevé dû dans la période '1-3 ans' ?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "En additionnant les paiements pour chaque obligation individuelle, confirmez-vous que le total général pour la période '1-3 ans' indiqué dans la ligne 'total des paiements sur les obligations contractuelles' est exact.",
+    "answer": [
+      [
+        "Oui, le total général est exact. La somme des obligations individuelles pour la période '1-3 ans' est de 188,3 $ + 316,4 $ + 37,1 $ + 3779,4 $, ce qui équivaut à 4321,2 $, correspondant à la valeur de la ligne totale."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Pour l'obligation contractuelle avec le montant total de paiement le plus bas, quel pourcentage de son total est dû dans la période \"1-3 ans\" ?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez le calendrier de paiement pour 'dettes à long terme, y compris les contrats de location-financement' sur les périodes spécifiées. Est-il à paiement initial, à paiement différé ou réparti uniformément ?",
+    "answer": [
+      [
+        "Le calendrier de paiement pour les dettes à long terme est fortement axé sur les paiements différés. Les paiements commencent modestement à 34,5 millions de dollars ('moins d'un an'), augmentent régulièrement au cours des périodes de 1 à 3 ans et de 3 à 5 ans, et culminent avec un paiement très important de 2160,2 millions de dollars dans la période 'plus de 5 ans', ce qui représente plus de 78 % de l'obligation totale."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Listez toutes les catégories d'obligations où le paiement dû dans 'moins de 1 an' est inférieur au paiement dû dans '1-3 ans'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Quel pourcentage de la 'dette à long terme, y compris les contrats de location-financement' est prévu d'être payé dans plus de 5 ans ?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Si une nouvelle politique exigeait que toutes les 'obligations d'achat' dues dans la période '1-3 ans' soient payées immédiatement (dans la période 'moins d'un an'), quel serait le nouveau total des paiements 'moins d'un an' sur les obligations contractuelles ?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Le tableau contient un problème d'intégrité des données où la somme des paiements périodiques pour un type d'obligation ne correspond pas à son total indiqué. Identifiez cette obligation et calculez l'écart.",
+    "answer": [
+      [
+        "La ligne \"purchase obligations ( c )\" présente un problème d'intégrité des données. La somme de ses paiements périodiques (2709,5 $ + 3779,4 $ + 98,0 $ + 2212 $ = 8798,9 millions de $) ne correspond pas à son total indiqué de 6586,9 millions de $. L'écart est de 2212 millions de $."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "En considérant la période de paiement de '3-5 ans', quelle obligation contractuelle a la valeur la plus faible et pourrait être considérée comme une valeur aberrante par rapport aux autres de la même colonne ?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe-t-il une relation cohérente entre la magnitude d'une obligation totale et sa structure de paiement (par exemple, les obligations plus importantes sont-elles toujours plus chargées en fin de période) ? Justifiez votre réponse avec des données.",
+    "answer": [
+      [
+        "Non, il n'y a pas de relation cohérente. L'obligation totale la plus importante, les « obligations d'achat » (6586,9 M$), est fortement axée sur le début de la période, la majorité étant due dans les 3 ans. Inversement, la deuxième obligation la plus importante, la « dette à long terme » (2750,1 M$), est fortement axée sur la fin de la période, le paiement le plus important étant dû dans plus de 5 ans. Cela indique que la structure de paiement est spécifique au type d'obligation, et non à sa valeur totale."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Quels sont les paiements totaux en millions sur les obligations contractuelles dus par période 1-3 ans ?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

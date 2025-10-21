@@ -1,0 +1,203 @@
+[
+  {
+    "question_id": "arxiv_c1daaa052a_001",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "'수익률(Returns)'에서 가장 높은 퍼센트 증가를 보인 연구는 무엇이며, 그 증가율은 얼마였습니까?",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ],
+      [
+        "+40.4%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_002",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "나열된 모든 연구에서 평가된 고유 주식 시장의 총 개수는 몇 개입니까?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_003",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "CSI 시장에서 검증된 모델의 핵심 혁신은 무엇입니까?",
+    "answer": [
+      [
+        "Pure convolutional temporal-relational modeling"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_004",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "2023년의 연구와 2024년의 연구를 비교할 때, '주요 혁신'의 초점에서 근본적인 변화는 무엇인가요?",
+    "answer": [
+      [
+        "주요 혁신의 초점은 2023년의 '순수 컨볼루션 시계열 관계 모델링'에서 아키텍처 효율성과 새로운 모델링에서 2024년에는 더 복잡한 데이터와 시장 역학을 다루는 것으로 이동했습니다. 2024년의 혁신은 채널 독립성, 편향 완화, 시장 체제 변화 적응과 같은 과제를 해결하며, 이는 순수하게 새로운 네트워크 구조에 초점을 맞추기보다는 더 강력하고 적응적인 모델을 만드는 추세를 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_005",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "방법론에서 적대적 학습 또는 훈련을 활용한 2024년에 출판된 모든 연구를 나열하십시오.",
+    "answer": [
+      [
+        "ADB-TRM Chen et al. (2024)"
+      ],
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_006",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "2024년에 출판된 연구 논문의 비율은 얼마입니까?",
+    "answer": [
+      [
+        "75%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_007",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "ADB-TRM Chen et al. (2024)의 '수익률(Returns)' 증가분이 10.3%p 낮았을 경우, RSAP-DFM Xiang et al. (2024)와 비교했을 때 어느 연구의 성과 증가율이 더 높았습니까?",
+    "answer": [
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_008",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "방법론에서 적대적 학습 기법의 사용과 모델이 테스트된 시장의 지리적 다양성 사이에 관찰 가능한 패턴이 있습니까?",
+    "answer": [
+      [
+        "네, 방법론에서 명시적으로 적대적 학습을 언급한 두 연구(ADB-TRM 및 RSAP-DFM)는 미국 및 비미국 시장(각각 TSE 및 A-share 시장)의 조합으로 테스트되었습니다. 대조적으로, 적대적 학습을 언급하지 않은 다른 두 연구는 미국 시장만(CI-STHPAN) 또는 중국 CSI 시장을 포함하는 혼합(RT-GCN)으로 테스트되었습니다. 이는 고급 적대적 기법의 사용과 더 광범위하고 전 세계적으로 다양한 금융 시장에 대한 검증 사이에 잠재적인 연관성이 있음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_009",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "성능 결과가 백분율 증가가 아닌 속도의 배수로 보고된 작업은 무엇입니까?",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_010",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "'듀얼 레짐 시프팅 메커니즘(dual regime-shifting mechanism)'을 도입한 연구의 방법론적 기여는 무엇인가요?",
+    "answer": [
+      [
+        "Gradient-based posterior factors with adversarial learning"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_011",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "CI-STHPAN Xia의 연구에서 핵심 혁신은 무엇입니까?",
+    "answer": [
+      [
+        "Channel-independent pre-training with dynamic hypergraph learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "finqa_cd9bcca51c_001",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Какова общая занимаемая площадь в квадратных футах для всех объектов недвижимости вместе взятых?",
+    "answer": [
+      [
+        "3348000"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_002",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Какому объекту недвижимости соответствует дата истечения срока аренды, которая является аномальной (наиболее поздней со значительным отрывом от остальных)?",
+    "answer": [
+      [
+        "200 e . randolph street chicago illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_003",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Перечислите объекты недвижимости, занимаемая площадь которых превышает 350 000 кв. футов и срок аренды которых истекает в 2020 году.",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_004",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Каков средний метраж объектов недвижимости, для которых последняя дата истечения срока аренды наступает до 2020 года?",
+    "answer": [
+      [
+        "316666.67"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_005",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Какова разница в занимаемой площади между двумя объектами недвижимости, расположенными в Иллинойсе?",
+    "answer": [
+      [
+        "828000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_006",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Какой процент от общей занимаемой площади приходится на собственность, расположенную в Нью-Йорке?",
+    "answer": [
+      [
+        "9.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_007",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Какое имущество имеет самый широкий диапазон лет между самыми ранними и самыми поздними датами истечения срока аренды?",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_008",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Если бы все договоры аренды для объекта недвижимости «dlf city and unitech cyber park gurgaon india» были продлены на 7 лет, какими были бы новые даты истечения срока их действия?",
+    "answer": [
+      [
+        "2021 2020 2022"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_009",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "В каком столбце содержатся записи, где для одной собственности может быть указано несколько отдельных значений данных в одной ячейке?",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_010",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "open_ended_reasoning",
+    "question": "Существует ли заметная корреляция между занимаемой площадью объекта недвижимости и количеством отдельных дат истечения срока его аренды? Обоснуйте свой ответ на основе представленных данных.",
+    "answer": [
+      [
+        "Четкой корреляции не наблюдается. Объект с наибольшей площадью (1 224 000 в Линкольншире) имеет несколько дат истечения срока аренды, что могло бы указывать на положительную корреляцию. Однако второй по величине объект (414 000 в Вудлендсе) имеет только одну, в то время как третий по величине (413 000 в Гургаоне) имеет несколько. Это несоответствие, когда крупные объекты имеют как одну, так и несколько дат истечения срока аренды, указывает на то, что занимаемая площадь не является надежным показателем количества договоров аренды для объекта на основе данного набора данных."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cd9bcca51c_011",
+    "table_id": "finqa_cd9bcca51c",
+    "question_type": "value",
+    "question": "Сколько объектов недвижимости имеют занятую площадь более 400 000?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "BD3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

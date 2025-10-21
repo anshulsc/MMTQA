@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "2007年12月31日時点での資産（「投資」および「その他の資産」）の合計値はいくらでしたか？",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "「実現益および評価益（または損失）純額」において、「投資」と「その他の資産」のどちらの資産カテゴリーがより大きな絶対値の純損失を経験しましたか？",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "2008年12月31日時点の「投資」の期末残高が、期首残高およびその後の取引明細と一致するかどうかをご確認ください。計算も示してください。",
+    "answer": [
+      [
+        "はい、一致しています。計算は以下の通りです：1240ドル（期首残高）- 409ドル（損益）+ 11ドル（購入/売却）- 29ドル（純移転）= 813ドルとなり、報告されている期末残高と一致します。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "2007年12月31日から2008年12月31日までの全期間における、資産価値の総純変動額はいくらでしたか？",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "「レベル3への純移入および/またはレベル3からの純移出」が資産価値にプラスの貢献をもたらした資産カテゴリはどれですか？",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "「収益に帰属する期間の純（損失）合計」のうち、「投資」からの割合はどのくらいですか？",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "もし「その他資産」の「実現・未実現損益（純額）」が $-16 ではなくゼロであった場合、2008年12月31日時点での「その他資産」の新しい期末残高はいくらになりますか？",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "'投資'のデータに基づき、「実現損益及び評価損益（純額）」と「報告日時点で保有している資産に関する評価損益の増減による期間合計純損失」との間にはどのような関係がありますか？",
+    "answer": [
+      [
+        "強い直接的な関係があります。「報告日時点で保有している資産に関する評価損益の増減による期間合計純損失」（-366ドル）は、「実現損益及び評価損益（純額）」（-409ドル）の89.5%を占めています。これは、投資における期間純損失の大部分が未実現であり、報告期間末までに売却されなかった資産に関連していたことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "「-409 ( 409 )」のような負の値に使用されているデータ形式は、どのような会計慣習を示唆していますか？",
+    "answer": [
+      [
+        "絶対値を括弧で囲んで負の数を示す形式は、損失、費用、または負の資産価値などの負の財務数値を明確かつ強調して示すための一般的な会計慣習です。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "期間中、単一の項目として最も大きなマイナスの影響を与えたのはどれですか？",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "2007年から2008年にかけて、投資額はいくら減少しましたか？",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

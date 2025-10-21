@@ -1,0 +1,312 @@
+[
+  {
+    "question_id": "finqa_57d2954f05_001",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Quale località, esclusivamente di proprietà 'owned', ha la maggiore metratura?",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "E5",
+      "A10",
+      "D10",
+      "E10",
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_002",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Calcola la superficie totale di tutte le proprietà che sono esclusivamente in affitto.",
+    "answer": [
+      [
+        "701000"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_57d2954f05_003",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Identificando innanzitutto la sede principale dell'azienda e quindi sommando i suoi spazi di proprietà e in affitto in base al valore concatenato nella colonna \"squarefootage\", determinarne il \"square footage\" totale.",
+    "answer": [
+      [
+        "1662000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_004",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Indica tutte le sedi situate in Cina il cui uso principale include 'ricerca, sviluppo e ingegneria'.",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "C11",
+      "A13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_005",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Qual è la percentuale del chilometraggio totale di tutte le proprietà con proprietà mista 'ownedleased' attribuita allo spazio concesso in locazione? Si presume che la colonna squarefootage per queste proprietà concatena i valori di proprietà e locazione (ad esempio, 'X...XY...Y').",
+    "answer": [
+      [
+        "9.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_006",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Se l'azienda decidesse di consolidare tutte le sue operazioni di 'assistenza clienti' in un unico hub, scegliendo la struttura che attualmente indica 'assistenza clienti' come uso principale e ha la maggiore metratura totale, quale località verrebbe selezionata?",
+    "answer": [
+      [
+        "santa clara ca"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10",
+      "A12",
+      "C12",
+      "D12",
+      "A13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_007",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza i dati per determinare se esiste una correlazione tra il 'tipo' di immobile e il suo stato di 'proprietà'. Nello specifico, un tipo di immobile appare più frequentemente con un certo modello di proprietà?",
+    "answer": [
+      [
+        "Sì, sembra esserci una correlazione. Il tipo 'ufficio, stabilimento e magazzino' mostra un profilo di proprietà diversificato, che include 5 proprietà 'possedute/affittate', 3 'possedute' e 3 'affittate'. Al contrario, il tipo 'ufficio e magazzino', rappresentato solo da due sedi, include una proprietà 'posseduta/affittata' e una 'affittata', ma notevolmente manca di strutture completamente 'possedute' in questo set di dati. Ciò suggerisce che gli stabilimenti che includono uno 'stabilimento' hanno maggiori probabilità di essere almeno parzialmente o interamente posseduti dall'azienda rispetto a quelli che sono solo un ufficio e un magazzino."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8",
+      "B9",
+      "E9",
+      "B10",
+      "E10",
+      "B11",
+      "E11",
+      "B12",
+      "E12",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_57d2954f05_008",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "Dalla prospettiva di un analista di dati, quale colonna presenta la complessità strutturale più significativa che richiederebbe una logica di analisi condizionale prima che l'analisi numerica possa essere eseguita?",
+    "answer": [
+      [
+        "La colonna 'squarefootage' (D) presenta la maggiore complessità strutturale. Mentre la colonna 'principal use' contiene elenchi delimitati, la colonna 'squarefootage' contiene sia valori interi standard sia valori stringa concatenati (ad esempio, '1512000150000'). Per interpretare e utilizzare correttamente questi dati per l'analisi numerica, è necessario implementare una logica condizionale che verifichi il valore corrispondente nella colonna 'ownership' (E). Se la proprietà è 'ownedleased', la stringa deve essere divisa in due valori numerici separati; altrimenti, può essere trattata come un singolo intero. Questa dipendenza da un'altra colonna rende la sua logica di analisi più complessa rispetto a qualsiasi altra colonna."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12",
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_009",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Tra tutte le strutture in cui la 'produzione' è un uso principale, quale località presenta la metratura totale che rappresenta l'outlier positivo più significativo rispetto alla dimensione mediana di questo gruppo?",
+    "answer": [
+      [
+        "austin tx"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_57d2954f05_010",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Qual è la percentuale delle strutture elencate che si trovano negli USA (identificate dalle abbreviazioni degli stati CA, TX, MT, MA)?",
+    "answer": [
+      [
+        "30.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_011",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "Qual è la metratura dell'ufficio situato ad Austin, TX?",
+    "answer": [
+      [
+        "1,719,000–1,450,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

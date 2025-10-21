@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_c8712e7938_001",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Describa la tendencia de la 'pérdida neta según se informa' de 2003 a 2005.",
+    "answer": [
+      [
+        "La 'pérdida neta según se informa' muestra una tendencia descendente constante, lo que indica una mejora financiera. La pérdida disminuyó de $325,321 en 2003 a $247,587 en 2004, y se redujo aún más a $171,590 en 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_002",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "¿En qué año fue la diferencia absoluta entre la 'pérdida neta proforma' y la 'pérdida neta según lo informado' la mayor?",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_003",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "¿Cuál fue el 'gasto total de compensación a empleados basado en acciones' agregado en los tres años mostrados?",
+    "answer": [
+      [
+        "11478"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8712e7938_004",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Para el año con la menor \"pérdida neta básica y diluida por acción según lo informado\", ¿cuál fue la relación entre la \"pérdida neta pro forma\" absoluta y la \"pérdida neta según lo informado\" absoluta? Redondee a tres decimales.",
+    "answer": [
+      [
+        "1.088"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_005",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "¿Enumera los años en que el valor absoluto de 'gasto total de compensación a empleados basada en acciones determinado bajo el método de valor razonable' fue mayor a $25,000.",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_006",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "¿En 2004, qué porcentaje de la 'pérdida neta pro-forma' absoluta se puede atribuir al ajuste de 'gastos totales de compensación de empleados basados en acciones'? Redondee a dos decimales.",
+    "answer": [
+      [
+        "8.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8712e7938_007",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "¿Si el 'stock-based employee compensation expense' agregado en 2005 hubiera sido un 50% menor, cuál habría sido la nueva 'pro-forma net loss' para ese año?",
+    "answer": [
+      [
+        "$ -190276 ( 190276 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_008",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué partida de ajuste de gastos ('agregar' o 'menos') experimentó el cambio porcentual interanual más drástico y entre qué dos años ocurrió?",
+    "answer": [
+      [
+        "La partida 'agregar: gasto de compensación de acciones para empleados' experimentó el cambio más drástico. Aumentó más del 209% de $2,297 en 2004 a $7,104 en 2005, lo que representa un valor atípico significativo en comparación con otros cambios interanuales en la tabla."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8712e7938_009",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cuál es la relación entre la 'pérdida neta según se informa' y la 'pérdida neta pro forma' a lo largo de los tres años?",
+    "answer": [
+      [
+        "Existe una relación directa y consistente en la que la 'pérdida neta pro forma' es siempre mayor en magnitud que la 'pérdida neta según se informa' para cada año. Ambas métricas muestran la misma tendencia de mejora (disminución de la pérdida) de 2003 a 2005, lo que sugiere que, si bien los ajustes de compensación basada en acciones aumentan la pérdida calculada, la tendencia subyacente del rendimiento del negocio es consistente en ambas medidas."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8712e7938_010",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Según la estructura de la tabla, ¿qué operación aritmética conecta la 'pérdida neta según lo informado', la línea de 'agregar' y la línea de 'menos' con la 'pérdida neta pro-forma'? Verifique con los datos de 2003.",
+    "answer": [
+      [
+        "La fórmula es: ('pérdida neta según lo informado') + ('agregar: gasto de compensación con acciones para empleados...') - ('gasto total de compensación con acciones para empleados...'). Usando los datos de 2003: (-325321) + (2077) - (31156) = -354400, lo que coincide con la 'pérdida neta pro-forma' para ese año."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_011",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cómo cambió la pérdida neta según lo informado de 2003 a 2005?",
+    "answer": [
+      [
+        "La pérdida neta según lo informado disminuyó de $325,321 en 2003 a $171,590 en 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

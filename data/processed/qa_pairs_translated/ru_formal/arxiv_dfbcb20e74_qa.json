@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Какая основная формула модели явно включает компонент безрисковой ставки?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Каково общее количество различных переменных 'X', используемых в качестве входных данных в формуле Z-score Model?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Определите модель, в которой «Общие активы» используются в качестве знаменателя как минимум в трех объясняемых параметрах, а затем укажите, какой параметр из этой модели представляет собой отношение «Рыночной стоимости собственного капитала» к «Общим обязательствам».",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Какая модель включает параметры, которые явно определены как измеренные 'во времени t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Если аналитическая цель состоит в определении вероятности бинарного исхода (y=1), какая модель, указанная в таблице, является наиболее подходящей?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "В модели Z-оценки, какой вес (коэффициент) переменной, представляющей 'Прибыль до вычета процентов и налогов/Соотношение общей стоимости активов', и как этот вес соотносится с другими переменными?",
+    "answer": [
+      [
+        "Коэффициент для X3 (Прибыль до вычета процентов и налогов/Соотношение общей стоимости активов) равен 3,3. Это самый высокий вес среди всех пяти переменных, что предполагает его наиболее значительное влияние на итоговую Z-оценку по сравнению с такими переменными, как X1 (1,2), X2 (1,4), X4 (0,6) и X5 (0,99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Если бы обновленная версия Z-score модели снизила влияние фактора «Соотношение оборотного капитала к общим активам» на 50%, каким был бы новый коэффициент для X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Исходя из формулы Z-score модели, какая предполагаемая зависимость существует между отношением общих продаж компании к общему объему активов и итоговым Z-счетом?",
+    "answer": [
+      [
+        "Существует положительная корреляция между отношением общих продаж к общим активам (X5) и Z-счетом. Формула показывает, что Z-счет является взвешенной суммой пяти соотношений, а коэффициент для X5 положителен (0.99). Следовательно, при прочих равных условиях, увеличение отношения общих продаж к общим активам приведет к более высокому Z-счету."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Какая модель содержит описание наибольшего числа различных параметров, поясненных в третьей колонке?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "При рассмотрении числовых коэффициентов в формуле Z-score модели, какой коэффициент выделяется как выброс по сравнению с остальными?",
+    "answer": [
+      [
+        "Коэффициент 3.3 для переменной X3 является значительным выбросом. Остальные коэффициенты в формуле составляют 1.2, 1.4, 0.6 и 0.99, которые все сгруппированы в диапазоне от 0.6 до 1.4. Значение 3.3 более чем в два раза превышает значение следующего по величине коэффициента (1.4), что делает его существенно большим, чем остальные."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Какая модель была бы более подходящей для прогнозирования доходности активов с учетом факторов рынка, размера и отношения цены к балансовой стоимости, и почему?",
+    "answer": [
+      [
+        "Факторная модель была бы более подходящей, поскольку она явно включает доходность рынка (r_m - r_f), фактор размера (SMB) и фактор отношения цены к балансовой стоимости (HML), что позволяет ей охватить множественные измерения вариаций доходности активов, которые не учитываются в логистической регрессии или Z-оценочной модели."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

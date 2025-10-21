@@ -1,0 +1,217 @@
+[
+  {
+    "question_id": "finqa_16910e868d_001",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "在“2022和2023财年”期间，哪种特定义务类型的付款金额最大？",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_002",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "在“2020和2021财年”期间，所有与租赁相关的义务（经营租赁和资本租赁）的总金额是多少？",
+    "answer": [
+      [
+        "206.6"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_16910e868d_003",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "对于2019财年付款额最小的义务类型，‘此后’对应的付款额是多少？",
+    "answer": [
+      [
+        "138.1"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_004",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述“经营租赁义务”在指定财年期间的支付趋势。",
+    "answer": [
+      [
+        "“经营租赁义务”的支付呈现出前期较重的趋势。2019年为1.321亿美元，2020-2021年期间达到峰值1.999亿美元，随后在2022-2023年期间下降至1.184亿美元，此后到期金额为1.654亿美元。这表明相比峰值期，近期有很多租赁合同生效，而长期承诺较少。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_005",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "列出所有总金额少于10亿美元且'之后'到期金额超过1.5亿美元的义务类别。",
+    "answer": [
+      [
+        "operating lease obligations ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A2",
+      "B2",
+      "F2",
+      "A3",
+      "B3",
+      "F3",
+      "A4",
+      "B4",
+      "F4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_006",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "总的“长期债务”中有多少比例是“此后”到期的？",
+    "answer": [
+      [
+        "51.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_16910e868d_007",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "如果所有“资本租赁义务”都被免除并从表格中删除，那么“2019财年”的新的“总计”到期付款将是多少？",
+    "answer": [
+      [
+        "$ 2535.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_008",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，‘长期债务’和‘采购义务及其他’之间的到期结构有何根本区别？",
+    "answer": [
+      [
+        "它们的到期结构有明显的相反关系。“长期债务”的到期时间显著靠后，超过一半的总额（60.39亿中的31.366亿）将在“此后”期间到期。相反，“采购义务及其他”的到期时间则显著靠前，绝大部分（22.105亿中的16.766亿）将在最早的时期，即2019财年到期，这表明这些主要是短期承诺。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B4",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_16910e868d_009",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "单元格 E5（“2022 和 2023 财年”的总计）是如何根据表格中的其他数字计算出来的？",
+    "answer": [
+      [
+        "单元格 E5 的值（1587.0 美元）是每个列表中在其上方列出的四个义务类别在“2022 和 2023 财年”期间应付的款项的总和：1351.0 美元（E1）、118.4 美元（E2）、2.7 美元（E3）和 114.9 美元（E4）。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_010",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "从负债总额的比例来看，哪个付款周期是一个显著的异常值，是什么导致了这种异常？",
+    "answer": [
+      [
+        "2019财年是一个异常值。其总额25.403亿美元远高于随后的两个周期（12.555亿美元和15.870亿美元）。这种异常几乎完全是由“采购义务及其他”类别驱动的，该类别在当年有一笔高达16.766亿美元的款项到期，占该周期总额的约66%。"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_16910e868d_011",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "到2019财年以及2020-2021财年为止，所有租赁义务（经营租赁和资本租赁）的总和是多少？",
+    "answer": [
+      [
+        "$343.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

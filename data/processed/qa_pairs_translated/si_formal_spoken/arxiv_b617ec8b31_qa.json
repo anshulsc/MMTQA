@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "MarS ක්‍රමය මගින් වත්මන් වෙළඳපල පසුගිය වෙළඳපල සමග සංසන්දනය කරන යෙදුම සඳහා, අනුරූප වත්මන් ක්‍රමය කුමක් සමග සංසන්දනය කරයිද?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'MarS' ක්‍රමය භාවිතා කරන යෙදුම් වලින් 'ජනනය' හෝ 'අනුකරණය' ඇතුළත් වන යෙදුම් වල ප්‍රතිශතය කොපමණද?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'Detection' යෙදුම සඳහා MarS ක්‍රමය, 'Current Methods' හි භාවිතා කරන කාල-පාදක සංසන්දනය වෙනස් කරන්නේ කෙසේද?",
+    "answer": [
+      [
+        "'Detection' සඳහා 'Current Methods' මඟින් වත්මන් වෙළඳපල තත්ත්වය (market_now) සහ අතීත වෙළඳපල තත්ත්වය (market_past) අතර වෙනස ගණනය කිරීමෙන් ඓතිහාසික සංසන්දනයක් මත රඳා පවතී. MarS ක්‍රමය අතීත දත්ත මත මෙම යැපීම ඉවත් කරයි. ඒ වෙනුවට, එය වත්මන් වෙළඳපල (market_now) සමකාලීන ලෙස අනුකරණය කරන ලද වෙළඳපලක් (simu-market_now) සමඟ සංසන්දනය කරයි, සංසන්දනය කාලානුරූප (දැන් එදිරිව එවිට) සිට ආකෘති-පාදක (සැබෑ එදිරිව අනුකරණය කරන ලද) රාමුවකට මාරු කරයි."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": " 'MarS' ක්‍රමය 'pipeline' එකක් ලෙස විස්තර කර ඇති හෝ 'generation' සම්බන්ධ වන සියලුම යෙදීම් සඳහා 'Current Methods' ලැයිස්තුගත කරන්න.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'වත්මන් ක්‍රම' සහ 'MarS' අතර වඩාත්ම මූලික ප්‍රවේශ වෙනසක් පෙන්නුම් කරන, ඓতিහාසික සංසන්දනයකින් අනුකරණය කරන ලද සංසන්දනයක් වෙත මාරු වන යෙදුම කුමක්ද?",
+    "answer": [
+      [
+        "‘සොයාගැනීම’ (Detection) යෙදුම වඩාත්ම මූලික වෙනසක් පෙන්නුම් කරයි. වත්මන් ක්‍රමය කාලානුරූප, අතීතය දෙස බලන සංසන්දනයක් මත රඳා පවතී (Diff(market_now, market_past)). ඊට වෙනස්ව, MarS ක්‍රමය සමකාලීන අනුකරණය කරන ලද යථාර්ථයකට එරෙහිව සංසන්දනයක් හඳුන්වා දෙයි (Diff(market_now, simu-market_now)). අතීත පදනමක සිට සංසන්දනය සඳහා අනුකරණය කරන ලද පදනමකට මෙම වෙනස, වගුවේ ඇති අනෙකුත් ක්‍රමවේද වෙනස්කම් හා සසඳන විට සැලකිය යුතු සංකල්පීය වෙනස්කමකි."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'RL Environment' සඳහා වන 'MarS' ක්‍රමය, එම යෙදුම සඳහා 'Current Methods' හි දත්ත ලබා ගැනීමේ හැකියාව භාවිතා කිරීමට වෙනස් කරන්නේ නම්, මෙම උපකල්පිත MarS ක්‍රමය නිර්වචනය කරන ලක්ෂණ දෙක කුමක්ද?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'RL Environment' යෙදුම සඳහා, 'Current Methods' සහ 'MarS' අතර දත්ත ලබා ගැනීමේ හැකියාව සහ සම්භාවිතා ව්‍යාප්තියෙහි ප්‍රධාන වෙනස කුමක්ද?",
+    "answer": [
+      [
+        "ප්‍රධාන වෙනස පවතින්නේ දත්ත පරිමාව සහ සංක්‍රාන්ති සම්භාවිතාවේ සත්‍යතාව යන දෙකෙහිම ය. 'Current Methods' 'finite data' (සීමිත දත්ත) සහ 'fake' (කෘතීම) සම්භාවිතා ව්‍යාප්තියක් (P(st+1|st,at)) මත රඳා පවතී, අනෙක් අතට 'MarS' 'infinite data' (අසීමිත දත්ත) සහ 'real' (තථ්‍ය) සම්භාවිතා ව්‍යාප්තියක් භාවිතා කරයි."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'Current Methods' හෝ 'MarS' සඳහා වන ඔවුන්ගේ ක්‍රම විස්තරවල 'data' යන පදය අඩංගු වෙනස් යෙදුම් කීයක් ලැයිස්තුගත කර තිබේද?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "ሠట్టిට අනුව, ධාරා ක්‍රමවේද හා සසඳන විට MarS හි පැහැදිලි ප්‍රධාන වාසිය කුමක්ද, විශේෂයෙන් දත්ත සහ යථාර්ථ නිරූපණය සම්බන්ධයෙන්?",
+    "answer": [
+      [
+        "සමස්ත තේමාවෙන් ඇඟවෙන්නේ MarS ක්‍රමවේද, ඓතිහාසික හෝ සීමිත දත්තවල සීමාවන් ජය ගැනීමට උත්සාහ කරන බව, උත්පාදන සහ අනුකරණ-පාදක ප්‍රවේශයන් උපයෝගී කරගනිමින්. MarS, අනුමානය කිරීමේ සිට උත්පාදනයට, ඓතිහාසික සැසඳීමේ සිට අනුකරණය කරන ලද සැසඳීමට, සහ සීමිත/කෘතිම දත්ත ආකෘතිවල සිට අසීමිත/සැබෑ දත්ත ආකෘති දක්වා මාරු වේ. මෙය විශ්ලේෂණය සහ ශක්තිමත් කිරීමේ ඉගෙනීම සඳහා වඩාත් ශක්තිමත්, නම්‍යශීලී සහ යථාර්ථවාදී දත්ත පරිසරයන් නිර්මාණය කිරීමේදී උපාය මාර්ගික වාසියක් පෙන්නුම් කරයි."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "වගුවේ මුල් තීරුව හැර, වෙනස් යෙදුම් කීයක් විස්තර කර තිබේද?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Forecasting සඳහා භාවිතා කරන වත්මන් ක්‍රමය කුමක්ද?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

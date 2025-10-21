@@ -1,0 +1,194 @@
+[
+  {
+    "question_id": "finqa_9f8b872826_001",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "value",
+    "question": "在哪个年份，“不包括CIB市场在内的净利息收入”最高？",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9f8b872826_002",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "value",
+    "question": "2014年至2016年，CIB Markets净利息收入（以百万计）总计是多少？",
+    "answer": [
+      [
+        "17664"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9f8b872826_003",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "value",
+    "question": "2015年，平均计息资产最低的细分市场的净利息收益率是多少？",
+    "answer": [
+      [
+        "1.04"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C6",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9f8b872826_004",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述“扣除CIB市场后的平均生息资产净利息收益率”从2014年到2016年的趋势。",
+    "answer": [
+      [
+        "扣除CIB市场后的平均生息资产净利息收益率从2014年的2.53%下降到2015年的2.49%，然后在2016年显著回升至2.59%，在本时期结束时达到最高点。"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9f8b872826_005",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "value",
+    "question": "列出“2013 年管理基础净利息收入”大于 450 亿美元的年份。",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9f8b872826_006",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "value",
+    "question": "2016年，‘平均生息资产’中有多少比例是由‘平均CIB市场生息资产’组成的？",
+    "answer": [
+      [
+        "24.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9f8b872826_007",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "value",
+    "question": "假设净利息收入是净利息收益率和平均生息资产的乘积，那么在2014年，如果'CIB市场净利息收入'的收益率是1.25而不是1.15，它的数值将是多少？（所有数值单位为百万）",
+    "answer": [
+      [
+        "$ 6537"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9f8b872826_008",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "open_ended_reasoning",
+    "question": "分析在三年的时间里，总的“平均计息资产”的增长与“2013年管理基础的平均计息资产净利息收益率”的变化之间的关系。",
+    "answer": [
+      [
+        "两者之间没有持续的直接相关性。从2014年到2015年，平均计息资产总额有所增长，而净利息收益率有所下降。然而，从2015年到2016年，资产和收益率均有所增加。这种波动关系表明，除总资产金额外，其他因素也对净利息收益率产生显著影响。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9f8b872826_009",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "value",
+    "question": "表中根据描述，哪两项是明确定义为前一总计的减项？",
+    "answer": [
+      [
+        "less : cib markets net interest income ( c )"
+      ],
+      [
+        "less : average cib markets interest-earning assets ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9f8b872826_010",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "value",
+    "question": "在“CIB 市场净利息收入”中，哪一年的同比百分比变化（无论是正向还是负向）最大？",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9f8b872826_011",
+    "table_id": "finqa_9f8b872826",
+    "question_type": "value",
+    "question": "哪一年的净利息收入最高？",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

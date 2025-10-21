@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "wikisql_175793119b_001",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "ในเกมใด (ระบุตามวันที่) ที่ผู้ทำคะแนนสูงสุดทำคะแนนได้มากกว่าผู้ทำคะแนนสูงสุดลำดับที่สองในชุดข้อมูลนี้อย่างน้อย 14 แต้ม ซึ่งถือเป็นผลงานที่โดดเด่นเป็นพิเศษ?",
+    "answer": [
+      [
+        "March 8"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F9",
+      "B4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_175793119b_002",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "ค่าเฉลี่ยจำนวนผู้เข้าชมสำหรับการแข่งขันทั้งหมดที่จัดขึ้นที่ 'Rose Garden' คือเท่าใด?",
+    "answer": [
+      [
+        "20242.8"
+      ]
+    ],
+    "evidence_cells": [
+      "G2",
+      "G7",
+      "G8",
+      "G9",
+      "G13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_175793119b_003",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "คู่แข่งของ Portland Trail Blazers ในเกมที่หยุดสถิติแพ้ติดต่อกันยาวนานที่สุดที่แสดงในตารางนี้คือทีมใด?",
+    "answer": [
+      [
+        "Milwaukee Bucks"
+      ]
+    ],
+    "evidence_cells": [
+      "I2",
+      "I3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_004",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "แสดงรายการวันที่ของการแข่งขันที่ทีม Portland Trail Blazers ชนะในฐานะทีมเยือนและมีผู้เข้าชมต่ำกว่า 19,000 คน",
+    "answer": [
+      [
+        "March 11"
+      ],
+      [
+        "March 22"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "D6",
+      "G6",
+      "B6",
+      "C11",
+      "D11",
+      "G11",
+      "B11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_005",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "เกมที่ทีมพอร์ตแลนด์ เทรลเบลเซอร์สเป็นทีมเหย้า มีผลชนะคิดเป็นกี่เปอร์เซ็นต์?",
+    "answer": [
+      [
+        "60"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "D2",
+      "E7",
+      "D7",
+      "E8",
+      "D8",
+      "E9",
+      "D9",
+      "E13",
+      "D13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_175793119b_006",
+    "table_id": "wikisql_175793119b",
+    "question_type": "open_ended_reasoning",
+    "question": "อธิบายรูปแบบผลงานของทีมพอร์ตแลนด์ เทรลเบลเซอร์ส ระหว่างวันที่ 10 มีนาคม ถึง 22 มีนาคม ช่วงเวลานี้มีลักษณะความสม่ำเสมอหรือความผันผวนสูง?",
+    "answer": [
+      [
+        "ช่วงเวลาระหว่างวันที่ 10 มีนาคม ถึง 22 มีนาคม มีลักษณะเป็นความผันผวนสูงและขาดความสม่ำเสมอ ผลการแข่งขันของทีมเป็นรูปแบบแพ้สลับชนะอย่างเคร่งครัดติดต่อกันหกเกม ดังที่เห็นได้จากลำดับในคอลัมน์ 'Streak' คือ L1, W1, L1, W1, L1, W1 พวกเขาไม่สามารถสร้างโมเมนตัมใดๆ ได้ จนกระทั่งเกมสุดท้ายของช่วงเวลานี้ในวันที่ 22 มีนาคม ซึ่งพวกเขาทำได้ชัยชนะติดต่อกันเป็นครั้งแรก (W2)"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_007",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "พอร์ตแลนด์ เทรลเบลเซอร์ส ชนะด้วยคะแนนที่ห่างมากที่สุดในเกมเมื่อวันที่เท่าไหร่?",
+    "answer": [
+      [
+        "March 25"
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "D3",
+      "D4",
+      "D6",
+      "D8",
+      "D10",
+      "D11",
+      "D13",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C6",
+      "E6",
+      "C8",
+      "E8",
+      "C10",
+      "E10",
+      "C11",
+      "E11",
+      "C13",
+      "E13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_008",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "หากเกมที่ต่อเวลาพิเศษในวันที่ 8 มีนาคม ส่งผลให้พอร์ตแลนด์แพ้ด้วยผลต่าง 6 คะแนนเท่าเดิม แทนที่จะชนะ สถิติชนะ-แพ้ใหม่ของพวกเขาหลังจากเกมนั้นจะเป็นเท่าใด?",
+    "answer": [
+      [
+        "32–31"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_009",
+    "table_id": "wikisql_175793119b",
+    "question_type": "open_ended_reasoning",
+    "question": "อ้างอิงจากข้อมูล มีความสัมพันธ์ที่ชัดเจนระหว่างแต้มรวมส่วนบุคคลของผู้ทำคะแนนสูงสุดกับผลการแข่งขัน (ชนะ/แพ้) ของทีมพอร์ตแลนด์ เทรลเบลเซอร์สหรือไม่? ให้เหตุผลประกอบคำตอบของคุณ",
+    "answer": [
+      [
+        "ไม่มีความสัมพันธ์ที่ชัดเจนระหว่างแต้มรวมของผู้ทำคะแนนสูงสุดกับการที่ทีมเทรลเบลเซอร์สจะชนะหรือแพ้ ตัวอย่างเช่น เกมที่ผู้ทำคะแนนสูงสุดทำแต้มได้มากที่สุด (Robinson: 45) ผลคือชนะ อย่างไรก็ตาม เกมที่ทำแต้มได้สูงเป็นอันดับสอง (Aldridge: 31) ผลคือแพ้ ในทางกลับกัน ทีมก็สามารถคว้าชัยชนะได้เมื่อผู้ทำคะแนนสูงสุดทำแต้มได้ในระดับปานกลาง เช่น 23 แต้ม (Roy ในวันที่ 22 มีนาคม) สิ่งนี้บ่งชี้ว่าแม้ว่าผลงานส่วนบุคคลที่ทำคะแนนได้สูงจะมีส่วนช่วยได้ แต่ก็ไม่ใช่ตัวทำนายที่เชื่อถือได้ว่าทีมจะชนะ เมื่อพิจารณาจากชุดข้อมูลนี้"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11",
+      "D12",
+      "F12",
+      "D13",
+      "F13",
+      "D14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_175793119b_010",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "ระบุผู้เล่นที่เป็นผู้ทำคะแนนสูงสุดบ่อยที่สุดในชุดเกมเหล่านี้ และคำนวณคะแนนเฉลี่ยของพวกเขาในกรณีเหล่านั้น",
+    "answer": [
+      [
+        "Aldridge, 27.75"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_011",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "เกมใดที่มีจำนวนผู้เข้าชมต่ำที่สุดในชุดข้อมูลนี้?",
+    "answer": [
+      [
+        "March 24 vs Seattle SuperSonics"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "F12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

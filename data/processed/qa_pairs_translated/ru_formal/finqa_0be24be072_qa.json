@@ -1,0 +1,199 @@
+[
+  {
+    "question_id": "finqa_0be24be072_001",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "В каком году наблюдался наибольший абсолютный прирост показателя «Чистый процентный доход за вычетом операций CIB Markets» по сравнению с предыдущим годом?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_002",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Каковы были средние «средства, приносящие процент» за три предоставленных года?",
+    "answer": [
+      [
+        "2123479.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0be24be072_003",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "В каком году показатель «Чистый процентный доход CIB Markets» был самым высоким, и какое соответствующее значение было для «Средние процентные активы CIB Markets»?",
+    "answer": [
+      [
+        "520307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_004",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите тенденцию показателя «Чистая процентная маржа по средним процентным активам CIB Markets» с 2015 по 2017 год.",
+    "answer": [
+      [
+        "Тенденция была крайне нестабильной. Доходность выросла примерно на 17,3% с 1,04 в 2015 году до 1,22 в 2016 году, но затем резко снизилась примерно на 29,5%, упав до 0,86 в 2017 году."
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_005",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Перечислите годы, в которых «Чистый процентный доход CIB Markets» превышал 5 000 миллионов, а «Чистая процентная доходность по средней процентной базе CIB Markets» превышала 1,10.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_006",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "В 2016 году какой процент от общих «средних процентных активов» составляли «средние процентные активы CIB Markets»?",
+    "answer": [
+      [
+        "24.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0be24be072_007",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Если бы 'чистый процентный доход подразделения CIB Markets' в 2017 году был на 20% выше, а 'чистый процентный доход по состоянию на 31 декабря 2013 года (управленческая отчетность)' остался прежним, каким был бы новый 'чистый процентный доход без учета подразделения CIB Markets'?",
+    "answer": [
+      [
+        "$ 45854"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_008",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Основываясь на таблице, наблюдается ли явная корреляция между общим показателем «чистый процентный доход за 2013 год на управляемой основе» и «чистой процентной ставкой по средней процентной базе за 2013 год на управляемой основе» за три года?",
+    "answer": [
+      [
+        "Да, существует явная положительная корреляция. Поскольку «чистый процентный доход за 2013 год на управляемой основе» последовательно увеличивался с 44 620 млн долларов в 2015 году до 51 410 млн долларов в 2017 году, «чистая процентная ставка по средней процентной базе за 2013 год на управляемой основе» также демонстрировала стабильный рост с 2,14% до 2,36% за тот же период."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0be24be072_009",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Какие два показателя в таблице, когда первый делится на второй, рассчитывают 'чистую процентную ставку по средней процентной базе активов, исключая активы CIB'?",
+    "answer": [
+      [
+        "net interest income excluding cib markets ( a )"
+      ],
+      [
+        "average interest-earning assets excluding cib markets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A6",
+      "A9",
+      "B3",
+      "B6",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_010",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Какой год из показателя «чистый процентный доход, управленческий базис 2013 года» является выбросом с точки зрения годового роста по сравнению с другим периодом?",
+    "answer": [
+      [
+        "2017 год является выбросом из-за его значительно более высокого роста. Увеличение с 2016 по 2017 год составило 4 118 млн долларов (51 410 - 47 292), что существенно больше, чем увеличение на 2 672 млн долларов, наблюдавшееся с 2015 по 2016 год (47 292 - 44 620)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_0be24be072_011",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Каков был чистый процентный доход (в миллионах) за исключением рынков CIB в 2016 году?",
+    "answer": [
+      [
+        "$40,958"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

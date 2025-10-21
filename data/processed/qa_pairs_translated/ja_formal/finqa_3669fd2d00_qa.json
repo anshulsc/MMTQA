@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012年から2016年までのコミットメント期間のうち、最も償還額が大きかったのはどの年ですか？",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "'guarantees [c]' の2012年から2016年までの年間平均コミットメント満期額はいくらですか？",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "'2016年以降'の満期金額が最も大きいコミットメントの種類を特定してください。次に、その特定のコミットメントの種類について、2013年と2014年の満期金額の合計を計算してください。",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "'保証 [c]' のコミットメント満期の2012年から2016年以降までの推移を説明してください。",
+    "answer": [
+      [
+        "'保証 [c]' のコミットメント満期は、非常に変動の大きい傾向を示しています。2012年の1,800万ドルから始まり、2013年には800万ドルに減少しましたが、2014年には2億1,400万ドルへと大幅に急増しました。このピークの後、満期は2015年に1,200万ドル、2016年に1,300万ドルへと著しく減少し、2016年以降は6,000万ドルに増加しました。このパターンは直線的でも一貫性もなく、2014年のピークに支配されています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012年の満期金額が0米ドルを超え、かつ総コミットメント額が10億米ドル未満であるコミットメントタイプをすべてリストアップしてください。",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2015年に満期を迎える総商業コミットメントのうち、'クレジットファシリティ[a]'が占める割合はどのくらいですか？",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "「保証 [c]」の合計が10%増加し、この増加分がすべて「2016年以降」の満期期間に反映された場合、新しい「商業約束総額」はいくらになりますか？",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "提示されたデータに基づくと、コミットメントの「総額」とその満期までの期間との間には、観察可能な関係はありますか？",
+    "answer": [
+      [
+        "単純な直線的な相関関係はありませんが、観察可能なパターンはあります。最大のコミットメント（「信用供与枠」、$1800M）は、単一の遠い満期日（2015年）を持っています。対照的に、最も広範囲にわたる満期スケジュールを持つコミットメント（「保証」、$325M）は、比較的小さなものの一つです。他の2つのコミットメント（「売掛金」と「保証状」）は、総額が非常に異なる（$600Mおよび$24M）にもかかわらず、最初の年（2012年）に全額返済されています。これは、より大きなコミットメントは単一の一括払いとして構造化される可能性があるのに対し、より小さなコミットメントは即座に処理されるか、長期かつ分散型の債務として構造化されることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "個別のコミットメントタイプの中で、最も多くの非ゼロ値が含まれるコミットメント満了期間はどれですか？",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "「総商業コミットメント」の2012年から2016年までの満期を分析すると、どの年が顕著な外れ値となりますか。また、その理由は何ですか？",
+    "answer": [
+      [
+        "2015年が顕著な外れ値です。2012年から2016年までの総満期額は、それぞれ6億4200万ドル、800万ドル、2億1400万ドル、18億1200万ドル、1300万ドルです。中央値は2億1400万ドルです。2015年の総額18億1200万ドルは、中央値の8倍以上であり、次に高い値（6億4200万ドル）のほぼ3倍にあたるため、統計的に明確な外れ値であり、その原因はほぼ完全に「クレジットファシリティ」の満期によるものです。"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012年から2015年までの総商業コミットメント（百万ドル単位）はいくらですか？",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

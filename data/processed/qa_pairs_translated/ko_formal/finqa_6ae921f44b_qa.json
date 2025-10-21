@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "'기타 포괄 손익(손실) (재분류 제외 전)' 항목에서 가장 큰 절대값 손실을 기록한 재무 범주는 무엇입니까?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "'기타 포괄손실에서 재분류된 금액'의 개별 범주들의 합계는 얼마였습니까?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "2019년 11월 2일에 가장 작은 절대값의 최종 잔액을 기록한 구성 요소의 2018년 11월 3일 시작 잔액은 얼마였습니까?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "'총계'의 누적 기타 포괄 손실이 기간 초반부터 후반까지 전반적인 추세를 설명해 주십시오.",
+    "answer": [
+      [
+        "기간 동안 총 누적 손실이 크게 악화되어 -$58,440에서 -$187,799로 증가했습니다. 이는 $129,359의 추가 순손실을 나타내며, 기간 시작 시점의 누적 손실보다 세 배 이상 증가한 것입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "'기타 포괄 손익 (손실)' 항목에서 순 손실을 기록한 모든 범주에 대해, 2019년 11월 2일 기준 총 합계 잔액은 얼마였습니까?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "2019년 11월 2일의 총 음수 잔액 중 '파생상품의 미실현 보유 이익 (손실)'에 해당하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "'기타 포괄 손익' 중 '연금 계획' 항목이 손실 24,344 대신 이익 24,344이었다면, 2019년 11월 2일의 새로운 총 잔액은 얼마입니까?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "'재조정 전 기타 포괄적 (손실)이익' 항목의 부호(양수/음수)와 각 범주에 대한 최종 '기타 포괄적 (손실)이익' 항목의 부호 사이에 일관된 관계가 존재합니까?",
+    "answer": [
+      [
+        "네, 네 가지 범주 모두에서 일관된 관계가 있습니다. '외화환산조정', '파생상품', '연금'의 경우, 두 항목 모두 음수 값을 가집니다. '매도가능증권'의 경우, 두 항목 모두 양수 값을 가집니다. 따라서 재조정 전 이익의 부호는 해당 기간의 최종 순 포괄 이익의 부호와 일관되게 일치합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "표에서 총계를 제외하고 가장 극단적인 값(즉, 절대값이 가장 큰)을 나타내는 특정 항목은 무엇입니까?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "마감 잔액 = 시작 잔액 + '기타 포괄 손익 (손실)'의 롤-포워드 로직을 사용하여 보고된 값이 수학적으로 일치하지 않는 재무 범주를 식별하십시오.",
+    "answer": [
+      [
+        "'매도가능증권 미실현 보유 이익 (손실)' 범주에 일관성이 없습니다. 해당 시작 잔액 -10(셀 C1)에 '기타 포괄 손익 (손실)' 10(셀 C5)을 더하면 계산된 마감 잔액은 0이 되지만, 이는 보고된 마감 잔액 2,014(셀 C6)과 일치하지 않습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "2018년부터 2019년까지 연금 계획은 얼마나 감소했습니까?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "¿Qué actividad tuvo un mayor impacto negativo en el 'patrimonio total': 'dividendos' o 'recompra de acciones ordinarias'?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "¿Cuál es el cambio neto en el 'capital aportado' de todas las actividades listadas entre las fechas de balance de 2011 y 2012?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "¿Cuál fue el impacto total en el patrimonio de la transacción que implicó un aumento de $662 en el 'capital pagado'?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Analice el cambio en el 'capital total' del 31 de diciembre de 2011 al 31 de diciembre de 2012 e identifique el principal factor de este cambio?",
+    "answer": [
+      [
+        "El capital total disminuyó de $70,078 a $65,428, una reducción neta de $4,650. Aunque hubo varios factores contribuyentes, el principal impulsor de esta disminución fue la 'reclasificación a intereses no controladores rescatables', que por sí sola representó un impacto negativo de $4,288, lo que constituye más del 92% de la reducción neta total."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "¿Enumere todas las actividades financieras que resultaron en una disminución en el 'capital aportado' pero no afectaron las 'ganancias retenidas'?",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de las 'ganancias retenidas' iniciales al 31 de diciembre de 2011 se pagó como 'dividendos' durante el período?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "¿Si los 'ajustes de traducción de moneda extranjera' hubieran tenido un impacto neutral (es decir, cero) en el capital total, ¿cuál habría sido el saldo final del capital total al 31 de diciembre de 2012?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Según los saldos iniciales y finales, y la línea de transacción para 'acciones emitidas bajo planes de empleados', ¿cuál es la relación entre 'employee stock trust' y 'common stock issued to employee trust'?",
+    "answer": [
+      [
+        "Existe una relación inversa consistente. El valor en la columna 'common stock issued to employee trust' es siempre el negativo exacto del valor en la columna 'employee stock trust' para cualquier fila dada (por ejemplo, $3166 frente a -$3166 en el saldo inicial; -$234 frente a $234 para las acciones emitidas). Esto indica que son cuentas de contrapartida entre sí, diseñadas para equilibrar su efecto dentro del cálculo del capital total."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Excluyendo la primera y la última fila que describen los saldos, ¿cuál es el valor que aparece con más frecuencia en el conjunto de datos de las columnas B a la K?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "¿Entre todas las transacciones que afectan al 'capital total', qué elemento individual destaca como el mayor valor atípico negativo?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "¿Cuál era el total de acciones preferentes al 31 de diciembre de 2012?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

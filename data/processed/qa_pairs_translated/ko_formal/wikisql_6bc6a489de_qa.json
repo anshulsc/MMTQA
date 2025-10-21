@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "wikisql_6bc6a489de_001",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "2011년 4월에 방영된 프로젝트 중 '시리즈 번호'가 가장 높은 프로젝트는 무엇인가요?",
+    "answer": [
+      [
+        "London Aquatics Centre"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2",
+      "A3",
+      "G3",
+      "A4",
+      "G4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_002",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "2011년 5월 초부터 6월 말 사이에 방영된 에피소드는 몇 개입니까?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_003",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "\"런던 올림픽 아쿠아틱 스타디움\" 바로 다음에 방영된 에피소드의 프로젝트 국가명은 무엇입니까?",
+    "answer": [
+      [
+        "Serbia"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_004",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "첫 네 개의 에피소드는 일관된 주간 간격으로 방영되었습니다. 일정상의 공백을 나타내는 네 번째와 다섯 번째 에피소드 사이의 날짜 간격은 며칠이었습니까?",
+    "answer": [
+      [
+        "50"
+      ]
+    ],
+    "evidence_cells": [
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_005",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "유럽이나 북미에 속하지 않는 국가의 프로젝트를 다룬 모든 에피소드의 제목을 나열하십시오.",
+    "answer": [
+      [
+        "\"Drought-Proofing Australia\"",
+        "\"Azerbaijan's Amazing Transformation\"",
+        "\"Building Mumbai 's Modern Airport\""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_006",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "목록에 있는 에피소드 중 4월이 아닌 다른 달에 방영된 에피소드의 비율은 얼마입니까?",
+    "answer": [
+      [
+        "42.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_007",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "\"Rebuilding New York City's Subway\" 에피소드가 2주 일찍 방영되었다면, 원래 방영일은 언제였을까요?",
+    "answer": [
+      [
+        "March 25, 2011"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "G1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_008",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "제공된 데이터를 바탕으로 'No. in series'와 'No. in season' 열 간의 관계는 무엇입니까?",
+    "answer": [
+      [
+        "'No. in season' 열이 1씩 증가할 때마다 'No. in series' 열도 정확히 1씩 증가하는 직접적이고 일관된 양의 선형 관계가 있습니다. 이는 해당 시즌의 에피소드들이 완벽한 연대순으로 나열되어 있음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_009",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터셋에서 모든 항목에 대해 값이 일정한 열은 무엇이며, 그 값은 무엇입니까?",
+    "answer": [
+      [
+        "모든 나열된 에피소드에 대해 'Status at production' 열의 값이 'Under construction'으로 일정합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_010",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "4월의 연속적인 금요일마다 첫 네 개의 에피소드가 방영되었습니다. 이 주간 패턴을 깨뜨린 첫 번째 에피소드를 식별하고 그 방영 날짜의 예외 사항을 설명해주세요.",
+    "answer": [
+      [
+        "\"Constructing Serbia's Largest Bridge\" 에피소드가 패턴을 깬 첫 번째 에피소드입니다. 처음 네 개의 에피소드는 정확히 7일 간격으로 방영되었지만, 이 에피소드는 2011년 4월 29일의 이전 에피소드로부터 50일 후인 2011년 6월 18일에 방영되었으며, 금요일이 아닌 토요일에 방영되었습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G4",
+      "C5",
+      "G5",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_011",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "2011년 6월에 프로젝트가 방영된 국가는 어디인가요?",
+    "answer": [
+      [
+        "Serbia",
+        "Netherlands"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

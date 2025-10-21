@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Čí hlavní vzorec explicitně zahrnuje složku bezrizikové úrokové míry?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Jaký je celkový počet jedinečných proměnných 'X', které se používají jako vstupy ve vzorci Z-score modelu?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Identifikujte model, který používá 'celková aktiva' jako jmenovatele v nejméně třech ze svých vysvětlených parametrů, a poté uveďte, který parametr z tohoto modelu představuje poměr 'tržní hodnoty vlastního kapitálu' k 'celkovým závazkům'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Který model zahrnuje parametry, které jsou explicitně definovány jako měřené 'v čase t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Pokud je analytickým cílem určit pravděpodobnost binárního výsledku (y=1), který model uvedený v tabulce je nejvhodnější volbou?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "V modelu Z-skóre, jaká je váha (koeficient) proměnné představující 'Zisk před úroky a zdaněním / celková aktiva' a jak se tato váha porovnává s ostatními proměnnými?",
+    "answer": [
+      [
+        "Koeficient pro X3 (Zisk před úroky a zdaněním / celková aktiva) je 3,3. Jedná se o nejvyšší váhu ze všech pěti proměnných, což naznačuje, že má nejvýznamnější dopad na konečné Z-skóre ve srovnání s proměnnými jako X1 (1,2), X2 (1,4), X4 (0,6) a X5 (0,99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Pokud by aktualizovaná verze modelu Z-skóre snížila vliv \"Poměr oběžného majetku k celkovým aktivům\" o 50 %, jaký by byl nový koeficient pro X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě vzorce pro Z-skóre model, jaký je odvozený vztah mezi poměrem celkových tržeb společnosti k celkovým aktivům a výsledným Z-skóre?",
+    "answer": [
+      [
+        "Mezi poměrem celkových tržeb k celkovým aktivům (X5) a Z-skóre existuje pozitivní korelace. Vzorec ukazuje, že Z-skóre je vážený součet pěti poměrů a koeficient pro X5 je kladný (0,99). Proto, při zachování všech ostatních faktorů konstantních, zvýšení poměru celkových tržeb k celkovým aktivům povede k vyššímu Z-skóre."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Který model má v popisu největší počet odlišných parametrů vysvětlených ve třetím sloupci?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Při zkoumání číselných koeficientů ve vzorci Z-score Modelu, který koeficient vyniká jako odlehlá hodnota ve srovnání s ostatními?",
+    "answer": [
+      [
+        "Koeficient 3,3 pro proměnnou X3 je významnou odlehlou hodnotou. Ostatní koeficienty ve vzorci jsou 1,2, 1,4, 0,6 a 0,99, které jsou všechny shluknuty v rozsahu mezi 0,6 a 1,4. Hodnota 3,3 je více než dvojnásobná oproti hodnotě dalšího nejvyššího koeficientu (1,4), což z ní činí podstatně větší hodnotu než zbytek."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Který model by byl vhodnější pro predikci výnosů aktiv s ohledem na tržní faktory a faktory velikosti/knihy k trhu a proč?",
+    "answer": [
+      [
+        "Faktorový model by byl vhodnější, protože explicitně zahrnuje tržní výnosy (r_m - r_f), faktor velikosti (SMB) a faktor knihy k trhu (HML), což mu umožňuje zachytit více dimenzí variací výnosů aktiv, které Logistická regrese nebo Z-score model nezohledňují."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

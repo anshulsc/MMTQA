@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2 시나리오(BC2_64 및 BC2_28 모두)에서 가장 낮은 오류율을 달성한 예측 방법은 무엇입니까?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "'LASSO 회귀 특징 선택' 방법의 여섯 가지 BC 시나리오 전체에 대한 평균 오류율은 얼마입니까?",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "가장 많은 수의 외생 변수를 사용한 단일 시나리오의 특징 선택 방법을 식별하십시오. 그런 다음, 해당 특정 방법에 대해 BC3_64 시나리오에서의 오류율을 보고하십시오.",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "모든 예측 설정 중에서 가장 높은 오류율과 가장 낮은 오류율의 차이로 정의되는 성능 격차가 가장 큰 BC 시나리오는 무엇입니까?",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC1_28 시나리오에서 5개 이상의 외생 변수를 사용하고 16.0 미만의 오류율을 달성한 모든 예측 설정을 나열하십시오.",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2_28 시나리오에서 'Forward Feature Selection SARIMAX' 방법의 오차는 기준 'Without exogenous variables' 방법의 오차보다 몇 퍼센트 낮습니까?",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "'Correlation-Based Selection'에서 BC1_28의 오차가 75% 감소한다면, 모든 다섯 가지 예측 설정에 걸쳐 BC1_28 시나리오의 새로운 평균 오차는 얼마입니까?",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "서로 다른 특징 선택 방법들에서 더 많은 외생 변수를 사용하는 것과 더 낮은 오류율을 달성하는 것 사이에 일관된 관계가 존재합니까?",
+    "answer": [
+      [
+        "아니요, 일관된 관계는 존재하지 않습니다. 예를 들어, 시나리오 BC1_64에서는 'Forward Feature Selection SARIMAX'가 단 1개의 변수를 사용하고 가장 낮은 오류(5.64)를 달성하는 반면, 'Manual feature selection'은 18개의 변수를 사용하고 훨씬 높은 오류(13.99)를 보입니다. 반대로, 시나리오 BC1_28에서는 'Forward Feature Selection SARIMAX'의 오류(변수 15개일 때 5.94)가 'LASSO'(변수 10개일 때 15.38)보다 낮아, 일부 경우에는 더 많은 변수가 더 나을 수 있음을 시사합니다. 이는 변수의 양보다는 선택 방법의 효과성이 더 중요함을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "'상관 기반 선택' 방법의 어떤 오류 값이 다른 시나리오에서의 성능과 비교했을 때 유의미한 이상치입니까?",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "이 표에서 비교되는 외생 변수를 활용하는 고유한 특징 선택 방법론은 몇 가지입니까?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "BC2_28에 대해 가장 낮은 오류를 달성한 예측 방법은 무엇입니까?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

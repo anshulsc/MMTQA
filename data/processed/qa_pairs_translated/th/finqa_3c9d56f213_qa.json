@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "โครงการที่ใช้พลังงานลมทั้งหมดในตารางสร้างพลังงาน Gross MW รวมกันเท่าใด",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "ประเภทเชื้อเพลิงใดระหว่างถ่านหิน (Coal) หรือพลังน้ำ (Hydro) ที่มีค่าเฉลี่ยกำลังการผลิตรวม (Gross MW) สูงกว่าในโครงการที่ระบุ?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "โปรดระบุชื่อโครงการทั้งหมดที่ตั้งอยู่ในประเทศจีนซึ่งใช้แหล่งพลังงานหมุนเวียน (พลังน้ำ หรือ พลังงานลม)",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Gross MW ที่มีผลต่อ AES สำหรับโครงการที่มี Gross MW สูงสุดในชิลีคือเท่าใด",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "โครงการใดบ้างที่ AES ถือหุ้น 100% และคิดเป็นสัดส่วนเท่าใดของ Gross MW ทั้งหมดจากทุกโครงการ",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "ระบุโครงการที่มีกำลังการผลิต Gross MW ผิดปกติมากที่สุด และอธิบายว่าทำไมจึงโดดเด่นกว่าโครงการอื่นๆ ทั้งหมดในชุดข้อมูล",
+    "answer": [
+      [
+        "โครงการ 'ballylumford' เป็นโครงการที่มีความแตกต่างมากที่สุด กำลังการผลิต Gross MW ที่ 1246 ของโครงการนี้มีขนาดใหญ่กว่าโครงการที่ใหญ่เป็นอันดับสอง 'jhrh' (379 MW) ถึงกว่าสามเท่า และมากกว่าค่ามัธยฐาน Gross MW ของชุดข้อมูลทั้งหมด (49 MW) กว่า 25 เท่า ความแตกต่างอย่างมหาศาลของขนาดนี้ทำให้กำลังการผลิตไฟฟ้าของโครงการนี้ผิดปกติเมื่อเทียบกับโครงการอื่นๆ ทั้งหมดที่ระบุไว้"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "หากส่วนของผู้ถือหุ้นของ AES ในทุกโครงการในตุรกีเพิ่มขึ้นเป็นสองเท่าจากระดับปัจจุบัน จะมีผลทำให้มี Gross MW ทั้งหมดใหม่ที่มาจากตุรกีซึ่งมาจาก AES เท่าใด",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "จากข้อมูล มีความสัมพันธ์ที่สังเกตได้ระหว่าง Gross MW ของโครงการกับระดับการถือหุ้นของ AES หรือไม่? อธิบายเหตุผลของคุณ",
+    "answer": [
+      [
+        "ไม่มีความสัมพันธ์ที่ชัดเจนหรือสม่ำเสมอระหว่าง Gross MW ของโครงการกับสัดส่วนการถือหุ้นของ AES ตัวอย่างเช่น โครงการที่มี Gross MW สูงที่สุด ('ballylumford', 1246 MW) มีสัดส่วนการถือหุ้น 100% แต่โครงการที่มี Gross MW สูงเป็นอันดับสอง ('jhrh', 379 MW) มีสัดส่วนการถือหุ้นเพียง 35% ในทางตรงกันข้าม โครงการที่มี MW ต่ำมาก ('north rhins', 22 MW) ก็มีสัดส่วนการถือหุ้น 100% เช่นกัน การกระจายตัวของสัดส่วนการถือหุ้นที่หลากหลายในโครงการขนาดต่างๆ บ่งชี้ว่าขนาดของโครงการไม่ได้เป็นตัวกำหนดระดับการลงทุนของ AES โดยตรง"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "คอลัมน์ 'aes equity interest ( percent rounded )' มีข้อมูลซ้ำซ้อน อธิบายรูปแบบของความซ้ำซ้อนนี้",
+    "answer": [
+      [
+        "คอลัมน์นี้แสดงรูปแบบความซ้ำซ้อนที่สม่ำเสมอ โดยแต่ละเซลล์จะมีค่าเปอร์เซ็นต์ตามด้วยค่าเดียวกันที่ซ้ำกันในวงเล็บ เช่น '71% ( 71 % )' ข้อมูลภายในวงเล็บเป็นสำเนาโดยตรงของข้อมูลที่อยู่ก่อนหน้า"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "ประเทศใดมีกำลังการผลิตไฟฟ้าสุทธิ (Gross MW) รวมกันน้อยที่สุดที่ระบุว่าเป็นของ AES โดยพิจารณาเฉพาะประเทศที่มีโครงการมากกว่าหนึ่งรายการในตาราง?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "มีโครงการใดบ้างที่ใช้พลังงานลมเป็นเชื้อเพลิงหลัก?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

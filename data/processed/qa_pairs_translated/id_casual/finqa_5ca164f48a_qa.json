@@ -1,0 +1,193 @@
+[
+  {
+    "question_id": "finqa_5ca164f48a_001",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Berapa poin persentase penurunan 'net charge-offs to average loans' untuk consumer lending dari 2013 ke 2014?",
+    "answer": [
+      [
+        "0.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_002",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Berapa total gabungan, dalam jutaan dolar, untuk 'provision for credit losses' dan nilai absolut dari 'other' di tahun 2013?",
+    "answer": [
+      [
+        "644"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_003",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Di tahun dengan rasio 'allowance for loan and lease losses to total loans' yang lebih tinggi, berapa nilai 'commercial lending net charge-offs'?",
+    "answer": [
+      [
+        "$ -249 ( 249 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_004",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis tren 'total net charge-offs' dari tahun ke tahun. Apa yang disarankan oleh tren ini tentang risiko kredit institusi?",
+    "answer": [
+      [
+        " 'total net charge-offs' turun drastis dari $1077 juta di tahun 2013 menjadi $531 juta di tahun 2014, penurunan lebih dari 50%. Tren menurun ini sangat menyarankan adanya peningkatan kualitas portofolio pinjaman dan manajemen risiko kredit yang lebih efektif selama periode tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_005",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Sebutin kategori net charge-off yang nilai absolutnya lebih dari $500 juta di tahun 2013.",
+    "answer": [
+      [
+        "total net charge-offs ( a )"
+      ],
+      [
+        "consumer lending net charge-offs ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_006",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Berapa persen 'total net charge-offs' di tahun 2014 yang berasal dari 'consumer lending'?",
+    "answer": [
+      [
+        "89.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_007",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Kalau 'provision for credit losses' di tahun 2014 naik 20%, berapa saldo 'december 31' yang baru, dengan asumsi semua item lain tetap sama?",
+    "answer": [
+      [
+        "$ 3385.6 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_008",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan tabel, gimana sih hubungan antara 'total net charge-offs' sama 'provision for credit losses' antara tahun 2013 dan 2014?",
+    "answer": [
+      [
+        "Ada korelasi positif yang kuat. Di tahun 2013, net charge-offs yang tinggi ($1077 juta) sejalan dengan provision yang tinggi ($643 juta). Di tahun 2014, ketika net charge-offs turun drastis (jadi $531 juta), provision for credit losses juga ikut menurun (jadi $273 juta). Ini nunjukkin kalau provision disesuaikan sejalan sama besarnya kerugian pinjaman yang beneran terjadi."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_009",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Sebutin dong metrik finansial di tabel yang nilainya kosong buat tahun 2014 dan 2013.",
+    "answer": [
+      [
+        "net charge-offs to average loans ( for the year ended )"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_010",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Kategori pinjaman mana, komersial atau konsumen, yang menunjukkan perbaikan relatif yang lebih signifikan dalam rasio 'net charge-offs to average loans' dari 2013 ke 2014?",
+    "answer": [
+      [
+        "Pinjaman komersial menunjukkan perbaikan relatif yang lebih signifikan. Rasionya turun dari 0,22% menjadi 0,04%, penurunan 81,8% dari level 2013. Sebaliknya, rasio pinjaman konsumen turun dari 1,07 menjadi 0,62, penurunan relatif yang lebih kecil sebesar 42,1%. Penurunan persentase dramatis pada rasio pinjaman komersial menjadikannya yang paling unggul dalam hal peningkatan kinerja."
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "C13",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_011",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Berapa total penghapusan bersih (dalam jutaan) berkurang dari tahun 2013 ke 2014?",
+    "answer": [
+      [
+        "$546"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

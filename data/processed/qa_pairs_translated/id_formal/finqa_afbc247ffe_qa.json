@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Berapakah total bersih dari semua 'jumlah yang diklasifikasikan ulang dari pendapatan komprehensif lainnya yang terakumulasi' yang dicatat selama tiga periode yang ditampilkan dalam tabel?",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Dari tiga kategori keuangan utama (instrumen derivatif, bagian usaha patungan, sekuritas yang dapat dipasarkan), kategori mana yang mengalami peningkatan absolut terbesar pada saldonya dari tanggal 31 Desember 2014 hingga 31 Desember 2017?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Pada periode dengan 'pendapatan komprehensif lain sebelum reklasifikasi' total tertinggi, berapa jumlah yang direklasifikasi dari 'bagian sl green 2019 atas keuntungan bersih yang belum direalisasi instrumen derivatif ventura bersama'?",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Gambarkan tren total saldo dari 31 Desember 2014 hingga 31 Desember 2017 dari tahun ke tahun. Apakah perubahannya konsisten?",
+    "answer": [
+      [
+        "Trennya tidak konsisten; bergejolak. Total saldo menurun dari -6980 pada tahun 2014 menjadi -8749 pada tahun 2015. Kemudian terjadi peningkatan yang sangat besar menjadi 22137 pada tahun 2016, diikuti oleh penurunan moderat menjadi 18604 pada tahun 2017. Pertumbuhannya tidak stabil atau linier."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Sebutkan kategori keuangan yang memiliki saldo negatif pada awal periode (31 Desember 2014) dan berakhir dengan saldo positif pada akhir periode (31 Desember 2017).",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Berapa persentase dari 'laba komprehensif lain sebelum reklasifikasi' total pada periode 2016 yang diatribusikan pada 'net unrealized gain on derivative instruments ( 1 )'?",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Jika 'pendapatan (kerugian) komprehensif lainnya sebelum reklasifikasi' untuk 'keuntungan bersih yang belum direalisasi dari sekuritas yang dapat dipasarkan' pada periode 2017 adalah keuntungan sebesar $1.000 bukan kerugian sebesar $1.348, berapa saldo 'total' yang baru pada tanggal 31 Desember 2017?",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data yang diberikan, apakah ada korelasi yang konsisten (baik langsung maupun terbalik) antara 'pendapatan lain yang komprehensif (rugi) sebelum reklasifikasi' dan 'jumlah yang direklasifikasi dari pendapatan komprehensif kumulatif' untuk jumlah total di setiap periode?",
+    "answer": [
+      [
+        "Tidak, tidak ada korelasi yang konsisten. Pada periode 2015, kerugian komprehensif sebesar -13.467 diikuti oleh reklasifikasi positif sebesar 11.698 (hubungan terbalik). Namun, pada periode 2016 dan 2017, pendapatan/kerugian dan reklasifikasi memiliki tanda yang sama (masing-masing positif/positif dan negatif/negatif), menunjukkan hubungan langsung di tahun-tahun tersebut. Inkonsistensi menunjukkan bahwa waktu dan jumlah reklasifikasi tidak semata-mata ditentukan oleh kinerja unrealized periode sebelumnya."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana saldo akhir tahun secara matematis diturunkan dari saldo sebelumnya dan aktivitas keuangan sementara yang ditunjukkan dalam tabel?",
+    "answer": [
+      [
+        "Setiap saldo akhir tahun merupakan jumlah dari saldo akhir tahun sebelumnya, 'pendapatan (kerugian) komprehensif lain sebelum reklasifikasi' untuk periode berjalan, dan 'jumlah yang direklasifikasi dari akumulasi pendapatan komprehensif lain' untuk periode berjalan. Misalnya, saldo tahun 2016 (22.137) dihitung sebagai saldo tahun 2015 (-8.749) ditambah pendapatan komprehensif lain periode 2016 (18.211) dan jumlah yang direklasifikasi (12.675)."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Dalam kolom 'total', peristiwa keuangan tunggal manakah (yaitu, item baris non-saldo) yang mewakili nilai absolut terbesar, menunjukkan peristiwa pendapatan komprehensif atau kerugian yang paling signifikan selama periode tiga tahun?",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Berapa total keuntungan bersih yang belum direalisasi di semua kategori pada akhir tahun 2015?",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

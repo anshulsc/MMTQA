@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "最も多くの主要財務指標の分析を必要とするクエリはどれですか？",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "3つのクエリにわたってリストされている個々の「関連メトリクス」の総数を計算してください。",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "会社とその競合他社を比較するクエリについて、「Structured Data Request」に指定されている正確な日付範囲は何ですか？",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "最も長い期間をカバーする構造化リクエストに対応する自然言語クエリはどれですか？",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "'plc'または'Co.'のような法的な識別子を持つ企業が具体的に参照されているクエリの「Required Data」フィールドで要求されたすべての主要なメトリックスをリストしてください。",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Amcor plc のクエリに関して、「Structured Data Request」に記載されている全メトリクスのうち、何パーセントが明示的に「Cash」という単語を含んでいますか？",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Adobeの自然言語クエリに「運転資本利益率（Return on Working Capital）」のリクエストを含める場合、「Structured Data Request」のメトリクスリストは、Halliburtonのクエリからの情報をテンプレートとしてどのように変更されますか？",
+    "answer": [
+      [
+        "「Structured Data Request」のメトリクスセクションは、「Return on Working Capital」とその関連コンポーネントをHalliburtonのクエリから含めるように更新されます。これは、「Return on Working Capital; Net income; Working capital」を既存のリストに追加することを意味し、結果として次のようになります：(Sales Revenue; Total Revenue; Economic Value Added; Net operating profit after tax (NOPAT); Cost of capital; Return on Working Capital; Net income; Working capital)。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "提供されたデータに基づくと、自然言語の「Query」（質問）の複雑さと、「Structured Data Request」（構造化データリクエスト）で指定されたメトリクスの総数との間には、どのような関係が見られますか？",
+    "answer": [
+      [
+        "正の相関があるように見受けられます。より複雑な2つの質問（AmcorとHalliburton用）は、Adobeの単純な質問（メトリクスが5つのみ）と比較して、構造化リクエストで大幅に多いメトリクス（それぞれ14と12）に対応しています。これは、ユーザーの質問の分析的深度が増すにつれて、要求されるデータペイロードも増加することを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "自然言語クエリを、企業、主要指標、関連するサブ指標、および要求された期間を明示的にリストする半構造化形式に解析する機能を持つ列はどれですか？",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "'必要データ'および'構造化データリクエスト'列の時間情報を分析してください。これらの2つの列に時間枠の矛盾があるクエリはありますか？もしあれば、そのクエリを特定し、矛盾を説明してください。",
+    "answer": [
+      [
+        "はい、Amcor plcのクエリに顕著な矛盾が見られます。「必要データ」セクションでは「過去6ヶ月間」という期間が指定されているのに対し、対応する「構造化データリクエスト」では「(2024/7/1 - 2024/7/7)」というはるかに短い7日間の期間が指定されています。他の2つのクエリでは、列間の時間的な一貫性が見られます。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "データ内で言及されているユニークな企業は何社ありますか？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

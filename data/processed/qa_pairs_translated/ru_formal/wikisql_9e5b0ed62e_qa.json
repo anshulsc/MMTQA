@@ -1,0 +1,318 @@
+[
+  {
+    "question_id": "wikisql_9e5b0ed62e_001",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "У кого из игроков, Дэвида Уэста или Криса Пола, было больше общее количество очков в играх, где они были указаны как лучший бомбардир?",
+    "answer": [
+      [
+        "David West"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_002",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Какова была средняя посещаемость игр, сыгранных на New Orleans Arena?",
+    "answer": [
+      [
+        "16821"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H4",
+      "H5",
+      "H6",
+      "H8",
+      "H10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_003",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "В какой игре с самой высокой посещаемостью команда лидировала по передачам и с каким количеством?",
+    "answer": [
+      [
+        "Chris Paul (6)"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_004",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Проанализируйте тенденцию результативности команды за последние четыре игры, зарегистрированные в таблице (Игры 11-14).",
+    "answer": [
+      [
+        "Результативность команды показала значительную положительную тенденцию. Они выиграли все четыре из последних зарегистрированных игр, начав серию побед. Это подтверждается буквой «W» в столбце «Счет» для каждой игры с 11 по 14, что улучшило их рекорд с 5-5 после 10-й игры до 9-5 после 14-й игры."
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "I9",
+      "D10",
+      "I10",
+      "D11",
+      "I11",
+      "D12",
+      "I12",
+      "I8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_005",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Перечислите соперников для всех игр, в которых команда проиграла, а место проведения было New Orleans Arena.",
+    "answer": [
+      [
+        "Atlanta"
+      ],
+      [
+        "L.A. Lakers"
+      ],
+      [
+        "Sacramento"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "H2",
+      "C5",
+      "D5",
+      "H5",
+      "C8",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_006",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Какая доля от общего числа зарегистрированных игр закончилась поражением?",
+    "answer": [
+      [
+        "41.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_007",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Если бы посещаемость каждой выездной игры (символ '@' в столбце \"Team\") была на 10% выше, какой была бы общая посещаемость всех 12 игр?",
+    "answer": [
+      [
+        "197307"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "H3",
+      "C7",
+      "H7",
+      "C9",
+      "H9",
+      "C11",
+      "H11",
+      "C12",
+      "H12",
+      "H1",
+      "H2",
+      "H4",
+      "H5",
+      "H6",
+      "H8",
+      "H10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_008",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Существует ли устойчивая закономерность между количеством подборов лидера команды и исходом игры (победа/поражение)?",
+    "answer": [
+      [
+        "Устойчивой закономерности нет. Количество подборов лидера сильно варьируется как при победах, так и при поражениях. Например, команда выиграла, имея всего 6 подборов лидера (Игра 3), и до 10 (Игры 6, 12, 13). Они также проигрывали игры, в которых лидер по подборам имел 7 (Игры 4, 5), и выигрывали игры с тем же показателем (Игра 8). Наибольшее количество подборов (12 у Дэвида Уэста) пришлось на поражение (Игра 7), что указывает на то, что доминирующая игра одного игрока по подборам не гарантирует победу."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11",
+      "D12",
+      "F12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_009",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Какой из трех столбцов показателей игроков («Наибольшее количество очков», «Наибольшее количество подборов», «Наибольшее количество передач») демонстрирует наименьшее разнообразие ведущих игроков?",
+    "answer": [
+      [
+        "High assists"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_010",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "value",
+    "question": "Какая игра представляет собой выдающееся выступление Дэвида Уэста с точки зрения набранных очков, по сравнению с его другими играми с большим количеством очков в этот период?",
+    "answer": [
+      [
+        "Game 12"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "E1",
+      "E4",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_9e5b0ed62e_011",
+    "table_id": "wikisql_9e5b0ed62e",
+    "question_type": "open_ended_reasoning",
+    "question": "Какой игрок чаще всего упоминается в графе «Лучшие бомбардиры»?",
+    "answer": [
+      [
+        "Дэвид Уэст упоминается почти в каждой игре."
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E4",
+      "E6",
+      "E8",
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

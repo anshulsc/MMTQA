@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "finqa_43092a3153_001",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Какой объект имеет вторую по величине занимаемую площадь?",
+    "answer": [
+      [
+        "tikri campus and unitech cyber park gurgaon india"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_002",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Какова общая занимаемая площадь всех объектов, расположенных в Иллинойсе?",
+    "answer": [
+      [
+        "1487000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_43092a3153_003",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Какова занятая площадь объекта с самой поздней общей датой истечения срока аренды?",
+    "answer": [
+      [
+        "428000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_004",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Какой объект имеет договоры аренды с самой продолжительной длительностью от самой ранней до самой поздней указанной даты истечения срока действия?",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_005",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Перечислите объекты с занятой площадью более 350 000 квадратных футов, срок аренды которых истекает в 2020 году.",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_006",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Какой процент от общей занимаемой площади приходится на кампус в Гургаоне, Индия?",
+    "answer": [
+      [
+        "13.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_43092a3153_007",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Если бы все даты окончания аренды до 2020 года были продлены до 2022 года, сколько объектов недвижимости имели бы аренду, истекающую в 2022 году?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_008",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "Основываясь на предоставленных данных, существует ли наблюдаемая взаимосвязь между размером объекта и количеством дат истечения срока аренды?",
+    "answer": [
+      [
+        "Да, похоже, существует положительная корреляция. Два самых больших объекта, '4 overlook point' (1 059 000 кв. футов) и 'tikri campus' (440 000 кв. футов), являются единственными, у которых указано несколько дат истечения срока аренды (по три каждая). Все более мелкие объекты в таблице имеют только одну дату истечения срока, что позволяет предположить, что более крупные объекты, скорее всего, имеют сложные, поэтапные договоры аренды."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_43092a3153_009",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Какой столбец содержит данные, где одна ячейка может представлять несколько отдельных значений?",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_010",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "Какой объект имеет наиболее значительный положительный выброс по занимаемой площади и почему?",
+    "answer": [
+      [
+        "Объект по адресу '4 overlook point and other locations lincolnshire illinois' является наиболее значительным положительным выбросом. Его площадь в 1 059 000 квадратных футов более чем в 2,4 раза превышает площадь следующего по величине объекта (440 000 кв. футов) и существенно отклоняется от медианы (414 000 кв. футов) и среднего значения (приблизительно 463 143 кв. футов) набора данных, что значительно выделяет его среди других объектов."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_43092a3153_011",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Какова общая занимаемая площадь объектов с истекающим сроком аренды к 2020 году?",
+    "answer": [
+      [
+        "1,537,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "finqa_c9bab52126_001",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Pada tahun berapa perusahaan mengalami 'beban bunga bersih' tertinggi, dan berapa jumlahnya?",
+    "answer": [
+      [
+        "2009",
+        "$431.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_002",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Berapa total biaya 'depresiasi dan amortisasi' yang tercatat selama periode lima tahun dari 2009 hingga 2013?",
+    "answer": [
+      [
+        "1050.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c9bab52126_003",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Berapakah 'pendapatan bersih (rugi)' pada tahun yang memiliki 'ebitda' terendah?",
+    "answer": [
+      [
+        "$ -373.4 ( 373.4 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_004",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "Gambarkan tren 'pendapatan bersih (rugi)' dari tahun terawal (2009) hingga tahun terbaru (2013) yang ditunjukkan dalam tabel.",
+    "answer": [
+      [
+        "Perusahaan menunjukkan tren pemulihan positif yang kuat dalam 'pendapatan bersih (rugi)' dari tahun 2009 hingga 2013. Dimulai dengan kerugian signifikan sebesar $373,4 juta pada tahun 2009, yang berkurang menjadi kerugian yang lebih kecil sebesar $29,2 juta pada tahun 2010. Perusahaan kemudian menjadi untung, dengan pendapatan bersih tumbuh dari $17,1 juta pada tahun 2011 menjadi $119,0 juta pada tahun 2012, dan akhirnya menjadi $132,8 juta pada tahun 2013."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_005",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Sebutkan semua item baris keuangan yang memiliki nilai negatif pada tahun 2010 dan nilai positif pada tahun 2013.",
+    "answer": [
+      [
+        "net income ( loss )"
+      ],
+      [
+        "income tax expense ( benefit )"
+      ],
+      [
+        "net loss ( gain ) on extinguishments of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "E3",
+      "A10",
+      "B10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_006",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Sebagai persentase dari 'ebitda yang disesuaikan', berapa 'depresiasi dan amortisasi' pada tahun 2012?",
+    "answer": [
+      [
+        "27.42%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c9bab52126_007",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Jika 'biaya profesional konsultasi dan terkait utang' 50% lebih rendah pada tahun 2010, berapa 'ebitda yang disesuaikan' untuk tahun tersebut, dengan asumsi penyesuaian ini secara langsung mengurangi totalnya?",
+    "answer": [
+      [
+        "$594.25"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "E14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_008",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data dari tahun 2009 hingga 2013, apa hubungan antara 'beban bunga bersih' dan 'ebitda yang disesuaikan'?",
+    "answer": [
+      [
+        "Terdapat korelasi terbalik yang kuat antara 'beban bunga bersih' dan 'ebitda yang disesuaikan'. Seiring dengan penurunan beban bunga bersih secara konsisten dari $431,7 juta pada tahun 2009 menjadi $250,1 juta pada tahun 2013, ebitda yang disesuaikan secara konsisten meningkat dari $465,4 juta menjadi $808,5 juta selama periode yang sama. Hal ini menunjukkan bahwa upaya perusahaan untuk mengurangi pembayaran utang dan bunga kemungkinan berkontribusi pada peningkatan profitabilitas inti perusahaan."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A14",
+      "B14",
+      "C14",
+      "D14",
+      "E14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c9bab52126_009",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Item penyesuaian keuangan mana saja, antara 'kompensasi berbasis ekuitas non-tunai' dan 'penyesuaian lainnya ( ii )' secara inklusif, yang memiliki nilai numerik dilaporkan untuk setiap tahun dari 2009 hingga 2013?",
+    "answer": [
+      [
+        "non-cash equity-based compensation"
+      ],
+      [
+        "sponsor fees"
+      ],
+      [
+        "consulting and debt-related professional fees"
+      ],
+      [
+        "other adjustments ( ii )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_010",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Nilai 'net loss ( gain ) on extinguishments of long-term debt' untuk tahun 2011 tampaknya merupakan nilai yang tidak biasa. Berapa lebih besar nilai ini dibandingkan dengan nilai tertinggi berikutnya yang tercatat pada tahun-tahun lainnya?",
+    "answer": [
+      [
+        "$54.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D10",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c9bab52126_011",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "Tahun berapa yang menunjukkan laba bersih (rugi) yang lebih rendah secara tidak biasa dibandingkan tahun-tahun lainnya?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

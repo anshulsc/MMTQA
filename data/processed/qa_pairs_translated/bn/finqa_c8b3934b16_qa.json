@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "finqa_c8b3934b16_001",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "কোন বছরে 'সুদের ব্যয় বাদ দিয়ে মোট রাজস্ব' সর্বোচ্চ ছিল?",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_002",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "তিনটি বছর (২০১৬, ২০১৭, এবং ২০১৮) জুড়ে 'নেট ক্রেডিট লস'-এর মোট যোগফল কত ছিল?",
+    "answer": [
+      [
+        "605"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_003",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "যে বছরে 'মোট পরিচালন ব্যয়' সর্বোচ্চ ছিল, সেই বছরে 'নীট সুদ আয়' কত ছিল?",
+    "answer": [
+      [
+        "$ 3045"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_004",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "২০১৬ থেকে ২০১৮ সাল পর্যন্ত 'নেট ক্রেডিট লস'-এর তিন বছরের প্রবণতা বর্ণনা করুন।",
+    "answer": [
+      [
+        "‘নেট ক্রেডিট লস’ একটি ধারাবাহিক এবং উল্লেখযোগ্য নিম্নমুখী প্রবণতা দেখায়, যা ২০১৬ সালে $৪35 মিলিয়ন থেকে কমে ২০১৭ সালে $১৪৯ মিলিয়ন এবং ২০১৮ সালে আরও কমে $২১ মিলিয়নে দাঁড়িয়েছে। এই বছরে বছরে ৬৬% এবং তারপর ৮৬% হ্রাস কোম্পানির ক্রেডিট ঝুঁকি ব্যবস্থাপনা বা সম্পদের গুণমানে একটি বড় উন্নতির ইঙ্গিত দেয়।"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_005",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "২০১৮ সালে যে আর্থিক मदগুলোর (financial line items) মান ধনাত্মক ছিল কিন্তু ২০১৭ সালে ঋণাত্মক (লোকসান) ছিল, সেগুলোর তালিকা দিন।",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) before attribution of noncontrolling interests"
+      ],
+      [
+        "noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_006",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "'মোট সুদের ব্যয় বাদ দিয়ে মোট রাজস্ব'-এর কত শতাংশ 'মোট পরিচালন ব্যয়' দ্বারা গ্রাস করা হয়েছিল ২০১৮ সালে?",
+    "answer": [
+      [
+        "109.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_007",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "'ক্রেডিট রিজার্ভ বিল্ড (রিলিজ)' যদি ২০১৮ সালে $২১ an কোটি ডলারের রিলিজের পরিবর্তে শূন্য হত, তাহলে 'আয় (লোকসান)from continuing operations before taxes' কত হত?",
+    "answer": [
+      [
+        "$ -205"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_008",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "'মোট রাজস্ব (সুদের ব্যয় বাদ দিয়ে)' এবং 'নীট আয় (লোকসান)' এর মধ্যে তিন বছরে কি সরাসরি ইতিবাচক সম্পর্ক আছে? ব্যাখ্যা করুন।",
+    "answer": [
+      [
+        "না, সরাসরি ইতিবাচক সম্পর্ক দেখা যায় না। যদিও রাজস্ব ৫,২৩৩ মিলিয়ন ডলার (২০১৬) থেকে ২,০৮৩ মিলিয়ন ডলার (২০১৮) পর্যন্ত ক্রমাগত হ্রাস পেয়েছে, তবে নীট আয় নাটকীয়ভাবে ৫২১ মিলিয়ন ডলার লাভ থেকে -১৯,৬৭৬ মিলিয়ন ডলার লোকসান এবং আবার ১০৭ মিলিয়ন ডলার লাভে ওঠানামা করেছে। ২০১৮ সালের তুলনায় বেশি রাজস্ব থাকা সত্ত্বেও ২০১৭ সালে বিশাল লোকসানের প্রধান কারণ ছিল ১৯,০৬৪ মিলিয়ন ডলারের একটি অস্বাভাবিক 'আয়কর ( সুবিধা )' আইটেম, শুধুমাত্র রাজস্ব পরিবর্তনের কারণে নয়।"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B11",
+      "C11",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_009",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "কোন কলামে, যা বছর-বছর পরিবর্তনের প্রতিনিধিত্ব করে, সর্বাধিক 'nm' (অর্থহীন) এন্ট্রি রয়েছে?",
+    "answer": [
+      [
+        "% (  % ) change2017 vs . 2016"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "F2",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_010",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "2017 সালের জন্য আর্থিক এন্ট্রিটি শনাক্ত করুন যা 2016 এবং 2018 সালের একই এন্ট্রির তুলনায় একটি স্পষ্ট ব্যতিক্রম, এবং সামগ্রিক ফলাফলের উপর এর প্রভাব ব্যাখ্যা করুন।",
+    "answer": [
+      [
+        "2017 সালে 'আয়কর ( সুবিধা )' $19,064 মিলিয়ন হল 2016 সালে $-455 মিলিয়ন এবং 2018 সালে $-113 মিলিয়ন মূল্যের তুলনায় একটি বিশাল ব্যতিক্রম। এই ব্যতিক্রমীভাবে বড় কর ব্যয় ছিল প্রাথমিক চালিকাশক্তি যা $507 মিলিয়ন কর-পূর্ব ক্ষতিকে $19,571 মিলিয়ন কর-পরবর্তী চলমান অপারেশন থেকে ক্ষতিতে পরিণত করেছে, যা সেই বছরের ডেটাসেটের সবচেয়ে প্রভাবশালী অস্বাভাবিকতা।"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "B11",
+      "C11",
+      "D11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_011",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "২০১৬ থেকে ২০১৮ সাল পর্যন্ত নেট আয় (ক্ষতি) মিলিয়ন ডলারে কত কমেছে?",
+    "answer": [
+      [
+        "$414"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

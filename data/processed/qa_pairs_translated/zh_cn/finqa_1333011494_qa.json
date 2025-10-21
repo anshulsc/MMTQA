@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "哪个房产的“建筑”价值最高？",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "表格中列出的所有房产的总“购买价格分配”是多少？",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "对于“已获得租赁”价值最低的物业，“我们结算时支付的净对价”是多少？",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "对于“1515 broadway”这项资产，其“acquired in-place leases”的价值占其“land”和“building”价值总和的百分比是多少？",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "找出“承担的债务”大于“持有的权益和/或债务投资”三倍的所有物业。",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "如果一项会计调整将“110 east 42nd street”的“building”价值重新评估为低10%，该物业的“assets acquired”新价值将是多少？",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "“1515 broadway” 的“按揭票据负债公允价值调整”为负值，而其他大多数物业则为统一的正值。这个显著的异常值说明了该特定物业的融资情况如何？",
+    "answer": [
+      [
+        "“1515 broadway” 在“按揭票据负债公允价值调整”类别中的负值“-3693”与其它物业统一的正值“2014”形成鲜明对比。这表明与 1515 Broadway 收购相关的抵押贷款票据的条款在收购时比当时普遍的市场利率更有利，从而形成了一项资产（负债调整为负值）。相比之下，其他物业的抵押贷款可能接近市场利率或等于市场利率，因此需要进行标准的、名义上的调整。"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，一个物业的“购买价格分配”与其“我们收盘时支付的净对价”之间是否存在直接的正相关关系？",
+    "answer": [
+      [
+        "不，两者之间没有直接的正相关关系。例如，“180 maiden lane”的购买价格（442,325美元）位居第二高，但其净对价（81,835美元）与购买价格低得多（80,000美元）的“51 east 42nd street”几乎相同。此外，“1515 broadway”的购买价格远高于其他物业（1,234,000美元），但其净对价并非最高。这表明其他因素，例如“承担的债务”（“1515 broadway”的这一项非常高），显著影响了收盘时所需的净对价。"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "计算“租约价值高于市场价值”低于 6,000 美元的物业的总“承担的负债”。",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "价值“2014”在四个不同的财务类别中反复出现，并且经常针对的是相同的资产。这个特定、非四舍五入的数字在不同上下文中的一致使用，对其性质有什么暗示？",
+    "answer": [
+      [
+        "价值“2014”出现在“其他资产净额（扣除其他负债后）”、“抵押票据应付账款的公允价值调整”、“股权和/或债务投资持有”以及“承担的债务”中。它在不同类别和资产中反复作为相对较小且相同的数值出现，这表明它不是一个市场价值的衡量，而是一个名义占位符、会计处理的标准最低值，或者可能指的是特定的事件或法规年份（例如，2014年的交易）。它表示的是标准化的条目，而不是每个实例的独特估值。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "1515 Broadway 的土地购买成本是多少？",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

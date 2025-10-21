@@ -1,0 +1,302 @@
+[
+  {
+    "question_id": "wikisql_92e5bf28cc_001",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "チームにとって最大の勝利差となった試合はどれですか？",
+    "answer": [
+      [
+        "Game 4 vs Sacramento"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "D6",
+      "D7",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_002",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "ワコビア・センターで開催された試合の平均観客数はいくらでしたか？",
+    "answer": [
+      [
+        "13056.5"
+      ]
+    ],
+    "evidence_cells": [
+      "H2",
+      "H5",
+      "H7",
+      "H9",
+      "H10",
+      "H12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_003",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "アンドレ・ミラーが最多アシストを記録した試合で、最多リバウンダーだったのは誰ですか？",
+    "answer": [
+      [
+        "Samuel Dalembert (16)"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G8",
+      "G10",
+      "G11",
+      "F7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_004",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "open_ended_reasoning",
+    "question": "11月中に記載された直近4試合における、チームの勝敗記録に基づいたパフォーマンスの傾向を分析してください。",
+    "answer": [
+      [
+        "11月最後の4試合（11月23日から11月28日まで）において、チームのパフォーマンスは著しく低下する傾向を示しています。11月23日のゴールデンステート戦での勝利から始まり、記録は7勝6敗となりましたが、その後シャーロット、オーランド、ボストンに対して3連敗を喫し、この期間を7勝9敗で終えました。これは3連敗と、月末にかけてのネガティブな勢いの変化を示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "I10",
+      "B11",
+      "I11",
+      "B12",
+      "I12",
+      "B13",
+      "I13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_005",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "エルトン・ブランドが唯一の最多リバウンダーであった敗戦試合における対戦相手をリストアップしてください。",
+    "answer": [
+      [
+        "@ Atlanta"
+      ],
+      [
+        "@ Miami"
+      ],
+      [
+        "@ Minnesota"
+      ],
+      [
+        "@ Charlotte"
+      ],
+      [
+        "@ Boston"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "F1",
+      "C3",
+      "D3",
+      "F3",
+      "C8",
+      "D8",
+      "F8",
+      "C11",
+      "D11",
+      "F11",
+      "C13",
+      "D13",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_006",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "タデウス・ヤングが高得点を記録した試合（単独または複数人での記録を含む）のうち、勝利となった試合の割合はいくらですか？",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "D1",
+      "E2",
+      "D2",
+      "E3",
+      "D3",
+      "E4",
+      "D4",
+      "E7",
+      "D7",
+      "E9",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_007",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "open_ended_reasoning",
+    "question": "もしチームが、10点差以内で負けた全ての試合で10点多く得点していた場合、この表における最終的な記録はどのように変化しますか？",
+    "answer": [
+      [
+        "チームの最終的な記録は7勝9敗から10勝6敗に改善されるでしょう。3試合（88-95で7点差の敗北だった第3戦、84-93で9点差の敗北だった第14戦、94-96で2点差の敗北だった第15戦）は勝利に変わっていたでしょう。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "I13",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_008",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "open_ended_reasoning",
+    "question": "1試合あたりのアシストリーダーの最多アシスト数と試合結果（勝利/敗北）の間に関連性は見られますか？",
+    "answer": [
+      [
+        "データに基づくと、リーダーの最多アシスト数と試合の勝利の間には正の相関関係があるように見えます。勝利した試合における平均アシスト数は9.2（試合4、8、10、12、13から算出）です。敗北した試合における平均は6.875（試合3、5、6、7、11、14、15、16から算出）です。最多アシストを記録した3試合（12、10、9アシスト）はいずれも勝利であり、8敗のうち6試合ではリーダーのアシスト数が8以下でした。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1",
+      "D2",
+      "G2",
+      "D3",
+      "G3",
+      "D4",
+      "G4",
+      "D5",
+      "G5",
+      "D6",
+      "G6",
+      "D7",
+      "G7",
+      "D8",
+      "G8",
+      "D9",
+      "G9",
+      "D10",
+      "G10",
+      "D11",
+      "G11",
+      "D12",
+      "G12",
+      "D13",
+      "G13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_009",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "全試合における、個人最多記録（得点、リバウンド、アシスト）の3つのカテゴリー全てに最も頻繁に登場する選手は誰ですか？",
+    "answer": [
+      [
+        "Elton Brand"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E6",
+      "F6",
+      "G6",
+      "E7",
+      "F7",
+      "G7",
+      "E8",
+      "F8",
+      "G8",
+      "E9",
+      "F9",
+      "G9",
+      "E10",
+      "F10",
+      "G10",
+      "E11",
+      "F11",
+      "G11",
+      "E12",
+      "F12",
+      "G12",
+      "E13",
+      "F13",
+      "G13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_010",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "アウェイゲームのみを考慮した場合、どの試合の観客動員数が最も顕著な外れ値ですか？",
+    "answer": [
+      [
+        "Game 11 at Minnesota (Target Center 10,111)"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H3",
+      "H4",
+      "H6",
+      "H8",
+      "H11",
+      "H13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_011",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "ユタ州との試合で最高得点を記録したのは誰ですか？",
+    "answer": [
+      [
+        "Andre Miller (25)"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Value Lookup"
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "哪个查询需要分析最多的主要财务指标？",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "计算所有三个查询中列出的 '相关指标' 的总数。",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "对于涉及将一家公司与其同行进行比较的查询，在相应的“结构化数据请求”中指定的日期范围是多少？",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "哪个自然语言查询对应于覆盖时间最长的结构化请求？",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "列出在'Required Data'字段中明确引用了像'plc'或'Co.'这样的法律标识符的公司时，所请求的所有主要指标。",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "在 Amcor plc 的查询中，‘结构化数据请求’中列出的所有指标里，有多少百分比明确包含‘Cash’一词？",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "如果 Adobe 的自然语言查询扩展到包含对“营运资本回报率”的请求，那么“结构化数据请求”中的指标列表将如何修改，使用 Halliburton 查询中的信息作为模板？",
+    "answer": [
+      [
+        "“结构化数据请求”中的指标部分将更新为包含来自 Halliburton 查询的“营运资本回报率”及其相关组成部分。这将意味着将“营运资本回报率；净收入；营运资本”添加到现有列表中，结果为：（销售收入；总收入；经济增加值；税后净营业利润 (NOPAT)；资本成本；营运资本回报率；净收入；营运资本）。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "根据提供的数据，自然语言“查询”（Query）的复杂性与“结构化数据请求”（Structured Data Request）中指定的指标总数之间似乎存在什么关系？",
+    "answer": [
+      [
+        "似乎存在正相关。两个更复杂的查询（针对 Amcor 和 Halliburton）对应的结构化请求中的指标数量明显更高（分别为 14 和 12），而 Adobe 的查询更简单，只有 5 个指标。这表明随着用户问题分析深度的增加，所需的数据载荷也会增加。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "哪个列在将自然语言查询解析为明确列出公司、主要指标、相关子指标和所请求时间范围的半结构化格式方面发挥作用？",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "分析“所需数据”和“结构化数据请求”列中的时间信息。是否存在某个查询在这两列中显示了矛盾的时间范围？如果存在，请找出该查询并描述其差异。",
+    "answer": [
+      [
+        "是的，Amcor plc 的查询显示了显著的差异。“所需数据”部分指定的时间范围是“前 6 个月”，而相应的“结构化数据请求”指定了一个短得多的 7 天时间段（2024 年 7 月 1 日 - 2024 年 7 月 7 日）。另外两个查询在这些列之间显示了时间上的一致性。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "数据中提到了多少个不同的公司？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

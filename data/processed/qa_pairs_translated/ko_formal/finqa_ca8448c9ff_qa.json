@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "finqa_ca8448c9ff_001",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "구입 회계 조정 금액을 제외하고, 2012년부터 2013년까지 가치가 가장 크게 감소한 대출 카테고리는 무엇입니까?",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 purchased impaired loans ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_002",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "2013년 개별 대출 구성 요소(조정 제외)를 합산하면 계산된 총액은 얼마입니까?",
+    "answer": [
+      [
+        "51628"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_003",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "2012년 대비 가장 큰 비율 감소를 보인 대출 범주의 2013년 값은 얼마입니까?",
+    "answer": [
+      [
+        "$ 1704"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_004",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "open_ended_reasoning",
+    "question": "'총 주택 담보 및 주거용 부동산 대출 (a)'의 2012년 말부터 2013년 말까지의 전반적인 추세를 설명해주십시오.",
+    "answer": [
+      [
+        "총 주택 담보 및 주거용 부동산 대출은 2012년 말 51,160백만 달러에서 2013년 말 51,512백만 달러로 소폭 증가했습니다. 이는 전체 포트폴리오에서 약 0.69%의 미미한 성장률을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_005",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "2012년에 60억 달러를 초과하는 가치를 가졌고 2013년에는 가치가 감소한 모든 대출 범주를 식별하십시오.",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 purchased impaired loans ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_006",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "2013년 12월 31일 기준 '총 주택 담보 및 주거용 부동산 대출 (a)'에서 '구매 부실 대출'이 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "10.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_007",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "만약 'home equity and residential real estate loans 2013 purchased impaired loans ( b )'의 값이 2012년 수준을 유지했다면, 다른 변경 사항이 없다고 가정할 때 2013년의 새로운 'total home equity and residential real estate loans ( a )'은 얼마였을까요?",
+    "answer": [
+      [
+        "$ 52602"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_008",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터에 따르면, 2012년과 2013년 사이에 일반 주택담보대출(손상 대출 제외)의 성장과 손상 및 정부 보증 대출의 잔액 간의 관계는 어떻게 나타납니까?",
+    "answer": [
+      [
+        "역의 관계가 있는 것으로 보입니다. 일반 '주택 담보 및 주거용 부동산 대출' 포트폴리오는 16억 5,100만 달러 증가한 반면, '매입된 손상 대출'과 '정부 보증' 범주 모두 크게 감소했습니다(각각 10억 9,000만 달러와 5억 7,500만 달러 감소). 이는 손상 및 정부 보증 자산에 대한 노출을 줄이면서 핵심 포트폴리오 성장에 대한 전략적 전환을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_009",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "총 대출 포트폴리오 구성에 가장 큰 절대적 영향을 미친 연간 변화를 보인 대출 구성 요소는 무엇입니까?",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 excluding purchased impaired loans ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_010",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "설명에 'purchased impaired loans'가 명시적으로 언급된 항목은 몇 개입니까?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_011",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "2012년부터 2013년까지 총 주택 담보 및 주거용 부동산 대출은 몇 퍼센트 증가했습니까?",
+    "answer": [
+      [
+        "0.69%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

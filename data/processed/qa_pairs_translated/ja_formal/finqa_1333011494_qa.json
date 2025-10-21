@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "「建物」の価値が最も高い物件はどれですか？",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "表に記載されているすべての物件の「購入価格配分」の合計はいくらですか？",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "「買収時におけるリース契約」の値が最も低い物件の、「買収時点での当社による純考慮額」はいくらですか？",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "「1515 ブロードウェイ」の物件について、「取得資産」の価値のうち、「土地」と「建物」の価値の合計が占める割合は何パーセントですか？",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'負債引受額' が '保有する株式・負債投資額' の 3 倍を超える物件をすべて特定してください。",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'110 east 42nd street'の「building」の価値が10%引き下げられるように会計調整が行われた場合、その物件の新しい「assets acquired」の価値はいくらになりますか？",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "「1515ブロードウェイ」における「モーゲージノートの公正価値調整」が他のほとんどの物件では一律の正の値であるのに対し、マイナスの値となっています。この顕著な例外は何を示唆していますか？",
+    "answer": [
+      [
+        "「モーゲージノートの公正価値調整」の項目で「1515ブロードウェイ」の「-3693」というマイナスの値は、他の物件で一律の正の値である「2014」と比較して、際立った外れ値です。これは、1515ブロードウェイの取得に関連するモーゲージノートが、取得時点での市場金利よりも有利な条件であったため、資産（負債調整のマイナス）が生じたことを示唆しています。対照的に、他の物件は市場金利近辺またはそれ以下のモーゲージであった可能性があり、標準的な名目上の調整が必要だったと考えられます。"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "データに基づくと、物件の「購入価格配分」とその「買主が決済時に負担した正味考慮額」の間には直接的な正の相関関係はありますか？",
+    "answer": [
+      [
+        "いいえ、直接的な正の相関関係はありません。例えば、「180 maiden lane」は2番目に高い購入価格（$442,325）ですが、その正味考慮額（$81,835）は、はるかに低い購入価格（$80,000）である「51 east 42nd street」のものとほぼ同等です。さらに、「1515 broadway」は圧倒的に最も高い購入価格（$1,234,000）ですが、最も高い正味考慮額ではありません。これは、「引き受けた負債」（「1515 broadway」では非常に高い）などの他の要因が、決済時に必要とされる正味考慮額に大きく影響していることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'6,000ドル未満'の'市場を上回るリース価値'を持つ物件の'想定される負債'の合計を計算してください。",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "「2014」という値が、しばしば同じ物件に対して、4つの異なる財務カテゴリーにわたって繰り返し出現しています。この特定の、丸められていない数値が一貫して異なる文脈で使用されていることは、その性質について何を意味するのでしょうか？",
+    "answer": [
+      [
+        "「2014」という値は、「その他負債純額のその他資産」、「モーゲージノート支払いの公正価値調整」、「株式および/または債務投資」、「買受債務」に含まれています。異なるカテゴリーや物件にわたって、比較的小さく同一の値として繰り返し使用されていることは、それが測定された市場価値ではなく、名目上のプレースホルダー、会計目的で使用される標準的な最小値、または特定のイベントや規制年（例：2014年の取引）への参照である可能性を示唆しています。それは、各インスタンスの固有の評価ではなく、標準化されたエントリを意味します。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "1515 Broadway の土地の購入費用はいくらですか？",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

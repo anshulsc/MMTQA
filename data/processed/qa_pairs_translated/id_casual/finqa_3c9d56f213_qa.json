@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Berapa total Gross MW yang dihasilkan oleh semua proyek bertenaga angin yang terdaftar di tabel?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Antara jenis bahan bakar Batu Bara atau Hidro, mana yang punya output rata-rata Gross MW lebih tinggi dari semua proyek yang ada?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Sebutin nama-nama semua proyek di China yang pakai bahan bakar terbarukan (Hydro atau Wind).",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Berapa Gross MW efektif yang diatribusikan ke AES untuk proyek dengan Gross MW tertinggi yang berlokasi di Chile?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Berapa persen kontribusi total Gross MW dari semua proyek di mana AES punya 100% kepemilikan?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Sebutin dong proyek mana yang Gross MW-nya paling beda sendiri dan jelasin kenapa itu menonjol dibanding proyek lain di dataset.",
+    "answer": [
+      [
+        "Proyek 'ballylumford' adalah outlier yang paling signifikan. Gross MW-nya sebesar 1246 itu lebih dari tiga kali lipat dari proyek terbesar berikutnya, 'jhrh' (379 MW), dan lebih dari 25 kali median Gross MW dari seluruh dataset (49 MW). Perbedaan besar dalam skala ini membuatnya kapasitas pembangkit listriknya anomali dibandingkan dengan proyek lain yang terdaftar."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Kalo kepemilikan saham AES di semua proyek Turki naik dua kali lipat dari sekarang, berapa total Gross MW efektif baru dari Turki yang jadi milik AES?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan datanya, apakah ada korelasi yang kelihatan antara Gross MW proyek sama tingkat kepemilikan saham AES? Jelaskan alasannya.",
+    "answer": [
+      [
+        "Nggak ada korelasi yang jelas atau konsisten antara Gross MW proyek sama kepemilikan saham AES. Contohnya, proyek dengan Gross MW paling tinggi ('ballylumford', 1246 MW) punya kepemilikan 100%, tapi yang kedua tertinggi ('jhrh', 379 MW) cuma punya 35% yang rendah. Sebaliknya, proyek MW yang sangat rendah ('north rhins', 22 MW) juga punya 100% kepemilikan. Sebaran kepemilikan saham yang luas di berbagai ukuran proyek nunjukin kalau skala proyek nggak nentuin langsung tingkat investasi AES."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom 'aes equity interest ( percent rounded )' isinya dobel-dobel gitu. Coba jelasin polanya kayak gimana?",
+    "answer": [
+      [
+        "Kolomnya tuh polanya konsisten banget, di setiap sel ada nilai persentase terus di dalem kurung ada nilai yang sama persis diulang lagi, contohnya '71% ( 71 % )'. Jadi, info di dalem kurung itu beneran sama persis kayak yang di depannya."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Negara mana yang punya total Gross MW gabungan terendah yang diatribusikan ke AES, dengan hanya mempertimbangkan negara yang punya banyak proyek di tabel?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Berapa banyak proyek yang pakai 'wind' sebagai bahan bakar utamanya?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

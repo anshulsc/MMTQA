@@ -1,0 +1,315 @@
+[
+  {
+    "question_id": "finqa_3db09587a7_001",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "'プロパティ・アンド・キャジュアリティ・インシュアランス・オフィス' として使用されている全不動産の総面積は何平方フィートですか？",
+    "answer": [
+      [
+        "740526"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3db09587a7_002",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "「プリンシパル・エグゼクティブ・オフィス」として使用されていない最大の資産をホストしている州はどこですか？",
+    "answer": [
+      [
+        "pennsylvania"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_003",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "一覧に記載されている総平方フィートのうち、最大の物件が占める割合は何パーセントですか？",
+    "answer": [
+      [
+        "49.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3db09587a7_004",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "シカゴの執行役員事務所よりも一桁小さい規模の物件の所在地を特定してください。",
+    "answer": [
+      [
+        "101 s . phillips avenue sioux falls south dakota"
+      ],
+      [
+        "600 n . pearl street dallas texas"
+      ],
+      [
+        "675 placentia avenue brea california"
+      ],
+      [
+        "1249 s . river road cranbury new jersey"
+      ],
+      [
+        "4267 meridian parkway aurora illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_005",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "「property and casualty insurance offices」以外の「principal usage」を持ち、かつイリノイ州に所在する全ての物件の所在地をリストアップしてください。",
+    "answer": [
+      [
+        "333 s . wabash avenue chicago illinois"
+      ],
+      [
+        "4267 meridian parkway aurora illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A6",
+      "C6",
+      "A7",
+      "C7",
+      "A8",
+      "C8",
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_006",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "もし3つの最も小さい物件が1つの新しい場所に統合された場合、残りの8つの物件（より大きい元の7つに新しい統合された1つを加えたもの）の平均サイズはいくつになりますか？",
+    "answer": [
+      [
+        "200257.625"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_007",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "open_ended_reasoning",
+    "question": "提供されたデータに基づき、物件の規模とその主な用途との間にどのようなパターンまたは相関関係が推測できますか？",
+    "answer": [
+      [
+        "明確な相関関係が存在します。最も大きい物件（803,728平方フィート）は、「主要役員執務室」として特別に指定されています。最も小さい物件は、「データセンター」（46,903平方フィート）のような専門施設になる傾向があります。中規模から大規模の範囲（56,100から171,318平方フィート）に該当する大多数の物件は、すべて「損害保険事務所」として使用されています。これは、施設規模に基づいた階層的な用途戦略を示唆しており、役員機能には最も広いスペースが必要とされ、一般的なオフィスは幅広い中間範囲を占め、専門的なインフラストラクチャは最も少ないスペースを使用しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3db09587a7_008",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "このデータセットには、「主な用途」のカテゴリがいくつありますか？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_009",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "全プロパティの中央値サイズと比較して、最も大きな外れ値となるサイズのプロパティの所在地を特定してください。",
+    "answer": [
+      [
+        "333 s . wabash avenue chicago illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3db09587a7_010",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "所在地リストに複数回出現する州にある物件の中央値サイズは何ですか？",
+    "answer": [
+      [
+        "425315.5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3db09587a7_011",
+    "table_id": "finqa_3db09587a7",
+    "question_type": "value",
+    "question": "333 S. Wabash Avenue, Chicago, Illinois にある CNA の主要執行役員事務所の面積（平方フィート）はどのくらいですか？",
+    "answer": [
+      [
+        "803,728"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "question_id": "finqa_16910e868d_001",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Jenis kewajiban spesifik mana yang menyumbang pembayaran terbesar yang jatuh tempo pada periode 'fiskal 2022 dan 2023'?",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_002",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Berapakah total jumlah seluruh kewajiban sewa (operasi dan kapital) yang jatuh tempo pada periode 'fiskal 2020 dan 2021'?",
+    "answer": [
+      [
+        "206.6"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_16910e868d_003",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Untuk jenis kewajiban dengan pembayaran terkecil yang jatuh tempo pada tahun fiskal 2019, berapa jumlah pembayaran yang sesuai yang jatuh tempo 'setelahnya'?",
+    "answer": [
+      [
+        "138.1"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_004",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren pembayaran untuk 'kewajiban sewa operasi' di seluruh periode fiskal yang ditentukan.",
+    "answer": [
+      [
+        "Pembayaran untuk 'kewajiban sewa operasi' menunjukkan tren yang terfokus di awal. Pembayaran dimulai dari $132,1 juta pada tahun 2019, memuncak pada $199,9 juta pada periode 2020-2021, kemudian menurun menjadi $118,4 juta pada 2022-2023, dengan sisa $165,4 juta jatuh tempo setelahnya. Hal ini menunjukkan bahwa banyak sewa aktif dalam jangka pendek dengan komitmen jangka panjang yang lebih sedikit dibandingkan periode puncaknya."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_005",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Sebutkan semua kategori kewajiban di mana jumlah total yang jatuh tempo kurang dari $1000 juta dan jumlah yang jatuh tempo 'setelahnya' lebih dari $150 juta.",
+    "answer": [
+      [
+        "operating lease obligations ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A2",
+      "B2",
+      "F2",
+      "A3",
+      "B3",
+      "F3",
+      "A4",
+      "B4",
+      "F4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_006",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Berapa persentase dari total 'utang jangka panjang' yang jatuh tempo 'setelahnya'?",
+    "answer": [
+      [
+        "51.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_16910e868d_007",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Jika semua 'kewajiban sewa modal' dimaafkan dan dihapus dari tabel, berapa total pembayaran yang jatuh tempo untuk 'tahun fiskal 2019'?",
+    "answer": [
+      [
+        "$ 2535.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_008",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, apa perbedaan mendasar dalam struktur jatuh tempo antara 'utang jangka panjang' dan 'kewajiban pembelian dan lainnya'?",
+    "answer": [
+      [
+        "Terdapat hubungan terbalik yang jelas dalam struktur jatuh tempo keduanya. 'Utang jangka panjang' sangat menumpuk di akhir, dengan lebih dari setengah totalnya (Rp 3136,6 juta dari Rp 6039,0 juta) jatuh tempo pada periode 'setelahnya'. Sebaliknya, 'kewajiban pembelian dan lainnya' sangat terfokus di awal, dengan sebagian besar (Rp 1676,6 juta dari Rp 2210,5 juta) jatuh tempo pada periode terawal, yaitu tahun fiskal 2019, yang menunjukkan bahwa ini adalah komitmen jangka pendek."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B4",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_16910e868d_009",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana nilai dalam sel E5, yaitu total untuk 'tahun fiskal 2022 dan 2023', dihitung dari angka lain dalam tabel?",
+    "answer": [
+      [
+        "Nilai dalam sel E5 ($ 1587,0) adalah jumlah vertikal dari pembayaran yang jatuh tempo dalam periode 'tahun fiskal 2022 dan 2023' untuk setiap empat kategori kewajiban yang tercantum di atasnya: $ 1351,0 (E1), $ 118,4 (E2), $ 2,7 (E3), dan $ 114,9 (E4)."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_010",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "Periode pembayaran mana yang mewakili outlier yang signifikan dalam hal proporsi kewajiban total, dan apa yang mendorong anomali ini?",
+    "answer": [
+      [
+        "Tahun Fiskal 2019 adalah outlier. Totalnya sebesar $2540,3 juta jauh lebih tinggi dibandingkan dua periode berikutnya ($1255,5 juta dan $1587,0 juta). Anomali ini hampir seluruhnya didorong oleh kategori 'kewajiban pembelian dan lainnya', yang memiliki pembayaran tidak biasa sebesar $1676,6 juta jatuh tempo pada tahun tersebut, mewakili sekitar 66% dari total periode tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_16910e868d_011",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "Berapakah total seluruh kewajiban sewa (operasional dan modal) dalam jutaan yang jatuh tempo pada tahun fiskal 2019 dan 2020–2021 digabungkan?",
+    "answer": [
+      [
+        "$343.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "finqa_72311a2c52_001",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Quale categoria di prestiti ha registrato la maggiore diminuzione assoluta del valore totale dal 31 dicembre 2017 al 31 dicembre 2018?",
+    "answer": [
+      [
+        "revolving open-end loans secured by one- to four-family residential properties"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_002",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Quale percentuale dei totali degli impegni del 2018 è rappresentata dalla categoria di prestiti con il valore più alto al di fuori degli Stati Uniti?",
+    "answer": [
+      [
+        "28.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "D6",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_003",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Se il valore negli Stati Uniti per 'costruzioni immobiliari commerciali e sviluppo del territorio' fosse stato inferiore del 10% nel 2018, quale sarebbe stato il nuovo 'totale' al 31 dicembre 2018?",
+    "answer": [
+      [
+        "$ 1017937.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_004",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Elenca tutte le categorie di impegni in cui la porzione statunitense era superiore a 100.000 milioni e il valore totale è aumentato dal 2017 al 2018.",
+    "answer": [
+      [
+        "credit card lines"
+      ],
+      [
+        "commercial and other consumer loan commitments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "E5",
+      "A6",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_005",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Qual è stata la variazione media anno su anno del valore totale per tutte le categorie di impegni elencate (esclusa la riga totale) tra il 2017 e il 2018?",
+    "answer": [
+      [
+        "$ 4817.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_72311a2c52_006",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Per la categoria 'commercial and similar letters of credit', qual è il rapporto tra il suo valore U.S. e il suo valore fuori U.S. al 31 dicembre 2018?",
+    "answer": [
+      [
+        "0.18"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_72311a2c52_007",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale categoria rappresenta un valore anomalo in termini di contributo al totale degli impegni negli Stati Uniti e quale percentuale rappresenta di tale totale?",
+    "answer": [
+      [
+        "La categoria 'linee di credito al consumo' rappresenta un valore anomalo significativo, costituendo circa il 74,27% degli impegni totali negli Stati Uniti al 31 dicembre 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_72311a2c52_008",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza il trend di crescita anno su anno delle 'linee di carte di credito' in confronto alla crescita totale del portafoglio dal 2017 al 2018.",
+    "answer": [
+      [
+        "La categoria 'linee di carte di credito' è cresciuta di circa il 2,61% dal 2017 al 2018 (da $678.300M a $696.007M). In confronto, il portafoglio totale è cresciuto di circa il 3,42% (da $985.174M a $1.018.894M). Questo indica che, sebbene le 'linee di carte di credito' siano la categoria singola più grande, il loro tasso di crescita è leggermente inferiore alla crescita complessiva del portafoglio durante questo periodo."
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "E5",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_009",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati, esiste una correlazione costante tra la dimensione del valore statunitense di una categoria di impegno e la sua crescita totale anno su anno dal 2017 al 2018?",
+    "answer": [
+      [
+        "No, non esiste una correlazione costante. Ad esempio, le due categorie statunitensi più grandi, 'linee di carte di credito' e 'impegni di prestiti commerciali e altri consumatori', hanno entrambe registrato una crescita significativa. Tuttavia, la terza categoria statunitense più grande, 'prestiti revolving a termine aperto garantiti da proprietà residenziali da uno a quattro famiglie', ha visto il maggiore declino assoluto. Ciò dimostra che un valore statunitense elevato non garantisce una crescita positiva anno su anno."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "E1",
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B4",
+      "D4",
+      "E4",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_72311a2c52_010",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Quali sono i valori di ciascuna colonna di categoria di impegno calcolati in base ai valori di altre due colonne nella tabella? Spiega la relazione.",
+    "answer": [
+      [
+        "La colonna 'december 312018' è derivata da altre colonne. Per ogni categoria, il suo valore è la somma del valore nella colonna 'u.s .' e nella colonna 'outside ofu.s .'. Ad esempio, nella prima riga, $823 (B1) + $4638 (C1) equivalgono a $5461 (D1)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_011",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Qual è il rapporto tra gli impegni totali degli Stati Uniti e gli impegni totali al di fuori degli Stati Uniti al 31 dicembre 2018?",
+    "answer": [
+      [
+        "4.02 : 1"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Per 31 Desember 2015, pendekatan regulasi mana, 'Tangguh' atau 'Standar', yang menghasilkan 'Total Modal' yang dilaporkan lebih tinggi, dan berapa selisihnya dalam jutaan dolar?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Berapakah rata-rata 'Tier 1 Capital' dalam jutaan dolar di keempat kolom yang dilaporkan?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Sebutkan 'Total Aset Tertimbang Menurut Risiko' yang sesuai dengan kolom dengan 'Rasio Modal Total' terendah.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Dengan asumsi dua kolom terakhir mewakili data tahun sebelumnya, jelaskan tren dari tahun ke tahun untuk 'Rasio Modal Ekuitas Umum Tier 1' di bawah 'Pendekatan Standar'.",
+    "answer": [
+      [
+        "Rasio Modal Ekuitas Umum Tier 1 untuk Pendekatan Standar menunjukkan tren positif, meningkat sebesar 1,51 poin persentase dari 11,12% pada periode sebelumnya menjadi 12,63% pada tanggal 31 Desember 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Rasio modal mana berdasarkan 'Pendekatan Standar 31 Desember 2015' yang berada di bawah 15%?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Untuk '31 Desember 2015 Pendekatan Tingkat Lanjut', berapa proporsi 'Total Modal' yang diatribusikan kepada 'Modal Tier 2'? (Catatan: Modal Tier 2 = Total Modal - Modal Tier 1)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Jika 'Total Aset Tertimbang Menurut Risiko' di bawah 'Pendekatan Standar 31 Desember 2015' secara hipotetis 10% lebih tinggi, berapakah 'Rasio Modal Tier 1' yang baru, dengan asumsi 'Modal Tier 1' tetap konstan?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Hubungan apa yang dapat disimpulkan antara 'Total Aset Berbobot Risiko' dan rasio modal yang disajikan dalam tabel? Gunakan poin data untuk mendukung kesimpulan Anda.",
+    "answer": [
+      [
+        "Terdapat korelasi terbalik antara 'Total Aset Berbobot Risiko' dan rasio modal. Seiring meningkatnya aset berbobot risiko (penyebut dalam perhitungan rasio), rasio modal menurun. Sebagai contoh, kolom dengan aset tertinggi ($1.292.605 juta) melaporkan 'Rasio Modal Total' terendah (12,80%), sedangkan kolom dengan aset terendah ($1.162.884 juta) melaporkan 'Rasio Modal Total' tertinggi (17,08%)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Metrik keuangan mana per 31 Desember 2015, yang menunjukkan perbedaan besar yang tidak biasa antara pendekatan 'Maju' (Advanced) dan 'Standar' (Standardized), mengingat komponen utamanya identik?",
+    "answer": [
+      [
+        "Total Modal menunjukkan perbedaan besar yang tidak biasa. Baik Ekuitas Umum Tier 1 (Common Equity Tier 1 Capital) maupun Tier 1 Capital memiliki nilai yang identik di bawah kedua pendekatan untuk tahun 2015. Namun, Total Modal berbeda lebih dari $12 miliar ($186.097 juta vs $198.655 juta), menunjukkan bahwa seluruh perbedaan disebabkan oleh perhitungan Modal Tier 2 (Tier 2 Capital), menjadikannya nilai yang menyimpang."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Terlepas dari header kolom yang tidak konsisten untuk kedua periode yang ditampilkan, jumlah modal (dalam jutaan dolar) apa saja yang dilaporkan dengan nilai identik untuk pendekatan 'Tangguh' dan 'Standar' pada masing-masing periode?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Jika aset tertimbang menurut risiko (risk-weighted assets) total bank berdasarkan pendekatan lanjutan meningkat sementara total modal tetap konstan, apa yang akan terjadi pada rasio modal total?",
+    "answer": [
+      [
+        "Rasio modal total akan menurun karena aset tertimbang menurut risiko yang lebih tinggi dengan modal yang tidak berubah akan mengurangi rasio modal."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_7c5e218eef_001",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Kategori pengeluaran mana anu ngalaman parobahan taun-ka-taun panggedéna dina dolar, henteu paduli naha éta paningkatan atanapi pangurangan?",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_002",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Sabaraha jumlah tina sakabeh pangurangan waragad (robahan négatip) anu dilaporkeun dina jutaan dolar?",
+    "answer": [
+      [
+        "-23.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_003",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Naon parobahan total dina dollar pikeun kategori biaya anu masing-masing ngawakilan kanaékan 2% tina biaya 2015?",
+    "answer": [
+      [
+        "53.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_004",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": " Dumasar kana total angka, kumaha tren finansial sacara umum pikeun kategori biaya ieu tina sataun ka taun? Dadasaran jawaban anjeun.",
+    "answer": [
+      [
+        "Tren finansial sacara umum nyaéta kanaékan biaya. Ieu dibuktikeun ku baris 'total', anu nunjukkeun parobahan net taun-ka-taun anu positif sebesar $54,4 juta, cocog sareng kanaékan 4% dibandingkeun sareng biaya 2015. Sanaos aya sababaraha pangurangan biaya, éta sacara signifikan dikalahkeun ku kanaékan biaya di daérah sanés."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_005",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Sebutkeun kabéh kategori biaya anu ngalaman parobahan taun-ka-taun anu positif langkung ti $ 15 juta.",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ],
+      [
+        "professional fees and outside services"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_006",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Hitung rasio tina total kanaékan dolar kana total pangiranan dolar absolut tina barang-barang biaya individu, dibuleudkeun kana dua tempat desimal.",
+    "answer": [
+      [
+        "3.29:1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_007",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Upami 'foreign currency exchange rate fluctuation' mangrupakeun panghematan biaya $13.2 juta tinimbang kanaikan biaya, sabaraha total parobahan taun-ka-taun anu anyar?",
+    "answer": [
+      [
+        "$ 28.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_008",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Ku cara ngabandingkeun kategori kalayan parobahan persentase anu sami (misalna, 2% atanapi 1%), naon anu tiasa disimpulkeun ngeunaan hubungan antara parobahan dolar mutlak sareng parobahan persentase? Inpormasi naon anu leungit pikeun mastikeun ieu?",
+    "answer": [
+      [
+        "Kacindekan bisa dijieun yén parobahan dolar mutlak henteu sacara langsung proporsional jeung parobahan persentase dina sababaraha kategori. Contona, 'leungitna dina datacenter' ($28,6 juta) jeung 'biaya profésional' ($24,4 juta) duanana ngalaman parobahan 2%, hartina biaya dasar taun 2015 maranéhanana béda. Inpormasi anu leungit pikeun mastikeun nyaéta nilai pengeluaran 2015 anu sabenerna pikeun unggal kategori."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_009",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "Sel mana dina kolom 'perubahan salaku persentase tina biaya 2015' anu ngandung data anu teu cocog sareng jinis data anu katémbong dina kolom éta, sareng naon niléy anomali na?",
+    "answer": [
+      [
+        "Sel C7, anu cocog sareng 'biaya sanés bersih', ngandung nilai '2014'. Ieu mangrupikeun anomali sabab sadaya nilai sanés dina kolom éta mangrupikeun persentase atanapi angka anu ngagambarkeun persentase, sedengkeun '2014' katingalina mangrupikeun taun."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_010",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Parobahan taunan ('loss on datacenter and related legal fees') mangrupikeun paningkatan pangageungna. Sabaraha persén paningkatan ieu leuwih loba tibatan paningkatan panggedéna kadua ('professional fees and outside services')? Bulatkeun kana hiji tempat desimal.",
+    "answer": [
+      [
+        "17.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_011",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "Kategori pangaluaran mana anu nunjukkeun kanaékan pangluhurna tina taun ka taun?",
+    "answer": [
+      [
+        "Loss on data center and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

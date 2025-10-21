@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Dataset keuangan mana, yang mulai di kolom B atau yang di kolom E, yang punya pendapatan operasional 'as adjusted' lebih tinggi untuk tahun yang berakhir 31 Desember 2016?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Berapa total penyesuaian 'perubahan prinsip akuntansi' berbasis dolar untuk set data pertama (kolom C)?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Berapa persentase margin EBITDA yang disesuaikan 'as filed' untuk set data di mana 'perubahan prinsip akuntansi' untuk pendapatan bunga adalah '-414 ( 414 )'?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Buat dataset pertama (kolom B-D), berapa rasio pendapatan bersih 'as filed' terhadap EBITDA yang disesuaikan 'as filed', dibulatkan ke tiga desimal?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Buat loh dari data di kolom B sampe D, metrik apa yang nilai 'as adjusted'-nya lebih kecil dari nilai 'as filed'?",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Di baris 'pendapatan bersih sebagai persentase dari pendapatan layanan', nilai 'perubahan prinsip akuntansi' mana yang tampak anomali, dan mengapa?",
+    "answer": [
+      [
+        "Nilai 'perubahan prinsip akuntansi' sebesar '2014% (2014%)' di sel C4 dan F4 adalah anomali. Untuk kedua set data, 'pendapatan bersih sebagai persentase dari pendapatan layanan' tetap tidak berubah antara angka 'sebagaimana diajukan' dan 'disesuaikan' (masing-masing dari 5% menjadi 5% dan 3% menjadi 3%). Perubahan yang logis seharusnya 0%, menjadikan '2014%' sebagai outlier yang jelas, kemungkinan besar akibat kesalahan entri data."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Kalau 'perubahan prinsip akuntansi' buat operating income di set data kedua itu berkurang $50 juta, bukan nilai yang tertera, berapa 'as adjusted' operating income yang baru?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Ada nggak sih hubungan yang konsisten antara penyesuaian akuntansi buat operating income sama adjusted EBITDA di kedua set data?",
+    "answer": [
+      [
+        "Iya, ada hubungan positif yang konsisten. Di set data pertama, perubahan buat operating income (+$248) sama persis kayak perubahan buat adjusted EBITDA (+$248). Di set data kedua, perubahan buat operating income (+$414) juga sama persis kayak perubahan buat adjusted EBITDA (+$414). Ini nunjukkin perubahan prinsip akuntansi yang ngaruh ke operating income langsung ngalir ke adjusted EBITDA dengan jumlah yang sama."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa masalah struktural paling signifikan dari judul kolom yang bisa bikin bingung pas baca tabel?",
+    "answer": [
+      [
+        "Masalah struktural utamanya itu duplikasi judul kolom tanpa ada pengelompokan di atasnya. Judul 'year ended december 31 2016 as filed' sama 'year ended december 31 2016 change in accounting principle' dipakai buat dua set kolom yang beda (B dan E; C dan F). Ketidakjelasan ini bikin user harus nebak sendiri kalau dua entitas atau skenario yang beda lagi dibandingin, padahal nggak dikasih tahu secara eksplisit."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pake nilai 'as adjusted', hitung estimasi pendapatan layanan buat kedua set data (Adjusted EBITDA / Adjusted EBITDA margin) terus laporin selisihnya dalam jutaan antara keduanya (set pertama dikurang set kedua), dibuletin ke jutaan terdekat ya.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Berapa sih kenaikan pendapatan operasional (dalam jutaan) buat data set pertama setelah penyesuaian dari 'As Filed' ke 'As Adjusted'?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

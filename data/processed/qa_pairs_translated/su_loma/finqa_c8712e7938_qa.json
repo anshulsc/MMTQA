@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_c8712e7938_001",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskeun tren 'net loss as reported' ti taun 2003 nepi ka 2005.",
+    "answer": [
+      [
+        "The 'net loss as reported' shows a consistent downward trend, indicating financial improvement. The loss decreased from $325,321 in 2003 to $247,587 in 2004, and further reduced to $171,590 in 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_002",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Taun sabaraha bédana mutlak antara 'karugian bersih pro-forma' jeung 'kerugian bersih anu dilaporkeun' paling gedé?",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_003",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Sabaraha jumlah 'beban kompensasi pagawé dumasar saham' anu ditambahkeun deui dina tilu taun anu ditémbongkeun?",
+    "answer": [
+      [
+        "11478"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8712e7938_004",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Pikeun taun kalayan 'net loss per share dasar sareng diluted dilapor' panghandapna, sabaraha rasio 'pro-forma net loss' absolut kana 'net loss dilapor' absolut? Bulatkeun kana tilu tempat desimal.",
+    "answer": [
+      [
+        "1.088"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_005",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Sebutkeun taun-taun dimana nilai absolut pikeun 'total biaya kompensasi karyawan berbasis saham anu ditangtukeun ku metode basis nilai adil' leuwih ti $25.000.",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_006",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Dina taun 2004, sabaraha persén tina 'pro-forma net loss' anu absolut tiasa dikaitkeun kana pangaluyuan 'total stock-based employee compensation expense'? Bulatkeun dugi ka dua tempat desimal.",
+    "answer": [
+      [
+        "8.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8712e7938_007",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "Upami 'stock-based employee compensation expense' anu ditambahkeun dina taun 2005 langkung handap 50%, sabaraha 'pro-forma net loss' anu anyar pikeun taun éta?",
+    "answer": [
+      [
+        "$ -190276 ( 190276 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_008",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Item vérifikasi panghasilan ('nambahan' atanapi 'kirang') mana anu ngalaman parobahan persentase paling drastis tina taun ka taun, sareng di antawis dua taun mana éta kajantenan?",
+    "answer": [
+      [
+        "Item 'nambahan : biaya kompensasi saham karyawan' ngalaman parobahan paling drastis. Eta naek leuwih ti 209% tina $2.297 di 2004 nepi ka $7.104 di 2005, ngagambarkeun hiji outlier signifikan dibandingkeun jeung parobahan taun ka taun séjénna dina tabel."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8712e7938_009",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Naon patali antara 'net loss as reported' jeung 'pro-forma net loss' dina tilu taun?",
+    "answer": [
+      [
+        "Aya hubungan langsung jeung konsisten dimana 'pro-forma net loss' salawasna leuwih gedé dina magnitudo ti batan 'net loss as reported' pikeun unggal taun. Duanana métrik nunjukkeun tren anu sami tina perbaikan (ngirangan karugian) ti 2003 nepi ka 2005, nunjukkeun yén sanajan panyesuaian kompensasi dumasar saham ningkatkeun karugian anu diitung, tren kinerja bisnis anu dasarna konsisten dina duanana ukuran."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8712e7938_010",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Numutkeun kana struktur tabél, naon operasi aritmatika anu ngahubungkeun 'net loss as reported', item baris 'add', sareng item baris 'less' sareng 'pro-forma net loss'? Verifikasi ku data taun 2003.",
+    "answer": [
+      [
+        "Rumusna nyaéta: ('net loss as reported') + ('add : stock-based employee compensation expense net of related tax effect included in net loss as reported') - ('less : total stock-based employee compensation expense determined under fair value based method for all awards net of related taxeffect'). Nganggo data 2003: (-325321) + (2077) - (31156) = -354400, anu cocog sareng 'pro-forma net loss' pikeun taun éta."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_011",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "Kumaha rugi bersih sakumaha dilaporkeun robah tina 2003 nepi ka 2005?",
+    "answer": [
+      [
+        "Rugi bersih sakumaha dilaporkeun turun tina $325,321 dina 2003 jadi $171,590 dina 2005."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

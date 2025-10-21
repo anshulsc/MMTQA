@@ -1,0 +1,230 @@
+[
+  {
+    "question_id": "finqa_bc4731cd2f_001",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Каковы были общие операционные расходы, в миллионах долларов, за три года суммарно (2008, 2009, 2010)?",
+    "answer": [
+      [
+        "32101"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_002",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Какой финансовый показатель испытал наибольшее процентное увеличение с 2008 по 2009 год?",
+    "answer": [
+      [
+        "net credit losses"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_003",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "В каком году была самая высокая сумма «общих доходов за вычетом процентных расходов», и какой соответствующий показатель «чистого (убытка)» был в этом году?",
+    "answer": [
+      [
+        "$ -8369 ( 8369 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_004",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите тенденцию 'непроцентных доходов' за период с 2008 по 2010 год.",
+    "answer": [
+      [
+        "«Непроцентные доходы» демонстрируют устойчивую и резкую тенденцию к снижению в течение трехлетнего периода. Они начались с 6 362 млн долларов в 2008 году, снизились на 25% до 4 770 млн долларов в 2009 году, а затем испытали еще более резкое падение на 58% до 1 995 млн долларов в 2010 году."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_005",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Перечислите все финансовые категории, где абсолютное значение убытка или расхода уменьшилось в 2010 году по сравнению с 2009 годом.",
+    "answer": [
+      [
+        "total operating expenses"
+      ],
+      [
+        "net credit losses"
+      ],
+      [
+        "provision for benefits and claims"
+      ],
+      [
+        "provisions for credit losses and for benefits and claims"
+      ],
+      [
+        "( loss ) from continuing operations before taxes"
+      ],
+      [
+        "( loss ) from continuing operations"
+      ],
+      [
+        "net ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_006",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Каково соотношение «общих операционных расходов» к «общим доходам за вычетом процентных расходов» в 2010 году? Выразите ваш ответ в процентах с округлением до двух десятичных знаков.",
+    "answer": [
+      [
+        "50.95%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_007",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Если бы \"создание (восстановление) резерва под кредитные требования\" в 2010 году составило 1000 млн долларов вместо восстановления в размере 1771 млн долларов, какими были бы новые \"резервы на покрытие кредитных убытков и для выплат по обязательствам\" за этот год?",
+    "answer": [
+      [
+        "$ 18815 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_008",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Существует ли последовательная зависимость между ежегодным изменением «средних активов» и ежегодным изменением «чистых процентных доходов»?",
+    "answer": [
+      [
+        "Нет, последовательной зависимости не существует. С 2008 по 2009 год средние активы снизились на 16%, а чистые процентные доходы также снизились на 24%. Это указывает на возможную положительную корреляцию. Однако с 2009 по 2010 год средние активы снова снизились на 8%, но на этот раз чистые процентные доходы выросли на 6%, что нарушило предыдущую закономерность."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_009",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Какой пункт в строке имеет нечисловое, не процентное значение изменения 'nm' для периода изменения с 2010 по 2009 год, и почему это, вероятно, так?",
+    "answer": [
+      [
+        "Показатель «наращивание (высвобождение) резерва по кредитам» имеет значение «nm» (не имеет смысла) для изменения с 2010 по 2009 год. Это, вероятно, потому, что значение изменилось с положительного числа (наращивание на 5799 млн долларов) в 2009 году на отрицательное число (высвобождение -1771 млн долларов) в 2010 году, а расчет процентного изменения при смене знака (с положительного на отрицательный) математически не определен или считается бессмысленным в финансовой отчетности."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_010",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Какой финансовый показатель демонстрирует наиболее резкое отрицательное изменение между двумя периодами годового изменения (т.е. имел положительное или небольшое отрицательное изменение с 2008 по 2009 год, но большое отрицательное изменение с 2009 по 2010 год)?",
+    "answer": [
+      [
+        "non-interest revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_011",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Каково изменение в общем объеме операционных расходов за 2009 по сравнению с 2008 годом в процентах?",
+    "answer": [
+      [
+        "31%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

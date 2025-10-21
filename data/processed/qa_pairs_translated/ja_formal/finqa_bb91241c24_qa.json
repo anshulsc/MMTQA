@@ -1,0 +1,224 @@
+[
+  {
+    "question_id": "finqa_bb91241c24_001",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "2014年12月28日の残高と2016年1月3日の残高の間で、特定の企業活動（通常のストックオプション行使を除く）を通じて発行された新規株式の総数はいくらでしたか？",
+    "answer": [
+      [
+        "834944"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bb91241c24_002",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "株式発行残高の増加が最も大きかった単一のイベントは何ですか？",
+    "answer": [
+      [
+        "acquisition of kraft foods group inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_003",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "2013年12月29日の期首残高から2016年12月31日の期末残高までの、発行済株式数の純変動を計算してください。",
+    "answer": [
+      [
+        "839644"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_004",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "2014年12月28日以降の、同社の自己株式の動向について説明してください。",
+    "answer": [
+      [
+        "2014年12月28日以降、同社は自己株式の取引を開始しました。これは、2016年1月3日の残高に至る期間に「自己株式」欄にマイナスの値が現れ始めたことで示されます。自己株式の残高は、-413から2016年12月31日には-2471へと、ますますマイナスが増加しました。これは、同社が積極的に自社株買いを行っていたか、従業員報酬計画のために自己株式を再発行しており、保有されている自己株式の総数が減少していたことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_005",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "新規発行株式と自己株式の変動を伴う全ての事象をリストアップしてください。",
+    "answer": [
+      [
+        "exercise of stock options issuance of other stock awards and other"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_006",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "'acquisition of kraft foods group inc .' における発行済株式数は、2016年12月31日時点の発行済株式総数の何パーセントに相当しますか？",
+    "answer": [
+      [
+        "48.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bb91241c24_007",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "スポンサーへの発行株式数が20％増加していた場合、「2016年1月3日時点の残高」の発行済株式数はどうなっていたと推定されますか？他のすべての取引は変更なしと仮定します。",
+    "answer": [
+      [
+        "1258725"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_008",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "発行される株式数と株式発行イベントの種類との間に観察可能な関係はありますか？あなたの答えを正当化してください。",
+    "answer": [
+      [
+        "はい、明確な関係が存在します。「acquisition of kraft foods group inc .」（592,898株）や「issuance of common stock to sponsors」（221,666株）のような主要な企業活動は、「exercise of stock options」（178株から4,555株の範囲）のような日常的なイベントよりも桁違いに多い株式発行をもたらします。これは、戦略的取引が通常の従業員報酬活動よりもはるかに大きな希薄化効果をもたらすことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bb91241c24_009",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "解釈が必要なデータ型が混在している列はどれですか。また、その混在とはどのようなものですか？",
+    "answer": [
+      [
+        "「treasury shares」列には、データ型が混在しています。最初の6行では、「2014」という数値ではないテキストが含まれており、ノイズであるように見えます。最後の4行では、「-413 ( 413 )」のような会計形式の負の数値が含まれており、標準的な数値（-413）として使用するには解釈が必要です。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_010",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "発行済株式数に与える影響という点で明確な異常値となる取引を特定し、その理由を説明してください。",
+    "answer": [
+      [
+        "「Kraft Foods Group Inc. の買収」は著しい異常値です。この取引により592,898株が発行されましたが、これは次に大きい取引（「スポンサーへの普通株式の発行」で221,666株）の2.6倍以上、リスト上の他のどの取引よりも28倍以上大きいです。その規模は、通常の資本活動から明らかに際立っています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bb91241c24_011",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Kraft Foods Group Inc.の買収のために発行された株式数は何株ですか？",
+    "answer": [
+      [
+        "592,898"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

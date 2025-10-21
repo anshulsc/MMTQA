@@ -1,0 +1,357 @@
+[
+  {
+    "question_id": "wikisql_4673ebe650_001",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "টেবিলের মধ্যে মোট কতগুলি ডেটা সেল আছে যেগুলিতে 'February' মানটি রয়েছে?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_002",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "'2002 :'-এর সারির (সারি ২) ডেটার সাথে কলাম হেডারগুলির (সারি ০) তুলনা করুন। প্রথম কলামটি বাদ দিয়ে মূল কাঠামোগত পার্থক্য কী?",
+    "answer": [
+      [
+        "প্রাথমিক কাঠামোগত পার্থক্য হলো যে '2002 :'-এর সারিটি ডেটা বডির অংশ, যেখানে হেডারগুলি টেবিলের স্কিমা সংজ্ঞায়িত করে। যদিও দ্বিতীয় কলাম থেকে ('January' থেকে 'December' পর্যন্ত) মানগুলি হেডার সারি এবং '2002 :'-এর সারি উভয় ক্ষেত্রেই অভিন্ন, তবে তাদের কার্যকারিতা ভিন্ন: একটি হলো একটি লেবেল, এবং অন্যটি একটি ডেটা পয়েন্ট।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "K2",
+      "L2",
+      "M2",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_003",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "'2011 :' এন্ট্রির থেকে চার সারি উপরের সারির নবম কলামে কোন মাসটি তালিকাভুক্ত?",
+    "answer": [
+      [
+        "August"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_004",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "ডেটা সেটের প্রথম কলামে উপস্থাপিত বছরগুলির ক্রমিক বিন্যাস বর্ণনা করুন।",
+    "answer": [
+      [
+        "প্রথম কলামটি একটি ধারাবাহিক সময়গত অগ্রগতি প্রদর্শন করে, প্রতিটি সারি '2001 :' থেকে শুরু হয়ে '2012 :' এ শেষ হওয়া একটি পরপর বছরকে প্রতিনিধিত্ব করে। প্রতি সারিতে ক্রমটি ঠিক এক বছর করে বাড়ে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_005",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "সমস্ত বছরগুলি তালিকাভুক্ত করুন যেখানে 'এপ্রিল' 5ম কলামে এবং 'নভেম্বর' 12ম কলামে উপস্থিত রয়েছে।",
+    "answer": [
+      [
+        "2001 :",
+        "2002 :",
+        "2003 :",
+        "2004 :",
+        "2005 :",
+        "2006 :",
+        "2007 :",
+        "2008 :",
+        "2009 :",
+        "2010 :",
+        "2011 :",
+        "2012 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "L1",
+      "A2",
+      "E2",
+      "L2",
+      "A3",
+      "E3",
+      "L3",
+      "A4",
+      "E4",
+      "L4",
+      "A5",
+      "E5",
+      "L5",
+      "A6",
+      "E6",
+      "L6",
+      "A7",
+      "E7",
+      "L7",
+      "A8",
+      "E8",
+      "L8",
+      "A9",
+      "E9",
+      "L9",
+      "A10",
+      "E10",
+      "L10",
+      "A11",
+      "E11",
+      "L11",
+      "A12",
+      "E12",
+      "L12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_006",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "যদি টেবিলটি '2013' সালের জন্য একটি সারি অন্তর্ভুক্ত করার জন্য প্রসারিত করা হয়, তবে 'অক্টোবর' কলামের সংশ্লিষ্ট কক্ষে প্রত্যাশিত মান কী হবে?",
+    "answer": [
+      [
+        "October"
+      ]
+    ],
+    "evidence_cells": [
+      "K0",
+      "K1",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_007",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "কলাম হেডার (দ্বিতীয় কলাম থেকে শুরু করে) এবং পুরো টেবিলের সংশ্লিষ্ট কলামের ডেটার মধ্যে সম্পর্ক কী?",
+    "answer": [
+      [
+        "এখানে একটি সরাসরি এক-এক অভিন্ন সম্পর্ক রয়েছে। দ্বিতীয় কলাম ('জানুয়ারি') থেকে শেষ কলাম ('ডিসেম্বর') পর্যন্ত যে কোনো কলামের জন্য, সেই কলামের প্রতিটি ডেটা সেল একটি স্ট্রিং মান ধারণ করে যা কলামের হেডারটির সাথে অভিন্ন।"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_008",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "সম্পূর্ণ সারণীতে এমন কোনো ডেটা সেল মান আছে যা তার কলাম হেডার বা প্রথম কলামে প্রতিষ্ঠিত 'YYYY :' বিন্যাসের সাথে মেলে না? ডেটার কোনো অসঙ্গতি বিশ্লেষণ করুন।",
+    "answer": [
+      [
+        "না, ডেটাতে কোনো অসঙ্গতি বা অস্বাভাবিকতা নেই। প্রথম কলামের প্রতিটি সেল পরপর বছরের জন্য 'YYYY :' বিন্যাস অনুসরণ করে এবং দ্বিতীয় থেকে শেষ কলাম পর্যন্ত প্রতিটি সেল তার সংশ্লিষ্ট মাসের নামের হেডারের সাথে পুরোপুরি মিলে যায়।"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_009",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "ডেটা বডিতে থাকা কলামগুলির কত অংশ মাসের নাম ধারণ করে?",
+    "answer": [
+      [
+        "0.923"
+      ]
+    ],
+    "evidence_cells": [
+      "A0",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_010",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "শেষ সারি এবং 'July' নামের কলামের ছেদবিন্দুতে অবস্থিত মানটি কী?",
+    "answer": [
+      [
+        "July"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "H0",
+      "H12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_011",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "এই সারণীতে ২০০৮ সালের ঠিক পরের বছর কোনটি?",
+    "answer": [
+      [
+        "2009 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Sequential/Temporal Reasoning"
+  }
+]

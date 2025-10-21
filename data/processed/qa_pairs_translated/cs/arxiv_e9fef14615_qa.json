@@ -1,0 +1,306 @@
+[
+  {
+    "question_id": "arxiv_e9fef14615_001",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Který model dosáhl nejvyššího skóre F1 na datasetu 'ccfraud'?",
+    "answer": [
+      [
+        "Gemini"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "C4",
+      "D4",
+      "F4",
+      "G4",
+      "H4",
+      "I4",
+      "J4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_002",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Jaké je průměrné skóre přesnosti ('Acc') pro model 'GPT 4' napříč všemi datovými sadami, kde byla tato metrika použita?",
+    "answer": [
+      [
+        "0.543"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B5",
+      "D5",
+      "B9",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_003",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Identifikujte datovou sadu, kde 'FinMA 7B' dosáhl nejvyššího skóre, a poté uveďte model(y), které na stejném úkolu dosáhly nulového skóre.",
+    "answer": [
+      [
+        "taiwan",
+        "Falcon 7B"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I11",
+      "L11",
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I12",
+      "I10",
+      "L10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_004",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Na datové sadě 'TSA', který model vykazuje největší pokles výkonu ve srovnání s modelem uvedeným ve sloupci bezprostředně vlevo od něj, a jaká je hodnota tohoto poklesu?",
+    "answer": [
+      [
+        "FinGPT 7B-lora",
+        "0.80"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "I3",
+      "J3",
+      "I10",
+      "J10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_005",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Identifikujte všechny datasety, kde model 'Gemini' dosáhl skóre 0,90 nebo vyššího A ZÁROVEŇ model 'Chat GPT' skóroval 0,20 nebo méně.",
+    "answer": [
+      [
+        "ccfraud"
+      ],
+      [
+        "taiwan"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "E4",
+      "A11",
+      "C11",
+      "E11",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_006",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Pro datovou sadu 'LendingClub', jaké procento z kumulativního skóre všech modelů lze připsat třem nejlépe hodnoceným modelům pro tento úkol? Zaokrouhlete na jedno desetinné místo.",
+    "answer": [
+      [
+        "41.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I6",
+      "J6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "O6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_007",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Pokud by se každé skóre pro model 'LLaMA2 70B' zvýšilo o 10 %, jaké by bylo jeho nové průměrné skóre napříč všemi hodnocenými úkoly? Zaokrouhlete na tři desetinná místa.",
+    "answer": [
+      [
+        "0.354"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G11",
+      "G12",
+      "G10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_008",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Prozkoumejte úlohy měřené metrikami 'F1' nebo 'MicroF1'. Existuje konzistentní výkonnostní vztah mezi modely 'GPT 4' a 'Gemini'? Vysvětlete své zdůvodnění.",
+    "answer": [
+      [
+        "Neexistuje silná pozitivní korelace, ale existuje jasná výkonnostní hierarchie. V úlohách založených na F1 metrice Gemini konzistentně překonává nebo se vyrovná GPT 4. Pro datové sady 'ccfraud' a 'taiwan' jsou skóre Gemini (0.90 a 0.95) podstatně vyšší než skóre GPT 4 (0.55 pro obě). Pro 'LendingClub' je Gemini (0.65) stále mírně vyšší než GPT 4 (0.55). Pouze na datové sadě 'MLESG' jsou jejich skóre téměř identická (0.35 vs 0.34). To naznačuje, že ačkoli jejich výkon není těsně korelovaný, Gemini je obecně lepší model pro tyto konkrétní úlohy měřené F1 metrikou."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "E4",
+      "B6",
+      "D6",
+      "E6",
+      "B11",
+      "D11",
+      "E11",
+      "B12",
+      "D12",
+      "E12",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_009",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Na základě dat o výkonu, které dva datasety vykazují skóre nula u všech testovaných modelů, což naznačuje potenciální selhání hodnocení nebo úkol, který žádný model nemohl splnit?",
+    "answer": [
+      [
+        "FNXL"
+      ],
+      [
+        "ECTSUM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "I7",
+      "J7",
+      "K7",
+      "L7",
+      "M7",
+      "N7",
+      "O7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8",
+      "H8",
+      "I8",
+      "J8",
+      "K8",
+      "L8",
+      "M8",
+      "N8",
+      "O8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_010",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Pro model 'Gemini', která hodnota na datasetu představuje nejvýznamnější pozitivní odchylku a proč?",
+    "answer": [
+      [
+        "Hodnota pro dataset 'taiwan' (0.95) je nejvýznamnější pozitivní odchylkou pro model Gemini. Výpočet průměru nenulových hodnot Gemini dává přibližně 0.615. Hodnota 0.95 je nejvyšší a nejvíce vzdálená od tohoto průměru ve srovnání se všemi ostatními hodnotami. Tento neobvykle vysoký výkon naznačuje, že model Gemini je výjimečně vhodný pro úlohu definovanou datasetem 'taiwan' a metrikou 'F1', nebo že samotná úloha byla pro tento model podstatně snazší než pro ostatní."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "E11",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E12",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_011",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Který model vykazuje robustní generalizaci jak v úlohách extrakce entit (NER, FINER-ORD), tak v klasifikaci sentimentu (FPB, SC)?",
+    "answer": [
+      [
+        "GPT-4 konzistentně podává dobré výsledky v obou datových sadách pro extrakci entit i klasifikaci sentimentu, přičemž ve srovnání s ostatními modely dosahuje vysokých skóre EntityF1 a F1."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "J5",
+      "A9",
+      "J9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

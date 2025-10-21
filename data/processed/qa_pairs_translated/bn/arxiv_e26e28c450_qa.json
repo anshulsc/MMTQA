@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "কোন নন-মাল্টি-টাস্ক মডেলটি সর্বনিম্ন সামগ্রিক গড় বর্গ ত্রুটি (MSE_over) অর্জন করে?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "'Multi-Task' হিসাবে চিহ্নিত সমস্ত মডেলের জন্য ৭-দিনের দিগন্তে (MSE7) গড় MSE গণনা করুন।",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "MSE3 মানের দিক থেকে দ্বিতীয় সর্বোচ্চ (দ্বিতীয় সবচেয়ে খারাপ) মডেলটির জন্য, এর সংশ্লিষ্ট MSE30 মান কত?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "HTML মডেলের জন্য Mean Squared Error (MSE) এর প্রবণতা বিশ্লেষণ করুন যখন ভবিষ্যদ্বাণী দিগন্ত 3 থেকে 30 দিনে প্রসারিত হয়। সময়ের সাথে সাথে এর ভবিষ্যদ্বাণীমূলক নির্ভুলতা কি উন্নত হয় নাকি অবনতি হয়?",
+    "answer": [
+      [
+        "ভবিষ্যদ্বাণী দিগন্ত প্রসারিত হওয়ার সাথে সাথে HTML মডেলের ভবিষ্যদ্বাণীমূলক নির্ভুলতা উন্নত হয়। এর MSE মানগুলি ধারাবাহিকভাবে MSE3 (0.845) থেকে MSE7 (0.349), MSE15 (0.251), এবং অবশেষে MSE30 (0.158) পর্যন্ত হ্রাস পায়, যা দীর্ঘমেয়াদী ভবিষ্যদ্বাণীর ক্ষেত্রে কম ত্রুটি এবং সুতরাং ভাল কর্মক্ষমতা নির্দেশ করে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "এমন সমস্ত মডেলগুলি শনাক্ত করুন যেগুলি 'মাল্টি-টাস্ক' হিসাবে মনোনীত নয় এবং সেগুলির MSE15 মান 0.31 এর কম।",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "সমস্ত MSE মেট্রিক্সে কোন মডেলটি স্পষ্ট কর্মক্ষমতা আউটলায়ার এবং কেন তা ব্যাখ্যা করুন।",
+    "answer": [
+      [
+        "GPT-3.5-Turbo মডেলটি একটি স্পষ্ট কর্মক্ষমতা আউটলায়ার। সমস্ত সময়সীমা জুড়ে এর MSE মানগুলি (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) অন্যান্য সমস্ত মডেলের চেয়ে উল্লেখযোগ্যভাবে বেশি, যাদের বেশিরভাগের MSE মান 1.0 এর নিচে। এটি তালিকার অন্যান্য মডেলগুলির তুলনায় উল্লেখযোগ্যভাবে খারাপ ভবিষ্যদ্বাণী কর্মক্ষমতা নির্দেশ করে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "সমস্ত মডেলের মোট যোগফল MSE3 এর কত শতাংশ GPT-3.5-Turbo মডেলের জন্য দায়ী? উত্তরটি এক দশমিক স্থান পর্যন্ত শতাংশে প্রদান করুন।",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "RiskLabs মডেলের MSE_over ২৫% উন্নত হলে (অর্থাৎ ২৫% কমলে), এর নতুন মান কত হবে এবং HTML মডেলের MSE_over এর তুলনায় এর র‍্যাঙ্ক কেমন হবে?",
+    "answer": [
+      [
+        "RiskLabs এর জন্য নতুন MSE_over হবে 0.243। এই মানটি HTML মডেলের 0.401 এর MSE_over এর চেয়ে কম, এবং তাই এটি ভালো।"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "সারণী অনুসারে, 'মাল্টি-টাস্ক' হিসাবে শ্রেণীবদ্ধ মডেল এবং 'VaR' স্কোরের উপলব্ধতার মধ্যে সম্পর্ক কী?",
+    "answer": [
+      [
+        "একটি শক্তিশালী সম্পর্ক বিদ্যমান। শুধুমাত্র 'মাল্টি-টাস্ক' হিসাবে মনোনীত মডেলগুলির (GPT-3.5-Turbo এবং RiskLabs) একটি রিপোর্ট করা সাংখ্যিক 'VaR' স্কোর রয়েছে। তবে, সমস্ত 'মাল্টি-টাস্ক' মডেলের VaR স্কোর থাকে না (যেমন, HTML), এবং কোনো নন-'মাল্টি-টাস্ক' মডেলের একটিও নেই, যা থেকে বোঝা যায় যে VaR গণনা করার ক্ষমতা এই ডেটাসেটের 'মাল্টি-টাস্ক' মডেলগুলির সাথে প্রাথমিকভাবে যুক্ত একটি বৈশিষ্ট্য।"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "কোন পারফরম্যান্স মেট্রিক কলামে নন-নিউমেরিক প্লেসহোল্ডার ডেটা রয়েছে এবং কোন নির্দিষ্ট মডেলগুলির জন্য এই ডেটা অনুপস্থিত?",
+    "answer": [
+      [
+        "‘VaR’ কলামে নন-নিউমেরিক ডেটা ('/') রয়েছে। এই ডেটা নিম্নলিখিত মডেলগুলির জন্য অনুপস্থিত: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM, এবং HTML।"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "কোন মডেলটি বিভিন্ন দিগন্তে (MSE3–MSE30) ভবিষ্যদ্বাণী নির্ভুলতা এবং ঝুঁকির অনুমান (VaR) এর মধ্যে সর্বোত্তম সামগ্রিক ভারসাম্য প্রদর্শন করে?",
+    "answer": [
+      [
+        "RiskLabs মডেল সামগ্রিক ভারসাম্যে সেরা, এটি সমস্ত দিগন্তে সর্বনিম্ন MSE মান এবং সর্বনিম্ন VaR (0.049) বজায় রাখে, যা শক্তিশালী ভবিষ্যদ্বাণীমূলক নির্ভুলতা এবং নির্ভরযোগ্য ঝুঁকি অনুমান উভয়ই নির্দেশ করে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "어떤 건물이 'building' 가치가 가장 높습니까?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "표에 나열된 모든 부동산의 '매입 가격 배분' 총액은 얼마입니까?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'인수된 임대 계약' 값이 가장 낮은 부동산의 '마감 시점에 당사가 조달한 순 고려 사항'은 얼마입니까?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'1515 broadway' 부동산의 경우, '취득 자산' 가치 중 '토지'와 '건물' 가치의 합계가 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'부채 승계액'이 '보유한 지분 및/또는 부채 투자액'의 세 배보다 많은 모든 부동산을 확인하십시오.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'110 east 42nd street'의 'building' 가치를 10% 낮추는 회계 조정이 있었다면, 해당 부동산의 새로운 'assets acquired' 값은 얼마일까요?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "'1515 broadway'의 '모기지 노트 지급액 공정 가치 조정'이 마이너스 값인 반면, 다른 대부분의 부동산은 양수이고 일정한 값입니다. 이 중대한 특이치는 해당 특정 부동산의 금융에 대해 무엇을 시사합니까?",
+    "answer": [
+      [
+        "'모기지 노트 지급액 공정 가치 조정' 범주에서 '1515 broadway'에 대한 '-3693'의 음수 값은 다른 부동산에 대한 '2014'의 일정한 양수 값과 비교할 때 뚜렷한 특이치입니다. 이는 1515 Broadway 인수와 관련된 모기지 노트가 인수 시점의 prevailing market rates보다 유리한 조건을 가지고 있어 자산(부채 조정의 마이너스)을 생성했음을 시사합니다. 대조적으로, 다른 부동산들은 시장 금리 또는 그 근처의 모기지를 가지고 있었을 수 있으며, 이는 표준적이고 명목적인 조정을 필요로 합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터에 따르면, 부동산의 '구매 가격 배분(Purchase Price Allocation)'과 '당사가 마감 시점에 조달한 순 고려 금액(Net Consideration Funded by Us at Closing)' 사이에 직접적인 양의 상관관계가 존재합니까?",
+    "answer": [
+      [
+        "아니요, 직접적인 양의 상관관계는 없습니다. 예를 들어, '180 Maiden Lane'의 경우 구매 가격이 두 번째로 높음(442,325달러)에도 불구하고, 구매 가격이 훨씬 낮은 '51 East 42nd Street'(80,000달러)와 순 고려 금액(81,835달러)이 거의 동일합니다. 또한, '1515 Broadway'는 구매 가격이 압도적으로 가장 높음(1,234,000달러)에도 불구하고 순 고려 금액이 가장 높지는 않습니다. 이는 '인수 부채(Debt Assumed)'(1515 Broadway의 경우 매우 높음)와 같은 다른 요인이 마감 시점에 필요한 순 고려 금액에 상당한 영향을 미친다는 것을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "'시장 가치 초과 임대료'가 6,000달러 미만인 자산의 총 '인수된 부채'를 계산하십시오.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "'2014'이라는 값이 네 가지 다른 재무 범주에 걸쳐 동일한 부동산에 대해 반복적으로 나타납니다. 서로 다른 맥락에서 이 특정, 반올림되지 않은 숫자의 일관된 사용은 그 본질에 대해 무엇을 시사합니까?",
+    "answer": [
+      [
+        "'2014'라는 값은 '기타 부채를 제외한 기타 자산', '모기지 노트 지급액의 공정 가치 조정', '보유한 지분 및/또는 부채 투자', '인수 부채' 항목에 나타납니다. 서로 다른 범주와 부동산에 걸쳐 동일하게 반복되는 비교적 작고 동일한 값으로 사용되는 것은 측정된 시장 가치가 아니라 회계 목적상 사용되는 명목상의 플레이스홀더, 표준 최소값 또는 2014년 거래와 같이 특정 이벤트나 규정 연도를 참조할 가능성을 시사합니다. 이는 각 사례에 대한 고유한 평가보다는 표준화된 항목을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "1515 브로드웨이의 토지 구매 비용은 얼마입니까?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

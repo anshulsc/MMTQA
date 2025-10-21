@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_04f8db9765_001",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasin dong tren 'rugi bersih yang dilaporkan' dari tahun 2000 sampai 2002.",
+    "answer": [
+      [
+        "Kategori 'rugi bersih yang dilaporkan' nunjukin tren kerugian yang makin parah selama tiga tahun itu. Kerugiannya jadi lebih dari dua kali lipat dari $194.628 di tahun 2000 jadi $450.094 di tahun 2001, terus jadi lebih dari dua kali lipat lagi jadi $1.141.879 di tahun 2002. Ini nunjukin performa finansial yang makin memburuk tiap tahunnya."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_002",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Berapa total 'pro-forma net loss' yang terakumulasi selama tiga tahun yang disajikan di tabel?",
+    "answer": [
+      [
+        "-1926453"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_04f8db9765_003",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Di tahun berapa selisih absolut antara 'as reported' dan 'pro-forma' basic and diluted net loss per share paling kecil?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_004",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Hitung 'total beban kompensasi karyawan berbasis saham' sebagai persentase dari 'kerugian bersih yang dilaporkan' untuk tahun 2001.",
+    "answer": [
+      [
+        "11.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_04f8db9765_005",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Tahun berapa, kalau ada, yang punya 'net loss as reported' absolut lebih dari $400.000 tapi 'pro-forma net loss' absolut kurang dari $600.000?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "C1",
+      "C3",
+      "D1",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_006",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Di tahun berapa rugi bersih pro-forma bertumbuh paling besar secara absolut dibanding tahun sebelumnya?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_04f8db9765_007",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Kalo 'total stock-based employee compensation expense' tahun 2000 naik 20%, jadi berapa 'pro-forma net loss' buat tahun itu?",
+    "answer": [
+      [
+        "-256041.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_008",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Metrik mana yang nilainya lebih besar di tahun 2002: 'net loss as reported' atau 'pro-forma net loss'?",
+    "answer": [
+      [
+        "pro-forma net loss"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_009",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data yang diberikan, apa hubungan yang kelihatan antara 'net loss as reported' dan 'stock-based employee compensation expense' selama periode tiga tahun?",
+    "answer": [
+      [
+        "Ada hubungan terbalik antara kedua metrik tersebut. Seiring dengan peningkatan signifikan dalam magnitudo 'net loss as reported' dari tahun 2000 hingga 2002, 'stock-based employee compensation expense' menurun setiap tahun. Ini menunjukkan bahwa seiring dengan bertambahnya kerugian perusahaan, kompensasi berbasis saham mungkin telah dikurangi."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_04f8db9765_010",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Gimana efek penyesuaian 'pro-forma' ke 'basic and diluted net loss per share' dibanding angka 'as reported' di semua tahun?",
+    "answer": [
+      [
+        "Penyesuaian 'pro-forma' ini secara konsisten bikin kerugian per lembar saham jadi lebih besar di setiap tahunnya. Ini nunjukin kalau item-item yang disesuaikan, kayak kompensasi berbasis saham, emang selalu bikin rugi yang terhitung jadi lebih gede per lembar sahamnya."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_011",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Berapa total kerugian yang dilaporkan di tahun 2001?",
+    "answer": [
+      [
+        "$ -450094 ( 450094 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

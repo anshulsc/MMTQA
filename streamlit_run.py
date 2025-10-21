@@ -50,7 +50,7 @@ class GoldenAnswerVerifier:
     
     def __init__(self, base_dir: str):
         self.base_dir = Path(base_dir)
-        self.qa_dir = self.base_dir / "qa_pairs" 
+        self.qa_dir = self.base_dir / "qa_pairs" / 'en'
         self.qa_corrected_dir = self.base_dir / "qa_pairs_corrected"
         self.tables_dir = self.base_dir / "tables"
         self.verification_file = self.base_dir / "golden_answer_verification_results_v2.jsonl"
@@ -94,17 +94,21 @@ class GoldenAnswerVerifier:
         return {}
     
     def table_to_dataframe(self, table_data: Dict) -> pd.DataFrame:
-        """Convert JSON table to pandas DataFrame."""
-        if not table_data or "data" not in table_data:
+        """Convert JSON table to pandas DataFrame.
+        Assumes table_data has 'columns' and 'data' keys.
+        """
+        if not table_data or "columns" not in table_data or "data" not in table_data:
             return pd.DataFrame()
         
-        data = table_data["data"]
-        if not data or len(data) == 0:
+        headers = table_data["columns"]
+        rows = table_data["data"]
+        
+        if not headers or not isinstance(headers, list):
             return pd.DataFrame()
         
-        # First row is header
-        headers = data[0]
-        rows = data[1:]
+        # Ensure rows are also a list of lists, even if empty
+        if not rows or not isinstance(rows, list):
+            rows = []
         
         return pd.DataFrame(rows, columns=headers)
     
@@ -517,7 +521,7 @@ class GoldenAnswerVerifier:
 def main():
     """Main entry point."""
     # Configuration
-    BASE_DIR = "/data/processed"
+    BASE_DIR = "data/processed/"
     
     # Check if directory exists
     if not Path(BASE_DIR).exists():

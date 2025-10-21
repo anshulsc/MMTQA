@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "कोणत्या मॉडेलच्या मुख्य सूत्रामध्ये जोखीम-मुक्त दराचा घटक स्पष्टपणे समाविष्ट आहे?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Z-score मॉडेलच्या सूत्रामध्ये इनपुट म्हणून वापरल्या जाणाऱ्या 'X' व्हेरिएबल्सची एकूण विशिष्ट संख्या किती आहे?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "'एकूण मालमत्ता' (Total assets) हा भाजक (denominator) म्हणून कमीतकमी तीन स्पष्ट केलेल्या पॅरामीटर्समध्ये वापरणारे मॉडेल ओळखा आणि नंतर त्या मॉडेलमधील कोणता पॅरामीटर 'इक्विटीचे बाजार मूल्य' (Market value of equity) ते 'एकूण देयता' (Total liabilities) यांचे गुणोत्तर दर्शवतो ते सांगा.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "'t' वेळी मोजलेले म्हणून स्पष्टपणे परिभाषित केलेले पॅरामीटर्स कोणत्या मॉडेलमध्ये समाविष्ट आहेत?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "जर विश्लेषणाचे उद्दिष्ट बायनरी परिणामाची (y=1) संभाव्यता निश्चित करणे असेल, तर तक्त्यामध्ये सूचीबद्ध केलेले कोणते मॉडेल सर्वात योग्य निवड आहे?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-score मॉडेलमध्ये, 'कमाई (व्याज आणि कर पूर्व)/एकूण मालमत्ता गुणोत्तर' दर्शविणाऱ्या चलाचे वजन (गुणांक) काय आहे, आणि इतर चलांच्या तुलनेत या वजनाची तुलना कशी केली जाते?",
+    "answer": [
+      [
+        "X3 (कमाई (व्याज आणि कर पूर्व)/एकूण मालमत्ता गुणोत्तर) साठी गुणांक 3.3 आहे. हे पाचही चलांपैकी सर्वाधिक वजन आहे, ज्यामुळे X1 (1.2), X2 (1.4), X4 (0.6), आणि X5 (0.99) सारख्या चलांच्या तुलनेत अंतिम Z-score वर याचा सर्वात जास्त परिणाम होतो असे सूचित होते."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "जर Z-स्कोर मॉडेलच्या अद्ययावत आवृत्तीने 'वर्किंग कॅपिटल/टोटल ॲसेट्स रेशो'चा प्रभाव 50% ने कमी केला, तर X1 साठी नवीन गुणांक काय असेल?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-score मॉडेलच्या सूत्रानुसार, कंपनीच्या एकूण विक्री आणि एकूण मालमत्ता यांच्या गुणोत्तराचा (total sales to total assets ratio) आणि त्याच्या Z-score चा काय संबंध आहे?",
+    "answer": [
+      [
+        "एकूण विक्री/एकूण मालमत्ता गुणोत्तर (X5) आणि Z-score यांच्यात सकारात्मक संबंध आहे. सूत्रानुसार, Z-score हे पाच गुणोत्तरांची बेरीज आहे आणि X5 चा गुणांक (coefficient) सकारात्मक (0.99) आहे. त्यामुळे, इतर सर्व घटक स्थिर ठेवल्यास, एकूण विक्री आणि एकूण मालमत्ता गुणोत्तर वाढल्यास Z-score वाढेल."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "तिसऱ्या स्तंभात स्पष्ट केलेल्या सर्वात जास्त विशिष्ट पॅरामीटर्सचे वर्णन कोणत्या मॉडेलमध्ये आहे?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-score मॉडेलच्या सूत्रामधील संख्यात्मक गुणांकांचे परीक्षण करताना, कोणता गुणांक इतरांच्या तुलनेत एक आउटलायर (outlier) म्हणून उभा राहतो?",
+    "answer": [
+      [
+        "X3 चलासाठी असलेला 3.3 हा गुणांक एक लक्षणीय आउटलायर आहे. सूत्रातील इतर गुणांक 1.2, 1.4, 0.6 आणि 0.99 आहेत, जे सर्व 0.6 ते 1.4 च्या श्रेणीत आहेत. 3.3 हे मूल्य पुढील सर्वोच्च गुणांक (1.4) च्या दुप्पट पेक्षा जास्त आहे, ज्यामुळे ते इतरांपेक्षा लक्षणीयरीत्या मोठे आहे."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "बाजार आणि आकार/बुक-टू-मार्केट घटकांचा विचार करून मालमत्तेच्या परतावाचा अंदाज लावण्यासाठी कोणता मॉडेल अधिक योग्य असेल आणि का?",
+    "answer": [
+      [
+        "फॅक्टर मॉडेल (Factor Model) अधिक योग्य असेल कारण ते स्पष्टपणे बाजार परतावा (r_m - r_f), आकार घटक (SMB) आणि बुक-टू-मार्केट घटक (HML) समाविष्ट करते, ज्यामुळे मालमत्तेच्या परताव्यातील बदलांचे अनेक पैलू विचारात घेता येतात, जे लॉजिस्टिक रिग्रेशन (Logistic Regression) किंवा झेड-स्कोअर मॉडेल (Z-score Model) विचारात घेत नाहीत."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

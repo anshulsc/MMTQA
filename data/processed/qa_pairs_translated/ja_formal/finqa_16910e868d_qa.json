@@ -1,0 +1,217 @@
+[
+  {
+    "question_id": "finqa_16910e868d_001",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "「2022年度および2023年度」の期間で、最も多額の支払義務を占める特定の債務の種類は何ですか？",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_002",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "2020年度および2021年度に支払期日が到来する、すべてのリース関連負債（営業リースおよびキャピタルリース）の合計金額はいくらですか？",
+    "answer": [
+      [
+        "206.6"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_16910e868d_003",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "2019年度に最も支払期日が短い債務の種類について、それ以降の対応する支払額はいくらですか？",
+    "answer": [
+      [
+        "138.1"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_004",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "「オペレーティング・リース債務」の指定された会計期間における支払傾向について説明してください。",
+    "answer": [
+      [
+        "「オペレーティング・リース債務」の支払いは、早期に集中する傾向が見られます。2019年には1億3210万ドルから始まり、2020年から2021年の期間には1億9990万ドルにピークを迎え、その後2022年から2023年には1億1840万ドルに減少し、最終的にそれ以降に1億6540万ドルが支払われる予定です。これは、ピーク時と比較して、短期的に多くのリースが稼働しており、長期的なコミットメントが少ないことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_005",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "総請求額が10億ドル未満であり、かつ「それ以降」の請求額が1億5000万ドルを超える義務カテゴリーをすべてリストアップしてください。",
+    "answer": [
+      [
+        "operating lease obligations ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A2",
+      "B2",
+      "F2",
+      "A3",
+      "B3",
+      "F3",
+      "A4",
+      "B4",
+      "F4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_006",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "「長期負債」のうち「それ以降」に支払期日が到来するものの割合はいくらですか？",
+    "answer": [
+      [
+        "51.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_16910e868d_007",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "もし「資本リース債務」がすべて免除され、表から削除された場合、「2019年度」の新しい「総」支払期日残高はいくらになりますか？",
+    "answer": [
+      [
+        "$ 2535.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_008",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "データに基づくと、「長期借入金」と「購入義務およびその他」の満期構造における根本的な違いは何ですか？",
+    "answer": [
+      [
+        "両者の満期構造には明確な逆相関が見られます。「長期借入金」は大幅に後期に偏っており、総額（60億3900万ドル）の半分以上（31億3660万ドル）が「それ以降」の期間に支払期日を迎えます。対照的に、「購入義務およびその他」は大幅に早期に偏っており、大部分（22億1050万ドルのうち16億7660万ドル）が最も早い期間である2019会計年度に支払期日を迎えており、これらが主に短期のコミットメントであることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B4",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_16910e868d_009",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "表中の「2022年および2023年度」の合計値であるセルE5の値は、他の数値からどのように算出されていますか？",
+    "answer": [
+      [
+        "セルE5の値（1587.0ドル）は、その上にある4つの負債カテゴリー（1351.0ドル（E1）、118.4ドル（E2）、2.7ドル（E3）、および114.9ドル（E4））のそれぞれについて、「2022年および2023年度」の期間に支払期日が到来する金額の縦合計です。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_010",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "総義務に対する割合において顕著な外れ値となっている支払期間はどれであり、その異常値の要因は何ですか？",
+    "answer": [
+      [
+        "2019会計年度が外れ値です。その合計額25億4030万ドルは、それに続く2期間（12億5550万ドルおよび15億8700万ドル）よりも著しく高くなっています。この異常値は、その年に16億7660万ドルという unusually large payment が予定されており、その期間の合計の約66%を占める「購入義務およびその他」のカテゴリーによってほぼ完全に引き起こされています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_16910e868d_011",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "2019年度および2020～2021年度までに支払われるべき、リース債務（営業リースおよび資本リース）の合計（百万ドル単位）はいくらですか？",
+    "answer": [
+      [
+        "$343.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

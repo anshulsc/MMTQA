@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "finqa_72311a2c52_001",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "2017년 12월 31일부터 2018년 12월 31일까지 총액이 가장 큰 폭으로 감소한 대출 범주는 무엇입니까?",
+    "answer": [
+      [
+        "revolving open-end loans secured by one- to four-family residential properties"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_002",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "미국 외 지역에서 가장 높은 값을 가진 대출 범주가 2018년 총 약정액에서 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "28.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "D6",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_003",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "2018년에 '상업용 부동산 건설 및 토지 개발'의 미국 내 가치가 10% 낮았다면, 2018년 12월 31일의 새로운 '총계'는 얼마였을까요?",
+    "answer": [
+      [
+        "$ 1017937.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_004",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "2017년 대비 2018년에 총액이 증가했으며, 미국 내 비중이 100,000백만 달러를 초과한 모든 약정 범주를 나열하십시오.",
+    "answer": [
+      [
+        "credit card lines"
+      ],
+      [
+        "commercial and other consumer loan commitments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "E5",
+      "A6",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_005",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "2017년과 2018년 사이, 총계 행을 제외한 모든 나열된 약정 범주의 총 가치에 대한 연평균 변화율은 얼마였습니까?",
+    "answer": [
+      [
+        "$ 4817.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_72311a2c52_006",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "'상업용 및 유사 신용장' 범주의 2018년 기준 미국 내 가치와 미국 외 가치의 비율은 얼마입니까?",
+    "answer": [
+      [
+        "0.18"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_72311a2c52_007",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "2018년 12월 31일 기준, 총 미국 약정액 대비 기여도 면에서 특이값(outlier)인 범주는 무엇이며, 해당 총액의 몇 퍼센트를 차지합니까?",
+    "answer": [
+      [
+        "2018년 12월 31일 기준으로 '신용카드 한도' 범주는 총 미국 약정액의 약 74.27%를 차지하며 상당한 특이값(outlier)입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_72311a2c52_008",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "2017년부터 2018년까지 '신용카드 한도'의 연간 성장 추세를 전체 포트폴리오 성장과 비교하여 분석해 주십시오.",
+    "answer": [
+      [
+        "'신용카드 한도' 부문은 2017년부터 2018년까지 약 2.61% 성장했습니다(6억 7,830만 달러에서 6억 9,600만 7천 달러). 이에 비해 전체 포트폴리오는 약 3.42% 성장했습니다(9억 8,517만 4천 달러에서 10억 1,889만 4천 달러). 이는 '신용카드 한도'가 가장 큰 단일 부문이지만, 해당 기간 동안 전체 포트폴리오의 성장률을 약간 밑돌았음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "E5",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_009",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "제공된 데이터를 바탕으로, 특정 약정 범주의 미국 내 금액 규모와 2017년부터 2018년까지의 총 연간 성장률 사이에 일관된 상관관계가 있습니까?",
+    "answer": [
+      [
+        "아니요, 일관된 상관관계는 없습니다. 예를 들어, 미국 내 금액이 가장 큰 두 범주인 '신용카드 한도'와 '상업 및 기타 소비자 대출 약정'은 모두 상당한 성장을 경험했습니다. 그러나 미국 내 금액이 세 번째로 큰 범주인 '1~4가구 주택 담보 신용도 높은 대출'은 가장 큰 절대적인 감소를 보였습니다. 이는 미국 내 금액이 크다고 해서 연간 성장이 보장되지 않음을 보여줍니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "E1",
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B4",
+      "D4",
+      "E4",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_72311a2c52_010",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "테이블의 각 약정 범주에 대한 어떤 열의 값이 다른 두 열의 값을 기반으로 계산되는지, 그리고 그 관계를 설명해 주십시오.",
+    "answer": [
+      [
+        "'december 312018' 열은 다른 열에서 파생됩니다. 각 범주에 대해 해당 값은 'u.s .' 열의 값과 'outside ofu.s .' 열의 값을 더한 것입니다. 예를 들어, 첫 번째 행에서 $823 (B1) + $4638 (C1)은 $5461 (D1)이 됩니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_011",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "2018년 12월 31일 기준, 전체 미국 내 약정액과 미국 외 전체 약정액의 비율은 얼마입니까?",
+    "answer": [
+      [
+        "4.02 : 1"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "wikisql_bd7aeb947c_001",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "value",
+    "question": "¿Qué director fue responsable de la mayor cantidad de episodios en este conjunto de datos?",
+    "answer": [
+      [
+        "Karl Zwicky"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D20",
+      "D21"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_bd7aeb947c_002",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "value",
+    "question": "¿Cuántos episodios de esta lista se emitieron durante el mes de julio de 2002?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_bd7aeb947c_003",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "value",
+    "question": "¿Cuál es el título del último episodio de esta lista dirigido por Robert Klenner?",
+    "answer": [
+      [
+        "\"Wind Change\""
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D19",
+      "D20",
+      "C20"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_bd7aeb947c_004",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "open_ended_reasoning",
+    "question": "Basándonos en las fechas de emisión, ¿qué se puede inferir sobre el calendario de emisión de esta temporada y hubo alguna interrupción notable?",
+    "answer": [
+      [
+        "El calendario de emisión fue principalmente semanal, con nuevos episodios emitiéndose cada 7 días, consistentemente los miércoles. Sin embargo, hubo varias interrupciones notables. La más significativa fue una pausa a mitad de temporada de casi siete semanas entre 'The Bridle Waltz' (15 de mayo de 2002) y 'To Have & To Hold' (3 de julio de 2002). Más adelante en la temporada, también hubo pausas de dos semanas entre episodios, como entre 'Stripped Bare' (21 de agosto de 2002) y 'Blame It On The Moonlight' (4 de septiembre de 2002)."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F16",
+      "F17",
+      "C8",
+      "C9",
+      "C16",
+      "C17"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_bd7aeb947c_005",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "value",
+    "question": "Enumera los títulos de los episodios que fueron escritos o coescritos por Chris McCourt y dirigidos por alguien que no fuera Donald Crombie.",
+    "answer": [
+      [
+        "\"Desperate Measures\"",
+        "\"To Have & To Hold\""
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "D3",
+      "C3",
+      "E9",
+      "D9",
+      "C9",
+      "E17",
+      "D17",
+      "E18",
+      "D18"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_bd7aeb947c_006",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "value",
+    "question": "¿Qué proporción de los episodios de esta lista fueron dirigidos por Robert Klenner o Donald Crombie?",
+    "answer": [
+      [
+        "38.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D5",
+      "D6",
+      "D17",
+      "D18",
+      "D19",
+      "D20"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_bd7aeb947c_007",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "value",
+    "question": "¿Si el escritor 'David Phillips' no estuviera disponible y 'Alexa Wyatt' tuviera que escribir sus episodios en su lugar, qué títulos de episodios tendrían un escritor diferente acreditado?",
+    "answer": [
+      [
+        "\"Through The Looking Glass\"",
+        "\"Best Of Enemies\""
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "C2",
+      "E13",
+      "E19",
+      "C19"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_bd7aeb947c_008",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe evidencia de colaboraciones recurrentes entre directores y escritores específicos en este conjunto de datos?",
+    "answer": [
+      [
+        "Sí, hay fuerte evidencia de colaboraciones recurrentes. La dupla más frecuente es el director Karl Zwicky con la escritora Alexa Wyatt, quienes colaboraron en tres episodios. Adicionalmente, Robert Klenner dirigió dos episodios escritos por David Phillips, y Donald Crombie dirigió dos episodios consecutivos escritos por Chris McCourt. Estos patrones sugieren relaciones laborales establecidas entre cierto personal creativo."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D13",
+      "E13",
+      "D17",
+      "E17",
+      "D18",
+      "E18",
+      "D19",
+      "E19"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_bd7aeb947c_009",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué columna contiene datos que a menudo representan una asociación creativa y qué convención de formato lo indica?",
+    "answer": [
+      [
+        "La columna 'Writer(s)' (Escritor(es)) a menudo representa una asociación creativa. Esto se indica mediante el uso del símbolo 'y' (&) para separar los nombres de dos o más personas que coescribieron un episodio."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E7",
+      "E8",
+      "E9",
+      "E13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_bd7aeb947c_010",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "value",
+    "question": "Identifica la fecha de emisión que representa la desviación más significativa del programa de emisión semanal predominante.",
+    "answer": [
+      [
+        "3July2002"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_bd7aeb947c_011",
+    "table_id": "wikisql_bd7aeb947c",
+    "question_type": "value",
+    "question": "¿Qué escritor contribuyó al mayor número de episodios?",
+    "answer": [
+      [
+        "Chris McCourt"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E9",
+      "E17",
+      "E18"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

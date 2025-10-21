@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "wikisql_175793119b_001",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "請問佇佗一日的比賽，該場的得分上高者，比佇本數據集中得分第二高者，卡濟 14 分以上，達成顯著異常的表現？",
+    "answer": [
+      [
+        "March 8"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F9",
+      "B4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_175793119b_002",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "佇「玫瑰花園」舉行ê所有比賽，平均上座人數是偌濟？",
+    "answer": [
+      [
+        "20242.8"
+      ]
+    ],
+    "evidence_cells": [
+      "G2",
+      "G7",
+      "G8",
+      "G9",
+      "G13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_175793119b_003",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "佇這張表所顯示，打破波特蘭拓荒者隊最長連敗記錄的彼場比賽，in 的對手是佗一隊？",
+    "answer": [
+      [
+        "Milwaukee Bucks"
+      ]
+    ],
+    "evidence_cells": [
+      "I2",
+      "I3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_004",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "列出波特蘭拓荒者隊作為客隊贏球，且觀眾人數少於 19,000 人的比賽日期。",
+    "answer": [
+      [
+        "March 11"
+      ],
+      [
+        "March 22"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "D6",
+      "G6",
+      "B6",
+      "C11",
+      "D11",
+      "G11",
+      "B11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_005",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "波特蘭拓荒者隊是主場隊時，贏得比賽的百分比是多少？",
+    "answer": [
+      [
+        "60"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "D2",
+      "E7",
+      "D7",
+      "E8",
+      "D8",
+      "E9",
+      "D9",
+      "E13",
+      "D13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_175793119b_006",
+    "table_id": "wikisql_175793119b",
+    "question_type": "open_ended_reasoning",
+    "question": "請描述波特蘭拓荒者隊佇3月10號到3月22號期間的表現模式。這段時間是屬於穩定，抑是波動性較高？",
+    "answer": [
+      [
+        "這段期間（3月10號到3月22號）的特徵是波動性真高，且缺乏穩定性。該隊ê結果連續六場比賽攏是照著嚴格的「一輸一贏」交替模式，證據是「Streak」欄位 ê順序：L1, W1, L1, W1, L1, W1。直到這段期間的最後一場比賽（3月22號），in（怹）才達成第一擺連兩場勝利 (W2)，開始建立起氣勢。"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_007",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "波特蘭拓荒者隊佇佗一日期的比賽中，達成最大贏球分差？",
+    "answer": [
+      [
+        "March 25"
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "D3",
+      "D4",
+      "D6",
+      "D8",
+      "D10",
+      "D11",
+      "D13",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C6",
+      "E6",
+      "C8",
+      "E8",
+      "C10",
+      "E10",
+      "C11",
+      "E11",
+      "C13",
+      "E13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_008",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "若是三月八號彼場加時賽，波特蘭毋是贏，是照仝六分差輸去，彼場賽了後，In的新勝敗記錄會變做偌濟？",
+    "answer": [
+      [
+        "32–31"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_009",
+    "table_id": "wikisql_175793119b",
+    "question_type": "open_ended_reasoning",
+    "question": "根據資料來看，拓荒者隊个首席得分手个得分數，佮比賽輸贏敢有明顯个關聯性？請說明汝个理由。",
+    "answer": [
+      [
+        "首席得分手个總得分佮拓荒者隊个輸贏結果之間，無啥物明確个關聯性。親像，首席得分手得分上懸（Robinson：45分）个彼場比賽是贏。但是，得分第二懸（Aldridge：31分）个彼場比賽卻是輸。相反，當首席得分手个得分相對普通，親像23分（3月22日个Roy）个時，球隊嘛是贏。這表示，雖然個人个高得分表現會使有貢獻，毋過依照這个資料集來看，伊毋是預測球隊勝利个可靠指標。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11",
+      "D12",
+      "F12",
+      "D13",
+      "F13",
+      "D14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_175793119b_010",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "佇這寡比賽中，上濟擺做最高得分者个球員是誰，以及伊佇遮个場次个平均得分是偌濟？",
+    "answer": [
+      [
+        "Aldridge, 27.75"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_011",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "佇這組資料內，入場人數上少的是佗一場比賽？",
+    "answer": [
+      [
+        "March 24 vs Seattle SuperSonics"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "F12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Quale dataset de datos, su chi cumintzat in sa colunna B o su chi in sa colunna E, aiat un 'agiustadu' income operativu pius artu pro s'annu chi acabada su 31 de idas, 2016?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Cale est sa summa netta de totu is ajustamentos in dollar pro \"cambiu in su printzipiu de contu\" pro su primu dataset (colunna C)?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Cal'est istada sa 'as filed' margin de EBITDA ajusitada pro su dataset in ue su 'change in accounting principle' pro s'interessu de intrada fiat '-414 ( 414 )'?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pro su primu data set (colunnas B-D), cale est su raportu de su resurtadu netu 'as filed' a su 'adjusted EBITDA' 'as filed', arrotundadu a tres decimales?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Pro su dataset de datos presentadu in is colunnas B a D, identìfica sa mètriga in ue su balore 'as adjusted' est minore de su balore 'as filed'.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "In sas rigas de 'net income comente tzensu de su servìtziu de sos intradas', cale balore de 'change in accounting principle' est isuladu, e proite?",
+    "answer": [
+      [
+        "Su balore de 'change in accounting principle' de '2014% ( 2014 % )' in sas cellas C4 e F4 est isuladu. Pro ambos sos datos, su 'net income comente tzensu de su servìtziu de sos intradas' abarrat sena cambiu intre sos datos 'as filed' e 'as adjusted' (5% a 5% e 3% a 3%, respetivamente). Unu cambiu logicu diat èsser 0%, faghende de '2014%' un'isuladu craru, probabilmente resurtadu de un'erore de inserimentu de datos."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Si su 'cambio in contu de printzipiu' pro su operating income in su secondu dataset esseret istadu una diminutzione de $50 milliones in logu de su valore mussadu, cale diat èssere su 'as adjusted' operating income nou?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Existet una relatzione consistente intre sos ajustos contàbiles pro su rendimentu operativu e s'EBITDA ajustadu in ambas sos datos?",
+    "answer": [
+      [
+        "Eja, b'est una relatzione positiva consistente. In su primu data set, su càmbio pro su rendimentu operativu (+$248) est identicu a su càmbio pro s'EBITDA ajustadu (+$248). In su secondu data set, su càmbio pro su rendimentu operativu (+$414) est fintzas identicu a su càmbio pro s'EBITDA ajustadu (+$414). Custu sugerit chi su printzìpiu contàbile chi impatat su rendimentu operativu est trasferidu in modu diretu a s'EBITDA ajustadu de sa matessi cantidade."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "Custa est s'issue de formatu prus manna de sos titulos de columna chi podet creare cunfusione in s'interpretatzione de sa tabula?",
+    "answer": [
+      [
+        "S'issue de formatu printzipale est sa duplicatione de sos titulos de columna in antis de una categorizzazione de a-ntra-de. Sos titulos 'year ended december 31 2016 as filed' e 'year ended december 31 2016 change in accounting principle' sunt impreados pro duos grupos de colonnas diferentes (B e E; C e F). Custu amigu faet chi s'utente devat immaginare chi duos entes o cunditziones separadas siant comparadas, in lugar de essere dichiaradas in manera esplicita."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "Usende sos valores 'as adjusted', calcùla su servìtziu de intrada implìtzidu pro ambos sos datos (Adjusted EBITDA / Adjusted EBITDA margin) e raporta sa diferèntzia in milliones intrà sos duos (primu data minus segunda data), arrotundada a su millione intreu prus a curtzu.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "De cantu est cambiadu su profitu operativu (in milliones) pro su primu grupu de datos pustis de s'agiusteddu de 'Comente presentadu' a 'Comente agiusteddu'?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

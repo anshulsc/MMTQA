@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "สูตรหลักของโมเดลใดที่มีอัตราดอกเบี้ยปลอดความเสี่ยงรวมอยู่ด้วยอย่างชัดเจน?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "ตัวแปร 'X' ที่แตกต่างกันทั้งหมดที่ใช้เป็นอินพุตในสูตร Z-score Model มีจำนวนเท่าใด",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "ระบุโมเดลที่ใช้ 'สินทรัพย์ทั้งหมด' เป็นตัวหารในพารามิเตอร์ที่อธิบายอย่างน้อยสามรายการ จากนั้นระบุว่าพารามิเตอร์ใดจากโมเดลนั้นแสดงถึงอัตราส่วนของ 'มูลค่าตลาดของตราสารทุน' ต่อ 'หนี้สินรวม'",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "โมเดลใดที่รวมพารามิเตอร์ที่ถูกกำหนดไว้อย่างชัดเจนว่าวัดผล 'ณ เวลา t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "หากเป้าหมายในการวิเคราะห์คือการกำหนดความน่าจะเป็นของผลลัพธ์แบบทวิภาค (y=1) โมเดลใดในตารางที่ระบุเป็นตัวเลือกที่เหมาะสมที่สุด",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "ในโมเดล Z-score ตัวแปรที่แสดงถึง 'กำไรก่อนดอกเบี้ยและภาษี/อัตราส่วนสินทรัพย์รวม' มีน้ำหนัก (สัมประสิทธิ์) เท่าใด และน้ำหนักนี้เปรียบเทียบกับตัวแปรอื่นๆ อย่างไร",
+    "answer": [
+      [
+        "สัมประสิทธิ์สำหรับ X3 (กำไรก่อนดอกเบี้ยและภาษี/อัตราส่วนสินทรัพย์รวม) คือ 3.3 นี่คือค่าน้ำหนักสูงสุดในบรรดาตัวแปรทั้งห้า ซึ่งบ่งชี้ว่ามีผลกระทบต่อ Z-score สุดท้ายมากที่สุดเมื่อเทียบกับตัวแปรอื่น ๆ เช่น X1 (1.2), X2 (1.4), X4 (0.6) และ X5 (0.99)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "หาก Z-score model มีการปรับปรุงโดยลดอิทธิพลของ 'อัตราส่วนเงินทุนหมุนเวียนต่อสินทรัพย์รวม' ลง 50% ค่าสัมประสิทธิ์ใหม่สำหรับ X1 จะเป็นเท่าใด",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "จากสูตร Z-score Model ความสัมพันธ์ระหว่างอัตราส่วนยอดขายรวมต่อสินทรัพย์รวมของบริษัทกับ Z-score ที่ได้คืออะไร?",
+    "answer": [
+      [
+        "มีความสัมพันธ์เชิงบวกระหว่างอัตราส่วนยอดขายรวมต่อสินทรัพย์รวม (X5) และ Z-score สูตรแสดงให้เห็นว่า Z-score เป็นผลรวมถ่วงน้ำหนักของอัตราส่วนห้าประการ และสัมประสิทธิ์สำหรับ X5 เป็นบวก (0.99) ดังนั้น หากปัจจัยอื่นๆ คงที่ การเพิ่มขึ้นของอัตราส่วนยอดขายรวมต่อสินทรัพย์รวมจะส่งผลให้ Z-score สูงขึ้น"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "โมเดลใดมีคำอธิบายที่รวมจำนวนพารามิเตอร์ที่แตกต่างกันมากที่สุด ซึ่งอธิบายไว้ในคอลัมน์ที่สาม?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "เมื่อพิจารณาสัมประสิทธิ์เชิงตัวเลขในสูตรของ Z-score Model สัมประสิทธิ์ใดที่ถือเป็นค่าผิดปกติเมื่อเทียบกับค่าอื่นๆ?",
+    "answer": [
+      [
+        "สัมประสิทธิ์ 3.3 สำหรับตัวแปร X3 เป็นค่าผิดปกติที่สำคัญ สัมประสิทธิ์อื่นๆ ในสูตรคือ 1.2, 1.4, 0.6 และ 0.99 ซึ่งทั้งหมดอยู่ในช่วงระหว่าง 0.6 ถึง 1.4 ค่า 3.3 มากกว่าสองเท่าของสัมประสิทธิ์ที่สูงที่สุดถัดไป (1.4) ทำให้มีค่ามากกว่าค่าอื่นๆ อย่างมีนัยสำคัญ"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "แบบจำลองใดจะเหมาะสมกว่าสำหรับการคาดการณ์ผลตอบแทนสินทรัพย์ โดยพิจารณาทั้งปัจจัยตลาดและปัจจัยขนาด/มูลค่าทางบัญชีต่อราคา และเพราะเหตุใด",
+    "answer": [
+      [
+        "แบบจำลองปัจจัย (Factor Model) จะเหมาะสมกว่า เนื่องจากแบบจำลองนี้รวมถึงผลตอบแทนตลาด (r_m - r_f) ปัจจัยขนาด (SMB) และปัจจัยมูลค่าทางบัญชีต่อราคา (HML) อย่างชัดเจน ทำให้สามารถจับความผันแปรของผลตอบแทนสินทรัพย์ได้หลายมิติ ซึ่งแบบจำลอง Logistic Regression หรือ Z-score Model ไม่ได้พิจารณา"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]
