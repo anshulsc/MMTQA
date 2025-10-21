@@ -50,7 +50,7 @@ class GoldenAnswerVerifier:
     
     def __init__(self, base_dir: str):
         self.base_dir = Path(base_dir)
-        self.qa_dir = self.base_dir / "qa_pairs" / "en"
+        self.qa_dir = self.base_dir / "qa_pairs" 
         self.qa_corrected_dir = self.base_dir / "qa_pairs_corrected"
         self.tables_dir = self.base_dir / "tables"
         self.verification_file = self.base_dir / "golden_answer_verification_results_v2.jsonl"
@@ -517,7 +517,7 @@ class GoldenAnswerVerifier:
 def main():
     """Main entry point."""
     # Configuration
-    BASE_DIR = "/Users/anshulsingh/Projects/eurips/MMTQA/data/processed"
+    BASE_DIR = "/data/processed"
     
     # Check if directory exists
     if not Path(BASE_DIR).exists():
