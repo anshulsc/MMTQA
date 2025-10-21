@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "रिपोर्ट किए गए दोनों अवधियों में, कुल और समायोजन को छोड़कर, किस विशिष्ट ऋण साधन का उच्चतम मूल्य था?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "दूसरे डेटा कॉलम में अवधि के लिए सूचीबद्ध सभी पहचानी जाने वाली राजस्व बॉन्ड का कुल मूल्य क्या है?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "दो अवधियों के बीच 'लंबे समय के कर्ज की वर्तमान परिपक्वता' में पूर्ण परिवर्तन 'लंबे समय के कर्ज पर अमोर्तिज़्ड ऋण छूट' में पूर्ण परिवर्तन से कितना अधिक था?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "'कुल दीर्घकालिक ऋण' की प्रवृत्ति को दिखाए गए दो अवधियों के बीच वर्णित करें और इस परिवर्तन के महत्व की व्याख्या करें।",
+    "answer": [
+      [
+        "कुल दीर्घकालिक ऋण $275.3 बढ़कर $10007.5 से कॉलम C में दिखाई गई अवधि में $10282.8 हो गया जो कॉलम B में दिखाई गई अवधि में है। यह इंगित करता है कि इस समयावधि के दौरान इकाई के समग्र दीर्घकालिक ऋण दायित्वों में वृद्धि हुई, यह सुझाव देते हुए कि इसने संभवतः चुकाए गए नए ऋण से अधिक ऋण लिया।"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "उन सभी पंक्ति मदों की पहचान करें, कुल को छोड़कर, जिन्हें दूसरे डेटा कॉलम में ऋणात्मक मानों के रूप में दर्शाया गया है।",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "कॉलम B में अवधि के लिए कुल दीर्घकालिक ऋण के प्रतिशत के रूप में, 'दीर्घकालिक ऋण की वर्तमान परिपक्वता' के रूप में क्या वर्गीकृत किया गया है? गणना के लिए निरपेक्ष मानों का उपयोग करें और दो दशमलव स्थानों तक पूर्णांकित करें।",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "यदि दूसरे डेटा कॉलम (कॉलम बी) में 'अमोर्टाइज़्ड ऋण छूट' को समाप्त कर दिया जाए (अर्थात, शून्य पर सेट किया जाए), तो उस अवधि के लिए 'कुल दीर्घकालिक ऋण 2013 केएमपी' क्या होगा?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "क्या 'दीर्घकालिक ऋण की वर्तमान परिपक्वता' और 'कुल दीर्घकालिक ऋण' में दो अवधियों के बीच परिवर्तन के बीच कोई स्पष्ट संबंध है?",
+    "answer": [
+      [
+        "हाँ, उनके आंदोलनों में एक विपरीत संबंध प्रतीत होता है। जहाँ कुल दीर्घकालिक ऋण $275.3 ( $10007.5 से $10282.8 तक) से बढ़ा, वहीं 'वर्तमान परिपक्वताओं' का परिमाण काफी कम हो गया (1263.3 के निरपेक्ष मान से 596.6 तक)। यह बताता है कि जहाँ कंपनी ने कुल मिलाकर अधिक ऋण लिया, वहीं उसने साथ ही उस ऋण के उस हिस्से को कम कर दिया जो तत्काल भविष्य में देय था।"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "डेटासेट में कौन सी पंक्ति अन्य पंक्तियों का एकत्रीकरण प्रतीत होती है, और इस निष्कर्ष का समर्थन करने के लिए क्या सबूत हैं?",
+    "answer": [
+      [
+        "पंक्ति जिसका लेबल 'total long-term debt 2013 kmp' है, एक एकत्रीकरण है। मुख्य प्रमाण इसके विवरण में 'total' शब्द का स्पष्ट उपयोग है। इसके अतिरिक्त, इसका मान एक मुद्रा प्रतीक ('$') के साथ प्रस्तुत किया गया है, जो अन्य पंक्तियों से अलग है, यह दर्शाता है कि यह एक अंतिम, सारांश वित्तीय आंकड़ा है।"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "कौन सी पंक्ति दो अवधियों के बीच निरपेक्ष मान में सबसे महत्वपूर्ण परिवर्तन दर्शाती है, जिससे यह अस्थिरता के मामले में वित्तीय बहिष्कृत हो जाती है?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "कुल दीर्घकालिक ऋण और अवमूल्यित ऋण छूट को ध्यान में रखते हुए, 2012 से 2013 तक दीर्घकालिक ऋण में प्रभावी वृद्धि क्या है?",
+    "answer": [
+      [
+        "कुल दीर्घकालिक ऋण 2012 में $10,007.5 मिलियन से बढ़कर 2013 में $10,282.8 मिलियन हो गया। अवमूल्यित ऋण छूट 2012 में -21.2 से 2013 में -20.3 में बदल गई, इसे ध्यान में रखते हुए, ऋण में प्रभावी वृद्धि $276.8 मिलियन है।"
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

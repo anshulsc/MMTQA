@@ -1,0 +1,203 @@
+[
+  {
+    "question_id": "arxiv_c1daaa052a_001",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Quale lavoro ha dimostrato il maggiore guadagno percentuale nei 'Rendimenti' e qual è stata quella percentuale?",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ],
+      [
+        "+40.4%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_002",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Qual è il numero totale di mercati azionari distinti valutati in tutti i lavori di ricerca elencati?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_003",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Identifica l'innovazione chiave per il modello che è stato validato sul mercato CSI.",
+    "answer": [
+      [
+        "Pure convolutional temporal-relational modeling"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_004",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "Confrontando il lavoro del 2023 con quelli del 2024, qual è il cambiamento principale nel focus della 'Key Innovation'?",
+    "answer": [
+      [
+        "Il focus dell'innovazione chiave si è spostato dall'efficienza architettonica e dalla modellazione innovativa ('Pure convolutional temporal-relational modeling' nel 2023) alla gestione di dati e dinamiche di mercato più complesse nel 2024. Le innovazioni del 2024 affrontano sfide come l'indipendenza del canale, la mitigazione dei bias e l'adattamento ai cambiamenti di regime del mercato, indicando una tendenza verso la creazione di modelli più robusti e adattivi piuttosto che concentrarsi esclusivamente su nuove strutture di rete."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_005",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Elencare tutti i lavori pubblicati nel 2024 che hanno utilizzato una forma di apprendimento o addestramento avversariale nella loro metodologia.",
+    "answer": [
+      [
+        "ADB-TRM Chen et al. (2024)"
+      ],
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_006",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Quale percentuale dei lavori di ricerca elencati è stata pubblicata nell'anno 2024?",
+    "answer": [
+      [
+        "75%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_007",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Se il guadagno di 'Returns' per ADB-TRM Chen et al. (2024) fosse stato inferiore di 10,3 punti percentuali, quale lavoro avrebbe riportato un guadagno di performance superiore tra questo e RSAP-DFM Xiang et al. (2024)?",
+    "answer": [
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_008",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste un pattern osservabile tra l'uso di metodologie di apprendimento avversario e la diversità geografica dei mercati su cui i modelli sono stati testati?",
+    "answer": [
+      [
+        "Sì, entrambi i lavori che menzionano esplicitamente l'apprendimento avversario nella loro metodologia (ADB-TRM e RSAP-DFM) sono stati testati su una combinazione di mercati statunitensi e non statunitensi (rispettivamente TSE e mercato A-share). Al contrario, gli altri due lavori, che non menzionano l'apprendimento avversario, sono stati testati solo su mercati statunitensi (CI-STHPAN) o su un mix che include il mercato cinese CSI (RT-GCN). Questo suggerisce una potenziale associazione tra l'uso di tecniche avversarie avanzate e la loro validazione su un set di mercati finanziari più ampio e a più diversificato a livello globale."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_009",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Quale lavoro riporta un risultato di performance che è un moltiplicatore di velocità anziché un guadagno percentuale?",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_010",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Qual è il contributo metodologico del lavoro che ha introdotto un 'meccanismo duale di cambio di regime'?",
+    "answer": [
+      [
+        "Gradient-based posterior factors with adversarial learning"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_011",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "Qual è l'innovazione chiave del lavoro svolto da CI-STHPAN Xia.",
+    "answer": [
+      [
+        "Channel-independent pre-training with dynamic hypergraph learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

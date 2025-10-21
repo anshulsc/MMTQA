@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "arxiv_d9ebbb4fce_001",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Какая модель явно упоминается как достигшая состояния «лучший результат» (SOTA) по многочисленным тестам?",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_002",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Сколько из перечисленных моделей используют технологию 'transformer' в своей ключевой инновации или методологии?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_003",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Каково ключевое новшество модели, использующей стратегии обучения на нескольких наборах данных?",
+    "answer": [
+      [
+        "Open-source foundation model family"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_004",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Методология какой модели включает преобразование одномерных временных данных в двумерное представление для анализа закономерностей?",
+    "answer": [
+      [
+        "TimesNet"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_005",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Перечислите модели, которые либо обозначены как «фундаментальная модель», либо используют «предварительно обученный» подход в своей инновации.",
+    "answer": [
+      [
+        "Timer"
+      ],
+      [
+        "MOMENT"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_006",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Какой процент моделей в этом списке используют архитектуру на основе трансформеров?",
+    "answer": [
+      [
+        "60%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5",
+      "C5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_007",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Если основной проблемой исследовательской группы является очень малое количество обучающих данных (1–5%), какая модель, судя по ее результатам, будет наиболее эффективным выбором?",
+    "answer": [
+      [
+        "Timer"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_008",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "open_ended_reasoning",
+    "question": "Исходя из таблицы, какая взаимосвязь может быть установлена между методологией модели и ее основными результатами, особенно в отношении архитектур трансформеров?",
+    "answer": [
+      [
+        "Данные предполагают корреляцию между использованием архитектур на основе трансформеров и достижением высоких результатов в специфических, сложных сценариях. Например, предварительно обученный трансформер Timer, основанный только на декодере, приводит к высокой производительности в режиме малого числа примеров (few-shot learning), в то время как независимый от каналов трансформер PatchTST приводит к значительному снижению MSE в долгосрочном прогнозировании. Это означает, что методологии на основе трансформеров особенно эффективны для задач, требующих либо эффективности данных (обучение на малом числе примеров), либо захвата долгосрочных зависимостей (долгосрочное прогнозирование)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_009",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Какой столбец содержит информацию, описывающую фундаментальный алгоритмический или структурный подход каждой модели?",
+    "answer": [
+      [
+        "Methodology"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_010",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Результат какой модели выделяется предоставлением конкретного количественного показателя производительности, а не качественного описания, такого как «сильная» или «превосходная» производительность?",
+    "answer": [
+      [
+        "PatchTST"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_d9ebbb4fce_011",
+    "table_id": "arxiv_d9ebbb4fce",
+    "question_type": "value",
+    "question": "Какая модель превзошла все модели по 18 наборам эталонных данных?",
+    "answer": [
+      [
+        "TimeMixer"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

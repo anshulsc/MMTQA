@@ -1,0 +1,242 @@
+[
+  {
+    "question_id": "finqa_32e65786f0_001",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "截至2011年至2012年，哪个资产类别价值（百万美元）的绝对增幅最大？",
+    "answer": [
+      [
+        "Institutional client services"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8",
+      "A15",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_002",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "截至2011年12月，“投资与借贷”（股权、债务、应收款项及其他）组成部分的平均价值（百万）是多少？",
+    "answer": [
+      [
+        "17224"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_32e65786f0_003",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "表中包含“超额流动性和现金”的汇总项目。该特定汇总项目从 2011 年到 2012 年的年同比增长百分比是多少，保留两位小数？",
+    "answer": [
+      [
+        "1.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_004",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "分析从2011年12月到2012年12月期间，在 'icbc1'、'equity ( excluding icbc )' 和 'secured client financing' 这几项中，哪一项是唯一价值下降的项目？",
+    "answer": [
+      [
+        "icbc1"
+      ],
+      [
+        "equity ( excluding icbc )"
+      ],
+      [
+        "secured client financing"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_005",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "列出2011年价值超过2500亿美元且在2012年价值有所增长的所有项目。",
+    "answer": [
+      [
+        "inventory"
+      ],
+      [
+        "institutional client services"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_006",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "截至2012年12月，‘抵押客户融资’和‘库存’的合并价值占‘总资产’的比例是多少？请以百分比形式提供，保留两位小数。",
+    "answer": [
+      [
+        "58.36%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "B16"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_32e65786f0_007",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "如果‘otherassets2’从2011年到2012年的实际增长率只有一半，那么2012年的‘total assets’将是多少，假设所有其他项目保持不变？",
+    "answer": [
+      [
+        "$ 930331.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_008",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "open_ended_reasoning",
+    "question": "根据2011年至2012年的变化，可以推断出“有抵押客户融资”和“库存”之间存在何种潜在关系或战略转变？",
+    "answer": [
+      [
+        "从2011年到2012年，“有抵押客户融资”和“库存”之间存在明显的反比关系。“有抵押客户融资”大幅减少了54,265百万美元，而“库存”增加了44,683百万美元。这种显著的变化可能表明公司从客户融资活动中进行战略性去杠杆化，并相应地增加了其资产负债表上直接持有的资产。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_32e65786f0_009",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "open_ended_reasoning",
+    "question": "为使“截至 2012 年 12 月”和“截至 2011 年 12 月”列中的财务数据适合进行数学计算，需要进行哪些数据准备步骤？",
+    "answer": [
+      [
+        "为了准备数据以进行计算，需要几个步骤。首先，必须从 B1、C1、B16 和 C16 等单元格中删除美元符号 ('$')。其次，应修剪这两列中所有值的任何前导或尾随空格。最后，必须将清理后的字符串转换为数字数据类型，如整数或浮点数，以便进行求和或平均等数学运算。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_010",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "在2011年至2012年期间，哪个具体项目经历了最极端的百分比变化（无论是正向还是负向），使其成为增长分析的潜在异常值？",
+    "answer": [
+      [
+        "otherassets2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_32e65786f0_011",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "从2011年到2012年，债务增加了多少百万？",
+    "answer": [
+      [
+        "2,075"
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

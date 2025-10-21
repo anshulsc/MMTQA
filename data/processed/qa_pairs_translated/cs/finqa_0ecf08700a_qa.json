@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "finqa_0ecf08700a_001",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "Mezi konkrétními dluhopisy (tj. s vyloučením 'cenných papírů' a 'ostatních') který zaznamenal největší procentuální pokles hodnoty z roku 2014 na rok 2015?",
+    "answer": [
+      [
+        "4.76% ( 4.76 % ) senior notes due march 2018 ( cad 375m )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_002",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "Jaká je průměrná úroková sazba všech senior dluhopisů s datem splatnosti ve čtyřicátých letech (2040s)?",
+    "answer": [
+      [
+        "4.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A10",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_003",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "Jaká byla v roce 2015 nesplacená hodnota dluhového nástroje s nejvyšší úrokovou sazbou?",
+    "answer": [
+      [
+        "521"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_004",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak se celkový dlouhodobý dluh společnosti změnil od konce roku 2014 do konce roku 2015?",
+    "answer": [
+      [
+        "Celkový dlouhodobý dluh se zvýšil o 376 USD, ze 4799 USD v roce 2014 na 5175 USD v roce 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "A19",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_005",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "Identifikujte všechny prioritní dluhopisy, které měly v roce 2015 nesplacenou hodnotu vyšší než 500 a datum splatnosti po roce 2025.",
+    "answer": [
+      [
+        "4.75% ( 4.75 % ) senior notes due 2045"
+      ],
+      [
+        "4.60% ( 4.60 % ) senior notes due june 2044"
+      ],
+      [
+        "2.875% ( 2.875 % ) senior notes due may 2026 ( eur 500m )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_006",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "Jaký podíl z celkového dlouhodobého dluhu v roce 2015 představovaly '8,205% podřízené dluhopisy splatné v lednu 2027'?",
+    "answer": [
+      [
+        "10.07%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "A19",
+      "B19"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_007",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "Kdyby se hodnota 'cenných papírů' v roce 2015 snížila pouze o 20 % oproti úrovni z roku 2014, jaký by byl 'celkový dluh' za rok 2015, za předpokladu, že by všechny ostatní hodnoty dluhu zůstaly stejné?",
+    "answer": [
+      [
+        "5821.4"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "B17"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_008",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě poskytnutých údajů o různých dluhopisech, existuje v roce 2015 konzistentní korelace mezi úrokovou sazbou dluhopisu a jeho nesplacenou hodnotou? Vysvětlete své zdůvodnění.",
+    "answer": [
+      [
+        "V datech není pozorovatelná žádná konzistentní, jednoduchá korelace. Například dluhopis s nejvyšší úrokovou sazbou (8,205 %) má vysokou nesplacenou hodnotu 521, ale dluhopis s druhou nejvyšší sazbou (6,25 %) má mnohem nižší hodnotu 298. Naopak některé z dluhopisů s nejvyššími nesplacenými hodnotami, jako je dluhopis s 5,00 % (hodnota 599), mají střední úrokové sazby. To naznačuje, že jiné faktory, jako je počáteční velikost emise, pravděpodobně ovlivňují nesplacenou hodnotu více než samotná úroková sazba."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_009",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "Jaká je nejčastější dekáda splatnosti uvedených dluhopisů (senior a junior) a kolik dluhopisů v této dekádě splatí?",
+    "answer": [
+      [
+        "2020s"
+      ],
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_010",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikujte dluhopis, jehož hodnota za rok 2015 je významným a anomálním odlehlým údajem, zjevně představujícím rok spíše než peněžní hodnotu, a uveďte jeho vykázané hodnoty za roky 2014 a 2015.",
+    "answer": [
+      [
+        "Odlehlým údajem je 'dluhopisy s 3,50 % splatné v září 2015'. Jejich hodnota byla v roce 2014 599 a v roce 2015 je anomálně uvedena jako 2014."
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_011",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak se celkový dlouhodobý dluh změnil z roku 2014 na rok 2015?",
+    "answer": [
+      [
+        "Dlouhodobý dluh se zvýšil ze 4 799 $ v roce 2014 na 5 175 $ v roce 2015, což představuje nárůst o 376 $."
+      ]
+    ],
+    "evidence_cells": [
+      "A19",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

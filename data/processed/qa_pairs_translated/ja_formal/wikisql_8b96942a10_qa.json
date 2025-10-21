@@ -1,0 +1,327 @@
+[
+  {
+    "question_id": "wikisql_8b96942a10_001",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "このリストの中で最も多くエピソードを監督した人物が監督した全エピソードの平均視聴者数（百万単位）は何でしたか？",
+    "answer": [
+      [
+        "14.162"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D20",
+      "D21",
+      "H2",
+      "H6",
+      "H9",
+      "H14",
+      "H16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_002",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "open_ended_reasoning",
+    "question": "2004年11月に放送されたエピソードの視聴者数の傾向について説明してください。",
+    "answer": [
+      [
+        "2004年11月の視聴者数は、顕著な増加傾向を示しました。11月9日の「Conscience」では1430万人に達し、11月16日の「Charisma」ではシーズン最高視聴者数である1638万人に跳ね上がりました。その後、続く週の「Doubt」では1520万人、「Weak」では1530万人と高い水準で安定しました。全体として、非常に強い視聴者数を示した期間でした。"
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "H6",
+      "F7",
+      "H7",
+      "F8",
+      "H8",
+      "F9",
+      "H9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_003",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "記載されている全エピソードの平均視聴率と比較して、最も有意な負の外れ値を示したエピソードはどれですか？",
+    "answer": [
+      [
+        "\"Intoxicated\""
+      ]
+    ],
+    "evidence_cells": [
+      "C19",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H14",
+      "H15",
+      "H16",
+      "H17",
+      "H18",
+      "H19",
+      "H20",
+      "H21"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_004",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "「Amanda Green」によって執筆または共同執筆され、2004年に放送された全エピソードのタイトルをリストアップしてください。",
+    "answer": [
+      [
+        "\"Debt\"",
+        "\"Haunted\""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "E2",
+      "F2",
+      "C10",
+      "E10",
+      "F10",
+      "C16",
+      "E16",
+      "F16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_005",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "2005年に放送された全エピソードの合計米国視聴者数（百万単位）はいくらでしたか？",
+    "answer": [
+      [
+        "156.22"
+      ]
+    ],
+    "evidence_cells": [
+      "F11",
+      "H11",
+      "F12",
+      "H12",
+      "F13",
+      "H13",
+      "F14",
+      "H14",
+      "F15",
+      "H15",
+      "F16",
+      "H16",
+      "F17",
+      "H17",
+      "F18",
+      "H18",
+      "F19",
+      "H19",
+      "F20",
+      "H20",
+      "F21",
+      "H21"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_006",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "リストされている全エピソードの総視聴者数に対し、視聴者数が最も多かった上位3エピソードが占める割合はどのくらいですか？",
+    "answer": [
+      [
+        "16.27%"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H14",
+      "H15",
+      "H16",
+      "H17",
+      "H18",
+      "H19",
+      "H20",
+      "H21"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_007",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "'Intoxicated'のエピソードの視聴者数が、その直前と直後に放送された2つのエピソードの平均であった場合、新しい視聴者数はどのくらいになりますか？",
+    "answer": [
+      [
+        "14.615"
+      ]
+    ],
+    "evidence_cells": [
+      "C19",
+      "F18",
+      "H18",
+      "F20",
+      "H20"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_008",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "このリストで監督したエピソードにおける視聴者数の平均が高いのは、アーサー・W・フォーニー監督とフアン・J・カンパネラ監督のどちらですか？",
+    "answer": [
+      [
+        "Arthur W. Forney"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "H1",
+      "D7",
+      "H7",
+      "D10",
+      "H10",
+      "D17",
+      "H17"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_009",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "open_ended_reasoning",
+    "question": "放送順と制作コードのシーケンスの間には一貫した関係がありますか？ notableな例外を特定してください。",
+    "answer": [
+      [
+        "一般的に、後の放送日が高番の制作コード番号に対応するという一貫した関係があります。しかし、いくつかの notableな例外があります。例えば、「Outcry」（E5202）は「Scavenger」（E5207）の後に放送されました。「Charisma」（E5206）は「Conscience」（E5208）の前に放送され、最も significantなのは、「Parts」（E5204）は非常に早い制作コードを持っていますが、このリストで最後に放送されたエピソードです。"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "G1",
+      "F2",
+      "G2",
+      "F3",
+      "G3",
+      "F4",
+      "G4",
+      "F5",
+      "G5",
+      "F6",
+      "G6",
+      "F7",
+      "G7",
+      "F8",
+      "G8",
+      "F9",
+      "G9",
+      "F10",
+      "G10",
+      "F11",
+      "G11",
+      "F12",
+      "G12",
+      "F13",
+      "G13",
+      "F14",
+      "G14",
+      "F15",
+      "G15",
+      "F16",
+      "G16",
+      "F17",
+      "G17",
+      "F18",
+      "G18",
+      "F19",
+      "G19",
+      "F20",
+      "G20",
+      "F21",
+      "G21"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_010",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "open_ended_reasoning",
+    "question": "特定の脚本チームと視聴率のパフォーマンスに観察可能な相関関係はありますか？「Michele Fazekas & Tara Butters」が執筆したエピソードのパフォーマンスを分析してください。",
+    "answer": [
+      [
+        "「Michele Fazekas & Tara Butters」の脚本チームは、様々ではあるものの、強力なパフォーマンスを示しています。彼らは3つのエピソードを執筆しました。「Charisma」はシーズン最高の視聴率1638万件を記録し、「Weak」は1530万件という高い視聴率を得、「Rage」は平均を下回る1229万件の視聴率でした。常に高いわけではありませんが、彼らの作品にはシーズンの最高視聴率が含まれており、多少のばらつきはあるものの、非常に人気のあるエピソードを制作する能力があることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "E7",
+      "H7",
+      "E9",
+      "H9",
+      "E17",
+      "H17"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_011",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "このリストの中で最も視聴率が高かったエピソードはどれですか？",
+    "answer": [
+      [
+        "123"
+      ]
+    ],
+    "evidence_cells": [
+      "H1-H22"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Který dotaz vyžaduje analýzu nejvyššího počtu primárních finančních metrik?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Vypočítejte celkový počet jednotlivých 'souvisejících metrik' uvedených napříč všemi třemi dotazy.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Pro dotaz, který zahrnuje porovnání společnosti s jejími konkurenty, jaké je přesné časové období uvedené v odpovídajícím 'Structured Data Request'?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Který dotaz v přirozeném jazyce odpovídá strukturovanému požadavku pokrývajícímu nejdelší časové období?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Seznamte všechny primární metriky požadované pro dotazy, které specificky odkazují na společnost s právním identifikátorem jako 'plc' nebo 'Co.' v poli 'Required Data'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Pro dotaz Amcor plc, jaké procento ze všech metrik uvedených v 'Structured Data Request' explicitně obsahuje slovo 'Cash'?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud by se přirozený jazykový dotaz pro Adobe rozšířil o požadavek na 'Návratnost pracovního kapitálu', jak by se upravil seznam metrik v 'Structured Data Request', s využitím informací z dotazu pro Halliburton jako šablony?",
+    "answer": [
+      [
+        "Sekce metrik v 'Structured Data Request' by byla aktualizována tak, aby zahrnovala 'Návratnost pracovního kapitálu' a její související komponenty z dotazu pro Halliburton. To by znamenalo přidání 'Návratnost pracovního kapitálu; Čistý zisk; Pracovní kapitál' k existujícímu seznamu, což by vedlo k: (Prodejní příjmy; Celkové příjmy; Ekonomická přidaná hodnota; Čistý provozní zisk po zdanění (NOPAT); Náklady na kapitál; Návratnost pracovního kapitálu; Čistý zisk; Pracovní kapitál)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě poskytnutých dat, jaký je zjevný vztah mezi složitostí přirozeného jazyka 'Query' a celkovým počtem metrik specifikovaných v 'Structured Data Request'?",
+    "answer": [
+      [
+        "Zdá se, že existuje pozitivní korelace. Dva složitější dotazy (pro Amcor a Halliburton) odpovídají výrazně vyššímu počtu metrik v jejich strukturovaných požadavcích (14 a 12), ve srovnání s jednodušším dotazem pro Adobe, který má pouze 5 metrik. To naznačuje, že s rostoucí analytickou hloubkou uživatelského dotazu se zvyšuje i požadovaný datový objem."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Který sloupec slouží k parsování dotazu v přirozeném jazyce do částečně strukturovaného formátu, který explicitně uvádí společnosti, primární metriky, související podmetriky a požadovaný časový rámec?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyzujte časové informace ve sloupcích 'Required Data' a 'Structured Data Request'. Existuje nějaký dotaz, kde tyto dva sloupce představují rozporuplný časový rámec? Pokud ano, identifikujte dotaz a popište nesrovnalost.",
+    "answer": [
+      [
+        "Ano, dotaz na Amcor plc vykazuje významnou nesrovnalost. Část 'Required Data' specifikuje časový rámec 'za předchozích 6 měsíců', zatímco odpovídající 'Structured Data Request' specifikuje mnohem kratší, 7denní období '(7/1/2024 - 7/7/2024)'. Ostatní dva dotazy vykazují časovou konzistenci mezi sloupci."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Kolik unikátních společností je zmíněno v datech?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

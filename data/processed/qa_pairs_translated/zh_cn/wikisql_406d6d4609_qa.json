@@ -1,0 +1,281 @@
+[
+  {
+    "question_id": "wikisql_406d6d4609_001",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "哪位车手获胜的领先优势最大，领先多少？",
+    "answer": [
+      [
+        "Clint Bowyer",
+        "6.469 sec"
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "I12",
+      "I1",
+      "I3",
+      "I4",
+      "I5",
+      "I7",
+      "I8",
+      "I9",
+      "I13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_002",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "此数据集中 Hendrick Motorsports 获得了多少次胜利？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "G4",
+      "G8",
+      "G10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_003",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "找出在此数据集中驾驶最常获胜赛车制造商的所有获胜车手。",
+    "answer": [
+      [
+        "Joe Nemechek"
+      ],
+      [
+        "Jimmie Johnson"
+      ],
+      [
+        "Robby Gordon"
+      ],
+      [
+        "Kyle Busch"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "C2",
+      "C4",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_004",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "此数据集中最早的比赛是由哪个品牌的汽车赢得的，最近的一次比赛是由哪个品牌的汽车赢得的？",
+    "answer": [
+      [
+        "Pontiac Grand Prix",
+        "Toyota Camry"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "F9",
+      "A13",
+      "F13",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_005",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "列出在2000年之后的赛季为Penske Racing赢得比赛的选手。",
+    "answer": [
+      [
+        "Ryan Newman"
+      ],
+      [
+        "Kurt Busch"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "G1",
+      "A11",
+      "C11",
+      "G11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_006",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "此数据集中有多少百分比的比赛是由雪佛兰（任何车型）赢得的？",
+    "answer": [
+      [
+        "46.15%"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "F4",
+      "F7",
+      "F8",
+      "F10",
+      "F12",
+      "F1",
+      "F3",
+      "F5",
+      "F6",
+      "F9",
+      "F11",
+      "F13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_007",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "如果从数据集中移除2008年的比赛获胜记录，哪个车队将拥有最多的安全车下获胜（'UC'）记录？",
+    "answer": [
+      [
+        "剩余的安全车下获胜队伍将是Team SABCO、Roush Racing和Hendrick Motorsports，每支队伍都有一次此类获胜。因此，将出现三方并列安全车下获胜次数最多的情况。"
+      ]
+    ],
+    "evidence_cells": [
+      "G2",
+      "I2",
+      "G6",
+      "I6",
+      "G10",
+      "I10",
+      "G11",
+      "I11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_008",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，某个特定赞助商似乎只与一个赛车队有合作关系吗？请提供一个例子来支持您的结论。",
+    "answer": [
+      [
+        "不，赞助商似乎并不只与一个车队有合作关系。例如，'Lowe\\'s' 在 2003 年被列为 Hendrick Motorsports 的赞助商，在 2001 年也被列为 Richard Childress Racing 的赞助商。"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "G4",
+      "E7",
+      "G7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_009",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "数据集中哪两列存在占位符或非标准化条目的数据质量问题，这些问题是什么？",
+    "answer": [
+      [
+        "“平均速度”（Avg Speed）和“获胜优势”（Margin of Victory）列存在数据质量问题。“平均速度”（H列）的每个条目都只有一个占位符“mph (km/h)”而不是实际数据。“获胜优势”（I列）包含非标准的文本条目，如“UC”和“UC/Called due to rain”，混合了数值秒数，这阻碍了统一的定量分析。"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "I2",
+      "I6",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_010",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "open_ended_reasoning",
+    "question": "在有数值记录的其他胜利中，哪场比赛的获胜优势在幅度上是一个显著的异常值？",
+    "answer": [
+      [
+        "克林特·鲍耶（Clint Bowyer）在2007年的胜利是一个显著的异常值，其获胜优势为6.469秒。这远远大于次高的5.47秒的优势，并且是其他数值差距平均值的两倍多，表明这是一场异常占统治地位的比赛。"
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "I12",
+      "I1",
+      "I3",
+      "I4",
+      "I5",
+      "I7",
+      "I8",
+      "I9",
+      "I13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_406d6d4609_011",
+    "table_id": "wikisql_406d6d4609",
+    "question_type": "value",
+    "question": "在哪几场比赛中，车手因雨延误而获得冠军？",
+    "answer": [
+      [
+        "Kurt Busch (UC/Called due to rain)"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C8",
+      "C9",
+      "C12",
+      "E5",
+      "E8",
+      "E9",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

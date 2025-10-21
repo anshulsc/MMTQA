@@ -1,0 +1,234 @@
+[
+  {
+    "question_id": "finqa_a0b3187200_001",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "2020年の支払期日（総額を除く）が最も大きい契約上の義務は何ですか？",
+    "answer": [
+      [
+        "long-term debt ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_002",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "「長期負債（1）」について、2017年から2021年までの年間平均支払予定額はいくらですか？",
+    "answer": [
+      [
+        "353921"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a0b3187200_003",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "総支払額が最も少ない契約上の義務について、「それ以降」の期間に予定されている支払額はいくらですか？",
+    "answer": [
+      [
+        "$ 14480"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "A6",
+      "H6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_004",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "'非連結合弁事業の負債の持分（3）' について、2017年から2021年までの支払いの傾向を説明してください。一貫性がありますか？",
+    "answer": [
+      [
+        "「非連結合弁事業の負債の持分（3）」の2017年から2021年までの支払いの傾向は、非常に一貫性がなく、変動的です。支払いは2017年の2,444千ドルから始まり、2018年には28,466千ドルへと劇的に急増し、2019年には5,737千ドルに下落し、2020年には11,598千ドルに再び上昇し、その後2021年には最低点の1,236千ドルまで落ち込みました。一貫した上昇または下降の傾向はありません。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_005",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "2017年と2019年の両方で3,000千ドル未満の支払い期日が到来するすべての契約上の義務をリストしてください。",
+    "answer": [
+      [
+        "line of credit ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_006",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "2018年の総契約上の義務のうち、「長期借入金（1）」が占める割合はどのくらいですか？",
+    "answer": [
+      [
+        "87.71%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a0b3187200_007",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "「ground leases」の2017年の支払いが20%少なかった場合、その年の「total contractual obligations」はいくらになりますか？",
+    "answer": [
+      [
+        "$ 555989"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_008",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "個々の債務に関するデータに基づくと、「総額」の債務の大きさは「将来」の期間に支払われる金額と明確な相関関係がありますか？その理由を説明してください。",
+    "answer": [
+      [
+        "明確な相関関係はありません。「長期借入金」は最大の債務（35億8789万ドル）ですが、その総額の約49.6%が「将来」に支払われる予定です。対照的に、「開発および建設バックログ費用」は別の大きな債務（3億44700万ドル）ですが、「将来」に支払われるのはわずか約0.6%です。一方、「地上リース」は中程度の債務ですが、非常に高い割合（89.1%）が「将来」に支払われる予定です。このばらつきは、返済スケジュールが総額のみによって決定されるわけではないことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a0b3187200_009",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "表のどの行が他の個別の義務行の合計を表しており、その合計はどの列に適用されますか？",
+    "answer": [
+      [
+        "'total contractual obligations'(契約上の総義務) という行は、他の6つの個別の義務行の合計です。この合計は、「total」(合計) から「thereafter」(それ以降) までのすべての支払い列（B列からH列）に適用されます。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_010",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "'開発および建設バックログ費用'について、2018年から2021年までの支払いと比較して、どの年の支払いが著しく突出していますか？",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a0b3187200_011",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "2017年から2021年までの総契約上の義務（単位：千）はいくらですか？",
+    "answer": [
+      [
+        "$2,282,629"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_7a4236b86f_001",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Produk mana, Minyak atau NGL, yang mengalami peningkatan persentase volume produksi/penjualan yang lebih tinggi dari tahun 2007 ke 2008?",
+    "answer": [
+      [
+        "Oil"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_002",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Berapa volume total produksi/penjualan dalam 'mbbls' untuk Minyak dan NGL digabungkan pada tahun 2008?",
+    "answer": [
+      [
+        "3858.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_003",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Tahun berapa yang menghasilkan pendapatan total terhitung yang lebih tinggi dari penjualan Minyak?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_004",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren keseluruhan dalam harga realisasi rata-rata untuk semua komoditas individual (Gas, NGL, Minyak) dari tahun 2007 hingga 2008.",
+    "answer": [
+      [
+        "Harga realisasi rata-rata untuk semua komoditas individual yang terdaftar menunjukkan tren positif, meningkat dari tahun 2007 ke 2008. Harga Gas naik signifikan dari $5.95 menjadi $8.25 per mcf, harga Minyak meningkat dari $83.37 menjadi $95.26 per bbl, dan harga NGL mengalami sedikit kenaikan dari $51.02 menjadi $51.26 per bbl."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_005",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Sebutkan semua kategori produksi/penjualan di mana volume pada tahun 2008 lebih dari 2,25 kali volume pada tahun 2007.",
+    "answer": [
+      [
+        "gas production ( bcf )"
+      ],
+      [
+        "oil production/sales ( mbbls )"
+      ],
+      [
+        "ngl production/sales ( mbbls )"
+      ],
+      [
+        "equivalent production ( bcfe )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_006",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Berapa persentase dari total 'produksi ekuivalen (bcfe)' pada tahun 2008 yang secara langsung dapat diatribusikan pada 'produksi gas (bcf)'?",
+    "answer": [
+      [
+        "77.35"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_007",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Jika harga realisasi rata-rata untuk minyak pada tahun 2008 lebih rendah 15%, berapa banyak (dalam jutaan dolar) pendapatan yang dihitung dari penjualan minyak akan berkurang?",
+    "answer": [
+      [
+        "5019.80"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_008",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "Menganalisis perubahan dari tahun ke tahun, apa hubungan yang tampak antara volume produksi/penjualan dan harga realisasi rata-rata untuk komoditas individual yang terdaftar?",
+    "answer": [
+      [
+        "Terdapat korelasi positif yang konsisten untuk semua komoditas individual antara tahun 2007 dan 2008. Dalam setiap kasus (Gas, NGL, dan Minyak), peningkatan signifikan dalam volume produksi/penjualan dari tahun 2007 hingga 2008 disertai dengan peningkatan harga realisasi rata-rata, menunjukkan bahwa permintaan pasar yang kuat kemungkinan mendorong kenaikan volume dan harga selama periode ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_009",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Apa teks baris yang berfungsi sebagai sub-header dan tidak memiliki data numerik terkait pada kolom 2008 dan 2007?",
+    "answer": [
+      [
+        "average realized prices without hedging results:"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_010",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Kategori produksi/penjualan mana, termasuk ukuran 'ekuivalen', yang mengalami peningkatan relatif (pertumbuhan persentase) paling signifikan dari tahun 2007 ke 2008?",
+    "answer": [
+      [
+        "oil production/sales ( mbbls )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_011",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Berapa total gabungan produksi minyak dan NGL pada tahun 2008?",
+    "answer": [
+      [
+        "3,858.7 mbbls"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

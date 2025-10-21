@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Kumaha jumlah total aset ('investasi' jeung 'aset séjénna') dina 31 Désémber 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Aya dua kategori aset, 'investments' atanapi 'other assets', mana anu langkung ageung rugi bersihna tina 'realized and unrealized gains / ( losses ) net'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Naha kasaimbangan panungtung 'investments' dina 31 Désémber 2008 téh saluyu jeung kasaimbangan awal jeung transaksi saterusna anu didaptarkeun? Tunjukeun itungan anjeun.",
+    "answer": [
+      [
+        "Leres, kasaimbanganana saluyu. Itungannya nyaéta: $1240 (kasaimbangan awal) - $409 (kauntungan/kerugian) + $11 (pembelian/penjualan) - $29 (transfer bersih) = $813, anu cocog sareng kasaimbangan panungtung anu dilaporkeun."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Naon parobahan bersih total dina nilai aset pikeun sakabeh période, ti 31 Désémber 2007, nepi ka 31 Désémber 2008?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Pikeun kategori aset naon 'transfer net asup sareng/atanapi kaluar tina tingkat 3' ngahasilkeun kontribusi positif kana nilai aset?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Sabaraha persen tina 'total net (losses) for the period included in earnings' anu asalna tina 'investments'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Upami 'realized and unrealized gains / (losses) net' kanggo 'other assets' nol (0) sanésna $-16, sabaraha saldo katutup énggal kanggo 'other assets' dina 31 Désémber 2008?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": " Dumasar kana data pikeun 'investments', naon patalina antara 'realized and unrealized gains / ( losses ) net' jeung 'total net ( losses ) ... relating to assets still held at the reporting date'?",
+    "answer": [
+      [
+        "Aya pataliyan anu kuat jeung langsung. 'total net ( losses ) ... relating to assets still held' ($-366) nyumbang 89,5% tina total 'realized and unrealized gains / ( losses ) net' ($-409). Ieu nunjukkeun yén mayoritas karugian bersih pikeun investments dina période éta henteu direalisasikeun tur patali jeung aset anu masih dicekel dina ahir période laporan."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Konvensi akuntansi naon anu disarankeun ku format data anu dianggo pikeun nilai négatip, sapertos '-409 ( 409 )'?",
+    "answer": [
+      [
+        "Format némbongkeun angka négatip dituturkeun ku nilai absolut dina kurung mangrupa konvénsi akuntansi umum pikeun jelas tur emphatically némbongkeun inohong finansial négatip kawas karugian, biaya, atawa nilai contra-aset."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Naon barang nu ngabalukarkeun dampak négatip pangbadagna dina total nilai aset salila période éta?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Sabaraha Investasi turun ti 2007 nepi ka 2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

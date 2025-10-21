@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Hans qeyri-çoxməqsədli model ən aşağı ümumi orta kvadrat xətasını (MSE_over) əldə edir?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Bütün 'Multi-Task' olaraq qeyd olunmuş modellər üçün 7 günlük üfüqdə (MSE7) orta MSE-ni hesablayın.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "MSE3 dəyəri ən yüksək ikinci olan (ikinci ən pis) model üçün, onun uyğun MSE30 dəyəri nədir?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "HTML modelinin proqnoz üfüqü 3 gündən 30 günə qədər uzandıqca Xəta Kvadratının Ortalamasının (MSE) trendini təhlil edin. Onun proqnoz dəqiqliyi zamanla yaxşılaşır, yoxsa pisləşir?",
+    "answer": [
+      [
+        "HTML modelinin proqnoz dəqiqliyi proqnoz üfüqü uzandıqca yaxşılaşır. Onun MSE dəyərləri ardıcıl olaraq MSE3 (0.845) -dən MSE7 (0.349), MSE15 (0.251) və nəhayət MSE30 (0.158) -ə qədər azalır, bu da daha aşağı xəta və buna görə də daha uzunmüddətli proqnozlarda daha yaxşı performansı göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "'Multi-Task' olaraq təyin olunmayan və MSE15 dəyəri 0.31-dən aşağı olan bütün modelləri müəyyənləşdirin.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Bütün MSE metriklarında aydın performans kənarlaşmasını göstərən modeli müəyyən edin və bunun səbəbini izah edin.",
+    "answer": [
+      [
+        "GPT-3.5-Turbo modeli aydın performans kənarlaşmasını göstərir. Bütün üfüqlər üzrə onun MSE dəyərləri (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) digər bütün modellərdən əhəmiyyətli dərəcədə yüksəkdir, onların əksəriyyəti 1.0-dan aşağı MSE dəyərlərinə malikdir. Bu, siyahıda göstərilən digər modellərlə müqayisədə əhəmiyyətli dərəcədə daha pis proqnozlaşdırma performansını göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Bütün modellər üzrə cəmlənmiş MSE3-ün ümumi məbləğinə GPT-3.5-Turbo modelinin payı faizlə nə qədərdir? Cavabı bir onluq vergüllə yuvarlaqlaşdırılmış faizlə təqdim edin.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "RiskLabs modelinin MSE_over göstəricisi 25% yaxşılaşarsa (yəni 25% azalarsa), onun yeni dəyəri nə olacaq və HTML modelinin MSE_over göstəricisi ilə müqayisədə necə sıralanacaq?",
+    "answer": [
+      [
+        "RiskLabs üçün yeni MSE_over 0.243 olacaq. Bu dəyər, HTML modelinin 0.401-lik MSE_over dəyərindən aşağıdır və buna görə də daha yaxşıdır."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Cədvələ əsasən, bir modelin 'Multi-Task' kateqoriyasına aid edilməsi ilə 'VaR' nəticəsinin mövcudluğu arasında necə bir əlaqə var?",
+    "answer": [
+      [
+        "Güclü bir əlaqə var. Yalnız 'Multi-Task' kimi təyin edilmiş modellər (GPT-3.5-Turbo və RiskLabs) hesabat verilmiş rəqəmsal 'VaR' nəticəsinə malikdir. Bununla belə, bütün 'Multi-Task' modellərində VaR nəticəsi yoxdur (məsələn, HTML), və qeyri-'Multi-Task' modellərində heç biri yoxdur, bu da VaR hesablama qabiliyyətinin bu verilən dəstdə əsasən 'Multi-Task' modelləri ilə əlaqəli bir xüsusiyyət olduğunu göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Hans performans metrika sütununda qeyri-rəqəmsal yer tutucu məlumat var və bu məlumat hans spesifik modellər üçün əskikdir?",
+    "answer": [
+      [
+        "Təqdim olunan məlumatlara əsasən, 'VaR' sütununda qeyri-rəqəmsal məlumat ('/') mövcuddur. Bu məlumat aşağıdakı modellər üçün əskikdir: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM və HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Hans model proqnoz dəqiqliyi (MSE3–MSE30) və risk təxmini (VaR) arasında ən yaxşı ümumi balansı göstərir?",
+    "answer": [
+      [
+        "RiskLabs modeli, bütün üfüqlər üzrə ən aşağı MSE dəyərlərini və ən aşağı VaR-ı (0.049) saxlayaraq ən yaxşı ümumi balansı əldə edir, bu da həm güclü proqnoz dəqiqliyini, həm də etibarlı risk təxminini göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

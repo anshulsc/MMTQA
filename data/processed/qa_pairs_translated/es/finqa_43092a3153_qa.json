@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "finqa_43092a3153_001",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "¿Qué propiedad tiene la segunda mayor superficie ocupada?",
+    "answer": [
+      [
+        "tikri campus and unitech cyber park gurgaon india"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_002",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "¿Cuál es el metraje cuadrado ocupado total para todas las propiedades ubicadas en Illinois?",
+    "answer": [
+      [
+        "1487000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_43092a3153_003",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "¿Cuál es el metraje cuadrado ocupado de la propiedad con la fecha de vencimiento de arrendamiento general más reciente?",
+    "answer": [
+      [
+        "428000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_004",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "¿Qué propiedad tiene arrendamientos que abarcan la mayor duración desde su fecha de vencimiento listada más temprana hasta la más tardía?",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_005",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "Enumera las propiedades con una superficie ocupada superior a 350.000 pies cuadrados que tengan un contrato de arrendamiento que expire en 2020.",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_006",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de los metros cuadrados ocupados totales representa el campus de Gurgaon, India?",
+    "answer": [
+      [
+        "13.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_43092a3153_007",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "¿Si todas las fechas de vencimiento de arrendamiento anteriores a 2020 se extendieran hasta 2022, cuántas propiedades tendrían un arrendamiento que vence en 2022?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_008",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Según los datos proporcionados, ¿existe una relación observable entre el tamaño de una propiedad y el número de fechas de vencimiento de arrendamiento que tiene?",
+    "answer": [
+      [
+        "Sí, parece haber una correlación positiva. Las dos propiedades más grandes, '4 overlook point' (1,059,000 pies cuadrados) y 'tikri campus' (440,000 pies cuadrados), son las únicas con múltiples fechas de vencimiento de arrendamiento listadas (tres cada una). Todas las propiedades más pequeñas en la tabla tienen solo una fecha de vencimiento, lo que sugiere que las instalaciones más grandes son más propensas a tener acuerdos de arrendamiento complejos y escalonados."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_43092a3153_009",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "¿Qué columna contiene datos donde una sola celda puede representar múltiples valores distintos?",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_010",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cuál propiedad tiene el mayor valor atípico positivo en pies cuadrados ocupados y por qué?",
+    "answer": [
+      [
+        "La propiedad en '4 overlook point and other locations lincolnshire illinois' es el valor atípico positivo más significativo. Sus pies cuadrados de 1,059,000 son más de 2.4 veces mayores que la siguiente propiedad más grande (440,000 pies cuadrados) y se desvían sustancialmente de la mediana (414,000 pies cuadrados) y la media (aproximadamente 463,143 pies cuadrados) del conjunto de datos, lo que la diferencia mucho de las otras propiedades."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_43092a3153_011",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "¿Cuál es el metraje cuadrado ocupado total de las propiedades con vencimientos de arrendamiento para 2020?",
+    "answer": [
+      [
+        "1,537,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

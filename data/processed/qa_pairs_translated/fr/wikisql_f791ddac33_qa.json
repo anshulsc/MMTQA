@@ -1,0 +1,372 @@
+[
+  {
+    "question_id": "wikisql_f791ddac33_001",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Quels sont les points totaux accumulés par Elvis Presley pour toutes ses chansons listées dans le classement ?",
+    "answer": [
+      [
+        "839"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5",
+      "B8",
+      "E8",
+      "B10",
+      "E10",
+      "B24",
+      "E24"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_002",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Parmi les artistes ayant au moins une chanson qui a atteint la première place comme 'Plus haute position', quel artiste a le plus de points moyens par chanson répertoriée ?",
+    "answer": [
+      [
+        "Anita Lindblom"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "E5",
+      "B8",
+      "E8",
+      "B10",
+      "E10",
+      "B24",
+      "E24",
+      "D5",
+      "D10",
+      "D24",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13",
+      "B21",
+      "D21",
+      "E21",
+      "B25",
+      "D25",
+      "E25"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_003",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Listez les titres de chansons qui ont atteint une 'Position la plus élevée' de 2 et ont également marqué plus de 200 points.",
+    "answer": [
+      [
+        "\" Æille så ner som a Ingebjørg \""
+      ],
+      [
+        "\" I'm Lookin' Out the Window \""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "E2",
+      "C6",
+      "D6",
+      "E6",
+      "C7",
+      "D7",
+      "E7",
+      "C9",
+      "D9",
+      "E9",
+      "C19",
+      "D19",
+      "E19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_004",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "De combien de points la chanson de \"The Shadows\" avec la meilleure \"plus haute position\" surpasse-t-elle leur autre chanson répertoriée ?",
+    "answer": [
+      [
+        "121"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B20",
+      "D20",
+      "E20"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_005",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Quel pourcentage des points totaux de toutes les chansons de ce classement ont été apportés par les chansons qui ont atteint la première position comme 'Meilleure position' ? Fournir la réponse arrondie à deux décimales.",
+    "answer": [
+      [
+        "47.21%"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D10",
+      "E10",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D21",
+      "E21",
+      "D24",
+      "E24",
+      "D25",
+      "E25",
+      "E1",
+      "E2",
+      "E4",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E11",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E22",
+      "E23",
+      "E26",
+      "E27"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_006",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Quelle chanson qui a atteint une \"plus haute position\" dans le top 3 a un total de points qui est un élément aberrant, étant significativement inférieur aux autres chansons de ce palier de performance supérieur ?",
+    "answer": [
+      [
+        "\" Telstar \""
+      ]
+    ],
+    "evidence_cells": [
+      "C16",
+      "D16",
+      "E16",
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D10",
+      "E10",
+      "D2",
+      "E2",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_007",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la relation entre la \"Meilleure position\" d'une chanson et ses \"Points\" en vous basant sur les données fournies.",
+    "answer": [
+      [
+        "Il existe une forte corrélation négative entre le numéro de la \"Meilleure position\" et les \"Points\" qu'une chanson reçoit. Une \"Meilleure position\" plus basse (par exemple, 1 ou 2) est constamment associée à un total de points plus élevé. Par exemple, la chanson avec le plus de points (383) a atteint la position 1, et toutes les chansons avec plus de 250 points ont culminé à la position 1 ou 2. Inversement, les chansons avec un numéro de \"Meilleure position\" plus élevé, comme \"Guitar Tango\" (position 10, 22 points) et \"Swiss Maid\" (position 8, 75 points), ont beaucoup moins de points, indiquant qu'une meilleure performance dans les classements entraîne une accumulation de points plus élevée."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11",
+      "D12",
+      "E12",
+      "D13",
+      "E13",
+      "D14",
+      "E14",
+      "D15",
+      "E15",
+      "D16",
+      "E16",
+      "D17",
+      "E17",
+      "D18",
+      "E18",
+      "D19",
+      "E19",
+      "D20",
+      "E20",
+      "D21",
+      "E21",
+      "D22",
+      "E22",
+      "D23",
+      "E23",
+      "D24",
+      "E24",
+      "D25",
+      "E25",
+      "D26",
+      "E26",
+      "D27",
+      "E27"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_008",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Quelle chanson, avec une 'Position' finale dans le top 10 de ce classement, n'a pas atteint la première place en 'Meilleure position' ?",
+    "answer": [
+      [
+        "\" Æille så ner som a Ingebjørg \""
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A21",
+      "D21",
+      "A25",
+      "D25"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_009",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Si un bonus de 10 % de points était accordé à toutes les chansons d'artistes ayant plus d'une entrée dans ce classement, quel serait le nouveau total de points pour 'Wonderful Land' de The Shadows ?",
+    "answer": [
+      [
+        "157.3"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "E2",
+      "B5",
+      "B6",
+      "B8",
+      "B10",
+      "B20",
+      "B24",
+      "B26"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_010",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "value",
+    "question": "Quel artiste est le plus représenté dans ce classement et combien de chansons y a-t-il pour cet artiste ?",
+    "answer": [
+      [
+        "Elvis Presley",
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18",
+      "B19",
+      "B20",
+      "B21",
+      "B22",
+      "B23",
+      "B24",
+      "B25",
+      "B26",
+      "B27"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_f791ddac33_011",
+    "table_id": "wikisql_f791ddac33",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle tendance peut-on observer entre les premières positions et le total des points ?",
+    "answer": [
+      [
+        "Les positions plus élevées dans les classements correspondent généralement à plus de points, mais des exceptions existent pour les chansons ayant une durée plus courte dans les classements."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D6",
+      "E1",
+      "E2",
+      "E3",
+      "E6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

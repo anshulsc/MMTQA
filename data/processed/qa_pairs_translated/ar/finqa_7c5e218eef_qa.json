@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_7c5e218eef_001",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "أي فئة من المصروفات شهدت أكبر تغيير مطلق على أساس سنوي بالدولار، بغض النظر عما إذا كان زيادة أو نقصان؟",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_002",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "ما هو مجموع جميع تخفيضات النفقات (التغييرات السلبية) المبلغ عنها بالملايين من الدولارات؟",
+    "answer": [
+      [
+        "-23.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_003",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "ما هو التغير الإجمالي بالدولار لفئات النفقات التي يمثل كل منها زيادة بنسبة 2% كنسبة من نفقات عام 2015؟",
+    "answer": [
+      [
+        "53.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_004",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على الأرقام الإجمالية، ما هو الاتجاه المالي العام لهذه الفئات المصروفة من عام لآخر؟ وضح إجابتك.",
+    "answer": [
+      [
+        "كان الاتجاه المالي العام هو زيادة في التكاليف. ويتضح ذلك من صف \"الإجمالي\"، الذي يظهر تغيراً صافياً إيجابياً من عام لآخر قدره 54.4 مليون دولار، مما يقابل زيادة بنسبة 4% مقارنة بمصروفات عام 2015. في حين كانت هناك بعض التخفيضات في التكاليف، إلا أنها طغت عليها إلى حد كبير الزيادات في التكاليف في مجالات أخرى."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_005",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "اذكر جميع فئات المصروفات التي شهدت تغيراً إيجابياً سنة بسنة بأكثر من 15 مليون دولار.",
+    "answer": [
+      [
+        "loss on datacenter and related legal fees"
+      ],
+      [
+        "professional fees and outside services"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_006",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "احسب نسبة الزيادة الإجمالية بالدولار إلى الانخفاض المطلق الإجمالي بالدولار من بنود النفقات الفردية، مقرباً إلى منزلتين عشريتين.",
+    "answer": [
+      [
+        "3.29:1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_007",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "إذا كانت 'تقلبات أسعار صرف العملات الأجنبية' قد وفرت 13.2 مليون دولار بدلاً من زيادة في التكاليف، فما هو إجمالي التغيير الجديد سنة بسنة؟",
+    "answer": [
+      [
+        "$ 28.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_008",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "بمقارنة الفئات ذات التغيير النسبي المئوي نفسه (مثل 2% أو 1%)، ماذا يمكنك أن تستنتج عن العلاقة بين التغيير المطلق بالدولار والتغيير النسبي المئوي؟ ما هي المعلومات المفقودة لتأكيد ذلك؟",
+    "answer": [
+      [
+        "يمكن الاستنتاج بأن التغيير المطلق بالدولار ليس متناسبًا بشكل مباشر مع التغيير النسبي المئوي عبر فئات مختلفة. على سبيل المثال، كان لكل من 'خسارة مركز البيانات' (28.6 مليون دولار) و 'الرسوم المهنية' (24.4 مليون دولار) تغيير بنسبة 2%، مما يعني أن نفقات عام 2015 الأساسية لديهما كانت مختلفة. المعلومات المفقودة للتأكيد هي قيمة نفقات عام 2015 الفعلية لكل فئة."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_009",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "open_ended_reasoning",
+    "question": "أي خلية في عمود 'التغيير كنسبة مئوية من نفقات 2015' تحتوي على بيانات غير متوافقة مع نوع البيانات الظاهر للعمود، وما هي القيمة الشاذة؟",
+    "answer": [
+      [
+        "الخلية C7، المقابلة لـ 'مصاريف أخرى صافية'، تحتوي على القيمة '2014'. هذه القيمة شاذة لأن جميع القيم الأخرى في العمود عبارة عن نسب مئوية أو أرقام تمثل نسبًا مئوية، بينما تبدو '2014' وكأنها سنة."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_010",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "يُعد التغير من عام لآخر في 'خسارة مركز البيانات ورسومه القانونية ذات الصلة' أكبر زيادة. بنسبة كم تزيد هذه الزيادة عن الزيادة الثانية ('رسوم مهنية وخدمات خارجية')؟ قرّب إلى منزلة عشرية واحدة.",
+    "answer": [
+      [
+        "17.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7c5e218eef_011",
+    "table_id": "finqa_7c5e218eef",
+    "question_type": "value",
+    "question": "ما هي فئة المصروفات التي شهدت أعلى زيادة على أساس سنوي؟",
+    "answer": [
+      [
+        "Loss on data center and related legal fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

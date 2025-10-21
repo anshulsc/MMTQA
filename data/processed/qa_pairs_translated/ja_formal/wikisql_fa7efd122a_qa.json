@@ -1,0 +1,312 @@
+[
+  {
+    "question_id": "wikisql_fa7efd122a_001",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "value",
+    "question": "「Bay」ファミリーに属するすべての星座がこのリストでカバーしている総面積（平方度）は何ですか？",
+    "answer": [
+      [
+        "1057.172"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B11",
+      "E11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_fa7efd122a_002",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "value",
+    "question": "'Zod'ファミリーの中で、ランクが低い（ランク番号が大きい）星座はどれですか？",
+    "answer": [
+      [
+        "Sagittarius"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_fa7efd122a_003",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "value",
+    "question": "南部象限（SQ1-SQ4）に位置する星座の中で、最も高いランク（数値的に最も小さいランク値）を持つ星座のファミリーは何ですか？",
+    "answer": [
+      [
+        "Zod"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "J1",
+      "A2",
+      "J2",
+      "A3",
+      "J3",
+      "A5",
+      "B5",
+      "J5",
+      "A6",
+      "J6",
+      "A7",
+      "J7",
+      "A8",
+      "J8",
+      "A11",
+      "J11",
+      "A12",
+      "J12",
+      "A13",
+      "J13",
+      "A14",
+      "J14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_fa7efd122a_004",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "value",
+    "question": "右昇（時分）の値が1900を超える、順番で最後に表示される星座の名前をリストアップしてください。",
+    "answer": [
+      [
+        "Sagittarius"
+      ],
+      [
+        "Indus"
+      ],
+      [
+        "Telescopium"
+      ],
+      [
+        "Pavo"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "H5",
+      "D6",
+      "H6",
+      "D8",
+      "H8",
+      "D11",
+      "H11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_fa7efd122a_005",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "value",
+    "question": "'Lac'または'Her'ファミリーに属さず、かつ、'3'または'4'で終わる象限に位置するすべての星座の名前を教えてください。",
+    "answer": [
+      [
+        "Sagittarius"
+      ],
+      [
+        "Indus"
+      ],
+      [
+        "Pavo"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "J5",
+      "B6",
+      "D6",
+      "J6",
+      "B7",
+      "D7",
+      "J7",
+      "B9",
+      "D9",
+      "J9",
+      "B11",
+      "D11",
+      "J11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_fa7efd122a_006",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "value",
+    "question": "この表に記載されている「Per」ファミリーの星座の総面積（平方度）と、北緯象限（NQ）にある星座の総面積の比率はいくつですか？",
+    "answer": [
+      [
+        "1.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "E10",
+      "B15",
+      "E15",
+      "E4",
+      "J4",
+      "E9",
+      "J9",
+      "E10",
+      "J10",
+      "E15",
+      "J15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_fa7efd122a_007",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "value",
+    "question": "もし全ての星座のランクが、その面積（平方度）を10で割り、最も近い整数に丸めた値に仮に変更された場合、どの星座が新しいランク24を持つでしょうか？",
+    "answer": [
+      [
+        "Antlia"
+      ],
+      [
+        "Ara"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_fa7efd122a_008",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "open_ended_reasoning",
+    "question": "星座のファミリーとその象限の位置との関係を分析してください。特定の種類の象限（例：主に南半球）に集中しているように見えるファミリーはありますか？",
+    "answer": [
+      [
+        "はい、明確な集中のパターンが見られます。「Bay」ファミリーは、リストされた4つのメンバー（Dorado、Indus、Apus、Pavo）すべてが南半球の象限（SQ1、SQ4、SQ3）に位置しており、強い南半球への集中を示しています。同様に、「Her」ファミリーの3つのメンバーもすべて南半球の象限（SQ3、SQ4）にあります。対照的に、「Lac」と「Zod」ファミリーは、北半球と南半球の両方の象限にわたってより分散しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "J1",
+      "B2",
+      "J2",
+      "B3",
+      "J3",
+      "B4",
+      "J4",
+      "B5",
+      "J5",
+      "B6",
+      "J6",
+      "B7",
+      "J7",
+      "B8",
+      "J8",
+      "B9",
+      "J9",
+      "B10",
+      "J10",
+      "B11",
+      "J11",
+      "B12",
+      "J12",
+      "B13",
+      "J13",
+      "B14",
+      "J14",
+      "B15",
+      "J15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_fa7efd122a_009",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "value",
+    "question": "60位よりも悪い（すなわち、60より大きい数値）星座の中で、有意な正の外れ値（最も北にある）の赤緯を持つものはどれですか？",
+    "answer": [
+      [
+        "Antlia"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "I1",
+      "A3",
+      "D3",
+      "I3",
+      "A7",
+      "D7",
+      "I7",
+      "A12",
+      "D12",
+      "I12",
+      "A13",
+      "D13",
+      "I13",
+      "A14",
+      "D14",
+      "I14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_fa7efd122a_010",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "value",
+    "question": "このデータセットには、整数でない（つまり、小数点を含む）数値データが含まれる列がいくつありますか？",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "A1",
+      "A2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_fa7efd122a_011",
+    "table_id": "wikisql_fa7efd122a",
+    "question_type": "value",
+    "question": "平方度あたりで最も広い面積を占める星座は何ですか？",
+    "answer": [
+      [
+        "Hydra"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

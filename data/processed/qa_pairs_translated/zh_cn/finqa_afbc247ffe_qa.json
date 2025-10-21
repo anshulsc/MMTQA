@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "表中显示的三种期间内，“从其他综合收益累计中重新分类的金额”的总净额是多少？",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "在三个主要财务类别（衍生工具、合资企业份额、市值证券）中，哪个类别的余额从 2014 年 12 月 31 日到 2017 年 12 月 31 日的绝对增长额最大？",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "在“其他综合收益（损失）总额”（不含重分类）最高的时期，从“SL Green 2019 合资企业净未实现衍生金融工具收益份额”中重分类的金额是多少？",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "描述从2014年12月31日到2017年12月31日总余额的逐年趋势。这种变化是一致的吗？",
+    "answer": [
+      [
+        "趋势不一致，波动很大。总余额从2014年的-6980下降到2015年的-8749。随后在2016年大幅增加至22137，然后在2017年适度下降至18604。增长不平稳也不呈线性。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "列出在期初（2014年12月31日）余额为负，并在期末（2017年12月31日）余额为正的财务类别。",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "在2016年期间，'其他综合收益（亏损）未重分类调整前'的总额中，有多少百分比归因于'衍生金融工具的净未实现收益（1）'？",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "如果2017年期间“净未实现有价证券收益”的“重分类前的其他综合（损失）收益”是1000美元的收益而不是1348美元的损失，那么2017年12月31日的新的“总计”余额将是多少？",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "根据提供的数据，在每个时期内，总额的“其他综合（亏损）收益（重述前）”与“从累计其他综合收益中重述的金额”之间是否存在一致的相关性（直接或反向）？",
+    "answer": [
+      [
+        "没有一致的相关性。在2015年期间，13,467的综合亏损之后是11,698的正重述金额（反向关系）。然而，在2016年和2017年期间，收益/亏损和重述金额的符号相同（分别为正/正和负/负），这表明这些年份存在直接关系。这种不一致性表明重述金额的时间和数额并非仅由前一期间的未实现损益决定。"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "表格中的年末余额是如何通过前一年的余额和期间内的财务活动计算得出的？",
+    "answer": [
+      [
+        "每年的年末余额是前一年年末余额、当期‘重分类前的其他综合（损失）收益’以及当期‘从累积其他综合收益中重分类的金额’的总和。例如，2016年的余额（22,137）计算方式为：2015年的余额（-8,749）加上2016年期间的其他综合收益（18,211）和重分类金额（12,675）。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "在“总计”列中，哪个单一财务事件（即非余额行的项目）代表绝对值最大的数值，表明在三年期间最显著的综合收益或损失事件？",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "截至2015年底，所有类别实现的净未实现收益总额是多少？",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

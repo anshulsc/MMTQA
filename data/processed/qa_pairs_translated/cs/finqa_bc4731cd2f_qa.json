@@ -1,0 +1,230 @@
+[
+  {
+    "question_id": "finqa_bc4731cd2f_001",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Jaké byly celkové provozní náklady v milionech dolarů za všechna tři období dohromady (2008, 2009, 2010)?",
+    "answer": [
+      [
+        "32101"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_002",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Která finanční metrika zaznamenala největší procentuální nárůst v letech 2008 až 2009?",
+    "answer": [
+      [
+        "net credit losses"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_003",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "V roce s nejvyššími 'celkovými příjmy sníženými o úrokové náklady' jaká byla odpovídající hodnota 'čistého ( úbytku )'?",
+    "answer": [
+      [
+        "$ -8369 ( 8369 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_004",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište trend \"neúrokových příjmů\" v letech 2008 až 2010.",
+    "answer": [
+      [
+        "\"Neúrokové příjmy\" vykazují konzistentní a prudký klesající trend během tříletého období. Začaly na 6 362 milionech dolarů v roce 2008, poklesly o 25 % na 4 770 milionů dolarů v roce 2009 a poté zaznamenaly ještě dramatičtější pokles o 58 % na 1 995 milionů dolarů v roce 2010."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_005",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Uveďte všechny finanční kategorie, kde absolutní hodnota ztráty nebo výdaje v roce 2010 ve srovnání s rokem 2009 poklesla.",
+    "answer": [
+      [
+        "total operating expenses"
+      ],
+      [
+        "net credit losses"
+      ],
+      [
+        "provision for benefits and claims"
+      ],
+      [
+        "provisions for credit losses and for benefits and claims"
+      ],
+      [
+        "( loss ) from continuing operations before taxes"
+      ],
+      [
+        "( loss ) from continuing operations"
+      ],
+      [
+        "net ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_006",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Jaký byl poměr 'celkových provozních nákladů' k 'celkovým výnosům sníženým o úrokové náklady' v roce 2010? Vyjádřete svou odpověď jako procento zaokrouhlené na dvě desetinná místa.",
+    "answer": [
+      [
+        "50.95%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_007",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Kdyby \"tvorba (čerpání) rezervy na úvěry\" v roce 2010 byla tvorbou 1000 milionů USD místo čerpání 1771 milionů USD, jaké by byly nové \"ustanovení na úvěrové ztráty a na dávky a nároky\" za daný rok?",
+    "answer": [
+      [
+        "$ 18815 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_008",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje konzistentní vztah mezi meziroční změnou 'průměrných aktiv' a meziroční změnou 'čistých úrokových výnosů'?",
+    "answer": [
+      [
+        "Ne, konzistentní vztah neexistuje. Z roku 2008 na rok 2009 se průměrná aktiva snížila o 16 % a čisté úrokové výnosy také poklesly o 24 %. To naznačuje možnou pozitivní korelaci. Z roku 2009 na rok 2010 se však průměrná aktiva opět snížila o 8 %, ale tentokrát čisté úrokové výnosy vzrostly o 6 %, což narušilo předchozí vzorec."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_009",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Který řádkový údaj má pro změnu období 2010 oproti 2009 hodnotu 'nm' (není smysluplné, nečíselnou, neprocentuální) a proč je tomu pravděpodobně tak?",
+    "answer": [
+      [
+        "Položka 'kreditní rezervy navýšení (uvolnění)' má pro změnu 2010 oproti 2009 hodnotu 'nm' (není smysluplné). Pravděpodobně je to proto, že hodnota se změnila z kladného čísla (navýšení o 5799 milionů USD) v roce 2009 na záporné číslo (uvolnění 1771 milionů USD) v roce 2010 a výpočet procentuální změny přes změnu znaménka (z kladné na zápornou) je matematicky nedefinovaný nebo se v účetnictví považuje za nesmysluplný."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_010",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Která finanční metrika vykazuje největší negativní obrat mezi dvěma obdobími meziroční změny (tj. měla pozitivní nebo malou negativní změnu v letech 2008-2009, ale velkou negativní změnu v letech 2009-2010)?",
+    "answer": [
+      [
+        "non-interest revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_011",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Jaká je procentuální změna celkových provozních nákladů z roku 2009 na rok 2008?",
+    "answer": [
+      [
+        "31%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

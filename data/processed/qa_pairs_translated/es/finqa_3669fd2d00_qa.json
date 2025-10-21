@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "¿Entre los períodos de compromiso de 2012 a 2016, ¿qué año tuvo el mayor monto total de vencimiento?",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "¿Cuál es el monto promedio anual de expiración de compromisos para 'garantías [c]' para el período de 2012 a 2016?",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "Identifica el tipo de compromiso con el mayor monto de expiración 'después de 2016'. Luego, para ese tipo de compromiso específico, calcula la suma de sus expiraciones para los años 2013 y 2014.",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Describe la tendencia de las expiraciones de compromisos para 'garantías [c]' desde 2012 hasta 'después de 2016'.",
+    "answer": [
+      [
+        "Las expiraciones de compromisos para 'garantías [c]' muestran una tendencia muy volátil. Comenzando en $18 millones en 2012, disminuyeron a $8 millones en 2013, luego experimentaron un aumento masivo a $214 millones en 2014. Después de este pico, las expiraciones cayeron significativamente a $12 millones en 2015 y $13 millones en 2016, antes de aumentar a $60 millones para el período posterior a 2016. El patrón no es lineal ni consistente, sino que está dominado por el pico de 2014."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "¿Enumera todos los tipos de compromisos que tienen un monto de vencimiento superior a $0 en 2012 y un compromiso total de menos de $1000 millones.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "¿Qué porcentaje del total de compromisos comerciales que vencen en 2015 se atribuye a las 'líneas de crédito [a]'?",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "¿Si el total de las 'garantías [c]' fuera un 10% más alto, y este aumento se reflejara enteramente en el período de vencimiento 'después de 2016', cuál sería el nuevo monto de 'total de compromisos comerciales'?",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Según los datos, existe alguna relación observable entre el tamaño del valor 'total' de un compromiso y el plazo de su vencimiento?",
+    "answer": [
+      [
+        "No hay una correlación lineal simple, pero sí hay un patrón observable. El compromiso más grande ('facilidades de crédito', $1800M) tiene una única fecha de vencimiento lejana (2015). En contraste, el compromiso con el calendario de vencimiento más disperso ('garantías', $325M) es uno de los más pequeños. Los otros dos compromisos ('cuentas por cobrar' y 'cartas de crédito contingentes') se liquidan por completo en el primer año (2012), a pesar de tener valores totales muy diferentes ($600M y $24M). Esto sugiere que los compromisos más grandes podrían estructurarse como pagos únicos, mientras que los más pequeños se liquidan inmediatamente o se estructuran como obligaciones a largo plazo y distribuidas."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "¿Qué período de vencimiento de compromiso contiene la mayor cantidad de valores distintos de cero entre los tipos de compromiso individuales?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Analizando los vencimientos del 'total de compromisos comerciales' de 2012 a 2016, ¿qué año representa un valor atípico significativo y por qué?",
+    "answer": [
+      [
+        "El año 2015 es un valor atípico significativo. Las expiraciones totales para los años 2012-2016 son de $642, $8, $214, $1812 y $13 millones respectivamente. El valor mediano es de $214 millones. El total de 2015 de $1812 millones es más de 8 veces la mediana y casi 3 veces el siguiente valor más alto ($642 millones), lo que lo convierte en un claro valor atípico estadístico impulsado casi en su totalidad por el vencimiento de las 'líneas de crédito'."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "¿Cuáles son los compromisos comerciales totales (en millones) de 2012 a 2015?",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

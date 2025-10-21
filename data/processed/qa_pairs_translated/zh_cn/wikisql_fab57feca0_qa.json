@@ -1,0 +1,358 @@
+[
+  {
+    "question_id": "wikisql_fab57feca0_001",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "在前五名完赛的马匹中，哪匹马的负重最轻？",
+    "answer": [
+      [
+        "Dolphin Jo"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "E6",
+      "G6",
+      "B9",
+      "E9",
+      "G9",
+      "B12",
+      "E12",
+      "G12",
+      "B18",
+      "E18",
+      "G18"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_002",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "大卫·海耶斯（David Hayes）训练的未被淘汰的马匹所携带的平均重量（公斤）是多少？",
+    "answer": [
+      [
+        "54.75"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "G1",
+      "C2",
+      "E2",
+      "G2",
+      "C10",
+      "E10",
+      "G10",
+      "C13",
+      "E13",
+      "G13",
+      "C21",
+      "G21"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_003",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "在所有起跑栏号大于15的马匹中，哪位练马师的马匹取得了最好的名次（最低的名次数字）？",
+    "answer": [
+      [
+        "Luca Cumani"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "F4",
+      "G4",
+      "C5",
+      "F5",
+      "G5",
+      "C9",
+      "F9",
+      "G9",
+      "C10",
+      "F10",
+      "G10",
+      "C11",
+      "F11",
+      "G11",
+      "C12",
+      "F12",
+      "G12",
+      "C13",
+      "F13",
+      "G13",
+      "C15",
+      "F15",
+      "G15",
+      "C16",
+      "F16",
+      "G16",
+      "C20",
+      "F20",
+      "G20"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_004",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "列出所有未由'David Hayes'或'Graeme Rogerson'训练，负重53公斤或以下，并且获得前10名的马匹名称。",
+    "answer": [
+      [
+        "On a Jeune"
+      ],
+      [
+        "Sculptor (NZ)"
+      ],
+      [
+        "Dolphin Jo"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14",
+      "E14",
+      "G14",
+      "B17",
+      "C17",
+      "E17",
+      "G17",
+      "B18",
+      "C18",
+      "E18",
+      "G18",
+      "C1",
+      "C2",
+      "C4",
+      "C6",
+      "C9",
+      "C10",
+      "C13",
+      "C21"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_005",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "由 Graeme Rogerson 训练的马匹中，有多少比例的获得了前 4 名？",
+    "answer": [
+      [
+        "66.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G4",
+      "C6",
+      "G6",
+      "C9",
+      "G9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_006",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "如果所有“Scratched”（已退赛）马匹的体重都被官方记录为 50 公斤用于此计算，那么所有 23 匹马的新平均体重是多少？",
+    "answer": [
+      [
+        "53.5"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21",
+      "E22",
+      "E23",
+      "G4",
+      "G7",
+      "G21"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_007",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "open_ended_reasoning",
+    "question": "考察所有未被划线（scratched）的马匹所携带的重量与其最终名次之间的关系。数据显示是否存在明确的相关性（例如，较轻的马匹表现更好）？",
+    "answer": [
+      [
+        "数据显示马匹的体重与其最终名次之间没有明确的相关性。例如，获胜的马匹 Efficient (NZ) 携带了相对较重的 54.5 公斤，而携带更重体重的马匹，如 Tawqeet (USA)（57 公斤），名次却靠后得多（第 14 名）。反之，一匹体重较轻的马 Dolphin Jo（51.5 公斤）获得了前 5 名的成绩，但其他体重相似的轻马却名列后茅（例如，Eskimo Queen 51 公斤，名列第 15 名）。名次分布在不同的体重范围内，这表明体重可能是众多因素之一，但并非决定比赛成功的关键指标。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E2",
+      "G2",
+      "E3",
+      "G3",
+      "E5",
+      "G5",
+      "E6",
+      "G6",
+      "E8",
+      "G8",
+      "E9",
+      "G9",
+      "E10",
+      "G10",
+      "E11",
+      "G11",
+      "E12",
+      "G12",
+      "E13",
+      "G13",
+      "E14",
+      "G14",
+      "E15",
+      "G15",
+      "E16",
+      "G16",
+      "E17",
+      "G17",
+      "E18",
+      "G18",
+      "E19",
+      "G19",
+      "E20",
+      "G20",
+      "E22",
+      "G22",
+      "E23",
+      "G23"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_008",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "排除“马匹”、“练马师”和“骑师”列，哪一列包含数字和文本混合的数据？",
+    "answer": [
+      [
+        "Placing"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G15",
+      "G16",
+      "G17",
+      "G18",
+      "G19",
+      "G20",
+      "G21",
+      "G22",
+      "G23"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_009",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "value",
+    "question": "哪匹马的起跑位置非常有利（低于5号），但成绩却非常糟糕（排名第15或更差），是一个表现异常的例子？",
+    "answer": [
+      [
+        "Tungsten Strike (USA)"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1",
+      "G1",
+      "B8",
+      "F8",
+      "G8",
+      "B14",
+      "F14",
+      "G14",
+      "B18",
+      "F18",
+      "G18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_010",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "open_ended_reasoning",
+    "question": "分析一下从连续的7到11号赛道发跑的马匹，它们的最终名次是否有稳定趋势？请解释你的理由。",
+    "answer": [
+      [
+        "从7到11号赛道发跑的马匹，其最终名次没有稳定趋势。结果高度多样化：两匹马被“退出”（来自7号和11号赛道），一匹名列第九（8号赛道），另一匹名列第十三（9号赛道），而比赛的获胜者名列第一（10号赛道）。结果是混乱的，表明在此特定范围内，赛道位置并不是表现的可靠预测指标。"
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F7",
+      "G7",
+      "F17",
+      "G17",
+      "F21",
+      "G21",
+      "F23",
+      "G23"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_fab57feca0_011",
+    "table_id": "wikisql_fab57feca0",
+    "question_type": "open_ended_reasoning",
+    "question": "有些马匹可能因何原因被退出比赛？",
+    "answer": [
+      [
+        "马匹可能因受伤、生病或训练师为了避开不利的比赛条件而做出的战略性决定而被退出比赛。"
+      ]
+    ],
+    "evidence_cells": [
+      "G4",
+      "G7",
+      "G21"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  }
+]

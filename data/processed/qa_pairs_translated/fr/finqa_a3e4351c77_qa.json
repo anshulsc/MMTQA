@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Quel instrument de dette spécifique, en excluant les totaux et les ajustements, a détenu la plus haute valeur sur les deux périodes rapportées ?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Quelle est la valeur totale de toutes les obligations de revenus identifiables listées pour la période dans la deuxième colonne de données ?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "De combien le changement absolu dans les \"échéances courantes de la dette à long terme\" entre les deux périodes a-t-il dépassé le changement absolu dans la \"remise de dette non amortie\" ?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez l'évolution de la 'dette à long terme totale' entre les deux périodes présentées et expliquez la signification de ce changement.",
+    "answer": [
+      [
+        "La dette à long terme totale a augmenté de 275,3 $, passant de 10007,5 $ dans la période présentée dans la colonne C à 10282,8 $ dans la période présentée dans la colonne B. Cela indique que les obligations de dette à long terme globales de l'entité ont augmenté pendant cette période, suggérant qu'elle a probablement contracté plus de nouvelles dettes qu'elle n'en a remboursées."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Identifiez toutes les lignes, à l'exception du total, qui sont représentées par des valeurs négatives dans la deuxième colonne de données.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "En pourcentage de la dette à long terme totale pour la période dans la colonne B, quelle part est classée comme \"échéances courantes de la dette à long terme\" ? Utilisez des valeurs absolues pour le calcul et arrondissez à deux décimales.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Si la 'réduction de la dette non amortie' dans la deuxième colonne de données (colonne B) était éliminée (c'est-à-dire mise à zéro), quelle aurait été la 'dette à long terme totale 2013 kmp' pour cette période ?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Y a-t-il une relation apparente entre la variation des 'échéances courantes de la dette à long terme' et la variation de la 'dette à long terme totale' sur les deux périodes ?",
+    "answer": [
+      [
+        "Oui, il semble y avoir une relation inverse dans leurs mouvements. Alors que la dette à long terme totale a augmenté de 275,3 $ (passant de 10007,5 $ à 10282,8 $), l'ampleur des 'échéances courantes' a considérablement diminué (d'une valeur absolue de 1263,3 à 596,6). Cela suggère que si l'entreprise a contracté plus de dette globale, elle a simultanément réduit la partie de cette dette qui arrivait à échéance dans un avenir immédiat."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle ligne du jeu de données semble être une agrégation d'autres lignes, et quelles preuves étayent cette conclusion ?",
+    "answer": [
+      [
+        "La ligne étiquetée 'total long-term debt 2013 kmp' est une agrégation. La preuve principale est l'utilisation explicite du mot 'total' dans sa description. De plus, sa valeur est présentée avec un symbole monétaire ('$'), ce qui la distingue des autres lignes, signifiant qu'il s'agit d'un chiffre financier final et récapitulatif."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Quel élément de ligne présente le changement le plus significatif en valeur absolue entre les deux périodes, ce qui en fait une valeur aberrante financière en termes de volatilité ?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "En tenant compte de la dette à long terme totale et de la décote de dette non amortie, quelle est l'augmentation effective de la dette à long terme de 2012 à 2013 ?",
+    "answer": [
+      [
+        "La dette à long terme totale a augmenté de 10 007,5 millions de dollars en 2012 à 10 282,8 millions de dollars en 2013. En considérant que la décote de dette non amortie est passée de -21,2 en 2012 à -20,3 en 2013, l'augmentation effective de la dette est de 276,8 millions de dollars."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

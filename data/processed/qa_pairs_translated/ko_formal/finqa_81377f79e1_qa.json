@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_81377f79e1_001",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "제시된 세 해 중에서 '총 회수액'이 가장 낮았던 연도는 언제입니까?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_002",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "2007년부터 2009년까지 3개 연도의 '순준비금 적립(환매)'의 총합계는 얼마였습니까?",
+    "answer": [
+      [
+        "23588"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_81377f79e1_003",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "'총 대손 충당금'은 '연초 대손 충당금'이 가장 높았던 연도에 얼마였습니까?",
+    "answer": [
+      [
+        "$ 38760"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_004",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "2007년부터 2009년까지 '총 신용 손실'의 연간 추세를 분석해 주십시오.",
+    "answer": [
+      [
+        "2007년부터 2009년까지 '총 신용 손실'은 상당하고 일관된 상승 추세를 보였습니다. 손실액은 2007년 118억 6,400만 달러에서 2008년 207억 6,000만 달러, 2009년에는 327억 8,400만 달러로 증가하여 2년 동안 거의 세 배가 되었습니다. 이는 대출 품질의 악화와 신용 환경의 악화를 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_005",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "'미언급 대출 약정 충당금'이 양수 금액을 기록한 모든 연도를 파악하시오. 이는 충당금의 증가를 나타냅니다.",
+    "answer": [
+      [
+        "2009"
+      ],
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_006",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "2009년에 '총 신용 손실 충당금'에서 '순 특정 충당금 적립 (환입)'이 차지하는 비율은 얼마입니까? 답은 소수점 둘째 자리까지 반올림하여 제공하십시오.",
+    "answer": [
+      [
+        "5.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_81377f79e1_007",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "2009년 '총 회수액(gross recoveries)'이 10% 증가했다면, 해당 연도의 재계산된 '순 신용 (손실) 회수액 (ncls)'은 백만 달러 단위로 얼마였을까요?",
+    "answer": [
+      [
+        "-30536.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_008",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "'Ncls'(순 신용 손실)의 규모와 '총 신용 손실 충당금' 간의 3년간의 관계를 분석해 보십시오. 식별 가능한 상관관계가 있습니까?",
+    "answer": [
+      [
+        "네, 강한 양의 상관관계가 있습니다. 'Ncls'(순 신용 손실)의 규모가 2007년 99억 2,600만 달러에서 2009년 307억 4,100만 달러로 매년 증가함에 따라 '총 신용 손실 충당금'도 168억 3,200만 달러에서 387억 6,000만 달러로 증가하는 추세를 보입니다. 이는 은행이 더 높은 순 손실을 경험함에 따라, 해당 손실 및 예상되는 미래 손실을 충당하기 위해 충당금을 상응하게 늘린다는 것을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_81377f79e1_009",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "본 표는 '대출 손실 충당금'에 대해 연말에서 다음 해 초로 이어지는 관계를 시사합니다. 2007년과 2008년의 '연말 대출 손실 충당금' 값이 각각 2008년과 2009년의 '연초 대출 손실 충당금' 값과 올바르게 일치합니까?",
+    "answer": [
+      [
+        "네, 구조적 일관성은 유지됩니다. 2007년의 '연말 대출 손실 충당금'($16,117)은 2008년의 '연초 대출 손실 충당금'과 동일합니다. 마찬가지로, 2008년의 연말 충당금($29,616)은 2009년의 연초 충당금과 일치합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_010",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "지난 3년간 '순 특정 준비금 증감액(환입액)'을 살펴보면, 다른 연도에 비해 어느 연도의 값이 특별히 두드러집니까?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_81377f79e1_011",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "2009년에 대출, 리스 및 미결제 대출 약정에 대한 총 충당금은 얼마였습니까?",
+    "answer": [
+      [
+        "$37190"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

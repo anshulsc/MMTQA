@@ -1,0 +1,312 @@
+[
+  {
+    "question_id": "finqa_57d2954f05_001",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "在所有权仅为“自有”的地点中，哪个地点的面积最大？",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "E5",
+      "A10",
+      "D10",
+      "E10",
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_002",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "计算所有仅租赁的物业的总占地面积。",
+    "answer": [
+      [
+        "701000"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_57d2954f05_003",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "通过首先确定作为公司总部的地点，然后根据 squarefootage 列中连接的值对其拥有的和租赁的空间进行求和，确定其总平方英尺。",
+    "answer": [
+      [
+        "1662000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_004",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "列出所有位于中国且主要用途包含“研发与工程”的地点。",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "C11",
+      "A13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_005",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "在所有所有权为“ownedleased”（自有租赁）的物业中，有多少比例的总占地面积归属于租赁空间？假设这些物业的占地面积列连接了自有和租赁的值（例如，“X...XY...Y”）。",
+    "answer": [
+      [
+        "9.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_006",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "如果公司决定将其所有“客户支持”业务整合到一个中心，并选择目前将“客户支持”列为主要用途且总建筑面积最大的设施，会选择哪个地点？",
+    "answer": [
+      [
+        "santa clara ca"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10",
+      "A12",
+      "C12",
+      "D12",
+      "A13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_007",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "分析数据以确定物业“类型”与其“所有权”状态之间是否存在相关性。具体来说，一种物业类型是否在一​​种特定的所有权模式下出现得更频繁？",
+    "answer": [
+      [
+        "是的，似乎存在相关性。“办公室、工厂和仓库”这种类型显示了多样化的所有权状况，包括 5 处“拥有并租赁”、3 处“拥有”和 3 处“租赁”的物业。相比之下，“办公室和仓库”这种类型，仅在两个地点出现，包括一处“拥有并租赁”和一处“租赁”的物业，但在此数据集中明显缺乏完全“自有”的设施。这表明包含“工厂”的设施比仅为办公室和仓库的设施更有可能至少部分或全部由公司拥有。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8",
+      "B9",
+      "E9",
+      "B10",
+      "E10",
+      "B11",
+      "E11",
+      "B12",
+      "E12",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_57d2954f05_008",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "从数据分析师的角度来看，哪一列在进行数值分析之前需要条件化解析，最为复杂？",
+    "answer": [
+      [
+        "“squarefootage”（占地面积）这一列（D）具有最复杂的结构。虽然“principal use”（主要用途）列包含分隔列表，但“squarefootage”列同时包含标准的整数值和连接的字符串值（例如，“1512000150000”）。为了正确解释和使用此数据进行数值分析，必须实现一个条件逻辑，该逻辑检查“ownership”（所有权）列（E）中的相应值。如果所有权是“ownedleased”（拥有租赁），则必须将字符串拆分为两个单独的数值；否则，可以将其视为单个整数。这种对另一列的依赖性使得其解析逻辑比任何其他列都更复杂。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12",
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_009",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "在主要用途为“制造”的所有设施中，与该组的平均规模相比，哪个地点占地面积最大，构成最显著的正异常值？",
+    "answer": [
+      [
+        "austin tx"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_57d2954f05_010",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "列表中百分之多少的设施位于美国（以州缩写 CA、TX、MT、MA 标识）？",
+    "answer": [
+      [
+        "30.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_011",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "位于德克萨斯州奥斯汀的办公室的占地面积是多少？",
+    "answer": [
+      [
+        "1,719,000–1,450,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

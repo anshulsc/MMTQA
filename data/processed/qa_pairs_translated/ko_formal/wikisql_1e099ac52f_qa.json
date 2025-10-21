@@ -1,0 +1,284 @@
+[
+  {
+    "question_id": "wikisql_1e099ac52f_001",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "어떤 대통령이 첫 취임 당시 가장 젊었습니까?",
+    "answer": [
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_002",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "1970년대에 취임한 모든 대통령들의 취임 시 대략적인 평균 연령은 얼마였습니까?",
+    "answer": [
+      [
+        "47.3 years"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_003",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "퇴임 기간이 가장 짧았던 대통령(누락된 값, 현직 또는 0일인 경우는 제외)의 직전 전임자는 누구였습니까?",
+    "answer": [
+      [
+        "Ignatius Acheampong"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "A7",
+      "B7",
+      "G1",
+      "G2",
+      "G3",
+      "G5",
+      "G6",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_004",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "open_ended_reasoning",
+    "question": "이그나티우스 아참퐁부터 존 쿠푸어까지의 대통령 임기 기간 추세를 설명하십시오.",
+    "answer": [
+      [
+        "임기 기간의 추세는 뚜렷한 패턴 없이 매우 불안정합니다. 이그나티우스 아참퐁의 비교적 긴 임기(약 6.5년)로 시작하여 프레드 아쿠포의 매우 짧은 임기(약 11개월)와 롤링스의 첫 번째 임기(약 3.5개월)로 더 짧아집니다. 그 후 힐라 리만(약 2.2년)의 임기로 기간이 늘어났고, 롤링스의 두 번째 임기(19년)는 매우 길었으며, 이후 존 쿠푸어(8년)의 표준 임기 기간으로 안정화됩니다."
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_005",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "45세 생일 이전에 취임했으며 1980년 이전에 임기가 종료된 모든 대통령을 확인하십시오.",
+    "answer": [
+      [
+        "Akwasi Afrifa"
+      ],
+      [
+        "Ignatius Acheampong"
+      ],
+      [
+        "Fred Akuffo"
+      ],
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "F3",
+      "B6",
+      "E6",
+      "F6",
+      "B7",
+      "E7",
+      "F7",
+      "B8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_006",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "어떤 대통령의 은퇴 기간이 총 수명에서 가장 큰 비율을 차지했습니까? (은퇴 기간과 수명이 명시적으로 일(days) 단위로 측정된 대통령만 고려하며, 근사치는 제외합니다.)",
+    "answer": [
+      [
+        "Joseph Ankrah"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "G1",
+      "I1",
+      "B2",
+      "G2",
+      "I2",
+      "B3",
+      "G3",
+      "I3",
+      "B5",
+      "G5",
+      "I5",
+      "B6",
+      "G6",
+      "I6",
+      "B7",
+      "G7",
+      "I7",
+      "B9",
+      "G9",
+      "I9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_007",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "만약 프레드 아쿠포의 임기가 이그나티우스 아쳄퐁의 임기 종료일(1978년 7월 5일)과 같은 날에 종료되었더라면, 그의 '퇴임 기간'은 표에 표시된 값과 비교하여 어떻게 달라졌겠습니까?",
+    "answer": [
+      [
+        "His retirement would have been 324 days longer."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "D7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_008",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "open_ended_reasoning",
+    "question": "제공된 데이터를 바탕으로, 대통령의 취임 연령과 수명 사이에 어떠한 관계가 있다고 추론할 수 있습니까?",
+    "answer": [
+      [
+        "전체 데이터 세트에서 일관된 상관관계는 존재하지 않습니다. 취임 당시 Nii Ollennu와 Edward Akufo-Addo(모두 약 64세)와 같이 나이가 많았던 일부 대통령들은 장수했습니다(각각 80세, 73세). 하지만 John A. Mills 또한 64세에 취임했음에도 불구하고 68세라는 비교적 짧은 수명을 기록했습니다. 반대로, 취임 당시 가장 젊었던 Jerry Rawlings(31세)와 Akwasi Afrifa(32세) 대통령은 각각 66세와 43세의 수명을 가졌는데, 이는 명확한 패턴을 제시하지 않습니다. 따라서 이 데이터는 취임 연령과 수명 간의 강한 상관관계를 지지하지 않습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "I1",
+      "E2",
+      "I2",
+      "E3",
+      "I3",
+      "E4",
+      "I4",
+      "E5",
+      "I5",
+      "E6",
+      "I6",
+      "E7",
+      "I7",
+      "E8",
+      "I8",
+      "E9",
+      "I9",
+      "E10",
+      "I10",
+      "E11",
+      "I11",
+      "E12",
+      "I12",
+      "E13",
+      "I13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_009",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "목록에 기재된 다른 어떤 대통령보다도 재임 기간이 현저히 짧아 중요한 예외 사례였던 대통령은 누구입니까?",
+    "answer": [
+      [
+        "Nii Ollennu"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "F4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_010",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "정확한 숫자, 근사치, 텍스트, 그리고 누락된 값들이 혼합되어 있어 데이터 형식의 불일치가 가장 심한 표의 열은 무엇입니까?",
+    "answer": [
+      [
+        "Length of retirement"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_011",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "취임 당시 가장 어린 대통령은 누구였습니까?",
+    "answer": [
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

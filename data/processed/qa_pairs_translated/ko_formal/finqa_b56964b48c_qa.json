@@ -1,0 +1,256 @@
+[
+  {
+    "question_id": "finqa_b56964b48c_001",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "2018년에 '퇴직 후 급여 부채'와 '연금 및 기타 퇴직 후 급여 균형 계정' 중 어느 항목의 부채 가치가 더 높았습니까?",
+    "answer": [
+      [
+        "postretirement benefit liability"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_002",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "2017년 'tcja reserve on revenue'와 'income taxes recovered through rates'를 제외한 모든 부채의 총액은 얼마였습니까?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b56964b48c_003",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "2017년부터 2018년까지 가장 큰 퍼센트 증가를 보인 항목을 식별하고, 그 퍼센트 증가율을 소수점 둘째 자리까지 반올림하여 알려주세요.",
+    "answer": [
+      [
+        "postretirement benefit liability",
+        "533.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_004",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "2017년과 2018년 사이에 가장 큰 절대 백분율 변화(가장 작은 변화)를 보인 부채 항목은 무엇이었습니까?",
+    "answer": [
+      [
+        "removal costs recovered through rates"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_005",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "2017년 대비 2018년에 감소한 모든 부채 범주를 나열해 주십시오.",
+    "answer": [
+      [
+        "removal costs recovered through rates"
+      ],
+      [
+        "pension and other postretirement benefit balancing accounts"
+      ],
+      [
+        "tcja reserve on revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_006",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "2018년 '총 규제 부채' 중 '요율을 통해 회수된 소득세'가 차지하는 비율은 몇 퍼센트입니까? 가장 가까운 정수로 반올림하십시오.",
+    "answer": [
+      [
+        "67%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b56964b48c_007",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "'tcja reserve on revenue'이 2017년 값에서 변하지 않았다면, 2018년 개별 부채의 계산된 합계는 얼마였을까요?",
+    "answer": [
+      [
+        "$ 3885"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_008",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "open_ended_reasoning",
+    "question": "제공된 데이터를 바탕으로, 2017년과 2018년 사이에 TCJA(세금 감면 및 일자리법)가 회사의 부채에 미친 재정적 영향에 대해 어떤 추론을 할 수 있습니까?",
+    "answer": [
+      [
+        "데이터에 따르면 TCJA는 상당하지만 일회성일 가능성이 높은 재정적 영향을 미쳤습니다. '수익 대비 TCJA 준비금'은 2017년 2014달러에서 2018년 36달러로 98% 이상 급격히 감소했습니다. 이는 2017년에 설정된 대규모 준비금이 법 통과와 일치했을 가능성이 높으며, 다음 해에 상당 부분 결제, 사용 또는 재평가되어 2018년 해당 특정 범주의 부채가 훨씬 줄어들었음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b56964b48c_009",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "2017년의 개별 부채 항목(1-6행)을 수동으로 합산하여 계산한 합계와 해당 연도의 '총 규제 부채' 값 간의 차이를 구하십시오.",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_010",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "2017년과 2018년 사이에 가장 큰 절대값 변화로 인해 재정적 이상치를 나타내는 항목은 무엇입니까?",
+    "answer": [
+      [
+        "tcja reserve on revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b56964b48c_011",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "2017년부터 2018년까지 요금으로 회수된 소득세는 얼마나 증가했습니까?",
+    "answer": [
+      [
+        "$37 million"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

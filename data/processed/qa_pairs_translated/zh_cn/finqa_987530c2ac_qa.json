@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_987530c2ac_001",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "公司在哪一年的促成形式净亏损最小？",
+    "answer": [
+      [
+        "2004"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_002",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2002年、2003年和2004年合计的‘报告净亏损’是多少？",
+    "answer": [
+      [
+        "-1736448"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_987530c2ac_003",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "在“报告的”和“形式”的基本每股净亏损之间绝对差值最大的那一年，这个差值是多少？",
+    "answer": [
+      [
+        "0.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "C5",
+      "C6",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_004",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述公司从2002年到2004年“形式净亏损”的趋势。",
+    "answer": [
+      [
+        "公司的形式净亏损从2002年到2004年呈现出持续且显著的下降趋势。亏损从2002年的1,201,666美元减少到2003年的354,400美元，并在2004年进一步降至269,196美元，表明在此期间公司财务业绩有了实质性的改善。"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_005",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "在“add : stock-based employee compensation expense”为2077的那一年，“pro-forma net loss”是多少？",
+    "answer": [
+      [
+        "$ -354400 ( 354400 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_006",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2003年，绝对的“报告的净亏损”中有多少比例是“总的基于股票的员工薪酬费用”？",
+    "answer": [
+      [
+        "9.58%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_987530c2ac_007",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "如果2002年的“股票补偿费用”调整额为5,000而不是缺失值，那么该年度“备考净亏损”将是多少？",
+    "answer": [
+      [
+        "-1196666"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_008",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，从2002年到2004年，“总股权激励员工薪酬费用”与“模拟净亏损”之间有什么明显的关系？",
+    "answer": [
+      [
+        "“总股权激励员工薪酬费用”的数额与“模拟净亏损”之间似乎存在正相关关系。随着股权激励费用的逐年下降，从2002年的38,126美元降至2004年的23,906美元，模拟净亏损也从1,201,666美元持续下降至269,196美元，这表明股权激励费用较高的年份，模拟净亏损也较高。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_987530c2ac_009",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "表中跨年份数据不完整的一项财务项目是什么？",
+    "answer": [
+      [
+        "add : stock-based employee compensation expense associated with modifications net of related tax effect included in net loss asreported"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_010",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "哪一年的“基本和摊薄每股净亏损（已报告）”可以被视为与其他年份相比的异常值，为什么？",
+    "answer": [
+      [
+        "2002年是一个明显的异常值。其“基本和摊薄每股净亏损（已报告）”为$-5.95，其绝对值比2003年报告的$-1.56高出3.8倍以上，比2004年的$-1.10高出5.4倍以上。随后几年该指标的急剧下降突显了2002年每股亏损异常高的特点。"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_987530c2ac_011",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "2003年的形式净亏损是多少？",
+    "answer": [
+      [
+        "$ -354,400"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_7a4236b86f_001",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Какой продукт, нефть или СУГ (NGL), продемонстрировал более высокий процентный рост объема добычи/продаж с 2007 по 2008 год?",
+    "answer": [
+      [
+        "Oil"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_002",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Каков был общий объем производства/продаж (в тыс. баррелей) нефти и СУР в 2008 году?",
+    "answer": [
+      [
+        "3858.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_003",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "В каком году был получен более высокий расчетный общий доход от продаж нефти?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_004",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите общую тенденцию изменения средних реализованных цен на все отдельные товары (газ, NGL, нефть) с 2007 по 2008 год.",
+    "answer": [
+      [
+        "Средние реализованные цены на все перечисленные отдельные товары показали положительную тенденцию, увеличившись с 2007 по 2008 год. Цены на газ выросли значительно с 5,95 до 8,25 доллара за тыс. куб. футов, цены на нефть увеличились с 83,37 до 95,26 доллара за баррель, а цены на NGL незначительно выросли с 51,02 до 51,26 доллара за баррель."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_005",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Перечислите все категории добычи/продаж, где объем в 2008 году был более чем в 2,25 раза больше объема в 2007 году.",
+    "answer": [
+      [
+        "gas production ( bcf )"
+      ],
+      [
+        "oil production/sales ( mbbls )"
+      ],
+      [
+        "ngl production/sales ( mbbls )"
+      ],
+      [
+        "equivalent production ( bcfe )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_006",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Какой процент от общего объема 'эквивалентной добычи (bcfe)' в 2008 году напрямую приходится на 'добычу газа (bcf)'?",
+    "answer": [
+      [
+        "77.35"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_007",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Если бы средняя фактическая цена на нефть в 2008 году была на 15% ниже, насколько (в миллионах долларов) сократился бы рассчитанный доход от продаж нефти?",
+    "answer": [
+      [
+        "5019.80"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_008",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "Анализируя изменения год к году, какова очевидная взаимосвязь между объемами производства/продаж и средними реализованными ценами для отдельных указанных товаров?",
+    "answer": [
+      [
+        "Существует последовательная положительная корреляция для всех отдельных товаров между 2007 и 2008 годами. В каждом случае (газ, NGL и нефть) значительное увеличение объема производства/продаж с 2007 по 2008 год сопровождается увеличением средней реализованной цены, что позволяет предположить, что высокий рыночный спрос, вероятно, способствовал росту как объема, так и цены в этот период."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_009",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Каков текст строки, которая является подзаголовком и не имеет числовых данных в столбцах за 2008 и 2007 годы?",
+    "answer": [
+      [
+        "average realized prices without hedging results:"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_010",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Какая категория добычи/продаж, включая «эквивалентные» показатели, показала наиболее значительный относительный рост (процентный рост) с 2007 по 2008 год?",
+    "answer": [
+      [
+        "oil production/sales ( mbbls )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_011",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Каков был общий объем добычи нефти и NGL в 2008 году?",
+    "answer": [
+      [
+        "3,858.7 mbbls"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

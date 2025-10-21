@@ -1,0 +1,329 @@
+[
+  {
+    "question_id": "wikisql_830b3eaa68_001",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "「激しい熱帯低気圧（Intense tropical cyclone）」に分類された嵐の中で、最も中心気圧が低かった、すなわちそのグループ内で最も強度が高かった嵐はどれですか？",
+    "answer": [
+      [
+        "Hondo"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "C10",
+      "E10",
+      "A11",
+      "C11",
+      "E11",
+      "A12",
+      "C12",
+      "E12",
+      "A13",
+      "C13",
+      "E13",
+      "A14",
+      "C14",
+      "E14",
+      "A15",
+      "C15",
+      "E15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_002",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "'Ivan'と'Jokwe'の'Refs'列の数値が死亡者数を示していると仮定した場合、マダガスカルに影響を与えた嵐による死者の合計は何人でしたか？",
+    "answer": [
+      [
+        "38"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F12",
+      "I12",
+      "F13",
+      "I13",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_003",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "「激しい熱帯低気圧」に分類された嵐の中で、開始日から終了日まで最も期間が長かったのはどれですか？",
+    "answer": [
+      [
+        "Lee-Ariel"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_004",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "open_ended_reasoning",
+    "question": "シーズンの初め（10月）から後半（2月〜3月）にかけての「ピーク分類」に基づいた、嵐の強度の一般的な傾向を説明してください。",
+    "answer": [
+      [
+        "データは、シーズンが進むにつれて嵐の強度が明確にエスカレートしていることを示しています。シーズンは10月に「熱帯擾乱」のような弱いシステムで始まり、12月にかけて「重度熱帯低気圧」や「中程度熱帯低気圧」が続きました。1月下旬から3月にかけて強度が大幅に増加し、複数の「熱帯低気圧」および「強熱帯低気圧」の事例を含む、最も強力な分類が見られました。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B15",
+      "C15",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_005",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "2月に活動し、「Intense tropical cyclone」というピーク分類であったすべての嵐の名前をリストアップしてください。",
+    "answer": [
+      [
+        "Hondo"
+      ],
+      [
+        "Ivan"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_006",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "表に記載されているユニークな気象現象のうち、どのくらいの割合が「熱帯低気圧（強い、中程度）」に分類されましたか？",
+    "answer": [
+      [
+        "37.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C12",
+      "C13",
+      "C15",
+      "C16"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_007",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "もし全ての「中程度の熱帯低気圧」の事例で、急激な発達によりさらに5 hPa圧力値が低下した場合、このカテゴリーの新しい平均圧力はいくつになりますか？",
+    "answer": [
+      [
+        "989 hPa"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C16",
+      "E16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_008",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "open_ended_reasoning",
+    "question": "嵐のピーク分類における風速と中心気圧の値の関係を分析してください。",
+    "answer": [
+      [
+        "風速と中心気圧の間には強い逆相関があります。ピーク分類が激しくなるにつれて（例えば、「熱帯低気圧」から「猛烈な熱帯低気圧」へ）、風速の値は一貫して増加し、中心気圧の値は一貫して減少します。例えば、「熱帯低気圧」07は風速35km/h、気圧1003hPaでしたが、「猛烈な熱帯低気圧」Hondoは風速215km/h、気圧915hPaでした。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "C2",
+      "D2",
+      "E2",
+      "C3",
+      "D3",
+      "E3",
+      "C4",
+      "D4",
+      "E4",
+      "C5",
+      "D5",
+      "E5",
+      "C6",
+      "D6",
+      "E6",
+      "C7",
+      "D7",
+      "E7",
+      "C8",
+      "D8",
+      "E8",
+      "C9",
+      "D9",
+      "E9",
+      "C10",
+      "D10",
+      "E10",
+      "C12",
+      "D12",
+      "E12",
+      "C13",
+      "D13",
+      "E13",
+      "C15",
+      "D15",
+      "E15",
+      "C16",
+      "D16",
+      "E16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_009",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "open_ended_reasoning",
+    "question": "'Fame'や'Ivan'といった嵐のように、値が間違った列に入っているように見えるデータ品質の問題を示す行が複数あります。これらの影響を受けた行について、『Damage (USD)』（米ドルでの損害）列と『Deaths』（死者数）列におけるこのデータずれのパターンを特定してください。",
+    "answer": [
+      [
+        "『Damage (USD)』（米ドルでの損害）列と『Deaths』（死者数）列にデータが存在する嵐の場合、一貫したデータ入力エラーがあります。『Damage (USD)』（米ドルでの損害）列には、日付（例：「January27」、「February17」）が誤って含まれています。『Deaths』（死者数）列には、嵐の風速データが誤って含まれています。実際の死者数（利用可能な場合）は、『Refs』（参照）列にシフトされているようです。"
+      ]
+    ],
+    "evidence_cells": [
+      "G8",
+      "H8",
+      "I8",
+      "G10",
+      "H10",
+      "I10",
+      "G12",
+      "H12",
+      "I12",
+      "G13",
+      "H13",
+      "I13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_010",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "データセット内の他のどの嵐よりも著しく高く、明らかに異常な風速を持つ嵐はどれですか？",
+    "answer": [
+      [
+        "Hondo"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "D10",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D12",
+      "D13",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_830b3eaa68_011",
+    "table_id": "wikisql_830b3eaa68",
+    "question_type": "value",
+    "question": "どの嵐が少なくとも185km/hの風速に達しましたか？",
+    "answer": [
+      [
+        "Ivan",
+        "Jokwe",
+        "Kamba",
+        "Hondo"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "D10",
+      "D11",
+      "D12",
+      "D13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

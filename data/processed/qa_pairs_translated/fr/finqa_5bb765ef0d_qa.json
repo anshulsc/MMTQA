@@ -1,0 +1,276 @@
+[
+  {
+    "question_id": "finqa_5bb765ef0d_001",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Quelle classe régionale d'origine a entraîné le plus grand nombre d'actions après la conversion de l'ajustement ?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_002",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Quel était le nombre total d'actions 'class c ( series i )' créées après le true-up, toutes classes régionales confondues ?",
+    "answer": [
+      [
+        "284160835"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_003",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Quelle classe régionale a connu la plus grande différence absolue entre son nombre d'actions avant et après le redressement ?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_004",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Listez toutes les classes régionales dont le nombre d'actions a augmenté suite au processus de réorganisation et d'ajustement.",
+    "answer": [
+      [
+        "class ap"
+      ],
+      [
+        "class lac"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D6",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_005",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Quelle classe régionale a eu le ratio de conversion de régularisation le plus bas, indiquant la plus forte baisse proportionnelle des actions ?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_006",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Quel pourcentage des actions initiales totales (émises lors de la réorganisation) représentait la 'class usa ( 1 )' ?",
+    "answer": [
+      [
+        "55.01%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_007",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Parmi les classes régionales qui ont été converties en 'class c ( series i )', listez celles dont le ratio de conversion ajusté était inférieur à 1,0.",
+    "answer": [
+      [
+        "class canada"
+      ],
+      [
+        "class cemea"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "A8",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_008",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Si le ratio de conversion de la mise à jour pour la 'classe canada' était modifié à 1,1, quel serait le nouveau nombre d'actions converties pour cette classe spécifique ?",
+    "answer": [
+      [
+        "24238154"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_009",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe-t-il une corrélation claire entre le nombre initial d'actions d'une classe régionale et son ratio de conversion ajusté ? Expliquez votre conclusion.",
+    "answer": [
+      [
+        "Aucune corrélation claire n'est visible dans les données. Par exemple, la classe ayant le plus grand nombre d'actions initiales, 'class usa ( 1 )' (426 millions), a un ratio de conversion inférieur à 1,0 (0,93870), ce qui entraîne une diminution. En revanche, 'class ap', avec le deuxième plus grand nombre d'actions initiales (119 millions), a le ratio de conversion le plus élevé (1,19043), entraînant une augmentation. Les classes plus petites comme les séries 'class eu' ont un ratio stable de 1,0. Ce manque de tendance cohérente suggère que le ratio de conversion est déterminé par des facteurs autres que le volume initial d'actions."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_010",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Dans quelle classe et série uniques converties les classes régionales les plus nombreuses ont-elles été consolidées ?",
+    "answer": [
+      [
+        "class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_011",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle classe régionale a connu une augmentation plus importante après le true-up, entre la Classe AP ou la Classe LAC ?",
+    "answer": [
+      [
+        "La Classe AP a connu une augmentation plus importante, passant de 119 100 481 à 141 780 635 actions, tandis que la Classe LAC a augmenté de 80 137 915 à 85 835 549 actions."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

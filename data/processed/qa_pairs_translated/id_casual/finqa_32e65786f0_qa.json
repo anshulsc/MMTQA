@@ -1,0 +1,242 @@
+[
+  {
+    "question_id": "finqa_32e65786f0_001",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Kategori aset mana yang mengalami peningkatan nilai terbesar (dalam jutaan) dari tahun 2011 ke 2012?",
+    "answer": [
+      [
+        "Institutional client services"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8",
+      "A15",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_002",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Berapa nilai rata-rata dalam jutaan untuk komponen 'Investasi & Pinjaman' (ekuitas, utang, piutang dan lainnya) per Desember 2011?",
+    "answer": [
+      [
+        "17224"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_32e65786f0_003",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Tabel ini punya ringkasan 'excess liquidity and cash'. Berapa persen pertumbuhan dari tahun ke tahun untuk item ringkasan ini dari 2011 ke 2012, dibulatkan dua desimal?",
+    "answer": [
+      [
+        "1.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_004",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Kalau dilihat dari Desember 2011 sampai Desember 2012, item mana aja nih di antara 'icbc1', 'equity ( excluding icbc )', sama 'secured client financing' yang nilainya turun?",
+    "answer": [
+      [
+        "icbc1"
+      ],
+      [
+        "equity ( excluding icbc )"
+      ],
+      [
+        "secured client financing"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_005",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Sebutin dong semua item yang nilainya lebih dari $250 miliar di tahun 2011 dan juga naik nilainya di tahun 2012.",
+    "answer": [
+      [
+        "inventory"
+      ],
+      [
+        "institutional client services"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_006",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Berapa persen gabungan 'secured client financing' dan 'inventory' dari total aset per Desember 2012? Jawab dalam bentuk persentase.",
+    "answer": [
+      [
+        "58.36%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "B16"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_32e65786f0_007",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Kalo 'otherassets2' cuma nambah setengah dari persentase kenaikannya di 2011 ke 2012, berapa 'total assets' 2012-nya kalo sisanya nggak berubah?",
+    "answer": [
+      [
+        "$ 930331.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_008",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan perubahan dari 2011 ke 2012, apa hubungan potensial atau pergeseran strategi yang bisa disimpulkan antara 'pembiayaan klien yang dijamin' dan 'persediaan'?",
+    "answer": [
+      [
+        "Ada hubungan terbalik yang terlihat antara 'pembiayaan klien yang dijamin' dan 'persediaan' dari 2011 hingga 2012. 'Pembiayaan klien yang dijamin' turun signifikan sebesar $54.265 juta, sementara 'persediaan' naik sebesar $44.683 juta. Pergeseran substansial ini bisa menunjukkan deleveraging strategis dari aktivitas yang didanai klien dan peningkatan yang sesuai dalam kepemilikan aset langsung perusahaan di neracanya sendiri."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_32e65786f0_009",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasin dong langkah-langkah persiapan data biar angka-angka finansial di kolom 'per desember 2012' dan 'per desember 2011' bisa dipakai buat hitungan.",
+    "answer": [
+      [
+        "Buat nyiapin data biar bisa dihitung, ada beberapa langkah yang perlu dilakuin. Pertama, tanda dolar ('$') harus dihapus dari sel-sel kayak B1, C1, B16, dan C16. Kedua, spasi di awal atau akhir harus dibersihin dari semua nilai di kedua kolom. Terakhir, teks yang udah dibersihin itu harus diubah jadi tipe data numerik, kayak integer atau float, biar bisa dilakuin operasi matematika kayak penjumlahan atau rata-rata."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_010",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Item mana yang mengalami perubahan persentase paling ekstrem (positif atau negatif) antara tahun 2011 dan 2012, menjadikannya potensi outlier untuk analisis pertumbuhan?",
+    "answer": [
+      [
+        "otherassets2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_32e65786f0_011",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "Berapa utang dalam jutaan yang naik dari 2011 ke 2012?",
+    "answer": [
+      [
+        "2,075"
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

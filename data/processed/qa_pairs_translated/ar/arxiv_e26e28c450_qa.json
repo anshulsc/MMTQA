@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "أي نموذج غير متعدد المهام يحقق أقل متوسط مربع خطأ (MSE_over) إجمالاً؟",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "احسب متوسط الخطأ التربيعي (MSE7) عند الأفق الزمني لـ 7 أيام لجميع النماذج التي تم تمييزها على أنها 'مهام متعددة'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "بالنسبة للنموذج الذي يمتلك ثاني أعلى قيمة (ثاني أسوأ) لـ MSE3، ما هي قيمة MSE30 المقابلة له؟",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "حلل اتجاه متوسط الخطأ التربيعي (MSE) لنموذج HTML مع تمدد أفق التنبؤ من 3 إلى 30 يومًا. هل يتحسن أو يتدهور دقته التنبؤية بمرور الوقت؟",
+    "answer": [
+      [
+        "تتحسن الدقة التنبؤية لنموذج HTML مع تمدد أفق التنبؤ. تنخفض قيم متوسط الخطأ التربيعي (MSE) لديه باستمرار من MSE3 (0.845) إلى MSE7 (0.349) و MSE15 (0.251) وأخيرًا MSE30 (0.158)، مما يشير إلى خطأ أقل وبالتالي أداء أفضل في التنبؤات طويلة الأجل."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "حدد جميع النماذج التي لم يتم تصنيفها على أنها 'تعدد المهام' ولديها أيضًا قيمة MSE15 أقل من 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "حدد النموذج الذي يمثل قيمة شاذة واضحة في الأداء عبر جميع مقاييس متوسط مربع الخطأ (MSE) واشرح السبب.",
+    "answer": [
+      [
+        "يُعد نموذج GPT-3.5-Turbo قيمة شاذة واضحة في الأداء. تبلغ قيم متوسط مربع الخطأ (MSE) الخاصة به عبر جميع الآفاق (MSE_over: 2.198، MSE3: 2.152، MSE7: 1.793، MSE15: 2.514، MSE30: 2.332) أعلى بكثير من جميع النماذج الأخرى، ومعظمها لديه قيم متوسط مربع الخطأ أقل من 1.0. يشير هذا إلى أداء تنبؤي أسوأ بشكل ملحوظ مقارنة بالنماذج الأخرى المدرجة."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية لإجمالي مجموع MSE3 عبر جميع النماذج التي تُعزى إلى نموذج GPT-3.5-Turbo؟ قدم الإجابة كنسبة مئوية مقربة إلى منزلة عشرية واحدة.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "إذا تحسن مقياس متوسط مربع الخطأ (MSE_over) لنموذج RiskLabs بنسبة 25% (أي انخفض بنسبة 25%)، فما هي قيمته الجديدة، وكيف سيصنف مقارنة بمقياس متوسط مربع الخطأ (MSE_over) لنموذج HTML؟",
+    "answer": [
+      [
+        "ستكون قيمة متوسط مربع الخطأ (MSE_over) الجديدة لنموذج RiskLabs هي 0.243. هذه القيمة أقل، وبالتالي أفضل، من قيمة متوسط مربع الخطأ (MSE_over) لنموذج HTML البالغة 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على الجدول، ما هي العلاقة بين تصنيف النموذج على أنه \"متعدد المهام\" وتوفر درجة \"VaR\"؟",
+    "answer": [
+      [
+        "هناك ارتباط قوي. النماذج المسماة \"متعدد المهام\" فقط (GPT-3.5-Turbo و RiskLabs) لديها درجة \"VaR\" رقمية مسجلة. ومع ذلك، لا تملك جميع نماذج \"متعدد المهام\" درجة VaR (على سبيل المثال، HTML)، ولا تملك النماذج غير \"متعدد المهام\" أي درجة، مما يشير إلى أن القدرة على حساب VaR هي سمة ترتبط بشكل أساسي بنماذج \"متعدد المهام\" في هذه المجموعة البيانات."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "أي عمود لمقاييس الأداء يحتوي على بيانات غير رقمية كعنصر نائب، ولأي نماذج محددة تكون هذه البيانات مفقودة؟",
+    "answer": [
+      [
+        "يحتوي عمود 'VaR' على بيانات غير رقمية ('/'). هذه البيانات مفقودة للنماذج التالية: Classical Method، LSTM، MT-LSTM-ATT، HAN، MRDM، و HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "أي نموذج يُظهر أفضل توازن شامل بين دقة التنبؤ عبر آفاق زمنية مختلفة (MSE3–MSE30) وتقدير المخاطر (VaR)؟",
+    "answer": [
+      [
+        "يحقق نموذج RiskLabs أفضل توازن شامل، محافظًا على أدنى قيم MSE عبر جميع الآفاق وأدنى قيمة VaR (0.049)، مما يشير إلى دقة تنبؤ قوية وتقدير موثوق للمخاطر."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

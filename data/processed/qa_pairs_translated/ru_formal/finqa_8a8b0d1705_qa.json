@@ -1,0 +1,220 @@
+[
+  {
+    "question_id": "finqa_8a8b0d1705_001",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Какова была общая сумма, в миллионах, потраченная на покупку казначейских акций за все три года?",
+    "answer": [
+      [
+        "-8067"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_002",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "В году с наибольшим чистым использованием денежных средств для финансирования, какова была стоимость 'поступлений от долга'?",
+    "answer": [
+      [
+        "429"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_003",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите динамику \"общего изменения денежных средств в долге\" с 2005 по 2007 год.",
+    "answer": [
+      [
+        "Динамика была крайне нестабильной. Начиная с чистого оттока денежных средств в размере 485 миллионов долларов в 2005 году, произошло резкое изменение в сторону значительного чистого притока денежных средств в размере 1135 миллионов долларов в 2006 году, а затем вновь возросшего притока денежных средств в размере 1222 миллионов долларов в 2007 году. Последовательной тенденции к росту или снижению не наблюдалось."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_004",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "В 2007 году какой процент денежных средств, полученных от «поступлений по долгу», был использован для «погашения долга»?",
+    "answer": [
+      [
+        "39.26%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_005",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Какая финансовая деятельность испытала наибольшее абсолютное изменение между любыми двумя последовательными годами?",
+    "answer": [
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_006",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Если бы \"повторное размещение казначейских акций\" в 2005 году было на 50% выше, какова была бы сумма \"чистых денежных средств, использованных для финансирования\" за этот год?",
+    "answer": [
+      [
+        "$-3352.5 (3352.5)"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_007",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Перечислите все финансовые операции, которые привели к чистому притоку денежных средств (положительное значение) в 2006 году.",
+    "answer": [
+      [
+        "change in short-term debt 2014 net"
+      ],
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ],
+      [
+        "reissuances of treasury stock"
+      ],
+      [
+        "excess tax benefits from stock-based compensation"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "A1",
+      "C3",
+      "A3",
+      "C6",
+      "A6",
+      "C8",
+      "A8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_008",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "В каком году акционерам было возвращено наибольшее количество денежных средств, учитывая как «покупку казначейских акций», так и «дивиденды, выплаченные акционерам»?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_009",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "Основываясь на данных, наблюдается ли очевидная взаимосвязь между «покупкой казначейских акций» и «выплатой дивидендов акционерам» за трехлетний период?",
+    "answer": [
+      [
+        "Да, похоже, существует последовательная закономерность значительных оттоков денежных средств по обеим статьям каждый год, что указывает на стабильную стратегию возврата капитала акционерам. Однако четкой корреляции в их изменениях год от года не наблюдается. Например, с 2005 по 2006 год покупки казначейских акций незначительно снизились, в то время как дивиденды незначительно выросли. Затем с 2006 по 2007 год покупки казначейских акций резко возросли, в то время как дивиденды остались почти неизменными. Обе статьи последовательно представляют собой крупные направления использования денежных средств, но они не движутся синхронно."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_010",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "Сколько видов финансовой деятельности, указанных в таблице, стабильно приводили к чистому оттоку денежных средств (отрицательному значению) в течение всех трех лет?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_011",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "В каком году чистые денежные средства, использованные для финансирования, были самыми высокими?",
+    "answer": [
+      [
+        "2005"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

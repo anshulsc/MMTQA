@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "2016年12月31日終了事業年度において、B列のデータセットとE列のデータセットのどちらの「調整後」営業利益の方が高かったですか？",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "最初のデータセット（C列）における、ドル建ての「会計方針の変更」の調整額の合計はいくらですか？",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "「会計方針の変更」が利息収入で「-414 ( 414 )」であったデータセットにおける、「as filed」の調整後EBITDAマージンはいくらでしたか？",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "最初のデータセット（B～D列）において、「as filed」の純利益と「as filed」の調整後EBITDAの比率を、小数点以下3桁に丸めてください。",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "B列からD列までに提示されたデータセットにおいて、「as adjusted」の値が「as filed」の値よりも小さいメトリクスを特定してください。",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "「サービス収益に対する純利益の割合」の行において、異常と思われる「会計方針の変更」の値はどれで、その理由は何ですか？",
+    "answer": [
+      [
+        "C4およびF4のセルにある「会計方針の変更」の値「2014% (2014 %)」は異常です。両方のデータセットにおいて、「サービス収益に対する純利益の割合」は、「提出時」および「調整後」の数値の間で変化していません（それぞれ5%から5%、3%から3%）。論理的な変更であれば0%になるはずであり、「2014%」は明らかに外れ値であり、データ入力エラーによるものである可能性が高いです。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "2番目のデータセットにおける営業利益の「会計方針の変更」が、表示されている値ではなく5,000万ドル減少していた場合、新しい「調整後」営業利益はいくらになりますか？",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "会計調整が営業利益と調整後EBITDAに与える影響は、両方のデータセット間で一貫した関係がありますか？",
+    "answer": [
+      [
+        "はい、一貫した正の関係があります。最初のデータセットでは、営業利益の変更額（+248ドル）は調整後EBITDAの変更額（+248ドル）と同一です。2番目のデータセットでも、営業利益の変更額（+414ドル）は調整後EBITDAの変更額（+414ドル）と同一です。これは、営業利益に影響を与える会計方針の変更が、調整後EBITDAに同額で直接反映されていることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "表を解釈する際に混乱を招く可能性のある、列ヘッダーの最も重大な構造上の問題は何ですか？",
+    "answer": [
+      [
+        "主な構造上の問題は、上位レベルのグループ化なしに列ヘッダーが重複していることです。「year ended december 31 2016 as filed」（2016年12月31日終了事業年度、提出時点）および「year ended december 31 2016 change in accounting principle」（2016年12月31日終了事業年度、会計方針の変更）というヘッダーが、2つの異なる列セット（BとE、CとF）に使用されています。この曖昧さにより、ユーザーは、明示的に述べられていないにもかかわらず、2つの別個のエンティティまたはシナリオが比較されていると推測せざるを得なくなります。"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "「調整後」の値を使用して、両方のデータセット（調整後EBITDA /調整後EBITDAマージン）の示唆されるサービス収益を計算し、2つの差額（最初のセットから2番目のセットを引いたもの）を百万単位で、最も近い整数に丸めて報告してください。",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "調整前の「As Filed」から「As Adjusted」への調整後、最初のデータセットにおける営業利益（百万ドル）はいくら増加しましたか？",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

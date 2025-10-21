@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Quale strumento di debito specifico, escludendo totali e rettifiche, deteneva il valore più alto in entrambi i periodi riportati?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Qual è il valore totale di tutte le obbligazioni di reddito identificabili elencate per il periodo nella seconda colonna dei dati?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Di quanto ha superato la variazione assoluta in 'scadenze correnti del debito a lungo termine' tra i due periodi la variazione assoluta in 'sconto sul debito non ammortizzato'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento del 'debito a lungo termine totale' tra i due periodi mostrati e spiega il significato di questa variazione.",
+    "answer": [
+      [
+        "Il debito a lungo termine totale è aumentato di $ 275,3, passando da $ 10007,5 nel periodo mostrato nella colonna C a $ 10282,8 nel periodo mostrato nella colonna B. Ciò indica che gli obblighi di debito a lungo termine complessivi dell'entità sono cresciuti durante questo periodo, suggerendo che ha probabilmente contratto più debito nuovo di quanto ne abbia rimborsato."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Identifica tutte le voci, escluso il totale, che sono rappresentate come valori negativi nella seconda colonna dei dati.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "In percentuale sul debito totale a lungo termine per il periodo nella colonna B, quale porzione è classificata come 'scadenze correnti del debito a lungo termine'? Utilizza valori assoluti per il calcolo e arrotonda a due cifre decimali.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Se lo 'sconto sul debito non ammortizzato' nella seconda colonna dati (colonna B) venisse eliminato (cioè impostato a zero), quale sarebbe stato il 'debito a lungo termine totale 2013 kmp' per quel periodo?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una relazione apparente tra la variazione dei 'rimborsi correnti del debito a lungo termine' e la variazione del 'debito a lungo termine totale' nei due periodi?",
+    "answer": [
+      [
+        "Sì, sembra esserci una relazione inversa nei loro movimenti. Mentre il debito a lungo termine totale è aumentato di $275,3 (da $10007,5 a $10282,8), la magnitudo dei 'rimborsi correnti' è diminuita sostanzialmente (da un valore assoluto di 1263,3 a 596,6). Ciò suggerisce che, mentre l'azienda ha contratto più debito complessivo, ha contemporaneamente ridotto la porzione di quel debito in scadenza nell'immediato futuro."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale riga nel set di dati sembra essere un'aggregazione di altre righe e quali prove supportano questa conclusione?",
+    "answer": [
+      [
+        "La riga etichettata 'total long-term debt 2013 kmp' è un'aggregazione. La prova principale è l'uso esplicito della parola 'total' nella sua descrizione. Inoltre, il suo valore è presentato con un simbolo di valuta ('$'), che è distinto dalle altre righe, a significare che si tratta di una cifra finanziaria finale e riassuntiva."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Quale voce di bilancio mostra la variazione più significativa in valore assoluto tra i due periodi, rendendola un'anomalia finanziaria in termini di volatilità?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Considerando il debito a lungo termine totale e lo sconto sul debito non ammortizzato, qual è l'aumento effettivo del debito a lungo termine dal 2012 al 2013?",
+    "answer": [
+      [
+        "Il debito a lungo termine totale è aumentato da $10.007,5 milioni nel 2012 a $10.282,8 milioni nel 2013. Considerando che lo sconto sul debito non ammortizzato è passato da -21,2 nel 2012 a -20,3 nel 2013, l'aumento effettivo del debito è di $276,8 milioni."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

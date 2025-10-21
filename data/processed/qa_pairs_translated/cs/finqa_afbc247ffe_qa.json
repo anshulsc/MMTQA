@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Jaký byl celkový čistý součet všech 'částek převedených z akumulovaného jiného úplného příjmu' zaznamenaný ve třech obdobích uvedených v tabulce?",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Která ze tří hlavních finančních kategorií (derivátové nástroje, podíl na společném podniku, obchodovatelné cenné papíry) zaznamenala největší absolutní nárůst svého zůstatku od 31. prosince 2014 do 31. prosince 2017?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "V období s nejvyšším celkovým „ostatním komplexním příjmem před rekonsolidací“ (other comprehensive income before reclassifications), jaká byla odpovídající částka rekonsolidovaná z „podílu SL Green 2019 na společném podniku, čistý nerealizovaný zisk z derivátových nástrojů“ (sl green 2019s share of joint venture net unrealized gain on derivative instruments)?",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký byl meziroční trend celkového zůstatku od 31. prosince 2014 do 31. prosince 2017. Byla tato změna konzistentní?",
+    "answer": [
+      [
+        "Trend nebyl konzistentní, byl nestálý. Celkový zůstatek klesl z -6980 v roce 2014 na -8749 v roce 2015. Poté zaznamenal velmi velký nárůst na 22137 v roce 2016, následovaný mírným poklesem na 18604 v roce 2017. Růst nebyl rovnoměrný ani lineární."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Uveďte finanční kategorie, které měly na začátku období (31. prosince 2014) záporný zůstatek a na konci období (31. prosince 2017) skončily s kladným zůstatkem.",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Jaké procento z celkového 'jiného úplného příjmu před rekola-cemi' za období 2016 připadlo na 'čistý nerealizovaný zisk z derivátových nástrojů (1)'?",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Pokud by 'ostatní komplexní (ztráta) příjem před rekla­si­fikacemi' pro 'čistý nerealizovaný zisk z obchodovatelných cenných papírů' v období 2017 byl ziskem 1 000 USD místo ztráty 1 348 USD, jaký by byl nový 'celkový' zůstatek k 31. prosinci 2017?",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Je na základě poskytnutých údajů konzistentní korelace (přímá nebo inverzní) mezi 'ostatním komplexním (ztrátovým) příjmem před rekvalifikacemi' a 'částkami rekvalifikovanými z nahromaděného jiného komplexního příjmu' pro celkové částky v každém období?",
+    "answer": [
+      [
+        "Ne, neexistuje žádná konzistentní korelace. V období 2015 následovala komplexní ztráta -13 467 pozitivní rekvalifikace 11 698 (inverzní vztah). V obdobích 2016 i 2017 však příjem/ztráta a rekvalifikace měly stejné znaménko (pozitivní/pozitivní a negativní/negativní, resp.), což naznačuje přímý vztah v těchto letech. Nejednoznačnost naznačuje, že načasování a výše rekvalifikací nejsou určeny pouze nerealizovaným výkonem z předchozího období."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Jak jsou roční zůstatky matematicky odvozeny z předchozího zůstatku a mezitímních finančních aktivit uvedených v tabulce?",
+    "answer": [
+      [
+        "Každý roční zůstatek je součtem zůstatku z předchozího roku, 'ostatního komplexního (ztráty) příjmu před rekla­si­fi­ka­cemi' za dané období a 'částek rekla­si­fi­ko­vaných z na­hro­ma­dě­ného ostatního komplexního příjmu' za dané období. Například zůstatek za rok 2016 (22 137) je vypočítán jako zůstatek za rok 2015 (-8 749) plus ostatní komplexní příjem za období 2016 (18 211) a rekla­si­fi­ko­vané částky (12 675)."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Která jednotlivá finanční událost (tj. položka, která není řádkem zůstatku) ve sloupci 'celkem' představuje největší absolutní hodnotu, což značí nejvýznamnější událost v oblasti celkového příjmu nebo ztráty během tříletého období?",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Jaký je celkový čistý nerealizovaný zisk napříč všemi kategoriemi na konci roku 2015?",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

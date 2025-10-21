@@ -1,0 +1,252 @@
+[
+  {
+    "question_id": "wikisql_dbb8316257_001",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "在首场比赛获胜的运动员中，谁随后输掉了下一场比赛，且分差最大？",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_002",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "在32强比赛中，所有运动员累计被对手得分的总和是多少？",
+    "answer": [
+      [
+        "81"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_003",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "在“32强赛”比赛中，得分总和（双方得分相加）最高的运动员是谁，他/她得了多少分？",
+    "answer": [
+      [
+        "Driss Moussaid",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_004",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "列出所有在“32强赛”中以10分或以上差距被击败的选手。",
+    "answer": [
+      [
+        "Abdelillah Nhaila"
+      ],
+      [
+        "Tahar Tamsamani"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A7",
+      "C7",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_005",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "在‘16强赛’中被淘汰的运动员中，谁以更大的优势赢得了‘32强赛’的比赛？",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_006",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "在“32强赛”中，有多少比例的运动员晋级到“16强赛”？",
+    "answer": [
+      [
+        "25%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_007",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "追踪在比赛中晋级最远的运动员，描述他在每一轮的比赛结果。",
+    "answer": [
+      [
+        "Mohamed Arjaoui 晋级最远，进入了四分之一决赛。他在“32强赛”轮空（结果不详，N/A），然后在“16强赛”中以 11-6 的比分击败 Pitt 获胜。最终在四分之一决赛中，他与 Wilder 战成 10-10 平，因裁判判罚失利而被淘汰。"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_008",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "如果 Mohamed Arjaoui 在四分之一决赛中获胜而不是失利，名单上有多少名运动员会进入半决赛？",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E9",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_009",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "数据显示的运动员体重级别与其在比赛中的成功之间是否存在相关性？请解释您的理由。",
+    "answer": [
+      [
+        "是的，数据显示体重级别与成功之间存在正相关。最重级别（重量级）的运动员穆罕默德·阿尔贾奥维（Mohamed Arjaoui）走到了四分之一决赛，是晋级最远的。相比之下，五个最轻级别中的所有运动员都在第一场比赛中被淘汰。来自中等体重级别的两名运动员在被淘汰前各晋级一轮。这种模式表明，本数据集中较重的运动员表现往往更好。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_010",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "列表中没有为“32强赛”记录到竞争性结果（胜/负）的唯一级别是哪个？",
+    "answer": [
+      [
+        "Heavyweight"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

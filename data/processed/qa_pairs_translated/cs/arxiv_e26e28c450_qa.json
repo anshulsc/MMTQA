@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Který model, který není víceúkolový, dosahuje nejnižší celkové střední kvadratické chyby (MSE_over)?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Vypočítejte průměrnou hodnotu MSE na 7denním horizontu (MSE7) pro všechny modely označené jako 'Multi-Task'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Pro model s druhou nejvyšší (druhou nejhorší) hodnotou MSE3, jaká je jeho odpovídající hodnota MSE30?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Analyzujte trend střední kvadratické chyby (MSE) modelu HTML, jak se predikční horizont prodlužuje z 3 na 30 dní. Zlepšuje se jeho prediktivní přesnost v průběhu času, nebo se zhoršuje?",
+    "answer": [
+      [
+        "Prediktivní přesnost modelu HTML se zlepšuje s prodlužujícím se predikčním horizontem. Jeho hodnoty MSE konzistentně klesají z MSE3 (0,845) na MSE7 (0,349), MSE15 (0,251) a konečně MSE30 (0,158), což naznačuje nižší chybu a tím i lepší výkon při dlouhodobějších predikcích."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Identifikujte všechny modely, které nejsou označeny jako 'Multi-Task' a zároveň mají hodnotu MSE15 nižší než 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikujte model, který je jasným výkonnostním odlehlým údajem napříč všemi metrikami MSE, a vysvětlete proč.",
+    "answer": [
+      [
+        "Model GPT-3.5-Turbo je jasným výkonnostním odlehlým údajem. Jeho hodnoty MSE napříč všemi horizonty (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) jsou podstatně vyšší než u všech ostatních modelů, z nichž většina má hodnoty MSE pod 1.0. To naznačuje výrazně horší prediktivní výkon ve srovnání s ostatními uvedenými modely."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Jaké procento z celkového součtu MSE3 napříč všemi modely lze připsat modelu GPT-3.5-Turbo? Odpovězte jako procento zaokrouhlené na jedno desetinné místo.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud by se hodnota MSE_over pro model RiskLabs zlepšila o 25 % (tj. snížila o 25 %), jaká by byla její nová hodnota a jak by se řadila ve srovnání s MSE_over modelu HTML?",
+    "answer": [
+      [
+        "Nová hodnota MSE_over pro RiskLabs by byla 0.243. Tato hodnota je nižší, a tedy lepší, než hodnota MSE_over modelu HTML, která činí 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký je na základě tabulky vztah mezi tím, že je model zařazen jako 'Multi-Task', a dostupností skóre 'VaR'?",
+    "answer": [
+      [
+        "Existuje silná korelace. Pouze modely označené jako 'Multi-Task' (GPT-3.5-Turbo a RiskLabs) mají hlášené číselné skóre 'VaR'. Nicméně ne všechny 'Multi-Task' modely mají VaR skóre (např. HTML) a žádné modely, které nejsou 'Multi-Task', ho nemají, což naznačuje, že schopnost vypočítat VaR je vlastnost převážně spojená s 'Multi-Task' modely v tomto datovém souboru."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Který sloupec výkonnostní metriky obsahuje nečíselná zástupná data a pro které konkrétní modely tato data chybí?",
+    "answer": [
+      [
+        "Sloupec 'VaR' obsahuje nečíselná data ('/'). Tato data chybí pro následující modely: Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM a HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Který model vykazuje nejlepší celkovou rovnováhu mezi přesností predikce napříč různými horizonty (MSE3–MSE30) a odhadem rizika (VaR)?",
+    "answer": [
+      [
+        "Model RiskLabs dosahuje nejlepší celkovou rovnováhu, udržuje nejnižší hodnoty MSE napříč všemi horizonty a nejnižší VaR (0,049), což naznačuje jak silnou prediktivní přesnost, tak spolehlivý odhad rizika."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

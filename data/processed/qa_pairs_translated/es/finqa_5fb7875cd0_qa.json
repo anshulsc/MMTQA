@@ -1,0 +1,276 @@
+[
+  {
+    "question_id": "finqa_5fb7875cd0_001",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "¿Qué ejecutivo directivo nombrado recibió el mayor incentivo anual en 2017?",
+    "answer": [
+      [
+        "leo p . denault"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_002",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "¿Cuál es la suma total de los salarios base de todos los ejecutivos que figuran en la tabla?",
+    "answer": [
+      [
+        "$5,436,072"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_003",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "¿Cuál es el incentivo anual otorgado al ejecutivo con el menor 'objetivo como porcentaje del salario base' que no tuvo el menor 'pago como porcentaje del objetivo'?",
+    "answer": [
+      [
+        "$ 169123"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "A9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_004",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "¿Para qué año específico se proporcionan los datos de la 'recompensa anual por incentivo'?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_005",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "¿Enumere los nombres de todos los ejecutivos cuyo salario base sea inferior a $400,000 y cuyo pago como porcentaje del objetivo sea superior al 120%?",
+    "answer": [
+      [
+        "phillip r . may jr .",
+        "richard c . riley"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_006",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "¿Para Phillip R. May Jr., cuál fue su monto de incentivo objetivo en dólares? (Calculado como Salario Base * Porcentaje Objetivo)",
+    "answer": [
+      [
+        "$219,690"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_007",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "¿Si la empresa hubiera decidido limitar el 'pago como porcentaje del objetivo' al 130% para todos los ejecutivos, cuál habría sido el 'incentivo anual de 2017' de Richard C. Riley? (Premio = Salario Base * Porcentaje Objetivo * Porcentaje Pago)",
+    "answer": [
+      [
+        "$178,984"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_008",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe una relación consistente entre el 'objetivo como porcentaje del salario base' y el 'pago como porcentaje del objetivo' real? Explica tus hallazgos.",
+    "answer": [
+      [
+        "No hay una relación consistente clara. Por ejemplo, los ejecutivos con un objetivo del 70% recibieron un pago del 129%, y un ejecutivo con un objetivo del 135% también recibió un pago del 129%. Por el contrario, cuatro ejecutivos con un objetivo del 40% tuvieron tres porcentajes de pago diferentes (119%, 79% y 204%). Esto indica que el porcentaje de pago probablemente está determinado por factores distintos al porcentaje objetivo inicial en sí."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_009",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "¿Cuántos valores distintos hay en la columna 'payout as percentage of target'?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_010",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "¿Qué ejecutivo tiene el 'premio de incentivo anual de 2017' que representa el valor atípico más significativo en comparación con el premio mediano de todos los ejecutivos?",
+    "answer": [
+      [
+        "leo p . denault"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_011",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "¿Cuántos altos ejecutivos están ganando más de $500,000 en salario base?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

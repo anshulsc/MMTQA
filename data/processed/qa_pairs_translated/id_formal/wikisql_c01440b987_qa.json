@@ -1,0 +1,274 @@
+[
+  {
+    "question_id": "wikisql_c01440b987_001",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Provinsi mana yang memiliki kepadatan penduduk tertinggi pada tahun 1980, dihitung sebagai populasi dibagi dengan luas wilayahnya tahun 1998?",
+    "answer": [
+      [
+        "Warsaw Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B20",
+      "D20",
+      "E20",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_002",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Berapa jumlah total komune untuk semua provinsi dengan populasi tahun 1980 antara 500.000 dan 700.000?",
+    "answer": [
+      [
+        "243"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "G1",
+      "E6",
+      "G6",
+      "E7",
+      "G7",
+      "E21",
+      "G21",
+      "E22",
+      "G22"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c01440b987_003",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Berapa luas wilayah dalam km² provinsi yang memiliki jumlah komune terbanyak?",
+    "answer": [
+      [
+        "9 211"
+      ]
+    ],
+    "evidence_cells": [
+      "D13",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13",
+      "G14",
+      "G15",
+      "G16",
+      "G17",
+      "G18",
+      "G19",
+      "G20",
+      "G21",
+      "G22",
+      "G23"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_004",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "Satu nama provinsi (voivodeship) menyertakan rentang tanggal. Identifikasi provinsi ini dan jelaskan kemungkinan signifikansi tanggal-tanggal ini untuk konteks keseluruhan dataset.",
+    "answer": [
+      [
+        "Provinsi tersebut adalah 'Białystok Voivodeship (1975-1998)'. Penyertaan rentang tanggal ini sangat menyiratkan bahwa dataset mewakili pembagian administratif Polandia sebagaimana adanya selama periode waktu tertentu ini, sebelum reformasi administratif besar tahun 1999 yang membentuk struktur provinsi baru."
+      ]
+    ],
+    "evidence_cells": [
+      "B7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_005",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Sebutkan nama-nama semua voivodeship yang memiliki kurang dari 10 kota tetapi lebih dari 40 komune.",
+    "answer": [
+      [
+        "Tarnów Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B21",
+      "F21",
+      "G21",
+      "B2",
+      "F2",
+      "G2",
+      "B5",
+      "F5",
+      "G5",
+      "B15",
+      "F15",
+      "G15",
+      "B18",
+      "F18",
+      "G18"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_006",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Berapakah rasio jumlah kota terhadap jumlah komune di Provinsi Poznań? Nyatakan jawaban dalam bentuk pecahan yang disederhanakan.",
+    "answer": [
+      [
+        "11:19"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c01440b987_007",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Jika populasi tahun 1980 dari setiap provinsi dengan luas kurang dari 5.000 km² 5% lebih rendah, berapa total populasi baru untuk kelompok spesifik ini?",
+    "answer": [
+      [
+        "6047985"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E2",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D16",
+      "E16",
+      "D18",
+      "E18",
+      "D20",
+      "E20",
+      "D21",
+      "E21",
+      "D22",
+      "E22"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_008",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, apakah ada hubungan yang jelas antara ukuran populasi sebuah voivodeship dan jumlah komune di dalamnya? Jelaskan penalaran Anda dengan data.",
+    "answer": [
+      [
+        "Tidak ada korelasi yang jelas atau kuat antara populasi voivodeship pada tahun 1980 dan jumlah komune di dalamnya. Sebagai contoh, Voivodeship Katowice memiliki populasi tertinggi dengan selisih yang besar (3.733.900) tetapi hanya memiliki jumlah komune yang moderat (46). Sebaliknya, Voivodeship Kielce memiliki komune terbanyak (69) tetapi populasi yang jauh lebih kecil (1.068.700). Demikian pula, Warsawa, voivodeship dengan populasi terbesar kedua (2.319.100), hanya memiliki 32 komune, yang termasuk nilai terendah dalam tabel. Kekurangan pola yang konsisten ini menunjukkan bahwa ukuran populasi saja tidak menentukan jumlah komune dalam struktur administratif ini."
+      ]
+    ],
+    "evidence_cells": [
+      "E11",
+      "G11",
+      "E13",
+      "G13",
+      "E20",
+      "G20"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c01440b987_009",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Kolom mana yang berisi kode singkat yang unik yang cocok untuk digunakan sebagai kunci utama untuk kumpulan data ini?",
+    "answer": [
+      [
+        "Abbreviation"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22",
+      "A23"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c01440b987_010",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "value",
+    "question": "Provinsi manakah yang merupakan outlier karena memiliki kepadatan kota tertinggi, yang didefinisikan sebagai jumlah kota per 1000 km² luas wilayah?",
+    "answer": [
+      [
+        "Wałbrzych Voivodeship"
+      ]
+    ],
+    "evidence_cells": [
+      "B16",
+      "D16",
+      "F16",
+      "B11",
+      "D11",
+      "F11",
+      "B20",
+      "D20",
+      "F20"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c01440b987_011",
+    "table_id": "wikisql_c01440b987",
+    "question_type": "open_ended_reasoning",
+    "question": "Pola apa yang dapat diamati antara jumlah kota dan populasi Provinsi?",
+    "answer": [
+      [
+        "Provinsi dengan lebih banyak kota umumnya memiliki populasi yang lebih tinggi, menunjukkan bahwa urbanisasi berkorelasi dengan ukuran populasi."
+      ]
+    ],
+    "evidence_cells": [
+      "F14",
+      "E14",
+      "F9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  }
+]

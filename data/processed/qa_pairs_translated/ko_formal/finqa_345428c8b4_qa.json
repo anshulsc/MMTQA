@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "모든 연도에 걸쳐 '주식 환매 프로그램' 및 '채권 전환 발행' 활동으로 인해 발생한 '발행 주식'의 총 순변동액은 얼마였습니까?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "2008년, 2009년, 2010년 중 연말 '발행 주식 수' 잔액의 절대값 변화가 가장 적었던 연도는 언제입니까?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "'주식 수(shares outstanding)'의 가장 큰 단일 증가를 야기한 거래를 식별하고, 해당 거래의 '보유 주식(in treasury)' 비율과 '주식 수(shares outstanding)' 값을 계산하십시오.",
+    "answer": [
+      [
+        "거래는 'smith international inc. 인수'입니다. 비율은 약 0.432 (76 / 176)입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "2008년 초부터 2010년 말까지 '보유 주식' 잔고의 전반적인 추세에 대해 설명해주십시오.",
+    "answer": [
+      [
+        "보유 주식 수는 변동적이지만 전반적으로 감소하는 추세(더 작은 음수가 되는 추세)를 보입니다. 2008년 초에는 -138로 시작하여 2008년에 -140으로 소폭 감소했고, 2009년에는 -139로 약간 회복했으며, 2010년 말에는 주로 스미스 인터내셔널 인수로 인한 주식으로 인해 -73으로 크게 감소했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "2008년에 발생한 활동 중 ('1월 1일'과 '12월 31일' 잔액 사이) '주식 발행 수'에 긍정적인 영향을 미친 모든 활동을 나열하십시오.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "2010년 12월 31일 기준 최종 '주식 발행 수' 잔액 중 'Smith International Inc. 인수' 거래로 추가된 비율은 얼마입니까?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "2010년에 'Smith International Inc.의 인수'가 발생하지 않았다면, 다른 모든 거래가 동일하다고 가정했을 때 2010년 12월 31일의 '발행 주식' 연말 잔액은 얼마였을까요?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "제시된 연도에서 옵션 행사자에게 발행된 주식 수와 직원 주식 구매 계획에 따라 발행된 주식 수 사이에 관찰 가능한 관계가 있습니까? 설명해 주십시오.",
+    "answer": [
+      [
+        "일관된 관계는 없습니다. 2008년에는 구매 계획에 따라 발행된 주식(2주)보다 옵션 행사자에게 판매된 주식(5주)이 더 많았습니다. 2009년에는 두 수치가 동일했습니다(각각 4주). 2010년에는 구매 계획에 따라 발행된 주식(3주)보다 옵션 행사자에게 판매된 주식(6주)이 더 많았습니다. 두 수치 간의 비율은 매년 다르므로 직접적인 상관관계가 없음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "균형 행을 제외하고, 'issued', 'in treasury', 또는 'shares outstanding' 열 중 어떤 열에 가장 많은 비숫자 또는 일관성 없는 데이터 항목이 포함되어 있습니까?",
+    "answer": [
+      [
+        "가장 일관성이 없는 열은 'issued'입니다. 다른 열에는 숫자 값(또는 음수에 대한 일관된 형식)이 포함되어 있는 반면, 'issued' 열에는 잔액을 나타내는 것으로 보이는 숫자('1334', '1434', '100')와 거래량과 일치하지 않는 반복되는 값 '2013'이 혼합되어 있습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "다른 모든 거래의 중간값 영향과 비교했을 때 '발행 주식' 잔액에 가장 큰 긍정적인 영향을 미친 단일 거래는 무엇입니까?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "주식 재매입 프로그램에서 매년 재무부 보유 주식과 발행 주식의 비율은 얼마입니까?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

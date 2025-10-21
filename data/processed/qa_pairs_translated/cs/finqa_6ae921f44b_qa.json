@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Která finanční kategorie zaznamenala největší absolutní ztrátu v rámci „ostatního úplného (ztrátového) příjmu před rekategorizací“?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Jaký byl celkový součet všech 'částek přeřazených z ostatní komplexní ztráty' pro jednotlivé kategorie?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Jaká byla počáteční zůstatek k 3. listopadu 2018 u složky, která měla k 2. listopadu 2019 nejmenší absolutní hodnotu konečného zůstatku?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište celkový trend kumulované celkové ztráty z ostatního úplného výsledku od začátku do konce období.",
+    "answer": [
+      [
+        "Celková kumulovaná ztráta se během období výrazně zhoršila, když vzrostla z -58 440 USD na -187 799 USD. To představuje dodatečnou čistou ztrátu ve výši 129 359 USD, což je více než trojnásobek kumulované ztráty z počátku období."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Pro všechny kategorie, které měly čistou ztrátu v části 'ostatní úplný (ztráta) výnos', jaký byl jejich kombinovaný celkový konečný zůstatek k 2. listopadu 2019?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Jaké procento z celkového negativního zůstatku k 2. listopadu 2019 připadá na 'nezrealizované zisky (ztráty) z držených cenných papírů určených k prodeji'?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Pokud by 'ostatní úplný (ztrátový) výsledek' u 'penzijních plánů' byl ziskem 24 344 místo ztráty, jaký by byl nový celkový konečný zůstatek k 2. listopadu 2019?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje konzistentní vztah mezi znaménkem (kladné/záporné) 'ostatního úplného (ztráty) příjmu před rekvalifikacemi' a znaménkem konečného 'ostatního úplného (ztráty) příjmu' pro každou kategorii?",
+    "answer": [
+      [
+        "Ano, vztah je konzistentní napříč všemi čtyřmi kategoriemi. U 'cizích měn', 'derivátů' a 'penzijních plánů' jsou hodnoty v obou položkách záporné. U 'cenných papírů k prodeji' jsou hodnoty v obou položkách kladné. Znaménko příjmu před rekvalifikacemi tak konzistentně odpovídá znaménku konečného čistého úplného příjmu za dané období."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Která konkrétní položka, s výjimkou celků, představuje nejextrémnější hodnotu (tj. největší absolutní hodnotu) v tabulce?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Pomocí logiky přenosu, kde Koncový zůstatek = Počáteční zůstatek + 'ostatní komplexní (ztráta) výnos', identifikujte finanční kategorii, jejíž vykázané hodnoty jsou matematicky nekonzistentní.",
+    "answer": [
+      [
+        "Kategorie 'nerealizované zisky (ztráty) z držení cenných papírů k prodeji' je nekonzistentní. Její počáteční zůstatek -10 (buňka C1) plus její 'ostatní komplexní (ztráta) výnos' 10 (buňka C5) dává vypočtený koncový zůstatek 0, což neodpovídá vykázanému koncovému zůstatku 2 014 (buňka C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "O kolik se snížily penzijní plány z roku 2018 na rok 2019?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

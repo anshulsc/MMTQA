@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Quel type de garantie présente la plus grande différence absolue en milliards de dollars entre ses paiements potentiels 'notation investissement' et 'notation non investissement' ?",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Quel est le montant total des paiements potentiels pour tous les types de garanties qui ont une valeur pour la catégorie 'investment grade' mais un espace réservé ('2014') pour la catégorie 'not rated' ?",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Pour le type de garantie avec le montant total potentiel de paiement le plus élevé, quelle catégorie de notation ('investissement', 'non-investissement' ou 'non noté') constitue la plus grande partie de ce total ?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Quel pourcentage du total général des paiements futurs potentiels est classé comme 'non noté' ?",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Si le montant 'non noté' pour les 'indemnisations de prêt de titres' s'avérait être inférieur de 10 % au montant indiqué, quel serait le nouveau total général pour toutes les garanties ?",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Quel est le montant moyen potentiel total des types de garanties qui ont des valeurs nulles ou des valeurs de substitution ('2014') pour les notations 'investment grade' et 'non-investment grade' ?",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Quelle colonne de notation de paiement ('notation de crédit', 'notation de crédit non conforme' ou 'non noté') contient le plus de valeurs de substitution non numériques ('2014') ?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après les données fournies, identifiez la valeur aberrante la plus significative dans la colonne \"montant potentiel maximum des paiements futurs total\" et expliquez pourquoi elle ressort.",
+    "answer": [
+      [
+        "La catégorie « chèques de garantie financiers », avec un total de 94,2 milliards de dollars, est la valeur aberrante la plus significative à la hausse. Cette valeur est environ 38,4 % supérieure à la catégorie suivante la plus importante (« instruments dérivés » à 67,9 milliards de dollars) et représente plus de 2,4 fois la moyenne de toutes les catégories (38,11 milliards de dollars). Inversement, « garanties de recouvrement des flux de trésorerie contractuels » et « prêts vendus avec recours » sont des valeurs aberrantes significatives à la baisse, avec seulement 0,3 milliard de dollars chacune."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez la répartition des paiements potentiels entre les trois grades de notation pour les 'garanties de performance' et les 'indemnisations de garde et autres'. Que suggère cette comparaison quant aux profils de risque de ces deux types de garanties ?",
+    "answer": [
+      [
+        "Pour les 'garanties de performance', les montants sont répartis de manière relativement égale entre la catégorie d'investissement (5,7 milliards de dollars), la catégorie non d'investissement (5,0 milliards de dollars) et la catégorie non notée (5,6 milliards de dollars), ce qui suggère un profil de risque diversifié. En revanche, les 'indemnisations de garde et autres' sont fortement pondérées vers la catégorie d'investissement (18,5 milliards de dollars), avec une portion beaucoup plus petite pour la catégorie non d'investissement (3,1 milliards de dollars) et aucun montant dans la catégorie non notée. Cela implique que les 'indemnisations de garde' sont associées à des contreparties présentant un risque de crédit nettement plus faible par rapport aux 'garanties de performance'."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe-t-il une corrélation cohérente et observable entre les montants des paiements potentiels 'investment grade' et 'non-investment grade' pour les différents types de garanties ? Expliquez votre raisonnement.",
+    "answer": [
+      [
+        "Non, il n'existe pas de corrélation cohérente et observable. Avec seulement trois catégories présentant des valeurs numériques pour les deux colonnes, les données sont trop éparses pour établir un schéma fiable. Les 'lettres de crédit financières de garantie' ont un montant élevé pour l'investment grade (49,2 milliards $) associé à un montant élevé pour le non-investment grade (28,6 milliards $). Les 'garanties de performance' ont des valeurs similaires pour les deux (5,7 milliards $ et 5,0 milliards $). Cependant, les 'indemnisations de garde et autres' ont un montant élevé pour l'investment grade (18,5 milliards $) mais un montant très faible pour le non-investment grade (3,1 milliards $), ce qui contredit toute corrélation positive simple suggérée par les deux autres points. Les nombreuses valeurs de substitution empêchent une analyse plus approfondie."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Quel élément a le montant potentiel maximum de paiements futurs de qualité investissement ?",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

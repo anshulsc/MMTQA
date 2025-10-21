@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_bdc69f2dff_001",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "أي فئة من الأسهم العادية كان لديها أكبر عدد من الأسهم المصدرة والقائمة حتى 30 سبتمبر 2008؟",
+    "answer": [
+      [
+        "class a common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_002",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "ما هو العدد الإجمالي المدمج لأسهم جميع فئات أسهم الفئة C العادية في 30 سبتمبر 2008؟",
+    "answer": [
+      [
+        "266608750"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_003",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "بالنسبة لفئة الأسهم ذات القيمة المطلقة الأكبر لعمليات الاسترداد في أكتوبر 2008، ما هو عدد أسهمها النهائي في عمود 'كما تم تحويله بعد استردادات أكتوبر 2008'؟",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "F4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_004",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "اعتبارًا من 30 سبتمبر 2008، ما هي النسبة المئوية للأسهم الإجمالية القائمة التي مثلتها أسهم الفئة أ العادية؟ قدم الإجابة مقربة إلى منزلتين عشريتين.",
+    "answer": [
+      [
+        "46.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_005",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "اذكر جميع فئات الأسهم التي شهدت انخفاضًا في أسهمها الخاصة بسبب حدث \"التحويل إلى الفئة ج (السلسلة الأولى)\".",
+    "answer": [
+      [
+        "class c ( series iii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_006",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "تظهر القيمة '2014' بشكل متكرر، ومن المحتمل أنها تمثل عنصراً نائباً لعدم وجود نشاط. أي فئتين من الأسهم تظهر لهما هذه القيمة المحددة في ثلاثة أعمدة مختلفة في صفوفهما المعنية؟",
+    "answer": [
+      [
+        "class c ( series ii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_007",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "إذا كان عدد أسهم \"الأسهم العادية من الفئة أ\" بتاريخ \"30 سبتمبر 2008\" هو 500,000,000 بدلاً من قيمته المسجلة، فما هو إجمالي \"الأسهم المصدرة والقائمة\" المعدل في ذلك التاريخ؟",
+    "answer": [
+      [
+        "1012122135"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_008",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على البيانات الخاصة بالسلاسل المختلفة من أسهم الفئة C، ما هي العلاقة بين \"استردادات أكتوبر 2008\" و \"التحويل إلى الفئة C (السلسلة الأولى)\"؟ هل هما حدثان مرتبطان مباشرة؟",
+    "answer": [
+      [
+        "لا يوجد ارتباط ثابت ومباشر يوحي بأن الأسهم المستردة تم تحويلها بشكل منهجي إلى الفئة C (السلسلة الأولى). على سبيل المثال، تم استرداد أكثر من 79 مليون سهم من الفئة C (السلسلة الثانية) ولكن لم يتم تسجيل نشاط تحويل مقابل. وعلى العكس من ذلك، تم تحويل أسهم من الفئة C (السلسلة الرابعة) بعيدًا عنها دون عمليات استرداد كبيرة. الفئة C (السلسلة الثالثة) هي الوحيدة التي تُظهر عمليات استرداد وتحويلات كبيرة بعيدًا عنها، لكن الأرقام لا تتطابق. هذا يشير إلى أن عمليات الاسترداد والتحويلات كانت إلى حد كبير معاملات منفصلة بدلاً من كونها حدثًا واحدًا مدمجًا لمعظم السلاسل."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_009",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "ما هما العمودان في الجدول اللذان يستخدمان تنسيق بيانات محددًا لرقم سالب متبوعًا بما يعادله الموجب بين قوسين، على سبيل المثال، '-X ( X )'؟",
+    "answer": [
+      [
+        "october 2008 redemptions"
+      ],
+      [
+        "conversion to class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_010",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "استنادًا إلى رؤوس الأعمدة وصف \"إجمالي الأسهم\"، صف تسلسل الأحداث الذي أدى إلى العد النهائي للأسهم من العدد الأولي في 30 سبتمبر 2008.",
+    "answer": [
+      [
+        "يحدد الجدول عملية خفض متعددة الخطوات في إجمالي الأسهم. تبدأ العملية بـ 959,868,396 سهماً في 30 سبتمبر 2008. الحدث الأول هو \"استردادات أكتوبر 2008\"، حيث تم استرداد أكثر من 115 مليون سهم في المجموع. يتبع ذلك \"التحويل إلى الفئة ج (سلسلة i)\". تنعكس نتيجة هذه التحويلات في عمود \"بعد التحويل الفوري...\"، والذي يوضح ما مجموعه 844,855,954 سهماً. العمود الأخير، \"بعد التحويل بعد استردادات أكتوبر 2008\"، يقدم الرقم النهائي البالغ 774,710,051 سهماً، مما يمثل النتيجة الصافية لجميع المعاملات السابقة."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_011",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "في أي عام تم تحويل أسهم الفئة أ العادية وأسهم الفئة ب العادية إلى الفئة ج (السلسلة الأولى)؟",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

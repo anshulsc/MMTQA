@@ -1,0 +1,306 @@
+[
+  {
+    "question_id": "arxiv_e9fef14615_001",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Aling modelo ang nakakuha ng pinakamataas na F1 score sa dataset na 'ccfraud'?",
+    "answer": [
+      [
+        "Gemini"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "C4",
+      "D4",
+      "F4",
+      "G4",
+      "H4",
+      "I4",
+      "J4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_002",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Ano ang average accuracy ('Acc') score para sa modelong 'GPT 4' sa lahat ng dataset kung saan ginamit ang metric na ito?",
+    "answer": [
+      [
+        "0.543"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B5",
+      "D5",
+      "B9",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_003",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Tukuyin ang dataset kung saan nakamit ng 'FinMA 7B' ang pinakamataas nitong iskor, at pagkatapos ay ilista ang modelo na nakakuha ng iskor na zero sa parehong gawain.",
+    "answer": [
+      [
+        "taiwan",
+        "Falcon 7B"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I11",
+      "L11",
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I12",
+      "I10",
+      "L10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_004",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Sa 'TSA' dataset, aling modelo ang nagpakita ng pinakamalaking pagbaba ng performance kumpara sa modelong nakalista sa kolum sa kaliwa nito, at ano ang halaga ng pagbaba na ito?",
+    "answer": [
+      [
+        "FinGPT 7B-lora",
+        "0.80"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "I3",
+      "J3",
+      "I10",
+      "J10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_005",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Tukuyin ang lahat ng dataset kung saan ang modelong 'Gemini' ay nakakuha ng iskor na 0.90 o higit pa, AT ang modelong 'Chat GPT' ay nakakuha ng iskor na 0.20 o mas mababa.",
+    "answer": [
+      [
+        "ccfraud"
+      ],
+      [
+        "taiwan"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "E4",
+      "A11",
+      "C11",
+      "E11",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_006",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Para sa dataset na 'LendingClub', anong porsyento ng kabuuang iskor mula sa lahat ng modelo ang maiuugnay sa tatlong pinakamahuhusay na modelo para sa gawaing ito? Bilangin sa isang decimal na lugar.",
+    "answer": [
+      [
+        "41.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I6",
+      "J6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "O6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_007",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Kung ang bawat score para sa model na 'LLaMA2 70B' ay tataas ng 10%, ano ang magiging bagong average score nito sa lahat ng sinuring tasks? I-round sa tatlong decimal places.",
+    "answer": [
+      [
+        "0.354"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G11",
+      "G12",
+      "G10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_008",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Suriin ang mga task na sinusukat ng 'F1' o 'MicroF1' metrics. Mayroon bang pare-parehong ugnayan sa performance sa pagitan ng mga modelong 'GPT 4' at 'Gemini'? Ipaliwanag ang iyong pangangatwiran.",
+    "answer": [
+      [
+        "Walang malakas na positibong ugnayan, ngunit may malinaw na antas ng performance. Sa mga task na batay sa F1, palaging mas mahusay o katumbas ng GPT 4 ang Gemini. Para sa mga dataset na 'ccfraud' at 'taiwan', ang mga score ng Gemini (0.90 at 0.95) ay mas mataas kaysa sa score ng GPT 4 (0.55 para sa pareho). Para sa 'LendingClub', ang Gemini (0.65) ay mas mataas pa rin kaysa sa GPT 4 (0.55). Tanging sa dataset na 'MLESG' ang kanilang mga score ay halos magkapareho (0.35 vs 0.34). Ipinapakita nito na bagama't hindi mahigpit na magkaugnay ang kanilang performance, ang Gemini ay sa pangkalahatan ay mas superior na modelo para sa mga partikular na task na ito na sinusukat ng F1."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "E4",
+      "B6",
+      "D6",
+      "E6",
+      "B11",
+      "D11",
+      "E11",
+      "B12",
+      "D12",
+      "E12",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_009",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Batay sa datos ng performance, aling dalawang dataset ang nagpakita ng mga iskor na zero sa bawat isang nasubok na modelo, na nagpapahiwatig ng posibleng pagkabigo sa pagsusuri o isang gawain na walang modelong nagawa?",
+    "answer": [
+      [
+        "FNXL"
+      ],
+      [
+        "ECTSUM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "I7",
+      "J7",
+      "K7",
+      "L7",
+      "M7",
+      "N7",
+      "O7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8",
+      "H8",
+      "I8",
+      "J8",
+      "K8",
+      "L8",
+      "M8",
+      "N8",
+      "O8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_010",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Para sa modelong 'Gemini', aling dataset score ang kumakatawan sa pinakamahalagang positibong performance outlier, at bakit?",
+    "answer": [
+      [
+        "Ang score para sa 'taiwan' dataset (0.95) ang pinakamahalagang positibong outlier para sa Gemini model. Sa pagkalkula ng average ng mga non-zero score ng Gemini, nakakakuha tayo ng humigit-kumulang 0.615. Ang score na 0.95 ang pinakamataas na halaga at pinakamalayo sa average na ito kumpara sa lahat ng iba pang score. Ang hindi pangkaraniwang mataas na performance na ito ay nagmumungkahi na ang Gemini model ay napakahusay na angkop para sa gawain na tinukoy ng 'taiwan' dataset at 'F1' metric, o na ang gawain mismo ay mas madali para sa modelong ito kaysa sa iba."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "E11",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E12",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_011",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Aling modelo ang nagpapakita ng matatag na pangkalahatang pagganap sa mga gawain ng entity extraction (NER, FINER-ORD) at sentiment classification (FPB, SC)?",
+    "answer": [
+      [
+        "Ang GPT-4 ay patuloy na mahusay ang pagganap sa parehong entity extraction at sentiment classification datasets, na nakakamit ng mataas na EntityF1 at F1 scores kumpara sa ibang mga modelo."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "J5",
+      "A9",
+      "J9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

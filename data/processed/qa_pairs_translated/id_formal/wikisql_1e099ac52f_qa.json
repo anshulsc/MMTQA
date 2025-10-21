@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "wikisql_1e099ac52f_001",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Presiden manakah yang paling muda pada saat pelantikan pertamanya?",
+    "answer": [
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_002",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Berapakah perkiraan usia rata-rata saat pelantikan untuk semua presiden yang menjabat pada tahun 1970-an?",
+    "answer": [
+      [
+        "47.3 years"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_003",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Siapakah pendahulu langsung dari presiden yang memiliki masa pensiun terpendek dalam hari (tidak termasuk yang datanya hilang, masih menjabat, atau bernilai nol)?",
+    "answer": [
+      [
+        "Ignatius Acheampong"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "A7",
+      "B7",
+      "G1",
+      "G2",
+      "G3",
+      "G5",
+      "G6",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_004",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren durasi masa jabatan presiden dimulai dari Ignatius Acheampong hingga John Kufuor.",
+    "answer": [
+      [
+        "Tren tersebut sangat fluktuatif tanpa pola yang jelas. Dimulai dengan masa jabatan yang relatif panjang untuk Acheampong (~6,5 tahun), diikuti oleh masa jabatan yang sangat singkat untuk Akuffo (~11 bulan), dan bahkan lebih singkat lagi untuk masa jabatan pertama Rawlings (~3,5 bulan). Durasi kemudian meningkat dengan Limann (~2,2 tahun), diikuti oleh masa jabatan yang sangat panjang untuk masa jabatan kedua Rawlings (19 tahun), sebelum stabil menjadi durasi masa jabatan standar dengan Kufuor (8 tahun)."
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_005",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Identifikasi semua presiden yang dilantik sebelum ulang tahun ke-45 mereka dan yang masa jabatannya berakhir sebelum tahun 1980.",
+    "answer": [
+      [
+        "Akwasi Afrifa"
+      ],
+      [
+        "Ignatius Acheampong"
+      ],
+      [
+        "Fred Akuffo"
+      ],
+      [
+        "Jerry Rawlings"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "F3",
+      "B6",
+      "E6",
+      "F6",
+      "B7",
+      "E7",
+      "F7",
+      "B8",
+      "E8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_006",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Untuk presiden manakah masa pensiunnya merupakan proporsi terbesar dari total masa hidupnya? (Hanya pertimbangkan presiden dengan masa pensiun dan masa hidup yang diukur secara eksplisit dalam hari, bukan perkiraan).",
+    "answer": [
+      [
+        "Joseph Ankrah"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "G1",
+      "I1",
+      "B2",
+      "G2",
+      "I2",
+      "B3",
+      "G3",
+      "I3",
+      "B5",
+      "G5",
+      "I5",
+      "B6",
+      "G6",
+      "I6",
+      "B7",
+      "G7",
+      "I7",
+      "B9",
+      "G9",
+      "I9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_008",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, hubungan apa, jika ada, yang dapat disimpulkan antara usia seorang presiden saat pelantikan dan masa hidup mereka?",
+    "answer": [
+      [
+        "Tidak ada korelasi yang konsisten di seluruh set data. Meskipun beberapa presiden tertua saat pelantikan, seperti Nii Ollennu dan Edward Akufo-Addo (keduanya ~64), memiliki masa hidup yang panjang (80 dan 73 tahun), John A. Mills juga dilantik pada usia 64 tetapi memiliki masa hidup yang lebih pendek yaitu 68 tahun. Sebaliknya, presiden termuda saat pelantikan, Jerry Rawlings (31) dan Akwasi Afrifa (32), memiliki masa hidup masing-masing 66 dan 43 tahun, yang tidak menunjukkan pola yang jelas. Oleh karena itu, data tidak mendukung korelasi yang kuat antara usia pelantikan dan masa hidup."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "I1",
+      "E2",
+      "I2",
+      "E3",
+      "I3",
+      "E4",
+      "I4",
+      "E5",
+      "I5",
+      "E6",
+      "I6",
+      "E7",
+      "I7",
+      "E8",
+      "I8",
+      "E9",
+      "I9",
+      "E10",
+      "I10",
+      "E11",
+      "I11",
+      "E12",
+      "I12",
+      "E13",
+      "I13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_009",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Siapakah yang masa jabatan kepresidenannya merupakan anomali signifikan, jauh lebih pendek dibandingkan presiden lain yang terdaftar?",
+    "answer": [
+      [
+        "Nii Ollennu"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "F4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_1e099ac52f_010",
+    "table_id": "wikisql_1e099ac52f",
+    "question_type": "value",
+    "question": "Kolom mana dalam tabel yang menunjukkan inkonsistensi format data paling signifikan, mengandung campuran angka pasti, perkiraan, teks, dan nilai yang hilang?",
+    "answer": [
+      [
+        "Length of retirement"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12",
+      "G13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

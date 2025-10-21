@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "finqa_c8b3934b16_001",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "في أي عام كانت \"إجمالي الإيرادات مطروحًا منها مصروفات الفائدة\" الأعلى؟",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_002",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "ما هو مجموع \"صافي خسائر الائتمان\" عبر السنوات الثلاث (2016 و 2017 و 2018)؟",
+    "answer": [
+      [
+        "605"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_003",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "ما هي 'إيرادات الفائدة الصافية' في السنة التي سجلت 'إجمالي المصروفات التشغيلية' الأعلى؟",
+    "answer": [
+      [
+        "$ 3045"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_004",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "صف الاتجاه الثلاثي السنوات لـ 'صافي خسائر الائتمان' من عام 2016 إلى عام 2018.",
+    "answer": [
+      [
+        "تُظهر 'صافي خسائر الائتمان' اتجاهًا هبوطيًا ثابتًا وهامًا، حيث انخفضت من 435 مليون دولار في عام 2016 إلى 149 مليون دولار في عام 2017، ثم إلى 21 مليون دولار في عام 2018. يشير هذا الانخفاض الحاد بنسبة 66% ثم 86% على أساس سنوي إلى تحسن كبير في إدارة مخاطر الائتمان بالشركة أو جودة الأصول."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_005",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "اذكر البنود المالية التي سجلت قيمة موجبة في عام 2018 وقيمة سالبة (خسارة) في عام 2017.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) before attribution of noncontrolling interests"
+      ],
+      [
+        "noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_006",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية لإجمالي الإيرادات مطروحًا منها مصروفات الفائدة التي استهلكتها إجمالي المصروفات التشغيلية في عام 2018؟",
+    "answer": [
+      [
+        "109.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_007",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "إذا كانت 'زيادة (تخفيض) الاحتياطي الائتماني' في عام 2018 صفرًا بدلاً من تخفيض قدره 218 مليون دولار، فكم كان 'الدخل (الخسارة) من العمليات المستمرة قبل الضرائب'؟",
+    "answer": [
+      [
+        "$ -205"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_008",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "هل هناك علاقة طردية إيجابية مباشرة بين \"إجمالي الإيرادات بعد خصم مصروف الفائدة\" و \"صافي الدخل (الخسارة)\" عبر السنوات الثلاث؟ اشرح.",
+    "answer": [
+      [
+        "لا، لا يوجد دليل على وجود علاقة طردية إيجابية مباشرة. فبينما انخفضت الإيرادات بشكل مطرد من 5,233 مليون دولار في عام 2016 إلى 2,083 مليون دولار في عام 2018، تذبذب صافي الدخل بشكل كبير من ربح قدره 521 مليون دولار إلى خسارة قدرها -19,676 مليون دولار ثم عاد إلى ربح قدره 107 ملايين دولار. كانت الخسارة الضخمة في عام 2017، على الرغم من أن الإيرادات كانت أعلى من عام 2018، مدفوعة بشكل أساسي ببنك \"ضريبة الدخل (المنافع)\" الشاذ البالغ 19,064 مليون دولار، وليس بتغيرات الإيرادات وحدها."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B11",
+      "C11",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_009",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "أي عمود، يمثل التغير السنوي، يحتوي على أكبر عدد من الإدخالات 'nm' (غير ذات معنى)؟",
+    "answer": [
+      [
+        "% (  % ) change2017 vs . 2016"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "F2",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_010",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "ما هو البند المالي لعام 2017 الذي يعتبر استثنائيًا مقارنة بنفس البند في عامي 2016 و 2018، وما هو تأثيره على النتائج الإجمالية؟",
+    "answer": [
+      [
+        "يُعد بند 'ضرائب الدخل (المنافع)' بمبلغ 19,064 مليون دولار في عام 2017 استثناءً كبيرًا مقارنة بقيمتي -455 مليون دولار في عام 2016 و -113 مليون دولار في عام 2018. كان هذا العبء الضريبي الكبير جدًا هو المحرك الأساسي الذي حوّل خسارة قبل الضرائب بقيمة 507 ملايين دولار إلى خسارة مذهلة بعد الضرائب من العمليات المستمرة بقيمة 19,571 مليون دولار، مما يجعله الشذوذ الأكثر تأثيرًا في مجموعة البيانات لتلك السنة."
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "B11",
+      "C11",
+      "D11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_011",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "كم انخفض صافي الدخل (الخسارة) بالملايين من عام 2016 إلى عام 2018؟",
+    "answer": [
+      [
+        "$414"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

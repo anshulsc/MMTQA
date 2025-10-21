@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "MarS metodunun cari bazarı simulyasiya edilmiş bazarla müqayisə etdiyi tətbiq üçün müvafiq cari metod nəyi müqayisə edir?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Siyahıda verilən tətbiqlərin hansı faizi 'MarS' üsulundan istifadə edir və bu üsul 'nəsil' və ya 'simulyasiya' ilə əlaqəlidir?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'Detection' tətbiqi üçün MarS metodu 'Current Methods'də istifadə olunan zamana əsaslanan müqayisəni necə dəyişir?",
+    "answer": [
+      [
+        " 'Detection' üçün 'Current Methods' cari bazar vəziyyəti (market_now) ilə keçmiş bazar vəziyyəti (market_past) arasındakı fərqi hesablamaqla tarixi müqayisəyə əsaslanır. MarS metodu keçmiş məlumatlara olan bu asılılığı aradan qaldırır. Bunun əvəzinə, o, cari bazarı (market_now) müasir simulyasiya edilmiş bazarla (simu-market_now) müqayisə edir, müqayisəni zamana əsaslanan (indi və ya o zaman) çərçivədən modelə əsaslanan (real və ya simulyasiya edilmiş) çərçivəyə keçirir."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Bütün tətbiqlər üçün 'MarS' metodunun 'pipeline' kimi təsvir edildiyi və ya 'generation' prosesini əhatə etdiyi hallarda 'Cari Metodlar' siyahısını tərtib edin.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'Cari Metodlar' və 'MarS' arasında ən əsaslı yanaşma dəyişikliyini göstərən, tarixi müqayisədən simulyasiya edilmişə keçən hansı tətbiqdir?",
+    "answer": [
+      [
+        "Aşkarlama tətbiqi ən əsaslı dəyişikliyi göstərir. Cari metod zamanla geriyə baxan müqayisəyə əsaslanır (Diff(market_now, market_past)). Bunun əksinə olaraq, MarS metodu müasir simulyasiya edilmiş reallıqla müqayisə təqdim edir (Diff(market_now, simu-market_now)). Tarixi əsasdan müqayisə üçün simulyasiya edilmiş əsasə keçid, cədvəldəki digər metodoloji dəyişikliklərlə müqayisədə əhəmiyyətli bir konsepsual fərqdir."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'RL Mühiti' üçün 'MarS' yanaşması, eyni tətbiq üçün 'Cari Metodlar'ın məlumat əlçatanlığından istifadə etmək üçün dəyişdirilsəydi, bu hipotetik MarS metodunu hansı iki xarakteristika müəyyən edərdi?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'RL Mühit' tətbiqi üçün 'Cari Metodlar' və 'MarS' arasında məlumatların mövcudluğu və ehtimal paylanmasında əsas fərq nədir?",
+    "answer": [
+      [
+        "Əsas fərq məlumat həcmi və keçid ehtimalının doğruluğundadır. 'Cari Metodlar' 'sonlu məlumatlara' və 'saxta' ehtimal paylanmasına (P(st+1|st,at)), 'MarS' isə 'sonsuz məlumatlardan' və 'həqiqi' ehtimal paylanmasından istifadə edir."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Cədvəldə 'Cari Metodlar' və ya 'MarS' üçün metod təsvirlərində 'data' terminini ehtiva edən neçə fərqli tətbiq sadalanır?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Cədvələ əsasən, MarS-ın Cari Metodlarla müqayisədə əsas üstünlüyü nədir, xüsusilə məlumat və reallıq təmsili baxımından?",
+    "answer": [
+      [
+        "Ümumi mövzu, MarS metodlarının istehsal və simulyasiya əsaslı yanaşmalardan istifadə edərək tarixi və ya məhdud məlumatların məhdudiyyətlərini aradan qaldırmağı hədəflədiyini göstərir. MarS ekstrapolyasiyadan generativə, tarixi müqayisədən simulyasiya olunmuş müqayisəyə və məhdud/saxta məlumat modellərindən sonsuz/həqiqi məlumat modellərinə keçid edir. Bu, təhlil və gücləndirmə təlimləri üçün daha möhkəm, çevik və real məlumat mühitləri yaratmaqda strateji üstünlüyü göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Cədvəldə başlıq sətri istisna olmaqla, neçə fərqli tətbiq təfərrüatlı şəkildə təsvir edilmişdir?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Proqnozlaşdırma üçün istifadə olunan cari üsul nədir?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

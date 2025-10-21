@@ -1,0 +1,203 @@
+[
+  {
+    "question_id": "arxiv_c1daaa052a_001",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "ما هو العمل الذي أظهر أعلى نسبة مئوية من الزيادة في \"العوائد\"، وما هي تلك النسبة؟",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ],
+      [
+        "+40.4%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_002",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "ما هو العدد الإجمالي للأسواق المالية المتميزة التي تم تقييمها عبر جميع الأعمال البحثية المدرجة؟",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_003",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "حدد الابتكار الرئيسي للنموذج الذي تم التحقق منه في سوق CSI.",
+    "answer": [
+      [
+        "Pure convolutional temporal-relational modeling"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_004",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "بالمقارنة بين الأعمال التي أجريت في عام 2023 وتلك التي أجريت في عام 2024، ما هو التحول الأساسي في تركيز \"الابتكار الرئيسي\"؟",
+    "answer": [
+      [
+        "تحول تركيز الابتكار الرئيسي من الكفاءة المعمارية والنمذجة المبتكرة (\"النمذجة الزمنية العلائقية التلافيفية النقية\" في عام 2023) إلى معالجة بيانات أكثر تعقيدًا وديناميكيات سوقية في عام 2024. تعالج ابتكارات عام 2024 تحديات مثل الاستقلال عن القنوات، وتخفيف التحيز، والتكيف مع تحولات نظام السوق، مما يشير إلى اتجاه نحو إنشاء نماذج أكثر قوة وتكيفًا بدلاً من التركيز فقط على هياكل الشبكات الجديدة."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_005",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "اذكر جميع الأعمال المنشورة في عام 2024 والتي استخدمت شكلاً من أشكال التعلم أو التدريب العدائي في منهجيتها.",
+    "answer": [
+      [
+        "ADB-TRM Chen et al. (2024)"
+      ],
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_006",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "ما هي نسبة الأعمال البحثية المدرجة التي نُشرت في عام 2024؟",
+    "answer": [
+      [
+        "75%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_007",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "إذا كانت نسبة الزيادة في \"العوائد\" لـ ADB-TRM Chen et al. (2024) أقل بـ 10.3 نقطة مئوية، فأي عمل سيُسجل زيادة أداء أعلى بينه وبين RSAP-DFM Xiang et al. (2024)؟",
+    "answer": [
+      [
+        "RSAP-DFM Xiang et al. (2024)"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "A3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_008",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "open_ended_reasoning",
+    "question": "هل هناك نمط ملاحظ بين استخدام منهجيات التعلم العدائي والتنوع الجغرافي للأسواق التي تم اختبار النماذج عليها؟",
+    "answer": [
+      [
+        "نعم، كلا العملين اللذين يذكران صراحة التعلم العدائي في منهجيتهما (ADB-TRM و RSAP-DFM) تم اختبارهما على مزيج من الأسواق الأمريكية وغير الأمريكية (بورصة طوكيو وأسواق الأسهم الصينية، على التوالي). في المقابل، تم اختبار العملين الآخرين، اللذين لا يذكران التعلم العدائي، على أسواق أمريكية فقط (CI-STHPAN) أو على مزيج يشمل سوق CSI الصيني (RT-GCN). هذا يشير إلى وجود ارتباط محتمل بين استخدام تقنيات التعلم العدائي المتقدمة والتحقق منها على مجموعة أوسع وأكثر تنوعًا عالميًا من الأسواق المالية."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_009",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "أي عمل يبلغ عن نتيجة أداء تمثل مضاعفًا للسرعة بدلاً من زيادة مئوية؟",
+    "answer": [
+      [
+        "RT-GCN Zheng et al. (2023)"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_010",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "ما هو المساهمة المنهجية للعمل الذي قدم 'آلية التحول المزدوج للنظام'؟",
+    "answer": [
+      [
+        "Gradient-based posterior factors with adversarial learning"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_c1daaa052a_011",
+    "table_id": "arxiv_c1daaa052a",
+    "question_type": "value",
+    "question": "ما هو الابتكار الرئيسي لعمل CI-STHPAN Xia؟",
+    "answer": [
+      [
+        "Channel-independent pre-training with dynamic hypergraph learning"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "「配当金」と「普通株式の買い戻し」のうち、どちらの活動が「総株主資本」により大きな負の影響を与えましたか？",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "2011年と2012年の貸借対照表日付間のすべての記載された活動による「払込資本」の純変動額はいくらですか？",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "払込資本が662ドル増加した取引による総資本への影響額はいくらでしたか？",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "2011年12月31日から2012年12月31日までの「総資本」の変化を分析し、この変化の主要な要因を特定してください。",
+    "answer": [
+      [
+        "総資本は$70,078から$65,428に減少し、純減額は$4,650でした。いくつかの寄与要因がありましたが、この減少の最大の要因は「償還可能非支配持分への再分類」であり、それだけで$4,288のマイナスの影響を与え、純減総額の92%以上を占めました。"
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "「払込資本」の減少をもたらしたが、「利益剰余金」には影響しなかったすべての財務活動を挙げてください。",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "2011年12月31日時点の期首「繰越利益」に対し、当該期間中に「配当」として支払われた割合は何パーセントでしたか？",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "もし「外国為替換算調整」が総資本にニュートラルな影響（すなわちゼロ）を与えたとしたら、2012年12月31日時点の期末総資本残高はいくらになっていたでしょうか？",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "期首残高と期末残高、および『従業員持株制度による株式発行』の取引項目に基づきますと、『従業員株式信託』と『従業員信託に発行された普通株式』の間にはどのような関係がありますか？",
+    "answer": [
+      [
+        "常に一貫した逆の関係が見られます。『従業員信託に発行された普通株式』の列の値は、任意の行において常に『従業員株式信託』の列の値と厳密に負の関係（符号が逆）にあります（例：期首残高では$3166に対し-$3166、従業員持株制度による株式発行では-$234に対し$234）。これは、これらが互いに対照勘定であり、純資産合計の計算においてその効果が相殺されるように意図されていることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "残高を示す最初の行と最後の行を除き、データセットのB列からK列までで最も頻繁に出現する値は何ですか？",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "「自己資本合計」に影響を与える全ての取引の中で、単一の項目として最も大きな負の異常値はどれですか？",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "2012年12月31日時点での優先株式の総額はいくらでしたか？",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

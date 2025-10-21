@@ -1,0 +1,245 @@
+[
+  {
+    "question_id": "finqa_516cee154e_001",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "哪个年份的“稀释后每股普通股和潜在稀释性普通股的净收入”最高？",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_002",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "表中记录的三年“加权平均合伙企业单位发行在外”的总和是多少？",
+    "answer": [
+      [
+        "52813"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_516cee154e_003",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "在“加权平均合伙单位数”最低的那一年，“普通股基本净收益”是多少？",
+    "answer": [
+      [
+        "$ 161272"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "B1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_004",
+    "table_id": "finqa_516cee154e",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述“普通股加权平均发行股数”从2000年到2002年的趋势。",
+    "answer": [
+      [
+        "普通股加权平均发行股数呈现持续增长的趋势。2000年为126,836股，2001年增长至129,660股，并继续增长至2002年的133,981股。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_005",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "列出2002年数值小于2000年数值的所有财务指标。",
+    "answer": [
+      [
+        "basic net income available for common shares"
+      ],
+      [
+        "minority interest in earnings of common unitholders"
+      ],
+      [
+        "diluted net income available for common shares and dilutive potential common shares"
+      ],
+      [
+        "weighted average partnership units outstanding"
+      ],
+      [
+        "dilutive shares for stock-based compensation plans"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_006",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "2001年，“加权平均普通股和稀释性潜在普通股数量”中有多少比例可归因于“加权平均合伙企业单位发行在外”？",
+    "answer": [
+      [
+        "12.06%"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_516cee154e_007",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "如果 \"基本净收入\" 在 2002 年高出 20%，那么这三年的新平均基本净收入将是多少？",
+    "answer": [
+      [
+        "224090.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_008",
+    "table_id": "finqa_516cee154e",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，'流通在外的普通股加权平均数'与'可供普通股股东分享的基本净收益'之间是否存在可观察到的相关性？",
+    "answer": [
+      [
+        "这两项指标之间似乎存在负相关。随着2000年至2002年流通在外的普通股加权平均数稳步增长，基本净收益出现波动，在2001年达到顶峰，随后在2002年降至最低点，而2002年是普通股数量最多的一年。这表明随着普通股数量的增加，净收益并非必然随之增加，事实上，普通股数量最多的一年对应着净收益最低的一年。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_516cee154e_009",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "在所有年份中，“基本”和“稀释”这两个收入指标哪个的值始终更高？",
+    "answer": [
+      [
+        "diluted net income available for common shares and dilutive potential common shares"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_516cee154e_010",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "哪个财务指标在峰值年份到2002年之间的绝对值下降最大？",
+    "answer": [
+      [
+        "diluted net income available for common shares and dilutive potential common shares"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_516cee154e_011",
+    "table_id": "finqa_516cee154e",
+    "question_type": "value",
+    "question": "从2000年到2002年，普通股基本净收益的百分比下降了多少？",
+    "answer": [
+      [
+        "24.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

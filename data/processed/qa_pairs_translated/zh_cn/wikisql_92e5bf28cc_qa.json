@@ -1,0 +1,302 @@
+[
+  {
+    "question_id": "wikisql_92e5bf28cc_001",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "哪场比赛是球队获胜的最大分差？",
+    "answer": [
+      [
+        "Game 4 vs Sacramento"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "D6",
+      "D7",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_002",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "在Wachovia Center进行的比赛的平均观众人数是多少？",
+    "answer": [
+      [
+        "13056.5"
+      ]
+    ],
+    "evidence_cells": [
+      "H2",
+      "H5",
+      "H7",
+      "H9",
+      "H10",
+      "H12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_003",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "在安德烈·米勒获得助攻数最多的那场比赛中，谁是篮板最多的球员？",
+    "answer": [
+      [
+        "Samuel Dalembert (16)"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G8",
+      "G10",
+      "G11",
+      "F7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_004",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "open_ended_reasoning",
+    "question": "根据11月份列出的最后四场比赛，分析球队的胜负记录和表现趋势。",
+    "answer": [
+      [
+        "在11月份的最后四场比赛（从11月23日至11月28日）中，球队的表现呈现急剧下滑的趋势。他们以一场战胜金州勇士的比赛开始（11月23日），使他们的记录变为7胜6负，但随后连续输给了夏洛特、奥兰多和波士顿三场比赛，最终以7胜9负的记录结束了这个时期。这表明在月末出现了三连败和负面动量转移。"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "I10",
+      "B11",
+      "I11",
+      "B12",
+      "I12",
+      "B13",
+      "I13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_005",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "列出在埃尔顿·布兰德是唯一高篮板者时球队输掉的比赛中的对手。",
+    "answer": [
+      [
+        "@ Atlanta"
+      ],
+      [
+        "@ Miami"
+      ],
+      [
+        "@ Minnesota"
+      ],
+      [
+        "@ Charlotte"
+      ],
+      [
+        "@ Boston"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "F1",
+      "C3",
+      "D3",
+      "F3",
+      "C8",
+      "D8",
+      "F8",
+      "C11",
+      "D11",
+      "F11",
+      "C13",
+      "D13",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_006",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "在塔迪乌斯·杨（Thaddeus Young）得分最高（单独或并列）的比赛中，获胜的比例是多少？",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "D1",
+      "E2",
+      "D2",
+      "E3",
+      "D3",
+      "E4",
+      "D4",
+      "E7",
+      "D7",
+      "E9",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_007",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "open_ended_reasoning",
+    "question": "如果在每场输掉的比赛中多得10分，那么他们在该表格中的最终战绩会有何改变？",
+    "answer": [
+      [
+        "球队的最终战绩将从7胜9负提高到10胜6负。三场失利将变为胜利：第三场（88-95，输7分），第十四场（84-93，输9分），和第十五场（94-96，输2分）。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "I13",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_008",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "open_ended_reasoning",
+    "question": "从每场比赛的最高助攻数与比赛结果（赢/输）之间是否存在可观察到的关系？",
+    "answer": [
+      [
+        "根据数据，比赛最高助攻数与获胜之间似乎存在正相关。获胜场次的平均助攻数为 9.2（根据第 4、8、10、12、13 场比赛计算）。失利场次的平均助攻数为 6.875（根据第 3、5、6、7、11、14、15、16 场比赛计算）。助攻数最高的三场比赛（12、10 和 9 次）均告获胜，而 8 场失利中有 6 场最高助攻数不超过 8 次。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1",
+      "D2",
+      "G2",
+      "D3",
+      "G3",
+      "D4",
+      "G4",
+      "D5",
+      "G5",
+      "D6",
+      "G6",
+      "D7",
+      "G7",
+      "D8",
+      "G8",
+      "D9",
+      "G9",
+      "D10",
+      "G10",
+      "D11",
+      "G11",
+      "D12",
+      "G12",
+      "D13",
+      "G13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_009",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "在所有三个单项高数据类别（得分、篮板和助攻）中，哪个球员出现次数最多？",
+    "answer": [
+      [
+        "Elton Brand"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E6",
+      "F6",
+      "G6",
+      "E7",
+      "F7",
+      "G7",
+      "E8",
+      "F8",
+      "G8",
+      "E9",
+      "F9",
+      "G9",
+      "E10",
+      "F10",
+      "G10",
+      "E11",
+      "F11",
+      "G11",
+      "E12",
+      "F12",
+      "G12",
+      "E13",
+      "F13",
+      "G13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_010",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "在仅考虑客场比赛的情况下，哪个比赛的上座人数是最显著的异常值？",
+    "answer": [
+      [
+        "Game 11 at Minnesota (Target Center 10,111)"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H3",
+      "H4",
+      "H6",
+      "H8",
+      "H11",
+      "H13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_011",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "在对阵犹他州的比赛中，谁的得分最高？",
+    "answer": [
+      [
+        "Andre Miller (25)"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Value Lookup"
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "finqa_7029f59db3_001",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "平均容量がより大きい原子炉のタイプはどれですか。また、その平均容量はメガワットでいくつですか。",
+    "answer": [
+      [
+        "Pressurized Water",
+        "960"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_002",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "ニューヨーク州（NY）に所在する全ての発電所の合計容量（MW）はいくつですか？",
+    "answer": [
+      [
+        "2907"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7029f59db3_003",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "最も長く稼働している「nyiso」市場のプラントのライセンス有効期限はいつですか？",
+    "answer": [
+      [
+        "2013 ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "B3",
+      "B4",
+      "C2",
+      "C3",
+      "C4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_004",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "2000年以降に取得された全プラントについて、「稼働開始年」から「ライセンス有効期限」までの平均年数を計算してください。",
+    "answer": [
+      [
+        "52.25"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6",
+      "C3",
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_005",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "'nyiso'市場に属さず、かつ700MWを超える容量を持つ全ての発電所の名前をリストアップしてください。",
+    "answer": [
+      [
+        "palisades ( e )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A5",
+      "B5",
+      "F5",
+      "A6",
+      "B6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_006",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "記載されている全プラントの総容量のうち、沸騰水型原子炉を持つプラントの寄与率はどのくらいですか？回答はパーセンテージで、小数点以下2桁まで丸めてください。",
+    "answer": [
+      [
+        "42.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7029f59db3_007",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "'加圧水型'原子炉の容量が10%向上した場合、『indian point 3 ( c )』プラントの新しい総容量はどれくらいになりますか？",
+    "answer": [
+      [
+        "1145.1 mw"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_008",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "open_ended_reasoning",
+    "question": "プラントの取得年と、ライセンス失効年と運転開始年の差から算出されるライセンス運用期間との関係を分析してください。何らかの明確なパターンは存在しますか？",
+    "answer": [
+      [
+        "取得年とライセンス運用期間との間には、明確な相関関係はありません。各プラントの運用期間は以下の通りです：ピルグリム（1999年取得）- 60年、フィッツパトリック（2000年取得）- 59年、インディアンポイント3（2000年取得）- 39年、インディアンポイント2（2001年取得）- 39年、バーモントヤンキー（2002年取得）- 60年、パリセーズ（2007年取得）- 60年です。最近取得されたプラント（例：パリセーズ、2007年）は長い運用期間（60年）を持つのに対し、より早く取得されたプラントの一部（例：インディアンポイント3、2000年/2001年）ははるかに短い運用期間（39年）を持っています。運用期間は取得日とは無関係であるように見えます。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1",
+      "C2",
+      "D2",
+      "G2",
+      "C3",
+      "D3",
+      "G3",
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7029f59db3_009",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "同じ場所にある他のプラントの平均「稼働年」と比較して、最も大きな外れ値となる「稼働年」を持つプラントはどれですか？",
+    "answer": [
+      [
+        "fitzpatrick ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7029f59db3_010",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "「容量 - 反応炉タイプ」列を除き、データエントリに括弧付きの修飾語が含まれており、表にない脚注や追加情報へのリンクを示唆しているデータセットの2つの列はどれですか？",
+    "answer": [
+      [
+        "power plant",
+        "license expiration date"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_011",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "最も最近取得された発電所はどれですか？",
+    "answer": [
+      [
+        "Palisades"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

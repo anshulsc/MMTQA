@@ -1,0 +1,291 @@
+[
+  {
+    "question_id": "wikisql_9f67a2003e_001",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Spesies mana yang memiliki panjang petal rata-rata tertinggi berdasarkan sampel yang diberikan?",
+    "answer": [
+      [
+        "I.virginica"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_002",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Berapa total lebar sepal untuk semua bunga dari spesies 'I.setosa'?",
+    "answer": [
+      [
+        "13.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "B5",
+      "E5",
+      "B7",
+      "E7",
+      "B9",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_003",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Untuk bunga dengan lebar petal maksimum, berapa panjang sepal yang sesuai?",
+    "answer": [
+      [
+        "6.4"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_004",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Jika bunga-bunga tersebut diurutkan berdasarkan panjang kelopak bunga dalam urutan menaik, spesies apa yang akan berada di urutan kelima dalam daftar?",
+    "answer": [
+      [
+        "I.versicolor"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "C2",
+      "E2",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C5",
+      "E5",
+      "C6",
+      "E6",
+      "C7",
+      "E7",
+      "C8",
+      "E8",
+      "C9",
+      "E9",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_005",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Sebutkan panjang kelopak untuk semua bunga 'I.virginica' yang memiliki lebar sepal 2,7 atau kurang.",
+    "answer": [
+      [
+        "5.0"
+      ],
+      [
+        "5.3"
+      ],
+      [
+        "5.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "E1",
+      "B2",
+      "C2",
+      "E2",
+      "B4",
+      "E4",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_006",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Untuk spesies 'I.versicolor', berapakah rasio panjang rata-rata petal terhadap lebar rata-rata petal?",
+    "answer": [
+      [
+        "3.2"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "D6",
+      "E6",
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_007",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Jika lebar kelopak dari setiap bunga 'I.setosa' menjadi dua kali lipat, berapa rata-rata lebar kelopak yang baru untuk spesies tersebut?",
+    "answer": [
+      [
+        "0.5"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "E3",
+      "D5",
+      "E5",
+      "D7",
+      "E7",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_008",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data yang diberikan, apa hubungan umum antara panjang kelopak dan lebar kelopak di semua spesies?",
+    "answer": [
+      [
+        "Data menunjukkan korelasi positif yang kuat antara panjang kelopak dan lebar kelopak. Seiring bertambahnya panjang kelopak, lebar kelopak juga meningkat secara konsisten. Sebagai contoh, bunga dengan panjang kelopak kecil (misalnya, 1.1, 1.4, 1.5) memiliki lebar kelopak yang kecil (0.1, 0.3, 0.4), sementara bunga dengan panjang kelopak besar (misalnya, 5.0, 5.3, 5.6) memiliki lebar kelopak yang besar (1.9, 1.9, 2.2)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_009",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Berapa banyak spesies berbeda yang terwakili dalam kumpulan data ini?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_010",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "open_ended_reasoning",
+    "question": "Spesimen bunga manakah yang memiliki panjang sepal terendah dalam dataset, dan bagaimana dimensi petal bunganya dibandingkan dengan rata-rata spesiesnya sendiri?",
+    "answer": [
+      [
+        "Bunga dengan panjang sepal terendah adalah I.setosa pada baris ke-3 (panjang sepal 4,3). Panjang petal 1,1 dan lebar petal 0,1 keduanya berada di bawah rata-rata untuk spesiesnya dalam dataset ini (rata-rata panjang petal: 1,425, rata-rata lebar petal: 0,25)."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "C5",
+      "D5",
+      "E5",
+      "C7",
+      "D7",
+      "E7",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_9f67a2003e_011",
+    "table_id": "wikisql_9f67a2003e",
+    "question_type": "value",
+    "question": "Apa spesies bunga dengan panjang sepal 4,3 dan lebar sepal 3,0?",
+    "answer": [
+      [
+        "I.setosa"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "E14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

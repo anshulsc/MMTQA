@@ -1,0 +1,247 @@
+[
+  {
+    "question_id": "finqa_5b4c0c0847_001",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Komponen modal mana (tidak termasuk total, aset, dan rasio) yang mengalami kenaikan jumlah dolar terbesar secara absolut dari tahun 2012 ke 2013?",
+    "answer": [
+      [
+        "basel i tier 1 common capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_002",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Berapa total bersih dari semua 'penyesuaian modal peraturan' dalam jutaan dolar untuk tahun 2013?",
+    "answer": [
+      [
+        "-1028"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_003",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Berapa persen pertumbuhan 'Estimated fully phased-in Basel III tier 1 common capital' melampaui pertumbuhan 'Basel I tier 1 common capital' antara tahun 2012 dan 2013? Bulatkan ke satu desimal.",
+    "answer": [
+      [
+        "40.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_004",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis perubahan posisi modal perusahaan dari tahun 2012 ke 2013, lihat rasio modal dan komponen dasarnya.",
+    "answer": [
+      [
+        "Posisi modal perusahaan menguat banget dari 2012 ke 2013. Rasio Modal Inti Tier 1 Pendekatan Lanjutan Basel III Pro Forma naik dari 7,5% jadi 9,5%. Peningkatan ini didorong dua faktor: kenaikan signifikan modal inti tier 1 (dari $22.501 juta ke $27.456 juta) dan penurunan aset tertimbang risiko yang bersamaan (dari $301.006 juta ke $290.080 juta). Pengenalan rasio Pendekatan Standar sebesar 9,4% di 2013 makin nunjukin kecukupan modal yang membaik ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_005",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Sebutin dong semua item yang nilainya negatif di tahun 2012 tapi positif di tahun 2013.",
+    "answer": [
+      [
+        "all other adjustments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_006",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Berapa persentase 'Estimated fully phased-in Basel III tier 1 common capital' terhadap 'Basel I tier 1 common capital' untuk tahun 2012? Bulatkan ke persentase bulat terdekat.",
+    "answer": [
+      [
+        "90%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_007",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Kalau 'penyesuaian batas kuantitatif Basel III' buat tahun 2013 itu jadi -$2.000 juta, bukannya nilai yang dilaporkan, berapa 'perkiraan modal umum inti Basel III penuh' buat tahun itu?",
+    "answer": [
+      [
+        "$ 26842"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_008",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "Gimana sih data nunjukin hubungan antara perubahan 'Estimated Basel III Advanced Approaches Risk-Weighted Assets' sama 'Pro forma fully phased-in Basel III Advanced Approaches Tier 1 Common Capital Ratio' antara tahun 2012 dan 2013?",
+    "answer": [
+      [
+        "Datanya nunjukin hubungan yang berbanding terbalik. Antara 2012 dan 2013, Estimated Risk-Weighted Assets (penyebut rasionya) turun dari $301.006 juta jadi $290.080 juta. Barengan sama itu, Tier 1 Common Capital Ratio (hasil dari Capital / RWA) naik dari 7,5% jadi 9,5%. Ini nunjukin kalau berkurangnya aset tertimbang risiko itu ngasih kontribusi positif buat naiknya rasio modal."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_009",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Dua metrik terkait 'Standardized Approach' apa aja yang dilaporkan buat 2013 tapi ditandai 'n/a' buat 2012?",
+    "answer": [
+      [
+        "basel i tier 1 common capital"
+      ],
+      [
+        "less regulatory capital adjustments:"
+      ],
+      [
+        "basel iii quantitative limits"
+      ],
+      [
+        "accumulated other comprehensive income ( a )"
+      ],
+      [
+        "all other adjustments"
+      ],
+      [
+        "estimated fully phased-in basel iii tier 1 common capital"
+      ],
+      [
+        "estimated basel iii advanced approaches risk-weighted assets"
+      ],
+      [
+        "pro forma fully phased-in basel iii advanced approaches tier 1 common capitalratio"
+      ],
+      [
+        "estimated basel iii standardized approach risk-weighted assets"
+      ],
+      [
+        "pro forma fully phased-in basel iii standardized approach tier 1 common capitalratio"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_010",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "Item penyesuaian modal spesifik mana yang perubahannya dari tahun ke tahun berdampak negatif pada perhitungan modal, dan berapa nilai perubahan negatif ini?",
+    "answer": [
+      [
+        "accumulated other comprehensive income ( a )",
+        "-$80 million"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_011",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalo modal inti tier 1 bank berdasarkan pendekatan canggih turun, tapi modal intinya tetep sama, kira-kira rasio modal inti tier 1 bakal gimana jadinya?",
+    "answer": [
+      [
+        "Rasio modal inti tier 1 bakal naik, soalnya aset berbobot risiko yang lebih rendah sama modal yang sama itu bikin rasio modalnya makin tinggi."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

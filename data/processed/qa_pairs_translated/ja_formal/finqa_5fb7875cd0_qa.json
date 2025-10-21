@@ -1,0 +1,276 @@
+[
+  {
+    "question_id": "finqa_5fb7875cd0_001",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "2017年の年次インセンティブ賞を最も多く受け取った指名執行役員は誰ですか？",
+    "answer": [
+      [
+        "leo p . denault"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_002",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "表に記載されている全役員の基本給の合計はいくらですか？",
+    "answer": [
+      [
+        "$5,436,072"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_003",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "「目標が基本給に対する割合」が最も低く、かつ「達成率が目標に対する割合」が最も低くなかった役員に対する2017年の年次インセンティブ賞与はいくらですか？",
+    "answer": [
+      [
+        "$ 169123"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "A9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_004",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "'年間インセンティブ賞' のデータは、具体的に何年のものですか？",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_005",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "基本給が400,000ドル未満で、目標に対する支払い率が120%を超える役員全員の氏名をリストアップしてください。",
+    "answer": [
+      [
+        "phillip r . may jr .",
+        "richard c . riley"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "D4",
+      "A6",
+      "B6",
+      "D6",
+      "A7",
+      "B7",
+      "D7",
+      "A8",
+      "B8",
+      "D8",
+      "A9",
+      "B9",
+      "D9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_006",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "Phillip R. May Jr.氏の目標インセンティブ額（ドル）はいくらでしたか？ (基本給 * 目標率 で計算)",
+    "answer": [
+      [
+        "$219,690"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_007",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "もし会社が全役員に対して「目標に対する支払い割合」を130%に上限設定していた場合、リチャード・C・ライリー氏の「2017年年間インセンティブ賞与」はいくらになっていましたか？ (賞与 = 基本給 * 目標割合 * 支払い割合)",
+    "answer": [
+      [
+        "$178,984"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_008",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "open_ended_reasoning",
+    "question": "'目標の基本給に対する割合'と実際の'目標に対する支払い割合'の間には、一貫した関係はありますか？その結果を説明してください。",
+    "answer": [
+      [
+        "明確で一貫した関係はありません。例えば、目標が70%の役員は129%の支払いを受けましたが、目標が135%の役員も同様に129%の支払いを受けました。逆に、目標が40%の4人の役員は、3つの異なる支払い割合（119%、79%、204%）を持っていました。これは、支払い割合が、初期の目標割合自体以外の要因によって決定される可能性が高いことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_009",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "'payout as percentage of target'列に存在する一意の値はいくつですか？",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_010",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "全役員のインセンティブ賞与の中央値と比較して、2017年の年次インセンティブ賞与が最も顕著な外れ値である役員は誰ですか？",
+    "answer": [
+      [
+        "leo p . denault"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5fb7875cd0_011",
+    "table_id": "finqa_5fb7875cd0",
+    "question_type": "value",
+    "question": "基本給が500,000ドルを超える役員は何名いますか？",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A5",
+      "B5",
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

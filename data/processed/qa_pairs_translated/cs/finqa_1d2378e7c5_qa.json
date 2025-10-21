@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "K datu 31. prosince 2015, který regulační přístup, 'pokročilý' nebo 'standardizovaný', vykázal vyšší hlášený 'celkový kapitál' a o kolik milionů dolarů?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Jaký byl průměrný 'Tier 1 Capital' v milionech dolarů napříč všemi čtyřmi vykázanými sloupci?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Identifikujte 'Celková rizikově vážená aktiva' odpovídající sloupci s nejnižším 'Celkovým poměrem kapitálu'.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Za předpokladu, že poslední dva sloupce představují údaje z předchozího roku, popište trend meziročního vývoje \"Common Equity Tier 1 Capital Ratio\" v rámci \"Standardized Approach\".",
+    "answer": [
+      [
+        "\"Common Equity Tier 1 Capital Ratio\" pro \"Standardized Approach\" vykázal pozitivní trend, když se zvýšil o 1,51 procentního bodu z 11,12 % v předchozím období na 12,63 % k 31. prosinci 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Které kapitálové poměry podle 'Standardizovaného přístupu k 31. prosinci 2015' byly nižší než 15 %?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Pro '31. prosince 2015 Pokročilé přístupy' jaká část 'Celkového kapitálu' připadá na 'Splátkové kapitál 2'? (Poznámka: Splátkové kapitál 2 = Celkový kapitál - Splátkový kapitál 1)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Pokud by 'Celková rizikově vážená aktiva' podle 'Standardizovaného přístupu k 31. prosinci 2015' byla hypoteticky o 10 % vyšší, jaké by bylo nové 'Ratio Tier 1 Capital', za předpokladu, že 'Tier 1 Capital' zůstane konstantní?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký vztah lze odvodit mezi 'Celkovými aktivy váženými rizikem' a kapitálovými poměry uvedenými v tabulce? Použijte datové body na podporu svého závěru.",
+    "answer": [
+      [
+        "Existuje inverzní korelace mezi 'Celkovými aktivy váženými rizikem' a kapitálovými poměry. Jak se aktiva vážená rizikem (jmenovatel ve výpočtu poměru) zvyšují, kapitálové poměry klesají. Například sloupec s nejvyššími aktivy (1 292 605 milionů USD) vykazuje nejnižší 'Celkový kapitálový poměr' (12,80 %), zatímco sloupec s nejnižšími aktivy (1 162 884 milionů USD) vykazuje nejvyšší 'Celkový kapitálový poměr' (17,08 %)."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Který finanční ukazatel k 31. prosinci 2015 vykazuje neobvykle velký rozdíl mezi 'pokročilým' a 'standardizovaným' přístupem, vzhledem k tomu, že jeho primární složky jsou totožné?",
+    "answer": [
+      [
+        "Celkový kapitál vykazuje neobvykle velký rozdíl. Jak vlastní kapitál Tier 1, tak kapitál Tier 1 mají u obou přístupů pro rok 2015 totožné hodnoty. Celkový kapitál se však liší o více než 12 miliard USD (186 097 milionů USD vs. 198 655 milionů USD), což naznačuje, že celý rozdíl je způsoben výpočtem kapitálu Tier 2, čímž se stává odlehlou hodnotou."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "Navzdory nekonzistentním záhlavím sloupců pro obě zobrazená období, které kapitálové částky (v milionech dolarů) jsou vykazovány s identickými hodnotami pro přístupy 'Pokročilý' i 'Standardizovaný' v každém příslušném období?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "Pokud by se celková rizikově vážená aktiva banky podle pokročilé metody zvýšila, zatímco celkový kapitál by zůstal konstantní, co by se stalo s poměrem celkového kapitálu?",
+    "answer": [
+      [
+        "Poměr celkového kapitálu by klesl, protože vyšší rizikově vážená aktiva při nezměněném kapitálu snižují poměr kapitálu."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

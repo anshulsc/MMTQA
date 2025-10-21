@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_21abc3652e_001",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Selain 'total commercialcommitments', komitmen mana yang punya nilai total terbesar?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_002",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Berapa total komitmen komersial, dalam jutaan, yang akan berakhir di tahun 2015 dan 2016 digabung?",
+    "answer": [
+      [
+        "78"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_21abc3652e_003",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Sebutin tahun dan nama fasilitasnya kalo ada satu fasilitas yang ngabisin lebih dari 98% total pengeluaran tahun itu.",
+    "answer": [
+      [
+        "2017",
+        "receivables securitization facility [b]"
+      ],
+      [
+        "2019",
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "G5",
+      "A2",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_004",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasin dong tren total komitmen yang kedaluwarsa dari 2015 sampai 2019.",
+    "answer": [
+      [
+        "Trennya naik turun banget dan nggak ada pola yang stabil. Mulai dari $46 juta di 2015, turun jadi $32 juta di 2016, terus meroket sampai puncaknya $660 juta di 2017. Habis itu, anjlok jadi cuma $11 juta di 2018 sebelum naik lagi ke titik tertinggi $1708 juta di 2019. Polanya ditandai sama fluktuasi ekstrem, bukan pertumbuhan atau penurunan yang konsisten."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_005",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Sebutin dong tipe komitmen yang jumlah kedaluwarsanya lebih dari nol di tahun 2016 dan 2019.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "G1",
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_006",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Berapa persen total komitmen 'guarantees [c]' yang habis masa berlakunya setelah 2019?",
+    "answer": [
+      [
+        "18.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_21abc3652e_007",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Kalau komitmen 'fasilitas kredit [a]' lebih rendah 50%, berapa nilai baru 'total komitmen komersial'?",
+    "answer": [
+      [
+        "$ 1622"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_008",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data yang diberikan, hubungan apa yang bisa disimpulkan antara total jumlah komitmen tertentu dan distribusi waktu jatuh temponya?",
+    "answer": [
+      [
+        "Ada hubungan terbalik yang tampaknya ada. Dua komitmen terbesar ('fasilitas kredit' sebesar $1700M dan 'fasilitas sekuritisasi piutang' sebesar $650M) jatuh tempo dalam satu pembayaran sekaligus di tahun tertentu. Sebaliknya, komitmen yang lebih kecil ('jaminan' dan 'surat kredit siaga') memiliki jumlah jatuh tempo yang tersebar di beberapa periode."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "G1",
+      "A2",
+      "B2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_21abc3652e_009",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Kolom tahun spesifik mana (2015-2019) yang punya jumlah komitmen individu paling sedikit dengan nilai kedaluwarsa lebih dari nol?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_010",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Kalau lihat baris 'total commercialcommitments', jumlah kedaluwarsa tahun berapa yang paling beda banget dibanding median dari periode 2015 sampai setelah 2019?",
+    "answer": [
+      [
+        "2019"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_21abc3652e_011",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Berapa total komitmen komersial (dalam jutaan) selama tahun 2015–2019?",
+    "answer": [
+      [
+        "2457"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

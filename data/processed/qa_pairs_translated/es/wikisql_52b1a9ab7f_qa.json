@@ -1,0 +1,279 @@
+[
+  {
+    "question_id": "wikisql_52b1a9ab7f_001",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "value",
+    "question": "¿Cuál es la población total de Tujia en los condados listados para la provincia de Hubei?",
+    "answer": [
+      [
+        "691008"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D6",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A15",
+      "D15"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_52b1a9ab7f_002",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "value",
+    "question": "Identifica el condado con la mayor población Tujia y el condado con la menor población Tujia de toda la lista.",
+    "answer": [
+      [
+        "Highest: Youyang"
+      ],
+      [
+        "Lowest: Wulingyuan"
+      ]
+    ],
+    "evidence_cells": [
+      "C11",
+      "D11",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_52b1a9ab7f_003",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "value",
+    "question": "Enumera todos los condados de la provincia de Hunan donde la población Tujia es superior a 100.000.",
+    "answer": [
+      [
+        "Cili"
+      ],
+      [
+        "Yongshun"
+      ],
+      [
+        "Yuanling"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "D4",
+      "A7",
+      "C7",
+      "D7",
+      "A10",
+      "C10",
+      "D10",
+      "A12",
+      "D12",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_52b1a9ab7f_004",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "value",
+    "question": "¿Qué provincia tiene la mayor población promedio de Tujia por condado listado? Proporcione el nombre de la provincia.",
+    "answer": [
+      [
+        "Chongqing"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A10",
+      "D10",
+      "A11",
+      "D11",
+      "A12",
+      "D12",
+      "A13",
+      "D13",
+      "A14",
+      "D14",
+      "A15",
+      "D15",
+      "A16",
+      "D16",
+      "A17",
+      "D17"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_52b1a9ab7f_005",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de la población total de Tujia de Guizhou, según lo indicado en esta tabla, proviene del condado de Sinan? Redondea tu respuesta a dos decimales.",
+    "answer": [
+      [
+        "45.17%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A8",
+      "D8",
+      "A17",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_52b1a9ab7f_006",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "open_ended_reasoning",
+    "question": "Dentro de la prefectura de 'Enshi' en Hubei, ¿qué condado tiene una población Tujia que es un valor atípico en comparación con los otros listados para esa prefectura, y por qué?",
+    "answer": [
+      [
+        "El condado de Laifeng es un valor atípico notable. Su población de 93,471 es significativamente menor que la de Badong (212,424) y Jianshi (173,984), ambos con poblaciones casi el doble o más que la de Laifeng."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_52b1a9ab7f_007",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "value",
+    "question": "¿Cuántas prefecturas únicas se enumeran para la provincia de Hunan en este conjunto de datos?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7",
+      "A10",
+      "B10",
+      "A12",
+      "B12",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_52b1a9ab7f_008",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "value",
+    "question": "¿Si la población Tujia en Wuchuan, Guizhou, disminuyera un 15%, cuál sería su nueva población, redondeada al número entero más cercano?",
+    "answer": [
+      [
+        "39315"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_52b1a9ab7f_009",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "open_ended_reasoning",
+    "question": "Según los datos proporcionados, ¿existe una relación clara entre una prefectura que tiene un gran número de condados listados y la población total de Tujia dentro de esa prefectura? Explica tu razonamiento.",
+    "answer": [
+      [
+        "No, no existe una relación clara. Por ejemplo, la prefectura de Tongren en Guizhou tiene tres condados listados con una población combinada de 308,166. En contraste, la prefectura de Xiangxi en Hunan tiene solo dos condados listados pero una población combinada mayor de 407,297. Esto demuestra que el número de condados listados para una prefectura en esta tabla no es un indicador fiable de su población total de Tujia."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "B7",
+      "D7",
+      "B8",
+      "D8",
+      "B14",
+      "D14",
+      "B17",
+      "D17"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_52b1a9ab7f_010",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "value",
+    "question": "¿Cuál es el \"porcentaje combinado de la población tuya de China\" para los dos condados con las poblaciones más grandes en Chongqing?",
+    "answer": [
+      [
+        "9.02%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "E5",
+      "A11",
+      "D11",
+      "E11",
+      "A16",
+      "D16",
+      "E16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_52b1a9ab7f_011",
+    "table_id": "wikisql_52b1a9ab7f",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué provincia tiene más condados con una población Tujia superior a 200.000 habitantes, y qué podría implicar esto sobre esa provincia?",
+    "answer": [
+      [
+        "Hunan tiene más condados con más de 200.000 habitantes Tujia, lo que sugiere que es un centro clave para la vida cultural y social Tujia."
+      ]
+    ],
+    "evidence_cells": [
+      "A2:A14",
+      "D2:D14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

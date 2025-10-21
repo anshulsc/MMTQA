@@ -1,0 +1,255 @@
+[
+  {
+    "question_id": "finqa_0ecf08700a_001",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "¿Entre las notas específicas (es decir, excluyendo 'papel comercial' y 'otros'), ¿cuál mostró la mayor disminución porcentual en valor de 2014 a 2015?",
+    "answer": [
+      [
+        "4.76% ( 4.76 % ) senior notes due march 2018 ( cad 375m )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_002",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "¿Cuál es la tasa de interés promedio de todos los bonos sénior listados con fecha de vencimiento en la década de 2040?",
+    "answer": [
+      [
+        "4.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "A4",
+      "A10",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_003",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "¿Cuál fue el valor pendiente en 2015 para el instrumento de deuda con la tasa de interés más alta?",
+    "answer": [
+      [
+        "521"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_004",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cómo cambió la deuda total a largo plazo de la empresa desde finales de 2014 hasta finales de 2015?",
+    "answer": [
+      [
+        "La deuda total a largo plazo aumentó en $376, de $4799 en 2014 a $5175 en 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "A19",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_005",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "Identifica todas las obligaciones sénior que tuvieron un valor pendiente superior a 500 en 2015 y que tienen una fecha de vencimiento posterior a 2025.",
+    "answer": [
+      [
+        "4.75% ( 4.75 % ) senior notes due 2045"
+      ],
+      [
+        "4.60% ( 4.60 % ) senior notes due june 2044"
+      ],
+      [
+        "2.875% ( 2.875 % ) senior notes due may 2026 ( eur 500m )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_006",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "¿Qué proporción de la deuda a largo plazo total en 2015 representaron las '8.205% junior subordinated notes due january 2027'?",
+    "answer": [
+      [
+        "10.07%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "A19",
+      "B19"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_007",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "¿Si el valor del 'papel comercial' en 2015 hubiera disminuido solo un 20% con respecto a su nivel de 2014, cuál habría sido la 'deuda total' para 2015, asumiendo que todos los demás valores de deuda se mantuvieron iguales?",
+    "answer": [
+      [
+        "5821.4"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "B17"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_008",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Según los datos proporcionados para las diversas notas, existe una correlación consistente entre la tasa de interés de una nota y su valor pendiente en 2015? Explique su razonamiento.",
+    "answer": [
+      [
+        "No se observa una correlación consistente y simple en los datos. Por ejemplo, la nota con la tasa de interés más alta (8.205%) tiene un valor pendiente alto de 521, pero la nota con la segunda tasa más alta (6.25%) tiene un valor mucho menor de 298. Por el contrario, algunas de las notas con los valores pendientes más altos, como la nota del 5.00% (valor 599), tienen tasas de interés de rango medio. Esto sugiere que otros factores, como el tamaño de la emisión inicial, probablemente tengan una mayor influencia en el valor pendiente que la tasa de interés por sí sola."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11",
+      "A12",
+      "B12",
+      "A13",
+      "B13",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_009",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "value",
+    "question": "¿Cuál es la década de vencimiento más común para los pagarés que figuran en la lista (senior y junior), y cuántos pagarés vencen en esa década?",
+    "answer": [
+      [
+        "2020s"
+      ],
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_010",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifique el instrumento de deuda cuyo valor de 2015 es un valor atípico significativo y anómalo, que parece representar un año en lugar de un valor monetario, y declare sus valores reportados tanto para 2014 como para 2015.",
+    "answer": [
+      [
+        "El valor atípico es el '3.50% ( 3.50 % ) senior notes due september 2015'. Su valor fue 599 en 2014 y está anómalamente listado como 2014 en 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_0ecf08700a_011",
+    "table_id": "finqa_0ecf08700a",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cómo cambió la deuda a largo plazo total de 2014 a 2015?",
+    "answer": [
+      [
+        "La deuda a largo plazo aumentó de $ 4,799 en 2014 a $ 5,175 en 2015, mostrando un aumento de $ 376."
+      ]
+    ],
+    "evidence_cells": [
+      "A19",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

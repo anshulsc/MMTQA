@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "MarS पद्धतीमध्ये सध्याच्या मार्केटची तुलना सिम्युलेटेड मार्केटशी केली जाते, त्या ॲप्लिकेशनसाठी संबंधित करंट मेथड कशाची तुलना करते?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'MarS' पद्धतीचा वापर करणाऱ्या आणि 'जनरेशन' (generation) किंवा 'सिम्युलेशन' (simulation) यांचा समावेश असलेल्या अनुप्रयोगांची (applications) टक्केवारी किती आहे?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'शोध' (Detection) ॲप्लिकेशनसाठी MarS पद्धत 'सध्याच्या पद्धतीं'मध्ये (Current Methods) वापरल्या जाणार्‍या वेळेवर आधारित तुलनेत कसा बदल करते?",
+    "answer": [
+      [
+        "'शोध' (Detection) साठी 'सध्याच्या पद्धतीं' (Current Methods) वर्तमानातील बाजार स्थिती (market_now) आणि भूतकाळातील बाजार स्थिती (market_past) यातील फरक मोजून ऐतिहासिक तुलनेवर अवलंबून असतात. MarS पद्धत भूतकाळातील डेटावरील ही अवलंबित्व काढून टाकते. त्याऐवजी, ती वर्तमानातील बाजाराची (market_now) तुलना समकालीन सिम्युलेटेड बाजाराशी (simu-market_now) करते, ज्यामुळे तुलना वेळेवर आधारित (आत्ता वि. तेव्हा) ऐवजी मॉडेल-आधारित (वास्तविक वि. सिम्युलेटेड) चौकटीत बदलते."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "ज्या सर्व ॲप्लिकेशन्समध्ये 'MarS' पद्धतीचे वर्णन 'pipeline' किंवा 'generation' म्हणून केले आहे, त्यासाठी 'Current Methods' ची यादी करा.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'सध्याच्या पद्धती' (Current Methods) आणि 'MarS' यांच्यातील दृष्टिकोनात सर्वात मूलभूत बदल कोणत्या ॲप्लिकेशनमध्ये दिसून येतो, जिथे ऐतिहासिक तुलनेऐवजी सिम्युलेटेड (simulated) तुलनेकडे वाटचाल केली जाते?",
+    "answer": [
+      [
+        "डिटेक्शन (Detection) ॲप्लिकेशनमध्ये सर्वात मूलभूत बदल दिसून येतो. सध्याची पद्धत ऐतिहासिक, भूतकाळाकडे पाहणाऱ्या तुलनेवर (Diff(market_now, market_past)) अवलंबून आहे. याउलट, MarS पद्धत समकालीन सिम्युलेटेड वास्तवाशी (Diff(market_now, simu-market_now)) तुलना करते. ऐतिहासिक आधारावरून तुलनेच्या सिम्युलेटेड आधाराकडे झालेला हा बदल, तक्त्यामधील इतर पद्धतशीर बदलांच्या तुलनेत एक महत्त्वपूर्ण संकल्पनात्मक बदल आहे."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'RL Environment' साठी 'MarS' दृष्टिकोन समान अनुप्रयोगासाठी 'Current Methods' च्या डेटा उपलब्धतेचा वापर करण्यासाठी सुधारित केल्यास, या काल्पनिक MarS पद्धतीची कोणती दोन वैशिष्ट्ये परिभाषित करतील?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "'RL Environment' ऍप्लिकेशनसाठी, 'Current Methods' आणि 'MarS' यांच्यातील डेटा उपलब्धता आणि संभाव्यता वितरणातील मुख्य फरक काय आहे?",
+    "answer": [
+      [
+        "डेटाचे प्रमाण आणि संक्रमण संभाव्यतेची सत्यता या दोन्हीमध्ये मुख्य फरक आहे. 'Current Methods' हे 'मर्यादित डेटा' आणि 'खोट्या' संभाव्यता वितरणावर (P(st+1|st,at)) अवलंबून असतात, तर 'MarS' 'अमर्यादित डेटा' आणि 'वास्तविक' संभाव्यता वितरणाचा वापर करते."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "'सध्याच्या पद्धती' (Current Methods) किंवा 'मार्स' (MarS) यांच्या पद्धतींच्या वर्णनांमध्ये 'डेटा' (data) हा शब्द असलेले किती विशिष्ट ॲप्लिकेशन्स (applications) नमूद केले आहेत?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "टेबलनुसार, MarS ची Current Methods च्या तुलनेत स्पष्ट व्यापक(overarching) आघाडी काय आहे, विशेषतः डेटा आणि वास्तव प्रतिनिधित्वाच्या संदर्भात?",
+    "answer": [
+      [
+        "व्यापक दृष्टिकोन सूचित करतो की MarS पद्धती जनरेटिव्ह (generative) आणि सिम्युलेशन-आधारित दृष्टिकोन वापरून ऐतिहासिक किंवा मर्यादित डेटाच्या मर्यादांवर मात करण्याचे उद्दिष्ट ठेवतात. MarS एक्स्ट्रॅपॉलेशन (extrapolation) वरून जनरेशनकडे (generation), ऐतिहासिक तुलनेवरून सिम्युलेटेड तुलनेकडे (simulated comparison) आणि मर्यादित/खोट्या डेटा मॉडेल्सवरून (finite/fake data models) अनंत/वास्तविक डेटा मॉडेल्सकडे (infinite/real data models) सरकतो. हे विश्लेषण आणि रीइन्फोर्समेंट लर्निंगसाठी (reinforcement learning) अधिक मजबूत, लवचिक आणि वास्तववादी डेटा वातावरण तयार करण्यात एक धोरणात्मक फायदा दर्शवते."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "हेडर पंक्ती वगळता, टेबलमध्ये किती स्वतंत्र ॲप्लिकेशन्सचे तपशीलवार वर्णन केले आहे?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Forecasting साठी कोणती चालू पद्धत वापरली जाते?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

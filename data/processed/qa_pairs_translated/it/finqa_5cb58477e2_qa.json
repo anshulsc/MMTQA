@@ -1,0 +1,337 @@
+[
+  {
+    "question_id": "finqa_5cb58477e2_001",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Qual è il numero totale di camere in tutti gli hotel situati in Florida?",
+    "answer": [
+      [
+        "3537"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A12",
+      "B12",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_002",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Quale hotel 'di proprietà' ha il minor numero di camere?",
+    "answer": [
+      [
+        "loews hotel vogue montreal canada"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9",
+      "A11",
+      "B11",
+      "C11",
+      "A16",
+      "B16",
+      "C16",
+      "A18",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_003",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Qual è il numero medio di camere per gli hotel che operano con un accordo di 'contratto di locazione del terreno'?",
+    "answer": [
+      [
+        "398.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_004",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Quale hotel ha la scadenza del contratto di locazione o di gestione più vicina tra quelli menzionati nei dati?",
+    "answer": [
+      [
+        "loews regency hotel new york new york"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A7",
+      "C7",
+      "A8",
+      "C8",
+      "A10",
+      "C10",
+      "A13",
+      "C13",
+      "A15",
+      "C15",
+      "A17",
+      "C17"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_005",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Elenca i nomi di tutti gli hotel situati a Orlando che hanno più di 700 camere e sono gestiti tramite un contratto di gestione.",
+    "answer": [
+      [
+        "loews portofino bay hotel at universal orlando orlando florida"
+      ],
+      [
+        "loews royal pacific resort at universal orlando orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_006",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Quale percentuale delle stanze del portafoglio totale si trova nell'unico hotel con il maggior numero di stanze?",
+    "answer": [
+      [
+        "12.48%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_007",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Se tutti gli hotel con contratti di 'locazione del terreno' venissero convertiti in status di 'proprietà' e venisse eseguita un'espansione del 10% delle loro stanze, quale sarebbe il nuovo numero totale di stanze per la categoria 'proprietà'?",
+    "answer": [
+      [
+        "3581"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B7",
+      "C7",
+      "B9",
+      "C9",
+      "B11",
+      "C11",
+      "B13",
+      "C13",
+      "B16",
+      "C16",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_008",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una relazione osservabile tra il modello di proprietà dell'hotel e le sue dimensioni? Giustifica la tua risposta.",
+    "answer": [
+      [
+        "Sì, esiste una relazione osservabile. Gli hotel sotto un 'contratto di gestione' tendono ad essere significativamente più grandi in media (circa 513 camere) rispetto agli hotel 'di proprietà' (circa 377 camere) e a quelli con 'contratto di locazione' (circa 398 camere). Ciò è evidente poiché i tre hotel più grandi, tutti situati a Orlando, sono sotto contratti di gestione, suggerendo una strategia di gestione, piuttosto che di proprietà, delle proprietà più grandi in stile resort."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_009",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "La colonna 'owned leased or managed' (di proprietà, in leasing o gestito) combina una categoria primaria con dettagli supplementari e variabili. Fornire un esempio di una cella in cui questa struttura è evidente ed elencare i pezzi distinti di informazione.",
+    "answer": [
+      [
+        "La colonna 'owned leased or managed' dimostra questa struttura. Ad esempio, la cella C13 contiene la categoria primaria 'land lease' (affitto del terreno) insieme ai dettagli supplementari 'expiring 2013 with renewal option for 47 years' (in scadenza nel 2013 con opzione di rinnovo per 47 anni)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_010",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale hotel presenta l'anomalia positiva più significativa nel numero di camere rispetto alla media generale e secondo quale metrica?",
+    "answer": [
+      [
+        "Il Loews Royal Pacific Resort è l'anomalia positiva più significativa. Le sue 1000 camere sono il numero più alto della lista e sono circa il 124% in più rispetto alla media del portafoglio di circa 445 camere, rendendolo sostanzialmente più grande di qualsiasi altra struttura."
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_011",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Quanti hotel sono di proprietà?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "A9",
+      "A11",
+      "A16",
+      "A18",
+      "C1",
+      "C3",
+      "C9",
+      "C11",
+      "C16",
+      "C18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "在 MarS 方法将当前市场与模拟市场进行比较的应用中，对应当前方法比较的是什么？",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "列表中有多少百分比的应用使用了涉及“生成”或“模拟”的“MarS”方法？",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "MarS 方法在“检测”应用中，如何改变“当前方法”所使用的基于时间的比较方式？",
+    "answer": [
+      [
+        "“当前方法”在“检测”应用中，依赖于历史比较，通过计算当前市场状态（market_now）与过去市场状态（market_past）之间的差异来实现。MarS 方法消除了对过去数据的依赖。取而代之的是，它将当前市场（market_now）与同时模拟的市场（simu-market_now）进行比较，将比较方式从时间（现在 vs. 过去）转移到基于模型（真实 vs. 模拟）的框架。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "列出所有“MarS”方法被描述为“pipeline”或涉及“generation”的应用的“Current Methods”。",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "哪个应用在“当前方法”和“MarS”之间展示了最根本的方法论转变，从历史比较转向模拟比较？",
+    "answer": [
+      [
+        "“检测”应用展示了最根本的方法论转变。当前方法依赖于时间上的、回顾性的比较（Diff(market_now, market_past)）。相比之下，MarS 方法引入了与同期模拟现实的比较（Diff(market_now, simu-market_now)）。这种从基于历史到基于模拟的比较基础的改变，与表中其他方法论转变相比，是一个显著的概念性特例。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "如果将'MarS'在'RL Environment'中的方法修改为使用相同应用'Current Methods'的数据可用性，那么这种假设的MarS方法将具有哪两个特征？",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "对于“RL Environment”这一应用，在“Current Methods”和“MarS”之间，数据可用性和概率分布的关键区别是什么？",
+    "answer": [
+      [
+        "关键区别在于数据量和转移概率的真实性。“Current Methods”依赖于“有限数据”和“伪造”的概率分布（P(st+1|st,at)），而“MarS”则利用“无限数据”和“真实”的概率分布。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "在“当前方法”或“MarS”的方法描述中，有多少项明确的应用提到了“数据”一词？",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "根据表格，MarS 相较于当前方法的主要优势是什么，特别是在数据和现实表示方面？",
+    "answer": [
+      [
+        "总体主题表明，MarS 方法旨在通过利用生成和基于仿真的方法来克服历史或有限数据的局限性。MarS 从外推转向生成，从历史比较转向模拟比较，从有限/虚假数据模型转向无限/真实数据模型。这表明在为分析和强化学习创建更强大、更灵活、更现实的数据环境方面具有战略优势。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "不包括表头行，表中详细说明了多少个不同的应用？",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "用于预测的当前方法是什么？",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

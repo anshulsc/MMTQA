@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_c8712e7938_001",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "2003년부터 2005년까지 '보고된 순손실'의 추세를 설명해 주십시오.",
+    "answer": [
+      [
+        "보고된 순손실은 꾸준히 감소하는 추세를 보이며 재무 상태가 개선되고 있음을 나타냅니다. 손실액은 2003년 325,321달러에서 2004년 247,587달러로 감소했으며, 2005년에는 171,590달러로 더욱 줄었습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_002",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "2003년, '주식 기반 보상 비용을 제외한 순손실(Pro-forma net loss)'과 '보고된 순손실(net loss as reported)' 간의 절대값 차이가 가장 컸던 연도는 언제입니까?",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_003",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "총 3개 연도의 '주식 기반 직원 보상 비용'을 모두 더하면 얼마입니까?",
+    "answer": [
+      [
+        "11478"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8712e7938_004",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "가장 적은 '기본 및 희석 주당 순손실(보고 기준)'을 기록한 연도의 '조정 순손실' 절대값 대비 '보고 순손실' 절대값의 비율은 얼마입니까? 소수점 셋째 자리까지 반올림하십시오.",
+    "answer": [
+      [
+        "1.088"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_005",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "'공정 가치 기준 방식에 따라 결정된 총 주식 기반 직원 보상 비용'의 절대값이 25,000달러를 초과한 연도를 나열해 주십시오.",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_006",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "2004년, '총 주식 기반 직원 보상 비용' 조정이 '추정 순손실'에서 차지하는 비율은 얼마입니까? 소수점 둘째 자리까지 반올림하십시오.",
+    "answer": [
+      [
+        "8.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8712e7938_007",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "2005년에 가산된 '주식 기준 종업원 보상 비용'이 50% 더 낮았다면, 해당 연도의 새로운 '추정 순손실'은 얼마였을까요?",
+    "answer": [
+      [
+        "$ -190276 ( 190276 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_008",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "지출 조정 항목('add' 또는 'less') 중에서 가장 큰 연간 변화율을 보인 항목은 무엇이며, 어느 두 해 사이에 발생했습니까?",
+    "answer": [
+      [
+        " 'add : stock-based employee compensation expense' 항목이 가장 큰 변화를 보였습니다. 이는 2004년의 2,297달러에서 2005년의 7,104달러로 209% 이상 증가했으며, 이는 표의 다른 연간 변화에 비해 상당한 특이치입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8712e7938_009",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "'보고된 순손실'과 '추정 순손실' 간의 3년간의 관계는 무엇입니까?",
+    "answer": [
+      [
+        "매년 '추정 순손실'이 '보고된 순손실'보다 항상 더 큰 규모라는 직접적이고 일관된 관계가 있습니다. 두 지표 모두 2003년부터 2005년까지 개선되는 추세(손실 감소)를 보이며, 이는 주식 기반 보상 조정이 계산된 손실을 증가시키지만, 근본적인 사업 성과 추세는 두 측정치 모두에서 일관됨을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8712e7938_010",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "표의 구조에 따르면, '보고된 순손실', '추가' 항목, '차감' 항목이 '추정 순손실'과 연결되는 산술 연산은 무엇입니까? 2003년 데이터를 사용하여 검증하십시오.",
+    "answer": [
+      [
+        "공식은 다음과 같습니다: ('보고된 순손실') + ('스톡 기반 직원 보상 비용...') - ('총 스톡 기반 직원 보상 비용...'). 2003년 데이터를 사용하면: (-325321) + (2077) - (31156) = -354400으로 해당 연도의 '추정 순손실'과 일치합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_011",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "2003년부터 2005년까지 보고된 순손실은 어떻게 변동했습니까?",
+    "answer": [
+      [
+        "보고된 순손실은 2003년 325,321달러에서 2005년 171,590달러로 감소했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

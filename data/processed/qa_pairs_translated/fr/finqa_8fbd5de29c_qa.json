@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_8fbd5de29c_001",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Quelle période, 2009 ou l'année précédente, avait une valeur absolue plus importante pour les \"pertes nettes\" qui ont été payées ?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_002",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Quelle est la somme de tous les ajustements positifs (engagés, autres et acquis) du solde des 'pertes brutes de 2009' durant l'année ?",
+    "answer": [
+      [
+        "13713"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_003",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Pour la période (2009 ou l'année précédente) qui a connu le plus grand changement absolu dans son solde de 'recouvrement de réassurance' du début à la fin de l'année, quelle était la valeur des 'pertes nettes' encourues ?",
+    "answer": [
+      [
+        "7603"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "F1",
+      "F6",
+      "G2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_004",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "En vous basant sur les soldes de début et de fin, analysez l'évolution globale du passif des \"pertes nettes\" depuis le début de la première période jusqu'à la fin de la deuxième période (2009).",
+    "answer": [
+      [
+        "Le passif des \"pertes nettes\" a augmenté sur la période de deux ans. Il a commencé à 23 592 millions de dollars au début de la première période et s'est terminé à 25 038 millions de dollars à la fin de 2009. Cela représente une augmentation totale de 1 446 millions de dollars, indiquant que les obligations nettes de l'entreprise découlant des pertes ont augmenté pendant cette période."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_005",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Listez toutes les catégories de dépenses ou d'ajustement où la valeur absolue des 'pertes nettes 2009' était supérieure à la valeur correspondante de l'année précédente.",
+    "answer": [
+      [
+        "losses and loss expenses paid",
+        "other ( including foreign exchange revaluation )",
+        "losses and loss expenses acquired"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_006",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Quel pourcentage des 'pertes brutes payées' en 2009 a été couvert par la 'recouvrable de réassurance' ?",
+    "answer": [
+      [
+        "37.37%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_007",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Si le montant 'autres (y compris réévaluation des changes)' pour 2009 avait été de -500 millions de dollars au lieu de 559 millions de dollars, quel aurait été le nouveau 'solde de fin d'année' pour les 'pertes brutes 2009' ?",
+    "answer": [
+      [
+        "$36724"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_008",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelles preuves dans le tableau démontrent la relation fondamentale entre les pertes brutes, les récupérations de réassurance et les pertes nettes ?",
+    "answer": [
+      [
+        "Les données démontrent de manière cohérente la relation comptable où les 'pertes nettes' résultent de la soustraction des 'récupérations de réassurance' des 'pertes brutes'. Par exemple, dans la ligne 'solde début d'année' pour 2009, la perte nette de 24 241 $ est précisément la différence entre la perte brute de 37 176 $ et la récupération de réassurance de 12 935 $. Cette arithmétique est valable pour tous les points de données correspondants dans les deux périodes, confirmant leur corrélation directe."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_009",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel en-tête de colonne est probablement un doublon mal étiqueté, et quelles preuves structurelles au sein du tableau soutiennent cette conclusion ?",
+    "answer": [
+      [
+        "L'en-tête '2009 gross losses' pour la cinquième colonne est probablement un doublon mal étiqueté de l'en-tête de la deuxième colonne. La preuve en est que les valeurs 'balance end of year' dans l'ensemble de colonnes de droite (E, F, G) correspondent parfaitement aux valeurs 'balance beginning of year' dans l'ensemble de colonnes de gauche (B, C, D). Cela indique une séquence chronologique, ce qui signifie que les colonnes de droite représentent l'année précédente (par exemple, 2008), et non 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E6",
+      "F6",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_010",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiez la valeur numérique dans les données de 2009 qui représente une anomalie claire en raison de son incohérence mathématique avec les colonnes connexes dans la même ligne.",
+    "answer": [
+      [
+        "La valeur '2013' pour 'pertes nettes 2009' dans la ligne 'pertes et frais de sinistres acquis' est une anomalie claire. Dans toutes les autres lignes, Pertes Netttes = Pertes Brutes - Indemnisation de réassurance. Pour cette ligne, le calcul devrait être 2013 - 2013 = 0. Cependant, le tableau indique une perte nette de 2013, ce qui est une impossibilité mathématique compte tenu des autres chiffres de sa ligne et de la formule établie."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_011",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Quel était le solde en millions au début de l'année pour les sinistres bruts ?",
+    "answer": [
+      [
+        "$37,176"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

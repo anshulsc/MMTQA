@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_04f8db9765_001",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasna tren 'rugi bersih kaya sing dilaporake' saka taun 2000 nganti 2002.",
+    "answer": [
+      [
+        "Kerugian 'rugi bersih kaya sing dilaporake' nuduhake tren kerugian sing saya akeh sajrone telung taun. Kerugian kasebut tikel luwih saka $194.628 ing taun 2000 dadi $450.094 ing taun 2001, banjur tikel maneh dadi $1.141.879 ing taun 2002, nuduhake kinerja finansial sing saya elek saben taun."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_002",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Pira total 'pro-forma net loss' sing ketumpuk ing telung taun sing ana ing tabel?",
+    "answer": [
+      [
+        "-1926453"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_04f8db9765_003",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Nang taun pira prabédan absoluté antara 'dilaporaké' lan 'pro-forma' kerugian nett saben saham dasar lan diluté kuwi paling cilik?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_004",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Ngitung 'total stock-based employee compensation expense' pira persene saka 'net loss as reported' kanggo taun 2001.",
+    "answer": [
+      [
+        "11.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_04f8db9765_005",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Taun pira, yen ana, sing rugi 'net loss as reported' luwih saka $400.000 nanging rugi 'pro-forma net loss' kurang saka $600.000?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "C1",
+      "C3",
+      "D1",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_006",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Nang taun pira kerugian pro-forma mundhak paling gedhe dibandhingake taun sadurunge?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_04f8db9765_007",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Nek 'total stock-based employee compensation expense' taun 2000 mundhak 20%, pira 'pro-forma net loss'-e taun kuwi?",
+    "answer": [
+      [
+        "-256041.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_008",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Metrik endi sing luwih gedhe magnitude ing taun 2002: 'net loss as reported' utawa 'pro-forma net loss'?",
+    "answer": [
+      [
+        "pro-forma net loss"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_009",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Miturut data sing diwenehake, apa gayutan antarane 'rugi bersih sing dilapurake' lan 'biaya kompensasi karyawan adhedhasar saham' sajrone telung taun?",
+    "answer": [
+      [
+        "Ana gayutan sing ora seimbang antarane rong metrik kasebut. Nalika 'rugi bersih sing dilapurake' mundhak kanthi signifikan saka taun 2000 nganti 2002, 'biaya kompensasi karyawan adhedhasar saham' saya suda saben taun. Iki nuduhake yen nalika kerugian perusahaan saya gedhe, bisa uga ngurangi kompensasi adhedhasar saham."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_04f8db9765_010",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "Piye ta pengaruh 'pro-forma' marang 'basic and diluted net loss per share' dibanding karo angka 'as reported' nang kabeh taun?",
+    "answer": [
+      [
+        "Penyesuaian 'pro-forma' iki pancen nggawe rugi per saham saya gedhe ing saben taun sing ditampilake. Iki nuduhake yen item sing disesuaikan, kayata biaya kompensasi berbasis saham, mesthi ngasilake kerugian sing luwih gedhe ing basis per saham."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_011",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "Piro kerugian sing dilapurke ing taun 2001?",
+    "answer": [
+      [
+        "$ -450094 ( 450094 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

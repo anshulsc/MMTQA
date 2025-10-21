@@ -1,0 +1,287 @@
+[
+  {
+    "question_id": "finqa_5746918ca8_001",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "¿En qué año fue la 'pérdida neta por la cancelación de deuda a largo plazo' la mayor?",
+    "answer": [
+      [
+        "2011"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_002",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "¿Cuál fue la 'amortización de intangibles' total en millones de 2011 a 2015?",
+    "answer": [
+      [
+        "825.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5746918ca8_003",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "¿Cuál fue el ingreso neto en el año que tuvo la 'compensación en acciones no monetaria' más baja?",
+    "answer": [
+      [
+        "$ 132.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_004",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Describa la tendencia de los 'ingresos netos no PCGA' de 2011 a 2015 según los datos proporcionados.",
+    "answer": [
+      [
+        "Los 'ingresos netos no PCGA' muestran una tendencia de crecimiento positivo constante y fuerte durante el período de cinco años, aumentando cada año de $198.8 millones en 2011 a $503.5 millones en 2015."
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "E10",
+      "D10",
+      "C10",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_005",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "¿Identifica todos los rubros financieros que tuvieron un valor mayor en 2015 en comparación con 2014, excluyendo los rubros con datos no numéricos para 2014?",
+    "answer": [
+      [
+        "net income"
+      ],
+      [
+        "amortization of intangibles ( a )"
+      ],
+      [
+        "non-cash equity-based compensation"
+      ],
+      [
+        "other adjustments ( e )"
+      ],
+      [
+        "aggregate adjustment for income taxes ( f )"
+      ],
+      [
+        "non-gaap net income ( g )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_006",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "¿En 2015, qué porcentaje del 'ingreso neto no GAAP ( g )' representó el 'ingreso neto'? Proporcione la respuesta redondeada a un decimal.",
+    "answer": [
+      [
+        "80.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5746918ca8_007",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "Asumiendo que la 'utilidad neta no GAAP' es la suma de la 'utilidad neta' y todos los ajustes listados, ¿cuál habría sido la 'utilidad neta no GAAP' para 2013 si la 'amortización de intangibles (a)' hubiera sido un 10% menor ese año? (en millones)",
+    "answer": [
+      [
+        "298.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_008",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Según los datos de 2011 a 2015, cuál es la relación aparente entre la 'utilidad neta' y la 'utilidad neta no GAAP (g)'?",
+    "answer": [
+      [
+        "Existe una fuerte correlación positiva entre la 'utilidad neta' y la 'utilidad neta no GAAP'. Durante el período de cinco años, a medida que la 'utilidad neta' aumentó consistentemente de 17.1 millones de dólares a 403.1 millones de dólares, la 'utilidad neta no GAAP' también aumentó consistentemente de 198.8 millones de dólares a 503.5 millones de dólares, lo que indica que ambas métricas se movieron en la misma dirección."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5746918ca8_009",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "value",
+    "question": "¿Qué partidas contienen datos de marcador de posición no numéricos para uno o más años entre 2011 y 2014?",
+    "answer": [
+      [
+        "non-cash equity-based compensation related to equity investment ( b )"
+      ],
+      [
+        "acquisition and integration expenses ( c )"
+      ],
+      [
+        "gain on remeasurement of equity investment ( d )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5746918ca8_010",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué año tuvo una 'pérdida neta por redención de deuda a largo plazo' que parece ser un valor atípico en comparación con los otros años del período, y por qué?",
+    "answer": [
+      [
+        "El año 2011 tuvo un valor atípico para la 'pérdida neta por redención de deuda a largo plazo'. La pérdida fue de $118.9 millones, lo cual es significativamente mayor que en cualquier otro año, siendo más de un 30% mayor que el siguiente valor más alto ($90.7 millones en 2014) y casi siete veces el valor más bajo ($17.2 millones en 2012)."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5746918ca8_011",
+    "table_id": "finqa_5746918ca8",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cómo cambió la utilidad neta no GAAP de 2011 a 2015, y qué ajustes contribuyeron más a este cambio?",
+    "answer": [
+      [
+        "La utilidad neta no GAAP aumentó de 198.8 millones de dólares en 2011 a 503.5 millones de dólares en 2015. Los principales ajustes que contribuyeron incluyen la amortización de intangibles, la compensación en acciones no monetaria, la pérdida neta por la liquidación de deuda a largo plazo y el ajuste agregado para impuestos sobre la renta, que se aplicaron secuencialmente a la utilidad neta para llegar a las cifras no GAAP."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9",
+      "F9",
+      "A10",
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "finqa_3c80694e4f_001",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "2011년부터 2012년까지 '매출채권 및 기타 수취채권'과 '금융채권' 중 어느 항목이 절대값 기준으로 더 큰 증가를 보였습니까?",
+    "answer": [
+      [
+        "finance receivables 2013 net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_002",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "2011년 '차입금'과 '매입채무' 부채의 합산 금액(백만 단위)은 얼마였습니까?",
+    "answer": [
+      [
+        "-140.8"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_003",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "2011년부터 2012년까지 가장 작은 절대값 변화를 보인 유동 부채 항목의 2011년 값은 얼마입니까?",
+    "answer": [
+      [
+        "-443.0 ( 443.0 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_004",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "open_ended_reasoning",
+    "question": "회사의 2011년부터 2012년까지 운전 자본 추세를 설명하고 이것이 회사의 재정 건전성에 대해 무엇을 나타내는지 설명해 주십시오.",
+    "answer": [
+      [
+        "회사의 운전 자본은 2011년 9억 4,690만 달러에서 2012년 10억 7,980만 달러로 1억 3,290만 달러 증가했습니다. 이러한 긍정적인 추세는 회사가 유동성 및 단기 재정 건전성이 개선되었음을 나타내며, 이는 현재 부채를 현재 자산으로 충당할 수 있는 능력이 더 커졌음을 보여줍니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_005",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "2012년에 4억 달러 이상이었던 모든 유동 자산 범주를 나열해 주십시오.",
+    "answer": [
+      [
+        "trade and other accounts receivable 2013 net"
+      ],
+      [
+        "inventories 2013 net"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_006",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "'재고자산'이 2012년 총 유동자산에서 차지하는 비중은 얼마이며, 백분율로 표시하여 소수점 둘째 자리까지 반올림하시오?",
+    "answer": [
+      [
+        "24.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_007",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "2012년 '현금 및 현금성 자산'이 10% 더 낮았다면, 2012년 '총 유동 자산'은 얼마였을까요 (단위: 백만)?",
+    "answer": [
+      [
+        "1647.55"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_008",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "open_ended_reasoning",
+    "question": "2011년부터 2012년까지의 데이터를 바탕으로, 총 유동자산의 증가와 운전자본의 변화 사이에는 어떤 관계가 있다고 볼 수 있습니까?",
+    "answer": [
+      [
+        "강한 양의 관계가 있습니다. 총 유동자산은 1억 3,830만 달러(15억 3,070만 달러에서 16억 6,900만 달러로 증가) 증가한 반면, 총 유동부채의 절대값은 540만 달러(5억 8,380만 달러에서 5억 8,920만 달러로 증가)만 증가했습니다. 결과적으로 운전자본은 1억 3,290만 달러 증가했는데, 이는 자산 증가와 매우 근접한 수치입니다. 이는 자산 증가는 단기 부채의 상응하는 증가에 의해 주로 조달된 것이 아니며, 운전자본 포지션이 직접적으로 강화되었음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "B11",
+      "C11",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_009",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "제공된 값을 기준으로, '총 유동 자산'에서 '총 유동 부채'의 절댓값을 뺀 값으로 계산되는 항목은 무엇입니까?",
+    "answer": [
+      [
+        "working capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_010",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "2011년부터 2012년까지 모든 개별 자산 및 부채 계정 중에서 절대값 기준으로 가장 큰 비율 변화를 보인 계정은 무엇입니까?",
+    "answer": [
+      [
+        "notes payable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_011",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "open_ended_reasoning",
+    "question": "2011년부터 2012년까지 운전자본(단위: 백만 달러)은 어떻게 변동했습니까?",
+    "answer": [
+      [
+        "운전자본은 2011년 9469억 달러에서 2012년 10798억 달러로 증가했으며, 이는 회사의 단기 재정 상태 개선을 보여줍니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

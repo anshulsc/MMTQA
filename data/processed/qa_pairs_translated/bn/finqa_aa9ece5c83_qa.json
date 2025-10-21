@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "কোন আর্থিক ডেটাসেট, কলাম B দিয়ে শুরু হওয়া ডেটাসেট নাকি কলাম E-এর ডেটাসেট, ৩১শে ডিসেম্বর, ২০১৬ শেষ হওয়া বছরের জন্য 'অ্যাডজাস্টেড' অপারেটিং ইনকামে বেশি ছিল?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "প্রথম ডেটা সেটের (কলাম C) জন্য 'অ্যাকাউন্টিং নীতির পরিবর্তন'-এর সমস্ত ডলার-ভিত্তিক সমন্বয়ের মোট যোগফল কত?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "সুদের আয়ের জন্য 'হিসাব নীতির পরিবর্তন' '-414 (414)' ছিল এমন ডেটা সেটের জন্য 'ফাইল করা' সমন্বিত EBITDA মার্জিন কত ছিল?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "প্রথম ডেটা সেটের জন্য (কলাম B-D), 'as filed' নেট আয় এবং 'as filed' অ্যাডজাস্টেড EBITDA-এর অনুপাত কত, তিন দশমিক স্থান পর্যন্ত রাউন্ড করা?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "B থেকে D কলামে উপস্থাপিত ডেটা সেটের জন্য, কোন মেট্রিকটি 'as filed' মানের চেয়ে 'as adjusted' মান কম তা সনাক্ত করুন।",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "'নেট ইনকাম অ্যাজ আ পার্সেন্টেজ অফ সার্ভিস রেভিনিউ' সারিগুলোতে, কোন 'চেঞ্জ ইন অ্যাকাউন্টিং প্রিন্সিপাল' মানটি অস্বাভাবিক বলে মনে হচ্ছে এবং কেন?",
+    "answer": [
+      [
+        "C4 এবং F4 সেলের 'চেঞ্জ ইন অ্যাকাউন্টিং প্রিন্সিপাল' মান '2014% ( 2014 % )' অস্বাভাবিক। উভয় ডেটা সেটের জন্য, 'নেট ইনকাম অ্যাজ আ পার্সেন্টেজ অফ সার্ভিস রেভিনিউ' 'অ্যাজ ফাইলড' এবং 'অ্যাজ অ্যাডজাস্টেড' তথ্যের মধ্যে অপরিবর্তিত থাকে (যথাক্রমে 5% থেকে 5% এবং 3% থেকে 3%)। একটি যৌক্তিক পরিবর্তন 0% হওয়া উচিত, যা '2014%' কে একটি স্পষ্ট ব্যতিক্রম করে তোলে, সম্ভবত ডেটা এন্ট্রি ত্রুটির কারণে।"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "যদি দ্বিতীয় ডেটা সেটে অপারেটিং আয়ের 'হিসাব নীতির পরিবর্তন' দেখানো মানের পরিবর্তে ৫০ মিলিয়ন ডলার হ্রাস পেত, তবে নতুন 'অ্যাডজাস্টেড' অপারেটিং আয় কত হতো?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "উভয় ডেটাসেটের মধ্যে অপারেটিং আয় এবং সমন্বয়কৃত EBITDA-র জন্য অ্যাকাউন্টিং সামঞ্জস্যের মধ্যে কি কোনও সামঞ্জস্যপূর্ণ সম্পর্ক আছে?",
+    "answer": [
+      [
+        "হ্যাঁ, একটি সামঞ্জস্যপূর্ণ ইতিবাচক সম্পর্ক রয়েছে। প্রথম ডেটাসেটে, অপারেটিং আয়ের পরিবর্তন (+$248) সমন্বয়কৃত EBITDA-র পরিবর্তনের (+$248) মতোই। দ্বিতীয় ডেটাসেটে, অপারেটিং আয়ের পরিবর্তন (+$414) সমন্বয়কৃত EBITDA-র পরিবর্তনের (+$414) মতোই। এটি ইঙ্গিত দেয় যে অ্যাকাউন্টিং নীতির পরিবর্তন যা অপারেটিং আয়কে প্রভাবিত করে তা সরাসরি একই পরিমাণে সমন্বয়কৃত EBITDA-তে প্রবাহিত হয়।"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "কলাম হেডারগুলির সবচেয়ে উল্লেখযোগ্য কাঠামোগত সমস্যা কী যা টেবিল ব্যাখ্যা করার সময় বিভ্রান্তি সৃষ্টি করতে পারে?",
+    "answer": [
+      [
+        "প্রাথমিক কাঠামোগত সমস্যা হল উচ্চ-স্তরের গ্রুপিং ছাড়াই কলাম হেডারগুলির নকল হওয়া। 'year ended december 31 2016 as filed' এবং 'year ended december 31 2016 change in accounting principle' হেডারগুলি দুটি ভিন্ন কলাম সেটের (B এবং E; C এবং F) জন্য ব্যবহৃত হয়। এই অস্পষ্টতা ব্যবহারকারীকে অনুমান করতে বাধ্য করে যে দুটি পৃথক সত্তা বা পরিস্থিতি তুলনা করা হচ্ছে, বরং এটি স্পষ্টভাবে উল্লেখ করার পরিবর্তে।"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "'অ্যাডজাস্টেড' মান ব্যবহার করে, উভয় ডেটাসেটের জন্য অনুমিত পরিষেবার আয় (অ্যাডজাস্টেড ইবিটডা / অ্যাডজাস্টেড ইবিটডা মার্জিন) গণনা করুন এবং দুটির মধ্যে লক্ষ লক্ষের পার্থক্য (প্রথম সেট বিয়োগ দ্বিতীয় সেট) রিপোর্ট করুন, নিকটতম পূর্ণ লক্ষ পর্যন্ত রাউন্ড করে।",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "সমন্বয়ের পর 'As Filed' থেকে 'As Adjusted'-এ পরিবর্তিত প্রথম ডেটাসেটের জন্য অপারেটিং আয় (মিলিয়ন ডলারে) কত পরিবর্তন হয়েছে?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

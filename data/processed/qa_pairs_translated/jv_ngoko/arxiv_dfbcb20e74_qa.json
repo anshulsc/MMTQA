@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Model endi sing rumus utamane ana komponen suku bunga bebas risiko?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Ana pira variabel 'X' sing digunakake minangka input ing rumus Z-score Model?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Sebutna model sing nggunakake 'Total aset' minangka denominator ing paling ora telung parameter sing dijelasake, banjur sebutna parameter endi saka model kasebut sing nuduhake rasio 'Market value of equity' marang 'Total liabilities'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Model endi sing nganggo parameter sing wis ditemtokake kanthi cetha diukur 'ing wektu t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Nek tujuane analisis arep nemtokake probabilitas asil biner (y=1), model endi sing ana ing tabel sing paling pas?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Nang model Z-score, pira bobote (koefisien) variabel sing nerangake 'Pendapatan sadurunge bunga lan pajak/Rasio aset', lan piye perbandingane bobot kuwi karo variabel liyane?",
+    "answer": [
+      [
+        "Koefisien kanggo X3 (Rasio pendapetan sadurunge bunga lan pajak/rasio total aset) iku 3.3. Iki bobot paling dhuwur saka kabeh limang variabel, nuduhake yen duwe pengaruh paling signifikan marang Z-score pungkasan dibandhingake karo variabel kaya X1 (1.2), X2 (1.4), X4 (0.6), lan X5 (0.99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Nek versi anyar saka model Z-score ngurangi pengaruh 'rasio modal kerja/total aset' nganti 50%, piro koefisien anyar kanggo X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Miturut rumus Z-score Model, apa sesambungane antarane rasio total penjualan perusahaan marang total aset karo Z-score sing diasilake?",
+    "answer": [
+      [
+        "Ana korelasi positif antarane rasio total penjualan/total aset (X5) lan Z-score. Rumuse nuduhake yen Z-score minangka jumlah bobot saka limang rasio, lan koefisien kanggo X5 iku positif (0.99). Mulane, kabeh faktor liyane tetep padha, kenaikan ing rasio total penjualan marang total aset bakal ngasilake Z-score sing luwih dhuwur."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Model endi sing katrangané isiné jumlah parameter paling akèh sing dijelaské neng kolom katelu?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Nalika mriksa koefisien angka ing rumus Z-score Model, koefisien endi sing katon kaya outlier dibandhingke karo liyane?",
+    "answer": [
+      [
+        "Koefisien 3.3 kanggo variabel X3 minangka outlier sing signifikan. Koefisien liyane ing rumus kasebut yaiku 1.2, 1.4, 0.6, lan 0.99, sing kabeh diklompokake ing rentang antarane 0.6 lan 1.4. Nilai 3.3 luwih saka kaping pindho nilai koefisien paling dhuwur sabanjure (1.4), saengga luwih gedhe tinimbang liyane."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Model endi sing luwih cocok kanggo nebak bali aset, ngelingi faktor pasar lan faktor ukuran/book-to-market, lan kenapa?",
+    "answer": [
+      [
+        "Model Faktor bakal luwih cocok amarga model kasebut kanthi jelas nggabungake pengembalian pasar (r_m - r_f), faktor ukuran (SMB), lan faktor book-to-market (HML), saéngga bisa njupuk macem-macem dimensi variasi pengembalian aset sing ora dipertimbangkan dening Model Regresi Logistik utawa Model Skor-Z."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

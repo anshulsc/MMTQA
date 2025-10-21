@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_81377f79e1_001",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "In quale anno i 'gross recoveries' sono stati i più bassi tra i tre anni presentati?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_002",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Qual è stata la somma totale di 'aumenti netti di riserva (rilasci)' in tutti e tre gli anni dal 2007 al 2009?",
+    "answer": [
+      [
+        "23588"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_81377f79e1_003",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Qual è stata la 'total provision for credit losses' nell'anno che ha avuto il valore più alto per 'allowance for loan losses at beginning of year'?",
+    "answer": [
+      [
+        "$ 38760"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_004",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza il trend anno su anno per le 'perdite creditizie lorde' dal 2007 al 2009.",
+    "answer": [
+      [
+        "Le 'perdite creditizie lorde' hanno mostrato un trend ascendente significativo e costante dal 2007 al 2009. Le perdite sono cresciute da 11.864 milioni di dollari nel 2007 a 20.760 milioni di dollari nel 2008, e poi a 32.784 milioni di dollari nel 2009, quasi triplicando nell'arco di due anni. Questo indica un deterioramento della qualità dei prestiti e un peggioramento dell'ambiente creditizio."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_005",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Identifica tutti gli anni in cui l'\"accantonamento per impegni di prestito non finanziati\" è stato un importo positivo, indicando un aumento dell'accantonamento.",
+    "answer": [
+      [
+        "2009"
+      ],
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_006",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Nel 2009, quale percentuale del 'totale accantonamento per perdite su crediti' costituivano gli 'aumenti (rilievi) netti specifici delle riserve'? Fornisci la risposta arrotondata a due cifre decimali.",
+    "answer": [
+      [
+        "5.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_81377f79e1_007",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Se le 'gross recoveries' (recuperi lordi) nel 2009 fossero aumentate del 10%, quali sarebbero state le 'net credit (losses) recoveries (ncls)' (perdite/recuperi netti di credito) ricalcolate per quell'anno, in milioni di dollari?",
+    "answer": [
+      [
+        "-30536.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_008",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizza la relazione tra la magnitudo degli 'ncls' (perdite nette di credito) e il 'totale accantonamento per perdite su crediti' nel corso del triennio. Esiste una correlazione discernibile?",
+    "answer": [
+      [
+        "Sì, esiste una forte correlazione positiva. All'aumentare della magnitudo degli 'ncls' (perdite nette di credito) ogni anno, da 9.926 milioni di dollari nel 2007 a 30.741 milioni di dollari nel 2009, anche il 'totale accantonamento per perdite su crediti' tende ad aumentare, da 16.832 milioni di dollari a 38.760 milioni di dollari. Ciò suggerisce che, man mano che la banca registra perdite nette maggiori, aumenta di conseguenza il suo accantonamento per coprire tali perdite e quelle future previste."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_81377f79e1_009",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "La tabella implica una relazione tra la fine dell'anno e l'inizio dell'anno successivo per l'«accantonamento per perdite su crediti». Il valore di «accantonamento per perdite su crediti alla fine dell'anno» per il 2007 e il 2008 corrisponde correttamente all'«accantonamento per perdite su crediti all'inizio dell'anno» per il 2008 e il 2009, rispettivamente?",
+    "answer": [
+      [
+        "Sì, l'integrità strutturale regge. L'«accantonamento per perdite su crediti alla fine dell'anno» per il 2007 (16.117 dollari) è identico all'«accantonamento per perdite su crediti all'inizio dell'anno» per il 2008. Allo stesso modo, l'accantonamento di fine anno per il 2008 (29.616 dollari) corrisponde all'accantonamento di inizio anno per il 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_010",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Esaminando i 'net specific reserve builds ( releases )' nei tre anni, quale anno si distingue come un valore anomalo significativo rispetto agli altri?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_81377f79e1_011",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Qual era l'accantonamento totale per prestiti, leasing e impegni di prestito non finanziati nel 2009?",
+    "answer": [
+      [
+        "$37190"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

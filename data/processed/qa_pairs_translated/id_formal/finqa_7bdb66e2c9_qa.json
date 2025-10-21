@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Jenis jaminan mana yang menunjukkan perbedaan absolut terbesar dalam miliar dolar antara potensi pembayaran 'investment grade' dan 'non-investment grade'?",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Berapakah total jumlah potensi pembayaran untuk semua jenis jaminan yang memiliki nilai untuk 'investment grade' tetapi placeholder ('2014') untuk 'not rated'?",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Untuk jenis jaminan dengan potensi pembayaran total tertinggi secara keseluruhan, kategori peringkat mana ('investment grade', 'non-investment grade', atau 'not rated') yang merupakan porsi terbesar dari total tersebut?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Berapa persentase dari total keseluruhan jumlah potensi pembayaran di masa depan yang diklasifikasikan sebagai 'tidak dinilai'?",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Jika jumlah 'tidak diberi peringkat' untuk 'ganti rugi pinjaman sekuritas' ditemukan 10% lebih rendah dari yang dinyatakan, berapakah total keseluruhan baru untuk semua jaminan?",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Berapakah rata-rata jumlah pembayaran potensial 'total' untuk jenis jaminan yang memiliki nilai nol atau placeholder ('2014') untuk peringkat 'investment grade' dan 'non-investment grade'?",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Kolom peringkat pembayaran mana ('investment grade', 'non-investment grade', atau 'not rated') yang berisi nilai placeholder non-numerik terbanyak ('2014')?",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data yang diberikan, identifikasi pencilan paling signifikan dalam kolom 'jumlah maksimum potensi pembayaran di masa mendatang total' dan jelaskan mengapa pencilan tersebut menonjol.",
+    "answer": [
+      [
+        "Kategori 'surat kredit keuangan siaga' (financial standby letters of credit), dengan total $94,2 miliar, adalah pencilan ekstrim tertinggi yang paling signifikan. Nilai ini sekitar 38,4% lebih tinggi dari kategori terbesar berikutnya ('instrumen derivatif' sebesar $67,9 miliar) dan lebih dari 2,4 kali rata-rata semua kategori ($38,11 miliar). Sebaliknya, 'jaminan penagihan arus kas kontraktual' (guarantees of collection of contractual cash flows) dan 'pinjaman yang dijual dengan recourse' (loans sold with recourse) adalah pencilan ekstrim terendah yang signifikan, masing-masing hanya $0,3 miliar."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis distribusi potensi pembayaran di antara tiga tingkatan peringkat untuk 'jaminan kinerja' dan 'jaminan kustodian dan lainnya'. Apa yang disarankan oleh perbandingan ini tentang profil risiko dari kedua jenis jaminan ini?",
+    "answer": [
+      [
+        "Untuk 'jaminan kinerja', jumlahnya terdistribusi relatif merata di seluruh peringkat investasi ($5,7 miliar), peringkat non-investasi ($5,0 miliar), dan tidak diberi peringkat ($5,6 miliar), yang menunjukkan profil risiko yang terdiversifikasi. Sebaliknya, 'jaminan kustodian dan lainnya' sangat didominasi oleh peringkat investasi ($18,5 miliar), dengan porsi peringkat non-investasi yang jauh lebih kecil ($3,1 miliar) dan tidak ada jumlah 'tidak diberi peringkat'. Ini menyiratkan bahwa 'jaminan kustodian' dikaitkan dengan pihak lawan berisiko kredit yang secara signifikan lebih rendah dibandingkan dengan 'jaminan kinerja'."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah terdapat korelasi yang konsisten dan dapat diamati antara jumlah pembayaran potensial 'investment grade' dan 'non-investment grade' di berbagai jenis jaminan? Jelaskan alasan Anda.",
+    "answer": [
+      [
+        "Tidak, tidak ada korelasi yang konsisten dan dapat diamati. Dengan hanya tiga kategori yang memiliki nilai numerik untuk kedua kolom, data terlalu jarang untuk menetapkan pola yang dapat diandalkan. 'Surat kredit finansial stand-by' memiliki jumlah investment grade yang tinggi ($49,2 miliar) yang dipasangkan dengan jumlah non-investment grade yang tinggi ($28,6 miliar). 'Jaminan kinerja' memiliki nilai yang serupa untuk keduanya ($5,7 miliar dan $5,0 miliar). Namun, 'jaminan penyimpanan dan lainnya' memiliki jumlah investment grade yang tinggi ($18,5 miliar) tetapi jumlah non-investment grade yang sangat rendah ($3,1 miliar), yang bertentangan dengan korelasi positif sederhana yang disarankan oleh dua poin lainnya. Banyaknya nilai placeholder mencegah analisis yang lebih mendalam."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "Manakah yang memiliki jumlah potensi pembayaran investasi dengan peringkat tertinggi?",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "ما هي أداة الدين المحددة، باستثناء الإجماليات والتعديلات، التي بلغت قيمتها الأعلى عبر الفترتين المبلغ عنهما؟",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "ما هي القيمة الإجمالية لجميع سندات الإيرادات القابلة للتحديد المدرجة للفترة في عمود البيانات الثاني؟",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "بأي مقدار تجاوز التغير المطلق في 'المستحق من الديون طويلة الأجل' بين الفترتين التغير المطلق في 'خصم الدين غير المطفأ'؟",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "صف اتجاه \"إجمالي الديون طويلة الأجل\" بين الفترتين المعروضتين واشرح أهمية هذا التغيير.",
+    "answer": [
+      [
+        "زاد إجمالي الدين طويل الأجل بمقدار 275.3 دولارًا، من 10007.5 دولار في الفترة المعروضة في العمود C إلى 10282.8 دولار في الفترة المعروضة في العمود B. يشير هذا إلى أن التزامات الدين طويلة الأجل الإجمالية للكيان قد نمت خلال هذه الفترة الزمنية، مما يشير إلى أنه من المرجح أنه تكبد ديونًا جديدة أكثر مما سدده."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "اذكر جميع البنود، باستثناء الإجمالي، التي تمثل بقيم سالبة في عمود البيانات الثاني.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "باعتبارها نسبة مئوية من إجمالي الديون طويلة الأجل للفترة في العمود ب، ما هو الجزء المصنف على أنه 'استحقاقات حالية للديون طويلة الأجل'؟ استخدم القيم المطلقة للحساب وقم بالتقريب إلى منزلتين عشريتين.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "إذا تم إلغاء 'خصم الدين غير المستهلك' في العمود الثاني من البيانات (العمود ب) (أي، تم تعيينه إلى الصفر)، فماذا سيكون 'إجمالي الديون طويلة الأجل 2013 kmp' لتلك الفترة؟",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "هل توجد علاقة ظاهرة بين التغير في 'استحقاقات الديون طويلة الأجل الحالية' والتغير في 'إجمالي الديون طويلة الأجل' عبر الفترتين؟",
+    "answer": [
+      [
+        "نعم، يبدو أن هناك علاقة عكسية في تحركاتهما. فبينما زاد إجمالي الديون طويلة الأجل بمقدار 275.3 دولار (من 10007.5 دولار إلى 10282.8 دولار)، انخفض حجم 'الاستحقاقات الحالية' بشكل كبير (من قيمة مطلقة 1263.3 إلى 596.6). ويشير هذا إلى أنه في حين تحملت الشركة المزيد من الديون الإجمالية، فقد قللت في الوقت نفسه من الجزء من هذه الديون المستحق في المستقبل القريب."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "أي صف في مجموعة البيانات يبدو أنه تجميع لصفوف أخرى، وما هي الأدلة التي تدعم هذا الاستنتاج؟",
+    "answer": [
+      [
+        "الصف المسمى 'total long-term debt 2013 kmp' (إجمالي ديون طويلة الأجل 2013 kmp) هو تجميع. الدليل الأساسي هو الاستخدام الصريح لكلمة 'total' (إجمالي) في وصفه. بالإضافة إلى ذلك، يتم تقديم قيمته برمز عملة ('$')، وهو ما يميزه عن الصفوف الأخرى، مما يشير إلى أنه رقم مالي نهائي وملخص."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "ما هو البند الذي يُظهر أكبر تغيير بالقيمة المطلقة بين الفترتين، مما يجعله استثناءً ماليًا من حيث التقلب؟",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "بالنظر إلى إجمالي الديون طويلة الأجل وخصم الديون غير المستهلك، ما هي الزيادة الفعالة في الديون طويلة الأجل من عام 2012 إلى عام 2013؟",
+    "answer": [
+      [
+        "زاد إجمالي الديون طويلة الأجل من 10007.5 مليون دولار في عام 2012 إلى 10282.8 مليون دولار في عام 2013. مع الأخذ في الاعتبار أن خصم الديون غير المستهلك قد تغير من -21.2 في عام 2012 إلى -20.3 في عام 2013، فإن الزيادة الفعالة في الديون تبلغ 276.8 مليون دولار."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

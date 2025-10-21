@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_8fbd5de29c_001",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Quale periodo, il 2009 o l'anno precedente, ha avuto un valore assoluto maggiore per le 'perdite nette' pagate?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_002",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Qual è la somma di tutti gli aggiustamenti positivi (incurred, other e acquired) al saldo delle 'perdite lorde 2009' durante l'anno?",
+    "answer": [
+      [
+        "13713"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_003",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Per quale periodo (2009 o l'anno precedente) si è verificata una maggiore variazione assoluta del suo saldo di 'riassicurazione recuperabile' dall'inizio alla fine dell'anno, qual era il valore delle 'perdite nette' maturate?",
+    "answer": [
+      [
+        "7603"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "F1",
+      "F6",
+      "G2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_004",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Sulla base dei saldi iniziali e finali, analizza la variazione complessiva della passività per 'perdite nette' dall'inizio del primo periodo alla fine del secondo periodo (2009).",
+    "answer": [
+      [
+        "La passività per 'perdite nette' è aumentata nel corso del biennio. È iniziata a $ 23.592 milioni all'inizio del primo periodo e si è conclusa a $ 25.038 milioni alla fine del 2009. Ciò rappresenta un aumento totale di $ 1.446 milioni, indicando che gli obblighi netti dell'azienda derivanti da perdite sono cresciuti durante questo arco temporale."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_005",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Elencare tutte le categorie di spese o rettifiche in cui il valore assoluto per 'perdite nette 2009' era maggiore del valore corrispondente per l'anno precedente.",
+    "answer": [
+      [
+        "losses and loss expenses paid",
+        "other ( including foreign exchange revaluation )",
+        "losses and loss expenses acquired"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_006",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Quale percentuale delle 'perdite lorde pagate' nel 2009 è stata coperta dal 'riassicuratore recuperabile'?",
+    "answer": [
+      [
+        "37.37%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_007",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Se l'importo 'altro (inclusa rivalutazione del cambio)' per il 2009 fosse stato un negativo di 500 milioni di dollari invece di un positivo di 559 milioni di dollari, quale sarebbe stato il nuovo 'saldo di fine anno' per le 'perdite lorde del 2009'?",
+    "answer": [
+      [
+        "$36724"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_008",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quali prove nella tabella dimostrano la relazione fondamentale tra perdite lorde, recuperi da riassicurazione e perdite nette?",
+    "answer": [
+      [
+        "I dati dimostrano costantemente la relazione contabile in cui le 'perdite nette' sono il risultato della sottrazione dei 'recuperi da riassicurazione' dalle 'perdite lorde'. Ad esempio, nella riga 'saldo inizio anno' per il 2009, la perdita netta di $ 24.241 è precisamente la differenza tra la perdita lorda di $ 37.176 e i recuperi da riassicurazione di $ 12.935. Questa aritmetica vale per tutti i punti dati corrispondenti in entrambi i periodi, confermando la loro correlazione diretta."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_009",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale intestazione di colonna è probabilmente un duplicato etichettato erroneamente e quali prove strutturali all'interno della tabella supportano questa conclusione?",
+    "answer": [
+      [
+        "L'intestazione '2009 gross losses' della quinta colonna è probabilmente un duplicato etichettato erroneamente dell'intestazione della seconda colonna. La prova è che i valori di 'balance end of year' nel set di colonne di destra (E, F, G) corrispondono perfettamente ai valori di 'balance beginning of year' nel set di sinistra (B, C, D). Ciò indica una sequenza cronologica, il che significa che le colonne di destra rappresentano l'anno precedente (ad esempio, 2008), non il 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E6",
+      "F6",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_010",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica il valore numerico nei dati del 2009 che rappresenta un chiaro valore anomalo a causa della sua incoerenza matematica con le colonne correlate nella stessa riga.",
+    "answer": [
+      [
+        "Il valore '2013' per 'perdite nette del 2009' nella riga 'perdite e spese di perdita acquisite' è un chiaro valore anomalo. In ogni altra riga, Perdite Nette = Perdite Lorde - Recuperi da Riassicurazione. Per questa riga, il calcolo dovrebbe essere 2013 - 2013 = 0. Tuttavia, la tabella riporta la perdita netta come 2013, il che è una impossibilità matematica dati le altre cifre nella sua riga e la formula stabilita."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_011",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Qual era il saldo all'inizio dell'anno per le perdite lorde, in milioni?",
+    "answer": [
+      [
+        "$37,176"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "أي مجموعة بيانات مالية، التي تبدأ في العمود B أو تلك الموجودة في العمود E، كان لديها دخل تشغيلي أعلى \"معدل\" للسنة المنتهية في 31 ديسمبر 2016؟",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "ما هو مجموع التعديلات بالدولار لتغيير مبدأ المحاسبة لمجموعة البيانات الأولى (العمود C)؟",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "ما هو هامش الربح المعدل \"كما تم تقديمه\" لمجموعة البيانات حيث كان \"التغيير في مبدأ المحاسبة\" لدخل الفوائد هو \"-414 (414)\"؟",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "بالنسبة لمجموعة البيانات الأولى (الأعمدة B-D)، ما هي نسبة صافي الدخل \"كما تم تقديمه\" إلى الأرباح قبل الفوائد والضرائب والإهلاك والاستهلاك المعدلة \"كما تم تقديمه\"، مقربة إلى ثلاثة أرقام عشرية؟",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "بالنسبة لمجموعة البيانات المعروضة في الأعمدة من B إلى D، حدد المقياس الذي تكون فيه القيمة \"بعد التعديل\" أقل من القيمة \"كما تم تقديمها\".",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "في صفوف \"صافي الدخل كنسبة مئوية من إيرادات الخدمة\"، ما هي قيمة \"تغيير مبدأ المحاسبة\" التي تبدو شاذة، ولماذا؟",
+    "answer": [
+      [
+        "إن قيمة \"تغيير مبدأ المحاسبة\" \"2014% (2014%)\" في الخليتين C4 و F4 هي قيمة شاذة. بالنسبة لكلتا مجموعتي البيانات، يظل \"صافي الدخل كنسبة مئوية من إيرادات الخدمة\" دون تغيير بين الأرقام \"كما تم تقديمه\" و\"المعدلة\" (من 5% إلى 5% ومن 3% إلى 3% على التوالي). كان التغيير المنطقي سيكون 0%، مما يجعل \"2014%\" قيمة متطرفة واضحة، ومن المحتمل أن تكون ناتجة عن خطأ في إدخال البيانات."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "إذا كان 'التغيير في مبدأ المحاسبة' للدخل التشغيلي في مجموعة البيانات الثانية قد انخفض بمقدار 50 مليون دولار بدلاً من القيمة المعروضة، فماذا سيكون الدخل التشغيلي الجديد 'المعدل'؟",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "هل توجد علاقة ثابتة بين تعديلات المحاسبة للدخل التشغيلي والأرباح قبل خصم الفوائد والضرائب والإهلاك والاستهلاك المعدلة عبر مجموعتي البيانات؟",
+    "answer": [
+      [
+        "نعم، توجد علاقة إيجابية ثابتة. في مجموعة البيانات الأولى، التغيير في الدخل التشغيلي (+$248) مطابق تمامًا للتغيير في الأرباح قبل خصم الفوائد والضرائب والإهلاك والاستهلاك المعدلة (+$248). في مجموعة البيانات الثانية، التغيير في الدخل التشغيلي (+$414) مطابق أيضًا تمامًا للتغيير في الأرباح قبل خصم الفوائد والضرائب والإهلاك والاستهلاك المعدلة (+$414). يشير هذا إلى أن تغيير المبدأ المحاسبي الذي يؤثر على الدخل التشغيلي يتدفق مباشرة إلى الأرباح قبل خصم الفوائد والضرائب والإهلاك والاستهلاك المعدلة بنفس المقدار."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "ما هي المشكلة الهيكلية الأكثر أهمية في رؤوس الأعمدة التي قد تؤدي إلى الارتباك عند تفسير الجدول؟",
+    "answer": [
+      [
+        "المشكلة الهيكلية الرئيسية هي تكرار رؤوس الأعمدة دون تجميع على مستوى أعلى. تُستخدم الرؤوس 'year ended december 31 2016 as filed' و 'year ended december 31 2016 change in accounting principle' لمجموعتين مختلفتين من الأعمدة (B و E؛ C و F). هذا الغموض يجبر المستخدم على استنتاج أن كيانين أو سيناريوهين منفصلين يتم مقارنتهما، بدلاً من أن يتم ذكرهما صراحة."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "باستخدام القيم \"كما تم تعديلها\"، احسب إيرادات الخدمة الضمنية لمجموعتي البيانات (الأرباح المعدلة قبل الفوائد والضرائب والإهلاك والاستهلاك / هامش الأرباح المعدلة قبل الفوائد والضرائب والإهلاك والاستهلاك) وقم بالإبلاغ عن الفرق بالمليون بينهما (المجموعة الأولى مطروحًا منها المجموعة الثانية)، مقربًا لأقرب مليون كامل.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "ما هو مقدار التغير في الدخل التشغيلي (بالملايين) للمجموعة الأولى من البيانات بعد التعديل من 'كما قُدم' إلى 'كما عُدّل'؟",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

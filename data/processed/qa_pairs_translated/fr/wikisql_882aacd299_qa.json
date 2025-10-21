@@ -1,0 +1,268 @@
+[
+  {
+    "question_id": "wikisql_882aacd299_001",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Quel épisode, identifié par son numéro d'épisode, présente des segments sur un composant lié à l'aviation et un composant lié à l'automobile ?",
+    "answer": [
+      [
+        "121"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_882aacd299_002",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Combien d'épisodes dans cette liste traitent d'un produit alimentaire directement comestible comme sujet dans l'un de leurs segments ?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E3",
+      "D4",
+      "E8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_882aacd299_003",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Quel est le code d'épisode Netflix pour l'épisode qui présente des segments sur les 'Robinet' et une 'Hélice de bateau' ?",
+    "answer": [
+      [
+        "S05E22"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "E9",
+      "G9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_882aacd299_004",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance thématique des articles présentés dans le Segment D, au fur et à mesure que la série progresse de l'épisode 118 à 129.",
+    "answer": [
+      [
+        "Les articles du Segment D montrent une progression thématique. Cela commence par un article général ('Crash Test Dummies'), évolue vers des produits plus industriels ou techniques ('Opalescent Glass', 'Sandpaper', 'Car Battery Recycling'), inclut une période avec des tubes et du verre ('Cathode Ray Tubes', 'Laboratory Glassware'), et se termine par des articles plus spécialisés ou traditionnels ('Faucets', 'Gas Log Fireplaces', 'Traditional Snowshoes', 's Glass Block')."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_882aacd299_005",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Pour l'épisode dont le code 'Series Ep.' est '10-07', listez tous les sujets de segment qui ne sont pas liés à l'équipement sportif.",
+    "answer": [
+      [
+        "Stainless Steel"
+      ],
+      [
+        "Resin s Figurine"
+      ],
+      [
+        "Laboratory Glassware"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_882aacd299_006",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Quel pourcentage des épisodes listés présente un article explicitement décrit comme 'en bois' dans le titre d'un de ses segments ?",
+    "answer": [
+      [
+        "25%"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "D6",
+      "E10",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_882aacd299_007",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Si les sujets pour 'Segment A' et 'Segment D' étaient échangés pour chaque épisode, quel serait le nouveau sujet pour 'Segment D' dans l'épisode correspondant au code Netflix 'S05E14' ?",
+    "answer": [
+      [
+        "Magnets"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_882aacd299_008",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe-t-il un schéma ou une corrélation observable entre la position du segment (A, B, C, D) et la catégorie générale des articles présentés dans tous les épisodes ? Expliquez votre raisonnement.",
+    "answer": [
+      [
+        "Oui, il semble y avoir une corrélation faible. Le segment B présente fréquemment des produits de consommation, de la nourriture ou des articles de loisirs (par exemple, 'Cooked Ham', 'Hot Dogs', 'Wooden s Golf Club', 's Cricket Bat', 'Doughnuts'). En revanche, les segments C et D ont tendance à présenter des composants industriels, des matériaux ou des processus de fabrication plus importants (par exemple, 'Abrasive Grains', 'Aircraft s Wing', 'Ductile Iron Pipe', 'Cathode Ray Tubes', 'Car Battery Recycling'). Le segment A est davantage un mélange mais contient souvent des outils ou des articles fondamentaux ('Magnets', 'Levels', 'Stainless Steel')."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "D8",
+      "E8",
+      "F8",
+      "G8",
+      "D9",
+      "E9",
+      "F9",
+      "G9",
+      "D10",
+      "E10",
+      "F10",
+      "G10",
+      "D11",
+      "E11",
+      "F11",
+      "G11",
+      "D12",
+      "E12",
+      "F12",
+      "G12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_882aacd299_009",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Dans quelle colonne de segment (Segment A, Segment B, Segment C ou Segment D) se trouve le plus grand nombre de sujets commençant par la lettre 'C' ?",
+    "answer": [
+      [
+        "Segment D"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "E1",
+      "E5",
+      "F5",
+      "F10",
+      "G1",
+      "G4",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_882aacd299_010",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiez l'épisode (code 'Series Ep.') qui présente deux segments sur des sujets directement liés, où l'un est un matériau clé pour l'autre, et décrivez cette relation.",
+    "answer": [
+      [
+        "L'épisode est le '10-03'. Il présente les 'Abrasive Grains' (Granulés abrasifs) dans le Segment C et le 'Sandpaper' (Papier de verre) dans le Segment D. C'est un cas particulier en termes de connexion thématique, car les granulés abrasifs sont le composant clé utilisé pour fabriquer le papier de verre."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_882aacd299_011",
+    "table_id": "wikisql_882aacd299",
+    "question_type": "value",
+    "question": "Quel épisode présente du papier de verre dans le segment D ?",
+    "answer": [
+      [
+        "10-03"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "G3"
+    ],
+    "reasoning_category": "Value Lookup"
+  }
+]

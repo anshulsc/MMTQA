@@ -1,0 +1,199 @@
+[
+  {
+    "question_id": "finqa_0be24be072_001",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Quelle année a connu la plus forte augmentation absolue des « Revenus nets d'intérêts hors marchés CIB » par rapport à l'année précédente ?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_002",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Quel était le 'average interest-earning assets' moyen sur les trois années fournies ?",
+    "answer": [
+      [
+        "2123479.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0be24be072_003",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Dans l'année où le 'revenu net d'intérêts des marchés CIB' était le plus élevé, quelle était la valeur correspondante pour les 'actifs moyens générateurs d'intérêts des marchés CIB' ?",
+    "answer": [
+      [
+        "520307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_004",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez l'évolution du 'rendement net des intérêts sur les actifs productifs d'intérêts des marchés CIB' de 2015 à 2017.",
+    "answer": [
+      [
+        "La tendance était très volatile. Le rendement a augmenté d'environ 17,3 % de 1,04 en 2015 à 1,22 en 2016, mais a ensuite connu une forte baisse d'environ 29,5 %, tombant à 0,86 en 2017."
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_005",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Listez les années où le 'revenu net d'intérêts des marchés de la CIB' était supérieur à 5 000 millions de dollars et le 'rendement net d'intérêts sur les actifs générateurs d'intérêts moyens de la CIB' était supérieur à 1,10.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_006",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "En 2016, quel pourcentage des « actifs productifs moyens » totaux était constitué des « actifs productifs moyens des marchés CIB » ?",
+    "answer": [
+      [
+        "24.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0be24be072_007",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Si le 'revenu net d'intérêts des marchés CIB' en 2017 avait été supérieur de 20 % tandis que le 'revenu net d'intérêts 2013 sur base gérée' était resté le même, quel aurait été le nouveau 'revenu net d'intérêts hors marchés CIB' ?",
+    "answer": [
+      [
+        "$ 45854"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_008",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après le tableau, existe-t-il une corrélation observable entre le 'revenu d'intérêts net sur base gérée 2013' total et le 'rendement net d'intérêts sur les actifs productifs d'intérêts moyens 2013 sur base gérée' sur les trois années ?",
+    "answer": [
+      [
+        "Oui, il existe une corrélation positive claire. Alors que le 'revenu d'intérêts net sur base gérée 2013' a constamment augmenté de 44 620 millions de dollars en 2015 à 51 410 millions de dollars en 2017, le 'rendement net d'intérêts sur les actifs productifs d'intérêts moyens 2013 sur base gérée' a également montré une augmentation constante de 2,14 % à 2,36 % sur la même période."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0be24be072_009",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Quelles sont les deux métriques du tableau qui, lorsque la première est divisée par la seconde, calculent le 'rendement net des intérêts sur les actifs productifs d'intérêts moyens hors marchés CIB' ?",
+    "answer": [
+      [
+        "net interest income excluding cib markets ( a )"
+      ],
+      [
+        "average interest-earning assets excluding cib markets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A6",
+      "A9",
+      "B3",
+      "B6",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_010",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle année 'revenu net d'intérêts base gérée 2013' est une valeur aberrante en termes de croissance d'une année sur l'autre par rapport à l'autre période ?",
+    "answer": [
+      [
+        "2017 est une valeur aberrante en raison de sa croissance nettement plus élevée. L'augmentation de 2016 à 2017 a été de 4 118 millions de dollars (51 410 $ - 47 292 $), ce qui est considérablement plus important que l'augmentation de 2 672 millions de dollars observée de 2015 à 2016 (47 292 $ - 44 620 $)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_0be24be072_011",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Quel était le revenu net d'intérêts (en millions) hors marchés CIB en 2016 ?",
+    "answer": [
+      [
+        "$40,958"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

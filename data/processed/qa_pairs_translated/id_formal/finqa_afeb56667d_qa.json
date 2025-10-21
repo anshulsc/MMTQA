@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "finqa_afeb56667d_001",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Berapa total pendapatan untuk keseluruhan tahun 2009?",
+    "answer": [
+      [
+        "995847"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afeb56667d_002",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Metrik keuangan manakah, selain 'total pendapatan', yang tetap konsisten sempurna di keempat kuartal tahun 2009?",
+    "answer": [
+      [
+        "preferred stock dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_003",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Pada kuartal dengan 'gain on early extinguishment of debt' tertinggi, berapa 'net income ( loss ) per common share-diluted' yang bersesuaian?",
+    "answer": [
+      [
+        "$ 0.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_004",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan tren 'pendapatan bersih (kerugian) yang diatribusikan kepada pemegang saham biasa SL Green' dari awal hingga akhir tahun 2009.",
+    "answer": [
+      [
+        "Pendapatan bersih untuk pemegang saham biasa menunjukkan tren penurunan yang konsisten dan tajam sepanjang tahun 2009. Dimulai dengan laba tinggi sebesar $32.768 pada kuartal 31 Maret, turun signifikan menjadi $12.543 pada 30 Juni, berbalik menjadi kerugian sebesar $-2.520 pada 30 September, dan kerugian semakin melebar menjadi $-5.123 pada 31 Desember."
+      ]
+    ],
+    "evidence_cells": [
+      "E10",
+      "D10",
+      "C10",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_005",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Sebutkan semua kuartal di mana 'pendapatan bersih (kerugian) yang diatribusikan kepada SL Green' positif DAN 'keuntungan (kerugian) dari penjualan operasi yang dihentikan' juga positif.",
+    "answer": [
+      [
+        "june 30"
+      ],
+      [
+        "march 31"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_006",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Berapa persentase dari 'total pendapatan' untuk kuartal yang berakhir pada 30 September yang diwakili oleh 'dividen saham preferen'? Berikan persentase absolut, dibulatkan hingga dua desimal.",
+    "answer": [
+      [
+        "2.02%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afeb56667d_007",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Jika 'dividen saham preferen' ditiadakan (yaitu, bernilai $0) untuk kuartal 30 September, berapakah 'pendapatan bersih (kerugian) yang diatribusikan kepada pemegang saham biasa sl green' untuk kuartal tersebut?",
+    "answer": [
+      [
+        "$ 2449"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_008",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data triwulanan, apakah hubungan yang tampak antara 'keuntungan dari pelunasan utang lebih awal' dan 'pendapatan bersih (rugi) yang diatribusikan kepada pemegang saham biasa SL Green'?",
+    "answer": [
+      [
+        "Tampaknya ada korelasi positif yang kuat. Dua kuartal dengan 'keuntungan dari pelunasan utang lebih awal' tertinggi (31 Maret dan 30 Juni) juga melaporkan 'pendapatan bersih (rugi) yang diatribusikan kepada pemegang saham biasa SL Green' tertinggi. Sebaliknya, kuartal dengan keuntungan lebih rendah (30 September dan 31 Desember) menghasilkan kerugian bersih bagi pemegang saham biasa, menunjukkan bahwa keuntungan besar ini merupakan pendorong utama profitabilitas di paruh pertama tahun ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B10",
+      "C10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afeb56667d_009",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "Berapa banyak item baris keuangan yang melaporkan nilai negatif (rugi) untuk kuartal yang berakhir pada 31 Desember?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_010",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Kuartal mana yang memiliki 'pendapatan (kerugian) bersih setelah kepentingan nonpengendali dan sebelum keuntungan penjualan' yang merupakan pencilan signifikan dibandingkan dengan tren yang terlihat pada tiga kuartal lainnya?",
+    "answer": [
+      [
+        "Kuartal yang berakhir 30 September adalah pencilan. Sementara tiga kuartal lainnya melaporkan kerugian signifikan dalam kategori ini (-$380, -$10.242, dan -$26.600), kuartal September adalah satu-satunya yang melaporkan keuntungan ($4.099), menjadikannya pengecualian yang patut diperhatikan dari tren kerugian yang berlaku untuk item baris ini."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afeb56667d_011",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "Melihat semua kuartal tahun 2009, kuartal mana yang memiliki pendapatan bersih tertinggi yang diatribusikan kepada pemegang saham biasa SL Green, dan faktor lain apa yang berkontribusi pada hasil ini?",
+    "answer": [
+      [
+        "Kuartal yang berakhir pada 31 Maret memiliki pendapatan bersih tertinggi yang diatribusikan kepada pemegang saham biasa SL Green sebesar $32.768. Hal ini dipengaruhi oleh pendapatan total yang lebih tinggi ($258.787) dan keuntungan substansial dari pelunasan utang lebih awal ($47.712), serta kontribusi positif dari operasi yang dihentikan ($1.319)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B10",
+      "E2",
+      "E4",
+      "E6",
+      "E10",
+      "H2",
+      "H4",
+      "H6",
+      "H10",
+      "K2",
+      "K4",
+      "K6",
+      "K10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

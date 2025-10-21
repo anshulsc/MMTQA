@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "arxiv_da116d1768_001",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Vyberte metody/příspěvky, které využívají LLM model považovaný za novější nebo pokročilejší než GPT3.5.",
+    "answer": [
+      [
+        "MarketSenseAI [1]"
+      ],
+      [
+        "Ploutos [4]"
+      ],
+      [
+        "LLMoE [7]"
+      ],
+      [
+        "[48]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_002",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Kolik z uvedených metod/článků explicitně zmiňuje použití modelu z rodiny GPT (včetně GPT-4, GPT3.5, GPT-4-Turbo nebo obecných modelů založených na GPT)?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_da116d1768_003",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Jaké datové sady používají metody zaměřené specificky na 'investice' jako aplikaci?",
+    "answer": [
+      [
+        "S&P 100 stocks"
+      ],
+      [
+        "S&P 500 index"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "C1",
+      "D4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_004",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "S ohledem na vývoj modelů GPT z GPT3.5 na GPT-4, jaký posun v aplikaci nebo zaměření na data lze pozorovat na základě tabulky?",
+    "answer": [
+      [
+        "Metoda využívající GPT3.5 (GPT-InvestAR) se zaměřuje na 'Investice do akcií' pomocí širokého indexu S&P 500. Metody využívající pokročilejší GPT-4 (MarketSenseAI a Ploutos) se zaměřují na specifičtější aplikace, jako je 'Výběr akcií a investiční přehled' a 'Pohyb akcií', přičemž využívají jak datasety S&P 100, tak datasety z akademických publikací. To naznačuje trend směrem k více specializovaným a analytickým aplikacím s výkonnějšími modely."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "C4",
+      "B1",
+      "D1",
+      "C1",
+      "B2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_005",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Identifikujte LLM modely použité metodami, jejichž aplikace zahrnuje slovo 'stock', ale není výslovně 'Stock investment'.",
+    "answer": [
+      [
+        "GPT-4"
+      ],
+      [
+        "GPT-4-Turbo, LLaMA3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "D2",
+      "B2",
+      "D4",
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_006",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Jaké procento uvedených metod/článků využívá finanční tržní indexy (jako S&P nebo KOSPI) jako svůj zdroj dat?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_da116d1768_007",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Pokud by požadavkem projektu bylo vybrat existující přístup pro 'Předpověď akciového trhu', ale bylo by omezeno pouze na použití modelů z rodiny GPT, který konkrétní LLM model z tabulky by byl vybrán?",
+    "answer": [
+      [
+        "GPT-4-Turbo"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_008",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaký je podle tabulky zjevný vztah mezi specifičností zmíněného LLM modelu a typem dat, na která je aplikován?",
+    "answer": [
+      [
+        "Zdá se, že existuje korelace, kde specifičtější a pokročilejší modely jako GPT-4, GPT3.5 a Llama3.2 jsou párovány se strukturovanými finančními datovými sadami (např. indexy S&P, data MSFT-AAPL). Naproti tomu obecněji popsané „modely založené na GPT“ jsou spojeny s velmi širokými, nedoménově specifickými korpusy, jako jsou Common Crawl a Wikipedia, což naznačuje, že obecné modely se používají pro širší analýzu, zatímco specifické, nejmodernější modely jsou testovány na cílenějších finančních úkolech."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_da116d1768_009",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Který sloupec obsahuje nejvíce popisná a rozmanitá datová typy, jak je patrné z rozmanitosti jeho záznamů sahajících od konkrétních akciových symbolů po široké webové korpusy?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_010",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Identifikujte metodu/článek, který vyniká jako odlehlý v kontextu rozsahu jeho aplikace a obecnosti jeho zdroje dat ve srovnání s ostatními, které se zaměřují na specifické úkoly na akciovém trhu.",
+    "answer": [
+      [
+        "ChainBuddy [10]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "D1",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_da116d1768_011",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Kolik metod/článků použilo pro trénink modely GPT?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

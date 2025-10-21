@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Metode ramalan mana anu ngahontal tingkat kasalahan panghandapna pikeun skenario BC2 (boh BC2_64 sareng BC2_28)?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Sabaraha rata-rata tingkat kasalahan pikeun metode 'LASSO regression feature selection' dina genep skenario BC?",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Sebutkeun metode pamilihan fitur nu ngagunakeun jumlah variabel eksogen pangluhurna pikeun skenario tunggal mana waé. Teras, pikeun metode khusus éta, laporkeun tingkat kasalahanana dina skenario BC3_64.",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Pikeun skenario BC mana kinerja gap, nu didefinisikeun salaku bédana antara tingkat kasalahan pangluhurna jeung panghandapna di antara sakabeh pangaturan ramalan, nu pangbadagna?",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Sebutkeun sadaya setelan ramalan pikeun skenario BC1_28 anu ngagunakeun langkung ti 5 variabel eksogen sareng ngahontal tingkat kasalahan di handap 16,0.",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Dina skenario BC2_28, sabaraha persén résiko tina métode 'Forward Feature Selection SARIMAX' langkung handap tibatan résiko tina métode dasar 'Without exogenous variables'?",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Upami kasalahan kanggo 'Correlation-Based Selection' dina BC1_28 dikirangan ku 75%, sabaraha rata-rata kasalahan anyar pikeun skenario BC1_28 dina sadaya lima pangaturan perkiraan?",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "Naha aya hubungan anu konsisten antara ngagunakeun jumlah variabel éksternal anu leuwih loba jeung ngahontal tingkat kasalahan anu leuwih handap dina sagala rupa métode seleksi fitur?",
+    "answer": [
+      [
+        "Henteu, henteu aya hubungan anu konsisten. Contona, dina skenario BC1_64, 'Forward Feature Selection SARIMAX' ngagunakeun ngan 1 variabel sarta ngahontal kasalahan panghandapna (5.64), sedengkeun 'Manual feature selection' ngagunakeun 18 variabel sarta mibanda kasalahan anu leuwih luhur (13.99). Sabalikna, dina skenario BC1_28, kasalahan pikeun 'Forward Feature Selection SARIMAX' (5.94 kalawan 15 variabel) leuwih handap tina 'LASSO' (15.38 kalawan 10 variabel), nunjukkeun yén leuwih loba variabel bisa jadi leuwih hadé dina sababaraha kasus. Ieu nunjukkeun yén épéktivitas métode seleksi leuwih penting tibatan jumlah variabel anu murni."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Nilai kasalahan mana pikeun métode 'Correlation-Based Selection' anu mangrupikeun outlier signifikan dibandingkeun sareng kinerjana dina skenario sanés?",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Aya sabaraha metode pamilihan fitur anu béda anu ngagunakeun variabel éksogén anu dibandingkeun dina tabel ieu?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Metode perkiraan naon anu ngahontal kasalahan panghandapna pikeun BC2_28?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

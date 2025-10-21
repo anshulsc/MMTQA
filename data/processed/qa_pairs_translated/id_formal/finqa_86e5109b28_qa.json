@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Komitmen komersial manakah, tidak termasuk total, yang memiliki jumlah kedaluwarsa tunggal terbesar pada tahun mana pun dari 2014 hingga 2017?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Berapa jumlah total kedaluwarsa komitmen individu untuk tahun 2016 dan 2017 digabungkan?",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Identifikasi jenis komitmen yang memiliki masa kedaluwarsa tersebar di paling banyak periode waktu, dan sebutkan nilai totalnya.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Gambarkan pola temporal dari kedaluwarsa 'total komitmen komersial' dari tahun 2013 hingga 2016.",
+    "answer": [
+      [
+        "Pola tersebut sangat fluktuatif. Dimulai dari $632 juta pada tahun 2013, turun sekitar 66% menjadi $215 juta pada tahun 2014, kemudian melonjak tajam ke rekor tertinggi sepanjang masa sebesar $1812 juta pada tahun 2015, sebelum anjlok lebih dari 98% menjadi hanya $30 juta pada tahun 2016. Tidak ada pertumbuhan atau penurunan yang konsisten."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Sebutkan jenis komitmen yang memiliki jumlah kedaluwarsa lebih besar dari $0 pada tahun 2013 tetapi tidak ada kedaluwarsa mulai tahun 2015 dan seterusnya.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Berapa proporsi dari total jatuh tempo tahun 2013 yang diatribusikan kepada 'fasilitas sekuritisasi piutang'?",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Jika nilai sebesar '$ 1800' juta untuk 'fasilitas kredit' yang berakhir pada tahun 2015 dibagi secara merata antara tahun 2016 dan 2017, berapakah total baru untuk 'total komitmen komersial' untuk tahun 2016?",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan tabel, apakah ada korelasi yang dapat diamati antara jumlah total komitmen dan jumlah tahun di mana komitmen tersebut berakhir?",
+    "answer": [
+      [
+        "Tidak, tidak ada korelasi langsung. Faktanya, data menunjukkan hubungan terbalik. Komitmen terbesar, 'fasilitas kredit' ($1800 juta), berakhir seluruhnya dalam satu tahun (2015). Sebaliknya, 'jaminan' ($307 juta), salah satu komitmen yang lebih kecil, tersebar di keenam periode waktu yang tercantum."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Kolom tahun kedaluwarsa mana yang memiliki jumlah jenis komitmen individual dengan nilai bukan nol paling sedikit?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikasi tahun yang jumlah kedaluwarsa totalnya merupakan pencilan yang signifikan dibandingkan dengan periode lain, dan justifikasi penalaran Anda.",
+    "answer": [
+      [
+        "Tahun 2015 merupakan pencilan yang jelas dengan total kedaluwarsa sebesar $1812 juta. Angka ini sangat tinggi, lebih dari 2,8 kali jumlah tahunan terbesar berikutnya ($632 juta pada tahun 2013) dan secara signifikan lebih besar daripada semua periode lainnya, yang berkisar dari $10 juta hingga $215 juta."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Berapa total komitmen komersial dari tahun 2013 hingga 2017?",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

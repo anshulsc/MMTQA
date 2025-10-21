@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "wikisql_175793119b_001",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Pada tanggal berapa, pencetak skor terbanyak mencetak performa yang luar biasa menonjol (outlier), yaitu setidaknya 14 poin lebih banyak daripada pencetak skor terbanyak kedua di kumpulan data ini?",
+    "answer": [
+      [
+        "March 8"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F9",
+      "B4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_175793119b_002",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Berapa rata-rata jumlah penonton untuk semua pertandingan yang dimainkan di 'Rose Garden'?",
+    "answer": [
+      [
+        "20242.8"
+      ]
+    ],
+    "evidence_cells": [
+      "G2",
+      "G7",
+      "G8",
+      "G9",
+      "G13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_175793119b_003",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Siapa lawan Portland Trail Blazers di pertandingan yang mengakhiri rentetan kekalahan terpanjang mereka yang ditunjukkan di tabel ini?",
+    "answer": [
+      [
+        "Milwaukee Bucks"
+      ]
+    ],
+    "evidence_cells": [
+      "I2",
+      "I3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_004",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Sebutin tanggal pertandingan di mana Portland Trail Blazers menang sebagai tim tamu dan jumlah penontonnya di bawah 19.000.",
+    "answer": [
+      [
+        "March 11"
+      ],
+      [
+        "March 22"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "D6",
+      "G6",
+      "B6",
+      "C11",
+      "D11",
+      "G11",
+      "B11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_005",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Berapa persentase game di mana Portland Trail Blazers jadi tim tuan rumah yang berhasil menang?",
+    "answer": [
+      [
+        "60"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "D2",
+      "E7",
+      "D7",
+      "E8",
+      "D8",
+      "E9",
+      "D9",
+      "E13",
+      "D13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_175793119b_006",
+    "table_id": "wikisql_175793119b",
+    "question_type": "open_ended_reasoning",
+    "question": "Gimana pola performa Portland Trail Blazers antara 10 Maret sampai 22 Maret? Apakah periode ini ditandai oleh konsistensi atau lebih ke naik-turun?",
+    "answer": [
+      [
+        "Periode dari 10 sampai 22 Maret itu ditandai sama tingkat naik-turun yang tinggi dan kurangnya konsistensi. Hasil tim selalu selang-seling kalah-menang selama enam pertandingan berturut-turut, yang bisa dilihat dari urutan kolom 'Streak': L1, W1, L1, W1, L1, W1. Mereka nggak bisa dapat momentum sampai pertandingan terakhir di periode ini pada 22 Maret, di mana mereka akhirnya mencapai kemenangan beruntun (back-to-back win) pertama mereka (W2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_007",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Pada pertandingan tanggal berapa Portland Trail Blazers meraih selisih kemenangan terbesar mereka?",
+    "answer": [
+      [
+        "March 25"
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "D3",
+      "D4",
+      "D6",
+      "D8",
+      "D10",
+      "D11",
+      "D13",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C6",
+      "E6",
+      "C8",
+      "E8",
+      "C10",
+      "E10",
+      "C11",
+      "E11",
+      "C13",
+      "E13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_008",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Seandainya pertandingan *overtime* (perpanjangan waktu) 8 Maret itu Portland kalah dengan selisih 6 poin yang sama, bukannya menang, berapa catatan menang-kalah baru mereka setelah laga itu?",
+    "answer": [
+      [
+        "32–31"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_009",
+    "table_id": "wikisql_175793119b",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, apakah ada korelasi yang jelas antara total poin individu pencetak skor utama dan hasil pertandingan (Menang/Kalah) untuk Portland Trail Blazers? Jelaskan jawabanmu.",
+    "answer": [
+      [
+        "Tidak ada korelasi yang jelas antara total poin pencetak skor utama dengan menang atau kalahnya Trail Blazers. Misalnya, pertandingan dengan total poin pencetak skor utama tertinggi (Robinson: 45) berakhir dengan kemenangan. Namun, pertandingan dengan total poin tertinggi kedua (Aldridge: 31) justru berakhir dengan kekalahan. Sebaliknya, tim meraih kemenangan saat pencetak skor utama mereka memiliki total poin yang relatif biasa saja, seperti 23 poin (Roy pada 22 Maret). Ini menunjukkan bahwa meskipun performa individu dengan skor tinggi dapat berkontribusi, itu bukanlah penentu yang dapat diandalkan untuk kemenangan tim berdasarkan kumpulan data ini."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11",
+      "D12",
+      "F12",
+      "D13",
+      "F13",
+      "D14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_175793119b_010",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Sebutin pemain yang paling sering jadi pencetak skor terbanyak di game-game ini, terus hitung rata-rata skornya di pertandingan itu.",
+    "answer": [
+      [
+        "Aldridge, 27.75"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_011",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Pertandingan mana yang jumlah penontonnya paling rendah di set data ini?",
+    "answer": [
+      [
+        "March 24 vs Seattle SuperSonics"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "F12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

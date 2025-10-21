@@ -1,0 +1,219 @@
+[
+  {
+    "question_id": "wikisql_6bc6a489de_001",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "¿Qué proyecto tuvo el mayor 'No. en serie' entre los que se emitieron en abril de 2011?",
+    "answer": [
+      [
+        "London Aquatics Centre"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2",
+      "A3",
+      "G3",
+      "A4",
+      "G4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_002",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "¿Cuántos episodios se emitieron entre principios de mayo y finales de junio de 2011?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_003",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "¿Cuál es el país del proyecto presentado en el episodio que se emitió inmediatamente después de \"London's Olympic Aquatic Stadium\"?",
+    "answer": [
+      [
+        "Serbia"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_004",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "Los primeros cuatro episodios se emitieron a un intervalo semanal constante. ¿Cuál fue la diferencia en días entre el cuarto y el quinto episodio, representando una interrupción en la programación?",
+    "answer": [
+      [
+        "50"
+      ]
+    ],
+    "evidence_cells": [
+      "G4",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_005",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "Enumera los títulos de todos los episodios que presentan proyectos en países que no están en Europa o América del Norte.",
+    "answer": [
+      [
+        "\"Drought-Proofing Australia\"",
+        "\"Azerbaijan's Amazing Transformation\"",
+        "\"Building Mumbai 's Modern Airport\""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_006",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de los episodios listados se emitieron en meses distintos de abril?",
+    "answer": [
+      [
+        "42.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_007",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "Si el episodio \"Rebuilding New York City's Subway\" se hubiera emitido dos semanas antes, ¿cuál habría sido su fecha de emisión original?",
+    "answer": [
+      [
+        "March 25, 2011"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "G1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_008",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "Según los datos proporcionados, ¿cuál es la relación entre las columnas 'No. en serie' y 'No. en temporada'?",
+    "answer": [
+      [
+        "Existe una relación lineal positiva directa y consistente. Por cada incremento de 1 en la columna 'No. en temporada', la columna 'No. en serie' también se incrementa exactamente en 1. Esto sugiere que los episodios están listados en perfecto orden cronológico para esta temporada en particular."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_009",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué columna del conjunto de datos tiene un valor constante para cada entrada y cuál es este valor?",
+    "answer": [
+      [
+        "La columna 'Status at production' tiene un valor constante de 'Under construction' para todos los episodios listados."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_010",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "open_ended_reasoning",
+    "question": "Los primeros cuatro episodios se emitieron en viernes consecutivos en abril. Identifica el primer episodio que rompe este patrón semanal y describe la anomalía en su fecha de emisión.",
+    "answer": [
+      [
+        "El episodio \"Constructing Serbia's Largest Bridge\" es el primero en romper el patrón. Mientras que los primeros cuatro episodios se emitieron exactamente con 7 días de diferencia, este episodio se emitió el 18 de junio de 2011, que fue 50 días después del episodio anterior el 29 de abril de 2011, y también se emitió un sábado, no un viernes."
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G4",
+      "C5",
+      "G5",
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_6bc6a489de_011",
+    "table_id": "wikisql_6bc6a489de",
+    "question_type": "value",
+    "question": "¿Qué país tuvo un proyecto transmitido en junio de 2011?",
+    "answer": [
+      [
+        "Serbia",
+        "Netherlands"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

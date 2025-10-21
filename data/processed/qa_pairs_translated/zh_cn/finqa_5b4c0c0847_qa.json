@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "finqa_5b4c0c0847_001",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "在不包括总计、资产和比率的情况下，哪个资本组成部分在2012年至2013年的美元金额上绝对增长最大？",
+    "answer": [
+      [
+        "basel i tier 1 common capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_002",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "在2013年，所有‘监管资本调整’的净总额（以百万美元计）是多少？",
+    "answer": [
+      [
+        "-1028"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_003",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "在2012年至2013年期间，“估算的完全达标的巴塞尔III一级普通资本”的增长速度比“巴塞尔I一级普通资本”的增长速度快了多少百分比？保留一位小数。",
+    "answer": [
+      [
+        "40.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_004",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "分析公司资本状况从2012年到2013年的同比变化，同时考虑资本比率及其基础组成部分。",
+    "answer": [
+      [
+        "公司从2012年到2013年显著增强了其资本状况。比例式的巴塞尔III高级方法一级普通资本比率从7.5%提高到9.5%。这一改善是由两个因素驱动的：一级普通资本的显著增加（从225.01亿美元增加到274.56亿美元）以及风险加权资产的同时减少（从3010.06亿美元减少到2900.80亿美元）。2013年标准化方法比率的引入，达到强劲的9.4%，进一步强调了资本充足率的提高。"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_005",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "找出2012年价值为负，2013年价值为正的所有项目。",
+    "answer": [
+      [
+        "all other adjustments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_006",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "截至 2012 年，“估计的完全实施的巴塞尔 III 核心一级资本”占“巴塞尔 I 核心一级资本”的百分比是多少？四舍五入到最接近的整数百分比。",
+    "answer": [
+      [
+        "90%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_007",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "如果2013年的“巴塞尔III量化限制”调整额为-20亿美元，而不是报告的金额，那么该年的“估计完全实施巴塞尔III一级普通资本”将是多少？",
+    "answer": [
+      [
+        "$ 26842"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_008",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，2012年至2013年间“预估的巴塞尔III高级方法风险加权资产”与“形式上的完全实施的巴塞尔III高级方法一级普通资本比率”的变化之间存在什么关系？",
+    "answer": [
+      [
+        "数据显示两者之间存在反比关系。在2012年至2013年期间，“预估的风险加权资产”（比率的分母）从3010.06亿美元减少到2900.80亿美元。同时，“一级普通资本比率”（资本/风险加权资产的结果）从7.5%增加到9.5%。这表明风险加权资产的减少对资本比率的改善起到了积极作用。"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_009",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "关于“标准化方法”的两个相关指标，在2013年有报告，但在2012年被标记为不适用（“n/a”）的有哪些？",
+    "answer": [
+      [
+        "estimated basel iii standardized approach risk-weighted assets"
+      ],
+      [
+        "pro forma fully phased-in basel iii standardized approach tier 1 common capitalratio"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_010",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "value",
+    "question": "哪个具体的资本调整项目显示了同比负向影响资本计算的变化，以及这个负向变化的值是多少？",
+    "answer": [
+      [
+        "accumulated other comprehensive income ( a )",
+        "-$80 million"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5b4c0c0847_011",
+    "table_id": "finqa_5b4c0c0847",
+    "question_type": "open_ended_reasoning",
+    "question": "如果银行采用高级方法的风险加权资产减少，而其普通股一级资本保持不变，那么普通股一级资本比率会怎样变化？",
+    "answer": [
+      [
+        "普通股一级资本比率将会增加，因为相同的资本除以较低的风险加权资产会得到更高的资本比率。"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

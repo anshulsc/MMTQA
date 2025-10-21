@@ -1,0 +1,357 @@
+[
+  {
+    "question_id": "wikisql_4673ebe650_001",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Berapa jumlah total sel data dalam tabel yang berisi nilai 'Februari'?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_002",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "Bandingkan data pada baris untuk '2002 :' (baris 2) dengan judul kolom (baris 0). Apa perbedaan struktural utamanya, selain kolom pertama?",
+    "answer": [
+      [
+        "Perbedaan struktural utamanya adalah bahwa baris untuk '2002 :' adalah bagian dari badan data, sementara judul kolom mendefinisikan skema tabel. Meskipun nilai-nilai dari kolom kedua dan seterusnya ('Januari' hingga 'Desember') identik baik di baris judul maupun di baris '2002 :', fungsinya berbeda: satu adalah label, dan yang lainnya adalah titik data."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "K2",
+      "L2",
+      "M2",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_003",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Bulan apakah yang tertera di kolom ke-9 dari baris yang empat baris di atas entri '2011 :'?",
+    "answer": [
+      [
+        "August"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_004",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelaskan pola urutan tahun yang disajikan pada kolom pertama kumpulan data.",
+    "answer": [
+      [
+        "Kolom pertama menunjukkan perkembangan temporal yang konsisten, dengan setiap baris mewakili tahun berturut-turut yang dimulai dari '2001 :' dan berakhir pada '2012 :'. Urutan tersebut bertambah tepat satu tahun per baris."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_005",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Daftarkan semua tahun di mana 'April' muncul di kolom ke-5 dan 'November' muncul di kolom ke-12.",
+    "answer": [
+      [
+        "2001 :",
+        "2002 :",
+        "2003 :",
+        "2004 :",
+        "2005 :",
+        "2006 :",
+        "2007 :",
+        "2008 :",
+        "2009 :",
+        "2010 :",
+        "2011 :",
+        "2012 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "L1",
+      "A2",
+      "E2",
+      "L2",
+      "A3",
+      "E3",
+      "L3",
+      "A4",
+      "E4",
+      "L4",
+      "A5",
+      "E5",
+      "L5",
+      "A6",
+      "E6",
+      "L6",
+      "A7",
+      "E7",
+      "L7",
+      "A8",
+      "E8",
+      "L8",
+      "A9",
+      "E9",
+      "L9",
+      "A10",
+      "E10",
+      "L10",
+      "A11",
+      "E11",
+      "L11",
+      "A12",
+      "E12",
+      "L12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_006",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Jika tabel diperluas untuk menyertakan baris untuk '2013', apa nilai yang diharapkan di sel yang sesuai dengan kolom 'Oktober'?",
+    "answer": [
+      [
+        "October"
+      ]
+    ],
+    "evidence_cells": [
+      "K0",
+      "K1",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_007",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "Bagaimana hubungan antara tajuk kolom (mulai dari kolom kedua dan seterusnya) dan data di dalam kolom masing-masing di seluruh tabel?",
+    "answer": [
+      [
+        "Terdapat hubungan identitas langsung satu-ke-satu. Untuk setiap kolom, mulai dari kolom kedua ('Januari') hingga yang terakhir ('Desember'), setiap sel data di dalam kolom tersebut berisi nilai string yang identik dengan tajuk kolom."
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_008",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ada nilai sel data di seluruh tabel yang tidak cocok dengan tajuk kolomnya atau format 'YYYY :' yang ditetapkan di kolom pertama? Analisis data untuk mencari inkonsistensi apa pun.",
+    "answer": [
+      [
+        "Tidak, tidak ada data pencilan atau inkonsistensi dalam data. Setiap sel di kolom pertama mengikuti format 'YYYY :' untuk tahun-tahun berurutan, dan setiap sel dari kolom kedua hingga terakhir sangat cocok dengan tajuk kolom yang bernama bulan terkait."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "I1",
+      "J1",
+      "K1",
+      "L1",
+      "M1",
+      "B12",
+      "C12",
+      "D12",
+      "E12",
+      "F12",
+      "G12",
+      "H12",
+      "I12",
+      "J12",
+      "K12",
+      "L12",
+      "M12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_009",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Berapa proporsi kolom dalam badan data yang berisi nama-nama bulan?",
+    "answer": [
+      [
+        "0.923"
+      ]
+    ],
+    "evidence_cells": [
+      "A0",
+      "B0",
+      "C0",
+      "D0",
+      "E0",
+      "F0",
+      "G0",
+      "H0",
+      "I0",
+      "J0",
+      "K0",
+      "L0",
+      "M0"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_010",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Berapakah nilai yang terletak pada persimpangan baris terakhir dan kolom bernama 'July'?",
+    "answer": [
+      [
+        "July"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "H0",
+      "H12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_4673ebe650_011",
+    "table_id": "wikisql_4673ebe650",
+    "question_type": "value",
+    "question": "Tahun berapakah yang langsung setelah 2008 dalam tabel ini?",
+    "answer": [
+      [
+        "2009 :"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "A10"
+    ],
+    "reasoning_category": "Sequential/Temporal Reasoning"
+  }
+]

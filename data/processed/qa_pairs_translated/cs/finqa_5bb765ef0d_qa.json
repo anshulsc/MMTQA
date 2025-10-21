@@ -1,0 +1,276 @@
+[
+  {
+    "question_id": "finqa_5bb765ef0d_001",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Která původní regionální třída akcií vedla k nejvyššímu počtu akcií po konverzi true-up?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_002",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Jaký byl celkový počet akcií třídy 'c (série i)' vytvořených po úpravě ze všech přispívajících regionálních tříd?",
+    "answer": [
+      [
+        "284160835"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_003",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Která regionální třída zaznamenala největší absolutní rozdíl mezi počtem akcií před a po vyrovnání (true-up)?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_004",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Uveďte všechny regionální třídy, jejichž počet akcií se v důsledku reorganizace a procesu úpravy zvýšil.",
+    "answer": [
+      [
+        "class ap"
+      ],
+      [
+        "class lac"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D6",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_005",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Která regionální třída měla nejnižší poměr konverze při dorovnání, což naznačuje největší proporcionální pokles akcií?",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_006",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Jaké procento z celkového počátečního počtu akcií (vydaných v rámci reorganizace) představovala třída 'class usa ( 1 )'?",
+    "answer": [
+      [
+        "55.01%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_007",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Z regionálních tříd, které byly převedeny na 'class c ( series i )', uveďte všechny, které měly poměr konverze po úpravě (true-up) menší než 1,0.",
+    "answer": [
+      [
+        "class canada"
+      ],
+      [
+        "class cemea"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "A8",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_008",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Pokud by se převodní poměr pro 'class canada' změnil na 1.1, jaký by byl nový počet převedených akcií pro tuto konkrétní třídu?",
+    "answer": [
+      [
+        "24238154"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_009",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje jasná korelace mezi počátečním počtem akcií v regionální třídě a jejím poměrem konverze po úpravě? Vysvětlete své zjištění.",
+    "answer": [
+      [
+        "V datech není patrná žádná jasná korelace. Například třída s nejvyšším počtem počátečních akcií, 'class usa ( 1 )' (426 milionů), má konverzní poměr pod 1,0 (0,93870), což vede ke snížení. Naproti tomu 'class ap', s druhým nejvyšším počtem počátečních akcií (119 milionů), má nejvyšší konverzní poměr (1,19043), což vede k nárůstu. Menší třídy, jako jsou série 'class eu', mají stabilní poměr 1,0. Tento nedostatek konzistentního trendu naznačuje, že konverzní poměr je určen jinými faktory než počátečním objemem akcií."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_010",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "Do jaké jediné převedené třídy a série byly konsolidovány nejpočetnější regionální třídy?",
+    "answer": [
+      [
+        "class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_011",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "open_ended_reasoning",
+    "question": "Která regionální třída zaznamenala po úpravě (true-up) větší nárůst mezi třídou AP a třídou LAC?",
+    "answer": [
+      [
+        "Třída AP zaznamenala větší nárůst, když vzrostla ze 119 100 481 na 141 780 635 akcií, zatímco třída LAC vzrostla z 80 137 915 na 85 835 549 akcií."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

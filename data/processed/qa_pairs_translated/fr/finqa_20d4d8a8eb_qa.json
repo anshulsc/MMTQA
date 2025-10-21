@@ -1,0 +1,239 @@
+[
+  {
+    "question_id": "finqa_20d4d8a8eb_001",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Quelle catégorie de dépenses, en excluant les gains et les totaux, a connu la plus forte diminution absolue de valeur entre 2006 et 2007 ?",
+    "answer": [
+      [
+        "consulting and professional fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_002",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Quel était le coût combiné des 'honoraires de conseil et professionnels', des 'indemnités de départ et de rétention des employés' et de l' 'intégration des technologies de l'information' en 2008 ?",
+    "answer": [
+      [
+        "12.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_003",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Quel pourcentage du coût total de «'acquisition integration and other'» représentait «'in-process research & development'» au cours de son année de coût la plus élevée (2008) ?",
+    "answer": [
+      [
+        "56.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A11",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_004",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance financière pour la 'recherche et développement en cours' de 2006 à 2008.",
+    "answer": [
+      [
+        "Le coût de la 'recherche et développement en cours' a montré une tendance ascendante significative et accélérée. Il a commencé à 2,9 millions de dollars en 2006, a plus que doublé pour atteindre 6,5 millions de dollars en 2007, puis a augmenté près de six fois pour atteindre 38,5 millions de dollars en 2008, devenant ainsi le poste de coût dominant à la fin de la période."
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "C5",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_005",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Identifiez toutes les catégories de dépenses dont le coût était supérieur à 7 millions de dollars en 2008 ET supérieur à 4 millions de dollars en 2007.",
+    "answer": [
+      [
+        "in-process research & development"
+      ],
+      [
+        "distributor acquisitions"
+      ],
+      [
+        "sales agent and lease contract terminations"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_006",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "En 2006, quel était le ratio des coûts de 'honoraires de conseil et professionnels' par rapport aux coûts de 'indemnités de départ et de rétention des employés' ?",
+    "answer": [
+      [
+        "2.67:1"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_007",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Si le 'gain sur cession, ajustement ou dépréciation d'actifs et d'obligations acquis' en 2008 avait été de zéro au lieu d'un gain de 9,0 millions de dollars (une valeur de -9,0), quel aurait été le nouveau total pour 'intégration d'acquisition et autres' ?",
+    "answer": [
+      [
+        "$77.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_008",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après les données, quelle relation peut-on déduire entre les tendances des coûts d'« intégration des technologies de l'information » et les coûts de « recherche et développement en cours » de 2006 à 2008 ?",
+    "answer": [
+      [
+        "Une relation inverse peut être déduite entre les deux catégories. Alors que les coûts de « recherche et développement en cours » ont augmenté de façon spectaculaire, passant de 2,9 millions de dollars à 38,5 millions de dollars, les coûts d'« intégration des technologies de l'information » ont montré une tendance à la baisse constante, passant de 3,0 millions de dollars à 0,9 million de dollars sur la même période. Cela suggère un déplacement potentiel des priorités de dépenses de l'intégration informatique interne vers l'acquisition de R&D externe."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_009",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Quelle année présente le plus grand nombre d'entrées de données manquantes ou non standard (représentées par la valeur '2013') ?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "C7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_010",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "En 2008, quelle catégorie de dépenses unique représente une valeur aberrante positive, contribuant à plus de la moitié du coût total de 'acquisition integration and other' pour cette année ?",
+    "answer": [
+      [
+        "in-process research & development"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_011",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle catégorie présente une valeur inhabituellement élevée par rapport aux autres en 2008 ?",
+    "answer": [
+      [
+        "Recherche et développement en cours"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

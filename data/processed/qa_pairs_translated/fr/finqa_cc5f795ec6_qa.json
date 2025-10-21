@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Quelle activité a eu un impact négatif plus important sur les 'capitaux propres totaux' : les 'dividendes' ou les 'rachats d'actions ordinaires' ?",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Quelle est la variation nette du 'capital versé' résultant de toutes les activités listées entre les dates de bilan 2011 et 2012 ?",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Quel a été l'impact sur le total des capitaux propres de la transaction qui a entraîné une augmentation de 662 $ du « capital versé » ?",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez l'évolution des 'capitaux propres totaux' du 31 décembre 2011 au 31 décembre 2012 et identifiez le principal facteur de cette évolution.",
+    "answer": [
+      [
+        "Les capitaux propres totaux ont diminué de 70 078 $ à 65 428 $, soit une réduction nette de 4 650 $. Bien qu'il y ait eu plusieurs facteurs contributifs, le principal facteur de cette diminution était le « reclassement en intérêts minoritaires remboursables », qui à lui seul a représenté un impact négatif de 4 288 $, soit plus de 92 % de la réduction nette totale."
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Énumérez toutes les activités financières qui ont entraîné une diminution du 'capital versé' mais n'ont pas affecté les 'bénéfices non distribués'.",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Quel pourcentage des 'bénéfices non distribués' initiaux au 31 décembre 2011 a été versé sous forme de 'dividendes' durant la période ?",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Si les 'ajustements de traduction des devises étrangères' avaient eu un impact neutre (c'est-à-dire, zéro) sur le total des capitaux propres, quel aurait été le solde final du total des capitaux propres au 31 décembre 2012 ?",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "En se basant sur les soldes d'ouverture et de clôture, et la ligne de transaction pour les 'shares issued under employee plans', quelle est la relation entre 'employee stock trust' et 'common stock issued to employee trust' ?",
+    "answer": [
+      [
+        "Il existe une relation inverse cohérente. La valeur dans la colonne 'common stock issued to employee trust' est toujours l'exact opposé (le négatif) de la valeur dans la colonne 'employee stock trust' pour toute ligne donnée (par exemple, 3166 $ contre -3166 $ dans le solde d'ouverture ; -234 $ contre 234 $ pour les actions émises). Cela indique qu'il s'agit de comptes de contrepartie l'un de l'autre, conçus pour compenser leur effet dans le calcul des capitaux propres totaux."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "En excluant les première et dernière lignes qui décrivent les soldes, quelle est la valeur la plus fréquente dans l'ensemble de données des colonnes B à K ?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Parmi toutes les transactions affectant les 'capitaux propres totaux', quel est l'élément unique qui se démarque par le plus grand impact négatif ?",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "Quel était le total des actions privilégiées à la fin du 31 décembre 2012 ?",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

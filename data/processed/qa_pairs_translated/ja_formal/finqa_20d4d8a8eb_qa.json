@@ -1,0 +1,239 @@
+[
+  {
+    "question_id": "finqa_20d4d8a8eb_001",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "2006年から2007年にかけて、利益および合計を除いた場合、どの費用カテゴリーが絶対額で最大の減少を示しましたか？",
+    "answer": [
+      [
+        "consulting and professional fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_002",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "「コンサルティングおよび専門家手数料」、「従業員退職金および維持」、「情報技術統合」の2008年の合計費用はいくらでしたか？",
+    "answer": [
+      [
+        "12.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_003",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "2008年の総『買収統合およびその他』費用において、『開発中の研究開発費』はどのくらいの割合を占めましたか？",
+    "answer": [
+      [
+        "56.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A11",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_004",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "「in-process research & development」（未完成研究開発費）の2006年から2008年にかけての財務的傾向について説明してください。",
+    "answer": [
+      [
+        "「in-process research & development」（未完成研究開発費）の費用は、大幅かつ加速的な上昇傾向を示しました。2006年には290万ドルでしたが、2007年には650万ドルへと倍以上に増加し、2008年には約6倍の3850万ドルに達し、期間の終盤には主要な費用項目となりました。"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "C5",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_005",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "2008年に700万ドル以上の費用がかかり、かつ2007年に400万ドル以上の費用がかかったすべての費用カテゴリを特定してください。",
+    "answer": [
+      [
+        "in-process research & development"
+      ],
+      [
+        "distributor acquisitions"
+      ],
+      [
+        "sales agent and lease contract terminations"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_006",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "2006年において、「コンサルティングおよび専門家への報酬」費用と「従業員退職一時金および維持」費用の比率はいくらでしたか？",
+    "answer": [
+      [
+        "2.67:1"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_007",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "2008年の「取得資産及び負債の処分の調整または減額」が900万ドルの利益（-9.0という値）ではなくゼロであった場合、「買収統合およびその他」の新規合計はいくらになりますか？",
+    "answer": [
+      [
+        "$77.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_008",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "データに基づくと、2006年から2008年にかけて「情報技術統合」費用と「未開発研究開発」費用の傾向の間にはどのような関係が推測できますか？",
+    "answer": [
+      [
+        "両カテゴリー間には逆の関係が推測されます。「未開発研究開発」費用は290万ドルから3850万ドルへと劇的に増加した一方で、「情報技術統合」費用は同期間に300万ドルから90万ドルへと一貫して減少傾向を示しました。これは、社内IT統合から外部R&D取得への支出優先順位の潜在的なシフトを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_009",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "'2013'という値で表される、欠損または標準外のデータエントリが最も多い年はどれですか？",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "C7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_010",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "2008年において、その年の「買収統合およびその他」費用の半分以上を占める、単一の例外的に大きい費用項目は何ですか？",
+    "answer": [
+      [
+        "in-process research & development"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_011",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "2008年に他の項目と比較して異常に高い値を示しているカテゴリはどれですか？",
+    "answer": [
+      [
+        "in-process research & development"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_3088a5a488_001",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Di tahun berapa perusahaan mencatat pendapatan penjualan dan servis tertinggi?",
+    "answer": [
+      [
+        "2010"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_002",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Berapa rata-rata nilai 'total assets' dalam jutaan dolar di kelima tahun yang tersedia?",
+    "answer": [
+      [
+        "5529.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3088a5a488_003",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Berapa 'free cash flow' di tahun pas perusahaan ngalamin 'operating loss' paling gede?",
+    "answer": [
+      [
+        "121"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_004",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "open_ended_reasoning",
+    "question": "Gimana tren 'utang jangka panjang' dari 2008 sampai 2012? Naik stabil, turun, atau banyak banget naik turunnya?",
+    "answer": [
+      [
+        "Utang jangka panjangnya nunjukkin banyak fluktuasi. Sempet stabil dari 2008 sampai 2009 di angka $283 juta, terus anjlok ke $105 juta di 2010. Abis itu naik gila-gilaan jadi $1830 juta di 2011, sebelum turun dikit ke $1779 juta di 2012. Jadi, trennya emang gak stabil tapi parah banget naik turunnya."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_005",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Sebutkan semua tahun di mana perusahaan melaporkan 'kerugian bersih' (pendapatan bersih negatif) tetapi masih memiliki 'arus kas bebas' yang positif.",
+    "answer": [
+      [
+        "2011"
+      ],
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "F4",
+      "C8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_006",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Berapa persen total kewajiban jangka panjang dari total aset di akhir tahun fiskal 2012?",
+    "answer": [
+      [
+        "67.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3088a5a488_007",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Kalo 'goodwill impairment' di tahun 2012 itu setengahnya dari yang dilaporkan, berapa 'operating income' yang baru buat tahun itu, asumsi nggak ada perubahan lain?",
+    "answer": [
+      [
+        "1365"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_008",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "open_ended_reasoning",
+    "question": "Kalau dilihat data dari 2008 sampai 2011, naiknya 'sales and service revenues' itu pasti bikin 'net earnings' ikut naik juga nggak sih?",
+    "answer": [
+      [
+        "Nggak juga, nggak ada korelasi positif yang konsisten. Contohnya, dari 2009 ke 2010, sales naik dari $6292M ke $6723M, dan net earnings juga naik dari $119M ke $131M. Tapi, dari 2008 ke 2009, sales naik dari $6189M ke $6292M, sedangkan net earnings membaik dari rugi besar -$2397M jadi untung $119M, perubahannya nggak sebanding sama kenaikan pendapatan, kemungkinan besar gara-gara faktor lain kayak pengurangan goodwill impairment. Jadi, meskipun sering berhubungan, pengeluaran besar lainnya sangat memengaruhi net earnings akhir."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3088a5a488_009",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Metrik finansial apa aja, selain jumlah per saham, yang melaporkan kerugian atau nilai negatif di tahun terbanyak?",
+    "answer": [
+      [
+        "net earnings ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "E8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_010",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Tahun berapa peningkatan 'utang jangka panjang' dari tahun ke tahun paling signifikan, dan berapa perkiraan persentase peningkatannya dari tahun sebelumnya?",
+    "answer": [
+      [
+        "2011",
+        "1642.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3088a5a488_011",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "Tahun berapa pendapatan penjualan dan layanan paling tinggi?",
+    "answer": [
+      [
+        "2010"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

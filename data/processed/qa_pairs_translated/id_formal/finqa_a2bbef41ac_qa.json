@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Berapakah total nilai aset ('investasi' dan 'aset lainnya') pada tanggal 31 Desember 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Kategori aset mana, 'investments' atau 'other assets', yang mengalami kerugian bersih absolut yang lebih besar dari 'realized and unrealized gains / ( losses ) net'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Verifikasi apakah saldo akhir 'investasi' pada 31 Desember 2008 konsisten dengan saldo awal dan transaksi berikutnya yang terdaftar. Tunjukkan perhitungan Anda.",
+    "answer": [
+      [
+        "Ya, saldonya konsisten. Perhitungannya adalah: $1240 (saldo awal) - $409 (kenaikan/kerugian) + $11 (pembelian/penjualan) - $29 (transfer bersih) = $813, yang sesuai dengan saldo akhir yang dilaporkan."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Berapakah total perubahan bersih nilai aset untuk keseluruhan periode, dari 31 Desember 2007 hingga 31 Desember 2008?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Untuk kategori aset manakah 'transfer bersih masuk dan/atau keluar dari level 3' menghasilkan kontribusi positif terhadap nilai aset?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Berapa proporsi dari 'total kerugian bersih untuk periode yang termasuk dalam pendapatan' yang berasal dari 'investasi'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Jika 'realized and unrealized gains / ( losses ) net' untuk 'other assets' adalah nol, bukan $-16, berapa saldo penutupan baru untuk 'other assets' pada tanggal 31 Desember 2008?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data untuk 'investasi', apa hubungan antara 'keuntungan / (kerugian) bersih yang direalisasikan dan belum direalisasikan' dan 'total bersih (kerugian) ... terkait dengan aset yang masih dimiliki pada tanggal pelaporan'?",
+    "answer": [
+      [
+        "Ada hubungan yang kuat dan langsung. 'Total bersih (kerugian) ... terkait dengan aset yang masih dimiliki' ($-366) menyumbang 89,5% dari total 'keuntungan / (kerugian) bersih yang direalisasikan dan belum direalisasikan' ($-409). Ini menyiratkan bahwa mayoritas kerugian bersih periode tersebut untuk investasi belum direalisasikan dan terkait dengan aset yang belum dijual pada akhir periode pelaporan."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Konvensi akuntansi apa yang disarankan oleh format data yang digunakan untuk nilai negatif, seperti '-409 ( 409 )'?",
+    "answer": [
+      [
+        "Format penyajian angka negatif yang diikuti oleh nilai absolut di dalam tanda kurung adalah konvensi akuntansi umum untuk secara jelas dan tegas menunjukkan angka keuangan negatif seperti kerugian, beban, atau nilai aset kontra."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Item baris manakah yang mewakili dampak negatif tunggal terbesar pada nilai gabungan aset selama periode tersebut?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Berapa penurunan investasi dari tahun 2007 hingga 2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

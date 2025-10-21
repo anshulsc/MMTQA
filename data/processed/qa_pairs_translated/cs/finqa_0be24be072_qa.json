@@ -1,0 +1,199 @@
+[
+  {
+    "question_id": "finqa_0be24be072_001",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Který rok zaznamenal největší absolutní nárůst 'Čistého úrokového příjmu bez trhů CIB' oproti předchozímu roku?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_002",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Jaké byly průměrné 'průměrné úročené aktivy' za tři poskytnutá léta?",
+    "answer": [
+      [
+        "2123479.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_0be24be072_003",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "V kterém roce, kdy byly 'čisté úrokové výnosy CIB Markets' nejvyšší, byla odpovídající hodnota pro 'průměrná úročená aktiva CIB Markets'?",
+    "answer": [
+      [
+        "520307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_004",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište vývoj „čistého úrokového výnosu z průměrných úročených aktiv CIB trhů“ od roku 2015 do roku 2017.",
+    "answer": [
+      [
+        "Vývoj byl vysoce volatilní. Výnos se zvýšil přibližně o 17,3 % z 1,04 v roce 2015 na 1,22 v roce 2016, ale poté zaznamenal prudký pokles o přibližně 29,5 %, když klesl na 0,86 v roce 2017."
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_005",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Uveďte roky, kdy byl čistý úrokový výnos CIB Markets vyšší než 5 000 milionů USD a čistý úrokový výnos z průměrných úročených aktiv CIB Markets byl vyšší než 1,10.",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_006",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "V roce 2016, jaké procento z celkových „průměrných úročených aktiv“ tvořila „průměrná úročená aktiva CIB trhů“?",
+    "answer": [
+      [
+        "24.76%"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_0be24be072_007",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Pokud by se 'čistý úrokový výnos cib markets' v roce 2017 zvýšil o 20 % a 'čistý úrokový výnos 2013 řízený základ' zůstal stejný, jaký by byl nový 'čistý úrokový výnos bez cib markets'?",
+    "answer": [
+      [
+        "$ 45854"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_008",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Je podľa tabuľky badateľná korelácia medzi celkovým 'čistým úrokovým príjmom spravovaným v roku 2013' a 'čistým úrokovým výnosom z priemerných úročených aktív spravovaným v roku 2013' počas uvedených troch rokov?",
+    "answer": [
+      [
+        "Áno, existuje zreteľná pozitívna korelácia. Keďže 'čistý úrokový príjem spravovaný v roku 2013' konzistentne rástol z 44 620 miliónov USD v roku 2015 na 51 410 miliónov USD v roku 2017, 'čistý úrokový výnos z priemerných úročených aktív spravovaný v roku 2013' tiež vykazoval konzistentný nárast z 2,14 % na 2,36 % za rovnaké obdobie."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_0be24be072_009",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Které dva ukazatele v tabulce, když se první vydělí druhým, vypočítají „čistý úrokový výnos z průměrných úročených aktiv bez CIB trhů“?",
+    "answer": [
+      [
+        "net interest income excluding cib markets ( a )"
+      ],
+      [
+        "average interest-earning assets excluding cib markets"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A6",
+      "A9",
+      "B3",
+      "B6",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_0be24be072_010",
+    "table_id": "finqa_0be24be072",
+    "question_type": "open_ended_reasoning",
+    "question": "Který rok je z hlediska meziročního růstu 'čistého úrokového příjmu z řízeného základu 2013' odlehlou hodnotou ve srovnání s jiným obdobím?",
+    "answer": [
+      [
+        "Rok 2017 je odlehlou hodnotou kvůli svému výrazně vyššímu růstu. Nárůst z roku 2016 na rok 2017 činil 4 118 milionů USD (51 410 - 47 292), což je podstatně více než nárůst o 2 672 milionů USD zaznamenaný z roku 2015 na rok 2016 (47 292 - 44 620)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_0be24be072_011",
+    "table_id": "finqa_0be24be072",
+    "question_type": "value",
+    "question": "Jaký byl čistý úrokový příjem (v milionech) bez trhů CIB v roce 2016?",
+    "answer": [
+      [
+        "$40,958"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

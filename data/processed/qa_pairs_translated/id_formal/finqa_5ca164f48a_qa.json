@@ -1,0 +1,193 @@
+[
+  {
+    "question_id": "finqa_5ca164f48a_001",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Berapa poin persentase penurunan rasio 'net charge-offs terhadap pinjaman rata-rata' untuk pinjaman konsumen dari tahun 2013 ke 2014?",
+    "answer": [
+      [
+        "0.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_002",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Berapakah total gabungan, dalam jutaan dolar, untuk 'penyisihan kerugian kredit' dan nilai absolut dari 'lain-lain' pada tahun 2013?",
+    "answer": [
+      [
+        "644"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_003",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Pada tahun dengan rasio 'allowance for loan and lease losses to total loans' yang lebih tinggi, berapa nilai 'commercial lending net charge-offs'?",
+    "answer": [
+      [
+        "$ -249 ( 249 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_004",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis tren tahun ke tahun untuk 'total penghapusan bersih'. Apa yang disarankan oleh tren ini mengenai risiko kredit institusi?",
+    "answer": [
+      [
+        " 'Total penghapusan bersih' menurun secara substansial dari $1077 juta pada tahun 2013 menjadi $531 juta pada tahun 2014, penurunan lebih dari 50%. Tren menurun ini sangat menyarankan adanya perbaikan dalam kualitas portofolio pinjaman dan manajemen risiko kredit yang lebih efektif selama periode tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_005",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Sebutkan kategori penghapusan bersih di mana nilai absolutnya melebihi $500 juta pada tahun 2013.",
+    "answer": [
+      [
+        "total net charge-offs ( a )"
+      ],
+      [
+        "consumer lending net charge-offs ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_006",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Berapa persentase dari 'total penghapusan bersih' pada tahun 2014 yang diatribusikan pada 'pinjaman konsumen'?",
+    "answer": [
+      [
+        "89.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_007",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Jika 'provision for credit losses' pada tahun 2014 naik 20%, berapa saldo 'december 31' yang baru, dengan asumsi semua item baris lainnya tetap sama?",
+    "answer": [
+      [
+        "$ 3385.6 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_008",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan tabel, apa hubungan antara 'total penghapusan bersih' dan 'penyisihan untuk kerugian kredit' antara tahun 2013 dan 2014?",
+    "answer": [
+      [
+        "Terdapat korelasi positif yang kuat. Pada tahun 2013, penghapusan bersih yang tinggi (USD 1077 juta) sesuai dengan penyisihan yang tinggi (USD 643 juta). Pada tahun 2014, ketika penghapusan bersih turun secara signifikan (menjadi USD 531 juta), penyisihan untuk kerugian kredit juga menurun (menjadi USD 273 juta). Hal ini menunjukkan bahwa penyisihan disesuaikan sejalan dengan tingkat kerugian pinjaman yang sebenarnya."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_009",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Sebutkan metrik keuangan dalam tabel yang memiliki nilai yang hilang untuk tahun 2014 dan 2013.",
+    "answer": [
+      [
+        "net charge-offs to average loans ( for the year ended )"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_010",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "Kategori pinjaman mana, komersial atau konsumen, yang menunjukkan peningkatan relatif yang lebih signifikan pada rasio 'net charge-offs to average loans' dari tahun 2013 ke 2014?",
+    "answer": [
+      [
+        "Pinjaman komersial menunjukkan peningkatan relatif yang lebih signifikan. Rasio ini turun dari 0,22% menjadi 0,04%, penurunan sebesar 81,8% dari tingkat tahun 2013. Sebaliknya, rasio pinjaman konsumen turun dari 1,07 menjadi 0,62, penurunan relatif yang lebih kecil sebesar 42,1%. Penurunan persentase yang dramatis pada rasio pinjaman komersial menandainya sebagai yang terdepan dalam hal peningkatan kinerja."
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "C13",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_011",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "Berapa penurunan total penghapusan bersih (dalam jutaan) dari tahun 2013 ke 2014?",
+    "answer": [
+      [
+        "$546"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

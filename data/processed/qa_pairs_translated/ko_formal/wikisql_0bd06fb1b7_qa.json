@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "wikisql_0bd06fb1b7_001",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "최소 5회 이상의 단식 승리를 기록한 선수 중 단식 승률이 가장 높은 선수는 누구입니까?",
+    "answer": [
+      [
+        "Kim Young-Jun (474)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A8",
+      "D8",
+      "A12",
+      "D12",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_002",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "1980년대에 선수 경력을 시작한 모든 선수들의 총 승수는 얼마입니까?",
+    "answer": [
+      [
+        "33"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B15",
+      "C15",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_003",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "5년 이상 선수 생활을 하였으며, 총 승패 기록에서 패배가 승리보다 많은 모든 선수를 나열해 주십시오.",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ],
+      [
+        "Kim Choon-Ho"
+      ],
+      [
+        "Im Kyu-tae (492)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A8",
+      "B8",
+      "C8",
+      "A13",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_004",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "다른 선수들과 비교했을 때, 총 패배 수가 불균형적으로 가장 많은 두드러진 이상치는 누구입니까?",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_005",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "정희성 선수가 복식 경기에서 2승 2패의 기록 대신 전승을 거두었다면, 그의 새로운 '총 승패' 기록은 어떻게 되겠습니까?",
+    "answer": [
+      [
+        "4-1"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_006",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "단식 승패 기록이 동률인 선수의 경우, 총 경기 중 복식 경기가 차지하는 비율은 몇 퍼센트입니까?",
+    "answer": [
+      [
+        "44%"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_007",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "권오희 선수와 김선용 선수 중 단식 승률이 더 좋았던 선수는 누구입니까?",
+    "answer": [
+      [
+        "Kwon Oh-Hee"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_008",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "경력 시작 연도를 기준으로, 1980년대부터 2000년대까지 단식 경기와 복식 경기에 대한 비중이 어떻게 변화했습니까?",
+    "answer": [
+      [
+        "단식 경기로의 뚜렷한 전환이 있었습니다. 송동욱, 유진선과 같이 1980년대에 데뷔한 선수들은 단식과 복식 경기 수가 비교적 균형을 이루었습니다 (예: 유진선은 단식 13경기, 복식 16경기를 치렀습니다). 반면, 김영준, 임규태와 같이 2000년대에 데뷔한 선수들은 복식 경기보다 단식 경기를 훨씬 더 많이 치렀습니다 (예: 김영준은 단식 9경기 대 복식 1경기; 임규태는 단식 12경기 대 복식 3경기를 치렀습니다). 이는 단식 전문화 경향을 보여줍니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B2",
+      "D2",
+      "E2",
+      "B4",
+      "D4",
+      "E4",
+      "B9",
+      "D9",
+      "E9",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_009",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "이름 뒤에 괄호 안의 숫자가 있는 모든 선수들이 공유하는 경력 활동 기간의 공통적인 특징은 무엇입니까?",
+    "answer": [
+      [
+        "이름 뒤에 괄호 안의 숫자가 있는 모든 선수들은 2010년 또는 그 이후 어느 시점에라도 활동한 경력을 보유하고 있습니다. 숫자가 없는 선수 중 2010년대에 활동한 선수는 없습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "A12",
+      "B12",
+      "A13",
+      "B13",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_010",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "이 데이터 세트를 기반으로, 완벽한 복식 기록(0패) 보유와 선수 경력 지속 기간 사이에 상관관계가 있습니까?",
+    "answer": [
+      [
+        "예, 강한 음의 상관관계가 있습니다. 완벽한 복식 기록(0패)을 가진 네 명의 선수(Lee Tong-Won, Kim Sun-Yong, Cho Soong-Jae, Lee Woo-Ryong)는 모두 1년 또는 2년에 불과한 짧은 선수 경력을 가졌습니다. 반대로, 6년 이상으로 긴 선수 경력을 가진 선수들은 모두 여러 번의 복식 패배 기록이 있습니다. 이는 긴 선수 경력 동안 완벽한 복식 기록을 유지하는 것이 매우 어렵다는 것을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B9",
+      "E9",
+      "B14",
+      "E14",
+      "B17",
+      "E17",
+      "B3",
+      "E3",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_011",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "정희석 선수와 송동욱 선수의 복식 총 승수는 얼마입니까?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "A15",
+      "E15",
+      "A52",
+      "E52"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

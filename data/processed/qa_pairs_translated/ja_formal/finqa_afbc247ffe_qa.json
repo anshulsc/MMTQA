@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "表に示された3つの期間にわたって記録された「累積その他の包括利益から再分類された金額」の純合計はいくらでしたか？",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "2014年12月31日から2017年12月31日までの間に、3つの主要な財務カテゴリー（デリバティブ金融商品、共同事業持分、市場性証券）のうち、残高が最も大きく絶対的に増加したのはどれですか？",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "「その他の包括利益（純額）（再分類前）」が最も高かった期間において、「sl green 2019s share of joint venture net unrealized gain on derivative instruments」から再分類された金額はいくらでしたか？",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "2014年12月31日から2017年12月31日までの総残高の前年比の推移を説明してください。変動は一貫していましたか？",
+    "answer": [
+      [
+        "推移は一貫しておらず、変動的でした。総残高は2014年の-6980から2015年の-8749へと減少しました。その後、2016年には22137へと大幅に増加し、2017年には18604へと緩やかに減少しました。成長は安定しておらず、線形でもありませんでした。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "期間の開始時（2014年12月31日）にマイナスの残高があり、期間の終了時（2017年12月31日）にプラスの残高で終了した財務カテゴリをリストアップしてください。",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "2016年の期間における「再分類前の包括利益合計」のうち、「デリバティブ金融商品に係る未実現利益合計（1）」が占める割合はどのくらいですか？",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "2017年度の「有価証券純含み益」における「再分類を除くその他の包括（損失）収益」が、1,348ドルの損失ではなく1,000ドルの利益であった場合、2017年12月31日時点の新しい「合計」残高はいくらになりますか？",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "提供されたデータに基づき、各期間の合計額において、「再分類前その他の包括（損失）収益」と「累積その他の包括利益から再分類された金額」との間に、直接的または逆のいずれか一貫した相関関係はありますか？",
+    "answer": [
+      [
+        "いいえ、一貫した相関関係はありません。2015年期間では、包括損失-13,467の後、正の再分類11,698（逆相関）が続きました。しかし、2016年と2017年の両期間では、収益/損失と再分類は同じ符号（それぞれ正/正および負/負）であり、これらの年における直接的な関係を示しています。この不一致は、再分類のタイミングと金額が、先行期間の未実現業績によってのみ決定されるわけではないことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "表に示されている前年度の期末残高と期間中の財務活動から、期末残高は数学的にどのように導き出されるのですか？",
+    "answer": [
+      [
+        "各期末残高は、前年度の期末残高、当期の「組換調整前の包括（損失）収益」および当期の「累積その他包括利益から組み戻された金額」の合計です。例えば、2016年の残高（22,137）は、2015年の残高（-8,749）に、2016年期間のその他の包括的収益（18,211）と組み戻された金額（12,675）を加算して算出されます。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "「合計」列において、3年間の期間で最も包括的な所得または損失のイベントを示す最大の絶対値を持つ単一の財務イベント（すなわち、バランス行項目ではない）は何ですか？",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "2015年末の全カテゴリーにおける、デリバティブ金融商品に係る未実現利益合計額はいくらですか？",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

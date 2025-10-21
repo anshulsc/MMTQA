@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "wikisql_0bd06fb1b7_001",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Quel joueur, avec au moins 5 victoires en simple au total, a le pourcentage de victoires en simple le plus élevé ?",
+    "answer": [
+      [
+        "Kim Young-Jun (474)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A8",
+      "D8",
+      "A12",
+      "D12",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_002",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Quel est le nombre total combiné de victoires pour tous les joueurs dont la carrière a commencé dans les années 1980 ?",
+    "answer": [
+      [
+        "33"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B15",
+      "C15",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_003",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Listez tous les joueurs qui ont joué pendant plus de 5 ans et qui ont terminé leur carrière avec plus de défaites que de victoires au total.",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ],
+      [
+        "Kim Choon-Ho"
+      ],
+      [
+        "Im Kyu-tae (492)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A8",
+      "B8",
+      "C8",
+      "A13",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_004",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Qui est le joueur qui représente la plus grande anomalie en termes de nombre de défaites totales disproportionnellement élevé par rapport aux autres joueurs ?",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_005",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Si Chung Hee-Sung avait gagné tous ses matchs de double au lieu d'avoir un bilan de 2-2, quel serait son nouveau bilan 'Total V-D' ?",
+    "answer": [
+      [
+        "4-1"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_006",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Pour le joueur ayant un bilan parfaitement équilibré en simple (autant de victoires que de défaites), quel pourcentage de ses matchs totaux étaient des matchs de double ?",
+    "answer": [
+      [
+        "44%"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_007",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Entre Kwon Oh-Hee et Kim Sun-Yong, qui a eu un meilleur pourcentage de victoires en simple ?",
+    "answer": [
+      [
+        "Kwon Oh-Hee"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_008",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "En se basant sur les années de début de carrière, comment l'accent mis sur le jeu en simple par rapport au jeu en double a-t-il évolué des années 1980 aux années 2000 ?",
+    "answer": [
+      [
+        "Il y a eu un changement notable vers le jeu en simple. Les joueurs ayant débuté dans les années 1980, tels que Song Dong-Wook et Yoo Jin-Sun, avaient un nombre relativement équilibré de matchs en simple et en double (par exemple, Yoo Jin-Sun a eu 13 matchs en simple et 16 matchs en double). En revanche, les joueurs qui ont débuté dans les années 2000, comme Kim Young-Jun et Im Kyu-tae, ont joué beaucoup plus de matchs en simple qu'en double (par exemple, Kim Young-Jun a joué 9 matchs en simple pour 1 en double ; Im Kyu-tae a joué 12 matchs en simple pour 3 en double), indiquant une tendance à la spécialisation en simple."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B2",
+      "D2",
+      "E2",
+      "B4",
+      "D4",
+      "E4",
+      "B9",
+      "D9",
+      "E9",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_009",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle caractéristique commune concernant la chronologie de carrière est partagée par tous les joueurs dont le nom est suivi d'un nombre entre parenthèses ?",
+    "answer": [
+      [
+        "Tous les joueurs dont le nom est suivi d'un nombre entre parenthèses ont eu une carrière active à un moment donné pendant ou après l'année 2010. Aucun joueur sans numéro n'a joué dans les années 2010."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "A12",
+      "B12",
+      "A13",
+      "B13",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_010",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Selon cet ensemble de données, y a-t-il une corrélation entre un bilan parfait en double (zéro défaite) et la longévité de carrière ?",
+    "answer": [
+      [
+        "Oui, il y a une forte corrélation négative. Les quatre joueurs avec un bilan parfait en double (0 défaite) ont tous eu de courtes carrières de seulement 1 ou 2 ans (Lee Tong-Won, Kim Sun-Yong, Cho Soong-Jae, Lee Woo-Ryong). Inversement, les joueurs ayant de longues carrières de 6 ans ou plus ont tous plusieurs défaites en double. Cela suggère qu'il est hautement improbable de maintenir un bilan parfait en double sur une longue carrière."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B9",
+      "E9",
+      "B14",
+      "E14",
+      "B17",
+      "E17",
+      "B3",
+      "E3",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_011",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Quel est le nombre total de victoires en double pour Chung Hee-seok et Song Dong-Wook combinés ?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "A15",
+      "E15",
+      "A52",
+      "E52"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

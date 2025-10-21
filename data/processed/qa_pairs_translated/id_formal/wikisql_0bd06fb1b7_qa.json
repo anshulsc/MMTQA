@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "wikisql_0bd06fb1b7_001",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Pemain mana dengan setidaknya 5 kemenangan tunggal total yang memiliki persentase kemenangan tunggal tertinggi?",
+    "answer": [
+      [
+        "Kim Young-Jun (474)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A8",
+      "D8",
+      "A12",
+      "D12",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_002",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Berapakah jumlah total kemenangan gabungan untuk semua pemain yang karirnya dimulai pada tahun 1980-an?",
+    "answer": [
+      [
+        "33"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B15",
+      "C15",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_004",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Siapakah pemain yang secara signifikan merupakan pencilan (outlier) dalam hal memiliki jumlah kekalahan total yang sangat tinggi dibandingkan dengan pemain lain?",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_005",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Jika Chung Hee-Sung memenangkan semua pertandingan gandanya alih-alih memiliki rekor 2-2, bagaimana rekor 'Total M-K' barunya?",
+    "answer": [
+      [
+        "4-1"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_006",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Untuk pemain dengan rekor tunggal yang seimbang sempurna (jumlah kemenangan dan kekalahan yang sama), berapa persentase dari total pertandingan mereka yang merupakan pertandingan ganda?",
+    "answer": [
+      [
+        "44%"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_007",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Antara Kwon Oh-Hee dan Kim Sun-Yong, siapakah yang memiliki persentase kemenangan lebih baik dalam kategori tunggal?",
+    "answer": [
+      [
+        "Kwon Oh-Hee"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_008",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan tahun awal karier, bagaimana fokus pada permainan tunggal dibandingkan ganda berkembang dari tahun 1980-an hingga 2000-an?",
+    "answer": [
+      [
+        "Terjadi pergeseran yang nyata menuju permainan tunggal. Pemain yang memulai debutnya pada tahun 1980-an, seperti Song Dong-Wook dan Yoo Jin-Sun, memiliki jumlah pertandingan tunggal dan ganda yang relatif seimbang (misalnya, Yoo Jin-Sun memiliki 13 pertandingan tunggal dan 16 pertandingan ganda). Sebaliknya, pemain yang memulai debutnya pada tahun 2000-an, seperti Kim Young-Jun dan Im Kyu-tae, memainkan pertandingan tunggal secara signifikan lebih banyak daripada ganda (misalnya, Kim Young-Jun memainkan 9 pertandingan tunggal berbanding 1 pertandingan ganda; Im Kyu-tae memainkan 12 pertandingan tunggal berbanding 3 pertandingan ganda), yang mengindikasikan tren spesialisasi dalam tunggal."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B2",
+      "D2",
+      "E2",
+      "B4",
+      "D4",
+      "E4",
+      "B9",
+      "D9",
+      "E9",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_009",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Karakteristik umum apa mengenai jangka waktu karier yang dimiliki oleh semua pemain yang namanya diikuti oleh angka dalam tanda kurung?",
+    "answer": [
+      [
+        "Semua pemain dengan angka dalam tanda kurung setelah nama mereka memiliki karier yang aktif pada suatu waktu selama atau setelah tahun 2010. Tidak ada pemain tanpa angka yang bermain di tahun 2010-an."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "A12",
+      "B12",
+      "A13",
+      "B13",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_010",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data ini, apakah terdapat korelasi antara memiliki rekor ganda sempurna (tanpa kekalahan) dan umur karir yang panjang?",
+    "answer": [
+      [
+        "Ya, terdapat korelasi negatif yang kuat. Keempat pemain dengan rekor ganda sempurna (0 kekalahan) semuanya memiliki karir singkat hanya 1 atau 2 tahun (Lee Tong-Won, Kim Sun-Yong, Cho Soong-Jae, Lee Woo-Ryong). Sebaliknya, pemain dengan karir panjang 6 tahun atau lebih semuanya memiliki banyak kekalahan ganda. Ini menunjukkan bahwa mempertahankan rekor ganda sempurna sangat tidak mungkin selama karir yang panjang."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B9",
+      "E9",
+      "B14",
+      "E14",
+      "B17",
+      "E17",
+      "B3",
+      "E3",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_011",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "Berapakah total jumlah kemenangan ganda untuk Chung Hee-seok dan Song Dong-Wook jika digabungkan?",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "A15",
+      "E15",
+      "A52",
+      "E52"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

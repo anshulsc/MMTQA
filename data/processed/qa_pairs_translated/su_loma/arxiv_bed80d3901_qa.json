@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Pamundut mana nu merlukeun analisis jumlah métrik finansial utama panglobana?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Hitung jumlah total 'Related Metrics' nu ditala di sakuliah tilu patarosan.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Pikeun patarosan anu ngalibatkeun ngabandingkeun hiji perusahaan ka réncangna, naon rentang tanggal anu tepat anu disayogikeun dina 'Permintaan Data Terstruktur' anu saluyu?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Pananya basa naon anu cocog sareng paménta anu terstruktur anu nyertakeun période waktos anu paling lami?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Sebutkeun sadaya matrik primér anu dipénta pikeun patarosan anu khusus nyebatkeun perusahaan kalayan idéntifier hukum sapertos 'plc' atanapi 'Co.' dina widang 'Data Anu Diperyogikeun'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Pikeun pamundut Amcor plc, sabaraha persén tina sadaya metrik anu didaptarkeun dina 'Pamundut Data Terstruktur' anu sacara eksplisit ngandung kecap 'Cash'?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Upami pamundut basa alami pikeun Adobe dilegaan ku paménta pikeun 'Return on Working Capital', kumaha daptar metrik dina 'Structured Data Request' bakal dirobih, nganggo inpormasi tina patarosan Halliburton salaku témpel?",
+    "answer": [
+      [
+        "Bagian metrik tina 'Structured Data Request' bakal diropéa pikeun ngalebetkeun 'Return on Working Capital' sareng komponén anu patali tina patarosan Halliburton. Ieu bakal hartosna nambahkeun 'Return on Working Capital; Net income; Working capital' kana daptar anu tos aya, ngahasilkeun: (Sales Revenue; Total Revenue; Economic Value Added; Net operating profit after tax (NOPAT); Cost of capital; Return on Working Capital; Net income; Working capital)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Numutkeun kana data anu disayogikeun, naon hubungan anu katara antara kasusah patarosan basa alami 'Query' sareng jumlah total metrik anu ditetepkeun dina 'Structured Data Request'?",
+    "answer": [
+      [
+        "Aya sigana korelasi positip. Dua patarosan anu langkung rumit (kanggo Amcor sareng Halliburton) cocog sareng jumlah metrik anu langkung luhur dina paménta anu terstruktur (masing-masing 14 sareng 12) dibandingkeun sareng patarosan anu langkung saderhana pikeun Adobe, anu ngan ukur gaduh 5 metrik. Ieu nunjukkeun yén nalika kaleuleuwihan analitik tina patarosan pangguna ningkat, muatan data anu diperyogikeun ogé ningkat."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Kolom mana anu fungsina ngabagi pamundut basa alami kana format semi-struktur anu ngadaptarkeun perusahaan, métrik utama, sub-métrik anu aya hubunganana, sareng kerangka waktos anu dipénta?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis informasi temporal dina kolom 'Required Data' jeung 'Structured Data Request'. Aya patarosan nu dua kolom ieu mintonkeun jaman nu silih tukang? Lamun aya, sebutkeun patarosanana tur désikeun bédana.",
+    "answer": [
+      [
+        "Leres, patarosan Amcor plc nunjukkeun bédana anu signifikan. Bagian 'Required Data' netepkeun jaman 'salila 6 bulan saméméhna', sedengkeun 'Structured Data Request' nu pakait netepkeun période nu leuwih pondok, ngan 7 poé '(7/1/2024 - 7/7/2024)'. Dua patarosan séjénna nunjukkeun kasaluyuan temporal antara kolom-kolomna."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Aya sabaraha perusahaan unik anu disebutkeun dina data?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

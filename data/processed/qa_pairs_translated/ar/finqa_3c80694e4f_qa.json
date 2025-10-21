@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "finqa_3c80694e4f_001",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "أي أصل متداول، \"الذمم المدينة التجارية والذمم المدينة الأخرى\" أم \"الذمم المدينة المالية\"، أظهر زيادة مطلقة أكبر في القيمة من عام 2011 إلى عام 2012؟",
+    "answer": [
+      [
+        "finance receivables 2013 net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_002",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "ما هو المبلغ المجمع (بالملايين) لالتزامات 'أوراق الدفع' و 'حسابات الدفع' لعام 2011؟",
+    "answer": [
+      [
+        "-140.8"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_003",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "ما هي قيمة بند الالتزامات المتداولة لعام 2011 والذي أظهر أقل تغير مطلق في القيمة بين عامي 2011 و 2012؟",
+    "answer": [
+      [
+        "-443.0 ( 443.0 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_004",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "open_ended_reasoning",
+    "question": "صف اتجاه رأس مال الشركة التشغيلي من عام 2011 إلى عام 2012 واشرح ما يشير إليه ذلك بشأن صحتها المالية.",
+    "answer": [
+      [
+        "زاد رأس المال التشغيلي للشركة من 946.9 مليون دولار في عام 2011 إلى 1079.8 مليون دولار في عام 2012، بزيادة قدرها 132.9 مليون دولار. يشير هذا الاتجاه الإيجابي إلى تحسن في سيولة الشركة وصحتها المالية على المدى القصير، حيث يظهر قدرة أكبر على تغطية التزاماتها الحالية بأصولها الحالية."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_005",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "اذكر جميع فئات الأصول المتداولة التي بلغت قيمتها أكثر من 400 مليون دولار في عام 2012.",
+    "answer": [
+      [
+        "trade and other accounts receivable 2013 net"
+      ],
+      [
+        "inventories 2013 net"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_006",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "ما هي نسبة 'المخزون' من إجمالي الأصول المتداولة في عام 2012، معبر عنها كنسبة مئوية مقربة إلى منزلتين عشريتين؟",
+    "answer": [
+      [
+        "24.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_007",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "إذا كانت 'النقد وما في حكمه' في عام 2012 أقل بنسبة 10%، فكم كانت 'إجمالي الأصول المتداولة' لعام 2012، بالملايين؟",
+    "answer": [
+      [
+        "1647.55"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_008",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على بيانات عامي 2011 و 2012، ما هي العلاقة الظاهرة بين نمو إجمالي الأصول المتداولة والتغير في رأس المال العامل؟",
+    "answer": [
+      [
+        "هناك علاقة إيجابية قوية. زادت إجمالي الأصول المتداولة بمقدار 138.3 مليون دولار (من 1530.7 مليون دولار إلى 1669.0 مليون دولار)، بينما زادت القيمة المطلقة لإجمالي الالتزامات المتداولة بمقدار 5.4 مليون دولار فقط (من 583.8 مليون دولار إلى 589.2 مليون دولار). نتيجة لذلك، نما رأس المال العامل بمقدار 132.9 مليون دولار، وهي قيمة قريبة جدًا من نمو الأصول. يشير هذا إلى أن الزيادة في الأصول لم يتم تمويلها في المقام الأول من خلال زيادة مقابلة في الديون قصيرة الأجل، مما أدى مباشرة إلى وضع أقوى لرأس المال العامل."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "B11",
+      "C11",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_009",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "بناءً على القيم المقدمة، أي بند هو المحسوب كفرق بين 'إجمالي الأصول المتداولة' والقيمة المطلقة لـ 'إجمالي الالتزامات المتداولة'؟",
+    "answer": [
+      [
+        "working capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_010",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "من بين جميع حسابات الأصول والخصوم الفردية المدرجة، أيها شهد أكبر تغيير مطلق بالنسبة المئوية من عام 2011 إلى عام 2012؟",
+    "answer": [
+      [
+        "notes payable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_011",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "open_ended_reasoning",
+    "question": "كيف تغير رأس المال العامل (بالملايين) من عام 2011 إلى عام 2012؟",
+    "answer": [
+      [
+        "زاد رأس المال العامل من 946.9 دولارًا في عام 2011 إلى 1079.8 دولارًا في عام 2012، مما يدل على تحسن في الوضع المالي قصير الأجل للشركة."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

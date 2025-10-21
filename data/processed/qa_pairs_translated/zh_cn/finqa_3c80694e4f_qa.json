@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "finqa_3c80694e4f_001",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "'应收贸易账款及其他应收款' 或 '融资应收款' 这两项流动资产，从2011年到2012年，哪一项的绝对值增长更大？",
+    "answer": [
+      [
+        "finance receivables 2013 net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_002",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "2011年，“应付票据”和“应付账款”负债的总和（以百万计）是多少？",
+    "answer": [
+      [
+        "-140.8"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_003",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "在2011年至2012年间，变动金额最小的流动负债项目的2011年价值是多少？",
+    "answer": [
+      [
+        "-443.0 ( 443.0 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_004",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述公司从2011年到2012年营运资本的趋势，并解释这对其财务健康状况的指示。",
+    "answer": [
+      [
+        "公司的营运资本从2011年的9.469亿美元增加到2012年的10.798亿美元，增加了1.329亿美元。这一积极趋势表明公司的流动性和短期财务状况有所改善，因为这显示出以其流动资产偿还流动负债的能力更强。"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_005",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "列出2012年价值超过4亿美元的所有流动资产类别。",
+    "answer": [
+      [
+        "trade and other accounts receivable 2013 net"
+      ],
+      [
+        "inventories 2013 net"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_006",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "2012年，“存货”占总流动资产的比例是多少？请以百分比形式表示，并保留两位小数。",
+    "answer": [
+      [
+        "24.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_007",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "如果“现金及现金等价物”在 2012 年减少 10%，那么 2012 年的“流动资产合计”将是多少（以百万为单位）？",
+    "answer": [
+      [
+        "1647.55"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_008",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "open_ended_reasoning",
+    "question": "根据2011年至2012年的数据，总流动资产增长与营运资本变化之间有什么明显的关联？",
+    "answer": [
+      [
+        "存在很强的正相关关系。总流动资产增加了1.383亿美元（从15.307亿美元增至16.690亿美元），而总流动负债的绝对值仅增加了0.54亿美元（从5.838亿美元增至5.892亿美元）。因此，营运资本增长了1.329亿美元，这一数值非常接近资产增长的幅度。这表明资产的增加并非主要由短期债务的相应增加来融资，从而直接导致了营运资本状况的改善。"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "B11",
+      "C11",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_009",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "根据提供的值，哪一项是通过“总流动资产”减去“总流动负债”绝对值计算得出的？",
+    "answer": [
+      [
+        "working capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "A11",
+      "B11",
+      "C11",
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_010",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "value",
+    "question": "在所有列出的单独资产和负债账户中，哪个账户从2011年到2012年的绝对百分比变化最大？",
+    "answer": [
+      [
+        "notes payable"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c80694e4f_011",
+    "table_id": "finqa_3c80694e4f",
+    "question_type": "open_ended_reasoning",
+    "question": "2011年至2012年，营运资金（百万）发生了怎样的变化？",
+    "answer": [
+      [
+        "营运资金从2011年的9469亿美元增加到2012年的10798亿美元，这表明公司短期财务状况有所改善。"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

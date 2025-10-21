@@ -1,0 +1,364 @@
+[
+  {
+    "question_id": "finqa_29fc2d9fb9_001",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Какой тип телевизионной услуги, 'fta' или 'pay', имеет более высокое среднее количество подписчиков на канал?",
+    "answer": [
+      [
+        "fta"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_002",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Каково общее количество подписчиков (в миллионах) для всех перечисленных телевизионных услуг, которые не являются бесплатными (FTA)?",
+    "answer": [
+      [
+        "125"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_003",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Как называется канал с медианным числом абонентов среди всех платных услуг?",
+    "answer": [
+      [
+        "discovery history"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_004",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Перечислите названия всех каналов 'fta', у которых более 25 миллионов подписчиков.",
+    "answer": [
+      [
+        "quest"
+      ],
+      [
+        "dsport"
+      ],
+      [
+        "quest red"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_005",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Каков процент от общего числа зрителей всех каналов 'fta' составляет аудитория канала 'quest'? Округлите до одного знака после запятой.",
+    "answer": [
+      [
+        "23.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_006",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Если бы количество подписчиков для каждой платной услуги, у которой в настоящее время 10 миллионов или менее подписчиков, увеличилось на 50%, каково было бы общее количество подписчиков только для этих конкретных каналов?",
+    "answer": [
+      [
+        "66"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_007",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "open_ended_reasoning",
+    "question": "Основываясь на таблице, какова очевидная взаимосвязь между типом услуги ('платная' против 'бесплатная') и количеством зрителей? Привлекает ли один тип последовательно больше зрителей, чем другой?",
+    "answer": [
+      [
+        "Данные указывают на сильную взаимосвязь, при которой 'fta' (бесплатные) услуги, как правило, привлекают значительно больше зрителей, чем 'платные' услуги. Два ведущих канала, 'quest' (66 млн) и 'dsport' (43 млн), оба являются 'fta'. Самый высокорейтинговый 'платный' канал, 'discovery hd world', имеет всего 17 млн подписчиков, что ниже, чем у четырех ведущих 'fta' каналов. Кроме того, среднее количество зрителей для 'fta' канала (31,8 млн) более чем в три раза превышает среднее количество для 'платного' канала (10,1 млн), что предполагает, что бесплатные услуги имеют гораздо более широкий охват в этом наборе данных."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_008",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Какой канал является наиболее значительным положительным выбросом с точки зрения количества подписчиков по сравнению со средним количеством подписчиков для его типа обслуживания ('fta')?",
+    "answer": [
+      [
+        "quest"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_009",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Сколько каналов имеют наиболее распространенное количество подписчиков, и каково это количество?",
+    "answer": [
+      [
+        "5",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_010",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Каков общий объем просмотров всех каналов, в названии которых есть слово 'discovery' и которые предлагаются как платный сервис?",
+    "answer": [
+      [
+        "64"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A13",
+      "B13",
+      "C13",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16",
+      "A17",
+      "B17",
+      "C17",
+      "A18",
+      "B18",
+      "C18",
+      "A19",
+      "B19",
+      "C19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_29fc2d9fb9_011",
+    "table_id": "finqa_29fc2d9fb9",
+    "question_type": "value",
+    "question": "Каково количество международных подписчиков/зрителей (в миллионах) телевизионной службы Quest?",
+    "answer": [
+      [
+        "66"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

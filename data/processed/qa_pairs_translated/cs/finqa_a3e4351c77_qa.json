@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Který konkrétní dluhový nástroj, s vyloučením celkových součtů a úprav, měl nejvyšší hodnotu v obou vykázaných obdobích?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Jaká je celková hodnota všech identifikovatelných výnosových dluhopisů uvedených za období ve druhém datovém sloupci?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "O kolik překročila absolutní změna u 'splatných částí dlouhodobého dluhu' mezi dvěma obdobími absolutní změnu u 'neodepsaného diskontu z dluhu'?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište vývoj „celkového dlouhodobého dluhu“ mezi dvěma zobrazenými obdobími a vysvětlete význam této změny.",
+    "answer": [
+      [
+        "Celkový dlouhodobý dluh se zvýšil o 275,3 USD z 10007,5 USD v období zobrazeném ve sloupci C na 10282,8 USD v období zobrazeném ve sloupci B. To naznačuje, že celkové závazky společnosti z dlouhodobého dluhu v tomto časovém období vzrostly, což naznačuje, že pravděpodobně získala více nových dluhů, než splatila."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Identifikujte všechny řádkové položky, s výjimkou celku, které jsou uvedeny jako záporné hodnoty ve druhém datovém sloupci.",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Jaké procento z celkového dlouhodobého dluhu za období ve sloupci B je klasifikováno jako 'splatné v běžném roce z dlouhodobých dluhů'? Použijte absolutní hodnoty pro výpočet a zaokrouhlete na dvě desetinná místa.",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Pokud by 'neodepsaná sleva z dluhu' ve druhém datovém sloupci (sloupec B) byla zrušena (tj. nastavena na nulu), jaký by byl 'celkový dlouhodobý dluh 2013 kmp' za toto období?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje zřejmý vztah mezi změnou 'splatných částí dlouhodobých závazků' a změnou 'celkových dlouhodobých závazků' v obou obdobích?",
+    "answer": [
+      [
+        "Ano, zdá se, že existuje inverzní vztah v jejich pohybech. Zatímco celkové dlouhodobé závazky vzrostly o 275,3 USD (z 10007,5 USD na 10282,8 USD), velikost 'splatných částí' se podstatně snížila (z absolutní hodnoty 1263,3 na 596,6). To naznačuje, že zatímco společnost převzala více celkových závazků, současně snížila část těchto závazků, které splatné v nejbližší budoucnosti."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "Který řádek v datové sadě se jeví jako agregace jiných řádků a jaké důkazy podporují tento závěr?",
+    "answer": [
+      [
+        "Řádek s označením 'total long-term debt 2013 kmp' je agregace. Hlavním důkazem je explicitní použití slova 'total' (celkem) v jeho popisu. Navíc jeho hodnota je uvedena se symbolem měny ('$'), což je odlišné od ostatních řádků a signalizuje, že se jedná o konečné, souhrnné finanční číslo."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "Která položka vykázala nejvýznamnější změnu v absolutní hodnotě mezi dvěma obdobími, což z ní činí finanční odchylku z hlediska volatility?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "S ohledem na celkový dlouhodobý dluh a neamortizovaný diskont dluhu, jaký je efektivní nárůst dlouhodobého dluhu z roku 2012 na 2013?",
+    "answer": [
+      [
+        "Celkový dlouhodobý dluh vzrostl z 10 007,5 milionů USD v roce 2012 na 10 282,8 milionů USD v roce 2013. S ohledem na to, že neamortizovaný diskont dluhu se změnil z -21,2 v roce 2012 na -20,3 v roce 2013, efektivní nárůst dluhu činí 276,8 milionů USD."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "question_id": "finqa_32e65786f0_001",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011年から2012年にかけて、絶対額で最も増加した資産カテゴリーは何ですか？",
+    "answer": [
+      [
+        "Institutional client services"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8",
+      "A15",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_002",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011年12月時点の「投資および貸付」の構成要素（株式、負債、受取手形およびその他）の平均値（百万単位）はいくらでしたか？",
+    "answer": [
+      [
+        "17224"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_32e65786f0_003",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "表には「超過流動性および現金」というサマリー項目が含まれています。この特定のサマリー項目の2011年から2012年にかけての年間成長率は、小数点以下2桁に丸めて何パーセントでしたか？",
+    "answer": [
+      [
+        "1.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_004",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011年12月から2012年12月までの期間を分析すると、「ICBC1」、「株式（ICBCを除く）」、「セキュアード・クライアント・ファイナンシング」のうち、唯一価値が減少した項目はどれですか？",
+    "answer": [
+      [
+        "icbc1"
+      ],
+      [
+        "equity ( excluding icbc )"
+      ],
+      [
+        "secured client financing"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_005",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011年に2500億ドル超の値があり、かつ2012年までにその価値が増加したすべての項目をリストアップしてください。",
+    "answer": [
+      [
+        "inventory"
+      ],
+      [
+        "institutional client services"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_006",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2012年12月時点で、「法人向け証券貸付」と「棚卸資産」を合わせた値は、「総資産」の何パーセントを占めていましたか。回答は小数点以下2桁に丸められたパーセンテージで示してください。",
+    "answer": [
+      [
+        "58.36%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "B16"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_32e65786f0_007",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "もし「otherassets2」が2011年から2012年にかけての実際の成長率の半分しか成長しなかった場合、他のすべての項目が変更されなかったと仮定すると、2012年の新しい「total assets」はいくらになりますか？",
+    "answer": [
+      [
+        "$ 930331.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_008",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "open_ended_reasoning",
+    "question": "2011年から2012年にかけての変動に基づくと、「証券化された顧客ファイナンス」と「在庫」の間にはどのような潜在的な関係または戦略的シフトが推測されますか？",
+    "answer": [
+      [
+        "2011年から2012年にかけて、「証券化された顧客ファイナンス」と「在庫」の間には観察可能な逆相関関係が見られます。「証券化された顧客ファイナンス」は542億6500万ドル大幅に減少し、一方「在庫」は446億8300万ドル増加しました。この大幅なシフトは、顧客からの資金調達活動からの戦略的なデレバレッジと、それに伴う同社の自己勘定における資産直接保有の増加を示唆している可能性があります。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_32e65786f0_009",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "open_ended_reasoning",
+    "question": "2012年12月および2011年12月時点の列にある財務数値を数学的計算に適した状態にするために必要なデータ準備手順を説明してください。",
+    "answer": [
+      [
+        "計算のためにデータを準備するには、いくつかの手順が必要です。まず、B1、C1、B16、C16などのセルからドル記号（' $'）を削除する必要があります。次に、両方の列のすべての値から先行または末尾の空白をトリミングする必要があります。最後に、合計や平均などの数学的演算を可能にするために、クリーニングされた文字列を整数または浮動小数点数などの数値データ型に変換する必要があります。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_010",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011年から2012年にかけて、最も極端なパーセンテージ変動（増加または減少）を経験し、成長分析における潜在的な外れ値となりうる項目は何ですか？",
+    "answer": [
+      [
+        "otherassets2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_32e65786f0_011",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011年から2012年にかけて、負債（百万単位）はいくら増加しましたか？",
+    "answer": [
+      [
+        "2,075"
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "finqa_afeb56667d_001",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "2009年通年の総収入はいくらでしたか？",
+    "answer": [
+      [
+        "995847"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afeb56667d_002",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "2009年の4つの四半期すべてにおいて、「総収益」以外で完全に一貫していた財務指標は何ですか？",
+    "answer": [
+      [
+        "preferred stock dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_003",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "「退職給付債務の早期償還による利益」が最も高かった四半期において、対応する「希薄後１株当たり純利益（損失）」はいくらでしたか？",
+    "answer": [
+      [
+        "$ 0.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_004",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "2009年の初めから終わりにかけて、「SLグリーン普通株主に係る純利益（損失）」の傾向について説明してください。",
+    "answer": [
+      [
+        "普通株主の純利益は、2009年を通じて一貫して急激な減少傾向を示しました。3月31日時点の四半期では32,768ドルの高利益で始まり、6月30日までに12,543ドルに大幅に減少し、9月30日には-2,520ドルの損失に転じ、12月31日にはさらに損失が-5,123ドルに拡大しました。"
+      ]
+    ],
+    "evidence_cells": [
+      "E10",
+      "D10",
+      "C10",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_005",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "'SL Greenに帰属する純利益（損失）'がプラスであり、かつ'譲渡事業の売却による利益（損失）'もプラスであった四半期をすべてリストアップしてください。",
+    "answer": [
+      [
+        "june 30"
+      ],
+      [
+        "march 31"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_006",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "2023年9月30日終了四半期の「総収益」に対し、「優先株式配当」はどのくらいの割合を占めましたか？絶対値のパーセンテージで、小数点以下2桁に丸めてください。",
+    "answer": [
+      [
+        "2.02%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afeb56667d_007",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "9月30日締めの四半期において、もし「優先株式配当金」が放棄された（つまり0ドルであった）場合、「SLグリーン普通株主に帰属する純利益（損失）」は同四半期においていくらになっていたでしょうか？",
+    "answer": [
+      [
+        "$ 2449"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_008",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "四半期データに基づくと、「早期債務消却益」と「SLグリーン普通株主帰属純利益（損失）」の間にはどのような関係が見られますか？",
+    "answer": [
+      [
+        "強い正の相関があるようです。「早期債務消却益」が最も高かった2四半期（3月31日と6月30日）では、「SLグリーン普通株主帰属純利益（損失）」も最も高くなっています。逆に、利益が少なかった四半期（9月30日と12月31日）では普通株主にとって純損失となっており、これらの大きな利益が年初上半期の収益性の主な要因であったことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B10",
+      "C10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afeb56667d_009",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "2009年12月31日をもって終了した四半期において、損失（マイナスの値）を計上した財務項目は何件ありますか？",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_010",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "「非支配持分および売却益控除前の損益」において、他の3四半期に見られる傾向と比較して顕著な外れ値となっているのはどの四半期ですか？",
+    "answer": [
+      [
+        "9月30日を末日とする四半期が外れ値です。他の3つの四半期では、この項目で大幅な損失（-380ドル、-10,242ドル、-26,600ドル）が報告されましたが、9月四半期のみ利益（4,099ドル）を報告しており、この項目におけるこれまでの損失傾向からの顕著な例外となっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afeb56667d_011",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "2009年の全四半期を考慮した場合、SLグリーン・コモン・ストックホルダーに帰属する純利益が最も高かったのはどの四半期ですか。また、その結果に寄与した他の要因は何ですか？",
+    "answer": [
+      [
+        "3月31日終了の四半期は、32,768ドルで、SLグリーン・コモン・ストックホルダーに帰属する純利益が最も高くなりました。これは、総収益（258,787ドル）の増加、早期の債務消却による相当な利益（47,712ドル）、および継続事業からのプラスの寄与（1,319ドル）に影響されました。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B10",
+      "E2",
+      "E4",
+      "E6",
+      "E10",
+      "H2",
+      "H4",
+      "H6",
+      "H10",
+      "K2",
+      "K4",
+      "K6",
+      "K10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

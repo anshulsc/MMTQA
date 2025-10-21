@@ -1,0 +1,235 @@
+[
+  {
+    "question_id": "finqa_43092a3153_001",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "最も占有面積が大きい2番目の物件はどれですか？",
+    "answer": [
+      [
+        "tikri campus and unitech cyber park gurgaon india"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "A2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_002",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "イリノイ州に所在する全不動産の総占有面積はいくらですか？",
+    "answer": [
+      [
+        "1487000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A3",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_43092a3153_003",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "最も遅い全体的なリース満了日を持つ物件の占有平方フィートは何ですか？",
+    "answer": [
+      [
+        "428000"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "B3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_004",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "最も古いリース満了日から最も新しいリース満了日まで、最も長い期間にわたって契約が継続している物件はどれですか？",
+    "answer": [
+      [
+        "4 overlook point and other locations lincolnshire illinois"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_005",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "専有面積が350,000平方フィートを超え、かつリース満了が2020年の物件をリストアップしてください。",
+    "answer": [
+      [
+        "2601 research forest drive the woodlands texas"
+      ],
+      [
+        "2300 discovery drive orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_006",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "グルガオン、インドのキャンパスが占める占有面積の合計に対する割合はどのくらいですか？",
+    "answer": [
+      [
+        "13.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_43092a3153_007",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "2020年より前のすべてのリース満了日を2022年に延長した場合、2022年にリースが満了する物件はいくつありますか？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_008",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "提供されたデータに基づき、物件のサイズとリース満了日の数との間には観察可能な関係がありますか？",
+    "answer": [
+      [
+        "はい、正の相関関係があるようです。「4 overlook point」（1,059,000平方フィート）と「tikri campus」（440,000平方フィート）という2つの最大の物件は、複数のリース満了日（それぞれ3つ）が記載されている唯一の物件です。表中の他のすべての小規模な物件は、単一の満了日しか持っておらず、大規模な施設ほど複雑で段階的なリース契約を持つ可能性が高いことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_43092a3153_009",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "単一のセルで複数の個別の値を表すことができるデータが含まれている列はどれですか？",
+    "answer": [
+      [
+        "leaseexpiration dates"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_43092a3153_010",
+    "table_id": "finqa_43092a3153",
+    "question_type": "open_ended_reasoning",
+    "question": "占有面積が最も顕著な正の異常値である物件はどれですか。また、その理由はなぜですか？",
+    "answer": [
+      [
+        "「4 overlook point and other locations lincolnshire illinois」にある物件が最も顕著な正の異常値です。その専有面積1,059,000平方フィートは、次に大きい物件（440,000平方フィート）の2.4倍以上であり、中央値（414,000平方フィート）および平均値（約463,143平方フィート）から著しく乖離しており、他の物件から大きく離れています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_43092a3153_011",
+    "table_id": "finqa_43092a3153",
+    "question_type": "value",
+    "question": "2020年までにリース満了を迎える物件の総占有面積はどれくらいですか？",
+    "answer": [
+      [
+        "1,537,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

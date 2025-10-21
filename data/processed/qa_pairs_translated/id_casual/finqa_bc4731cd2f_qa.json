@@ -1,0 +1,230 @@
+[
+  {
+    "question_id": "finqa_bc4731cd2f_001",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Berapa total biaya operasional, dalam jutaan dolar, untuk gabungan tiga tahun (2008, 2009, 2010)?",
+    "answer": [
+      [
+        "32101"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_002",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Metrik keuangan apa yang mengalami kenaikan persentase poin terbesar dari tahun 2008 sampai 2009?",
+    "answer": [
+      [
+        "net credit losses"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_003",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Di tahun dengan 'total pendapatan bersih setelah dikurangi beban bunga' tertinggi, berapa 'pendapatan (rugi) bersih' yang sesuai?",
+    "answer": [
+      [
+        "$ -8369 ( 8369 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_004",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasin dong tren 'pendapatan non-bunga' dari tahun 2008 sampai 2010.",
+    "answer": [
+      [
+        "Pendapatan non-bunga nunjukin tren penurunan yang konsisten dan curam selama periode tiga tahun itu. Mulai dari $6.362 juta di 2008, turun 25% jadi $4.770 juta di 2009, terus anjlok lebih parah lagi 58% jadi $1.995 juta di 2010."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_005",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Sebutin dong semua kategori keuangan yang nilai absolut kerugian atau biayanya turun di tahun 2010 dibanding 2009.",
+    "answer": [
+      [
+        "total operating expenses"
+      ],
+      [
+        "net credit losses"
+      ],
+      [
+        "provision for benefits and claims"
+      ],
+      [
+        "provisions for credit losses and for benefits and claims"
+      ],
+      [
+        "( loss ) from continuing operations before taxes"
+      ],
+      [
+        "( loss ) from continuing operations"
+      ],
+      [
+        "net ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_006",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Berapa rasio 'total operating expenses' terhadap 'total revenues net of interest expense' di tahun 2010? Sajikan jawabanmu dalam persentase yang dibulatkan dua angka di belakang koma.",
+    "answer": [
+      [
+        "50.95%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_007",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Kalau 'credit reserve build ( release )' di tahun 2010 itu build sebesar $1000 juta, bukan release $1771 juta, berapa 'provisions for credit losses and for benefits and claims' di tahun itu?",
+    "answer": [
+      [
+        "$ 18815 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_008",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Ada hubungan yang konsisten nggak sih antara perubahan 'rata-rata aset' tiap tahun sama perubahan 'pendapatan bunga bersih' tiap tahun?",
+    "answer": [
+      [
+        "Nggak ada hubungan yang konsisten. Dari 2008 ke 2009, rata-rata aset turun 16%, dan pendapatan bunga bersih juga turun 24%. Ini nunjukkin kemungkinan korelasi positif. Tapi, dari 2009 ke 2010, rata-rata aset turun lagi 8%, tapi kali ini pendapatan bunga bersih naik 6%, jadi pola sebelumnya nggak berlaku lagi."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_009",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Item baris mana yang punya nilai perubahan non-numerik, non-persentase 'nm' untuk periode perubahan 2010 vs 2009, dan kenapa kemungkinan begitu?",
+    "answer": [
+      [
+        "Item 'credit reserve build ( release )' punya nilai 'nm' (tidak berarti) untuk perubahan 2010 vs 2009. Kemungkinan besar karena nilainya berubah dari angka positif (build $5799 juta) di 2009 menjadi angka negatif (release -$1771 juta) di 2010, dan perhitungan perubahan persentase saat melintasi perubahan tanda (positif ke negatif) secara matematis tidak terdefinisi atau dianggap tidak berarti dalam pelaporan keuangan."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_010",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Metrik finansial mana yang menunjukkan perubahan negatif paling drastis antara dua periode perubahan tahun-ke-tahun (yaitu, perubahannya positif atau negatif kecil dari 2008-2009, tapi perubahan negatif besar dari 2009-2010)?",
+    "answer": [
+      [
+        "non-interest revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_011",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Berapa % perubahan di total biaya operasional dari tahun 2009 ke 2008?",
+    "answer": [
+      [
+        "31%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

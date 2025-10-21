@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Qual era il valore totale degli asset ('investimenti' e 'altri asset') al 31 dicembre 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Quale categoria di asset, 'investimenti' o 'altri asset', ha registrato una maggiore perdita netta assoluta da 'guadagni / (perdite) netti realizzati e non realizzati'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Verificare se il saldo di chiusura di 'investimenti' al 31 dicembre 2008 è coerente con il suo saldo iniziale e le transazioni successive elencate. Mostrare il calcolo.",
+    "answer": [
+      [
+        "Sì, il saldo è coerente. Il calcolo è: $1240 (saldo iniziale) - $409 (plus/minusvalenze) + $11 (acquisti/vendite) - $29 (trasferimenti netti) = $813, che corrisponde al saldo di chiusura riportato."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Qual è stata la variazione netta totale del valore patrimoniale per l'intero periodo, dal 31 dicembre 2007 al 31 dicembre 2008?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Per quali categorie di attività i 'trasferimenti netti in entrata e/o in uscita dal livello 3' hanno comportato un contributo positivo al valore dell'attività?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Quale proporzione delle 'perdite nette totali per il periodo incluse negli utili' proveniva dagli 'investimenti'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Se i 'guadagni/perdite realizzati e non realizzati netti' per gli 'altri asset' fossero stati zero invece di $-16, quale sarebbe stato il nuovo saldo di chiusura per gli 'altri asset' al 31 dicembre 2008?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati relativi agli 'investimenti', qual è la relazione tra 'utili / (perdite) netti realizzati e non realizzati' e 'utili / (perdite) netti totali... relativi ad attività ancora detenute alla data di rendicontazione'?",
+    "answer": [
+      [
+        "Esiste una relazione forte e diretta. I 'profitti/perdite netti totali... relativi ad attività ancora detenute' ($-366) rappresentano l'89,5% del totale degli 'utili/(perdite) netti realizzati e non realizzati' ($-409). Ciò implica che la maggior parte delle perdite nette del periodo per gli investimenti erano non realizzate e associate ad attività che non erano state vendute entro la fine del periodo di riferimento."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale convenzione contabile è suggerita dal formato dei dati utilizzato per i valori negativi, come '-409 ( 409 )'?",
+    "answer": [
+      [
+        "Il formato che mostra un numero negativo seguito dal valore assoluto tra parentesi è una comune convenzione contabile per indicare in modo chiaro ed enfatico cifre finanziarie negative come perdite, spese o valori di attività contrapposte."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Quale voce rappresenta il maggiore impatto negativo singolo sul valore combinato degli attivi durante il periodo?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Quanto sono diminuiti gli investimenti dal 2007 al 2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,311 @@
+[
+  {
+    "question_id": "wikisql_05702949b9_001",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Quel est le titre de l'épisode qui a enregistré le plus grand nombre de téléspectateurs américains ?",
+    "answer": [
+      [
+        "\"On Behalf of a Grateful Nation\""
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_002",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Quelle a été l'audience totale, en millions, pour tous les épisodes réalisés par John Terlesky ?",
+    "answer": [
+      [
+        "8.1"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "G4",
+      "D12",
+      "G12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_05702949b9_003",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Quel est le scénariste de l'épisode qui a été diffusé immédiatement après celui ayant enregistré la plus faible audience de la saison ?",
+    "answer": [
+      [
+        "Debra Fordham"
+      ]
+    ],
+    "evidence_cells": [
+      "E9",
+      "F8",
+      "F9",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_004",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance d'audience pour les épisodes diffusés en mars 2011.",
+    "answer": [
+      [
+        "La tendance d'audience en mars 2011 était volatile. Elle a commencé fortement à 4,2 millions, a connu une baisse significative à 3,3 millions lors de la deuxième semaine, puis a régulièrement récupéré et progressé, terminant le mois avec le pic d'audience de la saison, atteignant 4,7 millions. Le schéma général était une chute suivie d'une forte progression."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "G1",
+      "F2",
+      "G2",
+      "F3",
+      "G3",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_005",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Quels sont les titres des épisodes écrits soit par Debra Fordham, soit par James Stanley, qui ont eu plus de 3,5 millions de téléspectateurs ?",
+    "answer": [
+      [
+        "\"Line of Departure\""
+      ],
+      [
+        "\"Drop Zone\""
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "E1",
+      "G1",
+      "C6",
+      "E6",
+      "G6",
+      "C9",
+      "E9",
+      "G9",
+      "C11",
+      "E11",
+      "G11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_006",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Quel pourcentage des épisodes de cette saison a été réalisé par Rob Spera ?",
+    "answer": [
+      [
+        "16.67%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_05702949b9_007",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Si l'audience de chaque épisode diffusé en mai 2011 avait augmenté de 10 %, quelle aurait été la nouvelle audience moyenne pour ce mois, en millions ?",
+    "answer": [
+      [
+        "3.63"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "G8",
+      "F9",
+      "G9",
+      "F10",
+      "G10",
+      "F11",
+      "G11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_008",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "open_ended_reasoning",
+    "question": "Selon les données, existe-t-il une corrélation linéaire claire (positive ou négative) entre le numéro de l'épisode dans la saison et son audience aux États-Unis ? Expliquez votre raisonnement.",
+    "answer": [
+      [
+        "Non, il n'y a pas de corrélation linéaire claire. L'audience n'augmente ni ne diminue de manière constante au fur et à mesure que la saison avance. L'audience fluctue, commençant haut (4,2M), atteignant un pic à l'épisode 4 (4,7M), touchant son point le plus bas à l'épisode 8 (3,1M), puis se stabilisant dans une fourchette médiane de 3 millions. Ce schéma est erratique plutôt que linéaire."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2",
+      "A3",
+      "G3",
+      "A4",
+      "G4",
+      "A5",
+      "G5",
+      "A6",
+      "G6",
+      "A7",
+      "G7",
+      "A8",
+      "G8",
+      "A9",
+      "G9",
+      "A10",
+      "G10",
+      "A11",
+      "G11",
+      "A12",
+      "G12"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_05702949b9_009",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Listez toutes les personnes qui ont plus d'un crédit dans les colonnes 'Réalisé par' ou 'Écrit par'.",
+    "answer": [
+      [
+        "John T. Kretchmer"
+      ],
+      [
+        "Debra Fordham"
+      ],
+      [
+        "John Terlesky"
+      ],
+      [
+        "Rasheed Newson"
+      ],
+      [
+        "Rob Spera"
+      ],
+      [
+        "James Stanley"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_05702949b9_010",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "value",
+    "question": "Quel titre d'épisode correspond à l'audience dont la déviation positive est la plus importante par rapport à la moyenne de la saison ?",
+    "answer": [
+      [
+        "\"On Behalf of a Grateful Nation\""
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_05702949b9_011",
+    "table_id": "wikisql_05702949b9",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle tendance pouvez-vous inférer concernant l'engagement hebdomadaire de l'audience ?",
+    "answer": [
+      [
+        "L'audience a légèrement diminué avec le temps, suggérant une perte progressive du public ou la présence d'émissions concurrentes."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E12",
+      "G1",
+      "G12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

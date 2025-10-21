@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Quel engagement commercial, hors totaux, a le montant d'expiration le plus élevé pour une année quelconque entre 2014 et 2017 ?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Quelle est la somme de toutes les expirations d'engagements individuels pour les années 2016 et 2017 combinées ?",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Identifiez le type d'engagement dont les expirations sont réparties sur la plus longue période, et indiquez sa valeur totale.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez le schéma temporel des expirations des 'engagements commerciaux totaux' de 2013 à 2016.",
+    "answer": [
+      [
+        "Le schéma est très volatil. Il commence à 632 millions de dollars en 2013, chute d'environ 66 % à 215 millions de dollars en 2014, puis monte en flèche pour atteindre un sommet historique de 1812 millions de dollars en 2015, avant de chuter de plus de 98 % à seulement 30 millions de dollars en 2016. Il n'y a ni croissance ni déclin constants."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Citez les types d'engagements qui ont un montant d'expiration supérieur à 0 $ en 2013 mais aucune expiration à partir de 2015.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Quelle proportion des expirations totales pour 2013 est attribuable à la « facilité de titrisation des créances » ?",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Si les 1800 millions de dollars pour les \"facilités de crédit\" arrivant à échéance en 2015 étaient répartis uniformément entre 2016 et 2017, quel serait le nouveau total des \"engagements commerciaux totaux\" pour 2016 ?",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après le tableau, existe-t-il une corrélation observable entre le montant total d'un engagement et le nombre d'années sur lequel il expire ?",
+    "answer": [
+      [
+        "Non, il n'y a pas de corrélation directe. En fait, les données suggèrent une relation inverse. Le plus grand engagement, les 'facilités de crédit' (1800 millions de dollars), expire entièrement en un an (2015). Inversement, les 'garanties' (307 millions de dollars), l'un des plus petits engagements, est réparti sur les six périodes indiquées."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Quelle colonne d'année d'expiration a le moins de types d'engagements individuels avec une valeur non nulle ?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiez l'année dont le montant total d'expiration est une valeur aberrante significative par rapport aux autres périodes, et justifiez votre raisonnement.",
+    "answer": [
+      [
+        "L'année 2015 se distingue clairement avec une expiration totale de 1812 millions de dollars. Ce chiffre est exceptionnellement élevé, représentant plus de 2,8 fois le total annuel le plus élevé après celui-ci (632 millions de dollars en 2013) et significativement plus élevé que toutes les autres périodes, qui varient de 10 millions à 215 millions de dollars."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Quels sont les engagements commerciaux totaux de 2013 à 2017 ?",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

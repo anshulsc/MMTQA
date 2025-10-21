@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "31 dekabr 2007-ci il tarixinə olan aktivlərin ('investisiya' və 'digər aktivlər') ümumi dəyəri nə qədər idi?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'İnvestisiyalar' və ya 'digər aktivlər' kateqoriyasından hansı, 'reallaşdırılmış və reallaşdırılmamış mənfəət / (zərər) xalis'də daha böyük mütləq xalis zərərə məruz qalıb?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "'İnvestisiya'nın 31 dekabr 2008-ci il tarixinə olan yekun qalığının onun başlanğıc qalığına və sonrakı əməliyyatlara uyğun olub-olmadığını yoxlayın. Sizin hesablamanızı göstərin.",
+    "answer": [
+      [
+        "Bəli, balans uyğundur. Hesablama belədir: 1240 dollar (başlanğıc balans) - 409 dollar (qazanc/zərər) + 11 dollar (alış/satış) - 29 dollar (xalis köçürmələr) = 813 dollar, bu da bildirilən yekun balansla uyğun gəlir."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "31 dekabr 2007-ci ildən 31 dekabr 2008-ci ilədək olan bütün dövr üçün aktivin dəyərindəki ümumi xalis dəyişiklik nə qədər idi?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Səhmdarların aktiv dəyərinə 'level 3'-ə daxil olan və/və ya çıxan xalis köçürmələr' müsbət töhfə verdiyi aktiv kateqoriyaları hansılardır?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'Mənfəətlərə daxil olan dövr üçün ümumi xalis (zərərlər)' hansı nisbətdə 'investisiyalar'dan gəldi?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "'Əmlak aktivləri' üçün 'realizə edilmiş və reallaşdırılmamış mənfəət / (zərər) xalis' $-16 əvəzinə sıfır olsaydı, 31 dekabr 2008-ci il tarixdə 'əmlak aktivləri' üçün yeni yekun salınma məbləği nə olardı?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Yatırımlar' məlumatlarına əsasən, 'reallaşdırılmış və reallaşdırılmamış mənfəətlər / (zərərlər) xalis' və 'gəlirlərə daxil edilmiş dövr üçün ümumi xalis (zərərlər) hesabat tarixi tarixinə saxlanılan aktivlərin dəyişməsi ilə əlaqəli' arasındakı əlaqə nədir?",
+    "answer": [
+      [
+        "Güclü, birbaşa əlaqə var. 'Hesabat tarixi tarixinə saxlanılan aktivlərin dəyişməsi ilə əlaqəli ümumi xalis (zərərlər)' ($-366), 'reallaşdırılmış və reallaşdırılmamış mənfəətlər / (zərərlər) xalis' ($-409) üçün 89,5% təşkil edir. Bu, investisiyalar üçün dövrün xalis zərərlərinin əksəriyyətinin reallaşdırılmamış olduğunu və hesabat dövrünün sonuna qədər satılmamış aktivlərlə əlaqəli olduğunu göstərir."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Mənfi dəyərlər, məsələn, '-409 ( 409 )' üçün istifadə olunan məlumat formatı hansı mühasbat konvensiyasını təklif edir?",
+    "answer": [
+      [
+        "Mənfi rəqəmin mötərizədə mütləq dəyərinin göstərilməsi formatı, itkilər, xərclər və ya aktivlərə əks dəyərlər kimi mənfi maliyyə göstəricilərini aydın və qəti şəkildə bildirmək üçün ümumi bir mühasbat konvensiyasıdır."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Dövr ərzində birləşdirilmiş aktiv dəyərlərə ən böyük tək mənfi təsir göstərən hansı sətir maddəsidir?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Investisiyalar 2007-ci ildən 2008-ci ilədək nə qədər azalıb?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "在整个显示期间，“员工股票购买计划”导致的“已发行股票”总增长是多少？",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "在哪个年份（2001年、2002年或2003年）“出售给期权持有者的股份”对“发行在外的股份”的增加贡献最大？",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "根据余额报告，描述公司从2001年初到2003年底的库存股趋势。",
+    "answer": [
+      [
+        "库存股数量逐年稳步下降。年初的余额从2001年初约9440万股降至2001年底的9120万股，2002年底降至8490万股，最终在2003年底降至8120万股。这表明公司从库存中重新发行股票（例如，用于员工计划和期权）的速度快于回购股票的速度。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "在包含‘收购 Technoguide’的完整日历年期间，‘流通股’净变化是多少？",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "列出所有使“流通股”增加超过200万股的交易类型，不包括余额。",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "2002年“钜股”总增幅中有多少比例归因于“收购Technoguide”？",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "如果在2002年，“员工股票购买计划”导致的“流通股”增加数量比实际少1,000,000股，那么“2002年12月31日结余”的“流通股”将是多少？",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "在年度余额之间的交易中，哪项交易对“流通股”的影响最小，其影响是多少？",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "对于‘售予期权持有者的股份’事件，‘已发行’、‘库存’和‘流通在外的股份’列之间存在怎样的数学关系？",
+    "answer": [
+      [
+        "对于所有的‘售予期权持有者的股份’交易，‘流通在外的股份’列中的数值是‘已发行’和‘库存’列中数值的总和。这表明期权持有者的股份来源于新发行以及公司现有的库存股票。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "在“issued”列中，对于“in treasury”值为非零的几笔交易类型，“issued”列的值为“2013”。这表明这些交易的股份来源是什么？",
+    "answer": [
+      [
+        "在“issued”列显示“2013”的每一行中，“in treasury”的值与“shares outstanding”的值相同。这表明对于这些交易（例如，“employee stock purchase plan”、“acquisition of technoguide”），所有股份都来自金库，而没有发行新股。数字“2013”可能是一个占位符、一个标识符或一个数据错误，而不是已发行股份的数量。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "从 2001 年 1 月 1 日的余额到 2003 年 12 月 31 日的余额，已发行股票（shares outstanding）发生了怎样的变化，哪些活动可能促成了这一变化？",
+    "answer": [
+      [
+        "已发行股票增加了 13,223,634 股（从 572,724,694 股增至 585,948,328 股）。这种增长似乎是由股票发行驱动的，例如期权行使和员工购买计划活动（多项“卖给期权持有者的股份”和“员工股票购买计划”条目）、与收购相关的发行（Technoguide）以及库存股（treasury shares）的净减少——这些共同增加了已发行股票的数量。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

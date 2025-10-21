@@ -1,0 +1,242 @@
+[
+  {
+    "question_id": "finqa_05c720e66d_001",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "在2017年至2018年期间，哪个费用类别成本下降幅度最大？",
+    "answer": [
+      [
+        "amortization of deferred cash awards deferred cash stock units and performance stock units"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_002",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "2016年所有与“摊销”相关的成本总费用是多少？",
+    "answer": [
+      [
+        "845"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_05c720e66d_003",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "在“总计”费用最高的年份，该年度最大的单项费用类别是多少？",
+    "answer": [
+      [
+        "other variable incentive compensation"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_004",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "描述“限制性股票和递延股票奖励摊销”从 2016 年到 2018 年的同比趋势。",
+    "answer": [
+      [
+        "“限制性股票和递延股票奖励摊销”从 2016 年到 2018 年呈现持续下降的趋势。2016 年为 5.09 亿美元，2017 年降至 4.74 亿美元，2018 年进一步降至 4.35 亿美元。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_005",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "列出2017年费用超过6亿美元且从2016年到2017年成本有所增加的所有费用类别。",
+    "answer": [
+      [
+        "charges for estimated awards to retirement-eligible employees"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_006",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "2018年“总计”费用中有多少百分比归因于“为符合退休条件的员工估计奖金的费用”？",
+    "answer": [
+      [
+        "33.10%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_05c720e66d_007",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "如果“其他可变激励薪酬”在 2018 年降低 10%，那么 2018 年的总费用将是多少？",
+    "answer": [
+      [
+        "$ 1957"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_008",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "从2016年到2018年，总费用与同期“其他可变激励薪酬”的趋势是否相关？请解释原因。",
+    "answer": [
+      [
+        "否，趋势不相关。“其他可变激励薪酬”从2016年（7.10亿美元）到2017年（6.94亿美元）再到2018年（6.40亿美元）呈现持续下降的趋势。相比之下，“总计”费用从2016年（21.83亿美元）增长到2017年（22.51亿美元），然后在2018年（20.21亿美元）有所下降。2016-2017年的分歧表明缺乏相关性。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_05c720e66d_009",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "通过手动汇总2018年各项费用项目，确认提供的“总计”数字是否准确。",
+    "answer": [
+      [
+        "是的，2018年的总计数字是准确的。各项费用类别的总和（669美元 + 202美元 + 75美元 + 435美元 + 640美元）为2021美元，这与“总计”行中的值相符。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_05c720e66d_010",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "open_ended_reasoning",
+    "question": "在整个所示期间，哪个费用类别经历了一年中最剧烈的变化（增加或减少）？",
+    "answer": [
+      [
+        "'摊销递延现金奖金、递延现金股票单位和业绩股票单位' 经历了最剧烈的变化，在 2017 年（3.54 亿美元）和 2018 年（2.02 亿美元）之间下降了 1.52 亿美元。这是所有类别中一年中变化最大的。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "B1",
+      "C1",
+      "D1",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_05c720e66d_011",
+    "table_id": "finqa_05c720e66d",
+    "question_type": "value",
+    "question": "2018年员工的总薪酬（百万美元）是多少？",
+    "answer": [
+      [
+        "$2,021"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

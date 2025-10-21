@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "전체 기간 동안 '직원 주식 구매 계획'으로 인해 '발행 주식'의 총 증가는 얼마였습니까?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "2001년, 2002년, 2003년 중 '옵션 행사자에게 매도한 주식'이 '총 발행 주식 수' 증가에 가장 많이 기여한 연도는 언제입니까?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "2001년 초부터 2003년 말까지 회사의 자기주식 추이를 잔고 보고서를 바탕으로 설명해 주십시오.",
+    "answer": [
+      [
+        "자기주식 수는 연간 지속적으로 감소했습니다. 2001년 초 약 9,440만 주에서 2001년 말 9,120만 주, 2002년 말 8,490만 주, 그리고 2003년 말 8,120만 주로 감소했습니다. 이는 회사가 자기주식에서 취득한 주식(예: 직원 계획 및 옵션용)을 재발행하는 것이 재매입하는 것보다 빠르다는 것을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "'테크노가이드 인수'가 포함된 전체 회계 연도 동안 '발행 주식'의 순 변화는 얼마였습니까?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "'shares outstanding'가 2,000,000주 초과 증가한 거래 유형을 모두 나열하고, 잔액은 제외하십시오.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "2002년 'shares outstanding'의 총 증가분 중 'acquisition of technoguide'로 인한 기여도는 몇 퍼센트입니까?",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "2002년의 '주식매입계획(Employee Stock Purchase Plan)'으로 인해 발행주식 총수가 1,000,000주 적게 추가되었다면, '2002년 12월 31일 잔액'의 '발행주식'은 얼마였을까요?",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "연간 잔액 간의 거래 중 '발행 주식 수'에 미치는 영향이 가장 적어 특이치로 간주될 수 있는 거래는 무엇이며, 그 영향은 얼마였습니까?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "'옵티오니에게 판매된 주식' 거래와 관련하여 '발행된', '보유 중인', '총 발행 주식' 열 간의 일관된 수학적 관계는 무엇입니까?",
+    "answer": [
+      [
+        "'옵티오니에게 판매된 주식' 거래의 경우, '총 발행 주식' 열의 값은 '발행된' 열의 값과 '보유 중인' 열의 값을 합한 것과 같습니다. 이는 옵티오니를 위한 주식이 신규 발행과 회사 보유 주식에서 모두 조달되었음을 의미합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "'issued' 열에 여러 거래 유형에 대해 '2013'이라는 값이 포함되어 있으며 'in treasury' 값이 0이 아닌 경우, 이는 이러한 거래의 주식 출처에 대해 무엇을 시사합니까?",
+    "answer": [
+      [
+        "\"issued\" 열에 \"2013\"이 표시된 모든 행에서 \"in treasury\" 값은 \"shares outstanding\" 값과 동일합니다. 이는 이러한 거래(예: \"employee stock purchase plan\", \"acquisition of technoguide\")의 경우 모든 주식이 재무부에서 나왔고 실제로 새로운 주식은 발행되지 않았음을 나타냅니다. \"2013\"이라는 숫자는 발행된 주식의 수량이 아니라 자리 표시자, 식별자 또는 데이터 오류일 가능성이 높습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "2001년 1월 1일 기준 잔액부터 2003년 12월 31일 기준 잔액까지 발행 주식 수는 어떻게 변동했으며, 이러한 변동에 기여한 활동은 무엇이라고 추정됩니까?",
+    "answer": [
+      [
+        "발행 주식 수는 13,223,634주 (572,724,694주에서 585,948,328주로) 증가했습니다. 이 증가는 옵션 행사 및 직원 구매 계획 활동 (여러 '옵션 보유자에게 매도한 주식' 및 '직원 주식 구매 계획' 항목), 인수 관련 발행 (Technoguide), 그리고 자기 주식의 순 감소와 같은 주식 발행에 의해 주도된 것으로 보입니다. 이러한 요인들이 복합적으로 작용하여 발행 주식 수를 증가시켰습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

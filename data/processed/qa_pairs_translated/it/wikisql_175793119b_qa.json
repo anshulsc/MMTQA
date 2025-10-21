@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "wikisql_175793119b_001",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "In quale partita, identificata dalla data, il miglior marcatore ha realizzato una prestazione eccezionale segnando almeno 14 punti in più rispetto al secondo miglior marcatore di questo set di dati?",
+    "answer": [
+      [
+        "March 8"
+      ]
+    ],
+    "evidence_cells": [
+      "F4",
+      "F9",
+      "B4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_175793119b_002",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Qual è stata l'affluenza media per tutte le partite giocate al 'Rose Garden'?",
+    "answer": [
+      [
+        "20242.8"
+      ]
+    ],
+    "evidence_cells": [
+      "G2",
+      "G7",
+      "G8",
+      "G9",
+      "G13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_175793119b_003",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Qual è stato l'avversario dei Portland Trail Blazers nella partita che ha interrotto la loro striscia di sconfitte più lunga mostrata in questa tabella?",
+    "answer": [
+      [
+        "Milwaukee Bucks"
+      ]
+    ],
+    "evidence_cells": [
+      "I2",
+      "I3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_004",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Elenca le date delle partite in cui i Portland Trail Blazers hanno vinto come squadra ospite e l'affluenza è stata inferiore a 19.000.",
+    "answer": [
+      [
+        "March 11"
+      ],
+      [
+        "March 22"
+      ]
+    ],
+    "evidence_cells": [
+      "C6",
+      "D6",
+      "G6",
+      "B6",
+      "C11",
+      "D11",
+      "G11",
+      "B11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_005",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Qual è la percentuale di partite in cui i Portland Trail Blazers erano la squadra di casa e hanno ottenuto una vittoria?",
+    "answer": [
+      [
+        "60"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "D2",
+      "E7",
+      "D7",
+      "E8",
+      "D8",
+      "E9",
+      "D9",
+      "E13",
+      "D13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_175793119b_006",
+    "table_id": "wikisql_175793119b",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento delle prestazioni dei Portland Trail Blazers tra il 10 e il 22 marzo. Questo periodo è stato caratterizzato da coerenza o volatilità?",
+    "answer": [
+      [
+        "Il periodo dal 10 al 22 marzo è stato caratterizzato da alta volatilità e mancanza di coerenza. I risultati della squadra hanno seguito uno schema rigoroso di alternanza sconfitta-vittoria per sei partite consecutive, come evidenziato dalla sequenza nella colonna 'Streak': L1, W1, L1, W1, L1, W1. Non sono stati in grado di costruire alcuno slancio fino alla partita finale di questo periodo, il 22 marzo, dove hanno ottenuto la loro prima vittoria consecutiva (W2)."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I10",
+      "I11"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_007",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "In quale partita, identificata dalla data, i Portland Trail Blazers hanno ottenuto il loro maggiore margine di vittoria?",
+    "answer": [
+      [
+        "March 25"
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "D3",
+      "D4",
+      "D6",
+      "D8",
+      "D10",
+      "D11",
+      "D13",
+      "C3",
+      "E3",
+      "C4",
+      "E4",
+      "C6",
+      "E6",
+      "C8",
+      "E8",
+      "C10",
+      "E10",
+      "C11",
+      "E11",
+      "C13",
+      "E13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_008",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Se la partita ai tempi supplementari dell'8 marzo fosse risultata in una sconfitta per Portland con lo stesso margine di 6 punti invece di una vittoria, quale sarebbe stato il loro nuovo record vittorie-sconfitte dopo quella partita?",
+    "answer": [
+      [
+        "32–31"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_009",
+    "table_id": "wikisql_175793119b",
+    "question_type": "open_ended_reasoning",
+    "question": "Sulla base dei dati, esiste una chiara correlazione tra il totale di punti individuali del miglior marcatore e l'esito della partita (Vittoria/Sconfitta) per i Portland Trail Blazers? Giustifica la tua risposta.",
+    "answer": [
+      [
+        "Non c'è una chiara correlazione tra il totale di punti del miglior marcatore e la vittoria o la sconfitta dei Trail Blazers. Ad esempio, la partita con il punteggio individuale più alto realizzato da un miglior marcatore (Robinson: 45) è stata una vittoria. Tuttavia, la partita con il secondo punteggio più alto (Aldridge: 31) è stata una sconfitta. Al contrario, la squadra ha ottenuto vittorie quando il proprio miglior marcatore ha realizzato un totale relativamente modesto, come 23 punti (Roy il 22 marzo). Ciò indica che, sebbene una prestazione individuale con molti punti possa contribuire, non è un predittore affidabile di una vittoria per la squadra sulla base di questo set di dati."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "F1",
+      "D2",
+      "F2",
+      "D3",
+      "F3",
+      "D4",
+      "F4",
+      "D5",
+      "F5",
+      "D6",
+      "F6",
+      "D7",
+      "F7",
+      "D8",
+      "F8",
+      "D9",
+      "F9",
+      "D10",
+      "F10",
+      "D11",
+      "F11",
+      "D12",
+      "F12",
+      "D13",
+      "F13",
+      "D14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_175793119b_010",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Individua il giocatore che è stato il miglior realizzatore più spesso in questo gruppo di partite e calcola il suo punteggio medio in quelle occasioni.",
+    "answer": [
+      [
+        "Aldridge, 27.75"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_175793119b_011",
+    "table_id": "wikisql_175793119b",
+    "question_type": "value",
+    "question": "Quale partita ha avuto la minore affluenza nel dataset?",
+    "answer": [
+      [
+        "March 24 vs Seattle SuperSonics"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "F12"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

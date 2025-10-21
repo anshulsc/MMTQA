@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "wikisql_42a0bbc29b_001",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "从第一轮资格赛到第四轮资格赛（含）的获胜俱乐部总奖金是多少？",
+    "answer": [
+      [
+        "£27,500"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_002",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "哪个轮次的总奖金首次达到或超过了附加预赛轮奖金的十倍？",
+    "answer": [
+      [
+        "Third Round Qualifying"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A5",
+      "F5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_003",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "找出第一个没有新增参赛者，并且紧随一个有新增参赛者的轮次之后。该轮次的“本轮最佳球员”叫什么名字？",
+    "answer": [
+      [
+        "Craig Davis ( AFC Totton )"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "A5",
+      "E5",
+      "G5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_004",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "列出2009年举行的所有‘轮次最佳球员’的获胜者姓名。",
+    "answer": [
+      [
+        "Nathan Tyson ( Nottingham Forest )"
+      ],
+      [
+        "Scott Parker ( West Ham United )"
+      ],
+      [
+        "Mikel Arteta ( Everton )"
+      ],
+      [
+        "Robin van Persie ( Arsenal )"
+      ],
+      [
+        "Phil Jagielka ( Everton )"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "G9",
+      "B10",
+      "G10",
+      "B11",
+      "G11",
+      "B12",
+      "G12",
+      "B13",
+      "G13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_005",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "open_ended_reasoning",
+    "question": "随着比赛从资格赛进入正赛阶段，新参赛队伍数量的趋势是怎样的？",
+    "answer": [
+      [
+        "新参赛队伍的数量在比赛初期最高（预选赛额外轮有406支），随后在接下来的资格赛中普遍下降。一旦进入‘正赛’阶段，第一轮和第三轮会有大量新加入的、排名靠前的俱乐部（分别有48支和44支新队伍），而其他‘正赛’轮则完全没有新队伍加入。这表明存在一个分层级的参赛系统，球队根据其排名在不同阶段进入比赛。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8",
+      "A9",
+      "E9",
+      "A10",
+      "E10",
+      "A11",
+      "E11",
+      "A12",
+      "E12",
+      "A13",
+      "E13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_006",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "在整个赛事（从预选赛第一轮到半决赛）中，有多少比例的总赛次数是在资格赛轮（从预选赛第一轮到第四轮资格赛）中进行的？",
+    "answer": [
+      [
+        "83.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_007",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "如果“第三轮正赛”的比赛场数不是 32 场而是 25 场，并且该轮开始时的俱乐部数量保持不变，那么该轮结束后将有多少俱乐部留在比赛中？",
+    "answer": [
+      [
+        "39"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_008",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "open_ended_reasoning",
+    "question": "比赛轮次与奖金金额的发放之间是否存在直接的关联性？",
+    "answer": [
+      [
+        "是的，存在很强的正相关性。随着比赛进入后期轮次（例如，从‘资格赛’到‘半决赛’），奖金呈指数级增长。例如，‘附加资格赛’的奖金为750英镑，到‘第四轮资格赛’时增至12,500英镑，而‘半决赛’的获胜者奖金则高达1,000,000英镑。这种结构极大地激励了选手晋级到比赛的最后阶段。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6",
+      "A7",
+      "F7",
+      "A8",
+      "F8",
+      "A9",
+      "F9",
+      "A10",
+      "F10",
+      "A11",
+      "F11",
+      "A12",
+      "F12",
+      "A13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_009",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "根据数据，在哪些轮次中“每轮最佳球员”奖项不适用？",
+    "answer": [
+      [
+        "Extra Preliminary Round"
+      ],
+      [
+        "Preliminary Round"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_010",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "value",
+    "question": "在不连续的两个轮次之间，考虑到半决赛获胜者的奖金，奖金增长幅度最大的是哪两个轮次？",
+    "answer": [
+      [
+        "Between Sixth Round Proper and Semi-Finals",
+        "£600,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "F12",
+      "A13",
+      "F13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_42a0bbc29b_011",
+    "table_id": "wikisql_42a0bbc29b",
+    "question_type": "open_ended_reasoning",
+    "question": "请解释奖金随着赛程的进展而变化的趋势。",
+    "answer": [
+      [
+        "奖金随着赛程的进展而增加，反映出随着留下的球队越来越少，赌注和难度也越来越高。"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

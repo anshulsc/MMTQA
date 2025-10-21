@@ -1,0 +1,256 @@
+[
+  {
+    "question_id": "finqa_b56964b48c_001",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Какая из двух статей, связанных с пособиями, «Обязательства по выплате пособий после выхода на пенсию» или «Счета для расчета пенсий и других пособий после выхода на пенсию», имела более высокое значение в 2018 году?",
+    "answer": [
+      [
+        "postretirement benefit liability"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_002",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Какова была общая стоимость всех обязательств в 2017 году, исключая «резервы по доходам TCJA» и «подоходные налоги, возмещаемые за счет тарифов»?",
+    "answer": [
+      [
+        "422"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C4",
+      "C6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b56964b48c_003",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Определите статью, которая показала наибольшее процентное увеличение с 2017 по 2018 год, и укажите это процентное увеличение, округленное до двух десятичных знаков.",
+    "answer": [
+      [
+        "postretirement benefit liability",
+        "533.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_004",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Какой пункт обязательств продемонстрировал наибольшую стабильность, определяемую как наименьшее абсолютное процентное изменение, между 2017 и 2018 годами?",
+    "answer": [
+      [
+        "removal costs recovered through rates"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_005",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Перечислите все категории обязательств, по которым стоимость снизилась с 2017 по 2018 год.",
+    "answer": [
+      [
+        "removal costs recovered through rates"
+      ],
+      [
+        "pension and other postretirement benefit balancing accounts"
+      ],
+      [
+        "tcja reserve on revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_006",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Какой процент от 'общих регулируемых обязательств' в 2018 году приходился на 'подоходные налоги, возмещенные по тарифам'? Округлите до ближайшего целого процента.",
+    "answer": [
+      [
+        "67%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b56964b48c_007",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Если бы 'tcja reserve on revenue' не изменился по сравнению со значением 2017 года, какова была бы рассчитанная сумма отдельных обязательств за 2018 год?",
+    "answer": [
+      [
+        "$ 3885"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_008",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "open_ended_reasoning",
+    "question": "Какое заключение можно сделать на основе предоставленных данных о финансовом влиянии TCJA (Закона о налоговых сокращениях и рабочих местах) на обязательства компании в период с 2017 по 2018 год?",
+    "answer": [
+      [
+        "Данные свидетельствуют о значительном, но, вероятно, единовременном финансовом влиянии TCJA. Резерв по доходам, связанный с TCJA ('tcja reserve on revenue'), претерпел резкое сокращение более чем на 98% с 2014 долларов в 2017 году до 36 долларов в 2018 году. Это подразумевает, что крупный резерв, созданный в 2017 году, вероятно, совпадающий с принятием закона, был существенно урегулирован, использован или переоценен в следующем году, что привело к значительному уменьшению обязательств в этой конкретной категории за 2018 год."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b56964b48c_009",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Суммируя вручную отдельные статьи обязательств за 2017 год (строки 1-6), определите расхождение между вашей рассчитанной суммой и предоставленным значением «общие нормативные обязательства» за этот год.",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b56964b48c_010",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Какой пункт представляет собой финансовый выброс из-за наибольшего абсолютного изменения значения между 2017 и 2018 годами?",
+    "answer": [
+      [
+        "tcja reserve on revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b56964b48c_011",
+    "table_id": "finqa_b56964b48c",
+    "question_type": "value",
+    "question": "Насколько увеличились подоходные налоги, возмещенные за счет тарифов, с 2017 по 2018 год?",
+    "answer": [
+      [
+        "$37 million"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

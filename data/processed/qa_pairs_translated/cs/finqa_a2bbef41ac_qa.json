@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Jaká byla celková hodnota aktiv ('investice' a 'ostatní aktiva') k 31. prosinci 2007?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Která kategorie aktiv, 'investice' nebo 'ostatní aktiva', vykázala větší absolutní čistou ztrátu z 'realizovaných a nerealizovaných zisků / (ztrát) čistého základu'?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Ověřte, zda konečný zůstatek 'investic' k 31. prosinci 2008 odpovídá jeho počátečnímu zůstatku a následným uvedeným transakcím. Ukažte svůj výpočet.",
+    "answer": [
+      [
+        "Ano, zůstatek je konzistentní. Výpočet je: 1240 $ (počáteční zůstatek) - 409 $ (zisky/ztráty) + 11 $ (nákupy/prodeje) - 29 $ (čisté převody) = 813 $, což odpovídá vykázanému konečnému zůstatku."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Jaká byla celková čistá změna hodnoty aktiv za celé období od 31. prosince 2007 do 31. prosince 2008?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Pro které kategorie aktiv znamenal \"čistý převod do úrovně 3 a/nebo z úrovně 3\" pozitivní příspěvek k hodnotě aktiv?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Jaký podíl 'celkových čistých (ztrát) za období zahrnutých do výnosů' pocházel z 'investic'?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Kdyby 'realizované a nerealizované zisky / (ztráty) čistý' pro 'ostatní aktiva' byly nula namísto $-16, jaký by byl nový konečný zůstatek pro 'ostatní aktiva' k 31. prosinci 2008?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě údajů o 'investicích', jaký je vztah mezi 'realizovanými a nerealizovanými zisky / (ztrátami) čistými' a 'celkovými čistými (ztrátami) ... vztahujícími se k aktivům drženým k rozvahovému dni'?",
+    "answer": [
+      [
+        "Existuje silný, přímý vztah. 'Celkové čisté (ztráty) ... vztahující se k aktivům drženým k rozvahovému dni' ($-366) představují 89,5 % celkových 'realizovaných a nerealizovaných zisků / (ztrát) čistých' ($-409). To naznačuje, že většina čistých ztrát za období týkajících se investic byla nerealizovaná a souvisela s aktivy, která nebyla ke konci vykazovaného období prodána."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaká účetní konvence je naznačena formátem použitým pro záporné hodnoty, jako je například '-409 ( 409 )'?",
+    "answer": [
+      [
+        "Formát zobrazující záporné číslo následované absolutní hodnotou v závorkách je běžnou účetní konvencí pro jasné a důrazné označení záporných finančních údajů, jako jsou ztráty, náklady nebo hodnoty proti aktivům."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Která položka představuje největší jednotlivý negativní dopad na kombinovanou hodnotu aktiv během období?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "O kolik poklesly investice z roku 2007 na rok 2008?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

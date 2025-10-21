@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "सर्वात कमी एकूण मीन स्क्वेअर्ड एरर (MSE_over) प्राप्त करणारे नॉन-मल्टी-टास्क मॉडेल कोणते आहे?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "सर्व 'मल्टी-टास्क' म्हणून चिन्हांकित केलेल्या मॉडेल्ससाठी 7-दिवसांच्या हॉरिझोनवरील (MSE7) सरासरी MSE ची गणना करा.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "MSE3 मूल्यासाठी दुसऱ्या क्रमांकावर (दुसऱ्या सर्वात वाईट) मॉडेल कोणते आहे, त्याचे संबंधित MSE30 मूल्य काय आहे?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "HTML मॉडेलसाठी, भविष्यवाणीचा कालावधी 3 दिवसांवरून 30 दिवसांपर्यंत वाढल्यास सरासरी वर्ग त्रुटी (MSE) मधील ट्रेंडचे विश्लेषण करा. कालांतराने त्याच्या भविष्यवाणीची अचूकता सुधारते की बिघडते?",
+    "answer": [
+      [
+        "भविष्यवाणीचा कालावधी जसजसा वाढतो तसतसे HTML मॉडेलच्या भविष्यवाणीची अचूकता सुधारते. MSE3 (0.845) पासून MSE7 (0.349), MSE15 (0.251) आणि शेवटी MSE30 (0.158) पर्यंत त्याचे MSE मूल्य सातत्याने कमी होते, जे दीर्घकालीन अंदाजांवर कमी त्रुटी आणि म्हणून चांगली कामगिरी दर्शवते."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "जे मॉडेल 'Multi-Task' म्हणून नियुक्त केलेले नाहीत आणि ज्यांचे MSE15 मूल्य 0.31 पेक्षा कमी आहे, ते सर्व मॉडेल ओळखा.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "सर्व MSE मेट्रिक्समध्ये स्पष्टपणे वेगळे असलेले मॉडेल ओळखा आणि त्याचे कारण स्पष्ट करा.",
+    "answer": [
+      [
+        "GPT-3.5-Turbo मॉडेल हे कामगिरीतील एक स्पष्ट अपवाद आहे. सर्व होरायझन्सवरील (MSE_over: 2.198, MSE3: 2.152, MSE7: 1.793, MSE15: 2.514, MSE30: 2.332) त्याची MSE मूल्ये इतर सर्व मॉडेल्सपेक्षा लक्षणीयरीत्या जास्त आहेत, ज्यापैकी बहुतेक MSE मूल्ये 1.0 पेक्षा कमी आहेत. हे सूचीबद्ध केलेल्या इतर मॉडेल्सच्या तुलनेत लक्षणीयरीत्या वाईट प्रेडिक्टिव्ह परफॉर्मन्स दर्शवते."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "सर्व मॉडेल्समधील एकूण MSE3 च्या किती टक्के वाटा GPT-3.5-Turbo मॉडेलमुळे आहे? उत्तर टक्केवारीत एका दशांश स्थळापर्यंत द्या.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "जर रिस्क लॅब्स मॉडेलच्या MSE_over मध्ये 25% सुधारणा झाली (म्हणजे 25% ने घट झाली), तर त्याचे नवीन मूल्य काय असेल आणि HTML मॉडेलच्या MSE_over च्या तुलनेत ते कसे स्थान मिळवेल?",
+    "answer": [
+      [
+        "रिस्क लॅब्ससाठी नवीन MSE_over 0.243 असेल. हे मूल्य HTML मॉडेलच्या 0.401 MSE_over पेक्षा कमी, आणि म्हणून चांगले आहे."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "टेबलनुसार, 'मल्टी-टास्क' म्हणून वर्गीकृत केलेले मॉडेल आणि 'VaR' स्कोअरची उपलब्धता यांच्यात काय संबंध आहे?",
+    "answer": [
+      [
+        "यामध्ये एक मजबूत संबंध आहे. 'मल्टी-टास्क' म्हणून नियुक्त केलेले मॉडेल्स (GPT-3.5-Turbo आणि RiskLabs) यांमध्येच 'VaR' स्कोअर नोंदवला गेला आहे. तथापि, सर्व 'मल्टी-टास्क' मॉडेल्समध्ये VaR स्कोअर नाही (उदा. HTML), आणि कोणत्याही 'मल्टी-टास्क' नसलेल्या मॉडेल्समध्ये तो नाही, यावरून असे सूचित होते की VaR मोजण्याची क्षमता या डेटामधील 'मल्टी-टास्क' मॉडेल्सशी प्रामुख्याने संबंधित असलेले वैशिष्ट्य आहे."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "कोणत्या कार्यप्रदर्शन मेट्रिक कॉलममध्ये गैर-संख्यात्मक प्लेसहोल्डर डेटा आहे आणि कोणत्या विशिष्ट मॉडेल्ससाठी हा डेटा गहाळ आहे?",
+    "answer": [
+      [
+        " 'VaR' कॉलममध्ये गैर-संख्यात्मक डेटा ('/') आहे. हा डेटा खालील मॉडेल्ससाठी गहाळ आहे: क्लासिकल मेथड, एलएसटीएम, एमटी-एलएसटीएम-एटीटी, हान, एमआरडीएम, आणि एचटीएमएल."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "MSE3–MSE30 या वेगवेगळ्या क्षितिजांवरील अंदाज अचूकता (prediction accuracy) आणि जोखीम अंदाज (risk estimation - VaR) यांच्यातील सर्वोत्तम संतुलन दर्शवणारे मॉडेल कोणते आहे?",
+    "answer": [
+      [
+        "RiskLabs मॉडेल सर्वोत्तम एकूण संतुलन साधते, कारण ते सर्व क्षितिजांवर सर्वात कमी MSE मूल्ये राखते आणि सर्वात कमी VaR (0.049) दर्शवते, जे मजबूत अंदाज अचूकता आणि विश्वासार्ह जोखीम अंदाज दोन्ही सूचित करते."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

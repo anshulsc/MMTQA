@@ -1,0 +1,208 @@
+[
+  {
+    "question_id": "finqa_4523346d99_001",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "2006년부터 2007년까지 '1년 이내 만기인 장기 부채'와 '장기 부채' 중 어느 항목의 성장률이 더 높았습니까?",
+    "answer": [
+      [
+        "long-term debt due within one year"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_002",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "2007년에 '장기 부채'와 '자기 자본'의 합계 금액은 100만 달러 단위로 얼마였습니까?",
+    "answer": [
+      [
+        "25307"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_4523346d99_003",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "2006년부터 2007년까지 '총 부채'의 증가액은 같은 기간 '현금'의 감소액을 얼마나 초과했습니까?",
+    "answer": [
+      [
+        "2297"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_004",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "2006년부터 2007년까지 '현금'과 '신탁 기금'을 모두 고려하여 회사의 유동성 변화를 분석해 주십시오.",
+    "answer": [
+      [
+        "회사의 유동성 상황은 2006년부터 2007년까지 상당히 악화되었습니다. '현금'은 53.6% (25억 8,500만 달러에서 11억 9,900만 달러로) 감소했으며, '수익 채권 신탁 기금'은 63.0% (20억 1,300만 달러에서 7억 4,400만 달러로) 감소했습니다. 합산 유동 자산은 45억 9,800만 달러에서 19억 4,300만 달러로, 거의 58% 감소하여 즉시 사용 가능한 자금의 상당한 감소를 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_005",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "2007년에 값이 60억 달러를 초과한 기본 대차대조표 섹션(1~6행)의 모든 재무 항목을 나열하십시오.",
+    "answer": [
+      [
+        "long-term debt"
+      ],
+      [
+        "total debt"
+      ],
+      [
+        "equity"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_006",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "2006년 회사의 총부채 대비 자기자본 비율은 얼마였습니까? '총부채'를 '자기자본'으로 나누고 결과를 소수점 둘째 자리까지 반올림하여 표시하십시오.",
+    "answer": [
+      [
+        "0.24"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_4523346d99_007",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "2007년에 회사의 '자기자본'이 15% 더 높았다면, 다른 모든 값이 일정하다고 가정했을 때 해당 연도의 '총부채에 자기자본을 더하고 현금을 차감한 값'은 어떻게 되었을까요?",
+    "answer": [
+      [
+        "27378.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B12",
+      "B13",
+      "B14",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_008",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "2006년부터 2007년까지 '총 부채'와 '자기자본' 모두에서 동시적이고 상당한 증가를 기반으로, 이 기간 동안 회사의 재무 전략에 대해 무엇을 추론할 수 있습니까?",
+    "answer": [
+      [
+        "총 부채(3,532백만 달러에서 7,215백만 달러로 증가)와 자기자본(14,607백만 달러에서 19,223백만 달러로 증가) 모두에서 동시에 발생한 대규모 증가는 회사가 공격적인 성장 또는 확장 전략을 추구했음을 시사합니다. 회사는 부채 및 자기자본 시장 모두에서 상당한 자본을 적극적으로 조달했습니다. 이는 종종 주요 투자, 프로젝트 또는 인수를 자금 지원하기 위해 수행됩니다. 현금 조정 부채 자본 비율이 6%에서 22%로 크게 상승한 것은 이 성장을 촉진하기 위해 높은 레버리지로의 전략적 전환을 더욱 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B6",
+      "C6",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_4523346d99_009",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "'계산' 섹션(8-16행)의 어떤 레이블이 주요 재무제표 섹션(1-6행)의 레이블을 직접적으로 복제한 것입니까?",
+    "answer": [
+      [
+        "total debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A8",
+      "A12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_4523346d99_010",
+    "table_id": "finqa_4523346d99",
+    "question_type": "open_ended_reasoning",
+    "question": "2006년부터 2007년까지 가장 극단적인 상대적 증가를 보이며 주목할 만한 특이치로 간주될 수 있는 재무 지표는 무엇이었습니까?",
+    "answer": [
+      [
+        "'현금 차감 총 부채' 지표가 가장 중요한 특이치입니다. 이 지표는 2006년 9억 4,700만 달러에서 2007년 52억 7,200만 달러로 증가했으며, 이는 456% 이상의 성장률을 나타냅니다. 이는 '현금 조정 부채 자본 비율'의 267% 증가를 포함하여 다른 어떤 지표의 백분율 변화보다 훨씬 앞서는 수치로, 회사의 순 부채 상태가 극적으로 상승했음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_4523346d99_011",
+    "table_id": "finqa_4523346d99",
+    "question_type": "value",
+    "question": "2007년 부채는 2006년 대비 얼마나 증가했습니까?",
+    "answer": [
+      [
+        "$3,683"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

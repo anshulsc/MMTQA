@@ -1,0 +1,229 @@
+[
+  {
+    "question_id": "finqa_afeb56667d_001",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "2009년 전체 연도의 총 수익은 얼마였습니까?",
+    "answer": [
+      [
+        "995847"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afeb56667d_002",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "'total revenues' 외에 2009년 네 개 분기 동안 변동이 없었던 재무 지표는 무엇입니까?",
+    "answer": [
+      [
+        "preferred stock dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_003",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "'채무 조기 상환으로 인한 이익'이 가장 컸던 분기에 해당되는 '기본 주당 순이익(손실)'은 얼마였습니까?",
+    "answer": [
+      [
+        "$ 0.57"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "E12"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_004",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "2009년 말부터 2009년 초까지 'SL Green 보통주 주주 귀속 순이익(손실)'의 추세를 설명해 주십시오.",
+    "answer": [
+      [
+        "보통주 주주 귀속 순이익은 2009년 내내 꾸준하고 가파른 하락 추세를 보였습니다. 2009년 3월 31일 분기에는 32,768달러의 높은 이익으로 시작하여 6월 30일에는 12,543달러로 크게 하락했으며, 9월 30일에는 -2,520달러의 손실로 돌아섰고, 12월 31일에는 -5,123달러로 손실이 더욱 확대되었습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "E10",
+      "D10",
+      "C10",
+      "B10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_005",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "'SL Green에 귀속되는 순이익(손실)'이 양수이고 '중단 영업의 매각으로 인한 이익(손실)' 또한 양수였던 분기를 모두 나열하시오.",
+    "answer": [
+      [
+        "june 30"
+      ],
+      [
+        "march 31"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_006",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "2023년 9월 30일에 종료된 분기의 '총수익'에서 '우선주 배당금'이 차지하는 비율은 얼마입니까? 절대 비율로 제공하고 소수점 둘째 자리까지 반올림하십시오.",
+    "answer": [
+      [
+        "2.02%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afeb56667d_007",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "9월 30일 분기에 '우선주 배당금'이 포기되었다면(즉, 0달러였다면), 해당 분기의 'SL 그린 보통주주에게 귀속되는 순이익(손실)'은 얼마였을까요?",
+    "answer": [
+      [
+        "$ 2449"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_008",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "분기별 데이터를 기준으로 '채무 조기 상환으로 인한 이익'과 'SL 그린 보통주 주주에게 귀속되는 순이익(손실)' 간의 명백한 관계는 무엇입니까?",
+    "answer": [
+      [
+        "강한 양의 상관관계가 있는 것으로 보입니다. '채무 조기 상환으로 인한 이익'이 가장 높았던 두 분기(3월 31일 및 6월 30일)에서는 'SL 그린 보통주 주주에게 귀속되는 순이익(손실)' 또한 가장 높게 보고되었습니다. 반대로, 이익이 낮은 분기(9월 30일 및 12월 31일)에서는 보통주 주주에게 순손실이 발생하여, 이러한 큰 이익이 연초 수익성의 주요 동인이었음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B10",
+      "C10",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afeb56667d_009",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "value",
+    "question": "12월 31일에 종료되는 분기에 음수 값(손실)을 보고한 재무 항목은 몇 개입니까?",
+    "answer": [
+      [
+        "8"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afeb56667d_010",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "다른 세 분기에 보이는 추세와 비교했을 때, '비지배 지분을 제외하고 매각 이익 이전의 순이익(손실)'이 두드러진 이상치를 나타내는 분기는 언제입니까?",
+    "answer": [
+      [
+        "9월 30일로 마감되는 분기가 이상치입니다. 다른 세 분기에서는 모두 이 항목에서 상당한 손실(-380달러, -10,242달러, -26,600달러)을 보고했지만, 9월 분기는 유일하게 이익(4,099달러)을 보고하여 이 항목에 대한 전반적인 손실 추세에서 주목할 만한 예외가 되었습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afeb56667d_011",
+    "table_id": "finqa_afeb56667d",
+    "question_type": "open_ended_reasoning",
+    "question": "2009년 모든 분기를 고려했을 때, SL Green 보통주 주주에게 귀속되는 순이익이 가장 높았던 분기는 언제이며, 이 결과에 기여한 다른 요인은 무엇이었습니까?",
+    "answer": [
+      [
+        "2009년 3월 31일에 마감된 분기에 SL Green 보통주 주주에게 귀속되는 순이익이 32,768달러로 가장 높았습니다. 이는 높은 총 수익(258,787달러), 상당한 채무 조기 상환 이익(47,712달러), 그리고 중단된 사업에서의 긍정적인 기여(1,319달러)에 의해 영향을 받았습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B6",
+      "B10",
+      "E2",
+      "E4",
+      "E6",
+      "E10",
+      "H2",
+      "H4",
+      "H6",
+      "H10",
+      "K2",
+      "K4",
+      "K6",
+      "K10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

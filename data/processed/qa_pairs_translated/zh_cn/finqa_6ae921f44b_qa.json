@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "在“其他综合（亏损）收益再分类前”中，哪个财务类别遭受了最大的绝对损失？",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "“从其他综合亏损中重新分类的金额”各个类别的合计总额是多少？",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "截至2019年11月2日，拥有最小期末余额的组成部分的2018年11月3日的期初余额是多少？",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "描述“总计”累计其他综合损失在报告期内从期初到期末的总体趋势。",
+    "answer": [
+      [
+        "报告期内，“总计”累计损失显著恶化，从 -$58,440 增加到 -$187,799。这代表增加了 $129,359 的净损失，是期初累计损失的三倍多。"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "在‘其他综合（亏损）收益’中出现净亏损的所有类别，在2019年11月2日的合并总余额是多少？",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "2019年11月2日的总负余额中，有多少百分比归因于‘未实现持有损益（损失）衍生品’？",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "如果“养老金计划”的“其他综合（亏损）收益”不是亏损而是收益 24,344，那么在 2019 年 11 月 2 日的新的期末总额将是多少？",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "在每个类别中，“其他综合（亏损）收益（重述前）”的符号（正/负）与最终的“其他综合（亏损）收益”的符号之间是否存在一致的关系？",
+    "answer": [
+      [
+        "是的，这种关系在所有四个类别中都是一致的。对于“外币”、“衍生品”和“养老金计划”，这两个项目中的值均为负数。对于“可供出售证券”，这两个项目中的值均为正数。因此，重述前的收益符号与该时期最终净综合收益的符号始终保持一致。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "在不包含总计的情况下，表格中哪个具体项目条目代表了最大绝对值的数值（即最极端的值）？",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "使用期末余额 = 期初余额 + '其他综合（损失）收益' 的滚转逻辑，确定哪个财务类别报告的数值在数学上不一致。",
+    "answer": [
+      [
+        "“可供出售证券的未实现持有收益（损失）”类别不一致。其期初余额-10（C1单元格）加上其“其他综合（损失）收益”10（C5单元格）计算得出的期末余额为0，这与报告的期末余额2,014（C6单元格）不符。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "2018年至2019年，养老金计划减少了多少？",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

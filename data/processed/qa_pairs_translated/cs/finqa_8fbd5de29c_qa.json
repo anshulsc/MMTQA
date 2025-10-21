@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_8fbd5de29c_001",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Které období, rok 2009 nebo předchozí rok, mělo vyšší absolutní hodnotu 'čistých ztrát', které byly vyplaceny?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_002",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Jaký je součet všech kladných úprav (nákladů, ostatní a získané) k zůstatku 'hrubých ztrát za rok 2009' během roku?",
+    "answer": [
+      [
+        "13713"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_003",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Pro období (2009 nebo předchozí rok), které zaznamenalo větší absolutní změnu v zůstatku 'restitučního krytí' od začátku do konce roku, jaká byla hodnota vykázaných 'čistých ztrát'?",
+    "answer": [
+      [
+        "7603"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "F1",
+      "F6",
+      "G2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_004",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě počátečního a konečného zůstatku analyzujte celkovou změnu závazku 'čisté ztráty' od začátku prvního období do konce druhého období (2009).",
+    "answer": [
+      [
+        "Závazek 'čisté ztráty' se během dvouletého období zvýšil. Na začátku prvního období činil 23 592 milionů USD a na konci roku 2009 dosáhl 25 038 milionů USD. To představuje celkové zvýšení o 1 446 milionů USD, což naznačuje, že čisté závazky společnosti ze ztrát během tohoto období vzrostly."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_005",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Uveďte všechny kategorie výdajů nebo úprav, kde absolutní hodnota za 'čisté ztráty 2009' byla vyšší než odpovídající hodnota za předchozí rok.",
+    "answer": [
+      [
+        "losses and loss expenses paid",
+        "other ( including foreign exchange revaluation )",
+        "losses and loss expenses acquired"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_006",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Jaké procento z 'hrubých ztrát hrazených' v roce 2009 bylo kryto 'zajišťovacím nárokem'?",
+    "answer": [
+      [
+        "37.37%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_007",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Pokud by částka 'ostatní (včetně přecenění cizích měn)' pro rok 2009 byla záporných 500 milionů dolarů místo kladných 559 milionů dolarů, jaký by byl nový 'stav na konci roku' pro 'hrubé ztráty za rok 2009'?",
+    "answer": [
+      [
+        "$36724"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_008",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Jaké údaje v tabulce prokazují základní vztah mezi hrubými ztrátami, zajištěním krytí a čistými ztrátami?",
+    "answer": [
+      [
+        "Údaje konzistentně prokazují účetní vztah, kde 'čisté ztráty' jsou výsledkem odečtení 'zajištění krytí' od 'hrubých ztrát'. Například v řádku 'stav na začátku roku' pro rok 2009 činí čistá ztráta 24 241 USD, což je přesně rozdíl mezi hrubou ztrátou 37 176 USD a zajištěním krytí 12 935 USD. Toto aritmetické pravidlo platí pro všechny odpovídající datové body v obou obdobích, což potvrzuje jejich přímou korelaci."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_009",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Který záhlaví sloupce je pravděpodobně chybně označený duplikát a jaké strukturální důkazy v tabulce tuto skutečnost podporují?",
+    "answer": [
+      [
+        "Záhlaví '2009 gross losses' pro pátý sloupec je pravděpodobně chybně označený duplikát záhlaví druhého sloupce. Důkazem je, že hodnoty 'balance end of year' v pravé sadě sloupců (E, F, G) se dokonale shodují s hodnotami 'balance beginning of year' v levé sadě (B, C, D). To naznačuje chronologickou posloupnost, což znamená, že pravé sloupce představují předchozí rok (např. 2008), nikoli rok 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E6",
+      "F6",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_010",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikujte číselnou hodnotu v datech za rok 2009, která představuje jasný odlehlý údaj kvůli své matematické nekonzistenci s příslušnými sloupci ve stejném řádku.",
+    "answer": [
+      [
+        "Hodnota '2013' pro 'čisté ztráty za rok 2009' v řádku 'získané ztráty a náklady na ztráty' je jasný odlehlý údaj. V každém jiném řádku platí: čisté ztráty = hrubé ztráty - zajišťovací náhrada. Pro tento řádek by výpočet měl být 2013 - 2013 = 0. Tabulka však uvádí čistou ztrátu jako 2013, což je matematicky nemožné vzhledem k ostatním údajům v jejím řádku a stanovenému vzorci."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_011",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "Jaký byl zůstatek v milionech na začátku roku pro hrubé ztráty?",
+    "answer": [
+      [
+        "$37,176"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

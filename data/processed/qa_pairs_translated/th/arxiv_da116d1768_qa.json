@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "arxiv_da116d1768_001",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "ระบุวิธีการ/เอกสารที่ใช้โมเดล LLM ซึ่งถือว่าใหม่กว่าหรือล้ำหน้ากว่า GPT3.5",
+    "answer": [
+      [
+        "MarketSenseAI [1]"
+      ],
+      [
+        "Ploutos [4]"
+      ],
+      [
+        "LLMoE [7]"
+      ],
+      [
+        "[48]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_002",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "มีวิธีการ/เอกสารที่ระบุไว้กี่ฉบับที่กล่าวถึงการใช้โมเดลในตระกูล GPT (รวมถึง GPT-4, GPT3.5, GPT-4-Turbo หรือโมเดลทั่วไปที่ใช้ GPT) อย่างชัดเจน?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_da116d1768_003",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "ชุดข้อมูลใดบ้างที่ใช้วิธีการที่มุ่งเน้นไปที่ 'การลงทุน' เป็นแอปพลิเคชันโดยเฉพาะ?",
+    "answer": [
+      [
+        "S&P 100 stocks"
+      ],
+      [
+        "S&P 500 index"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "C1",
+      "D4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_004",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "เมื่อพิจารณาถึงวิวัฒนาการของโมเดล GPT จาก GPT3.5 เป็น GPT-4 มีการเปลี่ยนแปลงในด้านการประยุกต์ใช้หรือการเน้นข้อมูลที่สังเกตได้จากตารางอย่างไร?",
+    "answer": [
+      [
+        "วิธีการที่ใช้ GPT3.5 (GPT-InvestAR) มุ่งเน้นไปที่ 'การลงทุนในหุ้น' โดยใช้ดัชนี S&P 500 ที่ครอบคลุม ในขณะที่วิธีการที่ใช้ GPT-4 ที่ทันสมัยกว่า (MarketSenseAI และ Ploutos) กำหนดเป้าหมายไปยังแอปพลิเคชันที่เฉพาะเจาะจงมากขึ้น เช่น 'การคัดเลือกหุ้นและข้อมูลเชิงลึกด้านการลงทุน' และ 'การเคลื่อนไหวของราคาหุ้น' โดยใช้ทั้งชุดข้อมูล S&P 100 และชุดข้อมูลจากเอกสารวิชาการ สิ่งนี้บ่งชี้ถึงแนวโน้มที่แอปพลิเคชันจะมีความเฉพาะเจาะจงและเน้นการวิเคราะห์มากขึ้นเมื่อใช้โมเดลที่มีประสิทธิภาพสูงขึ้น"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "C4",
+      "B1",
+      "D1",
+      "C1",
+      "B2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_005",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "ระบุโมเดล LLM ที่ใช้ในวิธีต่างๆ ซึ่งการประยุกต์ใช้เกี่ยวข้องกับคำว่า 'stock' แต่ไม่ได้ระบุอย่างชัดเจนว่า 'Stock investment'",
+    "answer": [
+      [
+        "GPT-4"
+      ],
+      [
+        "GPT-4-Turbo, LLaMA3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "D2",
+      "B2",
+      "D4",
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_006",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "วิธีการ/เปเปอร์ที่ระบุมีกี่เปอร์เซ็นต์ที่ใช้ดัชนีตลาดการเงิน (เช่น S&P หรือ KOSPI) เป็นแหล่งข้อมูล?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_da116d1768_007",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "หากข้อกำหนดของโปรเจกต์คือการเลือกแนวทางที่มีอยู่สำหรับ 'การคาดการณ์ตลาดหุ้น' แต่จำกัดเฉพาะการใช้โมเดลจากตระกูล GPT โมเดล LLM ใดจากตารางที่จะถูกเลือก?",
+    "answer": [
+      [
+        "GPT-4-Turbo"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_008",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "จากตาราง มีความสัมพันธ์ที่เห็นได้ชัดเจนระหว่างความเฉพาะเจาะจงของโมเดล LLM ที่กล่าวถึงกับประเภทของข้อมูลที่นำไปใช้หรือไม่?",
+    "answer": [
+      [
+        "มีความสัมพันธ์ที่ดูเหมือนจะเกิดขึ้น โดยโมเดลที่เฉพาะเจาะจงและทันสมัยกว่า เช่น GPT-4, GPT3.5 และ Llama3.2 จะถูกจับคู่กับชุดข้อมูลทางการเงินที่มีโครงสร้าง (เช่น ดัชนี S&P, ข้อมูล MSFT-AAPL) ในทางตรงกันข้าม 'โมเดลที่ใช้ GPT' ที่อธิบายไว้โดยทั่วไปจะเกี่ยวข้องกับคลังข้อมูลที่กว้างมากและไม่เฉพาะเจาะจง เช่น Common Crawl และ Wikipedia ซึ่งบ่งชี้ว่าโมเดลทั่วไปถูกใช้สำหรับการวิเคราะห์ที่กว้างขึ้น ในขณะที่โมเดลที่ทันสมัยและเฉพาะเจาะจงจะถูกทดสอบกับงานทางการเงินที่มีเป้าหมายมากขึ้น"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_da116d1768_009",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "คอลัมน์ใดที่มีข้อมูลที่อธิบายได้มากที่สุดและหลากหลายที่สุด โดยพิจารณาจากความหลากหลายของรายการ ตั้งแต่สัญลักษณ์หุ้นเฉพาะไปจนถึงคลังข้อมูลเว็บที่กว้างขวาง?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_010",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "ระบุวิธีการ/เอกสารที่โดดเด่นเป็นข้อยกเว้นในแง่ของขอบเขตการใช้งานและแหล่งข้อมูลทั่วไปเมื่อเทียบกับวิธีอื่น ๆ ที่มุ่งเน้นไปที่งานเฉพาะของตลาดหุ้น",
+    "answer": [
+      [
+        "ChainBuddy [10]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "D1",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_da116d1768_011",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "มีกี่วิธี/เปเปอร์ที่ใช้โมเดล GPT ในการฝึก?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

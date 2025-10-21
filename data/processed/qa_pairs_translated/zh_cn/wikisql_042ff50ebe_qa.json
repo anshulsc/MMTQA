@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "wikisql_042ff50ebe_001",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "哪种硬币的质量直径比最高？",
+    "answer": [
+      [
+        "5 Kč"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_002",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "所有目前流通的、由“镀镍钢”制成的硬币的总质量是多少？",
+    "answer": [
+      [
+        "12.1 g"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "K4",
+      "D5",
+      "E5",
+      "K5",
+      "D6",
+      "E6",
+      "K6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_003",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "在被退出流通之前，保持流通时间最长的硬币的材质是什么？",
+    "answer": [
+      [
+        "99% aluminium 1% magnesium"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "J1",
+      "K1",
+      "J2",
+      "K2",
+      "J3",
+      "K3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_004",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "面额为 '50 h' 的硬币正式流通（从发行到退出）了多少个完整年份？",
+    "answer": [
+      [
+        "15"
+      ]
+    ],
+    "evidence_cells": [
+      "J3",
+      "K3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_005",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "列出所有在 '1993年6月9日' 发行并且边缘为 '滚花' 的硬币的面值。",
+    "answer": [
+      [
+        "1 Kč"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "J4",
+      "A5",
+      "F5",
+      "J5",
+      "A6",
+      "F6",
+      "J6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_006",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "在所列硬币类型中，有多少比例的硬币“首次铸造”年份相同，但“发行”日期不同？",
+    "answer": [
+      [
+        "100%"
+      ]
+    ],
+    "evidence_cells": [
+      "I1",
+      "J1",
+      "I2",
+      "J2",
+      "I3",
+      "J3",
+      "I4",
+      "J4",
+      "I5",
+      "J5",
+      "I6",
+      "J6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_007",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "如果所有具有“滚花边”（Milled）边缘的硬币的厚度都增加到2.0毫米，那么这组特定硬币的新平均厚度将是多少？",
+    "answer": [
+      [
+        "2.0mm"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "F2",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_008",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "open_ended_reasoning",
+    "question": "根据退出流通日期，分析硬币的成分与其流通寿命之间的关系。",
+    "answer": [
+      [
+        "数据表明，成分与流通寿命之间存在很强的关联性。所有由‘99% aluminium 1% magnesium’（10h, 20h, 50h）构成的硬币都已退出流通。相比之下，所有由‘Nickel plated steel’（1 Kč, 2 Kč, 5 Kč）构成的硬币仍列为‘Current’（流通中）。这表明镀镍钢硬币的设计流通期比铝镁合金硬币更长。"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "K1",
+      "E2",
+      "K2",
+      "E3",
+      "K3",
+      "E4",
+      "K4",
+      "E5",
+      "K5",
+      "E6",
+      "K6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_009",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "open_ended_reasoning",
+    "question": "哪一个描述性列（'Obverse' 或 'Reverse'）提供了识别每枚硬币的独有信息，为什么？",
+    "answer": [
+      [
+        "‘Reverse’（背面）列提供了识别每枚硬币的独有信息。每枚硬币的背面都有不同的描述，例如“stylized river”（风格化的河流）或“St. Wenceslas crown”（圣瓦茨拉夫王冠）。然而，‘Obverse’（正面）列对于区分硬币没有帮助，因为它包含所有六枚硬币完全相同的文本。"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_010",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "open_ended_reasoning",
+    "question": "根据“直径”一栏所描述的物理形状，哪种硬币是例外？它的独特之处是什么？",
+    "answer": [
+      [
+        "2 Kč 硬币是例外。所有其他硬币都只给出了一个测量值，暗示其为圆形，而 2 Kč 硬币的直径被明确指定为“21.5mm, 11-sided”（21.5毫米，11边形）。这种多边形、11边形的形状在所列出的硬币中是独一无二的。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_011",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "哪个硬币是由镀镍钢制成且带有齿边的？",
+    "answer": [
+      [
+        "1 Kč"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

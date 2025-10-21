@@ -1,0 +1,302 @@
+[
+  {
+    "question_id": "wikisql_92e5bf28cc_001",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "Quel match a représenté la plus grande marge de victoire pour l'équipe ?",
+    "answer": [
+      [
+        "Game 4 vs Sacramento"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "D6",
+      "D7",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_002",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "Quelle était la fréquentation moyenne des matchs joués au Wachovia Center ?",
+    "answer": [
+      [
+        "13056.5"
+      ]
+    ],
+    "evidence_cells": [
+      "H2",
+      "H5",
+      "H7",
+      "H9",
+      "H10",
+      "H12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_003",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "Qui a été le meilleur rebondeur dans le match où Andre Miller a réalisé son plus grand nombre de passes décisives ?",
+    "answer": [
+      [
+        "Samuel Dalembert (16)"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G8",
+      "G10",
+      "G11",
+      "F7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_004",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez la tendance de performance de l'équipe en fonction de son bilan victoires/défaites lors des quatre derniers matchs listés en novembre.",
+    "answer": [
+      [
+        "Lors des quatre derniers matchs de novembre (du 23 au 28 novembre), la performance de l'équipe montre une nette tendance à la baisse. Ils ont commencé par une victoire contre Golden State (23 novembre), portant leur bilan à 7-6, puis ont enchaîné avec trois défaites consécutives contre Charlotte, Orlando et Boston, terminant la période avec un bilan de 7-9. Cela indique une série de trois défaites et un renversement de dynamique négatif en fin de mois."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "I10",
+      "B11",
+      "I11",
+      "B12",
+      "I12",
+      "B13",
+      "I13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_005",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "Listez les adversaires lors des matchs que l'équipe a perdus quand Elton Brand était le seul meilleur rebondeur.",
+    "answer": [
+      [
+        "@ Atlanta"
+      ],
+      [
+        "@ Miami"
+      ],
+      [
+        "@ Minnesota"
+      ],
+      [
+        "@ Charlotte"
+      ],
+      [
+        "@ Boston"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "F1",
+      "C3",
+      "D3",
+      "F3",
+      "C8",
+      "D8",
+      "F8",
+      "C11",
+      "D11",
+      "F11",
+      "C13",
+      "D13",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_006",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "Quelle proportion des matchs où Thaddeus Young a été le meilleur marqueur (seul ou à égalité) s'est soldée par une victoire ?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "D1",
+      "E2",
+      "D2",
+      "E3",
+      "D3",
+      "E4",
+      "D4",
+      "E7",
+      "D7",
+      "E9",
+      "D9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_007",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "open_ended_reasoning",
+    "question": "Si l'équipe avait marqué 10 points de plus à chaque match qu'elle a perdu par 10 points ou moins, comment le bilan final de cette table aurait-il changé ?",
+    "answer": [
+      [
+        "Le bilan final de l'équipe serait passé de 7-9 à 10-6. Trois défaites seraient devenues des victoires : le match 3 (88-95, une défaite de 7 points), le match 14 (84-93, une défaite de 9 points) et le match 15 (94-96, une défaite de 2 points)."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "I13",
+      "D11",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_008",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe-t-il une relation observable entre le nombre de passes décisives du meilleur passeur du match et le résultat du match (Victoire/Défaite) ?",
+    "answer": [
+      [
+        "D'après les données, il semble y avoir une corrélation positive entre un nombre plus élevé de passes décisives du leader et la victoire du match. Le nombre moyen de passes décisives lors des victoires est de 9,2 (calculé à partir des matchs 4, 8, 10, 12, 13). La moyenne pour les défaites est de 6,875 (calculé à partir des matchs 3, 5, 6, 7, 11, 14, 15, 16). Les trois matchs avec le plus de passes décisives (12, 10 et 9) se sont tous soldés par des victoires, tandis que 6 des 8 défaites ont enregistré 8 passes décisives ou moins de la part du leader."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1",
+      "D2",
+      "G2",
+      "D3",
+      "G3",
+      "D4",
+      "G4",
+      "D5",
+      "G5",
+      "D6",
+      "G6",
+      "D7",
+      "G7",
+      "D8",
+      "G8",
+      "D9",
+      "G9",
+      "D10",
+      "G10",
+      "D11",
+      "G11",
+      "D12",
+      "G12",
+      "D13",
+      "G13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_009",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "Quel joueur apparaît le plus fréquemment dans les trois catégories individuelles de statistiques élevées (points, rebonds et passes décisives) ?",
+    "answer": [
+      [
+        "Elton Brand"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F1",
+      "G1",
+      "E2",
+      "F2",
+      "G2",
+      "E3",
+      "F3",
+      "G3",
+      "E4",
+      "F4",
+      "G4",
+      "E5",
+      "F5",
+      "G5",
+      "E6",
+      "F6",
+      "G6",
+      "E7",
+      "F7",
+      "G7",
+      "E8",
+      "F8",
+      "G8",
+      "E9",
+      "F9",
+      "G9",
+      "E10",
+      "F10",
+      "G10",
+      "E11",
+      "F11",
+      "G11",
+      "E12",
+      "F12",
+      "G12",
+      "E13",
+      "F13",
+      "G13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_010",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "Quelle partie est la plus importante anomalie lorsque l'on ne considère que les matchs à l'extérieur ?",
+    "answer": [
+      [
+        "Game 11 at Minnesota (Target Center 10,111)"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H3",
+      "H4",
+      "H6",
+      "H8",
+      "H11",
+      "H13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_92e5bf28cc_011",
+    "table_id": "wikisql_92e5bf28cc",
+    "question_type": "value",
+    "question": "Qui a marqué le plus de points dans le match contre l'Utah ?",
+    "answer": [
+      [
+        "Andre Miller (25)"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Value Lookup"
+  }
+]

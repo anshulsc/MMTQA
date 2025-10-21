@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "wikisql_d7b1bcb71f_001",
+    "table_id": "wikisql_d7b1bcb71f",
+    "question_type": "value",
+    "question": "争われた選挙における現職議員の中で、最も大きな得票率の差で勝利したのは誰ですか？",
+    "answer": [
+      [
+        "Sam L. Collins"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "F3",
+      "B7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_d7b1bcb71f_002",
+    "table_id": "wikisql_d7b1bcb71f",
+    "question_type": "value",
+    "question": "1932年に最初に選出された、リストされている現職者の総数は何名ですか？",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_d7b1bcb71f_003",
+    "table_id": "wikisql_d7b1bcb71f",
+    "question_type": "value",
+    "question": "現職議員が引退した選挙区で、どの政党が議席を獲得しましたか？",
+    "answer": [
+      [
+        "Republican"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_d7b1bcb71f_004",
+    "table_id": "wikisql_d7b1bcb71f",
+    "question_type": "value",
+    "question": "「初当選」の年を基準とした場合、この選挙の前に最も長期間在職していた現職議員は誰ですか？",
+    "answer": [
+      [
+        "Albert E. Carter"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B2",
+      "D2",
+      "B3",
+      "D3",
+      "B4",
+      "D4",
+      "B5",
+      "D5",
+      "B6",
+      "D6",
+      "B7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_d7b1bcb71f_005",
+    "table_id": "wikisql_d7b1bcb71f",
+    "question_type": "value",
+    "question": "再選されたすべての民主党現職議員をリストアップしてください。",
+    "answer": [
+      [
+        "John J. McGrath"
+      ],
+      [
+        "John F. Dockweiler"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "E4",
+      "B6",
+      "C6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_d7b1bcb71f_006",
+    "table_id": "wikisql_d7b1bcb71f",
+    "question_type": "value",
+    "question": "記載されている地区のうち、どのくらいの割合で支配政党が変更されましたか？",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E5",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_d7b1bcb71f_007",
+    "table_id": "wikisql_d7b1bcb71f",
+    "question_type": "open_ended_reasoning",
+    "question": "もしラルフ・R・エルツェ氏が対立候補からさらに2.5%の票を獲得していた場合、カリフォルニア第7選挙区での選挙結果はどうなっていたでしょうか？",
+    "answer": [
+      [
+        "もしラルフ・R・エルツェ氏が対立候補から2.5パーセントポイントを獲得していた場合、彼の得票率は50.2%（47.7% + 2.5%）になり、ジョン・H・トーラン氏の得票率は49.8%（52.3% - 2.5%）に低下したでしょう。その結果、ラルフ・R・エルツェ氏は落選する代わりに再選を果たしていたでしょう。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "E3",
+      "F3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_d7b1bcb71f_008",
+    "table_id": "wikisql_d7b1bcb71f",
+    "question_type": "open_ended_reasoning",
+    "question": "結果に基づくと、現職の所属政党とその対立候補に直面する可能性との間に、識別可能な相関関係はありますか？",
+    "answer": [
+      [
+        "このデータに基づくと、識別可能な相関関係はありません。共和党の現職5名のうち、2名が対立候補なしで当選しました（40%）。民主党の現職4名（引退者1名を含む）のうち、2名が無投票で再選されました（50%）。これらの比率は非常に似ており、このデータセットにおいては、党籍が対立候補に直面するかどうかを予測する強力な要因ではなかったことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_d7b1bcb71f_009",
+    "table_id": "wikisql_d7b1bcb71f",
+    "question_type": "value",
+    "question": "候補者の氏名、所属政党、投票率が1つのエントリに含まれることが多く、最も複雑なデータ構造を持つ列はどれですか？",
+    "answer": [
+      [
+        "Candidates"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_d7b1bcb71f_010",
+    "table_id": "wikisql_d7b1bcb71f",
+    "question_type": "open_ended_reasoning",
+    "question": "他の接戦と比較して、勝利マージンにおいて顕著な外れ値となっている選挙区はどれですか？",
+    "answer": [
+      [
+        "カリフォルニア19区の選挙が顕著な外れ値です。当選者のサム・L・コリンズは、77.6パーセントポイント（88.8%対11.2%）の勝利マージンを達成しました。これは、わずか4.6パーセントポイント（52.3%対47.7%）の僅差で決定された唯一の他の接戦であるカリフォルニア7区と比較して、例外的に高い数字です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3",
+      "A7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

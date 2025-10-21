@@ -1,0 +1,167 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "أي صيغة رئيسية للنموذج تتضمن صراحةً مكون سعر الفائدة الخالي من المخاطر؟",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "ما هو العدد الإجمالي للمتغيرات 'X' المميزة المستخدمة كمدخلات في صيغة نموذج Z-score؟",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "عرّف النموذج الذي يستخدم \"إجمالي الأصول\" كمقام في ثلاثة على الأقل من معاملاته المشروحة، ثم اذكر أي معامل من هذا النموذج يمثل نسبة \"القيمة السوقية لحقوق الملكية\" إلى \"إجمالي الالتزامات\".",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "أي نموذج يتضمن معاملات محددة بوضوح على أنها مقاسة 'في الوقت t'؟",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "إذا كان الهدف التحليلي هو تحديد احتمالية نتيجة ثنائية (y=1)، فأي نموذج مدرج في الجدول هو الخيار الأنسب؟",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "في نموذج الدرجة المعيارية Z-score، ما هو وزن (المعامل) المتغير الذي يمثل \"الأرباح قبل الفوائد والضرائب / نسبة إجمالي الأصول\"، وكيف يقارن هذا الوزن بالمتغيرات الأخرى؟",
+    "answer": [
+      [
+        "معامل X3 (الأرباح قبل الفوائد والضرائب / نسبة إجمالي الأصول) هو 3.3. هذا هو أعلى وزن بين المتغيرات الخمسة، مما يشير إلى أن له التأثير الأكثر أهمية على الدرجة المعيارية النهائية مقارنة بمتغيرات مثل X1 (1.2)، و X2 (1.4)، و X4 (0.6)، و X5 (0.99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "إذا قامت نسخة محدثة من نموذج Z-score بتقليل تأثير 'نسبة رأس المال العامل إلى إجمالي الأصول' بنسبة 50%، فما هو المعامل الجديد للمتغير X1؟",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على صيغة نموذج Z-score، ما هي العلاقة المستنتجة بين نسبة إجمالي مبيعات الشركة إلى إجمالي أصولها ودرجة Z-score الناتجة عنها؟",
+    "answer": [
+      [
+        "هناك ارتباط إيجابي بين نسبة إجمالي المبيعات إلى إجمالي الأصول (X5) ودرجة Z-score. تُظهر الصيغة أن درجة Z-score هي مجموع مرجح لخمس نسب، ومعامل X5 موجب (0.99). لذلك، مع تثبيت جميع العوامل الأخرى، فإن الزيادة في نسبة إجمالي المبيعات إلى إجمالي الأصول ستؤدي إلى درجة Z-score أعلى."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "أي نموذج يتضمن وصفه أكبر عدد من المعلمات المميزة المشروحة في العمود الثالث؟",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "عند فحص المعاملات الرقمية في صيغة نموذج Z-score، أي معامل يبرز كقيمة شاذة مقارنة بالآخرين؟",
+    "answer": [
+      [
+        "المعامل 3.3 للمتغير X3 هو قيمة شاذة كبيرة. المعاملات الأخرى في الصيغة هي 1.2، 1.4، 0.6، و 0.99، والتي تتجمع جميعها في نطاق يتراوح بين 0.6 و 1.4. القيمة 3.3 هي أكثر من ضعف قيمة المعامل الأعلى التالي (1.4)، مما يجعلها أكبر بكثير من البقية."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

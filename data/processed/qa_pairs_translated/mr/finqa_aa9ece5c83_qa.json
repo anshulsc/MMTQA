@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "31 डिसेंबर 2016 रोजी संपलेल्या वर्षासाठी, कॉलम B पासून सुरू होणारा डेटा सेट की कॉलम E मधील डेटा सेट, यापैकी कोणत्या डेटा सेटमध्ये 'ऍडजस्टेड' ऑपरेटिंग उत्पन्नाचे प्रमाण जास्त होते?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "पहिल्या डेटा सेटसाठी (कॉलम C) 'अकाउंटिंग तत्त्वातील बदल' या सर्व डॉलर-आधारित समायोजनांची निव्वळ बेरीज किती आहे?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "व्याज उत्पन्नासाठी 'अकाउंटिंग तत्त्वातील बदल' '-414 (414)' असलेल्या डेटा संचासाठी 'फाइल केल्यानुसार' समायोजित EBITDA मार्जिन किती होते?",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "पहिल्या डेटा सेटसाठी (स्तंभ B-D), 'as filed' नेट उत्पन्न आणि 'as filed' समायोजित EBITDA यांचे गुणोत्तर, तीन दशांश स्थळांपर्यंत पूर्णांकित करून, काय आहे?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "स्तंभ B ते D मध्ये सादर केलेल्या डेटा संचामध्ये, 'as filed' मूल्यापेक्षा 'as adjusted' मूल्य कमी असलेले मेट्रिक ओळखा.",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "'निव्वळ उत्पन्न सेवा उत्पन्नाची टक्केवारी' या पंक्तींमध्ये, कोणता 'लेखांकन तत्त्वातील बदल' मूल्य विसंगत दिसते आणि का?",
+    "answer": [
+      [
+        "सेल्स C4 आणि F4 मधील '2014% (2014 %)' हे 'लेखांकन तत्त्वातील बदल' मूल्य विसंगत आहे. दोन्ही डेटा संचांसाठी, 'निव्वळ उत्पन्न सेवा उत्पन्नाची टक्केवारी' 'फाइल केल्यानुसार' आणि 'समायोजित केल्यानुसार' या आकडेवारी दरम्यान अपरिवर्तित राहते (अनुक्रमे 5% वरून 5% आणि 3% वरून 3%). एक तार्किक बदल 0% असावा, ज्यामुळे '2014%' हा स्पष्टपणे आउटलायर ठरतो, जो बहुधा डेटा एंट्री त्रुटीमुळे झाला आहे."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "जर दुसऱ्या डेटासेटमधील ऑपरेटिंग उत्पन्नासाठी 'अकाउंटिंग तत्त्वातील बदल' दाखवलेल्या मूल्याऐवजी $50 दशलक्षची घट असती, तर नवीन 'समायोजित' ऑपरेटिंग उत्पन्न किती झाले असते?",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "ऑपरेटिंग उत्पन्न (operating income) आणि समायोजित EBITDA (adjusted EBITDA) साठी दोन्ही डेटा सेटमधील लेखा समायोजनांमध्ये (accounting adjustments) सातत्यपूर्ण संबंध आहे का?",
+    "answer": [
+      [
+        "होय, एक सातत्यपूर्ण सकारात्मक संबंध आहे. पहिल्या डेटा सेटमध्ये, ऑपरेटिंग उत्पन्नातील बदल (+$248) हे समायोजित EBITDA मधील बदलाइतकेच (+$248) आहेत. दुसऱ्या डेटा सेटमध्ये, ऑपरेटिंग उत्पन्नातील बदल (+$414) हे देखील समायोजित EBITDA मधील बदलाइतकेच (+$414) आहेत. हे सूचित करते की ऑपरेटिंग उत्पन्नावर परिणाम करणारा लेखा तत्त्व बदल (accounting principle change) थेट समायोजित EBITDA वर समान रकमेने परिणाम करतो."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "स्तंभ शीर्षकांमध्ये (column headers) कोणती महत्त्वपूर्ण संरचनात्मक समस्या आहे ज्यामुळे टेबलचा अर्थ लावताना गोंधळ होऊ शकतो?",
+    "answer": [
+      [
+        "प्राथमिक संरचनात्मक समस्या ही उच्च-स्तरीय गटबद्धतेशिवाय (higher-level grouping) स्तंभ शीर्षकांची पुनरावृत्ती (duplication) आहे. 'year ended december 31 2016 as filed' आणि 'year ended december 31 2016 change in accounting principle' हे शीर्षके दोन वेगवेगळ्या स्तंभांच्या संचांसाठी (B आणि E; C आणि F) वापरली गेली आहेत. यामुळे, स्पष्टपणे नमूद करण्याऐवजी, वापरकर्त्याला असे अनुमान लावावे लागते की दोन स्वतंत्र संस्था किंवा परिस्थितींची तुलना केली जात आहे."
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "'ऍज ऍडजस्टेड' (as adjusted) व्हॅल्यूज वापरून, दोन्ही डेटा सेटसाठी (ऍडजस्टेड EBITDA / ऍडजस्टेड EBITDA मार्जिन) अंदाजित सेवा महसूल (implied service revenue) मोजा आणि दोन्हीमधील फरक दशलक्ष डॉलर्समध्ये (पहिला सेट वजा दुसरा सेट) सांगा, जवळच्या पूर्ण दशलक्षात रूपांतरित करा.",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "'As Filed' मधून 'As Adjusted' मध्ये बदलल्यानंतर, पहिल्या डेटा सेटसाठी ऑपरेटिंग उत्पन्नात (मिलियनमध्ये) किती बदल झाला?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

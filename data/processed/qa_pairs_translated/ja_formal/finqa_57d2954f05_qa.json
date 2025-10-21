@@ -1,0 +1,312 @@
+[
+  {
+    "question_id": "finqa_57d2954f05_001",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "'所有'のみの所有形態で、最も広い面積を持つ場所はどこですか？",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "E5",
+      "A10",
+      "D10",
+      "E10",
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_002",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "リース専有の全物件の総平方フィートを計算してください。",
+    "answer": [
+      [
+        "701000"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_57d2954f05_003",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "本社の所在地を特定し、そのsquarefootage列の連結値に基づいて所有スペースと賃借スペースを合計することで、総面積を算出してください。",
+    "answer": [
+      [
+        "1662000"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_004",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "中国にあり、主な用途が「研究開発およびエンジニアリング」に該当するすべての場所を特定してください。",
+    "answer": [
+      [
+        "xi 2019an china"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "C11",
+      "A13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_005",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "全物件の総面積のうち、所有形態が「ownedleased」である物件の賃貸面積の割合は何パーセントですか？これらの物件の面積列は、所有面積と賃貸面積を連結していると仮定します（例：「X...XY...Y」）。",
+    "answer": [
+      [
+        "9.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_006",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "もし会社が「カスタマーサポート」業務をすべて単一のハブに統合することを決定し、現在「カスタマーサポート」を主要な用途としてリストしており、かつ最大の総面積を持つ施設を選択する場合、どの場所が選ばれるでしょうか？",
+    "answer": [
+      [
+        "santa clara ca"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10",
+      "A12",
+      "C12",
+      "D12",
+      "A13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_007",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "データから、物件の「タイプ」とその「所有」状況との間に関連性があるかどうかを分析してください。具体的には、特定の所有モデルでより頻繁に出現する物件タイプはありますか？",
+    "answer": [
+      [
+        "はい、関連性があるようです。「オフィス・プラント＆倉庫」タイプは、所有形態が多様で、「所有・賃借」が5件、「所有」が3件、「賃借」が3件含まれています。対照的に、「オフィス＆倉庫」タイプは、2つの拠点に代表され、「所有・賃借」が1件、「賃借」が1件含まれていますが、このデータセットでは完全に「所有」されている施設が注目すべき点として欠けています。これは、「プラント」を含む施設は、単なるオフィスと倉庫のみの施設と比較して、企業が少なくとも部分的に、または完全に所有している可能性が高いことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B2",
+      "E2",
+      "B3",
+      "E3",
+      "B4",
+      "E4",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8",
+      "B9",
+      "E9",
+      "B10",
+      "E10",
+      "B11",
+      "E11",
+      "B12",
+      "E12",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_57d2954f05_008",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "open_ended_reasoning",
+    "question": "データアナリストの視点から、数値分析を実行する前に条件付き解析ロジックを必要とする、最も構造的に複雑な列はどれですか？",
+    "answer": [
+      [
+        "「squarefootage」（D列）が最も構造的な複雑さを示しています。「principal use」列には区切り文字で区切られたリストが含まれていますが、「squarefootage」列には標準的な整数値と連結された文字列値（例：「1512000150000」）の両方が含まれています。このデータを数値分析のために正しく解釈して使用するには、「ownership」列（E列）の対応する値をチェックする条件付きロジックを実装する必要があります。所有権が「ownedleased」の場合、文字列は2つの個別の数値に分割する必要があります。それ以外の場合は、単一の整数として扱うことができます。他の列へのこの依存関係により、その解析ロジックは他のどの列よりも複雑になります。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D12",
+      "E12",
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_57d2954f05_009",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "「製造」が主な用途である全施設の中で、このグループの中央値サイズと比較して、最も顕著な正の外れ値となる総面積を持つ場所はどこですか？",
+    "answer": [
+      [
+        "austin tx"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6",
+      "A7",
+      "C7",
+      "D7",
+      "A8",
+      "C8",
+      "D8",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_57d2954f05_010",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "記載されている施設の何パーセントがアメリカ合衆国（州の略語CA、TX、MT、MAで特定）に所在していますか？",
+    "answer": [
+      [
+        "30.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_57d2954f05_011",
+    "table_id": "finqa_57d2954f05",
+    "question_type": "value",
+    "question": "テキサス州オースティンにあるオフィスの平方フィートはどのくらいですか？",
+    "answer": [
+      [
+        "1,719,000–1,450,000"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

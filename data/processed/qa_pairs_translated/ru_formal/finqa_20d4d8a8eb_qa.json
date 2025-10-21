@@ -1,0 +1,239 @@
+[
+  {
+    "question_id": "finqa_20d4d8a8eb_001",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Какая категория расходов, исключая доходы и итоги, показала наибольшее абсолютное снижение стоимости с 2006 по 2007 год?",
+    "answer": [
+      [
+        "consulting and professional fees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A9",
+      "C9",
+      "D9",
+      "A10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_002",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Какова была совокупная стоимость «консультационных и профессиональных услуг», «выходного пособия и удержания сотрудников» и «интеграции информационных технологий» в 2008 году?",
+    "answer": [
+      [
+        "12.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_003",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Какой процент от общей стоимости 'интеграция приобретений и прочее' составили 'некапитализированные исследования и разработки' в год с наибольшими затратами (2008)?",
+    "answer": [
+      [
+        "56.2%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A11",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_004",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "Опишите финансовую тенденцию для «незавершенных исследований и разработок» с 2006 по 2008 год.",
+    "answer": [
+      [
+        "Затраты на «незавершенные исследования и разработки» продемонстрировали значительный и ускоряющийся восходящий тренд. Они начались с 2,9 млн долларов в 2006 году, более чем удвоились до 6,5 млн долларов в 2007 году, а затем почти шестикратно увеличились до 38,5 млн долларов в 2008 году, став основной статьей расходов к концу периода."
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "C5",
+      "B5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_005",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Укажите все категории расходов, затраты по которым в 2008 году превысили 7 миллионов долларов США, А также в 2007 году превысили 4 миллиона долларов США.",
+    "answer": [
+      [
+        "in-process research & development"
+      ],
+      [
+        "distributor acquisitions"
+      ],
+      [
+        "sales agent and lease contract terminations"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_006",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Каково было соотношение расходов на «консультационные и профессиональные услуги» к расходам на «выходное пособие и удержание сотрудников» в 2006 году?",
+    "answer": [
+      [
+        "2.67:1"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_007",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "Если бы 'корректировка на прибыль от выбытия' в 2008 году составила ноль вместо прибыли в 9,0 млн. долларов (значение -9,0), каким бы стал новый итог по статье 'интеграция приобретений и прочее'?",
+    "answer": [
+      [
+        "$77.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_008",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "Основываясь на данных, какую взаимосвязь можно вывести между тенденциями расходов на «интеграцию информационных технологий» и «исследования и разработки в процессе» с 2006 по 2008 год?",
+    "answer": [
+      [
+        "Можно вывести обратную зависимость между двумя категориями. В то время как расходы на «исследования и разработки в процессе» резко возросли с 2,9 млн долларов до 38,5 млн долларов, расходы на «интеграцию информационных технологий» показали устойчивую тенденцию к снижению, уменьшившись с 3,0 млн долларов до 0,9 млн долларов за тот же период. Это предполагает потенциальный сдвиг в приоритетах расходов от внутренней интеграции ИТ к приобретению внешних НИОКР."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_009",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "В каком году зафиксировано наибольшее количество пропущенных или нестандартных записей данных (представленных значением '2013')?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "C7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_010",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "value",
+    "question": "В 2008 году какая отдельная категория расходов представляет собой положительный выброс, составляющий более половины общей стоимости «интеграция приобретений и прочее» за этот год?",
+    "answer": [
+      [
+        "in-process research & development"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_20d4d8a8eb_011",
+    "table_id": "finqa_20d4d8a8eb",
+    "question_type": "open_ended_reasoning",
+    "question": "Какая категория показывает необычно высокое значение по сравнению с другими в 2008 году?",
+    "answer": [
+      [
+        "Непроизведенные исследования и разработки"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A8",
+      "B8",
+      "A9",
+      "B9",
+      "A10",
+      "B10",
+      "A11",
+      "B11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

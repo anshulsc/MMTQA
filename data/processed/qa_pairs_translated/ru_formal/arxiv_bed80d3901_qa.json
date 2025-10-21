@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Какой запрос требует анализа наибольшего числа основных финансовых показателей?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Вычислите общее количество индивидуальных 'Связанных метрик', перечисленных во всех трех запросах.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Для запроса, включающего сравнение компании с ее конкурентами, какой точный диапазон дат указан в соответствующем 'Structured Data Request'?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Какой запрос на естественном языке соответствует структурированному запросу, охватывающему самый продолжительный период времени?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Перечислите все основные метрики, запрошенные для запросов, которые явно ссылаются на компанию с юридическим идентификатором, таким как 'plc' или 'Co.', в поле 'Required Data'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "В запросе для Amcor plc, какой процент всех метрик, перечисленных в 'Structured Data Request', явно содержит слово 'Cash'?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Если бы запрос на естественном языке для Adobe был расширен, чтобы включить запрос на «Рентабельность оборотных средств», как бы изменился список метрик в разделе «Запрос структурированных данных», используя в качестве шаблона информацию из запроса по Halliburton?",
+    "answer": [
+      [
+        "Раздел метрик в «Запросе структурированных данных» был бы обновлен, чтобы включить «Рентабельность оборотных средств» и ее связанные компоненты из запроса по Halliburton. Это означало бы добавление «Рентабельность оборотных средств; Чистая прибыль; Оборотный капитал» к существующему списку, в результате чего получится: (Выручка от продаж; Общая выручка; Экономическая добавленная стоимость; Чистая операционная прибыль после уплаты налогов (NOPAT); Стоимость капитала; Рентабельность оборотных средств; Чистая прибыль; Оборотный капитал)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Основываясь на предоставленных данных, какова видимая взаимосвязь между сложностью естественного языка запроса ('Query') и общим количеством метрик, указанных в структурированном запросе ('Structured Data Request')?",
+    "answer": [
+      [
+        "Наблюдается положительная корреляция. Два более сложных запроса (для Amcor и Halliburton) соответствуют значительно большему количеству метрик в их структурированных запросах (14 и 12 соответственно) по сравнению с более простым запросом для Adobe, который содержит только 5 метрик. Это предполагает, что по мере увеличения аналитической глубины вопроса пользователя увеличивается и объем требуемых данных."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Какая колонка выполняет функцию разбора запроса на естественном языке в полуструктурированный формат, который явно перечисляет компании, основные метрики, связанные под-метрики и запрашиваемый временной интервал?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Проанализируйте временную информацию в столбцах 'Required Data' (Требуемые данные) и 'Structured Data Request' (Запрос структурированных данных). Существует ли запрос, в котором эти два столбца представляют противоречивые временные рамки? Если да, определите запрос и опишите несоответствие.",
+    "answer": [
+      [
+        "Да, в запросе для Amcor plc наблюдается значительное расхождение. В разделе 'Required Data' указан временной интервал 'за предыдущие 6 месяцев', в то время как соответствующий 'Structured Data Request' указывает гораздо более короткий, 7-дневный период '(7/1/2024 - 7/7/2024)'. Два других запроса демонстрируют временную согласованность между столбцами."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Сколько уникальных компаний упомянуто в данных?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

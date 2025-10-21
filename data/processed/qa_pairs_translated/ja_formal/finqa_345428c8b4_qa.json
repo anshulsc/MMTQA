@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "全期間における「株式併合」および「社債転換による発行」の全活動を合わせた結果としての、「発行済株式数」の純変動総額はいくらでしたか？",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "2008年、2009年、2010年のうち、期末の「発行済株式数」の変動額（絶対値）が最も小さかったのはどの年ですか？",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "'株式数（発行済）'において、単一で最大の増加を引き起こした取引を特定し、その取引の「自己株式数」とその「株式数（発行済）」の値との比率を算出してください。",
+    "answer": [
+      [
+        "取引は「スミス・インターナショナル社の買収」です。比率は約0.432（76 / 176）です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "2008年初頭から2010年末までの「発行済み株式数（自己株式）」の残高の全体的な傾向を説明してください。",
+    "answer": [
+      [
+        "「発行済み株式数（自己株式）」の残高は、変動しながらも全体的には減少傾向（より小さい負の数になっています）を示しています。当初は-138で始まり、2008年には-140にわずかに減少し、2009年には-139にやや回復し、その後2010年末には、主にSmith International Inc.の買収に関連する株式により、-73まで大幅に減少しました。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "2008年（1月1日残高と12月31日残高の間）で、「発行済株式数」にプラスの影響を与えたすべての活動をリストアップしてください。",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "2010年12月31日時点の最終的な「発行済株式数」の残高のうち、「Smith International Inc.の買収」取引によって追加された割合はどれくらいですか？",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "2010年に「スミス・インターナショナル社買収」が発生しなかった場合、他のすべての取引が同じであったと仮定すると、2010年12月31日時点の「発行済株式数」の期末残高はいくらになりますか？",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "提示された年において、オプション権付与者に発行された株式数と従業員株式購入プランの下で発行された株式数の間に観察可能な関係はありますか。説明してください。",
+    "answer": [
+      [
+        "一貫した関係はありません。2008年には、購入プラン（2）の下で発行された株式数よりも、オプション権付与者に販売された株式数（5）の方が多かったです。2009年には、両者の数は同数（4と4）でした。2010年には、購入プラン（3）の下で発行された株式数よりも、オプション権付与者に販売された株式数（6）の方が多かったです。両者の比率は年ごとに異なり、直接的な相関関係がないことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "「残高」の行を除外した場合、「issued」、「in treasury」、「shares outstanding」のどの列に、数値以外の、または一貫性のないデータエントリが最も多く含まれていますか？",
+    "answer": [
+      [
+        "「issued」列が最も一貫性がありません。他の列には数値（または否定値の統一された形式）が含まれているのに対し、「issued」列には残高を示すと思われる数値（「1334」、「1434」、「100」）と、取引数量に対応していないように見える繰り返し値「2013」が混在しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "'発行済み株式数'の残高に対して、他のすべての取引の平均的な影響と比較して、最も顕著なプラスの影響を与えた単一の取引はどれですか？",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "株の買い戻しプログラムにおける、年ごとの「In Treasury」と「Outstanding Shares」の比率はどのくらいですか？",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

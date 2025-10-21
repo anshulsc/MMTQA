@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "截至2007年12月31日，“投资”和“其他资产”的总资产值是多少？",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "在“已实现和未实现收益/(亏损)净额”方面，哪个资产类别（“投资”或“其他资产”）的绝对净亏损更大？",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "请核实“投资”在2008年12月31日的期末余额是否与其期初余额及后续列示的交易一致。请展示您的计算过程。",
+    "answer": [
+      [
+        "是的，余额是一致的。计算过程如下：1240美元（期初余额）- 409美元（收益/损失）+ 11美元（采购/销售）- 29美元（净转账）= 813美元，这与报告的期末余额相符。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "从 2007 年 12 月 31 日到 2008 年 12 月 31 日，资产价值在整个期间的总净变动是多少？",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "在哪个资产类别中，“净转入和/或转出3级”对资产价值产生了积极贡献？",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "“期间总净（亏损）计入收益”中，有多少比例来自于“投资”？",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "如果“其他资产”的“已实现和未实现收益/（亏损）净额”为零而不是-16美元，那么在2008年12月31日，“其他资产”的新的期末余额将是多少？",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "根据‘投资’的数据，‘已实现和未实现收益/（亏损）净额’与‘期末持有资产的未实现收益或（亏损）相关期间的净（亏损）总额’之间有什么关系？",
+    "answer": [
+      [
+        "存在一个强大而直接的关系。‘期末持有资产的未实现收益或（亏损）相关期间的净（亏损）总额’（-366美元）占‘已实现和未实现收益/（亏损）净额’（-409美元）的89.5%。这表明，该期间投资净亏损的大部分是未实现的，并且与报告期末尚未出售的资产有关。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "所用负数值（例如“-409 ( 409 )”）的数据格式暗示了哪种会计约定？",
+    "answer": [
+      [
+        "在会计上，将负数显示为该负数后跟其绝对值（用括号括起来）是一种常见做法，用于清晰地、强调地表示负面财务数字，如损失、费用或贷记资产价值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "在报告期内，哪一项资产负债表项目对合并资产价值产生了最大的负面影响？",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "2007年末至2008年末，投资减少了多少？",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

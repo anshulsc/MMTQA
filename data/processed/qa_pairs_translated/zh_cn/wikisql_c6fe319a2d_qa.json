@@ -1,0 +1,296 @@
+[
+  {
+    "question_id": "wikisql_c6fe319a2d_001",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "value",
+    "question": "在前五名完赛的车手中，谁的比赛名次和起跑位置的差距最大？",
+    "answer": [
+      [
+        "Vitor Meira"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "G1",
+      "A2",
+      "C2",
+      "G2",
+      "A3",
+      "C3",
+      "G3",
+      "A4",
+      "C4",
+      "G4",
+      "A5",
+      "C5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c6fe319a2d_002",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "value",
+    "question": "安德雷蒂绿色车队的全部车手共领跑了多少圈？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "H2",
+      "D3",
+      "H3",
+      "D4",
+      "H4",
+      "D19",
+      "H19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c6fe319a2d_003",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "value",
+    "question": "领跑圈数第二多的车手，其起始发车位是？",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H14",
+      "H15",
+      "H16",
+      "H17",
+      "H18",
+      "H19",
+      "H20",
+      "C15",
+      "G15"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c6fe319a2d_004",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "value",
+    "question": "哪两位车手因碰撞在同一圈退赛？",
+    "answer": [
+      [
+        "Dan Wheldon"
+      ],
+      [
+        "Hélio Castroneves"
+      ]
+    ],
+    "evidence_cells": [
+      "C15",
+      "E15",
+      "F15",
+      "C16",
+      "E16",
+      "F16",
+      "C18",
+      "E18",
+      "F18"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c6fe319a2d_005",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "value",
+    "question": "列出所有在排位赛前十名发车，但由于非时限原因退赛的车手。",
+    "answer": [
+      [
+        "Dan Wheldon"
+      ],
+      [
+        "Hélio Castroneves"
+      ]
+    ],
+    "evidence_cells": [
+      "C15",
+      "F15",
+      "G15",
+      "C16",
+      "F16",
+      "G16",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G6",
+      "G7",
+      "G12",
+      "G14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c6fe319a2d_006",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "value",
+    "question": "所有车手总共领跑的圈数中，萨姆·霍尼什（Sam Hornish, Jr.）领跑了多少百分比？（保留两位小数）",
+    "answer": [
+      [
+        "69.74%"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H14",
+      "H15",
+      "H16",
+      "H17",
+      "H18",
+      "H19",
+      "H20"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c6fe319a2d_007",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "value",
+    "question": "如果第一名的车手 Sam Hornish, Jr. 受到处罚，最终成绩增加了 5 秒，那么哪位车手将赢得比赛？",
+    "answer": [
+      [
+        "Tony Kanaan"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c6fe319a2d_008",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "open_ended_reasoning",
+    "question": "根据前十名完赛者，起始发车位号较低（例如1、2位）与最终名次较低之间是否存在明显的正相关关系？请分析说明。",
+    "answer": [
+      [
+        "不存在明显的正相关关系。虽然前六名完赛者中有四位是从前六的发车位起步的，但获得杆位发车（发车位1，Scott Sharp）的车手最终名列第七。此外，前十名中有四位车手从较低的发车位取得了显著的进步：Vitor Meira（第13位升至第5位）、Buddy Rice（第16位升至第8位）、Kosuke Matsuura（第15位升至第9位）和Sarah Fisher（第18位升至第10位）。这些既有来自靠前发车位表现不佳的例子，也有来自靠后发车位表现出色的例子，这表明虽然发车位置是一个因素，但它与最终名次之间没有明确、持续的正相关关系。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "A2",
+      "G2",
+      "A3",
+      "G3",
+      "A4",
+      "G4",
+      "A5",
+      "G5",
+      "A6",
+      "G6",
+      "A7",
+      "G7",
+      "A8",
+      "G8",
+      "A9",
+      "G9",
+      "A10",
+      "G10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c6fe319a2d_009",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "value",
+    "question": "哪些数据列对某些条目格式化为相对时间值，而对其他条目格式化为未完成比赛的类别原因？",
+    "answer": [
+      [
+        "Time/Retired"
+      ]
+    ],
+    "evidence_cells": [
+      "F2",
+      "F7",
+      "F13",
+      "F15",
+      "F17",
+      "F20"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c6fe319a2d_010",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "value",
+    "question": "在所有至少领跑一圈的车手中，哪位车手的圈数是正异常值中最显著的？",
+    "answer": [
+      [
+        "Sam Hornish, Jr."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "H1",
+      "C2",
+      "H2",
+      "C3",
+      "H3",
+      "C5",
+      "H5",
+      "C6",
+      "H6",
+      "C12",
+      "H12",
+      "C15",
+      "H15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c6fe319a2d_011",
+    "table_id": "wikisql_c6fe319a2d",
+    "question_type": "value",
+    "question": "哪位车手是从杆位（Grid 1）发车的？",
+    "answer": [
+      [
+        "Scott Sharp"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "G7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

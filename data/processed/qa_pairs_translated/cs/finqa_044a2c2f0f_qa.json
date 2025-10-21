@@ -1,0 +1,201 @@
+[
+  {
+    "question_id": "finqa_044a2c2f0f_001",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Jaký byl souhrnný celkový součet (v milionech) 'nákladů na akcie' a 'nákladů na restrukturalizaci, znehodnocení a jiné náklady spojené s ukončením činnosti' za fiskální rok 2018?",
+    "answer": [
+      [
+        "203.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_002",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Jaká byla hodnota 'odložených daní z příjmů' v účetním roce, který měl nejvyšší 'čistý zisk včetně zisku připadajícího na splatné a nekontrolující podíly'?",
+    "answer": [
+      [
+        "-504.3"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_003",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Co zaznamenalo větší meziroční změnu v absolutním vyjádření: změna 'čistého zisku' z roku 2017 na rok 2018, nebo změna 'čistého peněžního toku z provozní činnosti' z roku 2016 na rok 2017?",
+    "answer": [
+      [
+        "Změna 'čistého zisku' z roku 2017 na rok 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_004",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište tříletý trend pro 'náklady na penzijní a jiné penzijní plány po ukončení zaměstnání' od fiskálního roku 2016 do roku 2018.",
+    "answer": [
+      [
+        "Náklady na 'penzijní a jiné penzijní plány po ukončení zaměstnání' vykazují v tříletém období konzistentní a výrazný klesající trend. Náklady klesly z 118,1 milionu USD v roce 2016 na 35,7 milionu USD v roce 2017 a poté prudce klesly na pouhých 4,6 milionu USD v roce 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_005",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "V fiskálním roce 2018, jaké procento z 'čistého peněžního toku z provozní činnosti' tvořily 'čisté výdělky včetně výdělku připadajícího na splatné a nekontrolující podíly'? Zaokrouhlete na jedno desetinné místo.",
+    "answer": [
+      [
+        "76.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B13"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_006",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Uveďte finanční kategorie, které měly v účetním roce 2017 kladnou hodnotu, ale v účetním roce 2018 se staly zápornou hodnotou.",
+    "answer": [
+      [
+        "deferred income taxes"
+      ],
+      [
+        "pension and other postretirement benefit plan costs"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_007",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikujte finanční položku, která vykazuje nejvíce anomální chování ve fiskálním roce 2018 ve srovnání s předchozími dvěma lety, a vysvětlete, proč je odlehlou hodnotou.",
+    "answer": [
+      [
+        "'Odložené daně z příjmů' jsou nejvýznamnější odlehlou hodnotou. Ve fiskálních letech 2016 a 2017 představovaly pozitivní příjem 120,6 mil. USD a 183,9 mil. USD. V roce 2018 se však dramaticky propadly na zápornou hodnotu -504,3 mil. USD. Tento propad téměř o 700 mil. USD oproti předchozímu roku, kdy došlo ke změně z pozitivního na vysokou zápornou hodnotu, je mnohem extrémnější než fluktuace pozorované v jakékoli jiné kategorii."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_008",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Kdyby 'ztráta (zisk) z prodejů' za fiskální rok 2018 byla ziskem 50,0 milionů USD místo nuly ('-'), jaký by byl 'čistý peněžní tok z provozních činností' za daný rok, za předpokladu, že všechny ostatní údaje zůstaly konstantní?",
+    "answer": [
+      [
+        "$ 2891.0"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "B13"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_009",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Která finanční kategorie je jedinou, která obsahuje v jednom ze sloupců fiskálního roku nenumerickou, neměnovou hodnotu?",
+    "answer": [
+      [
+        "divestitures loss ( gain )"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_010",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "open_ended_reasoning",
+    "question": "Existuje na základě poskytnutých údajů pozorovatelná korelace mezi „čistým ziskem“ a „čistým hotovostním tokem z provozní činnosti“ v průběhu tří účetních let? Vysvětlete své zdůvodnění.",
+    "answer": [
+      [
+        "Ano, existuje pozorovatelná pozitivní korelace. V letech 2016 až 2017 klesl „čistý zisk“ z 1736,8 milionu USD na 1701,1 milionu USD a s tímto poklesem klesl také „čistý hotovostní tok z provozní činnosti“ z 2764,2 milionu USD na 2415,2 milionu USD. V letech 2017 až 2018 se „čistý zisk“ výrazně zvýšil na 2163,0 milionu USD a „čistá hotovost“ také vzrostla na 2841,0 milionu USD. V obou případech se obě hodnoty pohybovaly stejným směrem, což naznačuje, že vyšší zisky jsou spojeny s vyšším provozním peněžním tokem."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_044a2c2f0f_011",
+    "table_id": "finqa_044a2c2f0f",
+    "question_type": "value",
+    "question": "Ve kterém roce společnost vykázala minimální kompenzaci vázanou na akcie?",
+    "answer": [
+      [
+        "2018"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

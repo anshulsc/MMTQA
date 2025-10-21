@@ -1,0 +1,189 @@
+[
+  {
+    "question_id": "finqa_a2bbef41ac_001",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Quelle était la valeur totale des actifs ('investissements' et 'autres actifs') au 31 décembre 2007 ?",
+    "answer": [
+      [
+        "3254"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_002",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Quelle catégorie d'actifs, « investissements » ou « autres actifs », a subi une perte nette plus importante en valeur absolue par rapport aux « gains / (pertes) nets réalisés et non réalisés » ?",
+    "answer": [
+      [
+        "investments"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_003",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Vérifiez si le solde de clôture des 'investissements' au 31 décembre 2008 est cohérent avec son solde d'ouverture et les transactions ultérieures listées. Montrez votre calcul.",
+    "answer": [
+      [
+        "Oui, le solde est cohérent. Le calcul est : 1240 $ (solde d'ouverture) - 409 $ (gains/pertes) + 11 $ (achats/ventes) - 29 $ (transferts nets) = 813 $, ce qui correspond au solde de clôture déclaré."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_004",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Quel a été le changement net total de la valeur de l'actif pour la période entière, du 31 décembre 2007 au 31 décembre 2008 ?",
+    "answer": [
+      [
+        "-2377"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_005",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Pour quelles catégories d'actifs les 'transferts nets entrants et/ou sortants du niveau 3' ont-ils entraîné une contribution positive à la valeur de l'actif ?",
+    "answer": [
+      [
+        "other assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_006",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Quelle proportion des 'pertes nettes totales pour la période incluses dans les bénéfices' provenait des 'investissements' ?",
+    "answer": [
+      [
+        "95.54%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_007",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Si les \"gains / (pertes) nets réalisés et non réalisés\" pour les \"autres actifs\" avaient été nuls au lieu de -16 $, quel aurait été le nouveau solde de clôture pour les \"autres actifs\" au 31 décembre 2008 ?",
+    "answer": [
+      [
+        "80"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_008",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des données relatives aux 'investissements', quelle est la relation entre les 'gains / (pertes) nets réalisés et non réalisés' et les 'pertes nettes totales... relatives aux actifs toujours détenus à la date de reporting' ?",
+    "answer": [
+      [
+        "Il existe une relation forte et directe. Les 'pertes nettes totales... relatives aux actifs toujours détenus' ($-366) représentent 89,5 % des 'gains / (pertes) nets réalisés et non réalisés' totaux ($-409). Cela implique que la majorité des pertes nettes de la période pour les investissements étaient non réalisées et associées à des actifs qui n'avaient pas été vendus à la fin de la période de reporting."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_009",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle convention comptable est suggérée par le format des valeurs négatives, tel que '-409 ( 409 )' ?",
+    "answer": [
+      [
+        "Le format consistant à afficher un nombre négatif suivi de sa valeur absolue entre parenthèses est une convention comptable courante pour désigner clairement et avec insistance les chiffres financiers négatifs tels que les pertes, les dépenses ou les contre-actifs."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_010",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Quel élément de ligne représente le plus grand impact négatif unique sur la valeur combinée des actifs pendant la période ?",
+    "answer": [
+      [
+        "realized and unrealized gains / ( losses ) net"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a2bbef41ac_011",
+    "table_id": "finqa_a2bbef41ac",
+    "question_type": "value",
+    "question": "Combien les investissements ont-ils diminué entre 2007 et 2008 ?",
+    "answer": [
+      [
+        "$427"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A5",
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

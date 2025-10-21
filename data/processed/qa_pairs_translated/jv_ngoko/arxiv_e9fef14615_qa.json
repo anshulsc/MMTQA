@@ -1,0 +1,306 @@
+[
+  {
+    "question_id": "arxiv_e9fef14615_001",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Model opo sing entuk skor F1 paling dhuwur neng dataset 'ccfraud'?",
+    "answer": [
+      [
+        "Gemini"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "C4",
+      "D4",
+      "F4",
+      "G4",
+      "H4",
+      "I4",
+      "J4",
+      "K4",
+      "L4",
+      "M4",
+      "N4",
+      "O4",
+      "E10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_002",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Pira rata-rata skor akurasi ('Acc') kanggo model 'GPT 4' ing kabeh dataset sing nggunakake metrik iki?",
+    "answer": [
+      [
+        "0.543"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "B5",
+      "D5",
+      "B9",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_003",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Jelasna dataset sing 'FinMA 7B' entuk skor paling dhuwur, terus sebutna model sing entuk skor nol nang tugas sing padha iku apa wae?",
+    "answer": [
+      [
+        "taiwan",
+        "Falcon 7B"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "I11",
+      "L11",
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I12",
+      "I10",
+      "L10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_004",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Nang dataset 'TSA', model endi sing paling mudhun kinerjane dibanding karo model sing nang kolom sajeje sisih kiwo, lan pira gedhene mudun kuwi?",
+    "answer": [
+      [
+        "FinGPT 7B-lora",
+        "0.80"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "I3",
+      "J3",
+      "I10",
+      "J10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_005",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Sebutna kabeh dataset sing model 'Gemini' entuk skor 0.90 utawa luwih, LAN model 'Chat GPT' skor 0.20 utawa kurang.",
+    "answer": [
+      [
+        "ccfraud"
+      ],
+      [
+        "taiwan"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "E4",
+      "A11",
+      "C11",
+      "E11",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_006",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Kanggo dataset 'LendingClub', pira persentase saka total skor kumulatif kabeh model sing bisa diucapake dening telung model paling apik kanggo tugas iki? Bulaten nganti siji desimal.",
+    "answer": [
+      [
+        "41.3%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "G6",
+      "H6",
+      "I6",
+      "J6",
+      "K6",
+      "L6",
+      "M6",
+      "N6",
+      "O6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_007",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Sakabehe skor kanggo model 'LLaMA2 70B' diunggahake 10%, pira rata-rata skor anyare ing kabeh tugas sing dievaluasi? Bulat nganti telung desimal.",
+    "answer": [
+      [
+        "0.354"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G11",
+      "G12",
+      "G10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_008",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Delengen tugas-tugas sing diukur nganggo metrik 'F1' utawa 'MicroF1'. Apa ana hubungan kinerja sing konsisten antarane model 'GPT 4' lan 'Gemini'? Jlentrehna alesanmu.",
+    "answer": [
+      [
+        "Ora ana korelasi positif sing kuwat, nanging ana hierarki kinerja sing cetha. Ing tugas-tugas sing adhedhasar F1, Gemini tansah ngungguli utawa padha karo GPT 4. Kanggo dataset 'ccfraud' lan 'taiwan', skor Gemini (0.90 lan 0.95) luwih dhuwur tinimbang skor GPT 4 (0.55 kanggo loro-lorone). Kanggo 'LendingClub', Gemini (0.65) isih luwih dhuwur tinimbang GPT 4 (0.55). Mung ing dataset 'MLESG' skorane meh padha (0.35 vs 0.34). Iki nuduhake yen sanajan kinerjane ora korelasi raket, Gemini umume model sing luwih unggul kanggo tugas-tugas sing diukur nganggo F1 iki."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "E4",
+      "B6",
+      "D6",
+      "E6",
+      "B11",
+      "D11",
+      "E11",
+      "B12",
+      "D12",
+      "E12",
+      "D10",
+      "E10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_009",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "value",
+    "question": "Ndelok data performa, rong dataset sing ngendi sing nuduhake skor nol ing saben model sing dites, sing nuduhake kegagalan evaluasi utawa tugas sing ora bisa ditindakake model?",
+    "answer": [
+      [
+        "FNXL"
+      ],
+      [
+        "ECTSUM"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7",
+      "H7",
+      "I7",
+      "J7",
+      "K7",
+      "L7",
+      "M7",
+      "N7",
+      "O7",
+      "A8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8",
+      "H8",
+      "I8",
+      "J8",
+      "K8",
+      "L8",
+      "M8",
+      "N8",
+      "O8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_010",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Nggo model 'Gemini', skor dataset endi sing paling dhuwur dewe lan medeni banget, terus ngopo?",
+    "answer": [
+      [
+        "Skor ngggo dataset 'taiwan' (0.95) iku sing paling dhuwur lan medeni dhewe ngggo model Gemini. Yen ngetung rata-rata skor Gemini sing ora nol bakal ketemu kira-kira 0.615. Skor 0.95 iku nilai paling dhuwur lan paling adoh saka rata-rata iku dibandhingke kabeh skor liyane. Kinerja sing ora lumrah dhuwur iki ngandhakake yen model Gemini kuwi cocok banget ngggo tugas sing ditentokake dening dataset 'taiwan' lan metrik 'F1', utawa tugas kuwi dhewe luwih gampang ngggo model iki tinimbang liyane."
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "E11",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E12",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fef14615_011",
+    "table_id": "arxiv_e9fef14615",
+    "question_type": "open_ended_reasoning",
+    "question": "Model endi sing nuduhake generalisasi sing kuat ing tugas ekstraksi entitas (NER, FINER-ORD) lan klasifikasi sentimen (FPB, SC)?",
+    "answer": [
+      [
+        "GPT-4 pancen apik banget ing dataset ekstraksi entitas lan klasifikasi sentimen, entuk skor EntityF1 lan F1 sing dhuwur dibandhingake karo model liyane."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A5",
+      "J5",
+      "A9",
+      "J9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

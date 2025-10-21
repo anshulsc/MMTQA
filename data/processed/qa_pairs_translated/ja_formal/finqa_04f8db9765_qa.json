@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_04f8db9765_001",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "2000年から2002年までの「報告された純損失」の傾向について説明してください。",
+    "answer": [
+      [
+        "「報告された純損失」は、3年間にわたって損失が増加する傾向を示しています。損失額は、2000年の194,628ドルから2001年には450,094ドルへと倍増し、さらに2002年には1,141,879ドルへと再び倍増しており、年々著しく財務実績が悪化していることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_002",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "表に示されている3年間で、累積された「プロフォーマ純損失」の合計はいくらでしたか？",
+    "answer": [
+      [
+        "-1926453"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_04f8db9765_003",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "'報告済'および'プロフォーマ'の基本的な希薄化後1株当たり純損失の絶対差が最小となったのは何年ですか？",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_004",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "「報告された純損失」の「全株式に基づく従業員報酬費用」に対する割合を2001年について計算してください。",
+    "answer": [
+      [
+        "11.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_04f8db9765_005",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "2002年、2001年、2000年のうち、「報告された純損失」の絶対額が400,000ドルを超え、「修正後純損失」の絶対額が600,000ドル未満であった年はありますか？",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "C1",
+      "C3",
+      "D1",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_006",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "前年と比較して、プロフォーマ純損失が絶対額で最も増加したのはどの年ですか？",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_04f8db9765_007",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "2000年の「総株式報酬費用」が20%増加していた場合、その年の「プロフォーマ純損失」はいくらになっていたでしょうか？",
+    "answer": [
+      [
+        "-256041.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_008",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "2002年には、「報告された純損失」と「プロフォーマ純損失」のどちらの指標の絶対値がより大きいですか？",
+    "answer": [
+      [
+        "pro-forma net loss"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_009",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "提供されたデータに基づくと、「報告された純損失」と「株式報酬費用」の間には、3年間にわたるどのような関係が見られますか？",
+    "answer": [
+      [
+        "両指標の間には逆相関の関係が見られます。2000年から2002年にかけて「報告された純損失」の額が著しく増加するにつれて、「株式報酬費用」は年々減少しています。これは、会社の損失が増加するにつれて、株式報酬を削減した可能性を示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_04f8db9765_010",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "「報告済み」の数値と比較して、「プロフォーマ」調整が「1株当たりの純損失（基本および希薄）」に及ぼす一貫した影響は、全年度でどのようになっていますか？",
+    "answer": [
+      [
+        "「プロフォーマ」調整は、表示されているすべての年度において、一株当たり損失の大きさを一貫して増加させています。これは、株式報酬などの調整項目が、常に1株当たりの計算上の損失をより大きくする結果となることを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_011",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "2001年に報告された総損失額はいくらですか？",
+    "answer": [
+      [
+        "$ -450094 ( 450094 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

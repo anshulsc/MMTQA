@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "哪个模型的主公式明确包含无风险利率成分？",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Z-score模型公式中使用的不同'X'变量的总数是多少？",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "请确定在至少三个解释参数中，使用“总资产”作为分母的模型，然后说明该模型中的哪个参数代表“市值”与“总负债”之比。",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "哪个模型包含明确定义为“在t时刻”测量的参数？",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "如果分析目标是确定二元结果（y=1）的概率，那么表中列出的哪个模型是最佳选择？",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "在Z分数模型中，代表“利息和税前收益/总资产比率”的变量的权重（系数）是多少？该权重与其他变量相比如何？",
+    "answer": [
+      [
+        "X3（利息和税前收益/总资产比率）的系数是3.3。这是所有五个变量中最高的权重，表明它对最终Z分数的潜在影响最大，而X1（1.2）、X2（1.4）、X4（0.6）和X5（0.99）等变量的影响相对较小。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "如果 Z-score 模型的更新版本将“营运资本/总资产比率”的影响减少了 50%，那么 X1 的新系数将是多少？",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "根据Z-score模型的公式，公司的总销售额与总资产之比与其最终Z-score之间存在何种推断关系？",
+    "answer": [
+      [
+        "总销售额/总资产比率（X5）与Z-score之间存在正相关关系。公式显示，Z-score是五个比率的加权总和，其中X5的系数为正（0.99）。因此，在保持其他因素不变的情况下，总销售额与总资产之比的增加将导致Z-score升高。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "哪个模型在第三列中解释的参数数量最多？",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "在检查Z分数模型的公式时，哪个系数与其他系数相比显得尤为突出？",
+    "answer": [
+      [
+        "变量X3的系数3.3是一个显著的离群值。公式中的其他系数为1.2、1.4、0.6和0.99，它们都聚集在0.6到1.4的范围内。数值3.3是次高系数（1.4）的两倍多，使其远远大于其余系数。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "考虑到市场以及规模/账面市值因子，哪种模型更适合预测资产回报率，为什么？",
+    "answer": [
+      [
+        "因子模型（Factor Model）会更合适，因为它明确地包含了市场回报率（r_m - r_f）、规模因子（SMB）和账面市值因子（HML），能够捕捉到逻辑回归模型（Logistic Regression）或Z分数模型（Z-score Model）未考虑到的资产回报率变化的多个维度。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

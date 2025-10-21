@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "在截至 2016 年 12 月 31 日的财年中，B 列开头的数据集和 E 列开头的数据集相比，哪个的‘调整后’营业收入更高？",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "第一组数据集（C列）所有基于美元的“会计原则变更”调整的总净额是多少？",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "在‘利息收入’‘会计准则变更’为‘-414 ( 414 )’的数据集中，‘已申报’的‘经调整息税折旧摊销前利润率’是多少？",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "对于第一组数据（B-D列），‘原始申报’净利润与‘原始申报’调整后EBITDA的比率是多少，保留三位小数？",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "在 B 列到 D 列所示的数据集中，找出“调整后”值小于“申报”值的指标。",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "在“净利润占服务收入的百分比”行中，哪个“会计原则变更”值显得异常，为什么？",
+    "answer": [
+      [
+        "C4和F4单元格中的“会计原则变更”值为“2014% ( 2014 % )”，这显得异常。对于这两组数据，‘净利润占服务收入的百分比’在‘已备案’和‘已调整’数据之间保持不变（分别为5%到5%和3%到3%）。一个合乎逻辑的变更应该是0%，这使得‘2014%’成为一个明显的异常值，很可能是由于数据录入错误造成的。"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "如果第二个数据集中用于计算“经营收入”的“会计原则变更”金额为减少5000万美元，而不是图中所示的金额，那么新的“调整后”经营收入将是多少？",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "在两个数据集的营业收入和调整后 EBITDA 的会计调整之间是否存在一致的关系？",
+    "answer": [
+      [
+        "是的，存在一致的正相关关系。在第一个数据集中，营业收入的变化（+248 美元）与调整后 EBITDA 的变化（+248 美元）相同。在第二个数据集中，营业收入的变化（+414 美元）也与调整后 EBITDA 的变化（+414 美元）相同。这表明影响营业收入的会计原则变更以相同的金额直接影响调整后 EBITDA。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "列标题存在的最重要的结构性问题是什么，这可能导致解释表格时产生混淆？",
+    "answer": [
+      [
+        "主要的结构性问题是列标题重复出现，但没有更高级别的分组。列标题“year ended december 31 2016 as filed”（截至 2016 年 12 月 31 日的已申报年度）和“year ended december 31 2016 change in accounting principle”（截至 2016 年 12 月 31 日的会计原则变更年度）被用于两组不同的列（B 列和 E 列；C 列和 F 列）。这种模糊性迫使用户推断正在比较两个不同的实体或场景，而不是明确说明。"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "使用“调整后”的值，计算两个数据集（调整后 EBITDA / 调整后 EBITDA 利润率）的隐含服务收入，并报告两者之间的差额（以百万为单位，第一个数据集减去第二个数据集），四舍五入到最接近的百万。",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "调整后（As Adjusted）的营业收入（以百万计）比原始申报值（As Filed）增加了多少？",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

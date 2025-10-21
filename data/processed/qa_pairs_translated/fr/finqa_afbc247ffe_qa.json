@@ -1,0 +1,212 @@
+[
+  {
+    "question_id": "finqa_afbc247ffe_001",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Quel était le total net de tous les « montants reclassés du résultat global différé accumulé » enregistrés au cours des trois périodes présentées dans le tableau ?",
+    "answer": [
+      [
+        "23573"
+      ]
+    ],
+    "evidence_cells": [
+      "E3",
+      "E6",
+      "E9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_002",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Parmi les trois principales catégories financières (instruments dérivés, quote-part de coentreprise, titres négociables), laquelle a connu la plus forte augmentation absolue de son solde entre le 31 décembre 2014 et le 31 décembre 2017 ?",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10",
+      "B0"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_003",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Durant la période avec le 'résultat global des autres éléments du résultat global avant reclassements' le plus élevé, quel était le montant correspondant reclassé de la 'part de SL Green 2019 dans le résultat net non réalisé des instruments dérivés de la coentreprise' ?",
+    "answer": [
+      [
+        "3453"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E5",
+      "E8",
+      "C6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_004",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance annuelle de la balance totale du 31 décembre 2014 au 31 décembre 2017. Le changement était-il constant ?",
+    "answer": [
+      [
+        "La tendance n'était pas constante ; elle était volatile. La balance totale a diminué de -6980 en 2014 à -8749 en 2015. Elle a ensuite connu une très forte augmentation pour atteindre 22137 en 2016, suivie d'une diminution modérée à 18604 en 2017. La croissance n'était ni régulière ni linéaire."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4",
+      "E7",
+      "E10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_005",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Listez les catégories financières qui avaient un solde négatif au début de la période (31 décembre 2014) et ont conclu avec un solde positif à la fin de la période (31 décembre 2017).",
+    "answer": [
+      [
+        "net unrealized gain on derivative instruments ( 1 )"
+      ],
+      [
+        "sl green 2019s share of joint venture net unrealized gain on derivative instruments ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B0",
+      "C0",
+      "B1",
+      "B10",
+      "C1",
+      "C10",
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_006",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Quel pourcentage du « revenu global autre avant reclassements » de la période 2016 était attribuable au « gain net non réalisé sur instruments dérivés (1) » ?",
+    "answer": [
+      [
+        "74.32%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_007",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Si le 'résultat global (perte) autre avant reclassements' pour le 'gain net non réalisé sur titres négociables' pour la période 2017 avait été un gain de 1 000 $ au lieu d'une perte de 1 348 $, quel aurait été le nouveau solde 'total' au 31 décembre 2017 ?",
+    "answer": [
+      [
+        "$ 20952"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_008",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après les données fournies, existe-t-il une corrélation constante (directe ou inverse) entre la 'perte (bénéfice) globale autre avant reclassements' et les 'montants reclassés du résultat global cumulé' pour les montants totaux de chaque période ?",
+    "answer": [
+      [
+        "Non, il n'y a pas de corrélation constante. Pour la période 2015, une perte globale de -13 467 a été suivie d'un reclassement positif de 11 698 (relation inverse). Cependant, pour les périodes 2016 et 2017, le bénéfice/la perte et le reclassement avaient le même signe (positif/positif et négatif/négatif respectivement), indiquant une relation directe ces années-là. L'incohérence suggère que le calendrier et le montant des reclassements ne sont pas uniquement déterminés par la performance non réalisée de la période précédente."
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_009",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "open_ended_reasoning",
+    "question": "Comment les soldes de fin d'année sont-ils mathématiquement dérivés du solde précédent et des activités financières intermédiaires présentés dans le tableau ?",
+    "answer": [
+      [
+        "Chaque solde de fin d'année est la somme du solde de fin de l'année précédente, de l' 'autre résultat global (perte) avant reclassements' pour la période en cours, et des 'montants reclassés du résultat global cumulé' pour la période en cours. Par exemple, le solde de 2016 (22 137) est calculé comme le solde de 2015 (-8 749) plus le résultat global de la période 2016 (18 211) et les montants reclassés (12 675)."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_010",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Quel événement financier unique (c'est-à-dire un élément de ligne non soldé) dans la colonne 'total' représente la plus grande valeur absolue, indiquant l'événement de revenu ou de perte complet le plus significatif sur la période de trois ans ?",
+    "answer": [
+      [
+        "other comprehensive income before reclassifications"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E2",
+      "E3",
+      "E5",
+      "E6",
+      "E8",
+      "E9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_afbc247ffe_011",
+    "table_id": "finqa_afbc247ffe",
+    "question_type": "value",
+    "question": "Quel est le gain net non réalisé total sur toutes les catégories à la fin de 2015 ?",
+    "answer": [
+      [
+        "$ -8,749"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

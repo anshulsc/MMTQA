@@ -1,0 +1,227 @@
+[
+  {
+    "question_id": "finqa_bdc69f2dff_001",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Kelas saham biasa mana yang memiliki jumlah saham diterbitkan dan beredar terbanyak per 30 September 2008?",
+    "answer": [
+      [
+        "class a common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_002",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Berapa jumlah total gabungan saham untuk semua seri saham biasa Kelas C per 30 September 2008?",
+    "answer": [
+      [
+        "266608750"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_003",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Untuk kelas saham dengan nilai absolut pengembalian terbesar pada Oktober 2008, berapa jumlah saham akhirnya di kolom 'setelah konversi pasca pengembalian Oktober 2008'?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "F4",
+      "A5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_004",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Per tanggal 30 September 2008, berapa persentase dari total saham beredar yang diwakili oleh saham biasa Kelas A? Berikan jawaban yang dibulatkan hingga dua tempat desimal.",
+    "answer": [
+      [
+        "46.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_005",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Sebutkan semua kelas saham yang mengalami pengurangan jumlah sahamnya sendiri karena peristiwa 'konversi ke kelas c (seri i)'.",
+    "answer": [
+      [
+        "class c ( series iii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_006",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Nilai '2014' sering muncul, kemungkinan sebagai placeholder untuk aktivitas yang tidak ada. Dua kelas saham mana yang memiliki nilai spesifik ini muncul di tiga kolom berbeda dari baris masing-masing?",
+    "answer": [
+      [
+        "class c ( series ii ) common stock"
+      ],
+      [
+        "class c ( series iv ) common stock"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "E4",
+      "F4",
+      "A6",
+      "C6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_007",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Jika jumlah saham 'class a common stock' pada 'at september 30 2008' adalah 500.000.000, bukan nilainya yang tercatat, berapakah penyesuaian 'total shares issued and outstanding' pada tanggal tersebut?",
+    "answer": [
+      [
+        "1012122135"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_008",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data untuk berbagai seri saham Kelas C, apa hubungan antara 'tebusan Oktober 2008' dan 'konversi ke kelas c (seri i)'? Apakah keduanya merupakan kejadian yang berhubungan langsung?",
+    "answer": [
+      [
+        "Tidak ada korelasi langsung yang konsisten yang menunjukkan bahwa saham yang ditebus secara sistematis dikonversi menjadi Kelas C (Seri I). Misalnya, Kelas C (Seri II) memiliki lebih dari 79 juta saham yang ditebus tetapi tidak ada aktivitas konversi yang tercatat. Sebaliknya, Kelas C (Seri IV) memiliki saham yang dikonversi darinya tanpa penebusan yang signifikan. Kelas C (Seri III) adalah satu-satunya yang menunjukkan penebusan yang signifikan dan konversi darinya, tetapi angkanya tidak cocok. Hal ini menunjukkan bahwa penebusan dan konversi sebagian besar merupakan transaksi terpisah daripada satu kejadian gabungan untuk sebagian besar seri."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4",
+      "A5",
+      "C5",
+      "D5",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_009",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Kolom mana dalam tabel yang menggunakan format data spesifik berupa angka negatif yang diikuti padanannya yang positif dalam tanda kurung, contohnya '-X ( X )'?",
+    "answer": [
+      [
+        "october 2008 redemptions"
+      ],
+      [
+        "conversion to class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "C7",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_010",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan header kolom dan baris 'total shares', jelaskan urutan peristiwa yang mengarah dari jumlah saham awal pada 30 September 2008 hingga jumlah akhir.",
+    "answer": [
+      [
+        "Data menguraikan pengurangan total saham dalam beberapa langkah. Proses dimulai dengan 959.868.396 saham pada 30 September 2008. Peristiwa pertama adalah 'Oktober 2008 redemptions' (tebusan Oktober 2008), di mana lebih dari 115 juta saham ditebus secara total. Ini diikuti oleh 'conversion to class c (series i)' (konversi ke kelas c (seri i)). Hasil dari konversi ini tercermin dalam kolom 'following immediate conversion...' (setelah konversi segera...), yang menunjukkan total 844.855.954 saham. Kolom terakhir, 'as converted post october 2008 redemptions' (setelah konversi pasca tebusan Oktober 2008), memberikan angka akhir 774.710.051 saham, yang mewakili hasil bersih dari semua transaksi sebelumnya."
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bdc69f2dff_011",
+    "table_id": "finqa_bdc69f2dff",
+    "question_type": "value",
+    "question": "Pada tahun berapa saham biasa Kelas A dan saham biasa Kelas B dikonversi menjadi Kelas C (Seri I)?",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

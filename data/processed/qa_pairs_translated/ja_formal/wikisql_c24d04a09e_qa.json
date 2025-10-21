@@ -1,0 +1,289 @@
+[
+  {
+    "question_id": "wikisql_c24d04a09e_001",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "表に記載されている映画のうち、「ノミネートされず」よりも良い結果を達成したものはいくつありますか？",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "E7",
+      "E9",
+      "E13",
+      "E14",
+      "E15",
+      "E19",
+      "E20"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_002",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "受賞結果において、受賞、ノミネート、またはノミネートされなかったという最も多様な結果を出した監督は誰ですか？",
+    "answer": [
+      [
+        "ペドロ・アルモドバル監督が最も多様な結果を出した監督です。彼の映画『オール・アバウト・マイ・マザー』はアカデミー賞を受賞し、『ボルベール [4 ]』は1月のショートリストに残り、『ハイヒール』はノミネートされませんでした。これは、最高位の成功から早期敗退まで、結果の全範囲を示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "D7",
+      "E7",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_003",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "'Cradle Song'と同じ人物が監督した『ノミネート』のステータスの映画のタイトルは何ですか？",
+    "answer": [
+      [
+        "The Grandfather"
+      ],
+      [
+        "Course Completed"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "D12",
+      "B14",
+      "D14",
+      "E14",
+      "B15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_004",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "この表に示されている1990年代（1991年〜1999年の授賞式年）に提出された映画の結果の傾向を説明してください。",
+    "answer": [
+      [
+        "1990年代の出品作品は、成功における顕著な上昇傾向を示しています。この10年間は、1991年と1992年の映画がノミネートされなかったことから始まりました。しかし、その後、1993年の『ベルエポック』と1999年の『オール・アバウト・マイ・マザー』の2作品のアカデミー賞受賞、および1998年の映画『エル・アブエロ』のノミネートを含む、大きな成功が続きました。これは、提出された映画に対する国際的な認識が高まる時期であったことを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "E4",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A12",
+      "E12",
+      "A14",
+      "E14",
+      "A20",
+      "E20"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_005",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "1980年代に「ノミネートされず」であった映画のノミネーションタイトルをすべてリストアップしてください。",
+    "answer": [
+      [
+        "The Witching Hour"
+      ],
+      [
+        "Patrimonio nacional"
+      ],
+      [
+        "Love, Hate and Death"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "E3",
+      "A8",
+      "B8",
+      "E8",
+      "A16",
+      "B16",
+      "E16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_006",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "このリストにある2000年代（授賞式開催年 2000年～2009年）の映画のうち、アカデミー賞を受賞した映画の割合は何パーセントですか？",
+    "answer": [
+      [
+        "33.33%"
+      ]
+    ],
+    "evidence_cells": [
+      "A13",
+      "E13",
+      "A18",
+      "E18",
+      "A19",
+      "E19"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_007",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "もし『トリスターナ』が候補止まりではなくアカデミー賞を受賞していた場合、このデータセットにおいてルイス・ブニュエル監督作品の受賞総数はいくつになりますか？",
+    "answer": [
+      [
+        "新しい総数は1つになります。現在、ルイス・ブニュエルの受賞作品はこのリストにはないため、『トリスターナ』の結果を『候補』から受賞に変更すると、彼の総数は0から1に増加します。"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_008",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "データに基づくと、映画のノミネートタイトルが原題と異なることと、アカデミー賞を受賞する可能性との間に、識別可能な関係はありますか？",
+    "answer": [
+      [
+        "識別可能な関係はありません。アカデミー賞を受賞した3作品のうち、2作品はノミネートタイトルが異なり（「オール・アバウト・マイ・マザー」と「海を飛ぶ夢」）、1作品は同じタイトルでした（「エロディ・ル・ベル」）。これは、翻訳された、あるいは異なるノミネートタイトルを持つことが、受賞の明確な予測因子ではないことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "E7",
+      "B19",
+      "C19",
+      "E19",
+      "B20",
+      "C20",
+      "E20"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_009",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "value",
+    "question": "すべてのエントリに一貫して付加されている、余分なテキスト文字列が含まれている列はどれですか？",
+    "answer": [
+      [
+        "Director"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D20",
+      "D21"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_010",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "データ内でアカデミー賞受賞数に関して他の年代と比較して外れ値となっている年代はどれですか？",
+    "answer": [
+      [
+        "1990年代は、2つの映画（『オール・アバウト・マイ・マザー』と『ベルエポック』）がアカデミー賞を受賞しており、外れ値となっています。対照的に、2000年代は受賞者が1人だけで、データに含まれる他のすべての年代（1950年代、1960年代、1970年代、1980年代、2010年代）は受賞者がゼロであるため、このデータセットにおける1990年代の成功率は例外的に高くなっています。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8",
+      "A9",
+      "E9",
+      "A10",
+      "E10",
+      "A11",
+      "E11",
+      "A12",
+      "E12",
+      "A13",
+      "E13",
+      "A14",
+      "E14",
+      "A15",
+      "E15",
+      "A16",
+      "E16",
+      "A17",
+      "E17",
+      "A18",
+      "E18",
+      "A19",
+      "E19",
+      "A20",
+      "E20",
+      "A21",
+      "E21"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c24d04a09e_011",
+    "table_id": "wikisql_c24d04a09e",
+    "question_type": "open_ended_reasoning",
+    "question": "1995年のペドロ・アルモドバル監督の映画がノミネートされていた場合、彼の総ノミネート数はどのように変わりますか？",
+    "answer": [
+      [
+        "彼の総ノミネート数は4から5に増加します。"
+      ]
+    ],
+    "evidence_cells": [
+      "B31",
+      "D31"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  }
+]

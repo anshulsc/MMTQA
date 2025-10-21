@@ -1,0 +1,211 @@
+[
+  {
+    "question_id": "finqa_ca8448c9ff_001",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "除采购会计调整外，哪类贷款的价值从2012年到2013年下降幅度最大？",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 purchased impaired loans ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_002",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "通过将2013年的各项贷款组成部分（不包括调整项）相加，计算出的总价值是多少（以百万为单位）？",
+    "answer": [
+      [
+        "51628"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_003",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "在2012年至2013年期间，哪个贷款类别显示出最大的百分比降幅？其2013年的价值是多少？",
+    "answer": [
+      [
+        "$ 1704"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_004",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述一下从2012年底到2013年底“总住宅股权和住宅房地产贷款 (a)”的整体趋势。",
+    "answer": [
+      [
+        "总住宅股权和住宅房地产贷款略有增加，从2012年底的511.60亿美元增长到2013年底的515.12亿美元。这代表着整体投资组合的增长幅度约为0.69%。"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_005",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "找出2012年价值超过60亿美元，并且在2013年价值有所下降的所有贷款类别。",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 purchased impaired loans ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_006",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "在2013年12月31日，“合计的家庭净值和住宅房地产贷款 (a)” 中，“已购买的受损贷款 (b)” 占多大比例？",
+    "answer": [
+      [
+        "10.77%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_007",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "如果“2013年家庭股本和住宅房地产贷款已购买的受损贷款（b）”的价值保持在2012年的水平，并且不考虑其他变化，那么2013年新的“家庭股本和住宅房地产贷款总额（a）”将是多少？",
+    "answer": [
+      [
+        "$ 52602"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_008",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "open_ended_reasoning",
+    "question": "根据数据，2012年至2013年间，标准住宅房地产贷款（不含受损贷款）的增长与受损和政府担保贷款的余额之间似乎存在什么关系？",
+    "answer": [
+      [
+        "似乎存在一种反比关系。标准“房屋净值和住宅房地产贷款”组合增长了16.51亿美元，而“已购买受损贷款”和“政府担保”类别均大幅减少（分别减少了10.90亿美元和5.75亿美元）。这表明公司正在进行战略调整，侧重于增长核心组合，同时减少在受损和政府支持资产方面的敞口。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_009",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "哪个贷款组成部分的同比变化对总贷款组合的构成产生了最大的绝对影响？",
+    "answer": [
+      [
+        "home equity and residential real estate loans 2013 excluding purchased impaired loans ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_010",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "表格中有多少个条目在其描述中明确引用了“已购买的受损贷款”？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_ca8448c9ff_011",
+    "table_id": "finqa_ca8448c9ff",
+    "question_type": "value",
+    "question": "从2012年到2013年，总的住房净值和住宅房地产贷款增长了多少百分比？",
+    "answer": [
+      [
+        "0.69%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

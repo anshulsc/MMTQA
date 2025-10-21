@@ -1,0 +1,224 @@
+[
+  {
+    "question_id": "finqa_bb91241c24_001",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Berapa jumlah total saham baru yang diterbitkan melalui tindakan korporasi spesifik (tidak termasuk pelaksanaan opsi saham rutin) antara saldo pada 28 Desember 2014 dan saldo pada 3 Januari 2016?",
+    "answer": [
+      [
+        "834944"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bb91241c24_002",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Peristiwa tunggal mana yang menghasilkan penerbitan saham beredar terbesar?",
+    "answer": [
+      [
+        "acquisition of kraft foods group inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_003",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Hitung perubahan bersih saham yang beredar dari saldo awal pada 29 Desember 2013 hingga saldo akhir pada 31 Desember 2016.",
+    "answer": [
+      [
+        "839644"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_004",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, jelaskan tren aktivitas saham treasury perusahaan setelah 28 Desember 2014.",
+    "answer": [
+      [
+        "Setelah 28 Desember 2014, perusahaan memulai aktivitas saham treasury, sebagaimana ditunjukkan oleh nilai-nilai negatif yang muncul di kolom 'saham treasury' mulai pada periode menjelang saldo 3 Januari 2016. Saldo saham treasury menjadi semakin negatif, bergerak dari -413 menjadi -2471 pada 31 Desember 2016. Hal ini menunjukkan perusahaan secara aktif membeli kembali sahamnya atau menerbitkan kembali saham treasury untuk rencana kompensasi karyawan, yang mengurangi total saham yang dipegang di treasury."
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_005",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Sebutkan kejadian-kejadian yang melibatkan penerbitan saham baru dan perubahan pada saham perbendaharaan.",
+    "answer": [
+      [
+        "exercise of stock options issuance of other stock awards and other"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_006",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Saham yang diterbitkan untuk 'akuisisi kraft foods group inc.' mewakili persentase berapa dari total saham yang diterbitkan pada saldo per 31 Desember 2016?",
+    "answer": [
+      [
+        "48.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bb91241c24_007",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Jika jumlah saham yang diterbitkan kepada sponsor 20% lebih tinggi, berapakah 'saldo pada 3 Januari 2016' untuk 'saham yang diterbitkan', dengan asumsi semua transaksi lainnya tetap sama?",
+    "answer": [
+      [
+        "1258725"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_008",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ada hubungan yang dapat diamati antara jenis peristiwa penerbitan saham dan besarnya saham yang diterbitkan? Justifikasikan jawaban Anda.",
+    "answer": [
+      [
+        "Ya, ada hubungan yang jelas. Tindakan korporasi besar seperti 'akuisisi kraft foods group inc .' (592.898 saham) dan 'penerbitan saham biasa kepada sponsor' (221.666 saham) menghasilkan penerbitan saham yang besarnya berkali-kali lipat lebih besar daripada peristiwa rutin seperti 'pelaksanaan opsi saham' (berkisar antara 178 hingga 4.555 saham). Hal ini menunjukkan bahwa transaksi strategis memiliki dampak dilutif yang jauh lebih signifikan daripada kegiatan kompensasi karyawan standar."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bb91241c24_009",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom mana yang berisi tipe data yang tidak konsisten yang memerlukan interpretasi, dan apa saja ketidakonsistenannya?",
+    "answer": [
+      [
+        "Kolom 'saham treasury' berisi tipe data yang tidak konsisten. Untuk enam baris pertama, kolom ini berisi tahun '2014', yang merupakan teks non-numerik dan tampaknya merupakan derau. Untuk empat baris terakhir, kolom ini berisi angka negatif bergaya akuntansi seperti '-413 ( 413 )', yang memerlukan interpretasi untuk digunakan sebagai nilai numerik standar (-413)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bb91241c24_010",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikasi transaksi yang merupakan pengecualian jelas dalam hal dampaknya terhadap jumlah saham yang diterbitkan dan jelaskan alasannya.",
+    "answer": [
+      [
+        "\"Akuisisi Kraft Foods Group Inc.\" adalah pengecualian yang signifikan. Hal ini menyebabkan penerbitan 592.898 saham, yang lebih dari 2,6 kali lebih besar dari transaksi terbesar berikutnya (\"penerbitan saham biasa kepada sponsor\" sebesar 221.666 saham) dan lebih dari 28 kali lebih besar dari transaksi lain dalam daftar. Skalanya jelas membedakannya dari aktivitas modal rutin."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6",
+      "A7",
+      "B7",
+      "A9",
+      "B9"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bb91241c24_011",
+    "table_id": "finqa_bb91241c24",
+    "question_type": "value",
+    "question": "Berapa banyak saham yang diterbitkan untuk akuisisi Kraft Foods Group Inc.?",
+    "answer": [
+      [
+        "592,898"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_8fbd5de29c_001",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "¿Qué período, 2009 o el año anterior, tuvo un valor absoluto mayor para las 'pérdidas netas' que fueron pagadas?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_002",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "¿Cuál es la suma de todos los ajustes positivos (incurridos, otros y adquiridos) al saldo de 'pérdidas brutas de 2009' durante el año?",
+    "answer": [
+      [
+        "13713"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B4",
+      "B5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_003",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "¿Para el período (2009 o el año anterior) que experimentó un mayor cambio absoluto en su saldo de 'reaseguro recuperable' de principio a fin de año, cuál fue el valor de las 'pérdidas netas' incurridas?",
+    "answer": [
+      [
+        "7603"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "F1",
+      "F6",
+      "G2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_004",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Basándose en los saldos inicial y final, analice el cambio general en el pasivo de 'pérdidas netas' desde el inicio del primer período hasta el final del segundo período (2009).",
+    "answer": [
+      [
+        "El pasivo de 'pérdidas netas' aumentó durante el lapso de dos años. Comenzó en $23,592 millones al principio del primer período y terminó en $25,038 millones al final de 2009. Esto representa un aumento total de $1,446 millones, lo que indica que las obligaciones netas de la empresa por pérdidas crecieron durante este período."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_005",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "¿Enumera todas las categorías de gastos o ajustes donde el valor absoluto para 'pérdidas netas de 2009' fue mayor que el valor correspondiente para el año anterior.",
+    "answer": [
+      [
+        "losses and loss expenses paid",
+        "other ( including foreign exchange revaluation )",
+        "losses and loss expenses acquired"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4",
+      "A5",
+      "D5",
+      "G5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_006",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de las 'pérdidas brutas pagadas' en 2009 fue cubierto por 'reaseguro recuperable'?",
+    "answer": [
+      [
+        "37.37%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_007",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "¿Si la cantidad de 'otros (incluyendo revaluación de moneda extranjera)' para 2009 hubiera sido de -500 millones de dólares en lugar de 559 millones de dólares, cuál habría sido el nuevo 'saldo final del año' para las 'pérdidas brutas de 2009'?",
+    "answer": [
+      [
+        "$36724"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_008",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué evidencia en la tabla demuestra la relación fundamental entre las pérdidas brutas, el recuperable de reaseguro y las pérdidas netas?",
+    "answer": [
+      [
+        "Los datos demuestran consistentemente la relación contable donde las 'pérdidas netas' son el resultado de restar el 'recuperable de reaseguro' de las 'pérdidas brutas'. Por ejemplo, en la fila 'balance al principio del año' para 2009, la pérdida neta de $24,241 es precisamente la diferencia entre la pérdida bruta de $37,176 y el recuperable de reaseguro de $12,935. Esta aritmética se mantiene para todos los puntos de datos correspondientes en ambos períodos, lo que confirma su correlación directa."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_009",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Qué encabezado de columna parece ser un duplicado mal etiquetado y qué evidencia estructural dentro de la tabla apoya esta conclusión?",
+    "answer": [
+      [
+        "El encabezado '2009 gross losses' para la quinta columna es probablemente un duplicado mal etiquetado del encabezado de la segunda columna. La evidencia es que los valores de 'balance end of year' en el conjunto de columnas de la derecha (E, F, G) coinciden perfectamente con los valores de 'balance beginning of year' en el conjunto de la izquierda (B, C, D). Esto indica una secuencia cronológica, lo que significa que las columnas de la derecha representan el año anterior (por ejemplo, 2008), no 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E6",
+      "F6",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_010",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica el valor numérico en los datos de 2009 que representa un valor atípico claro debido a su inconsistencia matemática con las columnas relacionadas en la misma fila.",
+    "answer": [
+      [
+        "El valor '2013' para 'pérdidas netas de 2009' en la fila 'pérdidas y gastos por pérdidas adquiridos' es un valor atípico claro. En todas las demás filas, Pérdidas Netas = Pérdidas Brutas - Recuperable de Reaseguro. Para esta fila, el cálculo debería ser 2013 - 2013 = 0. Sin embargo, la tabla informa la pérdida neta como 2013, lo cual es una imposibilidad matemática dadas las otras cifras de su fila y la fórmula establecida."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_8fbd5de29c_011",
+    "table_id": "finqa_8fbd5de29c",
+    "question_type": "value",
+    "question": "¿Cuál fue el saldo en millones al principio del año para las pérdidas brutas?",
+    "answer": [
+      [
+        "$37,176"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

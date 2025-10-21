@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_04f8db9765_001",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "2000년부터 2002년까지 '보고된 순손실'의 추세를 설명해 주십시오.",
+    "answer": [
+      [
+        "보고된 순손실은 3년간 손실이 가속화되는 추세를 보입니다. 2000년 194,628달러에서 2001년 450,094달러로 손실이 두 배 이상 증가했으며, 2002년에는 1,141,879달러로 다시 두 배 이상 증가하여 매년 재무 성과가 상당히 악화되고 있음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_002",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "표에 제시된 세 해 동안 누적된 '조정 순손실'은 얼마였습니까?",
+    "answer": [
+      [
+        "-1926453"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_04f8db9765_003",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "'보고된' 및 '프로 forma' 기본 및 희석 주당 순손실의 절대값 차이가 가장 작았던 연도는 언제입니까?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_004",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "'2001년 순손실(net loss as reported)' 대비 '총 주식 기반 직원 보상 비용(total stock-based employee compensation expense)'의 비율을 계산하십시오.",
+    "answer": [
+      [
+        "11.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_04f8db9765_005",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "'보고된 순손실'의 절대값이 400,000달러를 초과하고 '전망 순손실'의 절대값이 600,000달러 미만인 연도가 있다면 어느 연도입니까?",
+    "answer": [
+      [
+        "2001"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3",
+      "C1",
+      "C3",
+      "D1",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_006",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "이전 연도에 비해 가장 큰 절대 금액으로 조정 순손실이 증가한 연도는 언제입니까?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_04f8db9765_007",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "2000년의 '총 주식 기반 직원 보상 비용'이 20% 더 높았다면, 해당 연도의 '조정 순손실'은 얼마였을까요?",
+    "answer": [
+      [
+        "-256041.2"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_008",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "2002년에 '보고된 순손실'과 '조정 순손실' 중 어느 지표의 절대값이 더 컸습니까?",
+    "answer": [
+      [
+        "pro-forma net loss"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_009",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "제공된 데이터를 바탕으로, '보고된 순손실'과 '주식 기반 직원 보상 비용' 간의 3년간의 명확한 관계는 무엇입니까?",
+    "answer": [
+      [
+        "두 지표 사이에는 역의 관계가 있습니다. '보고된 순손실'은 2000년부터 2002년까지 그 규모가 크게 증가한 반면, '주식 기반 직원 보상 비용'은 매년 감소했습니다. 이는 회사의 손실이 증가함에 따라 주식 기반 보상을 줄였을 수 있음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_04f8db9765_010",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "open_ended_reasoning",
+    "question": "'기록된 대로' 수치와 비교했을 때, 모든 연도에 걸쳐 '기본 및 희석 주당 순손실'에 대한 '프로포마' 조정의 일관된 효과는 무엇입니까?",
+    "answer": [
+      [
+        "프로포마 조정은 표시된 모든 해에 걸쳐 주당 손실의 규모를 일관되게 증가시킵니다. 이는 주식 기반 보상과 같은 조정 대상 항목이 항상 주당 기준으로 더 큰 계산된 손실을 초래함을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "C4",
+      "C5",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_04f8db9765_011",
+    "table_id": "finqa_04f8db9765",
+    "question_type": "value",
+    "question": "2001년에 보고된 총 손실액은 얼마입니까?",
+    "answer": [
+      [
+        "$ -450094 ( 450094 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "finqa_72311a2c52_001",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Kategori pinjaman mana yang mengalami penurunan nilai total terbesar secara absolut dari 31 Desember 2017 hingga 31 Desember 2018?",
+    "answer": [
+      [
+        "revolving open-end loans secured by one- to four-family residential properties"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A2",
+      "D2",
+      "E2",
+      "A3",
+      "D3",
+      "E3",
+      "A4",
+      "D4",
+      "E4",
+      "A5",
+      "D5",
+      "E5",
+      "A6",
+      "D6",
+      "E6",
+      "A7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_002",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Berapa persentase dari total komitmen tahun 2018 yang diwakili oleh kategori pinjaman dengan nilai tertinggi di luar Amerika Serikat?",
+    "answer": [
+      [
+        "28.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "D6",
+      "D8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_003",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Jika nilai AS untuk 'komersial real estat konstruksi dan pengembangan lahan' 10% lebih rendah pada tahun 2018, berapa total baru untuk 31 Desember 2018?",
+    "answer": [
+      [
+        "$ 1017937.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_004",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Sebutkan semua kategori komitmen di mana porsi AS lebih besar dari $ 100.000 juta dan nilai totalnya meningkat dari tahun 2017 ke 2018.",
+    "answer": [
+      [
+        "credit card lines"
+      ],
+      [
+        "commercial and other consumer loan commitments"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "E5",
+      "A6",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_005",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Berapakah rata-rata perubahan dari tahun ke tahun dalam total nilai untuk semua kategori komitmen yang terdaftar (tidak termasuk baris total) antara tahun 2017 dan 2018?",
+    "answer": [
+      [
+        "$ 4817.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_72311a2c52_006",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Untuk kategori 'surat kredit komersial dan sejenisnya', berapa rasio nilai AS terhadap nilai di luar AS pada tanggal 31 Desember 2018?",
+    "answer": [
+      [
+        "0.18"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_72311a2c52_007",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Kategori manakah yang merupakan outlier dalam hal kontribusinya terhadap total komitmen AS, dan berapa persentase yang diwakilinya dari total tersebut?",
+    "answer": [
+      [
+        "Kategori 'credit card lines' merupakan outlier yang signifikan, mewakili sekitar 74,27% dari total komitmen AS per 31 Desember 2018."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_72311a2c52_008",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis tren pertumbuhan tahun-ke-tahun untuk 'limit kartu kredit' dibandingkan dengan pertumbuhan portofolio keseluruhan dari tahun 2017 hingga 2018.",
+    "answer": [
+      [
+        "Kategori 'limit kartu kredit' tumbuh sekitar 2,61% dari tahun 2017 hingga 2018 (dari $678.300 juta menjadi $696.007 juta). Sebagai perbandingan, total portofolio tumbuh sekitar 3,42% (dari $985.174 juta menjadi $1.018.894 juta). Hal ini menunjukkan bahwa meskipun 'limit kartu kredit' adalah kategori tunggal terbesar, tingkat pertumbuhannya sedikit tertinggal dibandingkan pertumbuhan portofolio keseluruhan selama periode ini."
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "E5",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_009",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data, apakah ada korelasi yang konsisten antara besarnya nilai U.S. suatu kategori komitmen dengan pertumbuhan total dari tahun ke tahun dari 2017 hingga 2018?",
+    "answer": [
+      [
+        "Tidak, tidak ada korelasi yang konsisten. Misalnya, dua kategori U.S. terbesar, 'fasilitas kartu kredit' dan 'komitmen pinjaman komersial dan konsumen lainnya', keduanya mengalami pertumbuhan yang signifikan. Namun, kategori U.S. terbesar ketiga, 'pinjaman revolving berjangka waktu yang dijamin oleh properti residensial satu hingga empat keluarga', justru mengalami penurunan absolut terbesar. Hal ini menunjukkan bahwa nilai U.S. yang besar tidak menjamin pertumbuhan positif dari tahun ke tahun."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "D1",
+      "E1",
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B4",
+      "D4",
+      "E4",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_72311a2c52_010",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "open_ended_reasoning",
+    "question": "Kolom mana yang nilainya untuk setiap kategori komitmen dihitung berdasarkan nilai dari dua kolom lainnya dalam tabel? Jelaskan hubungannya.",
+    "answer": [
+      [
+        "Kolom 'december 312018' diturunkan dari kolom lain. Untuk setiap kategori, nilainya adalah jumlah dari nilai di kolom 'u.s .' dan kolom 'outside ofu.s .'. Sebagai contoh, pada baris pertama, $823 (B1) + $4638 (C1) sama dengan $5461 (D1)."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4",
+      "B5",
+      "C5",
+      "D5",
+      "B6",
+      "C6",
+      "D6",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_72311a2c52_011",
+    "table_id": "finqa_72311a2c52",
+    "question_type": "value",
+    "question": "Berapa rasio total komitmen AS terhadap total komitmen di luar AS per 31 Desember 2018?",
+    "answer": [
+      [
+        "4.02 : 1"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

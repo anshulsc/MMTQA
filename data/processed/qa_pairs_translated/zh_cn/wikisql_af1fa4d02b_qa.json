@@ -1,0 +1,264 @@
+[
+  {
+    "question_id": "wikisql_af1fa4d02b_001",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "在此表格中，哪位编剧的名字出现的集数最多，无论是单独编剧还是团队成员？",
+    "answer": [
+      [
+        "Michele J. Wolff"
+      ],
+      [
+        "Gene Braunstein"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E5",
+      "E13",
+      "E10",
+      "E2",
+      "E9",
+      "E15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_002",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "列表中的有多少集是由恰好三位编剧共同撰写的？",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "E6",
+      "E7",
+      "E8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_003",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "由与“Who's the Boss?”的编写团队相同的编写的第一个剧集的播出日期是什么？",
+    "answer": [
+      [
+        "October19,1991"
+      ]
+    ],
+    "evidence_cells": [
+      "C12",
+      "E12",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_004",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "open_ended_reasoning",
+    "question": "1991年11月播出的剧集模式是怎样的？它是否一致，这又暗示了什么？",
+    "answer": [
+      [
+        "1991年11月的播出模式高度一致。剧集于11月2日、9日、16日和23日播出。日期之间恰好间隔七天，这暗示了一个固定的每周广播时间表，很可能是在一周的同一天（星期六）。"
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_005",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "列出所有于1992年播出且由单人编剧的剧集标题。",
+    "answer": [
+      [
+        "Tony Micelli, This is Your Other Life"
+      ],
+      [
+        "Allergic to Love"
+      ],
+      [
+        "Tony and the Honeymooners"
+      ]
+    ],
+    "evidence_cells": [
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "E13",
+      "C13",
+      "E14",
+      "C14",
+      "E15",
+      "C15"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_006",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "列表中列出的剧集有多少百分比是由两人或多人团队编写的？",
+    "answer": [
+      [
+        "46.7%"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "E6",
+      "E7",
+      "E8",
+      "E10",
+      "E11",
+      "E12",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_007",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "如果“悲惨”（Misery）这一集是由与“死亡与爱（第一部分）”相同的编剧团队编写的，那么“Bob Rosenfarb、Danny Kallis 和 Phil Doran”团队总共编写了多少集？",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C7",
+      "E7",
+      "E6",
+      "E8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_008",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "open_ended_reasoning",
+    "question": "是否有同一编剧团队被分配到多集式剧集的连续部分的既定趋势？请用数据来证明你的答案。",
+    "answer": [
+      [
+        "是的，根据现有数据，存在一个明显的趋势。唯一列出的多集式剧集“生死之恋”（Death and Love）的“第一部分”（Part 1）和“第二部分”（Part 2）都归功于同一个编剧团队：“Bob Rosenfarb、Danny Kallis 和 Phil Doran”。这表明为了在整个故事情节中保持叙事和风格的一致性而做出的刻意选择。"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "E7",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_009",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "哪个数字列包含对每个条目都是唯一的标识符，但其序列中有明显的间隔，表明并非该季度的所有剧集都已列出？",
+    "answer": [
+      [
+        "Series #"
+      ],
+      [
+        "Season #"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_010",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "找出表格中显示的最长停播期之后播出的第一集的剧集名称。",
+    "answer": [
+      [
+        "Tony, Can You Spare a Dime?"
+      ]
+    ],
+    "evidence_cells": [
+      "F9",
+      "F10",
+      "C10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_af1fa4d02b_011",
+    "table_id": "wikisql_af1fa4d02b",
+    "question_type": "value",
+    "question": "哪个剧集于1991年10月12日首次播出？",
+    "answer": [
+      [
+        "\"Misery\""
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

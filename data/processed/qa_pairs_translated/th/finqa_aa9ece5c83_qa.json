@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_aa9ece5c83_001",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "ชุดข้อมูลทางการเงินใด ที่เริ่มต้นในคอลัมน์ B หรือชุดข้อมูลในคอลัมน์ E มี 'as adjusted' operating income สูงกว่าสำหรับปีสิ้นสุดวันที่ 31 ธันวาคม 2016?",
+    "answer": [
+      [
+        "The data set starting in column B ($4050 million)"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "G1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_002",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "ผลรวมสุทธิของ 'การเปลี่ยนแปลงหลักการบัญชี' ทั้งหมดที่อิงตามดอลลาร์สำหรับชุดข้อมูลแรก (คอลัมน์ C) คือเท่าใด",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_003",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "อัตรากำไร EBITDA ที่ปรับปรุงแล้ว 'as filed' สำหรับชุดข้อมูลที่มี 'change in accounting principle' สำหรับดอกเบี้ยรับคือ '-414 ( 414 )' คือเท่าใด",
+    "answer": [
+      [
+        "30% ( 30 % )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "F2",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_004",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "สำหรับชุดข้อมูลแรก (คอลัมน์ B-D) อัตราส่วนของรายได้สุทธิ 'ตามที่ยื่นฟ้อง' ต่อ EBITDA ที่ปรับปรุงแล้ว 'ตามที่ยื่นฟ้อง' คิดเป็นเท่าใด ปัดเศษทศนิยมสามตำแหน่ง?",
+    "answer": [
+      [
+        "0.141"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_005",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "สำหรับชุดข้อมูลที่นำเสนอในคอลัมน์ B ถึง D โปรดระบุตัวชี้วัดที่ค่า 'as adjusted' น้อยกว่าค่า 'as filed'",
+    "answer": [
+      [
+        "interest income"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A5",
+      "B5",
+      "D5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_006",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "ในแถว 'รายได้สุทธิเป็นเปอร์เซ็นต์ของรายได้ค่าบริการ' ค่า 'การเปลี่ยนแปลงหลักการบัญชี' ค่าใดที่ดูผิดปกติ และเพราะเหตุใด",
+    "answer": [
+      [
+        "ค่า 'การเปลี่ยนแปลงหลักการบัญชี' ของ '2014% ( 2014 % )' ในเซลล์ C4 และ F4 นั้นผิดปกติ สำหรับชุดข้อมูลทั้งสอง 'รายได้สุทธิเป็นเปอร์เซ็นต์ของรายได้ค่าบริการ' ยังคงไม่เปลี่ยนแปลงระหว่างตัวเลข 'ตามที่ยื่น' และ 'ตามที่ปรับปรุง' (จาก 5% เป็น 5% และจาก 3% เป็น 3% ตามลำดับ) การเปลี่ยนแปลงที่สมเหตุสมผลควรจะเป็น 0% ทำให้ '2014%' กลายเป็นค่าที่ผิดปกติอย่างชัดเจน ซึ่งน่าจะเกิดจากข้อผิดพลาดในการป้อนข้อมูล"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_007",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "หาก 'การเปลี่ยนแปลงหลักการบัญชี' สำหรับรายได้จากการดำเนินงานในชุดข้อมูลที่สองเป็นการลดลง 50 ล้านดอลลาร์แทนที่จะเป็นค่าที่แสดง รายได้จากการดำเนินงาน 'ที่ปรับปรุงแล้ว' ใหม่จะเป็นเท่าใด",
+    "answer": [
+      [
+        "$ 2015"
+      ]
+    ],
+    "evidence_cells": [
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_008",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "มีความสัมพันธ์ที่สอดคล้องกันระหว่างการปรับปรุงทางบัญชีสำหรับรายได้จากการดำเนินงานและ EBITDA ที่ปรับปรุงแล้วในชุดข้อมูลทั้งสองหรือไม่",
+    "answer": [
+      [
+        "ใช่ มีความสัมพันธ์เชิงบวกที่สอดคล้องกัน ในชุดข้อมูลแรก การเปลี่ยนแปลงสำหรับรายได้จากการดำเนินงาน (+$248) เหมือนกับการเปลี่ยนแปลงสำหรับ EBITDA ที่ปรับปรุงแล้ว (+$248) ในชุดข้อมูลที่สอง การเปลี่ยนแปลงสำหรับรายได้จากการดำเนินงาน (+$414) ก็เหมือนกับการเปลี่ยนแปลงสำหรับ EBITDA ที่ปรับปรุงแล้ว (+$414) เช่นกัน สิ่งนี้ชี้ให้เห็นว่าการเปลี่ยนแปลงหลักการทางบัญชีที่ส่งผลต่อรายได้จากการดำเนินงานส่งผลโดยตรงต่อ EBITDA ที่ปรับปรุงแล้วในจำนวนเท่ากัน"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_009",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "open_ended_reasoning",
+    "question": "ปัญหาโครงสร้างที่สำคัญที่สุดของส่วนหัวคอลัมน์ที่อาจทำให้เกิดความสับสนในการตีความตารางคืออะไร",
+    "answer": [
+      [
+        "ปัญหาโครงสร้างหลักคือการซ้ำกันของส่วนหัวคอลัมน์โดยไม่มีการจัดกลุ่มในระดับที่สูงกว่า ส่วนหัว 'year ended december 31 2016 as filed' และ 'year ended december 31 2016 change in accounting principle' ถูกใช้สำหรับคอลัมน์สองชุดที่แตกต่างกัน (B และ E; C และ F) ความคลุมเครือนี้บังคับให้ผู้ใช้ตีความว่ามีการเปรียบเทียบสองเอนทิตีหรือสถานการณ์ที่แยกจากกัน แทนที่จะระบุไว้อย่างชัดเจน"
+      ]
+    ],
+    "evidence_cells": [],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_010",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "โดยใช้ค่า 'as adjusted' ให้คำนวณรายได้ค่าบริการโดยนัยสำหรับชุดข้อมูลทั้งสอง (Adjusted EBITDA / Adjusted EBITDA margin) และรายงานส่วนต่างเป็นล้าน โดยปัดเศษเป็นจำนวนเต็มล้านที่ใกล้เคียงที่สุด (ชุดแรก ลบชุดที่สอง)",
+    "answer": [
+      [
+        "$2,814"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D6",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_aa9ece5c83_011",
+    "table_id": "finqa_aa9ece5c83",
+    "question_type": "value",
+    "question": "รายได้จากการดำเนินงาน (เป็นล้าน) เปลี่ยนแปลงไปเท่าใดสำหรับการคำนวณชุดแรกหลังจากการปรับปรุงจาก 'As Filed' เป็น 'As Adjusted'?",
+    "answer": [
+      [
+        "$248"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Který obchodní závazek, s výjimkou celkových součtů, má nejvyšší hodnotu expirace v kterémkoli roce od roku 2014 do roku 2017?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Jaký je součet všech individuálních splatností závazků za roky 2016 a 2017 dohromady?",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Identifikujte typ závazku, který má expirace rozložené do nejvíce časových období, a uveďte jeho celkovou hodnotu.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Popište časový vývoj splatnosti celkových obchodních závazků v období od roku 2013 do roku 2016.",
+    "answer": [
+      [
+        "Vývoj je velmi volatilní. Začíná na 632 milionech USD v roce 2013, klesá o přibližně 66 % na 215 milionů USD v roce 2014, poté prudce stoupá na historické maximum 1812 milionů USD v roce 2015, než se propadne o více než 98 % na pouhých 30 milionů USD v roce 2016. Není patrný žádný konzistentní růst ani pokles."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Uveďte typy závazků, které mají v roce 2013 výši závazku vyšší než 0 USD, ale žádné závazky od roku 2015 a dále.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Jaký podíl celkových expirací za rok 2013 připadá na „zařízení pro sekuritizaci pohledávek“?",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Pokud by se 1800 milionů USD za 'úvěrové linky' s expirací v roce 2015 rovnoměrně rozdělilo mezi roky 2016 a 2017, jaký by byl nový celkový součet pro 'celkové obchodní závazky' pro rok 2016?",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Na základě tabulky lze pozorovat korelaci mezi celkovou výší závazku a počtem let, po které vyprší?",
+    "answer": [
+      [
+        "Ne, přímá korelace neexistuje. Data ve skutečnosti naznačují inverzní vztah. Největší závazek, 'úvěrové nástroje' (1800 milionů USD), vyprší celý během jednoho roku (2015). Naopak 'záruky' (307 milionů USD), jeden z menších závazků, jsou rozloženy do všech šesti uvedených časových období."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Rok vypršení platnosti, který má nejmenší počet jednotlivých typů závazků s nenulovou hodnotou, je?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifikujte rok, jehož celková částka vypršení platnosti je významným odchylkou ve srovnání s ostatními obdobími, a zdůvodněte svůj závěr.",
+    "answer": [
+      [
+        "Rok 2015 je jasnou odchylkou s celkovým vypršením platnosti 1812 milionů USD. Tato částka je výjimečně vysoká, více než 2,8krát vyšší než další nejvyšší roční celková částka (632 milionů USD v roce 2013) a výrazně vyšší než všechny ostatní období, která se pohybují od 10 milionů USD do 215 milionů USD."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "Jaké jsou celkové komerční závazky v období od roku 2013 do roku 2017?",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

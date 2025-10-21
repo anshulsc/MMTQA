@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_1333011494_001",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Quelle propriété a la plus grande valeur de 'bâtiment' ?",
+    "answer": [
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "B2",
+      "C2",
+      "D2",
+      "F2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_002",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Quelle est la 'répartition du prix d'achat' totale pour toutes les propriétés listées dans le tableau ?",
+    "answer": [
+      [
+        "2097772"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1333011494_003",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Quelle est la « contrepartie nette financée par nous à la clôture » pour la propriété qui a la plus faible valeur de « baux acquis en place » ?",
+    "answer": [
+      [
+        "$ 81632"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "B11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_004",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Pour la propriété '1515 broadway', quel pourcentage de sa valeur d''actifs acquis' provient de la somme de ses valeurs de 'terrain' et de 'bâtiment' ?",
+    "answer": [
+      [
+        "89.65%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1333011494_005",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Identifiez toutes les propriétés où la 'dette assumée' est supérieure à trois fois l' 'investissement en actions et/ou en dette détenu'.",
+    "answer": [
+      [
+        "110 east 42nd street"
+      ],
+      [
+        "1515 broadway"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D13",
+      "E12",
+      "E13",
+      "F12",
+      "F13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_006",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Si un ajustement comptable réévaluait la valeur du 'building' pour '110 east 42nd street' à 10% de moins, quelle serait la nouvelle valeur des 'assets acquired' pour cette propriété ?",
+    "answer": [
+      [
+        "81989"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_007",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "La 'juste valeur de l'ajustement au billet hypothécaire payable' pour '1515 broadway' est une valeur négative alors qu'elle est une valeur positive et uniforme pour la plupart des autres propriétés. Que suggère cette valeur aberrante significative concernant le financement de cette propriété spécifique ?",
+    "answer": [
+      [
+        "La valeur négative de '-3693' pour '1515 broadway' dans la catégorie 'juste valeur de l'ajustement au billet hypothécaire payable' est une valeur aberrante distincte par rapport à la valeur positive uniforme de '2014' pour les autres propriétés. Cela suggère que le billet hypothécaire associé à l'acquisition du 1515 Broadway avait des conditions plus favorables que les taux du marché prévalant au moment de l'acquisition, créant un actif (un ajustement négatif de passif). En revanche, les autres propriétés avaient peut-être des hypothèques aux taux du marché ou proches, nécessitant un ajustement nominal standard."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1333011494_008",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "Sur la base des données, existe-t-il une corrélation positive directe entre l'« allocation du prix d'achat » d'un bien immobilier et son « montant net financé par nous à la clôture » ?",
+    "answer": [
+      [
+        "Non, il n'y a pas de corrélation positive directe. Par exemple, le bien « 180 maiden lane » a le deuxième prix d'achat le plus élevé (442 325 $) mais son montant net (81 835 $) est presque identique à celui du bien « 51 east 42nd street », dont le prix d'achat est beaucoup plus bas (80 000 $). De plus, le bien « 1515 broadway » a le prix d'achat le plus élevé de loin (1 234 000 $) mais pas le montant net le plus élevé. Cela indique que d'autres facteurs, tels que la « dette assumée » (qui est très élevée pour « 1515 broadway »), influencent considérablement le montant net requis à la clôture."
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "E10",
+      "F10",
+      "B11",
+      "C11",
+      "D11",
+      "E11",
+      "F11",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1333011494_009",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Calculez le total des 'passifs repris' pour les propriétés qui ont une 'valeur de bail supérieure au marché' inférieure à 6 000 $.",
+    "answer": [
+      [
+        "33817"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "F3",
+      "B9",
+      "D9",
+      "F9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_010",
+    "table_id": "finqa_1333011494",
+    "question_type": "open_ended_reasoning",
+    "question": "La valeur \"2014\" apparaît à plusieurs reprises dans quatre catégories financières différentes, souvent pour les mêmes propriétés. Que suggère l'utilisation constante de ce nombre spécifique et non arrondi dans différents contextes quant à sa nature ?",
+    "answer": [
+      [
+        "La valeur \"2014\" apparaît dans les catégories \"autres actifs nets des autres passifs\", \"ajustement de la juste valeur de la dette hypothécaire\", \"participation en actions et/ou dettes détenues\" et \"dette assumée\". Son utilisation répétée comme une valeur identique, relativement faible, dans différentes catégories et propriétés suggère qu'il ne s'agit pas d'une valeur marchande mesurée, mais plutôt d'un espace réservé nominal, d'une valeur minimale standard utilisée à des fins comptables, ou éventuellement d'une référence à un événement spécifique ou à une année de réglementation (par exemple, une transaction datant de 2014). Elle signifie une entrée standardisée plutôt qu'une valorisation unique pour chaque occurrence."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A7",
+      "A12",
+      "A13",
+      "B5",
+      "C5",
+      "D5",
+      "F5",
+      "B7",
+      "C7",
+      "D7",
+      "F7",
+      "B12",
+      "C12",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1333011494_011",
+    "table_id": "finqa_1333011494",
+    "question_type": "value",
+    "question": "Quel est le prix d'achat du terrain situé au 1515 Broadway ?",
+    "answer": [
+      [
+        "$462,700"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "question_id": "wikisql_dbb8316257_001",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "첫 번째 경기에서 승리한 선수들 중, 다음 경기를 가장 큰 점수 차이로 패배한 선수는 누구입니까?",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6",
+      "A9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_002",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "'32강' 경기에서 모든 선수를 합산했을 때 상대방이 득점한 총 점수는 몇 점입니까?",
+    "answer": [
+      [
+        "81"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_003",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "32강에서 양 선수 점수의 합이 가장 높았던 선수는 누구이며, 그 총점은 얼마입니까?",
+    "answer": [
+      [
+        "Driss Moussaid",
+        "25"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_004",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "'32강'에서 10점 이상 점수 차이로 패배한 모든 선수를 나열하십시오.",
+    "answer": [
+      [
+        "Abdelillah Nhaila"
+      ],
+      [
+        "Tahar Tamsamani"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A4",
+      "C4",
+      "A5",
+      "C5",
+      "A7",
+      "C7",
+      "A8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_005",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "'16강'에서 탈락한 선수들 중에서 '32강' 경기에서 더 큰 점수 차이로 승리한 선수는 누구입니까?",
+    "answer": [
+      [
+        "Driss Moussaid"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "A6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_006",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "'32강'에 참가한 선수 중 '16강'에 진출한 선수의 비율은 몇 퍼센트입니까?",
+    "answer": [
+      [
+        "25%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_007",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "대회에서 가장 멀리 진출한 선수의 경기 진행 상황을 추적하고 각 라운드에서의 결과를 설명해 주세요.",
+    "answer": [
+      [
+        "Mohamed Arjaoui 선수가 8강까지 진출하며 가장 멀리 나아갔습니다. 그는 32강에서 부전승(결과 N/A)을 했고, 16강에서는 Pitt를 상대로 11-6으로 승리했습니다. 10-10 무승부 후 Wilder에게 판정패하며 8강에서 탈락했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "C9",
+      "D9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_008",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "만약 모하메드 아르자오위가 8강전에서 패배하는 대신 승리했다면, 이 명단에서 몇 명의 선수가 준결승에 진출했을까요?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "E9",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_009",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "open_ended_reasoning",
+    "question": "선수의 체급과 토너먼트에서의 성공 사이에 상관관계가 있다고 데이터가 시사하나요? 그 이유를 설명해 주세요.",
+    "answer": [
+      [
+        "네, 데이터는 체급과 성공 사이에 양의 상관관계가 있음을 시사합니다. 가장 무거운 체급인 헤비급 선수인 모하메드 아르자우이(Mohamed Arjaoui)는 8강까지 진출했습니다. 대조적으로, 가장 가벼운 5개 체급의 모든 선수들은 첫 경기에서 탈락했습니다. 중간 체급 선수 두 명은 한 라운드 진출한 후 탈락했습니다. 이러한 패턴은 이 데이터셋에서 더 무거운 선수들이 더 나은 성적을 거두는 경향이 있었음을 나타냅니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "B9",
+      "C9",
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_dbb8316257_010",
+    "table_id": "wikisql_dbb8316257",
+    "question_type": "value",
+    "question": "'32강'에서 경쟁 결과(승/패)가 기록되지 않은 유일한 체급은 무엇입니까?",
+    "answer": [
+      [
+        "Heavyweight"
+      ]
+    ],
+    "evidence_cells": [
+      "B9",
+      "C9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

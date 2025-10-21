@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "finqa_21abc3652e_001",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "En excluant le 'total commercialcommitments', quel engagement a la plus grande valeur totale ?",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_002",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Quelle est la somme de tous les engagements commerciaux, en millions, qui doivent expirer au cours des années 2015 et 2016 combinées ?",
+    "answer": [
+      [
+        "78"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_21abc3652e_003",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Énumérez l'année et le nom de la facilité correspondante pour chaque cas où une seule facilité représente plus de 98 % des expirations totales de cette année.",
+    "answer": [
+      [
+        "2017",
+        "receivables securitization facility [b]"
+      ],
+      [
+        "2019",
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "G1",
+      "G5",
+      "A2",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_004",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance des expirations d'engagements totaux de 2015 à 2019.",
+    "answer": [
+      [
+        "La tendance est très volatile et ne montre aucun schéma régulier. Elle commence à 46 millions de dollars en 2015, tombe à 32 millions de dollars en 2016, puis monte en flèche à un sommet de 660 millions de dollars en 2017. Elle s'effondre ensuite à seulement 11 millions de dollars en 2018 avant de remonter à son plus haut niveau de 1708 millions de dollars en 2019. Le schéma est caractérisé par des fluctuations extrêmes plutôt qu'une croissance ou une baisse constante."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_005",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Identifiez tous les types d'engagements dont le montant d'expiration est supérieur à zéro en 2016 et en 2019.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "G1",
+      "A2",
+      "D2",
+      "G2",
+      "A3",
+      "D3",
+      "G3",
+      "A4",
+      "D4",
+      "G4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_006",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Quel pourcentage du total des engagements de 'garanties [c]' expire après 2019 ?",
+    "answer": [
+      [
+        "18.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "H3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_21abc3652e_007",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Si l'engagement des 'crédits [a]' était inférieur de 50%, quelle serait la nouvelle valeur du 'total des engagements commerciaux' ?",
+    "answer": [
+      [
+        "$ 1622"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_008",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après les données fournies, quelle relation peut-on déduire entre le montant total d'un engagement spécifique et la distribution temporelle de son échéance ?",
+    "answer": [
+      [
+        "Une relation inverse semble exister. Les deux engagements les plus importants ('crédits' à 1700 M$ et 'facilité de titrisation des créances' à 650 M$) expirent en une seule somme forfaitaire au cours d'une année spécifique. En revanche, les engagements plus faibles ('garanties' et 'lettres de crédit contingentes') voient leurs montants d'expiration répartis sur plusieurs périodes."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "G1",
+      "A2",
+      "B2",
+      "E2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_21abc3652e_009",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Quelle colonne spécifique à l'année (2015-2019) présente le moins d'engagements individuels avec une valeur d'expiration supérieure à zéro ?",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2018"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_21abc3652e_010",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "En regardant la ligne 'total commercialcommitments', le montant d'expiration de quelle année représente l'anomalie la plus significative par rapport à la médiane de la période allant de 2015 à après 2019 ?",
+    "answer": [
+      [
+        "2019"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_21abc3652e_011",
+    "table_id": "finqa_21abc3652e",
+    "question_type": "value",
+    "question": "Quel est le total des engagements commerciaux (en millions) pour les années 2015-2019 ?",
+    "answer": [
+      [
+        "2457"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

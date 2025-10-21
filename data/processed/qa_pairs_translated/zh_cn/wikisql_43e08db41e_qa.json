@@ -1,0 +1,397 @@
+[
+  {
+    "question_id": "wikisql_43e08db41e_001",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "open_ended_reasoning",
+    "question": "平均而言，哪种类型的警察部队服务社区的人均成本更高：是加拿大皇家骑警（RCMP），还是其他以市镇命名的警察部队？",
+    "answer": [
+      [
+        "以市镇命名的警察部队平均人均成本更高。Port Moody、Nelson、West Vancouver 和 Central Saanich 的平均值为 $201.75，而所有由加拿大皇家骑警（RCMP）执勤的市镇的平均值为 $161.79。"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F2",
+      "I2",
+      "F3",
+      "I3",
+      "F4",
+      "I4",
+      "F5",
+      "I5",
+      "F6",
+      "I6",
+      "F7",
+      "I7",
+      "F8",
+      "I8",
+      "F9",
+      "I9",
+      "F10",
+      "I10",
+      "F11",
+      "I11",
+      "F12",
+      "I12",
+      "F13",
+      "I13",
+      "F14",
+      "I14",
+      "F15",
+      "I15",
+      "F16",
+      "I16",
+      "F17",
+      "I17",
+      "F18",
+      "I18",
+      "F19",
+      "I19",
+      "F20",
+      "I20",
+      "F21",
+      "I21",
+      "F22",
+      "I22",
+      "F23",
+      "I23"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_002",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "非RCMP警力服务的总人口是多少？",
+    "answer": [
+      [
+        "101671"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "I2",
+      "B4",
+      "I4",
+      "B7",
+      "I7",
+      "B12",
+      "I12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_003",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "人均成本最低的市镇的案件负担是多少？",
+    "answer": [
+      [
+        "87"
+      ]
+    ],
+    "evidence_cells": [
+      "A20",
+      "F20",
+      "G20",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F21",
+      "F22",
+      "F23"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_004",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "找出所有人口超过25,000且每1,000人犯罪率低于100的市镇。",
+    "answer": [
+      [
+        "Port Moody"
+      ],
+      [
+        "West Vancouver"
+      ],
+      [
+        "North Cowichan"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "H2",
+      "A7",
+      "B7",
+      "H7",
+      "A14",
+      "B14",
+      "H14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_005",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "在所有列出的市政区中，乔治王子市的警员人数占警员总数的百分之多少？",
+    "answer": [
+      [
+        "16.69%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19",
+      "C20",
+      "C21",
+      "C22",
+      "C23"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_006",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "如果惠斯勒市2005年的总成本降低15%，在人口保持不变的情况下，其新的人均成本将是多少？",
+    "answer": [
+      [
+        "$258"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_007",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "open_ended_reasoning",
+    "question": "分析“每名警官服务居民数”与“每千人犯罪率”之间的关系。在此数据集中，每名警官服务居民数较少是否与较低的犯罪率相关？",
+    "answer": [
+      [
+        "不，数据显示两者之间存在负相关。每名警官服务居民数最高的市镇，如Spallumcheen (1902) 和 Summerland (1267)，其犯罪率反而是最低的（分别为46和68）。相反，每名警官服务居民数非常少的市镇，如Prince Rupert (416) 和 Whistler (425)，其犯罪率却是最高的（分别为204和202）。这可能意味着高犯罪率导致警力增加（从而降低了每名警官服务居民的比例），而不是警力水平直接导致犯罪率降低。"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "H1",
+      "D2",
+      "H2",
+      "D3",
+      "H3",
+      "D4",
+      "H4",
+      "D5",
+      "H5",
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8",
+      "D9",
+      "H9",
+      "D10",
+      "H10",
+      "D11",
+      "H11",
+      "D12",
+      "H12",
+      "D13",
+      "H13",
+      "D14",
+      "H14",
+      "D15",
+      "H15",
+      "D16",
+      "H16",
+      "D17",
+      "H17",
+      "D18",
+      "H18",
+      "D19",
+      "H19",
+      "D20",
+      "H20",
+      "D21",
+      "H21",
+      "D22",
+      "H22",
+      "D23",
+      "H23"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_008",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "在“警察部队”列中，排除通用的“RCMP”名称后，有多少个独特的警察部队组织被明确命名？",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "I2",
+      "I4",
+      "I7",
+      "I12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_009",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "哪个市镇在每名警官服务居民人数方面是最显著的异常值，这个值是多少？",
+    "answer": [
+      [
+        "Spallumcheen",
+        "1902"
+      ]
+    ],
+    "evidence_cells": [
+      "A20",
+      "D20",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D21",
+      "D22",
+      "D23"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_010",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "在人口少于15,000的市镇中，哪个市镇的每名警官案件负担最高？请计算出这个数值。",
+    "answer": [
+      [
+        "Parksville",
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "G1",
+      "A3",
+      "B3",
+      "C3",
+      "G3",
+      "A4",
+      "B4",
+      "C4",
+      "G4",
+      "A5",
+      "B5",
+      "C5",
+      "G5",
+      "A6",
+      "B6",
+      "C6",
+      "G6",
+      "A13",
+      "B13",
+      "C13",
+      "G13",
+      "A17",
+      "B17",
+      "C17",
+      "G17",
+      "A18",
+      "B18",
+      "C18",
+      "G18",
+      "A19",
+      "B19",
+      "C19",
+      "G19",
+      "A20",
+      "B20",
+      "C20",
+      "G20",
+      "A22",
+      "B22",
+      "C22",
+      "G22"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_43e08db41e_011",
+    "table_id": "wikisql_43e08db41e",
+    "question_type": "value",
+    "question": "阿博茨福德的警察总数是多少？",
+    "answer": [
+      [
+        "187"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Value Lookup"
+  }
+]

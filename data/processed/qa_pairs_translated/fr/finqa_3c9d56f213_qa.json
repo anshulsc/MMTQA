@@ -1,0 +1,288 @@
+[
+  {
+    "question_id": "finqa_3c9d56f213_001",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Quel est le MW brut total généré par tous les projets éoliens listés dans le tableau ?",
+    "answer": [
+      [
+        "311"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_002",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Parmi les projets listés, quel type de combustible, charbon ou hydro, a une production moyenne supérieure en mégawatts bruts ?",
+    "answer": [
+      [
+        "Coal"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C5",
+      "D5",
+      "C10",
+      "D10",
+      "C11",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_003",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Listez les noms de tous les projets situés en Chine qui utilisent une source de combustible renouvelable (Hydro ou Vent).",
+    "answer": [
+      [
+        "jhrh ( 1 )"
+      ],
+      [
+        "dong qi ( 3 )"
+      ],
+      [
+        "huanghua ii ( 3 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A6",
+      "B6",
+      "C6",
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_004",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Quel est le MW brut effectif attribuable à AES pour le projet ayant le MW brut le plus élevé situé au Chili ?",
+    "answer": [
+      [
+        "193.12"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_005",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Quel pourcentage du MW brut total de tous les projets est apporté par les projets où AES détient une participation de 100 % ?",
+    "answer": [
+      [
+        "54.43%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_006",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiez le projet avec la production brute en MW la plus anormale et expliquez pourquoi il se démarque de tous les autres projets de l'ensemble de données.",
+    "answer": [
+      [
+        "Le projet 'ballylumford' est le plus important élément aberrant. Sa puissance brute en MW de 1246 est plus de trois fois supérieure à celle du projet suivant le plus important, 'jhrh' (379 MW), et plus de 25 fois supérieure à la médiane de la puissance brute en MW de l'ensemble du jeu de données (49 MW). Cette énorme différence de magnitude rend sa capacité de production d'énergie anormale par rapport à tous les autres projets listés."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_007",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Si la participation d'AES dans tous les projets turcs doublait par rapport à leur niveau actuel, quelle serait la nouvelle puissance totale effective en MW bruts de la Turquie attribuable à AES ?",
+    "answer": [
+      [
+        "44.88"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_008",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après les données, existe-t-il une corrélation observable entre le MW brut d'un projet et le niveau de participation d'AES ? Expliquez votre raisonnement.",
+    "answer": [
+      [
+        "Il n'y a pas de corrélation claire ou constante entre le MW brut d'un projet et la participation d'AES. Par exemple, le projet avec le MW brut le plus élevé ('ballylumford', 1246 MW) a une participation de 100 %, mais le deuxième plus élevé ('jhrh', 379 MW) a une faible participation de 35 %. Inversement, un projet avec un MW très faible ('north rhins', 22 MW) a également une participation de 100 %. La large répartition des participations entre différentes tailles de projets suggère que l'échelle du projet ne détermine pas directement le niveau d'investissement d'AES."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "E1",
+      "D2",
+      "E2",
+      "D3",
+      "E3",
+      "D4",
+      "E4",
+      "D5",
+      "E5",
+      "D6",
+      "E6",
+      "D7",
+      "E7",
+      "D8",
+      "E8",
+      "D9",
+      "E9",
+      "D10",
+      "E10",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_009",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "open_ended_reasoning",
+    "question": "La colonne « aes equity interest ( percent rounded ) » contient des informations redondantes. Décrivez le schéma de cette redondance.",
+    "answer": [
+      [
+        "La colonne présente un schéma constant de redondance où chaque cellule contient une valeur en pourcentage suivie de la même valeur répétée entre parenthèses, comme par exemple « 71% ( 71 % ) ». Les informations entre parenthèses sont un double exact des informations qui les précèdent."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_010",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Quel pays a la plus faible puissance brute combinée attribuable à AES, en ne considérant que les pays ayant plusieurs projets listés dans le tableau ?",
+    "answer": [
+      [
+        "Turkey"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "D2",
+      "E2",
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6",
+      "B7",
+      "D7",
+      "E7",
+      "B10",
+      "D10",
+      "E10",
+      "B11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3c9d56f213_011",
+    "table_id": "finqa_3c9d56f213",
+    "question_type": "value",
+    "question": "Combien de projets utilisent l'éolien comme principal combustible ?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

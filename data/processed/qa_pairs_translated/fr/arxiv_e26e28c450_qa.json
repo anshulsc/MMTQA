@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Quel modèle non multi-tâches obtient la plus faible Erreur Quadratique Moyenne (MSE_over) globale ?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Calculez la moyenne de la MSE à l'horizon de 7 jours (MSE7) pour tous les modèles marqués comme 'Multi-Tâche'.",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Pour le modèle avec la deuxième valeur MSE3 la plus élevée (la deuxième pire), quelle est sa valeur MSE30 correspondante ?",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Analysez la tendance de l'Erreur Quadratique Moyenne (MSE) pour le modèle HTML à mesure que l'horizon de prédiction s'étend de 3 à 30 jours. Sa précision prédictive s'améliore-t-elle ou se détériore-t-elle au fil du temps ?",
+    "answer": [
+      [
+        "La précision prédictive du modèle HTML s'améliore à mesure que l'horizon de prédiction s'étend. Ses valeurs de MSE diminuent de manière constante, passant de MSE3 (0,845) à MSE7 (0,349), MSE15 (0,251) et enfin MSE30 (0,158), ce qui indique une erreur plus faible et donc une meilleure performance sur les prédictions à plus long terme."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Identifiez tous les modèles qui ne sont pas désignés comme 'Multi-Task' et dont la valeur MSE15 est inférieure à 0.31.",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifiez le modèle qui constitue une anomalie claire en termes de performances sur toutes les métriques MSE et expliquez pourquoi.",
+    "answer": [
+      [
+        "Le modèle GPT-3.5-Turbo est une anomalie claire en termes de performances. Ses valeurs MSE sur tous les horizons (MSE_over : 2.198, MSE3 : 2.152, MSE7 : 1.793, MSE15 : 2.514, MSE30 : 2.332) sont considérablement plus élevées que celles de tous les autres modèles, dont la plupart ont des valeurs MSE inférieures à 1.0. Cela indique une performance prédictive nettement moins bonne par rapport aux autres modèles listés."
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "Quel pourcentage de la somme totale des MSE3 pour tous les modèles est attribuable au modèle GPT-3.5-Turbo ? Fournir la réponse en pourcentage arrondi à une décimale.",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Si le MSE_over du modèle RiskLabs s'améliorait de 25 % (c'est-à-dire diminuait de 25 %), quelle serait sa nouvelle valeur, et comment se classerait-il par rapport au MSE_over du modèle HTML ?",
+    "answer": [
+      [
+        "Le nouveau MSE_over pour RiskLabs serait de 0.243. Cette valeur est inférieure, et donc meilleure, que le MSE_over du modèle HTML de 0.401."
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "D'après le tableau, quelle est la relation entre un modèle catégorisé comme 'Multi-Tâche' et la disponibilité d'un score 'VaR' ?",
+    "answer": [
+      [
+        "Il existe une forte corrélation. Seuls les modèles désignés comme 'Multi-Tâche' (GPT-3.5-Turbo et RiskLabs) ont un score 'VaR' numérique rapporté. Cependant, tous les modèles 'Multi-Tâche' n'ont pas de score VaR (par exemple, HTML), et aucun modèle non-'Multi-Tâche' n'en a, suggérant que la capacité de calculer le VaR est une caractéristique principalement associée aux modèles 'Multi-Tâche' dans cet ensemble de données."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Quelle colonne de métrique de performance contient des données non numériques de type placeholder, et pour quels modèles spécifiques ces données sont-elles manquantes ?",
+    "answer": [
+      [
+        "La colonne 'VaR' contient des données non numériques ('/'). Ces données sont manquantes pour les modèles suivants : Classical Method, LSTM, MT-LSTM-ATT, HAN, MRDM et HTML."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel modèle présente le meilleur équilibre global entre la précision des prédictions sur différents horizons (MSE3–MSE30) et l'estimation des risques (VaR) ?",
+    "answer": [
+      [
+        "Le modèle RiskLabs atteint le meilleur équilibre global, maintenant les valeurs MSE les plus basses sur tous les horizons et le VaR le plus bas (0.049), ce qui indique à la fois une forte précision prédictive et une estimation fiable des risques."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

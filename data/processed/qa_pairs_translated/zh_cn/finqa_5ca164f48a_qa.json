@@ -1,0 +1,193 @@
+[
+  {
+    "question_id": "finqa_5ca164f48a_001",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "从2013年到2014年，消费类贷款“净冲销占平均贷款比例”下降了多少个百分点？",
+    "answer": [
+      [
+        "0.45"
+      ]
+    ],
+    "evidence_cells": [
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_002",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "2013年“信贷损失准备”和“其他”项目绝对值合并总计是多少（以百万美元为单位）？",
+    "answer": [
+      [
+        "644"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_003",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "在“不良贷款准备金总额占总贷款比例”较高的年份，商业贷款净冲销的金额是多少？",
+    "answer": [
+      [
+        "$ -249 ( 249 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B8",
+      "C8",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_004",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "分析“总净冲销额”的同比趋势。这一趋势表明了该机构的信用风险状况如何？",
+    "answer": [
+      [
+        "“总净冲销额”从2013年的10.77亿美元大幅下降至2014年的5.31亿美元，减少了50%以上。这一下降趋势有力地表明，在此期间贷款组合的质量有所改善，并且信用风险管理更加有效。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_005",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "列出2013年绝对值超过5亿美元的净冲销类别。",
+    "answer": [
+      [
+        "total net charge-offs ( a )"
+      ],
+      [
+        "consumer lending net charge-offs ( a )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A9",
+      "C9",
+      "A10",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_006",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "2014年“总净冲销额”中，有多少百分比是“消费贷款”造成的？",
+    "answer": [
+      [
+        "89.64%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_007",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "如果2014年的“信贷损失准备金”增加20%，并且所有其他项目保持不变，那么“12月31日”的余额将是多少？",
+    "answer": [
+      [
+        "$ 3385.6 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_008",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "根据表格，2013 年至 2014 年间“总净冲销额”与“信用损失准备金”之间的关系是什么？",
+    "answer": [
+      [
+        "两者之间存在很强的正相关关系。2013 年，高额的净冲销额（1077 百万美元）对应着较高的准备金（643 百万美元）。2014 年，随着净冲销额大幅下降（至 531 百万美元），信用损失准备金也随之减少（至 273 百万美元）。这表明准备金是根据实际贷款损失的水平进行调整的。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_009",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "找出表格中2014年和2013年均缺少值的财务指标。",
+    "answer": [
+      [
+        "net charge-offs to average loans ( for the year ended )"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "B12",
+      "C12"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_010",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "open_ended_reasoning",
+    "question": "在“净冲销额占平均贷款比例”方面，从 2013 年到 2014 年，是商业贷款还是消费贷款类别显示出更显著的相对改善？",
+    "answer": [
+      [
+        "商业贷款显示出更显著的相对改善。其比例从 0.22% 下降到 0.04%，与 2013 年的水平相比下降了 81.8%。相比之下，消费贷款的比例从 1.07 下降到 0.62，相对下降幅度较小，为 42.1%。商业贷款比例急剧的百分比下降标志着其在业绩改善方面是一个异常值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B13",
+      "C13",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5ca164f48a_011",
+    "table_id": "finqa_5ca164f48a",
+    "question_type": "value",
+    "question": "从2013年到2014年，总净冲销额（百万美元）减少了多少？",
+    "answer": [
+      [
+        "$546"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

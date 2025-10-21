@@ -1,0 +1,214 @@
+[
+  {
+    "question_id": "arxiv_bed80d3901_001",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Pertanyaan mana yang memerlukan analisis jumlah metrik keuangan utama terbanyak?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "A3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_002",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Hitung jumlah total 'Metrik Terkait' individual yang terdaftar di ketiga kueri tersebut.",
+    "answer": [
+      [
+        "22"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_003",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Untuk kueri yang melibatkan perbandingan suatu perusahaan dengan rekan-rekannya, berapa rentang tanggal yang tepat yang ditentukan dalam 'Structured Data Request' yang sesuai?",
+    "answer": [
+      [
+        "(1/9/2018 - 30/9/2018)"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_004",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Kueri bahasa alami mana yang sesuai dengan permintaan terstruktur yang mencakup periode waktu terpanjang?",
+    "answer": [
+      [
+        "What were the return on average assets and ROWC of Halliburton co. and other companies in the energy sector from Apr 2016 to Jul 2017 compared to their Gross Profit Margin and CROAFA?"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_005",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Sebutkan semua metrik utama yang diminta untuk kueri yang secara spesifik merujuk pada perusahaan dengan pengenal hukum seperti 'plc' atau 'Co.' di kolom 'Required Data'.",
+    "answer": [
+      [
+        "Quick Ratio"
+      ],
+      [
+        "Bid Size"
+      ],
+      [
+        "Cash Conversion Efficiency Ratio"
+      ],
+      [
+        "Return on Average Assets"
+      ],
+      [
+        "Return on Working Capital"
+      ],
+      [
+        "Gross Profit Margin"
+      ],
+      [
+        "Cash Return on Average Fixed Assets"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_006",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Untuk kueri Amcor plc, berapa persentase dari semua metrik yang tercantum dalam 'Structured Data Request' yang secara eksplisit mengandung kata 'Cash'?",
+    "answer": [
+      [
+        "28.57%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_007",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Jika kueri bahasa alami untuk Adobe diperluas untuk menyertakan permintaan 'Return on Working Capital', bagaimana daftar metrik dalam 'Structured Data Request' akan dimodifikasi, dengan menggunakan informasi dari kueri Halliburton sebagai templat?",
+    "answer": [
+      [
+        "Bagian metrik dari 'Structured Data Request' akan diperbarui untuk menyertakan 'Return on Working Capital' dan komponen terkaitnya dari kueri Halliburton. Ini berarti menambahkan 'Return on Working Capital; Net income; Working capital' ke daftar yang sudah ada, menghasilkan: (Sales Revenue; Total Revenue; Economic Value Added; Net operating profit after tax (NOPAT); Cost of capital; Return on Working Capital; Net income; Working capital)."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_008",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data yang diberikan, apakah ada hubungan yang tampak antara kompleksitas kueri bahasa alami ('Query') dan jumlah total metrik yang ditentukan dalam ('Structured Data Request')?",
+    "answer": [
+      [
+        "Tampaknya ada korelasi positif. Dua kueri yang lebih kompleks (untuk Amcor dan Halliburton) sesuai dengan jumlah metrik yang jauh lebih tinggi dalam permintaan terstruktur mereka (masing-masing 14 dan 12) dibandingkan dengan kueri yang lebih sederhana untuk Adobe, yang hanya memiliki 5 metrik. Ini menunjukkan bahwa seiring peningkatan kedalaman analitis pertanyaan pengguna, muatan data yang diperlukan juga meningkat."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_009",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Kolom manakah yang berfungsi untuk mem-parsing kueri bahasa alami ke dalam format semi-terstruktur yang secara eksplisit mencantumkan perusahaan, metrik utama, sub-metrik terkait, dan kerangka waktu yang diminta?",
+    "answer": [
+      [
+        "Required Data"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_010",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis informasi temporal di kolom 'Required Data' dan 'Structured Data Request'. Apakah ada kueri di mana kedua kolom ini menyajikan jangka waktu yang bertentangan? Jika ya, identifikasi kueri tersebut dan jelaskan ketidaksesuaiannya.",
+    "answer": [
+      [
+        "Ya, kueri Amcor plc menunjukkan ketidaksesuaian yang signifikan. Bagian 'Required Data' menentukan jangka waktu 'selama 6 bulan terakhir', sementara 'Structured Data Request' yang sesuai menentukan periode yang jauh lebih singkat, yaitu 7 hari '(7/1/2024 - 7/7/2024)'. Dua kueri lainnya menunjukkan konsistensi temporal antara kedua kolom tersebut."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_bed80d3901_011",
+    "table_id": "arxiv_bed80d3901",
+    "question_type": "value",
+    "question": "Berapa banyak perusahaan unik yang disebutkan dalam data?",
+    "answer": [
+      [
+        "3"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

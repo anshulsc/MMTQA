@@ -1,0 +1,242 @@
+[
+  {
+    "question_id": "finqa_32e65786f0_001",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011년 대비 2012년에 가치(백만 달러)가 가장 크게 증가한 자산 범주는 무엇입니까?",
+    "answer": [
+      [
+        "Institutional client services"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8",
+      "A15",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_002",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011년 12월 기준으로 '투자 및 대출' (주식, 부채, 수취채권 및 기타) 구성 요소의 평균 가치는 백만 단위로 얼마였습니까?",
+    "answer": [
+      [
+        "17224"
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "C11",
+      "C12"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_32e65786f0_003",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "'초과 유동성 및 현금'이라는 요약 항목은 표에 포함되어 있습니다. 2011년부터 2012년까지 이 특정 요약 항목의 전년 대비 백분율 성장률은 얼마이며, 소수점 둘째 자리까지 반올림됩니다?",
+    "answer": [
+      [
+        "1.11%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_004",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011년 12월부터 2012년 12월까지의 기간을 분석했을 때, 'icbc1', 'equity ( excluding icbc )', 'secured client financing' 항목 중에서 값의 감소를 보인 유일한 항목은 무엇입니까?",
+    "answer": [
+      [
+        "icbc1"
+      ],
+      [
+        "equity ( excluding icbc )"
+      ],
+      [
+        "secured client financing"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_005",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011년 기준 2,500억 달러를 초과하는 가치를 가졌으며 2012년까지 가치가 상승한 모든 항목을 나열해 주십시오.",
+    "answer": [
+      [
+        "inventory"
+      ],
+      [
+        "institutional client services"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_006",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2012년 12월 기준으로 '총 자산' 중 '담보 고객 금융'과 '재고'의 합계 금액이 차지하는 비율은 얼마였습니까? 답은 백분율로 소수점 둘째 자리까지 반올림하여 제공하십시오.",
+    "answer": [
+      [
+        "58.36%"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B5",
+      "B16"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_32e65786f0_007",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "만약 'otherassets2'의 2011년 대비 2012년 실제 성장률의 절반만큼만 성장했다면, 다른 모든 항목이 변동 없다고 가정했을 때 2012년의 새로운 'total assets'는 얼마였을까요?",
+    "answer": [
+      [
+        "$ 930331.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "C15",
+      "B16"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_008",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "open_ended_reasoning",
+    "question": "2011년부터 2012년까지의 변화를 바탕으로, '담보부 고객 금융'과 '재고' 사이의 잠재적 관계 또는 전략적 변화를 추론할 수 있습니까?",
+    "answer": [
+      [
+        "2011년부터 2012년까지 '담보부 고객 금융'과 '재고' 사이에는 관찰 가능한 역관계가 존재합니다. '담보부 고객 금융'은 54,265백만 달러로 크게 감소한 반면, '재고'는 44,683백만 달러로 증가했습니다. 이러한 상당한 변화는 고객 자금 조달 활동에서의 전략적 부채 축소와 회사의 자체 대차대조표 상 자산 직접 보유 증가를 시사할 수 있습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_32e65786f0_009",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "open_ended_reasoning",
+    "question": "2012년 12월과 2011년 12월의 열에 있는 재무 수치를 수학적 계산에 적합하도록 만들기 위해 필요한 데이터 준비 단계를 설명해 주십시오.",
+    "answer": [
+      [
+        "계산을 위해 데이터를 준비하려면 몇 가지 단계가 필요합니다. 첫째, B1, C1, B16, C16과 같은 셀에서 달러 기호('$')를 제거해야 합니다. 둘째, 양쪽 열의 모든 값에서 선행 또는 후행 공백을 제거해야 합니다. 마지막으로, 합계 또는 평균과 같은 수학적 연산을 허용하려면 정리된 문자열을 정수 또는 부동 소수점과 같은 숫자 데이터 유형으로 변환해야 합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_32e65786f0_010",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011년과 2012년 사이에 백분율 변화가 가장 극심했던(긍정적이든 부정적이든) 특정 항목은 무엇이며, 성장 분석에서 잠재적 이상치로 간주될 수 있습니까?",
+    "answer": [
+      [
+        "otherassets2"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B15",
+      "C15"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_32e65786f0_011",
+    "table_id": "finqa_32e65786f0",
+    "question_type": "value",
+    "question": "2011년부터 2012년까지 부채는 얼마만큼 증가했습니까?",
+    "answer": [
+      [
+        "2,075"
+      ]
+    ],
+    "evidence_cells": [
+      "B11",
+      "C11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

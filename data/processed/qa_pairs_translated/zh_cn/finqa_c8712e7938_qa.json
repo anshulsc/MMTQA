@@ -1,0 +1,204 @@
+[
+  {
+    "question_id": "finqa_c8712e7938_001",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "从2003年到2005年，“报告的净亏损”的趋势如何？",
+    "answer": [
+      [
+        "“报告的净亏损”呈现持续下降趋势，表明财务状况有所改善。亏损从2003年的325,321美元减少到2004年的247,587美元，并在2005年进一步减少到171,590美元。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_002",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "在哪个年份，“备考净亏损”与“报告净亏损”之间的绝对差额最大？",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_003",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "在所示的三年中，总共加回了多少'基于股票的员工薪酬费用'？",
+    "answer": [
+      [
+        "11478"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8712e7938_004",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "在“基本和稀释后每股亏损（已报告）”最小的年份，绝对的“备考净亏损”与绝对的“已报告净亏损”的比率是多少？保留三位小数。",
+    "answer": [
+      [
+        "1.088"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B1",
+      "B4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_005",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "列出“根据公允价值法确定的总股票薪酬费用”的绝对值大于25,000美元的年份。",
+    "answer": [
+      [
+        "2003"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_006",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "2004年，‘试算会计上的净亏损’中有多少百分比可以归因于‘根据公允价值计量法确定的全部奖励的股票报酬费用总额（扣除相关税务影响）’的调整？四舍五入到两位小数。",
+    "answer": [
+      [
+        "8.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8712e7938_007",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "value",
+    "question": "如果2005年“基于股票的员工薪酬费用”减少50%，那么该年的“备考净亏损”将是多少？",
+    "answer": [
+      [
+        "$ -190276 ( 190276 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_008",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "在“增加”或“减少”的费用调整项目（'add' or 'less'）中，哪个项目经历了变化最大的同比百分比变化，并且发生在哪两年之间？",
+    "answer": [
+      [
+        "“增加：基于股票的员工薪酬费用”（'add : stock-based employee compensation expense'）项目经历了最大的变化。从2004年的2,297美元增加到2005年的7,104美元，增长超过209%，与其他年度变化相比，这是一个显著的异常值。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8712e7938_009",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "在三年的时间里，“报告的净亏损”和“形式净亏损”之间有什么关系？",
+    "answer": [
+      [
+        "两者之间存在直接且一致的关系，即每年的“形式净亏损”的绝对值总是大于“报告的净亏损”。这两个指标都显示出从 2003 年到 2005 年亏损减少（即改善）的相同趋势，这表明尽管基于股票的薪酬调整会增加计算出的亏损，但两种衡量标准下的基本业务绩效趋势是一致的。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B4",
+      "C1",
+      "C4",
+      "D1",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8712e7938_010",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "根据表格结构，“reported net loss”（reported 净亏损）、“add”（增加）项目和“less”（减少）项目与“pro-forma net loss”（pro-forma 净亏损）之间的算术运算是什么？请用 2003 年的数据进行验证。",
+    "answer": [
+      [
+        "公式是：('reported net loss') + ('add : stock-based employee compensation expense net of related tax effect included in net loss as reported') - ('less : total stock-based employee compensation expense determined under fair value based method for all awards net of related taxeffect')。 使用 2003 年的数据：(-325321) + (2077) - (31156) = -354400，这与该年的 'pro-forma net loss' 匹配。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8712e7938_011",
+    "table_id": "finqa_c8712e7938",
+    "question_type": "open_ended_reasoning",
+    "question": "报告的净亏损从2003年到2005年发生了怎样的变化？",
+    "answer": [
+      [
+        "报告的净亏损从2003年的325,321美元下降到2005年的171,590美元。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

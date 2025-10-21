@@ -1,0 +1,265 @@
+[
+  {
+    "question_id": "finqa_3669fd2d00_001",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012년부터 2016년까지의 만기 기간 중, 어느 해에 총 만기 금액이 가장 컸습니까?",
+    "answer": [
+      [
+        "2015"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_002",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "'보증 [c]' 항목에 대한 2012년부터 2016년까지의 연평균 만기 약정 금액은 얼마입니까?",
+    "answer": [
+      [
+        "53"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_003",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "'2016년 이후' 만기 금액이 가장 큰 약정 유형을 식별하십시오. 그런 다음 해당 특정 약정 유형에 대해 2013년과 2014년 만기 금액의 합계를 계산하십시오.",
+    "answer": [
+      [
+        "222"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "A3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_004",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "'보증 [c]'에 대한 약정 만료 추세를 2012년부터 2016년 이후까지 설명해 주십시오.",
+    "answer": [
+      [
+        "'보증 [c]'에 대한 약정 만료는 매우 변동적인 추세를 보입니다. 2012년 1800만 달러에서 시작하여 2013년에는 800만 달러로 감소했다가, 2014년에는 2억 1400만 달러로 급증했습니다. 이 정점 이후, 만료액은 2015년 1200만 달러, 2016년 1300만 달러로 크게 감소했으며, 2016년 이후 기간에는 6000만 달러로 증가했습니다. 패턴은 선형적이거나 일관적이지 않으며, 2014년의 정점에 의해 지배됩니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_005",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012년에 만기 금액이 0달러보다 크고 총 약정 금액이 1000백만 달러 미만인 모든 약정 유형을 나열하십시오.",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "guarantees [c]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_006",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2015년에 만기되는 총 상업 약정액 중 '신용 시설 [a]'이(가) 차지하는 비율은 얼마입니까?",
+    "answer": [
+      [
+        "99.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_007",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "'보증 [c]' 항목의 총액이 10% 증가하고, 이 증가분이 전적으로 '2016년 이후' 만기 기간에 반영된다면, '총 상업 약정' 금액은 얼마가 되겠습니까?",
+    "answer": [
+      [
+        "$ 2781.5"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_008",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터에 따르면, 약정의 '총액' 크기와 만기 시점 간에 관찰 가능한 관계가 있습니까?",
+    "answer": [
+      [
+        "단순 선형 상관관계는 없지만 관찰 가능한 패턴이 있습니다. 가장 큰 약정('신용 시설', 18억 달러)은 단일하고 먼 만기일(2015년)을 가지고 있습니다. 대조적으로, 가장 분산된 만기 일정을 가진 약정('보증', 3억 2,500만 달러)은 상대적으로 작은 규모 중 하나입니다. 다른 두 약정('수취 채권' 및 '예치금')은 총액이 매우 다르지만($6억 달러 및 2,400만 달러), 첫 해(2012년)에 전액 상환됩니다. 이는 더 큰 약정은 단일 일시불 지급으로 구조화될 수 있는 반면, 더 작은 약정은 즉시 처리되거나 장기 분할 납부 의무로 구조화될 수 있음을 시사합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1",
+      "H1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_009",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "개별 약정 유형 중에서 0이 아닌 값이 가장 많은 약정 만기 기간은 무엇입니까?",
+    "answer": [
+      [
+        "2012"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_010",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "open_ended_reasoning",
+    "question": "2012년부터 2016년까지 '총 상업 약정' 만료를 분석할 때, 어느 해가 상당한 이상치(outlier)를 나타내며 그 이유는 무엇입니까?",
+    "answer": [
+      [
+        "2015년이 상당한 이상치입니다. 2012-2016년의 총 만료액은 각각 6억 4,200만 달러, 800만 달러, 2억 1,400만 달러, 18억 1,200만 달러, 1,300만 달러입니다. 중앙값은 2억 1,400만 달러입니다. 2015년 총액 18억 1,200만 달러는 중앙값의 8배 이상이며 다음으로 높은 값(6억 4,200만 달러)의 거의 3배에 달하여, '신용 시설' 만료로 인해 거의 전적으로 발생한 명확한 통계적 이상치입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "F1"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3669fd2d00_011",
+    "table_id": "finqa_3669fd2d00",
+    "question_type": "value",
+    "question": "2012년부터 2015년까지 총 상업 약정액(백만 달러 기준)은 얼마입니까?",
+    "answer": [
+      [
+        "$2,676"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

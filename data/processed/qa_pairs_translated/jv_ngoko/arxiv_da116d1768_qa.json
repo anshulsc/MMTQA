@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "arxiv_da116d1768_001",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Sebutna metode/paper sing nganggo model LLM luwih anyar utawa luwih canggih tinimbang GPT3.5.",
+    "answer": [
+      [
+        "MarketSenseAI [1]"
+      ],
+      [
+        "Ploutos [4]"
+      ],
+      [
+        "LLMoE [7]"
+      ],
+      [
+        "[48]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_002",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Pira metode/artikel sing nyebutake nggunakake model saka kulawarga GPT (kalebu GPT-4, GPT3.5, GPT-4-Turbo, utawa model umum berbasis GPT)?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_da116d1768_003",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Dataset opo wae sing dienggo metode sing fokus ing 'investment' minangka aplikasi?",
+    "answer": [
+      [
+        "S&P 100 stocks"
+      ],
+      [
+        "S&P 500 index"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "C1",
+      "D4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_004",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Ndelok perkembangan model GPT saka GPT3.5 nganti GPT-4, ana owah-owahan apa ing aplikasi utawa fokus data sing katon saka tabel?",
+    "answer": [
+      [
+        "Metode sing nganggo GPT3.5 (GPT-InvestAR) fokus ing 'Investasi saham' nganggo indeks S&P 500 sing jembar. Metode sing nganggo GPT-4 sing luwih maju (MarketSenseAI lan Ploutos) nargetake aplikasi sing luwih spesifik kaya 'Pemilihan saham lan wawasan investasi' lan 'Gerakan saham', nggunakake dataset indeks S&P 100 lan paper akademik. Iki nuduhake tren menyang aplikasi sing luwih khusus lan analitis kanthi model sing luwih kuat."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "D4",
+      "C4",
+      "B1",
+      "D1",
+      "C1",
+      "B2",
+      "D2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_005",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Sebutna model LLM sing digunakake metode sing aplikasine ana tembung 'stock' nanging dudu 'Stock investment'.",
+    "answer": [
+      [
+        "GPT-4"
+      ],
+      [
+        "GPT-4-Turbo, LLaMA3"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "D2",
+      "B2",
+      "D4",
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_006",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Piro persen metode/paper sing nggunakake indeks pasar finansial (kayata S&P utawa KOSPI) minangka sumber datane?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C4",
+      "C6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_da116d1768_007",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Nek ana proyek sing butuh milih cara sing wis ana kanggo 'Prediksi pasar saham' nanging mung nganggo model saka kulawarga GPT, model LLM tartamtu saka tabel sing bakal dipilih?",
+    "answer": [
+      [
+        "GPT-4-Turbo"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_008",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "open_ended_reasoning",
+    "question": "Saka tabel, apa ana sesambungan antarane spesifisitas model LLM sing disebut lan jinis data sing ditrapake?",
+    "answer": [
+      [
+        "Ana koyone ana gegayutan ngendi model sing luwih spesifik lan canggih kaya GPT-4, GPT3.5, lan Llama3.2 dipasangake karo dataset finansial sing terstruktur (contone, indeks S&P, data MSFT-AAPL). Kosok baline, 'model berbasis GPT' sing digambarake kanthi umum luwih disambungake karo korpora sing amba banget, ora spesifik domain kaya Common Crawl lan Wikipedia, nuduhake yen model umum digunakake kanggo analisis sing luwih amba nalika model tartamtu sing canggih dites ing tugas finansial sing luwih ditargetake."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_da116d1768_009",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Kolom endi sing ngemot jinis data sing paling deskriptif lan maneka warna, kaya sing ditengeri dening macem-maceme entri saka simbol saham tartamtu nganti korpus web sing jembar?",
+    "answer": [
+      [
+        "Data"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_da116d1768_010",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Tulisen metode/kertas sing paling beda cakupane aplikasi lan sumber datane sing luwih umum tinimbang liyane, sing fokus marang tugas pasar saham tartamtu.",
+    "answer": [
+      [
+        "ChainBuddy [10]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "D1",
+      "D2",
+      "D4",
+      "D5",
+      "D6",
+      "C1",
+      "C2",
+      "C4",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_da116d1768_011",
+    "table_id": "arxiv_da116d1768",
+    "question_type": "value",
+    "question": "Piro metode/makalah sing nggunakake model GPT kanggo nglatih?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

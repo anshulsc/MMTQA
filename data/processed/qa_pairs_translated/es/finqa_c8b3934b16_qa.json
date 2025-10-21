@@ -1,0 +1,240 @@
+[
+  {
+    "question_id": "finqa_c8b3934b16_001",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "¿En qué año fueron los 'ingresos totales netos de gastos de interés' los más altos?",
+    "answer": [
+      [
+        "2016"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_002",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "¿Cuál fue la suma total de las 'pérdidas netas por créditos' en los tres años (2016, 2017 y 2018)?",
+    "answer": [
+      [
+        "605"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_003",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "¿Cuál fue el 'ingreso por intereses netos' en el año que tuvo los 'gastos operativos totales' más altos?",
+    "answer": [
+      [
+        "$ 3045"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_004",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Describa la tendencia de tres años para las 'pérdidas netas por crédito' de 2016 a 2018.",
+    "answer": [
+      [
+        "Las 'pérdidas netas por crédito' muestran una tendencia descendente constante y significativa, disminuyendo de $435 millones en 2016 a $149 millones en 2017, y aún más hasta $21 millones en 2018. Esta pronunciada caída del 66% y luego del 86% año tras año indica una mejora importante en la gestión del riesgo crediticio o en la calidad de los activos de la empresa."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_005",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "Enumere los rubros financieros que reportaron un valor positivo en 2018 pero un valor negativo (pérdida) en 2017.",
+    "answer": [
+      [
+        "income ( loss ) from continuing operations before taxes"
+      ],
+      [
+        "income ( loss ) from continuing operations"
+      ],
+      [
+        "net income ( loss ) before attribution of noncontrolling interests"
+      ],
+      [
+        "noncontrolling interests"
+      ],
+      [
+        "net income ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14",
+      "A15",
+      "B15",
+      "C15",
+      "A16",
+      "B16",
+      "C16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_006",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de los 'ingresos totales netos de gastos por intereses' fueron consumidos por los 'gastos operativos totales' en 2018?",
+    "answer": [
+      [
+        "109.1%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_007",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "¿Si la 'acumulación (liberación) de reserva crediticia' en 2018 hubiera sido cero en lugar de una liberación de $218 millones, cuáles habrían sido los 'ingresos (pérdidas) de operaciones continuas antes de impuestos'?",
+    "answer": [
+      [
+        "$ -205"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_008",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe una correlación positiva directa entre los 'ingresos totales netos de gastos de interés' y la 'ganancia (pérdida) neta' a lo largo de los tres años? Explica.",
+    "answer": [
+      [
+        "No, no se evidencia una correlación positiva directa. Mientras que los ingresos disminuyeron constantemente de 5.233 millones de dólares en 2016 a 2.083 millones de dólares en 2018, la ganancia neta fluctuó drásticamente de una ganancia de 521 millones de dólares a una pérdida de -19.676 millones de dólares y de vuelta a una ganancia de 107 millones de dólares. La pérdida masiva en 2017, a pesar de tener mayores ingresos que en 2018, se debió principalmente a un elemento anómalo de 'impuestos sobre la renta (beneficios)' de 19.064 millones de dólares, no solo a cambios en los ingresos."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B11",
+      "C11",
+      "B16",
+      "C16",
+      "D16"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_009",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "¿Qué columna, que representa el cambio interanual, tiene la mayor cantidad de entradas 'nm' (no significativo)?",
+    "answer": [
+      [
+        "% (  % ) change2017 vs . 2016"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "F2",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_010",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Identifique la partida financiera de 2017 que es un claro valor atípico en comparación con la misma partida en 2016 y 2018, y explique su impacto en los resultados generales.",
+    "answer": [
+      [
+        "Los 'impuestos sobre la renta (beneficios)' por un total de $ 19.064 millones en 2017 representan un valor atípico masivo en comparación con los valores de $ -455 millones en 2016 y $ -113 millones en 2018. Este gasto fiscal excepcionalmente grande fue el principal impulsor que convirtió una pérdida antes de impuestos de $ 507 millones en una pérdida neta de operaciones continuas de $ 19.571 millones, lo que lo convierte en la anomalía más impactante en el conjunto de datos para ese año."
+      ]
+    ],
+    "evidence_cells": [
+      "C10",
+      "B11",
+      "C11",
+      "D11",
+      "C12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c8b3934b16_011",
+    "table_id": "finqa_c8b3934b16",
+    "question_type": "value",
+    "question": "¿Cuánto disminuyó la utilidad neta (pérdida) en millones de dólares de 2016 a 2018?",
+    "answer": [
+      [
+        "$414"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "การเปลี่ยนแปลงสุทธิทั้งหมดใน 'หุ้นที่จำหน่ายแล้ว' ที่เกิดจากกิจกรรม 'โครงการซื้อหุ้นคืน' และ 'ออกให้จากการแปลงหนี้' ทั้งหมดรวมกันตลอดทุกปีคือเท่าใด",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "ช่วงปีต่อปี (2008, 2009 หรือ 2010) ใดที่มีการเปลี่ยนแปลงน้อยที่สุดในยอดคงเหลือปลายปีของ 'หุ้นที่ออกจำหน่าย'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "ระบุธุรกรรมที่ทำให้ 'จำนวนหุ้นที่จำหน่ายได้แล้ว' เพิ่มขึ้นมากที่สุดเพียงรายการเดียว จากนั้นคำนวณอัตราส่วนของหุ้น 'ในคลัง' ต่อมูลค่า 'จำนวนหุ้นที่จำหน่ายได้แล้ว' ของรายการนั้น",
+    "answer": [
+      [
+        "ธุรกรรมคือ 'การซื้อกิจการ Smith International Inc.' อัตราส่วนคือประมาณ 0.432 (76 / 176)"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "อธิบายแนวโน้มโดยรวมของยอดคงเหลือหุ้น 'ในคลัง' ตั้งแต่ต้นปี 2551 ถึงสิ้นปี 2553",
+    "answer": [
+      [
+        "จำนวนหุ้น 'ในคลัง' แสดงแนวโน้มที่ผันผวนแต่โดยรวมลดลง (กลายเป็นตัวเลขติดลบที่น้อยลง) เริ่มต้นที่ -138 ลดลงเล็กน้อยเป็น -140 ในปี 2551 ฟื้นตัวเล็กน้อยเป็น -139 ในปี 2552 และลดลงอย่างมากเป็น -73 เมื่อสิ้นสุดปี 2553 ส่วนใหญ่เกิดจากหุ้นที่เกี่ยวข้องกับการเข้าซื้อกิจการ Smith International Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "ระบุรายการกิจกรรมทั้งหมดที่เกิดขึ้นในปี 2008 (ระหว่างยอดคงเหลือ ณ วันที่ 1 มกราคม และ 31 ธันวาคม) ซึ่งมีผลกระทบเชิงบวกต่อจำนวน 'หุ้นที่ออกจำหน่าย'",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "สัดส่วนเท่าใดของยอดคงเหลือ 'หุ้นที่ออกจำหน่าย' ณ วันที่ 31 ธันวาคม 2553 ที่เพิ่มขึ้นจากการทำธุรกรรม 'การเข้าซื้อกิจการ Smith International Inc.'?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "หากการเข้าซื้อกิจการของ Smith International Inc. ไม่ได้เกิดขึ้นในปี 2010 ยอดคงเหลือ ณ สิ้นปีสำหรับ 'หุ้นที่จำหน่ายแล้ว' ในวันที่ 31 ธันวาคม 2010 จะเป็นเท่าใด โดยสมมติว่าธุรกรรมอื่นๆ ทั้งหมดเหมือนเดิม?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "มีความสัมพันธ์ที่สังเกตได้ระหว่างจำนวนหุ้นที่ออกให้กับผู้รับสิทธิ (optionees) กับจำนวนหุ้นที่ออกภายใต้แผนซื้อหุ้นสำหรับพนักงานในปีที่นำเสนอหรือไม่? โปรดอธิบาย",
+    "answer": [
+      [
+        "ไม่มีความสัมพันธ์ที่สอดคล้องกัน ในปี 2551 มีการขายหุ้นให้กับผู้รับสิทธิมากกว่า (5) เมื่อเทียบกับที่ออกภายใต้แผนการซื้อ (2) ในปี 2552 จำนวนเท่ากัน (4 และ 4) ในปี 2553 มีการขายหุ้นให้กับผู้รับสิทธิมากกว่า (6) เมื่อเทียบกับที่ออกภายใต้แผนการซื้อ (3) อัตราส่วนระหว่างทั้งสองแตกต่างกันไปในแต่ละปี ซึ่งบ่งชี้ว่าไม่มีความสัมพันธ์โดยตรง"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "ยกเว้นแถวยอดคงเหลือ คอลัมน์ใด 'issued', 'in treasury' หรือ 'shares outstanding' ที่มีการป้อนข้อมูลที่ไม่ใช่ตัวเลขหรือไม่สอดคล้องกันมากที่สุด?",
+    "answer": [
+      [
+        "คอลัมน์ 'issued' มีความไม่สอดคล้องกันมากที่สุด ในขณะที่คอลัมน์อื่น ๆ มีค่าตัวเลข (หรือรูปแบบที่สอดคล้องกันสำหรับค่าลบ) คอลัมน์ 'issued' มีการผสมผสานระหว่างตัวเลขที่ดูเหมือนจะแสดงยอดคงเหลือ ('1334', '1434', '100') และค่า '2013' ที่ซ้ำกันซึ่งดูเหมือนจะไม่สอดคล้องกับปริมาณสำหรับธุรกรรมที่ระบุไว้"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "รายการธุรกรรมใดที่มีผลกระทบเชิงบวกมากที่สุดต่อยอดคงเหลือ 'หุ้นที่จำหน่ายได้แล้ว' เมื่อเทียบกับผลกระทบของธุรกรรมอื่น ๆ ที่เป็นค่ามัธยฐาน?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "อัตราส่วนของหุ้นที่ถืออยู่ในคลังต่อหุ้นที่ยังไม่ได้ไถ่ถอนในโครงการซื้อหุ้นคืนตลอดหลายปีคือเท่าใด?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

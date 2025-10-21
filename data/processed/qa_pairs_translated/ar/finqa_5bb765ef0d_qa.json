@@ -1,0 +1,276 @@
+[
+  {
+    "question_id": "finqa_5bb765ef0d_001",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "أي فئة إقليمية أصلية نتج عنها أعلى عدد من الأسهم بعد التحويل للتسوية؟",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_002",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "ما هو العدد الإجمالي لأسهم 'class c ( series i )' التي تم إنشاؤها بعد التسوية من جميع الفئات الإقليمية المساهمة؟",
+    "answer": [
+      [
+        "284160835"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B7",
+      "E7",
+      "B8",
+      "E8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_003",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "أي فئة إقليمية شهدت أكبر فرق مطلق بين عدد أسهمها قبل التسوية وبعدها؟",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "E1",
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4",
+      "A5",
+      "C5",
+      "E5",
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7",
+      "A8",
+      "C8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_004",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "اذكر جميع الفئات الإقليمية التي زاد عدد أسهمها نتيجة لإعادة التنظيم وعملية التسوية.",
+    "answer": [
+      [
+        "class ap"
+      ],
+      [
+        "class lac"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "D6",
+      "A7",
+      "D7"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_005",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "أي فئة إقليمية كان لديها أقل نسبة تحويل تسوية، مما يشير إلى أكبر انخفاض نسبي في الأسهم؟",
+    "answer": [
+      [
+        "class usa ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6",
+      "A7",
+      "D7",
+      "A8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_006",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "ما هي النسبة المئوية من إجمالي الأسهم الأولية (المصدرة في إعادة التنظيم) التي مثلتها 'class usa ( 1 )'؟",
+    "answer": [
+      [
+        "55.01%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_007",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "من بين الفئات الإقليمية التي تم تحويلها إلى 'الفئة ج (السلسلة الأولى)'، اذكر جميع الفئات التي كان لديها نسبة تحويل تعديل أقل من 1.0.",
+    "answer": [
+      [
+        "class canada"
+      ],
+      [
+        "class cemea"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "D5",
+      "A8",
+      "B8",
+      "D8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_008",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "إذا تم تغيير نسبة التحويل للتسوية لفئة \"كندا\" إلى 1.1، فما هو العدد الجديد للأسهم المحولة لتلك الفئة المحددة؟",
+    "answer": [
+      [
+        "24238154"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_009",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "open_ended_reasoning",
+    "question": "هل هناك علاقة واضحة بين العدد الأولي للأسهم في فئة إقليمية ونسبة تحويل الضبط؟ اشرح اكتشافك.",
+    "answer": [
+      [
+        "لا توجد علاقة واضحة ظاهرة في البيانات. على سبيل المثال، الفئة التي بها أكبر عدد من الأسهم الأولية، 'class usa ( 1 )' (426 مليون)، لديها نسبة تحويل أقل من 1.0 (0.93870)، مما أدى إلى انخفاض. في المقابل، 'class ap'، التي بها ثاني أعلى عدد أسهم أولي (119 مليون)، لديها أعلى نسبة تحويل (1.19043)، مما أدى إلى زيادة. الفئات الأصغر مثل سلسلة 'class eu' لديها نسبة ثابتة تبلغ 1.0. هذا النقص في الاتجاه المتسق يشير إلى أن نسبة التحويل تحددها عوامل أخرى غير الحجم الأولي للأسهم."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "C2",
+      "D2",
+      "C3",
+      "D3",
+      "C4",
+      "D4",
+      "C5",
+      "D5",
+      "C6",
+      "D6",
+      "C7",
+      "D7",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_010",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "value",
+    "question": "في أي فئة وفئة تحويل واحدة تم دمج الفئات الإقليمية الأكثر عددًا؟",
+    "answer": [
+      [
+        "class c ( series i )"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5bb765ef0d_011",
+    "table_id": "finqa_5bb765ef0d",
+    "question_type": "open_ended_reasoning",
+    "question": "أي فئة إقليمية شهدت زيادة أكبر بعد التسوية بين فئة AP أو فئة LAC؟",
+    "answer": [
+      [
+        "شهدت فئة AP زيادة أكبر، حيث ارتفعت من 119,100,481 إلى 141,780,635 سهماً، بينما زادت فئة LAC من 80,137,915 إلى 85,835,549 سهماً."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "E6",
+      "A7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

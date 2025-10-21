@@ -1,0 +1,337 @@
+[
+  {
+    "question_id": "finqa_5cb58477e2_001",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Quel est le nombre total de chambres dans tous les hôtels situés en Floride ?",
+    "answer": [
+      [
+        "3537"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5",
+      "A9",
+      "B9",
+      "A12",
+      "B12",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_002",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Quel hôtel 'détenu' a le moins de chambres ?",
+    "answer": [
+      [
+        "loews hotel vogue montreal canada"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A9",
+      "B9",
+      "C9",
+      "A11",
+      "B11",
+      "C11",
+      "A16",
+      "B16",
+      "C16",
+      "A18",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_003",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Quel est le nombre moyen de chambres pour les hôtels fonctionnant sous un accord de 'bail foncier' ?",
+    "answer": [
+      [
+        "398.33"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B7",
+      "C7",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_004",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Quel hôtel a le bail ou le contrat de gestion avec l'année d'expiration la plus ancienne mentionnée dans les données ?",
+    "answer": [
+      [
+        "loews regency hotel new york new york"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A7",
+      "C7",
+      "A8",
+      "C8",
+      "A10",
+      "C10",
+      "A13",
+      "C13",
+      "A15",
+      "C15",
+      "A17",
+      "C17"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_005",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Listez les noms de tous les hôtels situés à Orlando qui ont plus de 700 chambres et sont exploités sous contrat de gestion.",
+    "answer": [
+      [
+        "loews portofino bay hotel at universal orlando orlando florida"
+      ],
+      [
+        "loews royal pacific resort at universal orlando orlando florida"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_006",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Quel pourcentage des chambres du portefeuille total se trouve dans le seul hôtel qui en possède le plus ?",
+    "answer": [
+      [
+        "12.48%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_007",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Si tous les hôtels ayant des contrats de 'bail emphytéotique' étaient convertis en statut 'propriété', et si une expansion de 10 % des chambres était effectuée sur ceux-ci, quel serait le nouveau nombre total de chambres pour la catégorie 'propriété' ?",
+    "answer": [
+      [
+        "3581"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B7",
+      "C7",
+      "B9",
+      "C9",
+      "B11",
+      "C11",
+      "B13",
+      "C13",
+      "B16",
+      "C16",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_008",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Y a-t-il une relation observable entre le modèle de propriété de l'hôtel et sa taille ? Justifiez votre réponse.",
+    "answer": [
+      [
+        "Oui, il existe une relation observable. Les hôtels sous 'contrat de gestion' ont tendance à être nettement plus grands en moyenne (environ 513 chambres) que les hôtels 'possédés' (environ 377 chambres) et ceux sous 'bail emphytéotique' (environ 398 chambres). Ceci est évident car les trois plus grands hôtels, tous situés à Orlando, sont sous contrats de gestion, suggérant une stratégie de gestion, plutôt que de propriété, des plus grandes propriétés de style complexe."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5",
+      "B6",
+      "C6",
+      "B7",
+      "C7",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10",
+      "B11",
+      "C11",
+      "B12",
+      "C12",
+      "B13",
+      "C13",
+      "B14",
+      "C14",
+      "B15",
+      "C15",
+      "B16",
+      "C16",
+      "B17",
+      "C17",
+      "B18",
+      "C18"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_009",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "La colonne 'owned leased or managed' combine une catégorie principale avec des détails supplémentaires et variables. Fournissez un exemple de cellule où cette structure est évidente et listez les informations distinctes.",
+    "answer": [
+      [
+        "La colonne 'owned leased or managed' démontre cette structure. Par exemple, la cellule C13 contient la catégorie principale 'land lease' ainsi que les détails supplémentaires 'expiring 2013 with renewal option for 47 years'."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_010",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel hôtel présente le décalage positif le plus significatif par rapport au nombre moyen de chambres, et selon quel indicateur ?",
+    "answer": [
+      [
+        "Le Loews Royal Pacific Resort est le décalage positif le plus significatif. Avec ses 1000 chambres, il est le plus grand de la liste et représente environ 124 % de plus que la moyenne du portefeuille d'environ 445 chambres, ce qui le rend considérablement plus grand que toute autre propriété."
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_5cb58477e2_011",
+    "table_id": "finqa_5cb58477e2",
+    "question_type": "value",
+    "question": "Combien d'hôtels sont détenus en propriété ?",
+    "answer": [
+      [
+        "6"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A3",
+      "A9",
+      "A11",
+      "A16",
+      "A18",
+      "C1",
+      "C3",
+      "C9",
+      "C11",
+      "C16",
+      "C18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

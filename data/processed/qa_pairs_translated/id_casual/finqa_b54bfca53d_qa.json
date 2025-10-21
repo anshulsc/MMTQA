@@ -1,0 +1,231 @@
+[
+  {
+    "question_id": "finqa_b54bfca53d_001",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Kewajiban kontrak mana, selain total, yang punya jumlah tertinggi buat periode '1-3 tahun'?",
+    "answer": [
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_002",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Dengan menjumlahkan pembayaran untuk setiap kewajiban individu, benarkan total keseluruhan untuk periode '1-3 tahun' yang tercantum di baris 'total pembayaran atas kewajiban kontraktual' itu akurat?",
+    "answer": [
+      [
+        "Ya, total keseluruhannya akurat. Jumlah kewajiban individu untuk periode '1-3 tahun' adalah $188,3 + $316,4 + $37,1 + $3779,4, yang sama dengan $4321,2, sesuai dengan nilai di baris total."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_003",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Buat kewajiban kontraktual dengan jumlah pembayaran total terkecil, berapa persentase dari totalnya yang jatuh tempo dalam periode '1-3 tahun'?",
+    "answer": [
+      [
+        "39.81%"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2",
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_004",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Gimana jadwal pembayarannya buat 'utang jangka panjang termasuk sewa modal' di tiap periode waktu yang ditentukan? Apakah pembayarannya di awal, di akhir, atau merata?",
+    "answer": [
+      [
+        "Jadwal pembayaran utang jangka panjangnya itu lebih banyak di akhir. Pembayarannya mulai kecil di angka $34,5 juta ('kurang dari 1 tahun'), terus naik bertahap di periode 1-3 tahun dan 3-5 tahun, puncaknya di pembayaran yang super gede sebesar $2160,2 juta di periode 'lebih dari 5 tahun', yang mana itu lebih dari 78% dari total kewajiban."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_005",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Sebutin semua kategori kewajiban di mana pembayaran yang jatuh tempo 'kurang dari 1 tahun' lebih sedikit daripada pembayaran yang jatuh tempo '1-3 tahun'.",
+    "answer": [
+      [
+        "long-term debt including capital leases"
+      ],
+      [
+        "interest payments on long-term debt ( b )"
+      ],
+      [
+        "operating leases"
+      ],
+      [
+        "purchase obligations ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "D1",
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3",
+      "A4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_006",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Berapa persen utang jangka panjang termasuk lease modal yang dijadwalkan dibayar lebih dari 5 tahun?",
+    "answer": [
+      [
+        "78.55%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_007",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Kalau ada kebijakan baru yang mewajibkan semua 'kewajiban pembelian' yang jatuh tempo dalam '1-3 tahun' dibayar segera (dalam periode 'kurang dari 1 tahun'), berapa total baru untuk pembayaran 'kurang dari 1 tahun' atas kewajiban kontrak?",
+    "answer": [
+      [
+        "$6715.0 million"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_008",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabel ini punya masalah integritas data di mana jumlah pembayaran periodik untuk satu jenis kewajiban nggak sesuai sama totalnya. Coba tunjukkin kewajiban itu dan hitung selisihnya.",
+    "answer": [
+      [
+        "Baris 'purchase obligations ( c )' punya masalah integritas data. Jumlah pembayaran periodiknya ($2709.5 + $3779.4 + $98.0 + $2212 = $8798.9 juta) nggak sama sama totalnya yang tertulis yaitu $6586.9 juta. Selisihnya adalah $2212 juta."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_009",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Kalau dilihat dari periode pembayaran '3-5 tahun', kewajiban kontraktual mana yang nilainya paling rendah dan bisa dianggap beda sendiri dibanding yang lain di kolom yang sama?",
+    "answer": [
+      [
+        "operating leases"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_010",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "open_ended_reasoning",
+    "question": "Apa ada hubungan yang konsisten antara besarnya total kewajiban sama struktur pembayarannya (misalnya, apakah kewajiban yang lebih besar selalu lebih banyak dibayar di akhir)? Jelaskan jawabanmu pakai data.",
+    "answer": [
+      [
+        "Nggak, nggak ada hubungan yang konsisten. Kewajiban total yang paling besar, 'purchase obligations' (kewajiban pembelian) sebesar $6586.9 juta, itu lebih banyak dibayar di awal (front-loaded), mayoritas jatuh tempo dalam 3 tahun. Sebaliknya, yang terbesar kedua, 'long-term debt' (utang jangka panjang) sebesar $2750.1 juta, itu lebih banyak dibayar di akhir (back-loaded), dengan pembayaran terbesar jatuh tempo lebih dari 5 tahun. Ini nunjukin kalo struktur pembayarannya spesifik buat jenis kewajibannya, bukan cuma liat total nilainya."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A4",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_b54bfca53d_011",
+    "table_id": "finqa_b54bfca53d",
+    "question_type": "value",
+    "question": "Berapa total pembayaran dalam jutaan untuk kewajiban kontraktual yang jatuh tempo dalam periode 1-3 tahun?",
+    "answer": [
+      [
+        "$4321.2"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "D5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

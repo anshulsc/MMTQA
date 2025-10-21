@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_9d76f2617f_001",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Qual è stato l'aumento totale delle 'azioni in circolazione' derivante dal 'piano di acquisto di azioni per dipendenti' nell'intero periodo mostrato?",
+    "answer": [
+      [
+        "6894763"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_002",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "In quale anno (2001, 2002 o 2003) il 'shares sold to optionees' ha contribuito maggiormente all'aumento di 'shares outstanding'?",
+    "answer": [
+      [
+        "2002"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "D4",
+      "A5",
+      "A8",
+      "D8",
+      "A10",
+      "A13",
+      "D13",
+      "A14"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_003",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento delle azioni della società detenute in tesoreria dall'inizio del 2001 alla fine del 2003, basandoti sui report di bilancio.",
+    "answer": [
+      [
+        "Il numero di azioni detenute in tesoreria è diminuito costantemente anno dopo anno. Il saldo è sceso da circa 94,4 milioni all'inizio del 2001 a 91,2 milioni alla fine del 2001, poi a 84,9 milioni alla fine del 2002 e infine a 81,2 milioni alla fine del 2003. Ciò indica che la società stava riemettendo azioni dal proprio portafoglio (ad esempio, per piani e opzioni per dipendenti) più velocemente di quanto le stesse riacquistando."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C10",
+      "C14"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_004",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Qual è stata la variazione netta delle 'azioni in circolazione' durante l'intero anno solare che ha incluso l'acquisizione di Technoguide?",
+    "answer": [
+      [
+        "6282717"
+      ]
+    ],
+    "evidence_cells": [
+      "A9",
+      "D5",
+      "D10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_005",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Elenca tutti i tipi di transazioni, escluse le voci di saldo, che hanno comportato un aumento di 'azioni in circolazione' superiori a 2.000.000 di azioni.",
+    "answer": [
+      [
+        "employee stock purchase plan"
+      ],
+      [
+        "shares sold to optionees"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A4",
+      "D4",
+      "A6",
+      "D6",
+      "A8",
+      "D8",
+      "A9",
+      "D9",
+      "A11",
+      "D11",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_006",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Quale percentuale dell'aumento totale delle 'azioni in circolazione' per l'anno 2002 è attribuibile all''acquisizione di technoguide'?",
+    "answer": [
+      [
+        "21.45%"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D9",
+      "D10"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_007",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Se il 'piano di acquisto di azioni per i dipendenti' nel 2002 avesse comportato 1.000.000 di azioni in meno aggiunte al conteggio delle azioni in circolazione, quale sarebbe stato il 'saldo al 31 dicembre 2002' per le 'azioni in circolazione'?",
+    "answer": [
+      [
+        "581173115"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_008",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "value",
+    "question": "Quale transazione tra i bilanci annuali rappresenta un valore anomalo per il suo impatto minimo su 'azioni in circolazione', e quale è stato tale impatto?",
+    "answer": [
+      [
+        "shares granted to directors",
+        "3500"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A12",
+      "D12"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_009",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Per gli eventi 'shares sold to optionees', qual è la relazione matematica consistente tra le colonne 'issued', 'in treasury' e 'shares outstanding'?",
+    "answer": [
+      [
+        "Per tutte le transazioni di 'shares sold to optionees', il valore nella colonna 'shares outstanding' è la somma dei valori nelle colonne 'issued' e 'in treasury'. Ciò implica che le azioni per gli optionees sono state reperite sia da una nuova emissione sia dalle azioni proprie esistenti della società."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "B8",
+      "C8",
+      "D8",
+      "B13",
+      "C13",
+      "D13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_010",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "La colonna 'issued' contiene il valore '2013' per diverse tipologie di transazione in cui il valore 'in treasury' è non zero. Cosa suggerisce questo riguardo alla fonte delle azioni per queste transazioni?",
+    "answer": [
+      [
+        "In ogni riga in cui la colonna 'issued' mostra '2013', il valore 'in treasury' è identico al valore 'shares outstanding'. Ciò indica che per queste transazioni (ad esempio, 'employee stock purchase plan', 'acquisition of technoguide'), tutte le azioni provenivano dalla tesoreria e nessuna nuova azione è stata effettivamente emessa. Il numero '2013' è probabilmente un segnaposto, un identificatore o un errore nei dati, non una quantità di azioni emesse."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B3",
+      "C3",
+      "D3",
+      "B6",
+      "C6",
+      "D6",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_9d76f2617f_011",
+    "table_id": "finqa_9d76f2617f",
+    "question_type": "open_ended_reasoning",
+    "question": "Come sono variate le azioni in circolazione dal saldo del 1° gennaio 2001 al saldo del 31 dicembre 2003, e quali probabili attività hanno contribuito a questa variazione?",
+    "answer": [
+      [
+        "Le azioni in circolazione sono aumentate di 13.223.634 (da 572.724.694 a 585.948.328). Questo aumento sembra essere stato guidato da emissioni di azioni come l'esercizio di opzioni e l'attività del piano di acquisto per dipendenti (diverse voci 'azioni vendute a optionees' e 'employee stock purchase plan'), un'emissione correlata all'acquisizione (Technoguide) e una riduzione netta delle azioni proprie — aumentando collettivamente il numero di azioni in circolazione."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "C1",
+      "A14",
+      "D14",
+      "C14",
+      "A4",
+      "B4",
+      "A8",
+      "B8",
+      "A9",
+      "C9"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

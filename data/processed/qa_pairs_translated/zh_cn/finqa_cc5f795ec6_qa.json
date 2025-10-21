@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_cc5f795ec6_001",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "哪项活动对“所有者权益”的负面影响更大：“股息”还是“普通股回购”？",
+    "answer": [
+      [
+        "dividends"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "K4",
+      "A6",
+      "K6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_002",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "从2011年到2012年资产负债表日期之间，所有列出的活动对“实收资本”的净变动是多少？",
+    "answer": [
+      [
+        "590"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "D11",
+      "D13"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_003",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "涉及实收资本增加662美元的交易，对总股本的影响是多少？",
+    "answer": [
+      [
+        "1147"
+      ]
+    ],
+    "evidence_cells": [
+      "D5",
+      "K5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_004",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "分析从2011年12月31日到2012年12月31日“总权益”的变化，并找出导致这一变化的主要原因。",
+    "answer": [
+      [
+        "总权益从70,078美元减少到65,428美元，净减少4,650美元。尽管有几个促成因素，但导致这一减少的最大单一因素是“重新分类为可赎回非控制权益”，仅这一项就造成了4,288美元的负面影响，占总净减少额的92%以上。"
+      ]
+    ],
+    "evidence_cells": [
+      "K1",
+      "K14",
+      "A12",
+      "K12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_005",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "列出所有导致“实收资本”减少但未影响“留存收益”的金融活动。",
+    "answer": [
+      [
+        "purchase of additional stake in the wealth management joint venture"
+      ]
+    ],
+    "evidence_cells": [
+      "A11",
+      "D11",
+      "E11"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_006",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "截至2011年12月31日的期初“留存收益”中，有多少百分比在该期间作为“股息”支付了出去？",
+    "answer": [
+      [
+        "-1.23%"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_007",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "如果“外币换算调整”对总股本产生中性影响（即零影响），那么2012年12月31日的期末总股本余额会是多少？",
+    "answer": [
+      [
+        "65681"
+      ]
+    ],
+    "evidence_cells": [
+      "K9",
+      "K14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_008",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "open_ended_reasoning",
+    "question": "根据期初和期末余额，以及“根据员工计划发行的股票”的交易行，请问“员工持股信托”和“发行给员工信托的普通股”之间有什么关系？",
+    "answer": [
+      [
+        "两者之间存在持续的逆向关系。“发行给员工信托的普通股”列中的数值始终与任何给定行中“员工持股信托”列中的数值互为相反数（例如，期初余额中的3166美元与-3166美元；发行的股票中的-234美元与234美元）。这表明它们互为对销账户，旨在平衡它们在总权益计算中的影响。"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "I1",
+      "F5",
+      "I5",
+      "F14",
+      "I14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_009",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "排除描述余额的第一行和最后一行，在数据集的B列到K列中，最常出现的值是什么？",
+    "answer": [
+      [
+        "2014"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "F2",
+      "G2",
+      "H2",
+      "I2",
+      "J2",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "I3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_010",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "在所有影响“总股本”的交易中，哪一项是最大的负面异常值？",
+    "answer": [
+      [
+        "reclassification to redeemable noncontrolling interests"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "K12",
+      "K2",
+      "K3",
+      "K4",
+      "K5",
+      "K6",
+      "K7",
+      "K8",
+      "K9",
+      "K10",
+      "K11",
+      "K13"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_cc5f795ec6_011",
+    "table_id": "finqa_cc5f795ec6",
+    "question_type": "value",
+    "question": "截至2012年12月31日，优先股总额是多少？",
+    "answer": [
+      [
+        "$1508"
+      ]
+    ],
+    "evidence_cells": [
+      "A16",
+      "B16"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

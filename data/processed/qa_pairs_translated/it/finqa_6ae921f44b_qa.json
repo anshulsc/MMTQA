@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Quale categoria finanziaria ha registrato la maggiore perdita assoluta come parte del 'reddito (perdita) complessivo diverso prima delle riclassificazioni'?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Qual è stato il totale combinato di tutti gli 'importi riclassificati dalla perdita complessiva diversa' per le singole categorie?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Qual era il saldo iniziale al 3 novembre 2018 per la componente che aveva il valore assoluto più piccolo come saldo finale al 2 novembre 2019?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento generale della perdita totale accumulata al lordo delle imposte dall'inizio alla fine del periodo.",
+    "answer": [
+      [
+        "La perdita totale accumulata è peggiorata significativamente durante il periodo, aumentando da -58.440 a -187.799 dollari. Ciò rappresenta un'ulteriore perdita netta di 129.359 dollari, più che triplicando la perdita accumulata dall'inizio del periodo."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Per tutte le categorie che hanno registrato una perdita netta in 'altri proventi (perdite) complessivi', qual è stato il loro totale combinato al 2 novembre 2019?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Quale percentuale del saldo negativo totale del 2 novembre 2019 è attribuibile ai 'profitti (perdite) latenti su strumenti derivati'?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Se l'\"altro reddito complessivo (perdita)\" per i \"piani pensionistici\" fosse stato un guadagno di 24.344 invece di una perdita, quale sarebbe stato il nuovo saldo totale finale il 2 novembre 2019?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una relazione coerente tra il segno (positivo/negativo) di 'altro risultato complessivo (perdita) prima delle riclassificazioni' e il segno del 'altro risultato complessivo (perdita)' finale per ciascuna categoria?",
+    "answer": [
+      [
+        "Sì, la relazione è coerente in tutte e quattro le categorie. Per 'valuta estera', 'derivati' e 'fondi pensione', i valori sono negativi in entrambe le voci. Per 'titoli disponibili per la vendita', i valori sono positivi in entrambe le voci. Pertanto, il segno del reddito prima delle riclassificazioni corrisponde costantemente al segno del reddito complessivo netto finale per il periodo."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Quale voce specifica, escludendo i totali, rappresenta il valore più estremo (cioè il valore assoluto più grande) nella tabella?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Utilizzando la logica di roll-forward dove Saldo Finale = Saldo Iniziale + 'altro provento (perdita) complessivo', identifica la categoria finanziaria i cui valori riportati sono matematicamente incoerenti.",
+    "answer": [
+      [
+        "La categoria 'plusvalenze (perdite) non realizzate su titoli disponibili per la vendita' è incoerente. Il suo saldo iniziale di -10 (cella C1) più il suo 'altro provento (perdita) complessivo' di 10 (cella C5) risulta in un saldo finale calcolato di 0, che non corrisponde al saldo finale riportato di 2.014 (cella C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Quanto sono diminuiti i piani pensionistici dal 2018 al 2019?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

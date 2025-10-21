@@ -1,0 +1,327 @@
+[
+  {
+    "question_id": "wikisql_8b96942a10_001",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "¿Cuál fue el promedio de audiencia, en millones, de todos los episodios dirigidos por la persona que dirigió la mayor cantidad de episodios en esta lista?",
+    "answer": [
+      [
+        "14.162"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D20",
+      "D21",
+      "H2",
+      "H6",
+      "H9",
+      "H14",
+      "H16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_002",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cuál fue la tendencia de audiencia para los episodios emitidos en noviembre de 2004?",
+    "answer": [
+      [
+        "La audiencia en noviembre de 2004 mostró una tendencia positiva significativa. Comenzó con 14.30 millones para \"Conscience\" el 9 de noviembre, saltó al pico de la temporada de 16.38 millones para \"Charisma\" el 16 de noviembre, y luego se estabilizó en un nivel alto con 15.20 millones para \"Doubt\" y 15.30 millones para \"Weak\" en las semanas siguientes. En general, fue un período de audiencia muy fuerte."
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "H6",
+      "F7",
+      "H7",
+      "F8",
+      "H8",
+      "F9",
+      "H9"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_003",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "¿Qué episodio tiene la audiencia más significativa como valor atípico negativo en comparación con la audiencia promedio de todos los episodios listados?",
+    "answer": [
+      [
+        "\"Intoxicated\""
+      ]
+    ],
+    "evidence_cells": [
+      "C19",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H14",
+      "H15",
+      "H16",
+      "H17",
+      "H18",
+      "H19",
+      "H20",
+      "H21"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_004",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "Enumera los títulos de todos los episodios escritos o coescritos por 'Amanda Green' que se emitieron en 2004.",
+    "answer": [
+      [
+        "\"Debt\"",
+        "\"Haunted\""
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "E2",
+      "F2",
+      "C10",
+      "E10",
+      "F10",
+      "C16",
+      "E16",
+      "F16"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_005",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "¿Cuál fue el número total de espectadores en EE.UU. (en millones) para todos los episodios que se emitieron en 2005?",
+    "answer": [
+      [
+        "156.22"
+      ]
+    ],
+    "evidence_cells": [
+      "F11",
+      "H11",
+      "F12",
+      "H12",
+      "F13",
+      "H13",
+      "F14",
+      "H14",
+      "F15",
+      "H15",
+      "F16",
+      "H16",
+      "F17",
+      "H17",
+      "F18",
+      "H18",
+      "F19",
+      "H19",
+      "F20",
+      "H20",
+      "F21",
+      "H21"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_006",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de la audiencia total de todos los episodios listados provino de los tres episodios más vistos?",
+    "answer": [
+      [
+        "16.27%"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H14",
+      "H15",
+      "H16",
+      "H17",
+      "H18",
+      "H19",
+      "H20",
+      "H21"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_007",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "¿Si la audiencia de 'Intoxicated' hubiera sido el promedio de los dos episodios que se emitieron inmediatamente antes y después de él, ¿cuál sería su nueva cifra de audiencia?",
+    "answer": [
+      [
+        "14.615"
+      ]
+    ],
+    "evidence_cells": [
+      "C19",
+      "F18",
+      "H18",
+      "F20",
+      "H20"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_008",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "¿Qué director, Arthur W. Forney o Juan J. Campanella, tuvo una audiencia promedio más alta para los episodios que dirigieron en esta lista?",
+    "answer": [
+      [
+        "Arthur W. Forney"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "H1",
+      "D7",
+      "H7",
+      "D10",
+      "H10",
+      "D17",
+      "H17"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_009",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe una relación constante entre la fecha de emisión cronológica y la secuencia del código de producción? Identifica cualquier excepción notable.",
+    "answer": [
+      [
+        "Generalmente, existe una relación constante en la que una fecha de emisión posterior se corresponde con un número de código de producción más alto. Sin embargo, hay varias excepciones notables. Por ejemplo, 'Outcry' (E5202) se emitió después de 'Scavenger' (E5207), 'Charisma' (E5206) se emitió antes que 'Conscience' (E5208), y lo más importante, 'Parts' (E5204) tiene un código de producción muy temprano pero fue el último episodio en emitirse en esta lista."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "G1",
+      "F2",
+      "G2",
+      "F3",
+      "G3",
+      "F4",
+      "G4",
+      "F5",
+      "G5",
+      "F6",
+      "G6",
+      "F7",
+      "G7",
+      "F8",
+      "G8",
+      "F9",
+      "G9",
+      "F10",
+      "G10",
+      "F11",
+      "G11",
+      "F12",
+      "G12",
+      "F13",
+      "G13",
+      "F14",
+      "G14",
+      "F15",
+      "G15",
+      "F16",
+      "G16",
+      "F17",
+      "G17",
+      "F18",
+      "G18",
+      "F19",
+      "G19",
+      "F20",
+      "G20",
+      "F21",
+      "G21"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_010",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Existe una correlación observable entre un equipo de escritura específico y el rendimiento de audiencia? Analiza el rendimiento de los episodios escritos por 'Michele Fazekas & Tara Butters'.",
+    "answer": [
+      [
+        "El equipo de guionistas 'Michele Fazekas & Tara Butters' muestra un rendimiento variado pero sólido. Escribieron tres episodios: 'Charisma', que logró la mayor audiencia de la temporada con 16,38 millones, 'Weak', que tuvo una fuerte audiencia de 15,30 millones, y 'Rage', que tuvo una audiencia por debajo del promedio de 12,29 millones. Aunque no es uniformemente alta, su trabajo incluye el pico de la temporada, lo que sugiere una capacidad para producir episodios muy populares, incluso si existe cierta variación."
+      ]
+    ],
+    "evidence_cells": [
+      "E7",
+      "H7",
+      "E9",
+      "H9",
+      "E17",
+      "H17"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_8b96942a10_011",
+    "table_id": "wikisql_8b96942a10",
+    "question_type": "value",
+    "question": "¿Qué episodio tuvo la mayor audiencia en esta lista?",
+    "answer": [
+      [
+        "123"
+      ]
+    ],
+    "evidence_cells": [
+      "H1-H22"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

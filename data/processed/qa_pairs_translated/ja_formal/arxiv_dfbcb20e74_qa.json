@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "どのモデルの主数式には、無リスク金利の構成要素が明示的に含まれていますか？",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Zスコアモデルの数式で入力として使用される、一意の「X」変数の合計数はいくつですか？",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "'総資産'を分母とする説明パラメータが少なくとも3つ含まれるモデルを特定し、そのモデルの中から'株主資本の時価総額'対'総負債'の比率を表すパラメータを述べてください。",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "'t'時点での測定値として明示的に定義されているパラメータを組み込んでいるモデルはどれですか？",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "分析目標が二項結果（y=1）の確率を決定することである場合、表に記載されているモデルの中で最も適切な選択肢はどれですか？",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Zスコアモデルにおいて、「金利および税引前利益/総資産比率」を表す変数の重み（係数）はいくつで、他の変数と比較してどのように位置づけられますか？",
+    "answer": [
+      [
+        "X3（金利および税引前利益/総資産比率）の係数は3.3です。これは5つの変数の中で最も高い重みであり、X1（1.2）、X2（1.4）、X4（0.6）、X5（0.99）のような変数と比較して、最終的なZスコアに最も大きな影響を与えることを示唆しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Zスコアモデルの更新版で「運転資本/総資産比率」の影響が50%削減された場合、X1の新しい係数はいくつになりますか？",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Zスコアモデルの数式に基づくと、企業の総売上高総資産比率とその結果のZスコアとの間にはどのような関係が推測されますか？",
+    "answer": [
+      [
+        "総売上高総資産比率（X5）とZスコアの間には正の相関関係があります。数式によれば、Zスコアは5つの比率の加重合計であり、X5の係数は正（0.99）です。したがって、他のすべての要因を一定に保った場合、総売上高総資産比率の増加は、Zスコアの上昇につながります。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "第3列で説明されている、最も多くの異なるパラメータを含むモデルの説明はどれですか？",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Z-scoreモデルの数式における係数を確認すると、他と比較して外れ値となっている係数はどれでしょうか？",
+    "answer": [
+      [
+        "変数X3に対する係数3.3は顕著な外れ値です。数式中の他の係数は1.2、1.4、0.6、0.99であり、これらはすべて0.6から1.4の範囲に集まっています。値3.3は、次に高い係数（1.4）の2倍以上であり、残りの係数よりも大幅に大きい値です。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "市場要因および規模/簿価対時価要因の両方を考慮した場合、資産収益率の予測にはどちらのモデルがより適切であり、その理由はなぜでしょうか？",
+    "answer": [
+      [
+        "ファクターモデルがより適切です。なぜなら、このモデルは市場収益率 (r_m - r_f)、規模要因 (SMB)、および簿価対時価要因 (HML) を明示的に組み込んでおり、ロジスティック回帰モデルやZスコアモデルでは考慮されていない資産収益率の変動の複数の側面を捉えることができるためです。"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

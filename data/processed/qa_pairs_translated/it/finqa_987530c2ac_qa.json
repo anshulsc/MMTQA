@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_987530c2ac_001",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "In quale anno l'azienda ha registrato la minore perdita pro-forma?",
+    "answer": [
+      [
+        "2004"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_002",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Qual è stata la perdita netta cumulativa 'come riportato' per gli anni 2002, 2003 e 2004 combinati?",
+    "answer": [
+      [
+        "-1736448"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_987530c2ac_003",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Per l'anno che ha avuto la maggiore differenza assoluta tra la perdita netta di base 'come riportato' e la 'pro-forma', qual è stata tale differenza?",
+    "answer": [
+      [
+        "0.20"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "C5",
+      "C6",
+      "D5",
+      "D6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_004",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento della 'perdita netta pro-forma' dell'azienda dal 2002 al 2004.",
+    "answer": [
+      [
+        "La perdita netta pro-forma dell'azienda ha mostrato un trend costante e significativo in diminuzione dal 2002 al 2004. La perdita si è ridotta da $1.201.666 nel 2002 a $354.400 nel 2003, e ulteriormente a $269.196 nel 2004, indicando un sostanziale miglioramento della performance finanziaria in questo periodo."
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "C4",
+      "B4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_005",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Qual è stata la 'perdita netta pro-forma' nell'anno in cui 'spese per compensazione dipendenti basata su azioni aggiunte' era 2077?",
+    "answer": [
+      [
+        "$ -354400 ( 354400 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_006",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Nel 2003, quale percentuale della 'perdita netta registrata' rappresentava la 'spesa totale per compensazione ai dipendenti basata su azioni' assoluta?",
+    "answer": [
+      [
+        "9.58%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_987530c2ac_007",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Se la modifica delle 'spese per compensi ai dipendenti basati su azioni' per il 2002 fosse stata di 5.000 invece di un valore mancante, quale sarebbe stata la 'perdita netta pro-forma' ricalcolata per quell'anno?",
+    "answer": [
+      [
+        "-1196666"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D2",
+      "D3",
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_008",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "In base ai dati, qual è la relazione apparente tra la 'spesa totale per compensi ai dipendenti basata su azioni' e la 'perdita netta pro-forma' dal 2002 al 2004?",
+    "answer": [
+      [
+        "Sembra esserci una correlazione positiva tra la magnitudo della 'spesa totale per compensi ai dipendenti basata su azioni' e la 'perdita netta pro-forma'. Poiché la spesa per compensi basati su azioni è diminuita ogni anno da $ 38.126 nel 2002 a $ 23.906 nel 2004, anche la perdita netta pro-forma è diminuita costantemente da $ 1.201.666 a $ 269.196, suggerendo che gli anni con maggiori spese basate su azioni hanno avuto anche maggiori perdite pro-forma."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_987530c2ac_009",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Quale voce finanziaria presenta dati incompleti negli anni presentati nella tabella?",
+    "answer": [
+      [
+        "add : stock-based employee compensation expense associated with modifications net of related tax effect included in net loss asreported"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_987530c2ac_010",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale anno presenta una \"perdita netta di base e diluita per azione riportata\" che può essere considerata un valore anomalo rispetto agli altri anni e perché?",
+    "answer": [
+      [
+        "L'anno 2002 è un chiaro valore anomalo. La sua \"perdita netta di base e diluita per azione riportata\" è stata di $-5,95, che è oltre 3,8 volte maggiore in valore assoluto rispetto ai $-1,56 riportati nel 2003 e oltre 5,4 volte maggiore rispetto ai $-1,10 nel 2004. Il netto calo di questa metrica negli anni successivi evidenzia il 2002 come un anno di perdite per azione eccezionalmente elevate."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_987530c2ac_011",
+    "table_id": "finqa_987530c2ac",
+    "question_type": "value",
+    "question": "Qual è stata la perdita netta pro-forma nel 2003?",
+    "answer": [
+      [
+        "$ -354,400"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

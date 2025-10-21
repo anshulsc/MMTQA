@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "finqa_c9bab52126_001",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "في أي عام بلغ صافي مصروف الفائدة \"interest expense net\" أعلى قيمة له، وما هو هذا المبلغ؟",
+    "answer": [
+      [
+        "2009",
+        "$431.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_002",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "ما هو إجمالي مصروفات \"الإهلاك والاستهلاك\" المسجلة على مدى السنوات الخمس من 2009 إلى 2013؟",
+    "answer": [
+      [
+        "1050.9"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_c9bab52126_003",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "ما هو \"صافي الدخل (الخسارة)\" في السنة التي كان بها أدنى \"إجمالي الأرباح التشغيلية\"؟",
+    "answer": [
+      [
+        "$ -373.4 ( 373.4 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "A1",
+      "F1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_004",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "صف اتجاه \"صافي الدخل (الخسارة)\" من أقدم سنة (2009) إلى أحدث سنة (2013) معروضة في الجدول.",
+    "answer": [
+      [
+        "يُظهر \"صافي الدخل (الخسارة)\" للشركة اتجاهًا إيجابيًا قويًا للانتعاش من عام 2009 إلى عام 2013. بدأت بخسارة كبيرة بلغت 373.4 مليون دولار في عام 2009، والتي انخفضت إلى خسارة أصغر بلغت 29.2 مليون دولار في عام 2010. ثم أصبحت الشركة مربحة، حيث نما صافي الدخل من 17.1 مليون دولار في عام 2011 إلى 119.0 مليون دولار في عام 2012، وأخيرًا إلى 132.8 مليون دولار في عام 2013."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_005",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "اذكر جميع البنود المالية التي كانت قيمتها سالبة في عام 2010 وقيمة إيجابية في عام 2013.",
+    "answer": [
+      [
+        "net income ( loss )"
+      ],
+      [
+        "income tax expense ( benefit )"
+      ],
+      [
+        "net loss ( gain ) on extinguishments of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "E3",
+      "A10",
+      "B10",
+      "E10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_006",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "كم بلغت نسبة 'الإهلاك والاستهلاك' من 'الأرباح قبل خصم الفوائد والضرائب والإهلاك والاستهلاك المعدلة' في عام 2012؟",
+    "answer": [
+      [
+        "27.42%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C14"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_c9bab52126_007",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "إذا كانت 'الرسوم الاستشارية والمهنية المتعلقة بالديون' أقل بنسبة 50% في عام 2010، فماذا كان سيكون 'الأرباح قبل خصم الفوائد والضرائب والاستهلاك والإطفاء المعدلة' لتلك السنة، بافتراض أن هذا التعديل يقلل الإجمالي مباشرة؟",
+    "answer": [
+      [
+        "$594.25"
+      ]
+    ],
+    "evidence_cells": [
+      "E8",
+      "E14"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_008",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على البيانات من عام 2009 إلى عام 2013، ما هي العلاقة بين \"صافي مصروف الفائدة\" و \"الأرباح قبل خصم الفوائد والضرائب والإهلاك والاستهلاك المعدلة\"؟",
+    "answer": [
+      [
+        "هناك ارتباط عكسي قوي بين \"صافي مصروف الفائدة\" و \"الأرباح قبل خصم الفوائد والضرائب والإهلاك والاستهلاك المعدلة\". فبينما انخفض \"صافي مصروف الفائدة\" باستمرار من 431.7 مليون دولار في عام 2009 إلى 250.1 مليون دولار في عام 2013، زادت \"الأرباح قبل خصم الفوائد والضرائب والإهلاك والاستهلاك المعدلة\" باستمرار من 465.4 مليون دولار إلى 808.5 مليون دولار خلال نفس الفترة. يشير هذا إلى أن جهود الشركة لتقليل الديون ومدفوعات الفوائد ساهمت على الأرجح في تحسين ربحيتها الأساسية."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "A14",
+      "B14",
+      "C14",
+      "D14",
+      "E14",
+      "F14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_c9bab52126_009",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "من بين بنود التسويات المالية، بدءاً من 'التعويضات غير النقدية المعتمدة على الأسهم' وانتهاءً بـ 'تسويات أخرى (ii)'، ما هي البنود التي تم الإبلاغ عن قيمة رقمية لها في كل عام من 2009 إلى 2013؟",
+    "answer": [
+      [
+        "non-cash equity-based compensation"
+      ],
+      [
+        "sponsor fees"
+      ],
+      [
+        "consulting and debt-related professional fees"
+      ],
+      [
+        "other adjustments ( ii )"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "B13",
+      "C13",
+      "D13",
+      "E13",
+      "F13"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_c9bab52126_010",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "تبدو 'صافي الخسارة (الربح) من إلغاء الديون طويلة الأجل' لعام 2011 وكأنها قيمة شاذة. كم تزيد هذه القيمة عن القيمة الأعلى التالية المسجلة في السنوات الأخرى؟",
+    "answer": [
+      [
+        "$54.9"
+      ]
+    ],
+    "evidence_cells": [
+      "D10",
+      "B10",
+      "C10",
+      "E10"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_c9bab52126_011",
+    "table_id": "finqa_c9bab52126",
+    "question_type": "value",
+    "question": "أي عام يظهر دخلاً صافياً (خسارة) أقل بشكل غير عادي مقارنة بالسنوات الأخرى؟",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "question_id": "finqa_7a4236b86f_001",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Quale prodotto, Petrolio o NGL, ha registrato un aumento percentuale maggiore nel volume di produzione/vendite dal 2007 al 2008?",
+    "answer": [
+      [
+        "Oil"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_002",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Qual è stato il volume totale di produzione/vendite in 'mbbls' per Petrolio e NGL combinati nel 2008?",
+    "answer": [
+      [
+        "3858.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_003",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Quale anno ha generato maggiori ricavi totali calcolati dalle vendite di petrolio?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_004",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi il trend generale dei prezzi medi realizzati per tutte le singole commodity (Gas, NGL, Petrolio) dal 2007 al 2008.",
+    "answer": [
+      [
+        "I prezzi medi realizzati per tutte le singole commodity elencate hanno mostrato un trend positivo, aumentando dal 2007 al 2008. I prezzi del gas sono aumentati significativamente da $5,95 a $8,25 per mcf, i prezzi del petrolio sono aumentati da $83,37 a $95,26 per bbl e i prezzi degli NGL hanno registrato un leggero aumento da $51,02 a $51,26 per bbl."
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_005",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Elenca tutte le categorie di produzione/vendita in cui il volume nel 2008 è stato più di 2,25 volte il volume nel 2007.",
+    "answer": [
+      [
+        "gas production ( bcf )"
+      ],
+      [
+        "oil production/sales ( mbbls )"
+      ],
+      [
+        "ngl production/sales ( mbbls )"
+      ],
+      [
+        "equivalent production ( bcfe )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_006",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Quale percentuale della 'produzione equivalente (bcfe)' totale nel 2008 era direttamente attribuibile alla 'produzione di gas (bcf)'?",
+    "answer": [
+      [
+        "77.35"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_007",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Se il prezzo medio realizzato per il petrolio nel 2008 fosse stato inferiore del 15%, di quanto (in milioni di dollari) sarebbero diminuite le entrate calcolate dalle vendite di petrolio?",
+    "answer": [
+      [
+        "5019.80"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_008",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizzando le variazioni anno su anno, quale sembra essere la relazione tra i volumi di produzione/vendita e i prezzi medi realizzati per le singole commodity elencate?",
+    "answer": [
+      [
+        "Esiste una correlazione positiva costante per tutte le singole commodity tra il 2007 e il 2008. In ogni caso (Gas, NGL e Petrolio), un aumento significativo del volume di produzione/vendita dal 2007 al 2008 è accompagnato da un aumento del prezzo medio realizzato, suggerendo che una forte domanda di mercato ha probabilmente guidato sia il volume che il prezzo verso l'alto durante questo periodo."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B8",
+      "C8",
+      "B9",
+      "C9",
+      "B10",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_009",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Qual è il testo della riga che funge da sottotitolo e non ha dati numerici associati nelle colonne 2008 e 2007?",
+    "answer": [
+      [
+        "average realized prices without hedging results:"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_010",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Quale categoria di produzione/vendite, comprese le misure 'equivalenti', ha registrato l'aumento relativo più significativo (crescita percentuale) dal 2007 al 2008?",
+    "answer": [
+      [
+        "oil production/sales ( mbbls )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7a4236b86f_011",
+    "table_id": "finqa_7a4236b86f",
+    "question_type": "value",
+    "question": "Qual è stata la produzione combinata totale di petrolio e NGL nel 2008?",
+    "answer": [
+      [
+        "3,858.7 mbbls"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

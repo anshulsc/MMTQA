@@ -1,0 +1,244 @@
+[
+  {
+    "question_id": "finqa_345428c8b4_001",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Qual è stata la variazione netta totale nelle 'azioni in circolazione' risultante da tutte le attività di 'programmi di riacquisto di azioni proprie' e 'emesse per conversione di obbligazioni' combinate in tutti gli anni?",
+    "answer": [
+      [
+        "-36"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "D5",
+      "D10",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_345428c8b4_002",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Quale periodo anno su anno (2008, 2009 o 2010) ha visto la minore variazione assoluta nel saldo di fine anno di 'azioni in circolazione'?",
+    "answer": [
+      [
+        "2009"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D6",
+      "D11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_003",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Identifica la transazione che ha causato il maggiore aumento singolo di 'azioni in circolazione' e quindi calcola il rapporto tra le sue azioni 'in tesoreria' e il suo valore 'azioni in circolazione'.",
+    "answer": [
+      [
+        "La transazione è 'acquisizione di smith international inc.'. Il rapporto è approssimativamente 0,432 (76 / 176)."
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "C12",
+      "D12",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D13",
+      "D14",
+      "D16"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_004",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Descrivi l'andamento generale del saldo delle azioni 'in tesoreria' dall'inizio del 2008 alla fine del 2010.",
+    "answer": [
+      [
+        "Il numero di azioni 'in tesoreria' mostra un andamento fluttuante ma generalmente decrescente (diventando un numero negativo più piccolo). È iniziato a -138, è diminuito leggermente a -140 nel 2008, si è leggermente ripreso a -139 nel 2009, per poi diminuire significativamente a -73 entro la fine del 2010, in gran parte a causa delle azioni associate all'acquisizione di Smith International Inc."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C6",
+      "C11",
+      "C17",
+      "A12",
+      "C12"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_005",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Elenca tutte le attività che si sono verificate nel 2008 (tra i saldi del 1° gennaio e del 31 dicembre) che hanno avuto un impatto positivo sul numero di 'azioni in circolazione'.",
+    "answer": [
+      [
+        "shares sold to optionees less shares exchanged"
+      ],
+      [
+        "shares issued under employee stock purchase plan"
+      ],
+      [
+        "issued on conversions of debentures"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_006",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Quale proporzione del saldo finale di 'azioni in circolazione' al 31 dicembre 2010 è stata aggiunta dalla transazione di 'acquisizione di Smith International Inc.'?",
+    "answer": [
+      [
+        "12.93%"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D17"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_345428c8b4_007",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Se l'acquisizione di Smith International Inc. non fosse avvenuta nel 2010, quale sarebbe stato il saldo di fine anno per le 'azioni in circolazione' al 31 dicembre 2010, supponendo che tutte le altre transazioni rimanessero invariate?",
+    "answer": [
+      [
+        "1185"
+      ]
+    ],
+    "evidence_cells": [
+      "D17",
+      "D12"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_008",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Esiste una relazione osservabile tra il numero di azioni emesse agli optionees e il numero emesso ai sensi del piano di acquisto di azioni per i dipendenti negli anni presentati? Spiegare.",
+    "answer": [
+      [
+        "Non esiste una relazione costante. Nel 2008, sono state vendute più azioni agli optionees (5) rispetto a quelle emesse ai sensi del piano di acquisto (2). Nel 2009, i numeri erano uguali (4 e 4). Nel 2010, sono state vendute più azioni agli optionees (6) rispetto a quelle emesse ai sensi del piano di acquisto (3). Il rapporto tra le due varia ogni anno, suggerendo nessuna correlazione diretta."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A7",
+      "D7",
+      "A9",
+      "D9",
+      "A13",
+      "D13",
+      "A14",
+      "D14"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_345428c8b4_009",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "open_ended_reasoning",
+    "question": "Escludendo le righe di saldo, quale colonna, 'issued', 'in treasury' o 'shares outstanding', contiene il maggior numero di voci non numeriche o incoerenti?",
+    "answer": [
+      [
+        "La colonna 'issued' è la più incoerente. Mentre le altre colonne contengono valori numerici (o un formato coerente per i negativi), la colonna 'issued' contiene un mix di numeri che sembrano rappresentare saldi ('1334', '1434', '100') e un valore ripetuto '2013' che non sembra corrispondere a una quantità per le transazioni a cui è associato."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B12",
+      "B17"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_345428c8b4_010",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Quale singola transazione spicca come anomalia avendo l'impatto positivo più significativo sul saldo 'azioni in circolazione' rispetto all'impatto mediano di tutte le altre transazioni?",
+    "answer": [
+      [
+        "acquisition of smith international inc ."
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D7",
+      "D8",
+      "D9",
+      "D10",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_345428c8b4_011",
+    "table_id": "finqa_345428c8b4",
+    "question_type": "value",
+    "question": "Qual è il rapporto tra azioni in tesoreria e azioni in circolazione nel programma di riacquisto di azioni nel corso degli anni?",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C4",
+      "D4",
+      "A10",
+      "C10",
+      "D10",
+      "A15",
+      "C15",
+      "D15"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  }
+]

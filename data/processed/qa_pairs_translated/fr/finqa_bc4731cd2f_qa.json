@@ -1,0 +1,230 @@
+[
+  {
+    "question_id": "finqa_bc4731cd2f_001",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Quelles étaient les charges d'exploitation totales, en millions de dollars, pour les trois années combinées (2008, 2009, 2010) ?",
+    "answer": [
+      [
+        "32101"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_002",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Quel indicateur financier a connu la plus forte augmentation en pourcentage de 2008 à 2009 ?",
+    "answer": [
+      [
+        "net credit losses"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "E5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_003",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Au cours de l'année où les \"revenus totaux nets de frais d'intérêt\" étaient les plus élevés, quelle était la \"perte nette\" correspondante ?",
+    "answer": [
+      [
+        "$ -8369 ( 8369 )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "D14"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_004",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance des « revenus non nets d'intérêts » de 2008 à 2010.",
+    "answer": [
+      [
+        "Les « revenus non nets d'intérêts » montrent une tendance à la baisse constante et marquée sur la période de trois ans. Ils ont commencé à 6 362 millions de dollars en 2008, ont chuté de 25 % à 4 770 millions de dollars en 2009, puis ont connu une baisse encore plus spectaculaire de 58 % à 1 995 millions de dollars en 2010."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_005",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Listez toutes les catégories financières où la valeur absolue de la perte ou de la dépense a diminué en 2010 par rapport à 2009.",
+    "answer": [
+      [
+        "total operating expenses"
+      ],
+      [
+        "net credit losses"
+      ],
+      [
+        "provision for benefits and claims"
+      ],
+      [
+        "provisions for credit losses and for benefits and claims"
+      ],
+      [
+        "( loss ) from continuing operations before taxes"
+      ],
+      [
+        "( loss ) from continuing operations"
+      ],
+      [
+        "net ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5",
+      "A7",
+      "B7",
+      "C7",
+      "A9",
+      "B9",
+      "C9",
+      "A10",
+      "B10",
+      "C10",
+      "A12",
+      "B12",
+      "C12",
+      "A14",
+      "B14",
+      "C14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_006",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Quel était le ratio des 'charges d'exploitation totales' par rapport aux 'revenus totaux nets des frais d'intérêt' en 2010 ? Exprimez votre réponse en pourcentage, arrondie à deux décimales.",
+    "answer": [
+      [
+        "50.95%"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_007",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Si la 'libération (constitution) de la provision pour créances irrécouvrables' en 2010 avait été une constitution de 1000 millions de dollars au lieu d'une libération de 1771 millions de dollars, quelles auraient été les nouvelles 'provisions pour pertes sur créances et pour prestations et sinistres' pour cette année-là ?",
+    "answer": [
+      [
+        "$ 18815 million"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B6",
+      "B7",
+      "B9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_008",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe-t-il une relation constante entre la variation annuelle des 'actifs moyens' et la variation annuelle du 'revenu d'intérêts net' ?",
+    "answer": [
+      [
+        "Non, il n'y a pas de relation constante. De 2008 à 2009, les actifs moyens ont diminué de 16 % et le revenu d'intérêts net a également diminué de 24 %. Cela suggère une possible corrélation positive. Cependant, de 2009 à 2010, les actifs moyens ont de nouveau diminué de 8 %, mais cette fois le revenu d'intérêts net a augmenté de 6 %, rompant le schéma précédent."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "E1",
+      "A15",
+      "D15",
+      "E15"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_009",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel élément de ligne a une valeur de changement non numérique et non en pourcentage de 'nm' pour la période 2010 par rapport à 2009, et pourquoi est-ce probablement le cas ?",
+    "answer": [
+      [
+        "L'élément 'credit reserve build ( release )' ( constitution ( libération ) de la réserve de crédit ) présente 'nm' (non significatif) pour son changement de 2010 par rapport à 2009. C'est probablement parce que la valeur est passée d'un nombre positif (constitution de 5799 millions de dollars) en 2009 à un nombre négatif (libération de -1771 millions de dollars) en 2010, et que le calcul d'un pourcentage de changement à travers un changement de signe (positif à négatif) est mathématiquement indéfini ou considéré comme non significatif dans les rapports financiers."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_010",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Quel indicateur financier montre le revirement négatif le plus spectaculaire entre les deux périodes d'évolution d'une année sur l'autre (c'est-à-dire qu'il a eu un changement positif ou faiblement négatif de 2008-2009, mais un changement fortement négatif de 2009-2010)?",
+    "answer": [
+      [
+        "non-interest revenue"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_bc4731cd2f_011",
+    "table_id": "finqa_bc4731cd2f",
+    "question_type": "value",
+    "question": "Quel est le pourcentage de variation des charges d'exploitation totales entre 2009 et 2008 ?",
+    "answer": [
+      [
+        "31%"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

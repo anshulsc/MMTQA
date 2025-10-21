@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Quel modèle inclut explicitement une composante de taux sans risque dans sa formule principale ?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Quel est le nombre total de variables 'X' distinctes utilisées comme entrées dans la formule du modèle Z-score ?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Identifiez le modèle qui utilise les 'Actifs totaux' comme dénominateur dans au moins trois de ses paramètres expliqués, puis indiquez quel paramètre de ce modèle représente le ratio de la 'Valeur boursière des fonds propres' aux 'Passifs totaux'.",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Quel modèle intègre des paramètres explicitement définis comme étant mesurés 'au temps t' ?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Si l'objectif analytique est de déterminer la probabilité d'un résultat binaire (y=1), quel modèle listé dans le tableau est le choix le plus approprié ?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Dans le modèle Z-score, quel est le poids (coefficient) de la variable représentant le 'Bénéfice avant intérêts et impôts/Total des actifs', et comment ce poids se compare-t-il aux autres variables ?",
+    "answer": [
+      [
+        "Le coefficient pour X3 (Bénéfice avant intérêts et impôts/Total des actifs) est de 3,3. C'est le poids le plus élevé de toutes les cinq variables, ce qui suggère qu'il a l'impact le plus significatif sur le Z-score final par rapport à des variables comme X1 (1,2), X2 (1,4), X4 (0,6) et X5 (0,99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Si une version mise à jour du modèle Z-score réduisait l'influence du 'Ratio fonds de roulement/Actifs totaux' de 50%, quel serait le nouveau coefficient pour X1 ?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "En se basant sur la formule du modèle Z-score, quelle est la relation déduite entre le ratio ventes totales sur actifs totaux d'une entreprise et son Z-score résultant ?",
+    "answer": [
+      [
+        "Il existe une corrélation positive entre le ratio ventes totales/actifs totaux (X5) et le Z-score. La formule montre que le Z-score est une somme pondérée de cinq ratios, et le coefficient pour X5 est positif (0,99). Par conséquent, en maintenant tous les autres facteurs constants, une augmentation du ratio ventes totales sur actifs totaux entraînera un Z-score plus élevé."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Quel modèle inclut la plus grande quantité de paramètres distincts expliqués dans la troisième colonne ?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "En examinant les coefficients numériques dans la formule du modèle Z-score, quel coefficient se distingue comme une valeur aberrante par rapport aux autres ?",
+    "answer": [
+      [
+        "Le coefficient 3.3 pour la variable X3 est une valeur aberrante significative. Les autres coefficients de la formule sont 1.2, 1.4, 0.6 et 0.99, qui sont tous regroupés dans une fourchette comprise entre 0.6 et 1.4. La valeur 3.3 est plus du double de la valeur du coefficient le plus élevé suivant (1.4), ce qui la rend substantiellement plus grande que les autres."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Quel modèle serait plus approprié pour prédire les rendements des actifs en tenant compte des facteurs de marché et de taille/prix d'achat, et pourquoi ?",
+    "answer": [
+      [
+        "Le modèle factoriel serait plus approprié car il intègre explicitement les rendements du marché (r_m - r_f), le facteur de taille (SMB) et le facteur de prix d'achat (HML), lui permettant de capturer plusieurs dimensions des variations des rendements des actifs que les modèles de régression logistique ou Z-score ne prennent pas en compte."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

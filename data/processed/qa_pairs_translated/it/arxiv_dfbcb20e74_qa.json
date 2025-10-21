@@ -1,0 +1,184 @@
+[
+  {
+    "question_id": "arxiv_dfbcb20e74_001",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Quale modello include esplicitamente una componente di tasso privo di rischio nella sua formula principale?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_002",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Qual è il conteggio totale delle variabili 'X' distinte utilizzate come input nella formula del Modello Z-score?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_003",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Identifica il modello che utilizza \"Total assets\" (totale attivo) come denominatore in almeno tre dei suoi parametri spiegati, e indica quale parametro di quel modello rappresenta il rapporto tra \"Market value of equity\" (valore di mercato del capitale proprio) e \"Total liabilities\" (passività totali).",
+    "answer": [
+      [
+        "Z-score Model"
+      ],
+      [
+        "X4"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_004",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Quale modello incorpora parametri definiti esplicitamente come misurati 'al tempo t'?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_005",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Se l'obiettivo analitico è determinare la probabilità di un esito binario (y=1), quale modello elencato nella tabella è la scelta più appropriata?",
+    "answer": [
+      [
+        "Logistic Regression"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_006",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Nel modello Z-score, qual è il peso (coefficiente) della variabile che rappresenta il 'Reddito prima di interessi e imposte/Rapporto attività totali' e come si confronta questo peso con le altre variabili?",
+    "answer": [
+      [
+        "Il coefficiente per X3 (Reddito prima di interessi e imposte/Rapporto attività totali) è 3.3. Questo è il peso più alto di tutte e cinque le variabili, suggerendo che ha l'impatto più significativo sul punteggio Z finale rispetto a variabili come X1 (1.2), X2 (1.4), X4 (0.6) e X5 (0.99)."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_007",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Se una versione aggiornata del modello Z-score riducesse dell'50% l'influenza del 'rapporto capitale circolante/totale attivo', quale sarebbe il nuovo coefficiente per X1?",
+    "answer": [
+      [
+        "0.6"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_008",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Basandosi sulla formula del Modello Z-score, quale relazione si inferisce tra il rapporto tra le vendite totali di un'azienda e le sue attività totali e il suo punteggio Z risultante?",
+    "answer": [
+      [
+        "Esiste una correlazione positiva tra il rapporto vendite totali/attività totali (X5) e il punteggio Z. La formula mostra che il punteggio Z è una somma ponderata di cinque rapporti, e il coefficiente per X5 è positivo (0.99). Pertanto, mantenendo costanti tutti gli altri fattori, un aumento del rapporto tra vendite totali e attività totali si tradurrà in un punteggio Z più elevato."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_009",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "value",
+    "question": "Quale modello include nella sua descrizione il maggior numero di parametri distinti spiegati nella terza colonna?",
+    "answer": [
+      [
+        "Factor Model"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_010",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Esaminando i coefficienti numerici nella formula del Modello Z-score, quale coefficiente spicca come anomalia rispetto agli altri?",
+    "answer": [
+      [
+        "Il coefficiente 3.3 per la variabile X3 è un'anomalia significativa. Gli altri coefficienti nella formula sono 1.2, 1.4, 0.6 e 0.99, che sono tutti raggruppati in un intervallo tra 0.6 e 1.4. Il valore 3.3 è più del doppio del valore del coefficiente successivo più alto (1.4), rendendolo sostanzialmente più grande degli altri."
+      ]
+    ],
+    "evidence_cells": [
+      "B2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_dfbcb20e74_011",
+    "table_id": "arxiv_dfbcb20e74",
+    "question_type": "open_ended_reasoning",
+    "question": "Quale modello sarebbe più appropriato per prevedere i rendimenti degli asset considerando sia i fattori di mercato che quelli di dimensione/book-to-market, e perché?",
+    "answer": [
+      [
+        "Il Modello Fattoriale sarebbe più appropriato perché incorpora esplicitamente i rendimenti di mercato (r_m - r_f), il fattore di dimensione (SMB) e il fattore book-to-market (HML), permettendogli di catturare le molteplici dimensioni delle variazioni dei rendimenti degli asset che il Modello di Regressione Logistica o il Modello Z-score non considerano."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

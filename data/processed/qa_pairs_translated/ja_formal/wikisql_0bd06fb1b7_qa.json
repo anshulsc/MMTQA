@@ -1,0 +1,275 @@
+[
+  {
+    "question_id": "wikisql_0bd06fb1b7_001",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "シングルスでの総勝利数が5以上の選手のうち、最も高いシングルス勝率を記録したのは誰ですか？",
+    "answer": [
+      [
+        "Kim Young-Jun (474)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "A5",
+      "D5",
+      "A8",
+      "D8",
+      "A12",
+      "D12",
+      "A13",
+      "D13"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_002",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "1980年代にキャリアを開始したすべての選手の総勝利数はいくつですか？",
+    "answer": [
+      [
+        "33"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "B5",
+      "C5",
+      "B15",
+      "C15",
+      "B17",
+      "C17"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_003",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "5年を超えてプレイし、総勝利数よりも総敗戦数が多かった選手をすべて挙げてください。",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ],
+      [
+        "Kim Choon-Ho"
+      ],
+      [
+        "Im Kyu-tae (492)"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6",
+      "A8",
+      "B8",
+      "C8",
+      "A13",
+      "B13",
+      "C13"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_004",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "他の選手と比較して、総敗戦数が不均衡に多いという点で、最も際立った選手は誰ですか？",
+    "answer": [
+      [
+        "Chung Yong-Ho"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_005",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "鄭熙星選手がダブルスで2勝2敗ではなく、全ての試合に勝利していたとしたら、彼の新たな「通算勝敗」記録はどうなりますか？",
+    "answer": [
+      [
+        "4-1"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_006",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "シングルスの勝敗記録が完全に均衡している（勝ち数と負け数が同数である）選手について、その選手の総試合数に占めるダブルス試合の割合は何パーセントですか？",
+    "answer": [
+      [
+        "44%"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_007",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "クォン・オヒ選手とキム・ソンヨン選手のうち、シングルスでより高い勝率を記録したのはどちらですか？",
+    "answer": [
+      [
+        "Kwon Oh-Hee"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "D2",
+      "A9",
+      "D9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_008",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "選手キャリアの開始年に基づくと、1980年代から2000年代にかけて、シングルスとダブルスのどちらのプレーに重点が置かれるか、どのように変化しましたか？",
+    "answer": [
+      [
+        "シングルスプレーへの顕著な移行が見られました。Song Dong-Wook選手やYoo Jin-Sun選手といった1980年代にデビューした選手たちは、シングルスとダブルスの試合数が比較的均衡していました（例：Yoo Jin-Sun選手はシングルス13試合、ダブルス16試合でした）。対照的に、Kim Young-Jun選手やIm Kyu-tae選手のように2000年代にデビューした選手たちは、ダブルスよりもシングルスで著しく多くの試合を行っており（例：Kim Young-Jun選手はシングルス9試合に対しダブルス1試合、Im Kyu-tae選手はシングルス12試合に対しダブルス3試合）、これはシングルス専門化の傾向を示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "D3",
+      "E3",
+      "B5",
+      "D5",
+      "E5",
+      "B2",
+      "D2",
+      "E2",
+      "B4",
+      "D4",
+      "E4",
+      "B9",
+      "D9",
+      "E9",
+      "B12",
+      "D12",
+      "E12",
+      "B13",
+      "D13",
+      "E13"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_009",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "名前の後に括弧書きの数字が付いている全選手に共通する、キャリア期間に関する特徴は何でしょうか？",
+    "answer": [
+      [
+        "名前の後に括弧書きの数字が付いている全選手は、2010年以降のいずれかの時点で現役として活動しておりました。数字が付いていない選手は、2010年代にはプレーしておりません。"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "A12",
+      "B12",
+      "A13",
+      "B13",
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_010",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "open_ended_reasoning",
+    "question": "このデータセットに基づきますと、ダブルスでの完璧な記録（敗戦ゼロ）と選手寿命の間には相関関係が見られますでしょうか。",
+    "answer": [
+      [
+        "はい、強い負の相関関係が見られます。ダブルスで完璧な記録（敗戦ゼロ）を持つ4名の選手（イ・トンウォン、キム・スンヨン、チョ・スンジェ、イ・ウリョン）は、いずれもわずか1年または2年の短いキャリアでした。対照的に、6年以上といった長いキャリアを持つ選手は、皆、複数のダブルス敗戦を記録しております。このことは、長いキャリアを通じて完璧なダブルス記録を維持することが極めて困難であることを示唆しております。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "E1",
+      "B9",
+      "E9",
+      "B14",
+      "E14",
+      "B17",
+      "E17",
+      "B3",
+      "E3",
+      "B5",
+      "E5",
+      "B6",
+      "E6",
+      "B8",
+      "E8",
+      "B13",
+      "E13"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_0bd06fb1b7_011",
+    "table_id": "wikisql_0bd06fb1b7",
+    "question_type": "value",
+    "question": "チョン・ヒソクとソン・ドンウクを合わせたダブルスの総勝利数はいくつですか？",
+    "answer": [
+      [
+        "12"
+      ]
+    ],
+    "evidence_cells": [
+      "A15",
+      "E15",
+      "A52",
+      "E52"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

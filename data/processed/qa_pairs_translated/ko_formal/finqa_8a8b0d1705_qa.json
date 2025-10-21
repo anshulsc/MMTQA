@@ -1,0 +1,220 @@
+[
+  {
+    "question_id": "finqa_8a8b0d1705_001",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "3개 연간 발행 주식 매입에 지출된 총 금액은 얼마입니까 (단위: 백만)?",
+    "answer": [
+      [
+        "-8067"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_002",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "금융 활동에서 현금 순 사용액이 가장 컸던 연도에 '부채 조달'의 가치는 얼마였습니까?",
+    "answer": [
+      [
+        "429"
+      ]
+    ],
+    "evidence_cells": [
+      "B10",
+      "C10",
+      "D10",
+      "D3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_003",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "2005년부터 2007년까지 '총 현금 부채 변동' 추세를 설명해 주세요.",
+    "answer": [
+      [
+        "추세는 매우 변동적이었습니다. 2005년에는 4억 8,500만 달러의 순현금 유출로 시작하여, 2006년에는 11억 3,500만 달러의 대규모 순현금 유입으로 극적으로 반전되었고, 2007년에는 다시 12억 2,200만 달러의 상당한 현금 유입으로 전환되었습니다. 일관된 상승 또는 하락 추세는 없었습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_004",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "2007년에 '채권 발행으로 인한 수입'으로 생성된 현금 중 '부채 상환'에 사용된 비율은 얼마입니까?",
+    "answer": [
+      [
+        "39.26%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_005",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "두 연속 연도 사이에 가장 큰 절대값의 변화를 겪은 금융 활동은 무엇입니까?",
+    "answer": [
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_006",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "2005년 '자사주 재발행' 금액이 50% 더 높았다면, 해당 연도의 '순 금융 활동 현금 사용액'은 얼마였을까요?",
+    "answer": [
+      [
+        "$-3352.5 (3352.5)"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "D10"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_007",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "2006년에 순 현금 유입(양수 값)을 제공한 모든 재무 활동을 나열하십시오.",
+    "answer": [
+      [
+        "change in short-term debt 2014 net"
+      ],
+      [
+        "proceeds from debt ( maturities greater than 90 days )"
+      ],
+      [
+        "reissuances of treasury stock"
+      ],
+      [
+        "excess tax benefits from stock-based compensation"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "A1",
+      "C3",
+      "A3",
+      "C6",
+      "A6",
+      "C8",
+      "A8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_008",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "'매입한 자기주식'과 '주주에게 지급한 배당금'을 모두 고려했을 때, 어느 해에 주주에게 가장 많은 현금이 반환되었습니까?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_009",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "open_ended_reasoning",
+    "question": "데이터에 따르면, 3년 동안 '자사주 매입'과 '주주에게 지급된 배당금' 사이에 관찰 가능한 관계가 있습니까?",
+    "answer": [
+      [
+        "네, 매년 두 활동 모두에서 상당한 현금 유출이 일관되게 발생하는 패턴이 있는 것으로 보이며, 이는 주주에게 자본을 환원하는 꾸준한 전략을 나타냅니다. 그러나 연도별 변화에서 명확한 상관관계는 없습니다. 예를 들어, 2005년부터 2006년까지 자사주 매입은 약간 감소한 반면 배당금은 약간 증가했습니다. 그 후 2006년부터 2007년까지 자사주 매입은 극적으로 증가한 반면 배당금은 거의 변동이 없었습니다. 두 항목 모두 일관되게 많은 현금을 사용하지만, 함께 움직이지는 않습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "D5",
+      "A7",
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_010",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "세 해 동안 일관되게 순 현금 유출(음수 값)을 초래한 재무 활동은 몇 가지입니까?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "B5",
+      "C5",
+      "D5",
+      "B7",
+      "C7",
+      "D7",
+      "B9",
+      "C9",
+      "D9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_8a8b0d1705_011",
+    "table_id": "finqa_8a8b0d1705",
+    "question_type": "value",
+    "question": "2005년에 재무 활동으로 인한 순현금 사용액이 가장 높았습니까?",
+    "answer": [
+      [
+        "2005"
+      ]
+    ],
+    "evidence_cells": [
+      "A10",
+      "B10",
+      "C10",
+      "D10"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "question_id": "finqa_a3e4351c77_001",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "কোন নির্দিষ্ট ঋণ উপকরণ, মোট এবং সমন্বয় ব্যতীত, উভয় রিপোর্টকৃত সময়ের মধ্যে সর্বোচ্চ মূল্য ধারণ করেছে?",
+    "answer": [
+      [
+        "international marine terminals-plaquemines la revenue bonds due march 15 2025"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_002",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "দ্বিতীয় ডেটা কলামে তালিকাভুক্ত সমস্ত শনাক্তযোগ্য রাজস্ব বন্ডের মোট মূল্য কত?",
+    "answer": [
+      [
+        "63.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_003",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "দুই সময়ের মধ্যে 'দীর্ঘমেয়াদী ঋণের বর্তমান পরিপক্কতা'র পরম পরিবর্তন 'অমূল্যায়িত ঋণ ছাড়' এর পরম পরিবর্তনের চেয়ে কত বেশি ছিল?",
+    "answer": [
+      [
+        "665.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_004",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "'মোট দীর্ঘমেয়াদী ঋণ'-এর দুটি প্রদর্শিত সময়ের মধ্যে প্রবণতা বর্ণনা করুন এবং এই পরিবর্তনের তাৎপর্য ব্যাখ্যা করুন।",
+    "answer": [
+      [
+        "মোট দীর্ঘমেয়াদী ঋণ $275.3 বৃদ্ধি পেয়েছে, কলাম C-তে প্রদর্শিত সময়কালে $10007.5 থেকে কলাম B-তে প্রদর্শিত সময়কালে $10282.8 হয়েছে। এটি নির্দেশ করে যে এই সময়কালে সত্তার সামগ্রিক দীর্ঘমেয়াদী ঋণের বাধ্যবাধকতা বৃদ্ধি পেয়েছে, যা থেকে বোঝা যায় যে এটি সম্ভবত পরিশোধের চেয়ে বেশি নতুন ঋণ গ্রহণ করেছে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_005",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "দ্বিতীয় ডেটা কলামে নেতিবাচক মান হিসাবে উপস্থাপিত মোট বাদে সমস্ত লাইন আইটেম সনাক্ত করুন।",
+    "answer": [
+      [
+        "unamortized debt discount on long-term debt"
+      ],
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "A5",
+      "B5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_006",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "কলাম B-তে উল্লিখিত সময়কালের মোট দীর্ঘমেয়াদী ঋণের শতাংশ হিসাবে, 'দীর্ঘমেয়াদী ঋণের বর্তমান কিস্তি' হিসাবে কী অংশ শ্রেণীবদ্ধ করা হয়েছে? গণনার জন্য পরম মান ব্যবহার করুন এবং দুই দশমিক স্থান পর্যন্ত রাউন্ড করুন।",
+    "answer": [
+      [
+        "12.29%"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "A6",
+      "B6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_007",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "যদি দ্বিতীয় ডেটা কলামে (কলাম B) 'অ্যামোর্টাইজড ঋণ ছাড়' বাদ দেওয়া হত (অর্থাৎ, শূন্যে সেট করা হত), তাহলে সেই সময়ের জন্য 'মোট দীর্ঘমেয়াদী ঋণ ২০১৩ কেএমপি' কত হত?",
+    "answer": [
+      [
+        "$ 10303.1"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "B6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_008",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "দুটি সময়ের মধ্যে 'long-term debt'-এর 'current maturities'-এর পরিবর্তন এবং 'total long-term debt'-এর পরিবর্তনের মধ্যে কি কোনো স্পষ্ট সম্পর্ক আছে?",
+    "answer": [
+      [
+        "হ্যাঁ, তাদের নড়াচড়ার মধ্যে একটি বিপরীত সম্পর্ক আছে বলে মনে হচ্ছে। যদিও মোট দীর্ঘমেয়াদী ঋণ $275.3 বৃদ্ধি পেয়েছে ($10007.5 থেকে $10282.8), 'current maturities'-এর পরিমাণ উল্লেখযোগ্যভাবে কমেছে (1263.3 এর পরম মান থেকে 596.6)। এটি ইঙ্গিত দেয় যে কোম্পানি সামগ্রিকভাবে আরও ঋণ গ্রহণ করলেও, একই সাথে সেই ঋণের অংশীদার হ্রাস করেছে যা অদূর ভবিষ্যতে পাওনা হবে।"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5",
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_009",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "ডেটা সেটের কোন সারিটি অন্য সারিগুলির একটি সমষ্টি বলে মনে হচ্ছে এবং এই সিদ্ধান্তে কোন প্রমাণ সমর্থন করে?",
+    "answer": [
+      [
+        "The row labeled 'total long-term debt 2013 kmp' is an aggregation. The primary evidence is the explicit use of the word 'total' in its description. Additionally, its value is presented with a currency symbol ('$'), which is distinct from the other rows, signifying it's a final, summary financial figure."
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "B6",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_010",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "value",
+    "question": "কোন লাইন আইটেমটি দুটি সময়ের মধ্যে পরম মানে সবচেয়ে উল্লেখযোগ্য পরিবর্তন দেখায়, যা এটিকে অস্থিরতার দিক থেকে একটি আর্থিক ব্যতিক্রম করে তোলে?",
+    "answer": [
+      [
+        "current maturities of long-term debt"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a3e4351c77_011",
+    "table_id": "finqa_a3e4351c77",
+    "question_type": "open_ended_reasoning",
+    "question": "মোট দীর্ঘমেয়াদী ঋণ এবং অ-পরিশোধিত ঋণের ছাড় বিবেচনা করে, ২০১২ থেকে ২০১৩ সালে দীর্ঘমেয়াদী ঋণে কার্যকর বৃদ্ধি কত?",
+    "answer": [
+      [
+        "মোট দীর্ঘমেয়াদী ঋণ ২০১২ সালে $১০,০০৭.৫ মিলিয়ন থেকে বেড়ে ২০১৩ সালে $১০,২৮২.৮ মিলিয়ন হয়েছে। অ-পরিশোধিত ঋণের ছাড় ২০১২ সালে -২১.২ থেকে ২০১৩ সালে -২০.৩ এ পরিবর্তিত হয়েছে, বিবেচনা করে ঋণের কার্যকর বৃদ্ধি $২৭৬.৮ মিলিয়ন।"
+      ]
+    ],
+    "evidence_cells": [
+      "F6",
+      "G6",
+      "F4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

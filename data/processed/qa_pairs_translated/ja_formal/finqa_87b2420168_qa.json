@@ -1,0 +1,206 @@
+[
+  {
+    "question_id": "finqa_87b2420168_001",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "2011年12月から2012年7月の間に、百万ドル単位で計測された指標のうち、絶対値で最大の減少を示したのはどれですか？",
+    "answer": [
+      [
+        "deposits under the retrospective responsibility plan"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_002",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "2011年12月における「普通株式Aの払込株式数」の換算後の金額（百万ドル単位）を、同期間の1株当たり実効単価を用いて算出してください。",
+    "answer": [
+      [
+        "1526.25"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_87b2420168_003",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "'class b common stock to class a common stock after deposits' の 'conversion rate' が低い期間における、1株あたりの実効価格はいくらでしたか？",
+    "answer": [
+      [
+        "$ 125.50"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_004",
+    "table_id": "finqa_87b2420168",
+    "question_type": "open_ended_reasoning",
+    "question": "2011年12月から2012年7月にかけての、同社の株式評価額と構造の推移について分析してください。",
+    "answer": [
+      [
+        "2011年12月から2012年7月にかけて、1株当たり実効単価が101.75ドルから125.50ドルに上昇したことから、同社の評価額は増加したと考えられます。同時に、株式構造は統合が進み、「普通株式クラスAの換算株式数」が1500万から100万に減少し、クラスBの転換率と「預け入れ後のクラスB普通株式の換算株式数」の両方でわずかな減少が見られました。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_005",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "2012年12月と比較して2012年7月に値が低かった指標のうち、100万ドルまたは株数ではなく、小数点以下のレートで示されているものはどれですか？",
+    "answer": [
+      [
+        "conversion rate of class b common stock to class a common stock after deposits"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A3",
+      "B3",
+      "C3",
+      "A4",
+      "B4",
+      "C4",
+      "A5",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_006",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "2011年12月から2012年7月までの「実効株式単価」の増加率は何パーセントでしたか？",
+    "answer": [
+      [
+        "23.34%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_87b2420168_007",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "2011年12月時点の「遡及責任計画に基づく預金」が2012年7月時点で50%減少していた場合、新たな預金額（百万ドル単位）はいくらになっていましたか？",
+    "answer": [
+      [
+        "$ 782.5"
+      ]
+    ],
+    "evidence_cells": [
+      "C1"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_008",
+    "table_id": "finqa_87b2420168",
+    "question_type": "open_ended_reasoning",
+    "question": "提示されている2つの期間に基づくと、「1株あたりの実効価格」と「預け入れ後のクラスB普通株式の転換後株式数」の間にはどのような関係が見られますか？",
+    "answer": [
+      [
+        "データは、逆相関の可能性を示唆しています。2011年12月から2012年7月にかけて、「1株あたりの実効価格」が101.75ドルから125.50ドルに上昇したのに対し、「預け入れ後のクラスB普通株式の転換後株式数」は104百万株から103百万株へとわずかに減少しました。これは、株式の価値が上昇するにつれて、転換後株式数がわずかに減少したことを示しています。"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_87b2420168_009",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "表の中で、「クラスA普通株式」に明示的に関連していると記載されているメトリクスはいくつありますか？",
+    "answer": [
+      [
+        "1"
+      ]
+    ],
+    "evidence_cells": [
+      "A3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_87b2420168_010",
+    "table_id": "finqa_87b2420168",
+    "question_type": "open_ended_reasoning",
+    "question": "2つの期間を比較した際の絶対的な変化額が、他のすべての指標の絶対的な変化額と比較して、桁違いの変化を示す指標は何ですか？",
+    "answer": [
+      [
+        "「リトアクティブ責任計画に基づく預金」が、際立った外れ値です。その価値は1415百万ドル（1565百万ドル - 150百万ドル）減少し、これは他のどの指標の絶対的変化額をもはるかに超えるものです。例えば、株価の変化はわずか23.75ドルであり、株式数の変化は最大でも1400万株であったため、預金額の変化は桁違いに大きいと言えます。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B4",
+      "C4",
+      "B5",
+      "C5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_87b2420168_011",
+    "table_id": "finqa_87b2420168",
+    "question_type": "value",
+    "question": "2つの期間におけるクラスA普通株式の相当数株式の削減総数はいくらですか？",
+    "answer": [
+      [
+        "16"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

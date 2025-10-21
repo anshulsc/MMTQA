@@ -1,0 +1,215 @@
+[
+  {
+    "question_id": "finqa_1d2378e7c5_001",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "2015년 12월 31일 기준으로, 'Advanced' 또는 'Standardized' 규제 접근 방식 중 어느 것이 더 높은 '총 자본'을 보고했으며, 그 차이는 백만 달러로 얼마입니까?",
+    "answer": [
+      [
+        "Standardized approach",
+        "12558"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_002",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "보고된 네 가지 열 전체에서 'Tier 1 Capital'의 평균값은 백만 달러 단위로 얼마였습니까?",
+    "answer": [
+      [
+        "156051"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_003",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "'총 자본 비율'이 가장 낮은 열에 해당하는 '총 위험 가중 자산'을 확인하십시오.",
+    "answer": [
+      [
+        "1292605"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_004",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "마지막 두 열이 이전 연도의 데이터를 나타낸다고 가정할 때, '표준화 접근법' 하의 '공통 자기자본 비율'에 대한 연간 추세를 설명해 주십시오.",
+    "answer": [
+      [
+        "표준화 접근법' 하의 '공통 자기자본 비율'은 긍정적인 추세를 보였으며, 이전 기간의 11.12%에서 2015년 12월 31일 12.63%로 1.51%p 증가했습니다."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "E5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_005",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "'2015년 12월 31일 표준 방식' 하에서 15% 미만이었던 자본 비율은 무엇입니까?",
+    "answer": [
+      [
+        "12.63% ( 12.63 % )"
+      ],
+      [
+        "14.11"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "A6",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_006",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "'2015년 12월 31일 고급 접근 방식'에서 '총 자본' 중 'Tier 2 자본'에 해당하는 비율은 얼마입니까? (참고: Tier 2 자본 = 총 자본 - Tier 1 자본)",
+    "answer": [
+      [
+        "11.85%"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_007",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "'2015년 12월 31일 표준 방식' 하의 '총 위험 가중 자산'이 가상적으로 10% 더 높고 'Tier 1 자본'이 일정하게 유지된다고 가정할 때, 새로운 'Tier 1 자본 비율'은 얼마입니까?",
+    "answer": [
+      [
+        "12.83"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_008",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "표에 제시된 자기자본 비율과 '총 위험가중자산' 사이에 추론할 수 있는 관계는 무엇입니까? 결론을 뒷받침하기 위해 데이터 포인트를 사용하십시오.",
+    "answer": [
+      [
+        "총 위험가중자산과 자기자본 비율 사이에는 역의 상관관계가 존재합니다. 위험가중자산(비율 계산 시 분모)이 증가하면 자기자본 비율은 감소합니다. 예를 들어, 자산이 가장 많은 열($1,292,605 백만 달러)은 가장 낮은 '총 자기자본 비율'(12.80%)을 보고하는 반면, 자산이 가장 적은 열($1,162,884 백만 달러)은 가장 높은 '총 자기자본 비율'(17.08%)을 보고합니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4",
+      "D4",
+      "E4",
+      "B7",
+      "C7",
+      "D7",
+      "E7"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_009",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "2015년 12월 31일 기준으로, 주요 구성 요소가 동일함에도 불구하고 'Advanced' 접근 방식과 'Standardized' 접근 방식 간에 비정상적으로 큰 차이를 보이는 재무 지표는 무엇입니까?",
+    "answer": [
+      [
+        "총 자본(Total Capital)이 비정상적으로 큰 차이를 보입니다. 공통 자기자본 1등급 자기자본(Common Equity Tier 1 Capital)과 1등급 자기자본(Tier 1 Capital)은 2015년 두 접근 방식 모두에서 동일한 값을 가집니다. 그러나 총 자본은 120억 달러 이상 차이가 납니다($186,097백만 vs $198,655백만). 이는 전체 차이가 2등급 자기자본(Tier 2 Capital) 계산으로 인한 것임을 나타내므로, 이 지표가 특이값입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_010",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "value",
+    "question": "두 기간에 표시된 열 헤더가 일관되지 않음에도 불구하고, 각 해당 기간에서 'Advanced' 접근법과 'Standardized' 접근법에 대해 동일한 값으로 보고되는 자본 금액(백만 달러)은 무엇입니까?",
+    "answer": [
+      [
+        "Common equity tier 1 capital"
+      ],
+      [
+        "Tier 1 capital"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_1d2378e7c5_011",
+    "table_id": "finqa_1d2378e7c5",
+    "question_type": "open_ended_reasoning",
+    "question": "은행의 총 위험 가중 자산이 고급 접근법 하에서 증가하고 총 자본은 일정하게 유지된다면, 총 자본 비율은 어떻게 되겠습니까?",
+    "answer": [
+      [
+        "총 자본 비율은 감소할 것입니다. 왜냐하면 자본이 변하지 않은 상태에서 위험 가중 자산이 높을수록 자본 비율이 낮아지기 때문입니다."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "A4",
+      "B4",
+      "A7",
+      "B7"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  }
+]

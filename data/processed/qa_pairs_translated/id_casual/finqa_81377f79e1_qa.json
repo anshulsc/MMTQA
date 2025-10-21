@@ -1,0 +1,195 @@
+[
+  {
+    "question_id": "finqa_81377f79e1_001",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Di tahun berapa 'gross recoveries' paling rendah di antara tiga tahun yang disajikan?",
+    "answer": [
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_002",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Berapa total jumlah 'net reserve builds ( releases )' selama tiga tahun dari 2007 sampai 2009?",
+    "answer": [
+      [
+        "23588"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_81377f79e1_003",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Berapa 'total provision for credit losses' di tahun yang punya 'allowance for loan losses at beginning of year' paling tinggi?",
+    "answer": [
+      [
+        "$ 38760"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "B8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_004",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Analisis tren 'kerugian kredit kotor' dari tahun ke tahun dari 2007 sampai 2009.",
+    "answer": [
+      [
+        "'Kerugian kredit kotor' menunjukkan tren naik yang signifikan dan konsisten dari 2007 sampai 2009. Kerugian meningkat dari $11.864 juta di 2007 menjadi $20.760 juta di 2008, lalu menjadi $32.784 juta di 2009, hampir tiga kali lipat dalam periode dua tahun. Ini menandakan penurunan kualitas pinjaman dan memburuknya lingkungan kredit."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_005",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Sebutin tahun-tahun di mana 'provision for unfunded lending commitments' itu positif, artinya ada kenaikan?",
+    "answer": [
+      [
+        "2009"
+      ],
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B12",
+      "C12",
+      "D12"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_006",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Di tahun 2009, berapa persen 'net specific reserve builds ( releases )' dari total 'total provision for credit losses'? Berikan jawaban dalam dua desimal.",
+    "answer": [
+      [
+        "5.88%"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "B8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_81377f79e1_007",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Kalo 'gross recoveries' di tahun 2009 naik 10%, berapa 'net credit ( losses ) recoveries ( ncls )' yang dihitung ulang buat tahun itu, dalam jutaan dolar?",
+    "answer": [
+      [
+        "-30536.7"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_008",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Coba analisis hubungan antara besaran 'ncls' (net credit losses) sama 'total provision for credit losses' selama periode tiga tahun. Kelihatan ada korelasi nggak?",
+    "answer": [
+      [
+        "Iya, ada korelasi positif yang kuat. Seiring meningkatnya besaran 'ncls' (net credit losses) tiap tahun, dari $9,926 juta di 2007 jadi $30,741 juta di 2009, 'total provision for credit losses' juga cenderung naik, dari $16,832 juta jadi $38,760 juta. Ini nunjukkin kalau pas bank ngalamin kerugian bersih yang lebih besar, mereka juga nambahin provisi buat nutupin kerugian itu dan kerugian di masa depan."
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_81377f79e1_009",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "open_ended_reasoning",
+    "question": "Tabelnya nunjukkin hubungan antara akhir tahun sama awal tahun berikutnya buat 'allowance for loan losses'. Nilai 'allowance for loan losses at end of year' buat 2007 dan 2008 udah cocok belum sama 'allowance for loan losses at beginning of year' buat 2008 dan 2009?",
+    "answer": [
+      [
+        "Iya, kesesuaiannya pas. 'Allowance for loan losses at end of year' buat 2007 ($16,117) sama persis kayak 'allowance for loan losses at beginning of year' buat 2008. Begitu juga, nilai akhir tahun 2008 ($29,616) cocok sama nilai awal tahun 2009."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D10",
+      "C10"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_81377f79e1_010",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Kalau diliat 'net specific reserve builds ( releases )' selama tiga tahun, tahun berapa nilainya paling beda banget dibanding yang lain?",
+    "answer": [
+      [
+        "2007"
+      ]
+    ],
+    "evidence_cells": [
+      "B7",
+      "C7",
+      "D7"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_81377f79e1_011",
+    "table_id": "finqa_81377f79e1",
+    "question_type": "value",
+    "question": "Berapa total penyisihan untuk pinjaman, sewa, dan komitmen pinjaman yang tidak didanai di tahun 2009?",
+    "answer": [
+      [
+        "$37,190"
+      ]
+    ],
+    "evidence_cells": [
+      "A14",
+      "B14"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "question_id": "finqa_7bdb66e2c9_001",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "「投資適格」と「非投資適格」の潜在的支払額の絶対差が最も大きい保証の種類はどれですか？（単位：10億ドル）",
+    "answer": [
+      [
+        "financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "A2",
+      "B2",
+      "C2",
+      "A8",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_002",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "「投資適格」の項目に値があり、「格付けなし」の項目にプレースホルダー（「2014」）があるすべての保証タイプにおける、潜在的な支払総額はいくらですか？",
+    "answer": [
+      [
+        "21.6"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_003",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "全体的な将来支払いの潜在的総額が最も高い保証タイプにおいて、その総額の最大の割合を構成するのは、どの格付けカテゴリー（「投資適格」、「投機的」、「格付けなし」）ですか？",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "B1",
+      "C1",
+      "D1"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_004",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "最大潜在払込総額のうち、「格付けなし」に分類されるものの割合はどれくらいですか？",
+    "answer": [
+      [
+        "63.89%"
+      ]
+    ],
+    "evidence_cells": [
+      "D9",
+      "E9"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_005",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "'証券貸付補償'の「格付けなし」の金額が記載額より10%減少していた場合、すべての保証の新たな総計はいくらになりますか？",
+    "answer": [
+      [
+        "$ 300.14"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "E9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_006",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "「投資適格」および「投資適格外」の両方の格付けでゼロまたはプレースホルダー（「2014」）の値を持つ保証タイプについて、「合計」の潜在的な支払い額の平均はいくらですか？",
+    "answer": [
+      [
+        "34.62"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "E3",
+      "B4",
+      "C4",
+      "E4",
+      "B5",
+      "C5",
+      "E5",
+      "B6",
+      "C6",
+      "E6",
+      "B7",
+      "C7",
+      "E7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_007",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "「投資適格」、「投機的」、「格付けなし」のいずれの支払格付け列に、最も多くの非数値プレースホルダー値（「2014」）が含まれていますか？",
+    "answer": [
+      [
+        "maximum potential amount of future payments investment grade"
+      ],
+      [
+        "maximum potential amount of future payments non-investment grade"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_008",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "提供されたデータに基づき、「maximum potential amount of future payments total」列における最も顕著な異常値を特定し、それがなぜ際立っているのかを説明してください。",
+    "answer": [
+      [
+        "「financial standby letters of credit」（財務保証信用状）のカテゴリーは、合計942億ドルで、最も顕著な高値の異常値です。この値は、次に大きいカテゴリー（「derivative instruments」（デリバティブ取引）の679億ドル）よりも約38.4%高く、すべてのカテゴリーの平均値（381.1億ドル）の2.4倍以上です。逆に、「guarantees of collection of contractual cash flows」（契約上のキャッシュフローの回収保証）と「loans sold with recourse」（リコース販売されたローン）は、それぞれわずか3億ドルで、顕著な低値の異常値です。"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4",
+      "A5",
+      "E5",
+      "A6",
+      "E6",
+      "A7",
+      "E7",
+      "A8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_009",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "「パフォーマンス保証」および「保管信託補償およびその他」について、3つの格付け区分にわたる潜在的な支払いの分布を分析してください。この比較は、これら2つの保証タイプの信用リスクプロファイルについて何を暗示していますか？",
+    "answer": [
+      [
+        "「パフォーマンス保証」については、投資適格（57億ドル）、投機的適格（50億ドル）、無格付け（56億ドル）と、金額は比較的均等に分散されており、リスクプロファイルが多様化していることを示唆しています。対照的に、「保管信託補償およびその他」は投資適格（185億ドル）に大きく偏っており、投機的適格の部分（31億ドル）ははるかに小さく、「無格付け」の金額はありません。これは、「保管信託補償」が「パフォーマンス保証」と比較して、大幅に低い信用リスクの相手方と関連していることを意味します。"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2",
+      "D2",
+      "A8",
+      "B8",
+      "C8",
+      "D8"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_010",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "open_ended_reasoning",
+    "question": "異なる保証タイプ間で、「投資適格」および「非投資適格」の潜在的支払い額に一貫して観察可能な相関関係はありますか？その理由を説明してください。",
+    "answer": [
+      [
+        "いいえ、一貫して観察可能な相関関係はありません。数値が表示されているカテゴリは両方の列で3つのみであり、信頼できるパターンを確立するにはデータが少なすぎます。「金融保証信用状」は、投資適格額（492億ドル）が高く、非投資適格額（286億ドル）も高い値と対になっています。「業績保証」は両方で類似の値（57億ドルと50億ドル）を持っています。しかし、「カストディ免責およびその他」は、投資適格額（185億ドル）は高いですが、非投資適格額（31億ドル）は非常に低く、他の2つの点を考慮すると、示唆される単純な正の相関とは矛盾します。多数のプレースホルダー値が存在するため、より詳細な分析はできません。"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B3",
+      "C3",
+      "B8",
+      "C8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7bdb66e2c9_011",
+    "table_id": "finqa_7bdb66e2c9",
+    "question_type": "value",
+    "question": "投資適格における将来の支払いに関する潜在的な最大金額はどれですか？",
+    "answer": [
+      [
+        "Financial standby letters of credit"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

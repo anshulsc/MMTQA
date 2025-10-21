@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "finqa_6ae921f44b_001",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Quelle catégorie financière a subi la plus grande perte absolue dans le cadre des \"autres éléments hors résultat net avant reclassements\" ?",
+    "answer": [
+      [
+        "unrealized holding gains ( losses ) on derivatives"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2",
+      "D2",
+      "E2"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_002",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Quel était le total combiné de tous les \"montants reclassés hors de la perte globale\" pour les catégories individuelles ?",
+    "answer": [
+      [
+        "14217"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_003",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Quel était le solde de départ au 3 novembre 2018 pour la composante qui avait la plus petite valeur absolue comme solde de fin au 2 novembre 2019 ?",
+    "answer": [
+      [
+        "-10"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B6",
+      "C6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_004",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Décrivez la tendance globale de la perte globale cumulée d'autres éléments du résultat global du début à la fin de la période.",
+    "answer": [
+      [
+        "La perte totale cumulée s'est considérablement aggravée pendant la période, passant de -58 440 $ à -187 799 $. Cela représente une perte nette supplémentaire de 129 359 $, plus que triplant la perte cumulée depuis le début de la période."
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_005",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Pour toutes les catégories qui ont eu une perte nette dans la section 'autres éléments du résultat global (perte)', quel était leur total combiné au 2 novembre 2019 ?",
+    "answer": [
+      [
+        "-187799"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "D5",
+      "E5",
+      "B6",
+      "D6",
+      "E6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_006",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Quel pourcentage du solde négatif total du 2 novembre 2019 est attribuable aux « gains (pertes) latents sur actifs financiers disponibles à la vente » ?",
+    "answer": [
+      [
+        "62.84%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_007",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Si le 'résultat global autres éléments (perte)' pour les 'régimes de retraite' avait été un gain de 24 344 au lieu d'une perte, quel aurait été le nouveau solde total au 2 novembre 2019 ?",
+    "answer": [
+      [
+        "-139111"
+      ]
+    ],
+    "evidence_cells": [
+      "E5",
+      "F6"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_008",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "Existe-t-il une relation cohérente entre le signe (positif/négatif) du 'autre résultat global (perte) avant reclassements' et le signe du 'autre résultat global (perte)' final pour chaque catégorie ?",
+    "answer": [
+      [
+        "Oui, la relation est cohérente dans les quatre catégories. Pour les 'devises étrangères', les 'dérivés' et les 'régimes de retraite', les valeurs sont négatives dans les deux postes. Pour les 'titres disponibles à la vente', les valeurs sont positives dans les deux postes. Par conséquent, le signe du résultat avant reclassements correspond de manière cohérente au signe du résultat global net final de la période."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B5",
+      "C2",
+      "C5",
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_009",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "Quel élément de ligne spécifique, hors totaux, représente la valeur la plus extrême (c'est-à-dire la plus grande valeur absolue) dans le tableau ?",
+    "answer": [
+      [
+        "-140728"
+      ]
+    ],
+    "evidence_cells": [
+      "D2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_010",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "open_ended_reasoning",
+    "question": "En utilisant la logique de report où le Solde de fin = Solde de début + \"autre résultat net (perte)\", identifiez la catégorie financière dont les valeurs rapportées sont mathématiquement incohérentes.",
+    "answer": [
+      [
+        "La catégorie \"gains (pertes) latents sur titres disponibles à la vente\" est incohérente. Son solde de début de -10 (cellule C1) plus son \"autre résultat net (perte)\" de 10 (cellule C5) donne un solde de fin calculé de 0, ce qui ne correspond pas au solde de fin déclaré de 2 014 (cellule C6)."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C5",
+      "C6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_6ae921f44b_011",
+    "table_id": "finqa_6ae921f44b",
+    "question_type": "value",
+    "question": "De combien les régimes de retraite ont-ils diminué entre 2018 et 2019 ?",
+    "answer": [
+      [
+        "$24,344"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A6",
+      "E6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

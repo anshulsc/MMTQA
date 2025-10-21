@@ -1,0 +1,202 @@
+[
+  {
+    "question_id": "arxiv_b617ec8b31_001",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Для случая применения, когда метод MarS включает сравнение текущего рынка с симулированным рынком, с чем сравнивает соответствующий текущий метод?",
+    "answer": [
+      [
+        "Diff⁡(marketn⁢o⁢w,marketp⁢a⁢s⁢t)"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "B2"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_002",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Какой процент перечисленных приложений использует метод 'MarS', включающий 'генерацию' или 'симуляцию'?",
+    "answer": [
+      [
+        "50%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_003",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Каким образом метод MarS для применения «Обнаружение» изменяет сравнение по времени, используемое в «Текущих методах»?",
+    "answer": [
+      [
+        "«Текущие методы» для «Обнаружения» полагаются на историческое сравнение путем вычисления разницы между текущим состоянием рынка (market_now) и прошлым состоянием рынка (market_past). Метод MarS устраняет эту зависимость от прошлых данных. Вместо этого он сравнивает текущий рынок (market_now) с одновременно смоделированным рынком (simu-market_now), смещая сравнение от временной (сейчас против тогда) к основанной на модели (реальный против смоделированного) системе."
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_004",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Перечислите 'Текущие методы' для всех применений, где метод 'MarS' описан как 'конвейер' или включает 'генерацию'.",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ],
+      [
+        "online experiments, empirical formula"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "B1",
+      "C3",
+      "B3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_005",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Какое приложение демонстрирует наиболее фундаментальное изменение в подходе между «Текущими методами» и «MarS», переходя от исторического сравнения к симуляции?",
+    "answer": [
+      [
+        "Приложение «Обнаружение» демонстрирует наиболее фундаментальное изменение. Текущий метод основан на временном, ретроспективном сравнении (Diff(market_now, market_past)). В отличие от этого, метод MarS вводит сравнение с одновременной симулированной реальностью (Diff(market_now, simu-market_now)). Это изменение с исторической основы на симулированную для сравнения является значительным концептуальным отклонением по сравнению с другими методологическими сдвигами в таблице."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2",
+      "C2"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_006",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Если бы подход 'MarS' для 'RL Environment' был модифицирован для использования доступности данных 'Current Methods' для того же приложения, какие две характеристики определяли бы этот гипотетический метод MarS?",
+    "answer": [
+      [
+        "finite data"
+      ],
+      [
+        "real P(st+1|st,at)"
+      ]
+    ],
+    "evidence_cells": [
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_007",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Для приложения «RL Environment» в чём заключается ключевое различие в доступности данных и вероятностном распределении между «Current Methods» и «MarS»?",
+    "answer": [
+      [
+        "Ключевое различие заключается как в объёме данных, так и в достоверности вероятности перехода. «Current Methods» полагаются на «конечные данные» и «фальшивое» распределение вероятностей (P(st+1|st,at)), тогда как «MarS» использует «бесконечные данные» и «реальное» распределение вероятностей."
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_008",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Сколько из перечисленных приложений используют термин 'data' в описании своих методов для 'Current Methods' или 'MarS'?",
+    "answer": [
+      [
+        "2"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "A4",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_009",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "open_ended_reasoning",
+    "question": "Исходя из таблицы, в чем заключается очевидное преимущество MarS по сравнению с Current Methods, особенно в отношении представления данных и реальности?",
+    "answer": [
+      [
+        "Общая тема предполагает, что методы MarS направлены на преодоление ограничений исторических или конечных данных за счет использования генеративных подходов и подходов на основе моделирования. MarS переходит от экстраполяции к генерации, от исторического сравнения к симулированному сравнению и от моделей с конечными/фальшивыми данными к моделям с бесконечными/реальными данными. Это указывает на стратегическое преимущество в создании более надежных, гибких и реалистичных сред данных для анализа и обучения с подкреплением."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "B2",
+      "C2",
+      "B4",
+      "C4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_010",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Сколько различных применений, не считая строки заголовка, описано в таблице?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_b617ec8b31_011",
+    "table_id": "arxiv_b617ec8b31",
+    "question_type": "value",
+    "question": "Какой текущий метод используется для прогнозирования?",
+    "answer": [
+      [
+        "sequence extrapolation"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "B2"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

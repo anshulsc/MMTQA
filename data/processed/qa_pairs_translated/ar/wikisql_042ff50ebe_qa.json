@@ -1,0 +1,250 @@
+[
+  {
+    "question_id": "wikisql_042ff50ebe_001",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "أي عملة معدنية لديها أعلى نسبة كتلة إلى القطر؟",
+    "answer": [
+      [
+        "5 Kč"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "D1",
+      "A2",
+      "B2",
+      "D2",
+      "A3",
+      "B3",
+      "D3",
+      "A4",
+      "B4",
+      "D4",
+      "A5",
+      "B5",
+      "D5",
+      "A6",
+      "B6",
+      "D6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_002",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "ما هي الكتلة الإجمالية لجميع العملات المعدنية المتداولة حاليًا والمصنوعة من \"الفولاذ المطلي بالنيكل\"؟",
+    "answer": [
+      [
+        "12.1 g"
+      ]
+    ],
+    "evidence_cells": [
+      "D4",
+      "E4",
+      "K4",
+      "D5",
+      "E5",
+      "K5",
+      "D6",
+      "E6",
+      "K6"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_003",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "ما هو تركيب العملة التي بقيت في التداول لأطول فترة قبل سحبها؟",
+    "answer": [
+      [
+        "99% aluminium 1% magnesium"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "E3",
+      "J1",
+      "K1",
+      "J2",
+      "K2",
+      "J3",
+      "K3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_004",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "كم عدد السنوات الكاملة التي ظلت فيها عملة '50 هـ' متداولة رسميًا (من تاريخ الإصدار حتى السحب)؟",
+    "answer": [
+      [
+        "15"
+      ]
+    ],
+    "evidence_cells": [
+      "J3",
+      "K3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_005",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "أدرج قيم جميع العملات المعدنية التي صدرت في '9 يونيو 1993' ولها حافة 'مُسنّنة'.",
+    "answer": [
+      [
+        "1 Kč"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "F4",
+      "J4",
+      "A5",
+      "F5",
+      "J5",
+      "A6",
+      "F6",
+      "J6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_006",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "كم تبلغ نسبة أنواع العملات المدرجة التي تشترك في نفس سنة 'السك الأول' ولكن لديها تواريخ 'إصدار' مختلفة؟",
+    "answer": [
+      [
+        "100%"
+      ]
+    ],
+    "evidence_cells": [
+      "I1",
+      "J1",
+      "I2",
+      "J2",
+      "I3",
+      "J3",
+      "I4",
+      "J4",
+      "I5",
+      "J5",
+      "I6",
+      "J6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_007",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "إذا تمت زيادة سُمك جميع العملات المعدنية ذات الحافة \"المسننة\" إلى 2.0 ملم، فما هو متوسط السُمك الجديد لهذه المجموعة المحددة من العملات؟",
+    "answer": [
+      [
+        "2.0mm"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "F2",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_008",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "open_ended_reasoning",
+    "question": "حلل العلاقة بين تكوين العملة وعمرها الافتراضي في التداول، كما تقترحها تواريخ السحب من التداول.",
+    "answer": [
+      [
+        "تشير البيانات إلى وجود ارتباط قوي بين التكوين وعمر التداول الافتراضي. تم سحب جميع العملات المصنوعة من '99% aluminium 1% magnesium' (10h، 20h، 50h) من التداول. في المقابل، لا تزال جميع العملات المصنوعة من 'Nickel plated steel' (1 Kč، 2 Kč، 5 Kč) مدرجة تحت حالة 'Current' (حالياً/مستمرة). يشير هذا إلى أن العملات الفولاذية المطلية بالنيكل صُممت للتداول لفترة أطول مقارنةً بالعملات المصنوعة من سبيكة الألومنيوم والمغنيسيوم."
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "K1",
+      "E2",
+      "K2",
+      "E3",
+      "K3",
+      "E4",
+      "K4",
+      "E5",
+      "K5",
+      "E6",
+      "K6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_009",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "open_ended_reasoning",
+    "question": "أي عمود وصفي ('الوجه الأمامي' أو 'الوجه الخلفي') يوفر معلومات فريدة لتحديد كل عملة، وما هو السبب؟",
+    "answer": [
+      [
+        "يوفر عمود 'الوجه الخلفي' معلومات فريدة لتحديد كل عملة. فكل عملة لها وصف مختلف لوجهها الخلفي، مثل 'نهر مُصمَّم' أو 'تاج القديس وينسيسلاس'. أما عمود 'الوجه الأمامي'، فليس مفيدًا للتمييز لأنه يحتوي على النص ذاته تمامًا لجميع العملات الست."
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_010",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "open_ended_reasoning",
+    "question": "ما هي العملة التي تمثل حالة شاذة بناءً على شكلها المادي الموصوف في عمود 'القطر' (Diameter)، وما هو وجه الاختلاف فيها؟",
+    "answer": [
+      [
+        "العملة '2 Kč' هي العملة الشاذة. فبينما يتم وصف جميع العملات الأخرى بقياس واحد، مما يشير ضمنياً إلى شكل دائري، يتم تحديد قطر العملة '2 Kč' على أنه '21.5mm, 11-sided'. هذا الشكل المضلع المكون من 11 ضلعاً فريد بين العملات المدرجة."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_042ff50ebe_011",
+    "table_id": "wikisql_042ff50ebe",
+    "question_type": "value",
+    "question": "أي عملة مصنوعة من الفولاذ المطلي بالنيكل وحافتها مسننة؟",
+    "answer": [
+      [
+        "1 Kč"
+      ]
+    ],
+    "evidence_cells": [
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]

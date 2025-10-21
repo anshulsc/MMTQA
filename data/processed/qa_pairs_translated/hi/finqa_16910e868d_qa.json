@@ -1,0 +1,217 @@
+[
+  {
+    "question_id": "finqa_16910e868d_001",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "'fiscal 2022 and 2023' अवधि में सबसे बड़ा देय भुगतान किस विशिष्ट दायित्व प्रकार के लिए है?",
+    "answer": [
+      [
+        "long-term debt including current portionexcluding capital lease obligations ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A2",
+      "E2",
+      "A3",
+      "E3",
+      "A4",
+      "E4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_002",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "वित्त वर्ष 2020 और 2021 की अवधि में देय सभी लीज़-संबंधित दायित्वों (परिचालन और पूंजीगत) की कुल राशि क्या है?",
+    "answer": [
+      [
+        "206.6"
+      ]
+    ],
+    "evidence_cells": [
+      "D2",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_16910e868d_003",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "वित्तीय वर्ष 2019 में सबसे छोटा भुगतान देयता प्रकार के लिए, 'उसके बाद' कितना भुगतान देय है?",
+    "answer": [
+      [
+        "138.1"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "C1",
+      "A2",
+      "C2",
+      "A3",
+      "C3",
+      "A4",
+      "C4",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_004",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "निर्दिष्ट वित्तीय अवधियों में 'ऑपरेटिंग लीज ऑब्लिगेशन्स' के लिए भुगतान के रुझान का वर्णन करें।",
+    "answer": [
+      [
+        "'ऑपरेटिंग लीज ऑब्लिगेशन्स' के लिए भुगतान एक फ्रंट-लोडेड प्रवृत्ति दिखाते हैं। वे 2019 में $132.1 मिलियन से शुरू होते हैं, 2020-2021 की अवधि में $199.9 मिलियन पर चरम पर होते हैं, और फिर 2022-2023 में $118.4 मिलियन तक गिर जाते हैं, जिसके बाद $165.4 मिलियन का भुगतान देय होता है। यह बताता है कि अल्पकालिक में कई लीज सक्रिय थे, जिनकी तुलना में कम दीर्घकालिक प्रतिबद्धताएं थीं। उनकी चरम अवधि की तुलना में।"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_005",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "उन सभी दायित्व श्रेणियों की सूची बनाएं जहाँ देय कुल राशि $1000 मिलियन से कम है और 'बाद में' देय राशि $150 मिलियन से अधिक है।",
+    "answer": [
+      [
+        "operating lease obligations ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A2",
+      "B2",
+      "F2",
+      "A3",
+      "B3",
+      "F3",
+      "A4",
+      "B4",
+      "F4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_006",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "'कुल 'दीर्घकालिक ऋण' का कितना प्रतिशत 'बाद में' देय है?",
+    "answer": [
+      [
+        "51.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_16910e868d_007",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "यदि 'पूंजी पट्टे की देनदारियों' को माफ कर दिया जाए और तालिका से हटा दिया जाए, तो 'वित्तीय वर्ष 2019' के लिए कुल देय भुगतान क्या होगा?",
+    "answer": [
+      [
+        "$ 2535.3"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "C5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_008",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "डेटा के आधार पर, 'दीर्घकालिक ऋण' और 'खरीद दायित्व और अन्य' के परिपक्वता संरचना के बीच क्या मौलिक अंतर है?",
+    "answer": [
+      [
+        "उनकी परिपक्वता संरचनाओं में एक स्पष्ट विपरीत संबंध है। 'दीर्घकालिक ऋण' काफी हद तक बाद में देय है, जिसका आधा से अधिक ($6039.0M में से $3136.6M) 'इसके बाद' अवधि में देय है। इसके विपरीत, 'खरीद दायित्व और अन्य' काफी हद तक पहले देय हैं, जिसका अधिकांश भाग ($2210.5M में से $1676.6M) सबसे पहले की अवधि, वित्तीय वर्ष 2019 में देय है, जो दर्शाता है कि ये मुख्य रूप से अल्पकालिक प्रतिबद्धताएं हैं।"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "F1",
+      "B4",
+      "C4",
+      "F4"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_16910e868d_009",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "E5 सेल में '$ 1587.0' का मान, 'वित्तीय वर्ष 2022 और 2023' अवधि के लिए कुल देय भुगतानों की गणना अन्य आंकड़ों से कैसे की जाती है?",
+    "answer": [
+      [
+        "E5 सेल में '$ 1587.0' का मान, ऊपर सूचीबद्ध चार देयता श्रेणियों के प्रत्येक के लिए 'वित्तीय वर्ष 2022 और 2023' अवधि में देय भुगतानों का ऊर्ध्वाधर योग है: '$ 1351.0' (E1), '$ 118.4' (E2), '$ 2.7' (E3), और '$ 114.9' (E4)।"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_16910e868d_010",
+    "table_id": "finqa_16910e868d",
+    "question_type": "open_ended_reasoning",
+    "question": "कुल देनदारियों के अनुपात के मामले में कौन सी भुगतान अवधि एक महत्वपूर्ण आउटलायर (विसंगति) का प्रतिनिधित्व करती है, और इस विसंगति का कारण क्या है?",
+    "answer": [
+      [
+        "वित्तीय वर्ष 2019 एक आउटलायर है। इसका कुल $2540.3 मिलियन अगली दो अवधियों ($1255.5M और $1587.0M) की तुलना में काफी अधिक है। इस विसंगति का कारण लगभग पूरी तरह से 'खरीद देनदारियां और अन्य' श्रेणी है, जिसमें उस वर्ष $1676.6 मिलियन का असामान्य रूप से बड़ा भुगतान देय है, जो उस अवधि के कुल का लगभग 66% है।"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C5",
+      "D5",
+      "E5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_16910e868d_011",
+    "table_id": "finqa_16910e868d",
+    "question_type": "value",
+    "question": "वित्तीय वर्ष 2019 और 2020-2021 तक देय सभी पट्टे दायित्वों (परिचालन और पूंजी) का कुल योग मिलियन में कितना है?",
+    "answer": [
+      [
+        "$343.7"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "D2",
+      "A3",
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

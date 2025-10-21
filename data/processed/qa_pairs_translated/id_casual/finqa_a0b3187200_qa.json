@@ -1,0 +1,234 @@
+[
+  {
+    "question_id": "finqa_a0b3187200_001",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Kewajiban kontrak mana, selain totalnya, yang punya pembayaran jatuh tempo tertinggi di tahun 2020?",
+    "answer": [
+      [
+        "long-term debt ( 1 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "F1",
+      "A2",
+      "F2",
+      "A3",
+      "F3",
+      "A4",
+      "F4",
+      "A5",
+      "F5",
+      "A6",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_002",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Berapa rata-rata pembayaran tahunan yang harus dibayar untuk 'utang jangka panjang (1)' selama tahun 2017 sampai 2021?",
+    "answer": [
+      [
+        "353921"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "G1"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_a0b3187200_003",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Untuk kewajiban kontraktual dengan total pembayaran terendah yang jatuh tempo, berapa pembayaran yang dijadwalkan untuk periode 'setelahnya'?",
+    "answer": [
+      [
+        "$ 14480"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "A6",
+      "H6"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_004",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Jelasin tren pembayaran buat 'share of unconsolidated joint ventures' debt ( 3 )' dari 2017 sampai 2021. Konsisten gak?",
+    "answer": [
+      [
+        "Tren pembayaran buat 'share of unconsolidated joint ventures' debt ( 3 )' dari 2017 sampai 2021 itu nggak konsisten dan naik turun banget. Pembayarannya mulai dari yang kecil $2.444 ribu di 2017, loncat parah jadi $28.466 ribu di 2018, turun lagi jadi $5.737 ribu di 2019, naik lagi jadi $11.598 ribu di 2020, terus jatoh ke angka terendah $1.236 ribu di 2021. Gak ada tren naik atau turun yang jelas."
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_005",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Sebutin semua kewajiban kontrak yang pembayaran jatuh temponya kurang dari $3.000 ribu di tahun 2017 dan 2019.",
+    "answer": [
+      [
+        "line of credit ( 2 )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_006",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Berapa persen dari total kewajiban kontrak tahun 2018 yang diatribusikan ke 'utang jangka panjang (1)'?",
+    "answer": [
+      [
+        "87.71%"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "D7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_a0b3187200_007",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Kalo bayar 'ground leases' di 2017 lebih rendah 20%, berapa total kewajiban kontraknya di tahun itu?",
+    "answer": [
+      [
+        "$ 555989"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "C7"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_008",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Berdasarkan data kewajiban individu, apakah ada korelasi yang jelas antara besarnya kewajiban 'total' dan jumlah yang jatuh tempo di periode 'selanjutnya'? Jelaskan alasanmu.",
+    "answer": [
+      [
+        "Nggak ada korelasi yang jelas. Misalnya, 'utang jangka panjang' (long-term debt), kewajiban terbesar ($3.508.789 ribu), sekitar 49,6% dari totalnya jatuh tempo 'selanjutnya'. Sebaliknya, 'biaya backlog pengembangan dan konstruksi' (development and construction backlog costs), kewajiban besar lainnya ($344.700 ribu), hanya sekitar 0,6% yang jatuh tempo 'selanjutnya'. Sementara itu, 'sewa tanah' (ground leases), kewajiban berukuran sedang, memiliki proporsi yang sangat tinggi (89,1%) yang jatuh tempo 'selanjutnya'. Variasi ini menunjukkan bahwa jadwal pembayaran tidak semata-mata ditentukan oleh total ukurannya."
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "H1",
+      "B2",
+      "H2",
+      "B3",
+      "H3",
+      "B4",
+      "H4",
+      "B5",
+      "H5",
+      "B6",
+      "H6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_a0b3187200_009",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "open_ended_reasoning",
+    "question": "Baris mana di tabel yang mewakili penjumlahan baris kewajiban individu lainnya, dan kolom mana saja yang berlaku untuk penjumlahan ini?",
+    "answer": [
+      [
+        "Baris 'total contractual obligations' adalah penjumlahan dari enam baris kewajiban individu lainnya. Penjumlahan ini berlaku untuk semua kolom pembayaran, mulai dari 'total' hingga 'thereafter' (kolom B hingga H)."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_a0b3187200_010",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Untuk 'development and construction backlog costs', pembayaran tahun berapa yang paling beda banget dibanding pembayaran dari 2018-2021?",
+    "answer": [
+      [
+        "2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_a0b3187200_011",
+    "table_id": "finqa_a0b3187200",
+    "question_type": "value",
+    "question": "Berapa total kewajiban kontraktual dalam ribuan dari tahun 2017 sampai 2021?",
+    "answer": [
+      [
+        "$2,282,629"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "G7"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

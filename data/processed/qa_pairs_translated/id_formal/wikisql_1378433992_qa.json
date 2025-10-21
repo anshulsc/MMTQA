@@ -1,0 +1,232 @@
+[
+  {
+    "question_id": "wikisql_1378433992_001",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Stasiun manakah yang memiliki frekuensi tertinggi di antara stasiun-stasiun dengan format 'Variety Hits'?",
+    "answer": [
+      [
+        "WWLB-FM"
+      ]
+    ],
+    "evidence_cells": [
+      "C7",
+      "D7",
+      "F7",
+      "C11",
+      "D11",
+      "F11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_004",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Daftarkan 'Branding' untuk semua stasiun yang berformat 'Oldies' DAN berada di pita AM (frekuensi > 200).",
+    "answer": [
+      [
+        "True Oldies 96.3"
+      ]
+    ],
+    "evidence_cells": [
+      "D8",
+      "E8",
+      "F8",
+      "D9",
+      "E9",
+      "F9",
+      "D18",
+      "E18",
+      "F18",
+      "D19",
+      "E19",
+      "F19"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_005",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Berapa persentase stasiun di pasar Hagerstown yang merupakan stasiun AM (frekuensi > 200)?",
+    "answer": [
+      [
+        "40%"
+      ]
+    ],
+    "evidence_cells": [
+      "B15",
+      "D15",
+      "B16",
+      "D16",
+      "B17",
+      "D17",
+      "B18",
+      "D18",
+      "B19",
+      "D19"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_1378433992_006",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Jika sebuah stasiun baru, 'STAR 101.9', dengan format 'Pop' ditambahkan ke pasar Dayton, OH, berapakah rata-rata jumlah stasiun per pasar yang baru?",
+    "answer": [
+      [
+        "5"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "B6",
+      "B10",
+      "B15"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_007",
+    "table_id": "wikisql_1378433992",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah terdapat hubungan yang teramati antara jenis tanda panggilan stasiun (yang berakhir dengan -FM versus -AM) dan format stasiun tersebut yang secara eksklusif berupa musik atau program bicara?",
+    "answer": [
+      [
+        "Tidak ada hubungan yang definitif dalam kumpulan data ini. Meskipun mayoritas stasiun yang berakhir dengan -FM berbasis musik, stasiun yang berakhir dengan -AM tidak secara eksklusif berupa program bicara. WING-AM memiliki format 'Sports', tetapi WCHA-AM dan WHAG-AM keduanya memiliki format 'Oldies' berbasis musik, yang mengindikasikan bahwa kedua jenis tanda panggilan dapat dikaitkan dengan program musik."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "F1",
+      "C2",
+      "F2",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "C5",
+      "F5",
+      "C6",
+      "F6",
+      "C7",
+      "F7",
+      "C8",
+      "F8",
+      "C9",
+      "F9",
+      "C10",
+      "F10",
+      "C11",
+      "F11",
+      "C12",
+      "F12",
+      "C13",
+      "F13",
+      "C14",
+      "F14",
+      "C15",
+      "F15",
+      "C16",
+      "F16",
+      "C17",
+      "F17",
+      "C18",
+      "F18",
+      "C19",
+      "F19"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_1378433992_008",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Selain 'DMA' dan 'Market', kolom data manakah yang berisi nilai identik untuk stasiun yang berbeda, yaitu WARV-FM dan WBBT-FM?",
+    "answer": [
+      [
+        "Branding"
+      ],
+      [
+        "Format"
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "E8",
+      "F8",
+      "C9",
+      "E9",
+      "F9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_009",
+    "table_id": "wikisql_1378433992",
+    "question_type": "open_ended_reasoning",
+    "question": "Stasiun manakah yang 'Branding'-nya tidak konsisten dengan 'Frequency' (Frekuensi) yang terdaftar?",
+    "answer": [
+      [
+        "Stasiun WARV-FM adalah pengecualian yang mencolok. Branding-nya adalah 'Big Oldies 107.3', yang menyiratkan frekuensi 107.3, tetapi frekuensi aktual yang terdaftar adalah 100.3."
+      ]
+    ],
+    "evidence_cells": [
+      "C8",
+      "D8",
+      "E8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_1378433992_010",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Format stasiun manakah yang terdapat di kedua pasar 'Louisville, KY' dan 'Dayton, OH'?",
+    "answer": [
+      [
+        "Urban AC"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "F1",
+      "B2",
+      "F2",
+      "B3",
+      "F3",
+      "B4",
+      "F4",
+      "B5",
+      "F5",
+      "B10",
+      "F10",
+      "B11",
+      "F11",
+      "B12",
+      "F12",
+      "B13",
+      "F13",
+      "B14",
+      "F14"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_1378433992_011",
+    "table_id": "wikisql_1378433992",
+    "question_type": "value",
+    "question": "Stasiun mana di Louisville yang memiliki frekuensi 101.3?",
+    "answer": [
+      [
+        "WMJM-FM"
+      ]
+    ],
+    "evidence_cells": [
+      "C3",
+      "D3"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

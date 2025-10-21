@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "finqa_7029f59db3_001",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "¿Qué tipo de reactor tiene una mayor capacidad promedio y cuál es esa capacidad promedio en MW?",
+    "answer": [
+      [
+        "Pressurized Water",
+        "960"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_002",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "¿Cuál es la capacidad combinada total (en MW) de todas las centrales eléctricas ubicadas en el estado de Nueva York (NY)?",
+    "answer": [
+      [
+        "2907"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "F2",
+      "E3",
+      "F3",
+      "E4",
+      "F4"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_7029f59db3_003",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "¿Cuál es la fecha de vencimiento de la licencia para la planta en el mercado 'nyiso' que ha estado en servicio por más tiempo?",
+    "answer": [
+      [
+        "2013 ( c )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "B2",
+      "B3",
+      "B4",
+      "C2",
+      "C3",
+      "C4",
+      "G4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_004",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Calcule el número promedio de años entre el 'año de entrada en servicio' y la 'fecha de vencimiento de la licencia' para todas las plantas adquiridas después del año 2000.",
+    "answer": [
+      [
+        "52.25"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6",
+      "C3",
+      "D3",
+      "G3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_005",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Enumere los nombres de todas las centrales eléctricas que no están en el mercado 'nyiso' y tienen una capacidad superior a 700 MW.",
+    "answer": [
+      [
+        "palisades ( e )"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "F1",
+      "A5",
+      "B5",
+      "F5",
+      "A6",
+      "B6",
+      "F6"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_006",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "¿Qué proporción de la capacidad total de todas las plantas listadas es aportada por las plantas con reactores de agua en ebullición? Expresar la respuesta como un porcentaje redondeado a dos decimales.",
+    "answer": [
+      [
+        "42.53%"
+      ]
+    ],
+    "evidence_cells": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_7029f59db3_007",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "Si la capacidad de todos los reactores de 'agua en ebullición' se mejorara en un 10%, ¿cuál sería la nueva capacidad total para la planta 'pilgrim ( a )'?",
+    "answer": [
+      [
+        "756.8 mw"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "F3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_008",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Analizar la relación entre el año en que se adquirió una planta y su duración operativa con licencia (año de expiración de la licencia menos año de puesta en servicio). ¿Existe algún patrón discernible?",
+    "answer": [
+      [
+        "No hay una correlación clara entre el año de adquisición y la duración operativa con licencia. Las duraciones son: Pilgrim (adquirida en 1999) - 60 años, FitzPatrick (2000) - 59 años, Indian Point 3 (2000) - 39 años, Indian Point 2 (2001) - 39 años, Vermont Yankee (2002) - 60 años y Palisades (2007) - 60 años. Las plantas adquiridas más recientemente (por ejemplo, Palisades en 2007) tienen duraciones largas (60 años), mientras que algunas adquiridas anteriormente (por ejemplo, las plantas de Indian Point en 2000/2001) tienen duraciones mucho más cortas (39 años). La duración parece ser independiente de la fecha de adquisición."
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "G1",
+      "C2",
+      "D2",
+      "G2",
+      "C3",
+      "D3",
+      "G3",
+      "C4",
+      "D4",
+      "G4",
+      "C5",
+      "D5",
+      "G5",
+      "C6",
+      "D6",
+      "G6"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_7029f59db3_009",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "¿Qué central eléctrica tiene un 'año de puesta en servicio' que es la mayor anomalía en comparación con el 'año de puesta en servicio' promedio de otras centrales en la misma ubicación?",
+    "answer": [
+      [
+        "fitzpatrick ( b )"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "A3",
+      "C3",
+      "E3",
+      "A4",
+      "C4",
+      "E4"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_7029f59db3_010",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "¿Excluyendo la columna 'capacidad - tipo de reactor', ¿qué dos columnas en el conjunto de datos contienen calificadores entre paréntesis en sus entradas de datos, lo que sugiere que pueden vincularse a notas al pie o detalles adicionales no presentes en la tabla?",
+    "answer": [
+      [
+        "power plant",
+        "license expiration date"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_7029f59db3_011",
+    "table_id": "finqa_7029f59db3",
+    "question_type": "value",
+    "question": "¿Qué central eléctrica fue adquirida más recientemente?",
+    "answer": [
+      [
+        "Palisades"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "D1",
+      "A2",
+      "D2",
+      "A3",
+      "D3",
+      "A4",
+      "D4",
+      "A5",
+      "D5",
+      "A6",
+      "D6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  }
+]

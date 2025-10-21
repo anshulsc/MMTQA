@@ -1,0 +1,327 @@
+[
+  {
+    "question_id": "wikisql_c9a0ce4728_001",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "¿Qué motor con configuración de cilindros 'VR' (VR5 o VR6) tiene el tiempo de aceleración más rápido de 0 a 100 km/h?",
+    "answer": [
+      [
+        "2.8 24v [1]"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "H9",
+      "C10",
+      "H10",
+      "C11",
+      "H11",
+      "A11"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_002",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "¿Cuál es la emisión media de CO2 (en g/km) para los motores diésel cuyo período de producción finalizó en o antes del año 2002?",
+    "answer": [
+      [
+        "139"
+      ]
+    ],
+    "evidence_cells": [
+      "D13",
+      "J13",
+      "K13",
+      "D14",
+      "J14",
+      "K14",
+      "D16",
+      "J16",
+      "K16",
+      "D17",
+      "J17",
+      "K17"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_003",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "Identifica el código o los códigos de identificación del motor para el motor de gasolina que tiene las emisiones de CO2 más bajas.",
+    "answer": [
+      [
+        "BAD"
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "J1",
+      "D2",
+      "J2",
+      "D3",
+      "J3",
+      "D4",
+      "J4",
+      "D5",
+      "J5",
+      "D6",
+      "J6",
+      "D7",
+      "J7",
+      "D8",
+      "J8",
+      "D9",
+      "J9",
+      "D10",
+      "J10",
+      "D11",
+      "J11",
+      "G5"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_004",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "open_ended_reasoning",
+    "question": "¿Cómo evolucionó el modelo de motor '1.6 8v' a lo largo de su línea de producción, específicamente en lo que respecta a sus emisiones de CO2 y aceleración?",
+    "answer": [
+      [
+        "El motor '1.6 8v' se actualizó después de su ciclo de producción inicial de 1999-2000. La versión posterior, producida de 2000 a 2006 bajo nuevos códigos de identificación de motor (AVU/BFQ), presentó una reducción en las emisiones de CO2 de 180 g/km a 170 g/km, lo que indica una mejora en la eficiencia. Sin embargo, esta actualización conllevó una ligera disminución en el rendimiento, ya que el tiempo de 0 a 100 km/h aumentó de 11.9 a 12.1 segundos."
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "G2",
+      "H2",
+      "J2",
+      "K2",
+      "A3",
+      "G3",
+      "H3",
+      "J3",
+      "K3"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_005",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "Enumera los nombres de todos los motores de gasolina cuya producción comenzó en el año 2000 o después y que pueden acelerar de 0 a 100 km/h en menos de 9.5 segundos.",
+    "answer": [
+      [
+        "1.8 20v Turbo"
+      ],
+      [
+        "2.3 20v [1]"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "D3",
+      "K3",
+      "H3",
+      "A4",
+      "D4",
+      "K4",
+      "H4",
+      "A5",
+      "D5",
+      "K5",
+      "H5",
+      "A6",
+      "D6",
+      "K6",
+      "H6",
+      "A8",
+      "D8",
+      "K8",
+      "H8",
+      "A10",
+      "D10",
+      "K10",
+      "H10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_006",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "¿Qué porcentaje de todos los motores listados se puede considerar de alto rendimiento, definido como un tiempo de aceleración de 0 a 100 km/h de 10.0 segundos o menos?",
+    "answer": [
+      [
+        "22.22%"
+      ]
+    ],
+    "evidence_cells": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H14",
+      "H15",
+      "H16",
+      "H17",
+      "H18"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_007",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "¿Si un nuevo sistema de escape redujera las emisiones de CO2 de todos los motores VR5 y VR6 en un 15%, cuál sería la nueva emisión media de CO2 para este grupo específico de motores?",
+    "answer": [
+      [
+        "198.05 g/km"
+      ]
+    ],
+    "evidence_cells": [
+      "C9",
+      "J9",
+      "C10",
+      "J10",
+      "C11",
+      "J11"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_008",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "open_ended_reasoning",
+    "question": "Analizando solo los motores de gasolina, ¿cuál es la relación general entre la cilindrada (en cc) y el rendimiento de aceleración (el tiempo de 0 a 100 km/h)? Justifica tu respuesta con ejemplos.",
+    "answer": [
+      [
+        "Existe una fuerte correlación negativa entre la cilindrada del motor y el tiempo de 0 a 100 km/h para los motores de gasolina, lo que significa que a medida que aumenta la cilindrada, el tiempo para acelerar a 100 km/h generalmente disminuye (el rendimiento mejora). Por ejemplo, el motor de gasolina más pequeño, el 1.4 16v (1390 cc), tiene el tiempo más lento de 15,6 segundos. En contraste, el motor más grande, el 2.8 24v (2792 cc), tiene el tiempo más rápido de 7,6 segundos. Esta tendencia es consistente en la mayor parte del rango."
+      ]
+    ],
+    "evidence_cells": [
+      "D1",
+      "B1",
+      "H1",
+      "D2",
+      "B2",
+      "H2",
+      "D3",
+      "B3",
+      "H3",
+      "D4",
+      "B4",
+      "H4",
+      "D5",
+      "B5",
+      "H5",
+      "D6",
+      "B6",
+      "H6",
+      "D7",
+      "B7",
+      "H7",
+      "D8",
+      "B8",
+      "H8",
+      "D9",
+      "B9",
+      "H9",
+      "D10",
+      "B10",
+      "H10",
+      "D11",
+      "B11",
+      "H11"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_009",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "¿Qué columna de la tabla está completamente llena con un valor de marcador de posición, lo que la hace inutilizable para la comparación directa del rendimiento entre motores?",
+    "answer": [
+      [
+        "Top speed"
+      ]
+    ],
+    "evidence_cells": [
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I10",
+      "I11",
+      "I12",
+      "I13",
+      "I14",
+      "I15",
+      "I16",
+      "I17",
+      "I18"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_010",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "¿Qué motor diésel es una excepción en cuanto a rendimiento, con un tiempo de aceleración de 0 a 100 km/h significativamente más lento que cualquier otro modelo diésel listado?",
+    "answer": [
+      [
+        "1.9 8v SDI"
+      ]
+    ],
+    "evidence_cells": [
+      "A12",
+      "D12",
+      "H12",
+      "D13",
+      "H13",
+      "D14",
+      "H14",
+      "D15",
+      "H15",
+      "D16",
+      "H16",
+      "D17",
+      "H17",
+      "D18",
+      "H18"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "wikisql_c9a0ce4728_011",
+    "table_id": "wikisql_c9a0ce4728",
+    "question_type": "value",
+    "question": "¿Cuántos motores son diésel?",
+    "answer": [
+      [
+        "7"
+      ]
+    ],
+    "evidence_cells": [
+      "D12",
+      "D19"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "finqa_86e5109b28_001",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "أي التزام تجاري، باستثناء الإجماليات، لديه أكبر مبلغ انتهاء في أي سنة من 2014 إلى 2017؟",
+    "answer": [
+      [
+        "credit facilities [a]"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "A3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "A4",
+      "D4"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_002",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "ما هو مجموع جميع تواريخ انتهاء الالتزامات الفردية لعامي 2016 و 2017 مجتمعين؟",
+    "answer": [
+      [
+        "40"
+      ]
+    ],
+    "evidence_cells": [
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_86e5109b28_003",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "حدد نوع الالتزام الذي تتوزع تواريخ استحقاقه على أكبر عدد من الفترات، واذكر قيمته الإجمالية.",
+    "answer": [
+      [
+        "guarantees [c]"
+      ],
+      [
+        "307"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3",
+      "C1",
+      "E1",
+      "C2",
+      "C4",
+      "D4"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_004",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "صف النمط الزمني لانقضاء 'إجمالي الالتزامات التجارية' من عام 2013 إلى عام 2016.",
+    "answer": [
+      [
+        "النمط شديد التقلب. يبدأ بـ 632 مليون دولار في عام 2013، وينخفض بنسبة 66% تقريبًا إلى 215 مليون دولار في عام 2014، ثم يرتفع بشكل كبير إلى أعلى مستوى له على الإطلاق عند 1812 مليون دولار في عام 2015، قبل أن ينخفض بأكثر من 98% إلى 30 مليون دولار فقط في عام 2016. لا يوجد نمو أو انخفاض ثابت."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_005",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "ما هي أنواع الالتزامات التي لديها مبلغ التزام أكبر من 0 دولار في عام 2013 ولكن لا توجد التزامات من عام 2015 فصاعدًا؟",
+    "answer": [
+      [
+        "receivables securitization facility [b]"
+      ],
+      [
+        "standby letters of credit [d]"
+      ]
+    ],
+    "evidence_cells": [
+      "A2",
+      "C2",
+      "E2",
+      "F2",
+      "G2",
+      "H2",
+      "A4",
+      "C4",
+      "E4",
+      "F4",
+      "G4",
+      "H4"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_006",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "ما هي نسبة الاستحقاقات الإجمالية لعام 2013 التي تُعزى إلى \"تسهيلات توريق الذمم المدينة\"؟",
+    "answer": [
+      [
+        "94.94%"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C5"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_86e5109b28_007",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "إذا تم توزيع مبلغ 1800 مليون دولار لتسهيلات الائتمان التي تنتهي صلاحيتها في عام 2015 بالتساوي بين عامي 2016 و 2017، فما هو الإجمالي الجديد لـ \"إجمالي الالتزامات التجارية\" لعام 2016؟",
+    "answer": [
+      [
+        "$ 930"
+      ]
+    ],
+    "evidence_cells": [
+      "E1",
+      "F5"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_008",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "بناءً على الجدول، هل هناك ارتباط ملحوظ بين المبلغ الإجمالي للالتزام وعدد السنوات التي تنتهي خلالها؟",
+    "answer": [
+      [
+        "لا، لا يوجد ارتباط مباشر. في الواقع، تشير البيانات إلى علاقة عكسية. أكبر التزام، 'التسهيلات الائتمانية' (1800 مليون دولار)، ينتهي بالكامل في عام واحد (2015). وعلى العكس من ذلك، فإن 'الضمانات' (307 مليون دولار)، وهي أحد الالتزامات الأصغر، موزعة على الفترات الزمنية الست المذكورة."
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "E1",
+      "A3",
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3",
+      "H3"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_86e5109b28_009",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "أي عمود سنة انتهاء لديه أقل عدد من أنواع الالتزامات الفردية بقيمة غير صفرية؟",
+    "answer": [
+      [
+        "amount of commitment expiration per period 2016"
+      ],
+      [
+        "amount of commitment expiration per period 2017"
+      ],
+      [
+        "amount of commitment expiration per period after 2017"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_86e5109b28_010",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "open_ended_reasoning",
+    "question": "حدد السنة التي يمثل فيها إجمالي مبلغ الانقضاء قيمة شاذة كبيرة مقارنة بالفترات الأخرى، وعلل سبب ذلك.",
+    "answer": [
+      [
+        "تمثل سنة 2015 قيمة شاذة واضحة بإجمالي انقضاء قدره 1812 مليون دولار. هذا الرقم مرتفع بشكل استثنائي، حيث يزيد بأكثر من 2.8 مرة عن أكبر إجمالي سنوي تالٍ (632 مليون دولار في عام 2013) وبشكل كبير عن جميع الفترات الأخرى، التي تتراوح قيمتها من 10 ملايين دولار إلى 215 مليون دولار."
+      ]
+    ],
+    "evidence_cells": [
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5",
+      "H5"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_86e5109b28_011",
+    "table_id": "finqa_86e5109b28",
+    "question_type": "value",
+    "question": "ما هي إجمالي الالتزامات التجارية من عام 2013 إلى عام 2017؟",
+    "answer": [
+      [
+        "2,699"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "question_id": "arxiv_e9fe1a9aed_001",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Metode peramalan mana yang mencapai tingkat kesalahan terendah untuk skenario BC2 (baik BC2_64 maupun BC2_28)?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_002",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Berapa tingkat kesalahan rata-rata untuk metode 'LASSO regression feature selection' di semua enam skenario BC?",
+    "answer": [
+      [
+        "12.96"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5",
+      "G5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_003",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Identifikasi metode pemilihan fitur yang menggunakan jumlah variabel eksogen tertinggi untuk skenario tunggal mana pun. Kemudian, untuk metode spesifik tersebut, laporkan tingkat kesalahannya dalam skenario BC3_64.",
+    "answer": [
+      [
+        "6.35"
+      ]
+    ],
+    "evidence_cells": [
+      "F8",
+      "F7",
+      "A7"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_004",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Untuk skenario BC mana kesenjangan kinerja, yang didefinisikan sebagai perbedaan antara tingkat kesalahan tertinggi dan terendah di antara semua pengaturan perkiraan, yang terbesar?",
+    "answer": [
+      [
+        "BC3_28"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "B2",
+      "B3",
+      "B5",
+      "B7",
+      "B9",
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9",
+      "D2",
+      "D3",
+      "D5",
+      "D7",
+      "D9",
+      "E2",
+      "E3",
+      "E5",
+      "E7",
+      "E9",
+      "F2",
+      "F3",
+      "F5",
+      "F7",
+      "F9",
+      "G2",
+      "G3",
+      "G5",
+      "G7",
+      "G9"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_005",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Sebutkan semua pengaturan peramalan untuk skenario BC1_28 yang menggunakan lebih dari 5 variabel eksogen dan mencapai tingkat kesalahan di bawah 16,0.",
+    "answer": [
+      [
+        "LASSO regression feature selection"
+      ],
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A5",
+      "C5",
+      "C6",
+      "A7",
+      "C7",
+      "C8",
+      "A9",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_006",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Pada skenario BC2_28, berapa persen tingkat kesalahan metode 'Forward Feature Selection SARIMAX' lebih rendah dibandingkan dengan metode dasar 'Without exogenous variables'?",
+    "answer": [
+      [
+        "84.38%"
+      ]
+    ],
+    "evidence_cells": [
+      "E2",
+      "E7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_007",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Jika kesalahan untuk 'Correlation-Based Selection' di bawah BC1_28 dikurangi sebesar 75%, berapa rata-rata kesalahan baru untuk skenario BC1_28 di semua lima pengaturan peramalan?",
+    "answer": [
+      [
+        "12.18"
+      ]
+    ],
+    "evidence_cells": [
+      "C2",
+      "C3",
+      "C5",
+      "C7",
+      "C9"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_008",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "open_ended_reasoning",
+    "question": "Apakah ada hubungan yang konsisten antara penggunaan jumlah variabel eksogen yang lebih tinggi dan pencapaian tingkat kesalahan yang lebih rendah di berbagai metode pemilihan fitur?",
+    "answer": [
+      [
+        "Tidak, tidak ada hubungan yang konsisten. Misalnya, dalam skenario BC1_64, 'Forward Feature Selection SARIMAX' menggunakan hanya 1 variabel dan mencapai kesalahan terendah (5.64), sementara 'Manual feature selection' menggunakan 18 variabel dan memiliki kesalahan yang jauh lebih tinggi (13.99). Sebaliknya, dalam skenario BC1_28, kesalahan untuk 'Forward Feature Selection SARIMAX' (5.94 dengan 15 variabel) lebih rendah daripada 'LASSO' (15.38 dengan 10 variabel), menunjukkan bahwa lebih banyak variabel bisa lebih baik dalam beberapa kasus. Ini menunjukkan efektivitas metode pemilihan lebih penting daripada jumlah variabel semata."
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_009",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Nilai kesalahan mana untuk metode 'Correlation-Based Selection' yang merupakan outlier signifikan dibandingkan dengan kinerjanya dalam skenario lain?",
+    "answer": [
+      [
+        "26.47"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "G3"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_010",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Berapa banyak metodologi seleksi fitur yang berbeda yang memanfaatkan variabel eksogen yang dibandingkan dalam tabel ini?",
+    "answer": [
+      [
+        "4"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "A5",
+      "A7",
+      "A9"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e9fe1a9aed_011",
+    "table_id": "arxiv_e9fe1a9aed",
+    "question_type": "value",
+    "question": "Metode peramalan mana yang mencapai kesalahan terendah untuk BC2_28?",
+    "answer": [
+      [
+        "Forward Feature Selection SARIMAX"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "E7"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  }
+]

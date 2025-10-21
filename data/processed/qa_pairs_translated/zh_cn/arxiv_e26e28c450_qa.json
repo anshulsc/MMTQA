@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "arxiv_e26e28c450_001",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "哪个非多任务模型实现了最低的总平均平方误差 (MSE_over)?",
+    "answer": [
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "H1",
+      "A2",
+      "B2",
+      "H2",
+      "A3",
+      "B3",
+      "H3",
+      "A4",
+      "B4",
+      "H4",
+      "A5",
+      "B5",
+      "H5"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_002",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "计算所有标记为“Multi-Task”的模型在7天预测期（MSE7）上的平均MSE。",
+    "answer": [
+      [
+        "0.820"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "H6",
+      "D7",
+      "H7",
+      "D8",
+      "H8"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_003",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "对于 MSE3 值第二高的（第二差的）模型，其对应的 MSE30 值是多少？",
+    "answer": [
+      [
+        "0.233"
+      ]
+    ],
+    "evidence_cells": [
+      "A3",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "F3"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_004",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "分析HTML模型在预测范围从3天延长到30天时，其均方误差（MSE）的变化趋势。它的预测准确性是随时间推移而提高还是降低？",
+    "answer": [
+      [
+        "随着预测范围的延长，HTML模型的预测准确性有所提高。其MSE值从MSE3（0.845）持续下降到MSE7（0.349）、MSE15（0.251），最后到MSE30（0.158），这表明在长期预测中误差更低，因此性能更好。"
+      ]
+    ],
+    "evidence_cells": [
+      "A6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_005",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "找出所有未被指定为“多任务”（Multi-Task）且 MSE15 值低于 0.31 的模型。",
+    "answer": [
+      [
+        "MT-LSTM-ATT"
+      ],
+      [
+        "HAN"
+      ],
+      [
+        "MRDM"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "E1",
+      "H1",
+      "A2",
+      "E2",
+      "H2",
+      "A3",
+      "E3",
+      "H3",
+      "A4",
+      "E4",
+      "H4",
+      "A5",
+      "E5",
+      "H5"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_006",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "找出在所有MSE指标上表现明显异常的模型，并解释原因。",
+    "answer": [
+      [
+        "GPT-3.5-Turbo 模型是一个明显的性能异常。其在所有预测期上的MSE值（MSE_over：2.198，MSE3：2.152，MSE7：1.793，MSE15：2.514，MSE30：2.332）均远高于所有其他模型，其中大部分模型的MSE值都低于1.0。这表明与其他模型相比，其预测性能显著较差。"
+      ]
+    ],
+    "evidence_cells": [
+      "A7",
+      "B7",
+      "C7",
+      "D7",
+      "E7",
+      "F7",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_007",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "value",
+    "question": "所有模型MSE3的总和中，有多少百分比可归因于GPT-3.5-Turbo模型？请以百分比形式提供答案，并保留一位小数。",
+    "answer": [
+      [
+        "19.5%"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_008",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "如果RiskLabs模型的MSE_over（均方误差）提高25%（即降低25%），那么它的新值是多少，与HTML模型的MSE_over相比，它的排名如何？",
+    "answer": [
+      [
+        "RiskLabs的新MSE_over将是0.243。这个值低于HTML模型的MSE_over（0.401），因此更好。"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "B8"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_009",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "根据表格，'Multi-Task' 模型与其 'VaR' 分数可用性之间有什么关系？",
+    "answer": [
+      [
+        "存在很强的相关性。只有被归类为“Multi-Task”的模型（GPT-3.5-Turbo 和 RiskLabs）才有报告的数值型“VaR”分数。然而，并非所有“Multi-Task”模型都有 VaR 分数（例如 HTML），并且没有非“Multi-Task”模型拥有 VaR 分数，这表明计算 VaR 的能力是该数据集中主要与“Multi-Task”模型相关联的特性。"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "H1",
+      "G2",
+      "H2",
+      "G3",
+      "H3",
+      "G4",
+      "H4",
+      "G5",
+      "H5",
+      "G6",
+      "H6",
+      "G7",
+      "H7",
+      "G8",
+      "H8"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_010",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "哪个性能指标列包含非数字占位符数据，以及这些数据缺失于哪些具体模型？",
+    "answer": [
+      [
+        "“VaR”列包含非数字数据（“/”）。这些数据缺失于以下模型：Classical Method、LSTM、MT-LSTM-ATT、HAN、MRDM 和 HTML。"
+      ]
+    ],
+    "evidence_cells": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "arxiv_e26e28c450_011",
+    "table_id": "arxiv_e26e28c450",
+    "question_type": "open_ended_reasoning",
+    "question": "哪个模型在不同预测范围（MSE3-MSE30）的预测准确性和风险估计（VaR）之间取得了最佳的整体平衡？",
+    "answer": [
+      [
+        "RiskLabs模型在所有预测范围内都保持了最低的MSE值，并且VaR最低（0.049），在预测准确性和可靠的风险估计之间取得了最佳的整体平衡。"
+      ]
+    ],
+    "evidence_cells": [
+      "A8",
+      "B8",
+      "C8",
+      "D8",
+      "E8",
+      "F8",
+      "G8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  }
+]

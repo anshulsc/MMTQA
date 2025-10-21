@@ -1,0 +1,213 @@
+[
+  {
+    "question_id": "finqa_3088a5a488_001",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "公司在哪个年份创下了最高的销售和服务收入？",
+    "answer": [
+      [
+        "2010"
+      ]
+    ],
+    "evidence_cells": [
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_002",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "提供的五年中，“总资产”的平均价值（以百万美元计）是多少？",
+    "answer": [
+      [
+        "5529.8"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "C5",
+      "D5",
+      "E5",
+      "F5"
+    ],
+    "reasoning_category": "Numerical Aggregation"
+  },
+  {
+    "question_id": "finqa_3088a5a488_003",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "公司经历最大“经营亏损”的那一年的“自由现金流”是多少？",
+    "answer": [
+      [
+        "121"
+      ]
+    ],
+    "evidence_cells": [
+      "B3",
+      "C3",
+      "D3",
+      "E3",
+      "F3",
+      "F8"
+    ],
+    "reasoning_category": "Multi-Hop Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_004",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "open_ended_reasoning",
+    "question": "请描述一下从2008年到2012年“长期负债”的趋势。是稳定增长、下降，还是显示出显著波动？",
+    "answer": [
+      [
+        "“长期负债”显示出显著波动。从2008年到2009年，它稳定在2.83亿美元，然后在2010年急剧下降至1.05亿美元。之后，在2011年大幅增加至18.3亿美元，然后在2012年略微下降至17.79亿美元。因此，该趋势并不稳定，而是高度波动。"
+      ]
+    ],
+    "evidence_cells": [
+      "B6",
+      "C6",
+      "D6",
+      "E6",
+      "F6"
+    ],
+    "reasoning_category": "Temporal Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_005",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "列出公司报告“净亏损”（净收益为负）但仍保持“自由现金流”为正的所有年份。",
+    "answer": [
+      [
+        "2011"
+      ],
+      [
+        "2008"
+      ]
+    ],
+    "evidence_cells": [
+      "C4",
+      "F4",
+      "C8",
+      "F8"
+    ],
+    "reasoning_category": "Conditional Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_006",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "截至 2012 财年末，'总长期负债'占'总资产'的百分比是多少？",
+    "answer": [
+      [
+        "67.91%"
+      ]
+    ],
+    "evidence_cells": [
+      "B5",
+      "B7"
+    ],
+    "reasoning_category": "Proportional/Ratio Analysis"
+  },
+  {
+    "question_id": "finqa_3088a5a488_007",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "如果2012年的“商誉减值”是报告数字的一半，假设没有其他变化，那么该年的新“营业收入”将是多少？",
+    "answer": [
+      [
+        "1365"
+      ]
+    ],
+    "evidence_cells": [
+      "B2",
+      "B3"
+    ],
+    "reasoning_category": "Hypothetical Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_008",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "open_ended_reasoning",
+    "question": "分析2008年至2011年的数据，'销售和服务收入'的增长是否始终与'净收益'的增长相关？",
+    "answer": [
+      [
+        "不，并非存在持续的正相关关系。例如，从2009年到2010年，销售额从6292百万美元增至6723百万美元，净收益也从119百万美元增至131百万美元。然而，从2008年到2009年，销售额从6189百万美元增至6292百万美元，但净收益从巨额亏损-2397百万美元转为盈利119百万美元，这一变化与收入增长不成比例，很可能受到商誉减值减少等其他因素的驱动。因此，虽然它们通常有关联，但其他重大费用会严重影响最终的净收益。"
+      ]
+    ],
+    "evidence_cells": [
+      "C1",
+      "D1",
+      "E1",
+      "F1",
+      "C4",
+      "D4",
+      "E4",
+      "F4",
+      "E2",
+      "F2"
+    ],
+    "reasoning_category": "Correlation Inference"
+  },
+  {
+    "question_id": "finqa_3088a5a488_009",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "不包括每股金额，哪个财务指标在最多的年份中报告了亏损或负值？",
+    "answer": [
+      [
+        "net earnings ( loss )"
+      ]
+    ],
+    "evidence_cells": [
+      "A4",
+      "C3",
+      "F3",
+      "C4",
+      "F4",
+      "E8"
+    ],
+    "reasoning_category": "Structural/Metadata Reasoning"
+  },
+  {
+    "question_id": "finqa_3088a5a488_010",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "在'长期债务'方面，哪一年的同比增长幅度最大？与前一年相比，增长了约百分之多少？",
+    "answer": [
+      [
+        "2011",
+        "1642.86%"
+      ]
+    ],
+    "evidence_cells": [
+      "D6",
+      "C6"
+    ],
+    "reasoning_category": "Outlier Detection"
+  },
+  {
+    "question_id": "finqa_3088a5a488_011",
+    "table_id": "finqa_3088a5a488",
+    "question_type": "value",
+    "question": "哪个年份的销售和服务收入最高？",
+    "answer": [
+      [
+        "2010"
+      ]
+    ],
+    "evidence_cells": [
+      "A1",
+      "B1",
+      "C1",
+      "D1",
+      "E1",
+      "F1"
+    ],
+    "reasoning_category": "Comparative Reasoning"
+  }
+]
