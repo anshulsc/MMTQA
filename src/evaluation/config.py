@@ -3,22 +3,22 @@ from dataclasses import dataclass, field
 
 @dataclass
 class ModelConfig:
-    name: str = "qwen"
-    model_path: str = "Qwen/Qwen2.5-VL-72B-Instruct"
-    tensor_parallel_size: int = 4
-    max_model_len: int = 8192
+    name: str = "internVL"
+    model_path: str =   "OpenGVLab/InternVL3-38B-Instruct"
+    tensor_parallel_size: int = 2
+    max_model_len: int = 48768
     gpu_memory_utilization: float = 0.90
     temperature: float = 0.0
     max_new_tokens: int = 512
-    batch_size: int = 8  
+    batch_size: int = 128
 
 @dataclass
 class DatasetConfig:
     name: str = "multitableqa"
-    data_file: str = "/home/anshulsc/links/scratch/ML_VQA_Tab/data/dataset_en.jsonl"
-    images_root_dir: str = "/home/anshulsc/links/scratch/ML_VQA_Tab/images/"
+    data_file: str = "/home/anshulsc/links/scratch/TableLingua/dataset_combined_final.jsonl"
+    images_root_dir: str = "/home/anshulsc/links/scratch/TableLingua/images/"
     image_type: str = "clean"  # 'clean' or 'noise'
-    lang_code: str = "en"      # e.g., 'en', 'es', or 'default'
+    lang_code: str = "default"      # e.g., 'en', 'es', or 'default'
     resolution: int | None = None
 
 @dataclass
@@ -31,9 +31,10 @@ class MainConfig:
     model: ModelConfig = field(default_factory=ModelConfig)
     dataset: DatasetConfig = field(default_factory=DatasetConfig)
     prompt: PromptConfig = field(default_factory=PromptConfig)
-    output_file_template: str = "data/processed/evaluation_results/{model_name}_{dataset_name}_{image_type}"
+    output_file_template: str = "data/processed/evaluation_results_new/{model_name}_{dataset_name}_{image_type}"
     no_batch: bool = False  # Flag to disable batch processing
-
+    resume_from: str | None = None  # Path to incomplete eval jsonl to resume from
+    
 def get_config() -> MainConfig:
     """
     Parses command-line arguments to override default configurations.
@@ -54,6 +55,7 @@ def get_config() -> MainConfig:
     
     # --- Evaluation arguments ---
     parser.add_argument("--no_batch", action='store_true', help="Disable batch processing (use single-item mode).")
+    parser.add_argument("--resume_from", type=str, help="Path to incomplete evaluation jsonl file to resume from.")
     
     args = parser.parse_args()
     
@@ -77,5 +79,7 @@ def get_config() -> MainConfig:
         cfg.dataset.lang_code = args.lang_code
     if args.no_batch:
         cfg.no_batch = True
+    if args.resume_from:
+        cfg.resume_from = args.resume_from
         
     return cfg

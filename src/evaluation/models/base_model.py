@@ -36,7 +36,7 @@ class BaseModel:
             max_model_len=self.cfg.model.max_model_len,
             gpu_memory_utilization=self.cfg.model.gpu_memory_utilization,
             trust_remote_code=True,
-            limit_mm_per_prompt={"image": 10}
+            limit_mm_per_prompt={"image": 10, "video": 0}
         )
         cprint("VLLM Engine loaded successfully.", "green")
         return llm
@@ -123,7 +123,7 @@ class BaseModel:
                 except Exception as e:
                     result = self.handle_exception(row, e)
                 
-                out_file.write(json.dumps(result) + "\n")
+                out_file.write(json.dumps(result, ensure_ascii=False) + "\n")
                 if (i + 1) % 20 == 0:
                     out_file.flush()
 
@@ -147,7 +147,7 @@ class BaseModel:
                     except Exception as e:
                         cprint(f"\nError preparing input for question {row['question_id']}: {e}", "red")
                         result = self.handle_exception(row, e)
-                        out_file.write(json.dumps(result) + "\n")
+                        out_file.write(json.dumps(result, ensure_ascii=False) + "\n")
                         failed_indices.append(idx)
                 
                 # Skip if all items in batch failed preparation
@@ -166,19 +166,19 @@ class BaseModel:
                         except Exception as e:
                             result = self.handle_exception(row, e)
                         
-                        out_file.write(json.dumps(result) + "\n")
+                        out_file.write(json.dumps(result, ensure_ascii=False) + "\n")
                     
                 except TimeoutException as e:
                     cprint(f"\nBatch inference timed out: {e}", "red")
                     for row in batch_rows:
                         result = self.handle_exception(row, e)
-                        out_file.write(json.dumps(result) + "\n")
+                        out_file.write(json.dumps(result, ensure_ascii=False) + "\n")
                 except Exception as e:
                     cprint(f"\nBatch generation error: {e}", "red")
                     # Fall back to processing failed items individually
                     for row in batch_rows:
                         result = self.handle_exception(row, e)
-                        out_file.write(json.dumps(result) + "\n")
+                        out_file.write(json.dumps(result,ensure_ascii=False) + "\n")
                 
                 # Flush periodically
                 if (batch_end) % 100 == 0:
