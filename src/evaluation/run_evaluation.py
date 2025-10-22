@@ -14,6 +14,7 @@ from src.evaluation.models.internVL3 import InternVL3Model
 from src.evaluation.models.llama import LlamaVisionModel
 from src.evaluation.models.pangea import PangeaModel
 from src.evaluation.models.phi4 import Phi4MultimodalModel
+from src.evaluation.models.molmo import MolmoModel
 
 from src.evaluation.data_loader import load_benchmark_data
 
@@ -24,6 +25,7 @@ MODEL_EVALUATOR_MAPPING = {
     "llama": LlamaVisionModel,
     "pangea": PangeaModel,
     "phi4": Phi4MultimodalModel,
+    "molmo": MolmoModel
 }
 
 def get_output_filepath(cfg) -> str:

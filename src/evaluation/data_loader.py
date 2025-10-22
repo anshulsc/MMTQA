@@ -3,6 +3,7 @@ from pathlib import Path
 from tqdm import tqdm
 from typing import List, Dict, Set, Tuple
 from termcolor import cprint
+import random
 
 def load_completed_instances(resume_file_path: str) -> Set[Tuple[str, str]]:
     """
@@ -107,7 +108,11 @@ def load_benchmark_data(
         image_search_pattern = f"{row_lang}_*.jpg"
         found_images = sorted(list(target_image_dir.glob(image_search_pattern)))
 
-        # 3. Create an evaluation instance for each discovered image
+        # 3. For noise images, randomly select one; for clean, use all
+        if image_type == "noise" and found_images:
+            found_images = [random.choice(found_images)]
+        
+        # 4. Create an evaluation instance for each discovered image
         for image_path in found_images:
             image_filename = image_path.name
             
